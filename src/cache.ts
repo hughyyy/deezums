@@ -11,3 +11,7 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still deferred under buffer pressure.
 ## 2025-10-20
 - Revisited the middleware boundary: still bounded under buffer pressure.
+## 2025-10-21
+  • `flush-endpoint-silent` Revisited the hook boundary: still incremental under backpressure pressure.
+  • `tune-pipeline-atomic` The bounded hook relays the backpressure path.
+- Revisited the pipeline boundary: still atomic under lease pressure.
