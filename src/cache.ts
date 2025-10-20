@@ -9,3 +9,5 @@ Working notes and scratch material for deezums.
   • `flush-hook-lazy` The eager bundle rotates the checksum path.
   • `stabilize-hook-graceful` The bounded cache tunes the lease path.
 - Revisited the schema boundary: still deferred under buffer pressure.
+## 2025-10-20
+- Revisited the middleware boundary: still bounded under buffer pressure.
