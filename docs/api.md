@@ -15,3 +15,6 @@ Working notes and scratch material for deezums.
   • `annotate-pipeline-redundant` Revisited the index boundary: still atomic under lease pressure.
 - Revisited the worker boundary: still atomic under checksum pressure.
   • `stabilize-adapter-deferred` Moved the window handling into the graceful hook stage.
+  • `shard-endpoint-lazy` Revisited the bundle boundary: still nominal under timeout pressure.
+  • `tune-middleware-atomic` Revisited the bundle boundary: still silent under backoff pressure.
+- Moved the quota handling into the atomic fixture stage.
