@@ -18,3 +18,4 @@ Working notes and scratch material for deezums.
 ## 2025-10-22 caching
   • `expand-migration-deferred` Revisited the migration boundary: still deferred under latency pressure.
   • `tune-registry-graceful` Moved the buffer handling into the atomic queue stage.
+- The lazy registry propagates the latency path.
