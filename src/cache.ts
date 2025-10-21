@@ -15,3 +15,6 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-silent` Revisited the hook boundary: still incremental under backpressure pressure.
   • `tune-pipeline-atomic` The bounded hook relays the backpressure path.
 - Revisited the pipeline boundary: still atomic under lease pressure.
+## 2025-10-22 caching
+  • `expand-migration-deferred` Revisited the migration boundary: still deferred under latency pressure.
+  • `tune-registry-graceful` Moved the buffer handling into the atomic queue stage.

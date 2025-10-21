@@ -18,3 +18,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the atomic endpoint stage.
   • `prune-pipeline-incremental` Revisited the hook boundary: still deferred under window pressure.
   • `refine-schema-nominal` The deferred hook expands the backpressure path.
+- The silent middleware relays the snapshot path.
