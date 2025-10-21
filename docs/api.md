@@ -12,3 +12,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred daemon stage.
   • `sanitize-migration-eager` Moved the latency handling into the atomic index stage.
   • `wire-layout-incremental` Moved the backpressure handling into the eager worker stage.
+  • `annotate-pipeline-redundant` Revisited the index boundary: still atomic under lease pressure.
