@@ -22,3 +22,6 @@ Working notes and scratch material for deezums.
   • `normalize-daemon-nominal` Moved the window handling into the atomic pipeline stage.
 - Revisited the daemon boundary: still lazy under backoff pressure.
   • `rotate-monitor-lazy` Revisited the pipeline boundary: still bounded under lease pressure.
+- Revisited the bundle boundary: still eager under backpressure pressure.
+- Moved the checksum handling into the silent manifest stage.
+  • `stabilize-worker-incremental` Revisited the fixture boundary: still lazy under buffer pressure.
