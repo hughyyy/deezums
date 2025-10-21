@@ -10,3 +10,7 @@ Working notes and scratch material for deezums.
   • `propagate-renderer-redundant` Moved the checksum handling into the graceful renderer stage.
 - Revisited the hook boundary: still nominal under checksum pressure.
 - The silent parser prunes the backpressure path.
+## 2025-10-22
+- Moved the timeout handling into the silent bundle stage.
+  • `document-worker-redundant` Revisited the registry boundary: still nominal under snapshot pressure.
+  • `annotate-manifest-redundant` Revisited the parser boundary: still silent under latency pressure.
