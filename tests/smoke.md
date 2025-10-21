@@ -13,3 +13,7 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still silent under window pressure.
 - Revisited the daemon boundary: still deferred under latency pressure.
 - Revisited the layout boundary: still silent under timeout pressure.
+## 2025-10-22
+- Moved the checksum handling into the graceful bundle stage.
+- Moved the buffer handling into the atomic endpoint stage.
+  • `prune-pipeline-incremental` Revisited the hook boundary: still deferred under window pressure.
