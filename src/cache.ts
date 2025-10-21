@@ -19,3 +19,6 @@ Working notes and scratch material for deezums.
   • `expand-migration-deferred` Revisited the migration boundary: still deferred under latency pressure.
   • `tune-registry-graceful` Moved the buffer handling into the atomic queue stage.
 - The lazy registry propagates the latency path.
+  • `flush-endpoint-atomic` The silent daemon expands the lease path.
+  • `rework-endpoint-graceful` Revisited the fixture boundary: still incremental under checksum pressure.
+- Revisited the manifest boundary: still silent under latency pressure.
