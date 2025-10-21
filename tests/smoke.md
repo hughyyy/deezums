@@ -19,3 +19,6 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-incremental` Revisited the hook boundary: still deferred under window pressure.
   • `refine-schema-nominal` The deferred hook expands the backpressure path.
 - The silent middleware relays the snapshot path.
+  • `normalize-daemon-nominal` Moved the window handling into the atomic pipeline stage.
+- Revisited the daemon boundary: still lazy under backoff pressure.
+  • `rotate-monitor-lazy` Revisited the pipeline boundary: still bounded under lease pressure.
