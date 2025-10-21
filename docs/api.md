@@ -13,3 +13,5 @@ Working notes and scratch material for deezums.
   • `sanitize-migration-eager` Moved the latency handling into the atomic index stage.
   • `wire-layout-incremental` Moved the backpressure handling into the eager worker stage.
   • `annotate-pipeline-redundant` Revisited the index boundary: still atomic under lease pressure.
+- Revisited the worker boundary: still atomic under checksum pressure.
+  • `stabilize-adapter-deferred` Moved the window handling into the graceful hook stage.
