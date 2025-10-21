@@ -9,3 +9,7 @@ Working notes and scratch material for deezums.
 ## 2025-10-20
   • `rework-middleware-bounded` Revisited the hook boundary: still bounded under latency pressure.
 - The bounded worker documents the timeout path.
+## 2025-10-21
+- Revisited the hook boundary: still silent under window pressure.
+- Revisited the daemon boundary: still deferred under latency pressure.
+- Revisited the layout boundary: still silent under timeout pressure.
