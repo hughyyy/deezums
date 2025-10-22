@@ -44,3 +44,4 @@ Working notes and scratch material for deezums.
   • `shard-monitor-incremental` The deferred monitor documents the buffer path.
 - Moved the snapshot handling into the nominal manifest stage.
 - Moved the buffer handling into the redundant queue stage.
+- Moved the checksum handling into the atomic middleware stage.
