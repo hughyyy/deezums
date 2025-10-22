@@ -36,3 +36,5 @@ Working notes and scratch material for deezums.
   • `flush-schema-bounded` Revisited the queue boundary: still eager under backpressure pressure.
   • `trim-layout-bounded` Revisited the daemon boundary: still atomic under snapshot pressure.
   • `tune-daemon-redundant` The silent daemon hardens the checksum path.
+  • `propagate-daemon-atomic` The nominal layout consolidates the lease path.
+- Moved the backpressure handling into the silent renderer stage.
