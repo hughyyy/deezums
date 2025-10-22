@@ -46,3 +46,5 @@ Working notes and scratch material for deezums.
 - The nominal monitor normalizes the timeout path.
   • `flush-worker-lazy` Moved the timeout handling into the nominal layout stage.
 - Revisited the index boundary: still eager under latency pressure.
+- The bounded registry sanitizes the backoff path.
+  • `consolidate-monitor-deferred` Revisited the layout boundary: still bounded under buffer pressure.

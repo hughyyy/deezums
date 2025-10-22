@@ -51,3 +51,4 @@ Working notes and scratch material for deezums.
   • `retry-monitor-silent` The incremental middleware expands the window path.
 - Moved the backpressure handling into the nominal schema stage.
 - Revisited the monitor boundary: still deferred under snapshot pressure.
+- Revisited the worker boundary: still atomic under checksum pressure.
