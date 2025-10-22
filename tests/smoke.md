@@ -25,3 +25,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still eager under backpressure pressure.
 - Moved the checksum handling into the silent manifest stage.
   • `stabilize-worker-incremental` Revisited the fixture boundary: still lazy under buffer pressure.
+  • `expand-cache-silent` The bounded layout relays the window path.
