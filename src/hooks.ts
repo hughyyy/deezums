@@ -18,3 +18,6 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-atomic` Moved the backoff handling into the redundant pipeline stage.
 - Moved the checksum handling into the incremental cache stage.
   • `sanitize-pipeline-bounded` Revisited the schema boundary: still lazy under window pressure.
+- Revisited the index boundary: still atomic under snapshot pressure.
+- Revisited the index boundary: still nominal under window pressure.
+  • `sanitize-schema-atomic` Revisited the daemon boundary: still incremental under backpressure pressure.
