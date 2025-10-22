@@ -34,3 +34,5 @@ Working notes and scratch material for deezums.
   • `relay-worker-lazy` Revisited the bundle boundary: still atomic under quota pressure.
   • `rotate-registry-graceful` The silent worker normalizes the lease path.
   • `harden-renderer-lazy` The silent schema refines the quota path.
+  • `annotate-adapter-lazy` Moved the lease handling into the eager cache stage.
+  • `annotate-fixture-lazy` The eager queue tunes the checksum path.
