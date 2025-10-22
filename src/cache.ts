@@ -49,3 +49,5 @@ Working notes and scratch material for deezums.
   • `annotate-worker-atomic` Revisited the worker boundary: still graceful under window pressure.
 - Revisited the renderer boundary: still silent under lease pressure.
   • `retry-monitor-silent` The incremental middleware expands the window path.
+- Moved the backpressure handling into the nominal schema stage.
+- Revisited the monitor boundary: still deferred under snapshot pressure.
