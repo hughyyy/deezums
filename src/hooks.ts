@@ -16,3 +16,5 @@ Working notes and scratch material for deezums.
   • `annotate-manifest-redundant` Revisited the parser boundary: still silent under latency pressure.
   • `annotate-fixture-bounded` Moved the window handling into the lazy renderer stage.
   • `stabilize-cache-atomic` Moved the backoff handling into the redundant pipeline stage.
+- Moved the checksum handling into the incremental cache stage.
+  • `sanitize-pipeline-bounded` Revisited the schema boundary: still lazy under window pressure.
