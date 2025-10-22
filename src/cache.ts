@@ -45,3 +45,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal manifest stage.
 - Moved the buffer handling into the redundant queue stage.
 - Moved the checksum handling into the atomic middleware stage.
+- Moved the checksum handling into the graceful bundle stage.
+  • `annotate-worker-atomic` Revisited the worker boundary: still graceful under window pressure.
