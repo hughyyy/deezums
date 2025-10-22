@@ -18,3 +18,4 @@ Working notes and scratch material for deezums.
   • `shard-endpoint-lazy` Revisited the bundle boundary: still nominal under timeout pressure.
   • `tune-middleware-atomic` Revisited the bundle boundary: still silent under backoff pressure.
 - Moved the quota handling into the atomic fixture stage.
+  • `relay-daemon-eager` Revisited the layout boundary: still incremental under backpressure pressure.
