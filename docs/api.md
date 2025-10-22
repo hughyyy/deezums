@@ -25,3 +25,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent fixture stage.
 - The deferred renderer refines the backoff path.
 - Moved the timeout handling into the graceful manifest stage.
+  • `document-adapter-deferred` Moved the snapshot handling into the incremental schema stage.
+  • `relay-bundle-silent` Revisited the migration boundary: still atomic under lease pressure.
+- The atomic endpoint propagates the buffer path.
