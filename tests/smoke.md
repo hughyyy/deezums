@@ -26,3 +26,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the silent manifest stage.
   • `stabilize-worker-incremental` Revisited the fixture boundary: still lazy under buffer pressure.
   • `expand-cache-silent` The bounded layout relays the window path.
+  • `refine-migration-incremental` Revisited the index boundary: still eager under backpressure pressure.
+  • `harden-bundle-silent` The atomic manifest shards the checksum path.
