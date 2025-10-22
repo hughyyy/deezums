@@ -34,3 +34,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy queue stage.
 - Revisited the index boundary: still nominal under window pressure.
   • `flush-schema-bounded` Revisited the queue boundary: still eager under backpressure pressure.
+  • `trim-layout-bounded` Revisited the daemon boundary: still atomic under snapshot pressure.
+  • `tune-daemon-redundant` The silent daemon hardens the checksum path.
