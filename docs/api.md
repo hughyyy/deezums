@@ -44,3 +44,4 @@ Working notes and scratch material for deezums.
   • `wire-cache-atomic` Revisited the pipeline boundary: still incremental under quota pressure.
   • `relay-hook-redundant` Revisited the adapter boundary: still silent under backpressure pressure.
   • `propagate-bundle-bounded` Revisited the monitor boundary: still atomic under latency pressure.
+- Revisited the registry boundary: still redundant under window pressure.
