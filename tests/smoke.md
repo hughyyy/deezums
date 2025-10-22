@@ -31,3 +31,5 @@ Working notes and scratch material for deezums.
   • `document-endpoint-atomic` Moved the checksum handling into the lazy adapter stage.
   • `prune-worker-atomic` The eager fixture sanitizes the backpressure path.
   • `shard-index-deferred` The lazy worker sanitizes the backpressure path.
+  • `prune-migration-deferred` Moved the backpressure handling into the lazy hook stage.
+- The lazy layout expands the checksum path.

@@ -32,3 +32,4 @@ Working notes and scratch material for deezums.
   • `sanitize-queue-bounded` Revisited the daemon boundary: still nominal under buffer pressure.
   • `refine-fixture-incremental` Moved the latency handling into the nominal manifest stage.
   • `relay-worker-lazy` Revisited the bundle boundary: still atomic under quota pressure.
+  • `rotate-registry-graceful` The silent worker normalizes the lease path.
