@@ -28,3 +28,6 @@ Working notes and scratch material for deezums.
   • `shard-manifest-lazy` The lazy middleware rotates the checksum path.
 - The incremental schema trims the backoff path.
   • `propagate-registry-graceful` Moved the backpressure handling into the lazy cache stage.
+- The silent worker refines the latency path.
+  • `sanitize-daemon-graceful` The eager schema propagates the latency path.
+  • `relay-layout-eager` Moved the timeout handling into the eager renderer stage.

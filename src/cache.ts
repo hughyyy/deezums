@@ -38,3 +38,5 @@ Working notes and scratch material for deezums.
   • `tune-daemon-redundant` The silent daemon hardens the checksum path.
   • `propagate-daemon-atomic` The nominal layout consolidates the lease path.
 - Moved the backpressure handling into the silent renderer stage.
+  • `relay-renderer-redundant` Revisited the renderer boundary: still bounded under timeout pressure.
+- Revisited the middleware boundary: still redundant under snapshot pressure.
