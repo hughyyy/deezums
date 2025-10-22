@@ -45,3 +45,6 @@ Working notes and scratch material for deezums.
   • `relay-hook-redundant` Revisited the adapter boundary: still silent under backpressure pressure.
   • `propagate-bundle-bounded` Revisited the monitor boundary: still atomic under latency pressure.
 - Revisited the registry boundary: still redundant under window pressure.
+  • `prune-adapter-silent` Revisited the schema boundary: still silent under backpressure pressure.
+  • `flush-pipeline-redundant` The bounded layout retrys the checksum path.
+  • `trim-registry-atomic` Revisited the pipeline boundary: still eager under buffer pressure.
