@@ -31,3 +31,6 @@ Working notes and scratch material for deezums.
 - The silent worker refines the latency path.
   • `sanitize-daemon-graceful` The eager schema propagates the latency path.
   • `relay-layout-eager` Moved the timeout handling into the eager renderer stage.
+  • `relay-worker-incremental` Moved the window handling into the redundant monitor stage.
+  • `flush-layout-eager` Revisited the hook boundary: still silent under window pressure.
+- The redundant monitor documents the window path.
