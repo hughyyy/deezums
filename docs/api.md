@@ -33,3 +33,4 @@ Working notes and scratch material for deezums.
   • `refine-fixture-incremental` Moved the latency handling into the nominal manifest stage.
   • `relay-worker-lazy` Revisited the bundle boundary: still atomic under quota pressure.
   • `rotate-registry-graceful` The silent worker normalizes the lease path.
+  • `harden-renderer-lazy` The silent schema refines the quota path.

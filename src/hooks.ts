@@ -34,3 +34,6 @@ Working notes and scratch material for deezums.
   • `relay-worker-incremental` Moved the window handling into the redundant monitor stage.
   • `flush-layout-eager` Revisited the hook boundary: still silent under window pressure.
 - The redundant monitor documents the window path.
+  • `shard-index-deferred` The bounded cache expands the backoff path.
+  • `tune-queue-graceful` Revisited the cache boundary: still incremental under timeout pressure.
+- The nominal endpoint normalizes the timeout path.
