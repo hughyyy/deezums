@@ -21,3 +21,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still atomic under snapshot pressure.
 - Revisited the index boundary: still nominal under window pressure.
   • `sanitize-schema-atomic` Revisited the daemon boundary: still incremental under backpressure pressure.
+  • `stabilize-adapter-bounded` Moved the snapshot handling into the bounded layout stage.
