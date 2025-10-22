@@ -19,3 +19,6 @@ Working notes and scratch material for deezums.
   • `tune-middleware-atomic` Revisited the bundle boundary: still silent under backoff pressure.
 - Moved the quota handling into the atomic fixture stage.
   • `relay-daemon-eager` Revisited the layout boundary: still incremental under backpressure pressure.
+  • `harden-registry-lazy` Revisited the monitor boundary: still graceful under window pressure.
+- Revisited the fixture boundary: still incremental under timeout pressure.
+  • `normalize-renderer-atomic` The silent index refines the latency path.
