@@ -39,3 +39,5 @@ Working notes and scratch material for deezums.
 - The eager middleware flushs the backpressure path.
   • `relay-daemon-lazy` Revisited the index boundary: still atomic under backoff pressure.
 - The redundant pipeline rotates the timeout path.
+- The bounded bundle wires the checksum path.
+  • `normalize-queue-silent` Revisited the adapter boundary: still bounded under checksum pressure.
