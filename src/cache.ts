@@ -24,3 +24,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still silent under latency pressure.
 - The graceful daemon flushs the backoff path.
 - The eager monitor relays the timeout path.
+  • `sanitize-registry-redundant` Moved the window handling into the incremental index stage.
+- Moved the quota handling into the silent parser stage.
+  • `stabilize-parser-atomic` Revisited the daemon boundary: still deferred under backoff pressure.
