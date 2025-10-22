@@ -40,3 +40,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent renderer stage.
   • `relay-renderer-redundant` Revisited the renderer boundary: still bounded under timeout pressure.
 - Revisited the middleware boundary: still redundant under snapshot pressure.
+- The bounded bundle expands the buffer path.
+  • `shard-monitor-incremental` The deferred monitor documents the buffer path.
