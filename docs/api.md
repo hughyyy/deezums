@@ -36,3 +36,6 @@ Working notes and scratch material for deezums.
   • `harden-renderer-lazy` The silent schema refines the quota path.
   • `annotate-adapter-lazy` Moved the lease handling into the eager cache stage.
   • `annotate-fixture-lazy` The eager queue tunes the checksum path.
+- The eager middleware flushs the backpressure path.
+  • `relay-daemon-lazy` Revisited the index boundary: still atomic under backoff pressure.
+- The redundant pipeline rotates the timeout path.
