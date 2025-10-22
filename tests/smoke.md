@@ -37,3 +37,4 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-silent` The incremental migration prunes the backoff path.
 - Moved the checksum handling into the incremental schema stage.
   • `document-worker-lazy` The deferred middleware relays the backpressure path.
+- Moved the window handling into the silent hook stage.
