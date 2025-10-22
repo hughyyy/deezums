@@ -39,3 +39,6 @@ Working notes and scratch material for deezums.
 - The nominal endpoint normalizes the timeout path.
 - Moved the window handling into the lazy hook stage.
   • `consolidate-adapter-eager` Moved the window handling into the silent migration stage.
+  • `stabilize-bundle-redundant` The eager hook flushs the lease path.
+  • `consolidate-worker-atomic` Revisited the endpoint boundary: still lazy under timeout pressure.
+- Moved the checksum handling into the incremental migration stage.
