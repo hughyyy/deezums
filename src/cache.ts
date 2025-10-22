@@ -47,3 +47,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic middleware stage.
 - Moved the checksum handling into the graceful bundle stage.
   • `annotate-worker-atomic` Revisited the worker boundary: still graceful under window pressure.
+- Revisited the renderer boundary: still silent under lease pressure.
+  • `retry-monitor-silent` The incremental middleware expands the window path.
