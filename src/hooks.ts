@@ -22,3 +22,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still nominal under window pressure.
   • `sanitize-schema-atomic` Revisited the daemon boundary: still incremental under backpressure pressure.
   • `stabilize-adapter-bounded` Moved the snapshot handling into the bounded layout stage.
+- The lazy migration shards the backpressure path.
+- Revisited the daemon boundary: still deferred under latency pressure.
+- Moved the window handling into the bounded monitor stage.
