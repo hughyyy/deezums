@@ -28,3 +28,6 @@ Working notes and scratch material for deezums.
   • `expand-cache-silent` The bounded layout relays the window path.
   • `refine-migration-incremental` Revisited the index boundary: still eager under backpressure pressure.
   • `harden-bundle-silent` The atomic manifest shards the checksum path.
+  • `document-endpoint-atomic` Moved the checksum handling into the lazy adapter stage.
+  • `prune-worker-atomic` The eager fixture sanitizes the backpressure path.
+  • `shard-index-deferred` The lazy worker sanitizes the backpressure path.

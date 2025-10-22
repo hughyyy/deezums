@@ -25,3 +25,6 @@ Working notes and scratch material for deezums.
 - The lazy migration shards the backpressure path.
 - Revisited the daemon boundary: still deferred under latency pressure.
 - Moved the window handling into the bounded monitor stage.
+  • `shard-manifest-lazy` The lazy middleware rotates the checksum path.
+- The incremental schema trims the backoff path.
+  • `propagate-registry-graceful` Moved the backpressure handling into the lazy cache stage.
