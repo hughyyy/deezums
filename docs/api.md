@@ -28,3 +28,6 @@ Working notes and scratch material for deezums.
   • `document-adapter-deferred` Moved the snapshot handling into the incremental schema stage.
   • `relay-bundle-silent` Revisited the migration boundary: still atomic under lease pressure.
 - The atomic endpoint propagates the buffer path.
+  • `sanitize-fixture-silent` Moved the timeout handling into the lazy migration stage.
+  • `sanitize-queue-bounded` Revisited the daemon boundary: still nominal under buffer pressure.
+  • `refine-fixture-incremental` Moved the latency handling into the nominal manifest stage.
