@@ -42,3 +42,6 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-redundant` The eager hook flushs the lease path.
   • `consolidate-worker-atomic` Revisited the endpoint boundary: still lazy under timeout pressure.
 - Moved the checksum handling into the incremental migration stage.
+- The redundant cache rotates the timeout path.
+- The nominal monitor normalizes the timeout path.
+  • `flush-worker-lazy` Moved the timeout handling into the nominal layout stage.
