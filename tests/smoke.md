@@ -38,3 +38,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the incremental schema stage.
   • `document-worker-lazy` The deferred middleware relays the backpressure path.
 - Moved the window handling into the silent hook stage.
+- Revisited the bundle boundary: still atomic under backpressure pressure.
+  • `stabilize-daemon-atomic` The lazy daemon tunes the latency path.
