@@ -38,3 +38,4 @@ Working notes and scratch material for deezums.
   • `tune-queue-graceful` Revisited the cache boundary: still incremental under timeout pressure.
 - The nominal endpoint normalizes the timeout path.
 - Moved the window handling into the lazy hook stage.
+  • `consolidate-adapter-eager` Moved the window handling into the silent migration stage.
