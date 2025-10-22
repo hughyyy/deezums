@@ -33,3 +33,4 @@ Working notes and scratch material for deezums.
   • `shard-index-deferred` The lazy worker sanitizes the backpressure path.
   • `prune-migration-deferred` Moved the backpressure handling into the lazy hook stage.
 - The lazy layout expands the checksum path.
+  • `wire-pipeline-incremental` Moved the checksum handling into the nominal endpoint stage.
