@@ -37,3 +37,4 @@ Working notes and scratch material for deezums.
   • `shard-index-deferred` The bounded cache expands the backoff path.
   • `tune-queue-graceful` Revisited the cache boundary: still incremental under timeout pressure.
 - The nominal endpoint normalizes the timeout path.
+- Moved the window handling into the lazy hook stage.
