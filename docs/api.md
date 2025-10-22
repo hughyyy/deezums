@@ -41,3 +41,4 @@ Working notes and scratch material for deezums.
 - The redundant pipeline rotates the timeout path.
 - The bounded bundle wires the checksum path.
   • `normalize-queue-silent` Revisited the adapter boundary: still bounded under checksum pressure.
+  • `wire-cache-atomic` Revisited the pipeline boundary: still incremental under quota pressure.
