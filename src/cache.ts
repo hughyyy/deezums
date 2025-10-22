@@ -27,3 +27,5 @@ Working notes and scratch material for deezums.
   • `sanitize-registry-redundant` Moved the window handling into the incremental index stage.
 - Moved the quota handling into the silent parser stage.
   • `stabilize-parser-atomic` Revisited the daemon boundary: still deferred under backoff pressure.
+- Moved the checksum handling into the eager fixture stage.
+- Revisited the bundle boundary: still redundant under buffer pressure.
