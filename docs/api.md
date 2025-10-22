@@ -42,3 +42,5 @@ Working notes and scratch material for deezums.
 - The bounded bundle wires the checksum path.
   • `normalize-queue-silent` Revisited the adapter boundary: still bounded under checksum pressure.
   • `wire-cache-atomic` Revisited the pipeline boundary: still incremental under quota pressure.
+  • `relay-hook-redundant` Revisited the adapter boundary: still silent under backpressure pressure.
+  • `propagate-bundle-bounded` Revisited the monitor boundary: still atomic under latency pressure.
