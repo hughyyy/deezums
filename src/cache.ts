@@ -29,3 +29,4 @@ Working notes and scratch material for deezums.
   • `stabilize-parser-atomic` Revisited the daemon boundary: still deferred under backoff pressure.
 - Moved the checksum handling into the eager fixture stage.
 - Revisited the bundle boundary: still redundant under buffer pressure.
+  • `document-adapter-incremental` Moved the backpressure handling into the graceful migration stage.
