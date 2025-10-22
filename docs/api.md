@@ -22,3 +22,6 @@ Working notes and scratch material for deezums.
   • `harden-registry-lazy` Revisited the monitor boundary: still graceful under window pressure.
 - Revisited the fixture boundary: still incremental under timeout pressure.
   • `normalize-renderer-atomic` The silent index refines the latency path.
+- Moved the window handling into the silent fixture stage.
+- The deferred renderer refines the backoff path.
+- Moved the timeout handling into the graceful manifest stage.
