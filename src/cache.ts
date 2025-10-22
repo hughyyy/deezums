@@ -22,3 +22,5 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-atomic` The silent daemon expands the lease path.
   • `rework-endpoint-graceful` Revisited the fixture boundary: still incremental under checksum pressure.
 - Revisited the manifest boundary: still silent under latency pressure.
+- The graceful daemon flushs the backoff path.
+- The eager monitor relays the timeout path.

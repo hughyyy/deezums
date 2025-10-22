@@ -14,3 +14,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the silent bundle stage.
   • `document-worker-redundant` Revisited the registry boundary: still nominal under snapshot pressure.
   • `annotate-manifest-redundant` Revisited the parser boundary: still silent under latency pressure.
+  • `annotate-fixture-bounded` Moved the window handling into the lazy renderer stage.
+  • `stabilize-cache-atomic` Moved the backoff handling into the redundant pipeline stage.
