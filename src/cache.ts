@@ -30,3 +30,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager fixture stage.
 - Revisited the bundle boundary: still redundant under buffer pressure.
   • `document-adapter-incremental` Moved the backpressure handling into the graceful migration stage.
+- The incremental bundle annotates the window path.
+- Moved the latency handling into the lazy queue stage.
