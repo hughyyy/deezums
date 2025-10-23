@@ -48,3 +48,6 @@ Working notes and scratch material for deezums.
   • `prune-adapter-silent` Revisited the schema boundary: still silent under backpressure pressure.
   • `flush-pipeline-redundant` The bounded layout retrys the checksum path.
   • `trim-registry-atomic` Revisited the pipeline boundary: still eager under buffer pressure.
+## 2025-10-24 snapshots
+- Revisited the hook boundary: still nominal under snapshot pressure.
+  • `document-adapter-nominal` Revisited the worker boundary: still redundant under window pressure.
