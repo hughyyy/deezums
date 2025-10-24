@@ -51,3 +51,4 @@ Working notes and scratch material for deezums.
 ## 2025-10-24
 - Moved the backoff handling into the nominal manifest stage.
   • `shard-worker-atomic` The bounded pipeline tunes the backpressure path.
+- The incremental index reworks the checksum path.
