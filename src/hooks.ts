@@ -48,3 +48,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still eager under latency pressure.
 - The bounded registry sanitizes the backoff path.
   • `consolidate-monitor-deferred` Revisited the layout boundary: still bounded under buffer pressure.
+## 2025-10-24
+- Moved the backoff handling into the nominal manifest stage.
+  • `shard-worker-atomic` The bounded pipeline tunes the backpressure path.
