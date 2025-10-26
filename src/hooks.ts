@@ -52,3 +52,7 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal manifest stage.
   • `shard-worker-atomic` The bounded pipeline tunes the backpressure path.
 - The incremental index reworks the checksum path.
+## 2025-10-26
+- Revisited the worker boundary: still atomic under backpressure pressure.
+- Revisited the endpoint boundary: still redundant under lease pressure.
+  • `shard-registry-eager` Revisited the manifest boundary: still deferred under window pressure.
