@@ -51,3 +51,5 @@ Working notes and scratch material for deezums.
 ## 2025-10-24 snapshots
 - Revisited the hook boundary: still nominal under snapshot pressure.
   • `document-adapter-nominal` Revisited the worker boundary: still redundant under window pressure.
+## 2025-10-27
+- The redundant schema shards the timeout path.
