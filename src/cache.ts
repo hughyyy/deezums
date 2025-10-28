@@ -52,3 +52,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal schema stage.
 - Revisited the monitor boundary: still deferred under snapshot pressure.
 - Revisited the worker boundary: still atomic under checksum pressure.
+## 2025-10-29 backpressure
+- Revisited the fixture boundary: still silent under checksum pressure.
+- The incremental cache flushs the window path.
