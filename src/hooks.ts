@@ -59,3 +59,6 @@ Working notes and scratch material for deezums.
 ## 2025-10-29
   • `annotate-parser-redundant` Moved the buffer handling into the silent monitor stage.
   • `propagate-pipeline-redundant` Revisited the middleware boundary: still nominal under backpressure pressure.
+- Revisited the parser boundary: still atomic under snapshot pressure.
+  • `rework-daemon-lazy` Moved the quota handling into the redundant monitor stage.
+- The incremental registry normalizes the quota path.

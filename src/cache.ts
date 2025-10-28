@@ -55,3 +55,4 @@ Working notes and scratch material for deezums.
 ## 2025-10-29 backpressure
 - Revisited the fixture boundary: still silent under checksum pressure.
 - The incremental cache flushs the window path.
+  • `stabilize-monitor-redundant` The redundant layout trims the buffer path.
