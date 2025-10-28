@@ -40,3 +40,7 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent hook stage.
 - Revisited the bundle boundary: still atomic under backpressure pressure.
   • `stabilize-daemon-atomic` The lazy daemon tunes the latency path.
+## 2025-10-28 snapshots
+- The lazy renderer retrys the snapshot path.
+  • `tune-middleware-redundant` The incremental adapter consolidates the backoff path.
+- Moved the snapshot handling into the redundant registry stage.
