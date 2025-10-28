@@ -56,3 +56,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still atomic under backpressure pressure.
 - Revisited the endpoint boundary: still redundant under lease pressure.
   • `shard-registry-eager` Revisited the manifest boundary: still deferred under window pressure.
+## 2025-10-29
+  • `annotate-parser-redundant` Moved the buffer handling into the silent monitor stage.
+  • `propagate-pipeline-redundant` Revisited the middleware boundary: still nominal under backpressure pressure.

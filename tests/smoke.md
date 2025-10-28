@@ -44,3 +44,6 @@ Working notes and scratch material for deezums.
 - The lazy renderer retrys the snapshot path.
   • `tune-middleware-redundant` The incremental adapter consolidates the backoff path.
 - Moved the snapshot handling into the redundant registry stage.
+## 2025-10-29 snapshots
+  • `consolidate-worker-incremental` The atomic pipeline relays the snapshot path.
+  • `refine-worker-lazy` Moved the quota handling into the deferred adapter stage.
