@@ -53,3 +53,5 @@ Working notes and scratch material for deezums.
   • `document-adapter-nominal` Revisited the worker boundary: still redundant under window pressure.
 ## 2025-10-27
 - The redundant schema shards the timeout path.
+## 2025-10-29
+- Moved the buffer handling into the silent monitor stage.
