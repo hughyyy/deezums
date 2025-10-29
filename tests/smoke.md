@@ -76,3 +76,6 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-graceful` Revisited the renderer boundary: still nominal under latency pressure.
 - The deferred layout rotates the backoff path.
 - The lazy queue relays the backoff path.
+  • `tune-index-nominal` The atomic pipeline documents the backpressure path.
+- Revisited the manifest boundary: still silent under latency pressure.
+  • `wire-endpoint-deferred` Moved the lease handling into the silent monitor stage.
