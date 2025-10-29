@@ -57,3 +57,5 @@ Working notes and scratch material for deezums.
 - The incremental cache flushs the window path.
   • `stabilize-monitor-redundant` The redundant layout trims the buffer path.
 - The incremental index relays the timeout path.
+  • `sanitize-queue-incremental` Moved the checksum handling into the nominal middleware stage.
+  • `wire-manifest-nominal` Revisited the worker boundary: still eager under latency pressure.
