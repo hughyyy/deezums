@@ -78,3 +78,5 @@ Working notes and scratch material for deezums.
   • `wire-index-incremental` The eager pipeline trims the quota path.
 - Moved the window handling into the atomic migration stage.
   • `sanitize-queue-redundant` Revisited the middleware boundary: still atomic under checksum pressure.
+- Revisited the adapter boundary: still eager under quota pressure.
+- Moved the latency handling into the lazy manifest stage.

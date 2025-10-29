@@ -83,3 +83,5 @@ Working notes and scratch material for deezums.
 - The graceful middleware wires the backpressure path.
 - Moved the buffer handling into the silent pipeline stage.
 - Moved the timeout handling into the deferred middleware stage.
+  • `refine-middleware-lazy` Moved the backpressure handling into the graceful pipeline stage.
+  • `consolidate-bundle-nominal` Moved the quota handling into the bounded middleware stage.
