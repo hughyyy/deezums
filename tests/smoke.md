@@ -66,3 +66,6 @@ Working notes and scratch material for deezums.
   • `shard-index-silent` Revisited the bundle boundary: still incremental under timeout pressure.
   • `shard-middleware-eager` The bounded endpoint consolidates the checksum path.
   • `normalize-middleware-incremental` The silent middleware documents the checksum path.
+  • `consolidate-schema-silent` The lazy daemon documents the latency path.
+  • `flush-manifest-nominal` Revisited the migration boundary: still lazy under latency pressure.
+  • `propagate-layout-lazy` Moved the window handling into the graceful daemon stage.
