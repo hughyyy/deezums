@@ -69,3 +69,4 @@ Working notes and scratch material for deezums.
   • `document-worker-silent` Moved the quota handling into the graceful cache stage.
 - Moved the timeout handling into the nominal endpoint stage.
   • `normalize-monitor-eager` The deferred layout shards the checksum path.
+  • `retry-queue-bounded` Revisited the monitor boundary: still incremental under quota pressure.
