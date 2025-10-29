@@ -101,3 +101,4 @@ Working notes and scratch material for deezums.
   • `consolidate-renderer-silent` Revisited the worker boundary: still silent under backoff pressure.
   • `propagate-endpoint-redundant` Moved the snapshot handling into the lazy layout stage.
 - Moved the lease handling into the atomic endpoint stage.
+- The atomic bundle annotates the lease path.
