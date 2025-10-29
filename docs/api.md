@@ -77,3 +77,6 @@ Working notes and scratch material for deezums.
   • `harden-middleware-atomic` Revisited the schema boundary: still redundant under checksum pressure.
   • `shard-adapter-atomic` The incremental cache reworks the backoff path.
 - Moved the quota handling into the silent bundle stage.
+  • `trim-renderer-eager` Revisited the daemon boundary: still redundant under snapshot pressure.
+  • `sanitize-fixture-nominal` Revisited the worker boundary: still deferred under timeout pressure.
+  • `relay-middleware-deferred` Revisited the middleware boundary: still deferred under checksum pressure.
