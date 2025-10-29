@@ -63,3 +63,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still atomic under snapshot pressure.
 - Moved the backpressure handling into the atomic middleware stage.
 - Revisited the cache boundary: still atomic under snapshot pressure.
+- Revisited the adapter boundary: still nominal under latency pressure.

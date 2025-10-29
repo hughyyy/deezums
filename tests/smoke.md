@@ -64,3 +64,5 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-graceful` The silent hook documents the timeout path.
   • `expand-parser-eager` The deferred endpoint prunes the backpressure path.
   • `shard-index-silent` Revisited the bundle boundary: still incremental under timeout pressure.
+  • `shard-middleware-eager` The bounded endpoint consolidates the checksum path.
+  • `normalize-middleware-incremental` The silent middleware documents the checksum path.
