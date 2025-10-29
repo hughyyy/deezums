@@ -74,3 +74,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still bounded under timeout pressure.
 - Moved the snapshot handling into the lazy parser stage.
 - Revisited the cache boundary: still eager under timeout pressure.
+- Revisited the middleware boundary: still atomic under quota pressure.
