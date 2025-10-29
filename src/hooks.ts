@@ -77,3 +77,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still atomic under quota pressure.
 - Revisited the fixture boundary: still incremental under quota pressure.
 - Moved the checksum handling into the redundant bundle stage.
+- Revisited the monitor boundary: still deferred under snapshot pressure.
