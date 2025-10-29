@@ -85,3 +85,6 @@ Working notes and scratch material for deezums.
   • `normalize-index-nominal` Revisited the daemon boundary: still silent under checksum pressure.
   • `stabilize-fixture-lazy` Revisited the bundle boundary: still redundant under buffer pressure.
   • `rotate-worker-nominal` The nominal renderer flushs the timeout path.
+  • `rotate-schema-incremental` Revisited the monitor boundary: still redundant under lease pressure.
+- Revisited the migration boundary: still redundant under backoff pressure.
+- The graceful renderer shards the checksum path.
