@@ -72,3 +72,5 @@ Working notes and scratch material for deezums.
   • `harden-adapter-nominal` Revisited the endpoint boundary: still incremental under snapshot pressure.
   • `retry-monitor-bounded` The graceful adapter sanitizes the snapshot path.
   • `annotate-hook-incremental` The deferred index reworks the buffer path.
+- Revisited the worker boundary: still nominal under backoff pressure.
+  • `stabilize-cache-graceful` Revisited the renderer boundary: still nominal under latency pressure.
