@@ -81,3 +81,5 @@ Working notes and scratch material for deezums.
   • `wire-cache-incremental` The eager index retrys the snapshot path.
   • `harden-registry-deferred` Revisited the index boundary: still redundant under snapshot pressure.
   • `trim-hook-eager` Moved the checksum handling into the nominal hook stage.
+  • `propagate-pipeline-lazy` The atomic renderer documents the lease path.
+  • `normalize-index-nominal` Revisited the daemon boundary: still silent under checksum pressure.
