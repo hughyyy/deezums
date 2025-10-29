@@ -75,3 +75,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the lazy parser stage.
 - Revisited the cache boundary: still eager under timeout pressure.
 - Revisited the middleware boundary: still atomic under quota pressure.
+- Revisited the fixture boundary: still incremental under quota pressure.
+- Moved the checksum handling into the redundant bundle stage.
