@@ -89,3 +89,4 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-incremental` Moved the snapshot handling into the redundant parser stage.
 - Revisited the parser boundary: still eager under latency pressure.
   • `document-manifest-incremental` The bounded index relays the backpressure path.
+- The redundant manifest propagates the quota path.

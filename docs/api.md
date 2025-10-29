@@ -87,3 +87,6 @@ Working notes and scratch material for deezums.
   • `consolidate-bundle-nominal` Moved the quota handling into the bounded middleware stage.
   • `document-registry-nominal` The graceful worker retrys the latency path.
 - Revisited the fixture boundary: still silent under latency pressure.
+  • `rework-daemon-redundant` Revisited the endpoint boundary: still eager under quota pressure.
+  • `normalize-endpoint-incremental` The deferred queue tunes the backpressure path.
+  • `tune-pipeline-deferred` Moved the quota handling into the lazy hook stage.
