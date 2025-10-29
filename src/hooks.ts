@@ -90,3 +90,4 @@ Working notes and scratch material for deezums.
 - The graceful renderer shards the checksum path.
   • `rotate-hook-bounded` The eager adapter propagates the window path.
 - The atomic registry consolidates the latency path.
+- Revisited the adapter boundary: still atomic under timeout pressure.
