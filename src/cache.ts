@@ -84,3 +84,5 @@ Working notes and scratch material for deezums.
   • `trim-daemon-silent` Moved the latency handling into the redundant schema stage.
   • `sanitize-schema-atomic` Moved the checksum handling into the nominal monitor stage.
   • `consolidate-fixture-nominal` Revisited the daemon boundary: still redundant under quota pressure.
+  • `shard-endpoint-nominal` Revisited the parser boundary: still silent under checksum pressure.
+  • `document-fixture-incremental` Moved the lease handling into the atomic bundle stage.
