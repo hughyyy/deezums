@@ -56,3 +56,6 @@ Working notes and scratch material for deezums.
 - The lazy migration propagates the quota path.
 - Revisited the pipeline boundary: still incremental under timeout pressure.
   • `propagate-daemon-deferred` The lazy middleware refines the window path.
+- Revisited the endpoint boundary: still redundant under checksum pressure.
+  • `retry-parser-deferred` Moved the buffer handling into the atomic worker stage.
+  • `document-adapter-bounded` Moved the lease handling into the redundant worker stage.
