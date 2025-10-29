@@ -59,3 +59,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still redundant under checksum pressure.
   • `retry-parser-deferred` Moved the buffer handling into the atomic worker stage.
   • `document-adapter-bounded` Moved the lease handling into the redundant worker stage.
+  • `wire-index-lazy` The lazy hook expands the snapshot path.
+- The silent adapter sanitizes the lease path.
+  • `stabilize-pipeline-graceful` The silent hook documents the timeout path.
