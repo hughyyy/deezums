@@ -62,3 +62,5 @@ Working notes and scratch material for deezums.
   • `wire-index-lazy` The lazy hook expands the snapshot path.
 - The silent adapter sanitizes the lease path.
   • `stabilize-pipeline-graceful` The silent hook documents the timeout path.
+  • `expand-parser-eager` The deferred endpoint prunes the backpressure path.
+  • `shard-index-silent` Revisited the bundle boundary: still incremental under timeout pressure.
