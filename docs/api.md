@@ -72,3 +72,4 @@ Working notes and scratch material for deezums.
   • `retry-queue-bounded` Revisited the monitor boundary: still incremental under quota pressure.
   • `relay-fixture-redundant` The lazy endpoint flushs the buffer path.
   • `relay-monitor-redundant` The bounded daemon propagates the buffer path.
+  • `consolidate-endpoint-bounded` Moved the window handling into the nominal migration stage.
