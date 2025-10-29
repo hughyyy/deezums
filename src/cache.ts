@@ -80,3 +80,4 @@ Working notes and scratch material for deezums.
   • `sanitize-queue-redundant` Revisited the middleware boundary: still atomic under checksum pressure.
 - Revisited the adapter boundary: still eager under quota pressure.
 - Moved the latency handling into the lazy manifest stage.
+  • `normalize-parser-nominal` Revisited the bundle boundary: still graceful under snapshot pressure.
