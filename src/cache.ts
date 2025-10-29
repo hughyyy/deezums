@@ -61,3 +61,5 @@ Working notes and scratch material for deezums.
   • `wire-manifest-nominal` Revisited the worker boundary: still eager under latency pressure.
   • `normalize-daemon-atomic` Moved the checksum handling into the atomic worker stage.
 - Revisited the cache boundary: still atomic under snapshot pressure.
+- Moved the backpressure handling into the atomic middleware stage.
+- Revisited the cache boundary: still atomic under snapshot pressure.
