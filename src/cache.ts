@@ -71,3 +71,6 @@ Working notes and scratch material for deezums.
   • `rework-daemon-deferred` Moved the snapshot handling into the incremental middleware stage.
   • `rotate-middleware-nominal` The graceful schema consolidates the checksum path.
 - Moved the backpressure handling into the eager queue stage.
+- Revisited the middleware boundary: still deferred under latency pressure.
+  • `consolidate-cache-graceful` Moved the latency handling into the lazy pipeline stage.
+- Moved the backoff handling into the lazy schema stage.
