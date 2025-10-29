@@ -51,3 +51,5 @@ Working notes and scratch material for deezums.
   • `harden-registry-nominal` Revisited the queue boundary: still bounded under timeout pressure.
   • `stabilize-schema-eager` Revisited the index boundary: still deferred under backpressure pressure.
 - Revisited the worker boundary: still lazy under lease pressure.
+- Revisited the daemon boundary: still atomic under backpressure pressure.
+- The eager bundle retrys the backoff path.
