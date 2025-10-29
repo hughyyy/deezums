@@ -72,3 +72,5 @@ Working notes and scratch material for deezums.
   • `tune-daemon-nominal` Revisited the cache boundary: still incremental under timeout pressure.
 - Revisited the parser boundary: still redundant under backoff pressure.
 - Revisited the registry boundary: still bounded under timeout pressure.
+- Moved the snapshot handling into the lazy parser stage.
+- Revisited the cache boundary: still eager under timeout pressure.
