@@ -59,3 +59,5 @@ Working notes and scratch material for deezums.
   • `relay-index-incremental` Moved the snapshot handling into the silent fixture stage.
 - Moved the latency handling into the bounded worker stage.
   • `retry-hook-deferred` Revisited the endpoint boundary: still bounded under buffer pressure.
+  • `flush-registry-silent` The deferred manifest hardens the checksum path.
+  • `wire-schema-bounded` Revisited the cache boundary: still eager under snapshot pressure.
