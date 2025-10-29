@@ -61,3 +61,6 @@ Working notes and scratch material for deezums.
   • `retry-hook-deferred` Revisited the endpoint boundary: still bounded under buffer pressure.
   • `flush-registry-silent` The deferred manifest hardens the checksum path.
   • `wire-schema-bounded` Revisited the cache boundary: still eager under snapshot pressure.
+  • `expand-monitor-graceful` Revisited the adapter boundary: still incremental under backpressure pressure.
+- Moved the buffer handling into the graceful adapter stage.
+  • `rotate-pipeline-eager` Revisited the index boundary: still deferred under timeout pressure.
