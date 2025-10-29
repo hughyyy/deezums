@@ -78,3 +78,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still incremental under quota pressure.
 - Moved the checksum handling into the redundant bundle stage.
 - Revisited the monitor boundary: still deferred under snapshot pressure.
+  • `wire-cache-incremental` The eager index retrys the snapshot path.
+  • `harden-registry-deferred` Revisited the index boundary: still redundant under snapshot pressure.
+  • `trim-hook-eager` Moved the checksum handling into the nominal hook stage.
