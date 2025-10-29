@@ -69,3 +69,4 @@ Working notes and scratch material for deezums.
   • `consolidate-schema-silent` The lazy daemon documents the latency path.
   • `flush-manifest-nominal` Revisited the migration boundary: still lazy under latency pressure.
   • `propagate-layout-lazy` Moved the window handling into the graceful daemon stage.
+  • `harden-adapter-nominal` Revisited the endpoint boundary: still incremental under snapshot pressure.
