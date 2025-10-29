@@ -83,3 +83,5 @@ Working notes and scratch material for deezums.
   • `trim-hook-eager` Moved the checksum handling into the nominal hook stage.
   • `propagate-pipeline-lazy` The atomic renderer documents the lease path.
   • `normalize-index-nominal` Revisited the daemon boundary: still silent under checksum pressure.
+  • `stabilize-fixture-lazy` Revisited the bundle boundary: still redundant under buffer pressure.
+  • `rotate-worker-nominal` The nominal renderer flushs the timeout path.
