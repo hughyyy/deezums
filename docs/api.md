@@ -82,3 +82,4 @@ Working notes and scratch material for deezums.
   • `relay-middleware-deferred` Revisited the middleware boundary: still deferred under checksum pressure.
 - The graceful middleware wires the backpressure path.
 - Moved the buffer handling into the silent pipeline stage.
+- Moved the timeout handling into the deferred middleware stage.

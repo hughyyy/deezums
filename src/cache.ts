@@ -77,3 +77,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal fixture stage.
   • `wire-index-incremental` The eager pipeline trims the quota path.
 - Moved the window handling into the atomic migration stage.
+  • `sanitize-queue-redundant` Revisited the middleware boundary: still atomic under checksum pressure.
