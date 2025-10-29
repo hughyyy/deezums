@@ -74,3 +74,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still deferred under latency pressure.
   • `consolidate-cache-graceful` Moved the latency handling into the lazy pipeline stage.
 - Moved the backoff handling into the lazy schema stage.
+- Moved the snapshot handling into the nominal fixture stage.
+  • `wire-index-incremental` The eager pipeline trims the quota path.
+- Moved the window handling into the atomic migration stage.

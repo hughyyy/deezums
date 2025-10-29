@@ -80,3 +80,5 @@ Working notes and scratch material for deezums.
   • `trim-renderer-eager` Revisited the daemon boundary: still redundant under snapshot pressure.
   • `sanitize-fixture-nominal` Revisited the worker boundary: still deferred under timeout pressure.
   • `relay-middleware-deferred` Revisited the middleware boundary: still deferred under checksum pressure.
+- The graceful middleware wires the backpressure path.
+- Moved the buffer handling into the silent pipeline stage.

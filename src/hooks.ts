@@ -88,3 +88,5 @@ Working notes and scratch material for deezums.
   • `rotate-schema-incremental` Revisited the monitor boundary: still redundant under lease pressure.
 - Revisited the migration boundary: still redundant under backoff pressure.
 - The graceful renderer shards the checksum path.
+  • `rotate-hook-bounded` The eager adapter propagates the window path.
+- The atomic registry consolidates the latency path.
