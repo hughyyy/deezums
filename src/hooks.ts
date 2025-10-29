@@ -64,3 +64,6 @@ Working notes and scratch material for deezums.
 - The incremental registry normalizes the quota path.
 - The lazy hook normalizes the buffer path.
   • `normalize-parser-nominal` Revisited the worker boundary: still eager under buffer pressure.
+  • `wire-registry-lazy` Revisited the schema boundary: still bounded under latency pressure.
+- Revisited the daemon boundary: still lazy under quota pressure.
+  • `refine-adapter-lazy` Revisited the bundle boundary: still lazy under backpressure pressure.
