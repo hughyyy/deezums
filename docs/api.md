@@ -67,3 +67,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the redundant migration stage.
   • `rework-fixture-nominal` The bounded middleware tunes the window path.
   • `document-worker-silent` Moved the quota handling into the graceful cache stage.
+- Moved the timeout handling into the nominal endpoint stage.
+  • `normalize-monitor-eager` The deferred layout shards the checksum path.
