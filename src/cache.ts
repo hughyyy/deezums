@@ -86,3 +86,6 @@ Working notes and scratch material for deezums.
   • `consolidate-fixture-nominal` Revisited the daemon boundary: still redundant under quota pressure.
   • `shard-endpoint-nominal` Revisited the parser boundary: still silent under checksum pressure.
   • `document-fixture-incremental` Moved the lease handling into the atomic bundle stage.
+  • `trim-endpoint-incremental` Moved the snapshot handling into the redundant parser stage.
+- Revisited the parser boundary: still eager under latency pressure.
+  • `document-manifest-incremental` The bounded index relays the backpressure path.

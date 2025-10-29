@@ -98,3 +98,6 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-redundant` Revisited the queue boundary: still atomic under window pressure.
   • `harden-renderer-nominal` Moved the backoff handling into the silent cache stage.
 - Moved the snapshot handling into the deferred registry stage.
+  • `consolidate-renderer-silent` Revisited the worker boundary: still silent under backoff pressure.
+  • `propagate-endpoint-redundant` Moved the snapshot handling into the lazy layout stage.
+- Moved the lease handling into the atomic endpoint stage.

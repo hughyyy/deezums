@@ -85,3 +85,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the deferred middleware stage.
   • `refine-middleware-lazy` Moved the backpressure handling into the graceful pipeline stage.
   • `consolidate-bundle-nominal` Moved the quota handling into the bounded middleware stage.
+  • `document-registry-nominal` The graceful worker retrys the latency path.
+- Revisited the fixture boundary: still silent under latency pressure.

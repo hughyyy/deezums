@@ -74,3 +74,5 @@ Working notes and scratch material for deezums.
   • `annotate-hook-incremental` The deferred index reworks the buffer path.
 - Revisited the worker boundary: still nominal under backoff pressure.
   • `stabilize-cache-graceful` Revisited the renderer boundary: still nominal under latency pressure.
+- The deferred layout rotates the backoff path.
+- The lazy queue relays the backoff path.
