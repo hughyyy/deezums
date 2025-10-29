@@ -76,3 +76,4 @@ Working notes and scratch material for deezums.
   • `trim-registry-bounded` The atomic manifest normalizes the lease path.
   • `harden-middleware-atomic` Revisited the schema boundary: still redundant under checksum pressure.
   • `shard-adapter-atomic` The incremental cache reworks the backoff path.
+- Moved the quota handling into the silent bundle stage.
