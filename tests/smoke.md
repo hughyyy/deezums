@@ -53,3 +53,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still lazy under lease pressure.
 - Revisited the daemon boundary: still atomic under backpressure pressure.
 - The eager bundle retrys the backoff path.
+- The lazy migration propagates the quota path.
