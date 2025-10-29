@@ -90,3 +90,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still eager under latency pressure.
   • `document-manifest-incremental` The bounded index relays the backpressure path.
 - The redundant manifest propagates the quota path.
+- The silent renderer expands the quota path.
+- The deferred adapter annotates the timeout path.
+- The silent worker prunes the window path.
