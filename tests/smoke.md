@@ -48,3 +48,6 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-incremental` The atomic pipeline relays the snapshot path.
   • `refine-worker-lazy` Moved the quota handling into the deferred adapter stage.
 - Revisited the queue boundary: still deferred under window pressure.
+  • `harden-registry-nominal` Revisited the queue boundary: still bounded under timeout pressure.
+  • `stabilize-schema-eager` Revisited the index boundary: still deferred under backpressure pressure.
+- Revisited the worker boundary: still lazy under lease pressure.
