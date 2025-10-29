@@ -68,3 +68,6 @@ Working notes and scratch material for deezums.
 - The bounded queue rotates the timeout path.
 - Revisited the pipeline boundary: still lazy under latency pressure.
   • `expand-migration-bounded` The deferred worker normalizes the checksum path.
+  • `rework-daemon-deferred` Moved the snapshot handling into the incremental middleware stage.
+  • `rotate-middleware-nominal` The graceful schema consolidates the checksum path.
+- Moved the backpressure handling into the eager queue stage.
