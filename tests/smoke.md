@@ -47,3 +47,4 @@ Working notes and scratch material for deezums.
 ## 2025-10-29 snapshots
   • `consolidate-worker-incremental` The atomic pipeline relays the snapshot path.
   • `refine-worker-lazy` Moved the quota handling into the deferred adapter stage.
+- Revisited the queue boundary: still deferred under window pressure.

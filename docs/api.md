@@ -55,3 +55,6 @@ Working notes and scratch material for deezums.
 - The redundant schema shards the timeout path.
 ## 2025-10-29
 - Moved the buffer handling into the silent monitor stage.
+- Revisited the manifest boundary: still lazy under snapshot pressure.
+  • `relay-index-incremental` Moved the snapshot handling into the silent fixture stage.
+- Moved the latency handling into the bounded worker stage.

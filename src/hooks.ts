@@ -62,3 +62,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still atomic under snapshot pressure.
   • `rework-daemon-lazy` Moved the quota handling into the redundant monitor stage.
 - The incremental registry normalizes the quota path.
+- The lazy hook normalizes the buffer path.
+  • `normalize-parser-nominal` Revisited the worker boundary: still eager under buffer pressure.
