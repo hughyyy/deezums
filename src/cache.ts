@@ -59,3 +59,5 @@ Working notes and scratch material for deezums.
 - The incremental index relays the timeout path.
   • `sanitize-queue-incremental` Moved the checksum handling into the nominal middleware stage.
   • `wire-manifest-nominal` Revisited the worker boundary: still eager under latency pressure.
+  • `normalize-daemon-atomic` Moved the checksum handling into the atomic worker stage.
+- Revisited the cache boundary: still atomic under snapshot pressure.
