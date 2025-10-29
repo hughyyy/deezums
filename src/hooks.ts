@@ -95,3 +95,6 @@ Working notes and scratch material for deezums.
   • `wire-renderer-graceful` The nominal layout normalizes the latency path.
   • `normalize-middleware-nominal` Moved the lease handling into the redundant schema stage.
   • `shard-renderer-bounded` The incremental index relays the latency path.
+  • `consolidate-layout-redundant` Revisited the queue boundary: still atomic under window pressure.
+  • `harden-renderer-nominal` Moved the backoff handling into the silent cache stage.
+- Moved the snapshot handling into the deferred registry stage.
