@@ -67,3 +67,6 @@ Working notes and scratch material for deezums.
   • `wire-registry-lazy` Revisited the schema boundary: still bounded under latency pressure.
 - Revisited the daemon boundary: still lazy under quota pressure.
   • `refine-adapter-lazy` Revisited the bundle boundary: still lazy under backpressure pressure.
+- Revisited the middleware boundary: still deferred under checksum pressure.
+- The bounded index expands the timeout path.
+  • `tune-daemon-nominal` Revisited the cache boundary: still incremental under timeout pressure.

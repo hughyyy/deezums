@@ -54,3 +54,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still atomic under backpressure pressure.
 - The eager bundle retrys the backoff path.
 - The lazy migration propagates the quota path.
+- Revisited the pipeline boundary: still incremental under timeout pressure.
+  • `propagate-daemon-deferred` The lazy middleware refines the window path.
