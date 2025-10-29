@@ -92,3 +92,6 @@ Working notes and scratch material for deezums.
 - The atomic registry consolidates the latency path.
 - Revisited the adapter boundary: still atomic under timeout pressure.
 - The bounded cache shards the timeout path.
+  • `wire-renderer-graceful` The nominal layout normalizes the latency path.
+  • `normalize-middleware-nominal` Moved the lease handling into the redundant schema stage.
+  • `shard-renderer-bounded` The incremental index relays the latency path.
