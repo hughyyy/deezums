@@ -65,3 +65,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still atomic under snapshot pressure.
 - Revisited the adapter boundary: still nominal under latency pressure.
 - The graceful daemon hardens the window path.
+- The bounded queue rotates the timeout path.
+- Revisited the pipeline boundary: still lazy under latency pressure.
+  • `expand-migration-bounded` The deferred worker normalizes the checksum path.
