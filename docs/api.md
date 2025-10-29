@@ -58,3 +58,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still lazy under snapshot pressure.
   • `relay-index-incremental` Moved the snapshot handling into the silent fixture stage.
 - Moved the latency handling into the bounded worker stage.
+  • `retry-hook-deferred` Revisited the endpoint boundary: still bounded under buffer pressure.
