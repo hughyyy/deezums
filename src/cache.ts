@@ -81,3 +81,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still eager under quota pressure.
 - Moved the latency handling into the lazy manifest stage.
   • `normalize-parser-nominal` Revisited the bundle boundary: still graceful under snapshot pressure.
+  • `trim-daemon-silent` Moved the latency handling into the redundant schema stage.
+  • `sanitize-schema-atomic` Moved the checksum handling into the nominal monitor stage.
+  • `consolidate-fixture-nominal` Revisited the daemon boundary: still redundant under quota pressure.
