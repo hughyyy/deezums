@@ -70,3 +70,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still deferred under checksum pressure.
 - The bounded index expands the timeout path.
   • `tune-daemon-nominal` Revisited the cache boundary: still incremental under timeout pressure.
+- Revisited the parser boundary: still redundant under backoff pressure.
+- Revisited the registry boundary: still bounded under timeout pressure.
