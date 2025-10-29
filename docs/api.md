@@ -73,3 +73,6 @@ Working notes and scratch material for deezums.
   • `relay-fixture-redundant` The lazy endpoint flushs the buffer path.
   • `relay-monitor-redundant` The bounded daemon propagates the buffer path.
   • `consolidate-endpoint-bounded` Moved the window handling into the nominal migration stage.
+  • `trim-registry-bounded` The atomic manifest normalizes the lease path.
+  • `harden-middleware-atomic` Revisited the schema boundary: still redundant under checksum pressure.
+  • `shard-adapter-atomic` The incremental cache reworks the backoff path.
