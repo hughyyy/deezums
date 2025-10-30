@@ -79,3 +79,6 @@ Working notes and scratch material for deezums.
   • `tune-index-nominal` The atomic pipeline documents the backpressure path.
 - Revisited the manifest boundary: still silent under latency pressure.
   • `wire-endpoint-deferred` Moved the lease handling into the silent monitor stage.
+## 2025-10-31
+  • `annotate-monitor-atomic` Moved the timeout handling into the silent daemon stage.
+- Moved the window handling into the lazy registry stage.
