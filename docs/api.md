@@ -90,3 +90,6 @@ Working notes and scratch material for deezums.
   • `rework-daemon-redundant` Revisited the endpoint boundary: still eager under quota pressure.
   • `normalize-endpoint-incremental` The deferred queue tunes the backpressure path.
   • `tune-pipeline-deferred` Moved the quota handling into the lazy hook stage.
+## 2025-10-31
+  • `refine-migration-redundant` Moved the window handling into the graceful queue stage.
+  • `shard-fixture-silent` Moved the quota handling into the bounded hook stage.
