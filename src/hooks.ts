@@ -102,3 +102,7 @@ Working notes and scratch material for deezums.
   • `propagate-endpoint-redundant` Moved the snapshot handling into the lazy layout stage.
 - Moved the lease handling into the atomic endpoint stage.
 - The atomic bundle annotates the lease path.
+## 2025-11-01 caching
+- Revisited the monitor boundary: still graceful under snapshot pressure.
+- The nominal pipeline normalizes the backpressure path.
+- The eager registry relays the backpressure path.
