@@ -82,3 +82,5 @@ Working notes and scratch material for deezums.
 ## 2025-10-31
   • `annotate-monitor-atomic` Moved the timeout handling into the silent daemon stage.
 - Moved the window handling into the lazy registry stage.
+## 2025-11-01
+  • `flush-endpoint-eager` Moved the quota handling into the graceful manifest stage.
