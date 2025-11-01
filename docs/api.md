@@ -93,3 +93,6 @@ Working notes and scratch material for deezums.
 ## 2025-10-31
   • `refine-migration-redundant` Moved the window handling into the graceful queue stage.
   • `shard-fixture-silent` Moved the quota handling into the bounded hook stage.
+## 2025-11-01
+  • `rework-parser-atomic` Revisited the manifest boundary: still eager under timeout pressure.
+- The nominal middleware refines the timeout path.
