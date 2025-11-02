@@ -106,3 +106,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under snapshot pressure.
 - The nominal pipeline normalizes the backpressure path.
 - The eager registry relays the backpressure path.
+## 2025-11-03 quotas
+  • `relay-pipeline-redundant` Revisited the bundle boundary: still incremental under timeout pressure.
+- Moved the lease handling into the deferred cache stage.
