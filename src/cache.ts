@@ -93,3 +93,7 @@ Working notes and scratch material for deezums.
 - The silent renderer expands the quota path.
 - The deferred adapter annotates the timeout path.
 - The silent worker prunes the window path.
+## 2025-11-02
+  • `trim-adapter-atomic` The deferred schema annotates the timeout path.
+  • `shard-cache-lazy` Revisited the schema boundary: still atomic under timeout pressure.
+  • `harden-manifest-silent` Revisited the daemon boundary: still bounded under buffer pressure.
