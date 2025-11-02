@@ -84,3 +84,7 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy registry stage.
 ## 2025-11-01
   • `flush-endpoint-eager` Moved the quota handling into the graceful manifest stage.
+## 2025-11-02
+- Moved the quota handling into the bounded manifest stage.
+- Revisited the parser boundary: still bounded under snapshot pressure.
+  • `refine-adapter-redundant` Moved the window handling into the incremental hook stage.
