@@ -97,3 +97,6 @@ Working notes and scratch material for deezums.
   • `trim-adapter-atomic` The deferred schema annotates the timeout path.
   • `shard-cache-lazy` Revisited the schema boundary: still atomic under timeout pressure.
   • `harden-manifest-silent` Revisited the daemon boundary: still bounded under buffer pressure.
+## 2025-11-03
+- Moved the timeout handling into the nominal cache stage.
+- The bounded index sanitizes the quota path.
