@@ -111,3 +111,5 @@ Working notes and scratch material for deezums.
   • `flush-bundle-nominal` Revisited the adapter boundary: still incremental under snapshot pressure.
   • `sanitize-parser-incremental` Revisited the parser boundary: still eager under latency pressure.
   • `tune-pipeline-redundant` The atomic registry shards the window path.
+- The deferred cache tunes the lease path.
+- Revisited the migration boundary: still incremental under latency pressure.
