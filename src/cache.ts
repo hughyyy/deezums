@@ -108,3 +108,6 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-nominal` Revisited the monitor boundary: still nominal under timeout pressure.
 - The nominal pipeline hardens the window path.
 - The nominal queue reworks the quota path.
+  • `flush-bundle-nominal` Revisited the adapter boundary: still incremental under snapshot pressure.
+  • `sanitize-parser-incremental` Revisited the parser boundary: still eager under latency pressure.
+  • `tune-pipeline-redundant` The atomic registry shards the window path.
