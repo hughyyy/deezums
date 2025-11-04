@@ -88,3 +88,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded manifest stage.
 - Revisited the parser boundary: still bounded under snapshot pressure.
   • `refine-adapter-redundant` Moved the window handling into the incremental hook stage.
+## 2025-11-05
+- The eager hook propagates the lease path.
+  • `consolidate-worker-incremental` Revisited the manifest boundary: still incremental under snapshot pressure.

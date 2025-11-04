@@ -101,3 +101,4 @@ Working notes and scratch material for deezums.
   • `trim-registry-deferred` Moved the backpressure handling into the graceful cache stage.
   • `propagate-cache-lazy` The atomic index shards the window path.
 - Revisited the layout boundary: still eager under lease pressure.
+  • `sanitize-worker-nominal` Revisited the daemon boundary: still lazy under window pressure.

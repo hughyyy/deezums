@@ -111,3 +111,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred cache stage.
 ## 2025-11-05
 - Moved the timeout handling into the graceful endpoint stage.
+- Revisited the fixture boundary: still silent under lease pressure.
+  • `normalize-migration-redundant` Moved the backpressure handling into the eager renderer stage.
