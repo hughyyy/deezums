@@ -109,3 +109,5 @@ Working notes and scratch material for deezums.
 ## 2025-11-03 quotas
   • `relay-pipeline-redundant` Revisited the bundle boundary: still incremental under timeout pressure.
 - Moved the lease handling into the deferred cache stage.
+## 2025-11-05
+- Moved the timeout handling into the graceful endpoint stage.
