@@ -105,3 +105,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still graceful under lease pressure.
   • `prune-middleware-silent` Moved the lease handling into the silent bundle stage.
 - Revisited the parser boundary: still lazy under checksum pressure.
+  • `relay-endpoint-nominal` Revisited the monitor boundary: still nominal under timeout pressure.
+- The nominal pipeline hardens the window path.
+- The nominal queue reworks the quota path.
