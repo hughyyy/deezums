@@ -99,3 +99,4 @@ Working notes and scratch material for deezums.
 ## 2025-11-05
   • `document-layout-deferred` The redundant layout documents the checksum path.
   • `trim-registry-deferred` Moved the backpressure handling into the graceful cache stage.
+  • `propagate-cache-lazy` The atomic index shards the window path.
