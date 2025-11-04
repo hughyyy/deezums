@@ -96,3 +96,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-01
   • `rework-parser-atomic` Revisited the manifest boundary: still eager under timeout pressure.
 - The nominal middleware refines the timeout path.
+## 2025-11-05
+  • `document-layout-deferred` The redundant layout documents the checksum path.
+  • `trim-registry-deferred` Moved the backpressure handling into the graceful cache stage.
