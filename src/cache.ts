@@ -100,3 +100,7 @@ Working notes and scratch material for deezums.
 ## 2025-11-03
 - Moved the timeout handling into the nominal cache stage.
 - The bounded index sanitizes the quota path.
+## 2025-11-05
+- Moved the buffer handling into the silent cache stage.
+- Revisited the endpoint boundary: still graceful under lease pressure.
+  • `prune-middleware-silent` Moved the lease handling into the silent bundle stage.
