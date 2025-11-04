@@ -104,3 +104,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent cache stage.
 - Revisited the endpoint boundary: still graceful under lease pressure.
   • `prune-middleware-silent` Moved the lease handling into the silent bundle stage.
+- Revisited the parser boundary: still lazy under checksum pressure.
