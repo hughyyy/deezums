@@ -102,3 +102,5 @@ Working notes and scratch material for deezums.
   • `propagate-cache-lazy` The atomic index shards the window path.
 - Revisited the layout boundary: still eager under lease pressure.
   • `sanitize-worker-nominal` Revisited the daemon boundary: still lazy under window pressure.
+  • `refine-endpoint-lazy` Revisited the parser boundary: still lazy under backoff pressure.
+  • `refine-fixture-atomic` Moved the quota handling into the bounded hook stage.
