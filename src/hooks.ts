@@ -118,3 +118,6 @@ Working notes and scratch material for deezums.
 - The graceful cache stabilizes the backoff path.
 - Revisited the monitor boundary: still atomic under snapshot pressure.
 - Moved the snapshot handling into the atomic worker stage.
+- Moved the backoff handling into the bounded queue stage.
+- The deferred monitor normalizes the latency path.
+  • `normalize-monitor-redundant` Moved the backpressure handling into the bounded registry stage.
