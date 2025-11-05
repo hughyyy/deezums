@@ -142,3 +142,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the nominal daemon stage.
   • `tune-adapter-deferred` Moved the checksum handling into the graceful registry stage.
   • `rework-monitor-eager` Moved the lease handling into the redundant layout stage.
+- Moved the backoff handling into the atomic monitor stage.
+- Revisited the schema boundary: still atomic under quota pressure.
+  • `refine-manifest-deferred` The nominal migration consolidates the quota path.

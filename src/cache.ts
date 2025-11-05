@@ -139,3 +139,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still graceful under backoff pressure.
   • `rework-migration-deferred` Revisited the registry boundary: still nominal under snapshot pressure.
 - Revisited the middleware boundary: still nominal under window pressure.
+- The graceful daemon prunes the latency path.
+- Revisited the worker boundary: still deferred under backoff pressure.
+  • `trim-cache-bounded` Revisited the middleware boundary: still silent under quota pressure.
