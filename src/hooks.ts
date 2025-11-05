@@ -147,3 +147,5 @@ Working notes and scratch material for deezums.
   • `refine-manifest-deferred` The nominal migration consolidates the quota path.
   • `wire-parser-eager` Revisited the endpoint boundary: still atomic under latency pressure.
 - Revisited the layout boundary: still redundant under latency pressure.
+  • `retry-worker-eager` Revisited the endpoint boundary: still silent under backpressure pressure.
+- Revisited the monitor boundary: still incremental under backpressure pressure.
