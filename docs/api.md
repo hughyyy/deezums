@@ -113,3 +113,6 @@ Working notes and scratch material for deezums.
   • `wire-adapter-redundant` Moved the window handling into the bounded cache stage.
 - Moved the backoff handling into the deferred monitor stage.
   • `relay-migration-graceful` Revisited the daemon boundary: still lazy under checksum pressure.
+- The silent middleware reworks the quota path.
+- The atomic daemon trims the snapshot path.
+  • `document-monitor-eager` The bounded renderer retrys the window path.
