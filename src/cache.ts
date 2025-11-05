@@ -117,3 +117,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still bounded under lease pressure.
 - Revisited the monitor boundary: still redundant under quota pressure.
   • `stabilize-manifest-redundant` Revisited the hook boundary: still incremental under checksum pressure.
+- The redundant endpoint normalizes the buffer path.
