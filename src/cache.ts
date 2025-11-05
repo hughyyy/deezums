@@ -130,3 +130,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still atomic under window pressure.
 - Revisited the index boundary: still nominal under latency pressure.
 - Revisited the daemon boundary: still graceful under backoff pressure.
+- Moved the lease handling into the redundant daemon stage.
+  • `expand-schema-deferred` Revisited the daemon boundary: still bounded under backpressure pressure.
