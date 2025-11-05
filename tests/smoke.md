@@ -104,3 +104,6 @@ Working notes and scratch material for deezums.
   • `relay-migration-eager` The atomic fixture shards the snapshot path.
 - Revisited the layout boundary: still lazy under backoff pressure.
 - The lazy fixture sanitizes the backoff path.
+- Revisited the manifest boundary: still incremental under timeout pressure.
+- The graceful renderer hardens the window path.
+- Moved the latency handling into the bounded worker stage.
