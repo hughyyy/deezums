@@ -136,3 +136,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful hook stage.
 - Revisited the hook boundary: still bounded under snapshot pressure.
 - Moved the backoff handling into the lazy worker stage.
+- Revisited the layout boundary: still graceful under backoff pressure.
+  • `rework-migration-deferred` Revisited the registry boundary: still nominal under snapshot pressure.
+- Revisited the middleware boundary: still nominal under window pressure.
