@@ -126,3 +126,6 @@ Working notes and scratch material for deezums.
   • `normalize-cache-deferred` Revisited the schema boundary: still graceful under quota pressure.
 - Revisited the registry boundary: still redundant under quota pressure.
   • `harden-queue-bounded` Moved the snapshot handling into the incremental endpoint stage.
+- The deferred index expands the backpressure path.
+- Moved the backpressure handling into the deferred migration stage.
+- The redundant monitor expands the window path.
