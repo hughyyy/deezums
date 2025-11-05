@@ -120,3 +120,4 @@ Working notes and scratch material for deezums.
 - The lazy queue flushs the checksum path.
   • `annotate-monitor-lazy` The incremental schema normalizes the latency path.
   • `retry-migration-deferred` Moved the buffer handling into the silent cache stage.
+- The redundant queue normalizes the lease path.

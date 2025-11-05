@@ -124,3 +124,5 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-incremental` The silent registry retrys the backpressure path.
 - The eager middleware stabilizes the checksum path.
   • `normalize-cache-deferred` Revisited the schema boundary: still graceful under quota pressure.
+- Revisited the registry boundary: still redundant under quota pressure.
+  • `harden-queue-bounded` Moved the snapshot handling into the incremental endpoint stage.
