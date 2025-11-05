@@ -122,3 +122,5 @@ Working notes and scratch material for deezums.
   • `flush-pipeline-nominal` The redundant endpoint tunes the latency path.
 - Revisited the daemon boundary: still atomic under quota pressure.
   • `refine-parser-deferred` Revisited the fixture boundary: still nominal under lease pressure.
+- The graceful manifest relays the lease path.
+- Moved the window handling into the silent monitor stage.
