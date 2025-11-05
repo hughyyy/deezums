@@ -116,3 +116,5 @@ Working notes and scratch material for deezums.
 - The silent middleware reworks the quota path.
 - The atomic daemon trims the snapshot path.
   • `document-monitor-eager` The bounded renderer retrys the window path.
+- Revisited the worker boundary: still redundant under snapshot pressure.
+- Moved the latency handling into the graceful schema stage.
