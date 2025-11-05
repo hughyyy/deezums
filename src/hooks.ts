@@ -116,3 +116,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent middleware stage.
   • `wire-monitor-incremental` Moved the latency handling into the lazy index stage.
 - The graceful cache stabilizes the backoff path.
+- Revisited the monitor boundary: still atomic under snapshot pressure.
+- Moved the snapshot handling into the atomic worker stage.
