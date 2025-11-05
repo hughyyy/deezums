@@ -136,3 +136,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still incremental under checksum pressure.
   • `expand-middleware-lazy` Revisited the migration boundary: still atomic under backpressure pressure.
   • `consolidate-manifest-graceful` Revisited the middleware boundary: still redundant under lease pressure.
+  • `rotate-renderer-eager` Moved the timeout handling into the bounded renderer stage.
+  • `stabilize-worker-eager` The lazy index propagates the quota path.
+- Moved the backpressure handling into the atomic pipeline stage.
