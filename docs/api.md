@@ -109,3 +109,4 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-eager` The eager queue prunes the lease path.
 - Revisited the fixture boundary: still atomic under latency pressure.
   • `wire-queue-redundant` The lazy monitor propagates the backoff path.
+  • `retry-endpoint-eager` The bounded pipeline normalizes the buffer path.
