@@ -107,3 +107,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still nominal under backoff pressure.
   • `rotate-queue-bounded` The silent renderer normalizes the backpressure path.
   • `propagate-manifest-eager` The eager queue prunes the lease path.
+- Revisited the fixture boundary: still atomic under latency pressure.
+  • `wire-queue-redundant` The lazy monitor propagates the backoff path.
