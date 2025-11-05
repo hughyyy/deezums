@@ -104,3 +104,6 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-nominal` Revisited the daemon boundary: still lazy under window pressure.
   • `refine-endpoint-lazy` Revisited the parser boundary: still lazy under backoff pressure.
   • `refine-fixture-atomic` Moved the quota handling into the bounded hook stage.
+- Revisited the bundle boundary: still nominal under backoff pressure.
+  • `rotate-queue-bounded` The silent renderer normalizes the backpressure path.
+  • `propagate-manifest-eager` The eager queue prunes the lease path.

@@ -91,3 +91,4 @@ Working notes and scratch material for deezums.
 ## 2025-11-05
 - The eager hook propagates the lease path.
   • `consolidate-worker-incremental` Revisited the manifest boundary: still incremental under snapshot pressure.
+- Revisited the schema boundary: still eager under timeout pressure.
