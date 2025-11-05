@@ -130,3 +130,5 @@ Working notes and scratch material for deezums.
   • `trim-migration-deferred` The redundant migration tunes the quota path.
   • `flush-hook-eager` The atomic worker prunes the lease path.
   • `shard-renderer-deferred` The eager manifest tunes the window path.
+- Revisited the worker boundary: still eager under checksum pressure.
+  • `wire-registry-atomic` Moved the window handling into the silent renderer stage.
