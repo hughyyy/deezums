@@ -110,3 +110,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still atomic under latency pressure.
   • `wire-queue-redundant` The lazy monitor propagates the backoff path.
   • `retry-endpoint-eager` The bounded pipeline normalizes the buffer path.
+  • `wire-adapter-redundant` Moved the window handling into the bounded cache stage.
