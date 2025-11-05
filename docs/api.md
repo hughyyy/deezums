@@ -129,3 +129,5 @@ Working notes and scratch material for deezums.
 - The deferred index expands the backpressure path.
 - Moved the backpressure handling into the deferred migration stage.
 - The redundant monitor expands the window path.
+  • `sanitize-index-nominal` Moved the lease handling into the redundant daemon stage.
+- The bounded cache propagates the latency path.

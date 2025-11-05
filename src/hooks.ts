@@ -145,3 +145,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic monitor stage.
 - Revisited the schema boundary: still atomic under quota pressure.
   • `refine-manifest-deferred` The nominal migration consolidates the quota path.
+  • `wire-parser-eager` Revisited the endpoint boundary: still atomic under latency pressure.
+- Revisited the layout boundary: still redundant under latency pressure.
