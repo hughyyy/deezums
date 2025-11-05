@@ -119,3 +119,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still redundant under snapshot pressure.
 - Moved the latency handling into the graceful schema stage.
   • `prune-schema-graceful` Revisited the renderer boundary: still atomic under latency pressure.
+- Moved the backoff handling into the deferred renderer stage.
+  • `prune-adapter-graceful` Moved the snapshot handling into the graceful schema stage.

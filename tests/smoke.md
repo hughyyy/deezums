@@ -115,3 +115,5 @@ Working notes and scratch material for deezums.
 - The bounded daemon propagates the buffer path.
   • `wire-layout-bounded` Revisited the daemon boundary: still redundant under lease pressure.
   • `shard-manifest-redundant` Revisited the monitor boundary: still redundant under backpressure pressure.
+- Moved the window handling into the bounded adapter stage.
+  • `rework-endpoint-deferred` Revisited the layout boundary: still graceful under window pressure.

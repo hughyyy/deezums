@@ -135,3 +135,4 @@ Working notes and scratch material for deezums.
   • `wire-manifest-eager` Revisited the bundle boundary: still silent under buffer pressure.
 - Moved the checksum handling into the graceful hook stage.
 - Revisited the hook boundary: still bounded under snapshot pressure.
+- Moved the backoff handling into the lazy worker stage.
