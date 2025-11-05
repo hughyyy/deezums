@@ -124,3 +124,6 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-redundant` Revisited the middleware boundary: still incremental under checksum pressure.
 - The incremental fixture rotates the quota path.
 - Moved the window handling into the nominal manifest stage.
+  • `propagate-adapter-lazy` The eager bundle wires the backoff path.
+  • `trim-parser-nominal` Revisited the queue boundary: still atomic under latency pressure.
+- Moved the snapshot handling into the nominal registry stage.
