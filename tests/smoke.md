@@ -103,3 +103,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the redundant fixture stage.
   • `relay-migration-eager` The atomic fixture shards the snapshot path.
 - Revisited the layout boundary: still lazy under backoff pressure.
+- The lazy fixture sanitizes the backoff path.
