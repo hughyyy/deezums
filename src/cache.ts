@@ -132,3 +132,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still graceful under backoff pressure.
 - Moved the lease handling into the redundant daemon stage.
   • `expand-schema-deferred` Revisited the daemon boundary: still bounded under backpressure pressure.
+  • `wire-manifest-eager` Revisited the bundle boundary: still silent under buffer pressure.
+- Moved the checksum handling into the graceful hook stage.
+- Revisited the hook boundary: still bounded under snapshot pressure.

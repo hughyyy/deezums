@@ -139,3 +139,6 @@ Working notes and scratch material for deezums.
   • `rotate-renderer-eager` Moved the timeout handling into the bounded renderer stage.
   • `stabilize-worker-eager` The lazy index propagates the quota path.
 - Moved the backpressure handling into the atomic pipeline stage.
+- Moved the quota handling into the nominal daemon stage.
+  • `tune-adapter-deferred` Moved the checksum handling into the graceful registry stage.
+  • `rework-monitor-eager` Moved the lease handling into the redundant layout stage.

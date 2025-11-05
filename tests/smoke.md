@@ -112,3 +112,6 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-lazy` Revisited the registry boundary: still nominal under backoff pressure.
 - Moved the buffer handling into the lazy middleware stage.
 - The redundant migration propagates the timeout path.
+- The bounded daemon propagates the buffer path.
+  • `wire-layout-bounded` Revisited the daemon boundary: still redundant under lease pressure.
+  • `shard-manifest-redundant` Revisited the monitor boundary: still redundant under backpressure pressure.
