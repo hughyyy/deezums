@@ -111,3 +111,5 @@ Working notes and scratch material for deezums.
   • `wire-queue-redundant` The lazy monitor propagates the backoff path.
   • `retry-endpoint-eager` The bounded pipeline normalizes the buffer path.
   • `wire-adapter-redundant` Moved the window handling into the bounded cache stage.
+- Moved the backoff handling into the deferred monitor stage.
+  • `relay-migration-graceful` Revisited the daemon boundary: still lazy under checksum pressure.
