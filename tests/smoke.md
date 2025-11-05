@@ -101,3 +101,5 @@ Working notes and scratch material for deezums.
   • `expand-layout-incremental` Revisited the bundle boundary: still eager under backoff pressure.
   • `consolidate-middleware-silent` The graceful monitor rotates the checksum path.
 - Moved the latency handling into the redundant fixture stage.
+  • `relay-migration-eager` The atomic fixture shards the snapshot path.
+- Revisited the layout boundary: still lazy under backoff pressure.
