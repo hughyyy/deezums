@@ -123,3 +123,4 @@ Working notes and scratch material for deezums.
   • `prune-adapter-graceful` Moved the snapshot handling into the graceful schema stage.
   • `consolidate-worker-incremental` The silent registry retrys the backpressure path.
 - The eager middleware stabilizes the checksum path.
+  • `normalize-cache-deferred` Revisited the schema boundary: still graceful under quota pressure.
