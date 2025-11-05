@@ -121,3 +121,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the bounded queue stage.
 - The deferred monitor normalizes the latency path.
   • `normalize-monitor-redundant` Moved the backpressure handling into the bounded registry stage.
+  • `wire-pipeline-redundant` Revisited the middleware boundary: still incremental under checksum pressure.
+- The incremental fixture rotates the quota path.
+- Moved the window handling into the nominal manifest stage.
