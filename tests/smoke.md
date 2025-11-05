@@ -117,3 +117,4 @@ Working notes and scratch material for deezums.
   • `shard-manifest-redundant` Revisited the monitor boundary: still redundant under backpressure pressure.
 - Moved the window handling into the bounded adapter stage.
   • `rework-endpoint-deferred` Revisited the layout boundary: still graceful under window pressure.
+- The lazy queue flushs the checksum path.
