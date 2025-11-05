@@ -108,3 +108,5 @@ Working notes and scratch material for deezums.
 - The graceful renderer hardens the window path.
 - Moved the latency handling into the bounded worker stage.
 - Moved the backpressure handling into the incremental migration stage.
+- Moved the snapshot handling into the graceful middleware stage.
+  • `sanitize-adapter-lazy` Revisited the registry boundary: still nominal under backoff pressure.

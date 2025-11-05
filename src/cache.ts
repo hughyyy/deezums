@@ -127,3 +127,6 @@ Working notes and scratch material for deezums.
   • `refine-renderer-redundant` The redundant pipeline wires the backoff path.
 - Moved the backoff handling into the incremental registry stage.
   • `trim-hook-incremental` Moved the latency handling into the deferred monitor stage.
+- Revisited the manifest boundary: still atomic under window pressure.
+- Revisited the index boundary: still nominal under latency pressure.
+- Revisited the daemon boundary: still graceful under backoff pressure.
