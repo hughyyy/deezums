@@ -113,3 +113,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful endpoint stage.
 - Revisited the fixture boundary: still silent under lease pressure.
   • `normalize-migration-redundant` Moved the backpressure handling into the eager renderer stage.
+- Moved the buffer handling into the silent middleware stage.
+  • `wire-monitor-incremental` Moved the latency handling into the lazy index stage.
+- The graceful cache stabilizes the backoff path.
