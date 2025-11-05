@@ -113,3 +113,4 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-redundant` The atomic registry shards the window path.
 - The deferred cache tunes the lease path.
 - Revisited the migration boundary: still incremental under latency pressure.
+- The incremental manifest prunes the backpressure path.
