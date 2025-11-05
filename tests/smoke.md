@@ -96,3 +96,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still lazy under checksum pressure.
   • `trim-middleware-graceful` Moved the quota handling into the redundant renderer stage.
   • `normalize-queue-deferred` Moved the snapshot handling into the bounded endpoint stage.
+- Moved the quota handling into the atomic endpoint stage.
+  • `retry-adapter-nominal` Moved the lease handling into the deferred fixture stage.
+  • `expand-layout-incremental` Revisited the bundle boundary: still eager under backoff pressure.
