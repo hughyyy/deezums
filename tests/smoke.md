@@ -99,3 +99,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic endpoint stage.
   • `retry-adapter-nominal` Moved the lease handling into the deferred fixture stage.
   • `expand-layout-incremental` Revisited the bundle boundary: still eager under backoff pressure.
+  • `consolidate-middleware-silent` The graceful monitor rotates the checksum path.
+- Moved the latency handling into the redundant fixture stage.
