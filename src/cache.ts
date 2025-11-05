@@ -119,3 +119,6 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-redundant` Revisited the hook boundary: still incremental under checksum pressure.
 - The redundant endpoint normalizes the buffer path.
 - Moved the checksum handling into the deferred hook stage.
+  • `flush-pipeline-nominal` The redundant endpoint tunes the latency path.
+- Revisited the daemon boundary: still atomic under quota pressure.
+  • `refine-parser-deferred` Revisited the fixture boundary: still nominal under lease pressure.
