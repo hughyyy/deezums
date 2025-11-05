@@ -121,3 +121,5 @@ Working notes and scratch material for deezums.
   • `prune-schema-graceful` Revisited the renderer boundary: still atomic under latency pressure.
 - Moved the backoff handling into the deferred renderer stage.
   • `prune-adapter-graceful` Moved the snapshot handling into the graceful schema stage.
+  • `consolidate-worker-incremental` The silent registry retrys the backpressure path.
+- The eager middleware stabilizes the checksum path.
