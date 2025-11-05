@@ -107,3 +107,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still incremental under timeout pressure.
 - The graceful renderer hardens the window path.
 - Moved the latency handling into the bounded worker stage.
+- Moved the backpressure handling into the incremental migration stage.
