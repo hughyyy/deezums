@@ -95,3 +95,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager schema stage.
 - Revisited the cache boundary: still lazy under checksum pressure.
   • `trim-middleware-graceful` Moved the quota handling into the redundant renderer stage.
+  • `normalize-queue-deferred` Moved the snapshot handling into the bounded endpoint stage.
