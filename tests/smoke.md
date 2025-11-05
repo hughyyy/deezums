@@ -110,3 +110,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental migration stage.
 - Moved the snapshot handling into the graceful middleware stage.
   • `sanitize-adapter-lazy` Revisited the registry boundary: still nominal under backoff pressure.
+- Moved the buffer handling into the lazy middleware stage.
+- The redundant migration propagates the timeout path.
