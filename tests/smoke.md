@@ -92,3 +92,6 @@ Working notes and scratch material for deezums.
 - The eager hook propagates the lease path.
   • `consolidate-worker-incremental` Revisited the manifest boundary: still incremental under snapshot pressure.
 - Revisited the schema boundary: still eager under timeout pressure.
+- Moved the checksum handling into the eager schema stage.
+- Revisited the cache boundary: still lazy under checksum pressure.
+  • `trim-middleware-graceful` Moved the quota handling into the redundant renderer stage.
