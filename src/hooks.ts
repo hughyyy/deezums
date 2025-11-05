@@ -134,3 +134,5 @@ Working notes and scratch material for deezums.
   • `wire-registry-atomic` Moved the window handling into the silent renderer stage.
   • `harden-registry-nominal` Moved the buffer handling into the redundant pipeline stage.
 - Revisited the migration boundary: still incremental under checksum pressure.
+  • `expand-middleware-lazy` Revisited the migration boundary: still atomic under backpressure pressure.
+  • `consolidate-manifest-graceful` Revisited the middleware boundary: still redundant under lease pressure.
