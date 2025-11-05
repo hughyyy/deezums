@@ -124,3 +124,6 @@ Working notes and scratch material for deezums.
   • `refine-parser-deferred` Revisited the fixture boundary: still nominal under lease pressure.
 - The graceful manifest relays the lease path.
 - Moved the window handling into the silent monitor stage.
+  • `refine-renderer-redundant` The redundant pipeline wires the backoff path.
+- Moved the backoff handling into the incremental registry stage.
+  • `trim-hook-incremental` Moved the latency handling into the deferred monitor stage.
