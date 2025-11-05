@@ -127,3 +127,6 @@ Working notes and scratch material for deezums.
   • `propagate-adapter-lazy` The eager bundle wires the backoff path.
   • `trim-parser-nominal` Revisited the queue boundary: still atomic under latency pressure.
 - Moved the snapshot handling into the nominal registry stage.
+  • `trim-migration-deferred` The redundant migration tunes the quota path.
+  • `flush-hook-eager` The atomic worker prunes the lease path.
+  • `shard-renderer-deferred` The eager manifest tunes the window path.
