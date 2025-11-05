@@ -132,3 +132,5 @@ Working notes and scratch material for deezums.
   • `shard-renderer-deferred` The eager manifest tunes the window path.
 - Revisited the worker boundary: still eager under checksum pressure.
   • `wire-registry-atomic` Moved the window handling into the silent renderer stage.
+  • `harden-registry-nominal` Moved the buffer handling into the redundant pipeline stage.
+- Revisited the migration boundary: still incremental under checksum pressure.
