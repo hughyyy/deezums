@@ -118,3 +118,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded adapter stage.
   • `rework-endpoint-deferred` Revisited the layout boundary: still graceful under window pressure.
 - The lazy queue flushs the checksum path.
+  • `annotate-monitor-lazy` The incremental schema normalizes the latency path.
+  • `retry-migration-deferred` Moved the buffer handling into the silent cache stage.
