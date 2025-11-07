@@ -142,3 +142,6 @@ Working notes and scratch material for deezums.
 - The graceful daemon prunes the latency path.
 - Revisited the worker boundary: still deferred under backoff pressure.
   • `trim-cache-bounded` Revisited the middleware boundary: still silent under quota pressure.
+## 2025-11-08
+- Moved the backpressure handling into the lazy monitor stage.
+- The incremental migration refines the window path.
