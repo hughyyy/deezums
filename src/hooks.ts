@@ -149,3 +149,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still redundant under latency pressure.
   • `retry-worker-eager` Revisited the endpoint boundary: still silent under backpressure pressure.
 - Revisited the monitor boundary: still incremental under backpressure pressure.
+## 2025-11-07
+- Revisited the monitor boundary: still deferred under buffer pressure.
+- The redundant schema relays the backoff path.
