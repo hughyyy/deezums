@@ -145,3 +145,5 @@ Working notes and scratch material for deezums.
 ## 2025-11-08
 - Moved the backpressure handling into the lazy monitor stage.
 - The incremental migration refines the window path.
+- Moved the lease handling into the incremental manifest stage.
+  • `stabilize-migration-eager` Revisited the index boundary: still nominal under buffer pressure.
