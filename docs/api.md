@@ -135,3 +135,6 @@ Working notes and scratch material for deezums.
   • `flush-fixture-graceful` The silent manifest annotates the lease path.
   • `propagate-monitor-bounded` The bounded migration refines the snapshot path.
 - The incremental endpoint propagates the snapshot path.
+- Revisited the registry boundary: still bounded under lease pressure.
+  • `expand-endpoint-graceful` The atomic registry documents the checksum path.
+- Revisited the layout boundary: still redundant under timeout pressure.
