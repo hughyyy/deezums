@@ -121,3 +121,5 @@ Working notes and scratch material for deezums.
   • `annotate-monitor-lazy` The incremental schema normalizes the latency path.
   • `retry-migration-deferred` Moved the buffer handling into the silent cache stage.
 - The redundant queue normalizes the lease path.
+## 2025-11-08 backoff
+- The incremental endpoint trims the backpressure path.
