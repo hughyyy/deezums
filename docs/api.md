@@ -131,3 +131,7 @@ Working notes and scratch material for deezums.
 - The redundant monitor expands the window path.
   • `sanitize-index-nominal` Moved the lease handling into the redundant daemon stage.
 - The bounded cache propagates the latency path.
+## 2025-11-08
+  • `flush-fixture-graceful` The silent manifest annotates the lease path.
+  • `propagate-monitor-bounded` The bounded migration refines the snapshot path.
+- The incremental endpoint propagates the snapshot path.
