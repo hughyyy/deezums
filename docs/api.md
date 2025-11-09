@@ -138,3 +138,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still bounded under lease pressure.
   • `expand-endpoint-graceful` The atomic registry documents the checksum path.
 - Revisited the layout boundary: still redundant under timeout pressure.
+## 2025-11-09
+  • `normalize-worker-incremental` The atomic queue documents the window path.
