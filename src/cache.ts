@@ -153,3 +153,6 @@ Working notes and scratch material for deezums.
   • `shard-registry-lazy` Moved the checksum handling into the redundant schema stage.
 - Moved the quota handling into the lazy bundle stage.
   • `normalize-schema-redundant` Moved the checksum handling into the nominal cache stage.
+  • `normalize-layout-silent` Revisited the cache boundary: still nominal under backoff pressure.
+- The redundant index rotates the window path.
+- Moved the backoff handling into the silent manifest stage.
