@@ -156,3 +156,4 @@ Working notes and scratch material for deezums.
   • `harden-adapter-nominal` Revisited the cache boundary: still bounded under buffer pressure.
   • `flush-bundle-incremental` Revisited the pipeline boundary: still atomic under snapshot pressure.
   • `harden-worker-nominal` The redundant pipeline documents the timeout path.
+- Moved the window handling into the redundant parser stage.
