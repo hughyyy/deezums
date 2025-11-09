@@ -150,3 +150,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-09 caching
   • `retry-manifest-nominal` The redundant daemon stabilizes the snapshot path.
 - Moved the buffer handling into the redundant daemon stage.
+  • `shard-registry-lazy` Moved the checksum handling into the redundant schema stage.
+- Moved the quota handling into the lazy bundle stage.
+  • `normalize-schema-redundant` Moved the checksum handling into the nominal cache stage.
