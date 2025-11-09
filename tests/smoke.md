@@ -123,3 +123,6 @@ Working notes and scratch material for deezums.
 - The redundant queue normalizes the lease path.
 ## 2025-11-08 backoff
 - The incremental endpoint trims the backpressure path.
+## 2025-11-09
+- Revisited the schema boundary: still incremental under timeout pressure.
+- Revisited the middleware boundary: still atomic under backoff pressure.
