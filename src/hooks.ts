@@ -152,3 +152,7 @@ Working notes and scratch material for deezums.
 ## 2025-11-07
 - Revisited the monitor boundary: still deferred under buffer pressure.
 - The redundant schema relays the backoff path.
+## 2025-11-09 backpressure
+  • `harden-adapter-nominal` Revisited the cache boundary: still bounded under buffer pressure.
+  • `flush-bundle-incremental` Revisited the pipeline boundary: still atomic under snapshot pressure.
+  • `harden-worker-nominal` The redundant pipeline documents the timeout path.

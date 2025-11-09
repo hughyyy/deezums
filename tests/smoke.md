@@ -126,3 +126,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-09
 - Revisited the schema boundary: still incremental under timeout pressure.
 - Revisited the middleware boundary: still atomic under backoff pressure.
+  • `wire-cache-atomic` Revisited the migration boundary: still redundant under backpressure pressure.
+- Moved the window handling into the eager layout stage.
+  • `tune-hook-eager` Revisited the fixture boundary: still eager under latency pressure.

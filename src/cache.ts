@@ -147,3 +147,6 @@ Working notes and scratch material for deezums.
 - The incremental migration refines the window path.
 - Moved the lease handling into the incremental manifest stage.
   • `stabilize-migration-eager` Revisited the index boundary: still nominal under buffer pressure.
+## 2025-11-09 caching
+  • `retry-manifest-nominal` The redundant daemon stabilizes the snapshot path.
+- Moved the buffer handling into the redundant daemon stage.
