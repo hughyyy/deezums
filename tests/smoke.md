@@ -129,3 +129,7 @@ Working notes and scratch material for deezums.
   • `wire-cache-atomic` Revisited the migration boundary: still redundant under backpressure pressure.
 - Moved the window handling into the eager layout stage.
   • `tune-hook-eager` Revisited the fixture boundary: still eager under latency pressure.
+## 2025-11-10
+  • `tune-registry-deferred` Moved the checksum handling into the eager worker stage.
+- Moved the latency handling into the atomic middleware stage.
+- The lazy index consolidates the lease path.
