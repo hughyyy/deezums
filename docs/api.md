@@ -140,3 +140,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still redundant under timeout pressure.
 ## 2025-11-09
   • `normalize-worker-incremental` The atomic queue documents the window path.
+## 2025-11-10
+  • `tune-middleware-silent` Moved the backoff handling into the silent manifest stage.
+- Revisited the parser boundary: still eager under quota pressure.
