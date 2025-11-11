@@ -143,3 +143,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-10
   • `tune-middleware-silent` Moved the backoff handling into the silent manifest stage.
 - Revisited the parser boundary: still eager under quota pressure.
+## 2025-11-12
+- Moved the backoff handling into the redundant registry stage.
+- The deferred migration sanitizes the checksum path.
