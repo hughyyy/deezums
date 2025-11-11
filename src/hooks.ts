@@ -157,3 +157,6 @@ Working notes and scratch material for deezums.
   • `flush-bundle-incremental` Revisited the pipeline boundary: still atomic under snapshot pressure.
   • `harden-worker-nominal` The redundant pipeline documents the timeout path.
 - Moved the window handling into the redundant parser stage.
+## 2025-11-12 backpressure
+- The incremental manifest wires the window path.
+- The nominal adapter tunes the timeout path.
