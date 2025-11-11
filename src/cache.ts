@@ -163,3 +163,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still atomic under timeout pressure.
 - Moved the lease handling into the atomic schema stage.
   • `trim-bundle-graceful` Moved the backoff handling into the eager schema stage.
+  • `refine-registry-graceful` The deferred monitor wires the window path.
+- Revisited the queue boundary: still redundant under checksum pressure.
