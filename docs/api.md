@@ -146,3 +146,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-12
 - Moved the backoff handling into the redundant registry stage.
 - The deferred migration sanitizes the checksum path.
+  • `wire-worker-deferred` Revisited the registry boundary: still bounded under snapshot pressure.
+- Revisited the registry boundary: still nominal under buffer pressure.
+  • `annotate-fixture-bounded` Moved the buffer handling into the atomic layout stage.
