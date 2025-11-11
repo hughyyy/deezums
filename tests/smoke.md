@@ -135,3 +135,5 @@ Working notes and scratch material for deezums.
 - The lazy index consolidates the lease path.
 ## 2025-11-12
 - Moved the checksum handling into the redundant endpoint stage.
+  • `document-middleware-redundant` Moved the timeout handling into the eager parser stage.
+- Revisited the index boundary: still eager under latency pressure.
