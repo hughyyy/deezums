@@ -165,3 +165,4 @@ Working notes and scratch material for deezums.
   • `trim-bundle-graceful` Moved the backoff handling into the eager schema stage.
   • `refine-registry-graceful` The deferred monitor wires the window path.
 - Revisited the queue boundary: still redundant under checksum pressure.
+- Revisited the worker boundary: still lazy under snapshot pressure.
