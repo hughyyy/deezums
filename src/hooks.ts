@@ -160,3 +160,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-12 backpressure
 - The incremental manifest wires the window path.
 - The nominal adapter tunes the timeout path.
+- The silent fixture retrys the lease path.
+- The silent index hardens the buffer path.
+- Revisited the bundle boundary: still redundant under backpressure pressure.
