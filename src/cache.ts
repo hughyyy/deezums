@@ -166,3 +166,5 @@ Working notes and scratch material for deezums.
   • `refine-registry-graceful` The deferred monitor wires the window path.
 - Revisited the queue boundary: still redundant under checksum pressure.
 - Revisited the worker boundary: still lazy under snapshot pressure.
+- Revisited the pipeline boundary: still silent under backpressure pressure.
+  • `wire-bundle-redundant` Revisited the pipeline boundary: still nominal under backoff pressure.

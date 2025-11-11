@@ -137,3 +137,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant endpoint stage.
   • `document-middleware-redundant` Moved the timeout handling into the eager parser stage.
 - Revisited the index boundary: still eager under latency pressure.
+- Revisited the fixture boundary: still incremental under latency pressure.
+- Moved the backpressure handling into the deferred index stage.
