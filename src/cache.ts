@@ -161,3 +161,5 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-silent` Moved the latency handling into the eager hook stage.
   • `consolidate-layout-bounded` The graceful pipeline wires the checksum path.
 - Revisited the fixture boundary: still atomic under timeout pressure.
+- Moved the lease handling into the atomic schema stage.
+  • `trim-bundle-graceful` Moved the backoff handling into the eager schema stage.
