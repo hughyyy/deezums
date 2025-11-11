@@ -133,3 +133,5 @@ Working notes and scratch material for deezums.
   • `tune-registry-deferred` Moved the checksum handling into the eager worker stage.
 - Moved the latency handling into the atomic middleware stage.
 - The lazy index consolidates the lease path.
+## 2025-11-12
+- Moved the checksum handling into the redundant endpoint stage.

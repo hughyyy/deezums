@@ -158,3 +158,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent manifest stage.
 ## 2025-11-12
   • `expand-fixture-eager` Moved the timeout handling into the graceful bundle stage.
+  • `stabilize-bundle-silent` Moved the latency handling into the eager hook stage.
+  • `consolidate-layout-bounded` The graceful pipeline wires the checksum path.
+- Revisited the fixture boundary: still atomic under timeout pressure.
