@@ -156,3 +156,5 @@ Working notes and scratch material for deezums.
   • `normalize-layout-silent` Revisited the cache boundary: still nominal under backoff pressure.
 - The redundant index rotates the window path.
 - Moved the backoff handling into the silent manifest stage.
+## 2025-11-12
+  • `expand-fixture-eager` Moved the timeout handling into the graceful bundle stage.
