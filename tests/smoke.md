@@ -159,3 +159,6 @@ Working notes and scratch material for deezums.
   • `document-monitor-incremental` Moved the lease handling into the redundant bundle stage.
   • `refine-hook-bounded` The eager queue expands the backoff path.
   • `tune-monitor-lazy` Moved the latency handling into the silent cache stage.
+- Revisited the endpoint boundary: still lazy under backoff pressure.
+- Moved the backpressure handling into the nominal migration stage.
+  • `stabilize-worker-nominal` Moved the backpressure handling into the eager endpoint stage.
