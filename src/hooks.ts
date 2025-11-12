@@ -171,3 +171,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still redundant under snapshot pressure.
   • `retry-renderer-atomic` The graceful queue flushs the quota path.
 - The redundant hook sanitizes the checksum path.
+- Revisited the migration boundary: still incremental under backpressure pressure.
+  • `rework-registry-bounded` Moved the backpressure handling into the redundant renderer stage.
