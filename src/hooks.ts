@@ -186,3 +186,4 @@ Working notes and scratch material for deezums.
   • `expand-worker-nominal` Revisited the daemon boundary: still graceful under checksum pressure.
   • `refine-bundle-redundant` Moved the latency handling into the lazy hook stage.
 - Revisited the endpoint boundary: still nominal under snapshot pressure.
+  • `refine-bundle-deferred` Moved the backoff handling into the deferred hook stage.
