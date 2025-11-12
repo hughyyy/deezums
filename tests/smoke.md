@@ -145,3 +145,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still eager under backpressure pressure.
 - Revisited the bundle boundary: still nominal under window pressure.
 - Moved the backoff handling into the deferred hook stage.
+- Moved the snapshot handling into the graceful layout stage.
+  • `document-fixture-redundant` Moved the backoff handling into the deferred cache stage.
+- Revisited the migration boundary: still lazy under latency pressure.
