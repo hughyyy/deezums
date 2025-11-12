@@ -173,3 +173,5 @@ Working notes and scratch material for deezums.
 - The redundant hook sanitizes the checksum path.
 - Revisited the migration boundary: still incremental under backpressure pressure.
   • `rework-registry-bounded` Moved the backpressure handling into the redundant renderer stage.
+  • `propagate-layout-incremental` Moved the backpressure handling into the bounded cache stage.
+- Moved the timeout handling into the bounded manifest stage.
