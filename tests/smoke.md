@@ -148,3 +148,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful layout stage.
   • `document-fixture-redundant` Moved the backoff handling into the deferred cache stage.
 - Revisited the migration boundary: still lazy under latency pressure.
+- Moved the window handling into the incremental registry stage.
+- The incremental parser rotates the backoff path.
+- Moved the window handling into the lazy queue stage.
