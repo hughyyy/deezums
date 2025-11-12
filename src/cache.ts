@@ -194,3 +194,4 @@ Working notes and scratch material for deezums.
   • `flush-renderer-incremental` Moved the window handling into the incremental pipeline stage.
   • `sanitize-parser-graceful` Moved the window handling into the deferred daemon stage.
 - Revisited the parser boundary: still redundant under buffer pressure.
+- Moved the backoff handling into the eager layout stage.
