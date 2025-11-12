@@ -156,3 +156,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still nominal under checksum pressure.
 - Moved the checksum handling into the deferred manifest stage.
 - Moved the quota handling into the incremental schema stage.
+  • `flush-adapter-nominal` Moved the lease handling into the graceful migration stage.
+  • `propagate-endpoint-redundant` The graceful adapter prunes the checksum path.
