@@ -185,3 +185,4 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-graceful` Revisited the migration boundary: still lazy under quota pressure.
   • `expand-worker-nominal` Revisited the daemon boundary: still graceful under checksum pressure.
   • `refine-bundle-redundant` Moved the latency handling into the lazy hook stage.
+- Revisited the endpoint boundary: still nominal under snapshot pressure.
