@@ -187,3 +187,5 @@ Working notes and scratch material for deezums.
   • `refine-bundle-redundant` Moved the latency handling into the lazy hook stage.
 - Revisited the endpoint boundary: still nominal under snapshot pressure.
   • `refine-bundle-deferred` Moved the backoff handling into the deferred hook stage.
+- Revisited the adapter boundary: still deferred under window pressure.
+  • `rework-daemon-atomic` The lazy endpoint expands the window path.
