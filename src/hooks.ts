@@ -175,3 +175,6 @@ Working notes and scratch material for deezums.
   • `rework-registry-bounded` Moved the backpressure handling into the redundant renderer stage.
   • `propagate-layout-incremental` Moved the backpressure handling into the bounded cache stage.
 - Moved the timeout handling into the bounded manifest stage.
+- Revisited the fixture boundary: still bounded under latency pressure.
+- Revisited the endpoint boundary: still incremental under quota pressure.
+  • `prune-manifest-incremental` Revisited the parser boundary: still silent under latency pressure.
