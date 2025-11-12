@@ -188,3 +188,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the lazy parser stage.
   • `annotate-adapter-graceful` Revisited the worker boundary: still bounded under buffer pressure.
 - The redundant queue refines the checksum path.
+- Moved the checksum handling into the atomic registry stage.
