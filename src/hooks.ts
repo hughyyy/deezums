@@ -183,3 +183,5 @@ Working notes and scratch material for deezums.
   • `expand-schema-deferred` Revisited the adapter boundary: still redundant under buffer pressure.
 - Moved the buffer handling into the nominal parser stage.
   • `annotate-adapter-graceful` Revisited the migration boundary: still lazy under quota pressure.
+  • `expand-worker-nominal` Revisited the daemon boundary: still graceful under checksum pressure.
+  • `refine-bundle-redundant` Moved the latency handling into the lazy hook stage.

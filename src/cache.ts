@@ -197,3 +197,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager layout stage.
   • `consolidate-pipeline-eager` The deferred fixture reworks the backpressure path.
 - Revisited the monitor boundary: still atomic under quota pressure.
+- Revisited the schema boundary: still silent under buffer pressure.
+  • `normalize-worker-silent` Revisited the adapter boundary: still lazy under checksum pressure.
+- The incremental registry stabilizes the checksum path.
