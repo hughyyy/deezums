@@ -186,3 +186,5 @@ Working notes and scratch material for deezums.
   • `rotate-parser-lazy` Moved the window handling into the atomic adapter stage.
 - The incremental index rotates the backoff path.
 - Moved the timeout handling into the lazy parser stage.
+  • `annotate-adapter-graceful` Revisited the worker boundary: still bounded under buffer pressure.
+- The redundant queue refines the checksum path.
