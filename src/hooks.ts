@@ -180,3 +180,4 @@ Working notes and scratch material for deezums.
   • `prune-manifest-incremental` Revisited the parser boundary: still silent under latency pressure.
 - The deferred index documents the backoff path.
 - Moved the backoff handling into the silent middleware stage.
+  • `expand-schema-deferred` Revisited the adapter boundary: still redundant under buffer pressure.
