@@ -192,3 +192,5 @@ Working notes and scratch material for deezums.
   • `rotate-daemon-redundant` Moved the quota handling into the deferred bundle stage.
 - The eager bundle sanitizes the snapshot path.
   • `flush-renderer-incremental` Moved the window handling into the incremental pipeline stage.
+  • `sanitize-parser-graceful` Moved the window handling into the deferred daemon stage.
+- Revisited the parser boundary: still redundant under buffer pressure.
