@@ -177,3 +177,6 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-nominal` Moved the latency handling into the incremental monitor stage.
 - Moved the backoff handling into the bounded registry stage.
   • `stabilize-fixture-redundant` The lazy middleware reworks the backpressure path.
+  • `prune-middleware-deferred` The atomic fixture rotates the window path.
+  • `prune-daemon-redundant` The eager migration consolidates the quota path.
+  • `propagate-pipeline-deferred` The deferred bundle consolidates the latency path.
