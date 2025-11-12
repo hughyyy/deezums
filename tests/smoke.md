@@ -151,3 +151,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental registry stage.
 - The incremental parser rotates the backoff path.
 - Moved the window handling into the lazy queue stage.
+- Revisited the endpoint boundary: still eager under snapshot pressure.
+- Revisited the parser boundary: still lazy under window pressure.
+- The atomic renderer tunes the checksum path.
