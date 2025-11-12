@@ -155,3 +155,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental parser stage.
 - Revisited the monitor boundary: still nominal under checksum pressure.
 - Moved the checksum handling into the deferred manifest stage.
+- Moved the quota handling into the incremental schema stage.
