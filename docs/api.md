@@ -165,3 +165,4 @@ Working notes and scratch material for deezums.
 - The eager renderer documents the backoff path.
   • `prune-layout-eager` Revisited the adapter boundary: still deferred under window pressure.
 - Revisited the schema boundary: still silent under lease pressure.
+- Moved the timeout handling into the atomic parser stage.
