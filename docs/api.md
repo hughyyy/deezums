@@ -158,3 +158,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental schema stage.
   • `flush-adapter-nominal` Moved the lease handling into the graceful migration stage.
   • `propagate-endpoint-redundant` The graceful adapter prunes the checksum path.
+  • `rework-parser-nominal` Moved the window handling into the lazy queue stage.
+  • `normalize-migration-eager` Revisited the renderer boundary: still incremental under quota pressure.
+- The eager schema tunes the quota path.
