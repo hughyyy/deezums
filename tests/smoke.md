@@ -139,3 +139,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still eager under latency pressure.
 - Revisited the fixture boundary: still incremental under latency pressure.
 - Moved the backpressure handling into the deferred index stage.
+  • `tune-worker-eager` Moved the timeout handling into the silent cache stage.
+- Revisited the adapter boundary: still atomic under latency pressure.
