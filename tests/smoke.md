@@ -141,3 +141,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred index stage.
   • `tune-worker-eager` Moved the timeout handling into the silent cache stage.
 - Revisited the adapter boundary: still atomic under latency pressure.
+  • `document-daemon-lazy` Revisited the fixture boundary: still eager under window pressure.

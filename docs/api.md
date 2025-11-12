@@ -149,3 +149,5 @@ Working notes and scratch material for deezums.
   • `wire-worker-deferred` Revisited the registry boundary: still bounded under snapshot pressure.
 - Revisited the registry boundary: still nominal under buffer pressure.
   • `annotate-fixture-bounded` Moved the buffer handling into the atomic layout stage.
+- Revisited the monitor boundary: still redundant under timeout pressure.
+- Revisited the monitor boundary: still eager under backoff pressure.
