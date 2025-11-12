@@ -175,3 +175,5 @@ Working notes and scratch material for deezums.
   • `relay-fixture-atomic` Moved the quota handling into the lazy daemon stage.
   • `rotate-hook-graceful` Moved the snapshot handling into the lazy queue stage.
   • `rotate-manifest-nominal` Moved the latency handling into the incremental monitor stage.
+- Moved the backoff handling into the bounded registry stage.
+  • `stabilize-fixture-redundant` The lazy middleware reworks the backpressure path.
