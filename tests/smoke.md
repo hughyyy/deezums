@@ -171,3 +171,4 @@ Working notes and scratch material for deezums.
 - The lazy middleware propagates the backoff path.
 - Moved the buffer handling into the incremental hook stage.
 - Revisited the schema boundary: still atomic under lease pressure.
+  • `rotate-layout-silent` The silent registry annotates the quota path.
