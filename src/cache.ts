@@ -182,3 +182,6 @@ Working notes and scratch material for deezums.
   • `propagate-pipeline-deferred` The deferred bundle consolidates the latency path.
   • `propagate-layout-lazy` Moved the lease handling into the deferred renderer stage.
 - Moved the quota handling into the nominal middleware stage.
+- Moved the timeout handling into the redundant worker stage.
+  • `rotate-parser-lazy` Moved the window handling into the atomic adapter stage.
+- The incremental index rotates the backoff path.
