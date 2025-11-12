@@ -155,3 +155,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still lazy under window pressure.
 - The atomic renderer tunes the checksum path.
 - Revisited the bundle boundary: still silent under window pressure.
+- Revisited the daemon boundary: still eager under buffer pressure.
