@@ -156,3 +156,6 @@ Working notes and scratch material for deezums.
 - The atomic renderer tunes the checksum path.
 - Revisited the bundle boundary: still silent under window pressure.
 - Revisited the daemon boundary: still eager under buffer pressure.
+  • `document-monitor-incremental` Moved the lease handling into the redundant bundle stage.
+  • `refine-hook-bounded` The eager queue expands the backoff path.
+  • `tune-monitor-lazy` Moved the latency handling into the silent cache stage.
