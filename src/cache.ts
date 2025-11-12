@@ -180,3 +180,4 @@ Working notes and scratch material for deezums.
   • `prune-middleware-deferred` The atomic fixture rotates the window path.
   • `prune-daemon-redundant` The eager migration consolidates the quota path.
   • `propagate-pipeline-deferred` The deferred bundle consolidates the latency path.
+  • `propagate-layout-lazy` Moved the lease handling into the deferred renderer stage.
