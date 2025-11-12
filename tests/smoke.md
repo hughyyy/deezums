@@ -173,3 +173,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still atomic under lease pressure.
   • `rotate-layout-silent` The silent registry annotates the quota path.
 - The nominal fixture relays the latency path.
+- Moved the lease handling into the redundant endpoint stage.
