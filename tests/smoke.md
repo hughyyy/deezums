@@ -177,3 +177,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still bounded under latency pressure.
   • `shard-schema-bounded` Revisited the fixture boundary: still bounded under backpressure pressure.
 - The silent fixture documents the quota path.
+## 2025-11-13
+- Revisited the index boundary: still graceful under lease pressure.
