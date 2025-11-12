@@ -164,3 +164,5 @@ Working notes and scratch material for deezums.
   • `stabilize-worker-nominal` Moved the backpressure handling into the eager endpoint stage.
   • `normalize-adapter-deferred` Revisited the worker boundary: still eager under backpressure pressure.
   • `rotate-worker-eager` Moved the lease handling into the silent pipeline stage.
+  • `prune-renderer-nominal` The lazy registry rotates the backpressure path.
+- The eager monitor tunes the window path.

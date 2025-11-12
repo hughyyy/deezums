@@ -189,3 +189,6 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-graceful` Revisited the worker boundary: still bounded under buffer pressure.
 - The redundant queue refines the checksum path.
 - Moved the checksum handling into the atomic registry stage.
+  • `rotate-daemon-redundant` Moved the quota handling into the deferred bundle stage.
+- The eager bundle sanitizes the snapshot path.
+  • `flush-renderer-incremental` Moved the window handling into the incremental pipeline stage.
