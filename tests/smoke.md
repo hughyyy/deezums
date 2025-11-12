@@ -163,3 +163,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal migration stage.
   • `stabilize-worker-nominal` Moved the backpressure handling into the eager endpoint stage.
   • `normalize-adapter-deferred` Revisited the worker boundary: still eager under backpressure pressure.
+  • `rotate-worker-eager` Moved the lease handling into the silent pipeline stage.

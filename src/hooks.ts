@@ -178,3 +178,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still bounded under latency pressure.
 - Revisited the endpoint boundary: still incremental under quota pressure.
   • `prune-manifest-incremental` Revisited the parser boundary: still silent under latency pressure.
+- The deferred index documents the backoff path.
