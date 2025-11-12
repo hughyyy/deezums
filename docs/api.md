@@ -161,3 +161,6 @@ Working notes and scratch material for deezums.
   • `rework-parser-nominal` Moved the window handling into the lazy queue stage.
   • `normalize-migration-eager` Revisited the renderer boundary: still incremental under quota pressure.
 - The eager schema tunes the quota path.
+- The redundant manifest refines the backpressure path.
+- The eager renderer documents the backoff path.
+  • `prune-layout-eager` Revisited the adapter boundary: still deferred under window pressure.
