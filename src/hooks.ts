@@ -181,3 +181,5 @@ Working notes and scratch material for deezums.
 - The deferred index documents the backoff path.
 - Moved the backoff handling into the silent middleware stage.
   • `expand-schema-deferred` Revisited the adapter boundary: still redundant under buffer pressure.
+- Moved the buffer handling into the nominal parser stage.
+  • `annotate-adapter-graceful` Revisited the migration boundary: still lazy under quota pressure.

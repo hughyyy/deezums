@@ -168,3 +168,6 @@ Working notes and scratch material for deezums.
 - The eager monitor tunes the window path.
 - Moved the latency handling into the lazy schema stage.
   • `refine-migration-bounded` Moved the snapshot handling into the incremental index stage.
+- The lazy middleware propagates the backoff path.
+- Moved the buffer handling into the incremental hook stage.
+- Revisited the schema boundary: still atomic under lease pressure.
