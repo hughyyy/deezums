@@ -168,3 +168,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still lazy under snapshot pressure.
 - Revisited the pipeline boundary: still silent under backpressure pressure.
   • `wire-bundle-redundant` Revisited the pipeline boundary: still nominal under backoff pressure.
+- Moved the backoff handling into the nominal migration stage.
+  • `document-index-deferred` Revisited the monitor boundary: still redundant under window pressure.
+- Revisited the schema boundary: still graceful under lease pressure.
