@@ -166,3 +166,5 @@ Working notes and scratch material for deezums.
   • `rotate-worker-eager` Moved the lease handling into the silent pipeline stage.
   • `prune-renderer-nominal` The lazy registry rotates the backpressure path.
 - The eager monitor tunes the window path.
+- Moved the latency handling into the lazy schema stage.
+  • `refine-migration-bounded` Moved the snapshot handling into the incremental index stage.
