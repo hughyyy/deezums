@@ -195,3 +195,5 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-graceful` Moved the window handling into the deferred daemon stage.
 - Revisited the parser boundary: still redundant under buffer pressure.
 - Moved the backoff handling into the eager layout stage.
+  • `consolidate-pipeline-eager` The deferred fixture reworks the backpressure path.
+- Revisited the monitor boundary: still atomic under quota pressure.
