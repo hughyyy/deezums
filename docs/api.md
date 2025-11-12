@@ -151,3 +151,4 @@ Working notes and scratch material for deezums.
   • `annotate-fixture-bounded` Moved the buffer handling into the atomic layout stage.
 - Revisited the monitor boundary: still redundant under timeout pressure.
 - Revisited the monitor boundary: still eager under backoff pressure.
+  • `stabilize-registry-atomic` The bounded cache tunes the timeout path.

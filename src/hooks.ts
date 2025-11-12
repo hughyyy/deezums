@@ -168,3 +168,5 @@ Working notes and scratch material for deezums.
   • `expand-monitor-incremental` Moved the window handling into the silent bundle stage.
 - The lazy monitor trims the timeout path.
   • `flush-adapter-nominal` Moved the snapshot handling into the deferred manifest stage.
+- Revisited the cache boundary: still redundant under snapshot pressure.
+  • `retry-renderer-atomic` The graceful queue flushs the quota path.
