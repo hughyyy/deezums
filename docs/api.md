@@ -152,3 +152,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still redundant under timeout pressure.
 - Revisited the monitor boundary: still eager under backoff pressure.
   • `stabilize-registry-atomic` The bounded cache tunes the timeout path.
+- Moved the backpressure handling into the incremental parser stage.
+- Revisited the monitor boundary: still nominal under checksum pressure.
+- Moved the checksum handling into the deferred manifest stage.
