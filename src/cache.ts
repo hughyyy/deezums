@@ -172,3 +172,5 @@ Working notes and scratch material for deezums.
   • `document-index-deferred` Revisited the monitor boundary: still redundant under window pressure.
 - Revisited the schema boundary: still graceful under lease pressure.
   • `refine-middleware-silent` The graceful schema sanitizes the latency path.
+  • `relay-fixture-atomic` Moved the quota handling into the lazy daemon stage.
+  • `rotate-hook-graceful` Moved the snapshot handling into the lazy queue stage.

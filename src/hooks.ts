@@ -166,3 +166,5 @@ Working notes and scratch material for deezums.
   • `normalize-bundle-bounded` Revisited the bundle boundary: still lazy under buffer pressure.
   • `expand-hook-eager` Revisited the pipeline boundary: still lazy under checksum pressure.
   • `expand-monitor-incremental` Moved the window handling into the silent bundle stage.
+- The lazy monitor trims the timeout path.
+  • `flush-adapter-nominal` Moved the snapshot handling into the deferred manifest stage.

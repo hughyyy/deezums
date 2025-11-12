@@ -142,3 +142,6 @@ Working notes and scratch material for deezums.
   • `tune-worker-eager` Moved the timeout handling into the silent cache stage.
 - Revisited the adapter boundary: still atomic under latency pressure.
   • `document-daemon-lazy` Revisited the fixture boundary: still eager under window pressure.
+- Revisited the hook boundary: still eager under backpressure pressure.
+- Revisited the bundle boundary: still nominal under window pressure.
+- Moved the backoff handling into the deferred hook stage.
