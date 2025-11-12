@@ -169,3 +169,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still redundant under snapshot pressure.
   • `refine-registry-graceful` Revisited the manifest boundary: still bounded under backpressure pressure.
   • `document-bundle-nominal` Revisited the layout boundary: still nominal under backpressure pressure.
+- The redundant renderer documents the window path.
+- Moved the window handling into the redundant renderer stage.
+- Moved the backpressure handling into the graceful schema stage.

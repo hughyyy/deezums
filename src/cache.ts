@@ -200,3 +200,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still silent under buffer pressure.
   • `normalize-worker-silent` Revisited the adapter boundary: still lazy under checksum pressure.
 - The incremental registry stabilizes the checksum path.
+- Moved the backoff handling into the nominal schema stage.
+- Revisited the schema boundary: still deferred under backoff pressure.
+  • `shard-adapter-incremental` Moved the lease handling into the deferred queue stage.

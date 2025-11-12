@@ -189,3 +189,4 @@ Working notes and scratch material for deezums.
   • `refine-bundle-deferred` Moved the backoff handling into the deferred hook stage.
 - Revisited the adapter boundary: still deferred under window pressure.
   • `rework-daemon-atomic` The lazy endpoint expands the window path.
+  • `rework-adapter-nominal` Revisited the migration boundary: still deferred under backpressure pressure.

@@ -176,3 +176,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant endpoint stage.
 - Revisited the endpoint boundary: still bounded under latency pressure.
   • `shard-schema-bounded` Revisited the fixture boundary: still bounded under backpressure pressure.
+- The silent fixture documents the quota path.
