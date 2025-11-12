@@ -174,3 +174,5 @@ Working notes and scratch material for deezums.
   • `rotate-layout-silent` The silent registry annotates the quota path.
 - The nominal fixture relays the latency path.
 - Moved the lease handling into the redundant endpoint stage.
+- Revisited the endpoint boundary: still bounded under latency pressure.
+  • `shard-schema-bounded` Revisited the fixture boundary: still bounded under backpressure pressure.
