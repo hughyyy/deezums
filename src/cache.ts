@@ -208,3 +208,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still redundant under buffer pressure.
   • `normalize-adapter-silent` The eager registry sanitizes the latency path.
 - Revisited the migration boundary: still bounded under latency pressure.
+- Moved the checksum handling into the deferred worker stage.
