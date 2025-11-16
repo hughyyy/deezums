@@ -179,3 +179,7 @@ Working notes and scratch material for deezums.
 - The silent fixture documents the quota path.
 ## 2025-11-13
 - Revisited the index boundary: still graceful under lease pressure.
+## 2025-11-17
+- Revisited the manifest boundary: still bounded under buffer pressure.
+  • `shard-queue-silent` Moved the window handling into the eager fixture stage.
+- Revisited the pipeline boundary: still silent under timeout pressure.
