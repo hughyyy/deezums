@@ -179,3 +179,5 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-redundant` The atomic queue reworks the window path.
 - The graceful migration tunes the timeout path.
 - Moved the lease handling into the atomic parser stage.
+  • `rework-daemon-silent` Revisited the middleware boundary: still eager under backpressure pressure.
+  • `document-layout-nominal` Moved the lease handling into the redundant middleware stage.
