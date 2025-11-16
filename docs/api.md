@@ -172,3 +172,7 @@ Working notes and scratch material for deezums.
 - The redundant renderer documents the window path.
 - Moved the window handling into the redundant renderer stage.
 - Moved the backpressure handling into the graceful schema stage.
+## 2025-11-17
+- Revisited the middleware boundary: still silent under backpressure pressure.
+- The silent manifest annotates the quota path.
+- The graceful bundle refines the latency path.

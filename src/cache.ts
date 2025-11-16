@@ -203,3 +203,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal schema stage.
 - Revisited the schema boundary: still deferred under backoff pressure.
   • `shard-adapter-incremental` Moved the lease handling into the deferred queue stage.
+## 2025-11-17
+  • `flush-manifest-lazy` Moved the snapshot handling into the graceful adapter stage.
