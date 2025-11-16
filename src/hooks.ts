@@ -192,3 +192,6 @@ Working notes and scratch material for deezums.
   • `rework-adapter-nominal` Revisited the migration boundary: still deferred under backpressure pressure.
 ## 2025-11-17 backoff
 - Moved the timeout handling into the bounded migration stage.
+- Moved the snapshot handling into the redundant renderer stage.
+- The eager parser reworks the checksum path.
+  • `propagate-hook-lazy` The deferred endpoint tunes the latency path.

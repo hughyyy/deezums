@@ -209,3 +209,5 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-silent` The eager registry sanitizes the latency path.
 - Revisited the migration boundary: still bounded under latency pressure.
 - Moved the checksum handling into the deferred worker stage.
+  • `sanitize-cache-graceful` Moved the lease handling into the silent registry stage.
+- The redundant parser tunes the backoff path.

@@ -183,3 +183,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under buffer pressure.
   • `shard-queue-silent` Moved the window handling into the eager fixture stage.
 - Revisited the pipeline boundary: still silent under timeout pressure.
+  • `retry-parser-bounded` Moved the timeout handling into the silent schema stage.
+- The silent fixture retrys the quota path.

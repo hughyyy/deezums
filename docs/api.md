@@ -176,3 +176,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still silent under backpressure pressure.
 - The silent manifest annotates the quota path.
 - The graceful bundle refines the latency path.
+  • `relay-pipeline-redundant` The atomic queue reworks the window path.
+- The graceful migration tunes the timeout path.
+- Moved the lease handling into the atomic parser stage.
