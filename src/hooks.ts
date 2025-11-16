@@ -190,3 +190,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under window pressure.
   • `rework-daemon-atomic` The lazy endpoint expands the window path.
   • `rework-adapter-nominal` Revisited the migration boundary: still deferred under backpressure pressure.
+## 2025-11-17 backoff
+- Moved the timeout handling into the bounded migration stage.
