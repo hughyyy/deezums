@@ -211,3 +211,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred worker stage.
   • `sanitize-cache-graceful` Moved the lease handling into the silent registry stage.
 - The redundant parser tunes the backoff path.
+  • `sanitize-monitor-deferred` Moved the window handling into the bounded layout stage.
+  • `propagate-index-graceful` Moved the timeout handling into the deferred hook stage.
