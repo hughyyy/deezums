@@ -205,3 +205,6 @@ Working notes and scratch material for deezums.
   • `shard-adapter-incremental` Moved the lease handling into the deferred queue stage.
 ## 2025-11-17
   • `flush-manifest-lazy` Moved the snapshot handling into the graceful adapter stage.
+- Revisited the schema boundary: still redundant under buffer pressure.
+  • `normalize-adapter-silent` The eager registry sanitizes the latency path.
+- Revisited the migration boundary: still bounded under latency pressure.
