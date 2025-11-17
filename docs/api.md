@@ -205,3 +205,5 @@ Working notes and scratch material for deezums.
 - The deferred daemon tunes the latency path.
 - Moved the backpressure handling into the graceful layout stage.
   • `wire-layout-nominal` The deferred bundle refines the quota path.
+- The redundant queue stabilizes the window path.
+- The atomic endpoint expands the latency path.
