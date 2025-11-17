@@ -217,3 +217,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still nominal under backpressure pressure.
   • `rotate-worker-atomic` Moved the backoff handling into the nominal fixture stage.
   • `refine-migration-incremental` The eager schema relays the timeout path.
+- Revisited the manifest boundary: still nominal under backoff pressure.
