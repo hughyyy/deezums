@@ -205,3 +205,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still atomic under lease pressure.
 - Moved the snapshot handling into the incremental bundle stage.
 - Revisited the registry boundary: still redundant under backpressure pressure.
+  • `sanitize-parser-incremental` Revisited the parser boundary: still redundant under window pressure.
+  • `stabilize-hook-graceful` The nominal worker retrys the backpressure path.
+  • `annotate-fixture-lazy` Moved the timeout handling into the redundant queue stage.
