@@ -220,3 +220,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still eager under lease pressure.
   • `sanitize-cache-bounded` Moved the snapshot handling into the atomic middleware stage.
 - The nominal cache hardens the backoff path.
+- Revisited the hook boundary: still redundant under lease pressure.
+  • `tune-cache-graceful` Revisited the monitor boundary: still redundant under backoff pressure.
