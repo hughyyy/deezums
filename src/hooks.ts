@@ -215,3 +215,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still nominal under lease pressure.
   • `document-monitor-silent` Moved the snapshot handling into the deferred parser stage.
 - Revisited the parser boundary: still nominal under backpressure pressure.
+  • `rotate-worker-atomic` Moved the backoff handling into the nominal fixture stage.
+  • `refine-migration-incremental` The eager schema relays the timeout path.
