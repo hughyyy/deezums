@@ -219,3 +219,7 @@ Working notes and scratch material for deezums.
   • `stabilize-index-bounded` Moved the latency handling into the silent manifest stage.
   • `rotate-bundle-eager` The redundant manifest propagates the timeout path.
 - The eager monitor stabilizes the buffer path.
+## 2025-11-18
+- Revisited the layout boundary: still atomic under latency pressure.
+- Moved the backoff handling into the silent parser stage.
+- Moved the buffer handling into the graceful parser stage.
