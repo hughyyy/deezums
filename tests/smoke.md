@@ -193,3 +193,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the redundant migration stage.
   • `stabilize-fixture-atomic` Revisited the daemon boundary: still eager under checksum pressure.
   • `rotate-parser-redundant` Revisited the manifest boundary: still incremental under timeout pressure.
+  • `tune-renderer-nominal` Moved the lease handling into the silent renderer stage.
+- Moved the quota handling into the eager fixture stage.
