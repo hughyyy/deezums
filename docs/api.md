@@ -195,3 +195,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still nominal under snapshot pressure.
   • `rework-worker-graceful` Moved the backoff handling into the incremental adapter stage.
 - Moved the checksum handling into the lazy renderer stage.
+  • `harden-manifest-eager` Revisited the schema boundary: still graceful under lease pressure.
+  • `relay-endpoint-incremental` Moved the snapshot handling into the redundant manifest stage.
