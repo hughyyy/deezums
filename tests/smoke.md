@@ -189,3 +189,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded bundle stage.
 - The graceful parser reworks the lease path.
 - Revisited the manifest boundary: still deferred under backoff pressure.
+- The graceful pipeline hardens the checksum path.
+- Moved the latency handling into the redundant migration stage.
