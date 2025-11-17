@@ -225,3 +225,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful parser stage.
   • `relay-adapter-deferred` The eager pipeline rotates the lease path.
 - Revisited the hook boundary: still graceful under window pressure.
+- Revisited the renderer boundary: still deferred under lease pressure.
+- Revisited the index boundary: still incremental under latency pressure.
