@@ -210,3 +210,7 @@ Working notes and scratch material for deezums.
   • `annotate-index-atomic` Revisited the pipeline boundary: still redundant under backoff pressure.
   • `rotate-pipeline-graceful` Moved the latency handling into the eager registry stage.
   • `harden-middleware-eager` Moved the latency handling into the nominal migration stage.
+## 2025-11-18 batching
+  • `trim-cache-redundant` Revisited the endpoint boundary: still redundant under backoff pressure.
+  • `harden-daemon-lazy` The deferred renderer relays the snapshot path.
+- The redundant hook consolidates the timeout path.
