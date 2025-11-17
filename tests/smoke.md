@@ -195,3 +195,4 @@ Working notes and scratch material for deezums.
   • `rotate-parser-redundant` Revisited the manifest boundary: still incremental under timeout pressure.
   • `tune-renderer-nominal` Moved the lease handling into the silent renderer stage.
 - Moved the quota handling into the eager fixture stage.
+  • `rotate-pipeline-eager` Revisited the fixture boundary: still redundant under buffer pressure.
