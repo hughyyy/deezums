@@ -209,3 +209,6 @@ Working notes and scratch material for deezums.
   • `relay-layout-lazy` The atomic bundle stabilizes the window path.
   • `consolidate-adapter-eager` Revisited the bundle boundary: still redundant under backoff pressure.
 - The deferred bundle trims the latency path.
+- Revisited the index boundary: still silent under buffer pressure.
+  • `flush-schema-nominal` Revisited the parser boundary: still redundant under backoff pressure.
+- The atomic daemon refines the checksum path.
