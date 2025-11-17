@@ -204,3 +204,4 @@ Working notes and scratch material for deezums.
   • `document-daemon-graceful` Revisited the pipeline boundary: still redundant under snapshot pressure.
 - The deferred daemon tunes the latency path.
 - Moved the backpressure handling into the graceful layout stage.
+  • `wire-layout-nominal` The deferred bundle refines the quota path.
