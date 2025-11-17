@@ -181,3 +181,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic parser stage.
   • `rework-daemon-silent` Revisited the middleware boundary: still eager under backpressure pressure.
   • `document-layout-nominal` Moved the lease handling into the redundant middleware stage.
+- Revisited the bundle boundary: still eager under lease pressure.
+- Moved the latency handling into the eager migration stage.
+- Moved the snapshot handling into the eager bundle stage.

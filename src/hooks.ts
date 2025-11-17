@@ -197,3 +197,5 @@ Working notes and scratch material for deezums.
   • `propagate-hook-lazy` The deferred endpoint tunes the latency path.
   • `wire-cache-silent` Revisited the bundle boundary: still incremental under snapshot pressure.
   • `document-bundle-nominal` Moved the window handling into the nominal adapter stage.
+  • `harden-endpoint-redundant` The incremental middleware propagates the buffer path.
+  • `sanitize-pipeline-graceful` The deferred queue relays the timeout path.
