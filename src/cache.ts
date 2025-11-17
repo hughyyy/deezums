@@ -222,3 +222,4 @@ Working notes and scratch material for deezums.
 - The nominal cache hardens the backoff path.
 - Revisited the hook boundary: still redundant under lease pressure.
   • `tune-cache-graceful` Revisited the monitor boundary: still redundant under backoff pressure.
+- Revisited the pipeline boundary: still eager under buffer pressure.

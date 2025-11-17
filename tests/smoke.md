@@ -199,3 +199,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still nominal under quota pressure.
 - The deferred layout flushs the lease path.
   • `expand-adapter-nominal` Moved the backpressure handling into the eager pipeline stage.
+- The bounded migration documents the window path.
