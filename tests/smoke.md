@@ -211,3 +211,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy layout stage.
   • `annotate-manifest-lazy` Moved the backpressure handling into the silent adapter stage.
   • `rotate-index-incremental` Revisited the middleware boundary: still incremental under timeout pressure.
+- Revisited the monitor boundary: still graceful under backoff pressure.
+- The graceful cache propagates the timeout path.
