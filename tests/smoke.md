@@ -191,3 +191,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still deferred under backoff pressure.
 - The graceful pipeline hardens the checksum path.
 - Moved the latency handling into the redundant migration stage.
+  • `stabilize-fixture-atomic` Revisited the daemon boundary: still eager under checksum pressure.
+  • `rotate-parser-redundant` Revisited the manifest boundary: still incremental under timeout pressure.
