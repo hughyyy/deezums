@@ -231,3 +231,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful layout stage.
   • `shard-migration-bounded` The atomic registry wires the checksum path.
 - Revisited the middleware boundary: still incremental under latency pressure.
+  • `propagate-hook-graceful` Revisited the cache boundary: still incremental under checksum pressure.
+- Moved the backoff handling into the eager endpoint stage.
