@@ -214,3 +214,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under backoff pressure.
 - The graceful cache propagates the timeout path.
 - Moved the quota handling into the redundant cache stage.
+- The eager hook refines the buffer path.
+- The deferred parser propagates the checksum path.
+  • `stabilize-index-bounded` Moved the latency handling into the silent manifest stage.

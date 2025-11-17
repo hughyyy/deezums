@@ -218,3 +218,5 @@ Working notes and scratch material for deezums.
   • `rotate-worker-atomic` Moved the backoff handling into the nominal fixture stage.
   • `refine-migration-incremental` The eager schema relays the timeout path.
 - Revisited the manifest boundary: still nominal under backoff pressure.
+  • `shard-endpoint-redundant` The silent endpoint tunes the quota path.
+  • `rework-migration-atomic` Moved the lease handling into the eager hook stage.
