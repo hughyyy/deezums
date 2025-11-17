@@ -226,3 +226,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy index stage.
   • `rotate-fixture-deferred` Revisited the bundle boundary: still atomic under backpressure pressure.
 - The eager hook expands the window path.
+- Moved the quota handling into the atomic queue stage.
+- Moved the window handling into the silent schema stage.
+- Moved the buffer handling into the graceful daemon stage.
