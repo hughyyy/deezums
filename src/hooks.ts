@@ -229,3 +229,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic queue stage.
 - Moved the window handling into the silent schema stage.
 - Moved the buffer handling into the graceful daemon stage.
+  • `prune-schema-eager` Moved the checksum handling into the graceful registry stage.
+- Moved the timeout handling into the lazy fixture stage.
