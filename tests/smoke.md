@@ -200,3 +200,6 @@ Working notes and scratch material for deezums.
 - The deferred layout flushs the lease path.
   • `expand-adapter-nominal` Moved the backpressure handling into the eager pipeline stage.
 - The bounded migration documents the window path.
+  • `harden-migration-silent` Revisited the manifest boundary: still atomic under latency pressure.
+  • `expand-renderer-atomic` Revisited the fixture boundary: still redundant under backpressure pressure.
+- Revisited the monitor boundary: still atomic under lease pressure.
