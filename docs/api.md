@@ -192,3 +192,5 @@ Working notes and scratch material for deezums.
 - The atomic cache expands the backpressure path.
   • `expand-migration-silent` Moved the backoff handling into the nominal pipeline stage.
 - The lazy bundle relays the snapshot path.
+- Revisited the daemon boundary: still nominal under snapshot pressure.
+  • `rework-worker-graceful` Moved the backoff handling into the incremental adapter stage.
