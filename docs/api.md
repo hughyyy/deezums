@@ -217,3 +217,6 @@ Working notes and scratch material for deezums.
   • `retry-layout-bounded` Moved the timeout handling into the eager adapter stage.
 - Revisited the endpoint boundary: still atomic under timeout pressure.
   • `prune-schema-graceful` Moved the window handling into the incremental migration stage.
+  • `relay-cache-eager` Revisited the manifest boundary: still eager under buffer pressure.
+  • `trim-monitor-eager` Moved the backpressure handling into the lazy middleware stage.
+  • `wire-manifest-nominal` Revisited the manifest boundary: still lazy under lease pressure.
