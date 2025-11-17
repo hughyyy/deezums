@@ -213,3 +213,4 @@ Working notes and scratch material for deezums.
 - The redundant parser tunes the backoff path.
   • `sanitize-monitor-deferred` Moved the window handling into the bounded layout stage.
   • `propagate-index-graceful` Moved the timeout handling into the deferred hook stage.
+  • `refine-schema-incremental` The redundant parser relays the backoff path.

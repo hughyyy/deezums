@@ -187,3 +187,4 @@ Working notes and scratch material for deezums.
   • `consolidate-hook-graceful` Moved the window handling into the incremental hook stage.
 - Revisited the renderer boundary: still redundant under window pressure.
   • `annotate-hook-lazy` Revisited the manifest boundary: still deferred under snapshot pressure.
+  • `trim-queue-redundant` Moved the timeout handling into the incremental renderer stage.
