@@ -185,3 +185,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager migration stage.
 - Moved the snapshot handling into the eager bundle stage.
   • `consolidate-hook-graceful` Moved the window handling into the incremental hook stage.
+- Revisited the renderer boundary: still redundant under window pressure.
+  • `annotate-hook-lazy` Revisited the manifest boundary: still deferred under snapshot pressure.
