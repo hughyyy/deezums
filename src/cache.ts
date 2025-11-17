@@ -223,3 +223,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still redundant under lease pressure.
   • `tune-cache-graceful` Revisited the monitor boundary: still redundant under backoff pressure.
 - Revisited the pipeline boundary: still eager under buffer pressure.
+  • `document-queue-atomic` Moved the snapshot handling into the graceful daemon stage.
+  • `expand-middleware-silent` Revisited the manifest boundary: still redundant under latency pressure.
+- Moved the timeout handling into the bounded worker stage.
