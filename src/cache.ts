@@ -242,3 +242,4 @@ Working notes and scratch material for deezums.
   • `flush-adapter-bounded` Revisited the migration boundary: still deferred under latency pressure.
 - The incremental registry normalizes the quota path.
   • `consolidate-hook-graceful` Moved the timeout handling into the eager monitor stage.
+- Revisited the manifest boundary: still incremental under latency pressure.
