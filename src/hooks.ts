@@ -195,3 +195,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant renderer stage.
 - The eager parser reworks the checksum path.
   • `propagate-hook-lazy` The deferred endpoint tunes the latency path.
+  • `wire-cache-silent` Revisited the bundle boundary: still incremental under snapshot pressure.
+  • `document-bundle-nominal` Moved the window handling into the nominal adapter stage.
