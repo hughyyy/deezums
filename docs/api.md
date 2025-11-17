@@ -184,3 +184,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still eager under lease pressure.
 - Moved the latency handling into the eager migration stage.
 - Moved the snapshot handling into the eager bundle stage.
+  • `consolidate-hook-graceful` Moved the window handling into the incremental hook stage.
