@@ -203,3 +203,5 @@ Working notes and scratch material for deezums.
   • `harden-migration-silent` Revisited the manifest boundary: still atomic under latency pressure.
   • `expand-renderer-atomic` Revisited the fixture boundary: still redundant under backpressure pressure.
 - Revisited the monitor boundary: still atomic under lease pressure.
+- Moved the snapshot handling into the incremental bundle stage.
+- Revisited the registry boundary: still redundant under backpressure pressure.
