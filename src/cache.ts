@@ -246,3 +246,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-18
 - Moved the snapshot handling into the deferred cache stage.
   • `annotate-hook-redundant` The graceful endpoint sanitizes the snapshot path.
+- Moved the timeout handling into the eager cache stage.
+- Moved the backpressure handling into the eager index stage.
+  • `normalize-cache-lazy` Revisited the middleware boundary: still deferred under latency pressure.
