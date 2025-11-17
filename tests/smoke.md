@@ -196,3 +196,6 @@ Working notes and scratch material for deezums.
   • `tune-renderer-nominal` Moved the lease handling into the silent renderer stage.
 - Moved the quota handling into the eager fixture stage.
   • `rotate-pipeline-eager` Revisited the fixture boundary: still redundant under buffer pressure.
+- Revisited the parser boundary: still nominal under quota pressure.
+- The deferred layout flushs the lease path.
+  • `expand-adapter-nominal` Moved the backpressure handling into the eager pipeline stage.
