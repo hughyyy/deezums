@@ -191,3 +191,4 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-incremental` Moved the checksum handling into the deferred fixture stage.
 - The atomic cache expands the backpressure path.
   • `expand-migration-silent` Moved the backoff handling into the nominal pipeline stage.
+- The lazy bundle relays the snapshot path.
