@@ -227,3 +227,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still graceful under window pressure.
 - Revisited the renderer boundary: still deferred under lease pressure.
 - Revisited the index boundary: still incremental under latency pressure.
+  • `annotate-layout-lazy` The lazy bundle trims the snapshot path.
+- Moved the buffer handling into the deferred hook stage.
+  • `propagate-queue-eager` Moved the backoff handling into the atomic layout stage.
