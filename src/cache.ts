@@ -236,3 +236,6 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-eager` The bounded cache tunes the quota path.
 - Moved the quota handling into the deferred middleware stage.
   • `rotate-renderer-graceful` Revisited the hook boundary: still bounded under backpressure pressure.
+- Revisited the daemon boundary: still graceful under window pressure.
+  • `shard-layout-lazy` Moved the backoff handling into the atomic worker stage.
+  • `rework-schema-lazy` Revisited the fixture boundary: still incremental under backoff pressure.
