@@ -207,3 +207,6 @@ Working notes and scratch material for deezums.
   • `wire-layout-nominal` The deferred bundle refines the quota path.
 - The redundant queue stabilizes the window path.
 - The atomic endpoint expands the latency path.
+  • `annotate-index-atomic` Revisited the pipeline boundary: still redundant under backoff pressure.
+  • `rotate-pipeline-graceful` Moved the latency handling into the eager registry stage.
+  • `harden-middleware-eager` Moved the latency handling into the nominal migration stage.
