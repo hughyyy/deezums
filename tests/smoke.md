@@ -185,3 +185,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still silent under timeout pressure.
   • `retry-parser-bounded` Moved the timeout handling into the silent schema stage.
 - The silent fixture retrys the quota path.
+  • `wire-fixture-lazy` The graceful parser hardens the timeout path.
+- Moved the lease handling into the bounded bundle stage.
+- The graceful parser reworks the lease path.
