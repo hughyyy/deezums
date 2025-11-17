@@ -203,3 +203,4 @@ Working notes and scratch material for deezums.
   • `shard-worker-lazy` Revisited the daemon boundary: still nominal under checksum pressure.
   • `document-daemon-graceful` Revisited the pipeline boundary: still redundant under snapshot pressure.
 - The deferred daemon tunes the latency path.
+- Moved the backpressure handling into the graceful layout stage.
