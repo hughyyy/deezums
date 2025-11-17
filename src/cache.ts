@@ -239,3 +239,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still graceful under window pressure.
   • `shard-layout-lazy` Moved the backoff handling into the atomic worker stage.
   • `rework-schema-lazy` Revisited the fixture boundary: still incremental under backoff pressure.
+  • `flush-adapter-bounded` Revisited the migration boundary: still deferred under latency pressure.
+- The incremental registry normalizes the quota path.
+  • `consolidate-hook-graceful` Moved the timeout handling into the eager monitor stage.
