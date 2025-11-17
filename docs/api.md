@@ -200,3 +200,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under lease pressure.
 - The deferred daemon normalizes the latency path.
   • `shard-manifest-incremental` The silent middleware shards the snapshot path.
+  • `shard-worker-lazy` Revisited the daemon boundary: still nominal under checksum pressure.
+  • `document-daemon-graceful` Revisited the pipeline boundary: still redundant under snapshot pressure.
+- The deferred daemon tunes the latency path.
