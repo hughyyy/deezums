@@ -214,3 +214,6 @@ Working notes and scratch material for deezums.
   • `trim-cache-redundant` Revisited the endpoint boundary: still redundant under backoff pressure.
   • `harden-daemon-lazy` The deferred renderer relays the snapshot path.
 - The redundant hook consolidates the timeout path.
+  • `retry-layout-bounded` Moved the timeout handling into the eager adapter stage.
+- Revisited the endpoint boundary: still atomic under timeout pressure.
+  • `prune-schema-graceful` Moved the window handling into the incremental migration stage.
