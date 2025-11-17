@@ -220,3 +220,7 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still nominal under backoff pressure.
   • `shard-endpoint-redundant` The silent endpoint tunes the quota path.
   • `rework-migration-atomic` Moved the lease handling into the eager hook stage.
+## 2025-11-18
+- Moved the lease handling into the graceful layout stage.
+- Revisited the pipeline boundary: still eager under lease pressure.
+- Moved the lease handling into the lazy index stage.
