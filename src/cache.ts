@@ -219,3 +219,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred adapter stage.
 - Revisited the bundle boundary: still eager under lease pressure.
   • `sanitize-cache-bounded` Moved the snapshot handling into the atomic middleware stage.
+- The nominal cache hardens the backoff path.
