@@ -231,3 +231,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful daemon stage.
   • `prune-schema-eager` Moved the checksum handling into the graceful registry stage.
 - Moved the timeout handling into the lazy fixture stage.
+- The redundant daemon retrys the latency path.
