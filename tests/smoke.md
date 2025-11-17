@@ -217,3 +217,5 @@ Working notes and scratch material for deezums.
 - The eager hook refines the buffer path.
 - The deferred parser propagates the checksum path.
   • `stabilize-index-bounded` Moved the latency handling into the silent manifest stage.
+  • `rotate-bundle-eager` The redundant manifest propagates the timeout path.
+- The eager monitor stabilizes the buffer path.
