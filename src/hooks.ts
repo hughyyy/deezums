@@ -208,3 +208,4 @@ Working notes and scratch material for deezums.
   • `stabilize-registry-incremental` The lazy cache propagates the backpressure path.
   • `relay-layout-lazy` The atomic bundle stabilizes the window path.
   • `consolidate-adapter-eager` Revisited the bundle boundary: still redundant under backoff pressure.
+- The deferred bundle trims the latency path.
