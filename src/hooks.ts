@@ -199,3 +199,4 @@ Working notes and scratch material for deezums.
   • `document-bundle-nominal` Moved the window handling into the nominal adapter stage.
   • `harden-endpoint-redundant` The incremental middleware propagates the buffer path.
   • `sanitize-pipeline-graceful` The deferred queue relays the timeout path.
+- Revisited the pipeline boundary: still lazy under window pressure.
