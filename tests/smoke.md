@@ -223,3 +223,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still atomic under latency pressure.
 - Moved the backoff handling into the silent parser stage.
 - Moved the buffer handling into the graceful parser stage.
+  • `relay-adapter-deferred` The eager pipeline rotates the lease path.
+- Revisited the hook boundary: still graceful under window pressure.
