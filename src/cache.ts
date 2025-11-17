@@ -233,3 +233,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still incremental under latency pressure.
   • `propagate-hook-graceful` Revisited the cache boundary: still incremental under checksum pressure.
 - Moved the backoff handling into the eager endpoint stage.
+  • `sanitize-renderer-eager` The bounded cache tunes the quota path.
+- Moved the quota handling into the deferred middleware stage.
+  • `rotate-renderer-graceful` Revisited the hook boundary: still bounded under backpressure pressure.
