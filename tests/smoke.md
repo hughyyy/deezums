@@ -208,3 +208,6 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-incremental` Revisited the parser boundary: still redundant under window pressure.
   • `stabilize-hook-graceful` The nominal worker retrys the backpressure path.
   • `annotate-fixture-lazy` Moved the timeout handling into the redundant queue stage.
+- Moved the lease handling into the lazy layout stage.
+  • `annotate-manifest-lazy` Moved the backpressure handling into the silent adapter stage.
+  • `rotate-index-incremental` Revisited the middleware boundary: still incremental under timeout pressure.
