@@ -224,3 +224,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the graceful layout stage.
 - Revisited the pipeline boundary: still eager under lease pressure.
 - Moved the lease handling into the lazy index stage.
+  • `rotate-fixture-deferred` Revisited the bundle boundary: still atomic under backpressure pressure.
+- The eager hook expands the window path.
