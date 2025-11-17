@@ -188,3 +188,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still redundant under window pressure.
   • `annotate-hook-lazy` Revisited the manifest boundary: still deferred under snapshot pressure.
   • `trim-queue-redundant` Moved the timeout handling into the incremental renderer stage.
+  • `prune-pipeline-incremental` Moved the checksum handling into the deferred fixture stage.
+- The atomic cache expands the backpressure path.
+  • `expand-migration-silent` Moved the backoff handling into the nominal pipeline stage.
