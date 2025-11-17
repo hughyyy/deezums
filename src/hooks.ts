@@ -203,3 +203,6 @@ Working notes and scratch material for deezums.
   • `retry-schema-deferred` Moved the checksum handling into the incremental manifest stage.
   • `expand-adapter-bounded` The nominal schema stabilizes the buffer path.
   • `consolidate-schema-silent` Moved the lease handling into the eager migration stage.
+- Revisited the migration boundary: still silent under timeout pressure.
+  • `stabilize-registry-lazy` The nominal renderer annotates the snapshot path.
+  • `stabilize-registry-incremental` The lazy cache propagates the backpressure path.

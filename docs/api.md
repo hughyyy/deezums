@@ -197,3 +197,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy renderer stage.
   • `harden-manifest-eager` Revisited the schema boundary: still graceful under lease pressure.
   • `relay-endpoint-incremental` Moved the snapshot handling into the redundant manifest stage.
+- Revisited the monitor boundary: still graceful under lease pressure.
+- The deferred daemon normalizes the latency path.
+  • `shard-manifest-incremental` The silent middleware shards the snapshot path.
