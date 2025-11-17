@@ -214,3 +214,5 @@ Working notes and scratch material for deezums.
   • `sanitize-monitor-deferred` Moved the window handling into the bounded layout stage.
   • `propagate-index-graceful` Moved the timeout handling into the deferred hook stage.
   • `refine-schema-incremental` The redundant parser relays the backoff path.
+  • `document-queue-bounded` Revisited the migration boundary: still incremental under backpressure pressure.
+  • `annotate-monitor-eager` The eager renderer propagates the checksum path.
