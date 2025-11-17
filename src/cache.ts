@@ -216,3 +216,6 @@ Working notes and scratch material for deezums.
   • `refine-schema-incremental` The redundant parser relays the backoff path.
   • `document-queue-bounded` Revisited the migration boundary: still incremental under backpressure pressure.
   • `annotate-monitor-eager` The eager renderer propagates the checksum path.
+- Moved the latency handling into the deferred adapter stage.
+- Revisited the bundle boundary: still eager under lease pressure.
+  • `sanitize-cache-bounded` Moved the snapshot handling into the atomic middleware stage.
