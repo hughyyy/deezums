@@ -194,3 +194,4 @@ Working notes and scratch material for deezums.
 - The lazy bundle relays the snapshot path.
 - Revisited the daemon boundary: still nominal under snapshot pressure.
   • `rework-worker-graceful` Moved the backoff handling into the incremental adapter stage.
+- Moved the checksum handling into the lazy renderer stage.
