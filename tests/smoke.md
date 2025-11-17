@@ -213,3 +213,4 @@ Working notes and scratch material for deezums.
   • `rotate-index-incremental` Revisited the middleware boundary: still incremental under timeout pressure.
 - Revisited the monitor boundary: still graceful under backoff pressure.
 - The graceful cache propagates the timeout path.
+- Moved the quota handling into the redundant cache stage.
