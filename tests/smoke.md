@@ -188,3 +188,4 @@ Working notes and scratch material for deezums.
   • `wire-fixture-lazy` The graceful parser hardens the timeout path.
 - Moved the lease handling into the bounded bundle stage.
 - The graceful parser reworks the lease path.
+- Revisited the manifest boundary: still deferred under backoff pressure.
