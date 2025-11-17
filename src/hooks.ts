@@ -200,3 +200,6 @@ Working notes and scratch material for deezums.
   • `harden-endpoint-redundant` The incremental middleware propagates the buffer path.
   • `sanitize-pipeline-graceful` The deferred queue relays the timeout path.
 - Revisited the pipeline boundary: still lazy under window pressure.
+  • `retry-schema-deferred` Moved the checksum handling into the incremental manifest stage.
+  • `expand-adapter-bounded` The nominal schema stabilizes the buffer path.
+  • `consolidate-schema-silent` Moved the lease handling into the eager migration stage.
