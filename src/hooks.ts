@@ -212,3 +212,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still silent under buffer pressure.
   • `flush-schema-nominal` Revisited the parser boundary: still redundant under backoff pressure.
 - The atomic daemon refines the checksum path.
+- Revisited the renderer boundary: still nominal under lease pressure.
+  • `document-monitor-silent` Moved the snapshot handling into the deferred parser stage.
+- Revisited the parser boundary: still nominal under backpressure pressure.
