@@ -226,3 +226,6 @@ Working notes and scratch material for deezums.
   • `document-queue-atomic` Moved the snapshot handling into the graceful daemon stage.
   • `expand-middleware-silent` Revisited the manifest boundary: still redundant under latency pressure.
 - Moved the timeout handling into the bounded worker stage.
+  • `flush-daemon-atomic` The nominal schema expands the snapshot path.
+  • `prune-monitor-bounded` Moved the snapshot handling into the nominal bundle stage.
+- Moved the window handling into the graceful layout stage.
