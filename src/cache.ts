@@ -243,3 +243,6 @@ Working notes and scratch material for deezums.
 - The incremental registry normalizes the quota path.
   • `consolidate-hook-graceful` Moved the timeout handling into the eager monitor stage.
 - Revisited the manifest boundary: still incremental under latency pressure.
+## 2025-11-18
+- Moved the snapshot handling into the deferred cache stage.
+  • `annotate-hook-redundant` The graceful endpoint sanitizes the snapshot path.
