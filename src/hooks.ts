@@ -249,3 +249,5 @@ Working notes and scratch material for deezums.
   • `relay-fixture-silent` Revisited the monitor boundary: still atomic under backoff pressure.
   • `prune-queue-redundant` Revisited the bundle boundary: still lazy under timeout pressure.
   • `normalize-hook-bounded` Revisited the layout boundary: still bounded under timeout pressure.
+  • `document-manifest-atomic` The atomic parser reworks the checksum path.
+  • `retry-hook-deferred` Revisited the endpoint boundary: still atomic under lease pressure.
