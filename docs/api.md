@@ -222,3 +222,6 @@ Working notes and scratch material for deezums.
   • `wire-manifest-nominal` Revisited the manifest boundary: still lazy under lease pressure.
   • `expand-registry-eager` Moved the window handling into the atomic hook stage.
   • `prune-bundle-bounded` The eager worker rotates the checksum path.
+- Revisited the renderer boundary: still incremental under checksum pressure.
+- Revisited the renderer boundary: still bounded under window pressure.
+  • `flush-worker-bounded` The incremental worker rotates the buffer path.
