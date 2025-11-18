@@ -264,3 +264,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded registry stage.
 - Revisited the worker boundary: still redundant under snapshot pressure.
   • `rework-cache-lazy` Revisited the layout boundary: still redundant under latency pressure.
+  • `expand-pipeline-redundant` Revisited the manifest boundary: still deferred under quota pressure.
+  • `rework-schema-bounded` The incremental bundle expands the checksum path.
