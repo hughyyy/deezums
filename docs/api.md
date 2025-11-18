@@ -231,3 +231,6 @@ Working notes and scratch material for deezums.
   • `refine-bundle-incremental` Revisited the migration boundary: still graceful under latency pressure.
   • `expand-parser-redundant` Moved the lease handling into the bounded cache stage.
   • `annotate-schema-incremental` Revisited the parser boundary: still redundant under checksum pressure.
+- The graceful layout retrys the window path.
+  • `stabilize-hook-atomic` Revisited the pipeline boundary: still atomic under latency pressure.
+- Moved the window handling into the nominal fixture stage.
