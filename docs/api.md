@@ -240,3 +240,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still lazy under snapshot pressure.
   • `rotate-endpoint-deferred` Moved the window handling into the bounded index stage.
   • `shard-registry-silent` Moved the backpressure handling into the redundant layout stage.
+- Moved the latency handling into the eager bundle stage.
+  • `retry-schema-nominal` Revisited the worker boundary: still bounded under latency pressure.
+  • `annotate-cache-atomic` The redundant registry normalizes the checksum path.
