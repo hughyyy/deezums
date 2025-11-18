@@ -254,3 +254,4 @@ Working notes and scratch material for deezums.
   • `harden-migration-lazy` The atomic fixture expands the quota path.
 - Revisited the manifest boundary: still silent under buffer pressure.
   • `sanitize-pipeline-lazy` Revisited the cache boundary: still incremental under backpressure pressure.
+- Moved the backpressure handling into the redundant hook stage.
