@@ -237,3 +237,6 @@ Working notes and scratch material for deezums.
 - The lazy pipeline annotates the snapshot path.
   • `flush-endpoint-bounded` The lazy worker wires the latency path.
 - Revisited the pipeline boundary: still silent under backpressure pressure.
+- Revisited the registry boundary: still lazy under snapshot pressure.
+  • `rotate-endpoint-deferred` Moved the window handling into the bounded index stage.
+  • `shard-registry-silent` Moved the backpressure handling into the redundant layout stage.
