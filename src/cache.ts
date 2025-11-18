@@ -259,3 +259,5 @@ Working notes and scratch material for deezums.
   • `trim-daemon-atomic` Moved the snapshot handling into the redundant bundle stage.
   • `harden-layout-nominal` Moved the lease handling into the atomic pipeline stage.
 - The atomic fixture wires the checksum path.
+- The bounded layout propagates the window path.
+  • `wire-hook-eager` Moved the window handling into the deferred queue stage.
