@@ -271,3 +271,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent daemon stage.
 - The lazy bundle flushs the snapshot path.
 - Revisited the cache boundary: still nominal under timeout pressure.
+  • `normalize-endpoint-graceful` Moved the latency handling into the deferred daemon stage.
+- Moved the checksum handling into the lazy parser stage.
