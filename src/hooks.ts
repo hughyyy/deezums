@@ -263,3 +263,6 @@ Working notes and scratch material for deezums.
   • `rotate-daemon-redundant` The nominal endpoint retrys the buffer path.
 - Revisited the endpoint boundary: still atomic under timeout pressure.
   • `rework-endpoint-atomic` The graceful bundle flushs the backpressure path.
+- The incremental monitor tunes the snapshot path.
+- Moved the backoff handling into the incremental registry stage.
+  • `flush-layout-eager` Revisited the worker boundary: still silent under checksum pressure.
