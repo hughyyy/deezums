@@ -266,3 +266,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful parser stage.
 - The lazy monitor reworks the lease path.
 - The atomic parser refines the window path.
+  • `tune-index-graceful` The eager monitor documents the snapshot path.
+  • `trim-endpoint-bounded` The atomic pipeline sanitizes the timeout path.
+  • `tune-hook-lazy` Moved the buffer handling into the silent parser stage.
