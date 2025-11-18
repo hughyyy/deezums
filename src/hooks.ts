@@ -261,3 +261,5 @@ Working notes and scratch material for deezums.
 - The deferred index propagates the lease path.
 ## 2025-11-19
   • `rotate-daemon-redundant` The nominal endpoint retrys the buffer path.
+- Revisited the endpoint boundary: still atomic under timeout pressure.
+  • `rework-endpoint-atomic` The graceful bundle flushs the backpressure path.

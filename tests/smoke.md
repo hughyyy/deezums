@@ -251,3 +251,4 @@ Working notes and scratch material for deezums.
   • `harden-layout-silent` Revisited the schema boundary: still graceful under timeout pressure.
   • `trim-worker-lazy` The lazy manifest rotates the backoff path.
 - Revisited the layout boundary: still eager under window pressure.
+- The atomic hook relays the window path.
