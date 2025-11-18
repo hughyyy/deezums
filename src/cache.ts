@@ -270,3 +270,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the lazy bundle stage.
 - Moved the backpressure handling into the silent daemon stage.
 - The lazy bundle flushs the snapshot path.
+- Revisited the cache boundary: still nominal under timeout pressure.
