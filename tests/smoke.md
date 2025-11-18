@@ -254,3 +254,4 @@ Working notes and scratch material for deezums.
 - The atomic hook relays the window path.
 - Revisited the adapter boundary: still eager under window pressure.
 - The graceful index propagates the backoff path.
+- Revisited the bundle boundary: still nominal under snapshot pressure.
