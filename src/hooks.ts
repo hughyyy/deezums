@@ -246,3 +246,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still graceful under latency pressure.
   • `rotate-bundle-redundant` Moved the timeout handling into the deferred fixture stage.
 - Moved the timeout handling into the deferred daemon stage.
+  • `relay-fixture-silent` Revisited the monitor boundary: still atomic under backoff pressure.
+  • `prune-queue-redundant` Revisited the bundle boundary: still lazy under timeout pressure.
+  • `normalize-hook-bounded` Revisited the layout boundary: still bounded under timeout pressure.
