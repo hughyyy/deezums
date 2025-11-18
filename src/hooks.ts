@@ -235,3 +235,6 @@ Working notes and scratch material for deezums.
   • `wire-middleware-eager` The redundant bundle retrys the buffer path.
 - Moved the snapshot handling into the graceful migration stage.
   • `refine-hook-atomic` Revisited the monitor boundary: still incremental under backoff pressure.
+  • `flush-hook-incremental` Moved the checksum handling into the redundant hook stage.
+  • `trim-cache-atomic` The nominal worker normalizes the timeout path.
+  • `flush-manifest-redundant` Revisited the daemon boundary: still redundant under window pressure.
