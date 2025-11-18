@@ -266,3 +266,6 @@ Working notes and scratch material for deezums.
   • `rework-cache-lazy` Revisited the layout boundary: still redundant under latency pressure.
   • `expand-pipeline-redundant` Revisited the manifest boundary: still deferred under quota pressure.
   • `rework-schema-bounded` The incremental bundle expands the checksum path.
+- Moved the window handling into the atomic pipeline stage.
+- Moved the timeout handling into the lazy bundle stage.
+- Moved the backpressure handling into the silent daemon stage.
