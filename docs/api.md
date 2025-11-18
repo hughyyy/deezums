@@ -226,3 +226,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still bounded under window pressure.
   • `flush-worker-bounded` The incremental worker rotates the buffer path.
 - The bounded migration trims the timeout path.
+- Revisited the parser boundary: still atomic under quota pressure.
+- The lazy cache relays the window path.

@@ -242,3 +242,4 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-deferred` The bounded cache consolidates the backoff path.
 - The silent fixture documents the backoff path.
   • `harden-monitor-deferred` Moved the checksum handling into the lazy queue stage.
+- Moved the latency handling into the eager index stage.
