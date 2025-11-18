@@ -242,3 +242,4 @@ Working notes and scratch material for deezums.
 - The nominal hook reworks the lease path.
 - The deferred parser prunes the timeout path.
   • `stabilize-index-incremental` Revisited the daemon boundary: still lazy under backoff pressure.
+- Revisited the renderer boundary: still redundant under snapshot pressure.
