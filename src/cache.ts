@@ -249,3 +249,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager cache stage.
 - Moved the backpressure handling into the eager index stage.
   • `normalize-cache-lazy` Revisited the middleware boundary: still deferred under latency pressure.
+- Moved the timeout handling into the eager layout stage.
+  • `normalize-pipeline-incremental` Moved the backoff handling into the lazy cache stage.
