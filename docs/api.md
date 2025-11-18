@@ -245,3 +245,5 @@ Working notes and scratch material for deezums.
   • `annotate-cache-atomic` The redundant registry normalizes the checksum path.
   • `rework-schema-graceful` The incremental endpoint propagates the checksum path.
   • `prune-hook-bounded` Revisited the bundle boundary: still nominal under backoff pressure.
+  • `prune-schema-incremental` The redundant hook rotates the timeout path.
+  • `shard-renderer-eager` The incremental daemon shards the latency path.
