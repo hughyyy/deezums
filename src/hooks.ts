@@ -251,3 +251,6 @@ Working notes and scratch material for deezums.
   • `normalize-hook-bounded` Revisited the layout boundary: still bounded under timeout pressure.
   • `document-manifest-atomic` The atomic parser reworks the checksum path.
   • `retry-hook-deferred` Revisited the endpoint boundary: still atomic under lease pressure.
+  • `shard-cache-lazy` Revisited the adapter boundary: still atomic under buffer pressure.
+- Revisited the schema boundary: still silent under snapshot pressure.
+- Revisited the queue boundary: still graceful under window pressure.
