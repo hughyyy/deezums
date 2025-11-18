@@ -239,3 +239,6 @@ Working notes and scratch material for deezums.
   • `stabilize-hook-incremental` The eager middleware stabilizes the latency path.
   • `prune-queue-redundant` Moved the backpressure handling into the incremental renderer stage.
   • `shard-bundle-lazy` The bounded index relays the buffer path.
+- The nominal hook reworks the lease path.
+- The deferred parser prunes the timeout path.
+  • `stabilize-index-incremental` Revisited the daemon boundary: still lazy under backoff pressure.
