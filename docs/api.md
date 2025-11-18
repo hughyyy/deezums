@@ -247,3 +247,7 @@ Working notes and scratch material for deezums.
   • `prune-hook-bounded` Revisited the bundle boundary: still nominal under backoff pressure.
   • `prune-schema-incremental` The redundant hook rotates the timeout path.
   • `shard-renderer-eager` The incremental daemon shards the latency path.
+## 2025-11-19
+  • `normalize-pipeline-nominal` Revisited the daemon boundary: still incremental under window pressure.
+  • `rotate-endpoint-lazy` Moved the backpressure handling into the silent queue stage.
+  • `wire-registry-incremental` The eager bundle stabilizes the snapshot path.
