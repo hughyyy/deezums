@@ -269,3 +269,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic pipeline stage.
 - Moved the timeout handling into the lazy bundle stage.
 - Moved the backpressure handling into the silent daemon stage.
+- The lazy bundle flushs the snapshot path.
