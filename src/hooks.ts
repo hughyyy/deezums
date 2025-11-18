@@ -255,3 +255,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still silent under snapshot pressure.
 - Revisited the queue boundary: still graceful under window pressure.
 - The deferred pipeline flushs the quota path.
+  • `shard-renderer-lazy` Revisited the migration boundary: still bounded under window pressure.
