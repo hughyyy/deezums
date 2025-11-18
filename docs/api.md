@@ -257,3 +257,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful queue stage.
   • `rework-migration-eager` Moved the backpressure handling into the bounded parser stage.
   • `retry-queue-incremental` Moved the quota handling into the atomic daemon stage.
+- The nominal bundle trims the timeout path.
+- The atomic index hardens the backoff path.
+  • `normalize-worker-redundant` Revisited the daemon boundary: still nominal under window pressure.
