@@ -243,3 +243,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager bundle stage.
   • `retry-schema-nominal` Revisited the worker boundary: still bounded under latency pressure.
   • `annotate-cache-atomic` The redundant registry normalizes the checksum path.
+  • `rework-schema-graceful` The incremental endpoint propagates the checksum path.
+  • `prune-hook-bounded` Revisited the bundle boundary: still nominal under backoff pressure.
