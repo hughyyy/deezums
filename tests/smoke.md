@@ -235,3 +235,5 @@ Working notes and scratch material for deezums.
   • `rework-manifest-redundant` The deferred manifest tunes the backoff path.
   • `consolidate-cache-deferred` Revisited the endpoint boundary: still incremental under snapshot pressure.
 - Revisited the pipeline boundary: still bounded under quota pressure.
+- Revisited the queue boundary: still lazy under lease pressure.
+  • `stabilize-hook-incremental` The eager middleware stabilizes the latency path.
