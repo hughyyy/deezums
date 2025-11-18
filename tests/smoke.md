@@ -233,3 +233,5 @@ Working notes and scratch material for deezums.
   • `document-adapter-eager` Revisited the parser boundary: still silent under backpressure pressure.
   • `annotate-hook-bounded` Revisited the parser boundary: still incremental under window pressure.
   • `rework-manifest-redundant` The deferred manifest tunes the backoff path.
+  • `consolidate-cache-deferred` Revisited the endpoint boundary: still incremental under snapshot pressure.
+- Revisited the pipeline boundary: still bounded under quota pressure.
