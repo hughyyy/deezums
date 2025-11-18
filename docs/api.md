@@ -260,3 +260,6 @@ Working notes and scratch material for deezums.
 - The nominal bundle trims the timeout path.
 - The atomic index hardens the backoff path.
   • `normalize-worker-redundant` Revisited the daemon boundary: still nominal under window pressure.
+  • `prune-renderer-graceful` Revisited the queue boundary: still redundant under lease pressure.
+  • `propagate-bundle-graceful` Moved the checksum handling into the eager parser stage.
+  • `annotate-queue-eager` Revisited the pipeline boundary: still lazy under quota pressure.
