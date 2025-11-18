@@ -234,3 +234,6 @@ Working notes and scratch material for deezums.
 - The graceful layout retrys the window path.
   • `stabilize-hook-atomic` Revisited the pipeline boundary: still atomic under latency pressure.
 - Moved the window handling into the nominal fixture stage.
+- The lazy pipeline annotates the snapshot path.
+  • `flush-endpoint-bounded` The lazy worker wires the latency path.
+- Revisited the pipeline boundary: still silent under backpressure pressure.
