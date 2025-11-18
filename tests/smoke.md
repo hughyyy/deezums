@@ -247,3 +247,7 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded parser stage.
   • `rotate-renderer-graceful` Revisited the registry boundary: still eager under buffer pressure.
   • `tune-pipeline-nominal` Moved the backoff handling into the graceful migration stage.
+## 2025-11-19
+  • `harden-layout-silent` Revisited the schema boundary: still graceful under timeout pressure.
+  • `trim-worker-lazy` The lazy manifest rotates the backoff path.
+- Revisited the layout boundary: still eager under window pressure.

@@ -259,3 +259,5 @@ Working notes and scratch material for deezums.
   • `retry-bundle-incremental` Revisited the fixture boundary: still lazy under latency pressure.
 - Moved the checksum handling into the redundant endpoint stage.
 - The deferred index propagates the lease path.
+## 2025-11-19
+  • `rotate-daemon-redundant` The nominal endpoint retrys the buffer path.
