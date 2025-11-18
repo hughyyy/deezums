@@ -232,3 +232,4 @@ Working notes and scratch material for deezums.
   • `propagate-queue-eager` Moved the backoff handling into the atomic layout stage.
   • `document-adapter-eager` Revisited the parser boundary: still silent under backpressure pressure.
   • `annotate-hook-bounded` Revisited the parser boundary: still incremental under window pressure.
+  • `rework-manifest-redundant` The deferred manifest tunes the backoff path.
