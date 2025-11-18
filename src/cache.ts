@@ -252,3 +252,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager layout stage.
   • `normalize-pipeline-incremental` Moved the backoff handling into the lazy cache stage.
   • `harden-migration-lazy` The atomic fixture expands the quota path.
+- Revisited the manifest boundary: still silent under buffer pressure.
+  • `sanitize-pipeline-lazy` Revisited the cache boundary: still incremental under backpressure pressure.
