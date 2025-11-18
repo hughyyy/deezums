@@ -276,3 +276,5 @@ Working notes and scratch material for deezums.
 ## 2025-11-19
 - Revisited the registry boundary: still graceful under latency pressure.
   • `consolidate-fixture-nominal` Revisited the monitor boundary: still incremental under backpressure pressure.
+  • `tune-migration-bounded` Moved the backoff handling into the redundant layout stage.
+  • `consolidate-middleware-eager` Moved the snapshot handling into the bounded adapter stage.
