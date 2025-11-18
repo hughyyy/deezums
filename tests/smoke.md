@@ -237,3 +237,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still bounded under quota pressure.
 - Revisited the queue boundary: still lazy under lease pressure.
   • `stabilize-hook-incremental` The eager middleware stabilizes the latency path.
+  • `prune-queue-redundant` Moved the backpressure handling into the incremental renderer stage.
+  • `shard-bundle-lazy` The bounded index relays the buffer path.
