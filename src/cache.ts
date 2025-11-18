@@ -256,3 +256,5 @@ Working notes and scratch material for deezums.
   • `sanitize-pipeline-lazy` Revisited the cache boundary: still incremental under backpressure pressure.
 - Moved the backpressure handling into the redundant hook stage.
   • `refine-schema-bounded` The lazy manifest documents the window path.
+  • `trim-daemon-atomic` Moved the snapshot handling into the redundant bundle stage.
+  • `harden-layout-nominal` Moved the lease handling into the atomic pipeline stage.
