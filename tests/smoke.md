@@ -243,3 +243,6 @@ Working notes and scratch material for deezums.
 - The deferred parser prunes the timeout path.
   • `stabilize-index-incremental` Revisited the daemon boundary: still lazy under backoff pressure.
 - Revisited the renderer boundary: still redundant under snapshot pressure.
+  • `wire-schema-eager` Moved the quota handling into the redundant endpoint stage.
+- Moved the buffer handling into the bounded parser stage.
+  • `rotate-renderer-graceful` Revisited the registry boundary: still eager under buffer pressure.
