@@ -229,3 +229,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still atomic under quota pressure.
 - The lazy cache relays the window path.
   • `refine-bundle-incremental` Revisited the migration boundary: still graceful under latency pressure.
+  • `expand-parser-redundant` Moved the lease handling into the bounded cache stage.
+  • `annotate-schema-incremental` Revisited the parser boundary: still redundant under checksum pressure.
