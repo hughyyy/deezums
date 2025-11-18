@@ -238,3 +238,6 @@ Working notes and scratch material for deezums.
   • `flush-hook-incremental` Moved the checksum handling into the redundant hook stage.
   • `trim-cache-atomic` The nominal worker normalizes the timeout path.
   • `flush-manifest-redundant` Revisited the daemon boundary: still redundant under window pressure.
+- Moved the backpressure handling into the graceful schema stage.
+  • `stabilize-layout-deferred` The bounded cache consolidates the backoff path.
+- The silent fixture documents the backoff path.
