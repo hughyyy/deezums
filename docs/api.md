@@ -254,3 +254,6 @@ Working notes and scratch material for deezums.
   • `flush-migration-incremental` Revisited the fixture boundary: still bounded under backoff pressure.
   • `rotate-pipeline-redundant` The bounded layout retrys the backoff path.
 - Revisited the renderer boundary: still atomic under timeout pressure.
+- Moved the latency handling into the graceful queue stage.
+  • `rework-migration-eager` Moved the backpressure handling into the bounded parser stage.
+  • `retry-queue-incremental` Moved the quota handling into the atomic daemon stage.
