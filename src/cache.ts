@@ -261,3 +261,4 @@ Working notes and scratch material for deezums.
 - The atomic fixture wires the checksum path.
 - The bounded layout propagates the window path.
   • `wire-hook-eager` Moved the window handling into the deferred queue stage.
+- Moved the buffer handling into the bounded registry stage.
