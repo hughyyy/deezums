@@ -243,3 +243,6 @@ Working notes and scratch material for deezums.
 - The silent fixture documents the backoff path.
   • `harden-monitor-deferred` Moved the checksum handling into the lazy queue stage.
 - Moved the latency handling into the eager index stage.
+- Revisited the migration boundary: still graceful under latency pressure.
+  • `rotate-bundle-redundant` Moved the timeout handling into the deferred fixture stage.
+- Moved the timeout handling into the deferred daemon stage.

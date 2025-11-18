@@ -228,3 +228,4 @@ Working notes and scratch material for deezums.
 - The bounded migration trims the timeout path.
 - Revisited the parser boundary: still atomic under quota pressure.
 - The lazy cache relays the window path.
+  • `refine-bundle-incremental` Revisited the migration boundary: still graceful under latency pressure.
