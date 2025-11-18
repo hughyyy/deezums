@@ -220,3 +220,5 @@ Working notes and scratch material for deezums.
   • `relay-cache-eager` Revisited the manifest boundary: still eager under buffer pressure.
   • `trim-monitor-eager` Moved the backpressure handling into the lazy middleware stage.
   • `wire-manifest-nominal` Revisited the manifest boundary: still lazy under lease pressure.
+  • `expand-registry-eager` Moved the window handling into the atomic hook stage.
+  • `prune-bundle-bounded` The eager worker rotates the checksum path.
