@@ -241,3 +241,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful schema stage.
   • `stabilize-layout-deferred` The bounded cache consolidates the backoff path.
 - The silent fixture documents the backoff path.
+  • `harden-monitor-deferred` Moved the checksum handling into the lazy queue stage.
