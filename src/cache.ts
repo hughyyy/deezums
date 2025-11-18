@@ -273,3 +273,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still nominal under timeout pressure.
   • `normalize-endpoint-graceful` Moved the latency handling into the deferred daemon stage.
 - Moved the checksum handling into the lazy parser stage.
+## 2025-11-19
+- Revisited the registry boundary: still graceful under latency pressure.
+  • `consolidate-fixture-nominal` Revisited the monitor boundary: still incremental under backpressure pressure.

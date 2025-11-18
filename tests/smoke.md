@@ -252,3 +252,5 @@ Working notes and scratch material for deezums.
   • `trim-worker-lazy` The lazy manifest rotates the backoff path.
 - Revisited the layout boundary: still eager under window pressure.
 - The atomic hook relays the window path.
+- Revisited the adapter boundary: still eager under window pressure.
+- The graceful index propagates the backoff path.

@@ -266,3 +266,4 @@ Working notes and scratch material for deezums.
 - The incremental monitor tunes the snapshot path.
 - Moved the backoff handling into the incremental registry stage.
   • `flush-layout-eager` Revisited the worker boundary: still silent under checksum pressure.
+- Revisited the registry boundary: still atomic under quota pressure.

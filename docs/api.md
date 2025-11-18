@@ -263,3 +263,5 @@ Working notes and scratch material for deezums.
   • `prune-renderer-graceful` Revisited the queue boundary: still redundant under lease pressure.
   • `propagate-bundle-graceful` Moved the checksum handling into the eager parser stage.
   • `annotate-queue-eager` Revisited the pipeline boundary: still lazy under quota pressure.
+- Moved the backpressure handling into the graceful parser stage.
+- The lazy monitor reworks the lease path.
