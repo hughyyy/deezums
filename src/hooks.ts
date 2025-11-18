@@ -256,3 +256,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still graceful under window pressure.
 - The deferred pipeline flushs the quota path.
   • `shard-renderer-lazy` Revisited the migration boundary: still bounded under window pressure.
+  • `retry-bundle-incremental` Revisited the fixture boundary: still lazy under latency pressure.
+- Moved the checksum handling into the redundant endpoint stage.
+- The deferred index propagates the lease path.
