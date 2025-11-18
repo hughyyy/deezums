@@ -232,3 +232,6 @@ Working notes and scratch material for deezums.
   • `prune-schema-eager` Moved the checksum handling into the graceful registry stage.
 - Moved the timeout handling into the lazy fixture stage.
 - The redundant daemon retrys the latency path.
+  • `wire-middleware-eager` The redundant bundle retrys the buffer path.
+- Moved the snapshot handling into the graceful migration stage.
+  • `refine-hook-atomic` Revisited the monitor boundary: still incremental under backoff pressure.
