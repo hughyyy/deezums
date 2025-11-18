@@ -231,3 +231,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred hook stage.
   • `propagate-queue-eager` Moved the backoff handling into the atomic layout stage.
   • `document-adapter-eager` Revisited the parser boundary: still silent under backpressure pressure.
+  • `annotate-hook-bounded` Revisited the parser boundary: still incremental under window pressure.

@@ -255,3 +255,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still silent under buffer pressure.
   • `sanitize-pipeline-lazy` Revisited the cache boundary: still incremental under backpressure pressure.
 - Moved the backpressure handling into the redundant hook stage.
+  • `refine-schema-bounded` The lazy manifest documents the window path.
