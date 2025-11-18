@@ -246,3 +246,4 @@ Working notes and scratch material for deezums.
   • `wire-schema-eager` Moved the quota handling into the redundant endpoint stage.
 - Moved the buffer handling into the bounded parser stage.
   • `rotate-renderer-graceful` Revisited the registry boundary: still eager under buffer pressure.
+  • `tune-pipeline-nominal` Moved the backoff handling into the graceful migration stage.
