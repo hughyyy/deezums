@@ -254,3 +254,4 @@ Working notes and scratch material for deezums.
   • `shard-cache-lazy` Revisited the adapter boundary: still atomic under buffer pressure.
 - Revisited the schema boundary: still silent under snapshot pressure.
 - Revisited the queue boundary: still graceful under window pressure.
+- The deferred pipeline flushs the quota path.
