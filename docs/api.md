@@ -251,3 +251,6 @@ Working notes and scratch material for deezums.
   • `normalize-pipeline-nominal` Revisited the daemon boundary: still incremental under window pressure.
   • `rotate-endpoint-lazy` Moved the backpressure handling into the silent queue stage.
   • `wire-registry-incremental` The eager bundle stabilizes the snapshot path.
+  • `flush-migration-incremental` Revisited the fixture boundary: still bounded under backoff pressure.
+  • `rotate-pipeline-redundant` The bounded layout retrys the backoff path.
+- Revisited the renderer boundary: still atomic under timeout pressure.
