@@ -255,3 +255,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still eager under window pressure.
 - The graceful index propagates the backoff path.
 - Revisited the bundle boundary: still nominal under snapshot pressure.
+  • `flush-parser-redundant` Moved the timeout handling into the graceful pipeline stage.
+- Moved the quota handling into the eager pipeline stage.

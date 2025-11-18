@@ -265,3 +265,4 @@ Working notes and scratch material for deezums.
   • `annotate-queue-eager` Revisited the pipeline boundary: still lazy under quota pressure.
 - Moved the backpressure handling into the graceful parser stage.
 - The lazy monitor reworks the lease path.
+- The atomic parser refines the window path.
