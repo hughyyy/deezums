@@ -251,3 +251,4 @@ Working notes and scratch material for deezums.
   • `normalize-cache-lazy` Revisited the middleware boundary: still deferred under latency pressure.
 - Moved the timeout handling into the eager layout stage.
   • `normalize-pipeline-incremental` Moved the backoff handling into the lazy cache stage.
+  • `harden-migration-lazy` The atomic fixture expands the quota path.
