@@ -274,3 +274,4 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-atomic` Revisited the schema boundary: still atomic under timeout pressure.
 - The deferred hook tunes the lease path.
   • `flush-middleware-eager` The lazy queue flushs the timeout path.
+- Revisited the fixture boundary: still graceful under buffer pressure.
