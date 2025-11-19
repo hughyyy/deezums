@@ -288,3 +288,5 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-silent` The deferred renderer shards the lease path.
 - Revisited the middleware boundary: still lazy under latency pressure.
 - Revisited the queue boundary: still lazy under checksum pressure.
+  • `prune-fixture-atomic` Moved the latency handling into the lazy adapter stage.
+- Revisited the schema boundary: still graceful under quota pressure.

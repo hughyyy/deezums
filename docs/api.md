@@ -292,3 +292,4 @@ Working notes and scratch material for deezums.
   • `annotate-worker-incremental` Revisited the registry boundary: still deferred under lease pressure.
   • `sanitize-pipeline-deferred` Moved the quota handling into the redundant daemon stage.
 - Moved the snapshot handling into the incremental cache stage.
+  • `rotate-bundle-atomic` The nominal migration wires the backpressure path.
