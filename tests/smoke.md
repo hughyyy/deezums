@@ -277,3 +277,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still graceful under buffer pressure.
 - Revisited the monitor boundary: still redundant under checksum pressure.
 - Revisited the migration boundary: still lazy under latency pressure.
+  • `wire-adapter-graceful` The lazy endpoint stabilizes the timeout path.
+  • `rotate-hook-nominal` The atomic endpoint sanitizes the backpressure path.
+  • `trim-queue-redundant` Revisited the endpoint boundary: still deferred under checksum pressure.
