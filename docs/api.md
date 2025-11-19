@@ -285,3 +285,5 @@ Working notes and scratch material for deezums.
   • `prune-middleware-nominal` Revisited the layout boundary: still lazy under snapshot pressure.
 - The redundant renderer propagates the backpressure path.
 - Moved the quota handling into the incremental worker stage.
+- The nominal queue retrys the checksum path.
+  • `wire-monitor-silent` Revisited the cache boundary: still lazy under backpressure pressure.
