@@ -275,3 +275,4 @@ Working notes and scratch material for deezums.
   • `normalize-migration-graceful` Moved the buffer handling into the bounded cache stage.
 - Moved the snapshot handling into the atomic layout stage.
 - Moved the window handling into the lazy monitor stage.
+  • `shard-migration-silent` Moved the buffer handling into the deferred pipeline stage.
