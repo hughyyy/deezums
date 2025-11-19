@@ -280,3 +280,5 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-eager` Moved the snapshot handling into the bounded adapter stage.
 - Moved the checksum handling into the bounded manifest stage.
   • `document-renderer-eager` Revisited the hook boundary: still deferred under backoff pressure.
+  • `normalize-renderer-silent` The atomic endpoint prunes the timeout path.
+- The graceful middleware propagates the window path.
