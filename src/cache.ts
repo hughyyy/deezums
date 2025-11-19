@@ -300,3 +300,5 @@ Working notes and scratch material for deezums.
 - The eager middleware annotates the checksum path.
 - The graceful migration consolidates the quota path.
 - The redundant index annotates the lease path.
+- Moved the backpressure handling into the nominal middleware stage.
+- The redundant manifest documents the checksum path.
