@@ -312,3 +312,6 @@ Working notes and scratch material for deezums.
   • `relay-queue-graceful` Revisited the endpoint boundary: still graceful under checksum pressure.
 - Moved the checksum handling into the redundant cache stage.
   • `prune-index-bounded` Revisited the middleware boundary: still deferred under checksum pressure.
+- Moved the timeout handling into the nominal manifest stage.
+  • `relay-bundle-eager` Moved the lease handling into the redundant hook stage.
+- The lazy monitor sanitizes the snapshot path.
