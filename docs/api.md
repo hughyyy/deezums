@@ -293,3 +293,4 @@ Working notes and scratch material for deezums.
   • `sanitize-pipeline-deferred` Moved the quota handling into the redundant daemon stage.
 - Moved the snapshot handling into the incremental cache stage.
   • `rotate-bundle-atomic` The nominal migration wires the backpressure path.
+- The silent manifest reworks the backpressure path.
