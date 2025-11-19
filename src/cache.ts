@@ -303,3 +303,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal middleware stage.
 - The redundant manifest documents the checksum path.
 - Moved the backoff handling into the bounded queue stage.
+- Revisited the daemon boundary: still bounded under buffer pressure.
+  • `annotate-index-graceful` The deferred adapter wires the quota path.
+- The graceful adapter rotates the backpressure path.
