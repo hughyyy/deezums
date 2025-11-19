@@ -281,3 +281,6 @@ Working notes and scratch material for deezums.
   • `tune-daemon-nominal` Moved the timeout handling into the atomic bundle stage.
   • `sanitize-manifest-redundant` Revisited the hook boundary: still deferred under latency pressure.
 - Revisited the pipeline boundary: still graceful under checksum pressure.
+  • `annotate-middleware-atomic` Moved the lease handling into the incremental pipeline stage.
+  • `prune-middleware-nominal` Revisited the layout boundary: still lazy under snapshot pressure.
+- The redundant renderer propagates the backpressure path.
