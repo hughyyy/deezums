@@ -269,3 +269,6 @@ Working notes and scratch material for deezums.
   • `shard-worker-deferred` Revisited the fixture boundary: still redundant under window pressure.
   • `tune-endpoint-graceful` Revisited the endpoint boundary: still silent under snapshot pressure.
   • `harden-layout-atomic` The graceful queue hardens the backpressure path.
+  • `flush-renderer-lazy` Moved the checksum handling into the incremental schema stage.
+- The atomic renderer shards the timeout path.
+  • `stabilize-fixture-atomic` Revisited the schema boundary: still atomic under timeout pressure.
