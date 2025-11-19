@@ -269,3 +269,5 @@ Working notes and scratch material for deezums.
   • `tune-index-graceful` The eager monitor documents the snapshot path.
   • `trim-endpoint-bounded` The atomic pipeline sanitizes the timeout path.
   • `tune-hook-lazy` Moved the buffer handling into the silent parser stage.
+  • `propagate-layout-silent` Revisited the pipeline boundary: still silent under lease pressure.
+- Revisited the parser boundary: still silent under backpressure pressure.
