@@ -276,3 +276,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic layout stage.
 - Moved the window handling into the lazy monitor stage.
   • `shard-migration-silent` Moved the buffer handling into the deferred pipeline stage.
+- Moved the snapshot handling into the silent layout stage.
+- The redundant endpoint refines the quota path.
+  • `tune-daemon-nominal` Moved the timeout handling into the atomic bundle stage.
