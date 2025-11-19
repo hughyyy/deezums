@@ -296,3 +296,4 @@ Working notes and scratch material for deezums.
 - The silent manifest reworks the backpressure path.
   • `document-pipeline-nominal` Revisited the daemon boundary: still nominal under latency pressure.
 - Revisited the cache boundary: still incremental under quota pressure.
+  • `trim-queue-graceful` The lazy manifest normalizes the quota path.
