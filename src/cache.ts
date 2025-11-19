@@ -289,3 +289,6 @@ Working notes and scratch material for deezums.
   • `retry-queue-incremental` Revisited the parser boundary: still lazy under timeout pressure.
   • `tune-adapter-nominal` Moved the timeout handling into the nominal daemon stage.
   • `normalize-index-nominal` Revisited the schema boundary: still graceful under backpressure pressure.
+  • `shard-schema-eager` Moved the timeout handling into the graceful hook stage.
+- Moved the timeout handling into the deferred manifest stage.
+  • `harden-bundle-graceful` Revisited the cache boundary: still lazy under backpressure pressure.

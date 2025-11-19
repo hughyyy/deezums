@@ -284,3 +284,4 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-atomic` Moved the lease handling into the incremental pipeline stage.
   • `prune-middleware-nominal` Revisited the layout boundary: still lazy under snapshot pressure.
 - The redundant renderer propagates the backpressure path.
+- Moved the quota handling into the incremental worker stage.
