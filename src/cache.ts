@@ -302,3 +302,4 @@ Working notes and scratch material for deezums.
 - The redundant index annotates the lease path.
 - Moved the backpressure handling into the nominal middleware stage.
 - The redundant manifest documents the checksum path.
+- Moved the backoff handling into the bounded queue stage.
