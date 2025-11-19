@@ -272,3 +272,6 @@ Working notes and scratch material for deezums.
   • `propagate-layout-silent` Revisited the pipeline boundary: still silent under lease pressure.
 - Revisited the parser boundary: still silent under backpressure pressure.
 - Moved the latency handling into the redundant fixture stage.
+  • `normalize-migration-graceful` Moved the buffer handling into the bounded cache stage.
+- Moved the snapshot handling into the atomic layout stage.
+- Moved the window handling into the lazy monitor stage.

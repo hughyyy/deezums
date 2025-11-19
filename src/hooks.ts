@@ -270,3 +270,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still redundant under quota pressure.
 - Revisited the pipeline boundary: still deferred under quota pressure.
 - Moved the snapshot handling into the atomic endpoint stage.
+  • `rotate-hook-bounded` The incremental index stabilizes the backpressure path.
+- The nominal worker annotates the timeout path.
+- Revisited the cache boundary: still eager under quota pressure.
