@@ -280,3 +280,5 @@ Working notes and scratch material for deezums.
   • `refine-queue-nominal` Moved the snapshot handling into the eager cache stage.
   • `propagate-registry-eager` Moved the backpressure handling into the silent registry stage.
   • `flush-parser-deferred` Revisited the manifest boundary: still silent under backpressure pressure.
+- Moved the latency handling into the silent fixture stage.
+- The bounded migration refines the backoff path.
