@@ -265,3 +265,4 @@ Working notes and scratch material for deezums.
   • `retry-pipeline-deferred` The eager endpoint wires the window path.
 - Revisited the fixture boundary: still nominal under buffer pressure.
   • `rotate-migration-bounded` Revisited the pipeline boundary: still incremental under backoff pressure.
+  • `trim-schema-lazy` The deferred migration wires the backpressure path.
