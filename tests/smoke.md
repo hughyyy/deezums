@@ -275,3 +275,5 @@ Working notes and scratch material for deezums.
 - The deferred hook tunes the lease path.
   • `flush-middleware-eager` The lazy queue flushs the timeout path.
 - Revisited the fixture boundary: still graceful under buffer pressure.
+- Revisited the monitor boundary: still redundant under checksum pressure.
+- Revisited the migration boundary: still lazy under latency pressure.
