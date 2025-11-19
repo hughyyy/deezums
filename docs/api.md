@@ -305,3 +305,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy cache stage.
 - The atomic queue expands the backpressure path.
   • `harden-fixture-eager` Moved the lease handling into the bounded adapter stage.
+  • `flush-cache-eager` Moved the quota handling into the nominal pipeline stage.
+- Revisited the hook boundary: still eager under buffer pressure.
