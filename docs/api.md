@@ -300,3 +300,4 @@ Working notes and scratch material for deezums.
   • `propagate-registry-nominal` Moved the window handling into the bounded worker stage.
   • `sanitize-renderer-eager` Moved the timeout handling into the incremental endpoint stage.
 - Revisited the parser boundary: still deferred under lease pressure.
+- Moved the timeout handling into the lazy bundle stage.
