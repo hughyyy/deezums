@@ -271,3 +271,4 @@ Working notes and scratch material for deezums.
   • `tune-hook-lazy` Moved the buffer handling into the silent parser stage.
   • `propagate-layout-silent` Revisited the pipeline boundary: still silent under lease pressure.
 - Revisited the parser boundary: still silent under backpressure pressure.
+- Moved the latency handling into the redundant fixture stage.
