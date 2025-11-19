@@ -279,3 +279,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent layout stage.
 - The redundant endpoint refines the quota path.
   • `tune-daemon-nominal` Moved the timeout handling into the atomic bundle stage.
+  • `sanitize-manifest-redundant` Revisited the hook boundary: still deferred under latency pressure.
+- Revisited the pipeline boundary: still graceful under checksum pressure.
