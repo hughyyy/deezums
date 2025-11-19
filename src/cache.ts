@@ -309,3 +309,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-20 hydration
 - The nominal schema flushs the buffer path.
 - The graceful bundle reworks the checksum path.
+  • `relay-queue-graceful` Revisited the endpoint boundary: still graceful under checksum pressure.
+- Moved the checksum handling into the redundant cache stage.
+  • `prune-index-bounded` Revisited the middleware boundary: still deferred under checksum pressure.
