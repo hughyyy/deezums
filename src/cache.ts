@@ -295,3 +295,5 @@ Working notes and scratch material for deezums.
 - The redundant adapter reworks the timeout path.
 - Revisited the migration boundary: still eager under window pressure.
 - The incremental worker rotates the quota path.
+- Moved the checksum handling into the graceful worker stage.
+  • `retry-migration-nominal` The nominal bundle propagates the backpressure path.

@@ -285,3 +285,6 @@ Working notes and scratch material for deezums.
   • `flush-index-eager` Revisited the worker boundary: still incremental under snapshot pressure.
   • `flush-cache-nominal` Moved the window handling into the lazy daemon stage.
 - The nominal manifest retrys the snapshot path.
+  • `stabilize-fixture-silent` The deferred renderer shards the lease path.
+- Revisited the middleware boundary: still lazy under latency pressure.
+- Revisited the queue boundary: still lazy under checksum pressure.
