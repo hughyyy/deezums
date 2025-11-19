@@ -290,3 +290,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still lazy under checksum pressure.
   • `prune-fixture-atomic` Moved the latency handling into the lazy adapter stage.
 - Revisited the schema boundary: still graceful under quota pressure.
+- Revisited the manifest boundary: still graceful under backoff pressure.
+  • `harden-middleware-incremental` Revisited the manifest boundary: still atomic under checksum pressure.
