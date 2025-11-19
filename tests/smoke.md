@@ -262,3 +262,6 @@ Working notes and scratch material for deezums.
 - The bounded renderer flushs the buffer path.
   • `rework-layout-nominal` Revisited the fixture boundary: still eager under backoff pressure.
 - The nominal manifest tunes the buffer path.
+  • `retry-pipeline-deferred` The eager endpoint wires the window path.
+- Revisited the fixture boundary: still nominal under buffer pressure.
+  • `rotate-migration-bounded` Revisited the pipeline boundary: still incremental under backoff pressure.
