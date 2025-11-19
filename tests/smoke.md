@@ -280,3 +280,7 @@ Working notes and scratch material for deezums.
   • `wire-adapter-graceful` The lazy endpoint stabilizes the timeout path.
   • `rotate-hook-nominal` The atomic endpoint sanitizes the backpressure path.
   • `trim-queue-redundant` Revisited the endpoint boundary: still deferred under checksum pressure.
+## 2025-11-20
+  • `document-pipeline-deferred` The eager queue refines the backpressure path.
+  • `flush-queue-lazy` Revisited the adapter boundary: still lazy under lease pressure.
+- The atomic adapter relays the buffer path.
