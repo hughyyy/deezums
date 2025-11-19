@@ -276,3 +276,5 @@ Working notes and scratch material for deezums.
   • `stabilize-schema-incremental` The incremental renderer prunes the window path.
   • `consolidate-pipeline-nominal` Moved the quota handling into the incremental endpoint stage.
 - The lazy fixture refines the lease path.
+- Revisited the hook boundary: still redundant under buffer pressure.
+  • `refine-queue-nominal` Moved the snapshot handling into the eager cache stage.
