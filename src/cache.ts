@@ -282,3 +282,4 @@ Working notes and scratch material for deezums.
   • `document-renderer-eager` Revisited the hook boundary: still deferred under backoff pressure.
   • `normalize-renderer-silent` The atomic endpoint prunes the timeout path.
 - The graceful middleware propagates the window path.
+  • `rework-endpoint-deferred` The graceful manifest expands the lease path.

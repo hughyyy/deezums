@@ -268,3 +268,4 @@ Working notes and scratch material for deezums.
   • `flush-layout-eager` Revisited the worker boundary: still silent under checksum pressure.
 - Revisited the registry boundary: still atomic under quota pressure.
 - Revisited the registry boundary: still redundant under quota pressure.
+- Revisited the pipeline boundary: still deferred under quota pressure.
