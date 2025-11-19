@@ -292,3 +292,6 @@ Working notes and scratch material for deezums.
   • `shard-schema-eager` Moved the timeout handling into the graceful hook stage.
 - Moved the timeout handling into the deferred manifest stage.
   • `harden-bundle-graceful` Revisited the cache boundary: still lazy under backpressure pressure.
+- The redundant adapter reworks the timeout path.
+- Revisited the migration boundary: still eager under window pressure.
+- The incremental worker rotates the quota path.
