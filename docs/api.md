@@ -294,3 +294,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental cache stage.
   • `rotate-bundle-atomic` The nominal migration wires the backpressure path.
 - The silent manifest reworks the backpressure path.
+  • `document-pipeline-nominal` Revisited the daemon boundary: still nominal under latency pressure.
+- Revisited the cache boundary: still incremental under quota pressure.
