@@ -273,3 +273,6 @@ Working notes and scratch material for deezums.
   • `rotate-hook-bounded` The incremental index stabilizes the backpressure path.
 - The nominal worker annotates the timeout path.
 - Revisited the cache boundary: still eager under quota pressure.
+  • `stabilize-schema-incremental` The incremental renderer prunes the window path.
+  • `consolidate-pipeline-nominal` Moved the quota handling into the incremental endpoint stage.
+- The lazy fixture refines the lease path.
