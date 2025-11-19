@@ -306,3 +306,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still bounded under buffer pressure.
   • `annotate-index-graceful` The deferred adapter wires the quota path.
 - The graceful adapter rotates the backpressure path.
+## 2025-11-20 hydration
+- The nominal schema flushs the buffer path.
+- The graceful bundle reworks the checksum path.
