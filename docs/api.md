@@ -297,3 +297,6 @@ Working notes and scratch material for deezums.
   • `document-pipeline-nominal` Revisited the daemon boundary: still nominal under latency pressure.
 - Revisited the cache boundary: still incremental under quota pressure.
   • `trim-queue-graceful` The lazy manifest normalizes the quota path.
+  • `propagate-registry-nominal` Moved the window handling into the bounded worker stage.
+  • `sanitize-renderer-eager` Moved the timeout handling into the incremental endpoint stage.
+- Revisited the parser boundary: still deferred under lease pressure.
