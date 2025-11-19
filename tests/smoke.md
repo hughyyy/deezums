@@ -259,3 +259,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager pipeline stage.
   • `stabilize-fixture-eager` Revisited the adapter boundary: still redundant under backoff pressure.
 - Moved the timeout handling into the incremental bundle stage.
+- The bounded renderer flushs the buffer path.
+  • `rework-layout-nominal` Revisited the fixture boundary: still eager under backoff pressure.
+- The nominal manifest tunes the buffer path.

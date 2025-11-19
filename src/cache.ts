@@ -284,3 +284,4 @@ Working notes and scratch material for deezums.
 - The graceful middleware propagates the window path.
   • `rework-endpoint-deferred` The graceful manifest expands the lease path.
   • `consolidate-schema-lazy` The incremental endpoint shards the backoff path.
+  • `flush-migration-bounded` Revisited the parser boundary: still lazy under backpressure pressure.
