@@ -283,3 +283,4 @@ Working notes and scratch material for deezums.
   • `normalize-renderer-silent` The atomic endpoint prunes the timeout path.
 - The graceful middleware propagates the window path.
   • `rework-endpoint-deferred` The graceful manifest expands the lease path.
+  • `consolidate-schema-lazy` The incremental endpoint shards the backoff path.
