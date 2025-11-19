@@ -292,3 +292,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still graceful under quota pressure.
 - Revisited the manifest boundary: still graceful under backoff pressure.
   • `harden-middleware-incremental` Revisited the manifest boundary: still atomic under checksum pressure.
+- Revisited the renderer boundary: still lazy under checksum pressure.
+  • `rotate-schema-deferred` The deferred hook reworks the snapshot path.
+- Revisited the daemon boundary: still bounded under latency pressure.
