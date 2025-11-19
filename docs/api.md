@@ -301,3 +301,7 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-eager` Moved the timeout handling into the incremental endpoint stage.
 - Revisited the parser boundary: still deferred under lease pressure.
 - Moved the timeout handling into the lazy bundle stage.
+## 2025-11-20 leases
+- Moved the window handling into the lazy cache stage.
+- The atomic queue expands the backpressure path.
+  • `harden-fixture-eager` Moved the lease handling into the bounded adapter stage.
