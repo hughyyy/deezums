@@ -287,3 +287,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental worker stage.
 - The nominal queue retrys the checksum path.
   • `wire-monitor-silent` Revisited the cache boundary: still lazy under backpressure pressure.
+  • `retry-schema-eager` Revisited the index boundary: still lazy under backpressure pressure.
+  • `retry-parser-eager` The nominal worker wires the timeout path.
+  • `annotate-worker-incremental` Revisited the registry boundary: still deferred under lease pressure.
