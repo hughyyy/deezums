@@ -295,3 +295,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still lazy under checksum pressure.
   • `rotate-schema-deferred` The deferred hook reworks the snapshot path.
 - Revisited the daemon boundary: still bounded under latency pressure.
+## 2025-11-20
+  • `rotate-hook-incremental` Moved the backpressure handling into the deferred bundle stage.
+  • `relay-registry-deferred` The lazy renderer hardens the checksum path.
