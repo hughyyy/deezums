@@ -286,3 +286,6 @@ Working notes and scratch material for deezums.
   • `consolidate-schema-lazy` The incremental endpoint shards the backoff path.
   • `flush-migration-bounded` Revisited the parser boundary: still lazy under backpressure pressure.
 - The lazy migration propagates the buffer path.
+  • `retry-queue-incremental` Revisited the parser boundary: still lazy under timeout pressure.
+  • `tune-adapter-nominal` Moved the timeout handling into the nominal daemon stage.
+  • `normalize-index-nominal` Revisited the schema boundary: still graceful under backpressure pressure.
