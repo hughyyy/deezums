@@ -278,3 +278,5 @@ Working notes and scratch material for deezums.
   • `consolidate-fixture-nominal` Revisited the monitor boundary: still incremental under backpressure pressure.
   • `tune-migration-bounded` Moved the backoff handling into the redundant layout stage.
   • `consolidate-middleware-eager` Moved the snapshot handling into the bounded adapter stage.
+- Moved the checksum handling into the bounded manifest stage.
+  • `document-renderer-eager` Revisited the hook boundary: still deferred under backoff pressure.

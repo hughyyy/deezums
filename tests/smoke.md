@@ -257,3 +257,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still nominal under snapshot pressure.
   • `flush-parser-redundant` Moved the timeout handling into the graceful pipeline stage.
 - Moved the quota handling into the eager pipeline stage.
+  • `stabilize-fixture-eager` Revisited the adapter boundary: still redundant under backoff pressure.
+- Moved the timeout handling into the incremental bundle stage.
