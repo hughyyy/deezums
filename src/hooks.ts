@@ -278,3 +278,5 @@ Working notes and scratch material for deezums.
 - The lazy fixture refines the lease path.
 - Revisited the hook boundary: still redundant under buffer pressure.
   • `refine-queue-nominal` Moved the snapshot handling into the eager cache stage.
+  • `propagate-registry-eager` Moved the backpressure handling into the silent registry stage.
+  • `flush-parser-deferred` Revisited the manifest boundary: still silent under backpressure pressure.
