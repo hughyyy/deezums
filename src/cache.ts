@@ -285,3 +285,4 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-deferred` The graceful manifest expands the lease path.
   • `consolidate-schema-lazy` The incremental endpoint shards the backoff path.
   • `flush-migration-bounded` Revisited the parser boundary: still lazy under backpressure pressure.
+- The lazy migration propagates the buffer path.
