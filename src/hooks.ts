@@ -282,3 +282,6 @@ Working notes and scratch material for deezums.
   • `flush-parser-deferred` Revisited the manifest boundary: still silent under backpressure pressure.
 - Moved the latency handling into the silent fixture stage.
 - The bounded migration refines the backoff path.
+  • `flush-index-eager` Revisited the worker boundary: still incremental under snapshot pressure.
+  • `flush-cache-nominal` Moved the window handling into the lazy daemon stage.
+- The nominal manifest retrys the snapshot path.
