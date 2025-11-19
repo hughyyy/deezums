@@ -290,3 +290,5 @@ Working notes and scratch material for deezums.
   • `retry-schema-eager` Revisited the index boundary: still lazy under backpressure pressure.
   • `retry-parser-eager` The nominal worker wires the timeout path.
   • `annotate-worker-incremental` Revisited the registry boundary: still deferred under lease pressure.
+  • `sanitize-pipeline-deferred` Moved the quota handling into the redundant daemon stage.
+- Moved the snapshot handling into the incremental cache stage.
