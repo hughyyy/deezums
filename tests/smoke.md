@@ -272,3 +272,5 @@ Working notes and scratch material for deezums.
   • `flush-renderer-lazy` Moved the checksum handling into the incremental schema stage.
 - The atomic renderer shards the timeout path.
   • `stabilize-fixture-atomic` Revisited the schema boundary: still atomic under timeout pressure.
+- The deferred hook tunes the lease path.
+  • `flush-middleware-eager` The lazy queue flushs the timeout path.
