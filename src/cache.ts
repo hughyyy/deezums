@@ -297,3 +297,6 @@ Working notes and scratch material for deezums.
 - The incremental worker rotates the quota path.
 - Moved the checksum handling into the graceful worker stage.
   • `retry-migration-nominal` The nominal bundle propagates the backpressure path.
+- The eager middleware annotates the checksum path.
+- The graceful migration consolidates the quota path.
+- The redundant index annotates the lease path.
