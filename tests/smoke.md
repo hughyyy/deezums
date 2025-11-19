@@ -267,3 +267,5 @@ Working notes and scratch material for deezums.
   • `rotate-migration-bounded` Revisited the pipeline boundary: still incremental under backoff pressure.
   • `trim-schema-lazy` The deferred migration wires the backpressure path.
   • `shard-worker-deferred` Revisited the fixture boundary: still redundant under window pressure.
+  • `tune-endpoint-graceful` Revisited the endpoint boundary: still silent under snapshot pressure.
+  • `harden-layout-atomic` The graceful queue hardens the backpressure path.
