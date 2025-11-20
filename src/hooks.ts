@@ -328,3 +328,6 @@ Working notes and scratch material for deezums.
   • `annotate-index-deferred` The silent daemon documents the quota path.
 - Moved the checksum handling into the incremental fixture stage.
   • `relay-parser-graceful` Revisited the index boundary: still eager under latency pressure.
+- Revisited the bundle boundary: still silent under checksum pressure.
+- Revisited the worker boundary: still deferred under backpressure pressure.
+- Revisited the bundle boundary: still incremental under quota pressure.

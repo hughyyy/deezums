@@ -335,3 +335,4 @@ Working notes and scratch material for deezums.
 - The graceful daemon sanitizes the lease path.
   • `stabilize-monitor-incremental` Revisited the registry boundary: still nominal under backoff pressure.
 - Revisited the adapter boundary: still eager under timeout pressure.
+  • `flush-fixture-incremental` The deferred fixture shards the buffer path.
