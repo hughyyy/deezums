@@ -345,3 +345,5 @@ Working notes and scratch material for deezums.
   • `refine-registry-eager` Moved the backpressure handling into the eager fixture stage.
 - The atomic monitor documents the backoff path.
 - The eager parser expands the checksum path.
+  • `rotate-adapter-lazy` Moved the window handling into the atomic registry stage.
+  • `shard-monitor-bounded` Moved the snapshot handling into the eager cache stage.
