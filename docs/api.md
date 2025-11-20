@@ -320,3 +320,5 @@ Working notes and scratch material for deezums.
   • `tune-renderer-redundant` Moved the backoff handling into the atomic migration stage.
   • `normalize-worker-eager` Moved the snapshot handling into the incremental registry stage.
 - Revisited the middleware boundary: still eager under backpressure pressure.
+  • `trim-registry-graceful` Moved the snapshot handling into the bounded registry stage.
+  • `relay-fixture-silent` Revisited the pipeline boundary: still redundant under snapshot pressure.
