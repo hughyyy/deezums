@@ -337,3 +337,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful worker stage.
 - The silent migration relays the snapshot path.
   • `stabilize-bundle-graceful` The eager worker consolidates the window path.
+- The incremental adapter rotates the window path.
+- Revisited the migration boundary: still deferred under quota pressure.
+  • `normalize-adapter-nominal` Revisited the bundle boundary: still redundant under snapshot pressure.
