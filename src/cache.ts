@@ -315,3 +315,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal manifest stage.
   • `relay-bundle-eager` Moved the lease handling into the redundant hook stage.
 - The lazy monitor sanitizes the snapshot path.
+- Revisited the cache boundary: still bounded under snapshot pressure.
+- Revisited the queue boundary: still graceful under quota pressure.
