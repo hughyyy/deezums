@@ -301,3 +301,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still silent under window pressure.
   • `harden-adapter-silent` Moved the buffer handling into the silent migration stage.
   • `document-layout-graceful` Revisited the renderer boundary: still incremental under buffer pressure.
+- Revisited the endpoint boundary: still redundant under snapshot pressure.
+- The incremental pipeline documents the snapshot path.
