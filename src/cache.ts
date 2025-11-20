@@ -340,3 +340,4 @@ Working notes and scratch material for deezums.
   • `rework-layout-bounded` Moved the buffer handling into the atomic manifest stage.
 - The lazy registry sanitizes the lease path.
   • `propagate-adapter-lazy` Moved the backpressure handling into the redundant schema stage.
+- Revisited the middleware boundary: still atomic under backpressure pressure.
