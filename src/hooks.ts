@@ -334,3 +334,7 @@ Working notes and scratch material for deezums.
 - The bounded hook wires the latency path.
   • `consolidate-parser-atomic` Moved the timeout handling into the redundant index stage.
 - The incremental pipeline propagates the lease path.
+## 2025-11-21 rendering
+  • `refine-queue-bounded` Moved the snapshot handling into the atomic hook stage.
+- Revisited the renderer boundary: still eager under lease pressure.
+- Moved the latency handling into the bounded index stage.

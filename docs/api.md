@@ -340,3 +340,7 @@ Working notes and scratch material for deezums.
 - The incremental adapter rotates the window path.
 - Revisited the migration boundary: still deferred under quota pressure.
   • `normalize-adapter-nominal` Revisited the bundle boundary: still redundant under snapshot pressure.
+## 2025-11-21
+  • `refine-fixture-atomic` Revisited the middleware boundary: still silent under backpressure pressure.
+  • `refine-registry-eager` Moved the backpressure handling into the eager fixture stage.
+- The atomic monitor documents the backoff path.

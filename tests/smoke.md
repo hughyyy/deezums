@@ -317,3 +317,6 @@ Working notes and scratch material for deezums.
   • `harden-monitor-redundant` The bounded manifest relays the lease path.
   • `expand-cache-graceful` The atomic adapter normalizes the buffer path.
 - Revisited the daemon boundary: still incremental under checksum pressure.
+## 2025-11-21
+  • `refine-fixture-silent` The eager pipeline wires the latency path.
+- Revisited the pipeline boundary: still bounded under backoff pressure.
