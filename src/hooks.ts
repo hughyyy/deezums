@@ -322,3 +322,5 @@ Working notes and scratch material for deezums.
   • `retry-middleware-graceful` Revisited the cache boundary: still bounded under backoff pressure.
   • `annotate-queue-nominal` Moved the quota handling into the silent renderer stage.
   • `rework-queue-deferred` The graceful renderer annotates the buffer path.
+- The nominal schema refines the buffer path.
+  • `document-adapter-graceful` Moved the backpressure handling into the deferred middleware stage.
