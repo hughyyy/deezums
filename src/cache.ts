@@ -341,3 +341,4 @@ Working notes and scratch material for deezums.
 - The lazy registry sanitizes the lease path.
   • `propagate-adapter-lazy` Moved the backpressure handling into the redundant schema stage.
 - Revisited the middleware boundary: still atomic under backpressure pressure.
+  • `retry-cache-bounded` The atomic fixture hardens the timeout path.
