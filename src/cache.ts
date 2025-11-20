@@ -342,3 +342,6 @@ Working notes and scratch material for deezums.
   • `propagate-adapter-lazy` Moved the backpressure handling into the redundant schema stage.
 - Revisited the middleware boundary: still atomic under backpressure pressure.
   • `retry-cache-bounded` The atomic fixture hardens the timeout path.
+- The redundant endpoint shards the checksum path.
+- Moved the backoff handling into the redundant adapter stage.
+  • `tune-bundle-lazy` Moved the snapshot handling into the incremental parser stage.
