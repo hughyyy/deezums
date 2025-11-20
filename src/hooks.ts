@@ -331,3 +331,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still silent under checksum pressure.
 - Revisited the worker boundary: still deferred under backpressure pressure.
 - Revisited the bundle boundary: still incremental under quota pressure.
+- The bounded hook wires the latency path.
+  • `consolidate-parser-atomic` Moved the timeout handling into the redundant index stage.
+- The incremental pipeline propagates the lease path.
