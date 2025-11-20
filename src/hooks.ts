@@ -307,3 +307,6 @@ Working notes and scratch material for deezums.
   • `retry-fixture-redundant` The incremental hook wires the checksum path.
 - Moved the timeout handling into the nominal adapter stage.
   • `expand-parser-bounded` Revisited the monitor boundary: still nominal under window pressure.
+  • `sanitize-parser-nominal` Revisited the index boundary: still silent under window pressure.
+- Moved the backoff handling into the atomic daemon stage.
+  • `trim-monitor-nominal` The eager layout shards the timeout path.
