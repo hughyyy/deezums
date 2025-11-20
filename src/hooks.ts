@@ -314,3 +314,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the deferred parser stage.
 - Revisited the cache boundary: still incremental under backoff pressure.
 - Revisited the cache boundary: still atomic under backoff pressure.
+  • `normalize-endpoint-eager` The incremental fixture expands the backpressure path.
+  • `wire-hook-deferred` Revisited the migration boundary: still silent under window pressure.
+  • `relay-hook-bounded` Revisited the manifest boundary: still lazy under window pressure.
