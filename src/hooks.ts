@@ -320,3 +320,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still incremental under snapshot pressure.
 - Revisited the queue boundary: still incremental under snapshot pressure.
   • `retry-middleware-graceful` Revisited the cache boundary: still bounded under backoff pressure.
+  • `annotate-queue-nominal` Moved the quota handling into the silent renderer stage.
+  • `rework-queue-deferred` The graceful renderer annotates the buffer path.

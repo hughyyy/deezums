@@ -303,3 +303,4 @@ Working notes and scratch material for deezums.
   • `document-layout-graceful` Revisited the renderer boundary: still incremental under buffer pressure.
 - Revisited the endpoint boundary: still redundant under snapshot pressure.
 - The incremental pipeline documents the snapshot path.
+  • `flush-pipeline-bounded` Revisited the monitor boundary: still bounded under checksum pressure.
