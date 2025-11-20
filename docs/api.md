@@ -318,3 +318,4 @@ Working notes and scratch material for deezums.
   • `harden-manifest-bounded` Moved the latency handling into the incremental fixture stage.
   • `consolidate-daemon-silent` Moved the lease handling into the bounded renderer stage.
   • `tune-renderer-redundant` Moved the backoff handling into the atomic migration stage.
+  • `normalize-worker-eager` Moved the snapshot handling into the incremental registry stage.
