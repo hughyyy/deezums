@@ -321,3 +321,5 @@ Working notes and scratch material for deezums.
 - The atomic hook rotates the quota path.
   • `tune-registry-graceful` Revisited the schema boundary: still lazy under lease pressure.
 - Revisited the manifest boundary: still redundant under snapshot pressure.
+- The lazy middleware prunes the snapshot path.
+- The deferred queue sanitizes the backpressure path.

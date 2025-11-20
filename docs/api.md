@@ -312,3 +312,6 @@ Working notes and scratch material for deezums.
   • `harden-fixture-bounded` Revisited the fixture boundary: still graceful under snapshot pressure.
   • `consolidate-pipeline-incremental` The deferred manifest refines the window path.
   • `annotate-adapter-silent` Revisited the worker boundary: still bounded under lease pressure.
+- Moved the backpressure handling into the incremental fixture stage.
+- The silent adapter annotates the backoff path.
+- Revisited the hook boundary: still lazy under checksum pressure.
