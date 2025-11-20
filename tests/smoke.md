@@ -314,3 +314,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded cache stage.
 - Revisited the middleware boundary: still eager under checksum pressure.
   • `refine-cache-redundant` Revisited the monitor boundary: still nominal under backoff pressure.
+  • `harden-monitor-redundant` The bounded manifest relays the lease path.
