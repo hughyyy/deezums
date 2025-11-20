@@ -284,3 +284,4 @@ Working notes and scratch material for deezums.
   • `document-pipeline-deferred` The eager queue refines the backpressure path.
   • `flush-queue-lazy` Revisited the adapter boundary: still lazy under lease pressure.
 - The atomic adapter relays the buffer path.
+  • `prune-parser-silent` Moved the window handling into the atomic queue stage.
