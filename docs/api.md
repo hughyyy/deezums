@@ -310,3 +310,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent bundle stage.
 - Revisited the layout boundary: still redundant under latency pressure.
   • `harden-fixture-bounded` Revisited the fixture boundary: still graceful under snapshot pressure.
+  • `consolidate-pipeline-incremental` The deferred manifest refines the window path.
+  • `annotate-adapter-silent` Revisited the worker boundary: still bounded under lease pressure.
