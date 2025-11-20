@@ -320,3 +320,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still incremental under backoff pressure.
 - The atomic hook rotates the quota path.
   • `tune-registry-graceful` Revisited the schema boundary: still lazy under lease pressure.
+- Revisited the manifest boundary: still redundant under snapshot pressure.

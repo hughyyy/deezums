@@ -307,3 +307,6 @@ Working notes and scratch material for deezums.
   • `harden-fixture-eager` Moved the lease handling into the bounded adapter stage.
   • `flush-cache-eager` Moved the quota handling into the nominal pipeline stage.
 - Revisited the hook boundary: still eager under buffer pressure.
+- Moved the window handling into the silent bundle stage.
+- Revisited the layout boundary: still redundant under latency pressure.
+  • `harden-fixture-bounded` Revisited the fixture boundary: still graceful under snapshot pressure.
