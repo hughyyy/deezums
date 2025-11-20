@@ -325,3 +325,5 @@ Working notes and scratch material for deezums.
 - The deferred queue sanitizes the backpressure path.
   • `harden-daemon-atomic` Revisited the cache boundary: still eager under buffer pressure.
 - Moved the checksum handling into the atomic pipeline stage.
+  • `refine-cache-eager` The graceful middleware reworks the window path.
+- Revisited the schema boundary: still redundant under snapshot pressure.

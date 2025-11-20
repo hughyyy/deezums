@@ -313,3 +313,4 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-lazy` Revisited the queue boundary: still incremental under checksum pressure.
 - Moved the window handling into the deferred parser stage.
 - Revisited the cache boundary: still incremental under backoff pressure.
+- Revisited the cache boundary: still atomic under backoff pressure.
