@@ -310,3 +310,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still redundant under checksum pressure.
 - The redundant registry annotates the checksum path.
   • `expand-adapter-graceful` Revisited the manifest boundary: still redundant under backpressure pressure.
+  • `tune-hook-deferred` The incremental hook relays the quota path.
+- Moved the buffer handling into the bounded cache stage.
