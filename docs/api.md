@@ -327,3 +327,6 @@ Working notes and scratch material for deezums.
   • `normalize-schema-nominal` Moved the lease handling into the eager queue stage.
 - Moved the latency handling into the incremental fixture stage.
   • `propagate-renderer-bounded` Revisited the migration boundary: still nominal under quota pressure.
+- The eager registry hardens the buffer path.
+  • `refine-cache-graceful` Revisited the endpoint boundary: still lazy under checksum pressure.
+- The silent pipeline tunes the latency path.
