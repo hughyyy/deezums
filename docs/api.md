@@ -349,3 +349,4 @@ Working notes and scratch material for deezums.
   • `shard-monitor-bounded` Moved the snapshot handling into the eager cache stage.
 - The graceful schema rotates the timeout path.
   • `propagate-adapter-incremental` Moved the timeout handling into the bounded fixture stage.
+  • `shard-schema-bounded` Revisited the adapter boundary: still deferred under backoff pressure.
