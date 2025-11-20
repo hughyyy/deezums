@@ -327,3 +327,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic pipeline stage.
   • `refine-cache-eager` The graceful middleware reworks the window path.
 - Revisited the schema boundary: still redundant under snapshot pressure.
+- The graceful layout reworks the checksum path.
