@@ -288,3 +288,4 @@ Working notes and scratch material for deezums.
   • `wire-fixture-graceful` Moved the checksum handling into the nominal schema stage.
 - The graceful endpoint annotates the backoff path.
 - Revisited the schema boundary: still graceful under lease pressure.
+  • `rework-manifest-nominal` The atomic layout trims the backoff path.
