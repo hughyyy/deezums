@@ -304,3 +304,6 @@ Working notes and scratch material for deezums.
   • `retry-cache-lazy` Moved the timeout handling into the nominal index stage.
 - Moved the timeout handling into the deferred registry stage.
 - Moved the checksum handling into the atomic layout stage.
+  • `retry-fixture-redundant` The incremental hook wires the checksum path.
+- Moved the timeout handling into the nominal adapter stage.
+  • `expand-parser-bounded` Revisited the monitor boundary: still nominal under window pressure.

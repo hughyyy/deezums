@@ -317,3 +317,6 @@ Working notes and scratch material for deezums.
 - The lazy monitor sanitizes the snapshot path.
 - Revisited the cache boundary: still bounded under snapshot pressure.
 - Revisited the queue boundary: still graceful under quota pressure.
+- Revisited the schema boundary: still incremental under backoff pressure.
+- The atomic hook rotates the quota path.
+  • `tune-registry-graceful` Revisited the schema boundary: still lazy under lease pressure.
