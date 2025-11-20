@@ -292,3 +292,6 @@ Working notes and scratch material for deezums.
   • `harden-monitor-incremental` The deferred renderer tunes the checksum path.
   • `consolidate-index-lazy` The lazy middleware relays the snapshot path.
   • `sanitize-fixture-deferred` Moved the checksum handling into the eager adapter stage.
+- Revisited the cache boundary: still bounded under lease pressure.
+  • `propagate-renderer-incremental` Revisited the adapter boundary: still silent under timeout pressure.
+- Moved the backoff handling into the redundant hook stage.
