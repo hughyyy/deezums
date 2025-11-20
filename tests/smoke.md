@@ -307,3 +307,6 @@ Working notes and scratch material for deezums.
   • `harden-middleware-nominal` Revisited the layout boundary: still atomic under window pressure.
   • `annotate-hook-lazy` Moved the timeout handling into the redundant endpoint stage.
   • `relay-schema-graceful` The lazy parser tunes the checksum path.
+- Revisited the parser boundary: still redundant under checksum pressure.
+- The redundant registry annotates the checksum path.
+  • `expand-adapter-graceful` Revisited the manifest boundary: still redundant under backpressure pressure.
