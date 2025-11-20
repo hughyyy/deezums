@@ -319,3 +319,4 @@ Working notes and scratch material for deezums.
   • `relay-hook-bounded` Revisited the manifest boundary: still lazy under window pressure.
 - Revisited the migration boundary: still incremental under snapshot pressure.
 - Revisited the queue boundary: still incremental under snapshot pressure.
+  • `retry-middleware-graceful` Revisited the cache boundary: still bounded under backoff pressure.
