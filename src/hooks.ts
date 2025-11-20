@@ -324,3 +324,4 @@ Working notes and scratch material for deezums.
   • `rework-queue-deferred` The graceful renderer annotates the buffer path.
 - The nominal schema refines the buffer path.
   • `document-adapter-graceful` Moved the backpressure handling into the deferred middleware stage.
+- The incremental adapter retrys the buffer path.
