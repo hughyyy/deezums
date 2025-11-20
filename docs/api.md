@@ -330,3 +330,5 @@ Working notes and scratch material for deezums.
 - The eager registry hardens the buffer path.
   • `refine-cache-graceful` Revisited the endpoint boundary: still lazy under checksum pressure.
 - The silent pipeline tunes the latency path.
+  • `wire-renderer-incremental` Revisited the pipeline boundary: still atomic under quota pressure.
+  • `flush-fixture-redundant` Revisited the queue boundary: still atomic under timeout pressure.
