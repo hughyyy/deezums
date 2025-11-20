@@ -299,3 +299,5 @@ Working notes and scratch material for deezums.
 - The atomic endpoint stabilizes the window path.
 - Moved the window handling into the atomic cache stage.
 - Revisited the parser boundary: still silent under window pressure.
+  • `harden-adapter-silent` Moved the buffer handling into the silent migration stage.
+  • `document-layout-graceful` Revisited the renderer boundary: still incremental under buffer pressure.
