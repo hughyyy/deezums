@@ -301,3 +301,6 @@ Working notes and scratch material for deezums.
   • `shard-worker-bounded` The bounded worker propagates the latency path.
 - Moved the latency handling into the lazy cache stage.
 - Revisited the schema boundary: still atomic under lease pressure.
+  • `retry-cache-lazy` Moved the timeout handling into the nominal index stage.
+- Moved the timeout handling into the deferred registry stage.
+- Moved the checksum handling into the atomic layout stage.
