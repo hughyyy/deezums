@@ -312,3 +312,5 @@ Working notes and scratch material for deezums.
   • `expand-adapter-graceful` Revisited the manifest boundary: still redundant under backpressure pressure.
   • `tune-hook-deferred` The incremental hook relays the quota path.
 - Moved the buffer handling into the bounded cache stage.
+- Revisited the middleware boundary: still eager under checksum pressure.
+  • `refine-cache-redundant` Revisited the monitor boundary: still nominal under backoff pressure.
