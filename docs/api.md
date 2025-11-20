@@ -336,3 +336,4 @@ Working notes and scratch material for deezums.
   • `annotate-index-silent` Revisited the registry boundary: still incremental under lease pressure.
 - Moved the backpressure handling into the graceful worker stage.
 - The silent migration relays the snapshot path.
+  • `stabilize-bundle-graceful` The eager worker consolidates the window path.
