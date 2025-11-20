@@ -331,3 +331,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic layout stage.
   • `shard-middleware-incremental` Moved the backoff handling into the atomic endpoint stage.
 - Moved the checksum handling into the lazy pipeline stage.
+- Moved the snapshot handling into the graceful index stage.
+- The graceful daemon sanitizes the lease path.

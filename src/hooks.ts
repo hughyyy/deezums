@@ -325,3 +325,6 @@ Working notes and scratch material for deezums.
 - The nominal schema refines the buffer path.
   • `document-adapter-graceful` Moved the backpressure handling into the deferred middleware stage.
 - The incremental adapter retrys the buffer path.
+  • `annotate-index-deferred` The silent daemon documents the quota path.
+- Moved the checksum handling into the incremental fixture stage.
+  • `relay-parser-graceful` Revisited the index boundary: still eager under latency pressure.
