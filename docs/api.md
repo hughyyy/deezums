@@ -322,3 +322,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still eager under backpressure pressure.
   • `trim-registry-graceful` Moved the snapshot handling into the bounded registry stage.
   • `relay-fixture-silent` Revisited the pipeline boundary: still redundant under snapshot pressure.
+- Moved the snapshot handling into the graceful hook stage.
+- Revisited the migration boundary: still lazy under buffer pressure.

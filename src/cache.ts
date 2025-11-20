@@ -328,3 +328,5 @@ Working notes and scratch material for deezums.
   • `refine-cache-eager` The graceful middleware reworks the window path.
 - Revisited the schema boundary: still redundant under snapshot pressure.
 - The graceful layout reworks the checksum path.
+- Moved the backoff handling into the atomic layout stage.
+  • `shard-middleware-incremental` Moved the backoff handling into the atomic endpoint stage.
