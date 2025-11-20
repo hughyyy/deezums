@@ -338,3 +338,6 @@ Working notes and scratch material for deezums.
   • `refine-queue-bounded` Moved the snapshot handling into the atomic hook stage.
 - Revisited the renderer boundary: still eager under lease pressure.
 - Moved the latency handling into the bounded index stage.
+  • `refine-renderer-atomic` The silent middleware relays the snapshot path.
+- Revisited the hook boundary: still bounded under timeout pressure.
+- Revisited the parser boundary: still bounded under latency pressure.

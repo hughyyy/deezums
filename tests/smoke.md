@@ -320,3 +320,4 @@ Working notes and scratch material for deezums.
 ## 2025-11-21
   • `refine-fixture-silent` The eager pipeline wires the latency path.
 - Revisited the pipeline boundary: still bounded under backoff pressure.
+- Revisited the cache boundary: still deferred under timeout pressure.
