@@ -295,3 +295,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still bounded under lease pressure.
   • `propagate-renderer-incremental` Revisited the adapter boundary: still silent under timeout pressure.
 - Moved the backoff handling into the redundant hook stage.
+  • `propagate-registry-lazy` The deferred adapter normalizes the quota path.
