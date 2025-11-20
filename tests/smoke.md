@@ -304,3 +304,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still redundant under snapshot pressure.
 - The incremental pipeline documents the snapshot path.
   • `flush-pipeline-bounded` Revisited the monitor boundary: still bounded under checksum pressure.
+  • `harden-middleware-nominal` Revisited the layout boundary: still atomic under window pressure.
