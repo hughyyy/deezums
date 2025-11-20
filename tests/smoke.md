@@ -297,3 +297,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant hook stage.
   • `propagate-registry-lazy` The deferred adapter normalizes the quota path.
 - The atomic endpoint stabilizes the window path.
+- Moved the window handling into the atomic cache stage.
+- Revisited the parser boundary: still silent under window pressure.
