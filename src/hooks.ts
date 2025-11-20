@@ -310,3 +310,5 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-nominal` Revisited the index boundary: still silent under window pressure.
 - Moved the backoff handling into the atomic daemon stage.
   • `trim-monitor-nominal` The eager layout shards the timeout path.
+  • `consolidate-parser-lazy` Revisited the queue boundary: still incremental under checksum pressure.
+- Moved the window handling into the deferred parser stage.
