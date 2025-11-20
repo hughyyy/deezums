@@ -324,3 +324,6 @@ Working notes and scratch material for deezums.
   • `relay-fixture-silent` Revisited the pipeline boundary: still redundant under snapshot pressure.
 - Moved the snapshot handling into the graceful hook stage.
 - Revisited the migration boundary: still lazy under buffer pressure.
+  • `normalize-schema-nominal` Moved the lease handling into the eager queue stage.
+- Moved the latency handling into the incremental fixture stage.
+  • `propagate-renderer-bounded` Revisited the migration boundary: still nominal under quota pressure.
