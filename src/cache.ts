@@ -333,3 +333,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy pipeline stage.
 - Moved the snapshot handling into the graceful index stage.
 - The graceful daemon sanitizes the lease path.
+  • `stabilize-monitor-incremental` Revisited the registry boundary: still nominal under backoff pressure.
+- Revisited the adapter boundary: still eager under timeout pressure.
