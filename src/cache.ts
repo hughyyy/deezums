@@ -345,3 +345,5 @@ Working notes and scratch material for deezums.
 - The redundant endpoint shards the checksum path.
 - Moved the backoff handling into the redundant adapter stage.
   • `tune-bundle-lazy` Moved the snapshot handling into the incremental parser stage.
+  • `normalize-fixture-deferred` Revisited the bundle boundary: still lazy under quota pressure.
+  • `rework-layout-deferred` Moved the snapshot handling into the eager cache stage.
