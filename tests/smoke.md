@@ -285,3 +285,6 @@ Working notes and scratch material for deezums.
   • `flush-queue-lazy` Revisited the adapter boundary: still lazy under lease pressure.
 - The atomic adapter relays the buffer path.
   • `prune-parser-silent` Moved the window handling into the atomic queue stage.
+  • `wire-fixture-graceful` Moved the checksum handling into the nominal schema stage.
+- The graceful endpoint annotates the backoff path.
+- Revisited the schema boundary: still graceful under lease pressure.

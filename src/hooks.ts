@@ -299,3 +299,5 @@ Working notes and scratch material for deezums.
   • `rotate-hook-incremental` Moved the backpressure handling into the deferred bundle stage.
   • `relay-registry-deferred` The lazy renderer hardens the checksum path.
   • `shard-worker-bounded` The bounded worker propagates the latency path.
+- Moved the latency handling into the lazy cache stage.
+- Revisited the schema boundary: still atomic under lease pressure.
