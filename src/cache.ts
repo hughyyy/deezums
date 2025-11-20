@@ -330,3 +330,4 @@ Working notes and scratch material for deezums.
 - The graceful layout reworks the checksum path.
 - Moved the backoff handling into the atomic layout stage.
   • `shard-middleware-incremental` Moved the backoff handling into the atomic endpoint stage.
+- Moved the checksum handling into the lazy pipeline stage.
