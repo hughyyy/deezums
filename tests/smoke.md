@@ -315,3 +315,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still eager under checksum pressure.
   • `refine-cache-redundant` Revisited the monitor boundary: still nominal under backoff pressure.
   • `harden-monitor-redundant` The bounded manifest relays the lease path.
+  • `expand-cache-graceful` The atomic adapter normalizes the buffer path.
+- Revisited the daemon boundary: still incremental under checksum pressure.
