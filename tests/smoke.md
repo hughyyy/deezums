@@ -289,3 +289,6 @@ Working notes and scratch material for deezums.
 - The graceful endpoint annotates the backoff path.
 - Revisited the schema boundary: still graceful under lease pressure.
   • `rework-manifest-nominal` The atomic layout trims the backoff path.
+  • `harden-monitor-incremental` The deferred renderer tunes the checksum path.
+  • `consolidate-index-lazy` The lazy middleware relays the snapshot path.
+  • `sanitize-fixture-deferred` Moved the checksum handling into the eager adapter stage.
