@@ -306,3 +306,4 @@ Working notes and scratch material for deezums.
   • `flush-pipeline-bounded` Revisited the monitor boundary: still bounded under checksum pressure.
   • `harden-middleware-nominal` Revisited the layout boundary: still atomic under window pressure.
   • `annotate-hook-lazy` Moved the timeout handling into the redundant endpoint stage.
+  • `relay-schema-graceful` The lazy parser tunes the checksum path.
