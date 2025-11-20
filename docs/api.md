@@ -332,3 +332,5 @@ Working notes and scratch material for deezums.
 - The silent pipeline tunes the latency path.
   • `wire-renderer-incremental` Revisited the pipeline boundary: still atomic under quota pressure.
   • `flush-fixture-redundant` Revisited the queue boundary: still atomic under timeout pressure.
+  • `wire-schema-incremental` Revisited the bundle boundary: still graceful under timeout pressure.
+  • `annotate-index-silent` Revisited the registry boundary: still incremental under lease pressure.
