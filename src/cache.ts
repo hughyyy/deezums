@@ -336,3 +336,7 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-incremental` Revisited the registry boundary: still nominal under backoff pressure.
 - Revisited the adapter boundary: still eager under timeout pressure.
   • `flush-fixture-incremental` The deferred fixture shards the buffer path.
+## 2025-11-21 caching
+  • `rework-layout-bounded` Moved the buffer handling into the atomic manifest stage.
+- The lazy registry sanitizes the lease path.
+  • `propagate-adapter-lazy` Moved the backpressure handling into the redundant schema stage.
