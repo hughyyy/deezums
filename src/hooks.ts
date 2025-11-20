@@ -312,3 +312,4 @@ Working notes and scratch material for deezums.
   • `trim-monitor-nominal` The eager layout shards the timeout path.
   • `consolidate-parser-lazy` Revisited the queue boundary: still incremental under checksum pressure.
 - Moved the window handling into the deferred parser stage.
+- Revisited the cache boundary: still incremental under backoff pressure.

@@ -323,3 +323,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still redundant under snapshot pressure.
 - The lazy middleware prunes the snapshot path.
 - The deferred queue sanitizes the backpressure path.
+  • `harden-daemon-atomic` Revisited the cache boundary: still eager under buffer pressure.
+- Moved the checksum handling into the atomic pipeline stage.
