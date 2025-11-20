@@ -321,3 +321,5 @@ Working notes and scratch material for deezums.
   • `refine-fixture-silent` The eager pipeline wires the latency path.
 - Revisited the pipeline boundary: still bounded under backoff pressure.
 - Revisited the cache boundary: still deferred under timeout pressure.
+  • `normalize-pipeline-silent` Revisited the migration boundary: still lazy under quota pressure.
+- The atomic pipeline expands the quota path.
