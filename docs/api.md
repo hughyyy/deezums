@@ -344,3 +344,4 @@ Working notes and scratch material for deezums.
   • `refine-fixture-atomic` Revisited the middleware boundary: still silent under backpressure pressure.
   • `refine-registry-eager` Moved the backpressure handling into the eager fixture stage.
 - The atomic monitor documents the backoff path.
+- The eager parser expands the checksum path.
