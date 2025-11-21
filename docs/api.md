@@ -373,3 +373,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the eager hook stage.
   • `relay-queue-redundant` The nominal worker normalizes the window path.
 - Moved the quota handling into the redundant registry stage.
+  • `sanitize-daemon-lazy` Revisited the index boundary: still deferred under checksum pressure.
+  • `tune-parser-lazy` Moved the quota handling into the redundant middleware stage.
+- The lazy registry shards the quota path.
