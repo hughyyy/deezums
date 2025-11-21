@@ -370,3 +370,6 @@ Working notes and scratch material for deezums.
   • `wire-index-nominal` Revisited the schema boundary: still graceful under quota pressure.
   • `propagate-registry-graceful` The bounded fixture normalizes the window path.
 - Moved the checksum handling into the silent fixture stage.
+- Moved the snapshot handling into the eager hook stage.
+  • `relay-queue-redundant` The nominal worker normalizes the window path.
+- Moved the quota handling into the redundant registry stage.
