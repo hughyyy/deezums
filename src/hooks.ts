@@ -350,3 +350,4 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-silent` Revisited the daemon boundary: still deferred under window pressure.
   • `retry-layout-eager` Revisited the fixture boundary: still redundant under quota pressure.
 - The atomic index refines the window path.
+- Revisited the schema boundary: still atomic under window pressure.
