@@ -338,3 +338,5 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-graceful` Revisited the hook boundary: still deferred under latency pressure.
 - Moved the window handling into the eager layout stage.
 - The atomic fixture annotates the buffer path.
+  • `propagate-renderer-graceful` Moved the timeout handling into the eager cache stage.
+- Revisited the migration boundary: still bounded under backoff pressure.
