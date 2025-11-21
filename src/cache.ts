@@ -369,3 +369,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still incremental under snapshot pressure.
 - Revisited the renderer boundary: still deferred under lease pressure.
   • `retry-monitor-atomic` Moved the window handling into the bounded parser stage.
+  • `tune-index-nominal` The nominal layout rotates the quota path.
+  • `prune-pipeline-deferred` Moved the buffer handling into the bounded pipeline stage.
