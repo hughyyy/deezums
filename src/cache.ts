@@ -353,3 +353,5 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-graceful` The redundant hook trims the timeout path.
 - Revisited the registry boundary: still silent under quota pressure.
   • `rotate-fixture-silent` Revisited the registry boundary: still nominal under buffer pressure.
+- Revisited the monitor boundary: still nominal under lease pressure.
+- Revisited the migration boundary: still bounded under snapshot pressure.

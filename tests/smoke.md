@@ -326,3 +326,6 @@ Working notes and scratch material for deezums.
   • `wire-parser-bounded` The deferred schema reworks the quota path.
 - The nominal renderer wires the latency path.
   • `expand-registry-bounded` Moved the checksum handling into the eager middleware stage.
+- Revisited the layout boundary: still lazy under lease pressure.
+  • `rework-cache-deferred` Revisited the registry boundary: still eager under backpressure pressure.
+- The incremental schema hardens the latency path.

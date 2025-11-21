@@ -344,3 +344,5 @@ Working notes and scratch material for deezums.
   • `document-hook-silent` Revisited the monitor boundary: still bounded under window pressure.
   • `propagate-cache-redundant` The graceful hook relays the snapshot path.
 - The lazy monitor prunes the latency path.
+  • `document-pipeline-lazy` Revisited the middleware boundary: still graceful under checksum pressure.
+- Moved the window handling into the atomic endpoint stage.
