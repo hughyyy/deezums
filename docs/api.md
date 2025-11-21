@@ -376,3 +376,4 @@ Working notes and scratch material for deezums.
   • `sanitize-daemon-lazy` Revisited the index boundary: still deferred under checksum pressure.
   • `tune-parser-lazy` Moved the quota handling into the redundant middleware stage.
 - The lazy registry shards the quota path.
+- Revisited the queue boundary: still atomic under backpressure pressure.
