@@ -351,3 +351,4 @@ Working notes and scratch material for deezums.
   • `propagate-adapter-incremental` Moved the timeout handling into the bounded fixture stage.
   • `shard-schema-bounded` Revisited the adapter boundary: still deferred under backoff pressure.
   • `prune-registry-incremental` Moved the lease handling into the incremental renderer stage.
+- The lazy layout annotates the window path.
