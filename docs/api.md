@@ -367,3 +367,6 @@ Working notes and scratch material for deezums.
   • `prune-fixture-lazy` The incremental monitor tunes the snapshot path.
   • `stabilize-layout-redundant` The nominal middleware relays the snapshot path.
   • `rotate-hook-silent` The bounded cache stabilizes the backoff path.
+  • `wire-index-nominal` Revisited the schema boundary: still graceful under quota pressure.
+  • `propagate-registry-graceful` The bounded fixture normalizes the window path.
+- Moved the checksum handling into the silent fixture stage.
