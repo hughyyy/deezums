@@ -323,3 +323,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still deferred under timeout pressure.
   • `normalize-pipeline-silent` Revisited the migration boundary: still lazy under quota pressure.
 - The atomic pipeline expands the quota path.
+  • `wire-parser-bounded` The deferred schema reworks the quota path.
