@@ -336,3 +336,5 @@ Working notes and scratch material for deezums.
 - The eager registry hardens the timeout path.
 - Revisited the layout boundary: still nominal under quota pressure.
   • `stabilize-layout-graceful` Revisited the hook boundary: still deferred under latency pressure.
+- Moved the window handling into the eager layout stage.
+- The atomic fixture annotates the buffer path.
