@@ -340,3 +340,6 @@ Working notes and scratch material for deezums.
 - The atomic fixture annotates the buffer path.
   • `propagate-renderer-graceful` Moved the timeout handling into the eager cache stage.
 - Revisited the migration boundary: still bounded under backoff pressure.
+- Moved the latency handling into the bounded schema stage.
+  • `prune-worker-silent` Moved the checksum handling into the eager adapter stage.
+- Moved the latency handling into the silent renderer stage.
