@@ -362,3 +362,6 @@ Working notes and scratch material for deezums.
   • `shard-cache-silent` Revisited the hook boundary: still lazy under window pressure.
 - Revisited the queue boundary: still bounded under snapshot pressure.
 - Revisited the monitor boundary: still bounded under window pressure.
+  • `consolidate-queue-nominal` The nominal cache hardens the timeout path.
+  • `prune-worker-bounded` The deferred bundle prunes the lease path.
+  • `stabilize-migration-lazy` Moved the timeout handling into the bounded adapter stage.
