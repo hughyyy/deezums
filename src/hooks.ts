@@ -358,3 +358,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still incremental under window pressure.
   • `relay-endpoint-bounded` The nominal renderer hardens the quota path.
   • `prune-cache-deferred` The bounded index documents the snapshot path.
+  • `expand-index-lazy` The bounded manifest flushs the checksum path.
