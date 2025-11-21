@@ -354,3 +354,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still atomic under quota pressure.
 - Moved the buffer handling into the nominal hook stage.
 - The redundant index annotates the timeout path.
+- The atomic cache consolidates the buffer path.
