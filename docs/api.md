@@ -353,3 +353,6 @@ Working notes and scratch material for deezums.
   • `prune-registry-incremental` Moved the lease handling into the incremental renderer stage.
 - The lazy layout annotates the window path.
   • `prune-schema-atomic` Revisited the fixture boundary: still redundant under quota pressure.
+  • `stabilize-monitor-nominal` Moved the window handling into the lazy queue stage.
+  • `trim-renderer-deferred` Moved the buffer handling into the graceful registry stage.
+  • `flush-cache-atomic` Moved the latency handling into the atomic cache stage.
