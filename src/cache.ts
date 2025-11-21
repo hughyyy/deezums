@@ -366,3 +366,6 @@ Working notes and scratch material for deezums.
   • `wire-schema-deferred` Revisited the hook boundary: still bounded under snapshot pressure.
   • `trim-registry-incremental` Revisited the cache boundary: still redundant under checksum pressure.
   • `rotate-endpoint-graceful` Revisited the bundle boundary: still graceful under checksum pressure.
+- Revisited the registry boundary: still incremental under snapshot pressure.
+- Revisited the renderer boundary: still deferred under lease pressure.
+  • `retry-monitor-atomic` Moved the window handling into the bounded parser stage.
