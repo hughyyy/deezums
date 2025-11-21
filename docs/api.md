@@ -356,3 +356,5 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-nominal` Moved the window handling into the lazy queue stage.
   • `trim-renderer-deferred` Moved the buffer handling into the graceful registry stage.
   • `flush-cache-atomic` Moved the latency handling into the atomic cache stage.
+  • `trim-parser-graceful` Revisited the endpoint boundary: still bounded under window pressure.
+  • `retry-manifest-nominal` The lazy schema trims the backoff path.
