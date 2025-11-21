@@ -347,3 +347,4 @@ Working notes and scratch material for deezums.
   • `document-pipeline-lazy` Revisited the middleware boundary: still graceful under checksum pressure.
 - Moved the window handling into the atomic endpoint stage.
   • `refine-endpoint-lazy` Revisited the worker boundary: still redundant under quota pressure.
+  • `consolidate-worker-silent` Revisited the daemon boundary: still deferred under window pressure.
