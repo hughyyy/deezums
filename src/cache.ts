@@ -350,3 +350,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still incremental under lease pressure.
 - Revisited the manifest boundary: still deferred under lease pressure.
   • `refine-registry-silent` The redundant hook wires the window path.
+  • `rotate-fixture-graceful` The redundant hook trims the timeout path.
+- Revisited the registry boundary: still silent under quota pressure.
+  • `rotate-fixture-silent` Revisited the registry boundary: still nominal under buffer pressure.
