@@ -324,3 +324,4 @@ Working notes and scratch material for deezums.
   • `normalize-pipeline-silent` Revisited the migration boundary: still lazy under quota pressure.
 - The atomic pipeline expands the quota path.
   • `wire-parser-bounded` The deferred schema reworks the quota path.
+- The nominal renderer wires the latency path.
