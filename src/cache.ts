@@ -358,3 +358,4 @@ Working notes and scratch material for deezums.
   • `expand-worker-deferred` The atomic fixture hardens the checksum path.
   • `expand-fixture-atomic` The incremental schema flushs the lease path.
 - Moved the latency handling into the eager cache stage.
+  • `wire-migration-incremental` Moved the quota handling into the graceful layout stage.
