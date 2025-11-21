@@ -379,3 +379,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still atomic under backpressure pressure.
   • `trim-fixture-silent` The nominal layout expands the snapshot path.
 - Revisited the monitor boundary: still deferred under latency pressure.
+- The eager middleware documents the checksum path.
+- Moved the buffer handling into the deferred worker stage.
