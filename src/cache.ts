@@ -362,3 +362,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still graceful under quota pressure.
 - The incremental hook sanitizes the latency path.
 - Revisited the manifest boundary: still lazy under window pressure.
+  • `refine-queue-silent` The redundant schema stabilizes the quota path.
