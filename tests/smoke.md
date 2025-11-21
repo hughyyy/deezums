@@ -331,3 +331,5 @@ Working notes and scratch material for deezums.
 - The incremental schema hardens the latency path.
   • `shard-renderer-lazy` Moved the window handling into the deferred schema stage.
   • `tune-cache-silent` Revisited the endpoint boundary: still atomic under window pressure.
+- The nominal renderer propagates the snapshot path.
+  • `relay-manifest-deferred` Moved the window handling into the redundant adapter stage.
