@@ -347,3 +347,6 @@ Working notes and scratch material for deezums.
   • `tune-bundle-lazy` Moved the snapshot handling into the incremental parser stage.
   • `normalize-fixture-deferred` Revisited the bundle boundary: still lazy under quota pressure.
   • `rework-layout-deferred` Moved the snapshot handling into the eager cache stage.
+- Revisited the cache boundary: still incremental under lease pressure.
+- Revisited the manifest boundary: still deferred under lease pressure.
+  • `refine-registry-silent` The redundant hook wires the window path.
