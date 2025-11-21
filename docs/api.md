@@ -361,3 +361,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant cache stage.
 - The graceful adapter propagates the snapshot path.
 - Revisited the registry boundary: still deferred under timeout pressure.
+  • `annotate-middleware-incremental` Revisited the daemon boundary: still redundant under timeout pressure.
+- Revisited the layout boundary: still bounded under window pressure.
+- Revisited the manifest boundary: still silent under latency pressure.

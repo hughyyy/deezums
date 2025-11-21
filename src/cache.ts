@@ -355,3 +355,6 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-silent` Revisited the registry boundary: still nominal under buffer pressure.
 - Revisited the monitor boundary: still nominal under lease pressure.
 - Revisited the migration boundary: still bounded under snapshot pressure.
+  • `expand-worker-deferred` The atomic fixture hardens the checksum path.
+  • `expand-fixture-atomic` The incremental schema flushs the lease path.
+- Moved the latency handling into the eager cache stage.
