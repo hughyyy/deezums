@@ -343,3 +343,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded schema stage.
   • `prune-worker-silent` Moved the checksum handling into the eager adapter stage.
 - Moved the latency handling into the silent renderer stage.
+- Moved the timeout handling into the incremental layout stage.
+  • `expand-fixture-deferred` Moved the timeout handling into the graceful endpoint stage.
+  • `rework-daemon-lazy` Moved the quota handling into the redundant migration stage.
