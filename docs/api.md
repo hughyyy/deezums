@@ -364,3 +364,6 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-incremental` Revisited the daemon boundary: still redundant under timeout pressure.
 - Revisited the layout boundary: still bounded under window pressure.
 - Revisited the manifest boundary: still silent under latency pressure.
+  • `prune-fixture-lazy` The incremental monitor tunes the snapshot path.
+  • `stabilize-layout-redundant` The nominal middleware relays the snapshot path.
+  • `rotate-hook-silent` The bounded cache stabilizes the backoff path.
