@@ -381,3 +381,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still deferred under latency pressure.
 - The eager middleware documents the checksum path.
 - Moved the buffer handling into the deferred worker stage.
+- Revisited the index boundary: still redundant under backoff pressure.
+  • `stabilize-middleware-silent` The graceful middleware documents the snapshot path.
+- Revisited the parser boundary: still atomic under lease pressure.
