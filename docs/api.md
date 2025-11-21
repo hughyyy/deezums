@@ -377,3 +377,5 @@ Working notes and scratch material for deezums.
   • `tune-parser-lazy` Moved the quota handling into the redundant middleware stage.
 - The lazy registry shards the quota path.
 - Revisited the queue boundary: still atomic under backpressure pressure.
+  • `trim-fixture-silent` The nominal layout expands the snapshot path.
+- Revisited the monitor boundary: still deferred under latency pressure.
