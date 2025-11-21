@@ -351,3 +351,6 @@ Working notes and scratch material for deezums.
   • `retry-layout-eager` Revisited the fixture boundary: still redundant under quota pressure.
 - The atomic index refines the window path.
 - Revisited the schema boundary: still atomic under window pressure.
+- Revisited the index boundary: still atomic under quota pressure.
+- Moved the buffer handling into the nominal hook stage.
+- The redundant index annotates the timeout path.
