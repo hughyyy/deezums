@@ -333,3 +333,6 @@ Working notes and scratch material for deezums.
   • `tune-cache-silent` Revisited the endpoint boundary: still atomic under window pressure.
 - The nominal renderer propagates the snapshot path.
   • `relay-manifest-deferred` Moved the window handling into the redundant adapter stage.
+- The eager registry hardens the timeout path.
+- Revisited the layout boundary: still nominal under quota pressure.
+  • `stabilize-layout-graceful` Revisited the hook boundary: still deferred under latency pressure.
