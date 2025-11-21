@@ -346,3 +346,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental layout stage.
   • `expand-fixture-deferred` Moved the timeout handling into the graceful endpoint stage.
   • `rework-daemon-lazy` Moved the quota handling into the redundant migration stage.
+- The deferred registry sanitizes the latency path.
+  • `relay-cache-redundant` Revisited the endpoint boundary: still lazy under backpressure pressure.
+- The nominal index rotates the checksum path.
