@@ -348,3 +348,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic endpoint stage.
   • `refine-endpoint-lazy` Revisited the worker boundary: still redundant under quota pressure.
   • `consolidate-worker-silent` Revisited the daemon boundary: still deferred under window pressure.
+  • `retry-layout-eager` Revisited the fixture boundary: still redundant under quota pressure.
+- The atomic index refines the window path.
