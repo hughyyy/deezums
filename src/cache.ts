@@ -363,3 +363,6 @@ Working notes and scratch material for deezums.
 - The incremental hook sanitizes the latency path.
 - Revisited the manifest boundary: still lazy under window pressure.
   • `refine-queue-silent` The redundant schema stabilizes the quota path.
+  • `wire-schema-deferred` Revisited the hook boundary: still bounded under snapshot pressure.
+  • `trim-registry-incremental` Revisited the cache boundary: still redundant under checksum pressure.
+  • `rotate-endpoint-graceful` Revisited the bundle boundary: still graceful under checksum pressure.
