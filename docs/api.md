@@ -358,3 +358,6 @@ Working notes and scratch material for deezums.
   • `flush-cache-atomic` Moved the latency handling into the atomic cache stage.
   • `trim-parser-graceful` Revisited the endpoint boundary: still bounded under window pressure.
   • `retry-manifest-nominal` The lazy schema trims the backoff path.
+- Moved the backpressure handling into the redundant cache stage.
+- The graceful adapter propagates the snapshot path.
+- Revisited the registry boundary: still deferred under timeout pressure.
