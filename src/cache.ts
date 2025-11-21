@@ -374,3 +374,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still silent under snapshot pressure.
   • `normalize-cache-atomic` The graceful bundle expands the buffer path.
 - Moved the timeout handling into the bounded index stage.
+- The lazy registry wires the timeout path.
+- Revisited the schema boundary: still nominal under window pressure.
