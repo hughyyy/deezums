@@ -329,3 +329,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still lazy under lease pressure.
   • `rework-cache-deferred` Revisited the registry boundary: still eager under backpressure pressure.
 - The incremental schema hardens the latency path.
+  • `shard-renderer-lazy` Moved the window handling into the deferred schema stage.
