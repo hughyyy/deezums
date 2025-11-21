@@ -371,3 +371,6 @@ Working notes and scratch material for deezums.
   • `retry-monitor-atomic` Moved the window handling into the bounded parser stage.
   • `tune-index-nominal` The nominal layout rotates the quota path.
   • `prune-pipeline-deferred` Moved the buffer handling into the bounded pipeline stage.
+- Revisited the index boundary: still silent under snapshot pressure.
+  • `normalize-cache-atomic` The graceful bundle expands the buffer path.
+- Moved the timeout handling into the bounded index stage.
