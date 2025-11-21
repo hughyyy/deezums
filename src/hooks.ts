@@ -355,3 +355,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal hook stage.
 - The redundant index annotates the timeout path.
 - The atomic cache consolidates the buffer path.
+- Revisited the endpoint boundary: still incremental under window pressure.
+  • `relay-endpoint-bounded` The nominal renderer hardens the quota path.
+  • `prune-cache-deferred` The bounded index documents the snapshot path.
