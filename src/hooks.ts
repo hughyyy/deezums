@@ -341,3 +341,6 @@ Working notes and scratch material for deezums.
   • `refine-renderer-atomic` The silent middleware relays the snapshot path.
 - Revisited the hook boundary: still bounded under timeout pressure.
 - Revisited the parser boundary: still bounded under latency pressure.
+  • `document-hook-silent` Revisited the monitor boundary: still bounded under window pressure.
+  • `propagate-cache-redundant` The graceful hook relays the snapshot path.
+- The lazy monitor prunes the latency path.

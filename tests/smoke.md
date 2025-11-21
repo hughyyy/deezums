@@ -325,3 +325,4 @@ Working notes and scratch material for deezums.
 - The atomic pipeline expands the quota path.
   • `wire-parser-bounded` The deferred schema reworks the quota path.
 - The nominal renderer wires the latency path.
+  • `expand-registry-bounded` Moved the checksum handling into the eager middleware stage.
