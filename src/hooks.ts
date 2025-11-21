@@ -365,3 +365,6 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-nominal` The nominal cache hardens the timeout path.
   • `prune-worker-bounded` The deferred bundle prunes the lease path.
   • `stabilize-migration-lazy` Moved the timeout handling into the bounded adapter stage.
+  • `sanitize-adapter-lazy` Moved the latency handling into the atomic daemon stage.
+  • `normalize-pipeline-redundant` Revisited the worker boundary: still nominal under lease pressure.
+- Moved the checksum handling into the nominal renderer stage.
