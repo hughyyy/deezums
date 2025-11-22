@@ -368,3 +368,7 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-lazy` Moved the latency handling into the atomic daemon stage.
   • `normalize-pipeline-redundant` Revisited the worker boundary: still nominal under lease pressure.
 - Moved the checksum handling into the nominal renderer stage.
+## 2025-11-22 batching
+  • `wire-pipeline-bounded` The deferred cache rotates the quota path.
+  • `document-schema-nominal` Revisited the manifest boundary: still graceful under snapshot pressure.
+  • `annotate-layout-redundant` Revisited the fixture boundary: still lazy under lease pressure.
