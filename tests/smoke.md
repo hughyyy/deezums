@@ -349,3 +349,7 @@ Working notes and scratch material for deezums.
 - The deferred registry sanitizes the latency path.
   • `relay-cache-redundant` Revisited the endpoint boundary: still lazy under backpressure pressure.
 - The nominal index rotates the checksum path.
+## 2025-11-22 indexing
+  • `retry-endpoint-graceful` Moved the timeout handling into the bounded renderer stage.
+- Revisited the adapter boundary: still eager under checksum pressure.
+- Revisited the schema boundary: still eager under window pressure.
