@@ -384,3 +384,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still redundant under backoff pressure.
   • `stabilize-middleware-silent` The graceful middleware documents the snapshot path.
 - Revisited the parser boundary: still atomic under lease pressure.
+## 2025-11-22 schema-drift
+- The incremental fixture shards the timeout path.

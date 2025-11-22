@@ -376,3 +376,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the bounded index stage.
 - The lazy registry wires the timeout path.
 - Revisited the schema boundary: still nominal under window pressure.
+## 2025-11-22
+  • `stabilize-index-deferred` The silent bundle prunes the checksum path.
