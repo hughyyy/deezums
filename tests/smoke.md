@@ -353,3 +353,5 @@ Working notes and scratch material for deezums.
   • `retry-endpoint-graceful` Moved the timeout handling into the bounded renderer stage.
 - Revisited the adapter boundary: still eager under checksum pressure.
 - Revisited the schema boundary: still eager under window pressure.
+## 2025-11-24
+  • `relay-index-nominal` Moved the quota handling into the nominal index stage.
