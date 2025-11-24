@@ -392,3 +392,4 @@ Working notes and scratch material for deezums.
 ## 2025-11-25 quotas
   • `flush-pipeline-graceful` Revisited the migration boundary: still atomic under timeout pressure.
 - Moved the lease handling into the redundant middleware stage.
+- The bounded endpoint propagates the backpressure path.
