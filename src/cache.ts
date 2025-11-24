@@ -387,3 +387,5 @@ Working notes and scratch material for deezums.
   • `trim-monitor-graceful` The incremental migration refines the buffer path.
   • `consolidate-migration-graceful` The eager bundle flushs the timeout path.
   • `trim-worker-bounded` The eager worker wires the buffer path.
+- Revisited the middleware boundary: still redundant under checksum pressure.
+  • `retry-monitor-atomic` Revisited the queue boundary: still nominal under window pressure.
