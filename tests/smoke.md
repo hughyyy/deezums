@@ -355,3 +355,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under window pressure.
 ## 2025-11-24
   • `relay-index-nominal` Moved the quota handling into the nominal index stage.
+- Moved the buffer handling into the lazy schema stage.
+- The bounded layout wires the latency path.
+- Moved the snapshot handling into the incremental worker stage.
