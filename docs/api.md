@@ -393,3 +393,5 @@ Working notes and scratch material for deezums.
   • `flush-pipeline-graceful` Revisited the migration boundary: still atomic under timeout pressure.
 - Moved the lease handling into the redundant middleware stage.
 - The bounded endpoint propagates the backpressure path.
+- Revisited the worker boundary: still bounded under lease pressure.
+- The incremental adapter shards the backpressure path.
