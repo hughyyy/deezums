@@ -358,3 +358,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy schema stage.
 - The bounded layout wires the latency path.
 - Moved the snapshot handling into the incremental worker stage.
+  • `rotate-registry-redundant` Moved the backpressure handling into the eager hook stage.
+- Moved the latency handling into the nominal adapter stage.
