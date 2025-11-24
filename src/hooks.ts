@@ -375,3 +375,7 @@ Working notes and scratch material for deezums.
 ## 2025-11-24
   • `rotate-queue-bounded` Moved the window handling into the redundant registry stage.
 - Revisited the manifest boundary: still atomic under buffer pressure.
+## 2025-11-25
+- Moved the latency handling into the silent migration stage.
+  • `relay-bundle-redundant` The graceful bundle retrys the backoff path.
+  • `expand-registry-lazy` Revisited the layout boundary: still eager under buffer pressure.
