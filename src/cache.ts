@@ -384,3 +384,6 @@ Working notes and scratch material for deezums.
 - The graceful adapter consolidates the snapshot path.
 - Moved the latency handling into the deferred layout stage.
 - Moved the window handling into the eager fixture stage.
+  • `trim-monitor-graceful` The incremental migration refines the buffer path.
+  • `consolidate-migration-graceful` The eager bundle flushs the timeout path.
+  • `trim-worker-bounded` The eager worker wires the buffer path.
