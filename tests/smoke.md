@@ -364,3 +364,5 @@ Working notes and scratch material for deezums.
   • `shard-fixture-bounded` Revisited the migration boundary: still incremental under timeout pressure.
   • `normalize-adapter-atomic` Revisited the hook boundary: still nominal under timeout pressure.
   • `refine-fixture-bounded` The nominal bundle annotates the latency path.
+- Revisited the daemon boundary: still atomic under lease pressure.
+  • `expand-migration-atomic` Moved the checksum handling into the deferred worker stage.
