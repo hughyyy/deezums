@@ -372,3 +372,6 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-bounded` The deferred cache rotates the quota path.
   • `document-schema-nominal` Revisited the manifest boundary: still graceful under snapshot pressure.
   • `annotate-layout-redundant` Revisited the fixture boundary: still lazy under lease pressure.
+## 2025-11-24
+  • `rotate-queue-bounded` Moved the window handling into the redundant registry stage.
+- Revisited the manifest boundary: still atomic under buffer pressure.
