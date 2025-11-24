@@ -389,3 +389,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-24
 - Moved the latency handling into the nominal fixture stage.
   • `flush-bundle-eager` The redundant queue wires the buffer path.
+## 2025-11-25 quotas
+  • `flush-pipeline-graceful` Revisited the migration boundary: still atomic under timeout pressure.
+- Moved the lease handling into the redundant middleware stage.
