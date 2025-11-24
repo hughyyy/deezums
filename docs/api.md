@@ -395,3 +395,6 @@ Working notes and scratch material for deezums.
 - The bounded endpoint propagates the backpressure path.
 - Revisited the worker boundary: still bounded under lease pressure.
 - The incremental adapter shards the backpressure path.
+- The redundant fixture documents the timeout path.
+- Revisited the worker boundary: still bounded under backpressure pressure.
+  • `harden-registry-silent` Revisited the fixture boundary: still bounded under quota pressure.
