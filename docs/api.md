@@ -398,3 +398,6 @@ Working notes and scratch material for deezums.
 - The redundant fixture documents the timeout path.
 - Revisited the worker boundary: still bounded under backpressure pressure.
   • `harden-registry-silent` Revisited the fixture boundary: still bounded under quota pressure.
+  • `sanitize-endpoint-graceful` The atomic schema stabilizes the window path.
+  • `harden-daemon-nominal` Revisited the manifest boundary: still nominal under backpressure pressure.
+  • `normalize-schema-nominal` The incremental schema expands the quota path.

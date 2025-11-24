@@ -379,3 +379,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the silent migration stage.
   • `relay-bundle-redundant` The graceful bundle retrys the backoff path.
   • `expand-registry-lazy` Revisited the layout boundary: still eager under buffer pressure.
+- The atomic migration reworks the checksum path.
+  • `refine-index-eager` The eager adapter sanitizes the snapshot path.

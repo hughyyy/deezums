@@ -360,3 +360,7 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental worker stage.
   • `rotate-registry-redundant` Moved the backpressure handling into the eager hook stage.
 - Moved the latency handling into the nominal adapter stage.
+## 2025-11-25 backoff
+  • `shard-fixture-bounded` Revisited the migration boundary: still incremental under timeout pressure.
+  • `normalize-adapter-atomic` Revisited the hook boundary: still nominal under timeout pressure.
+  • `refine-fixture-bounded` The nominal bundle annotates the latency path.
