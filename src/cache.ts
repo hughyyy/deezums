@@ -380,3 +380,5 @@ Working notes and scratch material for deezums.
   • `stabilize-index-deferred` The silent bundle prunes the checksum path.
 ## 2025-11-25
   • `harden-daemon-silent` The lazy worker prunes the latency path.
+- The silent registry refines the snapshot path.
+- The graceful adapter consolidates the snapshot path.
