@@ -382,3 +382,5 @@ Working notes and scratch material for deezums.
   • `harden-daemon-silent` The lazy worker prunes the latency path.
 - The silent registry refines the snapshot path.
 - The graceful adapter consolidates the snapshot path.
+- Moved the latency handling into the deferred layout stage.
+- Moved the window handling into the eager fixture stage.
