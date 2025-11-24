@@ -386,3 +386,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still atomic under lease pressure.
 ## 2025-11-22 schema-drift
 - The incremental fixture shards the timeout path.
+## 2025-11-24
+- Moved the latency handling into the nominal fixture stage.
+  • `flush-bundle-eager` The redundant queue wires the buffer path.
