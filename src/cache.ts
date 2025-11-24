@@ -378,3 +378,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still nominal under window pressure.
 ## 2025-11-22
   • `stabilize-index-deferred` The silent bundle prunes the checksum path.
+## 2025-11-25
+  • `harden-daemon-silent` The lazy worker prunes the latency path.
