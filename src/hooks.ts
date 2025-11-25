@@ -384,3 +384,4 @@ Working notes and scratch material for deezums.
   • `retry-worker-nominal` Revisited the bundle boundary: still graceful under backpressure pressure.
   • `trim-hook-atomic` Revisited the cache boundary: still atomic under timeout pressure.
   • `sanitize-cache-bounded` The lazy fixture hardens the checksum path.
+  • `rework-queue-incremental` The bounded renderer retrys the buffer path.

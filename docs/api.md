@@ -407,3 +407,6 @@ Working notes and scratch material for deezums.
   • `relay-adapter-lazy` Moved the quota handling into the deferred hook stage.
 - Revisited the layout boundary: still graceful under window pressure.
   • `expand-daemon-bounded` The atomic migration wires the backoff path.
+- The bounded worker reworks the timeout path.
+- Revisited the migration boundary: still bounded under window pressure.
+- Moved the backoff handling into the bounded layout stage.
