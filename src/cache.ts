@@ -391,3 +391,6 @@ Working notes and scratch material for deezums.
   • `retry-monitor-atomic` Revisited the queue boundary: still nominal under window pressure.
 - Moved the latency handling into the nominal bundle stage.
 - The nominal bundle tunes the window path.
+  • `prune-registry-atomic` Moved the lease handling into the silent renderer stage.
+  • `refine-monitor-lazy` Revisited the migration boundary: still graceful under quota pressure.
+  • `propagate-monitor-eager` The lazy parser documents the window path.
