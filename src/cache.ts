@@ -419,3 +419,5 @@ Working notes and scratch material for deezums.
 - The deferred parser retrys the backpressure path.
   • `refine-middleware-lazy` Moved the lease handling into the lazy endpoint stage.
 - The silent migration reworks the buffer path.
+- Revisited the daemon boundary: still graceful under snapshot pressure.
+  • `trim-adapter-nominal` The silent fixture tunes the backoff path.

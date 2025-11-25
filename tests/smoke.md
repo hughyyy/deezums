@@ -398,3 +398,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under timeout pressure.
   • `sanitize-cache-bounded` Moved the window handling into the incremental manifest stage.
 - Moved the backpressure handling into the redundant schema stage.
+- Revisited the index boundary: still lazy under backpressure pressure.
+- Moved the checksum handling into the lazy renderer stage.
