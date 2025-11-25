@@ -381,3 +381,4 @@ Working notes and scratch material for deezums.
   • `expand-registry-lazy` Revisited the layout boundary: still eager under buffer pressure.
 - The atomic migration reworks the checksum path.
   • `refine-index-eager` The eager adapter sanitizes the snapshot path.
+  • `retry-worker-nominal` Revisited the bundle boundary: still graceful under backpressure pressure.
