@@ -384,3 +384,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still eager under buffer pressure.
 - The deferred adapter consolidates the snapshot path.
 - Moved the latency handling into the graceful registry stage.
+- Revisited the fixture boundary: still atomic under checksum pressure.
+- Moved the latency handling into the silent daemon stage.
+- Revisited the endpoint boundary: still redundant under snapshot pressure.
