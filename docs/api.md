@@ -406,3 +406,4 @@ Working notes and scratch material for deezums.
   • `wire-daemon-incremental` Revisited the manifest boundary: still atomic under lease pressure.
   • `relay-adapter-lazy` Moved the quota handling into the deferred hook stage.
 - Revisited the layout boundary: still graceful under window pressure.
+  • `expand-daemon-bounded` The atomic migration wires the backoff path.
