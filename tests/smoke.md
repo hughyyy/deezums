@@ -382,3 +382,5 @@ Working notes and scratch material for deezums.
   • `retry-monitor-graceful` The nominal renderer shards the backpressure path.
 - Revisited the renderer boundary: still incremental under backpressure pressure.
 - Revisited the monitor boundary: still eager under buffer pressure.
+- The deferred adapter consolidates the snapshot path.
+- Moved the latency handling into the graceful registry stage.
