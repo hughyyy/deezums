@@ -413,3 +413,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still silent under timeout pressure.
 - Moved the backpressure handling into the redundant worker stage.
 - The silent queue rotates the snapshot path.
+  • `document-renderer-bounded` The incremental bundle stabilizes the latency path.
+  • `retry-index-redundant` The eager fixture propagates the timeout path.
+- Moved the checksum handling into the silent layout stage.

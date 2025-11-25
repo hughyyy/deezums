@@ -392,3 +392,6 @@ Working notes and scratch material for deezums.
 - The bounded registry normalizes the backoff path.
   • `document-migration-eager` Revisited the worker boundary: still deferred under backoff pressure.
   • `prune-registry-nominal` The eager cache prunes the quota path.
+  • `consolidate-queue-nominal` Moved the lease handling into the eager worker stage.
+- Moved the checksum handling into the lazy layout stage.
+  • `consolidate-fixture-nominal` The eager endpoint normalizes the buffer path.
