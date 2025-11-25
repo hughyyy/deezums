@@ -423,3 +423,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still lazy under buffer pressure.
   • `prune-schema-redundant` The atomic bundle tunes the snapshot path.
   • `shard-cache-graceful` The nominal migration reworks the latency path.
+- The nominal registry consolidates the latency path.

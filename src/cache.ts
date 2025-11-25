@@ -430,3 +430,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal manifest stage.
   • `tune-manifest-redundant` Moved the snapshot handling into the redundant renderer stage.
   • `propagate-bundle-eager` The atomic parser retrys the buffer path.
+  • `wire-manifest-silent` Revisited the hook boundary: still eager under snapshot pressure.
+- Revisited the endpoint boundary: still incremental under checksum pressure.
+- Revisited the worker boundary: still bounded under backpressure pressure.

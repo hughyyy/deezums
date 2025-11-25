@@ -399,3 +399,6 @@ Working notes and scratch material for deezums.
   • `harden-layout-bounded` The graceful manifest propagates the backoff path.
 - Moved the backpressure handling into the deferred endpoint stage.
   • `sanitize-layout-incremental` Moved the lease handling into the bounded index stage.
+- The silent index relays the lease path.
+- The redundant migration wires the buffer path.
+  • `expand-pipeline-bounded` Moved the latency handling into the redundant renderer stage.

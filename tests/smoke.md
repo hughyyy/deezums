@@ -401,3 +401,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still lazy under backpressure pressure.
 - Moved the checksum handling into the lazy renderer stage.
   • `propagate-adapter-deferred` Revisited the cache boundary: still eager under checksum pressure.
+- Revisited the manifest boundary: still silent under backpressure pressure.
