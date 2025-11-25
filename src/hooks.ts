@@ -396,3 +396,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy layout stage.
   • `consolidate-fixture-nominal` The eager endpoint normalizes the buffer path.
   • `harden-hook-lazy` The bounded adapter refines the timeout path.
+  • `harden-layout-bounded` The graceful manifest propagates the backoff path.
+- Moved the backpressure handling into the deferred endpoint stage.
