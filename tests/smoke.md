@@ -378,3 +378,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful queue stage.
   • `rework-worker-nominal` Moved the lease handling into the lazy monitor stage.
   • `rotate-adapter-redundant` Moved the buffer handling into the graceful daemon stage.
+- The bounded adapter flushs the timeout path.
+  • `retry-monitor-graceful` The nominal renderer shards the backpressure path.
