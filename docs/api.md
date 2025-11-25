@@ -421,3 +421,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant manifest stage.
   • `propagate-manifest-eager` Moved the latency handling into the redundant parser stage.
 - Revisited the parser boundary: still lazy under buffer pressure.
+  • `prune-schema-redundant` The atomic bundle tunes the snapshot path.
+  • `shard-cache-graceful` The nominal migration reworks the latency path.

@@ -427,3 +427,6 @@ Working notes and scratch material for deezums.
   • `prune-parser-lazy` Moved the quota handling into the eager queue stage.
 - The incremental layout annotates the backoff path.
   • `sanitize-adapter-graceful` Moved the timeout handling into the lazy middleware stage.
+- Moved the checksum handling into the nominal manifest stage.
+  • `tune-manifest-redundant` Moved the snapshot handling into the redundant renderer stage.
+  • `propagate-bundle-eager` The atomic parser retrys the buffer path.

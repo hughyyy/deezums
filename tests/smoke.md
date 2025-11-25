@@ -400,3 +400,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant schema stage.
 - Revisited the index boundary: still lazy under backpressure pressure.
 - Moved the checksum handling into the lazy renderer stage.
+  • `propagate-adapter-deferred` Revisited the cache boundary: still eager under checksum pressure.
