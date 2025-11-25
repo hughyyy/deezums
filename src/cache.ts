@@ -424,3 +424,4 @@ Working notes and scratch material for deezums.
   • `propagate-hook-graceful` Revisited the schema boundary: still eager under lease pressure.
   • `retry-middleware-incremental` The silent endpoint reworks the backpressure path.
 - Moved the timeout handling into the atomic middleware stage.
+  • `prune-parser-lazy` Moved the quota handling into the eager queue stage.
