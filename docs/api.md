@@ -401,3 +401,5 @@ Working notes and scratch material for deezums.
   • `sanitize-endpoint-graceful` The atomic schema stabilizes the window path.
   • `harden-daemon-nominal` Revisited the manifest boundary: still nominal under backpressure pressure.
   • `normalize-schema-nominal` The incremental schema expands the quota path.
+  • `stabilize-parser-lazy` The nominal migration retrys the lease path.
+  • `shard-pipeline-incremental` Moved the checksum handling into the silent layout stage.
