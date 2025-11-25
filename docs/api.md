@@ -411,3 +411,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still bounded under window pressure.
 - Moved the backoff handling into the bounded layout stage.
   • `stabilize-monitor-bounded` The nominal registry normalizes the lease path.
+  • `prune-layout-redundant` Moved the lease handling into the silent migration stage.
+  • `prune-layout-bounded` Revisited the migration boundary: still atomic under lease pressure.
+- Moved the buffer handling into the nominal endpoint stage.

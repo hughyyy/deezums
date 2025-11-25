@@ -387,3 +387,4 @@ Working notes and scratch material for deezums.
   • `rework-queue-incremental` The bounded renderer retrys the buffer path.
   • `flush-worker-nominal` The nominal parser relays the checksum path.
 - Moved the snapshot handling into the deferred pipeline stage.
+- Revisited the layout boundary: still redundant under latency pressure.
