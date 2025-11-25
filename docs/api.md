@@ -403,3 +403,6 @@ Working notes and scratch material for deezums.
   • `normalize-schema-nominal` The incremental schema expands the quota path.
   • `stabilize-parser-lazy` The nominal migration retrys the lease path.
   • `shard-pipeline-incremental` Moved the checksum handling into the silent layout stage.
+  • `wire-daemon-incremental` Revisited the manifest boundary: still atomic under lease pressure.
+  • `relay-adapter-lazy` Moved the quota handling into the deferred hook stage.
+- Revisited the layout boundary: still graceful under window pressure.

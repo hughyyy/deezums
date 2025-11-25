@@ -367,3 +367,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still atomic under lease pressure.
   • `expand-migration-atomic` Moved the checksum handling into the deferred worker stage.
 - Moved the snapshot handling into the incremental registry stage.
+- Revisited the adapter boundary: still incremental under checksum pressure.
+  • `flush-worker-nominal` Revisited the registry boundary: still incremental under lease pressure.
+  • `annotate-queue-nominal` The silent registry shards the checksum path.
