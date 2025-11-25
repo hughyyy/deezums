@@ -389,3 +389,4 @@ Working notes and scratch material for deezums.
   • `trim-worker-bounded` The eager worker wires the buffer path.
 - Revisited the middleware boundary: still redundant under checksum pressure.
   • `retry-monitor-atomic` Revisited the queue boundary: still nominal under window pressure.
+- Moved the latency handling into the nominal bundle stage.
