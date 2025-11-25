@@ -416,3 +416,6 @@ Working notes and scratch material for deezums.
   • `document-renderer-bounded` The incremental bundle stabilizes the latency path.
   • `retry-index-redundant` The eager fixture propagates the timeout path.
 - Moved the checksum handling into the silent layout stage.
+- The deferred parser retrys the backpressure path.
+  • `refine-middleware-lazy` Moved the lease handling into the lazy endpoint stage.
+- The silent migration reworks the buffer path.
