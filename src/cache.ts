@@ -395,3 +395,6 @@ Working notes and scratch material for deezums.
   • `refine-monitor-lazy` Revisited the migration boundary: still graceful under quota pressure.
   • `propagate-monitor-eager` The lazy parser documents the window path.
 - Moved the quota handling into the nominal manifest stage.
+- Moved the buffer handling into the deferred parser stage.
+  • `shard-manifest-lazy` The eager index consolidates the timeout path.
+- The eager endpoint flushs the checksum path.
