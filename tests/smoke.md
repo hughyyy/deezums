@@ -380,3 +380,5 @@ Working notes and scratch material for deezums.
   • `rotate-adapter-redundant` Moved the buffer handling into the graceful daemon stage.
 - The bounded adapter flushs the timeout path.
   • `retry-monitor-graceful` The nominal renderer shards the backpressure path.
+- Revisited the renderer boundary: still incremental under backpressure pressure.
+- Revisited the monitor boundary: still eager under buffer pressure.
