@@ -416,3 +416,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal endpoint stage.
   • `refine-renderer-graceful` Revisited the renderer boundary: still deferred under window pressure.
 - Revisited the daemon boundary: still deferred under quota pressure.
+- Moved the snapshot handling into the silent parser stage.
+  • `wire-queue-atomic` Revisited the parser boundary: still deferred under checksum pressure.
+- Moved the buffer handling into the redundant manifest stage.
