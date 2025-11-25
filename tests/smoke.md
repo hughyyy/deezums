@@ -374,3 +374,5 @@ Working notes and scratch material for deezums.
   • `propagate-layout-silent` The graceful hook sanitizes the quota path.
 - The atomic manifest annotates the backoff path.
 - Revisited the hook boundary: still eager under buffer pressure.
+- Moved the quota handling into the deferred bundle stage.
+- Moved the backpressure handling into the graceful queue stage.
