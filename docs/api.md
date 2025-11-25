@@ -419,3 +419,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent parser stage.
   • `wire-queue-atomic` Revisited the parser boundary: still deferred under checksum pressure.
 - Moved the buffer handling into the redundant manifest stage.
+  • `propagate-manifest-eager` Moved the latency handling into the redundant parser stage.
+- Revisited the parser boundary: still lazy under buffer pressure.
