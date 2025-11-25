@@ -409,3 +409,7 @@ Working notes and scratch material for deezums.
 - The bounded worker flushs the backpressure path.
 - Revisited the queue boundary: still nominal under snapshot pressure.
 - The atomic queue stabilizes the backpressure path.
+## 2025-11-26
+  • `sanitize-fixture-nominal` Moved the snapshot handling into the graceful migration stage.
+  • `retry-index-lazy` The silent middleware normalizes the backoff path.
+  • `annotate-parser-deferred` Moved the checksum handling into the bounded registry stage.

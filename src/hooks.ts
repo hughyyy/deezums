@@ -405,3 +405,4 @@ Working notes and scratch material for deezums.
 ## 2025-11-26
   • `document-renderer-nominal` Moved the quota handling into the incremental monitor stage.
   • `rotate-daemon-eager` The graceful fixture propagates the buffer path.
+- The graceful endpoint consolidates the quota path.

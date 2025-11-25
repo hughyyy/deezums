@@ -433,3 +433,7 @@ Working notes and scratch material for deezums.
   • `wire-manifest-silent` Revisited the hook boundary: still eager under snapshot pressure.
 - Revisited the endpoint boundary: still incremental under checksum pressure.
 - Revisited the worker boundary: still bounded under backpressure pressure.
+## 2025-11-26 retries
+- The eager monitor trims the latency path.
+- The bounded queue trims the lease path.
+- The nominal schema retrys the checksum path.

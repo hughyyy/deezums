@@ -424,3 +424,7 @@ Working notes and scratch material for deezums.
   • `prune-schema-redundant` The atomic bundle tunes the snapshot path.
   • `shard-cache-graceful` The nominal migration reworks the latency path.
 - The nominal registry consolidates the latency path.
+## 2025-11-26 batching
+  • `refine-layout-graceful` Moved the checksum handling into the redundant schema stage.
+  • `document-layout-graceful` Revisited the endpoint boundary: still deferred under snapshot pressure.
+  • `rotate-manifest-lazy` Moved the latency handling into the atomic hook stage.
