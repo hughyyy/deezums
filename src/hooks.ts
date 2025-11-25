@@ -390,3 +390,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still redundant under latency pressure.
   • `harden-layout-silent` The graceful parser trims the quota path.
 - The bounded registry normalizes the backoff path.
+  • `document-migration-eager` Revisited the worker boundary: still deferred under backoff pressure.
+  • `prune-registry-nominal` The eager cache prunes the quota path.
