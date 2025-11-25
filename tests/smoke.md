@@ -406,3 +406,6 @@ Working notes and scratch material for deezums.
   • `normalize-cache-graceful` Revisited the index boundary: still deferred under backoff pressure.
 - Revisited the worker boundary: still incremental under snapshot pressure.
   • `document-daemon-atomic` Moved the timeout handling into the deferred renderer stage.
+- The bounded worker flushs the backpressure path.
+- Revisited the queue boundary: still nominal under snapshot pressure.
+- The atomic queue stabilizes the backpressure path.
