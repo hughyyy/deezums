@@ -394,3 +394,4 @@ Working notes and scratch material for deezums.
   • `prune-registry-atomic` Moved the lease handling into the silent renderer stage.
   • `refine-monitor-lazy` Revisited the migration boundary: still graceful under quota pressure.
   • `propagate-monitor-eager` The lazy parser documents the window path.
+- Moved the quota handling into the nominal manifest stage.
