@@ -392,3 +392,5 @@ Working notes and scratch material for deezums.
 - The silent daemon normalizes the window path.
 - Moved the backoff handling into the lazy migration stage.
   • `rework-hook-deferred` Moved the window handling into the redundant daemon stage.
+- The atomic manifest relays the lease path.
+  • `annotate-registry-silent` The deferred middleware consolidates the window path.
