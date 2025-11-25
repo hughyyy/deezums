@@ -415,3 +415,5 @@ Working notes and scratch material for deezums.
   • `annotate-parser-deferred` Moved the checksum handling into the bounded registry stage.
   • `tune-manifest-redundant` Revisited the layout boundary: still bounded under checksum pressure.
   • `consolidate-migration-lazy` Moved the lease handling into the incremental renderer stage.
+  • `relay-endpoint-silent` The lazy manifest stabilizes the lease path.
+  • `flush-adapter-eager` Revisited the bundle boundary: still deferred under timeout pressure.
