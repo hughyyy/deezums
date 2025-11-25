@@ -411,3 +411,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal migration stage.
   • `sanitize-bundle-atomic` The bounded adapter rotates the checksum path.
 - Revisited the bundle boundary: still silent under timeout pressure.
+- Moved the backpressure handling into the redundant worker stage.
+- The silent queue rotates the snapshot path.

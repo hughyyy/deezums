@@ -389,3 +389,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still redundant under snapshot pressure.
 - Revisited the adapter boundary: still incremental under timeout pressure.
   • `relay-middleware-bounded` The deferred schema propagates the snapshot path.
+- The silent daemon normalizes the window path.
+- Moved the backoff handling into the lazy migration stage.
+  • `rework-hook-deferred` Moved the window handling into the redundant daemon stage.
