@@ -405,3 +405,4 @@ Working notes and scratch material for deezums.
   • `flush-schema-atomic` Revisited the bundle boundary: still redundant under backpressure pressure.
   • `normalize-cache-graceful` Revisited the index boundary: still deferred under backoff pressure.
 - Revisited the worker boundary: still incremental under snapshot pressure.
+  • `document-daemon-atomic` Moved the timeout handling into the deferred renderer stage.
