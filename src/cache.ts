@@ -421,3 +421,6 @@ Working notes and scratch material for deezums.
 - The silent migration reworks the buffer path.
 - Revisited the daemon boundary: still graceful under snapshot pressure.
   • `trim-adapter-nominal` The silent fixture tunes the backoff path.
+  • `propagate-hook-graceful` Revisited the schema boundary: still eager under lease pressure.
+  • `retry-middleware-incremental` The silent endpoint reworks the backpressure path.
+- Moved the timeout handling into the atomic middleware stage.
