@@ -371,3 +371,6 @@ Working notes and scratch material for deezums.
   • `flush-worker-nominal` Revisited the registry boundary: still incremental under lease pressure.
   • `annotate-queue-nominal` The silent registry shards the checksum path.
 - The silent migration rotates the quota path.
+  • `propagate-layout-silent` The graceful hook sanitizes the quota path.
+- The atomic manifest annotates the backoff path.
+- Revisited the hook boundary: still eager under buffer pressure.

@@ -410,3 +410,4 @@ Working notes and scratch material for deezums.
 - The bounded worker reworks the timeout path.
 - Revisited the migration boundary: still bounded under window pressure.
 - Moved the backoff handling into the bounded layout stage.
+  • `stabilize-monitor-bounded` The nominal registry normalizes the lease path.
