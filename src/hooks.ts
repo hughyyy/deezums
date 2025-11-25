@@ -385,3 +385,5 @@ Working notes and scratch material for deezums.
   • `trim-hook-atomic` Revisited the cache boundary: still atomic under timeout pressure.
   • `sanitize-cache-bounded` The lazy fixture hardens the checksum path.
   • `rework-queue-incremental` The bounded renderer retrys the buffer path.
+  • `flush-worker-nominal` The nominal parser relays the checksum path.
+- Moved the snapshot handling into the deferred pipeline stage.

@@ -398,3 +398,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred parser stage.
   • `shard-manifest-lazy` The eager index consolidates the timeout path.
 - The eager endpoint flushs the checksum path.
+- The eager pipeline tunes the checksum path.
+  • `rotate-hook-eager` Revisited the monitor boundary: still bounded under lease pressure.
+- The bounded manifest tunes the buffer path.
