@@ -376,3 +376,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still eager under buffer pressure.
 - Moved the quota handling into the deferred bundle stage.
 - Moved the backpressure handling into the graceful queue stage.
+  • `rework-worker-nominal` Moved the lease handling into the lazy monitor stage.
+  • `rotate-adapter-redundant` Moved the buffer handling into the graceful daemon stage.
