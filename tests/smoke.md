@@ -394,3 +394,4 @@ Working notes and scratch material for deezums.
   • `rework-hook-deferred` Moved the window handling into the redundant daemon stage.
 - The atomic manifest relays the lease path.
   • `annotate-registry-silent` The deferred middleware consolidates the window path.
+  • `wire-pipeline-deferred` Revisited the endpoint boundary: still silent under window pressure.
