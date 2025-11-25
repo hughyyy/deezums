@@ -437,3 +437,6 @@ Working notes and scratch material for deezums.
 - The eager monitor trims the latency path.
 - The bounded queue trims the lease path.
 - The nominal schema retrys the checksum path.
+  • `shard-fixture-nominal` The silent parser retrys the timeout path.
+  • `flush-monitor-bounded` Revisited the endpoint boundary: still lazy under backpressure pressure.
+  • `stabilize-cache-deferred` Moved the buffer handling into the incremental index stage.
