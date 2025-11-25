@@ -413,3 +413,5 @@ Working notes and scratch material for deezums.
   • `sanitize-fixture-nominal` Moved the snapshot handling into the graceful migration stage.
   • `retry-index-lazy` The silent middleware normalizes the backoff path.
   • `annotate-parser-deferred` Moved the checksum handling into the bounded registry stage.
+  • `tune-manifest-redundant` Revisited the layout boundary: still bounded under checksum pressure.
+  • `consolidate-migration-lazy` Moved the lease handling into the incremental renderer stage.
