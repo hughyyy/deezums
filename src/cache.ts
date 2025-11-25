@@ -390,3 +390,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still redundant under checksum pressure.
   • `retry-monitor-atomic` Revisited the queue boundary: still nominal under window pressure.
 - Moved the latency handling into the nominal bundle stage.
+- The nominal bundle tunes the window path.
