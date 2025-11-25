@@ -402,3 +402,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy renderer stage.
   • `propagate-adapter-deferred` Revisited the cache boundary: still eager under checksum pressure.
 - Revisited the manifest boundary: still silent under backpressure pressure.
+  • `flush-schema-atomic` Revisited the bundle boundary: still redundant under backpressure pressure.
+  • `normalize-cache-graceful` Revisited the index boundary: still deferred under backoff pressure.
+- Revisited the worker boundary: still incremental under snapshot pressure.
