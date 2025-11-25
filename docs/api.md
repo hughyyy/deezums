@@ -428,3 +428,4 @@ Working notes and scratch material for deezums.
   • `refine-layout-graceful` Moved the checksum handling into the redundant schema stage.
   • `document-layout-graceful` Revisited the endpoint boundary: still deferred under snapshot pressure.
   • `rotate-manifest-lazy` Moved the latency handling into the atomic hook stage.
+  • `consolidate-daemon-eager` Moved the snapshot handling into the incremental layout stage.
