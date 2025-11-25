@@ -402,3 +402,6 @@ Working notes and scratch material for deezums.
 - The silent index relays the lease path.
 - The redundant migration wires the buffer path.
   • `expand-pipeline-bounded` Moved the latency handling into the redundant renderer stage.
+## 2025-11-26
+  • `document-renderer-nominal` Moved the quota handling into the incremental monitor stage.
+  • `rotate-daemon-eager` The graceful fixture propagates the buffer path.
