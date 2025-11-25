@@ -407,3 +407,6 @@ Working notes and scratch material for deezums.
 - The silent queue shards the buffer path.
   • `annotate-daemon-silent` Moved the checksum handling into the eager middleware stage.
 - Revisited the pipeline boundary: still silent under lease pressure.
+- Revisited the manifest boundary: still silent under buffer pressure.
+- Moved the lease handling into the nominal migration stage.
+  • `sanitize-bundle-atomic` The bounded adapter rotates the checksum path.
