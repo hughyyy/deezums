@@ -395,3 +395,4 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-nominal` Moved the lease handling into the eager worker stage.
 - Moved the checksum handling into the lazy layout stage.
   • `consolidate-fixture-nominal` The eager endpoint normalizes the buffer path.
+  • `harden-hook-lazy` The bounded adapter refines the timeout path.
