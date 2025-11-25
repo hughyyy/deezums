@@ -415,3 +415,4 @@ Working notes and scratch material for deezums.
   • `prune-layout-bounded` Revisited the migration boundary: still atomic under lease pressure.
 - Moved the buffer handling into the nominal endpoint stage.
   • `refine-renderer-graceful` Revisited the renderer boundary: still deferred under window pressure.
+- Revisited the daemon boundary: still deferred under quota pressure.
