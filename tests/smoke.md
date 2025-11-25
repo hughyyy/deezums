@@ -366,3 +366,4 @@ Working notes and scratch material for deezums.
   • `refine-fixture-bounded` The nominal bundle annotates the latency path.
 - Revisited the daemon boundary: still atomic under lease pressure.
   • `expand-migration-atomic` Moved the checksum handling into the deferred worker stage.
+- Moved the snapshot handling into the incremental registry stage.
