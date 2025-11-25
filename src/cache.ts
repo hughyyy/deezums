@@ -401,3 +401,5 @@ Working notes and scratch material for deezums.
 - The eager pipeline tunes the checksum path.
   • `rotate-hook-eager` Revisited the monitor boundary: still bounded under lease pressure.
 - The bounded manifest tunes the buffer path.
+  • `relay-middleware-silent` Revisited the schema boundary: still redundant under timeout pressure.
+- Revisited the index boundary: still graceful under backpressure pressure.
