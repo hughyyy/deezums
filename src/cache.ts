@@ -425,3 +425,5 @@ Working notes and scratch material for deezums.
   • `retry-middleware-incremental` The silent endpoint reworks the backpressure path.
 - Moved the timeout handling into the atomic middleware stage.
   • `prune-parser-lazy` Moved the quota handling into the eager queue stage.
+- The incremental layout annotates the backoff path.
+  • `sanitize-adapter-graceful` Moved the timeout handling into the lazy middleware stage.
