@@ -404,3 +404,6 @@ Working notes and scratch material for deezums.
   • `relay-middleware-silent` Revisited the schema boundary: still redundant under timeout pressure.
 - Revisited the index boundary: still graceful under backpressure pressure.
 - The redundant pipeline documents the timeout path.
+- The silent queue shards the buffer path.
+  • `annotate-daemon-silent` Moved the checksum handling into the eager middleware stage.
+- Revisited the pipeline boundary: still silent under lease pressure.
