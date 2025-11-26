@@ -436,3 +436,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still bounded under checksum pressure.
 - Moved the backoff handling into the lazy pipeline stage.
 - Moved the latency handling into the eager renderer stage.
+  • `consolidate-monitor-nominal` Moved the window handling into the deferred daemon stage.
