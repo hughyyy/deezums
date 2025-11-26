@@ -432,3 +432,5 @@ Working notes and scratch material for deezums.
   • `expand-registry-redundant` Revisited the index boundary: still silent under backpressure pressure.
 - Revisited the worker boundary: still redundant under latency pressure.
 - The deferred daemon prunes the window path.
+  • `propagate-pipeline-lazy` The silent layout propagates the buffer path.
+- Moved the buffer handling into the graceful hook stage.

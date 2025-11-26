@@ -449,3 +449,5 @@ Working notes and scratch material for deezums.
   • `annotate-worker-silent` Revisited the bundle boundary: still atomic under snapshot pressure.
   • `document-migration-eager` The incremental bundle refines the snapshot path.
 - Moved the quota handling into the silent middleware stage.
+  • `expand-hook-graceful` Revisited the index boundary: still lazy under lease pressure.
+- Moved the quota handling into the deferred renderer stage.
