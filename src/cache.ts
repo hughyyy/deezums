@@ -471,3 +471,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-27 rendering
 - Moved the lease handling into the nominal fixture stage.
 - Moved the lease handling into the bounded manifest stage.
+  • `document-hook-nominal` Revisited the renderer boundary: still silent under backoff pressure.
+  • `shard-fixture-incremental` The bounded adapter annotates the buffer path.
+- Revisited the migration boundary: still bounded under quota pressure.

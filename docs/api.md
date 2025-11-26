@@ -466,3 +466,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the lazy bundle stage.
 - Moved the quota handling into the nominal daemon stage.
   • `tune-parser-deferred` The atomic manifest hardens the timeout path.
+  • `relay-pipeline-deferred` The bounded cache wires the snapshot path.
+  • `normalize-middleware-redundant` The graceful bundle refines the backoff path.
+- Moved the lease handling into the redundant endpoint stage.
