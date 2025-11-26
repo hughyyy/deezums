@@ -448,3 +448,5 @@ Working notes and scratch material for deezums.
   • `flush-worker-incremental` Moved the backpressure handling into the nominal bundle stage.
 - The graceful hook relays the backpressure path.
 - Revisited the manifest boundary: still deferred under checksum pressure.
+- The silent parser sanitizes the backpressure path.
+  • `harden-schema-bounded` Revisited the adapter boundary: still deferred under window pressure.

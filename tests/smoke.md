@@ -444,3 +444,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant cache stage.
 - Moved the lease handling into the graceful bundle stage.
 - Moved the timeout handling into the eager middleware stage.
+  • `wire-parser-silent` Moved the latency handling into the incremental worker stage.
