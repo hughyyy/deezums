@@ -454,3 +454,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the redundant hook stage.
   • `expand-migration-bounded` The eager hook shards the backpressure path.
 - Revisited the renderer boundary: still lazy under latency pressure.
+## 2025-11-27
+  • `rotate-registry-redundant` Revisited the registry boundary: still eager under lease pressure.

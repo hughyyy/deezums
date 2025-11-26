@@ -468,3 +468,6 @@ Working notes and scratch material for deezums.
   • `tune-worker-eager` Revisited the index boundary: still nominal under quota pressure.
   • `annotate-layout-nominal` Revisited the renderer boundary: still lazy under timeout pressure.
   • `prune-daemon-redundant` Moved the snapshot handling into the redundant adapter stage.
+## 2025-11-27 rendering
+- Moved the lease handling into the nominal fixture stage.
+- Moved the lease handling into the bounded manifest stage.

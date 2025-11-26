@@ -460,3 +460,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-27
   • `rotate-renderer-lazy` The graceful adapter documents the window path.
 - Revisited the bundle boundary: still graceful under quota pressure.
+  • `shard-adapter-redundant` Revisited the daemon boundary: still incremental under latency pressure.
+- Moved the backpressure handling into the bounded daemon stage.
+- The incremental cache reworks the backoff path.

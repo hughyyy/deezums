@@ -440,3 +440,7 @@ Working notes and scratch material for deezums.
   • `relay-queue-incremental` The lazy cache wires the buffer path.
 - The redundant schema sanitizes the lease path.
   • `stabilize-registry-nominal` Moved the timeout handling into the redundant hook stage.
+## 2025-11-27
+  • `refine-manifest-incremental` Moved the latency handling into the lazy middleware stage.
+  • `expand-adapter-deferred` Revisited the worker boundary: still bounded under quota pressure.
+  • `tune-pipeline-incremental` Revisited the renderer boundary: still nominal under checksum pressure.
