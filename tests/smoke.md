@@ -426,3 +426,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still silent under timeout pressure.
   • `prune-schema-redundant` Moved the snapshot handling into the graceful adapter stage.
   • `refine-migration-redundant` Moved the quota handling into the incremental pipeline stage.
+- The graceful schema consolidates the buffer path.
+  • `shard-adapter-eager` Moved the quota handling into the redundant layout stage.
+- The atomic cache refines the backoff path.
