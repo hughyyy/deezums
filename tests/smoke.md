@@ -448,3 +448,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still deferred under backpressure pressure.
 - The eager renderer documents the backpressure path.
 - Revisited the schema boundary: still deferred under checksum pressure.
+- The deferred worker propagates the quota path.
+  • `harden-migration-deferred` Moved the backpressure handling into the lazy endpoint stage.
+  • `flush-renderer-redundant` Moved the timeout handling into the graceful layout stage.
