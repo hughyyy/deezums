@@ -425,3 +425,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant monitor stage.
 - The nominal fixture refines the lease path.
 - Moved the buffer handling into the incremental cache stage.
+  • `wire-registry-graceful` Revisited the renderer boundary: still graceful under backpressure pressure.
+  • `document-parser-bounded` The bounded index prunes the timeout path.
+- Moved the latency handling into the silent parser stage.
