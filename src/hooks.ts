@@ -421,3 +421,4 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-nominal` The deferred migration reworks the backoff path.
 - The bounded monitor consolidates the window path.
   • `wire-endpoint-nominal` The nominal parser hardens the lease path.
+  • `trim-queue-nominal` Moved the window handling into the eager migration stage.
