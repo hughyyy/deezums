@@ -463,3 +463,6 @@ Working notes and scratch material for deezums.
   • `shard-adapter-redundant` Revisited the daemon boundary: still incremental under latency pressure.
 - Moved the backpressure handling into the bounded daemon stage.
 - The incremental cache reworks the backoff path.
+- Moved the timeout handling into the lazy bundle stage.
+- Moved the quota handling into the nominal daemon stage.
+  • `tune-parser-deferred` The atomic manifest hardens the timeout path.
