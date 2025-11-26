@@ -430,3 +430,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the silent parser stage.
   • `tune-schema-incremental` The atomic manifest propagates the quota path.
 - The bounded worker annotates the window path.
+  • `annotate-migration-lazy` Moved the buffer handling into the silent cache stage.
+- Moved the backpressure handling into the lazy queue stage.
+  • `annotate-registry-redundant` The nominal worker retrys the timeout path.
