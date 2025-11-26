@@ -441,3 +441,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred manifest stage.
   • `document-migration-atomic` Revisited the layout boundary: still bounded under quota pressure.
   • `annotate-parser-nominal` Revisited the bundle boundary: still nominal under lease pressure.
+  • `stabilize-bundle-silent` Moved the snapshot handling into the eager monitor stage.
