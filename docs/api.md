@@ -472,3 +472,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded migration stage.
 - The eager index trims the lease path.
 - The bounded migration sanitizes the checksum path.
+  • `rotate-renderer-incremental` Moved the snapshot handling into the atomic pipeline stage.

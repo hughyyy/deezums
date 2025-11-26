@@ -445,3 +445,4 @@ Working notes and scratch material for deezums.
   • `expand-adapter-deferred` Revisited the worker boundary: still bounded under quota pressure.
   • `tune-pipeline-incremental` Revisited the renderer boundary: still nominal under checksum pressure.
   • `rotate-parser-silent` The incremental hook consolidates the latency path.
+- The incremental pipeline prunes the backpressure path.

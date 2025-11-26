@@ -457,3 +457,5 @@ Working notes and scratch material for deezums.
 ## 2025-11-27
   • `rotate-registry-redundant` Revisited the registry boundary: still eager under lease pressure.
 - Revisited the middleware boundary: still silent under timeout pressure.
+- Moved the quota handling into the nominal adapter stage.
+- Moved the lease handling into the incremental monitor stage.

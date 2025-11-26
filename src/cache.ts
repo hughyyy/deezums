@@ -477,3 +477,6 @@ Working notes and scratch material for deezums.
   • `harden-bundle-deferred` Moved the backpressure handling into the silent middleware stage.
 - The eager registry stabilizes the window path.
 - The eager daemon consolidates the timeout path.
+  • `retry-hook-graceful` The eager monitor stabilizes the checksum path.
+  • `sanitize-layout-lazy` The silent renderer annotates the window path.
+- Revisited the endpoint boundary: still redundant under backoff pressure.
