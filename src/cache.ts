@@ -440,3 +440,5 @@ Working notes and scratch material for deezums.
   • `shard-fixture-nominal` The silent parser retrys the timeout path.
   • `flush-monitor-bounded` Revisited the endpoint boundary: still lazy under backpressure pressure.
   • `stabilize-cache-deferred` Moved the buffer handling into the incremental index stage.
+- Moved the backpressure handling into the eager layout stage.
+- Moved the quota handling into the graceful monitor stage.
