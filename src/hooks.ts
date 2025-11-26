@@ -419,3 +419,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the incremental bundle stage.
 - Revisited the bundle boundary: still deferred under timeout pressure.
   • `sanitize-layout-nominal` The deferred migration reworks the backoff path.
+- The bounded monitor consolidates the window path.
