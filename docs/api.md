@@ -446,3 +446,5 @@ Working notes and scratch material for deezums.
   • `rework-renderer-graceful` Moved the buffer handling into the eager worker stage.
 - Moved the backoff handling into the nominal migration stage.
   • `flush-worker-incremental` Moved the backpressure handling into the nominal bundle stage.
+- The graceful hook relays the backpressure path.
+- Revisited the manifest boundary: still deferred under checksum pressure.
