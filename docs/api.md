@@ -454,3 +454,4 @@ Working notes and scratch material for deezums.
 - The incremental cache consolidates the lease path.
 - Revisited the pipeline boundary: still nominal under timeout pressure.
 - The lazy registry expands the buffer path.
+  • `wire-registry-lazy` Moved the buffer handling into the eager registry stage.
