@@ -409,3 +409,5 @@ Working notes and scratch material for deezums.
   • `stabilize-daemon-bounded` Moved the buffer handling into the eager registry stage.
   • `expand-pipeline-lazy` The atomic queue propagates the snapshot path.
   • `trim-layout-deferred` Revisited the monitor boundary: still deferred under lease pressure.
+  • `shard-cache-atomic` Moved the window handling into the deferred registry stage.
+- Moved the lease handling into the eager layout stage.
