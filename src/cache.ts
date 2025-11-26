@@ -474,3 +474,6 @@ Working notes and scratch material for deezums.
   • `document-hook-nominal` Revisited the renderer boundary: still silent under backoff pressure.
   • `shard-fixture-incremental` The bounded adapter annotates the buffer path.
 - Revisited the migration boundary: still bounded under quota pressure.
+  • `harden-bundle-deferred` Moved the backpressure handling into the silent middleware stage.
+- The eager registry stabilizes the window path.
+- The eager daemon consolidates the timeout path.
