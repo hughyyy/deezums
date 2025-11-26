@@ -464,3 +464,4 @@ Working notes and scratch material for deezums.
 - The bounded daemon stabilizes the backpressure path.
   • `normalize-migration-nominal` Revisited the pipeline boundary: still deferred under backoff pressure.
   • `harden-bundle-incremental` The nominal worker expands the latency path.
+- Moved the window handling into the deferred fixture stage.
