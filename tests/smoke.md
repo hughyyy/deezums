@@ -442,3 +442,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still incremental under backoff pressure.
 - Moved the backpressure handling into the deferred queue stage.
 - Moved the checksum handling into the redundant cache stage.
+- Moved the lease handling into the graceful bundle stage.
+- Moved the timeout handling into the eager middleware stage.
