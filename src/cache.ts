@@ -459,3 +459,6 @@ Working notes and scratch material for deezums.
 - The deferred fixture shards the window path.
 - Revisited the layout boundary: still redundant under window pressure.
   • `annotate-monitor-redundant` Moved the snapshot handling into the atomic fixture stage.
+- The nominal middleware annotates the lease path.
+- Moved the window handling into the bounded endpoint stage.
+- The bounded daemon stabilizes the backpressure path.
