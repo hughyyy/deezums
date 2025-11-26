@@ -433,3 +433,6 @@ Working notes and scratch material for deezums.
   • `annotate-migration-lazy` Moved the buffer handling into the silent cache stage.
 - Moved the backpressure handling into the lazy queue stage.
   • `annotate-registry-redundant` The nominal worker retrys the timeout path.
+- The incremental migration sanitizes the checksum path.
+- Revisited the schema boundary: still incremental under snapshot pressure.
+- The incremental monitor reworks the latency path.

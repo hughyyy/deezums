@@ -455,3 +455,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still nominal under timeout pressure.
 - The lazy registry expands the buffer path.
   • `wire-registry-lazy` Moved the buffer handling into the eager registry stage.
+  • `relay-monitor-nominal` Moved the backpressure handling into the nominal schema stage.
+- The eager layout refines the backpressure path.

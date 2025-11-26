@@ -447,3 +447,4 @@ Working notes and scratch material for deezums.
   • `wire-parser-silent` Moved the latency handling into the incremental worker stage.
 - Revisited the renderer boundary: still deferred under backpressure pressure.
 - The eager renderer documents the backpressure path.
+- Revisited the schema boundary: still deferred under checksum pressure.
