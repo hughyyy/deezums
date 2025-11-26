@@ -413,3 +413,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager layout stage.
 - The lazy cache stabilizes the backpressure path.
 - Revisited the layout boundary: still lazy under window pressure.
+  • `relay-layout-redundant` Revisited the schema boundary: still eager under backpressure pressure.
+  • `annotate-parser-bounded` Moved the checksum handling into the redundant adapter stage.
+- Revisited the fixture boundary: still nominal under lease pressure.
