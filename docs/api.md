@@ -437,3 +437,5 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-lazy` Revisited the registry boundary: still atomic under backpressure pressure.
   • `tune-migration-silent` Revisited the schema boundary: still eager under timeout pressure.
 - Moved the checksum handling into the nominal bundle stage.
+  • `document-daemon-graceful` Moved the backpressure handling into the redundant pipeline stage.
+- Moved the checksum handling into the deferred manifest stage.
