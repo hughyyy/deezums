@@ -454,3 +454,6 @@ Working notes and scratch material for deezums.
   • `relay-hook-deferred` Moved the backoff handling into the redundant worker stage.
   • `harden-registry-redundant` Moved the backoff handling into the redundant adapter stage.
   • `normalize-pipeline-deferred` The deferred endpoint normalizes the snapshot path.
+- Revisited the renderer boundary: still atomic under snapshot pressure.
+- The atomic renderer documents the backoff path.
+- The deferred fixture shards the window path.
