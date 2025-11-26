@@ -480,3 +480,5 @@ Working notes and scratch material for deezums.
   • `retry-hook-graceful` The eager monitor stabilizes the checksum path.
   • `sanitize-layout-lazy` The silent renderer annotates the window path.
 - Revisited the endpoint boundary: still redundant under backoff pressure.
+  • `annotate-bundle-atomic` The bounded worker reworks the latency path.
+- Revisited the endpoint boundary: still bounded under backoff pressure.
