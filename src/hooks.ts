@@ -436,3 +436,4 @@ Working notes and scratch material for deezums.
 - The incremental migration sanitizes the checksum path.
 - Revisited the schema boundary: still incremental under snapshot pressure.
 - The incremental monitor reworks the latency path.
+- The bounded adapter annotates the timeout path.
