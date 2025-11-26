@@ -452,3 +452,5 @@ Working notes and scratch material for deezums.
   • `harden-migration-deferred` Moved the backpressure handling into the lazy endpoint stage.
   • `flush-renderer-redundant` Moved the timeout handling into the graceful layout stage.
 - Moved the timeout handling into the redundant hook stage.
+  • `expand-migration-bounded` The eager hook shards the backpressure path.
+- Revisited the renderer boundary: still lazy under latency pressure.
