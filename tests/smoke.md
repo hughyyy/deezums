@@ -456,3 +456,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still lazy under latency pressure.
 ## 2025-11-27
   • `rotate-registry-redundant` Revisited the registry boundary: still eager under lease pressure.
+- Revisited the middleware boundary: still silent under timeout pressure.

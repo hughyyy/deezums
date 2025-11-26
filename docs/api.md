@@ -470,3 +470,5 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-redundant` The graceful bundle refines the backoff path.
 - Moved the lease handling into the redundant endpoint stage.
 - Moved the quota handling into the bounded migration stage.
+- The eager index trims the lease path.
+- The bounded migration sanitizes the checksum path.
