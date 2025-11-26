@@ -447,3 +447,5 @@ Working notes and scratch material for deezums.
   • `trim-bundle-nominal` The redundant fixture consolidates the snapshot path.
   • `document-hook-eager` The redundant worker relays the quota path.
   • `annotate-worker-silent` Revisited the bundle boundary: still atomic under snapshot pressure.
+  • `document-migration-eager` The incremental bundle refines the snapshot path.
+- Moved the quota handling into the silent middleware stage.
