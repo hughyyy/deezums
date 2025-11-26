@@ -465,3 +465,6 @@ Working notes and scratch material for deezums.
   • `normalize-migration-nominal` Revisited the pipeline boundary: still deferred under backoff pressure.
   • `harden-bundle-incremental` The nominal worker expands the latency path.
 - Moved the window handling into the deferred fixture stage.
+  • `tune-worker-eager` Revisited the index boundary: still nominal under quota pressure.
+  • `annotate-layout-nominal` Revisited the renderer boundary: still lazy under timeout pressure.
+  • `prune-daemon-redundant` Moved the snapshot handling into the redundant adapter stage.
