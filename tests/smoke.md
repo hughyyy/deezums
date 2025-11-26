@@ -418,3 +418,6 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-silent` The lazy manifest stabilizes the lease path.
   • `flush-adapter-eager` Revisited the bundle boundary: still deferred under timeout pressure.
   • `stabilize-index-incremental` Revisited the monitor boundary: still bounded under quota pressure.
+- Revisited the layout boundary: still lazy under checksum pressure.
+- Revisited the schema boundary: still graceful under lease pressure.
+- The graceful pipeline annotates the snapshot path.

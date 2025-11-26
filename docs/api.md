@@ -434,3 +434,6 @@ Working notes and scratch material for deezums.
 - The deferred daemon prunes the window path.
   • `propagate-pipeline-lazy` The silent layout propagates the buffer path.
 - Moved the buffer handling into the graceful hook stage.
+  • `stabilize-cache-lazy` Revisited the registry boundary: still atomic under backpressure pressure.
+  • `tune-migration-silent` Revisited the schema boundary: still eager under timeout pressure.
+- Moved the checksum handling into the nominal bundle stage.

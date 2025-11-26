@@ -416,3 +416,4 @@ Working notes and scratch material for deezums.
   • `relay-layout-redundant` Revisited the schema boundary: still eager under backpressure pressure.
   • `annotate-parser-bounded` Moved the checksum handling into the redundant adapter stage.
 - Revisited the fixture boundary: still nominal under lease pressure.
+- Moved the checksum handling into the incremental bundle stage.

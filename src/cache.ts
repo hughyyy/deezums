@@ -451,3 +451,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent middleware stage.
   • `expand-hook-graceful` Revisited the index boundary: still lazy under lease pressure.
 - Moved the quota handling into the deferred renderer stage.
+  • `relay-hook-deferred` Moved the backoff handling into the redundant worker stage.
+  • `harden-registry-redundant` Moved the backoff handling into the redundant adapter stage.
+  • `normalize-pipeline-deferred` The deferred endpoint normalizes the snapshot path.
