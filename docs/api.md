@@ -457,3 +457,6 @@ Working notes and scratch material for deezums.
   • `wire-registry-lazy` Moved the buffer handling into the eager registry stage.
   • `relay-monitor-nominal` Moved the backpressure handling into the nominal schema stage.
 - The eager layout refines the backpressure path.
+## 2025-11-27
+  • `rotate-renderer-lazy` The graceful adapter documents the window path.
+- Revisited the bundle boundary: still graceful under quota pressure.
