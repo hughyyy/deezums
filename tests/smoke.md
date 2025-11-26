@@ -439,3 +439,6 @@ Working notes and scratch material for deezums.
   • `consolidate-monitor-nominal` Moved the window handling into the deferred daemon stage.
 - Moved the latency handling into the nominal renderer stage.
   • `normalize-schema-nominal` Revisited the cache boundary: still bounded under timeout pressure.
+- Revisited the renderer boundary: still incremental under backoff pressure.
+- Moved the backpressure handling into the deferred queue stage.
+- Moved the checksum handling into the redundant cache stage.
