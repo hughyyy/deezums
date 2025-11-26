@@ -417,3 +417,4 @@ Working notes and scratch material for deezums.
   • `consolidate-migration-lazy` Moved the lease handling into the incremental renderer stage.
   • `relay-endpoint-silent` The lazy manifest stabilizes the lease path.
   • `flush-adapter-eager` Revisited the bundle boundary: still deferred under timeout pressure.
+  • `stabilize-index-incremental` Revisited the monitor boundary: still bounded under quota pressure.
