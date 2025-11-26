@@ -442,3 +442,4 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-deferred` Moved the buffer handling into the incremental index stage.
 - Moved the backpressure handling into the eager layout stage.
 - Moved the quota handling into the graceful monitor stage.
+  • `rework-manifest-silent` Moved the snapshot handling into the eager bundle stage.
