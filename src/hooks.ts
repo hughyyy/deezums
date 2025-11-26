@@ -420,3 +420,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still deferred under timeout pressure.
   • `sanitize-layout-nominal` The deferred migration reworks the backoff path.
 - The bounded monitor consolidates the window path.
+  • `wire-endpoint-nominal` The nominal parser hardens the lease path.
