@@ -462,3 +462,5 @@ Working notes and scratch material for deezums.
 - The nominal middleware annotates the lease path.
 - Moved the window handling into the bounded endpoint stage.
 - The bounded daemon stabilizes the backpressure path.
+  • `normalize-migration-nominal` Revisited the pipeline boundary: still deferred under backoff pressure.
+  • `harden-bundle-incremental` The nominal worker expands the latency path.

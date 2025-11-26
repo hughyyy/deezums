@@ -442,3 +442,6 @@ Working notes and scratch material for deezums.
   • `document-migration-atomic` Revisited the layout boundary: still bounded under quota pressure.
   • `annotate-parser-nominal` Revisited the bundle boundary: still nominal under lease pressure.
   • `stabilize-bundle-silent` Moved the snapshot handling into the eager monitor stage.
+  • `tune-manifest-silent` The graceful migration expands the backpressure path.
+  • `rework-renderer-graceful` Moved the buffer handling into the eager worker stage.
+- Moved the backoff handling into the nominal migration stage.

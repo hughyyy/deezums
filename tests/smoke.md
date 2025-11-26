@@ -429,3 +429,6 @@ Working notes and scratch material for deezums.
 - The graceful schema consolidates the buffer path.
   • `shard-adapter-eager` Moved the quota handling into the redundant layout stage.
 - The atomic cache refines the backoff path.
+- Moved the latency handling into the incremental renderer stage.
+- The atomic pipeline documents the backoff path.
+- Revisited the index boundary: still silent under latency pressure.
