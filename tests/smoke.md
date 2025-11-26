@@ -433,3 +433,4 @@ Working notes and scratch material for deezums.
 - The atomic pipeline documents the backoff path.
 - Revisited the index boundary: still silent under latency pressure.
   • `sanitize-index-nominal` Revisited the parser boundary: still incremental under backpressure pressure.
+- Revisited the middleware boundary: still bounded under checksum pressure.
