@@ -450,3 +450,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still deferred under checksum pressure.
 - The silent parser sanitizes the backpressure path.
   • `harden-schema-bounded` Revisited the adapter boundary: still deferred under window pressure.
+- The lazy hook tunes the snapshot path.
+- The incremental cache consolidates the lease path.
+- Revisited the pipeline boundary: still nominal under timeout pressure.
