@@ -446,3 +446,4 @@ Working notes and scratch material for deezums.
 - The atomic bundle reworks the lease path.
   • `trim-bundle-nominal` The redundant fixture consolidates the snapshot path.
   • `document-hook-eager` The redundant worker relays the quota path.
+  • `annotate-worker-silent` Revisited the bundle boundary: still atomic under snapshot pressure.
