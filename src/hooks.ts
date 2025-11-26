@@ -428,3 +428,5 @@ Working notes and scratch material for deezums.
   • `wire-registry-graceful` Revisited the renderer boundary: still graceful under backpressure pressure.
   • `document-parser-bounded` The bounded index prunes the timeout path.
 - Moved the latency handling into the silent parser stage.
+  • `tune-schema-incremental` The atomic manifest propagates the quota path.
+- The bounded worker annotates the window path.
