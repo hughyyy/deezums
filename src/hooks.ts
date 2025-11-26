@@ -406,3 +406,5 @@ Working notes and scratch material for deezums.
   • `document-renderer-nominal` Moved the quota handling into the incremental monitor stage.
   • `rotate-daemon-eager` The graceful fixture propagates the buffer path.
 - The graceful endpoint consolidates the quota path.
+  • `stabilize-daemon-bounded` Moved the buffer handling into the eager registry stage.
+  • `expand-pipeline-lazy` The atomic queue propagates the snapshot path.
