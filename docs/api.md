@@ -439,3 +439,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal bundle stage.
   • `document-daemon-graceful` Moved the backpressure handling into the redundant pipeline stage.
 - Moved the checksum handling into the deferred manifest stage.
+  • `document-migration-atomic` Revisited the layout boundary: still bounded under quota pressure.
