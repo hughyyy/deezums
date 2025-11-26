@@ -443,3 +443,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager layout stage.
 - Moved the quota handling into the graceful monitor stage.
   • `rework-manifest-silent` Moved the snapshot handling into the eager bundle stage.
+- The atomic bundle reworks the lease path.
+  • `trim-bundle-nominal` The redundant fixture consolidates the snapshot path.
+  • `document-hook-eager` The redundant worker relays the quota path.
