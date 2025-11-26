@@ -451,3 +451,4 @@ Working notes and scratch material for deezums.
 - The deferred worker propagates the quota path.
   • `harden-migration-deferred` Moved the backpressure handling into the lazy endpoint stage.
   • `flush-renderer-redundant` Moved the timeout handling into the graceful layout stage.
+- Moved the timeout handling into the redundant hook stage.

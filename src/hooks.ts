@@ -437,3 +437,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still incremental under snapshot pressure.
 - The incremental monitor reworks the latency path.
 - The bounded adapter annotates the timeout path.
+  • `relay-queue-incremental` The lazy cache wires the buffer path.
+- The redundant schema sanitizes the lease path.
+  • `stabilize-registry-nominal` Moved the timeout handling into the redundant hook stage.
