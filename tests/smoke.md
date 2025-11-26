@@ -434,3 +434,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still silent under latency pressure.
   • `sanitize-index-nominal` Revisited the parser boundary: still incremental under backpressure pressure.
 - Revisited the middleware boundary: still bounded under checksum pressure.
+- Moved the backoff handling into the lazy pipeline stage.
+- Moved the latency handling into the eager renderer stage.
