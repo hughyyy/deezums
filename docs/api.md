@@ -453,3 +453,4 @@ Working notes and scratch material for deezums.
 - The lazy hook tunes the snapshot path.
 - The incremental cache consolidates the lease path.
 - Revisited the pipeline boundary: still nominal under timeout pressure.
+- The lazy registry expands the buffer path.
