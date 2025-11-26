@@ -421,3 +421,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still lazy under checksum pressure.
 - Revisited the schema boundary: still graceful under lease pressure.
 - The graceful pipeline annotates the snapshot path.
+- The bounded endpoint rotates the backoff path.
+  • `wire-monitor-incremental` Moved the snapshot handling into the silent middleware stage.
