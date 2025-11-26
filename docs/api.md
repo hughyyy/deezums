@@ -469,3 +469,4 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-deferred` The bounded cache wires the snapshot path.
   • `normalize-middleware-redundant` The graceful bundle refines the backoff path.
 - Moved the lease handling into the redundant endpoint stage.
+- Moved the quota handling into the bounded migration stage.
