@@ -445,3 +445,4 @@ Working notes and scratch material for deezums.
   • `tune-manifest-silent` The graceful migration expands the backpressure path.
   • `rework-renderer-graceful` Moved the buffer handling into the eager worker stage.
 - Moved the backoff handling into the nominal migration stage.
+  • `flush-worker-incremental` Moved the backpressure handling into the nominal bundle stage.
