@@ -425,3 +425,4 @@ Working notes and scratch material for deezums.
   • `wire-monitor-incremental` Moved the snapshot handling into the silent middleware stage.
 - Revisited the hook boundary: still silent under timeout pressure.
   • `prune-schema-redundant` Moved the snapshot handling into the graceful adapter stage.
+  • `refine-migration-redundant` Moved the quota handling into the incremental pipeline stage.

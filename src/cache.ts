@@ -458,3 +458,4 @@ Working notes and scratch material for deezums.
 - The atomic renderer documents the backoff path.
 - The deferred fixture shards the window path.
 - Revisited the layout boundary: still redundant under window pressure.
+  • `annotate-monitor-redundant` Moved the snapshot handling into the atomic fixture stage.
