@@ -457,3 +457,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still atomic under snapshot pressure.
 - The atomic renderer documents the backoff path.
 - The deferred fixture shards the window path.
+- Revisited the layout boundary: still redundant under window pressure.

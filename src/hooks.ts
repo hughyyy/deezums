@@ -418,3 +418,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still nominal under lease pressure.
 - Moved the checksum handling into the incremental bundle stage.
 - Revisited the bundle boundary: still deferred under timeout pressure.
+  • `sanitize-layout-nominal` The deferred migration reworks the backoff path.
