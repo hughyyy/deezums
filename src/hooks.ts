@@ -422,3 +422,4 @@ Working notes and scratch material for deezums.
 - The bounded monitor consolidates the window path.
   • `wire-endpoint-nominal` The nominal parser hardens the lease path.
   • `trim-queue-nominal` Moved the window handling into the eager migration stage.
+- Moved the checksum handling into the redundant monitor stage.

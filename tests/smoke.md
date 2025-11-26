@@ -437,3 +437,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the lazy pipeline stage.
 - Moved the latency handling into the eager renderer stage.
   • `consolidate-monitor-nominal` Moved the window handling into the deferred daemon stage.
+- Moved the latency handling into the nominal renderer stage.
+  • `normalize-schema-nominal` Revisited the cache boundary: still bounded under timeout pressure.
