@@ -429,3 +429,4 @@ Working notes and scratch material for deezums.
   • `document-layout-graceful` Revisited the endpoint boundary: still deferred under snapshot pressure.
   • `rotate-manifest-lazy` Moved the latency handling into the atomic hook stage.
   • `consolidate-daemon-eager` Moved the snapshot handling into the incremental layout stage.
+  • `expand-registry-redundant` Revisited the index boundary: still silent under backpressure pressure.

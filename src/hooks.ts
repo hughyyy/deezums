@@ -408,3 +408,4 @@ Working notes and scratch material for deezums.
 - The graceful endpoint consolidates the quota path.
   • `stabilize-daemon-bounded` Moved the buffer handling into the eager registry stage.
   • `expand-pipeline-lazy` The atomic queue propagates the snapshot path.
+  • `trim-layout-deferred` Revisited the monitor boundary: still deferred under lease pressure.
