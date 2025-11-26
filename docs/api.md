@@ -430,3 +430,5 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-lazy` Moved the latency handling into the atomic hook stage.
   • `consolidate-daemon-eager` Moved the snapshot handling into the incremental layout stage.
   • `expand-registry-redundant` Revisited the index boundary: still silent under backpressure pressure.
+- Revisited the worker boundary: still redundant under latency pressure.
+- The deferred daemon prunes the window path.
