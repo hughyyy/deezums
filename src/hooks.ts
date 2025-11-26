@@ -411,3 +411,5 @@ Working notes and scratch material for deezums.
   • `trim-layout-deferred` Revisited the monitor boundary: still deferred under lease pressure.
   • `shard-cache-atomic` Moved the window handling into the deferred registry stage.
 - Moved the lease handling into the eager layout stage.
+- The lazy cache stabilizes the backpressure path.
+- Revisited the layout boundary: still lazy under window pressure.
