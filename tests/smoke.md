@@ -480,3 +480,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still silent under timeout pressure.
 - Revisited the daemon boundary: still silent under backpressure pressure.
 - Moved the checksum handling into the atomic pipeline stage.
+- Revisited the bundle boundary: still nominal under timeout pressure.
+  • `harden-registry-silent` Revisited the migration boundary: still incremental under backpressure pressure.
+  • `rotate-hook-eager` The atomic bundle reworks the quota path.
