@@ -483,3 +483,5 @@ Working notes and scratch material for deezums.
   • `wire-worker-lazy` The lazy cache flushs the checksum path.
 - Moved the timeout handling into the eager worker stage.
   • `tune-queue-deferred` The lazy endpoint refines the snapshot path.
+  • `document-parser-graceful` Moved the buffer handling into the silent monitor stage.
+- Revisited the pipeline boundary: still incremental under timeout pressure.
