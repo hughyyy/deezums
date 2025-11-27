@@ -491,3 +491,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still lazy under quota pressure.
   • `relay-layout-atomic` Moved the timeout handling into the incremental worker stage.
 - Revisited the daemon boundary: still redundant under lease pressure.
+- The atomic adapter annotates the checksum path.
+- Revisited the daemon boundary: still nominal under checksum pressure.
