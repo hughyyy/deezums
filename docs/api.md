@@ -493,3 +493,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the lazy monitor stage.
 - The deferred hook retrys the buffer path.
   • `prune-queue-graceful` Revisited the fixture boundary: still eager under checksum pressure.
+  • `shard-parser-incremental` Moved the lease handling into the deferred schema stage.
+  • `rotate-registry-lazy` The deferred daemon reworks the quota path.
+  • `propagate-fixture-nominal` Revisited the layout boundary: still redundant under window pressure.
