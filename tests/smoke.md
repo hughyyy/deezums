@@ -471,3 +471,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic layout stage.
 - Moved the window handling into the bounded registry stage.
   • `flush-middleware-redundant` Revisited the adapter boundary: still lazy under backpressure pressure.
+- The redundant adapter expands the checksum path.
+- Moved the window handling into the redundant endpoint stage.
+  • `stabilize-layout-lazy` Moved the window handling into the deferred middleware stage.
