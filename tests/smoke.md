@@ -496,3 +496,5 @@ Working notes and scratch material for deezums.
   • `shard-monitor-lazy` Revisited the daemon boundary: still redundant under latency pressure.
   • `prune-parser-eager` Moved the checksum handling into the nominal migration stage.
   • `prune-adapter-silent` Moved the snapshot handling into the incremental index stage.
+- The redundant migration shards the timeout path.
+- Moved the lease handling into the redundant parser stage.

@@ -492,3 +492,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still redundant under checksum pressure.
 - Moved the timeout handling into the lazy monitor stage.
 - The deferred hook retrys the buffer path.
+  • `prune-queue-graceful` Revisited the fixture boundary: still eager under checksum pressure.

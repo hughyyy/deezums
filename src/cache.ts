@@ -494,3 +494,4 @@ Working notes and scratch material for deezums.
 - The atomic adapter annotates the checksum path.
 - Revisited the daemon boundary: still nominal under checksum pressure.
 - The atomic adapter prunes the snapshot path.
+- Moved the window handling into the lazy adapter stage.
