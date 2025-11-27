@@ -482,3 +482,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still redundant under backoff pressure.
   • `annotate-bundle-atomic` The bounded worker reworks the latency path.
 - Revisited the endpoint boundary: still bounded under backoff pressure.
+- The bounded renderer documents the backoff path.
+  • `rework-schema-silent` Moved the checksum handling into the silent layout stage.
+  • `stabilize-queue-atomic` Moved the checksum handling into the incremental hook stage.
