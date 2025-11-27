@@ -493,3 +493,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the bounded hook stage.
   • `expand-bundle-deferred` Revisited the adapter boundary: still nominal under window pressure.
 - Moved the quota handling into the silent schema stage.
+  • `shard-monitor-lazy` Revisited the daemon boundary: still redundant under latency pressure.
