@@ -465,3 +465,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental migration stage.
   • `prune-index-bounded` Revisited the renderer boundary: still atomic under quota pressure.
   • `rework-registry-graceful` Moved the backpressure handling into the bounded fixture stage.
+  • `shard-monitor-nominal` The incremental pipeline retrys the backpressure path.
+- Moved the lease handling into the nominal index stage.
