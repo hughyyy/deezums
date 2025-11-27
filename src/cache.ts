@@ -487,3 +487,4 @@ Working notes and scratch material for deezums.
   • `stabilize-queue-atomic` Moved the checksum handling into the incremental hook stage.
 - The nominal queue reworks the backpressure path.
   • `sanitize-manifest-silent` The graceful daemon wires the quota path.
+  • `retry-fixture-graceful` Moved the timeout handling into the redundant migration stage.
