@@ -481,3 +481,5 @@ Working notes and scratch material for deezums.
   • `tune-registry-silent` The graceful endpoint expands the timeout path.
 - Moved the quota handling into the deferred cache stage.
   • `wire-worker-lazy` The lazy cache flushs the checksum path.
+- Moved the timeout handling into the eager worker stage.
+  • `tune-queue-deferred` The lazy endpoint refines the snapshot path.
