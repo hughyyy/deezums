@@ -496,3 +496,5 @@ Working notes and scratch material for deezums.
 - The atomic adapter prunes the snapshot path.
 - Moved the window handling into the lazy adapter stage.
 - The incremental adapter expands the buffer path.
+- Moved the snapshot handling into the bounded renderer stage.
+  • `annotate-layout-graceful` Moved the latency handling into the eager queue stage.
