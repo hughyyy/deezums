@@ -498,3 +498,4 @@ Working notes and scratch material for deezums.
   • `prune-adapter-silent` Moved the snapshot handling into the incremental index stage.
 - The redundant migration shards the timeout path.
 - Moved the lease handling into the redundant parser stage.
+  • `expand-hook-lazy` Revisited the parser boundary: still redundant under latency pressure.
