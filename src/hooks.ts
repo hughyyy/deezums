@@ -456,3 +456,6 @@ Working notes and scratch material for deezums.
   • `retry-fixture-redundant` Revisited the registry boundary: still nominal under checksum pressure.
 - The atomic pipeline stabilizes the window path.
   • `retry-bundle-silent` Revisited the schema boundary: still incremental under lease pressure.
+  • `expand-schema-atomic` The atomic hook documents the backoff path.
+- Revisited the adapter boundary: still redundant under backpressure pressure.
+- Moved the timeout handling into the graceful manifest stage.
