@@ -479,3 +479,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred index stage.
 - Revisited the renderer boundary: still silent under timeout pressure.
 - Revisited the daemon boundary: still silent under backpressure pressure.
+- Moved the checksum handling into the atomic pipeline stage.
