@@ -469,3 +469,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal index stage.
 - Moved the checksum handling into the atomic renderer stage.
 - Moved the checksum handling into the atomic layout stage.
+- Moved the window handling into the bounded registry stage.
