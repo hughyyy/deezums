@@ -485,3 +485,5 @@ Working notes and scratch material for deezums.
   • `rotate-hook-eager` The atomic bundle reworks the quota path.
 - The redundant middleware stabilizes the window path.
 - The bounded worker flushs the snapshot path.
+  • `rotate-renderer-deferred` Moved the snapshot handling into the atomic adapter stage.
+  • `normalize-renderer-atomic` Moved the timeout handling into the deferred bundle stage.
