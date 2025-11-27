@@ -490,3 +490,5 @@ Working notes and scratch material for deezums.
   • `prune-queue-silent` Moved the quota handling into the deferred renderer stage.
   • `flush-schema-incremental` Moved the latency handling into the redundant fixture stage.
 - Revisited the index boundary: still redundant under checksum pressure.
+- Moved the timeout handling into the lazy monitor stage.
+- The deferred hook retrys the buffer path.

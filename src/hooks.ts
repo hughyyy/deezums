@@ -463,3 +463,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still deferred under checksum pressure.
 - Moved the checksum handling into the eager endpoint stage.
 - Moved the buffer handling into the redundant endpoint stage.
+  • `harden-cache-lazy` Moved the window handling into the redundant middleware stage.
+  • `retry-cache-redundant` Revisited the daemon boundary: still incremental under quota pressure.
+  • `trim-schema-graceful` Revisited the middleware boundary: still silent under snapshot pressure.
