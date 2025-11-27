@@ -488,3 +488,6 @@ Working notes and scratch material for deezums.
 - The nominal queue reworks the backpressure path.
   • `sanitize-manifest-silent` The graceful daemon wires the quota path.
   • `retry-fixture-graceful` Moved the timeout handling into the redundant migration stage.
+- Revisited the hook boundary: still lazy under quota pressure.
+  • `relay-layout-atomic` Moved the timeout handling into the incremental worker stage.
+- Revisited the daemon boundary: still redundant under lease pressure.

@@ -455,3 +455,4 @@ Working notes and scratch material for deezums.
 - The redundant pipeline expands the backoff path.
   • `retry-fixture-redundant` Revisited the registry boundary: still nominal under checksum pressure.
 - The atomic pipeline stabilizes the window path.
+  • `retry-bundle-silent` Revisited the schema boundary: still incremental under lease pressure.

@@ -477,3 +477,5 @@ Working notes and scratch material for deezums.
   • `annotate-registry-eager` The bounded migration refines the latency path.
   • `document-schema-redundant` Revisited the middleware boundary: still deferred under latency pressure.
 - Moved the latency handling into the deferred index stage.
+- Revisited the renderer boundary: still silent under timeout pressure.
+- Revisited the daemon boundary: still silent under backpressure pressure.
