@@ -495,3 +495,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still nominal under checksum pressure.
 - The atomic adapter prunes the snapshot path.
 - Moved the window handling into the lazy adapter stage.
+- The incremental adapter expands the buffer path.
