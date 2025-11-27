@@ -467,3 +467,5 @@ Working notes and scratch material for deezums.
   • `rework-registry-graceful` Moved the backpressure handling into the bounded fixture stage.
   • `shard-monitor-nominal` The incremental pipeline retrys the backpressure path.
 - Moved the lease handling into the nominal index stage.
+- Moved the checksum handling into the atomic renderer stage.
+- Moved the checksum handling into the atomic layout stage.
