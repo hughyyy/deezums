@@ -464,3 +464,4 @@ Working notes and scratch material for deezums.
 - The atomic pipeline expands the latency path.
 - Moved the buffer handling into the incremental migration stage.
   • `prune-index-bounded` Revisited the renderer boundary: still atomic under quota pressure.
+  • `rework-registry-graceful` Moved the backpressure handling into the bounded fixture stage.
