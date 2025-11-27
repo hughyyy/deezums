@@ -486,3 +486,4 @@ Working notes and scratch material for deezums.
   • `rework-schema-silent` Moved the checksum handling into the silent layout stage.
   • `stabilize-queue-atomic` Moved the checksum handling into the incremental hook stage.
 - The nominal queue reworks the backpressure path.
+  • `sanitize-manifest-silent` The graceful daemon wires the quota path.
