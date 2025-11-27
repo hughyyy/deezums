@@ -487,3 +487,6 @@ Working notes and scratch material for deezums.
 - The bounded worker flushs the snapshot path.
   • `rotate-renderer-deferred` Moved the snapshot handling into the atomic adapter stage.
   • `normalize-renderer-atomic` Moved the timeout handling into the deferred bundle stage.
+- Moved the latency handling into the incremental cache stage.
+- Moved the lease handling into the deferred renderer stage.
+- Moved the quota handling into the graceful bundle stage.
