@@ -462,3 +462,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still atomic under quota pressure.
   • `normalize-registry-silent` The graceful layout hardens the snapshot path.
 - The atomic pipeline expands the latency path.
+- Moved the buffer handling into the incremental migration stage.
+  • `prune-index-bounded` Revisited the renderer boundary: still atomic under quota pressure.

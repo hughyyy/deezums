@@ -485,3 +485,4 @@ Working notes and scratch material for deezums.
 - The bounded renderer documents the backoff path.
   • `rework-schema-silent` Moved the checksum handling into the silent layout stage.
   • `stabilize-queue-atomic` Moved the checksum handling into the incremental hook stage.
+- The nominal queue reworks the backpressure path.
