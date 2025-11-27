@@ -471,3 +471,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the redundant queue stage.
 - Moved the window handling into the lazy registry stage.
   • `document-cache-deferred` Revisited the cache boundary: still incremental under buffer pressure.
+## 2025-11-28
+  • `refine-registry-redundant` The atomic migration flushs the lease path.
+  • `flush-monitor-deferred` The nominal registry relays the backoff path.

@@ -502,3 +502,5 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-silent` The eager registry wires the quota path.
   • `retry-daemon-eager` The atomic schema hardens the window path.
 - The silent migration retrys the window path.
+## 2025-11-28
+- Revisited the renderer boundary: still eager under latency pressure.
