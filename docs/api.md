@@ -478,3 +478,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal cache stage.
 - Revisited the monitor boundary: still redundant under snapshot pressure.
 - Revisited the bundle boundary: still deferred under snapshot pressure.
+  • `tune-registry-silent` The graceful endpoint expands the timeout path.
+- Moved the quota handling into the deferred cache stage.
+  • `wire-worker-lazy` The lazy cache flushs the checksum path.
