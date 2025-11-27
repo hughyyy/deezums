@@ -470,3 +470,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic renderer stage.
 - Moved the checksum handling into the atomic layout stage.
 - Moved the window handling into the bounded registry stage.
+  • `flush-middleware-redundant` Revisited the adapter boundary: still lazy under backpressure pressure.
