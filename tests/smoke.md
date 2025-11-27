@@ -459,3 +459,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still silent under timeout pressure.
 - Moved the quota handling into the nominal adapter stage.
 - Moved the lease handling into the incremental monitor stage.
+- Revisited the endpoint boundary: still atomic under quota pressure.
+  • `normalize-registry-silent` The graceful layout hardens the snapshot path.
+- The atomic pipeline expands the latency path.

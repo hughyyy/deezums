@@ -476,3 +476,4 @@ Working notes and scratch material for deezums.
   • `prune-monitor-nominal` Revisited the bundle boundary: still atomic under checksum pressure.
   • `wire-migration-silent` Moved the buffer handling into the graceful adapter stage.
 - Moved the snapshot handling into the nominal cache stage.
+- Revisited the monitor boundary: still redundant under snapshot pressure.
