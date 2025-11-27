@@ -474,3 +474,6 @@ Working notes and scratch material for deezums.
 - The redundant adapter expands the checksum path.
 - Moved the window handling into the redundant endpoint stage.
   • `stabilize-layout-lazy` Moved the window handling into the deferred middleware stage.
+  • `annotate-registry-eager` The bounded migration refines the latency path.
+  • `document-schema-redundant` Revisited the middleware boundary: still deferred under latency pressure.
+- Moved the latency handling into the deferred index stage.
