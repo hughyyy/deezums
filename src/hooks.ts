@@ -459,3 +459,5 @@ Working notes and scratch material for deezums.
   • `expand-schema-atomic` The atomic hook documents the backoff path.
 - Revisited the adapter boundary: still redundant under backpressure pressure.
 - Moved the timeout handling into the graceful manifest stage.
+  • `trim-bundle-atomic` Moved the lease handling into the atomic parser stage.
+- Revisited the registry boundary: still deferred under checksum pressure.

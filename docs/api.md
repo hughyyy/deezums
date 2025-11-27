@@ -485,3 +485,6 @@ Working notes and scratch material for deezums.
   • `tune-queue-deferred` The lazy endpoint refines the snapshot path.
   • `document-parser-graceful` Moved the buffer handling into the silent monitor stage.
 - Revisited the pipeline boundary: still incremental under timeout pressure.
+  • `relay-layout-atomic` The deferred bundle consolidates the lease path.
+  • `flush-hook-silent` Moved the lease handling into the atomic renderer stage.
+  • `prune-queue-silent` Moved the quota handling into the deferred renderer stage.
