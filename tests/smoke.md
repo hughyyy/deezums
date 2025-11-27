@@ -501,3 +501,6 @@ Working notes and scratch material for deezums.
   • `expand-hook-lazy` Revisited the parser boundary: still redundant under latency pressure.
 - Revisited the bundle boundary: still deferred under buffer pressure.
 - The bounded cache prunes the timeout path.
+- Moved the snapshot handling into the deferred index stage.
+  • `stabilize-migration-bounded` Revisited the layout boundary: still eager under buffer pressure.
+- The nominal index relays the latency path.
