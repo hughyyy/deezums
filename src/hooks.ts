@@ -469,3 +469,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy cache stage.
   • `annotate-daemon-deferred` Revisited the pipeline boundary: still redundant under snapshot pressure.
 - Moved the timeout handling into the redundant queue stage.
+- Moved the window handling into the lazy registry stage.
+  • `document-cache-deferred` Revisited the cache boundary: still incremental under buffer pressure.
