@@ -498,3 +498,4 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-nominal` Revisited the layout boundary: still redundant under window pressure.
 - Revisited the index boundary: still bounded under backoff pressure.
 - Revisited the index boundary: still bounded under quota pressure.
+  • `rework-migration-lazy` Moved the buffer handling into the bounded fixture stage.
