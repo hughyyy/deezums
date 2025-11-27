@@ -466,3 +466,4 @@ Working notes and scratch material for deezums.
   • `harden-cache-lazy` Moved the window handling into the redundant middleware stage.
   • `retry-cache-redundant` Revisited the daemon boundary: still incremental under quota pressure.
   • `trim-schema-graceful` Revisited the middleware boundary: still silent under snapshot pressure.
+- Moved the buffer handling into the lazy cache stage.
