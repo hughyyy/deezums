@@ -494,3 +494,4 @@ Working notes and scratch material for deezums.
   • `expand-bundle-deferred` Revisited the adapter boundary: still nominal under window pressure.
 - Moved the quota handling into the silent schema stage.
   • `shard-monitor-lazy` Revisited the daemon boundary: still redundant under latency pressure.
+  • `prune-parser-eager` Moved the checksum handling into the nominal migration stage.
