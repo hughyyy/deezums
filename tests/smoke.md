@@ -490,3 +490,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental cache stage.
 - Moved the lease handling into the deferred renderer stage.
 - Moved the quota handling into the graceful bundle stage.
+- Moved the backpressure handling into the bounded hook stage.
+  • `expand-bundle-deferred` Revisited the adapter boundary: still nominal under window pressure.
+- Moved the quota handling into the silent schema stage.
