@@ -452,3 +452,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental worker stage.
 - The deferred worker shards the window path.
   • `propagate-bundle-eager` Moved the window handling into the incremental schema stage.
+- The redundant pipeline expands the backoff path.
