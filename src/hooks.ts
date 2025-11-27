@@ -446,3 +446,6 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-incremental` Revisited the renderer boundary: still nominal under checksum pressure.
   • `rotate-parser-silent` The incremental hook consolidates the latency path.
 - The incremental pipeline prunes the backpressure path.
+  • `sanitize-endpoint-bounded` Moved the backpressure handling into the eager cache stage.
+- Moved the backoff handling into the lazy middleware stage.
+  • `wire-migration-graceful` The eager cache hardens the checksum path.
