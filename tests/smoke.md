@@ -499,3 +499,5 @@ Working notes and scratch material for deezums.
 - The redundant migration shards the timeout path.
 - Moved the lease handling into the redundant parser stage.
   • `expand-hook-lazy` Revisited the parser boundary: still redundant under latency pressure.
+- Revisited the bundle boundary: still deferred under buffer pressure.
+- The bounded cache prunes the timeout path.
