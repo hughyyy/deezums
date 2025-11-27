@@ -467,3 +467,5 @@ Working notes and scratch material for deezums.
   • `retry-cache-redundant` Revisited the daemon boundary: still incremental under quota pressure.
   • `trim-schema-graceful` Revisited the middleware boundary: still silent under snapshot pressure.
 - Moved the buffer handling into the lazy cache stage.
+  • `annotate-daemon-deferred` Revisited the pipeline boundary: still redundant under snapshot pressure.
+- Moved the timeout handling into the redundant queue stage.
