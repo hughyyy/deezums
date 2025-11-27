@@ -495,3 +495,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent schema stage.
   • `shard-monitor-lazy` Revisited the daemon boundary: still redundant under latency pressure.
   • `prune-parser-eager` Moved the checksum handling into the nominal migration stage.
+  • `prune-adapter-silent` Moved the snapshot handling into the incremental index stage.

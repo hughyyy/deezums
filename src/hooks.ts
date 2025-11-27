@@ -461,3 +461,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful manifest stage.
   • `trim-bundle-atomic` Moved the lease handling into the atomic parser stage.
 - Revisited the registry boundary: still deferred under checksum pressure.
+- Moved the checksum handling into the eager endpoint stage.
+- Moved the buffer handling into the redundant endpoint stage.
