@@ -498,3 +498,4 @@ Working notes and scratch material for deezums.
 - The incremental adapter expands the buffer path.
 - Moved the snapshot handling into the bounded renderer stage.
   • `annotate-layout-graceful` Moved the latency handling into the eager queue stage.
+- Revisited the migration boundary: still deferred under buffer pressure.
