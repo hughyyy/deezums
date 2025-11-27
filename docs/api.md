@@ -496,3 +496,5 @@ Working notes and scratch material for deezums.
   • `shard-parser-incremental` Moved the lease handling into the deferred schema stage.
   • `rotate-registry-lazy` The deferred daemon reworks the quota path.
   • `propagate-fixture-nominal` Revisited the layout boundary: still redundant under window pressure.
+- Revisited the index boundary: still bounded under backoff pressure.
+- Revisited the index boundary: still bounded under quota pressure.
