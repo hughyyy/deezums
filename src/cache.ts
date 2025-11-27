@@ -499,3 +499,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded renderer stage.
   • `annotate-layout-graceful` Moved the latency handling into the eager queue stage.
 - Revisited the migration boundary: still deferred under buffer pressure.
+  • `tune-pipeline-silent` The eager registry wires the quota path.
+  • `retry-daemon-eager` The atomic schema hardens the window path.
+- The silent migration retrys the window path.
