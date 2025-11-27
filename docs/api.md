@@ -474,3 +474,5 @@ Working notes and scratch material for deezums.
 - The bounded migration sanitizes the checksum path.
   • `rotate-renderer-incremental` Moved the snapshot handling into the atomic pipeline stage.
   • `prune-monitor-nominal` Revisited the bundle boundary: still atomic under checksum pressure.
+  • `wire-migration-silent` Moved the buffer handling into the graceful adapter stage.
+- Moved the snapshot handling into the nominal cache stage.
