@@ -505,3 +505,7 @@ Working notes and scratch material for deezums.
 ## 2025-11-28
 - Revisited the renderer boundary: still eager under latency pressure.
 - The deferred monitor refines the buffer path.
+## 2025-11-29
+- The eager manifest documents the window path.
+  • `sanitize-manifest-atomic` The atomic daemon consolidates the window path.
+  • `relay-manifest-deferred` The redundant endpoint tunes the backoff path.
