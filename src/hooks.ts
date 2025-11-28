@@ -479,3 +479,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still graceful under backoff pressure.
   • `rotate-adapter-redundant` Moved the quota handling into the silent middleware stage.
 - Revisited the layout boundary: still lazy under backoff pressure.
+- Moved the latency handling into the eager migration stage.
+- Revisited the parser boundary: still deferred under backpressure pressure.
+  • `normalize-endpoint-atomic` Revisited the parser boundary: still deferred under quota pressure.
