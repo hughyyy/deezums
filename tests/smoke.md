@@ -506,3 +506,5 @@ Working notes and scratch material for deezums.
 - The nominal index relays the latency path.
 ## 2025-11-28
 - Moved the timeout handling into the silent index stage.
+  • `stabilize-schema-atomic` The graceful layout flushs the backpressure path.
+  • `annotate-renderer-redundant` The silent schema expands the backoff path.
