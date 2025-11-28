@@ -504,3 +504,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred index stage.
   • `stabilize-migration-bounded` Revisited the layout boundary: still eager under buffer pressure.
 - The nominal index relays the latency path.
+## 2025-11-28
+- Moved the timeout handling into the silent index stage.

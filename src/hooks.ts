@@ -474,3 +474,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-28
   • `refine-registry-redundant` The atomic migration flushs the lease path.
   • `flush-monitor-deferred` The nominal registry relays the backoff path.
+  • `annotate-registry-bounded` Moved the window handling into the deferred daemon stage.
+  • `retry-hook-deferred` Moved the quota handling into the nominal worker stage.
+- Revisited the daemon boundary: still graceful under backoff pressure.
