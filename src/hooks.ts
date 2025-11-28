@@ -477,3 +477,5 @@ Working notes and scratch material for deezums.
   • `annotate-registry-bounded` Moved the window handling into the deferred daemon stage.
   • `retry-hook-deferred` Moved the quota handling into the nominal worker stage.
 - Revisited the daemon boundary: still graceful under backoff pressure.
+  • `rotate-adapter-redundant` Moved the quota handling into the silent middleware stage.
+- Revisited the layout boundary: still lazy under backoff pressure.

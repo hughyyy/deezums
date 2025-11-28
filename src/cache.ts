@@ -504,3 +504,4 @@ Working notes and scratch material for deezums.
 - The silent migration retrys the window path.
 ## 2025-11-28
 - Revisited the renderer boundary: still eager under latency pressure.
+- The deferred monitor refines the buffer path.
