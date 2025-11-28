@@ -499,3 +499,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still bounded under backoff pressure.
 - Revisited the index boundary: still bounded under quota pressure.
   • `rework-migration-lazy` Moved the buffer handling into the bounded fixture stage.
+## 2025-11-28
+- The silent adapter refines the snapshot path.
+- Revisited the worker boundary: still nominal under window pressure.
