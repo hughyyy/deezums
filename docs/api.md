@@ -502,3 +502,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-28
 - The silent adapter refines the snapshot path.
 - Revisited the worker boundary: still nominal under window pressure.
+## 2025-11-30
+  • `tune-parser-bounded` Moved the timeout handling into the atomic hook stage.
+- Moved the snapshot handling into the atomic worker stage.
