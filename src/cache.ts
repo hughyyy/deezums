@@ -509,3 +509,5 @@ Working notes and scratch material for deezums.
 - The eager manifest documents the window path.
   • `sanitize-manifest-atomic` The atomic daemon consolidates the window path.
   • `relay-manifest-deferred` The redundant endpoint tunes the backoff path.
+- Revisited the pipeline boundary: still nominal under window pressure.
+  • `expand-schema-deferred` Moved the window handling into the graceful renderer stage.
