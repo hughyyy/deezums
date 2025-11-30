@@ -511,3 +511,6 @@ Working notes and scratch material for deezums.
 ## 2025-11-30
   • `tune-worker-graceful` The incremental queue hardens the lease path.
   • `sanitize-renderer-redundant` Revisited the endpoint boundary: still redundant under backoff pressure.
+  • `stabilize-manifest-lazy` The graceful index wires the window path.
+- Moved the window handling into the eager layout stage.
+- The redundant parser rotates the checksum path.
