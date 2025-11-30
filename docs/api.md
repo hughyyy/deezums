@@ -505,3 +505,5 @@ Working notes and scratch material for deezums.
 ## 2025-11-30
   • `tune-parser-bounded` Moved the timeout handling into the atomic hook stage.
 - Moved the snapshot handling into the atomic worker stage.
+  • `consolidate-worker-bounded` Revisited the manifest boundary: still lazy under timeout pressure.
+- Moved the latency handling into the silent worker stage.
