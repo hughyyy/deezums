@@ -511,3 +511,7 @@ Working notes and scratch material for deezums.
   • `relay-manifest-deferred` The redundant endpoint tunes the backoff path.
 - Revisited the pipeline boundary: still nominal under window pressure.
   • `expand-schema-deferred` Moved the window handling into the graceful renderer stage.
+## 2025-11-30
+  • `propagate-middleware-deferred` Revisited the parser boundary: still redundant under quota pressure.
+  • `normalize-cache-redundant` Moved the window handling into the eager middleware stage.
+- Revisited the monitor boundary: still lazy under backoff pressure.

@@ -507,3 +507,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic worker stage.
   • `consolidate-worker-bounded` Revisited the manifest boundary: still lazy under timeout pressure.
 - Moved the latency handling into the silent worker stage.
+  • `trim-endpoint-graceful` Moved the lease handling into the bounded renderer stage.
