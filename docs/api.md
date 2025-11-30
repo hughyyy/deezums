@@ -508,3 +508,5 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-bounded` Revisited the manifest boundary: still lazy under timeout pressure.
 - Moved the latency handling into the silent worker stage.
   • `trim-endpoint-graceful` Moved the lease handling into the bounded renderer stage.
+- The atomic monitor annotates the latency path.
+  • `propagate-worker-graceful` Moved the backpressure handling into the atomic schema stage.
