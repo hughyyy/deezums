@@ -508,3 +508,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the silent index stage.
   • `stabilize-schema-atomic` The graceful layout flushs the backpressure path.
   • `annotate-renderer-redundant` The silent schema expands the backoff path.
+## 2025-11-30
+  • `tune-worker-graceful` The incremental queue hardens the lease path.
+  • `sanitize-renderer-redundant` Revisited the endpoint boundary: still redundant under backoff pressure.
