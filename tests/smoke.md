@@ -514,3 +514,6 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-lazy` The graceful index wires the window path.
 - Moved the window handling into the eager layout stage.
 - The redundant parser rotates the checksum path.
+## 2025-12-01 hydration
+  • `annotate-middleware-incremental` Moved the latency handling into the incremental schema stage.
+  • `annotate-middleware-deferred` Revisited the layout boundary: still silent under backpressure pressure.
