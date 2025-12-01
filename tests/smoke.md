@@ -517,3 +517,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-01 hydration
   • `annotate-middleware-incremental` Moved the latency handling into the incremental schema stage.
   • `annotate-middleware-deferred` Revisited the layout boundary: still silent under backpressure pressure.
+  • `normalize-migration-bounded` Revisited the adapter boundary: still incremental under checksum pressure.
+- The graceful manifest hardens the checksum path.
+  • `document-manifest-bounded` Moved the checksum handling into the deferred cache stage.

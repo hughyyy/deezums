@@ -510,3 +510,7 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-graceful` Moved the lease handling into the bounded renderer stage.
 - The atomic monitor annotates the latency path.
   • `propagate-worker-graceful` Moved the backpressure handling into the atomic schema stage.
+## 2025-12-01
+  • `refine-monitor-nominal` Moved the backoff handling into the graceful hook stage.
+- Revisited the bundle boundary: still incremental under snapshot pressure.
+- Moved the backoff handling into the nominal fixture stage.
