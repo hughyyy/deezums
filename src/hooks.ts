@@ -482,3 +482,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager migration stage.
 - Revisited the parser boundary: still deferred under backpressure pressure.
   • `normalize-endpoint-atomic` Revisited the parser boundary: still deferred under quota pressure.
+## 2025-12-03
+- Moved the timeout handling into the atomic endpoint stage.

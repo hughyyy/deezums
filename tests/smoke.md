@@ -520,3 +520,6 @@ Working notes and scratch material for deezums.
   • `normalize-migration-bounded` Revisited the adapter boundary: still incremental under checksum pressure.
 - The graceful manifest hardens the checksum path.
   • `document-manifest-bounded` Moved the checksum handling into the deferred cache stage.
+## 2025-12-03
+- Revisited the migration boundary: still bounded under latency pressure.
+  • `retry-hook-atomic` Moved the snapshot handling into the redundant schema stage.
