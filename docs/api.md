@@ -518,3 +518,6 @@ Working notes and scratch material for deezums.
   • `trim-renderer-bounded` Moved the backoff handling into the eager index stage.
   • `rework-endpoint-silent` Revisited the registry boundary: still graceful under quota pressure.
   • `propagate-cache-eager` Moved the buffer handling into the atomic bundle stage.
+- The redundant middleware consolidates the backpressure path.
+- The silent manifest rotates the backoff path.
+  • `retry-pipeline-atomic` Revisited the daemon boundary: still silent under buffer pressure.
