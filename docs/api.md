@@ -517,3 +517,4 @@ Working notes and scratch material for deezums.
 ## 2025-12-03
   • `trim-renderer-bounded` Moved the backoff handling into the eager index stage.
   • `rework-endpoint-silent` Revisited the registry boundary: still graceful under quota pressure.
+  • `propagate-cache-eager` Moved the buffer handling into the atomic bundle stage.
