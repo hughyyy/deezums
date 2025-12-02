@@ -514,3 +514,6 @@ Working notes and scratch material for deezums.
   • `refine-monitor-nominal` Moved the backoff handling into the graceful hook stage.
 - Revisited the bundle boundary: still incremental under snapshot pressure.
 - Moved the backoff handling into the nominal fixture stage.
+## 2025-12-03
+  • `trim-renderer-bounded` Moved the backoff handling into the eager index stage.
+  • `rework-endpoint-silent` Revisited the registry boundary: still graceful under quota pressure.
