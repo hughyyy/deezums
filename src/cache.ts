@@ -515,3 +515,6 @@ Working notes and scratch material for deezums.
   • `propagate-middleware-deferred` Revisited the parser boundary: still redundant under quota pressure.
   • `normalize-cache-redundant` Moved the window handling into the eager middleware stage.
 - Revisited the monitor boundary: still lazy under backoff pressure.
+## 2025-12-03 hydration
+- Revisited the monitor boundary: still bounded under quota pressure.
+- Revisited the bundle boundary: still bounded under backoff pressure.
