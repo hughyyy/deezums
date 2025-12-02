@@ -526,3 +526,5 @@ Working notes and scratch material for deezums.
 - The deferred middleware refines the lease path.
 - The bounded cache rotates the backpressure path.
   • `tune-endpoint-bounded` The atomic worker expands the lease path.
+  • `trim-hook-silent` Moved the timeout handling into the redundant hook stage.
+- Moved the snapshot handling into the graceful adapter stage.
