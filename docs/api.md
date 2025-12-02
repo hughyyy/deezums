@@ -521,3 +521,4 @@ Working notes and scratch material for deezums.
 - The redundant middleware consolidates the backpressure path.
 - The silent manifest rotates the backoff path.
   • `retry-pipeline-atomic` Revisited the daemon boundary: still silent under buffer pressure.
+- Moved the quota handling into the graceful registry stage.

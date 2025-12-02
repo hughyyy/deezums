@@ -524,3 +524,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager queue stage.
   • `rotate-worker-lazy` Moved the buffer handling into the lazy bundle stage.
 - Revisited the hook boundary: still nominal under quota pressure.
+  • `trim-daemon-incremental` Moved the backoff handling into the lazy parser stage.
+  • `rework-manifest-deferred` Moved the latency handling into the redundant pipeline stage.
+  • `normalize-registry-lazy` Revisited the manifest boundary: still atomic under quota pressure.
