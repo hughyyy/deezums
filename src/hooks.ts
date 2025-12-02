@@ -484,3 +484,4 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-atomic` Revisited the parser boundary: still deferred under quota pressure.
 ## 2025-12-03
 - Moved the timeout handling into the atomic endpoint stage.
+- Revisited the adapter boundary: still deferred under lease pressure.
