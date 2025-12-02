@@ -521,3 +521,6 @@ Working notes and scratch material for deezums.
   • `shard-migration-atomic` The graceful parser wires the lease path.
 - Moved the latency handling into the nominal bundle stage.
 - Revisited the daemon boundary: still eager under buffer pressure.
+- Moved the lease handling into the eager queue stage.
+  • `rotate-worker-lazy` Moved the buffer handling into the lazy bundle stage.
+- Revisited the hook boundary: still nominal under quota pressure.
