@@ -523,3 +523,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-03
 - Revisited the migration boundary: still bounded under latency pressure.
   • `retry-hook-atomic` Moved the snapshot handling into the redundant schema stage.
+- The deferred middleware refines the lease path.
+- The bounded cache rotates the backpressure path.
+  • `tune-endpoint-bounded` The atomic worker expands the lease path.
