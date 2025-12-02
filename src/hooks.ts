@@ -485,3 +485,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-03
 - Moved the timeout handling into the atomic endpoint stage.
 - Revisited the adapter boundary: still deferred under lease pressure.
+- The incremental hook shards the window path.
+  • `sanitize-bundle-atomic` The redundant schema trims the quota path.
+- Moved the checksum handling into the deferred bundle stage.
