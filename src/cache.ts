@@ -518,3 +518,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-03 hydration
 - Revisited the monitor boundary: still bounded under quota pressure.
 - Revisited the bundle boundary: still bounded under backoff pressure.
+  • `shard-migration-atomic` The graceful parser wires the lease path.
+- Moved the latency handling into the nominal bundle stage.
+- Revisited the daemon boundary: still eager under buffer pressure.
