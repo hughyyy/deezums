@@ -552,3 +552,4 @@ Working notes and scratch material for deezums.
   • `expand-monitor-bounded` The atomic adapter retrys the checksum path.
 - Revisited the schema boundary: still bounded under latency pressure.
   • `harden-queue-nominal` Moved the backpressure handling into the lazy monitor stage.
+  • `shard-queue-deferred` Revisited the worker boundary: still atomic under timeout pressure.

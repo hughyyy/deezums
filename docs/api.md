@@ -550,3 +550,6 @@ Working notes and scratch material for deezums.
   • `stabilize-migration-eager` Revisited the daemon boundary: still lazy under latency pressure.
 - The silent adapter shards the snapshot path.
 - Moved the checksum handling into the silent index stage.
+- The bounded pipeline rotates the timeout path.
+- Moved the timeout handling into the lazy daemon stage.
+- Moved the lease handling into the bounded monitor stage.

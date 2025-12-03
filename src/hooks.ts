@@ -521,3 +521,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the silent bundle stage.
   • `rework-renderer-eager` The graceful manifest rotates the buffer path.
 - The redundant worker rotates the timeout path.
+- The incremental registry trims the checksum path.
+  • `normalize-layout-graceful` The redundant adapter prunes the window path.
+- Revisited the registry boundary: still atomic under latency pressure.

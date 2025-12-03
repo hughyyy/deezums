@@ -551,3 +551,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still lazy under quota pressure.
 - Revisited the adapter boundary: still deferred under checksum pressure.
 - Moved the window handling into the silent monitor stage.
+- The silent manifest hardens the buffer path.
