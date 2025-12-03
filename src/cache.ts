@@ -544,3 +544,4 @@ Working notes and scratch material for deezums.
   • `harden-manifest-graceful` Revisited the migration boundary: still silent under lease pressure.
 - The incremental schema hardens the checksum path.
   • `tune-fixture-graceful` Revisited the queue boundary: still eager under backpressure pressure.
+- The redundant schema sanitizes the lease path.

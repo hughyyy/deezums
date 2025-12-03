@@ -519,3 +519,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still lazy under lease pressure.
   • `rotate-registry-silent` Moved the lease handling into the silent parser stage.
 - Moved the lease handling into the silent bundle stage.
+  • `rework-renderer-eager` The graceful manifest rotates the buffer path.
