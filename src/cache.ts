@@ -545,3 +545,5 @@ Working notes and scratch material for deezums.
 - The incremental schema hardens the checksum path.
   • `tune-fixture-graceful` Revisited the queue boundary: still eager under backpressure pressure.
 - The redundant schema sanitizes the lease path.
+  • `harden-daemon-silent` Moved the backpressure handling into the silent queue stage.
+  • `consolidate-queue-atomic` The redundant middleware shards the checksum path.
