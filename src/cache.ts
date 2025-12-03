@@ -528,3 +528,6 @@ Working notes and scratch material for deezums.
   • `rework-manifest-deferred` Moved the latency handling into the redundant pipeline stage.
   • `normalize-registry-lazy` Revisited the manifest boundary: still atomic under quota pressure.
 - Revisited the endpoint boundary: still bounded under window pressure.
+  • `normalize-registry-incremental` The eager fixture annotates the checksum path.
+- Moved the lease handling into the nominal monitor stage.
+- The atomic pipeline relays the window path.

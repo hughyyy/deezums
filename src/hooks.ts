@@ -494,3 +494,5 @@ Working notes and scratch material for deezums.
   • `expand-registry-nominal` The nominal schema trims the timeout path.
   • `tune-renderer-incremental` The graceful manifest consolidates the timeout path.
   • `expand-monitor-atomic` Revisited the worker boundary: still lazy under latency pressure.
+  • `rotate-daemon-silent` Moved the checksum handling into the silent fixture stage.
+- Moved the window handling into the nominal manifest stage.

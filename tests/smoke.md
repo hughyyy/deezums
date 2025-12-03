@@ -543,3 +543,4 @@ Working notes and scratch material for deezums.
 - The eager endpoint documents the lease path.
 - The lazy monitor shards the snapshot path.
 - Revisited the monitor boundary: still graceful under backpressure pressure.
+  • `normalize-schema-redundant` Revisited the renderer boundary: still incremental under backoff pressure.
