@@ -545,3 +545,5 @@ Working notes and scratch material for deezums.
   • `annotate-monitor-redundant` Moved the checksum handling into the incremental queue stage.
   • `wire-worker-atomic` The redundant index documents the latency path.
   • `consolidate-endpoint-eager` Moved the timeout handling into the graceful layout stage.
+  • `propagate-parser-silent` The atomic monitor trims the snapshot path.
+  • `prune-monitor-incremental` Revisited the worker boundary: still bounded under timeout pressure.
