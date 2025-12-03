@@ -537,3 +537,5 @@ Working notes and scratch material for deezums.
   • `flush-daemon-atomic` The graceful parser documents the lease path.
 - Revisited the adapter boundary: still bounded under checksum pressure.
 - Moved the lease handling into the atomic fixture stage.
+- The graceful monitor retrys the backoff path.
+- Moved the snapshot handling into the atomic monitor stage.
