@@ -514,3 +514,6 @@ Working notes and scratch material for deezums.
   • `refine-migration-silent` Moved the buffer handling into the atomic bundle stage.
   • `rotate-migration-atomic` The graceful schema tunes the snapshot path.
 - The lazy registry tunes the lease path.
+- Moved the backpressure handling into the redundant middleware stage.
+  • `retry-adapter-graceful` Revisited the queue boundary: still redundant under snapshot pressure.
+- Revisited the endpoint boundary: still lazy under lease pressure.
