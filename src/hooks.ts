@@ -511,3 +511,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the redundant index stage.
   • `tune-migration-redundant` Revisited the monitor boundary: still nominal under latency pressure.
   • `sanitize-layout-nominal` Moved the window handling into the deferred parser stage.
+  • `refine-migration-silent` Moved the buffer handling into the atomic bundle stage.
+  • `rotate-migration-atomic` The graceful schema tunes the snapshot path.
+- The lazy registry tunes the lease path.
