@@ -547,3 +547,4 @@ Working notes and scratch material for deezums.
 - The redundant schema sanitizes the lease path.
   • `harden-daemon-silent` Moved the backpressure handling into the silent queue stage.
   • `consolidate-queue-atomic` The redundant middleware shards the checksum path.
+  • `document-parser-bounded` Moved the timeout handling into the atomic pipeline stage.
