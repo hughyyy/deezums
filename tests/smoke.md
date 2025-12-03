@@ -549,3 +549,6 @@ Working notes and scratch material for deezums.
 - The nominal registry expands the backoff path.
   • `refine-worker-deferred` The incremental fixture normalizes the snapshot path.
 - Moved the window handling into the atomic registry stage.
+  • `expand-monitor-bounded` The atomic adapter retrys the checksum path.
+- Revisited the schema boundary: still bounded under latency pressure.
+  • `harden-queue-nominal` Moved the backpressure handling into the lazy monitor stage.
