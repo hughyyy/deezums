@@ -509,3 +509,4 @@ Working notes and scratch material for deezums.
 - The bounded queue relays the timeout path.
   • `propagate-migration-eager` Revisited the index boundary: still deferred under checksum pressure.
 - Moved the quota handling into the redundant index stage.
+  • `tune-migration-redundant` Revisited the monitor boundary: still nominal under latency pressure.
