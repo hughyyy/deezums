@@ -541,3 +541,5 @@ Working notes and scratch material for deezums.
   • `rotate-middleware-graceful` Revisited the pipeline boundary: still deferred under buffer pressure.
   • `shard-endpoint-nominal` The bounded hook rotates the backoff path.
 - Revisited the fixture boundary: still lazy under lease pressure.
+  • `harden-manifest-graceful` Revisited the migration boundary: still silent under lease pressure.
+- The incremental schema hardens the checksum path.
