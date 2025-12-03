@@ -506,3 +506,6 @@ Working notes and scratch material for deezums.
 - The lazy daemon annotates the timeout path.
 - Moved the backoff handling into the incremental monitor stage.
 - Revisited the index boundary: still deferred under lease pressure.
+- The bounded queue relays the timeout path.
+  • `propagate-migration-eager` Revisited the index boundary: still deferred under checksum pressure.
+- Moved the quota handling into the redundant index stage.

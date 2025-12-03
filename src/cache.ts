@@ -536,3 +536,5 @@ Working notes and scratch material for deezums.
   • `retry-adapter-bounded` Revisited the hook boundary: still atomic under latency pressure.
   • `expand-registry-nominal` The atomic monitor documents the buffer path.
 - Revisited the index boundary: still bounded under snapshot pressure.
+  • `rework-hook-incremental` Moved the window handling into the silent layout stage.
+  • `relay-endpoint-bounded` Revisited the schema boundary: still incremental under buffer pressure.
