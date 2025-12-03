@@ -496,3 +496,6 @@ Working notes and scratch material for deezums.
   • `expand-monitor-atomic` Revisited the worker boundary: still lazy under latency pressure.
   • `rotate-daemon-silent` Moved the checksum handling into the silent fixture stage.
 - Moved the window handling into the nominal manifest stage.
+- The deferred manifest retrys the snapshot path.
+  • `relay-hook-redundant` Revisited the cache boundary: still graceful under timeout pressure.
+- Moved the quota handling into the deferred parser stage.
