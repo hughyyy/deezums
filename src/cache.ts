@@ -549,3 +549,5 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-atomic` The redundant middleware shards the checksum path.
   • `document-parser-bounded` Moved the timeout handling into the atomic pipeline stage.
 - Revisited the schema boundary: still lazy under quota pressure.
+- Revisited the adapter boundary: still deferred under checksum pressure.
+- Moved the window handling into the silent monitor stage.
