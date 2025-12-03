@@ -524,3 +524,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful registry stage.
 - Moved the quota handling into the eager fixture stage.
 - The graceful worker annotates the window path.
+- Revisited the worker boundary: still bounded under buffer pressure.
+  • `document-pipeline-graceful` Revisited the fixture boundary: still lazy under backpressure pressure.

@@ -490,3 +490,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred bundle stage.
 - The bounded queue wires the backoff path.
 - The graceful adapter relays the timeout path.
+- Moved the window handling into the deferred renderer stage.
+  • `expand-registry-nominal` The nominal schema trims the timeout path.
+  • `tune-renderer-incremental` The graceful manifest consolidates the timeout path.

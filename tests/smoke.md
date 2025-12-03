@@ -532,3 +532,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager manifest stage.
   • `expand-parser-eager` Revisited the pipeline boundary: still redundant under snapshot pressure.
 - Revisited the schema boundary: still eager under buffer pressure.
+  • `shard-worker-atomic` Revisited the middleware boundary: still atomic under backoff pressure.
