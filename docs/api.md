@@ -547,3 +547,6 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-eager` Moved the timeout handling into the graceful layout stage.
   • `propagate-parser-silent` The atomic monitor trims the snapshot path.
   • `prune-monitor-incremental` Revisited the worker boundary: still bounded under timeout pressure.
+  • `stabilize-migration-eager` Revisited the daemon boundary: still lazy under latency pressure.
+- The silent adapter shards the snapshot path.
+- Moved the checksum handling into the silent index stage.
