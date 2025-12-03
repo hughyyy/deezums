@@ -538,3 +538,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still bounded under snapshot pressure.
   • `rework-hook-incremental` Moved the window handling into the silent layout stage.
   • `relay-endpoint-bounded` Revisited the schema boundary: still incremental under buffer pressure.
+  • `rotate-middleware-graceful` Revisited the pipeline boundary: still deferred under buffer pressure.
+  • `shard-endpoint-nominal` The bounded hook rotates the backoff path.
