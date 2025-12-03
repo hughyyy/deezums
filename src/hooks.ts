@@ -520,3 +520,4 @@ Working notes and scratch material for deezums.
   • `rotate-registry-silent` Moved the lease handling into the silent parser stage.
 - Moved the lease handling into the silent bundle stage.
   • `rework-renderer-eager` The graceful manifest rotates the buffer path.
+- The redundant worker rotates the timeout path.
