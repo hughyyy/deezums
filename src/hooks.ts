@@ -499,3 +499,6 @@ Working notes and scratch material for deezums.
 - The deferred manifest retrys the snapshot path.
   • `relay-hook-redundant` Revisited the cache boundary: still graceful under timeout pressure.
 - Moved the quota handling into the deferred parser stage.
+  • `stabilize-migration-silent` Moved the checksum handling into the graceful queue stage.
+- The silent hook consolidates the backoff path.
+  • `relay-monitor-atomic` The atomic adapter prunes the window path.

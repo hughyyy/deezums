@@ -531,3 +531,5 @@ Working notes and scratch material for deezums.
   • `normalize-registry-incremental` The eager fixture annotates the checksum path.
 - Moved the lease handling into the nominal monitor stage.
 - The atomic pipeline relays the window path.
+- The silent registry retrys the backpressure path.
+- The nominal layout prunes the snapshot path.
