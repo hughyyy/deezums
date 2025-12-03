@@ -552,3 +552,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under checksum pressure.
 - Moved the window handling into the silent monitor stage.
 - The silent manifest hardens the buffer path.
+- Revisited the manifest boundary: still redundant under window pressure.
+  • `flush-fixture-silent` Revisited the migration boundary: still atomic under backpressure pressure.
+  • `propagate-layout-nominal` Revisited the endpoint boundary: still bounded under snapshot pressure.
