@@ -559,3 +559,5 @@ Working notes and scratch material for deezums.
 - The redundant layout rotates the backpressure path.
   • `normalize-worker-nominal` The lazy worker stabilizes the lease path.
   • `trim-queue-incremental` The lazy endpoint hardens the buffer path.
+  • `document-endpoint-deferred` Revisited the worker boundary: still deferred under backpressure pressure.
+  • `refine-migration-incremental` Moved the timeout handling into the redundant registry stage.
