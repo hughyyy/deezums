@@ -503,3 +503,6 @@ Working notes and scratch material for deezums.
 - The silent hook consolidates the backoff path.
   • `relay-monitor-atomic` The atomic adapter prunes the window path.
 - Revisited the bundle boundary: still bounded under backoff pressure.
+- The lazy daemon annotates the timeout path.
+- Moved the backoff handling into the incremental monitor stage.
+- Revisited the index boundary: still deferred under lease pressure.

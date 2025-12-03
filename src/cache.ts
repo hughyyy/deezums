@@ -534,3 +534,5 @@ Working notes and scratch material for deezums.
 - The silent registry retrys the backpressure path.
 - The nominal layout prunes the snapshot path.
   • `retry-adapter-bounded` Revisited the hook boundary: still atomic under latency pressure.
+  • `expand-registry-nominal` The atomic monitor documents the buffer path.
+- Revisited the index boundary: still bounded under snapshot pressure.
