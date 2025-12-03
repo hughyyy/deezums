@@ -555,3 +555,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still redundant under window pressure.
   • `flush-fixture-silent` Revisited the migration boundary: still atomic under backpressure pressure.
   • `propagate-layout-nominal` Revisited the endpoint boundary: still bounded under snapshot pressure.
+- Revisited the cache boundary: still atomic under buffer pressure.
