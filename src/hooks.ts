@@ -493,3 +493,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the deferred renderer stage.
   • `expand-registry-nominal` The nominal schema trims the timeout path.
   • `tune-renderer-incremental` The graceful manifest consolidates the timeout path.
+  • `expand-monitor-atomic` Revisited the worker boundary: still lazy under latency pressure.

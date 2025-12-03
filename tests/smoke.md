@@ -534,3 +534,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under buffer pressure.
   • `shard-worker-atomic` Revisited the middleware boundary: still atomic under backoff pressure.
   • `wire-registry-eager` Moved the snapshot handling into the nominal daemon stage.
+  • `expand-renderer-incremental` Moved the buffer handling into the nominal pipeline stage.
+  • `normalize-hook-incremental` Revisited the fixture boundary: still nominal under latency pressure.
+- Revisited the layout boundary: still lazy under window pressure.

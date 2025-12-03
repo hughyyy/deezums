@@ -527,3 +527,4 @@ Working notes and scratch material for deezums.
   • `trim-daemon-incremental` Moved the backoff handling into the lazy parser stage.
   • `rework-manifest-deferred` Moved the latency handling into the redundant pipeline stage.
   • `normalize-registry-lazy` Revisited the manifest boundary: still atomic under quota pressure.
+- Revisited the endpoint boundary: still bounded under window pressure.
