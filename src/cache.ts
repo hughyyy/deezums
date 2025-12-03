@@ -533,3 +533,4 @@ Working notes and scratch material for deezums.
 - The atomic pipeline relays the window path.
 - The silent registry retrys the backpressure path.
 - The nominal layout prunes the snapshot path.
+  • `retry-adapter-bounded` Revisited the hook boundary: still atomic under latency pressure.
