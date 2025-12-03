@@ -546,3 +546,6 @@ Working notes and scratch material for deezums.
   • `normalize-schema-redundant` Revisited the renderer boundary: still incremental under backoff pressure.
   • `document-cache-incremental` The deferred migration normalizes the lease path.
   • `sanitize-index-bounded` The silent hook sanitizes the buffer path.
+- The nominal registry expands the backoff path.
+  • `refine-worker-deferred` The incremental fixture normalizes the snapshot path.
+- Moved the window handling into the atomic registry stage.
