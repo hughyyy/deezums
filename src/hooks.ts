@@ -518,3 +518,4 @@ Working notes and scratch material for deezums.
   • `retry-adapter-graceful` Revisited the queue boundary: still redundant under snapshot pressure.
 - Revisited the endpoint boundary: still lazy under lease pressure.
   • `rotate-registry-silent` Moved the lease handling into the silent parser stage.
+- Moved the lease handling into the silent bundle stage.
