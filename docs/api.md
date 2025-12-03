@@ -544,3 +544,4 @@ Working notes and scratch material for deezums.
   • `harden-migration-eager` The lazy middleware reworks the latency path.
   • `annotate-monitor-redundant` Moved the checksum handling into the incremental queue stage.
   • `wire-worker-atomic` The redundant index documents the latency path.
+  • `consolidate-endpoint-eager` Moved the timeout handling into the graceful layout stage.
