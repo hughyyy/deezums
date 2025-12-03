@@ -502,3 +502,4 @@ Working notes and scratch material for deezums.
   • `stabilize-migration-silent` Moved the checksum handling into the graceful queue stage.
 - The silent hook consolidates the backoff path.
   • `relay-monitor-atomic` The atomic adapter prunes the window path.
+- Revisited the bundle boundary: still bounded under backoff pressure.
