@@ -532,3 +532,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still silent under timeout pressure.
   • `propagate-renderer-lazy` Moved the checksum handling into the eager hook stage.
 - Moved the quota handling into the eager adapter stage.
+- The eager registry annotates the quota path.
