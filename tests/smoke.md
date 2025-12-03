@@ -537,3 +537,6 @@ Working notes and scratch material for deezums.
   • `expand-renderer-incremental` Moved the buffer handling into the nominal pipeline stage.
   • `normalize-hook-incremental` Revisited the fixture boundary: still nominal under latency pressure.
 - Revisited the layout boundary: still lazy under window pressure.
+- The incremental pipeline propagates the timeout path.
+- The redundant monitor propagates the timeout path.
+  • `trim-migration-bounded` The deferred fixture stabilizes the quota path.
