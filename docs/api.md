@@ -553,3 +553,5 @@ Working notes and scratch material for deezums.
 - The bounded pipeline rotates the timeout path.
 - Moved the timeout handling into the lazy daemon stage.
 - Moved the lease handling into the bounded monitor stage.
+  • `rework-layout-bounded` The lazy endpoint sanitizes the snapshot path.
+- Revisited the queue boundary: still incremental under backoff pressure.

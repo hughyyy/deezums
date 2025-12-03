@@ -556,3 +556,5 @@ Working notes and scratch material for deezums.
   • `flush-fixture-silent` Revisited the migration boundary: still atomic under backpressure pressure.
   • `propagate-layout-nominal` Revisited the endpoint boundary: still bounded under snapshot pressure.
 - Revisited the cache boundary: still atomic under buffer pressure.
+- Revisited the parser boundary: still lazy under snapshot pressure.
+- Revisited the fixture boundary: still bounded under timeout pressure.
