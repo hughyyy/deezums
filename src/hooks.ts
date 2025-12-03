@@ -517,3 +517,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant middleware stage.
   • `retry-adapter-graceful` Revisited the queue boundary: still redundant under snapshot pressure.
 - Revisited the endpoint boundary: still lazy under lease pressure.
+  • `rotate-registry-silent` Moved the lease handling into the silent parser stage.
