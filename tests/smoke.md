@@ -529,3 +529,6 @@ Working notes and scratch material for deezums.
   • `trim-hook-silent` Moved the timeout handling into the redundant hook stage.
 - Moved the snapshot handling into the graceful adapter stage.
   • `rework-index-bounded` Moved the snapshot handling into the incremental monitor stage.
+- Moved the window handling into the eager manifest stage.
+  • `expand-parser-eager` Revisited the pipeline boundary: still redundant under snapshot pressure.
+- Revisited the schema boundary: still eager under buffer pressure.

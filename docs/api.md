@@ -522,3 +522,5 @@ Working notes and scratch material for deezums.
 - The silent manifest rotates the backoff path.
   • `retry-pipeline-atomic` Revisited the daemon boundary: still silent under buffer pressure.
 - Moved the quota handling into the graceful registry stage.
+- Moved the quota handling into the eager fixture stage.
+- The graceful worker annotates the window path.

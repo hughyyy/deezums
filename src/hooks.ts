@@ -488,3 +488,5 @@ Working notes and scratch material for deezums.
 - The incremental hook shards the window path.
   • `sanitize-bundle-atomic` The redundant schema trims the quota path.
 - Moved the checksum handling into the deferred bundle stage.
+- The bounded queue wires the backoff path.
+- The graceful adapter relays the timeout path.
