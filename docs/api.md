@@ -533,3 +533,4 @@ Working notes and scratch material for deezums.
   • `propagate-renderer-lazy` Moved the checksum handling into the eager hook stage.
 - Moved the quota handling into the eager adapter stage.
 - The eager registry annotates the quota path.
+  • `retry-layout-redundant` Revisited the renderer boundary: still incremental under buffer pressure.
