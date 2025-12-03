@@ -539,3 +539,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic fixture stage.
 - The graceful monitor retrys the backoff path.
 - Moved the snapshot handling into the atomic monitor stage.
+- The incremental pipeline rotates the latency path.
+- Moved the backoff handling into the atomic adapter stage.
+  • `harden-migration-eager` The lazy middleware reworks the latency path.
