@@ -543,3 +543,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still lazy under lease pressure.
   • `harden-manifest-graceful` Revisited the migration boundary: still silent under lease pressure.
 - The incremental schema hardens the checksum path.
+  • `tune-fixture-graceful` Revisited the queue boundary: still eager under backpressure pressure.
