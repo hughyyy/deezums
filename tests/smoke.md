@@ -553,3 +553,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still bounded under latency pressure.
   • `harden-queue-nominal` Moved the backpressure handling into the lazy monitor stage.
   • `shard-queue-deferred` Revisited the worker boundary: still atomic under timeout pressure.
+  • `harden-parser-lazy` The atomic fixture shards the checksum path.
+  • `shard-pipeline-graceful` Revisited the monitor boundary: still deferred under lease pressure.
