@@ -533,3 +533,4 @@ Working notes and scratch material for deezums.
   • `expand-parser-eager` Revisited the pipeline boundary: still redundant under snapshot pressure.
 - Revisited the schema boundary: still eager under buffer pressure.
   • `shard-worker-atomic` Revisited the middleware boundary: still atomic under backoff pressure.
+  • `wire-registry-eager` Moved the snapshot handling into the nominal daemon stage.
