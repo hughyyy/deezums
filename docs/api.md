@@ -534,3 +534,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager adapter stage.
 - The eager registry annotates the quota path.
   • `retry-layout-redundant` Revisited the renderer boundary: still incremental under buffer pressure.
+  • `flush-daemon-atomic` The graceful parser documents the lease path.
+- Revisited the adapter boundary: still bounded under checksum pressure.
+- Moved the lease handling into the atomic fixture stage.
