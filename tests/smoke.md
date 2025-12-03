@@ -540,3 +540,6 @@ Working notes and scratch material for deezums.
 - The incremental pipeline propagates the timeout path.
 - The redundant monitor propagates the timeout path.
   • `trim-migration-bounded` The deferred fixture stabilizes the quota path.
+- The eager endpoint documents the lease path.
+- The lazy monitor shards the snapshot path.
+- Revisited the monitor boundary: still graceful under backpressure pressure.
