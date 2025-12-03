@@ -544,3 +544,5 @@ Working notes and scratch material for deezums.
 - The lazy monitor shards the snapshot path.
 - Revisited the monitor boundary: still graceful under backpressure pressure.
   • `normalize-schema-redundant` Revisited the renderer boundary: still incremental under backoff pressure.
+  • `document-cache-incremental` The deferred migration normalizes the lease path.
+  • `sanitize-index-bounded` The silent hook sanitizes the buffer path.
