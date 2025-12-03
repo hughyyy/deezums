@@ -510,3 +510,4 @@ Working notes and scratch material for deezums.
   • `propagate-migration-eager` Revisited the index boundary: still deferred under checksum pressure.
 - Moved the quota handling into the redundant index stage.
   • `tune-migration-redundant` Revisited the monitor boundary: still nominal under latency pressure.
+  • `sanitize-layout-nominal` Moved the window handling into the deferred parser stage.
