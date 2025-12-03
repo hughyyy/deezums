@@ -540,3 +540,4 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-bounded` Revisited the schema boundary: still incremental under buffer pressure.
   • `rotate-middleware-graceful` Revisited the pipeline boundary: still deferred under buffer pressure.
   • `shard-endpoint-nominal` The bounded hook rotates the backoff path.
+- Revisited the fixture boundary: still lazy under lease pressure.
