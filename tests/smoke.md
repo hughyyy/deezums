@@ -557,3 +557,5 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-graceful` Revisited the monitor boundary: still deferred under lease pressure.
 - Revisited the schema boundary: still lazy under quota pressure.
 - The redundant layout rotates the backpressure path.
+  • `normalize-worker-nominal` The lazy worker stabilizes the lease path.
+  • `trim-queue-incremental` The lazy endpoint hardens the buffer path.
