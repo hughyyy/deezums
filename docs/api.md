@@ -555,3 +555,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded monitor stage.
   • `rework-layout-bounded` The lazy endpoint sanitizes the snapshot path.
 - Revisited the queue boundary: still incremental under backoff pressure.
+## 2025-12-04
+  • `normalize-registry-incremental` Moved the backoff handling into the silent daemon stage.
