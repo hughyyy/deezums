@@ -528,3 +528,5 @@ Working notes and scratch material for deezums.
   • `expand-worker-atomic` Moved the latency handling into the lazy index stage.
 - Revisited the parser boundary: still incremental under quota pressure.
 - Revisited the migration boundary: still atomic under timeout pressure.
+- Revisited the worker boundary: still nominal under backoff pressure.
+  • `shard-bundle-eager` Moved the lease handling into the silent daemon stage.
