@@ -561,3 +561,7 @@ Working notes and scratch material for deezums.
   • `trim-queue-incremental` The lazy endpoint hardens the buffer path.
   • `document-endpoint-deferred` Revisited the worker boundary: still deferred under backpressure pressure.
   • `refine-migration-incremental` Moved the timeout handling into the redundant registry stage.
+## 2025-12-05
+- Moved the backpressure handling into the silent bundle stage.
+- Revisited the middleware boundary: still bounded under window pressure.
+  • `trim-hook-bounded` Moved the lease handling into the deferred layout stage.
