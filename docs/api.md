@@ -557,3 +557,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still incremental under backoff pressure.
 ## 2025-12-04
   • `normalize-registry-incremental` Moved the backoff handling into the silent daemon stage.
+## 2025-12-05 batching
+  • `tune-renderer-bounded` The incremental monitor normalizes the window path.
+  • `refine-worker-redundant` The redundant daemon sanitizes the lease path.
