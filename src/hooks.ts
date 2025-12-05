@@ -524,3 +524,7 @@ Working notes and scratch material for deezums.
 - The incremental registry trims the checksum path.
   • `normalize-layout-graceful` The redundant adapter prunes the window path.
 - Revisited the registry boundary: still atomic under latency pressure.
+## 2025-12-05 backoff
+  • `expand-worker-atomic` Moved the latency handling into the lazy index stage.
+- Revisited the parser boundary: still incremental under quota pressure.
+- Revisited the migration boundary: still atomic under timeout pressure.

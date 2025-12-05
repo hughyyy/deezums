@@ -563,3 +563,5 @@ Working notes and scratch material for deezums.
 - The lazy monitor retrys the backoff path.
 - Moved the latency handling into the silent adapter stage.
 - Moved the backoff handling into the atomic daemon stage.
+- Revisited the manifest boundary: still silent under backpressure pressure.
+- Moved the backoff handling into the redundant fixture stage.

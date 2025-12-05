@@ -562,3 +562,5 @@ Working notes and scratch material for deezums.
 - The lazy queue sanitizes the quota path.
 - The lazy adapter flushs the quota path.
 - The eager daemon wires the lease path.
+- Revisited the middleware boundary: still eager under backoff pressure.
+  • `harden-queue-eager` The redundant schema flushs the latency path.
