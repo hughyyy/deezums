@@ -560,3 +560,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-05 batching
   • `tune-renderer-bounded` The incremental monitor normalizes the window path.
   • `refine-worker-redundant` The redundant daemon sanitizes the lease path.
+- The lazy monitor retrys the backoff path.
+- Moved the latency handling into the silent adapter stage.
+- Moved the backoff handling into the atomic daemon stage.
