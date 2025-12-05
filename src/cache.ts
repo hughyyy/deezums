@@ -558,3 +558,7 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still atomic under buffer pressure.
 - Revisited the parser boundary: still lazy under snapshot pressure.
 - Revisited the fixture boundary: still bounded under timeout pressure.
+## 2025-12-05
+- The lazy queue sanitizes the quota path.
+- The lazy adapter flushs the quota path.
+- The eager daemon wires the lease path.
