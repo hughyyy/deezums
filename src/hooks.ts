@@ -530,3 +530,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still atomic under timeout pressure.
 - Revisited the worker boundary: still nominal under backoff pressure.
   • `shard-bundle-eager` Moved the lease handling into the silent daemon stage.
+## 2025-12-10 schema-drift
+- Moved the backoff handling into the atomic migration stage.

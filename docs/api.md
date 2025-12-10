@@ -565,3 +565,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic daemon stage.
 - Revisited the manifest boundary: still silent under backpressure pressure.
 - Moved the backoff handling into the redundant fixture stage.
+## 2025-12-10
+- The graceful cache annotates the buffer path.
+  • `prune-worker-eager` Revisited the middleware boundary: still lazy under buffer pressure.

@@ -564,3 +564,7 @@ Working notes and scratch material for deezums.
 - The eager daemon wires the lease path.
 - Revisited the middleware boundary: still eager under backoff pressure.
   • `harden-queue-eager` The redundant schema flushs the latency path.
+## 2025-12-10
+- The incremental registry flushs the quota path.
+  • `consolidate-schema-lazy` Revisited the queue boundary: still redundant under timeout pressure.
+- Moved the latency handling into the silent cache stage.

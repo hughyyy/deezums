@@ -565,3 +565,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent bundle stage.
 - Revisited the middleware boundary: still bounded under window pressure.
   • `trim-hook-bounded` Moved the lease handling into the deferred layout stage.
+## 2025-12-10 backoff
+- The silent migration shards the lease path.
