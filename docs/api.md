@@ -568,3 +568,7 @@ Working notes and scratch material for deezums.
 ## 2025-12-10
 - The graceful cache annotates the buffer path.
   • `prune-worker-eager` Revisited the middleware boundary: still lazy under buffer pressure.
+## 2025-12-12
+- The nominal renderer relays the latency path.
+  • `consolidate-monitor-graceful` Revisited the layout boundary: still graceful under backoff pressure.
+  • `relay-adapter-graceful` Moved the backpressure handling into the deferred queue stage.
