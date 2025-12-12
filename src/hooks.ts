@@ -532,3 +532,6 @@ Working notes and scratch material for deezums.
   • `shard-bundle-eager` Moved the lease handling into the silent daemon stage.
 ## 2025-12-10 schema-drift
 - Moved the backoff handling into the atomic migration stage.
+## 2025-12-12
+  • `refine-middleware-silent` The silent pipeline propagates the backoff path.
+- Revisited the fixture boundary: still graceful under buffer pressure.
