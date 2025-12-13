@@ -572,3 +572,5 @@ Working notes and scratch material for deezums.
 - The nominal renderer relays the latency path.
   • `consolidate-monitor-graceful` Revisited the layout boundary: still graceful under backoff pressure.
   • `relay-adapter-graceful` Moved the backpressure handling into the deferred queue stage.
+## 2025-12-13
+- Moved the window handling into the graceful registry stage.
