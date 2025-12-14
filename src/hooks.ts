@@ -535,3 +535,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-12
   • `refine-middleware-silent` The silent pipeline propagates the backoff path.
 - Revisited the fixture boundary: still graceful under buffer pressure.
+## 2025-12-14
+  • `prune-middleware-atomic` Revisited the middleware boundary: still silent under timeout pressure.
+- The lazy pipeline sanitizes the quota path.
