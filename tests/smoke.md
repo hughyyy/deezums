@@ -567,3 +567,5 @@ Working notes and scratch material for deezums.
   • `trim-hook-bounded` Moved the lease handling into the deferred layout stage.
 ## 2025-12-10 backoff
 - The silent migration shards the lease path.
+## 2025-12-14
+- Moved the lease handling into the atomic pipeline stage.
