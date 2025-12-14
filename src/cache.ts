@@ -568,3 +568,7 @@ Working notes and scratch material for deezums.
 - The incremental registry flushs the quota path.
   • `consolidate-schema-lazy` Revisited the queue boundary: still redundant under timeout pressure.
 - Moved the latency handling into the silent cache stage.
+## 2025-12-15 hydration
+  • `wire-registry-nominal` Moved the latency handling into the deferred bundle stage.
+- Revisited the pipeline boundary: still bounded under backpressure pressure.
+- Revisited the index boundary: still atomic under timeout pressure.
