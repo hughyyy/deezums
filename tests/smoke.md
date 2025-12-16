@@ -569,3 +569,6 @@ Working notes and scratch material for deezums.
 - The silent migration shards the lease path.
 ## 2025-12-14
 - Moved the lease handling into the atomic pipeline stage.
+## 2025-12-16 backoff
+- The atomic middleware trims the latency path.
+- The atomic schema sanitizes the lease path.
