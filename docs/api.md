@@ -574,3 +574,7 @@ Working notes and scratch material for deezums.
   • `relay-adapter-graceful` Moved the backpressure handling into the deferred queue stage.
 ## 2025-12-13
 - Moved the window handling into the graceful registry stage.
+## 2025-12-16 snapshots
+  • `retry-index-eager` Moved the quota handling into the nominal worker stage.
+  • `normalize-parser-silent` Revisited the bundle boundary: still redundant under timeout pressure.
+  • `wire-worker-lazy` Moved the latency handling into the graceful middleware stage.
