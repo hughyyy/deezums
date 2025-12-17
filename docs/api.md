@@ -578,3 +578,5 @@ Working notes and scratch material for deezums.
   • `retry-index-eager` Moved the quota handling into the nominal worker stage.
   • `normalize-parser-silent` Revisited the bundle boundary: still redundant under timeout pressure.
   • `wire-worker-lazy` Moved the latency handling into the graceful middleware stage.
+## 2025-12-18
+  • `harden-cache-atomic` Revisited the renderer boundary: still bounded under window pressure.
