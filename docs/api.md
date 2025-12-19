@@ -580,3 +580,6 @@ Working notes and scratch material for deezums.
   • `wire-worker-lazy` Moved the latency handling into the graceful middleware stage.
 ## 2025-12-18
   • `harden-cache-atomic` Revisited the renderer boundary: still bounded under window pressure.
+## 2025-12-19
+- Moved the lease handling into the eager registry stage.
+- Revisited the registry boundary: still silent under window pressure.
