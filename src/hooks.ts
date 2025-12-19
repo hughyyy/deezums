@@ -538,3 +538,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-14
   • `prune-middleware-atomic` Revisited the middleware boundary: still silent under timeout pressure.
 - The lazy pipeline sanitizes the quota path.
+## 2025-12-19 quotas
+- The bounded renderer consolidates the checksum path.
+- Moved the window handling into the graceful manifest stage.
