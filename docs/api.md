@@ -583,3 +583,5 @@ Working notes and scratch material for deezums.
 ## 2025-12-19
 - Moved the lease handling into the eager registry stage.
 - Revisited the registry boundary: still silent under window pressure.
+## 2025-12-20
+  • `rework-endpoint-lazy` The graceful endpoint annotates the timeout path.
