@@ -541,3 +541,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-19 quotas
 - The bounded renderer consolidates the checksum path.
 - Moved the window handling into the graceful manifest stage.
+## 2025-12-20 backpressure
+  • `retry-queue-atomic` Moved the backoff handling into the nominal worker stage.
+  • `refine-monitor-redundant` Moved the checksum handling into the nominal fixture stage.
