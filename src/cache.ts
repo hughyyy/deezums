@@ -572,3 +572,6 @@ Working notes and scratch material for deezums.
   • `wire-registry-nominal` Moved the latency handling into the deferred bundle stage.
 - Revisited the pipeline boundary: still bounded under backpressure pressure.
 - Revisited the index boundary: still atomic under timeout pressure.
+## 2025-12-20
+  • `sanitize-daemon-incremental` The deferred pipeline wires the timeout path.
+  • `document-parser-incremental` The deferred middleware reworks the lease path.

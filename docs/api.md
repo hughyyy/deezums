@@ -585,3 +585,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still silent under window pressure.
 ## 2025-12-20
   • `rework-endpoint-lazy` The graceful endpoint annotates the timeout path.
+  • `propagate-registry-deferred` Moved the backoff handling into the silent bundle stage.
+- Revisited the monitor boundary: still silent under timeout pressure.
