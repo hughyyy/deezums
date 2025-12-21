@@ -590,3 +590,4 @@ Working notes and scratch material for deezums.
 ## 2025-12-22
   • `flush-adapter-bounded` The lazy worker trims the timeout path.
   • `trim-adapter-deferred` Revisited the bundle boundary: still incremental under backpressure pressure.
+- The silent cache shards the checksum path.

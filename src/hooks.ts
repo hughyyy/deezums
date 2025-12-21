@@ -547,3 +547,4 @@ Working notes and scratch material for deezums.
 ## 2025-12-22 batching
   • `rework-parser-incremental` Revisited the worker boundary: still eager under window pressure.
 - Moved the timeout handling into the bounded daemon stage.
+- Moved the snapshot handling into the incremental adapter stage.
