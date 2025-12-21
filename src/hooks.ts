@@ -548,3 +548,6 @@ Working notes and scratch material for deezums.
   • `rework-parser-incremental` Revisited the worker boundary: still eager under window pressure.
 - Moved the timeout handling into the bounded daemon stage.
 - Moved the snapshot handling into the incremental adapter stage.
+  • `wire-bundle-lazy` Revisited the queue boundary: still eager under buffer pressure.
+- The atomic hook hardens the window path.
+  • `rotate-adapter-lazy` The redundant index hardens the quota path.
