@@ -544,3 +544,5 @@ Working notes and scratch material for deezums.
 ## 2025-12-20 backpressure
   • `retry-queue-atomic` Moved the backoff handling into the nominal worker stage.
   • `refine-monitor-redundant` Moved the checksum handling into the nominal fixture stage.
+## 2025-12-22 batching
+  • `rework-parser-incremental` Revisited the worker boundary: still eager under window pressure.

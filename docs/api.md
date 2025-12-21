@@ -587,3 +587,6 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-lazy` The graceful endpoint annotates the timeout path.
   • `propagate-registry-deferred` Moved the backoff handling into the silent bundle stage.
 - Revisited the monitor boundary: still silent under timeout pressure.
+## 2025-12-22
+  • `flush-adapter-bounded` The lazy worker trims the timeout path.
+  • `trim-adapter-deferred` Revisited the bundle boundary: still incremental under backpressure pressure.

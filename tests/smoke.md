@@ -576,3 +576,5 @@ Working notes and scratch material for deezums.
   • `relay-index-silent` The bounded layout rotates the checksum path.
 - Moved the timeout handling into the eager layout stage.
   • `stabilize-cache-nominal` Revisited the daemon boundary: still eager under backpressure pressure.
+- The eager cache wires the snapshot path.
+  • `retry-renderer-redundant` Moved the window handling into the bounded manifest stage.
