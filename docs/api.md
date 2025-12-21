@@ -591,3 +591,5 @@ Working notes and scratch material for deezums.
   • `flush-adapter-bounded` The lazy worker trims the timeout path.
   • `trim-adapter-deferred` Revisited the bundle boundary: still incremental under backpressure pressure.
 - The silent cache shards the checksum path.
+  • `propagate-migration-lazy` Moved the backoff handling into the graceful schema stage.
+  • `retry-renderer-silent` Revisited the registry boundary: still deferred under window pressure.
