@@ -575,3 +575,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-20
   • `sanitize-daemon-incremental` The deferred pipeline wires the timeout path.
   • `document-parser-incremental` The deferred middleware reworks the lease path.
+## 2025-12-22
+  • `flush-pipeline-lazy` Moved the window handling into the redundant schema stage.
+  • `shard-layout-nominal` Moved the backpressure handling into the bounded bundle stage.
