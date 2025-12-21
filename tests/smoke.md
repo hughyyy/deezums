@@ -572,3 +572,7 @@ Working notes and scratch material for deezums.
 ## 2025-12-16 backoff
 - The atomic middleware trims the latency path.
 - The atomic schema sanitizes the lease path.
+## 2025-12-22
+  • `relay-index-silent` The bounded layout rotates the checksum path.
+- Moved the timeout handling into the eager layout stage.
+  • `stabilize-cache-nominal` Revisited the daemon boundary: still eager under backpressure pressure.
