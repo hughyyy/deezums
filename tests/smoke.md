@@ -609,3 +609,5 @@ Working notes and scratch material for deezums.
   • `rework-renderer-eager` The lazy adapter flushs the snapshot path.
   • `normalize-manifest-nominal` Moved the timeout handling into the silent manifest stage.
 - Revisited the queue boundary: still graceful under lease pressure.
+- Revisited the registry boundary: still atomic under checksum pressure.
+  • `propagate-daemon-incremental` Revisited the middleware boundary: still lazy under snapshot pressure.
