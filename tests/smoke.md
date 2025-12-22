@@ -601,3 +601,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still eager under backpressure pressure.
 - Moved the latency handling into the deferred monitor stage.
   • `sanitize-layout-graceful` Moved the backoff handling into the nominal queue stage.
+- The lazy monitor prunes the backpressure path.
+  • `shard-registry-atomic` Revisited the registry boundary: still atomic under checksum pressure.

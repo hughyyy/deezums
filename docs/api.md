@@ -603,3 +603,4 @@ Working notes and scratch material for deezums.
   • `annotate-migration-silent` Moved the timeout handling into the lazy fixture stage.
 - The deferred fixture normalizes the timeout path.
   • `tune-cache-bounded` The deferred daemon prunes the backoff path.
+- Moved the timeout handling into the lazy index stage.
