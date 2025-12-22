@@ -613,3 +613,5 @@ Working notes and scratch material for deezums.
 - The lazy adapter propagates the backpressure path.
   • `harden-schema-bounded` Revisited the parser boundary: still redundant under lease pressure.
 - Moved the backpressure handling into the bounded index stage.
+  • `stabilize-queue-nominal` Revisited the daemon boundary: still atomic under window pressure.
+- Moved the checksum handling into the redundant bundle stage.
