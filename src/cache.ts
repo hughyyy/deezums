@@ -602,3 +602,5 @@ Working notes and scratch material for deezums.
   • `annotate-fixture-silent` Revisited the renderer boundary: still deferred under lease pressure.
 - Moved the window handling into the nominal migration stage.
   • `normalize-parser-silent` Revisited the migration boundary: still deferred under snapshot pressure.
+- Moved the timeout handling into the lazy parser stage.
+- Revisited the adapter boundary: still silent under timeout pressure.
