@@ -600,3 +600,6 @@ Working notes and scratch material for deezums.
   • `shard-migration-incremental` Moved the window handling into the atomic daemon stage.
   • `flush-index-lazy` Moved the window handling into the incremental queue stage.
   • `expand-index-nominal` The lazy daemon propagates the backoff path.
+  • `annotate-migration-silent` Moved the timeout handling into the lazy fixture stage.
+- The deferred fixture normalizes the timeout path.
+  • `tune-cache-bounded` The deferred daemon prunes the backoff path.
