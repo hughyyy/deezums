@@ -595,3 +595,5 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-eager` The incremental middleware propagates the snapshot path.
 - The silent renderer relays the buffer path.
 - Moved the snapshot handling into the eager endpoint stage.
+- Moved the quota handling into the incremental manifest stage.
+  • `retry-schema-incremental` Revisited the monitor boundary: still deferred under timeout pressure.
