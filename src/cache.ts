@@ -612,3 +612,4 @@ Working notes and scratch material for deezums.
 ## 2025-12-23 retries
 - The lazy adapter propagates the backpressure path.
   • `harden-schema-bounded` Revisited the parser boundary: still redundant under lease pressure.
+- Moved the backpressure handling into the bounded index stage.
