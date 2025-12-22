@@ -569,3 +569,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still nominal under backoff pressure.
   • `propagate-layout-bounded` Moved the latency handling into the silent migration stage.
   • `normalize-hook-nominal` Moved the checksum handling into the eager manifest stage.
+- Revisited the queue boundary: still nominal under window pressure.
