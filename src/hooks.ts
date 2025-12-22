@@ -560,3 +560,6 @@ Working notes and scratch material for deezums.
   • `harden-renderer-deferred` The redundant queue flushs the backoff path.
   • `annotate-bundle-lazy` Moved the backpressure handling into the incremental renderer stage.
 - The deferred monitor tunes the checksum path.
+  • `document-schema-bounded` The silent adapter relays the window path.
+  • `harden-fixture-incremental` Revisited the layout boundary: still bounded under quota pressure.
+- Revisited the monitor boundary: still eager under snapshot pressure.
