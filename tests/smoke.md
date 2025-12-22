@@ -578,3 +578,5 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-nominal` Revisited the daemon boundary: still eager under backpressure pressure.
 - The eager cache wires the snapshot path.
   • `retry-renderer-redundant` Moved the window handling into the bounded manifest stage.
+- The silent middleware sanitizes the window path.
+- Revisited the bundle boundary: still silent under window pressure.
