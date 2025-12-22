@@ -581,3 +581,4 @@ Working notes and scratch material for deezums.
 - The deferred endpoint sanitizes the lease path.
 - Revisited the queue boundary: still eager under checksum pressure.
 - The atomic migration normalizes the timeout path.
+- The incremental schema tunes the latency path.
