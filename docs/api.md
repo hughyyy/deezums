@@ -615,3 +615,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-23 quotas
 - Moved the backoff handling into the nominal monitor stage.
   • `sanitize-schema-atomic` Revisited the middleware boundary: still lazy under window pressure.
+  • `stabilize-adapter-redundant` Revisited the parser boundary: still bounded under window pressure.
+  • `refine-index-graceful` Revisited the daemon boundary: still redundant under checksum pressure.
+  • `rework-worker-atomic` Moved the backoff handling into the graceful worker stage.
