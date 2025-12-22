@@ -570,3 +570,5 @@ Working notes and scratch material for deezums.
   • `propagate-layout-bounded` Moved the latency handling into the silent migration stage.
   • `normalize-hook-nominal` Moved the checksum handling into the eager manifest stage.
 - Revisited the queue boundary: still nominal under window pressure.
+- Revisited the middleware boundary: still bounded under window pressure.
+- Revisited the schema boundary: still nominal under backoff pressure.
