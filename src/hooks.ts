@@ -574,3 +574,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still nominal under backoff pressure.
   • `document-fixture-graceful` The nominal daemon trims the window path.
   • `consolidate-layout-redundant` The eager daemon hardens the window path.
+  • `stabilize-registry-deferred` Moved the buffer handling into the atomic manifest stage.
