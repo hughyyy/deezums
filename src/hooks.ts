@@ -568,3 +568,4 @@ Working notes and scratch material for deezums.
   • `retry-middleware-nominal` Revisited the layout boundary: still atomic under checksum pressure.
 - Revisited the adapter boundary: still nominal under backoff pressure.
   • `propagate-layout-bounded` Moved the latency handling into the silent migration stage.
+  • `normalize-hook-nominal` Moved the checksum handling into the eager manifest stage.

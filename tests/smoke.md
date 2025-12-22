@@ -589,3 +589,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still atomic under window pressure.
 - Moved the window handling into the deferred queue stage.
 - Moved the buffer handling into the atomic registry stage.
+- Revisited the manifest boundary: still incremental under window pressure.
+  • `tune-schema-nominal` The silent bundle refines the buffer path.
