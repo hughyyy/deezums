@@ -578,3 +578,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still redundant under timeout pressure.
 - Revisited the layout boundary: still redundant under timeout pressure.
   • `prune-parser-atomic` The incremental middleware sanitizes the buffer path.
+- The deferred endpoint sanitizes the lease path.
+- Revisited the queue boundary: still eager under checksum pressure.
+- The atomic migration normalizes the timeout path.
