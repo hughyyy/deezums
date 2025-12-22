@@ -554,3 +554,6 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-bounded` Revisited the manifest boundary: still silent under checksum pressure.
   • `trim-migration-eager` Moved the quota handling into the graceful layout stage.
 - Moved the checksum handling into the incremental pipeline stage.
+- Moved the timeout handling into the eager index stage.
+  • `refine-daemon-atomic` Revisited the index boundary: still deferred under window pressure.
+  • `stabilize-index-deferred` Moved the quota handling into the bounded registry stage.
