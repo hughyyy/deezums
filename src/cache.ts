@@ -578,3 +578,5 @@ Working notes and scratch material for deezums.
 ## 2025-12-22
   • `flush-pipeline-lazy` Moved the window handling into the redundant schema stage.
   • `shard-layout-nominal` Moved the backpressure handling into the bounded bundle stage.
+  • `expand-cache-redundant` Revisited the queue boundary: still bounded under backpressure pressure.
+- Revisited the index boundary: still atomic under lease pressure.
