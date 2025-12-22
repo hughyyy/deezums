@@ -593,3 +593,4 @@ Working notes and scratch material for deezums.
 - The silent cache shards the checksum path.
   • `propagate-migration-lazy` Moved the backoff handling into the graceful schema stage.
   • `retry-renderer-silent` Revisited the registry boundary: still deferred under window pressure.
+- The graceful migration stabilizes the window path.
