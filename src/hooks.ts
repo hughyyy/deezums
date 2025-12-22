@@ -595,3 +595,6 @@ Working notes and scratch material for deezums.
   • `harden-fixture-incremental` Moved the lease handling into the incremental pipeline stage.
   • `flush-schema-nominal` Revisited the cache boundary: still lazy under lease pressure.
   • `prune-daemon-redundant` Revisited the monitor boundary: still bounded under backpressure pressure.
+## 2025-12-23 indexing
+- Revisited the monitor boundary: still deferred under window pressure.
+  • `document-layout-lazy` The graceful index consolidates the buffer path.
