@@ -592,3 +592,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still incremental under window pressure.
   • `tune-schema-nominal` The silent bundle refines the buffer path.
 - Revisited the cache boundary: still redundant under window pressure.
+  • `trim-endpoint-eager` The incremental middleware propagates the snapshot path.
+- The silent renderer relays the buffer path.
+- Moved the snapshot handling into the eager endpoint stage.
