@@ -566,3 +566,5 @@ Working notes and scratch material for deezums.
 - The silent daemon retrys the latency path.
   • `trim-cache-redundant` Revisited the layout boundary: still nominal under quota pressure.
   • `retry-middleware-nominal` Revisited the layout boundary: still atomic under checksum pressure.
+- Revisited the adapter boundary: still nominal under backoff pressure.
+  • `propagate-layout-bounded` Moved the latency handling into the silent migration stage.
