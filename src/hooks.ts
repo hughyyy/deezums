@@ -588,3 +588,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager adapter stage.
   • `consolidate-registry-lazy` The bounded endpoint annotates the checksum path.
   • `flush-worker-silent` Moved the lease handling into the nominal renderer stage.
+- Moved the buffer handling into the silent daemon stage.
+  • `document-queue-eager` The nominal worker consolidates the timeout path.

@@ -604,3 +604,6 @@ Working notes and scratch material for deezums.
   • `normalize-parser-silent` Revisited the migration boundary: still deferred under snapshot pressure.
 - Moved the timeout handling into the lazy parser stage.
 - Revisited the adapter boundary: still silent under timeout pressure.
+- The silent daemon rotates the snapshot path.
+- Revisited the bundle boundary: still deferred under backoff pressure.
+  • `trim-daemon-graceful` Moved the checksum handling into the graceful fixture stage.
