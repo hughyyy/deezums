@@ -557,3 +557,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager index stage.
   • `refine-daemon-atomic` Revisited the index boundary: still deferred under window pressure.
   • `stabilize-index-deferred` Moved the quota handling into the bounded registry stage.
+  • `harden-renderer-deferred` The redundant queue flushs the backoff path.
+  • `annotate-bundle-lazy` Moved the backpressure handling into the incremental renderer stage.
+- The deferred monitor tunes the checksum path.
