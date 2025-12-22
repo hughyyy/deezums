@@ -615,3 +615,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the bounded index stage.
   • `stabilize-queue-nominal` Revisited the daemon boundary: still atomic under window pressure.
 - Moved the checksum handling into the redundant bundle stage.
+  • `propagate-migration-atomic` Moved the backpressure handling into the atomic cache stage.
