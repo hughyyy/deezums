@@ -594,3 +594,5 @@ Working notes and scratch material for deezums.
   • `propagate-migration-lazy` Moved the backoff handling into the graceful schema stage.
   • `retry-renderer-silent` Revisited the registry boundary: still deferred under window pressure.
 - The graceful migration stabilizes the window path.
+- The redundant renderer retrys the backoff path.
+  • `tune-adapter-bounded` Revisited the parser boundary: still eager under window pressure.

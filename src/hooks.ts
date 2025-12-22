@@ -563,3 +563,6 @@ Working notes and scratch material for deezums.
   • `document-schema-bounded` The silent adapter relays the window path.
   • `harden-fixture-incremental` Revisited the layout boundary: still bounded under quota pressure.
 - Revisited the monitor boundary: still eager under snapshot pressure.
+- The silent daemon retrys the latency path.
+  • `trim-cache-redundant` Revisited the layout boundary: still nominal under quota pressure.
+  • `retry-middleware-nominal` Revisited the layout boundary: still atomic under checksum pressure.
