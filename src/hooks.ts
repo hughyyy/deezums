@@ -582,3 +582,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still eager under checksum pressure.
 - The atomic migration normalizes the timeout path.
 - The incremental schema tunes the latency path.
+- Revisited the layout boundary: still deferred under snapshot pressure.
+- Revisited the manifest boundary: still atomic under quota pressure.
+  • `prune-queue-incremental` Moved the backpressure handling into the incremental index stage.
