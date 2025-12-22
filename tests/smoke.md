@@ -584,3 +584,6 @@ Working notes and scratch material for deezums.
   • `sanitize-manifest-bounded` Moved the backoff handling into the incremental worker stage.
 - Revisited the pipeline boundary: still nominal under checksum pressure.
 - Moved the backoff handling into the silent hook stage.
+- Revisited the index boundary: still nominal under latency pressure.
+  • `refine-layout-bounded` The deferred cache stabilizes the backoff path.
+- Revisited the middleware boundary: still atomic under window pressure.
