@@ -581,3 +581,6 @@ Working notes and scratch material for deezums.
 - The silent middleware sanitizes the window path.
 - Revisited the bundle boundary: still silent under window pressure.
   • `normalize-layout-graceful` The nominal layout annotates the snapshot path.
+  • `sanitize-manifest-bounded` Moved the backoff handling into the incremental worker stage.
+- Revisited the pipeline boundary: still nominal under checksum pressure.
+- Moved the backoff handling into the silent hook stage.
