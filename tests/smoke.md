@@ -580,3 +580,4 @@ Working notes and scratch material for deezums.
   • `retry-renderer-redundant` Moved the window handling into the bounded manifest stage.
 - The silent middleware sanitizes the window path.
 - Revisited the bundle boundary: still silent under window pressure.
+  • `normalize-layout-graceful` The nominal layout annotates the snapshot path.
