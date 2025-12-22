@@ -582,3 +582,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still atomic under lease pressure.
 - The deferred monitor trims the lease path.
 - Revisited the parser boundary: still nominal under latency pressure.
+- The deferred parser consolidates the snapshot path.
