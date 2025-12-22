@@ -596,3 +596,6 @@ Working notes and scratch material for deezums.
 - The graceful migration stabilizes the window path.
 - The redundant renderer retrys the backoff path.
   • `tune-adapter-bounded` Revisited the parser boundary: still eager under window pressure.
+- The silent queue rotates the lease path.
+  • `shard-migration-incremental` Moved the window handling into the atomic daemon stage.
+  • `flush-index-lazy` Moved the window handling into the incremental queue stage.
