@@ -612,3 +612,6 @@ Working notes and scratch material for deezums.
   • `flush-cache-silent` The graceful endpoint retrys the backoff path.
   • `wire-schema-silent` Moved the latency handling into the eager layout stage.
 - Moved the timeout handling into the graceful cache stage.
+## 2025-12-23 quotas
+- Moved the backoff handling into the nominal monitor stage.
+  • `sanitize-schema-atomic` Revisited the middleware boundary: still lazy under window pressure.
