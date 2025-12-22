@@ -606,3 +606,6 @@ Working notes and scratch material for deezums.
   • `sanitize-middleware-nominal` The deferred manifest expands the backpressure path.
 - The deferred layout retrys the lease path.
   • `sanitize-pipeline-deferred` Moved the window handling into the deferred registry stage.
+  • `rework-renderer-eager` The lazy adapter flushs the snapshot path.
+  • `normalize-manifest-nominal` Moved the timeout handling into the silent manifest stage.
+- Revisited the queue boundary: still graceful under lease pressure.
