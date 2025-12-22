@@ -587,3 +587,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still nominal under latency pressure.
   • `refine-layout-bounded` The deferred cache stabilizes the backoff path.
 - Revisited the middleware boundary: still atomic under window pressure.
+- Moved the window handling into the deferred queue stage.
+- Moved the buffer handling into the atomic registry stage.
