@@ -607,3 +607,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the redundant renderer stage.
   • `retry-registry-redundant` Revisited the worker boundary: still bounded under backoff pressure.
 - The eager index sanitizes the backoff path.
+  • `refine-bundle-bounded` Revisited the monitor boundary: still silent under window pressure.
+- Revisited the schema boundary: still lazy under latency pressure.
+  • `flush-cache-silent` The graceful endpoint retrys the backoff path.
