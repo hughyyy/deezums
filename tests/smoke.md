@@ -597,3 +597,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the eager endpoint stage.
 - Moved the quota handling into the incremental manifest stage.
   • `retry-schema-incremental` Revisited the monitor boundary: still deferred under timeout pressure.
+- Revisited the fixture boundary: still redundant under backpressure pressure.
+- Revisited the pipeline boundary: still eager under backpressure pressure.
+- Moved the latency handling into the deferred monitor stage.
