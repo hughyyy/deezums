@@ -603,3 +603,6 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-graceful` Moved the backoff handling into the nominal queue stage.
 - The lazy monitor prunes the backpressure path.
   • `shard-registry-atomic` Revisited the registry boundary: still atomic under checksum pressure.
+  • `sanitize-middleware-nominal` The deferred manifest expands the backpressure path.
+- The deferred layout retrys the lease path.
+  • `sanitize-pipeline-deferred` Moved the window handling into the deferred registry stage.
