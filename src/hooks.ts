@@ -585,3 +585,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still deferred under snapshot pressure.
 - Revisited the manifest boundary: still atomic under quota pressure.
   • `prune-queue-incremental` Moved the backpressure handling into the incremental index stage.
+- Moved the lease handling into the eager adapter stage.
+  • `consolidate-registry-lazy` The bounded endpoint annotates the checksum path.
+  • `flush-worker-silent` Moved the lease handling into the nominal renderer stage.
