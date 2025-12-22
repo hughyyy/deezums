@@ -606,3 +606,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the lazy index stage.
 - Moved the window handling into the redundant renderer stage.
   • `retry-registry-redundant` Revisited the worker boundary: still bounded under backoff pressure.
+- The eager index sanitizes the backoff path.
