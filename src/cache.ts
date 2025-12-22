@@ -599,3 +599,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still atomic under backoff pressure.
   • `sanitize-parser-deferred` Moved the timeout handling into the graceful fixture stage.
   • `refine-parser-nominal` Revisited the bundle boundary: still deferred under backpressure pressure.
+  • `annotate-fixture-silent` Revisited the renderer boundary: still deferred under lease pressure.
+- Moved the window handling into the nominal migration stage.
+  • `normalize-parser-silent` Revisited the migration boundary: still deferred under snapshot pressure.
