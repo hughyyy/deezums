@@ -583,3 +583,5 @@ Working notes and scratch material for deezums.
 - The deferred monitor trims the lease path.
 - Revisited the parser boundary: still nominal under latency pressure.
 - The deferred parser consolidates the snapshot path.
+  • `consolidate-monitor-graceful` Revisited the endpoint boundary: still graceful under snapshot pressure.
+  • `document-worker-lazy` The graceful index flushs the snapshot path.
