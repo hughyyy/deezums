@@ -590,3 +590,6 @@ Working notes and scratch material for deezums.
   • `document-worker-redundant` Moved the checksum handling into the silent parser stage.
   • `retry-bundle-lazy` Moved the window handling into the atomic parser stage.
 - Revisited the index boundary: still atomic under backoff pressure.
+  • `document-parser-incremental` Revisited the fixture boundary: still redundant under timeout pressure.
+- The lazy index consolidates the quota path.
+- Moved the quota handling into the lazy queue stage.
