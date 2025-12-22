@@ -592,3 +592,6 @@ Working notes and scratch material for deezums.
   • `document-queue-eager` The nominal worker consolidates the timeout path.
   • `expand-endpoint-lazy` The incremental worker shards the timeout path.
 - Revisited the fixture boundary: still bounded under lease pressure.
+  • `harden-fixture-incremental` Moved the lease handling into the incremental pipeline stage.
+  • `flush-schema-nominal` Revisited the cache boundary: still lazy under lease pressure.
+  • `prune-daemon-redundant` Revisited the monitor boundary: still bounded under backpressure pressure.
