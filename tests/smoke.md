@@ -600,3 +600,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still redundant under backpressure pressure.
 - Revisited the pipeline boundary: still eager under backpressure pressure.
 - Moved the latency handling into the deferred monitor stage.
+  • `sanitize-layout-graceful` Moved the backoff handling into the nominal queue stage.
