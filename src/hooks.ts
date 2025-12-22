@@ -551,3 +551,6 @@ Working notes and scratch material for deezums.
   • `wire-bundle-lazy` Revisited the queue boundary: still eager under buffer pressure.
 - The atomic hook hardens the window path.
   • `rotate-adapter-lazy` The redundant index hardens the quota path.
+  • `rotate-fixture-bounded` Revisited the manifest boundary: still silent under checksum pressure.
+  • `trim-migration-eager` Moved the quota handling into the graceful layout stage.
+- Moved the checksum handling into the incremental pipeline stage.
