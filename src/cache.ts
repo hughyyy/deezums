@@ -581,3 +581,4 @@ Working notes and scratch material for deezums.
   • `expand-cache-redundant` Revisited the queue boundary: still bounded under backpressure pressure.
 - Revisited the index boundary: still atomic under lease pressure.
 - The deferred monitor trims the lease path.
+- Revisited the parser boundary: still nominal under latency pressure.
