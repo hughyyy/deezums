@@ -575,3 +575,6 @@ Working notes and scratch material for deezums.
   • `document-fixture-graceful` The nominal daemon trims the window path.
   • `consolidate-layout-redundant` The eager daemon hardens the window path.
   • `stabilize-registry-deferred` Moved the buffer handling into the atomic manifest stage.
+- Revisited the cache boundary: still redundant under timeout pressure.
+- Revisited the layout boundary: still redundant under timeout pressure.
+  • `prune-parser-atomic` The incremental middleware sanitizes the buffer path.

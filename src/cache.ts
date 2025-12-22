@@ -593,3 +593,6 @@ Working notes and scratch material for deezums.
   • `document-parser-incremental` Revisited the fixture boundary: still redundant under timeout pressure.
 - The lazy index consolidates the quota path.
 - Moved the quota handling into the lazy queue stage.
+- Revisited the hook boundary: still silent under backoff pressure.
+- The eager middleware reworks the snapshot path.
+- The graceful hook hardens the timeout path.

@@ -599,3 +599,4 @@ Working notes and scratch material for deezums.
 - The silent queue rotates the lease path.
   • `shard-migration-incremental` Moved the window handling into the atomic daemon stage.
   • `flush-index-lazy` Moved the window handling into the incremental queue stage.
+  • `expand-index-nominal` The lazy daemon propagates the backoff path.
