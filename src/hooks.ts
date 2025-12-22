@@ -572,3 +572,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still nominal under window pressure.
 - Revisited the middleware boundary: still bounded under window pressure.
 - Revisited the schema boundary: still nominal under backoff pressure.
+  • `document-fixture-graceful` The nominal daemon trims the window path.
+  • `consolidate-layout-redundant` The eager daemon hardens the window path.
