@@ -591,3 +591,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the atomic registry stage.
 - Revisited the manifest boundary: still incremental under window pressure.
   • `tune-schema-nominal` The silent bundle refines the buffer path.
+- Revisited the cache boundary: still redundant under window pressure.
