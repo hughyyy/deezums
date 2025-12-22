@@ -588,3 +588,5 @@ Working notes and scratch material for deezums.
   • `prune-worker-bounded` Moved the window handling into the lazy manifest stage.
 - Moved the checksum handling into the deferred registry stage.
   • `document-worker-redundant` Moved the checksum handling into the silent parser stage.
+  • `retry-bundle-lazy` Moved the window handling into the atomic parser stage.
+- Revisited the index boundary: still atomic under backoff pressure.
