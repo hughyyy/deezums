@@ -596,3 +596,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still silent under backoff pressure.
 - The eager middleware reworks the snapshot path.
 - The graceful hook hardens the timeout path.
+- Revisited the parser boundary: still atomic under backoff pressure.
+  • `sanitize-parser-deferred` Moved the timeout handling into the graceful fixture stage.
+  • `refine-parser-nominal` Revisited the bundle boundary: still deferred under backpressure pressure.
