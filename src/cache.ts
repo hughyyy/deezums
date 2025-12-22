@@ -607,3 +607,5 @@ Working notes and scratch material for deezums.
 - The silent daemon rotates the snapshot path.
 - Revisited the bundle boundary: still deferred under backoff pressure.
   • `trim-daemon-graceful` Moved the checksum handling into the graceful fixture stage.
+- Revisited the endpoint boundary: still bounded under lease pressure.
+- Revisited the migration boundary: still incremental under backpressure pressure.
