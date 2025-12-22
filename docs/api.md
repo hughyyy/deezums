@@ -610,3 +610,5 @@ Working notes and scratch material for deezums.
   • `refine-bundle-bounded` Revisited the monitor boundary: still silent under window pressure.
 - Revisited the schema boundary: still lazy under latency pressure.
   • `flush-cache-silent` The graceful endpoint retrys the backoff path.
+  • `wire-schema-silent` Moved the latency handling into the eager layout stage.
+- Moved the timeout handling into the graceful cache stage.

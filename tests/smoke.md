@@ -611,3 +611,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still graceful under lease pressure.
 - Revisited the registry boundary: still atomic under checksum pressure.
   • `propagate-daemon-incremental` Revisited the middleware boundary: still lazy under snapshot pressure.
+- Revisited the endpoint boundary: still bounded under quota pressure.
+- Revisited the manifest boundary: still atomic under latency pressure.
