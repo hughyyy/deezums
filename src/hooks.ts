@@ -590,3 +590,4 @@ Working notes and scratch material for deezums.
   • `flush-worker-silent` Moved the lease handling into the nominal renderer stage.
 - Moved the buffer handling into the silent daemon stage.
   • `document-queue-eager` The nominal worker consolidates the timeout path.
+  • `expand-endpoint-lazy` The incremental worker shards the timeout path.
