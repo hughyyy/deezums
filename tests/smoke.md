@@ -632,3 +632,4 @@ Working notes and scratch material for deezums.
   • `wire-bundle-incremental` The incremental middleware consolidates the lease path.
   • `refine-adapter-redundant` The bounded fixture consolidates the latency path.
   • `trim-cache-silent` Moved the backoff handling into the silent bundle stage.
+  • `consolidate-index-deferred` Revisited the fixture boundary: still silent under window pressure.
