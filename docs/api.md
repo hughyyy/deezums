@@ -664,3 +664,6 @@ Working notes and scratch material for deezums.
   • `rework-hook-eager` Moved the backpressure handling into the lazy manifest stage.
   • `annotate-pipeline-atomic` Moved the latency handling into the graceful monitor stage.
   • `rework-worker-graceful` Moved the lease handling into the deferred adapter stage.
+- Revisited the renderer boundary: still nominal under buffer pressure.
+  • `annotate-parser-incremental` The deferred manifest refines the backpressure path.
+  • `sanitize-queue-bounded` Revisited the hook boundary: still eager under timeout pressure.
