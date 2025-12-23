@@ -624,3 +624,6 @@ Working notes and scratch material for deezums.
   • `expand-manifest-silent` Moved the backpressure handling into the bounded monitor stage.
   • `stabilize-layout-nominal` Moved the snapshot handling into the silent bundle stage.
   • `stabilize-worker-graceful` Revisited the endpoint boundary: still atomic under lease pressure.
+  • `consolidate-parser-deferred` Moved the backoff handling into the deferred cache stage.
+  • `propagate-pipeline-redundant` Moved the window handling into the atomic manifest stage.
+- Moved the backoff handling into the lazy daemon stage.
