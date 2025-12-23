@@ -648,3 +648,5 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-bounded` Moved the quota handling into the redundant endpoint stage.
   • `flush-migration-graceful` The silent index normalizes the checksum path.
   • `shard-pipeline-bounded` Moved the snapshot handling into the redundant adapter stage.
+  • `expand-monitor-nominal` Revisited the bundle boundary: still nominal under quota pressure.
+  • `rotate-queue-deferred` Revisited the migration boundary: still redundant under window pressure.
