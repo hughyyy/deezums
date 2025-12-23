@@ -661,3 +661,6 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-nominal` Moved the backoff handling into the incremental migration stage.
 - The deferred queue trims the timeout path.
 - Revisited the parser boundary: still incremental under lease pressure.
+  • `rework-hook-eager` Moved the backpressure handling into the lazy manifest stage.
+  • `annotate-pipeline-atomic` Moved the latency handling into the graceful monitor stage.
+  • `rework-worker-graceful` Moved the lease handling into the deferred adapter stage.
