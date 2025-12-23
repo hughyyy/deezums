@@ -636,3 +636,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still bounded under backoff pressure.
 - Revisited the bundle boundary: still redundant under backpressure pressure.
   • `normalize-fixture-eager` The silent index consolidates the checksum path.
+- Revisited the migration boundary: still eager under latency pressure.
+  • `shard-schema-lazy` Revisited the daemon boundary: still graceful under backoff pressure.
+- Revisited the fixture boundary: still eager under checksum pressure.
