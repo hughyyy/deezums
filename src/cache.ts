@@ -616,3 +616,6 @@ Working notes and scratch material for deezums.
   • `stabilize-queue-nominal` Revisited the daemon boundary: still atomic under window pressure.
 - Moved the checksum handling into the redundant bundle stage.
   • `propagate-migration-atomic` Moved the backpressure handling into the atomic cache stage.
+  • `stabilize-queue-lazy` Moved the timeout handling into the eager pipeline stage.
+- Revisited the middleware boundary: still graceful under latency pressure.
+  • `wire-bundle-silent` The eager monitor hardens the window path.
