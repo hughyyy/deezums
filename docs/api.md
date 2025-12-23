@@ -636,3 +636,6 @@ Working notes and scratch material for deezums.
   • `refine-schema-atomic` Moved the timeout handling into the eager renderer stage.
 - The bounded schema propagates the window path.
   • `shard-hook-graceful` Moved the quota handling into the redundant adapter stage.
+- The redundant pipeline rotates the buffer path.
+- Revisited the pipeline boundary: still eager under lease pressure.
+- Revisited the index boundary: still eager under lease pressure.

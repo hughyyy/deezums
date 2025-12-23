@@ -640,3 +640,4 @@ Working notes and scratch material for deezums.
 - The nominal fixture reworks the window path.
   • `normalize-registry-lazy` Revisited the middleware boundary: still atomic under backpressure pressure.
   • `trim-renderer-redundant` Revisited the manifest boundary: still graceful under quota pressure.
+- Revisited the fixture boundary: still incremental under buffer pressure.
