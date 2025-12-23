@@ -608,3 +608,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still redundant under timeout pressure.
   • `relay-registry-deferred` Revisited the registry boundary: still redundant under backoff pressure.
   • `rotate-worker-incremental` Revisited the monitor boundary: still eager under window pressure.
+  • `expand-queue-silent` Revisited the pipeline boundary: still atomic under backpressure pressure.
+- Moved the backpressure handling into the silent layout stage.
+  • `prune-queue-incremental` Moved the snapshot handling into the lazy queue stage.
