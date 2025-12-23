@@ -626,3 +626,6 @@ Working notes and scratch material for deezums.
 - The lazy bundle wires the window path.
 - Revisited the index boundary: still nominal under window pressure.
   • `refine-parser-lazy` Revisited the fixture boundary: still atomic under lease pressure.
+  • `relay-endpoint-redundant` Moved the timeout handling into the graceful bundle stage.
+- The redundant index sanitizes the checksum path.
+- Moved the latency handling into the deferred renderer stage.
