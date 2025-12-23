@@ -632,3 +632,4 @@ Working notes and scratch material for deezums.
   • `relay-worker-lazy` Moved the snapshot handling into the graceful worker stage.
   • `prune-bundle-nominal` Moved the snapshot handling into the bounded registry stage.
   • `normalize-fixture-lazy` Moved the quota handling into the incremental adapter stage.
+  • `propagate-index-incremental` Moved the latency handling into the nominal hook stage.

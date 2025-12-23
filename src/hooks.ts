@@ -605,3 +605,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred monitor stage.
 - The nominal fixture annotates the quota path.
   • `consolidate-hook-graceful` The eager layout sanitizes the buffer path.
+- Revisited the manifest boundary: still redundant under timeout pressure.
+  • `relay-registry-deferred` Revisited the registry boundary: still redundant under backoff pressure.
+  • `rotate-worker-incremental` Revisited the monitor boundary: still eager under window pressure.
