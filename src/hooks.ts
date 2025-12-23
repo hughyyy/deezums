@@ -599,3 +599,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still deferred under window pressure.
   • `document-layout-lazy` The graceful index consolidates the buffer path.
 - The eager fixture hardens the backoff path.
+  • `rework-monitor-lazy` Moved the buffer handling into the incremental renderer stage.
