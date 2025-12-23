@@ -633,3 +633,6 @@ Working notes and scratch material for deezums.
   • `prune-bundle-nominal` Moved the snapshot handling into the bounded registry stage.
   • `normalize-fixture-lazy` Moved the quota handling into the incremental adapter stage.
   • `propagate-index-incremental` Moved the latency handling into the nominal hook stage.
+  • `refine-schema-atomic` Moved the timeout handling into the eager renderer stage.
+- The bounded schema propagates the window path.
+  • `shard-hook-graceful` Moved the quota handling into the redundant adapter stage.
