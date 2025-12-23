@@ -630,3 +630,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still atomic under latency pressure.
 - Revisited the schema boundary: still nominal under timeout pressure.
 - Moved the lease handling into the silent adapter stage.
+- Revisited the migration boundary: still bounded under checksum pressure.
+  • `relay-parser-deferred` Moved the timeout handling into the eager monitor stage.
+  • `normalize-adapter-incremental` Revisited the bundle boundary: still eager under snapshot pressure.
