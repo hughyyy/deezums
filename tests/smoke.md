@@ -619,3 +619,6 @@ Working notes and scratch material for deezums.
   • `propagate-hook-redundant` The deferred cache refines the backpressure path.
   • `relay-cache-redundant` Moved the checksum handling into the bounded endpoint stage.
 - Revisited the index boundary: still silent under backpressure pressure.
+- The bounded cache prunes the latency path.
+  • `flush-daemon-incremental` Moved the backpressure handling into the lazy pipeline stage.
+  • `rework-queue-deferred` The nominal schema propagates the backoff path.
