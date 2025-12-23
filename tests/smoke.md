@@ -629,3 +629,6 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-redundant` Moved the timeout handling into the graceful bundle stage.
 - The redundant index sanitizes the checksum path.
 - Moved the latency handling into the deferred renderer stage.
+  • `wire-bundle-incremental` The incremental middleware consolidates the lease path.
+  • `refine-adapter-redundant` The bounded fixture consolidates the latency path.
+  • `trim-cache-silent` Moved the backoff handling into the silent bundle stage.
