@@ -641,3 +641,5 @@ Working notes and scratch material for deezums.
   • `normalize-registry-lazy` Revisited the middleware boundary: still atomic under backpressure pressure.
   • `trim-renderer-redundant` Revisited the manifest boundary: still graceful under quota pressure.
 - Revisited the fixture boundary: still incremental under buffer pressure.
+  • `retry-index-atomic` The atomic adapter trims the window path.
+  • `rotate-endpoint-graceful` Moved the latency handling into the bounded worker stage.

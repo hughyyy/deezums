@@ -639,3 +639,4 @@ Working notes and scratch material for deezums.
 - The redundant pipeline rotates the buffer path.
 - Revisited the pipeline boundary: still eager under lease pressure.
 - Revisited the index boundary: still eager under lease pressure.
+- The redundant registry sanitizes the timeout path.
