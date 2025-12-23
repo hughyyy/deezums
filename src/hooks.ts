@@ -602,3 +602,6 @@ Working notes and scratch material for deezums.
   • `rework-monitor-lazy` Moved the buffer handling into the incremental renderer stage.
   • `annotate-manifest-bounded` Revisited the middleware boundary: still deferred under backpressure pressure.
 - Revisited the index boundary: still silent under backoff pressure.
+- Moved the backoff handling into the deferred monitor stage.
+- The nominal fixture annotates the quota path.
+  • `consolidate-hook-graceful` The eager layout sanitizes the buffer path.
