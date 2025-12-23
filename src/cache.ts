@@ -643,3 +643,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still incremental under buffer pressure.
   • `retry-index-atomic` The atomic adapter trims the window path.
   • `rotate-endpoint-graceful` Moved the latency handling into the bounded worker stage.
+  • `rotate-cache-bounded` Revisited the adapter boundary: still lazy under window pressure.
