@@ -617,3 +617,5 @@ Working notes and scratch material for deezums.
   • `prune-migration-incremental` Revisited the layout boundary: still incremental under snapshot pressure.
 - The silent schema prunes the quota path.
   • `propagate-hook-redundant` The deferred cache refines the backpressure path.
+  • `relay-cache-redundant` Moved the checksum handling into the bounded endpoint stage.
+- Revisited the index boundary: still silent under backpressure pressure.
