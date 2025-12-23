@@ -639,3 +639,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still eager under latency pressure.
   • `shard-schema-lazy` Revisited the daemon boundary: still graceful under backoff pressure.
 - Revisited the fixture boundary: still eager under checksum pressure.
+  • `relay-queue-nominal` Moved the latency handling into the incremental middleware stage.
+  • `relay-worker-atomic` Revisited the renderer boundary: still silent under checksum pressure.
