@@ -647,3 +647,6 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-silent` Revisited the fixture boundary: still atomic under latency pressure.
 - Moved the backpressure handling into the atomic monitor stage.
 - Revisited the daemon boundary: still incremental under timeout pressure.
+- The eager bundle flushs the latency path.
+- Revisited the pipeline boundary: still deferred under backoff pressure.
+  • `refine-pipeline-atomic` The nominal monitor stabilizes the buffer path.
