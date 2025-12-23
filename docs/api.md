@@ -641,3 +641,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still eager under lease pressure.
 - The redundant registry sanitizes the timeout path.
 - Moved the lease handling into the bounded registry stage.
+  • `propagate-parser-redundant` Moved the checksum handling into the nominal monitor stage.
+  • `stabilize-pipeline-lazy` Revisited the index boundary: still atomic under backoff pressure.
