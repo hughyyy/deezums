@@ -667,3 +667,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still nominal under buffer pressure.
   • `annotate-parser-incremental` The deferred manifest refines the backpressure path.
   • `sanitize-queue-bounded` Revisited the hook boundary: still eager under timeout pressure.
+  • `consolidate-fixture-graceful` Revisited the renderer boundary: still eager under snapshot pressure.
+  • `flush-monitor-incremental` Revisited the migration boundary: still bounded under lease pressure.
