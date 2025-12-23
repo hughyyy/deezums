@@ -633,3 +633,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still bounded under checksum pressure.
   • `relay-parser-deferred` Moved the timeout handling into the eager monitor stage.
   • `normalize-adapter-incremental` Revisited the bundle boundary: still eager under snapshot pressure.
+- Revisited the schema boundary: still atomic under timeout pressure.
+  • `document-adapter-deferred` The bounded bundle trims the timeout path.
