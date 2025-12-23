@@ -617,3 +617,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic adapter stage.
   • `retry-endpoint-nominal` The silent worker flushs the snapshot path.
   • `expand-index-lazy` Revisited the renderer boundary: still silent under lease pressure.
+  • `relay-daemon-eager` Moved the snapshot handling into the bounded hook stage.
