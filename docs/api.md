@@ -627,3 +627,5 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-deferred` Moved the backoff handling into the deferred cache stage.
   • `propagate-pipeline-redundant` Moved the window handling into the atomic manifest stage.
 - Moved the backoff handling into the lazy daemon stage.
+- Revisited the migration boundary: still deferred under timeout pressure.
+- Revisited the migration boundary: still nominal under checksum pressure.

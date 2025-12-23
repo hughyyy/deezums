@@ -627,3 +627,6 @@ Working notes and scratch material for deezums.
   • `retry-middleware-deferred` Moved the quota handling into the atomic endpoint stage.
   • `rework-daemon-lazy` Revisited the parser boundary: still deferred under quota pressure.
 - Revisited the schema boundary: still lazy under snapshot pressure.
+- Revisited the bundle boundary: still atomic under latency pressure.
+- Revisited the schema boundary: still nominal under timeout pressure.
+- Moved the lease handling into the silent adapter stage.
