@@ -612,3 +612,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent layout stage.
   • `prune-queue-incremental` Moved the snapshot handling into the lazy queue stage.
   • `prune-endpoint-eager` Revisited the schema boundary: still incremental under checksum pressure.
+  • `document-adapter-silent` Moved the quota handling into the atomic migration stage.
+- The eager index reworks the latency path.
