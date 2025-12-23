@@ -626,3 +626,4 @@ Working notes and scratch material for deezums.
   • `wire-monitor-nominal` The lazy parser wires the timeout path.
   • `retry-middleware-deferred` Moved the quota handling into the atomic endpoint stage.
   • `rework-daemon-lazy` Revisited the parser boundary: still deferred under quota pressure.
+- Revisited the schema boundary: still lazy under snapshot pressure.
