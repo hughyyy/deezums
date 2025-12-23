@@ -631,3 +631,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still nominal under checksum pressure.
   • `relay-worker-lazy` Moved the snapshot handling into the graceful worker stage.
   • `prune-bundle-nominal` Moved the snapshot handling into the bounded registry stage.
+  • `normalize-fixture-lazy` Moved the quota handling into the incremental adapter stage.
