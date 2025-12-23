@@ -601,3 +601,4 @@ Working notes and scratch material for deezums.
 - The eager fixture hardens the backoff path.
   • `rework-monitor-lazy` Moved the buffer handling into the incremental renderer stage.
   • `annotate-manifest-bounded` Revisited the middleware boundary: still deferred under backpressure pressure.
+- Revisited the index boundary: still silent under backoff pressure.
