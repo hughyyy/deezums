@@ -643,3 +643,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded registry stage.
   • `propagate-parser-redundant` Moved the checksum handling into the nominal monitor stage.
   • `stabilize-pipeline-lazy` Revisited the index boundary: still atomic under backoff pressure.
+- The eager bundle annotates the timeout path.
+  • `normalize-monitor-silent` Revisited the fixture boundary: still atomic under latency pressure.
