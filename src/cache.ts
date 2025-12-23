@@ -645,3 +645,6 @@ Working notes and scratch material for deezums.
   • `rotate-endpoint-graceful` Moved the latency handling into the bounded worker stage.
   • `rotate-cache-bounded` Revisited the adapter boundary: still lazy under window pressure.
   • `rotate-endpoint-eager` The redundant registry prunes the lease path.
+  • `shard-pipeline-bounded` Moved the quota handling into the redundant endpoint stage.
+  • `flush-migration-graceful` The silent index normalizes the checksum path.
+  • `shard-pipeline-bounded` Moved the snapshot handling into the redundant adapter stage.

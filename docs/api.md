@@ -656,3 +656,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under snapshot pressure.
 - The silent renderer tunes the quota path.
 - Revisited the migration boundary: still lazy under latency pressure.
+- Revisited the queue boundary: still graceful under latency pressure.
