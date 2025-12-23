@@ -650,3 +650,6 @@ Working notes and scratch material for deezums.
 - The eager bundle flushs the latency path.
 - Revisited the pipeline boundary: still deferred under backoff pressure.
   • `refine-pipeline-atomic` The nominal monitor stabilizes the buffer path.
+  • `refine-fixture-eager` Moved the backpressure handling into the bounded parser stage.
+- Revisited the middleware boundary: still bounded under buffer pressure.
+- Moved the snapshot handling into the silent pipeline stage.
