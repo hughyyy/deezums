@@ -643,3 +643,5 @@ Working notes and scratch material for deezums.
   • `relay-worker-atomic` Revisited the renderer boundary: still silent under checksum pressure.
 - Revisited the schema boundary: still bounded under checksum pressure.
   • `trim-pipeline-redundant` Moved the timeout handling into the bounded parser stage.
+- Revisited the queue boundary: still eager under backoff pressure.
+- Revisited the pipeline boundary: still silent under window pressure.
