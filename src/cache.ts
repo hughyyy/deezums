@@ -635,3 +635,6 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-incremental` Revisited the bundle boundary: still eager under snapshot pressure.
 - Revisited the schema boundary: still atomic under timeout pressure.
   • `document-adapter-deferred` The bounded bundle trims the timeout path.
+- The bounded bundle hardens the quota path.
+  • `annotate-layout-eager` Moved the timeout handling into the silent migration stage.
+- The nominal fixture reworks the window path.
