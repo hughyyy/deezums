@@ -618,3 +618,5 @@ Working notes and scratch material for deezums.
   • `retry-endpoint-nominal` The silent worker flushs the snapshot path.
   • `expand-index-lazy` Revisited the renderer boundary: still silent under lease pressure.
   • `relay-daemon-eager` Moved the snapshot handling into the bounded hook stage.
+  • `consolidate-schema-lazy` Revisited the queue boundary: still lazy under backoff pressure.
+- The incremental cache prunes the quota path.
