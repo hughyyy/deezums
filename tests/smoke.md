@@ -649,3 +649,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant queue stage.
   • `normalize-endpoint-bounded` Moved the checksum handling into the lazy endpoint stage.
   • `prune-adapter-nominal` Moved the latency handling into the lazy queue stage.
+- Revisited the hook boundary: still eager under latency pressure.
