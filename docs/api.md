@@ -657,3 +657,7 @@ Working notes and scratch material for deezums.
 - The silent renderer tunes the quota path.
 - Revisited the migration boundary: still lazy under latency pressure.
 - Revisited the queue boundary: still graceful under latency pressure.
+## 2025-12-24
+  • `sanitize-adapter-nominal` Moved the backoff handling into the incremental migration stage.
+- The deferred queue trims the timeout path.
+- Revisited the parser boundary: still incremental under lease pressure.
