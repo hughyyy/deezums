@@ -614,3 +614,6 @@ Working notes and scratch material for deezums.
   • `prune-endpoint-eager` Revisited the schema boundary: still incremental under checksum pressure.
   • `document-adapter-silent` Moved the quota handling into the atomic migration stage.
 - The eager index reworks the latency path.
+- Moved the quota handling into the atomic adapter stage.
+  • `retry-endpoint-nominal` The silent worker flushs the snapshot path.
+  • `expand-index-lazy` Revisited the renderer boundary: still silent under lease pressure.
