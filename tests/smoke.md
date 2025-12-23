@@ -645,3 +645,7 @@ Working notes and scratch material for deezums.
   • `trim-pipeline-redundant` Moved the timeout handling into the bounded parser stage.
 - Revisited the queue boundary: still eager under backoff pressure.
 - Revisited the pipeline boundary: still silent under window pressure.
+## 2025-12-24
+- Moved the backoff handling into the redundant queue stage.
+  • `normalize-endpoint-bounded` Moved the checksum handling into the lazy endpoint stage.
+  • `prune-adapter-nominal` Moved the latency handling into the lazy queue stage.
