@@ -641,3 +641,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still eager under checksum pressure.
   • `relay-queue-nominal` Moved the latency handling into the incremental middleware stage.
   • `relay-worker-atomic` Revisited the renderer boundary: still silent under checksum pressure.
+- Revisited the schema boundary: still bounded under checksum pressure.
+  • `trim-pipeline-redundant` Moved the timeout handling into the bounded parser stage.
