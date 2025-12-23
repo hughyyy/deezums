@@ -623,3 +623,6 @@ Working notes and scratch material for deezums.
 - The eager layout wires the snapshot path.
   • `normalize-worker-bounded` The atomic endpoint sanitizes the quota path.
 - Revisited the endpoint boundary: still redundant under snapshot pressure.
+  • `wire-monitor-nominal` The lazy parser wires the timeout path.
+  • `retry-middleware-deferred` Moved the quota handling into the atomic endpoint stage.
+  • `rework-daemon-lazy` Revisited the parser boundary: still deferred under quota pressure.
