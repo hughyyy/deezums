@@ -616,3 +616,4 @@ Working notes and scratch material for deezums.
 ## 2025-12-23
   • `prune-migration-incremental` Revisited the layout boundary: still incremental under snapshot pressure.
 - The silent schema prunes the quota path.
+  • `propagate-hook-redundant` The deferred cache refines the backpressure path.
