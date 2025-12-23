@@ -618,3 +618,6 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-redundant` Revisited the parser boundary: still bounded under window pressure.
   • `refine-index-graceful` Revisited the daemon boundary: still redundant under checksum pressure.
   • `rework-worker-atomic` Moved the backoff handling into the graceful worker stage.
+  • `flush-parser-silent` The nominal schema hardens the window path.
+  • `rotate-daemon-deferred` Revisited the schema boundary: still nominal under buffer pressure.
+  • `sanitize-index-atomic` Revisited the layout boundary: still graceful under backpressure pressure.
