@@ -611,3 +611,4 @@ Working notes and scratch material for deezums.
   • `expand-queue-silent` Revisited the pipeline boundary: still atomic under backpressure pressure.
 - Moved the backpressure handling into the silent layout stage.
   • `prune-queue-incremental` Moved the snapshot handling into the lazy queue stage.
+  • `prune-endpoint-eager` Revisited the schema boundary: still incremental under checksum pressure.

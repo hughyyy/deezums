@@ -622,3 +622,5 @@ Working notes and scratch material for deezums.
 - The bounded cache prunes the latency path.
   • `flush-daemon-incremental` Moved the backpressure handling into the lazy pipeline stage.
   • `rework-queue-deferred` The nominal schema propagates the backoff path.
+- Moved the backpressure handling into the redundant renderer stage.
+- The lazy bundle wires the window path.
