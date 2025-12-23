@@ -640,3 +640,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still eager under lease pressure.
 - Revisited the index boundary: still eager under lease pressure.
 - The redundant registry sanitizes the timeout path.
+- Moved the lease handling into the bounded registry stage.
