@@ -619,3 +619,6 @@ Working notes and scratch material for deezums.
   • `stabilize-queue-lazy` Moved the timeout handling into the eager pipeline stage.
 - Revisited the middleware boundary: still graceful under latency pressure.
   • `wire-bundle-silent` The eager monitor hardens the window path.
+  • `harden-index-nominal` The atomic schema trims the backoff path.
+- The eager layout wires the snapshot path.
+  • `normalize-worker-bounded` The atomic endpoint sanitizes the quota path.
