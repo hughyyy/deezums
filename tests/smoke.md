@@ -633,3 +633,6 @@ Working notes and scratch material for deezums.
   • `refine-adapter-redundant` The bounded fixture consolidates the latency path.
   • `trim-cache-silent` Moved the backoff handling into the silent bundle stage.
   • `consolidate-index-deferred` Revisited the fixture boundary: still silent under window pressure.
+- Revisited the registry boundary: still bounded under backoff pressure.
+- Revisited the bundle boundary: still redundant under backpressure pressure.
+  • `normalize-fixture-eager` The silent index consolidates the checksum path.
