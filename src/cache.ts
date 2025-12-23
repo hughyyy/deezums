@@ -622,3 +622,4 @@ Working notes and scratch material for deezums.
   • `harden-index-nominal` The atomic schema trims the backoff path.
 - The eager layout wires the snapshot path.
   • `normalize-worker-bounded` The atomic endpoint sanitizes the quota path.
+- Revisited the endpoint boundary: still redundant under snapshot pressure.
