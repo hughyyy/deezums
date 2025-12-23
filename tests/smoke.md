@@ -624,3 +624,5 @@ Working notes and scratch material for deezums.
   • `rework-queue-deferred` The nominal schema propagates the backoff path.
 - Moved the backpressure handling into the redundant renderer stage.
 - The lazy bundle wires the window path.
+- Revisited the index boundary: still nominal under window pressure.
+  • `refine-parser-lazy` Revisited the fixture boundary: still atomic under lease pressure.
