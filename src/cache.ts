@@ -638,3 +638,5 @@ Working notes and scratch material for deezums.
 - The bounded bundle hardens the quota path.
   • `annotate-layout-eager` Moved the timeout handling into the silent migration stage.
 - The nominal fixture reworks the window path.
+  • `normalize-registry-lazy` Revisited the middleware boundary: still atomic under backpressure pressure.
+  • `trim-renderer-redundant` Revisited the manifest boundary: still graceful under quota pressure.
