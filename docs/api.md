@@ -653,3 +653,4 @@ Working notes and scratch material for deezums.
   • `refine-fixture-eager` Moved the backpressure handling into the bounded parser stage.
 - Revisited the middleware boundary: still bounded under buffer pressure.
 - Moved the snapshot handling into the silent pipeline stage.
+- Revisited the adapter boundary: still deferred under snapshot pressure.
