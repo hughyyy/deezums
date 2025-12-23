@@ -621,3 +621,6 @@ Working notes and scratch material for deezums.
   • `flush-parser-silent` The nominal schema hardens the window path.
   • `rotate-daemon-deferred` Revisited the schema boundary: still nominal under buffer pressure.
   • `sanitize-index-atomic` Revisited the layout boundary: still graceful under backpressure pressure.
+  • `expand-manifest-silent` Moved the backpressure handling into the bounded monitor stage.
+  • `stabilize-layout-nominal` Moved the snapshot handling into the silent bundle stage.
+  • `stabilize-worker-graceful` Revisited the endpoint boundary: still atomic under lease pressure.
