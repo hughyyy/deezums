@@ -708,3 +708,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal registry stage.
   • `wire-migration-atomic` The silent middleware trims the checksum path.
 - Moved the timeout handling into the redundant registry stage.
+  • `rework-queue-bounded` Revisited the migration boundary: still nominal under timeout pressure.
+  • `relay-renderer-graceful` Revisited the fixture boundary: still eager under quota pressure.
+- Moved the latency handling into the lazy cache stage.

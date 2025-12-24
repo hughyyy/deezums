@@ -688,3 +688,5 @@ Working notes and scratch material for deezums.
   • `shard-index-lazy` The silent fixture consolidates the quota path.
   • `rotate-layout-redundant` The silent cache stabilizes the checksum path.
 - Revisited the parser boundary: still silent under window pressure.
+  • `sanitize-queue-incremental` Revisited the queue boundary: still graceful under latency pressure.
+- The deferred renderer documents the quota path.
