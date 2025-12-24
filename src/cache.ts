@@ -671,3 +671,6 @@ Working notes and scratch material for deezums.
   • `document-monitor-bounded` The nominal queue hardens the window path.
 - Revisited the adapter boundary: still atomic under snapshot pressure.
   • `rework-endpoint-lazy` Revisited the middleware boundary: still bounded under window pressure.
+  • `tune-monitor-eager` The redundant parser refines the backpressure path.
+- The graceful bundle consolidates the quota path.
+  • `rework-registry-lazy` The atomic bundle normalizes the backoff path.

@@ -688,3 +688,6 @@ Working notes and scratch material for deezums.
   • `annotate-hook-deferred` Moved the quota handling into the bounded daemon stage.
 - Moved the checksum handling into the lazy layout stage.
   • `rotate-monitor-silent` The nominal middleware stabilizes the checksum path.
+  • `refine-pipeline-eager` The incremental adapter rotates the timeout path.
+  • `shard-endpoint-lazy` The lazy renderer trims the window path.
+- The lazy schema refines the checksum path.

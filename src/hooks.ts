@@ -636,3 +636,6 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-bounded` Moved the snapshot handling into the redundant manifest stage.
 - The nominal index trims the window path.
 - Revisited the index boundary: still redundant under buffer pressure.
+- Revisited the manifest boundary: still bounded under buffer pressure.
+- Revisited the registry boundary: still redundant under quota pressure.
+- Moved the snapshot handling into the graceful cache stage.

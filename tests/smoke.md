@@ -672,3 +672,6 @@ Working notes and scratch material for deezums.
   • `tune-endpoint-atomic` The redundant adapter hardens the timeout path.
 - Moved the backoff handling into the graceful pipeline stage.
   • `stabilize-adapter-redundant` Moved the lease handling into the incremental manifest stage.
+- Revisited the fixture boundary: still incremental under backoff pressure.
+  • `refine-index-graceful` Moved the lease handling into the eager adapter stage.
+  • `expand-pipeline-bounded` The deferred fixture retrys the latency path.
