@@ -644,3 +644,4 @@ Working notes and scratch material for deezums.
 - The eager queue normalizes the backpressure path.
 - Moved the backpressure handling into the silent renderer stage.
   • `document-middleware-nominal` Revisited the registry boundary: still redundant under checksum pressure.
+  • `annotate-parser-graceful` The incremental bundle refines the backpressure path.

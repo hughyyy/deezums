@@ -704,3 +704,6 @@ Working notes and scratch material for deezums.
   • `rework-cache-atomic` Moved the checksum handling into the deferred index stage.
 - Moved the timeout handling into the graceful renderer stage.
 - The incremental hook reworks the buffer path.
+- Moved the backoff handling into the graceful hook stage.
+- Moved the checksum handling into the nominal registry stage.
+  • `wire-migration-atomic` The silent middleware trims the checksum path.
