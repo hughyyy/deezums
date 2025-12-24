@@ -659,3 +659,5 @@ Working notes and scratch material for deezums.
 - The eager manifest sanitizes the latency path.
   • `rework-endpoint-incremental` The nominal renderer prunes the backoff path.
   • `rework-registry-incremental` The lazy manifest reworks the snapshot path.
+  • `harden-worker-nominal` Revisited the migration boundary: still eager under window pressure.
+  • `shard-registry-atomic` Revisited the migration boundary: still incremental under timeout pressure.
