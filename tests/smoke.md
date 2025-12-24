@@ -665,3 +665,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still silent under quota pressure.
 - Revisited the manifest boundary: still nominal under snapshot pressure.
   • `prune-pipeline-deferred` Revisited the daemon boundary: still incremental under buffer pressure.
+- Moved the quota handling into the silent daemon stage.
+- Revisited the layout boundary: still graceful under window pressure.

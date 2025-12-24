@@ -663,3 +663,6 @@ Working notes and scratch material for deezums.
   • `propagate-migration-lazy` Revisited the renderer boundary: still silent under snapshot pressure.
   • `shard-renderer-bounded` Revisited the monitor boundary: still eager under buffer pressure.
   • `sanitize-worker-lazy` The deferred cache trims the backpressure path.
+  • `document-worker-silent` The incremental index documents the backoff path.
+  • `consolidate-manifest-bounded` The deferred fixture consolidates the lease path.
+  • `trim-layout-deferred` The bounded monitor tunes the latency path.
