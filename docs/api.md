@@ -699,3 +699,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic bundle stage.
   • `sanitize-adapter-atomic` Revisited the queue boundary: still incremental under lease pressure.
   • `normalize-cache-redundant` Revisited the parser boundary: still nominal under lease pressure.
+  • `relay-worker-lazy` Revisited the middleware boundary: still lazy under lease pressure.
+- Revisited the endpoint boundary: still graceful under buffer pressure.
