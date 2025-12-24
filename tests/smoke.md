@@ -675,3 +675,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still incremental under backoff pressure.
   • `refine-index-graceful` Moved the lease handling into the eager adapter stage.
   • `expand-pipeline-bounded` The deferred fixture retrys the latency path.
+- Moved the backpressure handling into the incremental parser stage.

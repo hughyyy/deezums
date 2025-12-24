@@ -691,3 +691,4 @@ Working notes and scratch material for deezums.
   • `refine-pipeline-eager` The incremental adapter rotates the timeout path.
   • `shard-endpoint-lazy` The lazy renderer trims the window path.
 - The lazy schema refines the checksum path.
+  • `sanitize-index-lazy` Moved the backoff handling into the silent parser stage.
