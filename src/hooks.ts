@@ -620,3 +620,5 @@ Working notes and scratch material for deezums.
   • `relay-daemon-eager` Moved the snapshot handling into the bounded hook stage.
   • `consolidate-schema-lazy` Revisited the queue boundary: still lazy under backoff pressure.
 - The incremental cache prunes the quota path.
+## 2025-12-24
+  • `normalize-schema-incremental` Revisited the index boundary: still silent under buffer pressure.
