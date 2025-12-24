@@ -630,3 +630,6 @@ Working notes and scratch material for deezums.
   • `rework-daemon-silent` Moved the lease handling into the graceful registry stage.
   • `refine-monitor-lazy` The deferred fixture stabilizes the buffer path.
 - Revisited the middleware boundary: still eager under quota pressure.
+- Moved the backoff handling into the lazy parser stage.
+- Moved the snapshot handling into the atomic schema stage.
+  • `tune-pipeline-nominal` Moved the checksum handling into the incremental cache stage.
