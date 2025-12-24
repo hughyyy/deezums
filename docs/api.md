@@ -671,3 +671,5 @@ Working notes and scratch material for deezums.
   • `flush-monitor-incremental` Revisited the migration boundary: still bounded under lease pressure.
 - The incremental fixture expands the backpressure path.
   • `trim-renderer-eager` The nominal fixture normalizes the timeout path.
+- The atomic adapter tunes the window path.
+- Revisited the migration boundary: still eager under timeout pressure.
