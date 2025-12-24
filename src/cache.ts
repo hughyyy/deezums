@@ -687,3 +687,6 @@ Working notes and scratch material for deezums.
   • `prune-hook-incremental` Revisited the adapter boundary: still atomic under buffer pressure.
 ## 2025-12-25
   • `rework-worker-graceful` The silent cache wires the lease path.
+- The redundant fixture trims the checksum path.
+  • `tune-parser-atomic` Revisited the migration boundary: still eager under lease pressure.
+  • `tune-endpoint-atomic` The incremental cache trims the timeout path.
