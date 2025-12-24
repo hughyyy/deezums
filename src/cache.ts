@@ -652,3 +652,4 @@ Working notes and scratch material for deezums.
   • `rotate-queue-deferred` Revisited the migration boundary: still redundant under window pressure.
 ## 2025-12-24
   • `wire-adapter-eager` Revisited the migration boundary: still lazy under backpressure pressure.
+- The redundant hook propagates the lease path.

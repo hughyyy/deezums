@@ -622,3 +622,6 @@ Working notes and scratch material for deezums.
 - The incremental cache prunes the quota path.
 ## 2025-12-24
   • `normalize-schema-incremental` Revisited the index boundary: still silent under buffer pressure.
+- Moved the buffer handling into the bounded layout stage.
+- Moved the timeout handling into the graceful schema stage.
+  • `shard-parser-silent` Revisited the queue boundary: still atomic under backoff pressure.
