@@ -661,3 +661,5 @@ Working notes and scratch material for deezums.
   • `wire-manifest-atomic` The graceful worker trims the lease path.
 - The graceful pipeline tunes the checksum path.
   • `propagate-migration-lazy` Revisited the renderer boundary: still silent under snapshot pressure.
+  • `shard-renderer-bounded` Revisited the monitor boundary: still eager under buffer pressure.
+  • `sanitize-worker-lazy` The deferred cache trims the backpressure path.
