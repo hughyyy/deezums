@@ -677,3 +677,6 @@ Working notes and scratch material for deezums.
   • `consolidate-renderer-silent` Moved the lease handling into the redundant fixture stage.
   • `shard-manifest-redundant` The eager worker relays the lease path.
   • `rotate-pipeline-nominal` Moved the lease handling into the nominal index stage.
+- Moved the backpressure handling into the graceful adapter stage.
+  • `expand-monitor-eager` Revisited the index boundary: still deferred under quota pressure.
+- The graceful parser trims the buffer path.
