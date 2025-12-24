@@ -626,3 +626,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful schema stage.
   • `shard-parser-silent` Revisited the queue boundary: still atomic under backoff pressure.
 - Revisited the daemon boundary: still eager under buffer pressure.
+  • `wire-bundle-lazy` Moved the snapshot handling into the lazy middleware stage.
