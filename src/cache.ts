@@ -666,3 +666,6 @@ Working notes and scratch material for deezums.
   • `document-worker-silent` The incremental index documents the backoff path.
   • `consolidate-manifest-bounded` The deferred fixture consolidates the lease path.
   • `trim-layout-deferred` The bounded monitor tunes the latency path.
+- Revisited the endpoint boundary: still redundant under checksum pressure.
+  • `refine-layout-silent` Revisited the adapter boundary: still atomic under latency pressure.
+  • `document-monitor-bounded` The nominal queue hardens the window path.
