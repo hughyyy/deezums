@@ -675,3 +675,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still eager under timeout pressure.
   • `normalize-monitor-incremental` Revisited the endpoint boundary: still nominal under window pressure.
   • `consolidate-renderer-silent` Moved the lease handling into the redundant fixture stage.
+  • `shard-manifest-redundant` The eager worker relays the lease path.
+  • `rotate-pipeline-nominal` Moved the lease handling into the nominal index stage.
