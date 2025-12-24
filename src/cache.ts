@@ -695,3 +695,4 @@ Working notes and scratch material for deezums.
 - The redundant hook normalizes the buffer path.
 - Revisited the monitor boundary: still lazy under checksum pressure.
   • `sanitize-renderer-atomic` Revisited the renderer boundary: still lazy under latency pressure.
+  • `rotate-daemon-deferred` Revisited the renderer boundary: still graceful under checksum pressure.
