@@ -683,3 +683,5 @@ Working notes and scratch material for deezums.
   • `prune-bundle-nominal` Moved the timeout handling into the nominal manifest stage.
   • `consolidate-manifest-lazy` Revisited the index boundary: still nominal under lease pressure.
   • `harden-schema-graceful` Moved the latency handling into the lazy queue stage.
+  • `consolidate-pipeline-lazy` Revisited the monitor boundary: still lazy under quota pressure.
+- The nominal daemon reworks the snapshot path.

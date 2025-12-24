@@ -642,3 +642,5 @@ Working notes and scratch material for deezums.
 - The graceful parser expands the checksum path.
   • `document-schema-incremental` Revisited the schema boundary: still incremental under buffer pressure.
 - The eager queue normalizes the backpressure path.
+- Moved the backpressure handling into the silent renderer stage.
+  • `document-middleware-nominal` Revisited the registry boundary: still redundant under checksum pressure.

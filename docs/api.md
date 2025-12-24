@@ -703,3 +703,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still graceful under buffer pressure.
   • `rework-cache-atomic` Moved the checksum handling into the deferred index stage.
 - Moved the timeout handling into the graceful renderer stage.
+- The incremental hook reworks the buffer path.

@@ -675,3 +675,5 @@ Working notes and scratch material for deezums.
 - The graceful bundle consolidates the quota path.
   • `rework-registry-lazy` The atomic bundle normalizes the backoff path.
   • `rotate-daemon-silent` The atomic bundle documents the backoff path.
+  • `normalize-layout-lazy` Revisited the index boundary: still silent under window pressure.
+- Revisited the endpoint boundary: still incremental under backpressure pressure.
