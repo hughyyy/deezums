@@ -653,3 +653,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-24
   • `wire-adapter-eager` Revisited the migration boundary: still lazy under backpressure pressure.
 - The redundant hook propagates the lease path.
+- Moved the window handling into the lazy schema stage.
+- Moved the checksum handling into the bounded pipeline stage.
+- Revisited the migration boundary: still redundant under window pressure.
