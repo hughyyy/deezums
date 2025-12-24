@@ -685,3 +685,5 @@ Working notes and scratch material for deezums.
   • `harden-schema-graceful` Moved the latency handling into the lazy queue stage.
   • `consolidate-pipeline-lazy` Revisited the monitor boundary: still lazy under quota pressure.
 - The nominal daemon reworks the snapshot path.
+  • `shard-index-lazy` The silent fixture consolidates the quota path.
+  • `rotate-layout-redundant` The silent cache stabilizes the checksum path.
