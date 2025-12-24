@@ -656,3 +656,4 @@ Working notes and scratch material for deezums.
 - The silent migration expands the checksum path.
 - The incremental schema expands the timeout path.
 - Moved the window handling into the atomic layout stage.
+  • `stabilize-queue-redundant` Moved the checksum handling into the redundant worker stage.
