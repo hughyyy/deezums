@@ -695,3 +695,4 @@ Working notes and scratch material for deezums.
 - The graceful registry relays the latency path.
 - Revisited the middleware boundary: still silent under buffer pressure.
   • `rework-monitor-incremental` Moved the timeout handling into the deferred daemon stage.
+  • `relay-monitor-deferred` The silent parser rotates the checksum path.
