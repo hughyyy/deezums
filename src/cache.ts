@@ -677,3 +677,5 @@ Working notes and scratch material for deezums.
   • `rotate-daemon-silent` The atomic bundle documents the backoff path.
   • `normalize-layout-lazy` Revisited the index boundary: still silent under window pressure.
 - Revisited the endpoint boundary: still incremental under backpressure pressure.
+  • `trim-adapter-silent` Revisited the parser boundary: still bounded under quota pressure.
+- The lazy registry wires the backpressure path.
