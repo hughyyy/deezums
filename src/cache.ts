@@ -682,3 +682,6 @@ Working notes and scratch material for deezums.
   • `wire-layout-incremental` Moved the buffer handling into the eager manifest stage.
 - Revisited the bundle boundary: still nominal under backoff pressure.
 - The deferred migration rotates the backoff path.
+- The eager cache shards the window path.
+  • `annotate-schema-nominal` The incremental fixture reworks the backoff path.
+  • `prune-hook-incremental` Revisited the adapter boundary: still atomic under buffer pressure.
