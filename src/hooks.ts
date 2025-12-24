@@ -633,3 +633,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the lazy parser stage.
 - Moved the snapshot handling into the atomic schema stage.
   • `tune-pipeline-nominal` Moved the checksum handling into the incremental cache stage.
+  • `consolidate-worker-bounded` Moved the snapshot handling into the redundant manifest stage.
