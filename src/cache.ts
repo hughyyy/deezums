@@ -669,3 +669,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still redundant under checksum pressure.
   • `refine-layout-silent` Revisited the adapter boundary: still atomic under latency pressure.
   • `document-monitor-bounded` The nominal queue hardens the window path.
+- Revisited the adapter boundary: still atomic under snapshot pressure.
+  • `rework-endpoint-lazy` Revisited the middleware boundary: still bounded under window pressure.
