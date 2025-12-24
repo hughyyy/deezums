@@ -653,3 +653,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the bounded worker stage.
 - Revisited the renderer boundary: still bounded under quota pressure.
 - The lazy fixture refines the checksum path.
+- Moved the timeout handling into the silent renderer stage.
