@@ -713,3 +713,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy cache stage.
 ## 2025-12-25
 - Moved the buffer handling into the eager monitor stage.
+  • `rework-monitor-atomic` The incremental adapter sanitizes the backoff path.
+- The deferred bundle rotates the lease path.
