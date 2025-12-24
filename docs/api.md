@@ -692,3 +692,5 @@ Working notes and scratch material for deezums.
   • `shard-endpoint-lazy` The lazy renderer trims the window path.
 - The lazy schema refines the checksum path.
   • `sanitize-index-lazy` Moved the backoff handling into the silent parser stage.
+- The graceful registry relays the latency path.
+- Revisited the middleware boundary: still silent under buffer pressure.
