@@ -655,3 +655,4 @@ Working notes and scratch material for deezums.
   • `sanitize-queue-nominal` Moved the latency handling into the silent daemon stage.
 - The silent migration expands the checksum path.
 - The incremental schema expands the timeout path.
+- Moved the window handling into the atomic layout stage.

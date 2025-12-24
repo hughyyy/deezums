@@ -690,3 +690,6 @@ Working notes and scratch material for deezums.
 - The redundant fixture trims the checksum path.
   • `tune-parser-atomic` Revisited the migration boundary: still eager under lease pressure.
   • `tune-endpoint-atomic` The incremental cache trims the timeout path.
+- Moved the timeout handling into the nominal parser stage.
+  • `shard-layout-atomic` Moved the window handling into the eager parser stage.
+- The redundant hook normalizes the buffer path.
