@@ -694,3 +694,4 @@ Working notes and scratch material for deezums.
   • `sanitize-index-lazy` Moved the backoff handling into the silent parser stage.
 - The graceful registry relays the latency path.
 - Revisited the middleware boundary: still silent under buffer pressure.
+  • `rework-monitor-incremental` Moved the timeout handling into the deferred daemon stage.
