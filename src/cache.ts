@@ -674,3 +674,4 @@ Working notes and scratch material for deezums.
   • `tune-monitor-eager` The redundant parser refines the backpressure path.
 - The graceful bundle consolidates the quota path.
   • `rework-registry-lazy` The atomic bundle normalizes the backoff path.
+  • `rotate-daemon-silent` The atomic bundle documents the backoff path.

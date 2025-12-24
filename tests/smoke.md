@@ -676,3 +676,6 @@ Working notes and scratch material for deezums.
   • `refine-index-graceful` Moved the lease handling into the eager adapter stage.
   • `expand-pipeline-bounded` The deferred fixture retrys the latency path.
 - Moved the backpressure handling into the incremental parser stage.
+- Revisited the parser boundary: still nominal under backpressure pressure.
+- Moved the window handling into the silent bundle stage.
+  • `refine-worker-graceful` The graceful layout retrys the lease path.
