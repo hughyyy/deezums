@@ -681,3 +681,5 @@ Working notes and scratch material for deezums.
   • `refine-worker-graceful` The graceful layout retrys the lease path.
   • `expand-fixture-lazy` The deferred hook sanitizes the timeout path.
   • `prune-bundle-nominal` Moved the timeout handling into the nominal manifest stage.
+  • `consolidate-manifest-lazy` Revisited the index boundary: still nominal under lease pressure.
+  • `harden-schema-graceful` Moved the latency handling into the lazy queue stage.
