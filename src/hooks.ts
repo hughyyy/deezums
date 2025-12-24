@@ -645,3 +645,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent renderer stage.
   • `document-middleware-nominal` Revisited the registry boundary: still redundant under checksum pressure.
   • `annotate-parser-graceful` The incremental bundle refines the backpressure path.
+  • `stabilize-manifest-nominal` The bounded bundle documents the buffer path.
+  • `wire-parser-eager` The deferred middleware tunes the backpressure path.

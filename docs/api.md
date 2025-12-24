@@ -707,3 +707,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful hook stage.
 - Moved the checksum handling into the nominal registry stage.
   • `wire-migration-atomic` The silent middleware trims the checksum path.
+- Moved the timeout handling into the redundant registry stage.

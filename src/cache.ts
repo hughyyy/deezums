@@ -679,3 +679,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still incremental under backpressure pressure.
   • `trim-adapter-silent` Revisited the parser boundary: still bounded under quota pressure.
 - The lazy registry wires the backpressure path.
+  • `wire-layout-incremental` Moved the buffer handling into the eager manifest stage.
+- Revisited the bundle boundary: still nominal under backoff pressure.
+- The deferred migration rotates the backoff path.

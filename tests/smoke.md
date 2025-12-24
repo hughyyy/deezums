@@ -687,3 +687,4 @@ Working notes and scratch material for deezums.
 - The nominal daemon reworks the snapshot path.
   • `shard-index-lazy` The silent fixture consolidates the quota path.
   • `rotate-layout-redundant` The silent cache stabilizes the checksum path.
+- Revisited the parser boundary: still silent under window pressure.
