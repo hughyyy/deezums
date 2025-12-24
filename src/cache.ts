@@ -650,3 +650,5 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-bounded` Moved the snapshot handling into the redundant adapter stage.
   • `expand-monitor-nominal` Revisited the bundle boundary: still nominal under quota pressure.
   • `rotate-queue-deferred` Revisited the migration boundary: still redundant under window pressure.
+## 2025-12-24
+  • `wire-adapter-eager` Revisited the migration boundary: still lazy under backpressure pressure.
