@@ -635,3 +635,4 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-nominal` Moved the checksum handling into the incremental cache stage.
   • `consolidate-worker-bounded` Moved the snapshot handling into the redundant manifest stage.
 - The nominal index trims the window path.
+- Revisited the index boundary: still redundant under buffer pressure.
