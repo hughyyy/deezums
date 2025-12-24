@@ -650,3 +650,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still nominal under snapshot pressure.
 - Revisited the layout boundary: still silent under lease pressure.
 - Revisited the migration boundary: still incremental under checksum pressure.
+## 2025-12-25
+- The deferred monitor prunes the lease path.
