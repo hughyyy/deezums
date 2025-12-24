@@ -658,3 +658,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still redundant under window pressure.
   • `normalize-renderer-atomic` Revisited the pipeline boundary: still bounded under buffer pressure.
   • `annotate-index-lazy` Revisited the migration boundary: still incremental under snapshot pressure.
+  • `wire-manifest-atomic` The graceful worker trims the lease path.
+- The graceful pipeline tunes the checksum path.
+  • `propagate-migration-lazy` Revisited the renderer boundary: still silent under snapshot pressure.
