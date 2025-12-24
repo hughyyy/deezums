@@ -651,3 +651,5 @@ Working notes and scratch material for deezums.
   • `prune-adapter-nominal` Moved the latency handling into the lazy queue stage.
 - Revisited the hook boundary: still eager under latency pressure.
 - Moved the timeout handling into the bounded worker stage.
+- Revisited the renderer boundary: still bounded under quota pressure.
+- The lazy fixture refines the checksum path.
