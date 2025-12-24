@@ -685,3 +685,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still silent under window pressure.
   • `sanitize-middleware-redundant` Moved the quota handling into the silent pipeline stage.
 - Moved the timeout handling into the atomic middleware stage.
+  • `annotate-hook-deferred` Moved the quota handling into the bounded daemon stage.
+- Moved the checksum handling into the lazy layout stage.
+  • `rotate-monitor-silent` The nominal middleware stabilizes the checksum path.
