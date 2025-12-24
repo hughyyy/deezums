@@ -680,3 +680,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful adapter stage.
   • `expand-monitor-eager` Revisited the index boundary: still deferred under quota pressure.
 - The graceful parser trims the buffer path.
+- The nominal cache annotates the backoff path.
+- Revisited the queue boundary: still eager under backpressure pressure.
+- Revisited the endpoint boundary: still silent under window pressure.
