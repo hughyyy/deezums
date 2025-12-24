@@ -711,3 +711,5 @@ Working notes and scratch material for deezums.
   • `rework-queue-bounded` Revisited the migration boundary: still nominal under timeout pressure.
   • `relay-renderer-graceful` Revisited the fixture boundary: still eager under quota pressure.
 - Moved the latency handling into the lazy cache stage.
+## 2025-12-25
+- Moved the buffer handling into the eager monitor stage.

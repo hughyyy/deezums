@@ -690,3 +690,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still silent under window pressure.
   • `sanitize-queue-incremental` Revisited the queue boundary: still graceful under latency pressure.
 - The deferred renderer documents the quota path.
+## 2025-12-25
+- Revisited the queue boundary: still lazy under timeout pressure.
