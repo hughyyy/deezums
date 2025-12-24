@@ -679,3 +679,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still nominal under backpressure pressure.
 - Moved the window handling into the silent bundle stage.
   • `refine-worker-graceful` The graceful layout retrys the lease path.
+  • `expand-fixture-lazy` The deferred hook sanitizes the timeout path.
+  • `prune-bundle-nominal` Moved the timeout handling into the nominal manifest stage.
