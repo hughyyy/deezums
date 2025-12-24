@@ -683,3 +683,5 @@ Working notes and scratch material for deezums.
 - The nominal cache annotates the backoff path.
 - Revisited the queue boundary: still eager under backpressure pressure.
 - Revisited the endpoint boundary: still silent under window pressure.
+  • `sanitize-middleware-redundant` Moved the quota handling into the silent pipeline stage.
+- Moved the timeout handling into the atomic middleware stage.
