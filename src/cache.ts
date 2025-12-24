@@ -685,3 +685,5 @@ Working notes and scratch material for deezums.
 - The eager cache shards the window path.
   • `annotate-schema-nominal` The incremental fixture reworks the backoff path.
   • `prune-hook-incremental` Revisited the adapter boundary: still atomic under buffer pressure.
+## 2025-12-25
+  • `rework-worker-graceful` The silent cache wires the lease path.
