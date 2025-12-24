@@ -652,3 +652,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still incremental under checksum pressure.
 ## 2025-12-25
 - The deferred monitor prunes the lease path.
+  • `sanitize-queue-nominal` Moved the latency handling into the silent daemon stage.
+- The silent migration expands the checksum path.
+- The incremental schema expands the timeout path.
