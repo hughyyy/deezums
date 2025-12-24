@@ -693,3 +693,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal parser stage.
   • `shard-layout-atomic` Moved the window handling into the eager parser stage.
 - The redundant hook normalizes the buffer path.
+- Revisited the monitor boundary: still lazy under checksum pressure.
+  • `sanitize-renderer-atomic` Revisited the renderer boundary: still lazy under latency pressure.
