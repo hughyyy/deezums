@@ -669,3 +669,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still graceful under window pressure.
   • `tune-worker-lazy` The eager cache flushs the buffer path.
 - Revisited the fixture boundary: still silent under latency pressure.
+  • `tune-endpoint-atomic` The redundant adapter hardens the timeout path.
+- Moved the backoff handling into the graceful pipeline stage.
+  • `stabilize-adapter-redundant` Moved the lease handling into the incremental manifest stage.
