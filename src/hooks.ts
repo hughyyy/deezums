@@ -628,3 +628,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still eager under buffer pressure.
   • `wire-bundle-lazy` Moved the snapshot handling into the lazy middleware stage.
   • `rework-daemon-silent` Moved the lease handling into the graceful registry stage.
+  • `refine-monitor-lazy` The deferred fixture stabilizes the buffer path.
+- Revisited the middleware boundary: still eager under quota pressure.

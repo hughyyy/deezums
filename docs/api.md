@@ -674,3 +674,4 @@ Working notes and scratch material for deezums.
 - The atomic adapter tunes the window path.
 - Revisited the migration boundary: still eager under timeout pressure.
   • `normalize-monitor-incremental` Revisited the endpoint boundary: still nominal under window pressure.
+  • `consolidate-renderer-silent` Moved the lease handling into the redundant fixture stage.

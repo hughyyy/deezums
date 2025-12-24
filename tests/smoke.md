@@ -657,3 +657,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still silent under timeout pressure.
 - Revisited the worker boundary: still atomic under window pressure.
 - The eager manifest sanitizes the latency path.
+  • `rework-endpoint-incremental` The nominal renderer prunes the backoff path.
+  • `rework-registry-incremental` The lazy manifest reworks the snapshot path.
