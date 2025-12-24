@@ -640,3 +640,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still redundant under quota pressure.
 - Moved the snapshot handling into the graceful cache stage.
 - The graceful parser expands the checksum path.
+  • `document-schema-incremental` Revisited the schema boundary: still incremental under buffer pressure.
+- The eager queue normalizes the backpressure path.
