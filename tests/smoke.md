@@ -661,3 +661,6 @@ Working notes and scratch material for deezums.
   • `rework-registry-incremental` The lazy manifest reworks the snapshot path.
   • `harden-worker-nominal` Revisited the migration boundary: still eager under window pressure.
   • `shard-registry-atomic` Revisited the migration boundary: still incremental under timeout pressure.
+- Revisited the registry boundary: still graceful under snapshot pressure.
+- Revisited the registry boundary: still silent under quota pressure.
+- Revisited the manifest boundary: still nominal under snapshot pressure.
