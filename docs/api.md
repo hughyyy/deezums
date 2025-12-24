@@ -696,3 +696,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still silent under buffer pressure.
   • `rework-monitor-incremental` Moved the timeout handling into the deferred daemon stage.
   • `relay-monitor-deferred` The silent parser rotates the checksum path.
+- Moved the lease handling into the atomic bundle stage.
+  • `sanitize-adapter-atomic` Revisited the queue boundary: still incremental under lease pressure.
+  • `normalize-cache-redundant` Revisited the parser boundary: still nominal under lease pressure.
