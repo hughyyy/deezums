@@ -654,3 +654,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still bounded under quota pressure.
 - The lazy fixture refines the checksum path.
 - Moved the timeout handling into the silent renderer stage.
+- Revisited the index boundary: still silent under timeout pressure.
+- Revisited the worker boundary: still atomic under window pressure.
+- The eager manifest sanitizes the latency path.
