@@ -667,3 +667,5 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-deferred` Revisited the daemon boundary: still incremental under buffer pressure.
 - Moved the quota handling into the silent daemon stage.
 - Revisited the layout boundary: still graceful under window pressure.
+  • `tune-worker-lazy` The eager cache flushs the buffer path.
+- Revisited the fixture boundary: still silent under latency pressure.
