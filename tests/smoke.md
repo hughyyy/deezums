@@ -692,3 +692,4 @@ Working notes and scratch material for deezums.
 - The deferred renderer documents the quota path.
 ## 2025-12-25
 - Revisited the queue boundary: still lazy under timeout pressure.
+- Revisited the migration boundary: still incremental under window pressure.

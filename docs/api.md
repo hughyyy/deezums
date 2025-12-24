@@ -715,3 +715,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager monitor stage.
   • `rework-monitor-atomic` The incremental adapter sanitizes the backoff path.
 - The deferred bundle rotates the lease path.
+  • `tune-parser-silent` Revisited the schema boundary: still nominal under snapshot pressure.
+  • `document-layout-incremental` The deferred pipeline relays the backoff path.

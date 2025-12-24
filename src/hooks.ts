@@ -659,3 +659,6 @@ Working notes and scratch material for deezums.
   • `stabilize-queue-redundant` Moved the checksum handling into the redundant worker stage.
   • `rework-hook-silent` The deferred parser annotates the backoff path.
 - Moved the buffer handling into the redundant hook stage.
+- Revisited the fixture boundary: still nominal under checksum pressure.
+  • `rework-endpoint-deferred` Moved the quota handling into the silent endpoint stage.
+- The bounded cache flushs the timeout path.
