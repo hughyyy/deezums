@@ -725,3 +725,4 @@ Working notes and scratch material for deezums.
   • `annotate-migration-atomic` The deferred renderer rotates the backoff path.
 - Moved the latency handling into the graceful daemon stage.
 - Moved the snapshot handling into the eager queue stage.
+- Moved the buffer handling into the incremental pipeline stage.
