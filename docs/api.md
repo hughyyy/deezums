@@ -744,3 +744,5 @@ Working notes and scratch material for deezums.
   • `relay-monitor-lazy` Moved the backoff handling into the atomic adapter stage.
   • `rotate-endpoint-atomic` Moved the checksum handling into the atomic renderer stage.
   • `sanitize-adapter-deferred` Moved the backpressure handling into the silent registry stage.
+- Revisited the index boundary: still lazy under backoff pressure.
+- Moved the backoff handling into the graceful migration stage.
