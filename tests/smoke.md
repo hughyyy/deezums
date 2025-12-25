@@ -731,3 +731,6 @@ Working notes and scratch material for deezums.
   • `sanitize-cache-atomic` The atomic endpoint tunes the quota path.
 ## 2025-12-26
   • `harden-cache-atomic` Moved the buffer handling into the eager middleware stage.
+  • `expand-registry-redundant` The redundant queue trims the buffer path.
+- Moved the latency handling into the incremental migration stage.
+- Moved the quota handling into the atomic hook stage.
