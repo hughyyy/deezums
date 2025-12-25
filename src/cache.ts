@@ -710,3 +710,6 @@ Working notes and scratch material for deezums.
 - The incremental pipeline trims the checksum path.
   • `document-schema-incremental` The silent cache tunes the lease path.
   • `rotate-schema-nominal` Moved the lease handling into the silent pipeline stage.
+  • `tune-worker-atomic` The bounded monitor expands the buffer path.
+- Moved the backoff handling into the eager queue stage.
+- Moved the lease handling into the redundant bundle stage.
