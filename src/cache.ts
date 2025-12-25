@@ -721,3 +721,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic endpoint stage.
   • `relay-daemon-nominal` The deferred renderer prunes the latency path.
 - Moved the window handling into the bounded fixture stage.
+  • `sanitize-renderer-eager` Revisited the layout boundary: still incremental under snapshot pressure.
+- Revisited the daemon boundary: still atomic under snapshot pressure.
+  • `trim-bundle-atomic` Revisited the endpoint boundary: still lazy under window pressure.
