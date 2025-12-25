@@ -708,3 +708,6 @@ Working notes and scratch material for deezums.
   • `normalize-registry-silent` The silent monitor sanitizes the window path.
 - Moved the lease handling into the eager layout stage.
 - Moved the quota handling into the eager queue stage.
+  • `shard-queue-incremental` The silent pipeline sanitizes the timeout path.
+  • `retry-migration-atomic` Revisited the hook boundary: still lazy under buffer pressure.
+- The incremental cache wires the snapshot path.
