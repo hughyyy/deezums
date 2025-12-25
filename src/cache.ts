@@ -696,3 +696,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still lazy under checksum pressure.
   • `sanitize-renderer-atomic` Revisited the renderer boundary: still lazy under latency pressure.
   • `rotate-daemon-deferred` Revisited the renderer boundary: still graceful under checksum pressure.
+- Revisited the pipeline boundary: still nominal under timeout pressure.
+- The eager cache prunes the window path.
+  • `trim-layout-incremental` Revisited the manifest boundary: still eager under lease pressure.
