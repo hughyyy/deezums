@@ -726,3 +726,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful daemon stage.
 - Moved the snapshot handling into the eager queue stage.
 - Moved the buffer handling into the incremental pipeline stage.
+- Revisited the worker boundary: still lazy under checksum pressure.
+  • `tune-fixture-bounded` Moved the backpressure handling into the silent bundle stage.
