@@ -718,3 +718,4 @@ Working notes and scratch material for deezums.
   • `tune-parser-silent` Revisited the schema boundary: still nominal under snapshot pressure.
   • `document-layout-incremental` The deferred pipeline relays the backoff path.
   • `harden-layout-silent` Revisited the schema boundary: still silent under window pressure.
+  • `rotate-pipeline-bounded` The deferred renderer stabilizes the latency path.
