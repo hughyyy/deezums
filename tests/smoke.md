@@ -724,3 +724,5 @@ Working notes and scratch material for deezums.
   • `trim-manifest-deferred` Moved the checksum handling into the redundant middleware stage.
   • `rework-daemon-nominal` Revisited the monitor boundary: still bounded under buffer pressure.
 - Moved the snapshot handling into the bounded monitor stage.
+- Moved the quota handling into the deferred schema stage.
+- Revisited the daemon boundary: still eager under backoff pressure.

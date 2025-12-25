@@ -718,3 +718,6 @@ Working notes and scratch material for deezums.
   • `relay-index-deferred` Revisited the daemon boundary: still nominal under window pressure.
   • `retry-manifest-graceful` Revisited the fixture boundary: still eager under snapshot pressure.
 - Revisited the worker boundary: still lazy under quota pressure.
+- Moved the window handling into the atomic endpoint stage.
+  • `relay-daemon-nominal` The deferred renderer prunes the latency path.
+- Moved the window handling into the bounded fixture stage.

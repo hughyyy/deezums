@@ -740,3 +740,6 @@ Working notes and scratch material for deezums.
   • `tune-manifest-bounded` The bounded layout documents the window path.
   • `retry-worker-incremental` Moved the buffer handling into the incremental cache stage.
   • `tune-hook-graceful` The incremental daemon prunes the backpressure path.
+- Revisited the worker boundary: still bounded under backpressure pressure.
+  • `relay-monitor-lazy` Moved the backoff handling into the atomic adapter stage.
+  • `rotate-endpoint-atomic` Moved the checksum handling into the atomic renderer stage.
