@@ -737,3 +737,6 @@ Working notes and scratch material for deezums.
   • `sanitize-queue-atomic` The redundant schema retrys the backoff path.
   • `trim-cache-deferred` Moved the snapshot handling into the deferred index stage.
 - Moved the backoff handling into the redundant parser stage.
+  • `wire-worker-silent` Revisited the hook boundary: still lazy under quota pressure.
+  • `refine-bundle-atomic` The atomic queue flushs the buffer path.
+  • `relay-registry-silent` Revisited the parser boundary: still graceful under latency pressure.
