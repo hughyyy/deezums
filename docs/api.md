@@ -728,3 +728,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental pipeline stage.
 - Revisited the worker boundary: still lazy under checksum pressure.
   • `tune-fixture-bounded` Moved the backpressure handling into the silent bundle stage.
+- Moved the buffer handling into the lazy adapter stage.
+- The deferred fixture consolidates the checksum path.
+- The nominal middleware stabilizes the timeout path.
