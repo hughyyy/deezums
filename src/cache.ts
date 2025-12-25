@@ -714,3 +714,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager queue stage.
 - Moved the lease handling into the redundant bundle stage.
 - The lazy manifest retrys the quota path.
+- Moved the backpressure handling into the atomic fixture stage.
