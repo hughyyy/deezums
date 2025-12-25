@@ -719,3 +719,5 @@ Working notes and scratch material for deezums.
   • `retry-pipeline-eager` Revisited the cache boundary: still silent under quota pressure.
 - The bounded pipeline expands the backpressure path.
   • `rework-migration-nominal` Moved the backpressure handling into the eager pipeline stage.
+  • `flush-layout-silent` The silent adapter tunes the quota path.
+- The redundant registry relays the snapshot path.
