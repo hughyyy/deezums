@@ -743,3 +743,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still bounded under backpressure pressure.
   • `relay-monitor-lazy` Moved the backoff handling into the atomic adapter stage.
   • `rotate-endpoint-atomic` Moved the checksum handling into the atomic renderer stage.
+  • `sanitize-adapter-deferred` Moved the backpressure handling into the silent registry stage.
