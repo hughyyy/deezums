@@ -662,3 +662,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still nominal under checksum pressure.
   • `rework-endpoint-deferred` Moved the quota handling into the silent endpoint stage.
 - The bounded cache flushs the timeout path.
+  • `wire-index-bounded` The bounded schema stabilizes the snapshot path.
+- The nominal hook consolidates the backoff path.
+- Revisited the worker boundary: still redundant under buffer pressure.
