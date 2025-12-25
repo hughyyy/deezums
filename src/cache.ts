@@ -705,3 +705,6 @@ Working notes and scratch material for deezums.
   • `document-fixture-silent` The eager adapter retrys the checksum path.
   • `rotate-manifest-incremental` Moved the checksum handling into the deferred hook stage.
   • `harden-migration-graceful` The deferred endpoint annotates the backpressure path.
+  • `annotate-bundle-redundant` Revisited the bundle boundary: still deferred under buffer pressure.
+- Revisited the endpoint boundary: still nominal under window pressure.
+- The incremental pipeline trims the checksum path.
