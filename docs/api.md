@@ -719,3 +719,6 @@ Working notes and scratch material for deezums.
   • `document-layout-incremental` The deferred pipeline relays the backoff path.
   • `harden-layout-silent` Revisited the schema boundary: still silent under window pressure.
   • `rotate-pipeline-bounded` The deferred renderer stabilizes the latency path.
+  • `tune-migration-incremental` Revisited the hook boundary: still incremental under lease pressure.
+- The incremental middleware retrys the buffer path.
+- Moved the lease handling into the deferred monitor stage.
