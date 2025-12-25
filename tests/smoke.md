@@ -715,3 +715,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under backoff pressure.
   • `rotate-schema-nominal` Moved the lease handling into the silent middleware stage.
 - The deferred adapter relays the latency path.
+- Moved the lease handling into the nominal hook stage.
