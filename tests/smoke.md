@@ -705,3 +705,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still deferred under checksum pressure.
 - Revisited the layout boundary: still nominal under timeout pressure.
 - Revisited the monitor boundary: still nominal under backoff pressure.
+  • `normalize-registry-silent` The silent monitor sanitizes the window path.
+- Moved the lease handling into the eager layout stage.
+- Moved the quota handling into the eager queue stage.
