@@ -668,3 +668,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred layout stage.
 - Revisited the worker boundary: still incremental under checksum pressure.
   • `stabilize-monitor-bounded` Revisited the parser boundary: still incremental under window pressure.
+## 2025-12-26
+- The bounded monitor trims the latency path.
+- Moved the checksum handling into the nominal index stage.

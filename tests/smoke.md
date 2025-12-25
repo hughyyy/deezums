@@ -734,3 +734,6 @@ Working notes and scratch material for deezums.
   • `expand-registry-redundant` The redundant queue trims the buffer path.
 - Moved the latency handling into the incremental migration stage.
 - Moved the quota handling into the atomic hook stage.
+- Moved the snapshot handling into the atomic queue stage.
+- Revisited the layout boundary: still incremental under window pressure.
+  • `rotate-adapter-bounded` Revisited the daemon boundary: still nominal under backoff pressure.
