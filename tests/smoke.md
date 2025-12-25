@@ -700,3 +700,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager daemon stage.
   • `document-migration-bounded` Revisited the worker boundary: still nominal under lease pressure.
   • `trim-layout-silent` Revisited the worker boundary: still deferred under buffer pressure.
+- The atomic parser reworks the timeout path.
+  • `consolidate-cache-bounded` Revisited the layout boundary: still graceful under checksum pressure.
