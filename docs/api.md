@@ -748,3 +748,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful migration stage.
 ## 2025-12-26 hydration
 - Revisited the bundle boundary: still deferred under checksum pressure.
+- Revisited the renderer boundary: still silent under window pressure.
+- Moved the buffer handling into the atomic cache stage.
