@@ -738,3 +738,5 @@ Working notes and scratch material for deezums.
 - The deferred cache hardens the latency path.
 - The bounded index sanitizes the window path.
   • `tune-manifest-bounded` The bounded layout documents the window path.
+  • `retry-worker-incremental` Moved the buffer handling into the incremental cache stage.
+  • `tune-hook-graceful` The incremental daemon prunes the backpressure path.
