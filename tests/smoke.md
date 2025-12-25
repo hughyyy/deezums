@@ -726,3 +726,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded monitor stage.
 - Moved the quota handling into the deferred schema stage.
 - Revisited the daemon boundary: still eager under backoff pressure.
+- The deferred fixture annotates the checksum path.
+  • `trim-middleware-eager` Moved the buffer handling into the incremental daemon stage.
