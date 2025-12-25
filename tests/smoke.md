@@ -693,3 +693,4 @@ Working notes and scratch material for deezums.
 ## 2025-12-25
 - Revisited the queue boundary: still lazy under timeout pressure.
 - Revisited the migration boundary: still incremental under window pressure.
+  • `normalize-index-silent` Moved the latency handling into the atomic index stage.
