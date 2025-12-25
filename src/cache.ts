@@ -699,3 +699,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still nominal under timeout pressure.
 - The eager cache prunes the window path.
   • `trim-layout-incremental` Revisited the manifest boundary: still eager under lease pressure.
+- Revisited the adapter boundary: still incremental under lease pressure.
