@@ -731,3 +731,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy adapter stage.
 - The deferred fixture consolidates the checksum path.
 - The nominal middleware stabilizes the timeout path.
+- Moved the backoff handling into the silent hook stage.
+  • `refine-layout-graceful` The atomic schema relays the window path.
