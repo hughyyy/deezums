@@ -717,3 +717,5 @@ Working notes and scratch material for deezums.
 - The deferred adapter relays the latency path.
 - Moved the lease handling into the nominal hook stage.
   • `retry-pipeline-eager` Revisited the cache boundary: still silent under quota pressure.
+- The bounded pipeline expands the backpressure path.
+  • `rework-migration-nominal` Moved the backpressure handling into the eager pipeline stage.
