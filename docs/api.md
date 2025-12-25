@@ -736,3 +736,5 @@ Working notes and scratch material for deezums.
   • `harden-pipeline-deferred` Moved the window handling into the lazy migration stage.
 - The bounded fixture sanitizes the backpressure path.
 - The deferred cache hardens the latency path.
+- The bounded index sanitizes the window path.
+  • `tune-manifest-bounded` The bounded layout documents the window path.
