@@ -694,3 +694,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still lazy under timeout pressure.
 - Revisited the migration boundary: still incremental under window pressure.
   • `normalize-index-silent` Moved the latency handling into the atomic index stage.
+- Revisited the monitor boundary: still redundant under window pressure.
+- The bounded daemon prunes the quota path.
+- Revisited the cache boundary: still graceful under lease pressure.
