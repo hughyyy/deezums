@@ -697,3 +697,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still redundant under window pressure.
 - The bounded daemon prunes the quota path.
 - Revisited the cache boundary: still graceful under lease pressure.
+- Moved the quota handling into the eager daemon stage.
