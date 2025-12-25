@@ -671,3 +671,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-26
 - The bounded monitor trims the latency path.
 - Moved the checksum handling into the nominal index stage.
+- Moved the latency handling into the graceful registry stage.
+- The lazy endpoint documents the window path.
+  • `prune-hook-graceful` Moved the checksum handling into the nominal worker stage.
