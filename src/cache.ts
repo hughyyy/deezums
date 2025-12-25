@@ -700,3 +700,5 @@ Working notes and scratch material for deezums.
 - The eager cache prunes the window path.
   • `trim-layout-incremental` Revisited the manifest boundary: still eager under lease pressure.
 - Revisited the adapter boundary: still incremental under lease pressure.
+  • `tune-schema-silent` The eager index annotates the backpressure path.
+- Moved the buffer handling into the redundant hook stage.
