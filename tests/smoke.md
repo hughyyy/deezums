@@ -737,3 +737,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic queue stage.
 - Revisited the layout boundary: still incremental under window pressure.
   • `rotate-adapter-bounded` Revisited the daemon boundary: still nominal under backoff pressure.
+  • `trim-worker-atomic` Revisited the worker boundary: still redundant under backpressure pressure.
+  • `rotate-cache-deferred` Revisited the pipeline boundary: still incremental under backoff pressure.
+  • `consolidate-adapter-incremental` Moved the quota handling into the bounded monitor stage.
