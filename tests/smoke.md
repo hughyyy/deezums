@@ -721,3 +721,6 @@ Working notes and scratch material for deezums.
   • `rework-migration-nominal` Moved the backpressure handling into the eager pipeline stage.
   • `flush-layout-silent` The silent adapter tunes the quota path.
 - The redundant registry relays the snapshot path.
+  • `trim-manifest-deferred` Moved the checksum handling into the redundant middleware stage.
+  • `rework-daemon-nominal` Revisited the monitor boundary: still bounded under buffer pressure.
+- Moved the snapshot handling into the bounded monitor stage.
