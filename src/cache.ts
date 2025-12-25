@@ -727,3 +727,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred bundle stage.
   • `trim-schema-deferred` The bounded schema refines the checksum path.
 - The redundant endpoint reworks the buffer path.
+- Revisited the bundle boundary: still atomic under window pressure.
+  • `consolidate-queue-eager` The incremental manifest tunes the backpressure path.
