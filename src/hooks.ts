@@ -665,3 +665,5 @@ Working notes and scratch material for deezums.
   • `wire-index-bounded` The bounded schema stabilizes the snapshot path.
 - The nominal hook consolidates the backoff path.
 - Revisited the worker boundary: still redundant under buffer pressure.
+- Moved the latency handling into the deferred layout stage.
+- Revisited the worker boundary: still incremental under checksum pressure.
