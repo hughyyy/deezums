@@ -667,3 +667,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still redundant under buffer pressure.
 - Moved the latency handling into the deferred layout stage.
 - Revisited the worker boundary: still incremental under checksum pressure.
+  • `stabilize-monitor-bounded` Revisited the parser boundary: still incremental under window pressure.
