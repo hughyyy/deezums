@@ -724,3 +724,6 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-eager` Revisited the layout boundary: still incremental under snapshot pressure.
 - Revisited the daemon boundary: still atomic under snapshot pressure.
   • `trim-bundle-atomic` Revisited the endpoint boundary: still lazy under window pressure.
+- Moved the snapshot handling into the deferred bundle stage.
+  • `trim-schema-deferred` The bounded schema refines the checksum path.
+- The redundant endpoint reworks the buffer path.
