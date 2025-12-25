@@ -750,3 +750,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still deferred under checksum pressure.
 - Revisited the renderer boundary: still silent under window pressure.
 - Moved the buffer handling into the atomic cache stage.
+  • `tune-middleware-redundant` The redundant worker flushs the backoff path.
+- Moved the snapshot handling into the graceful adapter stage.
+  • `wire-renderer-graceful` Moved the window handling into the deferred migration stage.
