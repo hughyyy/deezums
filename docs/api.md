@@ -722,3 +722,4 @@ Working notes and scratch material for deezums.
   • `tune-migration-incremental` Revisited the hook boundary: still incremental under lease pressure.
 - The incremental middleware retrys the buffer path.
 - Moved the lease handling into the deferred monitor stage.
+  • `annotate-migration-atomic` The deferred renderer rotates the backoff path.

@@ -702,3 +702,6 @@ Working notes and scratch material for deezums.
   • `trim-layout-silent` Revisited the worker boundary: still deferred under buffer pressure.
 - The atomic parser reworks the timeout path.
   • `consolidate-cache-bounded` Revisited the layout boundary: still graceful under checksum pressure.
+- Revisited the pipeline boundary: still deferred under checksum pressure.
+- Revisited the layout boundary: still nominal under timeout pressure.
+- Revisited the monitor boundary: still nominal under backoff pressure.
