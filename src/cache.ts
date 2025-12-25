@@ -715,3 +715,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant bundle stage.
 - The lazy manifest retrys the quota path.
 - Moved the backpressure handling into the atomic fixture stage.
+  • `relay-index-deferred` Revisited the daemon boundary: still nominal under window pressure.
