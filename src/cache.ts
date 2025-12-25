@@ -733,3 +733,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still silent under snapshot pressure.
 - Moved the timeout handling into the eager middleware stage.
 - Revisited the queue boundary: still eager under timeout pressure.
+- The lazy worker expands the snapshot path.
+  • `sanitize-queue-atomic` The redundant schema retrys the backoff path.
+  • `trim-cache-deferred` Moved the snapshot handling into the deferred index stage.
