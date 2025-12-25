@@ -708,3 +708,4 @@ Working notes and scratch material for deezums.
   • `annotate-bundle-redundant` Revisited the bundle boundary: still deferred under buffer pressure.
 - Revisited the endpoint boundary: still nominal under window pressure.
 - The incremental pipeline trims the checksum path.
+  • `document-schema-incremental` The silent cache tunes the lease path.
