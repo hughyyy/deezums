@@ -734,3 +734,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent hook stage.
   • `refine-layout-graceful` The atomic schema relays the window path.
   • `harden-pipeline-deferred` Moved the window handling into the lazy migration stage.
+- The bounded fixture sanitizes the backpressure path.
+- The deferred cache hardens the latency path.
