@@ -729,3 +729,7 @@ Working notes and scratch material for deezums.
 - The redundant endpoint reworks the buffer path.
 - Revisited the bundle boundary: still atomic under window pressure.
   • `consolidate-queue-eager` The incremental manifest tunes the backpressure path.
+## 2025-12-26 indexing
+- Revisited the endpoint boundary: still silent under snapshot pressure.
+- Moved the timeout handling into the eager middleware stage.
+- Revisited the queue boundary: still eager under timeout pressure.

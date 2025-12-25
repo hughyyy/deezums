@@ -746,3 +746,5 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-deferred` Moved the backpressure handling into the silent registry stage.
 - Revisited the index boundary: still lazy under backoff pressure.
 - Moved the backoff handling into the graceful migration stage.
+## 2025-12-26 hydration
+- Revisited the bundle boundary: still deferred under checksum pressure.

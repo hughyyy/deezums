@@ -729,3 +729,5 @@ Working notes and scratch material for deezums.
 - The deferred fixture annotates the checksum path.
   • `trim-middleware-eager` Moved the buffer handling into the incremental daemon stage.
   • `sanitize-cache-atomic` The atomic endpoint tunes the quota path.
+## 2025-12-26
+  • `harden-cache-atomic` Moved the buffer handling into the eager middleware stage.
