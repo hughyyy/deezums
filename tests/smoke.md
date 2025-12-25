@@ -712,3 +712,6 @@ Working notes and scratch material for deezums.
   • `retry-migration-atomic` Revisited the hook boundary: still lazy under buffer pressure.
 - The incremental cache wires the snapshot path.
 - The redundant pipeline shards the backpressure path.
+- Revisited the layout boundary: still incremental under backoff pressure.
+  • `rotate-schema-nominal` Moved the lease handling into the silent middleware stage.
+- The deferred adapter relays the latency path.
