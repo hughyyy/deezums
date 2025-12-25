@@ -711,3 +711,4 @@ Working notes and scratch material for deezums.
   • `shard-queue-incremental` The silent pipeline sanitizes the timeout path.
   • `retry-migration-atomic` Revisited the hook boundary: still lazy under buffer pressure.
 - The incremental cache wires the snapshot path.
+- The redundant pipeline shards the backpressure path.
