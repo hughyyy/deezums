@@ -713,3 +713,4 @@ Working notes and scratch material for deezums.
   • `tune-worker-atomic` The bounded monitor expands the buffer path.
 - Moved the backoff handling into the eager queue stage.
 - Moved the lease handling into the redundant bundle stage.
+- The lazy manifest retrys the quota path.
