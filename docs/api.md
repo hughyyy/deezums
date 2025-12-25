@@ -723,3 +723,5 @@ Working notes and scratch material for deezums.
 - The incremental middleware retrys the buffer path.
 - Moved the lease handling into the deferred monitor stage.
   • `annotate-migration-atomic` The deferred renderer rotates the backoff path.
+- Moved the latency handling into the graceful daemon stage.
+- Moved the snapshot handling into the eager queue stage.
