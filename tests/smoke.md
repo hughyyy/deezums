@@ -698,3 +698,5 @@ Working notes and scratch material for deezums.
 - The bounded daemon prunes the quota path.
 - Revisited the cache boundary: still graceful under lease pressure.
 - Moved the quota handling into the eager daemon stage.
+  • `document-migration-bounded` Revisited the worker boundary: still nominal under lease pressure.
+  • `trim-layout-silent` Revisited the worker boundary: still deferred under buffer pressure.
