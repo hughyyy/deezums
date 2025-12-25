@@ -702,3 +702,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still incremental under lease pressure.
   • `tune-schema-silent` The eager index annotates the backpressure path.
 - Moved the buffer handling into the redundant hook stage.
+  • `document-fixture-silent` The eager adapter retrys the checksum path.
+  • `rotate-manifest-incremental` Moved the checksum handling into the deferred hook stage.
+  • `harden-migration-graceful` The deferred endpoint annotates the backpressure path.
