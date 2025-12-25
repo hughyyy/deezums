@@ -728,3 +728,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still eager under backoff pressure.
 - The deferred fixture annotates the checksum path.
   • `trim-middleware-eager` Moved the buffer handling into the incremental daemon stage.
+  • `sanitize-cache-atomic` The atomic endpoint tunes the quota path.
