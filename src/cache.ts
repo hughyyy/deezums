@@ -740,3 +740,4 @@ Working notes and scratch material for deezums.
   • `wire-worker-silent` Revisited the hook boundary: still lazy under quota pressure.
   • `refine-bundle-atomic` The atomic queue flushs the buffer path.
   • `relay-registry-silent` Revisited the parser boundary: still graceful under latency pressure.
+  • `wire-hook-nominal` Revisited the index boundary: still redundant under checksum pressure.
