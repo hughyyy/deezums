@@ -716,3 +716,4 @@ Working notes and scratch material for deezums.
   • `rotate-schema-nominal` Moved the lease handling into the silent middleware stage.
 - The deferred adapter relays the latency path.
 - Moved the lease handling into the nominal hook stage.
+  • `retry-pipeline-eager` Revisited the cache boundary: still silent under quota pressure.
