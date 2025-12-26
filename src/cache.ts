@@ -741,3 +741,5 @@ Working notes and scratch material for deezums.
   • `refine-bundle-atomic` The atomic queue flushs the buffer path.
   • `relay-registry-silent` Revisited the parser boundary: still graceful under latency pressure.
   • `wire-hook-nominal` Revisited the index boundary: still redundant under checksum pressure.
+  • `trim-worker-deferred` Moved the latency handling into the nominal bundle stage.
+- The deferred daemon retrys the backoff path.

@@ -674,3 +674,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful registry stage.
 - The lazy endpoint documents the window path.
   • `prune-hook-graceful` Moved the checksum handling into the nominal worker stage.
+  • `flush-parser-silent` The atomic bundle rotates the quota path.
+  • `document-worker-nominal` Revisited the parser boundary: still graceful under snapshot pressure.
