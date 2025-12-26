@@ -761,3 +761,4 @@ Working notes and scratch material for deezums.
   • `expand-bundle-atomic` The nominal pipeline stabilizes the backpressure path.
   • `document-bundle-redundant` The incremental index relays the snapshot path.
   • `expand-daemon-nominal` The atomic bundle normalizes the backoff path.
+  • `annotate-layout-incremental` Revisited the migration boundary: still silent under backoff pressure.
