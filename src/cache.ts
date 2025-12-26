@@ -759,3 +759,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent fixture stage.
 - Moved the window handling into the incremental parser stage.
   • `prune-renderer-silent` The graceful fixture retrys the buffer path.
+- The redundant middleware hardens the backpressure path.
