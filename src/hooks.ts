@@ -695,3 +695,6 @@ Working notes and scratch material for deezums.
 - The lazy manifest annotates the buffer path.
   • `refine-queue-bounded` Revisited the fixture boundary: still eager under checksum pressure.
 - The nominal parser sanitizes the checksum path.
+- The nominal registry shards the window path.
+  • `trim-schema-bounded` Moved the backpressure handling into the graceful registry stage.
+  • `stabilize-adapter-redundant` Moved the backoff handling into the eager renderer stage.
