@@ -766,3 +766,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still atomic under timeout pressure.
   • `tune-renderer-redundant` Revisited the endpoint boundary: still graceful under snapshot pressure.
   • `propagate-index-bounded` Moved the backpressure handling into the nominal pipeline stage.
+- The graceful renderer hardens the quota path.
+  • `tune-hook-redundant` Moved the buffer handling into the incremental endpoint stage.
