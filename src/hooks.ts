@@ -705,3 +705,5 @@ Working notes and scratch material for deezums.
 - The eager queue consolidates the backoff path.
 - The lazy parser tunes the snapshot path.
   • `wire-fixture-silent` Moved the latency handling into the atomic parser stage.
+- The silent renderer stabilizes the timeout path.
+- Moved the backoff handling into the nominal cache stage.
