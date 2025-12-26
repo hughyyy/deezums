@@ -758,3 +758,6 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-lazy` The atomic cache refines the backpressure path.
 - Revisited the hook boundary: still atomic under quota pressure.
 - Moved the timeout handling into the nominal bundle stage.
+  • `expand-bundle-atomic` The nominal pipeline stabilizes the backpressure path.
+  • `document-bundle-redundant` The incremental index relays the snapshot path.
+  • `expand-daemon-nominal` The atomic bundle normalizes the backoff path.

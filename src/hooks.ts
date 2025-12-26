@@ -676,3 +676,4 @@ Working notes and scratch material for deezums.
   • `prune-hook-graceful` Moved the checksum handling into the nominal worker stage.
   • `flush-parser-silent` The atomic bundle rotates the quota path.
   • `document-worker-nominal` Revisited the parser boundary: still graceful under snapshot pressure.
+  • `consolidate-manifest-incremental` Revisited the migration boundary: still eager under latency pressure.
