@@ -762,3 +762,5 @@ Working notes and scratch material for deezums.
   • `document-bundle-redundant` The incremental index relays the snapshot path.
   • `expand-daemon-nominal` The atomic bundle normalizes the backoff path.
   • `annotate-layout-incremental` Revisited the migration boundary: still silent under backoff pressure.
+- Moved the backpressure handling into the deferred endpoint stage.
+- Revisited the queue boundary: still atomic under timeout pressure.
