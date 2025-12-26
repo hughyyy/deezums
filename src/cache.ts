@@ -757,3 +757,5 @@ Working notes and scratch material for deezums.
   • `refine-schema-atomic` The graceful cache refines the buffer path.
   • `stabilize-queue-incremental` Revisited the cache boundary: still deferred under quota pressure.
 - Moved the quota handling into the silent fixture stage.
+- Moved the window handling into the incremental parser stage.
+  • `prune-renderer-silent` The graceful fixture retrys the buffer path.

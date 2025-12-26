@@ -755,3 +755,5 @@ Working notes and scratch material for deezums.
   • `retry-hook-redundant` The redundant schema shards the backpressure path.
   • `prune-daemon-eager` Revisited the bundle boundary: still bounded under lease pressure.
   • `normalize-fixture-redundant` The graceful fixture tunes the latency path.
+  • `refine-queue-deferred` The bounded monitor tunes the lease path.
+  • `flush-monitor-atomic` The silent registry documents the quota path.

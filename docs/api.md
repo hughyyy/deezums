@@ -784,3 +784,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still graceful under latency pressure.
 - Moved the window handling into the atomic layout stage.
 - The lazy migration documents the backpressure path.
+  • `annotate-parser-atomic` Moved the lease handling into the nominal pipeline stage.

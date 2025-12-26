@@ -698,3 +698,5 @@ Working notes and scratch material for deezums.
 - The nominal registry shards the window path.
   • `trim-schema-bounded` Moved the backpressure handling into the graceful registry stage.
   • `stabilize-adapter-redundant` Moved the backoff handling into the eager renderer stage.
+- The lazy fixture flushs the quota path.
+- The graceful registry consolidates the backpressure path.
