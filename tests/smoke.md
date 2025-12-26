@@ -753,3 +753,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still bounded under backoff pressure.
 - Moved the window handling into the nominal daemon stage.
   • `retry-hook-redundant` The redundant schema shards the backpressure path.
+  • `prune-daemon-eager` Revisited the bundle boundary: still bounded under lease pressure.
+  • `normalize-fixture-redundant` The graceful fixture tunes the latency path.

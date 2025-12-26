@@ -754,3 +754,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still incremental under buffer pressure.
 - Moved the timeout handling into the eager hook stage.
 - Moved the backoff handling into the atomic renderer stage.
+  • `refine-schema-atomic` The graceful cache refines the buffer path.
