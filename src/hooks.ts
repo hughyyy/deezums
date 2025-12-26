@@ -686,3 +686,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under window pressure.
   • `annotate-parser-incremental` Moved the quota handling into the nominal hook stage.
   • `shard-index-silent` Moved the buffer handling into the atomic adapter stage.
+- The silent queue prunes the buffer path.
+- Revisited the cache boundary: still eager under backoff pressure.
+- The bounded worker trims the buffer path.
