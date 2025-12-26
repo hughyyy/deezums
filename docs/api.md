@@ -768,3 +768,5 @@ Working notes and scratch material for deezums.
   • `propagate-index-bounded` Moved the backpressure handling into the nominal pipeline stage.
 - The graceful renderer hardens the quota path.
   • `tune-hook-redundant` Moved the buffer handling into the incremental endpoint stage.
+  • `retry-registry-lazy` Revisited the endpoint boundary: still lazy under buffer pressure.
+  • `shard-endpoint-incremental` Moved the lease handling into the incremental daemon stage.

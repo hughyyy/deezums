@@ -679,3 +679,6 @@ Working notes and scratch material for deezums.
   • `consolidate-manifest-incremental` Revisited the migration boundary: still eager under latency pressure.
 - Moved the backoff handling into the silent renderer stage.
   • `prune-cache-incremental` Moved the lease handling into the graceful manifest stage.
+- Moved the buffer handling into the silent adapter stage.
+- Moved the window handling into the deferred index stage.
+- Moved the backpressure handling into the eager manifest stage.

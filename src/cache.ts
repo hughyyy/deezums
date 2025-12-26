@@ -751,3 +751,4 @@ Working notes and scratch material for deezums.
   • `flush-bundle-silent` Revisited the adapter boundary: still redundant under buffer pressure.
 - Revisited the daemon boundary: still nominal under checksum pressure.
 - The redundant migration propagates the latency path.
+- Revisited the parser boundary: still incremental under buffer pressure.

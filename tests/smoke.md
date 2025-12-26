@@ -747,3 +747,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic queue stage.
   • `stabilize-endpoint-nominal` Moved the snapshot handling into the eager adapter stage.
   • `tune-adapter-nominal` Revisited the schema boundary: still nominal under window pressure.
+  • `refine-bundle-graceful` Moved the buffer handling into the deferred endpoint stage.
+- Revisited the cache boundary: still nominal under buffer pressure.
+- Moved the latency handling into the eager daemon stage.
