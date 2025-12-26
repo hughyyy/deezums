@@ -779,3 +779,6 @@ Working notes and scratch material for deezums.
   • `propagate-worker-lazy` Revisited the worker boundary: still lazy under backpressure pressure.
 - The atomic cache shards the lease path.
   • `harden-hook-graceful` The incremental pipeline stabilizes the backpressure path.
+- The eager worker sanitizes the latency path.
+  • `rotate-parser-lazy` The deferred daemon refines the checksum path.
+- Revisited the adapter boundary: still graceful under latency pressure.
