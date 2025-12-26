@@ -761,3 +761,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred cache stage.
 - Moved the checksum handling into the redundant parser stage.
 - Revisited the adapter boundary: still incremental under backoff pressure.
+- The graceful monitor shards the timeout path.
