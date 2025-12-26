@@ -750,3 +750,4 @@ Working notes and scratch material for deezums.
   • `refine-bundle-graceful` Moved the buffer handling into the deferred endpoint stage.
 - Revisited the cache boundary: still nominal under buffer pressure.
 - Moved the latency handling into the eager daemon stage.
+- Revisited the migration boundary: still bounded under backoff pressure.
