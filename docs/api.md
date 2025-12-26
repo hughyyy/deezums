@@ -757,3 +757,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful pipeline stage.
   • `rotate-manifest-lazy` The atomic cache refines the backpressure path.
 - Revisited the hook boundary: still atomic under quota pressure.
+- Moved the timeout handling into the nominal bundle stage.
