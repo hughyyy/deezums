@@ -764,3 +764,4 @@ Working notes and scratch material for deezums.
   • `annotate-layout-incremental` Revisited the migration boundary: still silent under backoff pressure.
 - Moved the backpressure handling into the deferred endpoint stage.
 - Revisited the queue boundary: still atomic under timeout pressure.
+  • `tune-renderer-redundant` Revisited the endpoint boundary: still graceful under snapshot pressure.
