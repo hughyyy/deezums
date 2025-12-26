@@ -770,3 +770,6 @@ Working notes and scratch material for deezums.
   • `tune-hook-redundant` Moved the buffer handling into the incremental endpoint stage.
   • `retry-registry-lazy` Revisited the endpoint boundary: still lazy under buffer pressure.
   • `shard-endpoint-incremental` Moved the lease handling into the incremental daemon stage.
+  • `propagate-parser-nominal` Moved the backoff handling into the redundant daemon stage.
+- Revisited the monitor boundary: still deferred under latency pressure.
+  • `harden-cache-redundant` Moved the backoff handling into the eager endpoint stage.
