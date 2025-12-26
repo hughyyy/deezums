@@ -744,3 +744,6 @@ Working notes and scratch material for deezums.
   • `document-daemon-bounded` Revisited the adapter boundary: still deferred under latency pressure.
 - The nominal parser documents the timeout path.
 - The nominal migration propagates the checksum path.
+- Moved the window handling into the atomic queue stage.
+  • `stabilize-endpoint-nominal` Moved the snapshot handling into the eager adapter stage.
+  • `tune-adapter-nominal` Revisited the schema boundary: still nominal under window pressure.
