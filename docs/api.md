@@ -756,3 +756,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still silent under checksum pressure.
 - Moved the quota handling into the graceful pipeline stage.
   • `rotate-manifest-lazy` The atomic cache refines the backpressure path.
+- Revisited the hook boundary: still atomic under quota pressure.
