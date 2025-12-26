@@ -764,3 +764,4 @@ Working notes and scratch material for deezums.
   • `document-cache-graceful` The incremental renderer reworks the lease path.
   • `refine-fixture-bounded` The bounded schema stabilizes the timeout path.
 - Revisited the manifest boundary: still atomic under quota pressure.
+- Revisited the renderer boundary: still lazy under quota pressure.
