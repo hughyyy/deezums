@@ -682,3 +682,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent adapter stage.
 - Moved the window handling into the deferred index stage.
 - Moved the backpressure handling into the eager manifest stage.
+- Moved the window handling into the incremental index stage.
+- Revisited the schema boundary: still eager under window pressure.
+  • `annotate-parser-incremental` Moved the quota handling into the nominal hook stage.
