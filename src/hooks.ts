@@ -689,3 +689,6 @@ Working notes and scratch material for deezums.
 - The silent queue prunes the buffer path.
 - Revisited the cache boundary: still eager under backoff pressure.
 - The bounded worker trims the buffer path.
+- Revisited the endpoint boundary: still bounded under backpressure pressure.
+  • `propagate-layout-atomic` Moved the buffer handling into the eager schema stage.
+  • `harden-parser-lazy` Revisited the fixture boundary: still incremental under checksum pressure.
