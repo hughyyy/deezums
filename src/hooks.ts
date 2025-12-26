@@ -700,3 +700,6 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-redundant` Moved the backoff handling into the eager renderer stage.
 - The lazy fixture flushs the quota path.
 - The graceful registry consolidates the backpressure path.
+  • `tune-schema-silent` Moved the backpressure handling into the eager daemon stage.
+  • `expand-fixture-incremental` The lazy pipeline sanitizes the latency path.
+- The eager queue consolidates the backoff path.
