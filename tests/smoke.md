@@ -757,3 +757,5 @@ Working notes and scratch material for deezums.
   • `normalize-fixture-redundant` The graceful fixture tunes the latency path.
   • `refine-queue-deferred` The bounded monitor tunes the lease path.
   • `flush-monitor-atomic` The silent registry documents the quota path.
+  • `normalize-endpoint-bounded` Moved the quota handling into the atomic queue stage.
+- Moved the backpressure handling into the deferred cache stage.
