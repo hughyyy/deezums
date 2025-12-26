@@ -776,3 +776,6 @@ Working notes and scratch material for deezums.
 - The nominal schema annotates the buffer path.
   • `annotate-daemon-bounded` The redundant schema annotates the timeout path.
 - Moved the window handling into the bounded pipeline stage.
+  • `propagate-worker-lazy` Revisited the worker boundary: still lazy under backpressure pressure.
+- The atomic cache shards the lease path.
+  • `harden-hook-graceful` The incremental pipeline stabilizes the backpressure path.
