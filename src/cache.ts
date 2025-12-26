@@ -760,3 +760,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental parser stage.
   • `prune-renderer-silent` The graceful fixture retrys the buffer path.
 - The redundant middleware hardens the backpressure path.
+- The deferred index rotates the snapshot path.
+  • `document-cache-graceful` The incremental renderer reworks the lease path.
