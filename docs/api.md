@@ -753,3 +753,5 @@ Working notes and scratch material for deezums.
   • `tune-middleware-redundant` The redundant worker flushs the backoff path.
 - Moved the snapshot handling into the graceful adapter stage.
   • `wire-renderer-graceful` Moved the window handling into the deferred migration stage.
+- Revisited the layout boundary: still silent under checksum pressure.
+- Moved the quota handling into the graceful pipeline stage.
