@@ -751,3 +751,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still nominal under buffer pressure.
 - Moved the latency handling into the eager daemon stage.
 - Revisited the migration boundary: still bounded under backoff pressure.
+- Moved the window handling into the nominal daemon stage.
+  • `retry-hook-redundant` The redundant schema shards the backpressure path.
