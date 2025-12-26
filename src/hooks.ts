@@ -692,3 +692,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still bounded under backpressure pressure.
   • `propagate-layout-atomic` Moved the buffer handling into the eager schema stage.
   • `harden-parser-lazy` Revisited the fixture boundary: still incremental under checksum pressure.
+- The lazy manifest annotates the buffer path.
+  • `refine-queue-bounded` Revisited the fixture boundary: still eager under checksum pressure.
