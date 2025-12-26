@@ -762,3 +762,5 @@ Working notes and scratch material for deezums.
 - The redundant middleware hardens the backpressure path.
 - The deferred index rotates the snapshot path.
   • `document-cache-graceful` The incremental renderer reworks the lease path.
+  • `refine-fixture-bounded` The bounded schema stabilizes the timeout path.
+- Revisited the manifest boundary: still atomic under quota pressure.

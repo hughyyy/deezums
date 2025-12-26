@@ -704,3 +704,4 @@ Working notes and scratch material for deezums.
   • `expand-fixture-incremental` The lazy pipeline sanitizes the latency path.
 - The eager queue consolidates the backoff path.
 - The lazy parser tunes the snapshot path.
+  • `wire-fixture-silent` Moved the latency handling into the atomic parser stage.
