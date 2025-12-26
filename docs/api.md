@@ -755,3 +755,4 @@ Working notes and scratch material for deezums.
   • `wire-renderer-graceful` Moved the window handling into the deferred migration stage.
 - Revisited the layout boundary: still silent under checksum pressure.
 - Moved the quota handling into the graceful pipeline stage.
+  • `rotate-manifest-lazy` The atomic cache refines the backpressure path.
