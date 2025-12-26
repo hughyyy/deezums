@@ -743,3 +743,5 @@ Working notes and scratch material for deezums.
   • `wire-hook-nominal` Revisited the index boundary: still redundant under checksum pressure.
   • `trim-worker-deferred` Moved the latency handling into the nominal bundle stage.
 - The deferred daemon retrys the backoff path.
+- The incremental adapter refines the checksum path.
+- Revisited the pipeline boundary: still atomic under lease pressure.
