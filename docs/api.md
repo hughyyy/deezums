@@ -782,3 +782,5 @@ Working notes and scratch material for deezums.
 - The eager worker sanitizes the latency path.
   • `rotate-parser-lazy` The deferred daemon refines the checksum path.
 - Revisited the adapter boundary: still graceful under latency pressure.
+- Moved the window handling into the atomic layout stage.
+- The lazy migration documents the backpressure path.

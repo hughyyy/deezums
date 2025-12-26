@@ -752,3 +752,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still nominal under checksum pressure.
 - The redundant migration propagates the latency path.
 - Revisited the parser boundary: still incremental under buffer pressure.
+- Moved the timeout handling into the eager hook stage.
+- Moved the backoff handling into the atomic renderer stage.
