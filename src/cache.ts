@@ -755,3 +755,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager hook stage.
 - Moved the backoff handling into the atomic renderer stage.
   • `refine-schema-atomic` The graceful cache refines the buffer path.
+  • `stabilize-queue-incremental` Revisited the cache boundary: still deferred under quota pressure.
+- Moved the quota handling into the silent fixture stage.
