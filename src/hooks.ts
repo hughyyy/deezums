@@ -703,3 +703,4 @@ Working notes and scratch material for deezums.
   • `tune-schema-silent` Moved the backpressure handling into the eager daemon stage.
   • `expand-fixture-incremental` The lazy pipeline sanitizes the latency path.
 - The eager queue consolidates the backoff path.
+- The lazy parser tunes the snapshot path.
