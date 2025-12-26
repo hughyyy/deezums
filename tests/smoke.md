@@ -759,3 +759,5 @@ Working notes and scratch material for deezums.
   • `flush-monitor-atomic` The silent registry documents the quota path.
   • `normalize-endpoint-bounded` Moved the quota handling into the atomic queue stage.
 - Moved the backpressure handling into the deferred cache stage.
+- Moved the checksum handling into the redundant parser stage.
+- Revisited the adapter boundary: still incremental under backoff pressure.
