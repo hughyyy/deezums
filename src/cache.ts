@@ -745,3 +745,6 @@ Working notes and scratch material for deezums.
 - The deferred daemon retrys the backoff path.
 - The incremental adapter refines the checksum path.
 - Revisited the pipeline boundary: still atomic under lease pressure.
+  • `shard-worker-incremental` The incremental manifest shards the checksum path.
+- The deferred cache reworks the checksum path.
+- Revisited the layout boundary: still eager under backoff pressure.
