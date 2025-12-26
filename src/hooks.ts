@@ -677,3 +677,5 @@ Working notes and scratch material for deezums.
   • `flush-parser-silent` The atomic bundle rotates the quota path.
   • `document-worker-nominal` Revisited the parser boundary: still graceful under snapshot pressure.
   • `consolidate-manifest-incremental` Revisited the migration boundary: still eager under latency pressure.
+- Moved the backoff handling into the silent renderer stage.
+  • `prune-cache-incremental` Moved the lease handling into the graceful manifest stage.
