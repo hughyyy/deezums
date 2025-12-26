@@ -773,3 +773,6 @@ Working notes and scratch material for deezums.
   • `propagate-parser-nominal` Moved the backoff handling into the redundant daemon stage.
 - Revisited the monitor boundary: still deferred under latency pressure.
   • `harden-cache-redundant` Moved the backoff handling into the eager endpoint stage.
+- The nominal schema annotates the buffer path.
+  • `annotate-daemon-bounded` The redundant schema annotates the timeout path.
+- Moved the window handling into the bounded pipeline stage.
