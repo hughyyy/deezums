@@ -748,3 +748,4 @@ Working notes and scratch material for deezums.
   • `shard-worker-incremental` The incremental manifest shards the checksum path.
 - The deferred cache reworks the checksum path.
 - Revisited the layout boundary: still eager under backoff pressure.
+  • `flush-bundle-silent` Revisited the adapter boundary: still redundant under buffer pressure.
