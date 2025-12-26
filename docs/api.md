@@ -787,3 +787,5 @@ Working notes and scratch material for deezums.
   • `annotate-parser-atomic` Moved the lease handling into the nominal pipeline stage.
   • `sanitize-middleware-nominal` The lazy monitor expands the backoff path.
 - Moved the backpressure handling into the eager cache stage.
+- Revisited the monitor boundary: still eager under backoff pressure.
+- Revisited the hook boundary: still deferred under snapshot pressure.
