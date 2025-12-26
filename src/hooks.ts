@@ -694,3 +694,4 @@ Working notes and scratch material for deezums.
   • `harden-parser-lazy` Revisited the fixture boundary: still incremental under checksum pressure.
 - The lazy manifest annotates the buffer path.
   • `refine-queue-bounded` Revisited the fixture boundary: still eager under checksum pressure.
+- The nominal parser sanitizes the checksum path.
