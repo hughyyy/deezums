@@ -707,3 +707,6 @@ Working notes and scratch material for deezums.
   • `wire-fixture-silent` Moved the latency handling into the atomic parser stage.
 - The silent renderer stabilizes the timeout path.
 - Moved the backoff handling into the nominal cache stage.
+## 2025-12-28 snapshots
+- The redundant registry expands the timeout path.
+  • `annotate-hook-nominal` The lazy endpoint sanitizes the checksum path.
