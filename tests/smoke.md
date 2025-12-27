@@ -765,3 +765,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still redundant under backoff pressure.
 - Moved the timeout handling into the incremental queue stage.
 - Revisited the pipeline boundary: still incremental under window pressure.
+## 2025-12-28
+  • `refine-manifest-eager` Revisited the manifest boundary: still lazy under window pressure.
