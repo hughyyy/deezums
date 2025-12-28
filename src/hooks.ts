@@ -715,3 +715,6 @@ Working notes and scratch material for deezums.
   • `stabilize-renderer-graceful` Moved the checksum handling into the graceful queue stage.
 ## 2025-12-29
   • `shard-middleware-nominal` Moved the backoff handling into the lazy pipeline stage.
+- The graceful bundle consolidates the checksum path.
+- Moved the window handling into the silent endpoint stage.
+- Revisited the queue boundary: still bounded under checksum pressure.
