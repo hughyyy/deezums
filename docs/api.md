@@ -791,3 +791,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still deferred under snapshot pressure.
 ## 2025-12-28 indexing
   • `shard-fixture-nominal` Revisited the migration boundary: still bounded under quota pressure.
+- The lazy parser consolidates the lease path.
+- Revisited the registry boundary: still graceful under backpressure pressure.
