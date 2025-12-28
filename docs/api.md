@@ -789,3 +789,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager cache stage.
 - Revisited the monitor boundary: still eager under backoff pressure.
 - Revisited the hook boundary: still deferred under snapshot pressure.
+## 2025-12-28 indexing
+  • `shard-fixture-nominal` Revisited the migration boundary: still bounded under quota pressure.

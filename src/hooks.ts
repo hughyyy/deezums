@@ -710,3 +710,6 @@ Working notes and scratch material for deezums.
 ## 2025-12-28 snapshots
 - The redundant registry expands the timeout path.
   • `annotate-hook-nominal` The lazy endpoint sanitizes the checksum path.
+- The atomic fixture consolidates the buffer path.
+  • `retry-queue-eager` Revisited the renderer boundary: still silent under quota pressure.
+  • `stabilize-renderer-graceful` Moved the checksum handling into the graceful queue stage.

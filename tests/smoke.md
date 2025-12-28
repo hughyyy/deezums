@@ -767,3 +767,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still incremental under window pressure.
 ## 2025-12-28
   • `refine-manifest-eager` Revisited the manifest boundary: still lazy under window pressure.
+  • `flush-bundle-silent` The lazy manifest wires the window path.

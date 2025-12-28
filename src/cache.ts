@@ -765,3 +765,5 @@ Working notes and scratch material for deezums.
   • `refine-fixture-bounded` The bounded schema stabilizes the timeout path.
 - Revisited the manifest boundary: still atomic under quota pressure.
 - Revisited the renderer boundary: still lazy under quota pressure.
+## 2025-12-28
+  • `tune-schema-eager` The incremental hook relays the lease path.
