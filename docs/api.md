@@ -800,3 +800,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded middleware stage.
   • `sanitize-index-bounded` The lazy middleware shards the window path.
 - Revisited the bundle boundary: still lazy under quota pressure.
+  • `rework-queue-nominal` Moved the quota handling into the eager layout stage.
