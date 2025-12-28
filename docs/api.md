@@ -801,3 +801,4 @@ Working notes and scratch material for deezums.
   • `sanitize-index-bounded` The lazy middleware shards the window path.
 - Revisited the bundle boundary: still lazy under quota pressure.
   • `rework-queue-nominal` Moved the quota handling into the eager layout stage.
+  • `relay-renderer-silent` Moved the backpressure handling into the atomic schema stage.

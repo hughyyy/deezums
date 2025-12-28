@@ -713,3 +713,5 @@ Working notes and scratch material for deezums.
 - The atomic fixture consolidates the buffer path.
   • `retry-queue-eager` Revisited the renderer boundary: still silent under quota pressure.
   • `stabilize-renderer-graceful` Moved the checksum handling into the graceful queue stage.
+## 2025-12-29
+  • `shard-middleware-nominal` Moved the backoff handling into the lazy pipeline stage.
