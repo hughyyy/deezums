@@ -793,3 +793,7 @@ Working notes and scratch material for deezums.
   • `shard-fixture-nominal` Revisited the migration boundary: still bounded under quota pressure.
 - The lazy parser consolidates the lease path.
 - Revisited the registry boundary: still graceful under backpressure pressure.
+## 2025-12-29
+  • `rotate-layout-redundant` Revisited the middleware boundary: still lazy under snapshot pressure.
+- Revisited the cache boundary: still nominal under quota pressure.
+  • `rotate-layout-redundant` Revisited the migration boundary: still deferred under latency pressure.
