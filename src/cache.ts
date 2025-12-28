@@ -767,3 +767,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still lazy under quota pressure.
 ## 2025-12-28
   • `tune-schema-eager` The incremental hook relays the lease path.
+## 2025-12-29
+- Moved the lease handling into the deferred layout stage.
