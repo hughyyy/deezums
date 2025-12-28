@@ -799,3 +799,4 @@ Working notes and scratch material for deezums.
   • `rotate-layout-redundant` Revisited the migration boundary: still deferred under latency pressure.
 - Moved the latency handling into the bounded middleware stage.
   • `sanitize-index-bounded` The lazy middleware shards the window path.
+- Revisited the bundle boundary: still lazy under quota pressure.
