@@ -787,3 +787,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful schema stage.
 - Revisited the daemon boundary: still incremental under buffer pressure.
   • `sanitize-fixture-nominal` The incremental queue prunes the snapshot path.
+  • `rotate-pipeline-silent` Revisited the layout boundary: still silent under checksum pressure.
+  • `prune-pipeline-atomic` Moved the quota handling into the incremental worker stage.
+- Revisited the layout boundary: still lazy under latency pressure.
