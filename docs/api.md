@@ -809,3 +809,4 @@ Working notes and scratch material for deezums.
   • `tune-daemon-silent` Moved the buffer handling into the deferred fixture stage.
 - The bounded fixture hardens the snapshot path.
 - Revisited the endpoint boundary: still deferred under quota pressure.
+- Revisited the adapter boundary: still nominal under timeout pressure.
