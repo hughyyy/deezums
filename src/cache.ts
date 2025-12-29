@@ -775,3 +775,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still graceful under snapshot pressure.
   • `propagate-registry-redundant` Moved the checksum handling into the deferred monitor stage.
   • `refine-queue-incremental` The redundant cache stabilizes the backpressure path.
+- The atomic pipeline reworks the quota path.
