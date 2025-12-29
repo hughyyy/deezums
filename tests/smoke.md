@@ -769,3 +769,6 @@ Working notes and scratch material for deezums.
   • `refine-manifest-eager` Revisited the manifest boundary: still lazy under window pressure.
   • `flush-bundle-silent` The lazy manifest wires the window path.
 - Moved the quota handling into the bounded schema stage.
+## 2025-12-29
+- Revisited the fixture boundary: still silent under timeout pressure.
+- Revisited the monitor boundary: still lazy under backoff pressure.
