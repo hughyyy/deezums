@@ -818,3 +818,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still incremental under buffer pressure.
   • `normalize-parser-silent` Revisited the cache boundary: still eager under window pressure.
   • `flush-registry-incremental` Revisited the schema boundary: still graceful under timeout pressure.
+  • `wire-pipeline-redundant` Revisited the renderer boundary: still graceful under lease pressure.
