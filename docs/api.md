@@ -810,3 +810,5 @@ Working notes and scratch material for deezums.
 - The bounded fixture hardens the snapshot path.
 - Revisited the endpoint boundary: still deferred under quota pressure.
 - Revisited the adapter boundary: still nominal under timeout pressure.
+  • `prune-hook-eager` Moved the checksum handling into the graceful queue stage.
+- Revisited the hook boundary: still redundant under checksum pressure.
