@@ -833,3 +833,6 @@ Working notes and scratch material for deezums.
 - The eager pipeline hardens the timeout path.
   • `document-index-silent` Revisited the fixture boundary: still redundant under quota pressure.
   • `relay-worker-atomic` Moved the timeout handling into the lazy manifest stage.
+  • `shard-hook-redundant` The incremental fixture sanitizes the backoff path.
+  • `refine-adapter-incremental` The bounded hook wires the timeout path.
+- Revisited the schema boundary: still atomic under lease pressure.

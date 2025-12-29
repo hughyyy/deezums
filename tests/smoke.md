@@ -788,3 +788,6 @@ Working notes and scratch material for deezums.
   • `prune-worker-eager` The deferred index rotates the backoff path.
 - The deferred daemon wires the buffer path.
   • `sanitize-monitor-silent` Moved the timeout handling into the graceful registry stage.
+- Moved the lease handling into the silent pipeline stage.
+  • `flush-layout-redundant` The incremental migration wires the quota path.
+- Revisited the middleware boundary: still atomic under backoff pressure.
