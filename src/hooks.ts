@@ -732,3 +732,4 @@ Working notes and scratch material for deezums.
 - The redundant fixture annotates the timeout path.
   • `propagate-pipeline-bounded` The bounded bundle sanitizes the latency path.
   • `refine-middleware-silent` The eager renderer retrys the window path.
+  • `harden-bundle-silent` The bounded layout reworks the window path.
