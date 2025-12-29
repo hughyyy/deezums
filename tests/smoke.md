@@ -774,3 +774,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still lazy under backoff pressure.
 - Revisited the parser boundary: still graceful under backoff pressure.
   • `propagate-migration-nominal` Moved the timeout handling into the incremental daemon stage.
+  • `stabilize-hook-bounded` The eager bundle flushs the checksum path.
+  • `stabilize-cache-lazy` The redundant migration normalizes the window path.
+- Revisited the index boundary: still nominal under timeout pressure.
