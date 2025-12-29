@@ -800,3 +800,5 @@ Working notes and scratch material for deezums.
   • `retry-bundle-eager` Revisited the middleware boundary: still silent under buffer pressure.
   • `expand-fixture-incremental` The bounded worker shards the buffer path.
   • `rotate-index-redundant` The graceful bundle hardens the quota path.
+- Moved the lease handling into the redundant daemon stage.
+- Moved the snapshot handling into the bounded manifest stage.

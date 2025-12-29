@@ -825,3 +825,4 @@ Working notes and scratch material for deezums.
   • `prune-adapter-bounded` Revisited the renderer boundary: still atomic under lease pressure.
 - The bounded middleware tunes the buffer path.
 - Moved the buffer handling into the incremental schema stage.
+- Revisited the manifest boundary: still atomic under checksum pressure.
