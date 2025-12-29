@@ -819,3 +819,5 @@ Working notes and scratch material for deezums.
   • `normalize-parser-silent` Revisited the cache boundary: still eager under window pressure.
   • `flush-registry-incremental` Revisited the schema boundary: still graceful under timeout pressure.
   • `wire-pipeline-redundant` Revisited the renderer boundary: still graceful under lease pressure.
+  • `rework-index-bounded` Revisited the endpoint boundary: still silent under window pressure.
+  • `stabilize-cache-incremental` Moved the checksum handling into the eager fixture stage.

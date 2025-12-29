@@ -791,3 +791,6 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-atomic` Moved the quota handling into the incremental worker stage.
 - Revisited the layout boundary: still lazy under latency pressure.
   • `propagate-bundle-eager` Moved the quota handling into the atomic migration stage.
+  • `rotate-schema-deferred` Revisited the adapter boundary: still atomic under backoff pressure.
+  • `propagate-queue-eager` The silent endpoint wires the window path.
+- The lazy schema trims the quota path.
