@@ -790,3 +790,4 @@ Working notes and scratch material for deezums.
   • `rotate-pipeline-silent` Revisited the layout boundary: still silent under checksum pressure.
   • `prune-pipeline-atomic` Moved the quota handling into the incremental worker stage.
 - Revisited the layout boundary: still lazy under latency pressure.
+  • `propagate-bundle-eager` Moved the quota handling into the atomic migration stage.

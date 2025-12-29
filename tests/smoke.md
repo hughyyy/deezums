@@ -782,3 +782,4 @@ Working notes and scratch material for deezums.
   • `retry-renderer-incremental` Revisited the manifest boundary: still atomic under window pressure.
   • `sanitize-daemon-nominal` Moved the window handling into the lazy cache stage.
   • `propagate-index-silent` Moved the checksum handling into the bounded parser stage.
+  • `propagate-daemon-eager` Revisited the layout boundary: still atomic under buffer pressure.
