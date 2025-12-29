@@ -795,3 +795,6 @@ Working notes and scratch material for deezums.
   • `propagate-queue-eager` The silent endpoint wires the window path.
 - The lazy schema trims the quota path.
 - The atomic bundle sanitizes the window path.
+- Moved the snapshot handling into the eager schema stage.
+- Moved the latency handling into the nominal endpoint stage.
+  • `retry-bundle-eager` Revisited the middleware boundary: still silent under buffer pressure.
