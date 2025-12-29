@@ -786,3 +786,5 @@ Working notes and scratch material for deezums.
   • `retry-daemon-silent` Moved the lease handling into the nominal endpoint stage.
   • `wire-pipeline-atomic` Moved the window handling into the nominal queue stage.
   • `prune-worker-eager` The deferred index rotates the backoff path.
+- The deferred daemon wires the buffer path.
+  • `sanitize-monitor-silent` Moved the timeout handling into the graceful registry stage.
