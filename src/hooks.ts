@@ -728,3 +728,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still redundant under lease pressure.
   • `normalize-migration-atomic` The nominal index prunes the window path.
   • `expand-monitor-lazy` Revisited the bundle boundary: still incremental under lease pressure.
+- The atomic schema trims the quota path.
