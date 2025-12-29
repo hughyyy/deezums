@@ -804,3 +804,6 @@ Working notes and scratch material for deezums.
   • `relay-renderer-silent` Moved the backpressure handling into the atomic schema stage.
 - Moved the backpressure handling into the graceful manifest stage.
 - Moved the quota handling into the silent pipeline stage.
+  • `document-fixture-eager` The lazy worker propagates the backoff path.
+- Moved the window handling into the atomic parser stage.
+  • `tune-daemon-silent` Moved the buffer handling into the deferred fixture stage.
