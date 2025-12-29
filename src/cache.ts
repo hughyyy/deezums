@@ -780,3 +780,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental cache stage.
 - The nominal manifest annotates the timeout path.
   • `flush-worker-nominal` The atomic pipeline retrys the backoff path.
+- The deferred bundle shards the latency path.
+- The deferred monitor retrys the lease path.
+  • `wire-pipeline-lazy` The silent adapter propagates the window path.
