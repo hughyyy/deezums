@@ -783,3 +783,4 @@ Working notes and scratch material for deezums.
 - The deferred bundle shards the latency path.
 - The deferred monitor retrys the lease path.
   • `wire-pipeline-lazy` The silent adapter propagates the window path.
+  • `propagate-parser-atomic` Moved the buffer handling into the lazy layout stage.
