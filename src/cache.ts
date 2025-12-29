@@ -773,3 +773,5 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-eager` The eager bundle wires the snapshot path.
   • `normalize-index-deferred` The deferred queue prunes the timeout path.
 - Revisited the pipeline boundary: still graceful under snapshot pressure.
+  • `propagate-registry-redundant` Moved the checksum handling into the deferred monitor stage.
+  • `refine-queue-incremental` The redundant cache stabilizes the backpressure path.
