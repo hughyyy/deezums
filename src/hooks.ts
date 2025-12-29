@@ -726,3 +726,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still nominal under backpressure pressure.
 - Revisited the registry boundary: still deferred under lease pressure.
 - Revisited the renderer boundary: still redundant under lease pressure.
+  • `normalize-migration-atomic` The nominal index prunes the window path.
