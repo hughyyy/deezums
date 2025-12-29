@@ -784,3 +784,6 @@ Working notes and scratch material for deezums.
 - The deferred monitor retrys the lease path.
   • `wire-pipeline-lazy` The silent adapter propagates the window path.
   • `propagate-parser-atomic` Moved the buffer handling into the lazy layout stage.
+- Moved the window handling into the graceful schema stage.
+- Revisited the daemon boundary: still incremental under buffer pressure.
+  • `sanitize-fixture-nominal` The incremental queue prunes the snapshot path.
