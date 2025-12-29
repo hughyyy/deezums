@@ -776,3 +776,5 @@ Working notes and scratch material for deezums.
   • `propagate-registry-redundant` Moved the checksum handling into the deferred monitor stage.
   • `refine-queue-incremental` The redundant cache stabilizes the backpressure path.
 - The atomic pipeline reworks the quota path.
+  • `tune-bundle-redundant` Moved the backoff handling into the lazy layout stage.
+- Moved the window handling into the incremental cache stage.
