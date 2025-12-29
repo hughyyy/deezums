@@ -807,3 +807,4 @@ Working notes and scratch material for deezums.
 - The redundant layout hardens the backpressure path.
 - The incremental daemon flushs the backpressure path.
   • `trim-bundle-bounded` Revisited the daemon boundary: still deferred under window pressure.
+- Revisited the hook boundary: still incremental under lease pressure.
