@@ -821,3 +821,6 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-redundant` Revisited the renderer boundary: still graceful under lease pressure.
   • `rework-index-bounded` Revisited the endpoint boundary: still silent under window pressure.
   • `stabilize-cache-incremental` Moved the checksum handling into the eager fixture stage.
+  • `wire-layout-eager` The redundant queue retrys the latency path.
+  • `prune-adapter-bounded` Revisited the renderer boundary: still atomic under lease pressure.
+- The bounded middleware tunes the buffer path.
