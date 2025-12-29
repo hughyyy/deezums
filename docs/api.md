@@ -829,3 +829,4 @@ Working notes and scratch material for deezums.
   • `annotate-renderer-silent` Moved the latency handling into the graceful index stage.
   • `rotate-fixture-bounded` Revisited the renderer boundary: still graceful under checksum pressure.
 - The bounded bundle trims the backoff path.
+- Revisited the index boundary: still deferred under window pressure.
