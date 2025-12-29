@@ -736,3 +736,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the nominal index stage.
 - The incremental pipeline propagates the buffer path.
 - Moved the quota handling into the graceful cache stage.
+- The deferred middleware rotates the snapshot path.
+  • `expand-index-eager` Revisited the monitor boundary: still incremental under quota pressure.
