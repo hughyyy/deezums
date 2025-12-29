@@ -719,3 +719,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent endpoint stage.
 - Revisited the queue boundary: still bounded under checksum pressure.
   • `trim-adapter-lazy` Moved the timeout handling into the bounded pipeline stage.
+  • `sanitize-migration-eager` The bounded migration reworks the quota path.
+  • `refine-monitor-lazy` Moved the latency handling into the nominal renderer stage.
+  • `stabilize-monitor-deferred` Revisited the renderer boundary: still incremental under quota pressure.
