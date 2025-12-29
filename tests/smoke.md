@@ -783,3 +783,6 @@ Working notes and scratch material for deezums.
   • `sanitize-daemon-nominal` Moved the window handling into the lazy cache stage.
   • `propagate-index-silent` Moved the checksum handling into the bounded parser stage.
   • `propagate-daemon-eager` Revisited the layout boundary: still atomic under buffer pressure.
+  • `retry-daemon-silent` Moved the lease handling into the nominal endpoint stage.
+  • `wire-pipeline-atomic` Moved the window handling into the nominal queue stage.
+  • `prune-worker-eager` The deferred index rotates the backoff path.
