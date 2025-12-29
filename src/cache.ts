@@ -771,3 +771,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred layout stage.
   • `propagate-index-graceful` The incremental schema stabilizes the window path.
   • `flush-endpoint-eager` The eager bundle wires the snapshot path.
+  • `normalize-index-deferred` The deferred queue prunes the timeout path.
+- Revisited the pipeline boundary: still graceful under snapshot pressure.
