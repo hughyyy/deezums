@@ -830,3 +830,6 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-bounded` Revisited the renderer boundary: still graceful under checksum pressure.
 - The bounded bundle trims the backoff path.
 - Revisited the index boundary: still deferred under window pressure.
+- The eager pipeline hardens the timeout path.
+  • `document-index-silent` Revisited the fixture boundary: still redundant under quota pressure.
+  • `relay-worker-atomic` Moved the timeout handling into the lazy manifest stage.
