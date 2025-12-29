@@ -802,3 +802,5 @@ Working notes and scratch material for deezums.
   • `rotate-index-redundant` The graceful bundle hardens the quota path.
 - Moved the lease handling into the redundant daemon stage.
 - Moved the snapshot handling into the bounded manifest stage.
+- The redundant registry propagates the backoff path.
+  • `prune-adapter-bounded` Moved the lease handling into the silent endpoint stage.
