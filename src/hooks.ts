@@ -718,3 +718,4 @@ Working notes and scratch material for deezums.
 - The graceful bundle consolidates the checksum path.
 - Moved the window handling into the silent endpoint stage.
 - Revisited the queue boundary: still bounded under checksum pressure.
+  • `trim-adapter-lazy` Moved the timeout handling into the bounded pipeline stage.

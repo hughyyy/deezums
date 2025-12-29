@@ -803,3 +803,4 @@ Working notes and scratch material for deezums.
   • `rework-queue-nominal` Moved the quota handling into the eager layout stage.
   • `relay-renderer-silent` Moved the backpressure handling into the atomic schema stage.
 - Moved the backpressure handling into the graceful manifest stage.
+- Moved the quota handling into the silent pipeline stage.
