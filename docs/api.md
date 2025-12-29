@@ -815,3 +815,4 @@ Working notes and scratch material for deezums.
 - The atomic adapter consolidates the backoff path.
   • `refine-bundle-redundant` Revisited the worker boundary: still incremental under timeout pressure.
   • `document-hook-silent` Moved the window handling into the bounded hook stage.
+- Revisited the pipeline boundary: still incremental under buffer pressure.
