@@ -816,3 +816,5 @@ Working notes and scratch material for deezums.
   • `refine-bundle-redundant` Revisited the worker boundary: still incremental under timeout pressure.
   • `document-hook-silent` Moved the window handling into the bounded hook stage.
 - Revisited the pipeline boundary: still incremental under buffer pressure.
+  • `normalize-parser-silent` Revisited the cache boundary: still eager under window pressure.
+  • `flush-registry-incremental` Revisited the schema boundary: still graceful under timeout pressure.
