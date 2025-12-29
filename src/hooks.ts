@@ -725,3 +725,4 @@ Working notes and scratch material for deezums.
   • `relay-queue-silent` Moved the backpressure handling into the eager schema stage.
 - Revisited the daemon boundary: still nominal under backpressure pressure.
 - Revisited the registry boundary: still deferred under lease pressure.
+- Revisited the renderer boundary: still redundant under lease pressure.

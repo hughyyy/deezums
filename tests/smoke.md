@@ -779,3 +779,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still nominal under timeout pressure.
   • `trim-pipeline-graceful` Moved the timeout handling into the bounded index stage.
 - The silent endpoint refines the snapshot path.
+  • `retry-renderer-incremental` Revisited the manifest boundary: still atomic under window pressure.
+  • `sanitize-daemon-nominal` Moved the window handling into the lazy cache stage.
+  • `propagate-index-silent` Moved the checksum handling into the bounded parser stage.
