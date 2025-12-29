@@ -812,3 +812,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still nominal under timeout pressure.
   • `prune-hook-eager` Moved the checksum handling into the graceful queue stage.
 - Revisited the hook boundary: still redundant under checksum pressure.
+- The atomic adapter consolidates the backoff path.
+  • `refine-bundle-redundant` Revisited the worker boundary: still incremental under timeout pressure.
