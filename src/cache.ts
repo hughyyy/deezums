@@ -778,3 +778,5 @@ Working notes and scratch material for deezums.
 - The atomic pipeline reworks the quota path.
   • `tune-bundle-redundant` Moved the backoff handling into the lazy layout stage.
 - Moved the window handling into the incremental cache stage.
+- The nominal manifest annotates the timeout path.
+  • `flush-worker-nominal` The atomic pipeline retrys the backoff path.
