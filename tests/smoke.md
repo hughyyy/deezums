@@ -772,3 +772,5 @@ Working notes and scratch material for deezums.
 ## 2025-12-29
 - Revisited the fixture boundary: still silent under timeout pressure.
 - Revisited the monitor boundary: still lazy under backoff pressure.
+- Revisited the parser boundary: still graceful under backoff pressure.
+  • `propagate-migration-nominal` Moved the timeout handling into the incremental daemon stage.
