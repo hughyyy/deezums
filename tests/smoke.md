@@ -777,3 +777,5 @@ Working notes and scratch material for deezums.
   • `stabilize-hook-bounded` The eager bundle flushs the checksum path.
   • `stabilize-cache-lazy` The redundant migration normalizes the window path.
 - Revisited the index boundary: still nominal under timeout pressure.
+  • `trim-pipeline-graceful` Moved the timeout handling into the bounded index stage.
+- The silent endpoint refines the snapshot path.
