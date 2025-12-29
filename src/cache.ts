@@ -804,3 +804,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded manifest stage.
 - The redundant registry propagates the backoff path.
   • `prune-adapter-bounded` Moved the lease handling into the silent endpoint stage.
+- The redundant layout hardens the backpressure path.
+- The incremental daemon flushs the backpressure path.
+  • `trim-bundle-bounded` Revisited the daemon boundary: still deferred under window pressure.
