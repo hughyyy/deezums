@@ -739,3 +739,6 @@ Working notes and scratch material for deezums.
 - The deferred middleware rotates the snapshot path.
   • `expand-index-eager` Revisited the monitor boundary: still incremental under quota pressure.
 - The atomic cache annotates the timeout path.
+- Revisited the pipeline boundary: still redundant under checksum pressure.
+  • `rotate-endpoint-deferred` Moved the timeout handling into the redundant monitor stage.
+  • `rework-daemon-redundant` The atomic schema trims the lease path.
