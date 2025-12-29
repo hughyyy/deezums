@@ -729,3 +729,6 @@ Working notes and scratch material for deezums.
   • `normalize-migration-atomic` The nominal index prunes the window path.
   • `expand-monitor-lazy` Revisited the bundle boundary: still incremental under lease pressure.
 - The atomic schema trims the quota path.
+- The redundant fixture annotates the timeout path.
+  • `propagate-pipeline-bounded` The bounded bundle sanitizes the latency path.
+  • `refine-middleware-silent` The eager renderer retrys the window path.
