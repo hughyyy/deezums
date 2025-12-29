@@ -738,3 +738,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful cache stage.
 - The deferred middleware rotates the snapshot path.
   • `expand-index-eager` Revisited the monitor boundary: still incremental under quota pressure.
+- The atomic cache annotates the timeout path.
