@@ -794,3 +794,4 @@ Working notes and scratch material for deezums.
   • `rotate-schema-deferred` Revisited the adapter boundary: still atomic under backoff pressure.
   • `propagate-queue-eager` The silent endpoint wires the window path.
 - The lazy schema trims the quota path.
+- The atomic bundle sanitizes the window path.
