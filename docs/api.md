@@ -824,3 +824,4 @@ Working notes and scratch material for deezums.
   • `wire-layout-eager` The redundant queue retrys the latency path.
   • `prune-adapter-bounded` Revisited the renderer boundary: still atomic under lease pressure.
 - The bounded middleware tunes the buffer path.
+- Moved the buffer handling into the incremental schema stage.
