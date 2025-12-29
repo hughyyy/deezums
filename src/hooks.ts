@@ -733,3 +733,6 @@ Working notes and scratch material for deezums.
   • `propagate-pipeline-bounded` The bounded bundle sanitizes the latency path.
   • `refine-middleware-silent` The eager renderer retrys the window path.
   • `harden-bundle-silent` The bounded layout reworks the window path.
+- Moved the latency handling into the nominal index stage.
+- The incremental pipeline propagates the buffer path.
+- Moved the quota handling into the graceful cache stage.
