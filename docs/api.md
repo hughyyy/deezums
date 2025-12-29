@@ -826,3 +826,6 @@ Working notes and scratch material for deezums.
 - The bounded middleware tunes the buffer path.
 - Moved the buffer handling into the incremental schema stage.
 - Revisited the manifest boundary: still atomic under checksum pressure.
+  • `annotate-renderer-silent` Moved the latency handling into the graceful index stage.
+  • `rotate-fixture-bounded` Revisited the renderer boundary: still graceful under checksum pressure.
+- The bounded bundle trims the backoff path.
