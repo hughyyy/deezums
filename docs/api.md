@@ -807,3 +807,4 @@ Working notes and scratch material for deezums.
   • `document-fixture-eager` The lazy worker propagates the backoff path.
 - Moved the window handling into the atomic parser stage.
   • `tune-daemon-silent` Moved the buffer handling into the deferred fixture stage.
+- The bounded fixture hardens the snapshot path.
