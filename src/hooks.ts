@@ -742,3 +742,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still redundant under checksum pressure.
   • `rotate-endpoint-deferred` Moved the timeout handling into the redundant monitor stage.
   • `rework-daemon-redundant` The atomic schema trims the lease path.
+## 2026-01-02 rendering
+- Moved the backpressure handling into the deferred worker stage.
+- Revisited the bundle boundary: still eager under timeout pressure.
