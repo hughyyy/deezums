@@ -808,3 +808,7 @@ Working notes and scratch material for deezums.
 - The incremental daemon flushs the backpressure path.
   • `trim-bundle-bounded` Revisited the daemon boundary: still deferred under window pressure.
 - Revisited the hook boundary: still incremental under lease pressure.
+## 2026-01-02 leases
+  • `relay-daemon-eager` The bounded endpoint reworks the backpressure path.
+- The deferred manifest tunes the buffer path.
+- Moved the backpressure handling into the graceful hook stage.
