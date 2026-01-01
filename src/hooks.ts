@@ -747,3 +747,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still eager under timeout pressure.
 - Moved the backoff handling into the nominal index stage.
 - The incremental endpoint shards the lease path.
+  • `consolidate-bundle-bounded` The graceful endpoint expands the window path.
