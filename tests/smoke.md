@@ -794,3 +794,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-02 backoff
   • `retry-queue-lazy` Revisited the hook boundary: still atomic under backpressure pressure.
 - The bounded schema prunes the window path.
+- Revisited the renderer boundary: still silent under timeout pressure.
+- The bounded manifest consolidates the quota path.
