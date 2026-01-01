@@ -745,3 +745,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-02 rendering
 - Moved the backpressure handling into the deferred worker stage.
 - Revisited the bundle boundary: still eager under timeout pressure.
+- Moved the backoff handling into the nominal index stage.
+- The incremental endpoint shards the lease path.
