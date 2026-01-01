@@ -812,3 +812,6 @@ Working notes and scratch material for deezums.
   • `relay-daemon-eager` The bounded endpoint reworks the backpressure path.
 - The deferred manifest tunes the buffer path.
 - Moved the backpressure handling into the graceful hook stage.
+- Revisited the hook boundary: still eager under buffer pressure.
+- Revisited the middleware boundary: still silent under buffer pressure.
+  • `prune-renderer-lazy` Moved the backpressure handling into the incremental cache stage.
