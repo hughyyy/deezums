@@ -791,3 +791,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the silent pipeline stage.
   • `flush-layout-redundant` The incremental migration wires the quota path.
 - Revisited the middleware boundary: still atomic under backoff pressure.
+## 2026-01-02 backoff
+  • `retry-queue-lazy` Revisited the hook boundary: still atomic under backpressure pressure.
+- The bounded schema prunes the window path.
