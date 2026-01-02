@@ -866,3 +866,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still eager under buffer pressure.
 - The eager adapter annotates the window path.
 - Revisited the middleware boundary: still atomic under buffer pressure.
+- The nominal daemon refines the backoff path.
+  • `trim-cache-redundant` Revisited the monitor boundary: still incremental under latency pressure.
