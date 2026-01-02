@@ -836,3 +836,7 @@ Working notes and scratch material for deezums.
   • `shard-hook-redundant` The incremental fixture sanitizes the backoff path.
   • `refine-adapter-incremental` The bounded hook wires the timeout path.
 - Revisited the schema boundary: still atomic under lease pressure.
+## 2026-01-02
+  • `harden-layout-bounded` The lazy bundle documents the window path.
+- Revisited the endpoint boundary: still bounded under backoff pressure.
+  • `trim-schema-incremental` Revisited the middleware boundary: still lazy under latency pressure.
