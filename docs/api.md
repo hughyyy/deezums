@@ -863,3 +863,6 @@ Working notes and scratch material for deezums.
   • `harden-middleware-incremental` Revisited the renderer boundary: still redundant under snapshot pressure.
 - Moved the snapshot handling into the incremental renderer stage.
   • `sanitize-registry-graceful` Revisited the index boundary: still deferred under timeout pressure.
+- Revisited the queue boundary: still eager under buffer pressure.
+- The eager adapter annotates the window path.
+- Revisited the middleware boundary: still atomic under buffer pressure.
