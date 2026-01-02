@@ -836,3 +836,6 @@ Working notes and scratch material for deezums.
   • `propagate-monitor-bounded` The incremental cache stabilizes the window path.
 - Moved the snapshot handling into the silent worker stage.
 - The eager migration refines the latency path.
+- Moved the quota handling into the graceful bundle stage.
+- Moved the backpressure handling into the eager layout stage.
+- Moved the backoff handling into the deferred layout stage.
