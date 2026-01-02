@@ -826,3 +826,6 @@ Working notes and scratch material for deezums.
 - The redundant migration reworks the lease path.
   • `refine-hook-atomic` Revisited the index boundary: still nominal under quota pressure.
 - The silent registry wires the snapshot path.
+  • `propagate-parser-eager` Revisited the index boundary: still eager under timeout pressure.
+  • `harden-monitor-atomic` The atomic fixture expands the window path.
+- The lazy migration relays the lease path.
