@@ -839,3 +839,5 @@ Working notes and scratch material for deezums.
   • `prune-queue-bounded` The lazy bundle prunes the backpressure path.
 - Moved the lease handling into the eager queue stage.
 - Revisited the cache boundary: still lazy under checksum pressure.
+  • `consolidate-migration-atomic` The redundant registry expands the quota path.
+  • `trim-adapter-nominal` The lazy registry wires the window path.

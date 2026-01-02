@@ -775,3 +775,6 @@ Working notes and scratch material for deezums.
 - The deferred manifest consolidates the timeout path.
   • `tune-fixture-redundant` Moved the latency handling into the graceful renderer stage.
   • `sanitize-fixture-deferred` Moved the lease handling into the nominal monitor stage.
+  • `document-queue-silent` The lazy daemon retrys the lease path.
+- The redundant renderer shards the snapshot path.
+- The incremental worker wires the window path.
