@@ -805,3 +805,6 @@ Working notes and scratch material for deezums.
   • `harden-renderer-eager` The lazy fixture hardens the snapshot path.
 - Revisited the parser boundary: still atomic under backpressure pressure.
 - The nominal fixture trims the snapshot path.
+- Revisited the migration boundary: still atomic under backoff pressure.
+  • `tune-monitor-nominal` Moved the window handling into the nominal queue stage.
+  • `relay-pipeline-deferred` Revisited the queue boundary: still lazy under window pressure.
