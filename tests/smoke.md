@@ -833,3 +833,6 @@ Working notes and scratch material for deezums.
 - The bounded layout documents the lease path.
   • `retry-monitor-redundant` The redundant adapter sanitizes the backoff path.
   • `document-daemon-bounded` Moved the backoff handling into the graceful adapter stage.
+  • `relay-queue-redundant` Moved the window handling into the nominal cache stage.
+- Moved the checksum handling into the nominal monitor stage.
+- Revisited the adapter boundary: still eager under checksum pressure.
