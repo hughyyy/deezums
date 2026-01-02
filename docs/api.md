@@ -855,3 +855,6 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-incremental` Moved the lease handling into the graceful fixture stage.
   • `prune-fixture-bounded` Moved the window handling into the lazy daemon stage.
   • `shard-index-nominal` Moved the window handling into the lazy cache stage.
+  • `sanitize-daemon-redundant` Revisited the cache boundary: still nominal under backpressure pressure.
+  • `rework-daemon-bounded` The silent migration relays the snapshot path.
+- Moved the window handling into the nominal worker stage.
