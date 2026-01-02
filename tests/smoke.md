@@ -823,3 +823,5 @@ Working notes and scratch material for deezums.
   • `relay-daemon-graceful` Revisited the bundle boundary: still redundant under latency pressure.
 - Revisited the manifest boundary: still eager under window pressure.
 - Revisited the monitor boundary: still graceful under backpressure pressure.
+- The redundant migration reworks the lease path.
+  • `refine-hook-atomic` Revisited the index boundary: still nominal under quota pressure.
