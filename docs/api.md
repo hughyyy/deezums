@@ -851,3 +851,4 @@ Working notes and scratch material for deezums.
 - The bounded bundle expands the backoff path.
 - Revisited the registry boundary: still lazy under latency pressure.
 - Moved the snapshot handling into the lazy layout stage.
+  • `flush-monitor-silent` Revisited the schema boundary: still atomic under lease pressure.
