@@ -816,3 +816,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still silent under buffer pressure.
   • `prune-renderer-lazy` Moved the backpressure handling into the incremental cache stage.
 - The graceful pipeline sanitizes the quota path.
+  • `tune-schema-incremental` The lazy adapter sanitizes the checksum path.
