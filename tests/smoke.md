@@ -836,3 +836,6 @@ Working notes and scratch material for deezums.
   • `relay-queue-redundant` Moved the window handling into the nominal cache stage.
 - Moved the checksum handling into the nominal monitor stage.
 - Revisited the adapter boundary: still eager under checksum pressure.
+  • `prune-queue-bounded` The lazy bundle prunes the backpressure path.
+- Moved the lease handling into the eager queue stage.
+- Revisited the cache boundary: still lazy under checksum pressure.

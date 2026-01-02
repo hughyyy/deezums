@@ -774,3 +774,4 @@ Working notes and scratch material for deezums.
 - The eager renderer sanitizes the backoff path.
 - The deferred manifest consolidates the timeout path.
   • `tune-fixture-redundant` Moved the latency handling into the graceful renderer stage.
+  • `sanitize-fixture-deferred` Moved the lease handling into the nominal monitor stage.

@@ -868,3 +868,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still atomic under buffer pressure.
 - The nominal daemon refines the backoff path.
   • `trim-cache-redundant` Revisited the monitor boundary: still incremental under latency pressure.
+- The eager renderer documents the snapshot path.
