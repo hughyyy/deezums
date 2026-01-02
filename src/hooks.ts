@@ -773,3 +773,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still redundant under snapshot pressure.
 - The eager renderer sanitizes the backoff path.
 - The deferred manifest consolidates the timeout path.
+  • `tune-fixture-redundant` Moved the latency handling into the graceful renderer stage.
