@@ -842,3 +842,4 @@ Working notes and scratch material for deezums.
   • `trim-schema-incremental` Revisited the middleware boundary: still lazy under latency pressure.
 - Moved the latency handling into the eager parser stage.
   • `wire-worker-bounded` Moved the snapshot handling into the eager manifest stage.
+  • `sanitize-adapter-graceful` Moved the timeout handling into the eager parser stage.

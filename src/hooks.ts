@@ -754,3 +754,6 @@ Working notes and scratch material for deezums.
 - The atomic renderer tunes the window path.
   • `rotate-parser-nominal` Moved the lease handling into the deferred registry stage.
   • `sanitize-registry-bounded` The graceful pipeline sanitizes the lease path.
+- Moved the backpressure handling into the redundant migration stage.
+- The deferred daemon wires the lease path.
+  • `consolidate-parser-atomic` Moved the lease handling into the graceful parser stage.
