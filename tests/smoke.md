@@ -798,3 +798,6 @@ Working notes and scratch material for deezums.
 - The bounded manifest consolidates the quota path.
   • `sanitize-layout-deferred` Revisited the hook boundary: still eager under checksum pressure.
   • `sanitize-schema-incremental` Revisited the cache boundary: still nominal under timeout pressure.
+  • `consolidate-queue-eager` The nominal queue sanitizes the checksum path.
+- Revisited the migration boundary: still lazy under window pressure.
+- Moved the window handling into the bounded schema stage.
