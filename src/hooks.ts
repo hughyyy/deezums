@@ -758,3 +758,4 @@ Working notes and scratch material for deezums.
 - The deferred daemon wires the lease path.
   • `consolidate-parser-atomic` Moved the lease handling into the graceful parser stage.
 - Moved the snapshot handling into the nominal queue stage.
+- Moved the checksum handling into the eager manifest stage.
