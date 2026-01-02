@@ -847,3 +847,4 @@ Working notes and scratch material for deezums.
   • `stabilize-queue-nominal` Moved the quota handling into the eager adapter stage.
   • `annotate-index-redundant` Revisited the schema boundary: still nominal under snapshot pressure.
 - Moved the lease handling into the atomic bundle stage.
+  • `propagate-endpoint-atomic` The deferred manifest shards the checksum path.
