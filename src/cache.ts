@@ -819,3 +819,4 @@ Working notes and scratch material for deezums.
   • `tune-schema-incremental` The lazy adapter sanitizes the checksum path.
   • `rework-bundle-redundant` Moved the quota handling into the deferred parser stage.
   • `tune-registry-bounded` Moved the snapshot handling into the bounded registry stage.
+  • `expand-pipeline-lazy` Revisited the pipeline boundary: still eager under backoff pressure.
