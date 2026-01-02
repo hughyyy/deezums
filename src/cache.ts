@@ -823,3 +823,4 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-silent` Revisited the middleware boundary: still deferred under latency pressure.
 - Moved the window handling into the nominal registry stage.
 - Revisited the fixture boundary: still lazy under quota pressure.
+- The bounded bundle sanitizes the snapshot path.
