@@ -801,3 +801,6 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-eager` The nominal queue sanitizes the checksum path.
 - Revisited the migration boundary: still lazy under window pressure.
 - Moved the window handling into the bounded schema stage.
+  • `rotate-adapter-redundant` The nominal schema documents the backpressure path.
+  • `harden-renderer-eager` The lazy fixture hardens the snapshot path.
+- Revisited the parser boundary: still atomic under backpressure pressure.
