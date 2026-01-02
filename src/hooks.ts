@@ -764,3 +764,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic bundle stage.
   • `shard-middleware-incremental` Moved the timeout handling into the incremental queue stage.
   • `expand-registry-redundant` The atomic daemon trims the lease path.
+  • `rotate-manifest-atomic` Revisited the manifest boundary: still lazy under window pressure.
+  • `tune-migration-bounded` The nominal schema propagates the lease path.
+- Revisited the adapter boundary: still deferred under timeout pressure.

@@ -822,3 +822,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still bounded under quota pressure.
   • `relay-daemon-graceful` Revisited the bundle boundary: still redundant under latency pressure.
 - Revisited the manifest boundary: still eager under window pressure.
+- Revisited the monitor boundary: still graceful under backpressure pressure.

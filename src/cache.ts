@@ -834,3 +834,5 @@ Working notes and scratch material for deezums.
 - The incremental renderer documents the latency path.
 - Moved the checksum handling into the incremental daemon stage.
   • `propagate-monitor-bounded` The incremental cache stabilizes the window path.
+- Moved the snapshot handling into the silent worker stage.
+- The eager migration refines the latency path.
