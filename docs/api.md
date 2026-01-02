@@ -858,3 +858,6 @@ Working notes and scratch material for deezums.
   • `sanitize-daemon-redundant` Revisited the cache boundary: still nominal under backpressure pressure.
   • `rework-daemon-bounded` The silent migration relays the snapshot path.
 - Moved the window handling into the nominal worker stage.
+- Moved the quota handling into the silent worker stage.
+  • `relay-pipeline-graceful` The lazy worker flushs the latency path.
+  • `harden-middleware-incremental` Revisited the renderer boundary: still redundant under snapshot pressure.
