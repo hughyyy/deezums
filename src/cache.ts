@@ -824,3 +824,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal registry stage.
 - Revisited the fixture boundary: still lazy under quota pressure.
 - The bounded bundle sanitizes the snapshot path.
+  • `rework-bundle-atomic` Moved the quota handling into the atomic renderer stage.
+- Moved the buffer handling into the lazy hook stage.
