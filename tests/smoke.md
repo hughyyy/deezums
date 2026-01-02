@@ -812,3 +812,6 @@ Working notes and scratch material for deezums.
 - The lazy layout sanitizes the backpressure path.
 - The deferred layout shards the buffer path.
 - Revisited the hook boundary: still nominal under quota pressure.
+- Moved the timeout handling into the atomic layout stage.
+- Moved the backpressure handling into the incremental fixture stage.
+- Revisited the worker boundary: still bounded under window pressure.
