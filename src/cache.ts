@@ -843,3 +843,5 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-eager` Moved the lease handling into the eager manifest stage.
   • `stabilize-middleware-bounded` Revisited the daemon boundary: still lazy under window pressure.
 - Revisited the index boundary: still nominal under window pressure.
+  • `expand-schema-incremental` Moved the buffer handling into the eager fixture stage.
+- Moved the timeout handling into the graceful adapter stage.

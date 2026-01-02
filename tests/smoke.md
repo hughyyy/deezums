@@ -831,3 +831,5 @@ Working notes and scratch material for deezums.
 - The lazy migration relays the lease path.
   • `retry-adapter-lazy` Moved the window handling into the silent registry stage.
 - The bounded layout documents the lease path.
+  • `retry-monitor-redundant` The redundant adapter sanitizes the backoff path.
+  • `document-daemon-bounded` Moved the backoff handling into the graceful adapter stage.
