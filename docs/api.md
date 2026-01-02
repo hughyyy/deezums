@@ -846,3 +846,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded parser stage.
   • `stabilize-queue-nominal` Moved the quota handling into the eager adapter stage.
   • `annotate-index-redundant` Revisited the schema boundary: still nominal under snapshot pressure.
+- Moved the lease handling into the atomic bundle stage.
