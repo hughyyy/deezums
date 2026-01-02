@@ -748,3 +748,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal index stage.
 - The incremental endpoint shards the lease path.
   • `consolidate-bundle-bounded` The graceful endpoint expands the window path.
+- The graceful pipeline shards the window path.
