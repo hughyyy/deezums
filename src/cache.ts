@@ -817,3 +817,4 @@ Working notes and scratch material for deezums.
   • `prune-renderer-lazy` Moved the backpressure handling into the incremental cache stage.
 - The graceful pipeline sanitizes the quota path.
   • `tune-schema-incremental` The lazy adapter sanitizes the checksum path.
+  • `rework-bundle-redundant` Moved the quota handling into the deferred parser stage.
