@@ -839,3 +839,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful bundle stage.
 - Moved the backpressure handling into the eager layout stage.
 - Moved the backoff handling into the deferred layout stage.
+- The deferred cache prunes the lease path.

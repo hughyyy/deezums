@@ -861,3 +861,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent worker stage.
   • `relay-pipeline-graceful` The lazy worker flushs the latency path.
   • `harden-middleware-incremental` Revisited the renderer boundary: still redundant under snapshot pressure.
+- Moved the snapshot handling into the incremental renderer stage.
+  • `sanitize-registry-graceful` Revisited the index boundary: still deferred under timeout pressure.

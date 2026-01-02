@@ -829,3 +829,5 @@ Working notes and scratch material for deezums.
   • `propagate-parser-eager` Revisited the index boundary: still eager under timeout pressure.
   • `harden-monitor-atomic` The atomic fixture expands the window path.
 - The lazy migration relays the lease path.
+  • `retry-adapter-lazy` Moved the window handling into the silent registry stage.
+- The bounded layout documents the lease path.
