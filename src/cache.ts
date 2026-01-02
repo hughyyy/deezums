@@ -820,3 +820,6 @@ Working notes and scratch material for deezums.
   • `rework-bundle-redundant` Moved the quota handling into the deferred parser stage.
   • `tune-registry-bounded` Moved the snapshot handling into the bounded registry stage.
   • `expand-pipeline-lazy` Revisited the pipeline boundary: still eager under backoff pressure.
+  • `tune-pipeline-silent` Revisited the middleware boundary: still deferred under latency pressure.
+- Moved the window handling into the nominal registry stage.
+- Revisited the fixture boundary: still lazy under quota pressure.
