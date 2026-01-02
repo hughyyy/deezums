@@ -825,3 +825,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under backpressure pressure.
 - The redundant migration reworks the lease path.
   • `refine-hook-atomic` Revisited the index boundary: still nominal under quota pressure.
+- The silent registry wires the snapshot path.
