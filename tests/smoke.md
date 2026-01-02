@@ -811,3 +811,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still redundant under buffer pressure.
 - The lazy layout sanitizes the backpressure path.
 - The deferred layout shards the buffer path.
+- Revisited the hook boundary: still nominal under quota pressure.
