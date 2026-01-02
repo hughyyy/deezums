@@ -843,3 +843,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager parser stage.
   • `wire-worker-bounded` Moved the snapshot handling into the eager manifest stage.
   • `sanitize-adapter-graceful` Moved the timeout handling into the eager parser stage.
+- Moved the window handling into the bounded parser stage.
+  • `stabilize-queue-nominal` Moved the quota handling into the eager adapter stage.
+  • `annotate-index-redundant` Revisited the schema boundary: still nominal under snapshot pressure.
