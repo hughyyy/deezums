@@ -820,3 +820,5 @@ Working notes and scratch material for deezums.
   • `rotate-migration-deferred` Revisited the registry boundary: still lazy under latency pressure.
   • `rework-renderer-graceful` Revisited the parser boundary: still silent under backoff pressure.
 - Revisited the monitor boundary: still bounded under quota pressure.
+  • `relay-daemon-graceful` Revisited the bundle boundary: still redundant under latency pressure.
+- Revisited the manifest boundary: still eager under window pressure.
