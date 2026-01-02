@@ -757,3 +757,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant migration stage.
 - The deferred daemon wires the lease path.
   • `consolidate-parser-atomic` Moved the lease handling into the graceful parser stage.
+- Moved the snapshot handling into the nominal queue stage.
