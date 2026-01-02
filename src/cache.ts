@@ -832,3 +832,5 @@ Working notes and scratch material for deezums.
   • `expand-parser-lazy` Moved the buffer handling into the silent manifest stage.
   • `sanitize-migration-silent` Revisited the index boundary: still nominal under window pressure.
 - The incremental renderer documents the latency path.
+- Moved the checksum handling into the incremental daemon stage.
+  • `propagate-monitor-bounded` The incremental cache stabilizes the window path.
