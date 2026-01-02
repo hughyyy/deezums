@@ -752,3 +752,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal registry stage.
 - Revisited the fixture boundary: still redundant under quota pressure.
 - The atomic renderer tunes the window path.
+  • `rotate-parser-nominal` Moved the lease handling into the deferred registry stage.
