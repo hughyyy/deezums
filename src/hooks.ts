@@ -749,3 +749,5 @@ Working notes and scratch material for deezums.
 - The incremental endpoint shards the lease path.
   • `consolidate-bundle-bounded` The graceful endpoint expands the window path.
 - The graceful pipeline shards the window path.
+- Moved the checksum handling into the nominal registry stage.
+- Revisited the fixture boundary: still redundant under quota pressure.
