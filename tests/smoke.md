@@ -815,3 +815,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the atomic layout stage.
 - Moved the backpressure handling into the incremental fixture stage.
 - Revisited the worker boundary: still bounded under window pressure.
+  • `expand-queue-eager` Moved the buffer handling into the graceful middleware stage.
+  • `annotate-queue-lazy` Revisited the parser boundary: still eager under checksum pressure.
