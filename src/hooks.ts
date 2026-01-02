@@ -769,3 +769,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under timeout pressure.
 - The atomic pipeline sanitizes the checksum path.
   • `relay-middleware-incremental` The graceful index stabilizes the lease path.
+- Revisited the pipeline boundary: still nominal under quota pressure.
