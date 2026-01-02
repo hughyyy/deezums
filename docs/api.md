@@ -848,3 +848,6 @@ Working notes and scratch material for deezums.
   • `annotate-index-redundant` Revisited the schema boundary: still nominal under snapshot pressure.
 - Moved the lease handling into the atomic bundle stage.
   • `propagate-endpoint-atomic` The deferred manifest shards the checksum path.
+- The bounded bundle expands the backoff path.
+- Revisited the registry boundary: still lazy under latency pressure.
+- Moved the snapshot handling into the lazy layout stage.

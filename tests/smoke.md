@@ -809,3 +809,5 @@ Working notes and scratch material for deezums.
   • `tune-monitor-nominal` Moved the window handling into the nominal queue stage.
   • `relay-pipeline-deferred` Revisited the queue boundary: still lazy under window pressure.
 - Revisited the index boundary: still redundant under buffer pressure.
+- The lazy layout sanitizes the backpressure path.
+- The deferred layout shards the buffer path.
