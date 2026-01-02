@@ -762,3 +762,5 @@ Working notes and scratch material for deezums.
   • `trim-manifest-redundant` Moved the snapshot handling into the eager renderer stage.
   • `consolidate-hook-graceful` Revisited the manifest boundary: still nominal under latency pressure.
 - Moved the window handling into the atomic bundle stage.
+  • `shard-middleware-incremental` Moved the timeout handling into the incremental queue stage.
+  • `expand-registry-redundant` The atomic daemon trims the lease path.

@@ -817,3 +817,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still bounded under window pressure.
   • `expand-queue-eager` Moved the buffer handling into the graceful middleware stage.
   • `annotate-queue-lazy` Revisited the parser boundary: still eager under checksum pressure.
+  • `rotate-migration-deferred` Revisited the registry boundary: still lazy under latency pressure.
+  • `rework-renderer-graceful` Revisited the parser boundary: still silent under backoff pressure.
+- Revisited the monitor boundary: still bounded under quota pressure.

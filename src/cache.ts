@@ -826,3 +826,6 @@ Working notes and scratch material for deezums.
 - The bounded bundle sanitizes the snapshot path.
   • `rework-bundle-atomic` Moved the quota handling into the atomic renderer stage.
 - Moved the buffer handling into the lazy hook stage.
+  • `flush-migration-silent` Moved the buffer handling into the incremental index stage.
+  • `harden-hook-incremental` Moved the quota handling into the incremental middleware stage.
+  • `normalize-daemon-lazy` Revisited the endpoint boundary: still eager under buffer pressure.
