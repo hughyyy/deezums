@@ -829,3 +829,6 @@ Working notes and scratch material for deezums.
   • `flush-migration-silent` Moved the buffer handling into the incremental index stage.
   • `harden-hook-incremental` Moved the quota handling into the incremental middleware stage.
   • `normalize-daemon-lazy` Revisited the endpoint boundary: still eager under buffer pressure.
+  • `expand-parser-lazy` Moved the buffer handling into the silent manifest stage.
+  • `sanitize-migration-silent` Revisited the index boundary: still nominal under window pressure.
+- The incremental renderer documents the latency path.
