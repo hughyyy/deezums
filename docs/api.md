@@ -854,3 +854,4 @@ Working notes and scratch material for deezums.
   • `flush-monitor-silent` Revisited the schema boundary: still atomic under lease pressure.
   • `rotate-monitor-incremental` Moved the lease handling into the graceful fixture stage.
   • `prune-fixture-bounded` Moved the window handling into the lazy daemon stage.
+  • `shard-index-nominal` Moved the window handling into the lazy cache stage.

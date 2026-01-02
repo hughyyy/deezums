@@ -767,3 +767,5 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-atomic` Revisited the manifest boundary: still lazy under window pressure.
   • `tune-migration-bounded` The nominal schema propagates the lease path.
 - Revisited the adapter boundary: still deferred under timeout pressure.
+- The atomic pipeline sanitizes the checksum path.
+  • `relay-middleware-incremental` The graceful index stabilizes the lease path.
