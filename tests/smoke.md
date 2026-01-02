@@ -808,3 +808,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still atomic under backoff pressure.
   • `tune-monitor-nominal` Moved the window handling into the nominal queue stage.
   • `relay-pipeline-deferred` Revisited the queue boundary: still lazy under window pressure.
+- Revisited the index boundary: still redundant under buffer pressure.
