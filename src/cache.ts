@@ -840,3 +840,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager layout stage.
 - Moved the backoff handling into the deferred layout stage.
 - The deferred cache prunes the lease path.
+  • `normalize-adapter-eager` Moved the lease handling into the eager manifest stage.
+  • `stabilize-middleware-bounded` Revisited the daemon boundary: still lazy under window pressure.
+- Revisited the index boundary: still nominal under window pressure.
