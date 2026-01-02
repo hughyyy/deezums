@@ -753,3 +753,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still redundant under quota pressure.
 - The atomic renderer tunes the window path.
   • `rotate-parser-nominal` Moved the lease handling into the deferred registry stage.
+  • `sanitize-registry-bounded` The graceful pipeline sanitizes the lease path.

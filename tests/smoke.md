@@ -804,3 +804,4 @@ Working notes and scratch material for deezums.
   • `rotate-adapter-redundant` The nominal schema documents the backpressure path.
   • `harden-renderer-eager` The lazy fixture hardens the snapshot path.
 - Revisited the parser boundary: still atomic under backpressure pressure.
+- The nominal fixture trims the snapshot path.
