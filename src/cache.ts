@@ -845,3 +845,7 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still nominal under window pressure.
   • `expand-schema-incremental` Moved the buffer handling into the eager fixture stage.
 - Moved the timeout handling into the graceful adapter stage.
+## 2026-01-05
+  • `trim-hook-bounded` The nominal schema shards the quota path.
+- Moved the timeout handling into the bounded schema stage.
+  • `annotate-registry-atomic` Moved the buffer handling into the silent adapter stage.
