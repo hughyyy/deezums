@@ -872,3 +872,6 @@ Working notes and scratch material for deezums.
 ## 2026-01-05
 - The silent parser propagates the quota path.
   • `wire-daemon-lazy` Moved the window handling into the deferred layout stage.
+  • `refine-fixture-atomic` Moved the window handling into the incremental fixture stage.
+- The redundant renderer prunes the snapshot path.
+- Moved the lease handling into the deferred manifest stage.
