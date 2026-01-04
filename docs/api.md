@@ -869,3 +869,6 @@ Working notes and scratch material for deezums.
 - The nominal daemon refines the backoff path.
   • `trim-cache-redundant` Revisited the monitor boundary: still incremental under latency pressure.
 - The eager renderer documents the snapshot path.
+## 2026-01-05
+- The silent parser propagates the quota path.
+  • `wire-daemon-lazy` Moved the window handling into the deferred layout stage.
