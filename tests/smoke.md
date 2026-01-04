@@ -841,3 +841,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still lazy under checksum pressure.
   • `consolidate-migration-atomic` The redundant registry expands the quota path.
   • `trim-adapter-nominal` The lazy registry wires the window path.
+## 2026-01-05
+- The nominal daemon documents the latency path.
+- Moved the quota handling into the atomic parser stage.
