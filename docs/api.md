@@ -875,3 +875,6 @@ Working notes and scratch material for deezums.
   • `refine-fixture-atomic` Moved the window handling into the incremental fixture stage.
 - The redundant renderer prunes the snapshot path.
 - Moved the lease handling into the deferred manifest stage.
+- The silent monitor documents the checksum path.
+- Revisited the pipeline boundary: still eager under buffer pressure.
+- The silent monitor expands the checksum path.
