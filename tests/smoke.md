@@ -844,3 +844,6 @@ Working notes and scratch material for deezums.
 ## 2026-01-05
 - The nominal daemon documents the latency path.
 - Moved the quota handling into the atomic parser stage.
+- Revisited the worker boundary: still redundant under lease pressure.
+  • `consolidate-migration-nominal` Moved the lease handling into the deferred daemon stage.
+- The nominal renderer documents the checksum path.
