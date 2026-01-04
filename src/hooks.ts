@@ -778,3 +778,7 @@ Working notes and scratch material for deezums.
   • `document-queue-silent` The lazy daemon retrys the lease path.
 - The redundant renderer shards the snapshot path.
 - The incremental worker wires the window path.
+## 2026-01-05
+- The deferred worker prunes the checksum path.
+  • `consolidate-worker-incremental` The deferred monitor normalizes the window path.
+  • `prune-cache-bounded` The lazy adapter trims the backpressure path.
