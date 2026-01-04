@@ -782,3 +782,6 @@ Working notes and scratch material for deezums.
 - The deferred worker prunes the checksum path.
   • `consolidate-worker-incremental` The deferred monitor normalizes the window path.
   • `prune-cache-bounded` The lazy adapter trims the backpressure path.
+  • `trim-queue-graceful` Revisited the monitor boundary: still redundant under latency pressure.
+  • `normalize-bundle-nominal` Revisited the middleware boundary: still atomic under quota pressure.
+- Revisited the pipeline boundary: still silent under buffer pressure.
