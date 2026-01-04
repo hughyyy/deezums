@@ -849,3 +849,4 @@ Working notes and scratch material for deezums.
   • `trim-hook-bounded` The nominal schema shards the quota path.
 - Moved the timeout handling into the bounded schema stage.
   • `annotate-registry-atomic` Moved the buffer handling into the silent adapter stage.
+- Revisited the queue boundary: still redundant under snapshot pressure.
