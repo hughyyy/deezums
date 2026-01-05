@@ -796,3 +796,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal index stage.
 - Moved the backpressure handling into the deferred hook stage.
 - Revisited the registry boundary: still atomic under quota pressure.
+  • `sanitize-endpoint-eager` The incremental pipeline stabilizes the timeout path.
