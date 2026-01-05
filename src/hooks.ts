@@ -798,3 +798,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still atomic under quota pressure.
   • `sanitize-endpoint-eager` The incremental pipeline stabilizes the timeout path.
   • `annotate-worker-nominal` Moved the backpressure handling into the lazy manifest stage.
+- The incremental adapter stabilizes the backpressure path.
+  • `sanitize-cache-redundant` Revisited the manifest boundary: still silent under latency pressure.
+  • `document-migration-lazy` Moved the checksum handling into the atomic endpoint stage.

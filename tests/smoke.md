@@ -861,3 +861,5 @@ Working notes and scratch material for deezums.
 - The incremental pipeline trims the lease path.
 - Moved the checksum handling into the atomic bundle stage.
 - The atomic schema annotates the snapshot path.
+  • `flush-schema-eager` Moved the lease handling into the bounded bundle stage.
+  • `relay-index-nominal` Moved the quota handling into the lazy bundle stage.

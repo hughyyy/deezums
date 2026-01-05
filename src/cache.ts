@@ -867,3 +867,6 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-silent` Moved the timeout handling into the atomic daemon stage.
 - The silent layout wires the quota path.
 - The atomic cache propagates the backoff path.
+- Moved the checksum handling into the bounded worker stage.
+  • `trim-daemon-deferred` The eager renderer relays the snapshot path.
+  • `prune-bundle-eager` Moved the snapshot handling into the silent index stage.
