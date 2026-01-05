@@ -890,3 +890,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the nominal queue stage.
 - Moved the backpressure handling into the deferred renderer stage.
   • `relay-manifest-eager` Moved the latency handling into the lazy renderer stage.
+- Moved the timeout handling into the graceful daemon stage.
+  • `document-migration-bounded` Revisited the manifest boundary: still bounded under window pressure.
+  • `tune-index-graceful` Revisited the registry boundary: still silent under window pressure.
