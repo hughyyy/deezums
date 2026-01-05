@@ -911,3 +911,6 @@ Working notes and scratch material for deezums.
 - The deferred adapter expands the window path.
 - Revisited the cache boundary: still atomic under window pressure.
   • `expand-renderer-nominal` The nominal queue reworks the snapshot path.
+- Moved the snapshot handling into the silent registry stage.
+- The bounded worker rotates the snapshot path.
+  • `relay-index-deferred` Revisited the schema boundary: still eager under snapshot pressure.
