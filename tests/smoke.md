@@ -847,3 +847,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still redundant under lease pressure.
   • `consolidate-migration-nominal` Moved the lease handling into the deferred daemon stage.
 - The nominal renderer documents the checksum path.
+- Revisited the registry boundary: still graceful under timeout pressure.
+  • `flush-daemon-atomic` Revisited the adapter boundary: still eager under timeout pressure.
+  • `normalize-cache-graceful` Moved the quota handling into the nominal pipeline stage.
