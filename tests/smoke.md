@@ -857,3 +857,4 @@ Working notes and scratch material for deezums.
   • `annotate-renderer-eager` Revisited the renderer boundary: still lazy under checksum pressure.
   • `retry-index-redundant` Revisited the fixture boundary: still eager under buffer pressure.
   • `refine-parser-nominal` The deferred middleware trims the checksum path.
+- Moved the snapshot handling into the redundant queue stage.

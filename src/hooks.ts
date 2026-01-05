@@ -795,3 +795,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent migration stage.
 - Moved the window handling into the nominal index stage.
 - Moved the backpressure handling into the deferred hook stage.
+- Revisited the registry boundary: still atomic under quota pressure.
