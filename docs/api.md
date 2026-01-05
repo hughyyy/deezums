@@ -888,3 +888,4 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-atomic` Revisited the manifest boundary: still bounded under timeout pressure.
   • `rework-adapter-atomic` Revisited the layout boundary: still incremental under window pressure.
 - Moved the quota handling into the nominal queue stage.
+- Moved the backpressure handling into the deferred renderer stage.
