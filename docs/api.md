@@ -916,3 +916,6 @@ Working notes and scratch material for deezums.
   • `relay-index-deferred` Revisited the schema boundary: still eager under snapshot pressure.
   • `sanitize-queue-eager` The graceful endpoint prunes the window path.
   • `relay-adapter-incremental` Revisited the index boundary: still lazy under backoff pressure.
+- Moved the window handling into the deferred fixture stage.
+- Moved the snapshot handling into the atomic hook stage.
+- The redundant queue flushs the quota path.

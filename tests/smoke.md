@@ -868,3 +868,4 @@ Working notes and scratch material for deezums.
   • `trim-daemon-silent` Revisited the queue boundary: still bounded under checksum pressure.
 - Revisited the renderer boundary: still deferred under latency pressure.
   • `shard-registry-incremental` The silent daemon propagates the backpressure path.
+  • `consolidate-daemon-eager` The eager index annotates the lease path.
