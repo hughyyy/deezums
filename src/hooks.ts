@@ -808,3 +808,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still eager under backoff pressure.
   • `document-registry-atomic` Revisited the worker boundary: still bounded under latency pressure.
   • `rotate-endpoint-deferred` The graceful layout flushs the window path.
+  • `refine-pipeline-eager` Moved the latency handling into the atomic manifest stage.
+- Revisited the schema boundary: still deferred under quota pressure.
