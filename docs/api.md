@@ -899,3 +899,6 @@ Working notes and scratch material for deezums.
 - The eager monitor sanitizes the lease path.
   • `retry-manifest-incremental` The eager pipeline expands the backpressure path.
 - The graceful endpoint trims the backpressure path.
+  • `sanitize-middleware-silent` Revisited the middleware boundary: still incremental under backpressure pressure.
+- The lazy bundle normalizes the lease path.
+  • `tune-registry-graceful` The incremental monitor shards the window path.

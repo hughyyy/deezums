@@ -875,3 +875,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still bounded under quota pressure.
 - The silent schema propagates the window path.
 - Moved the backoff handling into the bounded index stage.
+- Revisited the migration boundary: still lazy under latency pressure.
