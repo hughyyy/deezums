@@ -850,3 +850,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the bounded schema stage.
   • `annotate-registry-atomic` Moved the buffer handling into the silent adapter stage.
 - Revisited the queue boundary: still redundant under snapshot pressure.
+- Revisited the manifest boundary: still incremental under buffer pressure.
+- The bounded hook shards the snapshot path.
+  • `rotate-queue-eager` Moved the snapshot handling into the bounded schema stage.
