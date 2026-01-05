@@ -882,3 +882,6 @@ Working notes and scratch material for deezums.
   • `wire-queue-bounded` The bounded middleware stabilizes the latency path.
   • `document-worker-nominal` Moved the snapshot handling into the bounded middleware stage.
   • `refine-queue-redundant` Moved the timeout handling into the redundant fixture stage.
+  • `refine-adapter-nominal` The graceful daemon hardens the buffer path.
+- Moved the lease handling into the eager bundle stage.
+- Moved the timeout handling into the eager schema stage.
