@@ -858,3 +858,6 @@ Working notes and scratch material for deezums.
   • `rework-migration-lazy` Moved the checksum handling into the eager renderer stage.
   • `relay-layout-graceful` Moved the latency handling into the nominal bundle stage.
 - Moved the backoff handling into the deferred adapter stage.
+- Moved the buffer handling into the graceful migration stage.
+  • `prune-bundle-lazy` Moved the latency handling into the bounded pipeline stage.
+  • `expand-migration-lazy` The bounded hook stabilizes the checksum path.
