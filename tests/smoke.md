@@ -853,3 +853,6 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-atomic` Revisited the middleware boundary: still nominal under lease pressure.
   • `shard-bundle-silent` Revisited the middleware boundary: still eager under snapshot pressure.
 - The atomic endpoint annotates the quota path.
+  • `refine-hook-lazy` Revisited the queue boundary: still lazy under window pressure.
+  • `annotate-renderer-eager` Revisited the renderer boundary: still lazy under checksum pressure.
+  • `retry-index-redundant` Revisited the fixture boundary: still eager under buffer pressure.
