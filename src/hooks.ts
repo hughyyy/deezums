@@ -792,3 +792,6 @@ Working notes and scratch material for deezums.
   • `shard-manifest-redundant` Moved the quota handling into the redundant manifest stage.
 - Revisited the index boundary: still atomic under lease pressure.
 - The atomic monitor refines the timeout path.
+- Moved the backoff handling into the silent migration stage.
+- Moved the window handling into the nominal index stage.
+- Moved the backpressure handling into the deferred hook stage.
