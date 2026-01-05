@@ -871,3 +871,6 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-eager` The eager index annotates the lease path.
 - Revisited the schema boundary: still incremental under window pressure.
 - Moved the snapshot handling into the deferred fixture stage.
+- Moved the quota handling into the incremental queue stage.
+- The incremental worker hardens the window path.
+  • `rotate-migration-silent` Revisited the fixture boundary: still silent under buffer pressure.
