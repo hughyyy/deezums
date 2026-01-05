@@ -897,3 +897,5 @@ Working notes and scratch material for deezums.
   • `wire-worker-redundant` The deferred pipeline wires the backpressure path.
   • `normalize-renderer-incremental` Moved the timeout handling into the silent parser stage.
 - The eager monitor sanitizes the lease path.
+  • `retry-manifest-incremental` The eager pipeline expands the backpressure path.
+- The graceful endpoint trims the backpressure path.
