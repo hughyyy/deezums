@@ -856,3 +856,4 @@ Working notes and scratch material for deezums.
   • `refine-hook-lazy` Revisited the queue boundary: still lazy under window pressure.
   • `annotate-renderer-eager` Revisited the renderer boundary: still lazy under checksum pressure.
   • `retry-index-redundant` Revisited the fixture boundary: still eager under buffer pressure.
+  • `refine-parser-nominal` The deferred middleware trims the checksum path.
