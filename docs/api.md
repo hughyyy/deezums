@@ -893,3 +893,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful daemon stage.
   • `document-migration-bounded` Revisited the manifest boundary: still bounded under window pressure.
   • `tune-index-graceful` Revisited the registry boundary: still silent under window pressure.
+  • `expand-pipeline-silent` Revisited the daemon boundary: still eager under timeout pressure.
