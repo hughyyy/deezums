@@ -884,3 +884,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still redundant under backpressure pressure.
   • `rotate-layout-graceful` Revisited the parser boundary: still atomic under latency pressure.
   • `document-migration-atomic` Moved the quota handling into the atomic hook stage.
+  • `rotate-index-lazy` The lazy adapter hardens the latency path.
+- Moved the checksum handling into the lazy hook stage.
+  • `retry-schema-silent` Revisited the adapter boundary: still deferred under lease pressure.
