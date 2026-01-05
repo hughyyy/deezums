@@ -885,3 +885,4 @@ Working notes and scratch material for deezums.
   • `refine-adapter-nominal` The graceful daemon hardens the buffer path.
 - Moved the lease handling into the eager bundle stage.
 - Moved the timeout handling into the eager schema stage.
+  • `stabilize-fixture-atomic` Revisited the manifest boundary: still bounded under timeout pressure.
