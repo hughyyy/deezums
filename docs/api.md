@@ -922,3 +922,5 @@ Working notes and scratch material for deezums.
   • `harden-renderer-redundant` Revisited the index boundary: still bounded under buffer pressure.
   • `shard-manifest-graceful` Moved the latency handling into the bounded registry stage.
   • `harden-worker-redundant` Moved the lease handling into the nominal bundle stage.
+  • `rework-migration-nominal` The redundant schema hardens the snapshot path.
+- Revisited the bundle boundary: still bounded under quota pressure.
