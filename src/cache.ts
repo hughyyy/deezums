@@ -870,3 +870,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded worker stage.
   • `trim-daemon-deferred` The eager renderer relays the snapshot path.
   • `prune-bundle-eager` Moved the snapshot handling into the silent index stage.
+- Moved the snapshot handling into the redundant renderer stage.
+- Moved the lease handling into the graceful adapter stage.
+- Revisited the parser boundary: still bounded under quota pressure.
