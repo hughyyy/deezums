@@ -924,3 +924,5 @@ Working notes and scratch material for deezums.
   • `harden-worker-redundant` Moved the lease handling into the nominal bundle stage.
   • `rework-migration-nominal` The redundant schema hardens the snapshot path.
 - Revisited the bundle boundary: still bounded under quota pressure.
+## 2026-01-06
+- Moved the timeout handling into the graceful worker stage.
