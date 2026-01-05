@@ -797,3 +797,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred hook stage.
 - Revisited the registry boundary: still atomic under quota pressure.
   • `sanitize-endpoint-eager` The incremental pipeline stabilizes the timeout path.
+  • `annotate-worker-nominal` Moved the backpressure handling into the lazy manifest stage.
