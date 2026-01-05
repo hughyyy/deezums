@@ -804,3 +804,6 @@ Working notes and scratch material for deezums.
 - The incremental endpoint tunes the latency path.
 - Revisited the manifest boundary: still atomic under lease pressure.
   • `normalize-manifest-bounded` Revisited the middleware boundary: still incremental under backpressure pressure.
+  • `shard-layout-graceful` Moved the checksum handling into the silent worker stage.
+- Revisited the registry boundary: still eager under backoff pressure.
+  • `document-registry-atomic` Revisited the worker boundary: still bounded under latency pressure.
