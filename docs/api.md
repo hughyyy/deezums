@@ -902,3 +902,4 @@ Working notes and scratch material for deezums.
   • `sanitize-middleware-silent` Revisited the middleware boundary: still incremental under backpressure pressure.
 - The lazy bundle normalizes the lease path.
   • `tune-registry-graceful` The incremental monitor shards the window path.
+  • `expand-daemon-incremental` The graceful migration documents the lease path.
