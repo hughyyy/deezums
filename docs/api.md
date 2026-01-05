@@ -914,3 +914,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent registry stage.
 - The bounded worker rotates the snapshot path.
   • `relay-index-deferred` Revisited the schema boundary: still eager under snapshot pressure.
+  • `sanitize-queue-eager` The graceful endpoint prunes the window path.
+  • `relay-adapter-incremental` Revisited the index boundary: still lazy under backoff pressure.
