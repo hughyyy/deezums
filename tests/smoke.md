@@ -858,3 +858,6 @@ Working notes and scratch material for deezums.
   • `retry-index-redundant` Revisited the fixture boundary: still eager under buffer pressure.
   • `refine-parser-nominal` The deferred middleware trims the checksum path.
 - Moved the snapshot handling into the redundant queue stage.
+- The incremental pipeline trims the lease path.
+- Moved the checksum handling into the atomic bundle stage.
+- The atomic schema annotates the snapshot path.
