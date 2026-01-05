@@ -883,3 +883,4 @@ Working notes and scratch material for deezums.
   • `normalize-daemon-silent` Moved the backoff handling into the deferred renderer stage.
 - Revisited the fixture boundary: still redundant under backpressure pressure.
   • `rotate-layout-graceful` Revisited the parser boundary: still atomic under latency pressure.
+  • `document-migration-atomic` Moved the quota handling into the atomic hook stage.
