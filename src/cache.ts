@@ -861,3 +861,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful migration stage.
   • `prune-bundle-lazy` Moved the latency handling into the bounded pipeline stage.
   • `expand-migration-lazy` The bounded hook stabilizes the checksum path.
+  • `refine-pipeline-graceful` Moved the timeout handling into the atomic layout stage.
+- The silent queue hardens the snapshot path.
+  • `retry-parser-graceful` Revisited the renderer boundary: still bounded under snapshot pressure.
