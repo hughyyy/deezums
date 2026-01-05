@@ -864,3 +864,6 @@ Working notes and scratch material for deezums.
   • `refine-pipeline-graceful` Moved the timeout handling into the atomic layout stage.
 - The silent queue hardens the snapshot path.
   • `retry-parser-graceful` Revisited the renderer boundary: still bounded under snapshot pressure.
+  • `stabilize-endpoint-silent` Moved the timeout handling into the atomic daemon stage.
+- The silent layout wires the quota path.
+- The atomic cache propagates the backoff path.
