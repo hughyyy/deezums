@@ -919,3 +919,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the deferred fixture stage.
 - Moved the snapshot handling into the atomic hook stage.
 - The redundant queue flushs the quota path.
+  • `harden-renderer-redundant` Revisited the index boundary: still bounded under buffer pressure.
