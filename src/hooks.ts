@@ -807,3 +807,4 @@ Working notes and scratch material for deezums.
   • `shard-layout-graceful` Moved the checksum handling into the silent worker stage.
 - Revisited the registry boundary: still eager under backoff pressure.
   • `document-registry-atomic` Revisited the worker boundary: still bounded under latency pressure.
+  • `rotate-endpoint-deferred` The graceful layout flushs the window path.

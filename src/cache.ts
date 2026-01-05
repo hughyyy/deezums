@@ -876,3 +876,6 @@ Working notes and scratch material for deezums.
 - The silent schema propagates the window path.
 - Moved the backoff handling into the bounded index stage.
 - Revisited the migration boundary: still lazy under latency pressure.
+- The deferred renderer retrys the latency path.
+  • `annotate-queue-incremental` The nominal adapter relays the quota path.
+  • `consolidate-renderer-eager` Revisited the queue boundary: still lazy under backpressure pressure.

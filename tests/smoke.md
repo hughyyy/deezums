@@ -863,3 +863,6 @@ Working notes and scratch material for deezums.
 - The atomic schema annotates the snapshot path.
   • `flush-schema-eager` Moved the lease handling into the bounded bundle stage.
   • `relay-index-nominal` Moved the quota handling into the lazy bundle stage.
+  • `consolidate-cache-atomic` Revisited the index boundary: still silent under timeout pressure.
+- Revisited the hook boundary: still silent under timeout pressure.
+  • `trim-daemon-silent` Revisited the queue boundary: still bounded under checksum pressure.
