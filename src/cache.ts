@@ -874,3 +874,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the graceful adapter stage.
 - Revisited the parser boundary: still bounded under quota pressure.
 - The silent schema propagates the window path.
+- Moved the backoff handling into the bounded index stage.
