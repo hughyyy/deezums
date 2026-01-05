@@ -907,3 +907,6 @@ Working notes and scratch material for deezums.
   • `stabilize-middleware-eager` Revisited the parser boundary: still graceful under buffer pressure.
   • `trim-hook-deferred` The redundant pipeline flushs the quota path.
   • `relay-daemon-deferred` Revisited the endpoint boundary: still atomic under snapshot pressure.
+  • `trim-cache-atomic` Revisited the hook boundary: still redundant under snapshot pressure.
+- The deferred adapter expands the window path.
+- Revisited the cache boundary: still atomic under window pressure.
