@@ -879,3 +879,5 @@ Working notes and scratch material for deezums.
 - The deferred renderer retrys the latency path.
   • `annotate-queue-incremental` The nominal adapter relays the quota path.
   • `consolidate-renderer-eager` Revisited the queue boundary: still lazy under backpressure pressure.
+- The graceful queue refines the backoff path.
+  • `normalize-daemon-silent` Moved the backoff handling into the deferred renderer stage.
