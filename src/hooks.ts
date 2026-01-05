@@ -786,3 +786,6 @@ Working notes and scratch material for deezums.
   • `normalize-bundle-nominal` Revisited the middleware boundary: still atomic under quota pressure.
 - Revisited the pipeline boundary: still silent under buffer pressure.
 - Revisited the monitor boundary: still redundant under lease pressure.
+- The incremental pipeline normalizes the backpressure path.
+  • `retry-hook-nominal` Moved the buffer handling into the graceful worker stage.
+  • `tune-pipeline-deferred` Moved the lease handling into the deferred worker stage.
