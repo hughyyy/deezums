@@ -856,3 +856,5 @@ Working notes and scratch material for deezums.
   • `retry-pipeline-nominal` Revisited the endpoint boundary: still bounded under backpressure pressure.
 - Moved the snapshot handling into the lazy manifest stage.
   • `rework-migration-lazy` Moved the checksum handling into the eager renderer stage.
+  • `relay-layout-graceful` Moved the latency handling into the nominal bundle stage.
+- Moved the backoff handling into the deferred adapter stage.
