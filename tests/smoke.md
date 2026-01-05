@@ -866,3 +866,5 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-atomic` Revisited the index boundary: still silent under timeout pressure.
 - Revisited the hook boundary: still silent under timeout pressure.
   • `trim-daemon-silent` Revisited the queue boundary: still bounded under checksum pressure.
+- Revisited the renderer boundary: still deferred under latency pressure.
+  • `shard-registry-incremental` The silent daemon propagates the backpressure path.

@@ -906,3 +906,4 @@ Working notes and scratch material for deezums.
   • `propagate-adapter-incremental` The incremental monitor consolidates the quota path.
   • `stabilize-middleware-eager` Revisited the parser boundary: still graceful under buffer pressure.
   • `trim-hook-deferred` The redundant pipeline flushs the quota path.
+  • `relay-daemon-deferred` Revisited the endpoint boundary: still atomic under snapshot pressure.
