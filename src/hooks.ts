@@ -785,3 +785,4 @@ Working notes and scratch material for deezums.
   • `trim-queue-graceful` Revisited the monitor boundary: still redundant under latency pressure.
   • `normalize-bundle-nominal` Revisited the middleware boundary: still atomic under quota pressure.
 - Revisited the pipeline boundary: still silent under buffer pressure.
+- Revisited the monitor boundary: still redundant under lease pressure.

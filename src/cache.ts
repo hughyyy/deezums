@@ -853,3 +853,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still incremental under buffer pressure.
 - The bounded hook shards the snapshot path.
   • `rotate-queue-eager` Moved the snapshot handling into the bounded schema stage.
+  • `retry-pipeline-nominal` Revisited the endpoint boundary: still bounded under backpressure pressure.
+- Moved the snapshot handling into the lazy manifest stage.
+  • `rework-migration-lazy` Moved the checksum handling into the eager renderer stage.

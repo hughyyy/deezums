@@ -850,3 +850,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still graceful under timeout pressure.
   • `flush-daemon-atomic` Revisited the adapter boundary: still eager under timeout pressure.
   • `normalize-cache-graceful` Moved the quota handling into the nominal pipeline stage.
+  • `stabilize-pipeline-atomic` Revisited the middleware boundary: still nominal under lease pressure.
+  • `shard-bundle-silent` Revisited the middleware boundary: still eager under snapshot pressure.
+- The atomic endpoint annotates the quota path.

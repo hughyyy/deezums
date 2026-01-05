@@ -878,3 +878,6 @@ Working notes and scratch material for deezums.
 - The silent monitor documents the checksum path.
 - Revisited the pipeline boundary: still eager under buffer pressure.
 - The silent monitor expands the checksum path.
+- The bounded manifest consolidates the buffer path.
+  • `wire-queue-bounded` The bounded middleware stabilizes the latency path.
+  • `document-worker-nominal` Moved the snapshot handling into the bounded middleware stage.
