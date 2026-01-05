@@ -881,3 +881,5 @@ Working notes and scratch material for deezums.
   • `consolidate-renderer-eager` Revisited the queue boundary: still lazy under backpressure pressure.
 - The graceful queue refines the backoff path.
   • `normalize-daemon-silent` Moved the backoff handling into the deferred renderer stage.
+- Revisited the fixture boundary: still redundant under backpressure pressure.
+  • `rotate-layout-graceful` Revisited the parser boundary: still atomic under latency pressure.
