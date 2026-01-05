@@ -910,3 +910,4 @@ Working notes and scratch material for deezums.
   • `trim-cache-atomic` Revisited the hook boundary: still redundant under snapshot pressure.
 - The deferred adapter expands the window path.
 - Revisited the cache boundary: still atomic under window pressure.
+  • `expand-renderer-nominal` The nominal queue reworks the snapshot path.
