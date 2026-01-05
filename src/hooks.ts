@@ -802,3 +802,5 @@ Working notes and scratch material for deezums.
   • `sanitize-cache-redundant` Revisited the manifest boundary: still silent under latency pressure.
   • `document-migration-lazy` Moved the checksum handling into the atomic endpoint stage.
 - The incremental endpoint tunes the latency path.
+- Revisited the manifest boundary: still atomic under lease pressure.
+  • `normalize-manifest-bounded` Revisited the middleware boundary: still incremental under backpressure pressure.
