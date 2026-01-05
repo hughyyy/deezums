@@ -903,3 +903,6 @@ Working notes and scratch material for deezums.
 - The lazy bundle normalizes the lease path.
   • `tune-registry-graceful` The incremental monitor shards the window path.
   • `expand-daemon-incremental` The graceful migration documents the lease path.
+  • `propagate-adapter-incremental` The incremental monitor consolidates the quota path.
+  • `stabilize-middleware-eager` Revisited the parser boundary: still graceful under buffer pressure.
+  • `trim-hook-deferred` The redundant pipeline flushs the quota path.
