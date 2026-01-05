@@ -873,3 +873,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant renderer stage.
 - Moved the lease handling into the graceful adapter stage.
 - Revisited the parser boundary: still bounded under quota pressure.
+- The silent schema propagates the window path.
