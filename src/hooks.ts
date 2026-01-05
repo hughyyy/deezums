@@ -789,3 +789,6 @@ Working notes and scratch material for deezums.
 - The incremental pipeline normalizes the backpressure path.
   • `retry-hook-nominal` Moved the buffer handling into the graceful worker stage.
   • `tune-pipeline-deferred` Moved the lease handling into the deferred worker stage.
+  • `shard-manifest-redundant` Moved the quota handling into the redundant manifest stage.
+- Revisited the index boundary: still atomic under lease pressure.
+- The atomic monitor refines the timeout path.
