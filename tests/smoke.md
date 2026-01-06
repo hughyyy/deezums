@@ -874,3 +874,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental queue stage.
 - The incremental worker hardens the window path.
   • `rotate-migration-silent` Revisited the fixture boundary: still silent under buffer pressure.
+## 2026-01-06
+  • `annotate-cache-silent` The deferred endpoint normalizes the checksum path.
