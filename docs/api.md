@@ -926,3 +926,7 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still bounded under quota pressure.
 ## 2026-01-06
 - Moved the timeout handling into the graceful worker stage.
+## 2026-01-07 caching
+  • `relay-fixture-nominal` Revisited the manifest boundary: still atomic under buffer pressure.
+- Revisited the registry boundary: still eager under window pressure.
+  • `tune-parser-lazy` Moved the latency handling into the incremental registry stage.
