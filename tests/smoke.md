@@ -876,3 +876,7 @@ Working notes and scratch material for deezums.
   • `rotate-migration-silent` Revisited the fixture boundary: still silent under buffer pressure.
 ## 2026-01-06
   • `annotate-cache-silent` The deferred endpoint normalizes the checksum path.
+## 2026-01-07
+  • `consolidate-queue-bounded` Moved the checksum handling into the deferred fixture stage.
+  • `trim-layout-graceful` The lazy queue flushs the lease path.
+  • `prune-queue-silent` Moved the latency handling into the eager bundle stage.

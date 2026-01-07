@@ -930,3 +930,6 @@ Working notes and scratch material for deezums.
   • `relay-fixture-nominal` Revisited the manifest boundary: still atomic under buffer pressure.
 - Revisited the registry boundary: still eager under window pressure.
   • `tune-parser-lazy` Moved the latency handling into the incremental registry stage.
+- The redundant renderer propagates the latency path.
+- Revisited the manifest boundary: still incremental under backoff pressure.
+  • `document-manifest-atomic` Moved the window handling into the eager middleware stage.
