@@ -810,3 +810,6 @@ Working notes and scratch material for deezums.
   • `rotate-endpoint-deferred` The graceful layout flushs the window path.
   • `refine-pipeline-eager` Moved the latency handling into the atomic manifest stage.
 - Revisited the schema boundary: still deferred under quota pressure.
+## 2026-01-09
+- Moved the window handling into the eager renderer stage.
+  • `relay-schema-lazy` Moved the quota handling into the graceful cache stage.
