@@ -937,3 +937,6 @@ Working notes and scratch material for deezums.
 - The deferred cache sanitizes the quota path.
 - Revisited the schema boundary: still eager under latency pressure.
 - Revisited the queue boundary: still deferred under quota pressure.
+- The eager layout relays the window path.
+  • `consolidate-renderer-lazy` The redundant daemon expands the backoff path.
+- The nominal index flushs the backoff path.
