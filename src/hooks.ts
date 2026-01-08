@@ -814,3 +814,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager renderer stage.
   • `relay-schema-lazy` Moved the quota handling into the graceful cache stage.
   • `wire-adapter-lazy` Moved the latency handling into the nominal index stage.
+- The lazy registry wires the buffer path.
