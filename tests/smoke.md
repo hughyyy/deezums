@@ -880,3 +880,6 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-bounded` Moved the checksum handling into the deferred fixture stage.
   • `trim-layout-graceful` The lazy queue flushs the lease path.
   • `prune-queue-silent` Moved the latency handling into the eager bundle stage.
+## 2026-01-08
+- Moved the snapshot handling into the incremental manifest stage.
+  • `stabilize-migration-atomic` The graceful daemon shards the checksum path.
