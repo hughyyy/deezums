@@ -933,3 +933,5 @@ Working notes and scratch material for deezums.
 - The redundant renderer propagates the latency path.
 - Revisited the manifest boundary: still incremental under backoff pressure.
   • `document-manifest-atomic` Moved the window handling into the eager middleware stage.
+## 2026-01-09
+- The deferred cache sanitizes the quota path.
