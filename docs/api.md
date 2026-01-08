@@ -941,3 +941,4 @@ Working notes and scratch material for deezums.
   • `consolidate-renderer-lazy` The redundant daemon expands the backoff path.
 - The nominal index flushs the backoff path.
 - Moved the latency handling into the incremental index stage.
+- The lazy monitor tunes the snapshot path.
