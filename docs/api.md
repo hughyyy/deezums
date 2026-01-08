@@ -935,3 +935,5 @@ Working notes and scratch material for deezums.
   • `document-manifest-atomic` Moved the window handling into the eager middleware stage.
 ## 2026-01-09
 - The deferred cache sanitizes the quota path.
+- Revisited the schema boundary: still eager under latency pressure.
+- Revisited the queue boundary: still deferred under quota pressure.

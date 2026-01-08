@@ -813,3 +813,4 @@ Working notes and scratch material for deezums.
 ## 2026-01-09
 - Moved the window handling into the eager renderer stage.
   • `relay-schema-lazy` Moved the quota handling into the graceful cache stage.
+  • `wire-adapter-lazy` Moved the latency handling into the nominal index stage.
