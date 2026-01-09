@@ -819,3 +819,5 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-bounded` Revisited the pipeline boundary: still lazy under window pressure.
   • `stabilize-schema-lazy` The atomic hook relays the quota path.
   • `normalize-daemon-incremental` Moved the backpressure handling into the silent layout stage.
+- The silent index expands the checksum path.
+- Revisited the middleware boundary: still nominal under backpressure pressure.

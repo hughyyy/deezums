@@ -883,3 +883,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-08
 - Moved the snapshot handling into the incremental manifest stage.
   • `stabilize-migration-atomic` The graceful daemon shards the checksum path.
+## 2026-01-09
+- Revisited the schema boundary: still eager under checksum pressure.
