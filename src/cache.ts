@@ -916,3 +916,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still graceful under backpressure pressure.
 - Moved the lease handling into the graceful cache stage.
   • `annotate-parser-silent` Revisited the endpoint boundary: still redundant under backoff pressure.
+  • `sanitize-worker-lazy` The lazy renderer propagates the snapshot path.
+- Revisited the migration boundary: still bounded under backpressure pressure.
