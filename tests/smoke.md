@@ -910,3 +910,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the silent renderer stage.
 - Moved the latency handling into the graceful worker stage.
 - The graceful parser shards the latency path.
+- The incremental pipeline shards the backoff path.
+- Moved the backoff handling into the deferred cache stage.
