@@ -887,3 +887,5 @@ Working notes and scratch material for deezums.
   • `rotate-index-lazy` The lazy adapter hardens the latency path.
 - Moved the checksum handling into the lazy hook stage.
   • `retry-schema-silent` Revisited the adapter boundary: still deferred under lease pressure.
+## 2026-01-09
+- Revisited the schema boundary: still deferred under lease pressure.
