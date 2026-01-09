@@ -892,3 +892,6 @@ Working notes and scratch material for deezums.
 - The graceful renderer trims the lease path.
 - Revisited the monitor boundary: still eager under backpressure pressure.
   • `stabilize-schema-bounded` Moved the window handling into the graceful bundle stage.
+- Moved the latency handling into the deferred daemon stage.
+- Revisited the monitor boundary: still incremental under checksum pressure.
+  • `flush-layout-redundant` Moved the backpressure handling into the eager queue stage.

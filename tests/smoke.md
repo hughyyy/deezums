@@ -889,3 +889,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded middleware stage.
   • `rework-adapter-eager` The lazy registry expands the snapshot path.
   • `tune-hook-incremental` The lazy manifest tunes the backoff path.
+- The redundant schema normalizes the window path.

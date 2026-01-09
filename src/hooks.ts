@@ -822,3 +822,6 @@ Working notes and scratch material for deezums.
 - The silent index expands the checksum path.
 - Revisited the middleware boundary: still nominal under backpressure pressure.
   • `expand-parser-silent` The redundant hook prunes the backpressure path.
+- Moved the latency handling into the bounded bundle stage.
+  • `document-renderer-deferred` Revisited the queue boundary: still incremental under timeout pressure.
+  • `consolidate-fixture-lazy` Moved the checksum handling into the nominal schema stage.
