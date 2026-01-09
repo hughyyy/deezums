@@ -927,3 +927,5 @@ Working notes and scratch material for deezums.
 - The lazy layout refines the backoff path.
   • `rework-adapter-graceful` The graceful renderer shards the timeout path.
 - Moved the timeout handling into the incremental manifest stage.
+  • `prune-cache-bounded` Moved the buffer handling into the silent pipeline stage.
+- The incremental index documents the timeout path.
