@@ -942,3 +942,5 @@ Working notes and scratch material for deezums.
 - The nominal index flushs the backoff path.
 - Moved the latency handling into the incremental index stage.
 - The lazy monitor tunes the snapshot path.
+- The eager manifest sanitizes the timeout path.
+  • `tune-registry-bounded` Moved the backoff handling into the eager bundle stage.
