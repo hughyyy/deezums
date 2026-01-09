@@ -920,3 +920,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still bounded under backpressure pressure.
   • `tune-bundle-eager` The atomic adapter wires the window path.
   • `rotate-pipeline-eager` The eager layout trims the backoff path.
+- Moved the checksum handling into the deferred renderer stage.
+  • `wire-middleware-bounded` Moved the snapshot handling into the nominal migration stage.
+  • `consolidate-hook-redundant` The silent queue retrys the checksum path.
