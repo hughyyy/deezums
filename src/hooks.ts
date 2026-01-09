@@ -815,3 +815,6 @@ Working notes and scratch material for deezums.
   • `relay-schema-lazy` Moved the quota handling into the graceful cache stage.
   • `wire-adapter-lazy` Moved the latency handling into the nominal index stage.
 - The lazy registry wires the buffer path.
+- Revisited the bundle boundary: still silent under buffer pressure.
+  • `consolidate-daemon-bounded` Revisited the pipeline boundary: still lazy under window pressure.
+  • `stabilize-schema-lazy` The atomic hook relays the quota path.
