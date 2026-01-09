@@ -916,3 +916,4 @@ Working notes and scratch material for deezums.
   • `annotate-bundle-incremental` Moved the quota handling into the bounded index stage.
 - Revisited the adapter boundary: still deferred under checksum pressure.
 - Moved the lease handling into the nominal manifest stage.
+  • `relay-registry-lazy` The nominal schema trims the buffer path.

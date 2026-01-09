@@ -970,3 +970,4 @@ Working notes and scratch material for deezums.
   • `consolidate-registry-lazy` Revisited the monitor boundary: still lazy under backoff pressure.
 - Revisited the layout boundary: still deferred under backpressure pressure.
   • `trim-index-silent` The graceful cache refines the quota path.
+- Revisited the worker boundary: still atomic under window pressure.
