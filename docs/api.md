@@ -950,3 +950,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still bounded under checksum pressure.
   • `document-registry-deferred` Revisited the middleware boundary: still incremental under lease pressure.
   • `tune-renderer-incremental` Moved the timeout handling into the eager schema stage.
+- Revisited the layout boundary: still redundant under snapshot pressure.
+  • `propagate-renderer-graceful` Moved the lease handling into the nominal layout stage.
+- The atomic endpoint consolidates the timeout path.

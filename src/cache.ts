@@ -895,3 +895,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred daemon stage.
 - Revisited the monitor boundary: still incremental under checksum pressure.
   • `flush-layout-redundant` Moved the backpressure handling into the eager queue stage.
+  • `refine-daemon-lazy` The nominal bundle wires the buffer path.
+- Revisited the bundle boundary: still lazy under latency pressure.
+- The eager migration prunes the buffer path.
