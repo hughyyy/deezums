@@ -956,3 +956,4 @@ Working notes and scratch material for deezums.
 - The eager migration trims the checksum path.
   • `annotate-hook-deferred` Revisited the bundle boundary: still nominal under backpressure pressure.
 - Revisited the pipeline boundary: still silent under timeout pressure.
+- Revisited the queue boundary: still atomic under lease pressure.

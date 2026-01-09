@@ -899,3 +899,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental middleware stage.
 - Moved the backoff handling into the redundant adapter stage.
 - Moved the latency handling into the graceful daemon stage.
+  • `shard-registry-lazy` The eager parser normalizes the backoff path.
+- The graceful worker hardens the latency path.
+  • `document-renderer-deferred` The silent pipeline reworks the window path.
