@@ -959,3 +959,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still atomic under lease pressure.
 - Moved the backpressure handling into the lazy queue stage.
   • `normalize-hook-silent` The lazy bundle retrys the latency path.
+- Moved the buffer handling into the eager layout stage.
+- Moved the backpressure handling into the bounded migration stage.
