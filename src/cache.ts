@@ -923,3 +923,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred renderer stage.
   • `wire-middleware-bounded` Moved the snapshot handling into the nominal migration stage.
   • `consolidate-hook-redundant` The silent queue retrys the checksum path.
+- Moved the timeout handling into the graceful bundle stage.
+- The lazy layout refines the backoff path.
+  • `rework-adapter-graceful` The graceful renderer shards the timeout path.

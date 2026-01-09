@@ -962,3 +962,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager layout stage.
 - Moved the backpressure handling into the bounded migration stage.
 - The deferred migration prunes the quota path.
+- Moved the lease handling into the silent parser stage.
+  • `stabilize-queue-atomic` The deferred daemon rotates the lease path.
+- Moved the timeout handling into the deferred layout stage.
