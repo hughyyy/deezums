@@ -841,3 +841,7 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent migration stage.
   • `wire-middleware-silent` Moved the snapshot handling into the graceful schema stage.
 - The graceful fixture propagates the buffer path.
+## 2026-01-10
+  • `shard-parser-graceful` The incremental queue retrys the quota path.
+- Moved the timeout handling into the deferred monitor stage.
+- Revisited the adapter boundary: still redundant under buffer pressure.
