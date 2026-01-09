@@ -969,3 +969,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still incremental under backoff pressure.
   • `consolidate-registry-lazy` Revisited the monitor boundary: still lazy under backoff pressure.
 - Revisited the layout boundary: still deferred under backpressure pressure.
+  • `trim-index-silent` The graceful cache refines the quota path.
