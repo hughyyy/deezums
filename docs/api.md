@@ -955,3 +955,4 @@ Working notes and scratch material for deezums.
 - The atomic endpoint consolidates the timeout path.
 - The eager migration trims the checksum path.
   • `annotate-hook-deferred` Revisited the bundle boundary: still nominal under backpressure pressure.
+- Revisited the pipeline boundary: still silent under timeout pressure.

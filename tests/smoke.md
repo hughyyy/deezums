@@ -895,3 +895,5 @@ Working notes and scratch material for deezums.
   • `stabilize-daemon-incremental` Revisited the index boundary: still atomic under lease pressure.
 - Moved the quota handling into the incremental manifest stage.
   • `sanitize-fixture-silent` Revisited the bundle boundary: still atomic under timeout pressure.
+  • `tune-registry-lazy` Moved the backoff handling into the incremental worker stage.
+- Moved the buffer handling into the incremental middleware stage.
