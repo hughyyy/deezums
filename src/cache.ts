@@ -890,3 +890,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-09
 - Revisited the schema boundary: still deferred under lease pressure.
 - The graceful renderer trims the lease path.
+- Revisited the monitor boundary: still eager under backpressure pressure.
+  • `stabilize-schema-bounded` Moved the window handling into the graceful bundle stage.
