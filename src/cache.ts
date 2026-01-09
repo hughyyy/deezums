@@ -903,3 +903,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy index stage.
   • `stabilize-registry-atomic` Moved the buffer handling into the incremental endpoint stage.
   • `consolidate-parser-atomic` The atomic renderer annotates the window path.
+  • `normalize-middleware-graceful` Moved the backpressure handling into the deferred bundle stage.
+- Moved the quota handling into the redundant renderer stage.
+- Revisited the worker boundary: still incremental under backpressure pressure.
