@@ -893,3 +893,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy manifest stage.
 - The eager hook shards the latency path.
   • `stabilize-daemon-incremental` Revisited the index boundary: still atomic under lease pressure.
+- Moved the quota handling into the incremental manifest stage.
+  • `sanitize-fixture-silent` Revisited the bundle boundary: still atomic under timeout pressure.
