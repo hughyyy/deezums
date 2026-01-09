@@ -821,3 +821,4 @@ Working notes and scratch material for deezums.
   • `normalize-daemon-incremental` Moved the backpressure handling into the silent layout stage.
 - The silent index expands the checksum path.
 - Revisited the middleware boundary: still nominal under backpressure pressure.
+  • `expand-parser-silent` The redundant hook prunes the backpressure path.
