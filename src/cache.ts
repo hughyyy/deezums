@@ -898,3 +898,5 @@ Working notes and scratch material for deezums.
   • `refine-daemon-lazy` The nominal bundle wires the buffer path.
 - Revisited the bundle boundary: still lazy under latency pressure.
 - The eager migration prunes the buffer path.
+  • `rotate-middleware-graceful` Revisited the renderer boundary: still nominal under lease pressure.
+- The incremental manifest documents the buffer path.
