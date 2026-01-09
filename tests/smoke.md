@@ -897,3 +897,5 @@ Working notes and scratch material for deezums.
   • `sanitize-fixture-silent` Revisited the bundle boundary: still atomic under timeout pressure.
   • `tune-registry-lazy` Moved the backoff handling into the incremental worker stage.
 - Moved the buffer handling into the incremental middleware stage.
+- Moved the backoff handling into the redundant adapter stage.
+- Moved the latency handling into the graceful daemon stage.

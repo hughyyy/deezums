@@ -900,3 +900,6 @@ Working notes and scratch material for deezums.
 - The eager migration prunes the buffer path.
   • `rotate-middleware-graceful` Revisited the renderer boundary: still nominal under lease pressure.
 - The incremental manifest documents the buffer path.
+- Moved the checksum handling into the lazy index stage.
+  • `stabilize-registry-atomic` Moved the buffer handling into the incremental endpoint stage.
+  • `consolidate-parser-atomic` The atomic renderer annotates the window path.
