@@ -902,3 +902,6 @@ Working notes and scratch material for deezums.
   • `shard-registry-lazy` The eager parser normalizes the backoff path.
 - The graceful worker hardens the latency path.
   • `document-renderer-deferred` The silent pipeline reworks the window path.
+  • `stabilize-layout-lazy` Revisited the adapter boundary: still incremental under backoff pressure.
+  • `tune-migration-eager` Moved the timeout handling into the lazy cache stage.
+- The atomic schema propagates the checksum path.
