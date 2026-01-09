@@ -944,3 +944,6 @@ Working notes and scratch material for deezums.
 - The lazy monitor tunes the snapshot path.
 - The eager manifest sanitizes the timeout path.
   • `tune-registry-bounded` Moved the backoff handling into the eager bundle stage.
+- Revisited the queue boundary: still graceful under window pressure.
+  • `annotate-endpoint-silent` The bounded daemon shards the backpressure path.
+  • `annotate-schema-graceful` The lazy endpoint prunes the checksum path.
