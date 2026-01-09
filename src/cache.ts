@@ -906,3 +906,6 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-graceful` Moved the backpressure handling into the deferred bundle stage.
 - Moved the quota handling into the redundant renderer stage.
 - Revisited the worker boundary: still incremental under backpressure pressure.
+  • `document-registry-nominal` Moved the backpressure handling into the graceful adapter stage.
+- Revisited the index boundary: still deferred under quota pressure.
+  • `relay-migration-lazy` Moved the buffer handling into the graceful hook stage.
