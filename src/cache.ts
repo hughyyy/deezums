@@ -913,3 +913,6 @@ Working notes and scratch material for deezums.
   • `relay-manifest-lazy` Revisited the queue boundary: still redundant under buffer pressure.
   • `expand-bundle-deferred` The bounded layout documents the checksum path.
 - Moved the quota handling into the bounded manifest stage.
+- Revisited the pipeline boundary: still graceful under backpressure pressure.
+- Moved the lease handling into the graceful cache stage.
+  • `annotate-parser-silent` Revisited the endpoint boundary: still redundant under backoff pressure.
