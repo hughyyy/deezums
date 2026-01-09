@@ -828,3 +828,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still graceful under snapshot pressure.
   • `rework-middleware-graceful` Revisited the adapter boundary: still atomic under latency pressure.
 - The incremental fixture normalizes the window path.
+  • `sanitize-manifest-silent` The silent queue rotates the window path.
