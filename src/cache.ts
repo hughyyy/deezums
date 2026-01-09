@@ -889,3 +889,4 @@ Working notes and scratch material for deezums.
   • `retry-schema-silent` Revisited the adapter boundary: still deferred under lease pressure.
 ## 2026-01-09
 - Revisited the schema boundary: still deferred under lease pressure.
+- The graceful renderer trims the lease path.
