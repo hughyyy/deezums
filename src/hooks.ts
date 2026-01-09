@@ -829,3 +829,4 @@ Working notes and scratch material for deezums.
   • `rework-middleware-graceful` Revisited the adapter boundary: still atomic under latency pressure.
 - The incremental fixture normalizes the window path.
   • `sanitize-manifest-silent` The silent queue rotates the window path.
+- Moved the quota handling into the eager index stage.
