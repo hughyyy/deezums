@@ -905,3 +905,5 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-lazy` Revisited the adapter boundary: still incremental under backoff pressure.
   • `tune-migration-eager` Moved the timeout handling into the lazy cache stage.
 - The atomic schema propagates the checksum path.
+  • `refine-middleware-atomic` The deferred parser rotates the timeout path.
+- Moved the quota handling into the bounded layout stage.
