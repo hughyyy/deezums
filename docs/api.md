@@ -958,3 +958,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still silent under timeout pressure.
 - Revisited the queue boundary: still atomic under lease pressure.
 - Moved the backpressure handling into the lazy queue stage.
+  • `normalize-hook-silent` The lazy bundle retrys the latency path.
