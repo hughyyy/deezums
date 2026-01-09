@@ -909,3 +909,4 @@ Working notes and scratch material for deezums.
   • `document-registry-nominal` Moved the backpressure handling into the graceful adapter stage.
 - Revisited the index boundary: still deferred under quota pressure.
   • `relay-migration-lazy` Moved the buffer handling into the graceful hook stage.
+  • `consolidate-renderer-silent` Moved the latency handling into the eager manifest stage.
