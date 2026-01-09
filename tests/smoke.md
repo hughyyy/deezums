@@ -907,3 +907,6 @@ Working notes and scratch material for deezums.
 - The atomic schema propagates the checksum path.
   • `refine-middleware-atomic` The deferred parser rotates the timeout path.
 - Moved the quota handling into the bounded layout stage.
+- Moved the checksum handling into the silent renderer stage.
+- Moved the latency handling into the graceful worker stage.
+- The graceful parser shards the latency path.
