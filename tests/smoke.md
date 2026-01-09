@@ -885,3 +885,5 @@ Working notes and scratch material for deezums.
   • `stabilize-migration-atomic` The graceful daemon shards the checksum path.
 ## 2026-01-09
 - Revisited the schema boundary: still eager under checksum pressure.
+- Revisited the middleware boundary: still graceful under window pressure.
+- Moved the latency handling into the bounded middleware stage.
