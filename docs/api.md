@@ -965,3 +965,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the silent parser stage.
   • `stabilize-queue-atomic` The deferred daemon rotates the lease path.
 - Moved the timeout handling into the deferred layout stage.
+  • `stabilize-renderer-eager` Revisited the monitor boundary: still atomic under window pressure.
