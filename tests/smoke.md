@@ -887,3 +887,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under checksum pressure.
 - Revisited the middleware boundary: still graceful under window pressure.
 - Moved the latency handling into the bounded middleware stage.
+  • `rework-adapter-eager` The lazy registry expands the snapshot path.
+  • `tune-hook-incremental` The lazy manifest tunes the backoff path.
