@@ -926,3 +926,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful bundle stage.
 - The lazy layout refines the backoff path.
   • `rework-adapter-graceful` The graceful renderer shards the timeout path.
+- Moved the timeout handling into the incremental manifest stage.
