@@ -830,3 +830,6 @@ Working notes and scratch material for deezums.
 - The incremental fixture normalizes the window path.
   • `sanitize-manifest-silent` The silent queue rotates the window path.
 - Moved the quota handling into the eager index stage.
+- Moved the snapshot handling into the atomic parser stage.
+- Revisited the adapter boundary: still deferred under backoff pressure.
+  • `shard-hook-nominal` Moved the quota handling into the eager pipeline stage.
