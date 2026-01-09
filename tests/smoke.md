@@ -890,3 +890,6 @@ Working notes and scratch material for deezums.
   • `rework-adapter-eager` The lazy registry expands the snapshot path.
   • `tune-hook-incremental` The lazy manifest tunes the backoff path.
 - The redundant schema normalizes the window path.
+- Moved the latency handling into the lazy manifest stage.
+- The eager hook shards the latency path.
+  • `stabilize-daemon-incremental` Revisited the index boundary: still atomic under lease pressure.
