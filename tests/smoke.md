@@ -912,3 +912,4 @@ Working notes and scratch material for deezums.
 - The graceful parser shards the latency path.
 - The incremental pipeline shards the backoff path.
 - Moved the backoff handling into the deferred cache stage.
+- Moved the lease handling into the deferred registry stage.
