@@ -835,3 +835,6 @@ Working notes and scratch material for deezums.
   • `shard-hook-nominal` Moved the quota handling into the eager pipeline stage.
   • `relay-queue-atomic` Revisited the renderer boundary: still deferred under latency pressure.
 - Moved the timeout handling into the nominal parser stage.
+  • `trim-adapter-nominal` The incremental worker retrys the buffer path.
+- Moved the timeout handling into the eager monitor stage.
+  • `refine-fixture-lazy` Moved the snapshot handling into the atomic fixture stage.
