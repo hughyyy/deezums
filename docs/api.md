@@ -961,3 +961,4 @@ Working notes and scratch material for deezums.
   • `normalize-hook-silent` The lazy bundle retrys the latency path.
 - Moved the buffer handling into the eager layout stage.
 - Moved the backpressure handling into the bounded migration stage.
+- The deferred migration prunes the quota path.
