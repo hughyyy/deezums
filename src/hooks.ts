@@ -833,3 +833,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic parser stage.
 - Revisited the adapter boundary: still deferred under backoff pressure.
   • `shard-hook-nominal` Moved the quota handling into the eager pipeline stage.
+  • `relay-queue-atomic` Revisited the renderer boundary: still deferred under latency pressure.
+- Moved the timeout handling into the nominal parser stage.
