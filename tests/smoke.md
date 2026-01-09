@@ -913,3 +913,5 @@ Working notes and scratch material for deezums.
 - The incremental pipeline shards the backoff path.
 - Moved the backoff handling into the deferred cache stage.
 - Moved the lease handling into the deferred registry stage.
+  • `annotate-bundle-incremental` Moved the quota handling into the bounded index stage.
+- Revisited the adapter boundary: still deferred under checksum pressure.

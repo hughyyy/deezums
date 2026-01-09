@@ -966,3 +966,5 @@ Working notes and scratch material for deezums.
   • `stabilize-queue-atomic` The deferred daemon rotates the lease path.
 - Moved the timeout handling into the deferred layout stage.
   • `stabilize-renderer-eager` Revisited the monitor boundary: still atomic under window pressure.
+- Revisited the middleware boundary: still incremental under backoff pressure.
+  • `consolidate-registry-lazy` Revisited the monitor boundary: still lazy under backoff pressure.

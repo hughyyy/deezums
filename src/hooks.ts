@@ -838,3 +838,6 @@ Working notes and scratch material for deezums.
   • `trim-adapter-nominal` The incremental worker retrys the buffer path.
 - Moved the timeout handling into the eager monitor stage.
   • `refine-fixture-lazy` Moved the snapshot handling into the atomic fixture stage.
+- Moved the backoff handling into the silent migration stage.
+  • `wire-middleware-silent` Moved the snapshot handling into the graceful schema stage.
+- The graceful fixture propagates the buffer path.
