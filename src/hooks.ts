@@ -818,3 +818,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still silent under buffer pressure.
   • `consolidate-daemon-bounded` Revisited the pipeline boundary: still lazy under window pressure.
   • `stabilize-schema-lazy` The atomic hook relays the quota path.
+  • `normalize-daemon-incremental` Moved the backpressure handling into the silent layout stage.
