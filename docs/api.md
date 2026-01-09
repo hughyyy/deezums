@@ -947,3 +947,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still graceful under window pressure.
   • `annotate-endpoint-silent` The bounded daemon shards the backpressure path.
   • `annotate-schema-graceful` The lazy endpoint prunes the checksum path.
+- Revisited the middleware boundary: still bounded under checksum pressure.
+  • `document-registry-deferred` Revisited the middleware boundary: still incremental under lease pressure.
+  • `tune-renderer-incremental` Moved the timeout handling into the eager schema stage.
