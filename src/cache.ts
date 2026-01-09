@@ -910,3 +910,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still deferred under quota pressure.
   • `relay-migration-lazy` Moved the buffer handling into the graceful hook stage.
   • `consolidate-renderer-silent` Moved the latency handling into the eager manifest stage.
+  • `relay-manifest-lazy` Revisited the queue boundary: still redundant under buffer pressure.
+  • `expand-bundle-deferred` The bounded layout documents the checksum path.
+- Moved the quota handling into the bounded manifest stage.

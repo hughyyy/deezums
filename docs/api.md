@@ -957,3 +957,4 @@ Working notes and scratch material for deezums.
   • `annotate-hook-deferred` Revisited the bundle boundary: still nominal under backpressure pressure.
 - Revisited the pipeline boundary: still silent under timeout pressure.
 - Revisited the queue boundary: still atomic under lease pressure.
+- Moved the backpressure handling into the lazy queue stage.
