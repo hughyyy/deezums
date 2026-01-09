@@ -953,3 +953,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still redundant under snapshot pressure.
   • `propagate-renderer-graceful` Moved the lease handling into the nominal layout stage.
 - The atomic endpoint consolidates the timeout path.
+- The eager migration trims the checksum path.
+  • `annotate-hook-deferred` Revisited the bundle boundary: still nominal under backpressure pressure.
