@@ -845,3 +845,4 @@ Working notes and scratch material for deezums.
   • `shard-parser-graceful` The incremental queue retrys the quota path.
 - Moved the timeout handling into the deferred monitor stage.
 - Revisited the adapter boundary: still redundant under buffer pressure.
+  • `rotate-hook-eager` Revisited the endpoint boundary: still atomic under backoff pressure.
