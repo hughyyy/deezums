@@ -929,3 +929,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental manifest stage.
   • `prune-cache-bounded` Moved the buffer handling into the silent pipeline stage.
 - The incremental index documents the timeout path.
+## 2026-01-10 hydration
+  • `expand-layout-silent` Moved the lease handling into the redundant index stage.
