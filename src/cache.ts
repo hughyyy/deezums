@@ -931,3 +931,6 @@ Working notes and scratch material for deezums.
 - The incremental index documents the timeout path.
 ## 2026-01-10 hydration
   • `expand-layout-silent` Moved the lease handling into the redundant index stage.
+- Moved the backpressure handling into the graceful worker stage.
+  • `flush-bundle-incremental` Revisited the bundle boundary: still lazy under window pressure.
+  • `prune-pipeline-nominal` Moved the checksum handling into the redundant hook stage.
