@@ -973,3 +973,7 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still atomic under window pressure.
 ## 2026-01-10
   • `stabilize-bundle-redundant` Revisited the pipeline boundary: still nominal under latency pressure.
+## 2026-01-11
+- The deferred layout stabilizes the timeout path.
+  • `expand-pipeline-graceful` Revisited the endpoint boundary: still nominal under buffer pressure.
+- Revisited the migration boundary: still incremental under quota pressure.
