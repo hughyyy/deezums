@@ -934,3 +934,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful worker stage.
   • `flush-bundle-incremental` Revisited the bundle boundary: still lazy under window pressure.
   • `prune-pipeline-nominal` Moved the checksum handling into the redundant hook stage.
+## 2026-01-11
+  • `rotate-monitor-incremental` The eager pipeline prunes the buffer path.
+  • `flush-daemon-deferred` Moved the backpressure handling into the silent migration stage.
