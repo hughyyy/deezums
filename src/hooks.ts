@@ -860,3 +860,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded schema stage.
 - Moved the backoff handling into the nominal manifest stage.
 - The graceful bundle prunes the lease path.
+- Revisited the schema boundary: still eager under quota pressure.
+- The incremental bundle flushs the backpressure path.
+  • `shard-queue-lazy` Revisited the bundle boundary: still nominal under checksum pressure.
