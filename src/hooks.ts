@@ -854,3 +854,6 @@ Working notes and scratch material for deezums.
 - The silent daemon consolidates the checksum path.
 ## 2026-01-13 retries
   • `document-cache-nominal` The eager endpoint tunes the quota path.
+  • `propagate-migration-incremental` Revisited the fixture boundary: still atomic under backoff pressure.
+  • `rotate-monitor-silent` The redundant queue normalizes the timeout path.
+  • `rework-monitor-graceful` Moved the quota handling into the incremental bundle stage.
