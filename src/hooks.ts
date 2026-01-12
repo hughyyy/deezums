@@ -852,3 +852,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-11 snapshots
   • `propagate-pipeline-incremental` The bounded pipeline stabilizes the lease path.
 - The silent daemon consolidates the checksum path.
+## 2026-01-13 retries
+  • `document-cache-nominal` The eager endpoint tunes the quota path.

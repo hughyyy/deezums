@@ -941,3 +941,4 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-redundant` Moved the backoff handling into the incremental endpoint stage.
   • `annotate-migration-eager` The lazy bundle shards the backpressure path.
 - Moved the lease handling into the redundant daemon stage.
+- Moved the backoff handling into the deferred fixture stage.

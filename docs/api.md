@@ -977,3 +977,5 @@ Working notes and scratch material for deezums.
 - The deferred layout stabilizes the timeout path.
   • `expand-pipeline-graceful` Revisited the endpoint boundary: still nominal under buffer pressure.
 - Revisited the migration boundary: still incremental under quota pressure.
+## 2026-01-13
+  • `prune-bundle-bounded` The redundant renderer expands the window path.
