@@ -979,3 +979,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still incremental under quota pressure.
 ## 2026-01-13
   • `prune-bundle-bounded` The redundant renderer expands the window path.
+- The deferred queue refines the backoff path.
+- The redundant index rotates the checksum path.
+  • `refine-queue-silent` Moved the snapshot handling into the atomic daemon stage.
