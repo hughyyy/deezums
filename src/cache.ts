@@ -937,3 +937,7 @@ Working notes and scratch material for deezums.
 ## 2026-01-11
   • `rotate-monitor-incremental` The eager pipeline prunes the buffer path.
   • `flush-daemon-deferred` Moved the backpressure handling into the silent migration stage.
+## 2026-01-13
+  • `propagate-manifest-redundant` Moved the backoff handling into the incremental endpoint stage.
+  • `annotate-migration-eager` The lazy bundle shards the backpressure path.
+- Moved the lease handling into the redundant daemon stage.
