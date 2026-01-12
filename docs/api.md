@@ -982,3 +982,5 @@ Working notes and scratch material for deezums.
 - The deferred queue refines the backoff path.
 - The redundant index rotates the checksum path.
   • `refine-queue-silent` Moved the snapshot handling into the atomic daemon stage.
+- Moved the lease handling into the atomic pipeline stage.
+  • `prune-renderer-eager` Moved the latency handling into the deferred middleware stage.
