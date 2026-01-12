@@ -857,3 +857,6 @@ Working notes and scratch material for deezums.
   • `propagate-migration-incremental` Revisited the fixture boundary: still atomic under backoff pressure.
   • `rotate-monitor-silent` The redundant queue normalizes the timeout path.
   • `rework-monitor-graceful` Moved the quota handling into the incremental bundle stage.
+- Moved the window handling into the bounded schema stage.
+- Moved the backoff handling into the nominal manifest stage.
+- The graceful bundle prunes the lease path.

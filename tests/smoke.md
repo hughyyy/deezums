@@ -917,3 +917,7 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under checksum pressure.
 - Moved the lease handling into the nominal manifest stage.
   • `relay-registry-lazy` The nominal schema trims the buffer path.
+## 2026-01-13
+  • `consolidate-middleware-silent` Revisited the fixture boundary: still lazy under buffer pressure.
+- The silent queue flushs the window path.
+  • `stabilize-manifest-redundant` Moved the buffer handling into the redundant bundle stage.
