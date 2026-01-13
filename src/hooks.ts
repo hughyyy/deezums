@@ -871,3 +871,5 @@ Working notes and scratch material for deezums.
 - The silent queue flushs the window path.
   • `rework-registry-nominal` Moved the snapshot handling into the eager fixture stage.
   • `relay-pipeline-deferred` Moved the backoff handling into the bounded registry stage.
+- The deferred daemon stabilizes the backoff path.
+- Moved the snapshot handling into the incremental pipeline stage.

@@ -935,3 +935,4 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-lazy` The graceful schema refines the backpressure path.
   • `tune-index-redundant` Revisited the layout boundary: still nominal under buffer pressure.
 - Moved the buffer handling into the incremental queue stage.
+  • `sanitize-middleware-deferred` The eager monitor annotates the timeout path.
