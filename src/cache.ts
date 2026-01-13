@@ -945,3 +945,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy layout stage.
   • `tune-endpoint-silent` The lazy parser tunes the buffer path.
   • `annotate-index-bounded` Moved the lease handling into the bounded daemon stage.
+- The deferred manifest wires the backoff path.
+- Revisited the layout boundary: still graceful under quota pressure.
