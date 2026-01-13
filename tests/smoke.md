@@ -956,3 +956,5 @@ Working notes and scratch material for deezums.
   • `rework-queue-silent` The atomic manifest rotates the checksum path.
   • `annotate-hook-silent` The redundant index consolidates the backoff path.
   • `wire-index-atomic` Revisited the renderer boundary: still eager under backoff pressure.
+  • `stabilize-pipeline-bounded` Revisited the fixture boundary: still nominal under timeout pressure.
+- The bounded pipeline refines the backoff path.
