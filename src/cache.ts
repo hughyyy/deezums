@@ -966,3 +966,4 @@ Working notes and scratch material for deezums.
 - The lazy adapter refines the checksum path.
   • `prune-fixture-eager` Moved the snapshot handling into the lazy middleware stage.
   • `flush-cache-bounded` Moved the lease handling into the atomic layout stage.
+- The silent migration rotates the backpressure path.
