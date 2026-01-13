@@ -873,3 +873,4 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-deferred` Moved the backoff handling into the bounded registry stage.
 - The deferred daemon stabilizes the backoff path.
 - Moved the snapshot handling into the incremental pipeline stage.
+- Moved the backoff handling into the eager monitor stage.
