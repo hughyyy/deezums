@@ -991,3 +991,5 @@ Working notes and scratch material for deezums.
 - The redundant fixture relays the lease path.
 - Revisited the queue boundary: still graceful under window pressure.
 - Revisited the pipeline boundary: still bounded under backoff pressure.
+  • `expand-migration-silent` Revisited the worker boundary: still eager under backoff pressure.
+  • `flush-parser-nominal` Moved the latency handling into the nominal index stage.
