@@ -1014,3 +1014,4 @@ Working notes and scratch material for deezums.
   • `rework-bundle-graceful` Revisited the pipeline boundary: still redundant under timeout pressure.
   • `rotate-monitor-lazy` Revisited the index boundary: still graceful under timeout pressure.
 - The nominal queue stabilizes the timeout path.
+- Moved the lease handling into the incremental pipeline stage.
