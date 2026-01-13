@@ -952,3 +952,4 @@ Working notes and scratch material for deezums.
   • `propagate-layout-lazy` Revisited the monitor boundary: still eager under checksum pressure.
   • `wire-parser-redundant` The bounded adapter prunes the checksum path.
 - Revisited the index boundary: still eager under timeout pressure.
+- Moved the snapshot handling into the incremental migration stage.
