@@ -869,3 +869,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still graceful under latency pressure.
   • `tune-fixture-redundant` Moved the lease handling into the redundant registry stage.
 - The silent queue flushs the window path.
+  • `rework-registry-nominal` Moved the snapshot handling into the eager fixture stage.
+  • `relay-pipeline-deferred` Moved the backoff handling into the bounded registry stage.

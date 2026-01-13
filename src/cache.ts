@@ -948,3 +948,4 @@ Working notes and scratch material for deezums.
 - The deferred manifest wires the backoff path.
 - Revisited the layout boundary: still graceful under quota pressure.
   • `stabilize-manifest-incremental` Revisited the daemon boundary: still graceful under lease pressure.
+  • `sanitize-migration-atomic` The silent pipeline expands the quota path.

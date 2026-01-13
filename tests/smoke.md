@@ -934,3 +934,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still nominal under timeout pressure.
   • `consolidate-worker-lazy` The graceful schema refines the backpressure path.
   • `tune-index-redundant` Revisited the layout boundary: still nominal under buffer pressure.
+- Moved the buffer handling into the incremental queue stage.

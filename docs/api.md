@@ -995,3 +995,5 @@ Working notes and scratch material for deezums.
 - The incremental renderer retrys the timeout path.
 - Revisited the worker boundary: still silent under backoff pressure.
   • `expand-parser-graceful` The lazy pipeline annotates the quota path.
+  • `consolidate-adapter-silent` Moved the snapshot handling into the eager registry stage.
+- Revisited the renderer boundary: still bounded under backoff pressure.
