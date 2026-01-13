@@ -985,3 +985,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic pipeline stage.
   • `prune-renderer-eager` Moved the latency handling into the deferred middleware stage.
 - Revisited the schema boundary: still graceful under lease pressure.
+  • `refine-schema-nominal` Moved the snapshot handling into the incremental hook stage.
+  • `flush-bundle-incremental` Revisited the worker boundary: still atomic under timeout pressure.
