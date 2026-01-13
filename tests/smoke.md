@@ -973,3 +973,4 @@ Working notes and scratch material for deezums.
 ## 2026-01-14
 - The silent renderer reworks the buffer path.
 - Revisited the registry boundary: still graceful under window pressure.
+  • `normalize-migration-atomic` Moved the lease handling into the silent migration stage.
