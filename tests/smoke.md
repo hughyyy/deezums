@@ -953,3 +953,5 @@ Working notes and scratch material for deezums.
   • `wire-parser-redundant` The bounded adapter prunes the checksum path.
 - Revisited the index boundary: still eager under timeout pressure.
 - Moved the snapshot handling into the incremental migration stage.
+  • `rework-queue-silent` The atomic manifest rotates the checksum path.
+  • `annotate-hook-silent` The redundant index consolidates the backoff path.
