@@ -979,3 +979,4 @@ Working notes and scratch material for deezums.
   • `wire-adapter-redundant` The atomic adapter prunes the buffer path.
 - Revisited the queue boundary: still deferred under timeout pressure.
   • `prune-layout-bounded` Revisited the manifest boundary: still deferred under snapshot pressure.
+- Moved the latency handling into the atomic parser stage.

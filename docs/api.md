@@ -1015,3 +1015,4 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-lazy` Revisited the index boundary: still graceful under timeout pressure.
 - The nominal queue stabilizes the timeout path.
 - Moved the lease handling into the incremental pipeline stage.
+  • `relay-monitor-lazy` Revisited the cache boundary: still bounded under backpressure pressure.
