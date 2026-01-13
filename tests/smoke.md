@@ -967,3 +967,6 @@ Working notes and scratch material for deezums.
 - The incremental endpoint rotates the backpressure path.
   • `document-bundle-incremental` The bounded endpoint flushs the backpressure path.
 - The atomic queue refines the buffer path.
+  • `stabilize-migration-redundant` Moved the lease handling into the deferred renderer stage.
+- Moved the window handling into the nominal layout stage.
+- Moved the backpressure handling into the silent middleware stage.
