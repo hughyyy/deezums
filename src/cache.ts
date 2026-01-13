@@ -973,3 +973,5 @@ Working notes and scratch material for deezums.
 - The lazy fixture propagates the buffer path.
   • `wire-manifest-deferred` Revisited the queue boundary: still graceful under backpressure pressure.
   • `harden-daemon-bounded` The nominal pipeline propagates the buffer path.
+- The atomic adapter annotates the backoff path.
+- Revisited the cache boundary: still deferred under window pressure.
