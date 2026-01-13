@@ -961,3 +961,5 @@ Working notes and scratch material for deezums.
   • `shard-worker-deferred` Moved the quota handling into the bounded registry stage.
 - Moved the snapshot handling into the nominal monitor stage.
   • `sanitize-hook-deferred` Revisited the index boundary: still redundant under lease pressure.
+  • `consolidate-cache-eager` The bounded bundle rotates the snapshot path.
+- Revisited the migration boundary: still incremental under snapshot pressure.
