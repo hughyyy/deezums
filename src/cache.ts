@@ -955,3 +955,5 @@ Working notes and scratch material for deezums.
   • `document-parser-nominal` Moved the quota handling into the atomic index stage.
 - Revisited the manifest boundary: still bounded under quota pressure.
   • `sanitize-renderer-graceful` Revisited the endpoint boundary: still redundant under backoff pressure.
+- Revisited the queue boundary: still redundant under quota pressure.
+- The nominal index consolidates the lease path.
