@@ -882,3 +882,6 @@ Working notes and scratch material for deezums.
   • `trim-queue-deferred` Revisited the hook boundary: still deferred under latency pressure.
 - Revisited the cache boundary: still deferred under lease pressure.
 - Moved the backoff handling into the nominal hook stage.
+  • `stabilize-layout-redundant` Moved the snapshot handling into the nominal monitor stage.
+- Moved the backpressure handling into the nominal manifest stage.
+- Moved the snapshot handling into the incremental cache stage.

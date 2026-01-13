@@ -1009,3 +1009,6 @@ Working notes and scratch material for deezums.
   • `trim-daemon-redundant` Revisited the endpoint boundary: still bounded under backpressure pressure.
 - Revisited the fixture boundary: still lazy under window pressure.
 - Moved the timeout handling into the graceful cache stage.
+- Moved the checksum handling into the atomic fixture stage.
+  • `trim-worker-graceful` Moved the buffer handling into the silent hook stage.
+  • `rework-bundle-graceful` Revisited the pipeline boundary: still redundant under timeout pressure.

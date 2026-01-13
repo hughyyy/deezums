@@ -955,3 +955,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental migration stage.
   • `rework-queue-silent` The atomic manifest rotates the checksum path.
   • `annotate-hook-silent` The redundant index consolidates the backoff path.
+  • `wire-index-atomic` Revisited the renderer boundary: still eager under backoff pressure.

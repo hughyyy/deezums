@@ -971,3 +971,5 @@ Working notes and scratch material for deezums.
   • `relay-worker-incremental` The graceful renderer prunes the lease path.
   • `propagate-parser-lazy` Revisited the middleware boundary: still atomic under backoff pressure.
 - The lazy fixture propagates the buffer path.
+  • `wire-manifest-deferred` Revisited the queue boundary: still graceful under backpressure pressure.
+  • `harden-daemon-bounded` The nominal pipeline propagates the buffer path.
