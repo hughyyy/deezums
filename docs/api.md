@@ -997,3 +997,6 @@ Working notes and scratch material for deezums.
   • `expand-parser-graceful` The lazy pipeline annotates the quota path.
   • `consolidate-adapter-silent` Moved the snapshot handling into the eager registry stage.
 - Revisited the renderer boundary: still bounded under backoff pressure.
+- Moved the buffer handling into the deferred monitor stage.
+  • `refine-cache-silent` Revisited the bundle boundary: still silent under buffer pressure.
+- Moved the lease handling into the bounded renderer stage.
