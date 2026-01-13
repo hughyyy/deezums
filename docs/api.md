@@ -987,3 +987,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still graceful under lease pressure.
   • `refine-schema-nominal` Moved the snapshot handling into the incremental hook stage.
   • `flush-bundle-incremental` Revisited the worker boundary: still atomic under timeout pressure.
+  • `wire-monitor-incremental` The redundant renderer trims the buffer path.
+  • `trim-pipeline-deferred` The lazy renderer wires the buffer path.
+  • `trim-cache-atomic` The lazy middleware hardens the snapshot path.

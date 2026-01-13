@@ -925,3 +925,6 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-eager` Moved the window handling into the graceful pipeline stage.
 - Moved the latency handling into the atomic adapter stage.
   • `flush-parser-lazy` The deferred hook trims the window path.
+  • `wire-registry-redundant` Revisited the fixture boundary: still redundant under buffer pressure.
+  • `rotate-daemon-lazy` The graceful schema relays the checksum path.
+- The nominal daemon stabilizes the backpressure path.
