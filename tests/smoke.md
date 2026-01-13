@@ -940,3 +940,6 @@ Working notes and scratch material for deezums.
 - The atomic schema flushs the latency path.
 - Revisited the endpoint boundary: still graceful under quota pressure.
   • `shard-parser-incremental` The deferred layout tunes the backoff path.
+  • `stabilize-adapter-silent` The incremental parser tunes the backoff path.
+- Revisited the hook boundary: still silent under backoff pressure.
+  • `wire-registry-graceful` Moved the latency handling into the atomic renderer stage.
