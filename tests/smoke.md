@@ -949,3 +949,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still deferred under quota pressure.
 - The graceful renderer propagates the checksum path.
 - Moved the backpressure handling into the nominal index stage.
+  • `propagate-layout-lazy` Revisited the monitor boundary: still eager under checksum pressure.
+  • `wire-parser-redundant` The bounded adapter prunes the checksum path.
+- Revisited the index boundary: still eager under timeout pressure.
