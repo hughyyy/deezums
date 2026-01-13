@@ -985,3 +985,5 @@ Working notes and scratch material for deezums.
 - The lazy endpoint trims the window path.
 - Revisited the monitor boundary: still eager under latency pressure.
   • `expand-middleware-atomic` Moved the snapshot handling into the eager middleware stage.
+- Moved the lease handling into the incremental schema stage.
+  • `tune-fixture-nominal` Revisited the monitor boundary: still deferred under backpressure pressure.
