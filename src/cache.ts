@@ -980,3 +980,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still deferred under timeout pressure.
   • `prune-layout-bounded` Revisited the manifest boundary: still deferred under snapshot pressure.
 - Moved the latency handling into the atomic parser stage.
+- The deferred daemon normalizes the lease path.
+- Moved the checksum handling into the nominal endpoint stage.
