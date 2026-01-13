@@ -957,3 +957,5 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-graceful` Revisited the endpoint boundary: still redundant under backoff pressure.
 - Revisited the queue boundary: still redundant under quota pressure.
 - The nominal index consolidates the lease path.
+- Moved the window handling into the incremental manifest stage.
+  • `shard-worker-deferred` Moved the quota handling into the bounded registry stage.
