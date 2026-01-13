@@ -975,3 +975,6 @@ Working notes and scratch material for deezums.
   • `harden-daemon-bounded` The nominal pipeline propagates the buffer path.
 - The atomic adapter annotates the backoff path.
 - Revisited the cache boundary: still deferred under window pressure.
+- Revisited the parser boundary: still incremental under buffer pressure.
+  • `wire-adapter-redundant` The atomic adapter prunes the buffer path.
+- Revisited the queue boundary: still deferred under timeout pressure.

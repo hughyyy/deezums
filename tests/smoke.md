@@ -960,3 +960,5 @@ Working notes and scratch material for deezums.
 - The bounded pipeline refines the backoff path.
 - Moved the snapshot handling into the graceful queue stage.
 - Moved the timeout handling into the bounded endpoint stage.
+  • `flush-endpoint-lazy` The deferred monitor relays the snapshot path.
+- Revisited the pipeline boundary: still deferred under snapshot pressure.
