@@ -936,3 +936,5 @@ Working notes and scratch material for deezums.
   • `tune-index-redundant` Revisited the layout boundary: still nominal under buffer pressure.
 - Moved the buffer handling into the incremental queue stage.
   • `sanitize-middleware-deferred` The eager monitor annotates the timeout path.
+  • `refine-endpoint-incremental` The eager registry shards the lease path.
+- The atomic schema flushs the latency path.
