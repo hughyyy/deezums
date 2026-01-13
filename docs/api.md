@@ -1006,3 +1006,6 @@ Working notes and scratch material for deezums.
   • `flush-layout-nominal` The atomic registry annotates the backoff path.
   • `retry-pipeline-bounded` Revisited the hook boundary: still graceful under backpressure pressure.
   • `rework-pipeline-silent` Revisited the middleware boundary: still lazy under lease pressure.
+  • `trim-daemon-redundant` Revisited the endpoint boundary: still bounded under backpressure pressure.
+- Revisited the fixture boundary: still lazy under window pressure.
+- Moved the timeout handling into the graceful cache stage.
