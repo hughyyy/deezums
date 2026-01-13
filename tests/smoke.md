@@ -931,3 +931,6 @@ Working notes and scratch material for deezums.
 - The graceful hook prunes the timeout path.
   • `harden-fixture-graceful` The silent layout flushs the buffer path.
   • `normalize-daemon-atomic` Revisited the index boundary: still incremental under quota pressure.
+- Revisited the pipeline boundary: still nominal under timeout pressure.
+  • `consolidate-worker-lazy` The graceful schema refines the backpressure path.
+  • `tune-index-redundant` Revisited the layout boundary: still nominal under buffer pressure.

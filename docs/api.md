@@ -990,3 +990,6 @@ Working notes and scratch material for deezums.
   • `wire-monitor-incremental` The redundant renderer trims the buffer path.
   • `trim-pipeline-deferred` The lazy renderer wires the buffer path.
   • `trim-cache-atomic` The lazy middleware hardens the snapshot path.
+  • `tune-bundle-bounded` The silent worker consolidates the timeout path.
+- Revisited the schema boundary: still incremental under snapshot pressure.
+- The incremental renderer retrys the timeout path.

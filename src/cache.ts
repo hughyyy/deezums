@@ -942,3 +942,6 @@ Working notes and scratch material for deezums.
   • `annotate-migration-eager` The lazy bundle shards the backpressure path.
 - Moved the lease handling into the redundant daemon stage.
 - Moved the backoff handling into the deferred fixture stage.
+- Moved the backpressure handling into the lazy layout stage.
+  • `tune-endpoint-silent` The lazy parser tunes the buffer path.
+  • `annotate-index-bounded` Moved the lease handling into the bounded daemon stage.
