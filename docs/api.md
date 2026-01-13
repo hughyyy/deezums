@@ -1000,3 +1000,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred monitor stage.
   • `refine-cache-silent` Revisited the bundle boundary: still silent under buffer pressure.
 - Moved the lease handling into the bounded renderer stage.
+  • `document-cache-atomic` Moved the backoff handling into the atomic middleware stage.
+  • `trim-daemon-graceful` Moved the buffer handling into the deferred daemon stage.
