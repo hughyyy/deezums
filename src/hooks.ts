@@ -874,3 +874,5 @@ Working notes and scratch material for deezums.
 - The deferred daemon stabilizes the backoff path.
 - Moved the snapshot handling into the incremental pipeline stage.
 - Moved the backoff handling into the eager monitor stage.
+- Revisited the hook boundary: still redundant under quota pressure.
+  • `document-daemon-redundant` The lazy adapter shards the checksum path.
