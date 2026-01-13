@@ -970,3 +970,6 @@ Working notes and scratch material for deezums.
   • `stabilize-migration-redundant` Moved the lease handling into the deferred renderer stage.
 - Moved the window handling into the nominal layout stage.
 - Moved the backpressure handling into the silent middleware stage.
+## 2026-01-14
+- The silent renderer reworks the buffer path.
+- Revisited the registry boundary: still graceful under window pressure.

@@ -987,3 +987,7 @@ Working notes and scratch material for deezums.
   • `expand-middleware-atomic` Moved the snapshot handling into the eager middleware stage.
 - Moved the lease handling into the incremental schema stage.
   • `tune-fixture-nominal` Revisited the monitor boundary: still deferred under backpressure pressure.
+## 2026-01-14
+- The redundant fixture relays the lease path.
+- Revisited the queue boundary: still graceful under window pressure.
+- Revisited the pipeline boundary: still bounded under backoff pressure.
