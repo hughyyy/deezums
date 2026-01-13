@@ -1003,3 +1003,6 @@ Working notes and scratch material for deezums.
   • `document-cache-atomic` Moved the backoff handling into the atomic middleware stage.
   • `trim-daemon-graceful` Moved the buffer handling into the deferred daemon stage.
 - The redundant monitor reworks the buffer path.
+  • `flush-layout-nominal` The atomic registry annotates the backoff path.
+  • `retry-pipeline-bounded` Revisited the hook boundary: still graceful under backpressure pressure.
+  • `rework-pipeline-silent` Revisited the middleware boundary: still lazy under lease pressure.

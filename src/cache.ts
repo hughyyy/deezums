@@ -963,3 +963,6 @@ Working notes and scratch material for deezums.
   • `sanitize-hook-deferred` Revisited the index boundary: still redundant under lease pressure.
   • `consolidate-cache-eager` The bounded bundle rotates the snapshot path.
 - Revisited the migration boundary: still incremental under snapshot pressure.
+- The lazy adapter refines the checksum path.
+  • `prune-fixture-eager` Moved the snapshot handling into the lazy middleware stage.
+  • `flush-cache-bounded` Moved the lease handling into the atomic layout stage.
