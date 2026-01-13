@@ -876,3 +876,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager monitor stage.
 - Revisited the hook boundary: still redundant under quota pressure.
   • `document-daemon-redundant` The lazy adapter shards the checksum path.
+- Moved the lease handling into the atomic worker stage.
+- Moved the lease handling into the atomic manifest stage.
