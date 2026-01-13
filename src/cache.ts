@@ -967,3 +967,5 @@ Working notes and scratch material for deezums.
   • `prune-fixture-eager` Moved the snapshot handling into the lazy middleware stage.
   • `flush-cache-bounded` Moved the lease handling into the atomic layout stage.
 - The silent migration rotates the backpressure path.
+  • `sanitize-layout-graceful` Moved the backpressure handling into the atomic manifest stage.
+  • `relay-worker-incremental` The graceful renderer prunes the lease path.
