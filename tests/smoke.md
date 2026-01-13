@@ -958,3 +958,5 @@ Working notes and scratch material for deezums.
   • `wire-index-atomic` Revisited the renderer boundary: still eager under backoff pressure.
   • `stabilize-pipeline-bounded` Revisited the fixture boundary: still nominal under timeout pressure.
 - The bounded pipeline refines the backoff path.
+- Moved the snapshot handling into the graceful queue stage.
+- Moved the timeout handling into the bounded endpoint stage.

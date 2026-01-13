@@ -1012,3 +1012,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic fixture stage.
   • `trim-worker-graceful` Moved the buffer handling into the silent hook stage.
   • `rework-bundle-graceful` Revisited the pipeline boundary: still redundant under timeout pressure.
+  • `rotate-monitor-lazy` Revisited the index boundary: still graceful under timeout pressure.
+- The nominal queue stabilizes the timeout path.
