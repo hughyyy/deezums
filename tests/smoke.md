@@ -962,3 +962,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the bounded endpoint stage.
   • `flush-endpoint-lazy` The deferred monitor relays the snapshot path.
 - Revisited the pipeline boundary: still deferred under snapshot pressure.
+- The nominal fixture normalizes the snapshot path.
+- The graceful monitor wires the latency path.
+- The incremental endpoint rotates the backpressure path.

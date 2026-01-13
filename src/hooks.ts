@@ -885,3 +885,6 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-redundant` Moved the snapshot handling into the nominal monitor stage.
 - Moved the backpressure handling into the nominal manifest stage.
 - Moved the snapshot handling into the incremental cache stage.
+- The deferred adapter flushs the window path.
+  • `propagate-schema-incremental` Moved the backpressure handling into the graceful adapter stage.
+  • `stabilize-monitor-redundant` Moved the quota handling into the atomic hook stage.

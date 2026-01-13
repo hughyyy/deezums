@@ -978,3 +978,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still incremental under buffer pressure.
   • `wire-adapter-redundant` The atomic adapter prunes the buffer path.
 - Revisited the queue boundary: still deferred under timeout pressure.
+  • `prune-layout-bounded` Revisited the manifest boundary: still deferred under snapshot pressure.
