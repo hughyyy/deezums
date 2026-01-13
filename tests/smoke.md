@@ -943,3 +943,6 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-silent` The incremental parser tunes the backoff path.
 - Revisited the hook boundary: still silent under backoff pressure.
   • `wire-registry-graceful` Moved the latency handling into the atomic renderer stage.
+- The nominal pipeline trims the checksum path.
+  • `wire-monitor-bounded` Moved the backoff handling into the lazy migration stage.
+  • `flush-migration-eager` The silent parser reworks the quota path.
