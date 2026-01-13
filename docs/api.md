@@ -1016,3 +1016,6 @@ Working notes and scratch material for deezums.
 - The nominal queue stabilizes the timeout path.
 - Moved the lease handling into the incremental pipeline stage.
   • `relay-monitor-lazy` Revisited the cache boundary: still bounded under backpressure pressure.
+  • `annotate-endpoint-graceful` Revisited the layout boundary: still nominal under latency pressure.
+- Moved the backoff handling into the silent adapter stage.
+  • `trim-monitor-redundant` The nominal daemon stabilizes the backoff path.

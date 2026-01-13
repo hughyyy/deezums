@@ -982,3 +982,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the atomic parser stage.
 - The deferred daemon normalizes the lease path.
 - Moved the checksum handling into the nominal endpoint stage.
+- The lazy endpoint trims the window path.
+- Revisited the monitor boundary: still eager under latency pressure.
+  • `expand-middleware-atomic` Moved the snapshot handling into the eager middleware stage.
