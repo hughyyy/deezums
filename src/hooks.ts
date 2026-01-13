@@ -880,3 +880,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic manifest stage.
   • `refine-layout-lazy` The silent middleware relays the backpressure path.
   • `trim-queue-deferred` Revisited the hook boundary: still deferred under latency pressure.
+- Revisited the cache boundary: still deferred under lease pressure.
+- Moved the backoff handling into the nominal hook stage.
