@@ -928,3 +928,6 @@ Working notes and scratch material for deezums.
   • `wire-registry-redundant` Revisited the fixture boundary: still redundant under buffer pressure.
   • `rotate-daemon-lazy` The graceful schema relays the checksum path.
 - The nominal daemon stabilizes the backpressure path.
+- The graceful hook prunes the timeout path.
+  • `harden-fixture-graceful` The silent layout flushs the buffer path.
+  • `normalize-daemon-atomic` Revisited the index boundary: still incremental under quota pressure.
