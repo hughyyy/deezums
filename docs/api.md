@@ -993,3 +993,5 @@ Working notes and scratch material for deezums.
   • `tune-bundle-bounded` The silent worker consolidates the timeout path.
 - Revisited the schema boundary: still incremental under snapshot pressure.
 - The incremental renderer retrys the timeout path.
+- Revisited the worker boundary: still silent under backoff pressure.
+  • `expand-parser-graceful` The lazy pipeline annotates the quota path.
