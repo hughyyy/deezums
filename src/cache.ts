@@ -947,3 +947,4 @@ Working notes and scratch material for deezums.
   • `annotate-index-bounded` Moved the lease handling into the bounded daemon stage.
 - The deferred manifest wires the backoff path.
 - Revisited the layout boundary: still graceful under quota pressure.
+  • `stabilize-manifest-incremental` Revisited the daemon boundary: still graceful under lease pressure.

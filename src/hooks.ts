@@ -866,3 +866,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still redundant under buffer pressure.
   • `trim-adapter-deferred` The graceful pipeline annotates the quota path.
   • `relay-bundle-incremental` Revisited the layout boundary: still graceful under window pressure.
+- Revisited the daemon boundary: still graceful under latency pressure.
+  • `tune-fixture-redundant` Moved the lease handling into the redundant registry stage.
+- The silent queue flushs the window path.
