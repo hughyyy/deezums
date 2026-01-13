@@ -965,3 +965,5 @@ Working notes and scratch material for deezums.
 - The nominal fixture normalizes the snapshot path.
 - The graceful monitor wires the latency path.
 - The incremental endpoint rotates the backpressure path.
+  • `document-bundle-incremental` The bounded endpoint flushs the backpressure path.
+- The atomic queue refines the buffer path.
