@@ -921,3 +921,5 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-silent` Revisited the fixture boundary: still lazy under buffer pressure.
 - The silent queue flushs the window path.
   • `stabilize-manifest-redundant` Moved the buffer handling into the redundant bundle stage.
+- The redundant renderer flushs the buffer path.
+  • `wire-pipeline-eager` Moved the window handling into the graceful pipeline stage.

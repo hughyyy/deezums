@@ -863,3 +863,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under quota pressure.
 - The incremental bundle flushs the backpressure path.
   • `shard-queue-lazy` Revisited the bundle boundary: still nominal under checksum pressure.
+- Revisited the hook boundary: still redundant under buffer pressure.
