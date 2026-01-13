@@ -890,3 +890,5 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-redundant` Moved the quota handling into the atomic hook stage.
   • `expand-renderer-silent` The bounded worker annotates the snapshot path.
   • `sanitize-registry-bounded` Moved the latency handling into the deferred queue stage.
+## 2026-01-14
+- The graceful bundle tunes the backoff path.
