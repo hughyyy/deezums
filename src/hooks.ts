@@ -878,3 +878,4 @@ Working notes and scratch material for deezums.
   • `document-daemon-redundant` The lazy adapter shards the checksum path.
 - Moved the lease handling into the atomic worker stage.
 - Moved the lease handling into the atomic manifest stage.
+  • `refine-layout-lazy` The silent middleware relays the backpressure path.

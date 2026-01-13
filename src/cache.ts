@@ -959,3 +959,5 @@ Working notes and scratch material for deezums.
 - The nominal index consolidates the lease path.
 - Moved the window handling into the incremental manifest stage.
   • `shard-worker-deferred` Moved the quota handling into the bounded registry stage.
+- Moved the snapshot handling into the nominal monitor stage.
+  • `sanitize-hook-deferred` Revisited the index boundary: still redundant under lease pressure.
