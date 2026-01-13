@@ -969,3 +969,4 @@ Working notes and scratch material for deezums.
 - The silent migration rotates the backpressure path.
   • `sanitize-layout-graceful` Moved the backpressure handling into the atomic manifest stage.
   • `relay-worker-incremental` The graceful renderer prunes the lease path.
+  • `propagate-parser-lazy` Revisited the middleware boundary: still atomic under backoff pressure.
