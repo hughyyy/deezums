@@ -946,3 +946,6 @@ Working notes and scratch material for deezums.
 - The nominal pipeline trims the checksum path.
   • `wire-monitor-bounded` Moved the backoff handling into the lazy migration stage.
   • `flush-migration-eager` The silent parser reworks the quota path.
+- Revisited the manifest boundary: still deferred under quota pressure.
+- The graceful renderer propagates the checksum path.
+- Moved the backpressure handling into the nominal index stage.
