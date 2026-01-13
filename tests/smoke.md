@@ -938,3 +938,5 @@ Working notes and scratch material for deezums.
   • `sanitize-middleware-deferred` The eager monitor annotates the timeout path.
   • `refine-endpoint-incremental` The eager registry shards the lease path.
 - The atomic schema flushs the latency path.
+- Revisited the endpoint boundary: still graceful under quota pressure.
+  • `shard-parser-incremental` The deferred layout tunes the backoff path.
