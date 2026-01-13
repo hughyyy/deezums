@@ -923,3 +923,5 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-redundant` Moved the buffer handling into the redundant bundle stage.
 - The redundant renderer flushs the buffer path.
   • `wire-pipeline-eager` Moved the window handling into the graceful pipeline stage.
+- Moved the latency handling into the atomic adapter stage.
+  • `flush-parser-lazy` The deferred hook trims the window path.
