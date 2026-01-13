@@ -952,3 +952,6 @@ Working notes and scratch material for deezums.
   • `document-registry-deferred` The bounded renderer annotates the quota path.
 - Revisited the endpoint boundary: still nominal under lease pressure.
 - Revisited the registry boundary: still bounded under checksum pressure.
+  • `document-parser-nominal` Moved the quota handling into the atomic index stage.
+- Revisited the manifest boundary: still bounded under quota pressure.
+  • `sanitize-renderer-graceful` Revisited the endpoint boundary: still redundant under backoff pressure.
