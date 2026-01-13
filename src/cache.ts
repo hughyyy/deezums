@@ -950,3 +950,5 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-incremental` Revisited the daemon boundary: still graceful under lease pressure.
   • `sanitize-migration-atomic` The silent pipeline expands the quota path.
   • `document-registry-deferred` The bounded renderer annotates the quota path.
+- Revisited the endpoint boundary: still nominal under lease pressure.
+- Revisited the registry boundary: still bounded under checksum pressure.
