@@ -901,3 +901,5 @@ Working notes and scratch material for deezums.
   • `document-migration-atomic` Revisited the queue boundary: still bounded under quota pressure.
   • `expand-cache-silent` The nominal queue prunes the window path.
   • `expand-renderer-atomic` Revisited the index boundary: still redundant under latency pressure.
+- Revisited the index boundary: still atomic under latency pressure.
+  • `refine-registry-nominal` The eager migration sanitizes the lease path.

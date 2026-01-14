@@ -983,3 +983,6 @@ Working notes and scratch material for deezums.
 - The deferred endpoint consolidates the checksum path.
 - The deferred cache annotates the window path.
 - Moved the quota handling into the bounded renderer stage.
+  • `relay-manifest-incremental` Moved the backpressure handling into the graceful index stage.
+  • `consolidate-worker-redundant` The deferred worker trims the checksum path.
+  • `tune-worker-eager` Moved the timeout handling into the deferred middleware stage.
