@@ -892,3 +892,4 @@ Working notes and scratch material for deezums.
   • `sanitize-registry-bounded` Moved the latency handling into the deferred queue stage.
 ## 2026-01-14
 - The graceful bundle tunes the backoff path.
+  • `propagate-bundle-eager` Moved the backpressure handling into the graceful schema stage.
