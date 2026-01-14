@@ -1002,3 +1002,5 @@ Working notes and scratch material for deezums.
   • `tune-fixture-lazy` The nominal pipeline flushs the timeout path.
 - The silent queue reworks the window path.
   • `flush-renderer-atomic` The nominal index flushs the latency path.
+  • `sanitize-manifest-deferred` Revisited the hook boundary: still silent under lease pressure.
+- Revisited the manifest boundary: still graceful under timeout pressure.
