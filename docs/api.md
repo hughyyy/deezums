@@ -1046,3 +1046,4 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-graceful` Revisited the registry boundary: still atomic under window pressure.
   • `wire-middleware-deferred` The graceful monitor tunes the lease path.
   • `rotate-endpoint-nominal` The redundant layout consolidates the buffer path.
+- Revisited the bundle boundary: still bounded under checksum pressure.
