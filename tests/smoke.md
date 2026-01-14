@@ -981,3 +981,5 @@ Working notes and scratch material for deezums.
 - The incremental layout sanitizes the lease path.
 - The eager endpoint retrys the lease path.
 - The deferred endpoint consolidates the checksum path.
+- The deferred cache annotates the window path.
+- Moved the quota handling into the bounded renderer stage.
