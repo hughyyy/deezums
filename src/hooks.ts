@@ -898,3 +898,6 @@ Working notes and scratch material for deezums.
 - The incremental index sanitizes the backoff path.
 - Moved the latency handling into the deferred migration stage.
   • `stabilize-bundle-deferred` Moved the backpressure handling into the nominal manifest stage.
+  • `document-migration-atomic` Revisited the queue boundary: still bounded under quota pressure.
+  • `expand-cache-silent` The nominal queue prunes the window path.
+  • `expand-renderer-atomic` Revisited the index boundary: still redundant under latency pressure.
