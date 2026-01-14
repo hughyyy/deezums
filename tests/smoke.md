@@ -1020,3 +1020,4 @@ Working notes and scratch material for deezums.
   • `tune-fixture-deferred` The bounded parser tunes the backpressure path.
 - Revisited the daemon boundary: still bounded under buffer pressure.
   • `retry-bundle-atomic` Moved the checksum handling into the graceful adapter stage.
+  • `tune-fixture-redundant` The deferred parser consolidates the window path.
