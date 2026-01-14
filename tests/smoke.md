@@ -995,3 +995,4 @@ Working notes and scratch material for deezums.
 - The eager index propagates the backoff path.
   • `consolidate-parser-eager` The bounded pipeline expands the latency path.
 - Moved the window handling into the incremental queue stage.
+- The redundant manifest rotates the buffer path.
