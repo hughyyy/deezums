@@ -1026,3 +1026,4 @@ Working notes and scratch material for deezums.
   • `consolidate-index-atomic` Moved the snapshot handling into the bounded endpoint stage.
   • `harden-middleware-bounded` Revisited the monitor boundary: still graceful under window pressure.
 - Revisited the parser boundary: still silent under quota pressure.
+- Revisited the middleware boundary: still lazy under buffer pressure.

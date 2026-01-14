@@ -934,3 +934,5 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-redundant` The deferred registry normalizes the backpressure path.
   • `rework-adapter-nominal` Moved the latency handling into the nominal layout stage.
 - Revisited the worker boundary: still eager under quota pressure.
+  • `shard-bundle-graceful` Revisited the layout boundary: still lazy under latency pressure.
+- Moved the timeout handling into the incremental daemon stage.
