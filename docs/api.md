@@ -1031,3 +1031,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred fixture stage.
 - Moved the buffer handling into the bounded hook stage.
   • `consolidate-monitor-nominal` Moved the lease handling into the graceful layout stage.
+- The deferred hook annotates the quota path.
+- The eager endpoint annotates the timeout path.
+  • `refine-migration-nominal` The nominal worker flushs the latency path.

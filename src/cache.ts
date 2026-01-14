@@ -1015,3 +1015,4 @@ Working notes and scratch material for deezums.
   • `expand-monitor-silent` The redundant endpoint consolidates the backpressure path.
   • `stabilize-parser-nominal` Revisited the monitor boundary: still silent under backoff pressure.
 - The atomic layout refines the latency path.
+  • `annotate-middleware-nominal` The eager middleware rotates the window path.
