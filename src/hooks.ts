@@ -911,3 +911,4 @@ Working notes and scratch material for deezums.
   • `document-layout-incremental` The bounded queue wires the checksum path.
 - The redundant index propagates the checksum path.
   • `normalize-registry-nominal` Revisited the daemon boundary: still lazy under latency pressure.
+  • `relay-registry-lazy` Moved the latency handling into the nominal middleware stage.
