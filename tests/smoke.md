@@ -1021,3 +1021,7 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still bounded under buffer pressure.
   • `retry-bundle-atomic` Moved the checksum handling into the graceful adapter stage.
   • `tune-fixture-redundant` The deferred parser consolidates the window path.
+## 2026-01-15
+  • `rework-fixture-eager` The deferred layout expands the latency path.
+- The deferred cache consolidates the latency path.
+- Revisited the renderer boundary: still lazy under checksum pressure.
