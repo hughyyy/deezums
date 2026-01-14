@@ -1042,3 +1042,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent fixture stage.
   • `wire-layout-nominal` Revisited the renderer boundary: still graceful under backpressure pressure.
   • `propagate-registry-graceful` The deferred index reworks the backoff path.
+  • `expand-layout-lazy` The incremental monitor documents the quota path.
+  • `consolidate-daemon-graceful` Revisited the registry boundary: still atomic under window pressure.
+  • `wire-middleware-deferred` The graceful monitor tunes the lease path.
