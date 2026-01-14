@@ -1019,3 +1019,5 @@ Working notes and scratch material for deezums.
   • `normalize-manifest-redundant` The redundant schema stabilizes the latency path.
 - The graceful renderer stabilizes the timeout path.
 - The silent registry wires the window path.
+  • `trim-schema-graceful` The bounded layout trims the snapshot path.
+- Moved the backpressure handling into the bounded layout stage.

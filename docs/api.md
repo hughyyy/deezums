@@ -1039,3 +1039,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still nominal under snapshot pressure.
 - The lazy worker expands the lease path.
   • `flush-bundle-graceful` Moved the snapshot handling into the nominal bundle stage.
+- Moved the buffer handling into the silent fixture stage.
+  • `wire-layout-nominal` Revisited the renderer boundary: still graceful under backpressure pressure.
+  • `propagate-registry-graceful` The deferred index reworks the backoff path.
