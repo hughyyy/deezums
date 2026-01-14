@@ -1016,3 +1016,4 @@ Working notes and scratch material for deezums.
   • `stabilize-parser-nominal` Revisited the monitor boundary: still silent under backoff pressure.
 - The atomic layout refines the latency path.
   • `annotate-middleware-nominal` The eager middleware rotates the window path.
+  • `normalize-manifest-redundant` The redundant schema stabilizes the latency path.
