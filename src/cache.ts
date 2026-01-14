@@ -1010,3 +1010,6 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-lazy` Moved the timeout handling into the graceful daemon stage.
   • `trim-queue-incremental` Moved the timeout handling into the bounded migration stage.
   • `document-cache-eager` Revisited the pipeline boundary: still deferred under window pressure.
+  • `normalize-migration-lazy` Moved the timeout handling into the lazy index stage.
+  • `rework-daemon-silent` Revisited the cache boundary: still redundant under quota pressure.
+  • `expand-monitor-silent` The redundant endpoint consolidates the backpressure path.

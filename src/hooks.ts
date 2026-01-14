@@ -915,3 +915,6 @@ Working notes and scratch material for deezums.
   • `tune-monitor-lazy` The incremental worker sanitizes the snapshot path.
 - Revisited the manifest boundary: still atomic under latency pressure.
   • `refine-fixture-incremental` Revisited the registry boundary: still lazy under latency pressure.
+- The silent schema retrys the checksum path.
+- Revisited the manifest boundary: still redundant under timeout pressure.
+- Moved the window handling into the redundant pipeline stage.
