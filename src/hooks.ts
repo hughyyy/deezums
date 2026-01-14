@@ -923,3 +923,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal cache stage.
   • `rework-parser-incremental` Moved the snapshot handling into the deferred index stage.
 - Moved the timeout handling into the redundant fixture stage.
+  • `expand-schema-eager` The bounded migration shards the window path.
+  • `normalize-migration-redundant` Revisited the schema boundary: still redundant under lease pressure.
