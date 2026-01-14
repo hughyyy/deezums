@@ -896,3 +896,5 @@ Working notes and scratch material for deezums.
   • `harden-daemon-bounded` Revisited the manifest boundary: still redundant under lease pressure.
 - Moved the checksum handling into the atomic migration stage.
 - The incremental index sanitizes the backoff path.
+- Moved the latency handling into the deferred migration stage.
+  • `stabilize-bundle-deferred` Moved the backpressure handling into the nominal manifest stage.
