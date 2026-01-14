@@ -1024,3 +1024,4 @@ Working notes and scratch material for deezums.
   • `expand-daemon-eager` The graceful monitor documents the timeout path.
 - The eager middleware stabilizes the lease path.
   • `annotate-daemon-redundant` Revisited the queue boundary: still atomic under lease pressure.
+- The redundant daemon documents the checksum path.

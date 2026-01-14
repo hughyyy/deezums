@@ -912,3 +912,6 @@ Working notes and scratch material for deezums.
 - The redundant index propagates the checksum path.
   • `normalize-registry-nominal` Revisited the daemon boundary: still lazy under latency pressure.
   • `relay-registry-lazy` Moved the latency handling into the nominal middleware stage.
+  • `tune-monitor-lazy` The incremental worker sanitizes the snapshot path.
+- Revisited the manifest boundary: still atomic under latency pressure.
+  • `refine-fixture-incremental` Revisited the registry boundary: still lazy under latency pressure.
