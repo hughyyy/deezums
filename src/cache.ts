@@ -999,3 +999,6 @@ Working notes and scratch material for deezums.
 - The lazy renderer refines the backpressure path.
   • `flush-cache-eager` Revisited the adapter boundary: still incremental under lease pressure.
   • `trim-migration-atomic` The redundant daemon retrys the snapshot path.
+  • `rotate-adapter-graceful` Moved the window handling into the lazy adapter stage.
+- Revisited the queue boundary: still incremental under backpressure pressure.
+- The lazy bundle documents the buffer path.
