@@ -906,3 +906,6 @@ Working notes and scratch material for deezums.
   • `trim-index-eager` The graceful bundle trims the backoff path.
   • `annotate-pipeline-nominal` Revisited the layout boundary: still bounded under lease pressure.
 - The redundant cache annotates the backpressure path.
+- The deferred layout documents the latency path.
+- Moved the timeout handling into the eager schema stage.
+  • `document-layout-incremental` The bounded queue wires the checksum path.
