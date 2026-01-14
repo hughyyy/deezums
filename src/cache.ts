@@ -1007,3 +1007,6 @@ Working notes and scratch material for deezums.
 - The nominal fixture tunes the backoff path.
   • `propagate-registry-silent` Revisited the fixture boundary: still graceful under latency pressure.
 - Moved the lease handling into the redundant registry stage.
+  • `annotate-middleware-lazy` Moved the timeout handling into the graceful daemon stage.
+  • `trim-queue-incremental` Moved the timeout handling into the bounded migration stage.
+  • `document-cache-eager` Revisited the pipeline boundary: still deferred under window pressure.
