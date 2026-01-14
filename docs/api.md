@@ -1019,3 +1019,5 @@ Working notes and scratch material for deezums.
   • `annotate-endpoint-graceful` Revisited the layout boundary: still nominal under latency pressure.
 - Moved the backoff handling into the silent adapter stage.
   • `trim-monitor-redundant` The nominal daemon stabilizes the backoff path.
+## 2026-01-14 leases
+  • `normalize-endpoint-lazy` Moved the timeout handling into the lazy renderer stage.
