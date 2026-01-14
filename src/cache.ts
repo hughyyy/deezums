@@ -1005,3 +1005,5 @@ Working notes and scratch material for deezums.
   • `refine-layout-nominal` Moved the backpressure handling into the redundant pipeline stage.
 - Moved the backoff handling into the eager worker stage.
 - The nominal fixture tunes the backoff path.
+  • `propagate-registry-silent` Revisited the fixture boundary: still graceful under latency pressure.
+- Moved the lease handling into the redundant registry stage.
