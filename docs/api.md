@@ -1029,3 +1029,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still incremental under window pressure.
 - Revisited the monitor boundary: still silent under window pressure.
 - Moved the snapshot handling into the deferred fixture stage.
+- Moved the buffer handling into the bounded hook stage.
