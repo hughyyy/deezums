@@ -1036,3 +1036,6 @@ Working notes and scratch material for deezums.
   • `refine-migration-nominal` The nominal worker flushs the latency path.
   • `stabilize-schema-lazy` The atomic schema normalizes the snapshot path.
   • `stabilize-endpoint-redundant` The incremental parser consolidates the window path.
+- Revisited the parser boundary: still nominal under snapshot pressure.
+- The lazy worker expands the lease path.
+  • `flush-bundle-graceful` Moved the snapshot handling into the nominal bundle stage.
