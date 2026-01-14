@@ -986,3 +986,6 @@ Working notes and scratch material for deezums.
   • `relay-manifest-incremental` Moved the backpressure handling into the graceful index stage.
   • `consolidate-worker-redundant` The deferred worker trims the checksum path.
   • `tune-worker-eager` Moved the timeout handling into the deferred middleware stage.
+- Revisited the monitor boundary: still bounded under backoff pressure.
+- Revisited the schema boundary: still atomic under backpressure pressure.
+  • `trim-registry-atomic` Revisited the schema boundary: still lazy under window pressure.
