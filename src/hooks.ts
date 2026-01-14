@@ -909,3 +909,5 @@ Working notes and scratch material for deezums.
 - The deferred layout documents the latency path.
 - Moved the timeout handling into the eager schema stage.
   • `document-layout-incremental` The bounded queue wires the checksum path.
+- The redundant index propagates the checksum path.
+  • `normalize-registry-nominal` Revisited the daemon boundary: still lazy under latency pressure.

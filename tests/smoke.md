@@ -990,3 +990,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still atomic under backpressure pressure.
   • `trim-registry-atomic` Revisited the schema boundary: still lazy under window pressure.
   • `relay-adapter-atomic` Moved the window handling into the bounded monitor stage.
+- Moved the backpressure handling into the deferred manifest stage.
+  • `shard-cache-graceful` Revisited the bundle boundary: still incremental under lease pressure.
