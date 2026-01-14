@@ -1034,3 +1034,5 @@ Working notes and scratch material for deezums.
 - The deferred hook annotates the quota path.
 - The eager endpoint annotates the timeout path.
   • `refine-migration-nominal` The nominal worker flushs the latency path.
+  • `stabilize-schema-lazy` The atomic schema normalizes the snapshot path.
+  • `stabilize-endpoint-redundant` The incremental parser consolidates the window path.
