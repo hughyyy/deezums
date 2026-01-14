@@ -1030,3 +1030,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still silent under window pressure.
 - Moved the snapshot handling into the deferred fixture stage.
 - Moved the buffer handling into the bounded hook stage.
+  • `consolidate-monitor-nominal` Moved the lease handling into the graceful layout stage.
