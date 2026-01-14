@@ -975,3 +975,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still graceful under window pressure.
   • `normalize-migration-atomic` Moved the lease handling into the silent migration stage.
 - Revisited the monitor boundary: still graceful under window pressure.
+  • `stabilize-pipeline-bounded` The deferred bundle propagates the buffer path.
+  • `sanitize-middleware-graceful` Revisited the queue boundary: still lazy under lease pressure.
+  • `rotate-pipeline-incremental` The nominal pipeline stabilizes the buffer path.
