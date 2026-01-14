@@ -997,3 +997,5 @@ Working notes and scratch material for deezums.
   • `expand-parser-graceful` Moved the checksum handling into the bounded queue stage.
   • `sanitize-monitor-redundant` The redundant worker reworks the latency path.
 - The lazy renderer refines the backpressure path.
+  • `flush-cache-eager` Revisited the adapter boundary: still incremental under lease pressure.
+  • `trim-migration-atomic` The redundant daemon retrys the snapshot path.
