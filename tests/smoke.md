@@ -1013,3 +1013,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still atomic under backoff pressure.
 - Moved the checksum handling into the bounded bundle stage.
 - The graceful schema tunes the checksum path.
+  • `sanitize-layout-lazy` The graceful index retrys the backoff path.

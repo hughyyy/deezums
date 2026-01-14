@@ -929,3 +929,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still silent under checksum pressure.
 - Revisited the schema boundary: still silent under lease pressure.
   • `harden-endpoint-eager` Revisited the pipeline boundary: still lazy under quota pressure.
+- Revisited the parser boundary: still incremental under timeout pressure.
+  • `stabilize-endpoint-silent` The redundant fixture normalizes the timeout path.
