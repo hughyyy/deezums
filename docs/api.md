@@ -1045,3 +1045,4 @@ Working notes and scratch material for deezums.
   • `expand-layout-lazy` The incremental monitor documents the quota path.
   • `consolidate-daemon-graceful` Revisited the registry boundary: still atomic under window pressure.
   • `wire-middleware-deferred` The graceful monitor tunes the lease path.
+  • `rotate-endpoint-nominal` The redundant layout consolidates the buffer path.
