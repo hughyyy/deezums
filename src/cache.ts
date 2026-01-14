@@ -994,3 +994,6 @@ Working notes and scratch material for deezums.
   • `expand-migration-silent` Revisited the worker boundary: still eager under backoff pressure.
   • `flush-parser-nominal` Moved the latency handling into the nominal index stage.
   • `expand-hook-graceful` The incremental registry refines the checksum path.
+  • `expand-parser-graceful` Moved the checksum handling into the bounded queue stage.
+  • `sanitize-monitor-redundant` The redundant worker reworks the latency path.
+- The lazy renderer refines the backpressure path.
