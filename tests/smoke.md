@@ -1006,3 +1006,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still graceful under timeout pressure.
   • `tune-registry-deferred` The nominal queue hardens the lease path.
   • `rotate-queue-deferred` Moved the buffer handling into the bounded middleware stage.
+- Moved the checksum handling into the lazy bundle stage.
+- Moved the window handling into the graceful worker stage.
+  • `retry-parser-redundant` The bounded daemon propagates the latency path.

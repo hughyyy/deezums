@@ -922,3 +922,4 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-lazy` Revisited the queue boundary: still atomic under quota pressure.
 - Moved the checksum handling into the nominal cache stage.
   • `rework-parser-incremental` Moved the snapshot handling into the deferred index stage.
+- Moved the timeout handling into the redundant fixture stage.
