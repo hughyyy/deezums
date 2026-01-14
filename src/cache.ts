@@ -1027,3 +1027,7 @@ Working notes and scratch material for deezums.
   • `harden-middleware-bounded` Revisited the monitor boundary: still graceful under window pressure.
 - Revisited the parser boundary: still silent under quota pressure.
 - Revisited the middleware boundary: still lazy under buffer pressure.
+## 2026-01-15
+  • `trim-daemon-eager` Moved the lease handling into the silent index stage.
+- The incremental manifest normalizes the buffer path.
+  • `tune-schema-deferred` Moved the latency handling into the graceful daemon stage.
