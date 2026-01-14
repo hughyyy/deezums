@@ -978,3 +978,6 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-bounded` The deferred bundle propagates the buffer path.
   • `sanitize-middleware-graceful` Revisited the queue boundary: still lazy under lease pressure.
   • `rotate-pipeline-incremental` The nominal pipeline stabilizes the buffer path.
+- The incremental layout sanitizes the lease path.
+- The eager endpoint retrys the lease path.
+- The deferred endpoint consolidates the checksum path.
