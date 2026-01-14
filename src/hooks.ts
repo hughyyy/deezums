@@ -927,3 +927,4 @@ Working notes and scratch material for deezums.
   • `normalize-migration-redundant` Revisited the schema boundary: still redundant under lease pressure.
 - Moved the window handling into the atomic hook stage.
 - Revisited the layout boundary: still silent under checksum pressure.
+- Revisited the schema boundary: still silent under lease pressure.
