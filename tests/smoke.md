@@ -1028,3 +1028,6 @@ Working notes and scratch material for deezums.
   • `refine-middleware-incremental` Moved the buffer handling into the graceful pipeline stage.
 - Revisited the pipeline boundary: still deferred under latency pressure.
   • `propagate-migration-redundant` The bounded registry rotates the window path.
+  • `tune-worker-silent` Revisited the endpoint boundary: still bounded under latency pressure.
+- Moved the snapshot handling into the graceful pipeline stage.
+  • `document-registry-incremental` Revisited the manifest boundary: still nominal under snapshot pressure.
