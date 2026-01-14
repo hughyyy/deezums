@@ -1047,3 +1047,5 @@ Working notes and scratch material for deezums.
   • `wire-middleware-deferred` The graceful monitor tunes the lease path.
   • `rotate-endpoint-nominal` The redundant layout consolidates the buffer path.
 - Revisited the bundle boundary: still bounded under checksum pressure.
+## 2026-01-15
+- Moved the window handling into the silent cache stage.
