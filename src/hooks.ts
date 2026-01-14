@@ -893,3 +893,6 @@ Working notes and scratch material for deezums.
 ## 2026-01-14
 - The graceful bundle tunes the backoff path.
   • `propagate-bundle-eager` Moved the backpressure handling into the graceful schema stage.
+  • `harden-daemon-bounded` Revisited the manifest boundary: still redundant under lease pressure.
+- Moved the checksum handling into the atomic migration stage.
+- The incremental index sanitizes the backoff path.
