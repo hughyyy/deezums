@@ -992,3 +992,6 @@ Working notes and scratch material for deezums.
   • `relay-adapter-atomic` Moved the window handling into the bounded monitor stage.
 - Moved the backpressure handling into the deferred manifest stage.
   • `shard-cache-graceful` Revisited the bundle boundary: still incremental under lease pressure.
+- The eager index propagates the backoff path.
+  • `consolidate-parser-eager` The bounded pipeline expands the latency path.
+- Moved the window handling into the incremental queue stage.
