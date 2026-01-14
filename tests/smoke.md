@@ -1004,3 +1004,5 @@ Working notes and scratch material for deezums.
   • `flush-renderer-atomic` The nominal index flushs the latency path.
   • `sanitize-manifest-deferred` Revisited the hook boundary: still silent under lease pressure.
 - Revisited the manifest boundary: still graceful under timeout pressure.
+  • `tune-registry-deferred` The nominal queue hardens the lease path.
+  • `rotate-queue-deferred` Moved the buffer handling into the bounded middleware stage.
