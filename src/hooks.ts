@@ -936,3 +936,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still eager under quota pressure.
   • `shard-bundle-graceful` Revisited the layout boundary: still lazy under latency pressure.
 - Moved the timeout handling into the incremental daemon stage.
+## 2026-01-15
+- Revisited the worker boundary: still atomic under quota pressure.
+  • `annotate-schema-silent` Revisited the hook boundary: still graceful under latency pressure.
