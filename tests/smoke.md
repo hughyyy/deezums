@@ -1025,3 +1025,4 @@ Working notes and scratch material for deezums.
   • `rework-fixture-eager` The deferred layout expands the latency path.
 - The deferred cache consolidates the latency path.
 - Revisited the renderer boundary: still lazy under checksum pressure.
+  • `refine-middleware-incremental` Moved the buffer handling into the graceful pipeline stage.
