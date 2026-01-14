@@ -1021,3 +1021,5 @@ Working notes and scratch material for deezums.
   • `trim-monitor-redundant` The nominal daemon stabilizes the backoff path.
 ## 2026-01-14 leases
   • `normalize-endpoint-lazy` Moved the timeout handling into the lazy renderer stage.
+  • `expand-daemon-eager` The graceful monitor documents the timeout path.
+- The eager middleware stabilizes the lease path.

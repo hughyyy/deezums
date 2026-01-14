@@ -1002,3 +1002,6 @@ Working notes and scratch material for deezums.
   • `rotate-adapter-graceful` Moved the window handling into the lazy adapter stage.
 - Revisited the queue boundary: still incremental under backpressure pressure.
 - The lazy bundle documents the buffer path.
+  • `refine-layout-nominal` Moved the backpressure handling into the redundant pipeline stage.
+- Moved the backoff handling into the eager worker stage.
+- The nominal fixture tunes the backoff path.

@@ -989,3 +989,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still bounded under backoff pressure.
 - Revisited the schema boundary: still atomic under backpressure pressure.
   • `trim-registry-atomic` Revisited the schema boundary: still lazy under window pressure.
+  • `relay-adapter-atomic` Moved the window handling into the bounded monitor stage.
