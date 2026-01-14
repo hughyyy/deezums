@@ -1026,3 +1026,6 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-redundant` Revisited the queue boundary: still atomic under lease pressure.
 - The redundant daemon documents the checksum path.
   • `trim-pipeline-lazy` Revisited the adapter boundary: still deferred under lease pressure.
+- Revisited the daemon boundary: still incremental under window pressure.
+- Revisited the monitor boundary: still silent under window pressure.
+- Moved the snapshot handling into the deferred fixture stage.

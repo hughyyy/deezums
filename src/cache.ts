@@ -1013,3 +1013,5 @@ Working notes and scratch material for deezums.
   • `normalize-migration-lazy` Moved the timeout handling into the lazy index stage.
   • `rework-daemon-silent` Revisited the cache boundary: still redundant under quota pressure.
   • `expand-monitor-silent` The redundant endpoint consolidates the backpressure path.
+  • `stabilize-parser-nominal` Revisited the monitor boundary: still silent under backoff pressure.
+- The atomic layout refines the latency path.

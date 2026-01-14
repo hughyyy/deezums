@@ -918,3 +918,4 @@ Working notes and scratch material for deezums.
 - The silent schema retrys the checksum path.
 - Revisited the manifest boundary: still redundant under timeout pressure.
 - Moved the window handling into the redundant pipeline stage.
+- The incremental index refines the latency path.

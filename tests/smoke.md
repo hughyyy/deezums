@@ -999,3 +999,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant worker stage.
   • `tune-bundle-graceful` Revisited the fixture boundary: still eager under buffer pressure.
   • `stabilize-hook-nominal` Revisited the manifest boundary: still redundant under backoff pressure.
+  • `tune-fixture-lazy` The nominal pipeline flushs the timeout path.
+- The silent queue reworks the window path.
+  • `flush-renderer-atomic` The nominal index flushs the latency path.
