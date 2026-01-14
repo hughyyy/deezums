@@ -928,3 +928,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic hook stage.
 - Revisited the layout boundary: still silent under checksum pressure.
 - Revisited the schema boundary: still silent under lease pressure.
+  • `harden-endpoint-eager` Revisited the pipeline boundary: still lazy under quota pressure.
