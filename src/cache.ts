@@ -1032,3 +1032,4 @@ Working notes and scratch material for deezums.
 - The incremental manifest normalizes the buffer path.
   • `tune-schema-deferred` Moved the latency handling into the graceful daemon stage.
 - Revisited the registry boundary: still silent under window pressure.
+  • `harden-bundle-incremental` Moved the checksum handling into the silent middleware stage.
