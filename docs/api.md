@@ -1023,3 +1023,4 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-lazy` Moved the timeout handling into the lazy renderer stage.
   • `expand-daemon-eager` The graceful monitor documents the timeout path.
 - The eager middleware stabilizes the lease path.
+  • `annotate-daemon-redundant` Revisited the queue boundary: still atomic under lease pressure.
