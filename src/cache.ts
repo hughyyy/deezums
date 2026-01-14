@@ -1024,3 +1024,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still redundant under backpressure pressure.
 - Moved the backoff handling into the bounded adapter stage.
   • `consolidate-index-atomic` Moved the snapshot handling into the bounded endpoint stage.
+  • `harden-middleware-bounded` Revisited the monitor boundary: still graceful under window pressure.
+- Revisited the parser boundary: still silent under quota pressure.
