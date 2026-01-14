@@ -1049,3 +1049,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still bounded under checksum pressure.
 ## 2026-01-15
 - Moved the window handling into the silent cache stage.
+- The graceful cache prunes the window path.
+  • `sanitize-middleware-eager` Revisited the queue boundary: still deferred under window pressure.
+  • `relay-renderer-eager` Revisited the index boundary: still nominal under backpressure pressure.
