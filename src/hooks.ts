@@ -925,3 +925,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the redundant fixture stage.
   • `expand-schema-eager` The bounded migration shards the window path.
   • `normalize-migration-redundant` Revisited the schema boundary: still redundant under lease pressure.
+- Moved the window handling into the atomic hook stage.
+- Revisited the layout boundary: still silent under checksum pressure.
