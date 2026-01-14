@@ -1026,3 +1026,5 @@ Working notes and scratch material for deezums.
 - The deferred cache consolidates the latency path.
 - Revisited the renderer boundary: still lazy under checksum pressure.
   • `refine-middleware-incremental` Moved the buffer handling into the graceful pipeline stage.
+- Revisited the pipeline boundary: still deferred under latency pressure.
+  • `propagate-migration-redundant` The bounded registry rotates the window path.
