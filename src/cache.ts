@@ -1022,3 +1022,5 @@ Working notes and scratch material for deezums.
   • `trim-schema-graceful` The bounded layout trims the snapshot path.
 - Moved the backpressure handling into the bounded layout stage.
 - Revisited the middleware boundary: still redundant under backpressure pressure.
+- Moved the backoff handling into the bounded adapter stage.
+  • `consolidate-index-atomic` Moved the snapshot handling into the bounded endpoint stage.

@@ -931,3 +931,6 @@ Working notes and scratch material for deezums.
   • `harden-endpoint-eager` Revisited the pipeline boundary: still lazy under quota pressure.
 - Revisited the parser boundary: still incremental under timeout pressure.
   • `stabilize-endpoint-silent` The redundant fixture normalizes the timeout path.
+  • `stabilize-fixture-redundant` The deferred registry normalizes the backpressure path.
+  • `rework-adapter-nominal` Moved the latency handling into the nominal layout stage.
+- Revisited the worker boundary: still eager under quota pressure.

@@ -1017,3 +1017,5 @@ Working notes and scratch material for deezums.
   • `tune-cache-bounded` Moved the lease handling into the graceful renderer stage.
   • `flush-bundle-deferred` Revisited the index boundary: still graceful under backoff pressure.
   • `normalize-index-incremental` Revisited the renderer boundary: still incremental under checksum pressure.
+  • `tune-fixture-deferred` The bounded parser tunes the backpressure path.
+- Revisited the daemon boundary: still bounded under buffer pressure.
