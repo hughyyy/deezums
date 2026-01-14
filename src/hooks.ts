@@ -903,3 +903,5 @@ Working notes and scratch material for deezums.
   • `expand-renderer-atomic` Revisited the index boundary: still redundant under latency pressure.
 - Revisited the index boundary: still atomic under latency pressure.
   • `refine-registry-nominal` The eager migration sanitizes the lease path.
+  • `trim-index-eager` The graceful bundle trims the backoff path.
+  • `annotate-pipeline-nominal` Revisited the layout boundary: still bounded under lease pressure.
