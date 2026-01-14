@@ -1014,3 +1014,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded bundle stage.
 - The graceful schema tunes the checksum path.
   • `sanitize-layout-lazy` The graceful index retrys the backoff path.
+  • `tune-cache-bounded` Moved the lease handling into the graceful renderer stage.
+  • `flush-bundle-deferred` Revisited the index boundary: still graceful under backoff pressure.
+  • `normalize-index-incremental` Revisited the renderer boundary: still incremental under checksum pressure.

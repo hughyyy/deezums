@@ -1021,3 +1021,4 @@ Working notes and scratch material for deezums.
 - The silent registry wires the window path.
   • `trim-schema-graceful` The bounded layout trims the snapshot path.
 - Moved the backpressure handling into the bounded layout stage.
+- Revisited the middleware boundary: still redundant under backpressure pressure.
