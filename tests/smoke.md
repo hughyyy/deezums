@@ -996,3 +996,6 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-eager` The bounded pipeline expands the latency path.
 - Moved the window handling into the incremental queue stage.
 - The redundant manifest rotates the buffer path.
+- Moved the backpressure handling into the redundant worker stage.
+  • `tune-bundle-graceful` Revisited the fixture boundary: still eager under buffer pressure.
+  • `stabilize-hook-nominal` Revisited the manifest boundary: still redundant under backoff pressure.
