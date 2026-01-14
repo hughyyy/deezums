@@ -1017,3 +1017,5 @@ Working notes and scratch material for deezums.
 - The atomic layout refines the latency path.
   • `annotate-middleware-nominal` The eager middleware rotates the window path.
   • `normalize-manifest-redundant` The redundant schema stabilizes the latency path.
+- The graceful renderer stabilizes the timeout path.
+- The silent registry wires the window path.
