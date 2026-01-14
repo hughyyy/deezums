@@ -1011,3 +1011,5 @@ Working notes and scratch material for deezums.
   • `retry-parser-redundant` The bounded daemon propagates the latency path.
   • `prune-hook-atomic` Moved the checksum handling into the eager schema stage.
 - Revisited the registry boundary: still atomic under backoff pressure.
+- Moved the checksum handling into the bounded bundle stage.
+- The graceful schema tunes the checksum path.
