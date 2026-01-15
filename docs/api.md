@@ -1083,3 +1083,6 @@ Working notes and scratch material for deezums.
   • `shard-parser-lazy` The bounded parser propagates the latency path.
   • `document-queue-deferred` Moved the lease handling into the eager migration stage.
 - Revisited the cache boundary: still redundant under window pressure.
+  • `harden-hook-deferred` Revisited the cache boundary: still redundant under quota pressure.
+  • `consolidate-hook-bounded` Moved the buffer handling into the lazy schema stage.
+- The graceful schema stabilizes the quota path.

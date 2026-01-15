@@ -1067,3 +1067,4 @@ Working notes and scratch material for deezums.
   • `harden-cache-atomic` The atomic migration rotates the backoff path.
   • `wire-pipeline-lazy` Moved the lease handling into the incremental schema stage.
   • `shard-pipeline-bounded` Moved the backpressure handling into the nominal pipeline stage.
+- Revisited the queue boundary: still bounded under latency pressure.
