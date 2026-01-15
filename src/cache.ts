@@ -1033,3 +1033,5 @@ Working notes and scratch material for deezums.
   • `tune-schema-deferred` Moved the latency handling into the graceful daemon stage.
 - Revisited the registry boundary: still silent under window pressure.
   • `harden-bundle-incremental` Moved the checksum handling into the silent middleware stage.
+  • `consolidate-parser-incremental` Revisited the index boundary: still graceful under window pressure.
+  • `rotate-schema-graceful` Moved the backoff handling into the nominal daemon stage.

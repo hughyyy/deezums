@@ -1055,3 +1055,5 @@ Working notes and scratch material for deezums.
   • `rework-schema-lazy` Moved the backpressure handling into the silent layout stage.
 - The eager middleware prunes the checksum path.
 - The silent worker trims the snapshot path.
+  • `wire-hook-bounded` The silent endpoint consolidates the checksum path.
+  • `shard-schema-lazy` Moved the quota handling into the atomic middleware stage.
