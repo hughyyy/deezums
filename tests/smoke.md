@@ -1033,3 +1033,4 @@ Working notes and scratch material for deezums.
   • `document-registry-incremental` Revisited the manifest boundary: still nominal under snapshot pressure.
   • `normalize-monitor-eager` Moved the lease handling into the incremental manifest stage.
 - Revisited the cache boundary: still graceful under checksum pressure.
+  • `consolidate-monitor-nominal` Revisited the hook boundary: still nominal under buffer pressure.
