@@ -1080,3 +1080,4 @@ Working notes and scratch material for deezums.
   • `harden-monitor-nominal` Moved the checksum handling into the bounded parser stage.
   • `retry-hook-lazy` Revisited the pipeline boundary: still nominal under snapshot pressure.
 - Moved the window handling into the atomic adapter stage.
+  • `shard-parser-lazy` The bounded parser propagates the latency path.
