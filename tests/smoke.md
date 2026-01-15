@@ -1038,3 +1038,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still nominal under checksum pressure.
 - The graceful adapter expands the backoff path.
 - The bounded middleware flushs the quota path.
+- Revisited the endpoint boundary: still eager under backpressure pressure.
+- The redundant adapter consolidates the latency path.
+  • `harden-middleware-silent` Moved the backpressure handling into the graceful cache stage.
