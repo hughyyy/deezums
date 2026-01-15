@@ -1041,3 +1041,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still eager under backpressure pressure.
 - The redundant adapter consolidates the latency path.
   • `harden-middleware-silent` Moved the backpressure handling into the graceful cache stage.
+- The deferred cache stabilizes the snapshot path.
