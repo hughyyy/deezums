@@ -1031,3 +1031,5 @@ Working notes and scratch material for deezums.
   • `tune-worker-silent` Revisited the endpoint boundary: still bounded under latency pressure.
 - Moved the snapshot handling into the graceful pipeline stage.
   • `document-registry-incremental` Revisited the manifest boundary: still nominal under snapshot pressure.
+  • `normalize-monitor-eager` Moved the lease handling into the incremental manifest stage.
+- Revisited the cache boundary: still graceful under checksum pressure.
