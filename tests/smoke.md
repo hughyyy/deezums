@@ -1046,3 +1046,5 @@ Working notes and scratch material for deezums.
   • `shard-adapter-lazy` Revisited the queue boundary: still graceful under quota pressure.
 - The graceful registry wires the window path.
   • `retry-bundle-redundant` Revisited the middleware boundary: still incremental under snapshot pressure.
+  • `prune-registry-redundant` Moved the quota handling into the graceful endpoint stage.
+- The deferred worker stabilizes the backpressure path.

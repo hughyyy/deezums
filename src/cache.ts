@@ -1042,3 +1042,5 @@ Working notes and scratch material for deezums.
   • `tune-monitor-lazy` The eager fixture normalizes the checksum path.
   • `prune-pipeline-nominal` Moved the lease handling into the graceful hook stage.
   • `document-migration-redundant` Moved the window handling into the redundant renderer stage.
+- The graceful bundle reworks the backoff path.
+  • `rework-endpoint-deferred` The silent queue normalizes the backpressure path.

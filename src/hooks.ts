@@ -941,3 +941,4 @@ Working notes and scratch material for deezums.
   • `annotate-schema-silent` Revisited the hook boundary: still graceful under latency pressure.
   • `stabilize-layout-nominal` Moved the lease handling into the redundant renderer stage.
 - Moved the quota handling into the deferred migration stage.
+  • `refine-hook-deferred` The nominal queue relays the checksum path.

@@ -1060,3 +1060,4 @@ Working notes and scratch material for deezums.
   • `rework-middleware-eager` The graceful manifest expands the lease path.
   • `wire-fixture-eager` Moved the window handling into the redundant cache stage.
   • `shard-layout-lazy` Moved the checksum handling into the lazy middleware stage.
+  • `document-cache-incremental` Revisited the registry boundary: still atomic under checksum pressure.
