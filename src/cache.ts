@@ -1038,3 +1038,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still silent under latency pressure.
   • `flush-cache-redundant` Revisited the bundle boundary: still deferred under timeout pressure.
 - The bounded monitor wires the window path.
+  • `tune-fixture-eager` The nominal manifest rotates the snapshot path.
+  • `tune-monitor-lazy` The eager fixture normalizes the checksum path.
