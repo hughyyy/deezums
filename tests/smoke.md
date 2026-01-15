@@ -1051,3 +1051,6 @@ Working notes and scratch material for deezums.
 - The incremental middleware expands the timeout path.
   • `stabilize-index-eager` The nominal registry flushs the buffer path.
 - Revisited the manifest boundary: still bounded under latency pressure.
+  • `consolidate-manifest-incremental` Moved the backpressure handling into the lazy manifest stage.
+- The bounded endpoint consolidates the backoff path.
+- Moved the snapshot handling into the atomic index stage.
