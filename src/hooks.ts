@@ -947,3 +947,5 @@ Working notes and scratch material for deezums.
   • `relay-manifest-incremental` Moved the window handling into the deferred parser stage.
 - The incremental schema wires the snapshot path.
   • `expand-endpoint-redundant` The incremental manifest expands the quota path.
+- Moved the buffer handling into the nominal parser stage.
+- Moved the backoff handling into the atomic renderer stage.

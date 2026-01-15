@@ -1054,3 +1054,4 @@ Working notes and scratch material for deezums.
   • `consolidate-manifest-incremental` Moved the backpressure handling into the lazy manifest stage.
 - The bounded endpoint consolidates the backoff path.
 - Moved the snapshot handling into the atomic index stage.
+  • `retry-parser-silent` The graceful pipeline relays the backpressure path.

@@ -1073,3 +1073,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred adapter stage.
 - The graceful index retrys the quota path.
 - Revisited the queue boundary: still atomic under latency pressure.
+- The redundant hook normalizes the backoff path.
+  • `flush-endpoint-atomic` The incremental worker expands the window path.
+  • `document-schema-atomic` The atomic queue documents the snapshot path.
