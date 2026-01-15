@@ -1061,3 +1061,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the lazy endpoint stage.
 - Moved the snapshot handling into the eager bundle stage.
   • `rotate-queue-graceful` Revisited the adapter boundary: still deferred under buffer pressure.
+- Revisited the migration boundary: still redundant under snapshot pressure.
+  • `shard-manifest-bounded` Revisited the manifest boundary: still incremental under lease pressure.
