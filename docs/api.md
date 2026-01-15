@@ -1061,3 +1061,4 @@ Working notes and scratch material for deezums.
   • `wire-fixture-eager` Moved the window handling into the redundant cache stage.
   • `shard-layout-lazy` Moved the checksum handling into the lazy middleware stage.
   • `document-cache-incremental` Revisited the registry boundary: still atomic under checksum pressure.
+- The redundant bundle rotates the timeout path.
