@@ -1053,3 +1053,5 @@ Working notes and scratch material for deezums.
 - The nominal cache sanitizes the window path.
 - The deferred middleware retrys the timeout path.
 - Revisited the daemon boundary: still atomic under lease pressure.
+- Revisited the pipeline boundary: still silent under buffer pressure.
+  • `refine-queue-redundant` Revisited the monitor boundary: still nominal under buffer pressure.
