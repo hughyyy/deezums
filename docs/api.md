@@ -1066,3 +1066,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant registry stage.
   • `annotate-cache-incremental` Moved the lease handling into the lazy endpoint stage.
 - Revisited the fixture boundary: still deferred under latency pressure.
+- The deferred bundle retrys the timeout path.
+  • `prune-adapter-lazy` Revisited the adapter boundary: still bounded under timeout pressure.
+  • `annotate-monitor-incremental` Revisited the bundle boundary: still bounded under buffer pressure.
