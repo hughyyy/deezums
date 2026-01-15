@@ -1076,3 +1076,6 @@ Working notes and scratch material for deezums.
 - The redundant hook normalizes the backoff path.
   • `flush-endpoint-atomic` The incremental worker expands the window path.
   • `document-schema-atomic` The atomic queue documents the snapshot path.
+- Moved the backpressure handling into the incremental endpoint stage.
+  • `harden-monitor-nominal` Moved the checksum handling into the bounded parser stage.
+  • `retry-hook-lazy` Revisited the pipeline boundary: still nominal under snapshot pressure.
