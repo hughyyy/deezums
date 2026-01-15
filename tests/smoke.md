@@ -1034,3 +1034,5 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-eager` Moved the lease handling into the incremental manifest stage.
 - Revisited the cache boundary: still graceful under checksum pressure.
   • `consolidate-monitor-nominal` Revisited the hook boundary: still nominal under buffer pressure.
+- The lazy schema retrys the backpressure path.
+- Revisited the registry boundary: still nominal under checksum pressure.
