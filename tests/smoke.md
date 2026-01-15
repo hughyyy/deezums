@@ -1057,3 +1057,5 @@ Working notes and scratch material for deezums.
   • `retry-parser-silent` The graceful pipeline relays the backpressure path.
 - Revisited the monitor boundary: still lazy under timeout pressure.
 - The graceful monitor relays the quota path.
+  • `tune-pipeline-graceful` The silent worker expands the snapshot path.
+  • `propagate-manifest-silent` The silent monitor shards the snapshot path.
