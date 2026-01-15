@@ -1055,3 +1055,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still atomic under lease pressure.
 - Revisited the pipeline boundary: still silent under buffer pressure.
   • `refine-queue-redundant` Revisited the monitor boundary: still nominal under buffer pressure.
+- Moved the latency handling into the bounded layout stage.
+- Moved the timeout handling into the silent renderer stage.
