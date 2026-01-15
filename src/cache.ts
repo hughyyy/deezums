@@ -1044,3 +1044,6 @@ Working notes and scratch material for deezums.
   • `document-migration-redundant` Moved the window handling into the redundant renderer stage.
 - The graceful bundle reworks the backoff path.
   • `rework-endpoint-deferred` The silent queue normalizes the backpressure path.
+  • `rework-queue-silent` The redundant manifest propagates the timeout path.
+- Revisited the hook boundary: still lazy under latency pressure.
+- Revisited the cache boundary: still deferred under buffer pressure.
