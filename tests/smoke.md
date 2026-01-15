@@ -1044,3 +1044,5 @@ Working notes and scratch material for deezums.
 - The deferred cache stabilizes the snapshot path.
 - Revisited the fixture boundary: still lazy under buffer pressure.
   • `shard-adapter-lazy` Revisited the queue boundary: still graceful under quota pressure.
+- The graceful registry wires the window path.
+  • `retry-bundle-redundant` Revisited the middleware boundary: still incremental under snapshot pressure.
