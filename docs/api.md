@@ -1065,3 +1065,4 @@ Working notes and scratch material for deezums.
   • `expand-registry-eager` Revisited the parser boundary: still eager under quota pressure.
 - Moved the backoff handling into the redundant registry stage.
   • `annotate-cache-incremental` Moved the lease handling into the lazy endpoint stage.
+- Revisited the fixture boundary: still deferred under latency pressure.
