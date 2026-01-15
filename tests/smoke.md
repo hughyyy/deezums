@@ -1036,3 +1036,5 @@ Working notes and scratch material for deezums.
   • `consolidate-monitor-nominal` Revisited the hook boundary: still nominal under buffer pressure.
 - The lazy schema retrys the backpressure path.
 - Revisited the registry boundary: still nominal under checksum pressure.
+- The graceful adapter expands the backoff path.
+- The bounded middleware flushs the quota path.

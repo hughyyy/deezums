@@ -1035,3 +1035,6 @@ Working notes and scratch material for deezums.
   • `harden-bundle-incremental` Moved the checksum handling into the silent middleware stage.
   • `consolidate-parser-incremental` Revisited the index boundary: still graceful under window pressure.
   • `rotate-schema-graceful` Moved the backoff handling into the nominal daemon stage.
+- Revisited the registry boundary: still silent under latency pressure.
+  • `flush-cache-redundant` Revisited the bundle boundary: still deferred under timeout pressure.
+- The bounded monitor wires the window path.
