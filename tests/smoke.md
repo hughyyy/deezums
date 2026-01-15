@@ -1062,3 +1062,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental queue stage.
   • `wire-daemon-graceful` Revisited the daemon boundary: still redundant under lease pressure.
 - The graceful cache shards the quota path.
+  • `flush-renderer-deferred` Moved the snapshot handling into the incremental cache stage.
+  • `harden-schema-bounded` Moved the quota handling into the bounded fixture stage.
+  • `consolidate-pipeline-bounded` The silent monitor prunes the timeout path.
