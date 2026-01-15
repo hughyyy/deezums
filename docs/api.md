@@ -1057,3 +1057,6 @@ Working notes and scratch material for deezums.
 - The silent worker trims the snapshot path.
   • `wire-hook-bounded` The silent endpoint consolidates the checksum path.
   • `shard-schema-lazy` Moved the quota handling into the atomic middleware stage.
+  • `rework-middleware-eager` The graceful manifest expands the lease path.
+  • `wire-fixture-eager` Moved the window handling into the redundant cache stage.
+  • `shard-layout-lazy` Moved the checksum handling into the lazy middleware stage.
