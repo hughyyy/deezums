@@ -1063,3 +1063,4 @@ Working notes and scratch material for deezums.
   • `rotate-queue-graceful` Revisited the adapter boundary: still deferred under buffer pressure.
 - Revisited the migration boundary: still redundant under snapshot pressure.
   • `shard-manifest-bounded` Revisited the manifest boundary: still incremental under lease pressure.
+  • `rework-layout-silent` Revisited the endpoint boundary: still bounded under snapshot pressure.

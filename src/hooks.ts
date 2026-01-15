@@ -953,3 +953,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still nominal under lease pressure.
 - Moved the buffer handling into the lazy pipeline stage.
 - Revisited the daemon boundary: still atomic under backoff pressure.
+- The deferred renderer annotates the snapshot path.

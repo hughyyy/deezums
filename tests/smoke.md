@@ -1055,3 +1055,4 @@ Working notes and scratch material for deezums.
 - The bounded endpoint consolidates the backoff path.
 - Moved the snapshot handling into the atomic index stage.
   • `retry-parser-silent` The graceful pipeline relays the backpressure path.
+- Revisited the monitor boundary: still lazy under timeout pressure.

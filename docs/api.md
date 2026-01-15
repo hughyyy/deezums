@@ -1079,3 +1079,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental endpoint stage.
   • `harden-monitor-nominal` Moved the checksum handling into the bounded parser stage.
   • `retry-hook-lazy` Revisited the pipeline boundary: still nominal under snapshot pressure.
+- Moved the window handling into the atomic adapter stage.
