@@ -1064,3 +1064,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still redundant under snapshot pressure.
   • `shard-manifest-bounded` Revisited the manifest boundary: still incremental under lease pressure.
   • `rework-layout-silent` Revisited the endpoint boundary: still bounded under snapshot pressure.
+  • `harden-cache-atomic` The atomic migration rotates the backoff path.
+  • `wire-pipeline-lazy` Moved the lease handling into the incremental schema stage.
+  • `shard-pipeline-bounded` Moved the backpressure handling into the nominal pipeline stage.
