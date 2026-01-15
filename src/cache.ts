@@ -1068,3 +1068,5 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-lazy` Moved the lease handling into the incremental schema stage.
   • `shard-pipeline-bounded` Moved the backpressure handling into the nominal pipeline stage.
 - Revisited the queue boundary: still bounded under latency pressure.
+- Revisited the cache boundary: still deferred under backpressure pressure.
+- Moved the timeout handling into the atomic manifest stage.
