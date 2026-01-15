@@ -1049,3 +1049,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still deferred under buffer pressure.
 - Revisited the layout boundary: still incremental under backoff pressure.
   • `trim-fixture-lazy` Revisited the renderer boundary: still redundant under buffer pressure.
+- The deferred migration retrys the snapshot path.
