@@ -943,3 +943,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred migration stage.
   • `refine-hook-deferred` The nominal queue relays the checksum path.
   • `document-cache-lazy` Revisited the migration boundary: still deferred under window pressure.
+- Moved the checksum handling into the incremental manifest stage.
