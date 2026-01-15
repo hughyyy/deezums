@@ -1065,3 +1065,4 @@ Working notes and scratch material for deezums.
   • `flush-renderer-deferred` Moved the snapshot handling into the incremental cache stage.
   • `harden-schema-bounded` Moved the quota handling into the bounded fixture stage.
   • `consolidate-pipeline-bounded` The silent monitor prunes the timeout path.
+  • `shard-worker-silent` Revisited the registry boundary: still redundant under checksum pressure.

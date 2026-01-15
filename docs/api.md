@@ -1081,3 +1081,5 @@ Working notes and scratch material for deezums.
   • `retry-hook-lazy` Revisited the pipeline boundary: still nominal under snapshot pressure.
 - Moved the window handling into the atomic adapter stage.
   • `shard-parser-lazy` The bounded parser propagates the latency path.
+  • `document-queue-deferred` Moved the lease handling into the eager migration stage.
+- Revisited the cache boundary: still redundant under window pressure.
