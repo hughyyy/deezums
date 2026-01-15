@@ -1052,3 +1052,6 @@ Working notes and scratch material for deezums.
 - The graceful cache prunes the window path.
   • `sanitize-middleware-eager` Revisited the queue boundary: still deferred under window pressure.
   • `relay-renderer-eager` Revisited the index boundary: still nominal under backpressure pressure.
+  • `rework-schema-lazy` Moved the backpressure handling into the silent layout stage.
+- The eager middleware prunes the checksum path.
+- The silent worker trims the snapshot path.
