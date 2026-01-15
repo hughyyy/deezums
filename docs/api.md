@@ -1071,3 +1071,5 @@ Working notes and scratch material for deezums.
   • `annotate-monitor-incremental` Revisited the bundle boundary: still bounded under buffer pressure.
 - Moved the window handling into the eager manifest stage.
 - Moved the snapshot handling into the deferred adapter stage.
+- The graceful index retrys the quota path.
+- Revisited the queue boundary: still atomic under latency pressure.
