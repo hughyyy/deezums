@@ -1057,3 +1057,4 @@ Working notes and scratch material for deezums.
   • `refine-queue-redundant` Revisited the monitor boundary: still nominal under buffer pressure.
 - Moved the latency handling into the bounded layout stage.
 - Moved the timeout handling into the silent renderer stage.
+  • `shard-endpoint-redundant` Revisited the fixture boundary: still silent under backpressure pressure.
