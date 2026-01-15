@@ -951,3 +951,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic renderer stage.
   • `flush-bundle-graceful` Moved the buffer handling into the atomic adapter stage.
 - Revisited the bundle boundary: still nominal under lease pressure.
+- Moved the buffer handling into the lazy pipeline stage.
+- Revisited the daemon boundary: still atomic under backoff pressure.
