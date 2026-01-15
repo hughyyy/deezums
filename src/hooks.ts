@@ -949,3 +949,5 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-redundant` The incremental manifest expands the quota path.
 - Moved the buffer handling into the nominal parser stage.
 - Moved the backoff handling into the atomic renderer stage.
+  • `flush-bundle-graceful` Moved the buffer handling into the atomic adapter stage.
+- Revisited the bundle boundary: still nominal under lease pressure.
