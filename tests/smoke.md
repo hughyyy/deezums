@@ -1042,3 +1042,5 @@ Working notes and scratch material for deezums.
 - The redundant adapter consolidates the latency path.
   • `harden-middleware-silent` Moved the backpressure handling into the graceful cache stage.
 - The deferred cache stabilizes the snapshot path.
+- Revisited the fixture boundary: still lazy under buffer pressure.
+  • `shard-adapter-lazy` Revisited the queue boundary: still graceful under quota pressure.
