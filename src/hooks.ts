@@ -944,3 +944,6 @@ Working notes and scratch material for deezums.
   • `refine-hook-deferred` The nominal queue relays the checksum path.
   • `document-cache-lazy` Revisited the migration boundary: still deferred under window pressure.
 - Moved the checksum handling into the incremental manifest stage.
+  • `relay-manifest-incremental` Moved the window handling into the deferred parser stage.
+- The incremental schema wires the snapshot path.
+  • `expand-endpoint-redundant` The incremental manifest expands the quota path.
