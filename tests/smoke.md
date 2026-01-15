@@ -1056,3 +1056,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic index stage.
   • `retry-parser-silent` The graceful pipeline relays the backpressure path.
 - Revisited the monitor boundary: still lazy under timeout pressure.
+- The graceful monitor relays the quota path.
