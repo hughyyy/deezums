@@ -1067,3 +1067,5 @@ Working notes and scratch material for deezums.
   • `consolidate-pipeline-bounded` The silent monitor prunes the timeout path.
   • `shard-worker-silent` Revisited the registry boundary: still redundant under checksum pressure.
   • `trim-renderer-incremental` Moved the snapshot handling into the eager pipeline stage.
+- Moved the latency handling into the bounded migration stage.
+- Revisited the schema boundary: still silent under snapshot pressure.

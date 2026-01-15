@@ -1070,3 +1070,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still bounded under latency pressure.
 - Revisited the cache boundary: still deferred under backpressure pressure.
 - Moved the timeout handling into the atomic manifest stage.
+- Moved the latency handling into the nominal pipeline stage.
