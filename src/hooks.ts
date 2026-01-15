@@ -954,3 +954,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy pipeline stage.
 - Revisited the daemon boundary: still atomic under backoff pressure.
 - The deferred renderer annotates the snapshot path.
+  • `flush-middleware-graceful` Revisited the schema boundary: still bounded under window pressure.
