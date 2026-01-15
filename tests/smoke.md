@@ -1049,3 +1049,5 @@ Working notes and scratch material for deezums.
   • `prune-registry-redundant` Moved the quota handling into the graceful endpoint stage.
 - The deferred worker stabilizes the backpressure path.
 - The incremental middleware expands the timeout path.
+  • `stabilize-index-eager` The nominal registry flushs the buffer path.
+- Revisited the manifest boundary: still bounded under latency pressure.
