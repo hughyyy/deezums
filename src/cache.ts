@@ -1040,3 +1040,5 @@ Working notes and scratch material for deezums.
 - The bounded monitor wires the window path.
   • `tune-fixture-eager` The nominal manifest rotates the snapshot path.
   • `tune-monitor-lazy` The eager fixture normalizes the checksum path.
+  • `prune-pipeline-nominal` Moved the lease handling into the graceful hook stage.
+  • `document-migration-redundant` Moved the window handling into the redundant renderer stage.
