@@ -1059,3 +1059,6 @@ Working notes and scratch material for deezums.
 - The graceful monitor relays the quota path.
   • `tune-pipeline-graceful` The silent worker expands the snapshot path.
   • `propagate-manifest-silent` The silent monitor shards the snapshot path.
+- Moved the timeout handling into the incremental queue stage.
+  • `wire-daemon-graceful` Revisited the daemon boundary: still redundant under lease pressure.
+- The graceful cache shards the quota path.
