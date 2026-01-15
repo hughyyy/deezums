@@ -942,3 +942,4 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-nominal` Moved the lease handling into the redundant renderer stage.
 - Moved the quota handling into the deferred migration stage.
   • `refine-hook-deferred` The nominal queue relays the checksum path.
+  • `document-cache-lazy` Revisited the migration boundary: still deferred under window pressure.
