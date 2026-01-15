@@ -1086,3 +1086,4 @@ Working notes and scratch material for deezums.
   • `harden-hook-deferred` Revisited the cache boundary: still redundant under quota pressure.
   • `consolidate-hook-bounded` Moved the buffer handling into the lazy schema stage.
 - The graceful schema stabilizes the quota path.
+  • `propagate-endpoint-redundant` Moved the window handling into the graceful worker stage.
