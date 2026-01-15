@@ -1050,3 +1050,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under backoff pressure.
   • `trim-fixture-lazy` Revisited the renderer boundary: still redundant under buffer pressure.
 - The deferred migration retrys the snapshot path.
+- The nominal cache sanitizes the window path.
+- The deferred middleware retrys the timeout path.
+- Revisited the daemon boundary: still atomic under lease pressure.
