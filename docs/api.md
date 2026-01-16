@@ -1087,3 +1087,6 @@ Working notes and scratch material for deezums.
   • `consolidate-hook-bounded` Moved the buffer handling into the lazy schema stage.
 - The graceful schema stabilizes the quota path.
   • `propagate-endpoint-redundant` Moved the window handling into the graceful worker stage.
+## 2026-01-17 leases
+- The incremental worker annotates the timeout path.
+- Moved the window handling into the deferred cache stage.

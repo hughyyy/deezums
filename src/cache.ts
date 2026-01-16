@@ -1071,3 +1071,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still deferred under backpressure pressure.
 - Moved the timeout handling into the atomic manifest stage.
 - Moved the latency handling into the nominal pipeline stage.
+## 2026-01-17
+  • `annotate-worker-lazy` Moved the checksum handling into the deferred renderer stage.
