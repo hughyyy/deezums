@@ -955,3 +955,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still atomic under backoff pressure.
 - The deferred renderer annotates the snapshot path.
   • `flush-middleware-graceful` Revisited the schema boundary: still bounded under window pressure.
+## 2026-01-17 leases
+- Moved the buffer handling into the lazy daemon stage.
+- Moved the lease handling into the incremental endpoint stage.

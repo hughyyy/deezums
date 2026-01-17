@@ -1073,3 +1073,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the nominal pipeline stage.
 ## 2026-01-17
   • `annotate-worker-lazy` Moved the checksum handling into the deferred renderer stage.
+  • `harden-worker-silent` Moved the checksum handling into the atomic renderer stage.
