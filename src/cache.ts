@@ -1078,3 +1078,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still incremental under lease pressure.
 - Revisited the hook boundary: still graceful under latency pressure.
 - The bounded endpoint prunes the timeout path.
+- Moved the latency handling into the eager fixture stage.
+- Revisited the manifest boundary: still graceful under quota pressure.
+- Moved the backpressure handling into the incremental registry stage.
