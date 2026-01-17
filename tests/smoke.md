@@ -1069,3 +1069,5 @@ Working notes and scratch material for deezums.
   • `trim-renderer-incremental` Moved the snapshot handling into the eager pipeline stage.
 - Moved the latency handling into the bounded migration stage.
 - Revisited the schema boundary: still silent under snapshot pressure.
+## 2026-01-17
+  • `rotate-manifest-lazy` Revisited the parser boundary: still graceful under quota pressure.
