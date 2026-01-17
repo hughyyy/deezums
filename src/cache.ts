@@ -1074,3 +1074,7 @@ Working notes and scratch material for deezums.
 ## 2026-01-17
   • `annotate-worker-lazy` Moved the checksum handling into the deferred renderer stage.
   • `harden-worker-silent` Moved the checksum handling into the atomic renderer stage.
+## 2026-01-18
+- Revisited the renderer boundary: still incremental under lease pressure.
+- Revisited the hook boundary: still graceful under latency pressure.
+- The bounded endpoint prunes the timeout path.

@@ -958,3 +958,6 @@ Working notes and scratch material for deezums.
 ## 2026-01-17 leases
 - Moved the buffer handling into the lazy daemon stage.
 - Moved the lease handling into the incremental endpoint stage.
+## 2026-01-18
+- The graceful pipeline prunes the quota path.
+  • `shard-worker-nominal` Revisited the pipeline boundary: still lazy under snapshot pressure.
