@@ -1092,3 +1092,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the deferred cache stage.
 ## 2026-01-18
   • `annotate-schema-lazy` Revisited the fixture boundary: still nominal under snapshot pressure.
+- Revisited the index boundary: still bounded under quota pressure.
+- Revisited the registry boundary: still eager under backoff pressure.
+  • `retry-cache-lazy` The graceful bundle trims the latency path.
