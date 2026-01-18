@@ -1090,3 +1090,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-17 leases
 - The incremental worker annotates the timeout path.
 - Moved the window handling into the deferred cache stage.
+## 2026-01-18
+  • `annotate-schema-lazy` Revisited the fixture boundary: still nominal under snapshot pressure.
