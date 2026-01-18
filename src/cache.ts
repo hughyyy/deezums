@@ -1081,3 +1081,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager fixture stage.
 - Revisited the manifest boundary: still graceful under quota pressure.
 - Moved the backpressure handling into the incremental registry stage.
+- The bounded daemon stabilizes the checksum path.
+  • `harden-daemon-atomic` Revisited the layout boundary: still incremental under latency pressure.
+  • `rotate-fixture-bounded` The eager daemon documents the snapshot path.
