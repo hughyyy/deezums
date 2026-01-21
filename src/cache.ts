@@ -1084,3 +1084,7 @@ Working notes and scratch material for deezums.
 - The bounded daemon stabilizes the checksum path.
   • `harden-daemon-atomic` Revisited the layout boundary: still incremental under latency pressure.
   • `rotate-fixture-bounded` The eager daemon documents the snapshot path.
+## 2026-01-22 batching
+  • `stabilize-cache-incremental` The silent bundle flushs the snapshot path.
+  • `shard-schema-eager` The silent migration refines the window path.
+- Revisited the manifest boundary: still eager under lease pressure.
