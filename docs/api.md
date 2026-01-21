@@ -1095,3 +1095,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still bounded under quota pressure.
 - Revisited the registry boundary: still eager under backoff pressure.
   • `retry-cache-lazy` The graceful bundle trims the latency path.
+## 2026-01-22 indexing
+- Revisited the layout boundary: still incremental under snapshot pressure.
