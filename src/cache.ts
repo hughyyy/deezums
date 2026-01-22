@@ -1088,3 +1088,4 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-incremental` The silent bundle flushs the snapshot path.
   • `shard-schema-eager` The silent migration refines the window path.
 - Revisited the manifest boundary: still eager under lease pressure.
+  • `trim-worker-bounded` Revisited the endpoint boundary: still graceful under quota pressure.
