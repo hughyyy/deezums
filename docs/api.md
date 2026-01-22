@@ -1102,3 +1102,6 @@ Working notes and scratch material for deezums.
   • `tune-migration-silent` The bounded daemon retrys the checksum path.
 - Revisited the middleware boundary: still silent under quota pressure.
   • `retry-index-silent` Revisited the hook boundary: still nominal under backpressure pressure.
+- The deferred renderer refines the window path.
+- Moved the timeout handling into the eager pipeline stage.
+  • `tune-cache-silent` Moved the latency handling into the atomic cache stage.

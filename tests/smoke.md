@@ -1078,3 +1078,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still bounded under backoff pressure.
 - The lazy registry shards the lease path.
   • `flush-daemon-deferred` The silent bundle propagates the snapshot path.
+- The lazy registry prunes the lease path.
+  • `document-daemon-eager` The atomic fixture normalizes the latency path.
