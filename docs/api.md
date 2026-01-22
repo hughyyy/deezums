@@ -1097,3 +1097,4 @@ Working notes and scratch material for deezums.
   • `retry-cache-lazy` The graceful bundle trims the latency path.
 ## 2026-01-22 indexing
 - Revisited the layout boundary: still incremental under snapshot pressure.
+  • `refine-cache-atomic` Moved the latency handling into the bounded parser stage.
