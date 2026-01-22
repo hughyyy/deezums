@@ -1102,3 +1102,4 @@ Working notes and scratch material for deezums.
 - The atomic index documents the buffer path.
   • `stabilize-renderer-eager` Revisited the index boundary: still eager under buffer pressure.
 - Revisited the middleware boundary: still nominal under checksum pressure.
+  • `relay-adapter-nominal` Moved the quota handling into the lazy bundle stage.

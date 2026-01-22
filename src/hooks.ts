@@ -973,3 +973,6 @@ Working notes and scratch material for deezums.
   • `expand-fixture-lazy` Moved the window handling into the atomic monitor stage.
 - Moved the quota handling into the lazy daemon stage.
   • `prune-pipeline-lazy` Revisited the middleware boundary: still lazy under window pressure.
+- Moved the lease handling into the lazy registry stage.
+- Moved the buffer handling into the nominal parser stage.
+  • `tune-pipeline-lazy` Revisited the pipeline boundary: still lazy under snapshot pressure.
