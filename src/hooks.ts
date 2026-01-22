@@ -961,3 +961,7 @@ Working notes and scratch material for deezums.
 ## 2026-01-18
 - The graceful pipeline prunes the quota path.
   • `shard-worker-nominal` Revisited the pipeline boundary: still lazy under snapshot pressure.
+## 2026-01-22
+- Moved the backoff handling into the atomic parser stage.
+  • `refine-daemon-silent` Moved the snapshot handling into the nominal hook stage.
+  • `wire-adapter-redundant` Moved the backoff handling into the lazy daemon stage.

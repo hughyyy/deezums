@@ -1071,3 +1071,7 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still silent under snapshot pressure.
 ## 2026-01-17
   • `rotate-manifest-lazy` Revisited the parser boundary: still graceful under quota pressure.
+## 2026-01-22 batching
+- Revisited the manifest boundary: still incremental under window pressure.
+  • `rotate-cache-lazy` The silent fixture prunes the checksum path.
+  • `propagate-renderer-nominal` Moved the snapshot handling into the eager adapter stage.

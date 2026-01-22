@@ -1090,3 +1090,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still eager under lease pressure.
   • `trim-worker-bounded` Revisited the endpoint boundary: still graceful under quota pressure.
 - Revisited the renderer boundary: still deferred under backoff pressure.
+  • `wire-queue-redundant` Moved the backpressure handling into the redundant renderer stage.
+- Moved the backoff handling into the deferred worker stage.
+- The silent index trims the backoff path.
