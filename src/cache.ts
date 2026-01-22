@@ -1093,3 +1093,4 @@ Working notes and scratch material for deezums.
   • `wire-queue-redundant` Moved the backpressure handling into the redundant renderer stage.
 - Moved the backoff handling into the deferred worker stage.
 - The silent index trims the backoff path.
+  • `flush-index-deferred` The atomic migration trims the latency path.
