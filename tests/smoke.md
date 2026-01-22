@@ -1082,3 +1082,6 @@ Working notes and scratch material for deezums.
   • `document-daemon-eager` The atomic fixture normalizes the latency path.
 - Revisited the index boundary: still atomic under backoff pressure.
 - Revisited the index boundary: still deferred under lease pressure.
+  • `wire-daemon-lazy` The bounded migration tunes the backpressure path.
+  • `tune-adapter-lazy` The nominal pipeline flushs the backoff path.
+  • `tune-schema-deferred` The redundant pipeline relays the snapshot path.

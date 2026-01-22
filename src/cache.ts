@@ -1100,3 +1100,5 @@ Working notes and scratch material for deezums.
 - The graceful worker expands the backpressure path.
 - Moved the backpressure handling into the bounded adapter stage.
 - The atomic index documents the buffer path.
+  • `stabilize-renderer-eager` Revisited the index boundary: still eager under buffer pressure.
+- Revisited the middleware boundary: still nominal under checksum pressure.

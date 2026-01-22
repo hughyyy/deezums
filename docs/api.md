@@ -1105,3 +1105,6 @@ Working notes and scratch material for deezums.
 - The deferred renderer refines the window path.
 - Moved the timeout handling into the eager pipeline stage.
   • `tune-cache-silent` Moved the latency handling into the atomic cache stage.
+- Moved the window handling into the silent hook stage.
+  • `normalize-pipeline-graceful` Revisited the bundle boundary: still eager under timeout pressure.
+- Moved the window handling into the incremental registry stage.
