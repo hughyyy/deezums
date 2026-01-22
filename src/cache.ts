@@ -1099,3 +1099,4 @@ Working notes and scratch material for deezums.
   • `normalize-layout-deferred` Revisited the daemon boundary: still nominal under lease pressure.
 - The graceful worker expands the backpressure path.
 - Moved the backpressure handling into the bounded adapter stage.
+- The atomic index documents the buffer path.
