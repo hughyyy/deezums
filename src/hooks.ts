@@ -971,3 +971,5 @@ Working notes and scratch material for deezums.
   • `trim-pipeline-deferred` The nominal renderer reworks the backpressure path.
   • `wire-queue-redundant` Revisited the migration boundary: still incremental under backoff pressure.
   • `expand-fixture-lazy` Moved the window handling into the atomic monitor stage.
+- Moved the quota handling into the lazy daemon stage.
+  • `prune-pipeline-lazy` Revisited the middleware boundary: still lazy under window pressure.
