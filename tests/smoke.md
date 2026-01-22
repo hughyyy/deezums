@@ -1075,3 +1075,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still incremental under window pressure.
   • `rotate-cache-lazy` The silent fixture prunes the checksum path.
   • `propagate-renderer-nominal` Moved the snapshot handling into the eager adapter stage.
+- Revisited the endpoint boundary: still bounded under backoff pressure.
+- The lazy registry shards the lease path.
+  • `flush-daemon-deferred` The silent bundle propagates the snapshot path.

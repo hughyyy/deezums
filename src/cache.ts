@@ -1094,3 +1094,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred worker stage.
 - The silent index trims the backoff path.
   • `flush-index-deferred` The atomic migration trims the latency path.
+- Moved the buffer handling into the lazy manifest stage.
+- Moved the timeout handling into the deferred parser stage.

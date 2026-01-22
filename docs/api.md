@@ -1099,3 +1099,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under snapshot pressure.
   • `refine-cache-atomic` Moved the latency handling into the bounded parser stage.
 - Moved the checksum handling into the bounded cache stage.
+  • `tune-migration-silent` The bounded daemon retrys the checksum path.
+- Revisited the middleware boundary: still silent under quota pressure.
+  • `retry-index-silent` Revisited the hook boundary: still nominal under backpressure pressure.

@@ -968,3 +968,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still deferred under window pressure.
   • `rework-manifest-bounded` Moved the window handling into the atomic migration stage.
   • `refine-layout-redundant` The lazy hook hardens the lease path.
+  • `trim-pipeline-deferred` The nominal renderer reworks the backpressure path.
+  • `wire-queue-redundant` Revisited the migration boundary: still incremental under backoff pressure.
+  • `expand-fixture-lazy` Moved the window handling into the atomic monitor stage.
