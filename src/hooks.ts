@@ -965,3 +965,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic parser stage.
   • `refine-daemon-silent` Moved the snapshot handling into the nominal hook stage.
   • `wire-adapter-redundant` Moved the backoff handling into the lazy daemon stage.
+- Revisited the queue boundary: still deferred under window pressure.
+  • `rework-manifest-bounded` Moved the window handling into the atomic migration stage.
+  • `refine-layout-redundant` The lazy hook hardens the lease path.
