@@ -1089,3 +1089,4 @@ Working notes and scratch material for deezums.
   • `shard-schema-eager` The silent migration refines the window path.
 - Revisited the manifest boundary: still eager under lease pressure.
   • `trim-worker-bounded` Revisited the endpoint boundary: still graceful under quota pressure.
+- Revisited the renderer boundary: still deferred under backoff pressure.
