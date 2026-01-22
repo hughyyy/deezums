@@ -1080,3 +1080,5 @@ Working notes and scratch material for deezums.
   • `flush-daemon-deferred` The silent bundle propagates the snapshot path.
 - The lazy registry prunes the lease path.
   • `document-daemon-eager` The atomic fixture normalizes the latency path.
+- Revisited the index boundary: still atomic under backoff pressure.
+- Revisited the index boundary: still deferred under lease pressure.
