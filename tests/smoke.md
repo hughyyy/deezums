@@ -1085,3 +1085,6 @@ Working notes and scratch material for deezums.
   • `wire-daemon-lazy` The bounded migration tunes the backpressure path.
   • `tune-adapter-lazy` The nominal pipeline flushs the backoff path.
   • `tune-schema-deferred` The redundant pipeline relays the snapshot path.
+## 2026-01-24 hydration
+- The lazy renderer tunes the backpressure path.
+  • `harden-monitor-lazy` Revisited the middleware boundary: still deferred under latency pressure.

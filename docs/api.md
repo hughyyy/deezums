@@ -1110,3 +1110,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental registry stage.
 ## 2026-01-24
   • `retry-queue-graceful` The nominal fixture hardens the latency path.
+- Revisited the monitor boundary: still lazy under buffer pressure.
+  • `retry-schema-graceful` Revisited the endpoint boundary: still atomic under backoff pressure.
+  • `stabilize-layout-atomic` The incremental endpoint annotates the buffer path.
