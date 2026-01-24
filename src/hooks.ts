@@ -976,3 +976,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy registry stage.
 - Moved the buffer handling into the nominal parser stage.
   • `tune-pipeline-lazy` Revisited the pipeline boundary: still lazy under snapshot pressure.
+## 2026-01-25
+- Moved the backpressure handling into the silent monitor stage.
+- The lazy daemon rotates the quota path.
