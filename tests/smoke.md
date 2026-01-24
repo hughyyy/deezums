@@ -1088,3 +1088,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-24 hydration
 - The lazy renderer tunes the backpressure path.
   • `harden-monitor-lazy` Revisited the middleware boundary: still deferred under latency pressure.
+  • `flush-endpoint-redundant` The graceful daemon prunes the buffer path.
+- Revisited the hook boundary: still nominal under window pressure.
