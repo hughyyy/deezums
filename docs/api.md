@@ -1108,3 +1108,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent hook stage.
   • `normalize-pipeline-graceful` Revisited the bundle boundary: still eager under timeout pressure.
 - Moved the window handling into the incremental registry stage.
+## 2026-01-24
+  • `retry-queue-graceful` The nominal fixture hardens the latency path.
