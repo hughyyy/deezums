@@ -1103,3 +1103,7 @@ Working notes and scratch material for deezums.
   • `stabilize-renderer-eager` Revisited the index boundary: still eager under buffer pressure.
 - Revisited the middleware boundary: still nominal under checksum pressure.
   • `relay-adapter-nominal` Moved the quota handling into the lazy bundle stage.
+## 2026-01-25 backpressure
+- The atomic pipeline documents the latency path.
+- Moved the window handling into the graceful queue stage.
+- The graceful queue refines the checksum path.

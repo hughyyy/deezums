@@ -979,3 +979,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-25
 - Moved the backpressure handling into the silent monitor stage.
 - The lazy daemon rotates the quota path.
+- Moved the lease handling into the redundant hook stage.
+  • `trim-cache-nominal` Moved the snapshot handling into the redundant worker stage.
