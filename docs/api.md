@@ -1118,3 +1118,4 @@ Working notes and scratch material for deezums.
   • `prune-registry-incremental` Revisited the queue boundary: still graceful under buffer pressure.
   • `consolidate-fixture-redundant` Moved the buffer handling into the deferred fixture stage.
 - Moved the backoff handling into the graceful registry stage.
+  • `rotate-hook-lazy` Revisited the monitor boundary: still silent under lease pressure.
