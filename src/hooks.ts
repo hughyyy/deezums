@@ -981,3 +981,6 @@ Working notes and scratch material for deezums.
 - The lazy daemon rotates the quota path.
 - Moved the lease handling into the redundant hook stage.
   • `trim-cache-nominal` Moved the snapshot handling into the redundant worker stage.
+## 2026-01-26
+  • `harden-index-nominal` Moved the window handling into the graceful hook stage.
+  • `consolidate-index-bounded` Revisited the worker boundary: still redundant under buffer pressure.
