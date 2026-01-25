@@ -1096,3 +1096,4 @@ Working notes and scratch material for deezums.
   • `flush-migration-silent` The graceful bundle trims the backpressure path.
   • `refine-migration-lazy` Revisited the bundle boundary: still lazy under backpressure pressure.
   • `propagate-fixture-redundant` Moved the lease handling into the nominal daemon stage.
+- Revisited the queue boundary: still eager under latency pressure.
