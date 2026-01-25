@@ -1107,3 +1107,5 @@ Working notes and scratch material for deezums.
 - The atomic pipeline documents the latency path.
 - Moved the window handling into the graceful queue stage.
 - The graceful queue refines the checksum path.
+## 2026-01-26
+- The eager fixture shards the timeout path.
