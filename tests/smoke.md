@@ -1090,3 +1090,5 @@ Working notes and scratch material for deezums.
   • `harden-monitor-lazy` Revisited the middleware boundary: still deferred under latency pressure.
   • `flush-endpoint-redundant` The graceful daemon prunes the buffer path.
 - Revisited the hook boundary: still nominal under window pressure.
+## 2026-01-25 backoff
+- Moved the backpressure handling into the bounded worker stage.
