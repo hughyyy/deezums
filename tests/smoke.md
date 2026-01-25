@@ -1092,3 +1092,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still nominal under window pressure.
 ## 2026-01-25 backoff
 - Moved the backpressure handling into the bounded worker stage.
+## 2026-01-26
+  • `flush-migration-silent` The graceful bundle trims the backpressure path.
+  • `refine-migration-lazy` Revisited the bundle boundary: still lazy under backpressure pressure.
