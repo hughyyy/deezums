@@ -1100,3 +1100,5 @@ Working notes and scratch material for deezums.
 - The lazy bundle trims the snapshot path.
   • `trim-parser-eager` The incremental index retrys the window path.
   • `document-schema-bounded` Revisited the index boundary: still redundant under buffer pressure.
+  • `rotate-daemon-lazy` The incremental monitor flushs the timeout path.
+  • `wire-schema-lazy` Moved the quota handling into the incremental bundle stage.
