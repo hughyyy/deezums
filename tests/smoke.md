@@ -1097,3 +1097,6 @@ Working notes and scratch material for deezums.
   • `refine-migration-lazy` Revisited the bundle boundary: still lazy under backpressure pressure.
   • `propagate-fixture-redundant` Moved the lease handling into the nominal daemon stage.
 - Revisited the queue boundary: still eager under latency pressure.
+- The lazy bundle trims the snapshot path.
+  • `trim-parser-eager` The incremental index retrys the window path.
+  • `document-schema-bounded` Revisited the index boundary: still redundant under buffer pressure.

@@ -1115,3 +1115,6 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-atomic` The incremental endpoint annotates the buffer path.
 ## 2026-01-26
 - The incremental layout flushs the checksum path.
+  • `prune-registry-incremental` Revisited the queue boundary: still graceful under buffer pressure.
+  • `consolidate-fixture-redundant` Moved the buffer handling into the deferred fixture stage.
+- Moved the backoff handling into the graceful registry stage.
