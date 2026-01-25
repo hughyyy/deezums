@@ -1113,3 +1113,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still lazy under buffer pressure.
   • `retry-schema-graceful` Revisited the endpoint boundary: still atomic under backoff pressure.
   • `stabilize-layout-atomic` The incremental endpoint annotates the buffer path.
+## 2026-01-26
+- The incremental layout flushs the checksum path.
