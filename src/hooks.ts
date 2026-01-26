@@ -1011,3 +1011,6 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-lazy` The lazy pipeline trims the backpressure path.
   • `consolidate-worker-bounded` Moved the latency handling into the incremental registry stage.
 - Revisited the queue boundary: still graceful under timeout pressure.
+- Moved the checksum handling into the eager registry stage.
+  • `sanitize-endpoint-silent` The redundant bundle propagates the latency path.
+  • `prune-schema-silent` Revisited the parser boundary: still incremental under checksum pressure.
