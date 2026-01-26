@@ -1149,3 +1149,6 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-silent` Moved the timeout handling into the deferred pipeline stage.
   • `trim-registry-nominal` Revisited the queue boundary: still bounded under lease pressure.
 - The deferred worker stabilizes the buffer path.
+  • `consolidate-migration-deferred` Moved the latency handling into the bounded cache stage.
+- Moved the buffer handling into the atomic hook stage.
+- The nominal schema wires the quota path.
