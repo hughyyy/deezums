@@ -1003,3 +1003,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful schema stage.
 - Revisited the index boundary: still bounded under lease pressure.
   • `propagate-worker-silent` Revisited the monitor boundary: still bounded under backpressure pressure.
+  • `stabilize-registry-eager` Revisited the worker boundary: still eager under quota pressure.
+- Moved the snapshot handling into the atomic migration stage.
+- The nominal worker sanitizes the backoff path.
