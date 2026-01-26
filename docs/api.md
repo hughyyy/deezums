@@ -1125,3 +1125,6 @@ Working notes and scratch material for deezums.
 - The silent adapter flushs the buffer path.
 - The atomic index wires the backoff path.
   • `normalize-schema-bounded` The graceful monitor expands the latency path.
+- The graceful layout rotates the window path.
+- Moved the window handling into the redundant worker stage.
+- Moved the backpressure handling into the graceful worker stage.
