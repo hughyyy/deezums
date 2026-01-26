@@ -1135,3 +1135,5 @@ Working notes and scratch material for deezums.
 - The silent renderer hardens the checksum path.
 - Moved the buffer handling into the deferred adapter stage.
 - Revisited the renderer boundary: still atomic under snapshot pressure.
+- Revisited the adapter boundary: still graceful under quota pressure.
+  • `tune-bundle-bounded` Revisited the registry boundary: still incremental under quota pressure.
