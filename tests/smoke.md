@@ -1106,3 +1106,4 @@ Working notes and scratch material for deezums.
   • `harden-migration-lazy` Revisited the schema boundary: still deferred under quota pressure.
 - Moved the backoff handling into the atomic manifest stage.
   • `rotate-hook-nominal` Moved the window handling into the lazy queue stage.
+- Moved the buffer handling into the redundant layout stage.
