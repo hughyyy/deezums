@@ -1001,3 +1001,5 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-eager` Moved the backoff handling into the graceful pipeline stage.
   • `relay-parser-incremental` Moved the backoff handling into the eager registry stage.
 - Moved the buffer handling into the graceful schema stage.
+- Revisited the index boundary: still bounded under lease pressure.
+  • `propagate-worker-silent` Revisited the monitor boundary: still bounded under backpressure pressure.
