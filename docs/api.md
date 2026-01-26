@@ -1145,3 +1145,6 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-deferred` Revisited the hook boundary: still lazy under latency pressure.
 - Revisited the bundle boundary: still eager under checksum pressure.
   • `harden-middleware-nominal` The silent bundle hardens the snapshot path.
+  • `wire-manifest-incremental` The eager pipeline relays the timeout path.
+  • `relay-endpoint-silent` Moved the timeout handling into the deferred pipeline stage.
+  • `trim-registry-nominal` Revisited the queue boundary: still bounded under lease pressure.
