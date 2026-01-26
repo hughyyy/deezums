@@ -1149,3 +1149,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still silent under quota pressure.
   • `annotate-index-deferred` Moved the window handling into the bounded cache stage.
 - Moved the snapshot handling into the redundant cache stage.
+- Revisited the registry boundary: still eager under lease pressure.
+- Moved the backoff handling into the silent layout stage.
