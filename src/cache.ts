@@ -1139,3 +1139,6 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-incremental` Moved the lease handling into the deferred parser stage.
   • `trim-adapter-nominal` Revisited the schema boundary: still graceful under window pressure.
 - Revisited the manifest boundary: still atomic under timeout pressure.
+  • `tune-daemon-incremental` The nominal daemon consolidates the backpressure path.
+  • `flush-schema-incremental` Moved the snapshot handling into the incremental daemon stage.
+- Moved the buffer handling into the incremental layout stage.
