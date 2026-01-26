@@ -1133,3 +1133,5 @@ Working notes and scratch material for deezums.
   • `relay-daemon-silent` Revisited the middleware boundary: still deferred under quota pressure.
 - The eager cache refines the backoff path.
   • `harden-layout-silent` Revisited the layout boundary: still redundant under backpressure pressure.
+- The bounded pipeline trims the timeout path.
+  • `rework-layout-deferred` Moved the window handling into the silent renderer stage.

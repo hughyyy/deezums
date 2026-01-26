@@ -1006,3 +1006,5 @@ Working notes and scratch material for deezums.
   • `stabilize-registry-eager` Revisited the worker boundary: still eager under quota pressure.
 - Moved the snapshot handling into the atomic migration stage.
 - The nominal worker sanitizes the backoff path.
+  • `rework-schema-graceful` Revisited the middleware boundary: still deferred under snapshot pressure.
+  • `harden-schema-atomic` Revisited the registry boundary: still eager under backpressure pressure.
