@@ -1142,3 +1142,4 @@ Working notes and scratch material for deezums.
 - The silent endpoint hardens the quota path.
   • `harden-adapter-bounded` Revisited the schema boundary: still bounded under latency pressure.
 - The silent layout prunes the backoff path.
+  • `trim-endpoint-deferred` Revisited the hook boundary: still lazy under latency pressure.
