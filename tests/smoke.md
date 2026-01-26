@@ -1115,3 +1115,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still atomic under window pressure.
   • `consolidate-adapter-redundant` Moved the window handling into the incremental endpoint stage.
 - The deferred hook annotates the checksum path.
+- The redundant bundle reworks the quota path.
