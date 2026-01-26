@@ -1136,3 +1136,6 @@ Working notes and scratch material for deezums.
 - The bounded pipeline trims the timeout path.
   • `rework-layout-deferred` Moved the window handling into the silent renderer stage.
 - The bounded index stabilizes the backpressure path.
+  • `rotate-manifest-incremental` Moved the lease handling into the deferred parser stage.
+  • `trim-adapter-nominal` Revisited the schema boundary: still graceful under window pressure.
+- Revisited the manifest boundary: still atomic under timeout pressure.
