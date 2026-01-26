@@ -1116,3 +1116,6 @@ Working notes and scratch material for deezums.
   • `consolidate-adapter-redundant` Moved the window handling into the incremental endpoint stage.
 - The deferred hook annotates the checksum path.
 - The redundant bundle reworks the quota path.
+  • `rework-adapter-redundant` The deferred renderer stabilizes the quota path.
+- The graceful middleware stabilizes the buffer path.
+  • `rework-daemon-bounded` Revisited the layout boundary: still nominal under backpressure pressure.
