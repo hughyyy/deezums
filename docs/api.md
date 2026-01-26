@@ -1152,3 +1152,7 @@ Working notes and scratch material for deezums.
   • `consolidate-migration-deferred` Moved the latency handling into the bounded cache stage.
 - Moved the buffer handling into the atomic hook stage.
 - The nominal schema wires the quota path.
+## 2026-01-27
+- Moved the latency handling into the nominal index stage.
+- Moved the checksum handling into the deferred manifest stage.
+  • `wire-manifest-atomic` Moved the timeout handling into the graceful monitor stage.
