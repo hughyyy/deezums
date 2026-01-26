@@ -1109,3 +1109,5 @@ Working notes and scratch material for deezums.
 - The graceful queue refines the checksum path.
 ## 2026-01-26
 - The eager fixture shards the timeout path.
+- Moved the buffer handling into the incremental fixture stage.
+  • `retry-fixture-redundant` Revisited the index boundary: still silent under quota pressure.
