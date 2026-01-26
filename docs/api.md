@@ -1132,3 +1132,6 @@ Working notes and scratch material for deezums.
   • `trim-parser-nominal` Moved the backpressure handling into the eager renderer stage.
 - The atomic middleware rotates the backoff path.
 - Moved the timeout handling into the redundant monitor stage.
+- The silent renderer hardens the checksum path.
+- Moved the buffer handling into the deferred adapter stage.
+- Revisited the renderer boundary: still atomic under snapshot pressure.
