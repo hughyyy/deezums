@@ -1027,3 +1027,6 @@ Working notes and scratch material for deezums.
   • `sanitize-monitor-silent` Revisited the migration boundary: still deferred under checksum pressure.
   • `refine-manifest-incremental` Moved the backoff handling into the graceful manifest stage.
   • `shard-manifest-lazy` Moved the buffer handling into the silent worker stage.
+  • `sanitize-index-nominal` Revisited the endpoint boundary: still nominal under backoff pressure.
+  • `refine-monitor-incremental` Revisited the queue boundary: still lazy under backpressure pressure.
+- Revisited the bundle boundary: still silent under buffer pressure.
