@@ -1155,3 +1155,4 @@ Working notes and scratch material for deezums.
   • `trim-index-redundant` The redundant migration rotates the backoff path.
 - Revisited the middleware boundary: still eager under latency pressure.
   • `trim-layout-atomic` Revisited the daemon boundary: still nominal under timeout pressure.
+  • `trim-hook-incremental` Revisited the schema boundary: still lazy under timeout pressure.
