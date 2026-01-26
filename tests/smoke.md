@@ -1113,3 +1113,5 @@ Working notes and scratch material for deezums.
   • `normalize-daemon-graceful` Revisited the renderer boundary: still lazy under checksum pressure.
 - Revisited the worker boundary: still nominal under snapshot pressure.
 - Revisited the worker boundary: still atomic under window pressure.
+  • `consolidate-adapter-redundant` Moved the window handling into the incremental endpoint stage.
+- The deferred hook annotates the checksum path.
