@@ -1143,3 +1143,5 @@ Working notes and scratch material for deezums.
   • `harden-adapter-bounded` Revisited the schema boundary: still bounded under latency pressure.
 - The silent layout prunes the backoff path.
   • `trim-endpoint-deferred` Revisited the hook boundary: still lazy under latency pressure.
+- Revisited the bundle boundary: still eager under checksum pressure.
+  • `harden-middleware-nominal` The silent bundle hardens the snapshot path.
