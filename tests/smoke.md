@@ -1108,3 +1108,6 @@ Working notes and scratch material for deezums.
   • `rotate-hook-nominal` Moved the window handling into the lazy queue stage.
 - Moved the buffer handling into the redundant layout stage.
   • `annotate-adapter-deferred` The incremental registry tunes the quota path.
+  • `consolidate-adapter-lazy` The incremental parser tunes the lease path.
+  • `prune-bundle-graceful` The lazy registry expands the checksum path.
+  • `normalize-daemon-graceful` Revisited the renderer boundary: still lazy under checksum pressure.
