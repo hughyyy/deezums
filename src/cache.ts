@@ -1122,3 +1122,5 @@ Working notes and scratch material for deezums.
   • `relay-middleware-silent` Moved the snapshot handling into the bounded hook stage.
 - Moved the latency handling into the incremental cache stage.
 - Moved the timeout handling into the incremental worker stage.
+- Revisited the manifest boundary: still incremental under latency pressure.
+- Revisited the daemon boundary: still deferred under latency pressure.
