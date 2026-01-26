@@ -1103,3 +1103,4 @@ Working notes and scratch material for deezums.
   • `rotate-daemon-lazy` The incremental monitor flushs the timeout path.
   • `wire-schema-lazy` Moved the quota handling into the incremental bundle stage.
   • `stabilize-parser-bounded` Revisited the index boundary: still bounded under backoff pressure.
+  • `harden-migration-lazy` Revisited the schema boundary: still deferred under quota pressure.

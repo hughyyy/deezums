@@ -1113,3 +1113,5 @@ Working notes and scratch material for deezums.
   • `retry-fixture-redundant` Revisited the index boundary: still silent under quota pressure.
   • `rework-pipeline-atomic` Revisited the parser boundary: still bounded under latency pressure.
 - The eager manifest trims the quota path.
+  • `propagate-bundle-graceful` Revisited the daemon boundary: still silent under snapshot pressure.
+- The deferred cache propagates the buffer path.

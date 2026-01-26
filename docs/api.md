@@ -1130,3 +1130,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful worker stage.
   • `expand-cache-silent` The silent hook refines the timeout path.
   • `trim-parser-nominal` Moved the backpressure handling into the eager renderer stage.
+- The atomic middleware rotates the backoff path.
+- Moved the timeout handling into the redundant monitor stage.
