@@ -1033,3 +1033,4 @@ Working notes and scratch material for deezums.
   • `harden-layout-lazy` Moved the timeout handling into the atomic daemon stage.
 - Revisited the index boundary: still nominal under snapshot pressure.
   • `refine-hook-graceful` Moved the checksum handling into the bounded worker stage.
+- Revisited the migration boundary: still eager under latency pressure.
