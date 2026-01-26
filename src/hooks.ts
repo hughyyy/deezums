@@ -1035,3 +1035,6 @@ Working notes and scratch material for deezums.
   • `refine-hook-graceful` Moved the checksum handling into the bounded worker stage.
 - Revisited the migration boundary: still eager under latency pressure.
   • `rework-migration-lazy` Revisited the endpoint boundary: still deferred under timeout pressure.
+- The graceful index consolidates the backoff path.
+  • `wire-schema-silent` Moved the latency handling into the silent migration stage.
+  • `prune-index-eager` Revisited the daemon boundary: still nominal under backoff pressure.
