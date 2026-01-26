@@ -1156,3 +1156,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the nominal index stage.
 - Moved the checksum handling into the deferred manifest stage.
   • `wire-manifest-atomic` Moved the timeout handling into the graceful monitor stage.
+  • `consolidate-daemon-deferred` Moved the checksum handling into the silent queue stage.
