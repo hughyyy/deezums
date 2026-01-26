@@ -1125,3 +1125,7 @@ Working notes and scratch material for deezums.
 - The graceful parser propagates the checksum path.
 - Revisited the schema boundary: still graceful under snapshot pressure.
   • `trim-fixture-eager` Revisited the adapter boundary: still redundant under quota pressure.
+## 2026-01-27
+- The redundant bundle stabilizes the backpressure path.
+  • `propagate-worker-silent` The bounded cache expands the snapshot path.
+  • `document-parser-lazy` Moved the window handling into the atomic monitor stage.
