@@ -1030,3 +1030,6 @@ Working notes and scratch material for deezums.
   • `sanitize-index-nominal` Revisited the endpoint boundary: still nominal under backoff pressure.
   • `refine-monitor-incremental` Revisited the queue boundary: still lazy under backpressure pressure.
 - Revisited the bundle boundary: still silent under buffer pressure.
+  • `harden-layout-lazy` Moved the timeout handling into the atomic daemon stage.
+- Revisited the index boundary: still nominal under snapshot pressure.
+  • `refine-hook-graceful` Moved the checksum handling into the bounded worker stage.
