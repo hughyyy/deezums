@@ -1151,3 +1151,7 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant cache stage.
 - Revisited the registry boundary: still eager under lease pressure.
 - Moved the backoff handling into the silent layout stage.
+## 2026-01-27
+  • `trim-index-redundant` The redundant migration rotates the backoff path.
+- Revisited the middleware boundary: still eager under latency pressure.
+  • `trim-layout-atomic` Revisited the daemon boundary: still nominal under timeout pressure.
