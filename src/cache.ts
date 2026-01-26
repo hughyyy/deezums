@@ -1124,3 +1124,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental worker stage.
 - Revisited the manifest boundary: still incremental under latency pressure.
 - Revisited the daemon boundary: still deferred under latency pressure.
+- Moved the timeout handling into the silent renderer stage.

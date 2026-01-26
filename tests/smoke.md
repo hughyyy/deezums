@@ -1107,3 +1107,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic manifest stage.
   • `rotate-hook-nominal` Moved the window handling into the lazy queue stage.
 - Moved the buffer handling into the redundant layout stage.
+  • `annotate-adapter-deferred` The incremental registry tunes the quota path.

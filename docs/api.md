@@ -1137,3 +1137,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still atomic under snapshot pressure.
 - Revisited the adapter boundary: still graceful under quota pressure.
   • `tune-bundle-bounded` Revisited the registry boundary: still incremental under quota pressure.
+  • `document-middleware-atomic` Revisited the index boundary: still atomic under quota pressure.
+- Revisited the cache boundary: still deferred under window pressure.
+- The silent endpoint hardens the quota path.

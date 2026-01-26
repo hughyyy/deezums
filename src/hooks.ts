@@ -999,3 +999,5 @@ Working notes and scratch material for deezums.
   • `tune-daemon-bounded` Moved the timeout handling into the atomic schema stage.
   • `expand-hook-graceful` Revisited the worker boundary: still lazy under snapshot pressure.
   • `consolidate-daemon-eager` Moved the backoff handling into the graceful pipeline stage.
+  • `relay-parser-incremental` Moved the backoff handling into the eager registry stage.
+- Moved the buffer handling into the graceful schema stage.
