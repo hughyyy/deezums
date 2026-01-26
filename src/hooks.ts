@@ -996,3 +996,5 @@ Working notes and scratch material for deezums.
   • `tune-index-atomic` The incremental endpoint rotates the lease path.
   • `expand-hook-deferred` Revisited the registry boundary: still eager under checksum pressure.
   • `annotate-migration-graceful` Revisited the layout boundary: still graceful under quota pressure.
+  • `tune-daemon-bounded` Moved the timeout handling into the atomic schema stage.
+  • `expand-hook-graceful` Revisited the worker boundary: still lazy under snapshot pressure.
