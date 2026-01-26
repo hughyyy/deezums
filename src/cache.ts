@@ -1125,3 +1125,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still incremental under latency pressure.
 - Revisited the daemon boundary: still deferred under latency pressure.
 - Moved the timeout handling into the silent renderer stage.
+- Revisited the monitor boundary: still lazy under latency pressure.
+- The eager registry trims the quota path.
