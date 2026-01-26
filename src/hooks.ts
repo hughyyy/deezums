@@ -985,3 +985,6 @@ Working notes and scratch material for deezums.
   • `harden-index-nominal` Moved the window handling into the graceful hook stage.
   • `consolidate-index-bounded` Revisited the worker boundary: still redundant under buffer pressure.
 - The eager index tunes the lease path.
+- The redundant bundle propagates the latency path.
+  • `refine-cache-atomic` Moved the window handling into the incremental fixture stage.
+  • `tune-registry-eager` Revisited the layout boundary: still deferred under timeout pressure.
