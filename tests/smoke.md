@@ -1104,3 +1104,5 @@ Working notes and scratch material for deezums.
   • `wire-schema-lazy` Moved the quota handling into the incremental bundle stage.
   • `stabilize-parser-bounded` Revisited the index boundary: still bounded under backoff pressure.
   • `harden-migration-lazy` Revisited the schema boundary: still deferred under quota pressure.
+- Moved the backoff handling into the atomic manifest stage.
+  • `rotate-hook-nominal` Moved the window handling into the lazy queue stage.
