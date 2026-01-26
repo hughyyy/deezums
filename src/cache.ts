@@ -1130,3 +1130,6 @@ Working notes and scratch material for deezums.
   • `rotate-hook-deferred` The bounded adapter tunes the quota path.
 - Revisited the cache boundary: still deferred under window pressure.
 - Revisited the migration boundary: still incremental under backoff pressure.
+  • `relay-daemon-silent` Revisited the middleware boundary: still deferred under quota pressure.
+- The eager cache refines the backoff path.
+  • `harden-layout-silent` Revisited the layout boundary: still redundant under backpressure pressure.
