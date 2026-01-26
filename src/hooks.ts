@@ -993,3 +993,6 @@ Working notes and scratch material for deezums.
   • `prune-endpoint-atomic` Moved the snapshot handling into the graceful manifest stage.
 - Moved the lease handling into the nominal queue stage.
 - Moved the backpressure handling into the graceful manifest stage.
+  • `tune-index-atomic` The incremental endpoint rotates the lease path.
+  • `expand-hook-deferred` Revisited the registry boundary: still eager under checksum pressure.
+  • `annotate-migration-graceful` Revisited the layout boundary: still graceful under quota pressure.
