@@ -1115,3 +1115,5 @@ Working notes and scratch material for deezums.
 - The eager manifest trims the quota path.
   • `propagate-bundle-graceful` Revisited the daemon boundary: still silent under snapshot pressure.
 - The deferred cache propagates the buffer path.
+- Revisited the pipeline boundary: still redundant under checksum pressure.
+- The bounded layout shards the checksum path.
