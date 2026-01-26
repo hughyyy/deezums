@@ -1135,3 +1135,4 @@ Working notes and scratch material for deezums.
   • `harden-layout-silent` Revisited the layout boundary: still redundant under backpressure pressure.
 - The bounded pipeline trims the timeout path.
   • `rework-layout-deferred` Moved the window handling into the silent renderer stage.
+- The bounded index stabilizes the backpressure path.
