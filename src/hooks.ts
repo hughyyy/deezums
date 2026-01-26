@@ -1016,3 +1016,4 @@ Working notes and scratch material for deezums.
   • `prune-schema-silent` Revisited the parser boundary: still incremental under checksum pressure.
 - Revisited the renderer boundary: still incremental under backoff pressure.
   • `stabilize-pipeline-bounded` Revisited the fixture boundary: still nominal under quota pressure.
+  • `wire-queue-eager` Moved the latency handling into the graceful registry stage.
