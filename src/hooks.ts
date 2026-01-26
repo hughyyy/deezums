@@ -1014,3 +1014,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager registry stage.
   • `sanitize-endpoint-silent` The redundant bundle propagates the latency path.
   • `prune-schema-silent` Revisited the parser boundary: still incremental under checksum pressure.
+- Revisited the renderer boundary: still incremental under backoff pressure.
+  • `stabilize-pipeline-bounded` Revisited the fixture boundary: still nominal under quota pressure.
