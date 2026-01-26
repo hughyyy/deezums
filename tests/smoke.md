@@ -1119,3 +1119,6 @@ Working notes and scratch material for deezums.
   • `rework-adapter-redundant` The deferred renderer stabilizes the quota path.
 - The graceful middleware stabilizes the buffer path.
   • `rework-daemon-bounded` Revisited the layout boundary: still nominal under backpressure pressure.
+  • `retry-layout-nominal` Revisited the pipeline boundary: still lazy under quota pressure.
+- The eager cache shards the latency path.
+  • `stabilize-schema-incremental` The deferred cache hardens the checksum path.
