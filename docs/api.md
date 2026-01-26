@@ -1128,3 +1128,5 @@ Working notes and scratch material for deezums.
 - The graceful layout rotates the window path.
 - Moved the window handling into the redundant worker stage.
 - Moved the backpressure handling into the graceful worker stage.
+  • `expand-cache-silent` The silent hook refines the timeout path.
+  • `trim-parser-nominal` Moved the backpressure handling into the eager renderer stage.
