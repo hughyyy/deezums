@@ -1144,3 +1144,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental layout stage.
   • `refine-middleware-nominal` Revisited the fixture boundary: still eager under backpressure pressure.
   • `document-pipeline-deferred` Revisited the endpoint boundary: still bounded under timeout pressure.
+  • `harden-bundle-bounded` The atomic middleware sanitizes the backpressure path.
+  • `sanitize-middleware-silent` The bounded daemon prunes the latency path.
+- Revisited the adapter boundary: still silent under quota pressure.
