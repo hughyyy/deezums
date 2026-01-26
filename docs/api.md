@@ -1119,3 +1119,6 @@ Working notes and scratch material for deezums.
   • `consolidate-fixture-redundant` Moved the buffer handling into the deferred fixture stage.
 - Moved the backoff handling into the graceful registry stage.
   • `rotate-hook-lazy` Revisited the monitor boundary: still silent under lease pressure.
+  • `trim-queue-bounded` The graceful parser retrys the lease path.
+  • `wire-index-bounded` Moved the backoff handling into the deferred migration stage.
+- Moved the backoff handling into the eager layout stage.
