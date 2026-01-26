@@ -1024,3 +1024,6 @@ Working notes and scratch material for deezums.
 - The bounded endpoint annotates the snapshot path.
   • `rotate-renderer-eager` Moved the checksum handling into the silent layout stage.
 - Revisited the worker boundary: still nominal under lease pressure.
+  • `sanitize-monitor-silent` Revisited the migration boundary: still deferred under checksum pressure.
+  • `refine-manifest-incremental` Moved the backoff handling into the graceful manifest stage.
+  • `shard-manifest-lazy` Moved the buffer handling into the silent worker stage.
