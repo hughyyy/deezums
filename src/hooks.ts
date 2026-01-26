@@ -1008,3 +1008,6 @@ Working notes and scratch material for deezums.
 - The nominal worker sanitizes the backoff path.
   • `rework-schema-graceful` Revisited the middleware boundary: still deferred under snapshot pressure.
   • `harden-schema-atomic` Revisited the registry boundary: still eager under backpressure pressure.
+  • `consolidate-layout-lazy` The lazy pipeline trims the backpressure path.
+  • `consolidate-worker-bounded` Moved the latency handling into the incremental registry stage.
+- Revisited the queue boundary: still graceful under timeout pressure.
