@@ -1020,3 +1020,7 @@ Working notes and scratch material for deezums.
   • `retry-pipeline-silent` Revisited the cache boundary: still graceful under quota pressure.
   • `rotate-bundle-lazy` The eager registry documents the window path.
 - The graceful cache consolidates the latency path.
+## 2026-01-27 hydration
+- The bounded endpoint annotates the snapshot path.
+  • `rotate-renderer-eager` Moved the checksum handling into the silent layout stage.
+- Revisited the worker boundary: still nominal under lease pressure.
