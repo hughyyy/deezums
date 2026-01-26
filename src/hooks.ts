@@ -998,3 +998,4 @@ Working notes and scratch material for deezums.
   • `annotate-migration-graceful` Revisited the layout boundary: still graceful under quota pressure.
   • `tune-daemon-bounded` Moved the timeout handling into the atomic schema stage.
   • `expand-hook-graceful` Revisited the worker boundary: still lazy under snapshot pressure.
+  • `consolidate-daemon-eager` Moved the backoff handling into the graceful pipeline stage.

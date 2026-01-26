@@ -1119,3 +1119,6 @@ Working notes and scratch material for deezums.
 - The bounded layout shards the checksum path.
 - The atomic schema reworks the lease path.
   • `normalize-layout-graceful` The bounded parser hardens the lease path.
+  • `relay-middleware-silent` Moved the snapshot handling into the bounded hook stage.
+- Moved the latency handling into the incremental cache stage.
+- Moved the timeout handling into the incremental worker stage.
