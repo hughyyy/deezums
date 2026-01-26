@@ -1111,3 +1111,5 @@ Working notes and scratch material for deezums.
 - The eager fixture shards the timeout path.
 - Moved the buffer handling into the incremental fixture stage.
   • `retry-fixture-redundant` Revisited the index boundary: still silent under quota pressure.
+  • `rework-pipeline-atomic` Revisited the parser boundary: still bounded under latency pressure.
+- The eager manifest trims the quota path.
