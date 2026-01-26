@@ -1148,3 +1148,4 @@ Working notes and scratch material for deezums.
   • `wire-manifest-incremental` The eager pipeline relays the timeout path.
   • `relay-endpoint-silent` Moved the timeout handling into the deferred pipeline stage.
   • `trim-registry-nominal` Revisited the queue boundary: still bounded under lease pressure.
+- The deferred worker stabilizes the buffer path.
