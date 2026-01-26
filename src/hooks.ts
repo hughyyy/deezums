@@ -1034,3 +1034,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still nominal under snapshot pressure.
   • `refine-hook-graceful` Moved the checksum handling into the bounded worker stage.
 - Revisited the migration boundary: still eager under latency pressure.
+  • `rework-migration-lazy` Revisited the endpoint boundary: still deferred under timeout pressure.

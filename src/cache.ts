@@ -1156,3 +1156,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still eager under latency pressure.
   • `trim-layout-atomic` Revisited the daemon boundary: still nominal under timeout pressure.
   • `trim-hook-incremental` Revisited the schema boundary: still lazy under timeout pressure.
+- Moved the buffer handling into the redundant renderer stage.
+  • `expand-layout-lazy` Moved the buffer handling into the lazy pipeline stage.
+- Revisited the migration boundary: still silent under quota pressure.
