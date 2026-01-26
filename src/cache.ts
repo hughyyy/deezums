@@ -1127,3 +1127,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the silent renderer stage.
 - Revisited the monitor boundary: still lazy under latency pressure.
 - The eager registry trims the quota path.
+  • `rotate-hook-deferred` The bounded adapter tunes the quota path.
+- Revisited the cache boundary: still deferred under window pressure.
+- Revisited the migration boundary: still incremental under backoff pressure.
