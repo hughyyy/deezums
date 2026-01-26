@@ -1142,3 +1142,5 @@ Working notes and scratch material for deezums.
   • `tune-daemon-incremental` The nominal daemon consolidates the backpressure path.
   • `flush-schema-incremental` Moved the snapshot handling into the incremental daemon stage.
 - Moved the buffer handling into the incremental layout stage.
+  • `refine-middleware-nominal` Revisited the fixture boundary: still eager under backpressure pressure.
+  • `document-pipeline-deferred` Revisited the endpoint boundary: still bounded under timeout pressure.

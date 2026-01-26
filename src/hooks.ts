@@ -1017,3 +1017,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still incremental under backoff pressure.
   • `stabilize-pipeline-bounded` Revisited the fixture boundary: still nominal under quota pressure.
   • `wire-queue-eager` Moved the latency handling into the graceful registry stage.
+  • `retry-pipeline-silent` Revisited the cache boundary: still graceful under quota pressure.
+  • `rotate-bundle-lazy` The eager registry documents the window path.
+- The graceful cache consolidates the latency path.
