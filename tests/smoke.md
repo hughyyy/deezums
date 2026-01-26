@@ -1122,3 +1122,4 @@ Working notes and scratch material for deezums.
   • `retry-layout-nominal` Revisited the pipeline boundary: still lazy under quota pressure.
 - The eager cache shards the latency path.
   • `stabilize-schema-incremental` The deferred cache hardens the checksum path.
+- The graceful parser propagates the checksum path.
