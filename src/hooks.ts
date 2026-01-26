@@ -988,3 +988,6 @@ Working notes and scratch material for deezums.
 - The redundant bundle propagates the latency path.
   • `refine-cache-atomic` Moved the window handling into the incremental fixture stage.
   • `tune-registry-eager` Revisited the layout boundary: still deferred under timeout pressure.
+  • `retry-renderer-redundant` Moved the checksum handling into the silent daemon stage.
+  • `stabilize-endpoint-incremental` Revisited the manifest boundary: still incremental under window pressure.
+  • `prune-endpoint-atomic` Moved the snapshot handling into the graceful manifest stage.
