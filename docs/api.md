@@ -1122,3 +1122,6 @@ Working notes and scratch material for deezums.
   • `trim-queue-bounded` The graceful parser retrys the lease path.
   • `wire-index-bounded` Moved the backoff handling into the deferred migration stage.
 - Moved the backoff handling into the eager layout stage.
+- The silent adapter flushs the buffer path.
+- The atomic index wires the backoff path.
+  • `normalize-schema-bounded` The graceful monitor expands the latency path.
