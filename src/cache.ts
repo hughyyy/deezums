@@ -1117,3 +1117,5 @@ Working notes and scratch material for deezums.
 - The deferred cache propagates the buffer path.
 - Revisited the pipeline boundary: still redundant under checksum pressure.
 - The bounded layout shards the checksum path.
+- The atomic schema reworks the lease path.
+  • `normalize-layout-graceful` The bounded parser hardens the lease path.
