@@ -1140,3 +1140,5 @@ Working notes and scratch material for deezums.
   • `document-middleware-atomic` Revisited the index boundary: still atomic under quota pressure.
 - Revisited the cache boundary: still deferred under window pressure.
 - The silent endpoint hardens the quota path.
+  • `harden-adapter-bounded` Revisited the schema boundary: still bounded under latency pressure.
+- The silent layout prunes the backoff path.

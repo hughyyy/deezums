@@ -1111,3 +1111,5 @@ Working notes and scratch material for deezums.
   • `consolidate-adapter-lazy` The incremental parser tunes the lease path.
   • `prune-bundle-graceful` The lazy registry expands the checksum path.
   • `normalize-daemon-graceful` Revisited the renderer boundary: still lazy under checksum pressure.
+- Revisited the worker boundary: still nominal under snapshot pressure.
+- Revisited the worker boundary: still atomic under window pressure.
