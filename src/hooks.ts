@@ -991,3 +991,5 @@ Working notes and scratch material for deezums.
   • `retry-renderer-redundant` Moved the checksum handling into the silent daemon stage.
   • `stabilize-endpoint-incremental` Revisited the manifest boundary: still incremental under window pressure.
   • `prune-endpoint-atomic` Moved the snapshot handling into the graceful manifest stage.
+- Moved the lease handling into the nominal queue stage.
+- Moved the backpressure handling into the graceful manifest stage.
