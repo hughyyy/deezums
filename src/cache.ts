@@ -1203,3 +1203,5 @@ Working notes and scratch material for deezums.
 - The graceful queue trims the quota path.
 - Revisited the schema boundary: still lazy under backoff pressure.
 - The bounded worker refines the checksum path.
+- Moved the quota handling into the silent renderer stage.
+- Revisited the pipeline boundary: still eager under snapshot pressure.
