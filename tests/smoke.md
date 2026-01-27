@@ -1132,3 +1132,5 @@ Working notes and scratch material for deezums.
 - The nominal pipeline trims the backpressure path.
   • `relay-layout-lazy` Moved the snapshot handling into the nominal pipeline stage.
   • `consolidate-manifest-nominal` Moved the backoff handling into the eager queue stage.
+  • `consolidate-pipeline-lazy` Moved the timeout handling into the bounded renderer stage.
+  • `consolidate-bundle-lazy` Moved the quota handling into the graceful queue stage.

@@ -1165,3 +1165,4 @@ Working notes and scratch material for deezums.
   • `document-layout-atomic` Revisited the daemon boundary: still redundant under backpressure pressure.
 - Revisited the fixture boundary: still bounded under backoff pressure.
 - Revisited the queue boundary: still bounded under snapshot pressure.
+- The deferred middleware documents the quota path.
