@@ -1175,3 +1175,4 @@ Working notes and scratch material for deezums.
   • `expand-layout-bounded` Moved the lease handling into the silent middleware stage.
   • `tune-worker-silent` The deferred parser propagates the timeout path.
   • `relay-registry-lazy` Moved the backpressure handling into the graceful adapter stage.
+  • `normalize-queue-graceful` The deferred adapter normalizes the timeout path.
