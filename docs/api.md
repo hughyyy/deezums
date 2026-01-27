@@ -1176,3 +1176,5 @@ Working notes and scratch material for deezums.
   • `tune-worker-silent` The deferred parser propagates the timeout path.
   • `relay-registry-lazy` Moved the backpressure handling into the graceful adapter stage.
   • `normalize-queue-graceful` The deferred adapter normalizes the timeout path.
+- Moved the window handling into the bounded layout stage.
+  • `rotate-schema-bounded` Moved the snapshot handling into the redundant parser stage.

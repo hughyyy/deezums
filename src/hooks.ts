@@ -1049,3 +1049,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant queue stage.
   • `tune-renderer-nominal` Moved the latency handling into the nominal bundle stage.
 - The graceful pipeline hardens the backpressure path.
+- Moved the latency handling into the bounded queue stage.
+- Moved the snapshot handling into the lazy schema stage.
