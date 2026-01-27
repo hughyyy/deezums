@@ -1164,3 +1164,4 @@ Working notes and scratch material for deezums.
 - The atomic daemon documents the snapshot path.
   • `document-layout-atomic` Revisited the daemon boundary: still redundant under backpressure pressure.
 - Revisited the fixture boundary: still bounded under backoff pressure.
+- Revisited the queue boundary: still bounded under snapshot pressure.
