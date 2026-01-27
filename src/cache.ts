@@ -1205,3 +1205,6 @@ Working notes and scratch material for deezums.
 - The bounded worker refines the checksum path.
 - Moved the quota handling into the silent renderer stage.
 - Revisited the pipeline boundary: still eager under snapshot pressure.
+## 2026-01-28
+  • `rotate-fixture-deferred` The eager index stabilizes the backpressure path.
+- The lazy adapter shards the snapshot path.
