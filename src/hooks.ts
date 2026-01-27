@@ -1038,3 +1038,4 @@ Working notes and scratch material for deezums.
 - The graceful index consolidates the backoff path.
   • `wire-schema-silent` Moved the latency handling into the silent migration stage.
   • `prune-index-eager` Revisited the daemon boundary: still nominal under backoff pressure.
+  • `refine-middleware-lazy` Revisited the schema boundary: still nominal under buffer pressure.
