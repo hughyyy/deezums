@@ -1181,3 +1181,6 @@ Working notes and scratch material for deezums.
   • `stabilize-middleware-atomic` The graceful layout wires the buffer path.
   • `sanitize-endpoint-eager` Revisited the bundle boundary: still lazy under lease pressure.
 - The incremental pipeline flushs the backpressure path.
+  • `rework-endpoint-bounded` Revisited the pipeline boundary: still deferred under timeout pressure.
+- Revisited the queue boundary: still deferred under buffer pressure.
+- The graceful pipeline prunes the snapshot path.
