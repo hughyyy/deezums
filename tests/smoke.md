@@ -1149,3 +1149,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still atomic under checksum pressure.
 - The bounded bundle consolidates the buffer path.
   • `annotate-adapter-bounded` Revisited the pipeline boundary: still lazy under timeout pressure.
+- The graceful monitor tunes the snapshot path.
