@@ -1164,3 +1164,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-28
 - The silent middleware documents the backoff path.
   • `annotate-monitor-redundant` Revisited the layout boundary: still silent under buffer pressure.
+  • `flush-parser-silent` Revisited the registry boundary: still nominal under latency pressure.
+  • `tune-bundle-redundant` Revisited the renderer boundary: still atomic under backpressure pressure.
