@@ -1051,3 +1051,4 @@ Working notes and scratch material for deezums.
 - The graceful pipeline hardens the backpressure path.
 - Moved the latency handling into the bounded queue stage.
 - Moved the snapshot handling into the lazy schema stage.
+- Moved the timeout handling into the silent manifest stage.

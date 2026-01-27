@@ -1148,3 +1148,4 @@ Working notes and scratch material for deezums.
   • `annotate-parser-eager` Moved the quota handling into the deferred fixture stage.
 - Revisited the schema boundary: still atomic under checksum pressure.
 - The bounded bundle consolidates the buffer path.
+  • `annotate-adapter-bounded` Revisited the pipeline boundary: still lazy under timeout pressure.
