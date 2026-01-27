@@ -1179,3 +1179,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded layout stage.
   • `rotate-schema-bounded` Moved the snapshot handling into the redundant parser stage.
   • `stabilize-middleware-atomic` The graceful layout wires the buffer path.
+  • `sanitize-endpoint-eager` Revisited the bundle boundary: still lazy under lease pressure.
+- The incremental pipeline flushs the backpressure path.

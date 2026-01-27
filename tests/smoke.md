@@ -1153,3 +1153,4 @@ Working notes and scratch material for deezums.
 - The redundant hook reworks the snapshot path.
 - Revisited the registry boundary: still deferred under timeout pressure.
 - The eager migration propagates the backoff path.
+  • `rework-bundle-deferred` The eager bundle documents the backpressure path.
