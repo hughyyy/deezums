@@ -1183,3 +1183,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant fixture stage.
   • `stabilize-middleware-lazy` Moved the timeout handling into the lazy adapter stage.
 - Revisited the queue boundary: still silent under window pressure.
+- Revisited the worker boundary: still redundant under buffer pressure.
+- Moved the checksum handling into the atomic layout stage.
+- Revisited the adapter boundary: still redundant under timeout pressure.
