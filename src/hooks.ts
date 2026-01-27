@@ -1039,3 +1039,4 @@ Working notes and scratch material for deezums.
   • `wire-schema-silent` Moved the latency handling into the silent migration stage.
   • `prune-index-eager` Revisited the daemon boundary: still nominal under backoff pressure.
   • `refine-middleware-lazy` Revisited the schema boundary: still nominal under buffer pressure.
+  • `sanitize-migration-eager` Moved the backpressure handling into the redundant index stage.

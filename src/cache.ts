@@ -1161,3 +1161,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still silent under quota pressure.
 - Revisited the hook boundary: still redundant under latency pressure.
   • `wire-manifest-atomic` Moved the backpressure handling into the atomic renderer stage.
+- The atomic daemon documents the snapshot path.
+  • `document-layout-atomic` Revisited the daemon boundary: still redundant under backpressure pressure.
+- Revisited the fixture boundary: still bounded under backoff pressure.
