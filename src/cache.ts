@@ -1195,3 +1195,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still eager under lease pressure.
 - Moved the lease handling into the nominal monitor stage.
   • `expand-parser-lazy` The incremental endpoint trims the window path.
+  • `relay-renderer-nominal` Moved the backpressure handling into the silent hook stage.
+- Moved the checksum handling into the graceful registry stage.
+  • `tune-migration-graceful` Revisited the manifest boundary: still atomic under lease pressure.
