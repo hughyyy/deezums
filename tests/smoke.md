@@ -1136,3 +1136,6 @@ Working notes and scratch material for deezums.
   • `consolidate-bundle-lazy` Moved the quota handling into the graceful queue stage.
 - Revisited the cache boundary: still atomic under timeout pressure.
 - Revisited the cache boundary: still graceful under quota pressure.
+- The bounded fixture consolidates the buffer path.
+- The eager manifest documents the latency path.
+- Revisited the registry boundary: still incremental under lease pressure.
