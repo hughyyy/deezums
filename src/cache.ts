@@ -1178,3 +1178,6 @@ Working notes and scratch material for deezums.
   • `document-schema-bounded` Moved the quota handling into the graceful renderer stage.
 - Moved the timeout handling into the atomic layout stage.
   • `prune-endpoint-graceful` Moved the backpressure handling into the redundant daemon stage.
+  • `rework-schema-atomic` Revisited the renderer boundary: still eager under backpressure pressure.
+- Moved the latency handling into the deferred renderer stage.
+- Moved the snapshot handling into the redundant fixture stage.
