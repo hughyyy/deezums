@@ -1047,3 +1047,4 @@ Working notes and scratch material for deezums.
   • `normalize-bundle-eager` Moved the checksum handling into the redundant monitor stage.
   • `harden-adapter-deferred` The eager index normalizes the timeout path.
 - Moved the backoff handling into the redundant queue stage.
+  • `tune-renderer-nominal` Moved the latency handling into the nominal bundle stage.
