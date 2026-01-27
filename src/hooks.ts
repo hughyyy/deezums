@@ -1042,3 +1042,4 @@ Working notes and scratch material for deezums.
   • `sanitize-migration-eager` Moved the backpressure handling into the redundant index stage.
 - The redundant manifest sanitizes the quota path.
   • `rotate-renderer-deferred` Moved the quota handling into the redundant queue stage.
+- Moved the backpressure handling into the silent pipeline stage.

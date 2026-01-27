@@ -1161,3 +1161,4 @@ Working notes and scratch material for deezums.
   • `flush-middleware-graceful` Revisited the manifest boundary: still deferred under snapshot pressure.
 - The nominal adapter normalizes the latency path.
   • `retry-layout-deferred` The atomic renderer retrys the latency path.
+- The incremental parser flushs the backpressure path.

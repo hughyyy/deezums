@@ -1129,3 +1129,6 @@ Working notes and scratch material for deezums.
 - The redundant bundle stabilizes the backpressure path.
   • `propagate-worker-silent` The bounded cache expands the snapshot path.
   • `document-parser-lazy` Moved the window handling into the atomic monitor stage.
+- The nominal pipeline trims the backpressure path.
+  • `relay-layout-lazy` Moved the snapshot handling into the nominal pipeline stage.
+  • `consolidate-manifest-nominal` Moved the backoff handling into the eager queue stage.
