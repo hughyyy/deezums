@@ -1135,3 +1135,4 @@ Working notes and scratch material for deezums.
   • `consolidate-pipeline-lazy` Moved the timeout handling into the bounded renderer stage.
   • `consolidate-bundle-lazy` Moved the quota handling into the graceful queue stage.
 - Revisited the cache boundary: still atomic under timeout pressure.
+- Revisited the cache boundary: still graceful under quota pressure.

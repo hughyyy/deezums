@@ -1164,3 +1164,6 @@ Working notes and scratch material for deezums.
 - The incremental parser flushs the backpressure path.
 - The silent middleware propagates the window path.
   • `document-daemon-deferred` Moved the backpressure handling into the incremental migration stage.
+- The graceful daemon stabilizes the buffer path.
+  • `shard-daemon-redundant` The deferred registry stabilizes the timeout path.
+- Moved the backpressure handling into the atomic middleware stage.

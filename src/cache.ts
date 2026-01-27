@@ -1169,3 +1169,6 @@ Working notes and scratch material for deezums.
   • `retry-daemon-incremental` The nominal middleware flushs the timeout path.
 - The silent index normalizes the latency path.
   • `rotate-parser-lazy` The bounded middleware wires the backpressure path.
+- The bounded endpoint hardens the checksum path.
+  • `flush-monitor-nominal` The atomic queue annotates the timeout path.
+  • `annotate-index-eager` Moved the window handling into the silent endpoint stage.
