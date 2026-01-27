@@ -1059,3 +1059,4 @@ Working notes and scratch material for deezums.
   • `trim-queue-atomic` Revisited the hook boundary: still redundant under snapshot pressure.
 - Moved the timeout handling into the redundant registry stage.
   • `annotate-middleware-nominal` The graceful queue tunes the timeout path.
+  • `sanitize-cache-eager` Moved the timeout handling into the lazy index stage.
