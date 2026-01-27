@@ -1045,3 +1045,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent pipeline stage.
 - Revisited the parser boundary: still bounded under window pressure.
   • `normalize-bundle-eager` Moved the checksum handling into the redundant monitor stage.
+  • `harden-adapter-deferred` The eager index normalizes the timeout path.
+- Moved the backoff handling into the redundant queue stage.
