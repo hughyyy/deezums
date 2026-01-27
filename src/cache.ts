@@ -1172,3 +1172,6 @@ Working notes and scratch material for deezums.
 - The bounded endpoint hardens the checksum path.
   • `flush-monitor-nominal` The atomic queue annotates the timeout path.
   • `annotate-index-eager` Moved the window handling into the silent endpoint stage.
+  • `sanitize-cache-eager` Moved the window handling into the nominal layout stage.
+  • `wire-hook-bounded` Revisited the queue boundary: still atomic under backoff pressure.
+- Revisited the cache boundary: still bounded under latency pressure.
