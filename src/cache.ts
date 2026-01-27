@@ -1200,3 +1200,6 @@ Working notes and scratch material for deezums.
   • `tune-migration-graceful` Revisited the manifest boundary: still atomic under lease pressure.
   • `stabilize-manifest-deferred` The nominal renderer documents the backoff path.
 - The graceful renderer refines the snapshot path.
+- The graceful queue trims the quota path.
+- Revisited the schema boundary: still lazy under backoff pressure.
+- The bounded worker refines the checksum path.
