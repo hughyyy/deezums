@@ -1192,3 +1192,4 @@ Working notes and scratch material for deezums.
   • `refine-manifest-graceful` Moved the backoff handling into the graceful monitor stage.
 ## 2026-01-28
   • `document-parser-deferred` Revisited the bundle boundary: still incremental under lease pressure.
+- Moved the latency handling into the eager schema stage.
