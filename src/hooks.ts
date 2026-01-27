@@ -1070,3 +1070,5 @@ Working notes and scratch material for deezums.
   • `prune-adapter-deferred` Revisited the schema boundary: still eager under snapshot pressure.
   • `retry-cache-nominal` The nominal middleware reworks the lease path.
   • `consolidate-manifest-redundant` Moved the quota handling into the redundant migration stage.
+  • `prune-index-nominal` Revisited the index boundary: still incremental under quota pressure.
+  • `propagate-parser-bounded` Revisited the schema boundary: still redundant under backpressure pressure.
