@@ -1208,3 +1208,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-28
   • `rotate-fixture-deferred` The eager index stabilizes the backpressure path.
 - The lazy adapter shards the snapshot path.
+  • `propagate-registry-nominal` Revisited the worker boundary: still redundant under lease pressure.
+- Moved the backpressure handling into the silent worker stage.
