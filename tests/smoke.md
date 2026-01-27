@@ -1159,3 +1159,5 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-redundant` Revisited the daemon boundary: still bounded under checksum pressure.
   • `expand-daemon-nominal` Revisited the worker boundary: still redundant under snapshot pressure.
 - Moved the checksum handling into the deferred queue stage.
+- Moved the checksum handling into the bounded schema stage.
+  • `flush-queue-incremental` Revisited the layout boundary: still deferred under snapshot pressure.
