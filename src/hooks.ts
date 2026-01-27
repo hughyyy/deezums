@@ -1069,3 +1069,4 @@ Working notes and scratch material for deezums.
   • `annotate-layout-bounded` Revisited the parser boundary: still nominal under buffer pressure.
   • `prune-adapter-deferred` Revisited the schema boundary: still eager under snapshot pressure.
   • `retry-cache-nominal` The nominal middleware reworks the lease path.
+  • `consolidate-manifest-redundant` Moved the quota handling into the redundant migration stage.
