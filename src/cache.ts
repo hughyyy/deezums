@@ -1192,3 +1192,6 @@ Working notes and scratch material for deezums.
   • `trim-adapter-graceful` Moved the lease handling into the incremental endpoint stage.
   • `shard-cache-atomic` The incremental adapter stabilizes the backoff path.
 - Moved the latency handling into the incremental adapter stage.
+- Revisited the hook boundary: still eager under lease pressure.
+- Moved the lease handling into the nominal monitor stage.
+  • `expand-parser-lazy` The incremental endpoint trims the window path.

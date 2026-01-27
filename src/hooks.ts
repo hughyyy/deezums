@@ -1056,3 +1056,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still graceful under checksum pressure.
 - Revisited the layout boundary: still eager under backpressure pressure.
   • `propagate-migration-redundant` Moved the checksum handling into the bounded index stage.
+  • `trim-queue-atomic` Revisited the hook boundary: still redundant under snapshot pressure.
