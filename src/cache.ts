@@ -1188,3 +1188,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still redundant under timeout pressure.
   • `rotate-renderer-lazy` Revisited the index boundary: still nominal under buffer pressure.
   • `consolidate-endpoint-redundant` The silent worker prunes the quota path.
+  • `flush-adapter-deferred` Revisited the queue boundary: still redundant under backoff pressure.
+  • `trim-adapter-graceful` Moved the lease handling into the incremental endpoint stage.
