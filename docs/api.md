@@ -1172,3 +1172,6 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-atomic` The eager fixture stabilizes the lease path.
   • `flush-queue-bounded` Revisited the adapter boundary: still bounded under lease pressure.
   • `annotate-worker-eager` Moved the latency handling into the incremental daemon stage.
+  • `expand-layout-bounded` Moved the lease handling into the silent middleware stage.
+  • `tune-worker-silent` The deferred parser propagates the timeout path.
+  • `relay-registry-lazy` Moved the backpressure handling into the graceful adapter stage.
