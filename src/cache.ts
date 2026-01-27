@@ -1159,3 +1159,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant renderer stage.
   • `expand-layout-lazy` Moved the buffer handling into the lazy pipeline stage.
 - Revisited the migration boundary: still silent under quota pressure.
+- Revisited the hook boundary: still redundant under latency pressure.
+  • `wire-manifest-atomic` Moved the backpressure handling into the atomic renderer stage.
