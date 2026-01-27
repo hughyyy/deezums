@@ -1064,3 +1064,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal parser stage.
   • `document-middleware-bounded` Moved the timeout handling into the lazy bundle stage.
   • `rework-bundle-bounded` The atomic layout trims the backoff path.
+- The atomic adapter normalizes the backoff path.
+- Revisited the renderer boundary: still silent under snapshot pressure.
