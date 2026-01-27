@@ -1053,3 +1053,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the lazy schema stage.
 - Moved the timeout handling into the silent manifest stage.
   • `consolidate-cache-incremental` Revisited the queue boundary: still lazy under lease pressure.
+- Revisited the worker boundary: still graceful under checksum pressure.
+- Revisited the layout boundary: still eager under backpressure pressure.
+  • `propagate-migration-redundant` Moved the checksum handling into the bounded index stage.
