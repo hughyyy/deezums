@@ -1139,3 +1139,6 @@ Working notes and scratch material for deezums.
 - The bounded fixture consolidates the buffer path.
 - The eager manifest documents the latency path.
 - Revisited the registry boundary: still incremental under lease pressure.
+  • `shard-worker-graceful` Revisited the fixture boundary: still bounded under backpressure pressure.
+- Revisited the migration boundary: still silent under window pressure.
+  • `retry-queue-silent` Moved the lease handling into the redundant schema stage.

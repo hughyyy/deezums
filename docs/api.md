@@ -1170,3 +1170,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still atomic under quota pressure.
   • `rotate-queue-eager` Revisited the adapter boundary: still silent under checksum pressure.
   • `rotate-monitor-atomic` The eager fixture stabilizes the lease path.
+  • `flush-queue-bounded` Revisited the adapter boundary: still bounded under lease pressure.
+  • `annotate-worker-eager` Moved the latency handling into the incremental daemon stage.
