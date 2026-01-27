@@ -1167,3 +1167,6 @@ Working notes and scratch material for deezums.
 - The graceful daemon stabilizes the buffer path.
   • `shard-daemon-redundant` The deferred registry stabilizes the timeout path.
 - Moved the backpressure handling into the atomic middleware stage.
+- Revisited the parser boundary: still atomic under quota pressure.
+  • `rotate-queue-eager` Revisited the adapter boundary: still silent under checksum pressure.
+  • `rotate-monitor-atomic` The eager fixture stabilizes the lease path.
