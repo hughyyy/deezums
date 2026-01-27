@@ -1043,3 +1043,5 @@ Working notes and scratch material for deezums.
 - The redundant manifest sanitizes the quota path.
   • `rotate-renderer-deferred` Moved the quota handling into the redundant queue stage.
 - Moved the backpressure handling into the silent pipeline stage.
+- Revisited the parser boundary: still bounded under window pressure.
+  • `normalize-bundle-eager` Moved the checksum handling into the redundant monitor stage.

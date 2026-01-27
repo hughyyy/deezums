@@ -1166,3 +1166,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still bounded under backoff pressure.
 - Revisited the queue boundary: still bounded under snapshot pressure.
 - The deferred middleware documents the quota path.
+  • `retry-daemon-incremental` The nominal middleware flushs the timeout path.
+- The silent index normalizes the latency path.
+  • `rotate-parser-lazy` The bounded middleware wires the backpressure path.
