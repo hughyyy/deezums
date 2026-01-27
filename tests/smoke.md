@@ -1145,3 +1145,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still lazy under lease pressure.
 - Revisited the manifest boundary: still atomic under snapshot pressure.
 - Moved the lease handling into the graceful bundle stage.
+  • `annotate-parser-eager` Moved the quota handling into the deferred fixture stage.
+- Revisited the schema boundary: still atomic under checksum pressure.
