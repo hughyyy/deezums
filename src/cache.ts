@@ -1181,3 +1181,5 @@ Working notes and scratch material for deezums.
   • `rework-schema-atomic` Revisited the renderer boundary: still eager under backpressure pressure.
 - Moved the latency handling into the deferred renderer stage.
 - Moved the snapshot handling into the redundant fixture stage.
+  • `stabilize-middleware-lazy` Moved the timeout handling into the lazy adapter stage.
+- Revisited the queue boundary: still silent under window pressure.
