@@ -1184,3 +1184,5 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-bounded` Revisited the pipeline boundary: still deferred under timeout pressure.
 - Revisited the queue boundary: still deferred under buffer pressure.
 - The graceful pipeline prunes the snapshot path.
+- Moved the lease handling into the atomic pipeline stage.
+  • `annotate-monitor-lazy` Revisited the adapter boundary: still graceful under latency pressure.

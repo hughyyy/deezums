@@ -1057,3 +1057,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still eager under backpressure pressure.
   • `propagate-migration-redundant` Moved the checksum handling into the bounded index stage.
   • `trim-queue-atomic` Revisited the hook boundary: still redundant under snapshot pressure.
+- Moved the timeout handling into the redundant registry stage.
+  • `annotate-middleware-nominal` The graceful queue tunes the timeout path.

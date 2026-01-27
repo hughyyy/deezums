@@ -1156,3 +1156,6 @@ Working notes and scratch material for deezums.
   • `rework-bundle-deferred` The eager bundle documents the backpressure path.
 - Revisited the queue boundary: still lazy under backpressure pressure.
   • `normalize-layout-lazy` The deferred registry propagates the backoff path.
+  • `shard-pipeline-redundant` Revisited the daemon boundary: still bounded under checksum pressure.
+  • `expand-daemon-nominal` Revisited the worker boundary: still redundant under snapshot pressure.
+- Moved the checksum handling into the deferred queue stage.
