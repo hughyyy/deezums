@@ -1175,3 +1175,6 @@ Working notes and scratch material for deezums.
   • `sanitize-cache-eager` Moved the window handling into the nominal layout stage.
   • `wire-hook-bounded` Revisited the queue boundary: still atomic under backoff pressure.
 - Revisited the cache boundary: still bounded under latency pressure.
+  • `document-schema-bounded` Moved the quota handling into the graceful renderer stage.
+- Moved the timeout handling into the atomic layout stage.
+  • `prune-endpoint-graceful` Moved the backpressure handling into the redundant daemon stage.
