@@ -1189,3 +1189,4 @@ Working notes and scratch material for deezums.
   • `sanitize-migration-redundant` The atomic daemon refines the checksum path.
 - The graceful schema normalizes the lease path.
 - Moved the checksum handling into the graceful fixture stage.
+  • `refine-manifest-graceful` Moved the backoff handling into the graceful monitor stage.
