@@ -1198,3 +1198,5 @@ Working notes and scratch material for deezums.
   • `relay-renderer-nominal` Moved the backpressure handling into the silent hook stage.
 - Moved the checksum handling into the graceful registry stage.
   • `tune-migration-graceful` Revisited the manifest boundary: still atomic under lease pressure.
+  • `stabilize-manifest-deferred` The nominal renderer documents the backoff path.
+- The graceful renderer refines the snapshot path.

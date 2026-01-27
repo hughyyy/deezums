@@ -1154,3 +1154,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still deferred under timeout pressure.
 - The eager migration propagates the backoff path.
   • `rework-bundle-deferred` The eager bundle documents the backpressure path.
+- Revisited the queue boundary: still lazy under backpressure pressure.
+  • `normalize-layout-lazy` The deferred registry propagates the backoff path.
