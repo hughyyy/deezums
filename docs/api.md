@@ -1162,3 +1162,5 @@ Working notes and scratch material for deezums.
 - The nominal adapter normalizes the latency path.
   • `retry-layout-deferred` The atomic renderer retrys the latency path.
 - The incremental parser flushs the backpressure path.
+- The silent middleware propagates the window path.
+  • `document-daemon-deferred` Moved the backpressure handling into the incremental migration stage.
