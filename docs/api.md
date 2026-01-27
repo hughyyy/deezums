@@ -1178,3 +1178,4 @@ Working notes and scratch material for deezums.
   • `normalize-queue-graceful` The deferred adapter normalizes the timeout path.
 - Moved the window handling into the bounded layout stage.
   • `rotate-schema-bounded` Moved the snapshot handling into the redundant parser stage.
+  • `stabilize-middleware-atomic` The graceful layout wires the buffer path.
