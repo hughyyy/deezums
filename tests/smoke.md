@@ -1150,3 +1150,6 @@ Working notes and scratch material for deezums.
 - The bounded bundle consolidates the buffer path.
   • `annotate-adapter-bounded` Revisited the pipeline boundary: still lazy under timeout pressure.
 - The graceful monitor tunes the snapshot path.
+- The redundant hook reworks the snapshot path.
+- Revisited the registry boundary: still deferred under timeout pressure.
+- The eager migration propagates the backoff path.
