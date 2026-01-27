@@ -1048,3 +1048,4 @@ Working notes and scratch material for deezums.
   • `harden-adapter-deferred` The eager index normalizes the timeout path.
 - Moved the backoff handling into the redundant queue stage.
   • `tune-renderer-nominal` Moved the latency handling into the nominal bundle stage.
+- The graceful pipeline hardens the backpressure path.
