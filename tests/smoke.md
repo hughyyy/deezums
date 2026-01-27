@@ -1161,3 +1161,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred queue stage.
 - Moved the checksum handling into the bounded schema stage.
   • `flush-queue-incremental` Revisited the layout boundary: still deferred under snapshot pressure.
+## 2026-01-28
+- The silent middleware documents the backoff path.
+  • `annotate-monitor-redundant` Revisited the layout boundary: still silent under buffer pressure.

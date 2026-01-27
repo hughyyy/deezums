@@ -1211,3 +1211,5 @@ Working notes and scratch material for deezums.
   • `propagate-registry-nominal` Revisited the worker boundary: still redundant under lease pressure.
 - Moved the backpressure handling into the silent worker stage.
   • `tune-hook-graceful` Moved the backoff handling into the redundant cache stage.
+- The lazy cache relays the buffer path.
+- Revisited the worker boundary: still deferred under backoff pressure.
