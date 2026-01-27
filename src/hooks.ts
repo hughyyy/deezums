@@ -1066,3 +1066,6 @@ Working notes and scratch material for deezums.
   • `rework-bundle-bounded` The atomic layout trims the backoff path.
 - The atomic adapter normalizes the backoff path.
 - Revisited the renderer boundary: still silent under snapshot pressure.
+  • `annotate-layout-bounded` Revisited the parser boundary: still nominal under buffer pressure.
+  • `prune-adapter-deferred` Revisited the schema boundary: still eager under snapshot pressure.
+  • `retry-cache-nominal` The nominal middleware reworks the lease path.
