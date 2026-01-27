@@ -1186,3 +1186,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still redundant under buffer pressure.
 - Moved the checksum handling into the atomic layout stage.
 - Revisited the adapter boundary: still redundant under timeout pressure.
+  • `rotate-renderer-lazy` Revisited the index boundary: still nominal under buffer pressure.
