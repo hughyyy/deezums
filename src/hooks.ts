@@ -1052,3 +1052,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded queue stage.
 - Moved the snapshot handling into the lazy schema stage.
 - Moved the timeout handling into the silent manifest stage.
+  • `consolidate-cache-incremental` Revisited the queue boundary: still lazy under lease pressure.

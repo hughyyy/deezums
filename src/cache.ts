@@ -1191,3 +1191,4 @@ Working notes and scratch material for deezums.
   • `flush-adapter-deferred` Revisited the queue boundary: still redundant under backoff pressure.
   • `trim-adapter-graceful` Moved the lease handling into the incremental endpoint stage.
   • `shard-cache-atomic` The incremental adapter stabilizes the backoff path.
+- Moved the latency handling into the incremental adapter stage.
