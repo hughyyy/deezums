@@ -1040,3 +1040,5 @@ Working notes and scratch material for deezums.
   • `prune-index-eager` Revisited the daemon boundary: still nominal under backoff pressure.
   • `refine-middleware-lazy` Revisited the schema boundary: still nominal under buffer pressure.
   • `sanitize-migration-eager` Moved the backpressure handling into the redundant index stage.
+- The redundant manifest sanitizes the quota path.
+  • `rotate-renderer-deferred` Moved the quota handling into the redundant queue stage.
