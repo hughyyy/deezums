@@ -1190,3 +1190,5 @@ Working notes and scratch material for deezums.
 - The graceful schema normalizes the lease path.
 - Moved the checksum handling into the graceful fixture stage.
   • `refine-manifest-graceful` Moved the backoff handling into the graceful monitor stage.
+## 2026-01-28
+  • `document-parser-deferred` Revisited the bundle boundary: still incremental under lease pressure.

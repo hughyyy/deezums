@@ -1060,3 +1060,7 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the redundant registry stage.
   • `annotate-middleware-nominal` The graceful queue tunes the timeout path.
   • `sanitize-cache-eager` Moved the timeout handling into the lazy index stage.
+## 2026-01-28
+- Moved the lease handling into the nominal parser stage.
+  • `document-middleware-bounded` Moved the timeout handling into the lazy bundle stage.
+  • `rework-bundle-bounded` The atomic layout trims the backoff path.
