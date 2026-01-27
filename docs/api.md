@@ -1158,3 +1158,6 @@ Working notes and scratch material for deezums.
   • `wire-manifest-atomic` Moved the timeout handling into the graceful monitor stage.
   • `consolidate-daemon-deferred` Moved the checksum handling into the silent queue stage.
 - Revisited the cache boundary: still eager under latency pressure.
+  • `flush-middleware-graceful` Revisited the manifest boundary: still deferred under snapshot pressure.
+- The nominal adapter normalizes the latency path.
+  • `retry-layout-deferred` The atomic renderer retrys the latency path.
