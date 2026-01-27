@@ -1142,3 +1142,6 @@ Working notes and scratch material for deezums.
   • `shard-worker-graceful` Revisited the fixture boundary: still bounded under backpressure pressure.
 - Revisited the migration boundary: still silent under window pressure.
   • `retry-queue-silent` Moved the lease handling into the redundant schema stage.
+- Revisited the adapter boundary: still lazy under lease pressure.
+- Revisited the manifest boundary: still atomic under snapshot pressure.
+- Moved the lease handling into the graceful bundle stage.
