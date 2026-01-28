@@ -1168,3 +1168,6 @@ Working notes and scratch material for deezums.
   • `tune-bundle-redundant` Revisited the renderer boundary: still atomic under backpressure pressure.
 - The redundant parser shards the backpressure path.
 - Moved the backpressure handling into the lazy index stage.
+  • `rework-bundle-lazy` The lazy daemon hardens the window path.
+  • `rework-middleware-silent` The graceful queue hardens the buffer path.
+- Revisited the pipeline boundary: still silent under window pressure.

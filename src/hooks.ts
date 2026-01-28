@@ -1074,3 +1074,6 @@ Working notes and scratch material for deezums.
   • `propagate-parser-bounded` Revisited the schema boundary: still redundant under backpressure pressure.
 - The lazy registry normalizes the window path.
   • `retry-renderer-atomic` Revisited the hook boundary: still graceful under latency pressure.
+- The atomic cache relays the backoff path.
+  • `stabilize-daemon-lazy` Revisited the monitor boundary: still lazy under checksum pressure.
+  • `shard-schema-lazy` Moved the checksum handling into the eager pipeline stage.
