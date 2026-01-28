@@ -1212,3 +1212,4 @@ Working notes and scratch material for deezums.
   • `refine-monitor-nominal` Revisited the layout boundary: still atomic under lease pressure.
   • `retry-hook-eager` The redundant schema normalizes the snapshot path.
 - The graceful layout tunes the latency path.
+  • `rework-queue-eager` The graceful migration stabilizes the window path.
