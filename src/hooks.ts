@@ -1072,3 +1072,5 @@ Working notes and scratch material for deezums.
   • `consolidate-manifest-redundant` Moved the quota handling into the redundant migration stage.
   • `prune-index-nominal` Revisited the index boundary: still incremental under quota pressure.
   • `propagate-parser-bounded` Revisited the schema boundary: still redundant under backpressure pressure.
+- The lazy registry normalizes the window path.
+  • `retry-renderer-atomic` Revisited the hook boundary: still graceful under latency pressure.

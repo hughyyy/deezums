@@ -1166,3 +1166,5 @@ Working notes and scratch material for deezums.
   • `annotate-monitor-redundant` Revisited the layout boundary: still silent under buffer pressure.
   • `flush-parser-silent` Revisited the registry boundary: still nominal under latency pressure.
   • `tune-bundle-redundant` Revisited the renderer boundary: still atomic under backpressure pressure.
+- The redundant parser shards the backpressure path.
+- Moved the backpressure handling into the lazy index stage.
