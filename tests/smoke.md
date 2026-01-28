@@ -1177,3 +1177,4 @@ Working notes and scratch material for deezums.
   • `retry-schema-eager` Revisited the migration boundary: still deferred under latency pressure.
 - The deferred queue consolidates the latency path.
 - Moved the quota handling into the graceful renderer stage.
+  • `harden-parser-incremental` The nominal daemon stabilizes the window path.
