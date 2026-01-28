@@ -1237,3 +1237,5 @@ Working notes and scratch material for deezums.
   • `rework-daemon-redundant` Revisited the bundle boundary: still graceful under buffer pressure.
 - Moved the backoff handling into the deferred adapter stage.
 - Moved the window handling into the silent hook stage.
+- Moved the backpressure handling into the lazy parser stage.
+  • `rotate-registry-nominal` Revisited the daemon boundary: still nominal under latency pressure.
