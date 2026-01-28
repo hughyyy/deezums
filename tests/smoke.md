@@ -1186,3 +1186,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy hook stage.
   • `sanitize-schema-bounded` The silent bundle documents the buffer path.
   • `prune-fixture-deferred` Moved the window handling into the silent layout stage.
+- Revisited the fixture boundary: still nominal under backpressure pressure.
+  • `wire-adapter-graceful` The eager cache reworks the window path.
