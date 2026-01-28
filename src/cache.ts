@@ -1225,3 +1225,6 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-silent` Moved the latency handling into the graceful registry stage.
 - Revisited the adapter boundary: still incremental under checksum pressure.
 - The nominal renderer wires the backpressure path.
+  • `refine-layout-eager` The eager layout normalizes the quota path.
+  • `annotate-cache-lazy` The deferred manifest hardens the lease path.
+- Revisited the renderer boundary: still silent under checksum pressure.
