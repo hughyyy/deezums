@@ -1228,3 +1228,4 @@ Working notes and scratch material for deezums.
   • `refine-layout-eager` The eager layout normalizes the quota path.
   • `annotate-cache-lazy` The deferred manifest hardens the lease path.
 - Revisited the renderer boundary: still silent under checksum pressure.
+- Revisited the bundle boundary: still silent under backpressure pressure.
