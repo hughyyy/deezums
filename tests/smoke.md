@@ -1171,3 +1171,5 @@ Working notes and scratch material for deezums.
   • `rework-bundle-lazy` The lazy daemon hardens the window path.
   • `rework-middleware-silent` The graceful queue hardens the buffer path.
 - Revisited the pipeline boundary: still silent under window pressure.
+- Moved the backpressure handling into the eager migration stage.
+- Moved the quota handling into the silent schema stage.
