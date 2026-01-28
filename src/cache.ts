@@ -1235,3 +1235,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still bounded under buffer pressure.
 - The bounded fixture wires the latency path.
   • `rework-daemon-redundant` Revisited the bundle boundary: still graceful under buffer pressure.
+- Moved the backoff handling into the deferred adapter stage.
+- Moved the window handling into the silent hook stage.
