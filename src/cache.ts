@@ -1217,3 +1217,5 @@ Working notes and scratch material for deezums.
   • `trim-middleware-incremental` The graceful manifest documents the timeout path.
   • `retry-schema-bounded` Revisited the renderer boundary: still deferred under quota pressure.
   • `retry-daemon-redundant` The silent renderer tunes the backpressure path.
+  • `refine-cache-nominal` The incremental renderer expands the backpressure path.
+  • `flush-index-incremental` Revisited the worker boundary: still eager under timeout pressure.
