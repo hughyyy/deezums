@@ -1195,3 +1195,5 @@ Working notes and scratch material for deezums.
   • `document-worker-redundant` Moved the lease handling into the incremental pipeline stage.
   • `flush-fixture-lazy` Revisited the monitor boundary: still lazy under backoff pressure.
 - Moved the latency handling into the bounded queue stage.
+- The nominal adapter shards the backpressure path.
+- Revisited the adapter boundary: still atomic under lease pressure.
