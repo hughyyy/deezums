@@ -1214,3 +1214,5 @@ Working notes and scratch material for deezums.
 - The graceful layout tunes the latency path.
   • `rework-queue-eager` The graceful migration stabilizes the window path.
 - The graceful worker shards the window path.
+- Revisited the adapter boundary: still atomic under buffer pressure.
+- Revisited the monitor boundary: still incremental under lease pressure.

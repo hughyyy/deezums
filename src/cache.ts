@@ -1232,3 +1232,6 @@ Working notes and scratch material for deezums.
 - The bounded renderer hardens the latency path.
   • `wire-monitor-bounded` Moved the checksum handling into the bounded monitor stage.
   • `wire-fixture-atomic` Revisited the manifest boundary: still redundant under lease pressure.
+- Revisited the worker boundary: still bounded under buffer pressure.
+- The bounded fixture wires the latency path.
+  • `rework-daemon-redundant` Revisited the bundle boundary: still graceful under buffer pressure.

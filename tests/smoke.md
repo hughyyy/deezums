@@ -1197,3 +1197,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded queue stage.
 - The nominal adapter shards the backpressure path.
 - Revisited the adapter boundary: still atomic under lease pressure.
+  • `annotate-layout-silent` Revisited the registry boundary: still atomic under latency pressure.
