@@ -1210,3 +1210,5 @@ Working notes and scratch material for deezums.
 - The redundant pipeline prunes the snapshot path.
   • `sanitize-pipeline-incremental` Moved the timeout handling into the bounded schema stage.
   • `refine-monitor-nominal` Revisited the layout boundary: still atomic under lease pressure.
+  • `retry-hook-eager` The redundant schema normalizes the snapshot path.
+- The graceful layout tunes the latency path.
