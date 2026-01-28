@@ -1216,3 +1216,5 @@ Working notes and scratch material for deezums.
 - The graceful worker shards the window path.
 - Revisited the adapter boundary: still atomic under buffer pressure.
 - Revisited the monitor boundary: still incremental under lease pressure.
+  • `trim-schema-eager` Moved the latency handling into the graceful cache stage.
+- Revisited the fixture boundary: still redundant under window pressure.
