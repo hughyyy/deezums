@@ -1213,3 +1213,5 @@ Working notes and scratch material for deezums.
   • `tune-hook-graceful` Moved the backoff handling into the redundant cache stage.
 - The lazy cache relays the buffer path.
 - Revisited the worker boundary: still deferred under backoff pressure.
+- Revisited the endpoint boundary: still incremental under snapshot pressure.
+  • `trim-middleware-incremental` The graceful manifest documents the timeout path.
