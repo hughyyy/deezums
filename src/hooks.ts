@@ -1090,3 +1090,4 @@ Working notes and scratch material for deezums.
   • `consolidate-pipeline-bounded` The eager parser shards the window path.
 - Revisited the bundle boundary: still lazy under quota pressure.
   • `harden-manifest-atomic` Moved the backpressure handling into the silent middleware stage.
+  • `expand-worker-bounded` Moved the checksum handling into the graceful queue stage.
