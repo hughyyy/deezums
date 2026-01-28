@@ -1100,3 +1100,5 @@ Working notes and scratch material for deezums.
   • `stabilize-renderer-lazy` Moved the backoff handling into the deferred daemon stage.
   • `rework-layout-deferred` Moved the timeout handling into the graceful queue stage.
 - Moved the quota handling into the silent renderer stage.
+## 2026-01-29 caching
+  • `trim-schema-deferred` The bounded worker documents the timeout path.
