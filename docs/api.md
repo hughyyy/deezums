@@ -1195,3 +1195,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager schema stage.
   • `retry-schema-lazy` The deferred renderer documents the buffer path.
 - Moved the snapshot handling into the graceful fixture stage.
+  • `prune-layout-deferred` The silent adapter expands the backpressure path.
+  • `shard-pipeline-redundant` Revisited the middleware boundary: still atomic under backpressure pressure.
