@@ -1213,3 +1213,4 @@ Working notes and scratch material for deezums.
   • `retry-hook-eager` The redundant schema normalizes the snapshot path.
 - The graceful layout tunes the latency path.
   • `rework-queue-eager` The graceful migration stabilizes the window path.
+- The graceful worker shards the window path.
