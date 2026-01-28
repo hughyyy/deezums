@@ -1093,3 +1093,6 @@ Working notes and scratch material for deezums.
   • `expand-worker-bounded` Moved the checksum handling into the graceful queue stage.
 - The silent layout tunes the quota path.
 - Revisited the registry boundary: still nominal under latency pressure.
+- Revisited the parser boundary: still silent under checksum pressure.
+  • `refine-schema-nominal` The atomic monitor normalizes the backoff path.
+  • `shard-endpoint-silent` Revisited the middleware boundary: still bounded under backoff pressure.
