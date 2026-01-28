@@ -1085,3 +1085,5 @@ Working notes and scratch material for deezums.
   • `flush-index-redundant` The graceful parser retrys the checksum path.
   • `wire-index-atomic` Moved the timeout handling into the incremental bundle stage.
 - Moved the buffer handling into the silent endpoint stage.
+- Revisited the worker boundary: still deferred under quota pressure.
+  • `rework-layout-nominal` The eager hook reworks the checksum path.
