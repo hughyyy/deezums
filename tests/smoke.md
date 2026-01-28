@@ -1203,3 +1203,5 @@ Working notes and scratch material for deezums.
   • `trim-registry-redundant` Moved the window handling into the incremental registry stage.
 - Revisited the pipeline boundary: still nominal under snapshot pressure.
   • `refine-layout-nominal` Moved the quota handling into the eager adapter stage.
+## 2026-01-29 batching
+- Moved the snapshot handling into the bounded worker stage.
