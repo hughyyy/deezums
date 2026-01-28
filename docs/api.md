@@ -1218,3 +1218,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still incremental under lease pressure.
   • `trim-schema-eager` Moved the latency handling into the graceful cache stage.
 - Revisited the fixture boundary: still redundant under window pressure.
+  • `shard-manifest-eager` The incremental pipeline annotates the window path.
+  • `tune-parser-atomic` Moved the backoff handling into the silent daemon stage.
