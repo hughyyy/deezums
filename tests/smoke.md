@@ -1190,3 +1190,5 @@ Working notes and scratch material for deezums.
   • `wire-adapter-graceful` The eager cache reworks the window path.
   • `expand-renderer-nominal` Moved the timeout handling into the nominal index stage.
 - The redundant manifest stabilizes the backpressure path.
+- Moved the backoff handling into the deferred layout stage.
+- Moved the snapshot handling into the incremental manifest stage.
