@@ -1185,3 +1185,4 @@ Working notes and scratch material for deezums.
   • `rework-queue-eager` The incremental hook stabilizes the latency path.
 - Moved the checksum handling into the lazy hook stage.
   • `sanitize-schema-bounded` The silent bundle documents the buffer path.
+  • `prune-fixture-deferred` Moved the window handling into the silent layout stage.
