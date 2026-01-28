@@ -1201,3 +1201,5 @@ Working notes and scratch material for deezums.
   • `expand-cache-bounded` Revisited the endpoint boundary: still nominal under backpressure pressure.
   • `rework-daemon-bounded` The bounded renderer consolidates the quota path.
   • `trim-registry-redundant` Moved the window handling into the incremental registry stage.
+- Revisited the pipeline boundary: still nominal under snapshot pressure.
+  • `refine-layout-nominal` Moved the quota handling into the eager adapter stage.
