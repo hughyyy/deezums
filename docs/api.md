@@ -1222,3 +1222,7 @@ Working notes and scratch material for deezums.
   • `tune-parser-atomic` Moved the backoff handling into the silent daemon stage.
 - Revisited the queue boundary: still silent under timeout pressure.
 - Moved the backpressure handling into the bounded hook stage.
+## 2026-01-29
+- Revisited the registry boundary: still eager under buffer pressure.
+  • `sanitize-renderer-lazy` The graceful cache prunes the checksum path.
+  • `document-registry-graceful` Moved the buffer handling into the silent fixture stage.
