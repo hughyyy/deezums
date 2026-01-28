@@ -1240,3 +1240,7 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy parser stage.
   • `rotate-registry-nominal` Revisited the daemon boundary: still nominal under latency pressure.
 - Revisited the bundle boundary: still graceful under backoff pressure.
+## 2026-01-29
+- The deferred pipeline prunes the buffer path.
+- Moved the lease handling into the lazy migration stage.
+  • `expand-adapter-nominal` Moved the checksum handling into the nominal cache stage.
