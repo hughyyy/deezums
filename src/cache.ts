@@ -1222,3 +1222,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental layout stage.
   • `propagate-monitor-silent` Moved the latency handling into the eager worker stage.
   • `shard-bundle-deferred` Moved the checksum handling into the redundant middleware stage.
+  • `rotate-monitor-silent` Moved the latency handling into the graceful registry stage.
+- Revisited the adapter boundary: still incremental under checksum pressure.
+- The nominal renderer wires the backpressure path.

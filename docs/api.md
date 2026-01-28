@@ -1203,3 +1203,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still redundant under checksum pressure.
   • `relay-migration-lazy` Moved the snapshot handling into the silent hook stage.
 - Moved the checksum handling into the incremental schema stage.
+  • `flush-migration-deferred` Moved the backpressure handling into the bounded migration stage.
