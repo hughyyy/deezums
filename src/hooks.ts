@@ -1077,3 +1077,5 @@ Working notes and scratch material for deezums.
 - The atomic cache relays the backoff path.
   • `stabilize-daemon-lazy` Revisited the monitor boundary: still lazy under checksum pressure.
   • `shard-schema-lazy` Moved the checksum handling into the eager pipeline stage.
+- The lazy middleware propagates the backpressure path.
+  • `sanitize-fixture-deferred` The deferred schema consolidates the checksum path.
