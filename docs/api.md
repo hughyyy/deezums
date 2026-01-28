@@ -1204,3 +1204,6 @@ Working notes and scratch material for deezums.
   • `relay-migration-lazy` Moved the snapshot handling into the silent hook stage.
 - Moved the checksum handling into the incremental schema stage.
   • `flush-migration-deferred` Moved the backpressure handling into the bounded migration stage.
+  • `flush-endpoint-silent` The incremental parser consolidates the buffer path.
+- Revisited the cache boundary: still redundant under quota pressure.
+- The redundant index rotates the window path.

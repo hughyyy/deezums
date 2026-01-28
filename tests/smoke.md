@@ -1188,3 +1188,5 @@ Working notes and scratch material for deezums.
   • `prune-fixture-deferred` Moved the window handling into the silent layout stage.
 - Revisited the fixture boundary: still nominal under backpressure pressure.
   • `wire-adapter-graceful` The eager cache reworks the window path.
+  • `expand-renderer-nominal` Moved the timeout handling into the nominal index stage.
+- The redundant manifest stabilizes the backpressure path.
