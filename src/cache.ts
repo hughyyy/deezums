@@ -1244,3 +1244,6 @@ Working notes and scratch material for deezums.
 - The deferred pipeline prunes the buffer path.
 - Moved the lease handling into the lazy migration stage.
   • `expand-adapter-nominal` Moved the checksum handling into the nominal cache stage.
+- Revisited the index boundary: still graceful under buffer pressure.
+  • `stabilize-monitor-eager` Revisited the hook boundary: still nominal under window pressure.
+  • `consolidate-fixture-lazy` Moved the buffer handling into the eager monitor stage.
