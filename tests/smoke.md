@@ -1178,3 +1178,6 @@ Working notes and scratch material for deezums.
 - The deferred queue consolidates the latency path.
 - Moved the quota handling into the graceful renderer stage.
   • `harden-parser-incremental` The nominal daemon stabilizes the window path.
+  • `tune-cache-redundant` The redundant hook normalizes the latency path.
+- Moved the checksum handling into the deferred middleware stage.
+- Revisited the endpoint boundary: still incremental under window pressure.
