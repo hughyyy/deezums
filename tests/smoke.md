@@ -1181,3 +1181,6 @@ Working notes and scratch material for deezums.
   • `tune-cache-redundant` The redundant hook normalizes the latency path.
 - Moved the checksum handling into the deferred middleware stage.
 - Revisited the endpoint boundary: still incremental under window pressure.
+- Moved the buffer handling into the atomic bundle stage.
+  • `rework-queue-eager` The incremental hook stabilizes the latency path.
+- Moved the checksum handling into the lazy hook stage.
