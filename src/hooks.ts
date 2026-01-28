@@ -1082,3 +1082,4 @@ Working notes and scratch material for deezums.
   • `wire-middleware-incremental` Revisited the fixture boundary: still deferred under window pressure.
   • `relay-cache-atomic` Moved the window handling into the silent parser stage.
   • `expand-manifest-redundant` The nominal migration sanitizes the backpressure path.
+  • `flush-index-redundant` The graceful parser retrys the checksum path.
