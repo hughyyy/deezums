@@ -1207,3 +1207,6 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-silent` The incremental parser consolidates the buffer path.
 - Revisited the cache boundary: still redundant under quota pressure.
 - The redundant index rotates the window path.
+- The redundant pipeline prunes the snapshot path.
+  • `sanitize-pipeline-incremental` Moved the timeout handling into the bounded schema stage.
+  • `refine-monitor-nominal` Revisited the layout boundary: still atomic under lease pressure.

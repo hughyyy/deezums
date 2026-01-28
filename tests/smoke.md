@@ -1192,3 +1192,6 @@ Working notes and scratch material for deezums.
 - The redundant manifest stabilizes the backpressure path.
 - Moved the backoff handling into the deferred layout stage.
 - Moved the snapshot handling into the incremental manifest stage.
+  • `document-worker-redundant` Moved the lease handling into the incremental pipeline stage.
+  • `flush-fixture-lazy` Revisited the monitor boundary: still lazy under backoff pressure.
+- Moved the latency handling into the bounded queue stage.

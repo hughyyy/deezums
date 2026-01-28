@@ -1229,3 +1229,6 @@ Working notes and scratch material for deezums.
   • `annotate-cache-lazy` The deferred manifest hardens the lease path.
 - Revisited the renderer boundary: still silent under checksum pressure.
 - Revisited the bundle boundary: still silent under backpressure pressure.
+- The bounded renderer hardens the latency path.
+  • `wire-monitor-bounded` Moved the checksum handling into the bounded monitor stage.
+  • `wire-fixture-atomic` Revisited the manifest boundary: still redundant under lease pressure.
