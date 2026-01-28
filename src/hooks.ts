@@ -1079,3 +1079,5 @@ Working notes and scratch material for deezums.
   • `shard-schema-lazy` Moved the checksum handling into the eager pipeline stage.
 - The lazy middleware propagates the backpressure path.
   • `sanitize-fixture-deferred` The deferred schema consolidates the checksum path.
+  • `wire-middleware-incremental` Revisited the fixture boundary: still deferred under window pressure.
+  • `relay-cache-atomic` Moved the window handling into the silent parser stage.
