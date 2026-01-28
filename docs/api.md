@@ -1197,3 +1197,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful fixture stage.
   • `prune-layout-deferred` The silent adapter expands the backpressure path.
   • `shard-pipeline-redundant` Revisited the middleware boundary: still atomic under backpressure pressure.
+  • `shard-cache-lazy` The incremental migration normalizes the buffer path.
+  • `wire-queue-deferred` The deferred middleware propagates the buffer path.
