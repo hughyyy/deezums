@@ -1096,3 +1096,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still silent under checksum pressure.
   • `refine-schema-nominal` The atomic monitor normalizes the backoff path.
   • `shard-endpoint-silent` Revisited the middleware boundary: still bounded under backoff pressure.
+  • `flush-registry-silent` Revisited the hook boundary: still eager under backpressure pressure.
+  • `stabilize-renderer-lazy` Moved the backoff handling into the deferred daemon stage.
