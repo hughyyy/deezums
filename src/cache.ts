@@ -1215,3 +1215,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still deferred under backoff pressure.
 - Revisited the endpoint boundary: still incremental under snapshot pressure.
   • `trim-middleware-incremental` The graceful manifest documents the timeout path.
+  • `retry-schema-bounded` Revisited the renderer boundary: still deferred under quota pressure.
+  • `retry-daemon-redundant` The silent renderer tunes the backpressure path.
