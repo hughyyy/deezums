@@ -1173,3 +1173,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still silent under window pressure.
 - Moved the backpressure handling into the eager migration stage.
 - Moved the quota handling into the silent schema stage.
+- The bounded layout propagates the latency path.
+  • `retry-schema-eager` Revisited the migration boundary: still deferred under latency pressure.
+- The deferred queue consolidates the latency path.
