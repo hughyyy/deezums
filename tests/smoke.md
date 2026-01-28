@@ -1198,3 +1198,6 @@ Working notes and scratch material for deezums.
 - The nominal adapter shards the backpressure path.
 - Revisited the adapter boundary: still atomic under lease pressure.
   • `annotate-layout-silent` Revisited the registry boundary: still atomic under latency pressure.
+  • `expand-cache-bounded` Revisited the endpoint boundary: still nominal under backpressure pressure.
+  • `rework-daemon-bounded` The bounded renderer consolidates the quota path.
+  • `trim-registry-redundant` Moved the window handling into the incremental registry stage.
