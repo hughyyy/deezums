@@ -1091,3 +1091,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still lazy under quota pressure.
   • `harden-manifest-atomic` Moved the backpressure handling into the silent middleware stage.
   • `expand-worker-bounded` Moved the checksum handling into the graceful queue stage.
+- The silent layout tunes the quota path.
+- Revisited the registry boundary: still nominal under latency pressure.
