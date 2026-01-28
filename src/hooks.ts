@@ -1087,3 +1087,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent endpoint stage.
 - Revisited the worker boundary: still deferred under quota pressure.
   • `rework-layout-nominal` The eager hook reworks the checksum path.
+  • `consolidate-pipeline-bounded` The eager parser shards the window path.
+- Revisited the bundle boundary: still lazy under quota pressure.
