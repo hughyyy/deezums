@@ -1239,3 +1239,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent hook stage.
 - Moved the backpressure handling into the lazy parser stage.
   • `rotate-registry-nominal` Revisited the daemon boundary: still nominal under latency pressure.
+- Revisited the bundle boundary: still graceful under backoff pressure.

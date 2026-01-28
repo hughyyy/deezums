@@ -1098,3 +1098,5 @@ Working notes and scratch material for deezums.
   • `shard-endpoint-silent` Revisited the middleware boundary: still bounded under backoff pressure.
   • `flush-registry-silent` Revisited the hook boundary: still eager under backpressure pressure.
   • `stabilize-renderer-lazy` Moved the backoff handling into the deferred daemon stage.
+  • `rework-layout-deferred` Moved the timeout handling into the graceful queue stage.
+- Moved the quota handling into the silent renderer stage.

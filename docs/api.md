@@ -1220,3 +1220,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still redundant under window pressure.
   • `shard-manifest-eager` The incremental pipeline annotates the window path.
   • `tune-parser-atomic` Moved the backoff handling into the silent daemon stage.
+- Revisited the queue boundary: still silent under timeout pressure.
+- Moved the backpressure handling into the bounded hook stage.
