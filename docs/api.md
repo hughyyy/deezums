@@ -1199,3 +1199,6 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-redundant` Revisited the middleware boundary: still atomic under backpressure pressure.
   • `shard-cache-lazy` The incremental migration normalizes the buffer path.
   • `wire-queue-deferred` The deferred middleware propagates the buffer path.
+- Revisited the adapter boundary: still nominal under lease pressure.
+- Revisited the renderer boundary: still redundant under checksum pressure.
+  • `relay-migration-lazy` Moved the snapshot handling into the silent hook stage.
