@@ -1193,3 +1193,4 @@ Working notes and scratch material for deezums.
 ## 2026-01-28
   • `document-parser-deferred` Revisited the bundle boundary: still incremental under lease pressure.
 - Moved the latency handling into the eager schema stage.
+  • `retry-schema-lazy` The deferred renderer documents the buffer path.
