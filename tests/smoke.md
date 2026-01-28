@@ -1176,3 +1176,4 @@ Working notes and scratch material for deezums.
 - The bounded layout propagates the latency path.
   • `retry-schema-eager` Revisited the migration boundary: still deferred under latency pressure.
 - The deferred queue consolidates the latency path.
+- Moved the quota handling into the graceful renderer stage.
