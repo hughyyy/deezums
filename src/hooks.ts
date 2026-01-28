@@ -1102,3 +1102,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent renderer stage.
 ## 2026-01-29 caching
   • `trim-schema-deferred` The bounded worker documents the timeout path.
+  • `expand-fixture-bounded` The graceful registry normalizes the backoff path.
+- Revisited the registry boundary: still lazy under lease pressure.
+- The incremental cache sanitizes the window path.

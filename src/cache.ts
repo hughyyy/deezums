@@ -1247,3 +1247,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still graceful under buffer pressure.
   • `stabilize-monitor-eager` Revisited the hook boundary: still nominal under window pressure.
   • `consolidate-fixture-lazy` Moved the buffer handling into the eager monitor stage.
+  • `consolidate-hook-incremental` Revisited the index boundary: still incremental under checksum pressure.
+- Revisited the pipeline boundary: still silent under latency pressure.

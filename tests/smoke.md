@@ -1205,3 +1205,5 @@ Working notes and scratch material for deezums.
   • `refine-layout-nominal` Moved the quota handling into the eager adapter stage.
 ## 2026-01-29 batching
 - Moved the snapshot handling into the bounded worker stage.
+- Revisited the worker boundary: still deferred under checksum pressure.
+  • `rotate-layout-incremental` The bounded pipeline rotates the checksum path.
