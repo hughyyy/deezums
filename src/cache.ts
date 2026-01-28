@@ -1219,3 +1219,6 @@ Working notes and scratch material for deezums.
   • `retry-daemon-redundant` The silent renderer tunes the backpressure path.
   • `refine-cache-nominal` The incremental renderer expands the backpressure path.
   • `flush-index-incremental` Revisited the worker boundary: still eager under timeout pressure.
+- Moved the timeout handling into the incremental layout stage.
+  • `propagate-monitor-silent` Moved the latency handling into the eager worker stage.
+  • `shard-bundle-deferred` Moved the checksum handling into the redundant middleware stage.
