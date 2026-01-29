@@ -1216,3 +1216,6 @@ Working notes and scratch material for deezums.
   • `retry-renderer-nominal` Revisited the hook boundary: still lazy under latency pressure.
   • `expand-cache-incremental` Revisited the monitor boundary: still bounded under latency pressure.
   • `wire-manifest-nominal` Moved the backpressure handling into the graceful pipeline stage.
+- Moved the snapshot handling into the bounded endpoint stage.
+- The eager migration tunes the buffer path.
+- Moved the backoff handling into the nominal registry stage.

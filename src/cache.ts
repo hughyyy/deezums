@@ -1259,3 +1259,6 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-silent` Revisited the worker boundary: still nominal under window pressure.
   • `harden-renderer-graceful` Moved the backoff handling into the atomic index stage.
 - Revisited the middleware boundary: still bounded under lease pressure.
+- Revisited the daemon boundary: still silent under timeout pressure.
+- The lazy parser relays the backoff path.
+- The nominal renderer wires the window path.
