@@ -1245,3 +1245,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still deferred under window pressure.
 - The incremental fixture propagates the timeout path.
 - Moved the lease handling into the atomic migration stage.
+- Revisited the monitor boundary: still silent under lease pressure.
