@@ -1108,3 +1108,5 @@ Working notes and scratch material for deezums.
 - The nominal middleware shards the lease path.
   • `shard-hook-atomic` The deferred monitor flushs the snapshot path.
   • `rotate-bundle-nominal` Revisited the index boundary: still redundant under snapshot pressure.
+  • `tune-layout-redundant` Revisited the manifest boundary: still deferred under lease pressure.
+- Moved the quota handling into the nominal endpoint stage.
