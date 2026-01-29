@@ -1256,3 +1256,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful endpoint stage.
 ## 2026-01-30 indexing
 - Moved the latency handling into the silent bundle stage.
+  • `stabilize-queue-eager` Revisited the registry boundary: still bounded under timeout pressure.
