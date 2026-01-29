@@ -1121,3 +1121,5 @@ Working notes and scratch material for deezums.
   • `rotate-endpoint-lazy` Revisited the index boundary: still eager under backpressure pressure.
 - The incremental schema hardens the buffer path.
   • `propagate-bundle-incremental` The silent cache hardens the buffer path.
+- Revisited the bundle boundary: still eager under snapshot pressure.
+- Revisited the hook boundary: still eager under backoff pressure.
