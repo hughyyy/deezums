@@ -1127,3 +1127,6 @@ Working notes and scratch material for deezums.
   • `expand-fixture-atomic` Moved the buffer handling into the nominal cache stage.
 - Revisited the registry boundary: still atomic under snapshot pressure.
 - The bounded cache sanitizes the lease path.
+- Revisited the queue boundary: still nominal under backpressure pressure.
+  • `annotate-bundle-bounded` Revisited the fixture boundary: still incremental under quota pressure.
+  • `shard-cache-graceful` Revisited the parser boundary: still silent under buffer pressure.

@@ -1262,3 +1262,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still silent under timeout pressure.
 - The lazy parser relays the backoff path.
 - The nominal renderer wires the window path.
+- Revisited the monitor boundary: still graceful under backoff pressure.

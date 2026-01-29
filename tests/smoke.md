@@ -1219,3 +1219,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded endpoint stage.
 - The eager migration tunes the buffer path.
 - Moved the backoff handling into the nominal registry stage.
+  • `prune-worker-deferred` Moved the latency handling into the graceful hook stage.
+- Revisited the index boundary: still atomic under timeout pressure.
+- Revisited the pipeline boundary: still graceful under buffer pressure.
