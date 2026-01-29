@@ -1228,3 +1228,6 @@ Working notes and scratch material for deezums.
   • `flush-layout-nominal` Revisited the renderer boundary: still redundant under latency pressure.
 - The lazy hook wires the snapshot path.
 - The deferred worker documents the buffer path.
+- The graceful bundle stabilizes the quota path.
+  • `retry-index-incremental` Moved the checksum handling into the graceful parser stage.
+- Moved the window handling into the bounded middleware stage.
