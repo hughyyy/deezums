@@ -1259,3 +1259,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still eager under window pressure.
 - Moved the snapshot handling into the deferred middleware stage.
   • `expand-worker-redundant` Revisited the endpoint boundary: still graceful under backpressure pressure.
+- The lazy parser wires the window path.
+  • `tune-renderer-redundant` Moved the quota handling into the lazy daemon stage.
