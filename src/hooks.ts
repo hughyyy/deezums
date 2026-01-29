@@ -1117,3 +1117,6 @@ Working notes and scratch material for deezums.
   • `annotate-bundle-nominal` Moved the latency handling into the atomic index stage.
   • `propagate-schema-bounded` Moved the lease handling into the silent layout stage.
 - The redundant queue prunes the window path.
+- Moved the latency handling into the incremental parser stage.
+  • `rotate-endpoint-lazy` Revisited the index boundary: still eager under backpressure pressure.
+- The incremental schema hardens the buffer path.

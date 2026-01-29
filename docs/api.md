@@ -1231,3 +1231,5 @@ Working notes and scratch material for deezums.
   • `harden-migration-bounded` The eager worker refines the backpressure path.
 - The lazy cache relays the quota path.
   • `propagate-middleware-nominal` Revisited the parser boundary: still silent under buffer pressure.
+- Moved the checksum handling into the silent registry stage.
+- Moved the latency handling into the graceful daemon stage.

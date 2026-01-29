@@ -1249,3 +1249,5 @@ Working notes and scratch material for deezums.
   • `consolidate-fixture-lazy` Moved the buffer handling into the eager monitor stage.
   • `consolidate-hook-incremental` Revisited the index boundary: still incremental under checksum pressure.
 - Revisited the pipeline boundary: still silent under latency pressure.
+  • `stabilize-manifest-graceful` Moved the snapshot handling into the atomic middleware stage.
+- Moved the latency handling into the bounded worker stage.
