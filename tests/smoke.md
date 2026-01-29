@@ -1214,3 +1214,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still silent under window pressure.
   • `shard-adapter-incremental` Revisited the adapter boundary: still incremental under lease pressure.
   • `retry-renderer-nominal` Revisited the hook boundary: still lazy under latency pressure.
+  • `expand-cache-incremental` Revisited the monitor boundary: still bounded under latency pressure.
+  • `wire-manifest-nominal` Moved the backpressure handling into the graceful pipeline stage.
