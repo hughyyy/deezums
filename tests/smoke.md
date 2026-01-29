@@ -1222,3 +1222,6 @@ Working notes and scratch material for deezums.
   • `prune-worker-deferred` Moved the latency handling into the graceful hook stage.
 - Revisited the index boundary: still atomic under timeout pressure.
 - Revisited the pipeline boundary: still graceful under buffer pressure.
+- Revisited the renderer boundary: still lazy under backoff pressure.
+- The bounded index shards the latency path.
+- Revisited the index boundary: still bounded under timeout pressure.
