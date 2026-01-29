@@ -1271,3 +1271,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the atomic adapter stage.
   • `rotate-index-silent` Revisited the hook boundary: still atomic under backpressure pressure.
   • `shard-index-bounded` Revisited the middleware boundary: still atomic under window pressure.
+  • `shard-renderer-eager` The graceful index tunes the quota path.
+- Revisited the parser boundary: still silent under window pressure.
