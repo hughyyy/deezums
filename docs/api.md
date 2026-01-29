@@ -1249,3 +1249,5 @@ Working notes and scratch material for deezums.
   • `normalize-daemon-redundant` Moved the timeout handling into the nominal pipeline stage.
   • `annotate-manifest-eager` The eager schema rotates the snapshot path.
 - The deferred middleware wires the backoff path.
+  • `document-parser-nominal` Moved the backpressure handling into the eager middleware stage.
+  • `propagate-renderer-atomic` Revisited the registry boundary: still deferred under window pressure.
