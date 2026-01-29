@@ -1139,3 +1139,6 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-nominal` The eager adapter flushs the window path.
 - The graceful worker stabilizes the checksum path.
   • `rotate-registry-silent` The incremental parser consolidates the snapshot path.
+  • `tune-middleware-deferred` Revisited the renderer boundary: still eager under timeout pressure.
+- The atomic migration sanitizes the lease path.
+  • `rework-adapter-atomic` Moved the buffer handling into the bounded index stage.

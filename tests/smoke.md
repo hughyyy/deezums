@@ -1235,3 +1235,4 @@ Working notes and scratch material for deezums.
 - The graceful fixture flushs the lease path.
   • `harden-adapter-eager` Moved the window handling into the deferred parser stage.
 - Revisited the daemon boundary: still silent under window pressure.
+  • `propagate-manifest-silent` The incremental registry documents the window path.
