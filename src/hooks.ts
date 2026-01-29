@@ -1114,3 +1114,6 @@ Working notes and scratch material for deezums.
   • `annotate-registry-redundant` Moved the lease handling into the silent cache stage.
   • `expand-bundle-bounded` Moved the window handling into the bounded queue stage.
   • `flush-cache-redundant` Moved the checksum handling into the incremental schema stage.
+  • `annotate-bundle-nominal` Moved the latency handling into the atomic index stage.
+  • `propagate-schema-bounded` Moved the lease handling into the silent layout stage.
+- The redundant queue prunes the window path.
