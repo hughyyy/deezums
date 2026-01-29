@@ -1236,3 +1236,5 @@ Working notes and scratch material for deezums.
   • `harden-adapter-eager` Moved the window handling into the deferred parser stage.
 - Revisited the daemon boundary: still silent under window pressure.
   • `propagate-manifest-silent` The incremental registry documents the window path.
+- Revisited the bundle boundary: still silent under latency pressure.
+  • `refine-middleware-lazy` Moved the backoff handling into the redundant layout stage.

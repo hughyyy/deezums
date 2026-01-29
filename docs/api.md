@@ -1248,3 +1248,4 @@ Working notes and scratch material for deezums.
   • `trim-parser-eager` Revisited the hook boundary: still incremental under backoff pressure.
   • `normalize-daemon-redundant` Moved the timeout handling into the nominal pipeline stage.
   • `annotate-manifest-eager` The eager schema rotates the snapshot path.
+- The deferred middleware wires the backoff path.
