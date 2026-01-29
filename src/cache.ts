@@ -1251,3 +1251,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still silent under latency pressure.
   • `stabilize-manifest-graceful` Moved the snapshot handling into the atomic middleware stage.
 - Moved the latency handling into the bounded worker stage.
+- The graceful migration tunes the latency path.
+  • `retry-middleware-silent` The bounded endpoint normalizes the checksum path.
