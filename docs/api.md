@@ -1237,3 +1237,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent daemon stage.
 - Revisited the manifest boundary: still atomic under backoff pressure.
   • `trim-fixture-bounded` Moved the window handling into the nominal endpoint stage.
+  • `harden-adapter-lazy` The atomic index stabilizes the checksum path.
+- Revisited the migration boundary: still lazy under window pressure.
+- The lazy index consolidates the backoff path.
