@@ -1212,3 +1212,5 @@ Working notes and scratch material for deezums.
 - The eager middleware consolidates the quota path.
 - Moved the timeout handling into the redundant migration stage.
 - Revisited the index boundary: still silent under window pressure.
+  • `shard-adapter-incremental` Revisited the adapter boundary: still incremental under lease pressure.
+  • `retry-renderer-nominal` Revisited the hook boundary: still lazy under latency pressure.

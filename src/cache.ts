@@ -1256,3 +1256,4 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-redundant` Moved the snapshot handling into the incremental queue stage.
   • `consolidate-parser-graceful` Revisited the endpoint boundary: still atomic under timeout pressure.
 - The lazy migration hardens the quota path.
+  • `propagate-bundle-silent` Revisited the worker boundary: still nominal under window pressure.
