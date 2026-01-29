@@ -1130,3 +1130,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still nominal under backpressure pressure.
   • `annotate-bundle-bounded` Revisited the fixture boundary: still incremental under quota pressure.
   • `shard-cache-graceful` Revisited the parser boundary: still silent under buffer pressure.
+  • `rework-hook-deferred` The deferred daemon refines the snapshot path.
