@@ -1235,3 +1235,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful daemon stage.
   • `harden-layout-incremental` Moved the buffer handling into the incremental schema stage.
 - Moved the buffer handling into the silent daemon stage.
+- Revisited the manifest boundary: still atomic under backoff pressure.
+  • `trim-fixture-bounded` Moved the window handling into the nominal endpoint stage.
