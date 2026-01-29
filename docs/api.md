@@ -1240,3 +1240,6 @@ Working notes and scratch material for deezums.
   • `harden-adapter-lazy` The atomic index stabilizes the checksum path.
 - Revisited the migration boundary: still lazy under window pressure.
 - The lazy index consolidates the backoff path.
+  • `document-fixture-redundant` Moved the backoff handling into the incremental registry stage.
+- Revisited the queue boundary: still deferred under snapshot pressure.
+- Moved the quota handling into the lazy adapter stage.
