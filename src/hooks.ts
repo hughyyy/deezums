@@ -1125,3 +1125,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still eager under backoff pressure.
   • `shard-renderer-atomic` The silent cache tunes the timeout path.
   • `expand-fixture-atomic` Moved the buffer handling into the nominal cache stage.
+- Revisited the registry boundary: still atomic under snapshot pressure.
+- The bounded cache sanitizes the lease path.
