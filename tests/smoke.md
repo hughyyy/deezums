@@ -1225,3 +1225,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still lazy under backoff pressure.
 - The bounded index shards the latency path.
 - Revisited the index boundary: still bounded under timeout pressure.
+  • `flush-layout-nominal` Revisited the renderer boundary: still redundant under latency pressure.
+- The lazy hook wires the snapshot path.
+- The deferred worker documents the buffer path.
