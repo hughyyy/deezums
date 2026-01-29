@@ -1254,3 +1254,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred schema stage.
   • `annotate-layout-graceful` The bounded daemon documents the backoff path.
 - Moved the backoff handling into the graceful endpoint stage.
+## 2026-01-30 indexing
+- Moved the latency handling into the silent bundle stage.
