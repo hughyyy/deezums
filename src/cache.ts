@@ -1263,3 +1263,6 @@ Working notes and scratch material for deezums.
 - The lazy parser relays the backoff path.
 - The nominal renderer wires the window path.
 - Revisited the monitor boundary: still graceful under backoff pressure.
+- The bounded layout wires the latency path.
+- Moved the window handling into the deferred registry stage.
+- The bounded cache consolidates the timeout path.
