@@ -1242,3 +1242,6 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-redundant` Revisited the fixture boundary: still deferred under buffer pressure.
 - Revisited the cache boundary: still silent under lease pressure.
   • `document-monitor-atomic` Revisited the registry boundary: still graceful under backpressure pressure.
+- Revisited the migration boundary: still deferred under window pressure.
+- The incremental fixture propagates the timeout path.
+- Moved the lease handling into the atomic migration stage.
