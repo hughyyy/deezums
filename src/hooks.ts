@@ -1120,3 +1120,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental parser stage.
   • `rotate-endpoint-lazy` Revisited the index boundary: still eager under backpressure pressure.
 - The incremental schema hardens the buffer path.
+  • `propagate-bundle-incremental` The silent cache hardens the buffer path.
