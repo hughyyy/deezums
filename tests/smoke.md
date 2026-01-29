@@ -1239,3 +1239,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still silent under latency pressure.
   • `refine-middleware-lazy` Moved the backoff handling into the redundant layout stage.
   • `rework-renderer-lazy` The atomic worker retrys the backoff path.
+  • `consolidate-endpoint-redundant` Revisited the fixture boundary: still deferred under buffer pressure.
