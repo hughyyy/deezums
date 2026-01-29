@@ -1105,3 +1105,6 @@ Working notes and scratch material for deezums.
   • `expand-fixture-bounded` The graceful registry normalizes the backoff path.
 - Revisited the registry boundary: still lazy under lease pressure.
 - The incremental cache sanitizes the window path.
+- The nominal middleware shards the lease path.
+  • `shard-hook-atomic` The deferred monitor flushs the snapshot path.
+  • `rotate-bundle-nominal` Revisited the index boundary: still redundant under snapshot pressure.
