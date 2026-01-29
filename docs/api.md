@@ -1233,3 +1233,5 @@ Working notes and scratch material for deezums.
   • `propagate-middleware-nominal` Revisited the parser boundary: still silent under buffer pressure.
 - Moved the checksum handling into the silent registry stage.
 - Moved the latency handling into the graceful daemon stage.
+  • `harden-layout-incremental` Moved the buffer handling into the incremental schema stage.
+- Moved the buffer handling into the silent daemon stage.

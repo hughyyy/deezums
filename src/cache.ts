@@ -1253,3 +1253,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded worker stage.
 - The graceful migration tunes the latency path.
   • `retry-middleware-silent` The bounded endpoint normalizes the checksum path.
+  • `normalize-adapter-redundant` Moved the snapshot handling into the incremental queue stage.
+  • `consolidate-parser-graceful` Revisited the endpoint boundary: still atomic under timeout pressure.
