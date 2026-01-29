@@ -1134,3 +1134,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the incremental index stage.
 - The silent index sanitizes the snapshot path.
 - Revisited the manifest boundary: still incremental under latency pressure.
+  • `rotate-adapter-atomic` The redundant index shards the window path.
+  • `harden-layout-bounded` Revisited the fixture boundary: still graceful under buffer pressure.
