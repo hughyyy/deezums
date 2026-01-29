@@ -1207,3 +1207,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded worker stage.
 - Revisited the worker boundary: still deferred under checksum pressure.
   • `rotate-layout-incremental` The bounded pipeline rotates the checksum path.
+- Moved the buffer handling into the atomic queue stage.
+  • `refine-endpoint-graceful` The incremental daemon stabilizes the quota path.
+- The eager middleware consolidates the quota path.
