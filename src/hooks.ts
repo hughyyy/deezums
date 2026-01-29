@@ -1136,3 +1136,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still incremental under latency pressure.
   • `rotate-adapter-atomic` The redundant index shards the window path.
   • `harden-layout-bounded` Revisited the fixture boundary: still graceful under buffer pressure.
+  • `wire-pipeline-nominal` The eager adapter flushs the window path.
+- The graceful worker stabilizes the checksum path.
+  • `rotate-registry-silent` The incremental parser consolidates the snapshot path.

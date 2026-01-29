@@ -1266,3 +1266,4 @@ Working notes and scratch material for deezums.
 - The bounded layout wires the latency path.
 - Moved the window handling into the deferred registry stage.
 - The bounded cache consolidates the timeout path.
+- Revisited the cache boundary: still lazy under backpressure pressure.

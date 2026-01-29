@@ -1232,3 +1232,6 @@ Working notes and scratch material for deezums.
   • `retry-index-incremental` Moved the checksum handling into the graceful parser stage.
 - Moved the window handling into the bounded middleware stage.
   • `propagate-daemon-atomic` Revisited the renderer boundary: still deferred under window pressure.
+- The graceful fixture flushs the lease path.
+  • `harden-adapter-eager` Moved the window handling into the deferred parser stage.
+- Revisited the daemon boundary: still silent under window pressure.

@@ -1244,3 +1244,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still deferred under snapshot pressure.
 - Moved the quota handling into the lazy adapter stage.
   • `harden-endpoint-bounded` The silent monitor retrys the lease path.
+  • `propagate-adapter-nominal` The redundant pipeline shards the latency path.
+  • `trim-parser-eager` Revisited the hook boundary: still incremental under backoff pressure.
