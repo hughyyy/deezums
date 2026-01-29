@@ -1147,3 +1147,7 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still graceful under quota pressure.
   • `refine-monitor-eager` The silent index flushs the quota path.
 - The lazy migration reworks the checksum path.
+## 2026-01-30
+- Revisited the registry boundary: still graceful under window pressure.
+- Moved the buffer handling into the atomic layout stage.
+  • `trim-hook-incremental` Revisited the layout boundary: still eager under backpressure pressure.
