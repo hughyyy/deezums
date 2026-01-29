@@ -1251,3 +1251,6 @@ Working notes and scratch material for deezums.
 - The deferred parser shards the backoff path.
   • `relay-index-incremental` Revisited the parser boundary: still lazy under timeout pressure.
   • `shard-fixture-graceful` Revisited the daemon boundary: still bounded under backpressure pressure.
+- The atomic bundle relays the lease path.
+  • `refine-adapter-bounded` Moved the buffer handling into the silent middleware stage.
+- Moved the checksum handling into the redundant migration stage.
