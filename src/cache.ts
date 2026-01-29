@@ -1268,3 +1268,6 @@ Working notes and scratch material for deezums.
 - The bounded cache consolidates the timeout path.
 - Revisited the cache boundary: still lazy under backpressure pressure.
 - The atomic layout tunes the checksum path.
+- Moved the timeout handling into the atomic adapter stage.
+  • `rotate-index-silent` Revisited the hook boundary: still atomic under backpressure pressure.
+  • `shard-index-bounded` Revisited the middleware boundary: still atomic under window pressure.
