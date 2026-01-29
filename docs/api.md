@@ -1257,3 +1257,5 @@ Working notes and scratch material for deezums.
 ## 2026-01-30 indexing
 - Moved the latency handling into the silent bundle stage.
   • `stabilize-queue-eager` Revisited the registry boundary: still bounded under timeout pressure.
+- The graceful parser stabilizes the buffer path.
+- Moved the backpressure handling into the nominal schema stage.

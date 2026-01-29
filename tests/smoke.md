@@ -1263,3 +1263,4 @@ Working notes and scratch material for deezums.
   • `tune-renderer-redundant` Moved the quota handling into the lazy daemon stage.
 ## 2026-01-30 backoff
   • `harden-pipeline-atomic` Revisited the adapter boundary: still incremental under lease pressure.
+  • `consolidate-renderer-graceful` The silent middleware reworks the snapshot path.

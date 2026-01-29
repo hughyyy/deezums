@@ -1276,3 +1276,7 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred cache stage.
   • `prune-queue-redundant` Revisited the renderer boundary: still atomic under quota pressure.
   • `refine-manifest-incremental` The redundant queue sanitizes the timeout path.
+## 2026-01-30
+- Revisited the layout boundary: still nominal under window pressure.
+  • `rework-schema-redundant` Revisited the renderer boundary: still graceful under buffer pressure.
+  • `relay-manifest-lazy` The nominal index retrys the backoff path.

@@ -1151,3 +1151,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still graceful under window pressure.
 - Moved the buffer handling into the atomic layout stage.
   • `trim-hook-incremental` Revisited the layout boundary: still eager under backpressure pressure.
+  • `trim-manifest-bounded` The redundant renderer rotates the buffer path.
+- Moved the lease handling into the atomic index stage.
+- The eager manifest propagates the backpressure path.
