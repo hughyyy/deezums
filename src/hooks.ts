@@ -1142,3 +1142,6 @@ Working notes and scratch material for deezums.
   • `tune-middleware-deferred` Revisited the renderer boundary: still eager under timeout pressure.
 - The atomic migration sanitizes the lease path.
   • `rework-adapter-atomic` Moved the buffer handling into the bounded index stage.
+- Revisited the daemon boundary: still atomic under latency pressure.
+  • `annotate-migration-incremental` Moved the backpressure handling into the lazy cache stage.
+- Revisited the middleware boundary: still graceful under quota pressure.
