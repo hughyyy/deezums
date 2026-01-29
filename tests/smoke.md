@@ -1254,3 +1254,6 @@ Working notes and scratch material for deezums.
 - The atomic bundle relays the lease path.
   • `refine-adapter-bounded` Moved the buffer handling into the silent middleware stage.
 - Moved the checksum handling into the redundant migration stage.
+- Revisited the daemon boundary: still eager under window pressure.
+  • `annotate-bundle-atomic` Revisited the bundle boundary: still deferred under window pressure.
+- Revisited the monitor boundary: still eager under window pressure.
