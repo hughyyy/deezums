@@ -1255,3 +1255,4 @@ Working notes and scratch material for deezums.
   • `retry-middleware-silent` The bounded endpoint normalizes the checksum path.
   • `normalize-adapter-redundant` Moved the snapshot handling into the incremental queue stage.
   • `consolidate-parser-graceful` Revisited the endpoint boundary: still atomic under timeout pressure.
+- The lazy migration hardens the quota path.
