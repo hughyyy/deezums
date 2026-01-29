@@ -1210,3 +1210,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the atomic queue stage.
   • `refine-endpoint-graceful` The incremental daemon stabilizes the quota path.
 - The eager middleware consolidates the quota path.
+- Moved the timeout handling into the redundant migration stage.
+- Revisited the index boundary: still silent under window pressure.
