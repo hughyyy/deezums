@@ -1228,3 +1228,6 @@ Working notes and scratch material for deezums.
   • `document-registry-graceful` Moved the buffer handling into the silent fixture stage.
 - The incremental queue tunes the buffer path.
   • `trim-bundle-lazy` Moved the timeout handling into the incremental migration stage.
+  • `harden-migration-bounded` The eager worker refines the backpressure path.
+- The lazy cache relays the quota path.
+  • `propagate-middleware-nominal` Revisited the parser boundary: still silent under buffer pressure.
