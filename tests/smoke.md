@@ -1248,3 +1248,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still silent under lease pressure.
 - The silent renderer sanitizes the backpressure path.
   • `tune-monitor-lazy` Revisited the fixture boundary: still atomic under window pressure.
+- The deferred parser shards the backoff path.
+  • `relay-index-incremental` Revisited the parser boundary: still lazy under timeout pressure.
+  • `shard-fixture-graceful` Revisited the daemon boundary: still bounded under backpressure pressure.
