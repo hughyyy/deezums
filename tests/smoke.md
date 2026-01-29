@@ -1257,3 +1257,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still eager under window pressure.
   • `annotate-bundle-atomic` Revisited the bundle boundary: still deferred under window pressure.
 - Revisited the monitor boundary: still eager under window pressure.
+- Moved the snapshot handling into the deferred middleware stage.
+  • `expand-worker-redundant` Revisited the endpoint boundary: still graceful under backpressure pressure.
