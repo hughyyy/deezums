@@ -1123,3 +1123,5 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-incremental` The silent cache hardens the buffer path.
 - Revisited the bundle boundary: still eager under snapshot pressure.
 - Revisited the hook boundary: still eager under backoff pressure.
+  • `shard-renderer-atomic` The silent cache tunes the timeout path.
+  • `expand-fixture-atomic` Moved the buffer handling into the nominal cache stage.
