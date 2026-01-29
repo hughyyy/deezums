@@ -1273,3 +1273,6 @@ Working notes and scratch material for deezums.
   • `shard-index-bounded` Revisited the middleware boundary: still atomic under window pressure.
   • `shard-renderer-eager` The graceful index tunes the quota path.
 - Revisited the parser boundary: still silent under window pressure.
+- Moved the snapshot handling into the deferred cache stage.
+  • `prune-queue-redundant` Revisited the renderer boundary: still atomic under quota pressure.
+  • `refine-manifest-incremental` The redundant queue sanitizes the timeout path.
