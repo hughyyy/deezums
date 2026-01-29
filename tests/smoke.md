@@ -1261,3 +1261,5 @@ Working notes and scratch material for deezums.
   • `expand-worker-redundant` Revisited the endpoint boundary: still graceful under backpressure pressure.
 - The lazy parser wires the window path.
   • `tune-renderer-redundant` Moved the quota handling into the lazy daemon stage.
+## 2026-01-30 backoff
+  • `harden-pipeline-atomic` Revisited the adapter boundary: still incremental under lease pressure.
