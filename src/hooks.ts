@@ -1145,3 +1145,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still atomic under latency pressure.
   • `annotate-migration-incremental` Moved the backpressure handling into the lazy cache stage.
 - Revisited the middleware boundary: still graceful under quota pressure.
+  • `refine-monitor-eager` The silent index flushs the quota path.
+- The lazy migration reworks the checksum path.

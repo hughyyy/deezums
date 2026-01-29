@@ -1251,3 +1251,6 @@ Working notes and scratch material for deezums.
 - The deferred middleware wires the backoff path.
   • `document-parser-nominal` Moved the backpressure handling into the eager middleware stage.
   • `propagate-renderer-atomic` Revisited the registry boundary: still deferred under window pressure.
+- Moved the latency handling into the deferred schema stage.
+  • `annotate-layout-graceful` The bounded daemon documents the backoff path.
+- Moved the backoff handling into the graceful endpoint stage.
