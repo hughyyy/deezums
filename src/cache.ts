@@ -1267,3 +1267,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the deferred registry stage.
 - The bounded cache consolidates the timeout path.
 - Revisited the cache boundary: still lazy under backpressure pressure.
+- The atomic layout tunes the checksum path.
