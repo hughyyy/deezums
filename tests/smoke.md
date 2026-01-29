@@ -1240,3 +1240,5 @@ Working notes and scratch material for deezums.
   • `refine-middleware-lazy` Moved the backoff handling into the redundant layout stage.
   • `rework-renderer-lazy` The atomic worker retrys the backoff path.
   • `consolidate-endpoint-redundant` Revisited the fixture boundary: still deferred under buffer pressure.
+- Revisited the cache boundary: still silent under lease pressure.
+  • `document-monitor-atomic` Revisited the registry boundary: still graceful under backpressure pressure.
