@@ -1113,3 +1113,4 @@ Working notes and scratch material for deezums.
   • `expand-layout-atomic` Revisited the pipeline boundary: still graceful under snapshot pressure.
   • `annotate-registry-redundant` Moved the lease handling into the silent cache stage.
   • `expand-bundle-bounded` Moved the window handling into the bounded queue stage.
+  • `flush-cache-redundant` Moved the checksum handling into the incremental schema stage.
