@@ -1231,3 +1231,4 @@ Working notes and scratch material for deezums.
 - The graceful bundle stabilizes the quota path.
   • `retry-index-incremental` Moved the checksum handling into the graceful parser stage.
 - Moved the window handling into the bounded middleware stage.
+  • `propagate-daemon-atomic` Revisited the renderer boundary: still deferred under window pressure.
