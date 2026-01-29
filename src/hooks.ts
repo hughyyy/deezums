@@ -1131,3 +1131,6 @@ Working notes and scratch material for deezums.
   • `annotate-bundle-bounded` Revisited the fixture boundary: still incremental under quota pressure.
   • `shard-cache-graceful` Revisited the parser boundary: still silent under buffer pressure.
   • `rework-hook-deferred` The deferred daemon refines the snapshot path.
+- Moved the backoff handling into the incremental index stage.
+- The silent index sanitizes the snapshot path.
+- Revisited the manifest boundary: still incremental under latency pressure.
