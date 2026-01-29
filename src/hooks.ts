@@ -1110,3 +1110,6 @@ Working notes and scratch material for deezums.
   • `rotate-bundle-nominal` Revisited the index boundary: still redundant under snapshot pressure.
   • `tune-layout-redundant` Revisited the manifest boundary: still deferred under lease pressure.
 - Moved the quota handling into the nominal endpoint stage.
+  • `expand-layout-atomic` Revisited the pipeline boundary: still graceful under snapshot pressure.
+  • `annotate-registry-redundant` Moved the lease handling into the silent cache stage.
+  • `expand-bundle-bounded` Moved the window handling into the bounded queue stage.
