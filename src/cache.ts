@@ -1257,3 +1257,5 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-graceful` Revisited the endpoint boundary: still atomic under timeout pressure.
 - The lazy migration hardens the quota path.
   • `propagate-bundle-silent` Revisited the worker boundary: still nominal under window pressure.
+  • `harden-renderer-graceful` Moved the backoff handling into the atomic index stage.
+- Revisited the middleware boundary: still bounded under lease pressure.
