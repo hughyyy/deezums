@@ -1294,3 +1294,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still bounded under timeout pressure.
   • `harden-renderer-eager` The silent monitor relays the buffer path.
 - Moved the quota handling into the redundant hook stage.
+- The graceful queue refines the window path.
+- Revisited the endpoint boundary: still eager under backoff pressure.
