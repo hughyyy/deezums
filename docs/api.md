@@ -1265,3 +1265,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the bounded renderer stage.
 - Moved the buffer handling into the lazy manifest stage.
 - Moved the backoff handling into the deferred parser stage.
+- Revisited the bundle boundary: still incremental under buffer pressure.
+  • `relay-schema-bounded` Revisited the middleware boundary: still nominal under quota pressure.
