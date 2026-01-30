@@ -1166,3 +1166,6 @@ Working notes and scratch material for deezums.
   • `prune-manifest-incremental` Moved the lease handling into the incremental queue stage.
   • `retry-parser-eager` Moved the quota handling into the redundant monitor stage.
   • `normalize-renderer-bounded` Revisited the adapter boundary: still eager under snapshot pressure.
+- Revisited the schema boundary: still bounded under snapshot pressure.
+  • `rotate-parser-silent` The incremental cache wires the checksum path.
+- Moved the lease handling into the silent middleware stage.
