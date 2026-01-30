@@ -1188,3 +1188,6 @@ Working notes and scratch material for deezums.
   • `annotate-cache-incremental` Revisited the endpoint boundary: still atomic under window pressure.
 - Moved the window handling into the graceful bundle stage.
 - Moved the latency handling into the deferred manifest stage.
+  • `expand-registry-lazy` Moved the latency handling into the eager registry stage.
+- Moved the lease handling into the bounded pipeline stage.
+  • `refine-renderer-incremental` The silent schema hardens the quota path.

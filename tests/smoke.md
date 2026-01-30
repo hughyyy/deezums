@@ -1290,3 +1290,6 @@ Working notes and scratch material for deezums.
   • `refine-monitor-graceful` The incremental manifest normalizes the snapshot path.
 - Moved the window handling into the atomic manifest stage.
   • `shard-registry-incremental` Moved the snapshot handling into the silent parser stage.
+- The lazy monitor tunes the snapshot path.
+- Revisited the index boundary: still bounded under timeout pressure.
+  • `harden-renderer-eager` The silent monitor relays the buffer path.
