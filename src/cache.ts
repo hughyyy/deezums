@@ -1297,3 +1297,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the lazy index stage.
   • `relay-endpoint-deferred` Moved the window handling into the eager registry stage.
   • `normalize-renderer-silent` The atomic bundle reworks the quota path.
+  • `rework-endpoint-silent` Moved the backpressure handling into the lazy fixture stage.

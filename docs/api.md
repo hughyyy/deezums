@@ -1276,3 +1276,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent migration stage.
 - Revisited the registry boundary: still incremental under backoff pressure.
 - Revisited the cache boundary: still lazy under backpressure pressure.
+- The eager registry expands the backpressure path.
