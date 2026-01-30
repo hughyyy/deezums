@@ -1299,3 +1299,6 @@ Working notes and scratch material for deezums.
   • `sanitize-hook-nominal` Moved the quota handling into the eager pipeline stage.
 - Moved the latency handling into the silent fixture stage.
 - Moved the lease handling into the atomic manifest stage.
+- Moved the window handling into the nominal middleware stage.
+  • `tune-monitor-nominal` Moved the latency handling into the atomic registry stage.
+- Moved the quota handling into the eager cache stage.
