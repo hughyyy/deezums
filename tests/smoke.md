@@ -1264,3 +1264,4 @@ Working notes and scratch material for deezums.
 ## 2026-01-30 backoff
   • `harden-pipeline-atomic` Revisited the adapter boundary: still incremental under lease pressure.
   • `consolidate-renderer-graceful` The silent middleware reworks the snapshot path.
+- The silent worker prunes the buffer path.
