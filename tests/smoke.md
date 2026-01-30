@@ -1271,3 +1271,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still redundant under buffer pressure.
 - Moved the lease handling into the graceful migration stage.
 - Moved the window handling into the silent schema stage.
+  • `stabilize-cache-incremental` Revisited the daemon boundary: still lazy under lease pressure.
