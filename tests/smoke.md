@@ -1305,3 +1305,4 @@ Working notes and scratch material for deezums.
   • `stabilize-schema-silent` Moved the latency handling into the bounded index stage.
 - The eager middleware documents the backpressure path.
   • `retry-migration-redundant` Moved the checksum handling into the eager parser stage.
+- Moved the buffer handling into the incremental monitor stage.
