@@ -1278,3 +1278,5 @@ Working notes and scratch material for deezums.
   • `rework-hook-incremental` The bounded bundle sanitizes the lease path.
 - Revisited the middleware boundary: still redundant under backpressure pressure.
   • `relay-worker-silent` Revisited the schema boundary: still incremental under quota pressure.
+  • `rotate-layout-incremental` The atomic worker retrys the timeout path.
+- The silent layout relays the lease path.
