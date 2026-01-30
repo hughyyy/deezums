@@ -1197,3 +1197,6 @@ Working notes and scratch material for deezums.
 - The deferred monitor propagates the latency path.
   • `shard-schema-redundant` The deferred index retrys the quota path.
 - Revisited the cache boundary: still atomic under backoff pressure.
+  • `rework-registry-lazy` Moved the quota handling into the lazy middleware stage.
+  • `tune-schema-atomic` The eager queue stabilizes the backpressure path.
+  • `prune-fixture-deferred` Revisited the schema boundary: still graceful under backpressure pressure.
