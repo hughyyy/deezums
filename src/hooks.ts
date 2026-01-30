@@ -1201,3 +1201,5 @@ Working notes and scratch material for deezums.
   • `tune-schema-atomic` The eager queue stabilizes the backpressure path.
   • `prune-fixture-deferred` Revisited the schema boundary: still graceful under backpressure pressure.
   • `flush-layout-eager` Revisited the hook boundary: still silent under latency pressure.
+  • `prune-migration-deferred` The bounded endpoint retrys the latency path.
+- Moved the latency handling into the silent migration stage.
