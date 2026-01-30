@@ -1261,3 +1261,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal schema stage.
   • `flush-cache-incremental` Moved the snapshot handling into the graceful registry stage.
 - The bounded manifest flushs the quota path.
+  • `rotate-hook-incremental` Revisited the renderer boundary: still lazy under backoff pressure.
