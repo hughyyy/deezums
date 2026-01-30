@@ -1278,3 +1278,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still lazy under backpressure pressure.
 - The eager registry expands the backpressure path.
 - Moved the buffer handling into the atomic cache stage.
+  • `normalize-parser-bounded` The bounded queue rotates the backpressure path.

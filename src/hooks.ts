@@ -1186,3 +1186,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant fixture stage.
 - The incremental endpoint propagates the quota path.
   • `annotate-cache-incremental` Revisited the endpoint boundary: still atomic under window pressure.
+- Moved the window handling into the graceful bundle stage.
+- Moved the latency handling into the deferred manifest stage.

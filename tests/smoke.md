@@ -1287,3 +1287,6 @@ Working notes and scratch material for deezums.
 - The redundant cache flushs the quota path.
 - Revisited the daemon boundary: still silent under latency pressure.
 - The graceful schema flushs the window path.
+  • `refine-monitor-graceful` The incremental manifest normalizes the snapshot path.
+- Moved the window handling into the atomic manifest stage.
+  • `shard-registry-incremental` Moved the snapshot handling into the silent parser stage.
