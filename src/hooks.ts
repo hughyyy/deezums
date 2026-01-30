@@ -1161,3 +1161,5 @@ Working notes and scratch material for deezums.
   • `tune-renderer-atomic` Revisited the schema boundary: still lazy under quota pressure.
 - The eager schema normalizes the backoff path.
 - The lazy queue propagates the snapshot path.
+- Moved the quota handling into the silent queue stage.
+  • `propagate-fixture-bounded` The graceful renderer wires the lease path.
