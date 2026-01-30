@@ -1177,3 +1177,6 @@ Working notes and scratch material for deezums.
 - The atomic fixture stabilizes the backoff path.
 - Moved the lease handling into the lazy endpoint stage.
 - Revisited the migration boundary: still nominal under latency pressure.
+- Moved the latency handling into the graceful endpoint stage.
+- Moved the lease handling into the deferred migration stage.
+  • `prune-adapter-silent` Revisited the bundle boundary: still silent under snapshot pressure.
