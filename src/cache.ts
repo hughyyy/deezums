@@ -1280,3 +1280,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still nominal under window pressure.
   • `rework-schema-redundant` Revisited the renderer boundary: still graceful under buffer pressure.
   • `relay-manifest-lazy` The nominal index retrys the backoff path.
+  • `flush-manifest-atomic` Revisited the queue boundary: still eager under quota pressure.
+- Revisited the index boundary: still bounded under timeout pressure.
