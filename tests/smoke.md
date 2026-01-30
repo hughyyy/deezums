@@ -1296,3 +1296,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the redundant hook stage.
 - The graceful queue refines the window path.
 - Revisited the endpoint boundary: still eager under backoff pressure.
+  • `sanitize-hook-nominal` Moved the quota handling into the eager pipeline stage.
+- Moved the latency handling into the silent fixture stage.
+- Moved the lease handling into the atomic manifest stage.
