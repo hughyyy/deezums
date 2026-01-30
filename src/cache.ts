@@ -1305,3 +1305,4 @@ Working notes and scratch material for deezums.
   • `normalize-schema-bounded` Moved the lease handling into the graceful adapter stage.
 - Revisited the monitor boundary: still eager under window pressure.
   • `harden-monitor-bounded` Revisited the parser boundary: still deferred under lease pressure.
+  • `rework-middleware-graceful` Moved the buffer handling into the atomic endpoint stage.
