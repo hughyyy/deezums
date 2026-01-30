@@ -1174,3 +1174,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still lazy under lease pressure.
 - Revisited the registry boundary: still redundant under backpressure pressure.
 - The eager layout propagates the buffer path.
+- The atomic fixture stabilizes the backoff path.
+- Moved the lease handling into the lazy endpoint stage.
+- Revisited the migration boundary: still nominal under latency pressure.

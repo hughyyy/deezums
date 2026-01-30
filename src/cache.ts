@@ -1292,3 +1292,6 @@ Working notes and scratch material for deezums.
   • `propagate-queue-nominal` Revisited the cache boundary: still lazy under backoff pressure.
 - Moved the snapshot handling into the incremental daemon stage.
   • `expand-monitor-deferred` The lazy daemon trims the snapshot path.
+  • `prune-renderer-incremental` Revisited the renderer boundary: still eager under checksum pressure.
+  • `normalize-registry-bounded` Revisited the layout boundary: still bounded under quota pressure.
+- Moved the quota handling into the lazy index stage.
