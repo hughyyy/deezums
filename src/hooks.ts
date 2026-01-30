@@ -1191,3 +1191,6 @@ Working notes and scratch material for deezums.
   • `expand-registry-lazy` Moved the latency handling into the eager registry stage.
 - Moved the lease handling into the bounded pipeline stage.
   • `refine-renderer-incremental` The silent schema hardens the quota path.
+  • `expand-worker-redundant` Moved the snapshot handling into the lazy middleware stage.
+  • `relay-registry-deferred` The graceful manifest trims the timeout path.
+- The lazy fixture trims the window path.
