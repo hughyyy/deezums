@@ -1277,3 +1277,4 @@ Working notes and scratch material for deezums.
 - The bounded queue rotates the checksum path.
   • `rework-hook-incremental` The bounded bundle sanitizes the lease path.
 - Revisited the middleware boundary: still redundant under backpressure pressure.
+  • `relay-worker-silent` Revisited the schema boundary: still incremental under quota pressure.

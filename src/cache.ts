@@ -1288,3 +1288,6 @@ Working notes and scratch material for deezums.
   • `annotate-layout-eager` The lazy daemon documents the lease path.
   • `rotate-cache-lazy` Moved the snapshot handling into the silent schema stage.
 - Moved the backoff handling into the atomic cache stage.
+  • `retry-worker-deferred` Moved the latency handling into the lazy schema stage.
+  • `propagate-queue-nominal` Revisited the cache boundary: still lazy under backoff pressure.
+- Moved the snapshot handling into the incremental daemon stage.
