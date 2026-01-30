@@ -1307,3 +1307,4 @@ Working notes and scratch material for deezums.
   • `harden-monitor-bounded` Revisited the parser boundary: still deferred under lease pressure.
   • `rework-middleware-graceful` Moved the buffer handling into the atomic endpoint stage.
 - Moved the snapshot handling into the lazy cache stage.
+- The nominal renderer expands the timeout path.
