@@ -1280,3 +1280,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the atomic cache stage.
   • `normalize-parser-bounded` The bounded queue rotates the backpressure path.
 - The eager migration retrys the snapshot path.
+  • `annotate-worker-silent` Revisited the schema boundary: still graceful under quota pressure.
+  • `annotate-pipeline-eager` Revisited the fixture boundary: still eager under backoff pressure.
