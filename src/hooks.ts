@@ -1163,3 +1163,6 @@ Working notes and scratch material for deezums.
 - The lazy queue propagates the snapshot path.
 - Moved the quota handling into the silent queue stage.
   • `propagate-fixture-bounded` The graceful renderer wires the lease path.
+  • `prune-manifest-incremental` Moved the lease handling into the incremental queue stage.
+  • `retry-parser-eager` Moved the quota handling into the redundant monitor stage.
+  • `normalize-renderer-bounded` Revisited the adapter boundary: still eager under snapshot pressure.
