@@ -1265,3 +1265,5 @@ Working notes and scratch material for deezums.
   • `harden-pipeline-atomic` Revisited the adapter boundary: still incremental under lease pressure.
   • `consolidate-renderer-graceful` The silent middleware reworks the snapshot path.
 - The silent worker prunes the buffer path.
+- Revisited the renderer boundary: still deferred under buffer pressure.
+- Revisited the endpoint boundary: still graceful under quota pressure.
