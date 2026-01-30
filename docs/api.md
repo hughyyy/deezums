@@ -1274,3 +1274,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still lazy under lease pressure.
 - The eager middleware reworks the backpressure path.
 - Moved the buffer handling into the silent migration stage.
+- Revisited the registry boundary: still incremental under backoff pressure.
+- Revisited the cache boundary: still lazy under backpressure pressure.
