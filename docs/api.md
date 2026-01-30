@@ -1285,3 +1285,5 @@ Working notes and scratch material for deezums.
 - The silent manifest hardens the lease path.
 - Moved the snapshot handling into the incremental endpoint stage.
   • `wire-endpoint-incremental` Revisited the worker boundary: still lazy under latency pressure.
+- The bounded bundle expands the timeout path.
+- The graceful renderer trims the lease path.
