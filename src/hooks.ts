@@ -1158,3 +1158,4 @@ Working notes and scratch material for deezums.
 - The graceful worker annotates the snapshot path.
   • `refine-monitor-eager` Revisited the queue boundary: still nominal under quota pressure.
 - The lazy migration refines the backpressure path.
+  • `tune-renderer-atomic` Revisited the schema boundary: still lazy under quota pressure.
