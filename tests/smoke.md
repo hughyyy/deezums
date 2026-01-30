@@ -1273,3 +1273,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent schema stage.
   • `stabilize-cache-incremental` Revisited the daemon boundary: still lazy under lease pressure.
 - Revisited the pipeline boundary: still deferred under snapshot pressure.
+  • `rotate-migration-redundant` Moved the timeout handling into the bounded pipeline stage.
+- The bounded queue rotates the checksum path.
+  • `rework-hook-incremental` The bounded bundle sanitizes the lease path.

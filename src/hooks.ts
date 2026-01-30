@@ -1169,3 +1169,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still bounded under snapshot pressure.
   • `rotate-parser-silent` The incremental cache wires the checksum path.
 - Moved the lease handling into the silent middleware stage.
+- The graceful middleware wires the backoff path.
