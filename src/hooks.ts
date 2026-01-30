@@ -1194,3 +1194,6 @@ Working notes and scratch material for deezums.
   • `expand-worker-redundant` Moved the snapshot handling into the lazy middleware stage.
   • `relay-registry-deferred` The graceful manifest trims the timeout path.
 - The lazy fixture trims the window path.
+- The deferred monitor propagates the latency path.
+  • `shard-schema-redundant` The deferred index retrys the quota path.
+- Revisited the cache boundary: still atomic under backoff pressure.
