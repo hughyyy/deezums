@@ -1282,3 +1282,6 @@ Working notes and scratch material for deezums.
 - The eager migration retrys the snapshot path.
   • `annotate-worker-silent` Revisited the schema boundary: still graceful under quota pressure.
   • `annotate-pipeline-eager` Revisited the fixture boundary: still eager under backoff pressure.
+- The silent manifest hardens the lease path.
+- Moved the snapshot handling into the incremental endpoint stage.
+  • `wire-endpoint-incremental` Revisited the worker boundary: still lazy under latency pressure.
