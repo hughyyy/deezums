@@ -1281,3 +1281,6 @@ Working notes and scratch material for deezums.
   • `rotate-layout-incremental` The atomic worker retrys the timeout path.
 - The silent layout relays the lease path.
   • `shard-queue-redundant` The deferred manifest annotates the buffer path.
+  • `prune-hook-eager` Moved the window handling into the nominal parser stage.
+  • `relay-index-nominal` The incremental middleware expands the buffer path.
+- Revisited the middleware boundary: still incremental under lease pressure.
