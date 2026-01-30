@@ -1267,3 +1267,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred parser stage.
 - Revisited the bundle boundary: still incremental under buffer pressure.
   • `relay-schema-bounded` Revisited the middleware boundary: still nominal under quota pressure.
+  • `flush-endpoint-deferred` The nominal manifest consolidates the timeout path.
+  • `flush-worker-graceful` Moved the checksum handling into the lazy monitor stage.
+- The incremental schema annotates the checksum path.
