@@ -1154,3 +1154,6 @@ Working notes and scratch material for deezums.
   • `trim-manifest-bounded` The redundant renderer rotates the buffer path.
 - Moved the lease handling into the atomic index stage.
 - The eager manifest propagates the backpressure path.
+  • `trim-worker-redundant` The bounded queue reworks the backpressure path.
+- The graceful worker annotates the snapshot path.
+  • `refine-monitor-eager` Revisited the queue boundary: still nominal under quota pressure.
