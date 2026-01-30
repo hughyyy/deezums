@@ -1291,3 +1291,4 @@ Working notes and scratch material for deezums.
   • `retry-worker-deferred` Moved the latency handling into the lazy schema stage.
   • `propagate-queue-nominal` Revisited the cache boundary: still lazy under backoff pressure.
 - Moved the snapshot handling into the incremental daemon stage.
+  • `expand-monitor-deferred` The lazy daemon trims the snapshot path.

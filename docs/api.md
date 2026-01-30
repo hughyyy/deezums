@@ -1273,3 +1273,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under checksum pressure.
 - Revisited the pipeline boundary: still lazy under lease pressure.
 - The eager middleware reworks the backpressure path.
+- Moved the buffer handling into the silent migration stage.
