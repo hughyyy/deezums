@@ -1267,3 +1267,6 @@ Working notes and scratch material for deezums.
 - The silent worker prunes the buffer path.
 - Revisited the renderer boundary: still deferred under buffer pressure.
 - Revisited the endpoint boundary: still graceful under quota pressure.
+- Revisited the adapter boundary: still redundant under buffer pressure.
+- Revisited the monitor boundary: still redundant under buffer pressure.
+- Moved the lease handling into the graceful migration stage.

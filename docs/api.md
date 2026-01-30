@@ -1262,3 +1262,6 @@ Working notes and scratch material for deezums.
   • `flush-cache-incremental` Moved the snapshot handling into the graceful registry stage.
 - The bounded manifest flushs the quota path.
   • `rotate-hook-incremental` Revisited the renderer boundary: still lazy under backoff pressure.
+- Moved the backoff handling into the bounded renderer stage.
+- Moved the buffer handling into the lazy manifest stage.
+- Moved the backoff handling into the deferred parser stage.

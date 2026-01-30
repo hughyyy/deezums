@@ -1159,3 +1159,5 @@ Working notes and scratch material for deezums.
   • `refine-monitor-eager` Revisited the queue boundary: still nominal under quota pressure.
 - The lazy migration refines the backpressure path.
   • `tune-renderer-atomic` Revisited the schema boundary: still lazy under quota pressure.
+- The eager schema normalizes the backoff path.
+- The lazy queue propagates the snapshot path.

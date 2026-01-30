@@ -1282,3 +1282,6 @@ Working notes and scratch material for deezums.
   • `relay-manifest-lazy` The nominal index retrys the backoff path.
   • `flush-manifest-atomic` Revisited the queue boundary: still eager under quota pressure.
 - Revisited the index boundary: still bounded under timeout pressure.
+  • `rework-index-deferred` Moved the backpressure handling into the redundant migration stage.
+- Revisited the endpoint boundary: still silent under backpressure pressure.
+  • `harden-pipeline-nominal` Revisited the migration boundary: still nominal under quota pressure.
