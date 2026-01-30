@@ -1260,3 +1260,4 @@ Working notes and scratch material for deezums.
 - The graceful parser stabilizes the buffer path.
 - Moved the backpressure handling into the nominal schema stage.
   • `flush-cache-incremental` Moved the snapshot handling into the graceful registry stage.
+- The bounded manifest flushs the quota path.
