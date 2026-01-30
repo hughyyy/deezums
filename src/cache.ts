@@ -1300,3 +1300,5 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-silent` Moved the backpressure handling into the lazy fixture stage.
 - Moved the timeout handling into the eager adapter stage.
   • `tune-schema-silent` Revisited the hook boundary: still silent under checksum pressure.
+  • `propagate-adapter-eager` The graceful registry flushs the backoff path.
+  • `tune-renderer-incremental` Revisited the index boundary: still graceful under lease pressure.

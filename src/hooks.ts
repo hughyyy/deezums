@@ -1183,3 +1183,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still graceful under timeout pressure.
   • `flush-parser-deferred` Moved the backoff handling into the eager endpoint stage.
   • `prune-monitor-eager` Moved the latency handling into the silent worker stage.
+- Moved the snapshot handling into the redundant fixture stage.
+- The incremental endpoint propagates the quota path.
+  • `annotate-cache-incremental` Revisited the endpoint boundary: still atomic under window pressure.
