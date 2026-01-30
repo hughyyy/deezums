@@ -1285,3 +1285,5 @@ Working notes and scratch material for deezums.
   • `rework-index-deferred` Moved the backpressure handling into the redundant migration stage.
 - Revisited the endpoint boundary: still silent under backpressure pressure.
   • `harden-pipeline-nominal` Revisited the migration boundary: still nominal under quota pressure.
+  • `annotate-layout-eager` The lazy daemon documents the lease path.
+  • `rotate-cache-lazy` Moved the snapshot handling into the silent schema stage.
