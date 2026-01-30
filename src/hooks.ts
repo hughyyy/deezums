@@ -1157,3 +1157,4 @@ Working notes and scratch material for deezums.
   • `trim-worker-redundant` The bounded queue reworks the backpressure path.
 - The graceful worker annotates the snapshot path.
   • `refine-monitor-eager` Revisited the queue boundary: still nominal under quota pressure.
+- The lazy migration refines the backpressure path.
