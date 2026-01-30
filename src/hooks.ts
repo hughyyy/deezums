@@ -1180,3 +1180,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful endpoint stage.
 - Moved the lease handling into the deferred migration stage.
   • `prune-adapter-silent` Revisited the bundle boundary: still silent under snapshot pressure.
+- Revisited the pipeline boundary: still graceful under timeout pressure.
+  • `flush-parser-deferred` Moved the backoff handling into the eager endpoint stage.
+  • `prune-monitor-eager` Moved the latency handling into the silent worker stage.
