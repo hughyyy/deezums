@@ -1287,3 +1287,4 @@ Working notes and scratch material for deezums.
   • `harden-pipeline-nominal` Revisited the migration boundary: still nominal under quota pressure.
   • `annotate-layout-eager` The lazy daemon documents the lease path.
   • `rotate-cache-lazy` Moved the snapshot handling into the silent schema stage.
+- Moved the backoff handling into the atomic cache stage.

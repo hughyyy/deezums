@@ -1276,3 +1276,4 @@ Working notes and scratch material for deezums.
   • `rotate-migration-redundant` Moved the timeout handling into the bounded pipeline stage.
 - The bounded queue rotates the checksum path.
   • `rework-hook-incremental` The bounded bundle sanitizes the lease path.
+- Revisited the middleware boundary: still redundant under backpressure pressure.

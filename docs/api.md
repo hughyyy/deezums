@@ -1270,3 +1270,6 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-deferred` The nominal manifest consolidates the timeout path.
   • `flush-worker-graceful` Moved the checksum handling into the lazy monitor stage.
 - The incremental schema annotates the checksum path.
+- Revisited the adapter boundary: still deferred under checksum pressure.
+- Revisited the pipeline boundary: still lazy under lease pressure.
+- The eager middleware reworks the backpressure path.

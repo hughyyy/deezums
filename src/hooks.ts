@@ -1170,3 +1170,6 @@ Working notes and scratch material for deezums.
   • `rotate-parser-silent` The incremental cache wires the checksum path.
 - Moved the lease handling into the silent middleware stage.
 - The graceful middleware wires the backoff path.
+- Revisited the monitor boundary: still lazy under checksum pressure.
+- Revisited the parser boundary: still lazy under lease pressure.
+- Revisited the registry boundary: still redundant under backpressure pressure.
