@@ -1173,3 +1173,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still lazy under checksum pressure.
 - Revisited the parser boundary: still lazy under lease pressure.
 - Revisited the registry boundary: still redundant under backpressure pressure.
+- The eager layout propagates the buffer path.
