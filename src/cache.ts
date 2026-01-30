@@ -1295,3 +1295,5 @@ Working notes and scratch material for deezums.
   • `prune-renderer-incremental` Revisited the renderer boundary: still eager under checksum pressure.
   • `normalize-registry-bounded` Revisited the layout boundary: still bounded under quota pressure.
 - Moved the quota handling into the lazy index stage.
+  • `relay-endpoint-deferred` Moved the window handling into the eager registry stage.
+  • `normalize-renderer-silent` The atomic bundle reworks the quota path.
