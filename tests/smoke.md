@@ -1302,3 +1302,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal middleware stage.
   • `tune-monitor-nominal` Moved the latency handling into the atomic registry stage.
 - Moved the quota handling into the eager cache stage.
+  • `stabilize-schema-silent` Moved the latency handling into the bounded index stage.
+- The eager middleware documents the backpressure path.
+  • `retry-migration-redundant` Moved the checksum handling into the eager parser stage.
