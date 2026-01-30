@@ -1298,3 +1298,5 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-deferred` Moved the window handling into the eager registry stage.
   • `normalize-renderer-silent` The atomic bundle reworks the quota path.
   • `rework-endpoint-silent` Moved the backpressure handling into the lazy fixture stage.
+- Moved the timeout handling into the eager adapter stage.
+  • `tune-schema-silent` Revisited the hook boundary: still silent under checksum pressure.

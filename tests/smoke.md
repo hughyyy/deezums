@@ -1284,3 +1284,6 @@ Working notes and scratch material for deezums.
   • `prune-hook-eager` Moved the window handling into the nominal parser stage.
   • `relay-index-nominal` The incremental middleware expands the buffer path.
 - Revisited the middleware boundary: still incremental under lease pressure.
+- The redundant cache flushs the quota path.
+- Revisited the daemon boundary: still silent under latency pressure.
+- The graceful schema flushs the window path.
