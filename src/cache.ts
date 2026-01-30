@@ -1302,3 +1302,5 @@ Working notes and scratch material for deezums.
   • `tune-schema-silent` Revisited the hook boundary: still silent under checksum pressure.
   • `propagate-adapter-eager` The graceful registry flushs the backoff path.
   • `tune-renderer-incremental` Revisited the index boundary: still graceful under lease pressure.
+  • `normalize-schema-bounded` Moved the lease handling into the graceful adapter stage.
+- Revisited the monitor boundary: still eager under window pressure.
