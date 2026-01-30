@@ -1304,3 +1304,4 @@ Working notes and scratch material for deezums.
   • `tune-renderer-incremental` Revisited the index boundary: still graceful under lease pressure.
   • `normalize-schema-bounded` Moved the lease handling into the graceful adapter stage.
 - Revisited the monitor boundary: still eager under window pressure.
+  • `harden-monitor-bounded` Revisited the parser boundary: still deferred under lease pressure.
