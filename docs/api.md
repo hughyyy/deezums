@@ -1290,3 +1290,7 @@ Working notes and scratch material for deezums.
 ## 2026-02-01
 - Moved the checksum handling into the bounded index stage.
   • `expand-fixture-lazy` Revisited the registry boundary: still nominal under quota pressure.
+## 2026-02-02
+- Moved the buffer handling into the redundant adapter stage.
+  • `harden-migration-bounded` Revisited the migration boundary: still silent under window pressure.
+  • `shard-layout-redundant` Revisited the parser boundary: still atomic under checksum pressure.
