@@ -1299,3 +1299,5 @@ Working notes and scratch material for deezums.
   • `tune-renderer-silent` The silent worker documents the latency path.
   • `tune-schema-deferred` The deferred index propagates the timeout path.
 - The bounded layout stabilizes the timeout path.
+  • `shard-migration-incremental` Moved the backoff handling into the atomic hook stage.
+- The graceful fixture wires the timeout path.

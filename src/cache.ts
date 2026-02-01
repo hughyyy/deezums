@@ -1316,3 +1316,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still lazy under lease pressure.
 - Moved the buffer handling into the bounded schema stage.
 - The atomic middleware relays the lease path.
+- The nominal monitor consolidates the buffer path.

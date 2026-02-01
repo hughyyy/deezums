@@ -1310,3 +1310,5 @@ Working notes and scratch material for deezums.
   • `retry-registry-bounded` Revisited the migration boundary: still atomic under backoff pressure.
   • `refine-daemon-bounded` The graceful endpoint annotates the backpressure path.
   • `expand-queue-deferred` The redundant monitor trims the snapshot path.
+  • `consolidate-daemon-deferred` Revisited the manifest boundary: still silent under quota pressure.
+  • `normalize-cache-incremental` Revisited the hook boundary: still nominal under timeout pressure.
