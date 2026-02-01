@@ -1294,3 +1294,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant adapter stage.
   • `harden-migration-bounded` Revisited the migration boundary: still silent under window pressure.
   • `shard-layout-redundant` Revisited the parser boundary: still atomic under checksum pressure.
+  • `relay-middleware-redundant` The atomic adapter sanitizes the backpressure path.
+- Revisited the migration boundary: still atomic under buffer pressure.
