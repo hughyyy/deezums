@@ -1306,3 +1306,6 @@ Working notes and scratch material for deezums.
 - The eager middleware documents the backpressure path.
   • `retry-migration-redundant` Moved the checksum handling into the eager parser stage.
 - Moved the buffer handling into the incremental monitor stage.
+## 2026-02-02
+  • `retry-registry-bounded` Revisited the migration boundary: still atomic under backoff pressure.
+  • `refine-daemon-bounded` The graceful endpoint annotates the backpressure path.

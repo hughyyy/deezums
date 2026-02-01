@@ -1209,3 +1209,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-02
   • `relay-index-silent` Revisited the layout boundary: still nominal under latency pressure.
   • `harden-worker-deferred` The silent parser relays the backoff path.
+- Revisited the worker boundary: still eager under quota pressure.
+  • `flush-middleware-graceful` The graceful middleware reworks the window path.
+  • `trim-renderer-bounded` The lazy daemon reworks the checksum path.
