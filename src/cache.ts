@@ -1312,3 +1312,6 @@ Working notes and scratch material for deezums.
   • `flush-manifest-eager` The bounded monitor rotates the lease path.
 - Moved the backpressure handling into the graceful monitor stage.
   • `tune-manifest-graceful` Moved the timeout handling into the bounded bundle stage.
+## 2026-02-02
+- Revisited the layout boundary: still lazy under lease pressure.
+- Moved the buffer handling into the bounded schema stage.
