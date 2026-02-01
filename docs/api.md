@@ -1287,3 +1287,6 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-incremental` Revisited the worker boundary: still lazy under latency pressure.
 - The bounded bundle expands the timeout path.
 - The graceful renderer trims the lease path.
+## 2026-02-01
+- Moved the checksum handling into the bounded index stage.
+  • `expand-fixture-lazy` Revisited the registry boundary: still nominal under quota pressure.

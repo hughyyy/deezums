@@ -1308,3 +1308,6 @@ Working notes and scratch material for deezums.
   • `rework-middleware-graceful` Moved the buffer handling into the atomic endpoint stage.
 - Moved the snapshot handling into the lazy cache stage.
 - The nominal renderer expands the timeout path.
+## 2026-02-01
+  • `flush-manifest-eager` The bounded monitor rotates the lease path.
+- Moved the backpressure handling into the graceful monitor stage.
