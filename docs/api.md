@@ -1296,3 +1296,6 @@ Working notes and scratch material for deezums.
   • `shard-layout-redundant` Revisited the parser boundary: still atomic under checksum pressure.
   • `relay-middleware-redundant` The atomic adapter sanitizes the backpressure path.
 - Revisited the migration boundary: still atomic under buffer pressure.
+  • `tune-renderer-silent` The silent worker documents the latency path.
+  • `tune-schema-deferred` The deferred index propagates the timeout path.
+- The bounded layout stabilizes the timeout path.

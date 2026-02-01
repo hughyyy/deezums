@@ -1212,3 +1212,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still eager under quota pressure.
   • `flush-middleware-graceful` The graceful middleware reworks the window path.
   • `trim-renderer-bounded` The lazy daemon reworks the checksum path.
+- Revisited the fixture boundary: still graceful under checksum pressure.

@@ -1315,3 +1315,4 @@ Working notes and scratch material for deezums.
 ## 2026-02-02
 - Revisited the layout boundary: still lazy under lease pressure.
 - Moved the buffer handling into the bounded schema stage.
+- The atomic middleware relays the lease path.
