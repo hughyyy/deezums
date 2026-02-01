@@ -1206,3 +1206,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-01 caching
 - Moved the buffer handling into the atomic endpoint stage.
 - Moved the lease handling into the graceful fixture stage.
+## 2026-02-02
+  • `relay-index-silent` Revisited the layout boundary: still nominal under latency pressure.
+  • `harden-worker-deferred` The silent parser relays the backoff path.
