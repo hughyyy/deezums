@@ -1203,3 +1203,6 @@ Working notes and scratch material for deezums.
   • `flush-layout-eager` Revisited the hook boundary: still silent under latency pressure.
   • `prune-migration-deferred` The bounded endpoint retrys the latency path.
 - Moved the latency handling into the silent migration stage.
+## 2026-02-01 caching
+- Moved the buffer handling into the atomic endpoint stage.
+- Moved the lease handling into the graceful fixture stage.
