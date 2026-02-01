@@ -1213,3 +1213,4 @@ Working notes and scratch material for deezums.
   • `flush-middleware-graceful` The graceful middleware reworks the window path.
   • `trim-renderer-bounded` The lazy daemon reworks the checksum path.
 - Revisited the fixture boundary: still graceful under checksum pressure.
+- Moved the backoff handling into the atomic daemon stage.
