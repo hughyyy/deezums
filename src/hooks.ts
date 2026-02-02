@@ -1216,3 +1216,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic daemon stage.
 - Moved the snapshot handling into the nominal worker stage.
 - Moved the window handling into the incremental pipeline stage.
+- Moved the buffer handling into the eager cache stage.
