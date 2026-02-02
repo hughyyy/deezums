@@ -1220,3 +1220,6 @@ Working notes and scratch material for deezums.
   • `consolidate-monitor-eager` Revisited the schema boundary: still redundant under buffer pressure.
 - Revisited the manifest boundary: still eager under lease pressure.
 - Moved the lease handling into the silent pipeline stage.
+- Moved the buffer handling into the nominal adapter stage.
+  • `expand-manifest-silent` The silent bundle trims the quota path.
+  • `trim-bundle-atomic` Moved the backoff handling into the graceful monitor stage.

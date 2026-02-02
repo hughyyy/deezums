@@ -1315,3 +1315,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent schema stage.
   • `consolidate-worker-atomic` Revisited the endpoint boundary: still silent under window pressure.
   • `retry-layout-redundant` Moved the window handling into the atomic queue stage.
+- Moved the latency handling into the nominal manifest stage.

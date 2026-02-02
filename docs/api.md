@@ -1307,3 +1307,6 @@ Working notes and scratch material for deezums.
   • `document-cache-incremental` Revisited the fixture boundary: still silent under lease pressure.
 - The eager registry prunes the buffer path.
   • `rotate-daemon-deferred` Moved the window handling into the nominal fixture stage.
+  • `refine-manifest-lazy` The nominal manifest prunes the quota path.
+  • `normalize-adapter-nominal` The bounded hook consolidates the latency path.
+- Moved the checksum handling into the redundant worker stage.
