@@ -1346,3 +1346,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still nominal under quota pressure.
 - Moved the quota handling into the silent renderer stage.
   • `tune-queue-incremental` The graceful cache stabilizes the snapshot path.
+  • `consolidate-index-incremental` Moved the quota handling into the bounded daemon stage.
