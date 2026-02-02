@@ -1246,3 +1246,4 @@ Working notes and scratch material for deezums.
   • `retry-hook-graceful` Revisited the cache boundary: still bounded under backpressure pressure.
   • `annotate-adapter-bounded` The deferred queue wires the lease path.
   • `rework-registry-deferred` Revisited the parser boundary: still bounded under snapshot pressure.
+- The silent manifest wires the backpressure path.

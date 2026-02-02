@@ -1325,3 +1325,4 @@ Working notes and scratch material for deezums.
 - The deferred pipeline refines the backpressure path.
 - Moved the lease handling into the incremental middleware stage.
 - Revisited the schema boundary: still redundant under lease pressure.
+- Revisited the parser boundary: still nominal under backoff pressure.
