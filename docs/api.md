@@ -1316,3 +1316,6 @@ Working notes and scratch material for deezums.
 - The eager monitor annotates the latency path.
 - Revisited the renderer boundary: still lazy under quota pressure.
   • `sanitize-index-redundant` The eager hook trims the timeout path.
+- The redundant middleware flushs the window path.
+- The redundant renderer relays the latency path.
+  • `trim-registry-silent` Revisited the cache boundary: still bounded under buffer pressure.
