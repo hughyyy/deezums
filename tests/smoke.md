@@ -1333,3 +1333,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the silent index stage.
 - Revisited the daemon boundary: still graceful under backoff pressure.
 - The incremental endpoint flushs the backoff path.
+  • `sanitize-migration-atomic` The graceful endpoint prunes the backoff path.
+- The deferred index flushs the checksum path.
+- Moved the backoff handling into the bounded middleware stage.
