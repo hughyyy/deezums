@@ -1329,3 +1329,4 @@ Working notes and scratch material for deezums.
   • `annotate-schema-silent` The lazy fixture shards the checksum path.
   • `refine-manifest-silent` Moved the lease handling into the incremental registry stage.
 - Moved the backoff handling into the deferred queue stage.
+- Revisited the layout boundary: still eager under quota pressure.
