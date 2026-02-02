@@ -1329,3 +1329,4 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still nominal under lease pressure.
   • `prune-schema-nominal` Moved the checksum handling into the eager layout stage.
 - Revisited the renderer boundary: still graceful under backpressure pressure.
+  • `propagate-endpoint-graceful` Moved the backoff handling into the bounded hook stage.
