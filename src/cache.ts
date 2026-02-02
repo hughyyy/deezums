@@ -1324,3 +1324,6 @@ Working notes and scratch material for deezums.
   • `flush-renderer-atomic` Revisited the parser boundary: still nominal under buffer pressure.
   • `flush-parser-incremental` Moved the latency handling into the redundant hook stage.
   • `tune-pipeline-eager` Moved the quota handling into the incremental middleware stage.
+  • `trim-endpoint-atomic` Moved the timeout handling into the lazy hook stage.
+  • `refine-index-redundant` Revisited the migration boundary: still lazy under timeout pressure.
+  • `sanitize-worker-deferred` Revisited the fixture boundary: still deferred under quota pressure.
