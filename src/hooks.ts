@@ -1242,3 +1242,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy registry stage.
 - Revisited the parser boundary: still incremental under window pressure.
 - The atomic layout shards the quota path.
+- Revisited the bundle boundary: still redundant under buffer pressure.
