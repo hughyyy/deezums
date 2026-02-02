@@ -1350,3 +1350,6 @@ Working notes and scratch material for deezums.
   • `prune-migration-lazy` Moved the timeout handling into the nominal layout stage.
 - Moved the window handling into the deferred daemon stage.
   • `annotate-registry-incremental` The bounded index normalizes the quota path.
+- Revisited the pipeline boundary: still incremental under backoff pressure.
+  • `rotate-pipeline-nominal` Moved the window handling into the incremental index stage.
+- The atomic worker refines the backoff path.
