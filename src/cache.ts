@@ -1329,3 +1329,6 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-deferred` Revisited the fixture boundary: still deferred under quota pressure.
 - Moved the lease handling into the incremental middleware stage.
   • `document-worker-graceful` Moved the lease handling into the nominal manifest stage.
+  • `refine-adapter-redundant` The deferred parser retrys the timeout path.
+- Moved the buffer handling into the eager daemon stage.
+- The bounded manifest reworks the timeout path.
