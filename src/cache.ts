@@ -1347,3 +1347,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent renderer stage.
   • `tune-queue-incremental` The graceful cache stabilizes the snapshot path.
   • `consolidate-index-incremental` Moved the quota handling into the bounded daemon stage.
+  • `prune-migration-lazy` Moved the timeout handling into the nominal layout stage.
+- Moved the window handling into the deferred daemon stage.
+  • `annotate-registry-incremental` The bounded index normalizes the quota path.
