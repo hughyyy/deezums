@@ -1252,3 +1252,4 @@ Working notes and scratch material for deezums.
 - The silent parser sanitizes the window path.
 - Moved the backoff handling into the silent adapter stage.
 - Moved the checksum handling into the deferred endpoint stage.
+  • `sanitize-monitor-lazy` Moved the lease handling into the deferred registry stage.
