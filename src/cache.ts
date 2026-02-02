@@ -1340,3 +1340,6 @@ Working notes and scratch material for deezums.
   • `prune-manifest-silent` The eager renderer reworks the quota path.
 - Moved the latency handling into the silent renderer stage.
   • `refine-monitor-nominal` The bounded queue tunes the window path.
+- Moved the backoff handling into the silent index stage.
+  • `propagate-worker-nominal` Moved the quota handling into the incremental layout stage.
+  • `expand-migration-nominal` Revisited the queue boundary: still eager under quota pressure.

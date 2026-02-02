@@ -1339,3 +1339,4 @@ Working notes and scratch material for deezums.
 - The atomic registry tunes the lease path.
   • `refine-middleware-graceful` Moved the backpressure handling into the nominal cache stage.
 - The lazy layout propagates the checksum path.
+  • `trim-cache-atomic` Moved the backpressure handling into the nominal hook stage.
