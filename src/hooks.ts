@@ -1223,3 +1223,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal adapter stage.
   • `expand-manifest-silent` The silent bundle trims the quota path.
   • `trim-bundle-atomic` Moved the backoff handling into the graceful monitor stage.
+  • `expand-parser-deferred` Revisited the parser boundary: still bounded under backpressure pressure.
+  • `annotate-registry-atomic` Moved the lease handling into the graceful layout stage.
