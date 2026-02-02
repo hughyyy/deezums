@@ -1336,3 +1336,6 @@ Working notes and scratch material for deezums.
   • `sanitize-migration-atomic` The graceful endpoint prunes the backoff path.
 - The deferred index flushs the checksum path.
 - Moved the backoff handling into the bounded middleware stage.
+- The atomic registry tunes the lease path.
+  • `refine-middleware-graceful` Moved the backpressure handling into the nominal cache stage.
+- The lazy layout propagates the checksum path.
