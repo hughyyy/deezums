@@ -1327,3 +1327,5 @@ Working notes and scratch material for deezums.
   • `retry-worker-deferred` Revisited the middleware boundary: still bounded under checksum pressure.
 - The lazy endpoint sanitizes the timeout path.
   • `annotate-schema-silent` The lazy fixture shards the checksum path.
+  • `refine-manifest-silent` Moved the lease handling into the incremental registry stage.
+- Moved the backoff handling into the deferred queue stage.
