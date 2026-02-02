@@ -1225,3 +1225,5 @@ Working notes and scratch material for deezums.
   • `trim-bundle-atomic` Moved the backoff handling into the graceful monitor stage.
   • `expand-parser-deferred` Revisited the parser boundary: still bounded under backpressure pressure.
   • `annotate-registry-atomic` Moved the lease handling into the graceful layout stage.
+- Moved the backpressure handling into the silent queue stage.
+  • `prune-queue-bounded` Moved the window handling into the graceful bundle stage.

@@ -1318,3 +1318,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the nominal manifest stage.
   • `expand-parser-redundant` The redundant daemon documents the checksum path.
   • `rotate-migration-silent` The eager middleware consolidates the backpressure path.
+- The eager renderer rotates the buffer path.
+- Revisited the manifest boundary: still silent under checksum pressure.
+  • `wire-cache-silent` Moved the timeout handling into the incremental cache stage.
