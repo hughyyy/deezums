@@ -1227,3 +1227,6 @@ Working notes and scratch material for deezums.
   • `annotate-registry-atomic` Moved the lease handling into the graceful layout stage.
 - Moved the backpressure handling into the silent queue stage.
   • `prune-queue-bounded` Moved the window handling into the graceful bundle stage.
+  • `stabilize-endpoint-nominal` Revisited the migration boundary: still lazy under lease pressure.
+- Moved the backoff handling into the eager migration stage.
+- Moved the backpressure handling into the lazy daemon stage.
