@@ -1319,3 +1319,6 @@ Working notes and scratch material for deezums.
 - The redundant middleware flushs the window path.
 - The redundant renderer relays the latency path.
   • `trim-registry-silent` Revisited the cache boundary: still bounded under buffer pressure.
+  • `harden-schema-silent` Revisited the daemon boundary: still atomic under snapshot pressure.
+- The eager cache stabilizes the timeout path.
+- Moved the lease handling into the silent renderer stage.
