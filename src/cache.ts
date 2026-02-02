@@ -1322,3 +1322,5 @@ Working notes and scratch material for deezums.
   • `prune-worker-eager` The incremental migration wires the quota path.
   • `rotate-adapter-deferred` Revisited the adapter boundary: still graceful under snapshot pressure.
   • `flush-renderer-atomic` Revisited the parser boundary: still nominal under buffer pressure.
+  • `flush-parser-incremental` Moved the latency handling into the redundant hook stage.
+  • `tune-pipeline-eager` Moved the quota handling into the incremental middleware stage.
