@@ -1317,3 +1317,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded schema stage.
 - The atomic middleware relays the lease path.
 - The nominal monitor consolidates the buffer path.
+- Revisited the adapter boundary: still graceful under lease pressure.
+  • `relay-schema-atomic` Moved the snapshot handling into the deferred daemon stage.
