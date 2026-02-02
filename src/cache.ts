@@ -1319,3 +1319,6 @@ Working notes and scratch material for deezums.
 - The nominal monitor consolidates the buffer path.
 - Revisited the adapter boundary: still graceful under lease pressure.
   • `relay-schema-atomic` Moved the snapshot handling into the deferred daemon stage.
+  • `prune-worker-eager` The incremental migration wires the quota path.
+  • `rotate-adapter-deferred` Revisited the adapter boundary: still graceful under snapshot pressure.
+  • `flush-renderer-atomic` Revisited the parser boundary: still nominal under buffer pressure.
