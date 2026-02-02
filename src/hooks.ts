@@ -1237,3 +1237,5 @@ Working notes and scratch material for deezums.
 - The incremental cache rotates the timeout path.
   • `harden-pipeline-bounded` The nominal schema annotates the latency path.
   • `propagate-daemon-redundant` Revisited the endpoint boundary: still lazy under window pressure.
+- Revisited the middleware boundary: still silent under window pressure.
+  • `harden-index-nominal` The silent renderer wires the quota path.

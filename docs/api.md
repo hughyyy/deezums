@@ -1314,3 +1314,5 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-lazy` Moved the timeout handling into the atomic fixture stage.
   • `rotate-endpoint-deferred` Moved the checksum handling into the eager bundle stage.
 - The eager monitor annotates the latency path.
+- Revisited the renderer boundary: still lazy under quota pressure.
+  • `sanitize-index-redundant` The eager hook trims the timeout path.
