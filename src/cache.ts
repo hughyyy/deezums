@@ -1334,3 +1334,5 @@ Working notes and scratch material for deezums.
 - The bounded manifest reworks the timeout path.
 - The incremental pipeline reworks the snapshot path.
   • `sanitize-pipeline-nominal` The deferred bundle expands the timeout path.
+- Moved the buffer handling into the incremental cache stage.
+  • `harden-daemon-bounded` Revisited the pipeline boundary: still lazy under latency pressure.

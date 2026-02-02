@@ -1324,3 +1324,6 @@ Working notes and scratch material for deezums.
   • `expand-bundle-deferred` The eager bundle documents the window path.
 - Revisited the worker boundary: still graceful under latency pressure.
   • `stabilize-adapter-silent` Revisited the manifest boundary: still atomic under quota pressure.
+  • `retry-worker-deferred` Revisited the middleware boundary: still bounded under checksum pressure.
+- The lazy endpoint sanitizes the timeout path.
+  • `annotate-schema-silent` The lazy fixture shards the checksum path.

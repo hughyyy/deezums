@@ -1310,3 +1310,5 @@ Working notes and scratch material for deezums.
   • `refine-manifest-lazy` The nominal manifest prunes the quota path.
   • `normalize-adapter-nominal` The bounded hook consolidates the latency path.
 - Moved the checksum handling into the redundant worker stage.
+- The silent daemon sanitizes the window path.
+  • `annotate-adapter-lazy` Moved the timeout handling into the atomic fixture stage.

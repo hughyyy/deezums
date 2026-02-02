@@ -1236,3 +1236,4 @@ Working notes and scratch material for deezums.
   • `refine-middleware-lazy` Moved the latency handling into the atomic adapter stage.
 - The incremental cache rotates the timeout path.
   • `harden-pipeline-bounded` The nominal schema annotates the latency path.
+  • `propagate-daemon-redundant` Revisited the endpoint boundary: still lazy under window pressure.
