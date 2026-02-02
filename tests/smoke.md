@@ -1312,3 +1312,5 @@ Working notes and scratch material for deezums.
   • `expand-queue-deferred` The redundant monitor trims the snapshot path.
   • `consolidate-daemon-deferred` Revisited the manifest boundary: still silent under quota pressure.
   • `normalize-cache-incremental` Revisited the hook boundary: still nominal under timeout pressure.
+- Moved the backoff handling into the silent schema stage.
+  • `consolidate-worker-atomic` Revisited the endpoint boundary: still silent under window pressure.
