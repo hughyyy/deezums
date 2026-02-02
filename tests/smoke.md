@@ -1330,3 +1330,6 @@ Working notes and scratch material for deezums.
   • `refine-manifest-silent` Moved the lease handling into the incremental registry stage.
 - Moved the backoff handling into the deferred queue stage.
 - Revisited the layout boundary: still eager under quota pressure.
+- Moved the checksum handling into the silent index stage.
+- Revisited the daemon boundary: still graceful under backoff pressure.
+- The incremental endpoint flushs the backoff path.
