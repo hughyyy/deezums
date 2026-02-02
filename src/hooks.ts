@@ -1218,3 +1218,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental pipeline stage.
 - Moved the buffer handling into the eager cache stage.
   • `consolidate-monitor-eager` Revisited the schema boundary: still redundant under buffer pressure.
+- Revisited the manifest boundary: still eager under lease pressure.
