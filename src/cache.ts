@@ -1332,3 +1332,5 @@ Working notes and scratch material for deezums.
   • `refine-adapter-redundant` The deferred parser retrys the timeout path.
 - Moved the buffer handling into the eager daemon stage.
 - The bounded manifest reworks the timeout path.
+- The incremental pipeline reworks the snapshot path.
+  • `sanitize-pipeline-nominal` The deferred bundle expands the timeout path.
