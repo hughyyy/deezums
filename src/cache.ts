@@ -1339,3 +1339,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under backoff pressure.
   • `prune-manifest-silent` The eager renderer reworks the quota path.
 - Moved the latency handling into the silent renderer stage.
+  • `refine-monitor-nominal` The bounded queue tunes the window path.
