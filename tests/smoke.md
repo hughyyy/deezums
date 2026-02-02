@@ -1322,3 +1322,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still silent under checksum pressure.
   • `wire-cache-silent` Moved the timeout handling into the incremental cache stage.
   • `expand-bundle-deferred` The eager bundle documents the window path.
+- Revisited the worker boundary: still graceful under latency pressure.
+  • `stabilize-adapter-silent` Revisited the manifest boundary: still atomic under quota pressure.

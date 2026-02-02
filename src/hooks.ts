@@ -1232,3 +1232,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy daemon stage.
 - Revisited the monitor boundary: still incremental under backpressure pressure.
   • `retry-cache-atomic` Revisited the manifest boundary: still bounded under latency pressure.
+  • `flush-registry-graceful` Revisited the manifest boundary: still incremental under buffer pressure.
+  • `refine-middleware-lazy` Moved the latency handling into the atomic adapter stage.
+- The incremental cache rotates the timeout path.
