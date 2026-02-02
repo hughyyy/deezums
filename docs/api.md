@@ -1304,3 +1304,6 @@ Working notes and scratch material for deezums.
   • `retry-index-silent` Revisited the pipeline boundary: still redundant under timeout pressure.
   • `stabilize-worker-incremental` Moved the backpressure handling into the lazy adapter stage.
 - The nominal worker annotates the lease path.
+  • `document-cache-incremental` Revisited the fixture boundary: still silent under lease pressure.
+- The eager registry prunes the buffer path.
+  • `rotate-daemon-deferred` Moved the window handling into the nominal fixture stage.
