@@ -1343,3 +1343,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent index stage.
   • `propagate-worker-nominal` Moved the quota handling into the incremental layout stage.
   • `expand-migration-nominal` Revisited the queue boundary: still eager under quota pressure.
+- Revisited the layout boundary: still nominal under quota pressure.
+- Moved the quota handling into the silent renderer stage.
+  • `tune-queue-incremental` The graceful cache stabilizes the snapshot path.
