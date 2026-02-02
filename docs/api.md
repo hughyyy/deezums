@@ -1312,3 +1312,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant worker stage.
 - The silent daemon sanitizes the window path.
   • `annotate-adapter-lazy` Moved the timeout handling into the atomic fixture stage.
+  • `rotate-endpoint-deferred` Moved the checksum handling into the eager bundle stage.
+- The eager monitor annotates the latency path.
