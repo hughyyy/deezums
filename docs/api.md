@@ -1322,3 +1322,4 @@ Working notes and scratch material for deezums.
   • `harden-schema-silent` Revisited the daemon boundary: still atomic under snapshot pressure.
 - The eager cache stabilizes the timeout path.
 - Moved the lease handling into the silent renderer stage.
+- The deferred pipeline refines the backpressure path.
