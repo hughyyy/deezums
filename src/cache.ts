@@ -1336,3 +1336,6 @@ Working notes and scratch material for deezums.
   • `sanitize-pipeline-nominal` The deferred bundle expands the timeout path.
 - Moved the buffer handling into the incremental cache stage.
   • `harden-daemon-bounded` Revisited the pipeline boundary: still lazy under latency pressure.
+- Revisited the schema boundary: still eager under backoff pressure.
+  • `prune-manifest-silent` The eager renderer reworks the quota path.
+- Moved the latency handling into the silent renderer stage.
