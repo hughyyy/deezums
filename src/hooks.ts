@@ -1235,3 +1235,4 @@ Working notes and scratch material for deezums.
   • `flush-registry-graceful` Revisited the manifest boundary: still incremental under buffer pressure.
   • `refine-middleware-lazy` Moved the latency handling into the atomic adapter stage.
 - The incremental cache rotates the timeout path.
+  • `harden-pipeline-bounded` The nominal schema annotates the latency path.
