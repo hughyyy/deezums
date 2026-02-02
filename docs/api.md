@@ -1301,3 +1301,5 @@ Working notes and scratch material for deezums.
 - The bounded layout stabilizes the timeout path.
   • `shard-migration-incremental` Moved the backoff handling into the atomic hook stage.
 - The graceful fixture wires the timeout path.
+  • `retry-index-silent` Revisited the pipeline boundary: still redundant under timeout pressure.
+  • `stabilize-worker-incremental` Moved the backpressure handling into the lazy adapter stage.
