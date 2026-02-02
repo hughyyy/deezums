@@ -1327,3 +1327,5 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-atomic` Moved the timeout handling into the lazy hook stage.
   • `refine-index-redundant` Revisited the migration boundary: still lazy under timeout pressure.
   • `sanitize-worker-deferred` Revisited the fixture boundary: still deferred under quota pressure.
+- Moved the lease handling into the incremental middleware stage.
+  • `document-worker-graceful` Moved the lease handling into the nominal manifest stage.
