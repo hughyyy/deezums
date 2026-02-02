@@ -1243,3 +1243,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still incremental under window pressure.
 - The atomic layout shards the quota path.
 - Revisited the bundle boundary: still redundant under buffer pressure.
+  • `retry-hook-graceful` Revisited the cache boundary: still bounded under backpressure pressure.
+  • `annotate-adapter-bounded` The deferred queue wires the lease path.
+  • `rework-registry-deferred` Revisited the parser boundary: still bounded under snapshot pressure.

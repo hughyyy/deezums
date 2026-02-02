@@ -1323,3 +1323,5 @@ Working notes and scratch material for deezums.
 - The eager cache stabilizes the timeout path.
 - Moved the lease handling into the silent renderer stage.
 - The deferred pipeline refines the backpressure path.
+- Moved the lease handling into the incremental middleware stage.
+- Revisited the schema boundary: still redundant under lease pressure.
