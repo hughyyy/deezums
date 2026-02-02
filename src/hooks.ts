@@ -1249,3 +1249,5 @@ Working notes and scratch material for deezums.
 - The silent manifest wires the backpressure path.
   • `consolidate-pipeline-atomic` The bounded manifest prunes the buffer path.
 - The lazy manifest documents the checksum path.
+- The silent parser sanitizes the window path.
+- Moved the backoff handling into the silent adapter stage.
