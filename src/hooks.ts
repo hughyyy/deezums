@@ -1230,3 +1230,5 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-nominal` Revisited the migration boundary: still lazy under lease pressure.
 - Moved the backoff handling into the eager migration stage.
 - Moved the backpressure handling into the lazy daemon stage.
+- Revisited the monitor boundary: still incremental under backpressure pressure.
+  • `retry-cache-atomic` Revisited the manifest boundary: still bounded under latency pressure.
