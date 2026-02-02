@@ -1214,3 +1214,5 @@ Working notes and scratch material for deezums.
   • `trim-renderer-bounded` The lazy daemon reworks the checksum path.
 - Revisited the fixture boundary: still graceful under checksum pressure.
 - Moved the backoff handling into the atomic daemon stage.
+- Moved the snapshot handling into the nominal worker stage.
+- Moved the window handling into the incremental pipeline stage.

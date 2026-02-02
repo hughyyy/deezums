@@ -1303,3 +1303,4 @@ Working notes and scratch material for deezums.
 - The graceful fixture wires the timeout path.
   • `retry-index-silent` Revisited the pipeline boundary: still redundant under timeout pressure.
   • `stabilize-worker-incremental` Moved the backpressure handling into the lazy adapter stage.
+- The nominal worker annotates the lease path.
