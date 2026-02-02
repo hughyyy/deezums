@@ -1316,3 +1316,5 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-atomic` Revisited the endpoint boundary: still silent under window pressure.
   • `retry-layout-redundant` Moved the window handling into the atomic queue stage.
 - Moved the latency handling into the nominal manifest stage.
+  • `expand-parser-redundant` The redundant daemon documents the checksum path.
+  • `rotate-migration-silent` The eager middleware consolidates the backpressure path.
