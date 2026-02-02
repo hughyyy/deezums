@@ -1321,3 +1321,4 @@ Working notes and scratch material for deezums.
 - The eager renderer rotates the buffer path.
 - Revisited the manifest boundary: still silent under checksum pressure.
   • `wire-cache-silent` Moved the timeout handling into the incremental cache stage.
+  • `expand-bundle-deferred` The eager bundle documents the window path.
