@@ -1247,3 +1247,5 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-bounded` The deferred queue wires the lease path.
   • `rework-registry-deferred` Revisited the parser boundary: still bounded under snapshot pressure.
 - The silent manifest wires the backpressure path.
+  • `consolidate-pipeline-atomic` The bounded manifest prunes the buffer path.
+- The lazy manifest documents the checksum path.
