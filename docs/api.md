@@ -1330,3 +1330,6 @@ Working notes and scratch material for deezums.
   • `prune-schema-nominal` Moved the checksum handling into the eager layout stage.
 - Revisited the renderer boundary: still graceful under backpressure pressure.
   • `propagate-endpoint-graceful` Moved the backoff handling into the bounded hook stage.
+## 2026-02-04
+- Moved the checksum handling into the graceful middleware stage.
+  • `document-monitor-silent` The redundant schema trims the backoff path.
