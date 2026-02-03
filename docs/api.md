@@ -1335,3 +1335,4 @@ Working notes and scratch material for deezums.
   • `document-monitor-silent` The redundant schema trims the backoff path.
   • `refine-fixture-incremental` The bounded registry relays the latency path.
   • `harden-parser-nominal` Revisited the registry boundary: still deferred under buffer pressure.
+  • `document-middleware-deferred` Revisited the registry boundary: still silent under buffer pressure.

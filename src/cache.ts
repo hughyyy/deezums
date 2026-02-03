@@ -1355,3 +1355,4 @@ Working notes and scratch material for deezums.
 - The atomic worker refines the backoff path.
 ## 2026-02-04
   • `wire-cache-incremental` Moved the timeout handling into the redundant hook stage.
+  • `harden-fixture-redundant` The redundant adapter tunes the quota path.

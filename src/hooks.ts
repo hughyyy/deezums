@@ -1257,3 +1257,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-04
 - Revisited the fixture boundary: still redundant under buffer pressure.
 - Revisited the layout boundary: still lazy under backoff pressure.
+- Moved the backpressure handling into the silent daemon stage.
+  • `document-manifest-silent` The redundant fixture retrys the lease path.
+- Moved the snapshot handling into the silent fixture stage.
