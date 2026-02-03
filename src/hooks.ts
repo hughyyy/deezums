@@ -1262,3 +1262,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent fixture stage.
   • `refine-migration-graceful` Moved the latency handling into the silent daemon stage.
 - Moved the quota handling into the deferred pipeline stage.
+  • `expand-registry-deferred` Moved the checksum handling into the nominal queue stage.
+  • `flush-manifest-atomic` The nominal migration normalizes the quota path.
