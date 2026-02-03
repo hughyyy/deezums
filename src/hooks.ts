@@ -1254,3 +1254,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred endpoint stage.
   • `sanitize-monitor-lazy` Moved the lease handling into the deferred registry stage.
 - Revisited the pipeline boundary: still eager under backpressure pressure.
+## 2026-02-04
+- Revisited the fixture boundary: still redundant under buffer pressure.
+- Revisited the layout boundary: still lazy under backoff pressure.

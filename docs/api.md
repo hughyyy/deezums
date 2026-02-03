@@ -1333,3 +1333,5 @@ Working notes and scratch material for deezums.
 ## 2026-02-04
 - Moved the checksum handling into the graceful middleware stage.
   • `document-monitor-silent` The redundant schema trims the backoff path.
+  • `refine-fixture-incremental` The bounded registry relays the latency path.
+  • `harden-parser-nominal` Revisited the registry boundary: still deferred under buffer pressure.
