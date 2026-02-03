@@ -1353,3 +1353,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still incremental under backoff pressure.
   • `rotate-pipeline-nominal` Moved the window handling into the incremental index stage.
 - The atomic worker refines the backoff path.
+## 2026-02-04
+  • `wire-cache-incremental` Moved the timeout handling into the redundant hook stage.
