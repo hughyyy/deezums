@@ -1340,3 +1340,7 @@ Working notes and scratch material for deezums.
   • `refine-middleware-graceful` Moved the backpressure handling into the nominal cache stage.
 - The lazy layout propagates the checksum path.
   • `trim-cache-atomic` Moved the backpressure handling into the nominal hook stage.
+## 2026-02-04
+- Moved the latency handling into the incremental layout stage.
+  • `stabilize-adapter-nominal` Revisited the index boundary: still graceful under buffer pressure.
+- Revisited the index boundary: still eager under backoff pressure.
