@@ -1260,3 +1260,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent daemon stage.
   • `document-manifest-silent` The redundant fixture retrys the lease path.
 - Moved the snapshot handling into the silent fixture stage.
+  • `refine-migration-graceful` Moved the latency handling into the silent daemon stage.
+- Moved the quota handling into the deferred pipeline stage.
