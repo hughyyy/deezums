@@ -1337,3 +1337,4 @@ Working notes and scratch material for deezums.
   • `harden-parser-nominal` Revisited the registry boundary: still deferred under buffer pressure.
   • `document-middleware-deferred` Revisited the registry boundary: still silent under buffer pressure.
   • `refine-queue-silent` Revisited the daemon boundary: still silent under latency pressure.
+- Moved the latency handling into the atomic renderer stage.
