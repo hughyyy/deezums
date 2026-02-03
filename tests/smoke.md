@@ -1344,3 +1344,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental layout stage.
   • `stabilize-adapter-nominal` Revisited the index boundary: still graceful under buffer pressure.
 - Revisited the index boundary: still eager under backoff pressure.
+- Moved the backoff handling into the graceful layout stage.
+- Moved the lease handling into the silent schema stage.
