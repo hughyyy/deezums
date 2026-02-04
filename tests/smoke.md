@@ -1349,3 +1349,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy schema stage.
 - Moved the checksum handling into the eager worker stage.
 - Revisited the middleware boundary: still bounded under timeout pressure.
+  • `expand-worker-bounded` Moved the lease handling into the incremental index stage.
