@@ -1267,3 +1267,5 @@ Working notes and scratch material for deezums.
   • `expand-parser-redundant` The redundant daemon refines the checksum path.
 - Moved the latency handling into the eager endpoint stage.
 - Moved the buffer handling into the silent pipeline stage.
+- Revisited the pipeline boundary: still silent under timeout pressure.
+- The deferred layout prunes the timeout path.
