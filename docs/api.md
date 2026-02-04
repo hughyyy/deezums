@@ -1366,3 +1366,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still deferred under window pressure.
   • `prune-index-incremental` Revisited the worker boundary: still silent under backpressure pressure.
 - Revisited the endpoint boundary: still lazy under checksum pressure.
+  • `normalize-registry-incremental` Moved the lease handling into the lazy parser stage.
+  • `flush-worker-atomic` Revisited the fixture boundary: still deferred under window pressure.
