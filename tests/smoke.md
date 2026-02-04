@@ -1351,3 +1351,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still bounded under timeout pressure.
   • `expand-worker-bounded` Moved the lease handling into the incremental index stage.
 - The silent registry relays the buffer path.
+- The bounded manifest tunes the window path.
+- The eager queue documents the latency path.
+  • `rework-bundle-redundant` The eager bundle retrys the timeout path.
