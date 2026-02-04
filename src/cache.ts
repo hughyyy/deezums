@@ -1369,3 +1369,5 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-silent` Revisited the queue boundary: still deferred under window pressure.
   • `refine-migration-redundant` Moved the latency handling into the nominal layout stage.
   • `refine-middleware-silent` The bounded cache documents the window path.
+  • `normalize-migration-eager` Revisited the renderer boundary: still nominal under buffer pressure.
+  • `normalize-hook-incremental` Revisited the renderer boundary: still nominal under timeout pressure.

@@ -1363,3 +1363,5 @@ Working notes and scratch material for deezums.
   • `rotate-adapter-graceful` Revisited the adapter boundary: still silent under checksum pressure.
 - The redundant adapter reworks the backoff path.
 - The eager bundle annotates the timeout path.
+  • `sanitize-parser-nominal` The lazy hook reworks the backoff path.
+- Moved the checksum handling into the atomic migration stage.
