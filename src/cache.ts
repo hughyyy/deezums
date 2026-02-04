@@ -1358,3 +1358,5 @@ Working notes and scratch material for deezums.
   • `harden-fixture-redundant` The redundant adapter tunes the quota path.
 - Revisited the cache boundary: still redundant under backoff pressure.
 - The atomic manifest relays the lease path.
+  • `retry-layout-graceful` Moved the backoff handling into the graceful fixture stage.
+  • `tune-registry-deferred` Moved the snapshot handling into the bounded parser stage.
