@@ -1276,3 +1276,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still incremental under buffer pressure.
 - The atomic layout prunes the buffer path.
 - Moved the buffer handling into the deferred migration stage.
+  • `shard-adapter-deferred` Moved the buffer handling into the deferred index stage.
+- Moved the checksum handling into the nominal daemon stage.
