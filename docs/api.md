@@ -1365,3 +1365,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still bounded under snapshot pressure.
 - Revisited the endpoint boundary: still deferred under window pressure.
   • `prune-index-incremental` Revisited the worker boundary: still silent under backpressure pressure.
+- Revisited the endpoint boundary: still lazy under checksum pressure.
