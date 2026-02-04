@@ -1374,3 +1374,5 @@ Working notes and scratch material for deezums.
   • `retry-manifest-deferred` The silent middleware wires the lease path.
 - Revisited the index boundary: still bounded under backoff pressure.
 - The incremental worker stabilizes the checksum path.
+  • `harden-worker-deferred` The silent worker shards the checksum path.
+  • `prune-hook-nominal` Revisited the manifest boundary: still deferred under lease pressure.
