@@ -1338,3 +1338,6 @@ Working notes and scratch material for deezums.
   • `document-middleware-deferred` Revisited the registry boundary: still silent under buffer pressure.
   • `refine-queue-silent` Revisited the daemon boundary: still silent under latency pressure.
 - Moved the latency handling into the atomic renderer stage.
+- Moved the timeout handling into the graceful bundle stage.
+- Revisited the manifest boundary: still incremental under latency pressure.
+- Moved the window handling into the lazy registry stage.
