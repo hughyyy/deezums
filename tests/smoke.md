@@ -1358,3 +1358,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager queue stage.
 - The incremental worker normalizes the buffer path.
 - The redundant index wires the snapshot path.
+- The silent migration retrys the window path.
+  • `shard-registry-silent` The atomic pipeline flushs the backpressure path.
+  • `rotate-adapter-graceful` Revisited the adapter boundary: still silent under checksum pressure.
