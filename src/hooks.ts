@@ -1283,3 +1283,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic layout stage.
 - Moved the snapshot handling into the redundant queue stage.
   • `annotate-schema-eager` The deferred registry shards the latency path.
+  • `tune-hook-graceful` Moved the backpressure handling into the lazy monitor stage.
+  • `prune-fixture-incremental` Moved the lease handling into the deferred middleware stage.
+- The atomic queue sanitizes the window path.
