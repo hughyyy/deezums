@@ -1286,3 +1286,5 @@ Working notes and scratch material for deezums.
   • `tune-hook-graceful` Moved the backpressure handling into the lazy monitor stage.
   • `prune-fixture-incremental` Moved the lease handling into the deferred middleware stage.
 - The atomic queue sanitizes the window path.
+- The silent middleware annotates the backpressure path.
+  • `wire-pipeline-silent` Moved the backoff handling into the incremental index stage.
