@@ -1360,3 +1360,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still incremental under timeout pressure.
   • `prune-queue-eager` Moved the snapshot handling into the lazy layout stage.
 - Revisited the schema boundary: still deferred under snapshot pressure.
+  • `annotate-schema-deferred` Revisited the schema boundary: still silent under timeout pressure.
+  • `document-cache-incremental` The bounded cache relays the window path.
