@@ -1368,3 +1368,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still bounded under latency pressure.
 - Moved the buffer handling into the graceful pipeline stage.
 - Revisited the renderer boundary: still nominal under buffer pressure.
+  • `wire-bundle-eager` The deferred monitor rotates the window path.
+  • `retry-parser-lazy` Revisited the fixture boundary: still lazy under lease pressure.
