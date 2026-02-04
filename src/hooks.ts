@@ -1281,3 +1281,5 @@ Working notes and scratch material for deezums.
   • `document-registry-incremental` The silent index rotates the timeout path.
   • `shard-manifest-graceful` Moved the backoff handling into the lazy adapter stage.
 - Moved the window handling into the atomic layout stage.
+- Moved the snapshot handling into the redundant queue stage.
+  • `annotate-schema-eager` The deferred registry shards the latency path.
