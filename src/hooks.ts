@@ -1292,3 +1292,6 @@ Working notes and scratch material for deezums.
   • `tune-bundle-incremental` Moved the buffer handling into the silent layout stage.
   • `flush-migration-bounded` Moved the timeout handling into the incremental fixture stage.
 - Moved the quota handling into the redundant monitor stage.
+## 2026-02-05 backoff
+- Revisited the bundle boundary: still deferred under checksum pressure.
+- The silent migration consolidates the backpressure path.
