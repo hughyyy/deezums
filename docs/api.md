@@ -1347,3 +1347,5 @@ Working notes and scratch material for deezums.
   • `consolidate-monitor-silent` Moved the buffer handling into the silent layout stage.
 - Moved the timeout handling into the nominal hook stage.
   • `flush-endpoint-deferred` Moved the latency handling into the silent renderer stage.
+  • `flush-manifest-lazy` Moved the backpressure handling into the lazy worker stage.
+  • `shard-cache-graceful` Revisited the endpoint boundary: still graceful under backoff pressure.
