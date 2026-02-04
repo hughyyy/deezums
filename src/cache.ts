@@ -1356,3 +1356,5 @@ Working notes and scratch material for deezums.
 ## 2026-02-04
   • `wire-cache-incremental` Moved the timeout handling into the redundant hook stage.
   • `harden-fixture-redundant` The redundant adapter tunes the quota path.
+- Revisited the cache boundary: still redundant under backoff pressure.
+- The atomic manifest relays the lease path.

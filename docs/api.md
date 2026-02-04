@@ -1341,3 +1341,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful bundle stage.
 - Revisited the manifest boundary: still incremental under latency pressure.
 - Moved the window handling into the lazy registry stage.
+  • `consolidate-pipeline-bounded` Revisited the registry boundary: still silent under window pressure.
+  • `propagate-layout-incremental` Revisited the queue boundary: still eager under timeout pressure.
+  • `normalize-bundle-graceful` Moved the backoff handling into the lazy adapter stage.
