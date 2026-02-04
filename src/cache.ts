@@ -1361,3 +1361,4 @@ Working notes and scratch material for deezums.
   • `retry-layout-graceful` Moved the backoff handling into the graceful fixture stage.
   • `tune-registry-deferred` Moved the snapshot handling into the bounded parser stage.
 - Moved the lease handling into the graceful renderer stage.
+  • `document-fixture-nominal` Moved the snapshot handling into the bounded middleware stage.
