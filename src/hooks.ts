@@ -1278,3 +1278,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred migration stage.
   • `shard-adapter-deferred` Moved the buffer handling into the deferred index stage.
 - Moved the checksum handling into the nominal daemon stage.
+  • `document-registry-incremental` The silent index rotates the timeout path.
+  • `shard-manifest-graceful` Moved the backoff handling into the lazy adapter stage.
+- Moved the window handling into the atomic layout stage.
