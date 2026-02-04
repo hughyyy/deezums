@@ -1377,3 +1377,6 @@ Working notes and scratch material for deezums.
   • `harden-worker-deferred` The silent worker shards the checksum path.
   • `prune-hook-nominal` Revisited the manifest boundary: still deferred under lease pressure.
   • `expand-queue-silent` Moved the buffer handling into the silent bundle stage.
+- Moved the latency handling into the lazy fixture stage.
+- The redundant schema reworks the window path.
+- Moved the quota handling into the incremental fixture stage.
