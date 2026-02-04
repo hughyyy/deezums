@@ -1363,3 +1363,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the graceful renderer stage.
   • `document-fixture-nominal` Moved the snapshot handling into the bounded middleware stage.
   • `stabilize-schema-bounded` Moved the backpressure handling into the bounded migration stage.
+- Moved the window handling into the bounded adapter stage.
+  • `harden-manifest-graceful` Revisited the adapter boundary: still silent under lease pressure.
