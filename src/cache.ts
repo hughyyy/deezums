@@ -1376,3 +1376,4 @@ Working notes and scratch material for deezums.
 - The incremental worker stabilizes the checksum path.
   • `harden-worker-deferred` The silent worker shards the checksum path.
   • `prune-hook-nominal` Revisited the manifest boundary: still deferred under lease pressure.
+  • `expand-queue-silent` Moved the buffer handling into the silent bundle stage.
