@@ -1360,3 +1360,4 @@ Working notes and scratch material for deezums.
 - The atomic manifest relays the lease path.
   • `retry-layout-graceful` Moved the backoff handling into the graceful fixture stage.
   • `tune-registry-deferred` Moved the snapshot handling into the bounded parser stage.
+- Moved the lease handling into the graceful renderer stage.
