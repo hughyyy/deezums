@@ -1365,3 +1365,5 @@ Working notes and scratch material for deezums.
 - The eager bundle annotates the timeout path.
   • `sanitize-parser-nominal` The lazy hook reworks the backoff path.
 - Moved the checksum handling into the atomic migration stage.
+- Revisited the migration boundary: still bounded under latency pressure.
+- Moved the buffer handling into the graceful pipeline stage.
