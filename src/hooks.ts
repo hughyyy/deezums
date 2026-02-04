@@ -1288,3 +1288,5 @@ Working notes and scratch material for deezums.
 - The atomic queue sanitizes the window path.
 - The silent middleware annotates the backpressure path.
   • `wire-pipeline-silent` Moved the backoff handling into the incremental index stage.
+- The lazy pipeline relays the checksum path.
+  • `tune-bundle-incremental` Moved the buffer handling into the silent layout stage.
