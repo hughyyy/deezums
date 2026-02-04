@@ -1365,3 +1365,6 @@ Working notes and scratch material for deezums.
   • `stabilize-schema-bounded` Moved the backpressure handling into the bounded migration stage.
 - Moved the window handling into the bounded adapter stage.
   • `harden-manifest-graceful` Revisited the adapter boundary: still silent under lease pressure.
+  • `rotate-fixture-nominal` Moved the backpressure handling into the lazy bundle stage.
+  • `normalize-adapter-silent` Revisited the queue boundary: still deferred under window pressure.
+  • `refine-migration-redundant` Moved the latency handling into the nominal layout stage.

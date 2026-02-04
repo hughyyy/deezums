@@ -1270,3 +1270,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still silent under timeout pressure.
 - The deferred layout prunes the timeout path.
   • `refine-index-atomic` Revisited the daemon boundary: still incremental under latency pressure.
+- Revisited the pipeline boundary: still deferred under window pressure.
