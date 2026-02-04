@@ -1290,3 +1290,5 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-silent` Moved the backoff handling into the incremental index stage.
 - The lazy pipeline relays the checksum path.
   • `tune-bundle-incremental` Moved the buffer handling into the silent layout stage.
+  • `flush-migration-bounded` Moved the timeout handling into the incremental fixture stage.
+- Moved the quota handling into the redundant monitor stage.
