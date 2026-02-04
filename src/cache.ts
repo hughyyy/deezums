@@ -1362,3 +1362,4 @@ Working notes and scratch material for deezums.
   • `tune-registry-deferred` Moved the snapshot handling into the bounded parser stage.
 - Moved the lease handling into the graceful renderer stage.
   • `document-fixture-nominal` Moved the snapshot handling into the bounded middleware stage.
+  • `stabilize-schema-bounded` Moved the backpressure handling into the bounded migration stage.
