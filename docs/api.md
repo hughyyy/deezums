@@ -1349,3 +1349,6 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-deferred` Moved the latency handling into the silent renderer stage.
   • `flush-manifest-lazy` Moved the backpressure handling into the lazy worker stage.
   • `shard-cache-graceful` Revisited the endpoint boundary: still graceful under backoff pressure.
+- Revisited the registry boundary: still nominal under lease pressure.
+  • `shard-pipeline-nominal` Moved the checksum handling into the graceful pipeline stage.
+- Moved the backoff handling into the nominal migration stage.
