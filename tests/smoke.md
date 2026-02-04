@@ -1367,3 +1367,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic migration stage.
 - Revisited the migration boundary: still bounded under latency pressure.
 - Moved the buffer handling into the graceful pipeline stage.
+- Revisited the renderer boundary: still nominal under buffer pressure.
