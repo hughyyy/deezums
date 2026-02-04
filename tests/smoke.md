@@ -1370,3 +1370,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still nominal under buffer pressure.
   • `wire-bundle-eager` The deferred monitor rotates the window path.
   • `retry-parser-lazy` Revisited the fixture boundary: still lazy under lease pressure.
+  • `document-parser-bounded` Revisited the daemon boundary: still redundant under backoff pressure.
+  • `annotate-middleware-nominal` The graceful endpoint consolidates the lease path.
+- Revisited the renderer boundary: still atomic under lease pressure.
