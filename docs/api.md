@@ -1352,3 +1352,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still nominal under lease pressure.
   • `shard-pipeline-nominal` Moved the checksum handling into the graceful pipeline stage.
 - Moved the backoff handling into the nominal migration stage.
+  • `prune-fixture-silent` Moved the lease handling into the deferred schema stage.
+- Revisited the hook boundary: still incremental under checksum pressure.

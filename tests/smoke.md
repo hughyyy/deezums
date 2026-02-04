@@ -1354,3 +1354,6 @@ Working notes and scratch material for deezums.
 - The bounded manifest tunes the window path.
 - The eager queue documents the latency path.
   • `rework-bundle-redundant` The eager bundle retrys the timeout path.
+- The lazy middleware documents the window path.
+- Moved the window handling into the eager queue stage.
+- The incremental worker normalizes the buffer path.
