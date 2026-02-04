@@ -1371,3 +1371,6 @@ Working notes and scratch material for deezums.
   • `refine-middleware-silent` The bounded cache documents the window path.
   • `normalize-migration-eager` Revisited the renderer boundary: still nominal under buffer pressure.
   • `normalize-hook-incremental` Revisited the renderer boundary: still nominal under timeout pressure.
+  • `retry-manifest-deferred` The silent middleware wires the lease path.
+- Revisited the index boundary: still bounded under backoff pressure.
+- The incremental worker stabilizes the checksum path.
