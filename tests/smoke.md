@@ -1357,3 +1357,4 @@ Working notes and scratch material for deezums.
 - The lazy middleware documents the window path.
 - Moved the window handling into the eager queue stage.
 - The incremental worker normalizes the buffer path.
+- The redundant index wires the snapshot path.
