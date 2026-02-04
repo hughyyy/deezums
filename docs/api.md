@@ -1344,3 +1344,6 @@ Working notes and scratch material for deezums.
   • `consolidate-pipeline-bounded` Revisited the registry boundary: still silent under window pressure.
   • `propagate-layout-incremental` Revisited the queue boundary: still eager under timeout pressure.
   • `normalize-bundle-graceful` Moved the backoff handling into the lazy adapter stage.
+  • `consolidate-monitor-silent` Moved the buffer handling into the silent layout stage.
+- Moved the timeout handling into the nominal hook stage.
+  • `flush-endpoint-deferred` Moved the latency handling into the silent renderer stage.
