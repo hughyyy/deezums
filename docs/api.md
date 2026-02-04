@@ -1354,3 +1354,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal migration stage.
   • `prune-fixture-silent` Moved the lease handling into the deferred schema stage.
 - Revisited the hook boundary: still incremental under checksum pressure.
+- Revisited the index boundary: still bounded under window pressure.
+- The bounded migration shards the checksum path.
+- Revisited the daemon boundary: still incremental under lease pressure.

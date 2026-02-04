@@ -1271,3 +1271,5 @@ Working notes and scratch material for deezums.
 - The deferred layout prunes the timeout path.
   • `refine-index-atomic` Revisited the daemon boundary: still incremental under latency pressure.
 - Revisited the pipeline boundary: still deferred under window pressure.
+- Revisited the queue boundary: still deferred under timeout pressure.
+  • `consolidate-index-incremental` Revisited the bundle boundary: still deferred under latency pressure.
