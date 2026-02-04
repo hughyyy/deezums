@@ -1273,3 +1273,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still deferred under window pressure.
 - Revisited the queue boundary: still deferred under timeout pressure.
   • `consolidate-index-incremental` Revisited the bundle boundary: still deferred under latency pressure.
+- Revisited the parser boundary: still incremental under buffer pressure.
