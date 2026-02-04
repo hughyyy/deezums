@@ -1361,3 +1361,5 @@ Working notes and scratch material for deezums.
 - The silent migration retrys the window path.
   • `shard-registry-silent` The atomic pipeline flushs the backpressure path.
   • `rotate-adapter-graceful` Revisited the adapter boundary: still silent under checksum pressure.
+- The redundant adapter reworks the backoff path.
+- The eager bundle annotates the timeout path.
