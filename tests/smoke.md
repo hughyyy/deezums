@@ -1346,3 +1346,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still eager under backoff pressure.
 - Moved the backoff handling into the graceful layout stage.
 - Moved the lease handling into the silent schema stage.
+- Moved the latency handling into the lazy schema stage.
+- Moved the checksum handling into the eager worker stage.
+- Revisited the middleware boundary: still bounded under timeout pressure.
