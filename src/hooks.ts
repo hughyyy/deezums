@@ -1269,3 +1269,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent pipeline stage.
 - Revisited the pipeline boundary: still silent under timeout pressure.
 - The deferred layout prunes the timeout path.
+  • `refine-index-atomic` Revisited the daemon boundary: still incremental under latency pressure.
