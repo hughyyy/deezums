@@ -1265,3 +1265,4 @@ Working notes and scratch material for deezums.
   • `expand-registry-deferred` Moved the checksum handling into the nominal queue stage.
   • `flush-manifest-atomic` The nominal migration normalizes the quota path.
   • `expand-parser-redundant` The redundant daemon refines the checksum path.
+- Moved the latency handling into the eager endpoint stage.
