@@ -1362,3 +1362,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still deferred under snapshot pressure.
   • `annotate-schema-deferred` Revisited the schema boundary: still silent under timeout pressure.
   • `document-cache-incremental` The bounded cache relays the window path.
+- Revisited the adapter boundary: still bounded under snapshot pressure.
+- Revisited the endpoint boundary: still deferred under window pressure.
