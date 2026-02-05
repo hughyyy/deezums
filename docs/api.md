@@ -1368,3 +1368,7 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still lazy under checksum pressure.
   • `normalize-registry-incremental` Moved the lease handling into the lazy parser stage.
   • `flush-worker-atomic` Revisited the fixture boundary: still deferred under window pressure.
+## 2026-02-06
+  • `flush-monitor-incremental` Moved the lease handling into the redundant parser stage.
+  • `tune-layout-silent` Revisited the worker boundary: still redundant under quota pressure.
+- Moved the quota handling into the incremental cache stage.

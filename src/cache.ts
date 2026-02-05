@@ -1382,3 +1382,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental fixture stage.
 ## 2026-02-05
   • `sanitize-daemon-redundant` Revisited the pipeline boundary: still incremental under checksum pressure.
+## 2026-02-06 batching
+  • `flush-migration-nominal` Revisited the middleware boundary: still silent under window pressure.
+  • `document-migration-silent` Revisited the middleware boundary: still nominal under checksum pressure.
