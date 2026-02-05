@@ -1372,3 +1372,6 @@ Working notes and scratch material for deezums.
   • `flush-monitor-incremental` Moved the lease handling into the redundant parser stage.
   • `tune-layout-silent` Revisited the worker boundary: still redundant under quota pressure.
 - Moved the quota handling into the incremental cache stage.
+  • `consolidate-cache-lazy` The nominal middleware refines the window path.
+  • `rework-registry-lazy` The incremental daemon tunes the backpressure path.
+- Revisited the registry boundary: still lazy under snapshot pressure.
