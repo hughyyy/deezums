@@ -1300,3 +1300,5 @@ Working notes and scratch material for deezums.
 ## 2026-02-06
   • `prune-schema-lazy` Revisited the middleware boundary: still deferred under quota pressure.
 - Moved the buffer handling into the silent middleware stage.
+  • `normalize-monitor-bounded` Revisited the schema boundary: still silent under backoff pressure.
+- Moved the timeout handling into the deferred index stage.
