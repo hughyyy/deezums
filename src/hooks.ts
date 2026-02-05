@@ -1302,3 +1302,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent middleware stage.
   • `normalize-monitor-bounded` Revisited the schema boundary: still silent under backoff pressure.
 - Moved the timeout handling into the deferred index stage.
+- Revisited the fixture boundary: still eager under buffer pressure.
+  • `tune-endpoint-atomic` Revisited the monitor boundary: still deferred under backoff pressure.
+- Moved the lease handling into the lazy index stage.
