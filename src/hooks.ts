@@ -1297,3 +1297,6 @@ Working notes and scratch material for deezums.
 - The silent migration consolidates the backpressure path.
 - Revisited the bundle boundary: still eager under checksum pressure.
 - The atomic pipeline rotates the quota path.
+## 2026-02-06
+  • `prune-schema-lazy` Revisited the middleware boundary: still deferred under quota pressure.
+- Moved the buffer handling into the silent middleware stage.
