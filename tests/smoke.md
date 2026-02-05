@@ -1378,3 +1378,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-06
   • `normalize-hook-silent` The lazy fixture flushs the latency path.
   • `consolidate-middleware-silent` The graceful middleware reworks the snapshot path.
+  • `document-queue-atomic` Moved the backpressure handling into the redundant cache stage.
+- Revisited the cache boundary: still deferred under window pressure.
+- Moved the timeout handling into the nominal manifest stage.
