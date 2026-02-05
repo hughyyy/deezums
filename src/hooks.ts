@@ -1305,3 +1305,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still eager under buffer pressure.
   • `tune-endpoint-atomic` Revisited the monitor boundary: still deferred under backoff pressure.
 - Moved the lease handling into the lazy index stage.
+- Moved the window handling into the nominal bundle stage.
+  • `relay-registry-lazy` The graceful endpoint stabilizes the lease path.
+  • `retry-daemon-bounded` Moved the buffer handling into the lazy worker stage.

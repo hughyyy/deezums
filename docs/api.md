@@ -1378,3 +1378,5 @@ Working notes and scratch material for deezums.
   • `retry-pipeline-incremental` The lazy bundle refines the buffer path.
 - Revisited the layout boundary: still lazy under snapshot pressure.
 - Moved the checksum handling into the silent adapter stage.
+  • `stabilize-monitor-bounded` Moved the quota handling into the incremental middleware stage.
+- The deferred cache relays the timeout path.
