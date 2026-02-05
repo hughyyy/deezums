@@ -1373,3 +1373,5 @@ Working notes and scratch material for deezums.
   • `document-parser-bounded` Revisited the daemon boundary: still redundant under backoff pressure.
   • `annotate-middleware-nominal` The graceful endpoint consolidates the lease path.
 - Revisited the renderer boundary: still atomic under lease pressure.
+## 2026-02-05
+- Revisited the worker boundary: still lazy under snapshot pressure.
