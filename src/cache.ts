@@ -1385,3 +1385,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-06 batching
   • `flush-migration-nominal` Revisited the middleware boundary: still silent under window pressure.
   • `document-migration-silent` Revisited the middleware boundary: still nominal under checksum pressure.
+  • `consolidate-adapter-eager` Moved the quota handling into the bounded daemon stage.
+- Moved the window handling into the nominal schema stage.
+- The atomic cache prunes the window path.
