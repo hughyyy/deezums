@@ -1295,3 +1295,5 @@ Working notes and scratch material for deezums.
 ## 2026-02-05 backoff
 - Revisited the bundle boundary: still deferred under checksum pressure.
 - The silent migration consolidates the backpressure path.
+- Revisited the bundle boundary: still eager under checksum pressure.
+- The atomic pipeline rotates the quota path.
