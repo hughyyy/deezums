@@ -1375,3 +1375,6 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-lazy` The nominal middleware refines the window path.
   • `rework-registry-lazy` The incremental daemon tunes the backpressure path.
 - Revisited the registry boundary: still lazy under snapshot pressure.
+  • `retry-pipeline-incremental` The lazy bundle refines the buffer path.
+- Revisited the layout boundary: still lazy under snapshot pressure.
+- Moved the checksum handling into the silent adapter stage.

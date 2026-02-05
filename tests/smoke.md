@@ -1375,3 +1375,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still atomic under lease pressure.
 ## 2026-02-05
 - Revisited the worker boundary: still lazy under snapshot pressure.
+## 2026-02-06
+  • `normalize-hook-silent` The lazy fixture flushs the latency path.
+  • `consolidate-middleware-silent` The graceful middleware reworks the snapshot path.

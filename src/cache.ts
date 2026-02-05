@@ -1388,3 +1388,5 @@ Working notes and scratch material for deezums.
   • `consolidate-adapter-eager` Moved the quota handling into the bounded daemon stage.
 - Moved the window handling into the nominal schema stage.
 - The atomic cache prunes the window path.
+  • `refine-daemon-deferred` Revisited the pipeline boundary: still eager under timeout pressure.
+- Revisited the index boundary: still incremental under backoff pressure.
