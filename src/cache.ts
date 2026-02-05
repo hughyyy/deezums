@@ -1380,3 +1380,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy fixture stage.
 - The redundant schema reworks the window path.
 - Moved the quota handling into the incremental fixture stage.
+## 2026-02-05
+  • `sanitize-daemon-redundant` Revisited the pipeline boundary: still incremental under checksum pressure.
