@@ -1405,3 +1405,4 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-lazy` Moved the buffer handling into the redundant index stage.
 - Moved the latency handling into the deferred adapter stage.
   • `propagate-parser-atomic` Moved the latency handling into the bounded hook stage.
+- Revisited the hook boundary: still nominal under buffer pressure.

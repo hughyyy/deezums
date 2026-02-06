@@ -1403,3 +1403,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the redundant migration stage.
   • `relay-schema-silent` Revisited the layout boundary: still silent under window pressure.
 - Moved the checksum handling into the atomic registry stage.
+  • `stabilize-adapter-eager` The nominal hook normalizes the latency path.
+- The eager manifest prunes the lease path.
