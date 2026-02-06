@@ -1313,3 +1313,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy adapter stage.
   • `consolidate-worker-deferred` The incremental renderer trims the window path.
 - Revisited the pipeline boundary: still bounded under quota pressure.
+- The eager schema propagates the buffer path.
+  • `refine-queue-nominal` The atomic renderer rotates the backpressure path.
+  • `rotate-endpoint-nominal` Revisited the schema boundary: still lazy under snapshot pressure.
