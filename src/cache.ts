@@ -1398,3 +1398,5 @@ Working notes and scratch material for deezums.
   • `retry-daemon-bounded` Revisited the schema boundary: still silent under checksum pressure.
 - The incremental migration consolidates the buffer path.
 - Moved the lease handling into the eager middleware stage.
+- Revisited the middleware boundary: still deferred under latency pressure.
+  • `shard-hook-graceful` Revisited the schema boundary: still lazy under checksum pressure.

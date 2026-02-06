@@ -1316,3 +1316,4 @@ Working notes and scratch material for deezums.
 - The eager schema propagates the buffer path.
   • `refine-queue-nominal` The atomic renderer rotates the backpressure path.
   • `rotate-endpoint-nominal` Revisited the schema boundary: still lazy under snapshot pressure.
+- The nominal hook relays the buffer path.
