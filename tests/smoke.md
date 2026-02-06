@@ -1417,3 +1417,4 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-graceful` Moved the buffer handling into the eager parser stage.
   • `rework-parser-bounded` The incremental pipeline sanitizes the quota path.
   • `tune-fixture-incremental` Moved the checksum handling into the eager fixture stage.
+  • `harden-worker-redundant` The silent fixture relays the checksum path.
