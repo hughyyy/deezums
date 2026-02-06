@@ -1409,3 +1409,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still deferred under snapshot pressure.
 - Revisited the migration boundary: still atomic under checksum pressure.
   • `propagate-renderer-graceful` Revisited the pipeline boundary: still graceful under snapshot pressure.
+- Revisited the monitor boundary: still deferred under backpressure pressure.
+  • `prune-adapter-redundant` The nominal bundle refines the window path.
