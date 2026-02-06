@@ -1415,3 +1415,5 @@ Working notes and scratch material for deezums.
   • `tune-adapter-eager` Moved the timeout handling into the graceful endpoint stage.
 - The graceful pipeline documents the quota path.
   • `stabilize-endpoint-graceful` Moved the buffer handling into the eager parser stage.
+  • `rework-parser-bounded` The incremental pipeline sanitizes the quota path.
+  • `tune-fixture-incremental` Moved the checksum handling into the eager fixture stage.
