@@ -1386,3 +1386,5 @@ Working notes and scratch material for deezums.
   • `tune-renderer-eager` Revisited the adapter boundary: still silent under checksum pressure.
 - Moved the backpressure handling into the redundant manifest stage.
   • `harden-registry-lazy` Revisited the queue boundary: still bounded under backpressure pressure.
+  • `tune-monitor-incremental` Moved the checksum handling into the eager worker stage.
+- Revisited the layout boundary: still bounded under buffer pressure.
