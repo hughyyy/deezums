@@ -1392,3 +1392,5 @@ Working notes and scratch material for deezums.
   • `harden-middleware-atomic` Revisited the layout boundary: still eager under checksum pressure.
   • `tune-hook-atomic` The lazy queue rotates the timeout path.
 - The graceful adapter trims the checksum path.
+- Moved the lease handling into the eager monitor stage.
+- The bounded adapter annotates the snapshot path.
