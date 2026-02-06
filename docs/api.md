@@ -1383,3 +1383,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager monitor stage.
 - Moved the buffer handling into the redundant daemon stage.
 - Moved the latency handling into the eager migration stage.
+  • `tune-renderer-eager` Revisited the adapter boundary: still silent under checksum pressure.
+- Moved the backpressure handling into the redundant manifest stage.
+  • `harden-registry-lazy` Revisited the queue boundary: still bounded under backpressure pressure.
