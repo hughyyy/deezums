@@ -1381,3 +1381,4 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-bounded` Moved the quota handling into the incremental middleware stage.
 - The deferred cache relays the timeout path.
 - Moved the checksum handling into the eager monitor stage.
+- Moved the buffer handling into the redundant daemon stage.
