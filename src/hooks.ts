@@ -1317,3 +1317,6 @@ Working notes and scratch material for deezums.
   • `refine-queue-nominal` The atomic renderer rotates the backpressure path.
   • `rotate-endpoint-nominal` Revisited the schema boundary: still lazy under snapshot pressure.
 - The nominal hook relays the buffer path.
+- Revisited the index boundary: still incremental under snapshot pressure.
+- Moved the checksum handling into the deferred migration stage.
+- The nominal schema normalizes the timeout path.

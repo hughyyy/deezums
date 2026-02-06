@@ -1400,3 +1400,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager middleware stage.
 - Revisited the middleware boundary: still deferred under latency pressure.
   • `shard-hook-graceful` Revisited the schema boundary: still lazy under checksum pressure.
+- Moved the timeout handling into the redundant migration stage.
+  • `relay-schema-silent` Revisited the layout boundary: still silent under window pressure.
+- Moved the checksum handling into the atomic registry stage.
