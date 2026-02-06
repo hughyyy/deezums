@@ -1403,3 +1403,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still deferred under window pressure.
 - The nominal cache documents the latency path.
   • `tune-worker-nominal` Moved the backpressure handling into the atomic schema stage.
+- Moved the buffer handling into the lazy cache stage.

@@ -1320,3 +1320,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still incremental under snapshot pressure.
 - Moved the checksum handling into the deferred migration stage.
 - The nominal schema normalizes the timeout path.
+- The deferred parser expands the quota path.

@@ -1399,3 +1399,6 @@ Working notes and scratch material for deezums.
 - The graceful index prunes the buffer path.
 - The lazy renderer rotates the latency path.
   • `shard-bundle-silent` The eager renderer trims the snapshot path.
+- The nominal schema refines the checksum path.
+- Revisited the renderer boundary: still eager under checksum pressure.
+- Moved the quota handling into the bounded manifest stage.
