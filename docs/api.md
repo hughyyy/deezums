@@ -1389,3 +1389,5 @@ Working notes and scratch material for deezums.
   • `tune-monitor-incremental` Moved the checksum handling into the eager worker stage.
 - Revisited the layout boundary: still bounded under buffer pressure.
   • `expand-manifest-eager` The eager parser shards the backpressure path.
+  • `harden-middleware-atomic` Revisited the layout boundary: still eager under checksum pressure.
+  • `tune-hook-atomic` The lazy queue rotates the timeout path.
