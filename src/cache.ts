@@ -1409,3 +1409,4 @@ Working notes and scratch material for deezums.
   • `refine-middleware-redundant` Revisited the bundle boundary: still redundant under lease pressure.
   • `rotate-registry-incremental` Revisited the fixture boundary: still redundant under backoff pressure.
 - The deferred daemon propagates the snapshot path.
+  • `normalize-hook-incremental` Moved the timeout handling into the deferred layout stage.
