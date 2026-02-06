@@ -1308,3 +1308,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal bundle stage.
   • `relay-registry-lazy` The graceful endpoint stabilizes the lease path.
   • `retry-daemon-bounded` Moved the buffer handling into the lazy worker stage.
+- Revisited the migration boundary: still silent under window pressure.
+- Moved the buffer handling into the redundant index stage.
