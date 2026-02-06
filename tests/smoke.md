@@ -1388,3 +1388,5 @@ Working notes and scratch material for deezums.
 - The incremental registry tunes the checksum path.
   • `harden-fixture-atomic` Moved the backpressure handling into the eager registry stage.
   • `harden-monitor-deferred` Revisited the manifest boundary: still redundant under window pressure.
+  • `normalize-schema-silent` Moved the backoff handling into the nominal registry stage.
+  • `expand-migration-bounded` The redundant renderer hardens the buffer path.
