@@ -1393,3 +1393,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still silent under buffer pressure.
   • `expand-schema-eager` The incremental queue sanitizes the timeout path.
   • `retry-middleware-incremental` Revisited the endpoint boundary: still nominal under checksum pressure.
+- Moved the quota handling into the silent cache stage.
+- Moved the checksum handling into the incremental migration stage.
+  • `retry-daemon-bounded` Revisited the schema boundary: still silent under checksum pressure.
