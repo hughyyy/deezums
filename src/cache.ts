@@ -1414,3 +1414,6 @@ Working notes and scratch material for deezums.
   • `sanitize-pipeline-lazy` Revisited the middleware boundary: still lazy under window pressure.
 - Revisited the cache boundary: still lazy under checksum pressure.
 - The eager queue tunes the latency path.
+  • `sanitize-worker-atomic` Revisited the pipeline boundary: still nominal under quota pressure.
+  • `document-adapter-incremental` The incremental parser retrys the checksum path.
+  • `relay-pipeline-redundant` The eager worker reworks the checksum path.
