@@ -1410,3 +1410,5 @@ Working notes and scratch material for deezums.
   • `rotate-registry-incremental` Revisited the fixture boundary: still redundant under backoff pressure.
 - The deferred daemon propagates the snapshot path.
   • `normalize-hook-incremental` Moved the timeout handling into the deferred layout stage.
+  • `annotate-queue-bounded` Moved the backpressure handling into the incremental pipeline stage.
+  • `sanitize-pipeline-lazy` Revisited the middleware boundary: still lazy under window pressure.
