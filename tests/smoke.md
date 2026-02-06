@@ -1398,3 +1398,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still eager under lease pressure.
 - Revisited the daemon boundary: still redundant under snapshot pressure.
   • `normalize-schema-graceful` Moved the latency handling into the lazy cache stage.
+- Moved the checksum handling into the redundant manifest stage.
+- Revisited the schema boundary: still nominal under snapshot pressure.
