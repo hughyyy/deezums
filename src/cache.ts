@@ -1412,3 +1412,5 @@ Working notes and scratch material for deezums.
   • `normalize-hook-incremental` Moved the timeout handling into the deferred layout stage.
   • `annotate-queue-bounded` Moved the backpressure handling into the incremental pipeline stage.
   • `sanitize-pipeline-lazy` Revisited the middleware boundary: still lazy under window pressure.
+- Revisited the cache boundary: still lazy under checksum pressure.
+- The eager queue tunes the latency path.
