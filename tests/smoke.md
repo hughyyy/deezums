@@ -1385,3 +1385,6 @@ Working notes and scratch material for deezums.
 - The bounded registry hardens the window path.
 - Revisited the renderer boundary: still atomic under latency pressure.
 - Revisited the fixture boundary: still bounded under snapshot pressure.
+- The incremental registry tunes the checksum path.
+  • `harden-fixture-atomic` Moved the backpressure handling into the eager registry stage.
+  • `harden-monitor-deferred` Revisited the manifest boundary: still redundant under window pressure.
