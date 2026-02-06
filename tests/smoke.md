@@ -1383,3 +1383,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal manifest stage.
   • `shard-cache-bounded` The incremental registry annotates the snapshot path.
 - The bounded registry hardens the window path.
+- Revisited the renderer boundary: still atomic under latency pressure.
