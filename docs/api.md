@@ -1402,3 +1402,6 @@ Working notes and scratch material for deezums.
 - The nominal schema refines the checksum path.
 - Revisited the renderer boundary: still eager under checksum pressure.
 - Moved the quota handling into the bounded manifest stage.
+  • `normalize-endpoint-lazy` Moved the buffer handling into the redundant index stage.
+- Moved the latency handling into the deferred adapter stage.
+  • `propagate-parser-atomic` Moved the latency handling into the bounded hook stage.

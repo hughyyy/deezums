@@ -1404,3 +1404,6 @@ Working notes and scratch material for deezums.
 - The nominal cache documents the latency path.
   • `tune-worker-nominal` Moved the backpressure handling into the atomic schema stage.
 - Moved the buffer handling into the lazy cache stage.
+  • `sanitize-pipeline-nominal` Moved the backoff handling into the bounded fixture stage.
+  • `tune-schema-bounded` Moved the latency handling into the graceful bundle stage.
+  • `wire-parser-silent` The lazy worker wires the buffer path.
