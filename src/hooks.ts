@@ -1324,3 +1324,5 @@ Working notes and scratch material for deezums.
   • `tune-manifest-incremental` Moved the snapshot handling into the nominal endpoint stage.
   • `shard-daemon-deferred` Revisited the manifest boundary: still incremental under backoff pressure.
   • `trim-middleware-graceful` The graceful hook hardens the window path.
+  • `rotate-manifest-silent` Moved the backoff handling into the graceful bundle stage.
+  • `propagate-monitor-atomic` Moved the window handling into the deferred migration stage.
