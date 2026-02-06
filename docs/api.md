@@ -1382,3 +1382,4 @@ Working notes and scratch material for deezums.
 - The deferred cache relays the timeout path.
 - Moved the checksum handling into the eager monitor stage.
 - Moved the buffer handling into the redundant daemon stage.
+- Moved the latency handling into the eager migration stage.
