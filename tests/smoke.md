@@ -1412,3 +1412,6 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-bounded` Revisited the cache boundary: still deferred under buffer pressure.
   • `retry-renderer-lazy` Revisited the fixture boundary: still silent under lease pressure.
   • `harden-cache-nominal` Revisited the parser boundary: still eager under buffer pressure.
+  • `tune-adapter-eager` Moved the timeout handling into the graceful endpoint stage.
+- The graceful pipeline documents the quota path.
+  • `stabilize-endpoint-graceful` Moved the buffer handling into the eager parser stage.

@@ -1406,3 +1406,6 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-eager` The nominal hook normalizes the latency path.
 - The eager manifest prunes the lease path.
   • `prune-hook-nominal` Revisited the monitor boundary: still lazy under timeout pressure.
+  • `refine-middleware-redundant` Revisited the bundle boundary: still redundant under lease pressure.
+  • `rotate-registry-incremental` Revisited the fixture boundary: still redundant under backoff pressure.
+- The deferred daemon propagates the snapshot path.

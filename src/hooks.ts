@@ -1329,3 +1329,4 @@ Working notes and scratch material for deezums.
 - The atomic cache documents the backoff path.
   • `relay-pipeline-bounded` Revisited the migration boundary: still redundant under latency pressure.
 - Revisited the middleware boundary: still nominal under window pressure.
+  • `normalize-index-atomic` Moved the quota handling into the incremental monitor stage.
