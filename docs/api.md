@@ -1394,3 +1394,5 @@ Working notes and scratch material for deezums.
 - The graceful adapter trims the checksum path.
 - Moved the lease handling into the eager monitor stage.
 - The bounded adapter annotates the snapshot path.
+  • `stabilize-manifest-deferred` Moved the quota handling into the redundant adapter stage.
+- The graceful queue expands the snapshot path.
