@@ -1381,3 +1381,5 @@ Working notes and scratch material for deezums.
   • `document-queue-atomic` Moved the backpressure handling into the redundant cache stage.
 - Revisited the cache boundary: still deferred under window pressure.
 - Moved the timeout handling into the nominal manifest stage.
+  • `shard-cache-bounded` The incremental registry annotates the snapshot path.
+- The bounded registry hardens the window path.
