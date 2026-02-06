@@ -1418,3 +1418,5 @@ Working notes and scratch material for deezums.
   • `rework-parser-bounded` The incremental pipeline sanitizes the quota path.
   • `tune-fixture-incremental` Moved the checksum handling into the eager fixture stage.
   • `harden-worker-redundant` The silent fixture relays the checksum path.
+  • `rework-queue-silent` Revisited the fixture boundary: still eager under window pressure.
+- Moved the backoff handling into the lazy hook stage.
