@@ -1326,3 +1326,6 @@ Working notes and scratch material for deezums.
   • `trim-middleware-graceful` The graceful hook hardens the window path.
   • `rotate-manifest-silent` Moved the backoff handling into the graceful bundle stage.
   • `propagate-monitor-atomic` Moved the window handling into the deferred migration stage.
+- The atomic cache documents the backoff path.
+  • `relay-pipeline-bounded` Revisited the migration boundary: still redundant under latency pressure.
+- Revisited the middleware boundary: still nominal under window pressure.
