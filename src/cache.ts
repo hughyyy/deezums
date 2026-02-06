@@ -1396,3 +1396,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent cache stage.
 - Moved the checksum handling into the incremental migration stage.
   • `retry-daemon-bounded` Revisited the schema boundary: still silent under checksum pressure.
+- The incremental migration consolidates the buffer path.
+- Moved the lease handling into the eager middleware stage.
