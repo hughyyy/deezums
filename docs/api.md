@@ -1407,3 +1407,4 @@ Working notes and scratch material for deezums.
   • `propagate-parser-atomic` Moved the latency handling into the bounded hook stage.
 - Revisited the hook boundary: still nominal under buffer pressure.
 - Revisited the hook boundary: still deferred under snapshot pressure.
+- Revisited the migration boundary: still atomic under checksum pressure.
