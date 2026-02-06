@@ -1407,3 +1407,5 @@ Working notes and scratch material for deezums.
   • `sanitize-pipeline-nominal` Moved the backoff handling into the bounded fixture stage.
   • `tune-schema-bounded` Moved the latency handling into the graceful bundle stage.
   • `wire-parser-silent` The lazy worker wires the buffer path.
+  • `annotate-fixture-silent` The atomic monitor prunes the window path.
+- Moved the checksum handling into the incremental registry stage.
