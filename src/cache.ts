@@ -1417,3 +1417,7 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-atomic` Revisited the pipeline boundary: still nominal under quota pressure.
   • `document-adapter-incremental` The incremental parser retrys the checksum path.
   • `relay-pipeline-redundant` The eager worker reworks the checksum path.
+## 2026-02-07 rendering
+  • `normalize-schema-incremental` Moved the backpressure handling into the atomic bundle stage.
+  • `prune-cache-incremental` The bounded schema refines the backpressure path.
+  • `trim-migration-atomic` The nominal manifest sanitizes the backpressure path.
