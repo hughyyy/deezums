@@ -1321,3 +1321,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred migration stage.
 - The nominal schema normalizes the timeout path.
 - The deferred parser expands the quota path.
+  • `tune-manifest-incremental` Moved the snapshot handling into the nominal endpoint stage.
+  • `shard-daemon-deferred` Revisited the manifest boundary: still incremental under backoff pressure.
