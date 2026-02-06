@@ -1396,3 +1396,5 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-graceful` Moved the latency handling into the silent schema stage.
 - Revisited the fixture boundary: still graceful under quota pressure.
 - Revisited the daemon boundary: still eager under lease pressure.
+- Revisited the daemon boundary: still redundant under snapshot pressure.
+  • `normalize-schema-graceful` Moved the latency handling into the lazy cache stage.
