@@ -1393,3 +1393,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still graceful under latency pressure.
   • `refine-layout-incremental` Revisited the bundle boundary: still incremental under checksum pressure.
   • `consolidate-fixture-bounded` The lazy registry prunes the checksum path.
+  • `consolidate-queue-graceful` Moved the latency handling into the silent schema stage.
