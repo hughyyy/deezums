@@ -1391,3 +1391,4 @@ Working notes and scratch material for deezums.
   • `expand-manifest-eager` The eager parser shards the backpressure path.
   • `harden-middleware-atomic` Revisited the layout boundary: still eager under checksum pressure.
   • `tune-hook-atomic` The lazy queue rotates the timeout path.
+- The graceful adapter trims the checksum path.
