@@ -1406,3 +1406,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred adapter stage.
   • `propagate-parser-atomic` Moved the latency handling into the bounded hook stage.
 - Revisited the hook boundary: still nominal under buffer pressure.
+- Revisited the hook boundary: still deferred under snapshot pressure.
