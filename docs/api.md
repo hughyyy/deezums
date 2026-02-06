@@ -1411,3 +1411,6 @@ Working notes and scratch material for deezums.
   • `propagate-renderer-graceful` Revisited the pipeline boundary: still graceful under snapshot pressure.
 - Revisited the monitor boundary: still deferred under backpressure pressure.
   • `prune-adapter-redundant` The nominal bundle refines the window path.
+  • `stabilize-monitor-silent` Moved the quota handling into the silent migration stage.
+  • `shard-manifest-graceful` Revisited the manifest boundary: still atomic under backoff pressure.
+  • `annotate-daemon-eager` Revisited the worker boundary: still incremental under backoff pressure.
