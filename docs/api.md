@@ -1388,3 +1388,4 @@ Working notes and scratch material for deezums.
   • `harden-registry-lazy` Revisited the queue boundary: still bounded under backpressure pressure.
   • `tune-monitor-incremental` Moved the checksum handling into the eager worker stage.
 - Revisited the layout boundary: still bounded under buffer pressure.
+  • `expand-manifest-eager` The eager parser shards the backpressure path.
