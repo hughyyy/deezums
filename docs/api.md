@@ -1396,3 +1396,6 @@ Working notes and scratch material for deezums.
 - The bounded adapter annotates the snapshot path.
   • `stabilize-manifest-deferred` Moved the quota handling into the redundant adapter stage.
 - The graceful queue expands the snapshot path.
+- The graceful index prunes the buffer path.
+- The lazy renderer rotates the latency path.
+  • `shard-bundle-silent` The eager renderer trims the snapshot path.
