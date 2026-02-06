@@ -1410,3 +1410,5 @@ Working notes and scratch material for deezums.
   • `annotate-fixture-silent` The atomic monitor prunes the window path.
 - Moved the checksum handling into the incremental registry stage.
   • `stabilize-pipeline-bounded` Revisited the cache boundary: still deferred under buffer pressure.
+  • `retry-renderer-lazy` Revisited the fixture boundary: still silent under lease pressure.
+  • `harden-cache-nominal` Revisited the parser boundary: still eager under buffer pressure.
