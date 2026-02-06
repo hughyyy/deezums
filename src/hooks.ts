@@ -1310,3 +1310,4 @@ Working notes and scratch material for deezums.
   • `retry-daemon-bounded` Moved the buffer handling into the lazy worker stage.
 - Revisited the migration boundary: still silent under window pressure.
 - Moved the buffer handling into the redundant index stage.
+- Moved the checksum handling into the lazy adapter stage.
