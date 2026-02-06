@@ -1390,3 +1390,6 @@ Working notes and scratch material for deezums.
 - The atomic cache prunes the window path.
   • `refine-daemon-deferred` Revisited the pipeline boundary: still eager under timeout pressure.
 - Revisited the index boundary: still incremental under backoff pressure.
+- Revisited the parser boundary: still silent under buffer pressure.
+  • `expand-schema-eager` The incremental queue sanitizes the timeout path.
+  • `retry-middleware-incremental` Revisited the endpoint boundary: still nominal under checksum pressure.

@@ -1390,3 +1390,6 @@ Working notes and scratch material for deezums.
   • `harden-monitor-deferred` Revisited the manifest boundary: still redundant under window pressure.
   • `normalize-schema-silent` Moved the backoff handling into the nominal registry stage.
   • `expand-migration-bounded` The redundant renderer hardens the buffer path.
+- Revisited the schema boundary: still graceful under latency pressure.
+  • `refine-layout-incremental` Revisited the bundle boundary: still incremental under checksum pressure.
+  • `consolidate-fixture-bounded` The lazy registry prunes the checksum path.
