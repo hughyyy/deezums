@@ -1380,3 +1380,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the silent adapter stage.
   • `stabilize-monitor-bounded` Moved the quota handling into the incremental middleware stage.
 - The deferred cache relays the timeout path.
+- Moved the checksum handling into the eager monitor stage.
