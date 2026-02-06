@@ -1409,3 +1409,4 @@ Working notes and scratch material for deezums.
   • `wire-parser-silent` The lazy worker wires the buffer path.
   • `annotate-fixture-silent` The atomic monitor prunes the window path.
 - Moved the checksum handling into the incremental registry stage.
+  • `stabilize-pipeline-bounded` Revisited the cache boundary: still deferred under buffer pressure.
