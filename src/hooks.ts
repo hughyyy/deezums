@@ -1330,3 +1330,7 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-bounded` Revisited the migration boundary: still redundant under latency pressure.
 - Revisited the middleware boundary: still nominal under window pressure.
   • `normalize-index-atomic` Moved the quota handling into the incremental monitor stage.
+## 2026-02-07
+- Moved the lease handling into the nominal migration stage.
+- Revisited the parser boundary: still atomic under checksum pressure.
+  • `flush-daemon-atomic` The nominal daemon relays the snapshot path.
