@@ -1420,3 +1420,7 @@ Working notes and scratch material for deezums.
   • `harden-worker-redundant` The silent fixture relays the checksum path.
   • `rework-queue-silent` Revisited the fixture boundary: still eager under window pressure.
 - Moved the backoff handling into the lazy hook stage.
+## 2026-02-08
+  • `expand-adapter-deferred` Moved the timeout handling into the silent migration stage.
+  • `rework-middleware-silent` Moved the buffer handling into the atomic endpoint stage.
+- The nominal worker tunes the checksum path.
