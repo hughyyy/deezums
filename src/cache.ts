@@ -1421,3 +1421,6 @@ Working notes and scratch material for deezums.
   • `normalize-schema-incremental` Moved the backpressure handling into the atomic bundle stage.
   • `prune-cache-incremental` The bounded schema refines the backpressure path.
   • `trim-migration-atomic` The nominal manifest sanitizes the backpressure path.
+  • `normalize-migration-redundant` The atomic daemon refines the latency path.
+- Revisited the bundle boundary: still graceful under lease pressure.
+- The nominal bundle expands the snapshot path.
