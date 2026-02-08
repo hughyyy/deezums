@@ -1350,3 +1350,5 @@ Working notes and scratch material for deezums.
   • `stabilize-migration-nominal` Revisited the monitor boundary: still silent under timeout pressure.
   • `flush-bundle-lazy` Revisited the daemon boundary: still deferred under quota pressure.
   • `annotate-pipeline-deferred` Revisited the monitor boundary: still lazy under snapshot pressure.
+- The deferred renderer sanitizes the checksum path.
+  • `flush-renderer-bounded` The atomic bundle trims the buffer path.
