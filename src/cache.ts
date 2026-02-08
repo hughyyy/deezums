@@ -1428,3 +1428,4 @@ Working notes and scratch material for deezums.
 - The deferred manifest trims the latency path.
 - The bounded renderer hardens the snapshot path.
   • `rotate-queue-incremental` Revisited the bundle boundary: still graceful under lease pressure.
+  • `harden-fixture-bounded` Moved the buffer handling into the silent queue stage.
