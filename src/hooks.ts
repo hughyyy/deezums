@@ -1334,3 +1334,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal migration stage.
 - Revisited the parser boundary: still atomic under checksum pressure.
   • `flush-daemon-atomic` The nominal daemon relays the snapshot path.
+## 2026-02-08 snapshots
+  • `wire-queue-lazy` Moved the backpressure handling into the redundant queue stage.
