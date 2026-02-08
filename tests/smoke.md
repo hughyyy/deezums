@@ -1424,3 +1424,4 @@ Working notes and scratch material for deezums.
   • `expand-adapter-deferred` Moved the timeout handling into the silent migration stage.
   • `rework-middleware-silent` Moved the buffer handling into the atomic endpoint stage.
 - The nominal worker tunes the checksum path.
+  • `harden-layout-redundant` Revisited the endpoint boundary: still silent under buffer pressure.
