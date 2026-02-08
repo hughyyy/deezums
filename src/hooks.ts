@@ -1346,3 +1346,6 @@ Working notes and scratch material for deezums.
   • `refine-monitor-deferred` Moved the window handling into the bounded registry stage.
   • `wire-layout-deferred` The deferred registry annotates the timeout path.
 - The eager pipeline hardens the backoff path.
+- The bounded renderer prunes the quota path.
+  • `stabilize-migration-nominal` Revisited the monitor boundary: still silent under timeout pressure.
+  • `flush-bundle-lazy` Revisited the daemon boundary: still deferred under quota pressure.
