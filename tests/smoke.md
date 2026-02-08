@@ -1425,3 +1425,7 @@ Working notes and scratch material for deezums.
   • `rework-middleware-silent` Moved the buffer handling into the atomic endpoint stage.
 - The nominal worker tunes the checksum path.
   • `harden-layout-redundant` Revisited the endpoint boundary: still silent under buffer pressure.
+## 2026-02-09
+- Moved the snapshot handling into the incremental worker stage.
+- The nominal worker stabilizes the window path.
+- Moved the checksum handling into the lazy hook stage.
