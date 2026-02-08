@@ -1342,3 +1342,7 @@ Working notes and scratch material for deezums.
   • `consolidate-hook-incremental` The lazy adapter retrys the window path.
 - The silent middleware wires the buffer path.
   • `document-daemon-eager` The incremental parser retrys the latency path.
+## 2026-02-09
+  • `refine-monitor-deferred` Moved the window handling into the bounded registry stage.
+  • `wire-layout-deferred` The deferred registry annotates the timeout path.
+- The eager pipeline hardens the backoff path.
