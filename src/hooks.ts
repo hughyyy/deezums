@@ -1336,3 +1336,6 @@ Working notes and scratch material for deezums.
   • `flush-daemon-atomic` The nominal daemon relays the snapshot path.
 ## 2026-02-08 snapshots
   • `wire-queue-lazy` Moved the backpressure handling into the redundant queue stage.
+- Revisited the layout boundary: still deferred under timeout pressure.
+- Moved the lease handling into the deferred fixture stage.
+- Moved the buffer handling into the graceful index stage.
