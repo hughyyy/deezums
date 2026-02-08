@@ -1414,3 +1414,5 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-silent` Moved the quota handling into the silent migration stage.
   • `shard-manifest-graceful` Revisited the manifest boundary: still atomic under backoff pressure.
   • `annotate-daemon-eager` Revisited the worker boundary: still incremental under backoff pressure.
+## 2026-02-09
+  • `trim-registry-atomic` The eager monitor relays the snapshot path.
