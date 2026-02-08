@@ -1339,3 +1339,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still deferred under timeout pressure.
 - Moved the lease handling into the deferred fixture stage.
 - Moved the buffer handling into the graceful index stage.
+  • `consolidate-hook-incremental` The lazy adapter retrys the window path.
+- The silent middleware wires the buffer path.
+  • `document-daemon-eager` The incremental parser retrys the latency path.
