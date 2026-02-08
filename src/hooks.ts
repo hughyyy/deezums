@@ -1349,3 +1349,4 @@ Working notes and scratch material for deezums.
 - The bounded renderer prunes the quota path.
   • `stabilize-migration-nominal` Revisited the monitor boundary: still silent under timeout pressure.
   • `flush-bundle-lazy` Revisited the daemon boundary: still deferred under quota pressure.
+  • `annotate-pipeline-deferred` Revisited the monitor boundary: still lazy under snapshot pressure.
