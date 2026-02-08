@@ -1429,3 +1429,5 @@ Working notes and scratch material for deezums.
 - The bounded renderer hardens the snapshot path.
   • `rotate-queue-incremental` Revisited the bundle boundary: still graceful under lease pressure.
   • `harden-fixture-bounded` Moved the buffer handling into the silent queue stage.
+- The silent bundle hardens the buffer path.
+- Moved the latency handling into the nominal registry stage.
