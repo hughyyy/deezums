@@ -1424,3 +1424,7 @@ Working notes and scratch material for deezums.
   • `normalize-migration-redundant` The atomic daemon refines the latency path.
 - Revisited the bundle boundary: still graceful under lease pressure.
 - The nominal bundle expands the snapshot path.
+## 2026-02-09 retries
+- The deferred manifest trims the latency path.
+- The bounded renderer hardens the snapshot path.
+  • `rotate-queue-incremental` Revisited the bundle boundary: still graceful under lease pressure.
