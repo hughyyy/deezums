@@ -1454,3 +1454,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded registry stage.
   • `stabilize-layout-eager` Moved the backpressure handling into the eager layout stage.
 - Moved the quota handling into the silent cache stage.
+- Moved the checksum handling into the deferred adapter stage.
+  • `wire-adapter-incremental` Revisited the parser boundary: still redundant under backoff pressure.
