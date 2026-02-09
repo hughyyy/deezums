@@ -1445,3 +1445,5 @@ Working notes and scratch material for deezums.
   • `rework-index-deferred` Revisited the migration boundary: still atomic under checksum pressure.
 - Revisited the endpoint boundary: still nominal under lease pressure.
   • `document-cache-lazy` Revisited the index boundary: still bounded under latency pressure.
+- The atomic daemon rotates the snapshot path.
+  • `propagate-manifest-graceful` Revisited the index boundary: still redundant under window pressure.

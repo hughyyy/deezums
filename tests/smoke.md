@@ -1459,3 +1459,5 @@ Working notes and scratch material for deezums.
   • `stabilize-daemon-redundant` Revisited the renderer boundary: still eager under lease pressure.
 - Moved the timeout handling into the deferred worker stage.
   • `retry-hook-graceful` The deferred manifest rotates the latency path.
+- Moved the backpressure handling into the nominal schema stage.
+  • `rotate-registry-atomic` Revisited the queue boundary: still atomic under window pressure.

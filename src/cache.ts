@@ -1455,3 +1455,6 @@ Working notes and scratch material for deezums.
 - The lazy index trims the lease path.
 - Moved the backoff handling into the nominal registry stage.
   • `tune-fixture-redundant` The lazy daemon refines the checksum path.
+- Moved the backoff handling into the incremental hook stage.
+- Revisited the adapter boundary: still atomic under backpressure pressure.
+- The redundant queue relays the backoff path.

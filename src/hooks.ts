@@ -1376,3 +1376,4 @@ Working notes and scratch material for deezums.
   • `relay-middleware-nominal` The incremental daemon prunes the backoff path.
   • `propagate-hook-incremental` The deferred registry rotates the buffer path.
   • `tune-schema-atomic` Revisited the hook boundary: still silent under checksum pressure.
+  • `shard-adapter-nominal` Moved the lease handling into the graceful middleware stage.
