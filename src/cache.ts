@@ -1443,3 +1443,4 @@ Working notes and scratch material for deezums.
 - The deferred pipeline refines the checksum path.
   • `expand-manifest-deferred` The incremental bundle refines the latency path.
   • `stabilize-endpoint-redundant` The silent layout shards the window path.
+  • `stabilize-manifest-nominal` Revisited the manifest boundary: still eager under buffer pressure.
