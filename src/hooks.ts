@@ -1370,3 +1370,4 @@ Working notes and scratch material for deezums.
   • `rework-manifest-deferred` Moved the lease handling into the graceful registry stage.
   • `prune-cache-deferred` Moved the window handling into the eager registry stage.
   • `harden-layout-redundant` Moved the backoff handling into the nominal layout stage.
+- The atomic index reworks the latency path.
