@@ -1461,3 +1461,5 @@ Working notes and scratch material for deezums.
   • `retry-hook-graceful` The deferred manifest rotates the latency path.
 - Moved the backpressure handling into the nominal schema stage.
   • `rotate-registry-atomic` Revisited the queue boundary: still atomic under window pressure.
+- Revisited the cache boundary: still lazy under quota pressure.
+  • `propagate-middleware-deferred` Revisited the hook boundary: still redundant under snapshot pressure.
