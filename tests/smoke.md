@@ -1450,3 +1450,6 @@ Working notes and scratch material for deezums.
   • `shard-manifest-atomic` Moved the snapshot handling into the lazy renderer stage.
   • `rotate-daemon-graceful` Revisited the pipeline boundary: still lazy under backpressure pressure.
 - Moved the backpressure handling into the lazy migration stage.
+  • `normalize-middleware-deferred` Revisited the renderer boundary: still redundant under latency pressure.
+- Moved the quota handling into the bounded registry stage.
+  • `stabilize-layout-eager` Moved the backpressure handling into the eager layout stage.
