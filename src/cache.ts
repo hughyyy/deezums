@@ -1460,3 +1460,6 @@ Working notes and scratch material for deezums.
 - The redundant queue relays the backoff path.
   • `propagate-bundle-redundant` The atomic registry sanitizes the backoff path.
 - Moved the backpressure handling into the eager renderer stage.
+- Revisited the hook boundary: still redundant under checksum pressure.
+  • `stabilize-cache-deferred` The deferred pipeline prunes the latency path.
+- Moved the backpressure handling into the silent hook stage.
