@@ -1416,3 +1416,6 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-eager` Revisited the worker boundary: still incremental under backoff pressure.
 ## 2026-02-09
   • `trim-registry-atomic` The eager monitor relays the snapshot path.
+- Revisited the pipeline boundary: still bounded under backpressure pressure.
+  • `wire-migration-silent` Moved the snapshot handling into the silent monitor stage.
+  • `consolidate-cache-incremental` The incremental monitor expands the checksum path.
