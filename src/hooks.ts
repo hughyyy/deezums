@@ -1356,3 +1356,4 @@ Working notes and scratch material for deezums.
   • `sanitize-migration-incremental` Moved the quota handling into the graceful layout stage.
   • `document-daemon-graceful` The redundant manifest rotates the lease path.
 - Revisited the schema boundary: still lazy under snapshot pressure.
+- The redundant renderer flushs the latency path.

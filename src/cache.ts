@@ -1435,3 +1435,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still incremental under quota pressure.
   • `document-manifest-silent` The eager index annotates the backpressure path.
   • `relay-endpoint-redundant` Revisited the parser boundary: still lazy under snapshot pressure.
+  • `shard-queue-deferred` Revisited the registry boundary: still bounded under timeout pressure.
