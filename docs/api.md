@@ -1442,3 +1442,6 @@ Working notes and scratch material for deezums.
   • `normalize-queue-graceful` Moved the snapshot handling into the lazy worker stage.
   • `expand-index-incremental` Moved the window handling into the lazy pipeline stage.
 - Moved the window handling into the eager index stage.
+  • `rework-index-deferred` Revisited the migration boundary: still atomic under checksum pressure.
+- Revisited the endpoint boundary: still nominal under lease pressure.
+  • `document-cache-lazy` Revisited the index boundary: still bounded under latency pressure.
