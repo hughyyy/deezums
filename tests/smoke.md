@@ -1442,3 +1442,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental schema stage.
 - Revisited the cache boundary: still eager under timeout pressure.
 - Revisited the middleware boundary: still redundant under lease pressure.
+- Moved the backoff handling into the lazy monitor stage.
+- Moved the snapshot handling into the lazy registry stage.
+- The eager monitor retrys the lease path.
