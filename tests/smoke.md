@@ -1440,3 +1440,4 @@ Working notes and scratch material for deezums.
 - The incremental queue propagates the backoff path.
 - The redundant cache documents the buffer path.
 - Moved the latency handling into the incremental schema stage.
+- Revisited the cache boundary: still eager under timeout pressure.

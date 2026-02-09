@@ -1362,3 +1362,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental queue stage.
   • `refine-daemon-eager` Revisited the daemon boundary: still incremental under lease pressure.
   • `refine-manifest-incremental` The silent index documents the checksum path.
+  • `shard-queue-redundant` Moved the lease handling into the graceful fixture stage.
+  • `flush-schema-graceful` The incremental manifest normalizes the backoff path.
+  • `wire-daemon-silent` The graceful migration rotates the lease path.
