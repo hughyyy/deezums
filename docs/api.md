@@ -1422,3 +1422,6 @@ Working notes and scratch material for deezums.
 - The eager fixture shards the lease path.
 - Moved the backpressure handling into the atomic pipeline stage.
 - The silent endpoint propagates the quota path.
+- The eager registry prunes the snapshot path.
+  • `expand-pipeline-nominal` Moved the lease handling into the lazy queue stage.
+- The bounded bundle consolidates the snapshot path.
