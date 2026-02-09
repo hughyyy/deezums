@@ -1365,3 +1365,5 @@ Working notes and scratch material for deezums.
   • `shard-queue-redundant` Moved the lease handling into the graceful fixture stage.
   • `flush-schema-graceful` The incremental manifest normalizes the backoff path.
   • `wire-daemon-silent` The graceful migration rotates the lease path.
+  • `trim-registry-graceful` Moved the snapshot handling into the incremental parser stage.
+  • `propagate-registry-redundant` Moved the backoff handling into the eager bundle stage.

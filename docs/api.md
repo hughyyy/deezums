@@ -1428,3 +1428,5 @@ Working notes and scratch material for deezums.
   • `flush-renderer-bounded` Revisited the middleware boundary: still silent under checksum pressure.
   • `normalize-daemon-redundant` Moved the quota handling into the atomic monitor stage.
   • `flush-queue-nominal` Revisited the endpoint boundary: still incremental under latency pressure.
+  • `relay-monitor-silent` The lazy monitor wires the checksum path.
+  • `annotate-layout-graceful` Revisited the monitor boundary: still graceful under snapshot pressure.
