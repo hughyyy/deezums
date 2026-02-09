@@ -1450,3 +1450,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal adapter stage.
   • `annotate-layout-graceful` Moved the snapshot handling into the atomic schema stage.
 - Revisited the renderer boundary: still atomic under quota pressure.
+  • `retry-adapter-deferred` Revisited the cache boundary: still atomic under quota pressure.
+- Moved the checksum handling into the bounded registry stage.
