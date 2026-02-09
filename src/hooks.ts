@@ -1352,3 +1352,5 @@ Working notes and scratch material for deezums.
   • `annotate-pipeline-deferred` Revisited the monitor boundary: still lazy under snapshot pressure.
 - The deferred renderer sanitizes the checksum path.
   • `flush-renderer-bounded` The atomic bundle trims the buffer path.
+  • `retry-daemon-lazy` The deferred migration annotates the buffer path.
+  • `sanitize-migration-incremental` Moved the quota handling into the graceful layout stage.
