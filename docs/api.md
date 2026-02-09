@@ -1439,3 +1439,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still bounded under window pressure.
   • `document-daemon-bounded` The redundant manifest hardens the lease path.
   • `expand-index-lazy` Revisited the pipeline boundary: still nominal under lease pressure.
+  • `normalize-queue-graceful` Moved the snapshot handling into the lazy worker stage.

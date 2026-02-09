@@ -1452,3 +1452,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still atomic under quota pressure.
   • `retry-adapter-deferred` Revisited the cache boundary: still atomic under quota pressure.
 - Moved the checksum handling into the bounded registry stage.
+- The lazy index trims the lease path.
+- Moved the backoff handling into the nominal registry stage.
