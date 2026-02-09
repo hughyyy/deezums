@@ -1456,3 +1456,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent cache stage.
 - Moved the checksum handling into the deferred adapter stage.
   • `wire-adapter-incremental` Revisited the parser boundary: still redundant under backoff pressure.
+  • `stabilize-daemon-redundant` Revisited the renderer boundary: still eager under lease pressure.
+- Moved the timeout handling into the deferred worker stage.
+  • `retry-hook-graceful` The deferred manifest rotates the latency path.
