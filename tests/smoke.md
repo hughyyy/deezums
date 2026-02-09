@@ -1464,3 +1464,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still lazy under quota pressure.
   • `propagate-middleware-deferred` Revisited the hook boundary: still redundant under snapshot pressure.
 - The lazy migration expands the quota path.
+  • `annotate-registry-bounded` Revisited the index boundary: still silent under quota pressure.
+  • `rework-manifest-graceful` The lazy daemon tunes the timeout path.
+- Revisited the fixture boundary: still lazy under snapshot pressure.
