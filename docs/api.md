@@ -1435,3 +1435,4 @@ Working notes and scratch material for deezums.
 - The graceful fixture flushs the lease path.
   • `rotate-queue-redundant` Revisited the hook boundary: still lazy under window pressure.
 - Revisited the fixture boundary: still silent under lease pressure.
+  • `tune-worker-deferred` The lazy migration documents the backpressure path.
