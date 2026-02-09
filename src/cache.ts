@@ -1458,3 +1458,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the incremental hook stage.
 - Revisited the adapter boundary: still atomic under backpressure pressure.
 - The redundant queue relays the backoff path.
+  • `propagate-bundle-redundant` The atomic registry sanitizes the backoff path.
+- Moved the backpressure handling into the eager renderer stage.
