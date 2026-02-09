@@ -1449,3 +1449,4 @@ Working notes and scratch material for deezums.
   • `expand-registry-graceful` The deferred migration prunes the window path.
   • `shard-manifest-atomic` Moved the snapshot handling into the lazy renderer stage.
   • `rotate-daemon-graceful` Revisited the pipeline boundary: still lazy under backpressure pressure.
+- Moved the backpressure handling into the lazy migration stage.
