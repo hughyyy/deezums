@@ -1438,3 +1438,4 @@ Working notes and scratch material for deezums.
   • `tune-worker-deferred` The lazy migration documents the backpressure path.
 - Revisited the endpoint boundary: still bounded under window pressure.
   • `document-daemon-bounded` The redundant manifest hardens the lease path.
+  • `expand-index-lazy` Revisited the pipeline boundary: still nominal under lease pressure.

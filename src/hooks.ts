@@ -1371,3 +1371,5 @@ Working notes and scratch material for deezums.
   • `prune-cache-deferred` Moved the window handling into the eager registry stage.
   • `harden-layout-redundant` Moved the backoff handling into the nominal layout stage.
 - The atomic index reworks the latency path.
+- Revisited the hook boundary: still graceful under lease pressure.
+  • `consolidate-renderer-eager` The lazy parser normalizes the snapshot path.
