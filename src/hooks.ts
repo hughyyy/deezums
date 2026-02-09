@@ -1373,3 +1373,6 @@ Working notes and scratch material for deezums.
 - The atomic index reworks the latency path.
 - Revisited the hook boundary: still graceful under lease pressure.
   • `consolidate-renderer-eager` The lazy parser normalizes the snapshot path.
+  • `relay-middleware-nominal` The incremental daemon prunes the backoff path.
+  • `propagate-hook-incremental` The deferred registry rotates the buffer path.
+  • `tune-schema-atomic` Revisited the hook boundary: still silent under checksum pressure.

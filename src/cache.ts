@@ -1454,3 +1454,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded registry stage.
 - The lazy index trims the lease path.
 - Moved the backoff handling into the nominal registry stage.
+  • `tune-fixture-redundant` The lazy daemon refines the checksum path.
