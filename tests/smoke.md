@@ -1445,3 +1445,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the lazy monitor stage.
 - Moved the snapshot handling into the lazy registry stage.
 - The eager monitor retrys the lease path.
+  • `flush-index-atomic` Revisited the pipeline boundary: still lazy under buffer pressure.
+  • `expand-registry-graceful` The deferred migration prunes the window path.
