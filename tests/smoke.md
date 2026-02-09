@@ -1438,3 +1438,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still lazy under lease pressure.
   • `tune-pipeline-bounded` Revisited the worker boundary: still incremental under checksum pressure.
 - The incremental queue propagates the backoff path.
+- The redundant cache documents the buffer path.
+- Moved the latency handling into the incremental schema stage.

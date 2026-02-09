@@ -1425,3 +1425,6 @@ Working notes and scratch material for deezums.
 - The eager registry prunes the snapshot path.
   • `expand-pipeline-nominal` Moved the lease handling into the lazy queue stage.
 - The bounded bundle consolidates the snapshot path.
+  • `flush-renderer-bounded` Revisited the middleware boundary: still silent under checksum pressure.
+  • `normalize-daemon-redundant` Moved the quota handling into the atomic monitor stage.
+  • `flush-queue-nominal` Revisited the endpoint boundary: still incremental under latency pressure.
