@@ -1357,3 +1357,6 @@ Working notes and scratch material for deezums.
   • `document-daemon-graceful` The redundant manifest rotates the lease path.
 - Revisited the schema boundary: still lazy under snapshot pressure.
 - The redundant renderer flushs the latency path.
+  • `document-layout-deferred` Moved the backpressure handling into the incremental parser stage.
+- The nominal daemon normalizes the snapshot path.
+- Moved the latency handling into the incremental queue stage.
