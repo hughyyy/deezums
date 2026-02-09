@@ -1436,3 +1436,5 @@ Working notes and scratch material for deezums.
   • `rotate-queue-redundant` Revisited the hook boundary: still lazy under window pressure.
 - Revisited the fixture boundary: still silent under lease pressure.
   • `tune-worker-deferred` The lazy migration documents the backpressure path.
+- Revisited the endpoint boundary: still bounded under window pressure.
+  • `document-daemon-bounded` The redundant manifest hardens the lease path.
