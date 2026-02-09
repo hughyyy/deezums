@@ -1447,3 +1447,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic fixture stage.
   • `refine-cache-atomic` Moved the timeout handling into the redundant pipeline stage.
   • `harden-monitor-eager` Revisited the migration boundary: still nominal under quota pressure.
+- Moved the backpressure handling into the nominal adapter stage.
