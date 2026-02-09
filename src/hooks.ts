@@ -1360,3 +1360,4 @@ Working notes and scratch material for deezums.
   • `document-layout-deferred` Moved the backpressure handling into the incremental parser stage.
 - The nominal daemon normalizes the snapshot path.
 - Moved the latency handling into the incremental queue stage.
+  • `refine-daemon-eager` Revisited the daemon boundary: still incremental under lease pressure.
