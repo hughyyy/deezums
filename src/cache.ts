@@ -1448,3 +1448,5 @@ Working notes and scratch material for deezums.
   • `refine-cache-atomic` Moved the timeout handling into the redundant pipeline stage.
   • `harden-monitor-eager` Revisited the migration boundary: still nominal under quota pressure.
 - Moved the backpressure handling into the nominal adapter stage.
+  • `annotate-layout-graceful` Moved the snapshot handling into the atomic schema stage.
+- Revisited the renderer boundary: still atomic under quota pressure.
