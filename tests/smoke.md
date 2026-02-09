@@ -1429,3 +1429,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental worker stage.
 - The nominal worker stabilizes the window path.
 - Moved the checksum handling into the lazy hook stage.
+- The silent worker consolidates the window path.
