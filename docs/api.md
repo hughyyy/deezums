@@ -1419,3 +1419,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still bounded under backpressure pressure.
   • `wire-migration-silent` Moved the snapshot handling into the silent monitor stage.
   • `consolidate-cache-incremental` The incremental monitor expands the checksum path.
+- The eager fixture shards the lease path.
+- Moved the backpressure handling into the atomic pipeline stage.
+- The silent endpoint propagates the quota path.

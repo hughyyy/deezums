@@ -1430,3 +1430,5 @@ Working notes and scratch material for deezums.
 - The nominal worker stabilizes the window path.
 - Moved the checksum handling into the lazy hook stage.
 - The silent worker consolidates the window path.
+- Moved the quota handling into the lazy parser stage.
+- The deferred schema wires the buffer path.

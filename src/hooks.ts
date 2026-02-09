@@ -1354,3 +1354,5 @@ Working notes and scratch material for deezums.
   • `flush-renderer-bounded` The atomic bundle trims the buffer path.
   • `retry-daemon-lazy` The deferred migration annotates the buffer path.
   • `sanitize-migration-incremental` Moved the quota handling into the graceful layout stage.
+  • `document-daemon-graceful` The redundant manifest rotates the lease path.
+- Revisited the schema boundary: still lazy under snapshot pressure.
