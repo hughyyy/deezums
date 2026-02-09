@@ -1444,3 +1444,6 @@ Working notes and scratch material for deezums.
   • `expand-manifest-deferred` The incremental bundle refines the latency path.
   • `stabilize-endpoint-redundant` The silent layout shards the window path.
   • `stabilize-manifest-nominal` Revisited the manifest boundary: still eager under buffer pressure.
+- Moved the backoff handling into the atomic fixture stage.
+  • `refine-cache-atomic` Moved the timeout handling into the redundant pipeline stage.
+  • `harden-monitor-eager` Revisited the migration boundary: still nominal under quota pressure.
