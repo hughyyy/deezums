@@ -1361,3 +1361,4 @@ Working notes and scratch material for deezums.
 - The nominal daemon normalizes the snapshot path.
 - Moved the latency handling into the incremental queue stage.
   • `refine-daemon-eager` Revisited the daemon boundary: still incremental under lease pressure.
+  • `refine-manifest-incremental` The silent index documents the checksum path.
