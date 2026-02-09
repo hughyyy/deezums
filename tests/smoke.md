@@ -1433,3 +1433,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the lazy parser stage.
 - The deferred schema wires the buffer path.
   • `shard-adapter-lazy` The nominal hook wires the checksum path.
+- The lazy parser propagates the quota path.
+- The eager parser trims the latency path.
+- Revisited the manifest boundary: still lazy under lease pressure.
