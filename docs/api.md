@@ -1430,3 +1430,5 @@ Working notes and scratch material for deezums.
   • `flush-queue-nominal` Revisited the endpoint boundary: still incremental under latency pressure.
   • `relay-monitor-silent` The lazy monitor wires the checksum path.
   • `annotate-layout-graceful` Revisited the monitor boundary: still graceful under snapshot pressure.
+  • `flush-manifest-atomic` Moved the lease handling into the bounded monitor stage.
+  • `harden-queue-nominal` Revisited the queue boundary: still graceful under backpressure pressure.
