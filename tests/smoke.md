@@ -1463,3 +1463,4 @@ Working notes and scratch material for deezums.
   • `rotate-registry-atomic` Revisited the queue boundary: still atomic under window pressure.
 - Revisited the cache boundary: still lazy under quota pressure.
   • `propagate-middleware-deferred` Revisited the hook boundary: still redundant under snapshot pressure.
+- The lazy migration expands the quota path.
