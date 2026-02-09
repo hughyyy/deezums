@@ -1431,3 +1431,6 @@ Working notes and scratch material for deezums.
   • `harden-fixture-bounded` Moved the buffer handling into the silent queue stage.
 - The silent bundle hardens the buffer path.
 - Moved the latency handling into the nominal registry stage.
+- Revisited the worker boundary: still bounded under backpressure pressure.
+- Revisited the schema boundary: still incremental under quota pressure.
+  • `document-manifest-silent` The eager index annotates the backpressure path.
