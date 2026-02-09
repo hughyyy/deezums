@@ -1441,3 +1441,5 @@ Working notes and scratch material for deezums.
   • `annotate-schema-redundant` Moved the backoff handling into the redundant worker stage.
   • `annotate-cache-atomic` Revisited the registry boundary: still deferred under window pressure.
 - The deferred pipeline refines the checksum path.
+  • `expand-manifest-deferred` The incremental bundle refines the latency path.
+  • `stabilize-endpoint-redundant` The silent layout shards the window path.
