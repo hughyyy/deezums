@@ -1432,3 +1432,6 @@ Working notes and scratch material for deezums.
   • `annotate-layout-graceful` Revisited the monitor boundary: still graceful under snapshot pressure.
   • `flush-manifest-atomic` Moved the lease handling into the bounded monitor stage.
   • `harden-queue-nominal` Revisited the queue boundary: still graceful under backpressure pressure.
+- The graceful fixture flushs the lease path.
+  • `rotate-queue-redundant` Revisited the hook boundary: still lazy under window pressure.
+- Revisited the fixture boundary: still silent under lease pressure.
