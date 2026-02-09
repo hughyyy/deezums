@@ -1440,3 +1440,5 @@ Working notes and scratch material for deezums.
   • `document-daemon-bounded` The redundant manifest hardens the lease path.
   • `expand-index-lazy` Revisited the pipeline boundary: still nominal under lease pressure.
   • `normalize-queue-graceful` Moved the snapshot handling into the lazy worker stage.
+  • `expand-index-incremental` Moved the window handling into the lazy pipeline stage.
+- Moved the window handling into the eager index stage.
