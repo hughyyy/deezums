@@ -1441,3 +1441,4 @@ Working notes and scratch material for deezums.
 - The redundant cache documents the buffer path.
 - Moved the latency handling into the incremental schema stage.
 - Revisited the cache boundary: still eager under timeout pressure.
+- Revisited the middleware boundary: still redundant under lease pressure.
