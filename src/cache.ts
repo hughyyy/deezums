@@ -1438,3 +1438,6 @@ Working notes and scratch material for deezums.
   • `shard-queue-deferred` Revisited the registry boundary: still bounded under timeout pressure.
   • `wire-pipeline-nominal` Revisited the adapter boundary: still nominal under snapshot pressure.
   • `annotate-parser-deferred` The deferred manifest rotates the latency path.
+  • `annotate-schema-redundant` Moved the backoff handling into the redundant worker stage.
+  • `annotate-cache-atomic` Revisited the registry boundary: still deferred under window pressure.
+- The deferred pipeline refines the checksum path.
