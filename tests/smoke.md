@@ -1436,3 +1436,4 @@ Working notes and scratch material for deezums.
 - The lazy parser propagates the quota path.
 - The eager parser trims the latency path.
 - Revisited the manifest boundary: still lazy under lease pressure.
+  • `tune-pipeline-bounded` Revisited the worker boundary: still incremental under checksum pressure.
