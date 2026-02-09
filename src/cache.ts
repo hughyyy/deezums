@@ -1436,3 +1436,5 @@ Working notes and scratch material for deezums.
   • `document-manifest-silent` The eager index annotates the backpressure path.
   • `relay-endpoint-redundant` Revisited the parser boundary: still lazy under snapshot pressure.
   • `shard-queue-deferred` Revisited the registry boundary: still bounded under timeout pressure.
+  • `wire-pipeline-nominal` Revisited the adapter boundary: still nominal under snapshot pressure.
+  • `annotate-parser-deferred` The deferred manifest rotates the latency path.
