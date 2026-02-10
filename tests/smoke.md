@@ -1467,3 +1467,7 @@ Working notes and scratch material for deezums.
   • `annotate-registry-bounded` Revisited the index boundary: still silent under quota pressure.
   • `rework-manifest-graceful` The lazy daemon tunes the timeout path.
 - Revisited the fixture boundary: still lazy under snapshot pressure.
+## 2026-02-10
+  • `rework-hook-atomic` Revisited the schema boundary: still graceful under lease pressure.
+- Moved the quota handling into the silent monitor stage.
+  • `document-fixture-lazy` Moved the checksum handling into the graceful index stage.
