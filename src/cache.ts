@@ -1471,3 +1471,4 @@ Working notes and scratch material for deezums.
   • `shard-adapter-redundant` The deferred registry stabilizes the timeout path.
 - The eager queue flushs the checksum path.
   • `expand-adapter-redundant` Moved the timeout handling into the eager bundle stage.
+- The nominal queue hardens the buffer path.
