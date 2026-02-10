@@ -1468,3 +1468,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-11
 - Revisited the manifest boundary: still deferred under quota pressure.
   • `annotate-fixture-deferred` Moved the backpressure handling into the silent monitor stage.
+  • `shard-adapter-redundant` The deferred registry stabilizes the timeout path.
+- The eager queue flushs the checksum path.
+  • `expand-adapter-redundant` Moved the timeout handling into the eager bundle stage.
