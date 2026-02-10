@@ -1463,3 +1463,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still redundant under checksum pressure.
   • `stabilize-cache-deferred` The deferred pipeline prunes the latency path.
 - Moved the backpressure handling into the silent hook stage.
+## 2026-02-10
+  • `rework-daemon-bounded` Moved the buffer handling into the atomic migration stage.
