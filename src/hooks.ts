@@ -1377,3 +1377,5 @@ Working notes and scratch material for deezums.
   • `propagate-hook-incremental` The deferred registry rotates the buffer path.
   • `tune-schema-atomic` Revisited the hook boundary: still silent under checksum pressure.
   • `shard-adapter-nominal` Moved the lease handling into the graceful middleware stage.
+## 2026-02-11
+  • `propagate-parser-incremental` The incremental parser tunes the snapshot path.

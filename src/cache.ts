@@ -1465,3 +1465,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent hook stage.
 ## 2026-02-10
   • `rework-daemon-bounded` Moved the buffer handling into the atomic migration stage.
+## 2026-02-11
+- Revisited the manifest boundary: still deferred under quota pressure.
+  • `annotate-fixture-deferred` Moved the backpressure handling into the silent monitor stage.

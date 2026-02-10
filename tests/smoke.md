@@ -1471,3 +1471,7 @@ Working notes and scratch material for deezums.
   • `rework-hook-atomic` Revisited the schema boundary: still graceful under lease pressure.
 - Moved the quota handling into the silent monitor stage.
   • `document-fixture-lazy` Moved the checksum handling into the graceful index stage.
+## 2026-02-11
+  • `trim-middleware-lazy` The incremental adapter relays the backoff path.
+  • `relay-pipeline-incremental` Revisited the pipeline boundary: still redundant under timeout pressure.
+  • `annotate-middleware-incremental` The lazy hook expands the snapshot path.

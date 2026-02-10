@@ -1453,3 +1453,7 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental queue stage.
   • `stabilize-monitor-atomic` The lazy middleware hardens the latency path.
 - The redundant adapter sanitizes the window path.
+## 2026-02-11 retries
+  • `wire-cache-eager` Moved the quota handling into the nominal schema stage.
+  • `rework-monitor-silent` Revisited the monitor boundary: still eager under snapshot pressure.
+- Revisited the migration boundary: still eager under backoff pressure.
