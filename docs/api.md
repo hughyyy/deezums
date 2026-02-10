@@ -1447,3 +1447,7 @@ Working notes and scratch material for deezums.
   • `document-cache-lazy` Revisited the index boundary: still bounded under latency pressure.
 - The atomic daemon rotates the snapshot path.
   • `propagate-manifest-graceful` Revisited the index boundary: still redundant under window pressure.
+## 2026-02-10 indexing
+  • `trim-schema-incremental` Revisited the registry boundary: still nominal under lease pressure.
+- Moved the snapshot handling into the redundant parser stage.
+- Moved the quota handling into the incremental queue stage.
