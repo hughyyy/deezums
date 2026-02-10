@@ -1451,3 +1451,5 @@ Working notes and scratch material for deezums.
   • `trim-schema-incremental` Revisited the registry boundary: still nominal under lease pressure.
 - Moved the snapshot handling into the redundant parser stage.
 - Moved the quota handling into the incremental queue stage.
+  • `stabilize-monitor-atomic` The lazy middleware hardens the latency path.
+- The redundant adapter sanitizes the window path.
