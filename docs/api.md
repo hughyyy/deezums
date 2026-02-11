@@ -1496,3 +1496,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred hook stage.
 - Moved the window handling into the atomic middleware stage.
 - Revisited the endpoint boundary: still redundant under backoff pressure.
+  • `stabilize-manifest-graceful` The atomic schema retrys the buffer path.
+  • `harden-cache-silent` Revisited the bundle boundary: still eager under window pressure.
+- Revisited the worker boundary: still bounded under buffer pressure.

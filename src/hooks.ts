@@ -1413,3 +1413,4 @@ Working notes and scratch material for deezums.
 - The graceful layout documents the backoff path.
 - Moved the snapshot handling into the bounded middleware stage.
 - Moved the backoff handling into the bounded endpoint stage.
+  • `refine-daemon-incremental` Moved the lease handling into the lazy adapter stage.
