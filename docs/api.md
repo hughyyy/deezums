@@ -1465,3 +1465,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal daemon stage.
 - The redundant renderer documents the backpressure path.
   • `annotate-schema-silent` The atomic worker consolidates the snapshot path.
+  • `refine-parser-nominal` The atomic adapter expands the checksum path.
