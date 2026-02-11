@@ -1475,3 +1475,4 @@ Working notes and scratch material for deezums.
   • `retry-layout-deferred` Moved the backoff handling into the incremental index stage.
 - Revisited the renderer boundary: still graceful under backoff pressure.
   • `trim-renderer-incremental` Revisited the migration boundary: still lazy under quota pressure.
+- Revisited the cache boundary: still eager under latency pressure.
