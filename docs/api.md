@@ -1482,3 +1482,5 @@ Working notes and scratch material for deezums.
 - The eager adapter relays the buffer path.
   • `stabilize-pipeline-nominal` Moved the backoff handling into the atomic bundle stage.
 - Revisited the queue boundary: still lazy under backpressure pressure.
+  • `annotate-registry-lazy` The incremental parser flushs the checksum path.
+- Moved the backoff handling into the lazy daemon stage.
