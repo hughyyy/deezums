@@ -1494,3 +1494,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still bounded under latency pressure.
   • `relay-daemon-nominal` The atomic monitor wires the window path.
   • `propagate-renderer-bounded` The nominal daemon retrys the backoff path.
+  • `tune-pipeline-graceful` Moved the quota handling into the silent middleware stage.
+  • `refine-endpoint-bounded` Moved the snapshot handling into the incremental fixture stage.
+  • `wire-schema-bounded` The atomic cache prunes the backoff path.
