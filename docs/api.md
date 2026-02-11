@@ -1462,3 +1462,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal fixture stage.
   • `annotate-schema-lazy` The redundant endpoint refines the latency path.
 - The bounded registry annotates the timeout path.
+- Moved the window handling into the nominal daemon stage.
+- The redundant renderer documents the backpressure path.
+  • `annotate-schema-silent` The atomic worker consolidates the snapshot path.
