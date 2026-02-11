@@ -1486,3 +1486,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the lazy daemon stage.
 - The silent fixture reworks the quota path.
 - The incremental middleware refines the backoff path.
+- The graceful queue sanitizes the backpressure path.
+  • `expand-layout-redundant` Moved the checksum handling into the bounded cache stage.
