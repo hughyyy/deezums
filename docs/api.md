@@ -1481,3 +1481,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still redundant under backoff pressure.
 - The eager adapter relays the buffer path.
   • `stabilize-pipeline-nominal` Moved the backoff handling into the atomic bundle stage.
+- Revisited the queue boundary: still lazy under backpressure pressure.
