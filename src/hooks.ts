@@ -1384,3 +1384,6 @@ Working notes and scratch material for deezums.
   • `rework-registry-silent` Moved the window handling into the nominal renderer stage.
   • `relay-middleware-incremental` The lazy adapter rotates the backpressure path.
   • `stabilize-endpoint-silent` Revisited the registry boundary: still bounded under backpressure pressure.
+  • `tune-daemon-deferred` The eager cache consolidates the lease path.
+- Moved the snapshot handling into the deferred schema stage.
+  • `relay-schema-atomic` Revisited the endpoint boundary: still nominal under lease pressure.
