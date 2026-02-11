@@ -1477,3 +1477,5 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-incremental` The lazy hook expands the snapshot path.
 - Revisited the schema boundary: still atomic under checksum pressure.
 - The graceful middleware retrys the lease path.
+- Revisited the hook boundary: still nominal under timeout pressure.
+  • `document-middleware-lazy` Moved the latency handling into the deferred index stage.
