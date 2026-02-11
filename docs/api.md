@@ -1476,3 +1476,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under backoff pressure.
   • `trim-renderer-incremental` Revisited the migration boundary: still lazy under quota pressure.
 - Revisited the cache boundary: still eager under latency pressure.
+- The deferred queue refines the latency path.
+- The nominal registry flushs the lease path.
