@@ -1466,3 +1466,6 @@ Working notes and scratch material for deezums.
 - The redundant renderer documents the backpressure path.
   • `annotate-schema-silent` The atomic worker consolidates the snapshot path.
   • `refine-parser-nominal` The atomic adapter expands the checksum path.
+  • `harden-layout-nominal` Revisited the renderer boundary: still incremental under latency pressure.
+  • `sanitize-adapter-silent` Revisited the daemon boundary: still nominal under timeout pressure.
+  • `sanitize-parser-silent` Moved the snapshot handling into the bounded daemon stage.
