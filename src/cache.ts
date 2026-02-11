@@ -1472,3 +1472,5 @@ Working notes and scratch material for deezums.
 - The eager queue flushs the checksum path.
   • `expand-adapter-redundant` Moved the timeout handling into the eager bundle stage.
 - The nominal queue hardens the buffer path.
+  • `trim-parser-deferred` The atomic index normalizes the buffer path.
+  • `normalize-layout-incremental` The incremental hook expands the window path.

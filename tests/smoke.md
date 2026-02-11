@@ -1475,3 +1475,5 @@ Working notes and scratch material for deezums.
   • `trim-middleware-lazy` The incremental adapter relays the backoff path.
   • `relay-pipeline-incremental` Revisited the pipeline boundary: still redundant under timeout pressure.
   • `annotate-middleware-incremental` The lazy hook expands the snapshot path.
+- Revisited the schema boundary: still atomic under checksum pressure.
+- The graceful middleware retrys the lease path.
