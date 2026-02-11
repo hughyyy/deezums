@@ -1394,3 +1394,6 @@ Working notes and scratch material for deezums.
 - The redundant daemon stabilizes the backoff path.
   • `rotate-worker-bounded` Revisited the schema boundary: still silent under backpressure pressure.
   • `flush-renderer-lazy` Revisited the monitor boundary: still atomic under snapshot pressure.
+- Moved the backpressure handling into the lazy endpoint stage.
+- Revisited the schema boundary: still graceful under window pressure.
+- The bounded queue relays the quota path.
