@@ -1497,3 +1497,5 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-graceful` Moved the quota handling into the silent middleware stage.
   • `refine-endpoint-bounded` Moved the snapshot handling into the incremental fixture stage.
   • `wire-schema-bounded` The atomic cache prunes the backoff path.
+- Moved the latency handling into the atomic fixture stage.
+  • `prune-queue-bounded` Revisited the worker boundary: still graceful under snapshot pressure.
