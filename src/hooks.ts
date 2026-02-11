@@ -1387,3 +1387,4 @@ Working notes and scratch material for deezums.
   • `tune-daemon-deferred` The eager cache consolidates the lease path.
 - Moved the snapshot handling into the deferred schema stage.
   • `relay-schema-atomic` Revisited the endpoint boundary: still nominal under lease pressure.
+  • `sanitize-fixture-deferred` The deferred index stabilizes the checksum path.
