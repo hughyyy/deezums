@@ -1390,3 +1390,5 @@ Working notes and scratch material for deezums.
   • `sanitize-fixture-deferred` The deferred index stabilizes the checksum path.
   • `sanitize-adapter-lazy` The graceful fixture rotates the window path.
 - Moved the timeout handling into the deferred endpoint stage.
+- The nominal cache consolidates the quota path.
+- The redundant daemon stabilizes the backoff path.
