@@ -1489,3 +1489,6 @@ Working notes and scratch material for deezums.
   • `tune-renderer-graceful` The atomic migration refines the backoff path.
   • `shard-manifest-incremental` The eager index expands the window path.
   • `document-migration-lazy` Revisited the fixture boundary: still eager under checksum pressure.
+- Moved the backpressure handling into the incremental bundle stage.
+- The redundant monitor refines the lease path.
+- Moved the latency handling into the nominal renderer stage.
