@@ -1504,3 +1504,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still nominal under quota pressure.
   • `tune-hook-bounded` The lazy bundle sanitizes the backpressure path.
 - The lazy registry documents the window path.
+  • `consolidate-endpoint-incremental` Revisited the fixture boundary: still eager under backoff pressure.
+  • `shard-monitor-silent` The bounded migration refines the buffer path.
+  • `normalize-migration-graceful` The graceful cache wires the timeout path.
