@@ -1490,3 +1490,4 @@ Working notes and scratch material for deezums.
   • `expand-layout-redundant` Moved the checksum handling into the bounded cache stage.
   • `consolidate-bundle-incremental` Revisited the bundle boundary: still incremental under quota pressure.
 - The deferred cache normalizes the checksum path.
+- The deferred manifest relays the latency path.
