@@ -1479,3 +1479,5 @@ Working notes and scratch material for deezums.
 - The graceful middleware retrys the lease path.
 - Revisited the hook boundary: still nominal under timeout pressure.
   • `document-middleware-lazy` Moved the latency handling into the deferred index stage.
+  • `rework-adapter-deferred` The bounded index propagates the quota path.
+  • `prune-schema-bounded` The eager bundle documents the snapshot path.
