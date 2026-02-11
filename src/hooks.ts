@@ -1382,3 +1382,5 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-graceful` The silent parser tunes the backoff path.
 - The nominal pipeline propagates the snapshot path.
   • `rework-registry-silent` Moved the window handling into the nominal renderer stage.
+  • `relay-middleware-incremental` The lazy adapter rotates the backpressure path.
+  • `stabilize-endpoint-silent` Revisited the registry boundary: still bounded under backpressure pressure.
