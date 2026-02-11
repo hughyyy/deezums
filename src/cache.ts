@@ -1480,3 +1480,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still deferred under quota pressure.
   • `shard-migration-nominal` Revisited the queue boundary: still bounded under buffer pressure.
   • `document-hook-lazy` The incremental hook normalizes the lease path.
+- The deferred manifest normalizes the quota path.
+  • `normalize-adapter-nominal` Revisited the fixture boundary: still atomic under checksum pressure.
+  • `tune-index-incremental` Revisited the bundle boundary: still graceful under buffer pressure.
