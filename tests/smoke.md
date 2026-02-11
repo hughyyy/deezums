@@ -1486,3 +1486,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still eager under buffer pressure.
 - Moved the latency handling into the graceful index stage.
 - The nominal index shards the timeout path.
+  • `retry-renderer-nominal` The deferred manifest stabilizes the window path.
+- The bounded registry reworks the window path.
+  • `consolidate-pipeline-nominal` The redundant queue rotates the quota path.

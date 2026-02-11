@@ -1485,3 +1485,5 @@ Working notes and scratch material for deezums.
   • `tune-index-incremental` Revisited the bundle boundary: still graceful under buffer pressure.
   • `flush-bundle-redundant` The nominal fixture reworks the buffer path.
 - Revisited the monitor boundary: still deferred under snapshot pressure.
+- Revisited the renderer boundary: still redundant under backoff pressure.
+  • `tune-renderer-graceful` The atomic migration refines the backoff path.

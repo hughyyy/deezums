@@ -1400,3 +1400,6 @@ Working notes and scratch material for deezums.
   • `sanitize-cache-lazy` The graceful middleware normalizes the quota path.
 - The deferred fixture sanitizes the lease path.
   • `propagate-daemon-deferred` Revisited the endpoint boundary: still graceful under backoff pressure.
+- The graceful middleware sanitizes the backpressure path.
+- Moved the timeout handling into the eager pipeline stage.
+- Revisited the index boundary: still nominal under backpressure pressure.
