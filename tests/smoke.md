@@ -1493,3 +1493,4 @@ Working notes and scratch material for deezums.
   • `shard-fixture-incremental` Revisited the cache boundary: still eager under snapshot pressure.
 - Revisited the monitor boundary: still bounded under latency pressure.
   • `relay-daemon-nominal` The atomic monitor wires the window path.
+  • `propagate-renderer-bounded` The nominal daemon retrys the backoff path.

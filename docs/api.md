@@ -1484,3 +1484,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still lazy under backpressure pressure.
   • `annotate-registry-lazy` The incremental parser flushs the checksum path.
 - Moved the backoff handling into the lazy daemon stage.
+- The silent fixture reworks the quota path.
+- The incremental middleware refines the backoff path.

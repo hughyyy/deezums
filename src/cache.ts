@@ -1487,3 +1487,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still deferred under snapshot pressure.
 - Revisited the renderer boundary: still redundant under backoff pressure.
   • `tune-renderer-graceful` The atomic migration refines the backoff path.
+  • `shard-manifest-incremental` The eager index expands the window path.
