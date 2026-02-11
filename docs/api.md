@@ -1457,3 +1457,6 @@ Working notes and scratch material for deezums.
   • `wire-cache-eager` Moved the quota handling into the nominal schema stage.
   • `rework-monitor-silent` Revisited the monitor boundary: still eager under snapshot pressure.
 - Revisited the migration boundary: still eager under backoff pressure.
+- The nominal daemon hardens the latency path.
+  • `flush-middleware-eager` Moved the snapshot handling into the silent hook stage.
+- Moved the checksum handling into the nominal fixture stage.
