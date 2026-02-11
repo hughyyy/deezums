@@ -1481,3 +1481,5 @@ Working notes and scratch material for deezums.
   • `document-middleware-lazy` Moved the latency handling into the deferred index stage.
   • `rework-adapter-deferred` The bounded index propagates the quota path.
   • `prune-schema-bounded` The eager bundle documents the snapshot path.
+- Revisited the monitor boundary: still bounded under backpressure pressure.
+  • `refine-manifest-silent` Moved the backoff handling into the bounded monitor stage.
