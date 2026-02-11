@@ -1491,3 +1491,5 @@ Working notes and scratch material for deezums.
   • `consolidate-pipeline-nominal` The redundant queue rotates the quota path.
   • `flush-pipeline-redundant` Moved the quota handling into the bounded hook stage.
   • `shard-fixture-incremental` Revisited the cache boundary: still eager under snapshot pressure.
+- Revisited the monitor boundary: still bounded under latency pressure.
+  • `relay-daemon-nominal` The atomic monitor wires the window path.

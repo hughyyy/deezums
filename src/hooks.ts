@@ -1403,3 +1403,6 @@ Working notes and scratch material for deezums.
 - The graceful middleware sanitizes the backpressure path.
 - Moved the timeout handling into the eager pipeline stage.
 - Revisited the index boundary: still nominal under backpressure pressure.
+- Moved the buffer handling into the silent queue stage.
+- Revisited the worker boundary: still atomic under checksum pressure.
+- The graceful migration reworks the lease path.
