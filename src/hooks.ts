@@ -1379,3 +1379,6 @@ Working notes and scratch material for deezums.
   • `shard-adapter-nominal` Moved the lease handling into the graceful middleware stage.
 ## 2026-02-11
   • `propagate-parser-incremental` The incremental parser tunes the snapshot path.
+  • `stabilize-layout-graceful` The silent parser tunes the backoff path.
+- The nominal pipeline propagates the snapshot path.
+  • `rework-registry-silent` Moved the window handling into the nominal renderer stage.
