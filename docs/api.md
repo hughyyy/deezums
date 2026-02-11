@@ -1478,3 +1478,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still eager under latency pressure.
 - The deferred queue refines the latency path.
 - The nominal registry flushs the lease path.
+- Revisited the migration boundary: still redundant under backoff pressure.

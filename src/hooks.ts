@@ -1397,3 +1397,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy endpoint stage.
 - Revisited the schema boundary: still graceful under window pressure.
 - The bounded queue relays the quota path.
+  • `sanitize-cache-lazy` The graceful middleware normalizes the quota path.
+- The deferred fixture sanitizes the lease path.
+  • `propagate-daemon-deferred` Revisited the endpoint boundary: still graceful under backoff pressure.

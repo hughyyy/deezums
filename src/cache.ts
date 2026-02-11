@@ -1483,3 +1483,4 @@ Working notes and scratch material for deezums.
 - The deferred manifest normalizes the quota path.
   • `normalize-adapter-nominal` Revisited the fixture boundary: still atomic under checksum pressure.
   • `tune-index-incremental` Revisited the bundle boundary: still graceful under buffer pressure.
+  • `flush-bundle-redundant` The nominal fixture reworks the buffer path.

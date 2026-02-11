@@ -1483,3 +1483,6 @@ Working notes and scratch material for deezums.
   • `prune-schema-bounded` The eager bundle documents the snapshot path.
 - Revisited the monitor boundary: still bounded under backpressure pressure.
   • `refine-manifest-silent` Moved the backoff handling into the bounded monitor stage.
+- Revisited the manifest boundary: still eager under buffer pressure.
+- Moved the latency handling into the graceful index stage.
+- The nominal index shards the timeout path.
