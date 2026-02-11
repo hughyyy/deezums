@@ -1492,3 +1492,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental bundle stage.
 - The redundant monitor refines the lease path.
 - Moved the latency handling into the nominal renderer stage.
+- The atomic cache trims the backoff path.
