@@ -1499,3 +1499,5 @@ Working notes and scratch material for deezums.
   • `wire-schema-bounded` The atomic cache prunes the backoff path.
 - Moved the latency handling into the atomic fixture stage.
   • `prune-queue-bounded` Revisited the worker boundary: still graceful under snapshot pressure.
+- The incremental monitor sanitizes the lease path.
+- The bounded worker normalizes the timeout path.
