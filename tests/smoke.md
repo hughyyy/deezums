@@ -1489,3 +1489,5 @@ Working notes and scratch material for deezums.
   • `retry-renderer-nominal` The deferred manifest stabilizes the window path.
 - The bounded registry reworks the window path.
   • `consolidate-pipeline-nominal` The redundant queue rotates the quota path.
+  • `flush-pipeline-redundant` Moved the quota handling into the bounded hook stage.
+  • `shard-fixture-incremental` Revisited the cache boundary: still eager under snapshot pressure.
