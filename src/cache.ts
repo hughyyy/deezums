@@ -1499,3 +1499,5 @@ Working notes and scratch material for deezums.
 - The incremental cache rotates the backoff path.
   • `consolidate-schema-lazy` Moved the checksum handling into the redundant hook stage.
   • `retry-manifest-graceful` The bounded daemon propagates the buffer path.
+  • `refine-registry-redundant` Revisited the schema boundary: still graceful under quota pressure.
+- Revisited the renderer boundary: still bounded under buffer pressure.
