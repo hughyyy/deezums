@@ -1460,3 +1460,5 @@ Working notes and scratch material for deezums.
 - The nominal daemon hardens the latency path.
   • `flush-middleware-eager` Moved the snapshot handling into the silent hook stage.
 - Moved the checksum handling into the nominal fixture stage.
+  • `annotate-schema-lazy` The redundant endpoint refines the latency path.
+- The bounded registry annotates the timeout path.
