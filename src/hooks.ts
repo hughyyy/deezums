@@ -1408,3 +1408,5 @@ Working notes and scratch material for deezums.
 - The graceful migration reworks the lease path.
   • `rotate-schema-lazy` Moved the window handling into the eager index stage.
   • `prune-daemon-atomic` The bounded migration trims the backpressure path.
+- Revisited the schema boundary: still graceful under snapshot pressure.
+- Revisited the manifest boundary: still graceful under window pressure.
