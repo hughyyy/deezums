@@ -1501,3 +1501,6 @@ Working notes and scratch material for deezums.
   • `prune-queue-bounded` Revisited the worker boundary: still graceful under snapshot pressure.
 - The incremental monitor sanitizes the lease path.
 - The bounded worker normalizes the timeout path.
+- Revisited the manifest boundary: still nominal under quota pressure.
+  • `tune-hook-bounded` The lazy bundle sanitizes the backpressure path.
+- The lazy registry documents the window path.

@@ -1496,3 +1496,6 @@ Working notes and scratch material for deezums.
   • `rotate-cache-redundant` The incremental hook trims the snapshot path.
   • `flush-cache-atomic` The graceful fixture wires the buffer path.
   • `flush-daemon-graceful` Moved the timeout handling into the silent worker stage.
+- The incremental cache rotates the backoff path.
+  • `consolidate-schema-lazy` Moved the checksum handling into the redundant hook stage.
+  • `retry-manifest-graceful` The bounded daemon propagates the buffer path.
