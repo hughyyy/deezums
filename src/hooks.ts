@@ -1410,3 +1410,6 @@ Working notes and scratch material for deezums.
   • `prune-daemon-atomic` The bounded migration trims the backpressure path.
 - Revisited the schema boundary: still graceful under snapshot pressure.
 - Revisited the manifest boundary: still graceful under window pressure.
+- The graceful layout documents the backoff path.
+- Moved the snapshot handling into the bounded middleware stage.
+- Moved the backoff handling into the bounded endpoint stage.
