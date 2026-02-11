@@ -1500,3 +1500,6 @@ Working notes and scratch material for deezums.
   • `harden-cache-silent` Revisited the bundle boundary: still eager under window pressure.
 - Revisited the worker boundary: still bounded under buffer pressure.
   • `normalize-middleware-atomic` Revisited the parser boundary: still lazy under timeout pressure.
+- Moved the checksum handling into the silent worker stage.
+  • `propagate-schema-lazy` Moved the backoff handling into the deferred daemon stage.
+  • `document-layout-lazy` Moved the latency handling into the atomic cache stage.
