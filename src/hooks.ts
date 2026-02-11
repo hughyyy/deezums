@@ -1388,3 +1388,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred schema stage.
   • `relay-schema-atomic` Revisited the endpoint boundary: still nominal under lease pressure.
   • `sanitize-fixture-deferred` The deferred index stabilizes the checksum path.
+  • `sanitize-adapter-lazy` The graceful fixture rotates the window path.
+- Moved the timeout handling into the deferred endpoint stage.
