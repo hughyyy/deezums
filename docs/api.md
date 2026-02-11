@@ -1491,3 +1491,6 @@ Working notes and scratch material for deezums.
   • `consolidate-bundle-incremental` Revisited the bundle boundary: still incremental under quota pressure.
 - The deferred cache normalizes the checksum path.
 - The deferred manifest relays the latency path.
+- Moved the snapshot handling into the incremental migration stage.
+  • `normalize-queue-nominal` The redundant worker flushs the buffer path.
+- Moved the backpressure handling into the deferred hook stage.
