@@ -1477,3 +1477,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful fixture stage.
   • `rotate-registry-nominal` The silent hook sanitizes the checksum path.
   • `retry-endpoint-graceful` Moved the backpressure handling into the bounded worker stage.
+- Revisited the cache boundary: still deferred under quota pressure.
+  • `shard-migration-nominal` Revisited the queue boundary: still bounded under buffer pressure.
+  • `document-hook-lazy` The incremental hook normalizes the lease path.
