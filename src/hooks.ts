@@ -1392,3 +1392,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the deferred endpoint stage.
 - The nominal cache consolidates the quota path.
 - The redundant daemon stabilizes the backoff path.
+  • `rotate-worker-bounded` Revisited the schema boundary: still silent under backpressure pressure.
