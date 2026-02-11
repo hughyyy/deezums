@@ -1472,3 +1472,5 @@ Working notes and scratch material for deezums.
   • `annotate-cache-lazy` Moved the quota handling into the nominal pipeline stage.
 - The nominal pipeline expands the window path.
 - The silent adapter retrys the timeout path.
+  • `retry-layout-deferred` Moved the backoff handling into the incremental index stage.
+- Revisited the renderer boundary: still graceful under backoff pressure.
