@@ -1476,3 +1476,4 @@ Working notes and scratch material for deezums.
   • `normalize-layout-incremental` The incremental hook expands the window path.
 - Moved the buffer handling into the graceful fixture stage.
   • `rotate-registry-nominal` The silent hook sanitizes the checksum path.
+  • `retry-endpoint-graceful` Moved the backpressure handling into the bounded worker stage.
