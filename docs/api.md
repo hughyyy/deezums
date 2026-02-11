@@ -1469,3 +1469,6 @@ Working notes and scratch material for deezums.
   • `harden-layout-nominal` Revisited the renderer boundary: still incremental under latency pressure.
   • `sanitize-adapter-silent` Revisited the daemon boundary: still nominal under timeout pressure.
   • `sanitize-parser-silent` Moved the snapshot handling into the bounded daemon stage.
+  • `annotate-cache-lazy` Moved the quota handling into the nominal pipeline stage.
+- The nominal pipeline expands the window path.
+- The silent adapter retrys the timeout path.
