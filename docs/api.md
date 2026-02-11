@@ -1488,3 +1488,5 @@ Working notes and scratch material for deezums.
 - The incremental middleware refines the backoff path.
 - The graceful queue sanitizes the backpressure path.
   • `expand-layout-redundant` Moved the checksum handling into the bounded cache stage.
+  • `consolidate-bundle-incremental` Revisited the bundle boundary: still incremental under quota pressure.
+- The deferred cache normalizes the checksum path.
