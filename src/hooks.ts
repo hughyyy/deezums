@@ -1406,3 +1406,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent queue stage.
 - Revisited the worker boundary: still atomic under checksum pressure.
 - The graceful migration reworks the lease path.
+  • `rotate-schema-lazy` Moved the window handling into the eager index stage.
+  • `prune-daemon-atomic` The bounded migration trims the backpressure path.
