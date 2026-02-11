@@ -1493,3 +1493,6 @@ Working notes and scratch material for deezums.
 - The redundant monitor refines the lease path.
 - Moved the latency handling into the nominal renderer stage.
 - The atomic cache trims the backoff path.
+  • `rotate-cache-redundant` The incremental hook trims the snapshot path.
+  • `flush-cache-atomic` The graceful fixture wires the buffer path.
+  • `flush-daemon-graceful` Moved the timeout handling into the silent worker stage.
