@@ -1494,3 +1494,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental migration stage.
   • `normalize-queue-nominal` The redundant worker flushs the buffer path.
 - Moved the backpressure handling into the deferred hook stage.
+- Moved the window handling into the atomic middleware stage.
+- Revisited the endpoint boundary: still redundant under backoff pressure.
