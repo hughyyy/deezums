@@ -1514,3 +1514,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still silent under latency pressure.
 - Revisited the pipeline boundary: still nominal under timeout pressure.
   • `relay-monitor-redundant` Moved the backpressure handling into the silent worker stage.
+- The bounded registry rotates the window path.
