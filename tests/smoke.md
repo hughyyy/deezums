@@ -1509,3 +1509,5 @@ Working notes and scratch material for deezums.
   • `normalize-migration-graceful` The graceful cache wires the timeout path.
 ## 2026-02-12
   • `harden-middleware-atomic` Moved the buffer handling into the bounded queue stage.
+## 2026-02-13
+- Moved the snapshot handling into the incremental parser stage.
