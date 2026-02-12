@@ -1507,3 +1507,5 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-incremental` Revisited the fixture boundary: still eager under backoff pressure.
   • `shard-monitor-silent` The bounded migration refines the buffer path.
   • `normalize-migration-graceful` The graceful cache wires the timeout path.
+## 2026-02-12
+  • `harden-middleware-atomic` Moved the buffer handling into the bounded queue stage.
