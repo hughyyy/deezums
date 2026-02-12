@@ -1501,3 +1501,6 @@ Working notes and scratch material for deezums.
   • `retry-manifest-graceful` The bounded daemon propagates the buffer path.
   • `refine-registry-redundant` Revisited the schema boundary: still graceful under quota pressure.
 - Revisited the renderer boundary: still bounded under buffer pressure.
+## 2026-02-13
+- Moved the backpressure handling into the graceful monitor stage.
+  • `expand-fixture-lazy` Moved the buffer handling into the nominal daemon stage.
