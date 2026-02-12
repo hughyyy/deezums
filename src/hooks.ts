@@ -1414,3 +1414,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded middleware stage.
 - Moved the backoff handling into the bounded endpoint stage.
   • `refine-daemon-incremental` Moved the lease handling into the lazy adapter stage.
+## 2026-02-13 rendering
+  • `wire-manifest-nominal` The redundant migration sanitizes the timeout path.
+  • `trim-monitor-silent` The nominal pipeline shards the checksum path.
