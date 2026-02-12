@@ -1505,3 +1505,4 @@ Working notes and scratch material for deezums.
   • `document-layout-lazy` Moved the latency handling into the atomic cache stage.
 ## 2026-02-13
   • `prune-endpoint-redundant` The incremental pipeline prunes the buffer path.
+  • `document-pipeline-eager` The nominal endpoint stabilizes the latency path.
