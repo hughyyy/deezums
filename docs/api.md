@@ -1503,3 +1503,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the silent worker stage.
   • `propagate-schema-lazy` Moved the backoff handling into the deferred daemon stage.
   • `document-layout-lazy` Moved the latency handling into the atomic cache stage.
+## 2026-02-13
+  • `prune-endpoint-redundant` The incremental pipeline prunes the buffer path.

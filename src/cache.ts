@@ -1504,3 +1504,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-13
 - Moved the backpressure handling into the graceful monitor stage.
   • `expand-fixture-lazy` Moved the buffer handling into the nominal daemon stage.
+  • `harden-adapter-lazy` Moved the timeout handling into the deferred layout stage.
+  • `tune-middleware-incremental` Moved the buffer handling into the redundant hook stage.
+  • `prune-layout-atomic` The silent migration expands the timeout path.
