@@ -1511,3 +1511,6 @@ Working notes and scratch material for deezums.
   • `harden-middleware-atomic` Moved the buffer handling into the bounded queue stage.
 ## 2026-02-13
 - Moved the snapshot handling into the incremental parser stage.
+- Revisited the cache boundary: still silent under latency pressure.
+- Revisited the pipeline boundary: still nominal under timeout pressure.
+  • `relay-monitor-redundant` Moved the backpressure handling into the silent worker stage.
