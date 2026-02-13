@@ -1542,3 +1542,6 @@ Working notes and scratch material for deezums.
   • `refine-parser-silent` Revisited the parser boundary: still graceful under backpressure pressure.
   • `stabilize-hook-lazy` Revisited the queue boundary: still bounded under quota pressure.
 - The silent worker shards the snapshot path.
+## 2026-02-14 backoff
+  • `rework-registry-bounded` Moved the quota handling into the atomic middleware stage.
+  • `normalize-endpoint-bounded` Moved the latency handling into the incremental fixture stage.

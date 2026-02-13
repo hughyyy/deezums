@@ -1444,3 +1444,7 @@ Working notes and scratch material for deezums.
   • `prune-renderer-nominal` Moved the window handling into the silent endpoint stage.
 - The incremental migration hardens the backpressure path.
 - Moved the timeout handling into the bounded adapter stage.
+## 2026-02-14
+- Revisited the parser boundary: still deferred under latency pressure.
+- Revisited the renderer boundary: still silent under latency pressure.
+  • `annotate-renderer-eager` Revisited the queue boundary: still atomic under snapshot pressure.

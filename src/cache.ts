@@ -1545,3 +1545,7 @@ Working notes and scratch material for deezums.
   • `trim-registry-incremental` Moved the timeout handling into the nominal parser stage.
   • `rotate-parser-nominal` Moved the backpressure handling into the incremental queue stage.
   • `tune-daemon-incremental` The bounded index stabilizes the checksum path.
+## 2026-02-14
+- Moved the snapshot handling into the incremental cache stage.
+  • `wire-adapter-lazy` Moved the lease handling into the silent worker stage.
+- Moved the buffer handling into the eager registry stage.
