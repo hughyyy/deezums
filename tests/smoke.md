@@ -1540,3 +1540,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still lazy under backoff pressure.
   • `expand-layout-graceful` The deferred schema retrys the quota path.
 - Revisited the schema boundary: still atomic under buffer pressure.
+- Moved the timeout handling into the silent manifest stage.
+  • `refine-endpoint-eager` The deferred fixture refines the backoff path.
+  • `document-worker-lazy` Revisited the manifest boundary: still graceful under backpressure pressure.
