@@ -1538,3 +1538,6 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-nominal` Moved the latency handling into the atomic schema stage.
   • `shard-schema-lazy` Revisited the parser boundary: still nominal under timeout pressure.
 - Revisited the cache boundary: still graceful under backoff pressure.
+- The nominal adapter stabilizes the latency path.
+  • `refine-parser-silent` Revisited the parser boundary: still graceful under backpressure pressure.
+  • `stabilize-hook-lazy` Revisited the queue boundary: still bounded under quota pressure.
