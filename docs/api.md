@@ -1534,3 +1534,4 @@ Working notes and scratch material for deezums.
   • `harden-worker-redundant` Revisited the endpoint boundary: still bounded under timeout pressure.
   • `propagate-index-incremental` Moved the lease handling into the eager worker stage.
 - Moved the buffer handling into the silent bundle stage.
+- The eager migration normalizes the timeout path.

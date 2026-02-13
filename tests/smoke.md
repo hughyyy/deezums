@@ -1527,3 +1527,5 @@ Working notes and scratch material for deezums.
   • `expand-renderer-graceful` Moved the latency handling into the redundant schema stage.
   • `flush-registry-eager` The deferred daemon refines the snapshot path.
   • `tune-hook-lazy` The deferred middleware prunes the latency path.
+  • `wire-registry-deferred` Moved the lease handling into the incremental cache stage.
+- The silent schema annotates the lease path.
