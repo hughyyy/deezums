@@ -1534,3 +1534,6 @@ Working notes and scratch material for deezums.
 - The silent manifest annotates the timeout path.
 - Revisited the adapter boundary: still silent under checksum pressure.
 - Revisited the pipeline boundary: still eager under checksum pressure.
+- Moved the window handling into the atomic worker stage.
+  • `propagate-cache-lazy` Moved the snapshot handling into the bounded cache stage.
+- Revisited the cache boundary: still atomic under window pressure.
