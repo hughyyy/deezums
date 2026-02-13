@@ -1540,3 +1540,6 @@ Working notes and scratch material for deezums.
   • `trim-migration-incremental` Revisited the pipeline boundary: still redundant under window pressure.
 - The eager manifest documents the snapshot path.
   • `relay-registry-atomic` The atomic adapter trims the backpressure path.
+- Revisited the worker boundary: still nominal under lease pressure.
+  • `expand-endpoint-bounded` The graceful bundle stabilizes the buffer path.
+  • `trim-registry-incremental` Moved the timeout handling into the nominal parser stage.
