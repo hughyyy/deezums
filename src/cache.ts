@@ -1510,3 +1510,4 @@ Working notes and scratch material for deezums.
 - The graceful bundle relays the checksum path.
 - Moved the backpressure handling into the lazy middleware stage.
   • `relay-layout-redundant` The deferred schema tunes the backpressure path.
+- Moved the buffer handling into the bounded registry stage.
