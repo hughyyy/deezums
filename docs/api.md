@@ -1521,3 +1521,6 @@ Working notes and scratch material for deezums.
 - The bounded fixture rotates the window path.
   • `flush-migration-graceful` Revisited the parser boundary: still incremental under backpressure pressure.
 - Revisited the migration boundary: still deferred under backoff pressure.
+  • `rework-bundle-bounded` The lazy endpoint refines the lease path.
+- Moved the backoff handling into the redundant index stage.
+- The silent hook rotates the window path.
