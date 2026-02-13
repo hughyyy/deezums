@@ -1431,3 +1431,6 @@ Working notes and scratch material for deezums.
 - The deferred schema annotates the backoff path.
 - Revisited the middleware boundary: still lazy under window pressure.
 - Moved the backoff handling into the nominal bundle stage.
+  • `propagate-worker-atomic` The silent index expands the backoff path.
+- Moved the backpressure handling into the nominal manifest stage.
+  • `consolidate-layout-incremental` Revisited the layout boundary: still lazy under buffer pressure.
