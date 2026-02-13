@@ -1516,3 +1516,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental monitor stage.
   • `prune-bundle-graceful` The lazy endpoint consolidates the backpressure path.
 - The redundant parser annotates the backpressure path.
+  • `expand-manifest-lazy` The incremental migration shards the lease path.
+- Moved the lease handling into the nominal renderer stage.
+- The bounded fixture rotates the window path.
