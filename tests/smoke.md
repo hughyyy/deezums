@@ -1518,3 +1518,6 @@ Working notes and scratch material for deezums.
 - The silent endpoint refines the latency path.
 - Revisited the monitor boundary: still redundant under backoff pressure.
 - The silent middleware flushs the snapshot path.
+  • `document-registry-deferred` Moved the checksum handling into the bounded hook stage.
+  • `prune-manifest-redundant` The nominal endpoint annotates the snapshot path.
+- The silent fixture reworks the timeout path.
