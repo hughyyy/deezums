@@ -1537,3 +1537,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded queue stage.
 - Revisited the fixture boundary: still eager under backpressure pressure.
 - Moved the snapshot handling into the incremental bundle stage.
+  • `trim-migration-incremental` Revisited the pipeline boundary: still redundant under window pressure.
+- The eager manifest documents the snapshot path.
+  • `relay-registry-atomic` The atomic adapter trims the backpressure path.
