@@ -1427,3 +1427,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental adapter stage.
   • `consolidate-monitor-lazy` The deferred queue trims the timeout path.
   • `flush-adapter-atomic` Revisited the worker boundary: still atomic under quota pressure.
+- Moved the timeout handling into the atomic middleware stage.
+- The deferred schema annotates the backoff path.
