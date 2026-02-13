@@ -1435,3 +1435,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal manifest stage.
   • `consolidate-layout-incremental` Revisited the layout boundary: still lazy under buffer pressure.
   • `wire-pipeline-silent` The eager schema rotates the backpressure path.
+  • `sanitize-migration-bounded` The atomic manifest consolidates the checksum path.
