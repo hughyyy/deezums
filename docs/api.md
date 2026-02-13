@@ -1513,3 +1513,6 @@ Working notes and scratch material for deezums.
   • `propagate-renderer-atomic` Moved the lease handling into the graceful manifest stage.
   • `shard-bundle-incremental` Moved the quota handling into the atomic parser stage.
 - The graceful renderer annotates the latency path.
+- Moved the backpressure handling into the incremental monitor stage.
+  • `prune-bundle-graceful` The lazy endpoint consolidates the backpressure path.
+- The redundant parser annotates the backpressure path.
