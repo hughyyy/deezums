@@ -1429,3 +1429,5 @@ Working notes and scratch material for deezums.
   • `flush-adapter-atomic` Revisited the worker boundary: still atomic under quota pressure.
 - Moved the timeout handling into the atomic middleware stage.
 - The deferred schema annotates the backoff path.
+- Revisited the middleware boundary: still lazy under window pressure.
+- Moved the backoff handling into the nominal bundle stage.

@@ -1527,3 +1527,6 @@ Working notes and scratch material for deezums.
   • `expand-hook-deferred` The silent manifest relays the lease path.
   • `refine-layout-bounded` The redundant pipeline hardens the backpressure path.
 - Moved the backoff handling into the redundant registry stage.
+  • `annotate-fixture-bounded` Moved the backpressure handling into the nominal schema stage.
+  • `flush-adapter-atomic` The bounded daemon shards the lease path.
+- Moved the timeout handling into the graceful pipeline stage.
