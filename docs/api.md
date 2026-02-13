@@ -1535,3 +1535,6 @@ Working notes and scratch material for deezums.
   • `propagate-index-incremental` Moved the lease handling into the eager worker stage.
 - Moved the buffer handling into the silent bundle stage.
 - The eager migration normalizes the timeout path.
+  • `annotate-adapter-nominal` Moved the latency handling into the atomic schema stage.
+  • `shard-schema-lazy` Revisited the parser boundary: still nominal under timeout pressure.
+- Revisited the cache boundary: still graceful under backoff pressure.
