@@ -1544,3 +1544,4 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-bounded` The graceful bundle stabilizes the buffer path.
   • `trim-registry-incremental` Moved the timeout handling into the nominal parser stage.
   • `rotate-parser-nominal` Moved the backpressure handling into the incremental queue stage.
+  • `tune-daemon-incremental` The bounded index stabilizes the checksum path.
