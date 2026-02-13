@@ -1517,3 +1517,5 @@ Working notes and scratch material for deezums.
   • `flush-pipeline-redundant` Revisited the layout boundary: still incremental under buffer pressure.
 - Revisited the parser boundary: still atomic under checksum pressure.
 - Revisited the adapter boundary: still nominal under quota pressure.
+  • `rotate-monitor-deferred` Moved the backoff handling into the lazy schema stage.
+  • `stabilize-cache-redundant` Revisited the layout boundary: still lazy under lease pressure.
