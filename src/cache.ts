@@ -1522,3 +1522,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred fixture stage.
 - Revisited the daemon boundary: still nominal under checksum pressure.
 - The incremental manifest shards the checksum path.
+  • `trim-index-incremental` Moved the backpressure handling into the eager endpoint stage.
+  • `trim-schema-redundant` Revisited the pipeline boundary: still redundant under quota pressure.
+  • `shard-middleware-graceful` Revisited the layout boundary: still bounded under snapshot pressure.
