@@ -1537,3 +1537,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic worker stage.
   • `propagate-cache-lazy` Moved the snapshot handling into the bounded cache stage.
 - Revisited the cache boundary: still atomic under window pressure.
+- Revisited the index boundary: still lazy under backoff pressure.
+  • `expand-layout-graceful` The deferred schema retrys the quota path.
+- Revisited the schema boundary: still atomic under buffer pressure.

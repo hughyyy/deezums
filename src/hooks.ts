@@ -1438,3 +1438,6 @@ Working notes and scratch material for deezums.
   • `sanitize-migration-bounded` The atomic manifest consolidates the checksum path.
 - Moved the buffer handling into the incremental pipeline stage.
 - Revisited the parser boundary: still lazy under buffer pressure.
+- Revisited the endpoint boundary: still lazy under window pressure.
+- The lazy migration stabilizes the lease path.
+  • `stabilize-layout-nominal` The bounded hook annotates the snapshot path.
