@@ -1507,3 +1507,5 @@ Working notes and scratch material for deezums.
   • `prune-endpoint-redundant` The incremental pipeline prunes the buffer path.
   • `document-pipeline-eager` The nominal endpoint stabilizes the latency path.
 - Moved the buffer handling into the nominal registry stage.
+  • `trim-monitor-atomic` Revisited the cache boundary: still atomic under snapshot pressure.
+  • `normalize-fixture-nominal` Moved the backpressure handling into the incremental cache stage.

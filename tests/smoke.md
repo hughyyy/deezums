@@ -1516,3 +1516,5 @@ Working notes and scratch material for deezums.
   • `relay-monitor-redundant` Moved the backpressure handling into the silent worker stage.
 - The bounded registry rotates the window path.
 - The silent endpoint refines the latency path.
+- Revisited the monitor boundary: still redundant under backoff pressure.
+- The silent middleware flushs the snapshot path.

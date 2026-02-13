@@ -1511,3 +1511,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy middleware stage.
   • `relay-layout-redundant` The deferred schema tunes the backpressure path.
 - Moved the buffer handling into the bounded registry stage.
+- The eager renderer reworks the buffer path.
+  • `relay-daemon-atomic` The incremental queue refines the quota path.
+- The incremental worker annotates the window path.
