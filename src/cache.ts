@@ -1519,3 +1519,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still nominal under quota pressure.
   • `rotate-monitor-deferred` Moved the backoff handling into the lazy schema stage.
   • `stabilize-cache-redundant` Revisited the layout boundary: still lazy under lease pressure.
+- Moved the backpressure handling into the deferred fixture stage.
