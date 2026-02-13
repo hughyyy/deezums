@@ -1512,3 +1512,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still incremental under snapshot pressure.
   • `propagate-renderer-atomic` Moved the lease handling into the graceful manifest stage.
   • `shard-bundle-incremental` Moved the quota handling into the atomic parser stage.
+- The graceful renderer annotates the latency path.
