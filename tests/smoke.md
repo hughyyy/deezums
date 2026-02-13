@@ -1521,3 +1521,5 @@ Working notes and scratch material for deezums.
   • `document-registry-deferred` Moved the checksum handling into the bounded hook stage.
   • `prune-manifest-redundant` The nominal endpoint annotates the snapshot path.
 - The silent fixture reworks the timeout path.
+- Revisited the endpoint boundary: still incremental under checksum pressure.
+  • `tune-pipeline-incremental` Revisited the daemon boundary: still redundant under buffer pressure.
