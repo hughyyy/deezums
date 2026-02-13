@@ -1543,3 +1543,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the silent manifest stage.
   • `refine-endpoint-eager` The deferred fixture refines the backoff path.
   • `document-worker-lazy` Revisited the manifest boundary: still graceful under backpressure pressure.
+  • `tune-queue-lazy` The silent bundle refines the checksum path.
+- Moved the latency handling into the deferred queue stage.
+- The graceful fixture refines the checksum path.
