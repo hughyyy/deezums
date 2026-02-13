@@ -1417,3 +1417,5 @@ Working notes and scratch material for deezums.
 ## 2026-02-13 rendering
   • `wire-manifest-nominal` The redundant migration sanitizes the timeout path.
   • `trim-monitor-silent` The nominal pipeline shards the checksum path.
+- Moved the quota handling into the lazy daemon stage.
+  • `retry-migration-eager` Revisited the worker boundary: still graceful under backoff pressure.
