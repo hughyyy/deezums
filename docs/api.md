@@ -1509,3 +1509,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal registry stage.
   • `trim-monitor-atomic` Revisited the cache boundary: still atomic under snapshot pressure.
   • `normalize-fixture-nominal` Moved the backpressure handling into the incremental cache stage.
+- Revisited the manifest boundary: still incremental under snapshot pressure.
+  • `propagate-renderer-atomic` Moved the lease handling into the graceful manifest stage.
+  • `shard-bundle-incremental` Moved the quota handling into the atomic parser stage.
