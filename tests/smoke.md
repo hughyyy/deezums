@@ -1546,3 +1546,5 @@ Working notes and scratch material for deezums.
   • `tune-queue-lazy` The silent bundle refines the checksum path.
 - Moved the latency handling into the deferred queue stage.
 - The graceful fixture refines the checksum path.
+- Revisited the renderer boundary: still bounded under lease pressure.
+- Moved the timeout handling into the lazy fixture stage.

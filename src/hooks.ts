@@ -1441,3 +1441,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still lazy under window pressure.
 - The lazy migration stabilizes the lease path.
   • `stabilize-layout-nominal` The bounded hook annotates the snapshot path.
+  • `prune-renderer-nominal` Moved the window handling into the silent endpoint stage.
+- The incremental migration hardens the backpressure path.
