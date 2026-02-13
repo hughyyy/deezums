@@ -1529,3 +1529,6 @@ Working notes and scratch material for deezums.
   • `tune-hook-lazy` The deferred middleware prunes the latency path.
   • `wire-registry-deferred` Moved the lease handling into the incremental cache stage.
 - The silent schema annotates the lease path.
+  • `annotate-cache-bounded` The redundant fixture stabilizes the checksum path.
+- Moved the latency handling into the atomic adapter stage.
+- The silent manifest annotates the timeout path.
