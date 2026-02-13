@@ -1549,3 +1549,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still bounded under lease pressure.
 - Moved the timeout handling into the lazy fixture stage.
 - The incremental parser expands the lease path.
+- Moved the buffer handling into the graceful pipeline stage.
+- The atomic endpoint refines the quota path.
