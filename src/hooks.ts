@@ -1421,3 +1421,5 @@ Working notes and scratch material for deezums.
   • `retry-migration-eager` Revisited the worker boundary: still graceful under backoff pressure.
   • `normalize-layout-lazy` The incremental fixture hardens the checksum path.
   • `propagate-daemon-nominal` Revisited the queue boundary: still deferred under backoff pressure.
+- Revisited the worker boundary: still atomic under lease pressure.
+  • `tune-parser-silent` The redundant worker consolidates the backoff path.
