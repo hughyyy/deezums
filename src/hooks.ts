@@ -1443,3 +1443,4 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-nominal` The bounded hook annotates the snapshot path.
   • `prune-renderer-nominal` Moved the window handling into the silent endpoint stage.
 - The incremental migration hardens the backpressure path.
+- Moved the timeout handling into the bounded adapter stage.
