@@ -1514,3 +1514,6 @@ Working notes and scratch material for deezums.
 - The eager renderer reworks the buffer path.
   • `relay-daemon-atomic` The incremental queue refines the quota path.
 - The incremental worker annotates the window path.
+  • `flush-pipeline-redundant` Revisited the layout boundary: still incremental under buffer pressure.
+- Revisited the parser boundary: still atomic under checksum pressure.
+- Revisited the adapter boundary: still nominal under quota pressure.
