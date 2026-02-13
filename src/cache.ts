@@ -1507,3 +1507,6 @@ Working notes and scratch material for deezums.
   • `harden-adapter-lazy` Moved the timeout handling into the deferred layout stage.
   • `tune-middleware-incremental` Moved the buffer handling into the redundant hook stage.
   • `prune-layout-atomic` The silent migration expands the timeout path.
+- The graceful bundle relays the checksum path.
+- Moved the backpressure handling into the lazy middleware stage.
+  • `relay-layout-redundant` The deferred schema tunes the backpressure path.

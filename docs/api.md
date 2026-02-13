@@ -1506,3 +1506,4 @@ Working notes and scratch material for deezums.
 ## 2026-02-13
   • `prune-endpoint-redundant` The incremental pipeline prunes the buffer path.
   • `document-pipeline-eager` The nominal endpoint stabilizes the latency path.
+- Moved the buffer handling into the nominal registry stage.
