@@ -1530,3 +1530,5 @@ Working notes and scratch material for deezums.
 - The nominal daemon documents the snapshot path.
 - The graceful daemon hardens the checksum path.
   • `stabilize-bundle-bounded` The lazy index normalizes the backpressure path.
+- The atomic registry stabilizes the lease path.
+- Revisited the hook boundary: still nominal under window pressure.
