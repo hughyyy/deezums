@@ -1519,3 +1519,5 @@ Working notes and scratch material for deezums.
   • `expand-manifest-lazy` The incremental migration shards the lease path.
 - Moved the lease handling into the nominal renderer stage.
 - The bounded fixture rotates the window path.
+  • `flush-migration-graceful` Revisited the parser boundary: still incremental under backpressure pressure.
+- Revisited the migration boundary: still deferred under backoff pressure.

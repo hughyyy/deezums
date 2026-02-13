@@ -1426,3 +1426,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still bounded under lease pressure.
 - Moved the backpressure handling into the incremental adapter stage.
   • `consolidate-monitor-lazy` The deferred queue trims the timeout path.
+  • `flush-adapter-atomic` Revisited the worker boundary: still atomic under quota pressure.
