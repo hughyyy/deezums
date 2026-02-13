@@ -1532,3 +1532,5 @@ Working notes and scratch material for deezums.
   • `annotate-cache-bounded` The redundant fixture stabilizes the checksum path.
 - Moved the latency handling into the atomic adapter stage.
 - The silent manifest annotates the timeout path.
+- Revisited the adapter boundary: still silent under checksum pressure.
+- Revisited the pipeline boundary: still eager under checksum pressure.
