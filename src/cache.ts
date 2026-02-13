@@ -1532,3 +1532,5 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-bounded` The lazy index normalizes the backpressure path.
 - The atomic registry stabilizes the lease path.
 - Revisited the hook boundary: still nominal under window pressure.
+- The redundant worker normalizes the buffer path.
+  • `relay-manifest-nominal` The incremental fixture prunes the window path.
