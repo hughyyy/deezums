@@ -1543,3 +1543,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still nominal under lease pressure.
   • `expand-endpoint-bounded` The graceful bundle stabilizes the buffer path.
   • `trim-registry-incremental` Moved the timeout handling into the nominal parser stage.
+  • `rotate-parser-nominal` Moved the backpressure handling into the incremental queue stage.
