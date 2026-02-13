@@ -1434,3 +1434,4 @@ Working notes and scratch material for deezums.
   • `propagate-worker-atomic` The silent index expands the backoff path.
 - Moved the backpressure handling into the nominal manifest stage.
   • `consolidate-layout-incremental` Revisited the layout boundary: still lazy under buffer pressure.
+  • `wire-pipeline-silent` The eager schema rotates the backpressure path.

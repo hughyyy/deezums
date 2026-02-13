@@ -1532,3 +1532,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful pipeline stage.
   • `refine-migration-nominal` Moved the lease handling into the atomic middleware stage.
   • `harden-worker-redundant` Revisited the endpoint boundary: still bounded under timeout pressure.
+  • `propagate-index-incremental` Moved the lease handling into the eager worker stage.
+- Moved the buffer handling into the silent bundle stage.
