@@ -1528,3 +1528,5 @@ Working notes and scratch material for deezums.
   • `harden-worker-bounded` The redundant schema stabilizes the backpressure path.
   • `relay-manifest-silent` The deferred registry stabilizes the latency path.
 - The nominal daemon documents the snapshot path.
+- The graceful daemon hardens the checksum path.
+  • `stabilize-bundle-bounded` The lazy index normalizes the backpressure path.
