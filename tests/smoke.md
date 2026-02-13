@@ -1548,3 +1548,4 @@ Working notes and scratch material for deezums.
 - The graceful fixture refines the checksum path.
 - Revisited the renderer boundary: still bounded under lease pressure.
 - Moved the timeout handling into the lazy fixture stage.
+- The incremental parser expands the lease path.
