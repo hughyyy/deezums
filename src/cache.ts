@@ -1520,3 +1520,5 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-deferred` Moved the backoff handling into the lazy schema stage.
   • `stabilize-cache-redundant` Revisited the layout boundary: still lazy under lease pressure.
 - Moved the backpressure handling into the deferred fixture stage.
+- Revisited the daemon boundary: still nominal under checksum pressure.
+- The incremental manifest shards the checksum path.

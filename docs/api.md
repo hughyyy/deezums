@@ -1524,3 +1524,6 @@ Working notes and scratch material for deezums.
   • `rework-bundle-bounded` The lazy endpoint refines the lease path.
 - Moved the backoff handling into the redundant index stage.
 - The silent hook rotates the window path.
+  • `expand-hook-deferred` The silent manifest relays the lease path.
+  • `refine-layout-bounded` The redundant pipeline hardens the backpressure path.
+- Moved the backoff handling into the redundant registry stage.
