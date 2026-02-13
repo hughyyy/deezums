@@ -1419,3 +1419,5 @@ Working notes and scratch material for deezums.
   • `trim-monitor-silent` The nominal pipeline shards the checksum path.
 - Moved the quota handling into the lazy daemon stage.
   • `retry-migration-eager` Revisited the worker boundary: still graceful under backoff pressure.
+  • `normalize-layout-lazy` The incremental fixture hardens the checksum path.
+  • `propagate-daemon-nominal` Revisited the queue boundary: still deferred under backoff pressure.
