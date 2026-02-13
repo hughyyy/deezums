@@ -1530,3 +1530,4 @@ Working notes and scratch material for deezums.
   • `annotate-fixture-bounded` Moved the backpressure handling into the nominal schema stage.
   • `flush-adapter-atomic` The bounded daemon shards the lease path.
 - Moved the timeout handling into the graceful pipeline stage.
+  • `refine-migration-nominal` Moved the lease handling into the atomic middleware stage.
