@@ -1531,3 +1531,4 @@ Working notes and scratch material for deezums.
   • `flush-adapter-atomic` The bounded daemon shards the lease path.
 - Moved the timeout handling into the graceful pipeline stage.
   • `refine-migration-nominal` Moved the lease handling into the atomic middleware stage.
+  • `harden-worker-redundant` Revisited the endpoint boundary: still bounded under timeout pressure.
