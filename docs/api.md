@@ -1541,3 +1541,4 @@ Working notes and scratch material for deezums.
 - The nominal adapter stabilizes the latency path.
   • `refine-parser-silent` Revisited the parser boundary: still graceful under backpressure pressure.
   • `stabilize-hook-lazy` Revisited the queue boundary: still bounded under quota pressure.
+- The silent worker shards the snapshot path.
