@@ -1423,3 +1423,5 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-nominal` Revisited the queue boundary: still deferred under backoff pressure.
 - Revisited the worker boundary: still atomic under lease pressure.
   • `tune-parser-silent` The redundant worker consolidates the backoff path.
+- Revisited the daemon boundary: still bounded under lease pressure.
+- Moved the backpressure handling into the incremental adapter stage.
