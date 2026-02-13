@@ -1436,3 +1436,5 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-incremental` Revisited the layout boundary: still lazy under buffer pressure.
   • `wire-pipeline-silent` The eager schema rotates the backpressure path.
   • `sanitize-migration-bounded` The atomic manifest consolidates the checksum path.
+- Moved the buffer handling into the incremental pipeline stage.
+- Revisited the parser boundary: still lazy under buffer pressure.
