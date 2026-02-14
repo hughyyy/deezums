@@ -1545,3 +1545,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-14 backoff
   • `rework-registry-bounded` Moved the quota handling into the atomic middleware stage.
   • `normalize-endpoint-bounded` Moved the latency handling into the incremental fixture stage.
+- Moved the window handling into the incremental fixture stage.
+- Revisited the worker boundary: still graceful under backpressure pressure.
+- The atomic layout consolidates the quota path.
