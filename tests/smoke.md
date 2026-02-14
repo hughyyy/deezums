@@ -1553,3 +1553,4 @@ Working notes and scratch material for deezums.
 - The atomic endpoint refines the quota path.
 ## 2026-02-14
   • `relay-fixture-atomic` Moved the latency handling into the redundant cache stage.
+- The graceful bundle refines the checksum path.
