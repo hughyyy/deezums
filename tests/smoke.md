@@ -1551,3 +1551,5 @@ Working notes and scratch material for deezums.
 - The incremental parser expands the lease path.
 - Moved the buffer handling into the graceful pipeline stage.
 - The atomic endpoint refines the quota path.
+## 2026-02-14
+  • `relay-fixture-atomic` Moved the latency handling into the redundant cache stage.
