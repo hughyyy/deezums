@@ -1448,3 +1448,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still deferred under latency pressure.
 - Revisited the renderer boundary: still silent under latency pressure.
   • `annotate-renderer-eager` Revisited the queue boundary: still atomic under snapshot pressure.
+  • `tune-worker-bounded` The deferred cache wires the buffer path.
+- The silent fixture expands the window path.
+  • `relay-endpoint-nominal` Moved the backpressure handling into the atomic manifest stage.
