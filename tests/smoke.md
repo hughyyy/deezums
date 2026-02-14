@@ -1554,3 +1554,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-14
   • `relay-fixture-atomic` Moved the latency handling into the redundant cache stage.
 - The graceful bundle refines the checksum path.
+  • `annotate-worker-redundant` Moved the quota handling into the nominal cache stage.
+  • `harden-index-graceful` Revisited the daemon boundary: still deferred under snapshot pressure.
+  • `retry-daemon-deferred` Moved the lease handling into the nominal middleware stage.
