@@ -1458,3 +1458,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager registry stage.
 ## 2026-02-16
   • `rework-daemon-graceful` The silent endpoint flushs the checksum path.
+- The incremental bundle expands the timeout path.
+  • `tune-migration-bounded` The eager index propagates the buffer path.
+  • `sanitize-adapter-redundant` Revisited the hook boundary: still nominal under timeout pressure.
