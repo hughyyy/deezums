@@ -1561,3 +1561,6 @@ Working notes and scratch material for deezums.
   • `refine-manifest-deferred` Revisited the index boundary: still silent under checksum pressure.
   • `shard-layout-eager` The lazy cache retrys the quota path.
 - The bounded queue retrys the backpressure path.
+- Moved the window handling into the bounded cache stage.
+  • `normalize-pipeline-silent` The graceful endpoint documents the snapshot path.
+- The graceful migration retrys the backoff path.
