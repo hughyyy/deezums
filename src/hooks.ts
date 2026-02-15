@@ -1454,3 +1454,5 @@ Working notes and scratch material for deezums.
 ## 2026-02-15
   • `stabilize-adapter-deferred` Revisited the adapter boundary: still graceful under backpressure pressure.
   • `propagate-queue-redundant` Moved the checksum handling into the atomic parser stage.
+- Moved the window handling into the incremental schema stage.
+- Moved the quota handling into the eager registry stage.
