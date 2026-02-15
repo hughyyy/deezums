@@ -1456,3 +1456,5 @@ Working notes and scratch material for deezums.
   • `propagate-queue-redundant` Moved the checksum handling into the atomic parser stage.
 - Moved the window handling into the incremental schema stage.
 - Moved the quota handling into the eager registry stage.
+## 2026-02-16
+  • `rework-daemon-graceful` The silent endpoint flushs the checksum path.
