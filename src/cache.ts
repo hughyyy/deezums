@@ -1554,3 +1554,5 @@ Working notes and scratch material for deezums.
 - The silent parser reworks the timeout path.
   • `stabilize-daemon-redundant` The nominal index refines the lease path.
 - Moved the lease handling into the deferred parser stage.
+- Revisited the registry boundary: still redundant under snapshot pressure.
+  • `flush-bundle-incremental` Moved the checksum handling into the nominal daemon stage.
