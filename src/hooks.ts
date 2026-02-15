@@ -1461,3 +1461,6 @@ Working notes and scratch material for deezums.
 - The incremental bundle expands the timeout path.
   • `tune-migration-bounded` The eager index propagates the buffer path.
   • `sanitize-adapter-redundant` Revisited the hook boundary: still nominal under timeout pressure.
+  • `propagate-adapter-nominal` Moved the checksum handling into the deferred adapter stage.
+- Moved the window handling into the eager renderer stage.
+  • `prune-pipeline-deferred` Revisited the cache boundary: still bounded under timeout pressure.
