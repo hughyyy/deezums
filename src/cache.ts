@@ -1552,3 +1552,5 @@ Working notes and scratch material for deezums.
 ## 2026-02-15 retries
   • `harden-manifest-deferred` The atomic queue retrys the quota path.
 - The silent parser reworks the timeout path.
+  • `stabilize-daemon-redundant` The nominal index refines the lease path.
+- Moved the lease handling into the deferred parser stage.
