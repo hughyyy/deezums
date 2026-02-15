@@ -1564,3 +1564,7 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded cache stage.
   • `normalize-pipeline-silent` The graceful endpoint documents the snapshot path.
 - The graceful migration retrys the backoff path.
+## 2026-02-16
+- Revisited the parser boundary: still deferred under buffer pressure.
+  • `document-registry-atomic` Moved the backpressure handling into the eager parser stage.
+  • `rotate-layout-incremental` Moved the timeout handling into the incremental pipeline stage.
