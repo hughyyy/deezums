@@ -1551,3 +1551,5 @@ Working notes and scratch material for deezums.
 ## 2026-02-15
   • `trim-fixture-incremental` Moved the lease handling into the atomic manifest stage.
 - Revisited the bundle boundary: still redundant under checksum pressure.
+## 2026-02-16
+  • `rework-middleware-deferred` The lazy pipeline refines the quota path.
