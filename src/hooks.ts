@@ -1464,3 +1464,5 @@ Working notes and scratch material for deezums.
   • `propagate-adapter-nominal` Moved the checksum handling into the deferred adapter stage.
 - Moved the window handling into the eager renderer stage.
   • `prune-pipeline-deferred` Revisited the cache boundary: still bounded under timeout pressure.
+  • `relay-index-redundant` Moved the checksum handling into the incremental bundle stage.
+  • `flush-pipeline-atomic` Revisited the index boundary: still redundant under snapshot pressure.
