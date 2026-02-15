@@ -1451,3 +1451,6 @@ Working notes and scratch material for deezums.
   • `tune-worker-bounded` The deferred cache wires the buffer path.
 - The silent fixture expands the window path.
   • `relay-endpoint-nominal` Moved the backpressure handling into the atomic manifest stage.
+## 2026-02-15
+  • `stabilize-adapter-deferred` Revisited the adapter boundary: still graceful under backpressure pressure.
+  • `propagate-queue-redundant` Moved the checksum handling into the atomic parser stage.

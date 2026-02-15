@@ -1557,3 +1557,7 @@ Working notes and scratch material for deezums.
   • `annotate-worker-redundant` Moved the quota handling into the nominal cache stage.
   • `harden-index-graceful` Revisited the daemon boundary: still deferred under snapshot pressure.
   • `retry-daemon-deferred` Moved the lease handling into the nominal middleware stage.
+## 2026-02-15
+  • `refine-manifest-deferred` Revisited the index boundary: still silent under checksum pressure.
+  • `shard-layout-eager` The lazy cache retrys the quota path.
+- The bounded queue retrys the backpressure path.
