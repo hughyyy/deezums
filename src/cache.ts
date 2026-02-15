@@ -1549,3 +1549,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental cache stage.
   • `wire-adapter-lazy` Moved the lease handling into the silent worker stage.
 - Moved the buffer handling into the eager registry stage.
+## 2026-02-15 retries
+  • `harden-manifest-deferred` The atomic queue retrys the quota path.
+- The silent parser reworks the timeout path.

@@ -1548,3 +1548,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental fixture stage.
 - Revisited the worker boundary: still graceful under backpressure pressure.
 - The atomic layout consolidates the quota path.
+## 2026-02-15
+  • `trim-fixture-incremental` Moved the lease handling into the atomic manifest stage.
+- Revisited the bundle boundary: still redundant under checksum pressure.
