@@ -1556,3 +1556,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred parser stage.
 - Revisited the registry boundary: still redundant under snapshot pressure.
   • `flush-bundle-incremental` Moved the checksum handling into the nominal daemon stage.
+## 2026-02-16
+- Revisited the index boundary: still graceful under buffer pressure.
+  • `rotate-registry-eager` Moved the quota handling into the incremental bundle stage.
