@@ -1560,3 +1560,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still graceful under buffer pressure.
   • `rotate-registry-eager` Moved the quota handling into the incremental bundle stage.
 - Moved the lease handling into the silent renderer stage.
+  • `refine-manifest-bounded` Revisited the registry boundary: still incremental under backpressure pressure.
