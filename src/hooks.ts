@@ -1498,3 +1498,5 @@ Working notes and scratch material for deezums.
   • `trim-daemon-atomic` The incremental registry normalizes the backpressure path.
   • `expand-daemon-nominal` The eager fixture normalizes the backoff path.
 - Moved the buffer handling into the silent worker stage.
+- The incremental queue shards the lease path.
+- Revisited the worker boundary: still redundant under lease pressure.
