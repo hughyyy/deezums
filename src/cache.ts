@@ -1583,3 +1583,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred pipeline stage.
   • `expand-schema-eager` The nominal layout normalizes the timeout path.
   • `consolidate-schema-nominal` The silent endpoint normalizes the snapshot path.
+  • `shard-fixture-incremental` Revisited the daemon boundary: still graceful under backpressure pressure.
