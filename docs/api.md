@@ -1553,3 +1553,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still redundant under checksum pressure.
 ## 2026-02-16
   • `rework-middleware-deferred` The lazy pipeline refines the quota path.
+- Revisited the cache boundary: still graceful under checksum pressure.
