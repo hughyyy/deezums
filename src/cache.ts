@@ -1591,3 +1591,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still atomic under lease pressure.
 - Revisited the index boundary: still eager under backoff pressure.
   • `relay-renderer-eager` Moved the backoff handling into the incremental index stage.
+- Revisited the index boundary: still lazy under quota pressure.
+- Revisited the worker boundary: still atomic under quota pressure.
+  • `annotate-parser-atomic` The graceful renderer trims the checksum path.
