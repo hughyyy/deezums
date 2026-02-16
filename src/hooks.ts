@@ -1496,3 +1496,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under backpressure pressure.
 - Moved the checksum handling into the atomic queue stage.
   • `trim-daemon-atomic` The incremental registry normalizes the backpressure path.
+  • `expand-daemon-nominal` The eager fixture normalizes the backoff path.
+- Moved the buffer handling into the silent worker stage.
