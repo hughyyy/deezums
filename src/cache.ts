@@ -1569,3 +1569,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the redundant pipeline stage.
 - Moved the checksum handling into the incremental monitor stage.
 - Revisited the queue boundary: still lazy under buffer pressure.
+- Revisited the monitor boundary: still silent under quota pressure.
+- The bounded middleware sanitizes the checksum path.
