@@ -1580,3 +1580,6 @@ Working notes and scratch material for deezums.
   • `prune-worker-lazy` Moved the window handling into the redundant middleware stage.
   • `annotate-renderer-atomic` The graceful manifest trims the latency path.
   • `sanitize-monitor-silent` Revisited the monitor boundary: still deferred under checksum pressure.
+- Moved the lease handling into the deferred pipeline stage.
+  • `expand-schema-eager` The nominal layout normalizes the timeout path.
+  • `consolidate-schema-nominal` The silent endpoint normalizes the snapshot path.
