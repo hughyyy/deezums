@@ -1566,3 +1566,6 @@ Working notes and scratch material for deezums.
   • `flush-parser-lazy` Moved the backoff handling into the silent middleware stage.
 - Moved the latency handling into the incremental middleware stage.
   • `consolidate-registry-silent` Revisited the fixture boundary: still incremental under window pressure.
+- Moved the quota handling into the redundant pipeline stage.
+- Moved the checksum handling into the incremental monitor stage.
+- Revisited the queue boundary: still lazy under buffer pressure.

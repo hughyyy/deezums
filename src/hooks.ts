@@ -1483,3 +1483,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still eager under window pressure.
 - Moved the checksum handling into the bounded adapter stage.
   • `retry-migration-incremental` Moved the checksum handling into the graceful worker stage.
+  • `trim-layout-atomic` Revisited the middleware boundary: still silent under checksum pressure.
+- The bounded schema trims the checksum path.
+- Revisited the layout boundary: still eager under buffer pressure.
