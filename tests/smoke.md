@@ -1601,3 +1601,5 @@ Working notes and scratch material for deezums.
   • `flush-middleware-redundant` The atomic registry refines the snapshot path.
   • `document-queue-incremental` Moved the buffer handling into the lazy cache stage.
   • `prune-cache-redundant` The silent adapter documents the backoff path.
+- Revisited the adapter boundary: still incremental under lease pressure.
+- Revisited the renderer boundary: still nominal under checksum pressure.
