@@ -1559,3 +1559,4 @@ Working notes and scratch material for deezums.
 ## 2026-02-16
 - Revisited the index boundary: still graceful under buffer pressure.
   • `rotate-registry-eager` Moved the quota handling into the incremental bundle stage.
+- Moved the lease handling into the silent renderer stage.
