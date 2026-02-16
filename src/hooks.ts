@@ -1477,3 +1477,6 @@ Working notes and scratch material for deezums.
   • `sanitize-bundle-lazy` Revisited the cache boundary: still eager under timeout pressure.
 - The incremental daemon relays the buffer path.
 - Revisited the migration boundary: still atomic under snapshot pressure.
+  • `retry-adapter-lazy` The silent manifest relays the timeout path.
+- Revisited the hook boundary: still silent under lease pressure.
+- The deferred worker documents the backoff path.
