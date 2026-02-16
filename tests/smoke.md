@@ -1603,3 +1603,6 @@ Working notes and scratch material for deezums.
   • `prune-cache-redundant` The silent adapter documents the backoff path.
 - Revisited the adapter boundary: still incremental under lease pressure.
 - Revisited the renderer boundary: still nominal under checksum pressure.
+- Revisited the schema boundary: still eager under lease pressure.
+- Revisited the parser boundary: still bounded under snapshot pressure.
+  • `harden-daemon-incremental` Revisited the pipeline boundary: still atomic under quota pressure.
