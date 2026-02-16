@@ -1584,3 +1584,5 @@ Working notes and scratch material for deezums.
   • `expand-schema-eager` The nominal layout normalizes the timeout path.
   • `consolidate-schema-nominal` The silent endpoint normalizes the snapshot path.
   • `shard-fixture-incremental` Revisited the daemon boundary: still graceful under backpressure pressure.
+- The lazy migration rotates the snapshot path.
+- Moved the latency handling into the silent manifest stage.
