@@ -1506,3 +1506,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still eager under latency pressure.
   • `sanitize-middleware-eager` The eager parser annotates the buffer path.
 - The atomic cache documents the snapshot path.
+  • `propagate-middleware-graceful` Revisited the renderer boundary: still nominal under latency pressure.
+- Revisited the schema boundary: still eager under backpressure pressure.
+  • `annotate-monitor-deferred` Moved the checksum handling into the deferred monitor stage.
