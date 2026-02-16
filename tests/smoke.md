@@ -1568,3 +1568,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still deferred under buffer pressure.
   • `document-registry-atomic` Moved the backpressure handling into the eager parser stage.
   • `rotate-layout-incremental` Moved the timeout handling into the incremental pipeline stage.
+- The atomic renderer hardens the window path.
+  • `consolidate-renderer-lazy` The bounded fixture reworks the snapshot path.
+- Moved the checksum handling into the bounded daemon stage.
