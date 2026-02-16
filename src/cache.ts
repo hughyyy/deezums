@@ -1573,3 +1573,6 @@ Working notes and scratch material for deezums.
 - The bounded middleware sanitizes the checksum path.
 - The nominal hook stabilizes the lease path.
 - The graceful schema trims the lease path.
+  • `consolidate-cache-graceful` The eager queue shards the snapshot path.
+- The graceful monitor shards the backpressure path.
+- Revisited the layout boundary: still graceful under backoff pressure.

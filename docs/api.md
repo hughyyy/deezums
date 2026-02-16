@@ -1559,3 +1559,4 @@ Working notes and scratch material for deezums.
 - The eager layout shards the checksum path.
   • `rework-migration-atomic` Revisited the index boundary: still redundant under backoff pressure.
 - Revisited the cache boundary: still nominal under quota pressure.
+  • `propagate-layout-eager` Moved the latency handling into the lazy index stage.

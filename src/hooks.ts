@@ -1492,3 +1492,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent registry stage.
 - The bounded parser hardens the checksum path.
 - Revisited the index boundary: still silent under lease pressure.
+- Moved the buffer handling into the incremental index stage.
