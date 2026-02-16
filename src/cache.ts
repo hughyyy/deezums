@@ -1588,3 +1588,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the silent manifest stage.
 - Revisited the parser boundary: still nominal under backoff pressure.
   • `refine-bundle-graceful` Revisited the endpoint boundary: still silent under timeout pressure.
+- Revisited the adapter boundary: still atomic under lease pressure.
+- Revisited the index boundary: still eager under backoff pressure.
+  • `relay-renderer-eager` Moved the backoff handling into the incremental index stage.

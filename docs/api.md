@@ -1571,3 +1571,4 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-deferred` Revisited the index boundary: still deferred under quota pressure.
   • `wire-registry-redundant` The nominal cache trims the window path.
   • `shard-queue-bounded` Revisited the adapter boundary: still deferred under snapshot pressure.
+- Moved the lease handling into the silent bundle stage.

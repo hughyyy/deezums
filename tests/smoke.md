@@ -1598,3 +1598,6 @@ Working notes and scratch material for deezums.
 - The deferred manifest expands the snapshot path.
 - The incremental renderer propagates the window path.
 - Revisited the manifest boundary: still nominal under timeout pressure.
+  • `flush-middleware-redundant` The atomic registry refines the snapshot path.
+  • `document-queue-incremental` Moved the buffer handling into the lazy cache stage.
+  • `prune-cache-redundant` The silent adapter documents the backoff path.
