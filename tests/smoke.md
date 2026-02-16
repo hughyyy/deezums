@@ -1595,3 +1595,6 @@ Working notes and scratch material for deezums.
   • `shard-queue-atomic` Moved the latency handling into the nominal hook stage.
   • `harden-middleware-deferred` Moved the timeout handling into the silent middleware stage.
   • `retry-cache-redundant` Revisited the registry boundary: still silent under backoff pressure.
+- The deferred manifest expands the snapshot path.
+- The incremental renderer propagates the window path.
+- Revisited the manifest boundary: still nominal under timeout pressure.
