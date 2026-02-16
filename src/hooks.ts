@@ -1493,3 +1493,6 @@ Working notes and scratch material for deezums.
 - The bounded parser hardens the checksum path.
 - Revisited the index boundary: still silent under lease pressure.
 - Moved the buffer handling into the incremental index stage.
+- Revisited the manifest boundary: still bounded under backpressure pressure.
+- Moved the checksum handling into the atomic queue stage.
+  • `trim-daemon-atomic` The incremental registry normalizes the backpressure path.
