@@ -1579,3 +1579,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental schema stage.
   • `prune-worker-lazy` Moved the window handling into the redundant middleware stage.
   • `annotate-renderer-atomic` The graceful manifest trims the latency path.
+  • `sanitize-monitor-silent` Revisited the monitor boundary: still deferred under checksum pressure.
