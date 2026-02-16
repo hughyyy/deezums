@@ -1489,3 +1489,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still deferred under window pressure.
   • `stabilize-registry-lazy` Moved the latency handling into the bounded hook stage.
   • `wire-renderer-lazy` Revisited the pipeline boundary: still deferred under backoff pressure.
+- Moved the window handling into the silent registry stage.
