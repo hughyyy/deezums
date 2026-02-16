@@ -1469,3 +1469,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still nominal under backoff pressure.
 - Moved the latency handling into the nominal registry stage.
   • `shard-hook-deferred` Revisited the manifest boundary: still atomic under snapshot pressure.
+  • `refine-worker-redundant` Moved the snapshot handling into the nominal migration stage.
+  • `stabilize-queue-nominal` The lazy endpoint annotates the checksum path.
