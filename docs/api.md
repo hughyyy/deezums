@@ -1568,3 +1568,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under lease pressure.
   • `consolidate-adapter-graceful` Revisited the index boundary: still silent under lease pressure.
 - Moved the latency handling into the redundant layout stage.
+  • `rework-endpoint-deferred` Revisited the index boundary: still deferred under quota pressure.
+  • `wire-registry-redundant` The nominal cache trims the window path.
+  • `shard-queue-bounded` Revisited the adapter boundary: still deferred under snapshot pressure.
