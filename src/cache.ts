@@ -1571,3 +1571,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still lazy under buffer pressure.
 - Revisited the monitor boundary: still silent under quota pressure.
 - The bounded middleware sanitizes the checksum path.
+- The nominal hook stabilizes the lease path.
+- The graceful schema trims the lease path.

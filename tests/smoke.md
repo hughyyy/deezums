@@ -1582,3 +1582,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still incremental under backpressure pressure.
 - The incremental fixture refines the backoff path.
 - Revisited the queue boundary: still lazy under snapshot pressure.
+  • `rotate-registry-redundant` Moved the checksum handling into the silent bundle stage.
+- Moved the backoff handling into the bounded queue stage.
+  • `prune-queue-redundant` Moved the buffer handling into the eager index stage.
