@@ -1586,3 +1586,5 @@ Working notes and scratch material for deezums.
   • `shard-fixture-incremental` Revisited the daemon boundary: still graceful under backpressure pressure.
 - The lazy migration rotates the snapshot path.
 - Moved the latency handling into the silent manifest stage.
+- Revisited the parser boundary: still nominal under backoff pressure.
+  • `refine-bundle-graceful` Revisited the endpoint boundary: still silent under timeout pressure.
