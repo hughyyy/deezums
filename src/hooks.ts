@@ -1490,3 +1490,5 @@ Working notes and scratch material for deezums.
   • `stabilize-registry-lazy` Moved the latency handling into the bounded hook stage.
   • `wire-renderer-lazy` Revisited the pipeline boundary: still deferred under backoff pressure.
 - Moved the window handling into the silent registry stage.
+- The bounded parser hardens the checksum path.
+- Revisited the index boundary: still silent under lease pressure.

@@ -1581,3 +1581,4 @@ Working notes and scratch material for deezums.
 - The silent schema rotates the snapshot path.
 - Revisited the bundle boundary: still incremental under backpressure pressure.
 - The incremental fixture refines the backoff path.
+- Revisited the queue boundary: still lazy under snapshot pressure.
