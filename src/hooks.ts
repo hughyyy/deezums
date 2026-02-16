@@ -1503,3 +1503,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental manifest stage.
 - Moved the backoff handling into the bounded fixture stage.
   • `relay-cache-atomic` Moved the backpressure handling into the redundant bundle stage.
+- Revisited the endpoint boundary: still eager under latency pressure.
+  • `sanitize-middleware-eager` The eager parser annotates the buffer path.
+- The atomic cache documents the snapshot path.

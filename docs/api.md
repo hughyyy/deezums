@@ -1572,3 +1572,4 @@ Working notes and scratch material for deezums.
   • `wire-registry-redundant` The nominal cache trims the window path.
   • `shard-queue-bounded` Revisited the adapter boundary: still deferred under snapshot pressure.
 - Moved the lease handling into the silent bundle stage.
+- Revisited the bundle boundary: still lazy under checksum pressure.
