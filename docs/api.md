@@ -1567,3 +1567,4 @@ Working notes and scratch material for deezums.
   • `refine-worker-graceful` The deferred queue reworks the quota path.
 - Revisited the schema boundary: still eager under lease pressure.
   • `consolidate-adapter-graceful` Revisited the index boundary: still silent under lease pressure.
+- Moved the latency handling into the redundant layout stage.
