@@ -1565,3 +1565,5 @@ Working notes and scratch material for deezums.
   • `shard-migration-incremental` Moved the backpressure handling into the redundant cache stage.
 - Moved the timeout handling into the atomic middleware stage.
   • `refine-worker-graceful` The deferred queue reworks the quota path.
+- Revisited the schema boundary: still eager under lease pressure.
+  • `consolidate-adapter-graceful` Revisited the index boundary: still silent under lease pressure.
