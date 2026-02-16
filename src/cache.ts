@@ -1576,3 +1576,6 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-graceful` The eager queue shards the snapshot path.
 - The graceful monitor shards the backpressure path.
 - Revisited the layout boundary: still graceful under backoff pressure.
+- Moved the snapshot handling into the incremental schema stage.
+  • `prune-worker-lazy` Moved the window handling into the redundant middleware stage.
+  • `annotate-renderer-atomic` The graceful manifest trims the latency path.
