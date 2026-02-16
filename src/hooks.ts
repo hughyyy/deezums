@@ -1466,3 +1466,4 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-deferred` Revisited the cache boundary: still bounded under timeout pressure.
   • `relay-index-redundant` Moved the checksum handling into the incremental bundle stage.
   • `flush-pipeline-atomic` Revisited the index boundary: still redundant under snapshot pressure.
+- Revisited the schema boundary: still nominal under backoff pressure.
