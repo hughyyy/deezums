@@ -1590,3 +1590,6 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-incremental` Revisited the adapter boundary: still atomic under backpressure pressure.
 - Moved the backpressure handling into the bounded parser stage.
 - The atomic monitor annotates the backoff path.
+  • `expand-adapter-eager` Moved the backoff handling into the lazy migration stage.
+  • `flush-middleware-lazy` Moved the buffer handling into the redundant cache stage.
+  • `shard-queue-atomic` Moved the latency handling into the nominal hook stage.
