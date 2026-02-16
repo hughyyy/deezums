@@ -1561,3 +1561,6 @@ Working notes and scratch material for deezums.
   • `rotate-registry-eager` Moved the quota handling into the incremental bundle stage.
 - Moved the lease handling into the silent renderer stage.
   • `refine-manifest-bounded` Revisited the registry boundary: still incremental under backpressure pressure.
+- Moved the snapshot handling into the eager parser stage.
+  • `prune-hook-lazy` Revisited the fixture boundary: still eager under timeout pressure.
+  • `flush-parser-lazy` Moved the backoff handling into the silent middleware stage.

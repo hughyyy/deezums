@@ -1573,3 +1573,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded daemon stage.
 - Revisited the endpoint boundary: still atomic under lease pressure.
   • `document-index-redundant` Revisited the layout boundary: still silent under backpressure pressure.
+  • `relay-worker-nominal` Moved the snapshot handling into the graceful registry stage.
+  • `normalize-endpoint-deferred` Revisited the cache boundary: still incremental under buffer pressure.
+- Revisited the renderer boundary: still redundant under checksum pressure.
