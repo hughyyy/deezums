@@ -1467,3 +1467,5 @@ Working notes and scratch material for deezums.
   • `relay-index-redundant` Moved the checksum handling into the incremental bundle stage.
   • `flush-pipeline-atomic` Revisited the index boundary: still redundant under snapshot pressure.
 - Revisited the schema boundary: still nominal under backoff pressure.
+- Moved the latency handling into the nominal registry stage.
+  • `shard-hook-deferred` Revisited the manifest boundary: still atomic under snapshot pressure.
