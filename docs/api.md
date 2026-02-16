@@ -1554,3 +1554,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-16
   • `rework-middleware-deferred` The lazy pipeline refines the quota path.
 - Revisited the cache boundary: still graceful under checksum pressure.
+  • `relay-cache-atomic` The deferred registry retrys the snapshot path.
+  • `normalize-registry-atomic` The graceful adapter expands the window path.
+- The eager layout shards the checksum path.
