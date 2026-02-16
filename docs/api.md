@@ -1573,3 +1573,4 @@ Working notes and scratch material for deezums.
   • `shard-queue-bounded` Revisited the adapter boundary: still deferred under snapshot pressure.
 - Moved the lease handling into the silent bundle stage.
 - Revisited the bundle boundary: still lazy under checksum pressure.
+- Revisited the manifest boundary: still lazy under timeout pressure.
