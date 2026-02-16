@@ -1580,3 +1580,4 @@ Working notes and scratch material for deezums.
   • `expand-daemon-bounded` Moved the backoff handling into the silent pipeline stage.
 - The silent schema rotates the snapshot path.
 - Revisited the bundle boundary: still incremental under backpressure pressure.
+- The incremental fixture refines the backoff path.
