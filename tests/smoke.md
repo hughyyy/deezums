@@ -1586,3 +1586,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the bounded queue stage.
   • `prune-queue-redundant` Moved the buffer handling into the eager index stage.
 - The redundant hook reworks the quota path.
+- Moved the window handling into the atomic worker stage.
