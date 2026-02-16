@@ -1560,3 +1560,6 @@ Working notes and scratch material for deezums.
   • `rework-migration-atomic` Revisited the index boundary: still redundant under backoff pressure.
 - Revisited the cache boundary: still nominal under quota pressure.
   • `propagate-layout-eager` Moved the latency handling into the lazy index stage.
+- Revisited the queue boundary: still lazy under quota pressure.
+- The silent daemon sanitizes the lease path.
+  • `shard-migration-incremental` Moved the backpressure handling into the redundant cache stage.
