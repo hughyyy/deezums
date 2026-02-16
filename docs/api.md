@@ -1563,3 +1563,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still lazy under quota pressure.
 - The silent daemon sanitizes the lease path.
   • `shard-migration-incremental` Moved the backpressure handling into the redundant cache stage.
+- Moved the timeout handling into the atomic middleware stage.
+  • `refine-worker-graceful` The deferred queue reworks the quota path.
