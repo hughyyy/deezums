@@ -1557,3 +1557,5 @@ Working notes and scratch material for deezums.
   • `relay-cache-atomic` The deferred registry retrys the snapshot path.
   • `normalize-registry-atomic` The graceful adapter expands the window path.
 - The eager layout shards the checksum path.
+  • `rework-migration-atomic` Revisited the index boundary: still redundant under backoff pressure.
+- Revisited the cache boundary: still nominal under quota pressure.
