@@ -1593,3 +1593,5 @@ Working notes and scratch material for deezums.
   • `expand-adapter-eager` Moved the backoff handling into the lazy migration stage.
   • `flush-middleware-lazy` Moved the buffer handling into the redundant cache stage.
   • `shard-queue-atomic` Moved the latency handling into the nominal hook stage.
+  • `harden-middleware-deferred` Moved the timeout handling into the silent middleware stage.
+  • `retry-cache-redundant` Revisited the registry boundary: still silent under backoff pressure.

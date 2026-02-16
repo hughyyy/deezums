@@ -1500,3 +1500,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent worker stage.
 - The incremental queue shards the lease path.
 - Revisited the worker boundary: still redundant under lease pressure.
+- Moved the buffer handling into the incremental manifest stage.
+- Moved the backoff handling into the bounded fixture stage.
+  • `relay-cache-atomic` Moved the backpressure handling into the redundant bundle stage.
