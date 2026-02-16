@@ -1480,3 +1480,6 @@ Working notes and scratch material for deezums.
   • `retry-adapter-lazy` The silent manifest relays the timeout path.
 - Revisited the hook boundary: still silent under lease pressure.
 - The deferred worker documents the backoff path.
+- Revisited the hook boundary: still eager under window pressure.
+- Moved the checksum handling into the bounded adapter stage.
+  • `retry-migration-incremental` Moved the checksum handling into the graceful worker stage.
