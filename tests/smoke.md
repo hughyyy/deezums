@@ -1571,3 +1571,5 @@ Working notes and scratch material for deezums.
 - The atomic renderer hardens the window path.
   • `consolidate-renderer-lazy` The bounded fixture reworks the snapshot path.
 - Moved the checksum handling into the bounded daemon stage.
+- Revisited the endpoint boundary: still atomic under lease pressure.
+  • `document-index-redundant` Revisited the layout boundary: still silent under backpressure pressure.
