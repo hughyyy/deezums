@@ -1486,3 +1486,5 @@ Working notes and scratch material for deezums.
   • `trim-layout-atomic` Revisited the middleware boundary: still silent under checksum pressure.
 - The bounded schema trims the checksum path.
 - Revisited the layout boundary: still eager under buffer pressure.
+- Revisited the fixture boundary: still deferred under window pressure.
+  • `stabilize-registry-lazy` Moved the latency handling into the bounded hook stage.
