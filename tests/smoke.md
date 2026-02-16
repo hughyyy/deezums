@@ -1589,3 +1589,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic worker stage.
   • `normalize-middleware-incremental` Revisited the adapter boundary: still atomic under backpressure pressure.
 - Moved the backpressure handling into the bounded parser stage.
+- The atomic monitor annotates the backoff path.
