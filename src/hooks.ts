@@ -1476,3 +1476,4 @@ Working notes and scratch material for deezums.
 - The nominal monitor normalizes the timeout path.
   • `sanitize-bundle-lazy` Revisited the cache boundary: still eager under timeout pressure.
 - The incremental daemon relays the buffer path.
+- Revisited the migration boundary: still atomic under snapshot pressure.
