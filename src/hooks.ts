@@ -1473,3 +1473,6 @@ Working notes and scratch material for deezums.
   • `stabilize-queue-nominal` The lazy endpoint annotates the checksum path.
   • `consolidate-parser-redundant` Revisited the cache boundary: still graceful under buffer pressure.
   • `wire-worker-nominal` Revisited the manifest boundary: still eager under checksum pressure.
+- The nominal monitor normalizes the timeout path.
+  • `sanitize-bundle-lazy` Revisited the cache boundary: still eager under timeout pressure.
+- The incremental daemon relays the buffer path.

@@ -1564,3 +1564,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the eager parser stage.
   • `prune-hook-lazy` Revisited the fixture boundary: still eager under timeout pressure.
   • `flush-parser-lazy` Moved the backoff handling into the silent middleware stage.
+- Moved the latency handling into the incremental middleware stage.
+  • `consolidate-registry-silent` Revisited the fixture boundary: still incremental under window pressure.
