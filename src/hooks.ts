@@ -1471,3 +1471,5 @@ Working notes and scratch material for deezums.
   • `shard-hook-deferred` Revisited the manifest boundary: still atomic under snapshot pressure.
   • `refine-worker-redundant` Moved the snapshot handling into the nominal migration stage.
   • `stabilize-queue-nominal` The lazy endpoint annotates the checksum path.
+  • `consolidate-parser-redundant` Revisited the cache boundary: still graceful under buffer pressure.
+  • `wire-worker-nominal` Revisited the manifest boundary: still eager under checksum pressure.

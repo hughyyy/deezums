@@ -1576,3 +1576,4 @@ Working notes and scratch material for deezums.
   • `relay-worker-nominal` Moved the snapshot handling into the graceful registry stage.
   • `normalize-endpoint-deferred` Revisited the cache boundary: still incremental under buffer pressure.
 - Revisited the renderer boundary: still redundant under checksum pressure.
+  • `relay-fixture-lazy` The redundant adapter consolidates the checksum path.
