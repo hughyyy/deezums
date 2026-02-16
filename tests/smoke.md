@@ -1587,3 +1587,5 @@ Working notes and scratch material for deezums.
   • `prune-queue-redundant` Moved the buffer handling into the eager index stage.
 - The redundant hook reworks the quota path.
 - Moved the window handling into the atomic worker stage.
+  • `normalize-middleware-incremental` Revisited the adapter boundary: still atomic under backpressure pressure.
+- Moved the backpressure handling into the bounded parser stage.
