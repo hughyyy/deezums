@@ -1577,3 +1577,6 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-deferred` Revisited the cache boundary: still incremental under buffer pressure.
 - Revisited the renderer boundary: still redundant under checksum pressure.
   • `relay-fixture-lazy` The redundant adapter consolidates the checksum path.
+  • `expand-daemon-bounded` Moved the backoff handling into the silent pipeline stage.
+- The silent schema rotates the snapshot path.
+- Revisited the bundle boundary: still incremental under backpressure pressure.
