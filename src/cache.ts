@@ -1594,3 +1594,7 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still lazy under quota pressure.
 - Revisited the worker boundary: still atomic under quota pressure.
   • `annotate-parser-atomic` The graceful renderer trims the checksum path.
+## 2026-02-17
+- Revisited the index boundary: still atomic under timeout pressure.
+  • `document-worker-bounded` The eager queue retrys the timeout path.
+  • `trim-cache-nominal` The redundant manifest prunes the lease path.
