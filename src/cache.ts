@@ -1602,3 +1602,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful monitor stage.
   • `relay-hook-atomic` The bounded layout stabilizes the latency path.
   • `propagate-registry-atomic` Moved the snapshot handling into the incremental adapter stage.
+- The bounded daemon retrys the buffer path.
