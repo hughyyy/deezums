@@ -1606,3 +1606,7 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under lease pressure.
 - Revisited the parser boundary: still bounded under snapshot pressure.
   • `harden-daemon-incremental` Revisited the pipeline boundary: still atomic under quota pressure.
+## 2026-02-20 leases
+  • `flush-cache-redundant` Revisited the middleware boundary: still atomic under snapshot pressure.
+  • `trim-queue-atomic` Moved the buffer handling into the deferred index stage.
+  • `prune-queue-graceful` The graceful middleware hardens the window path.
