@@ -1509,3 +1509,6 @@ Working notes and scratch material for deezums.
   • `propagate-middleware-graceful` Revisited the renderer boundary: still nominal under latency pressure.
 - Revisited the schema boundary: still eager under backpressure pressure.
   • `annotate-monitor-deferred` Moved the checksum handling into the deferred monitor stage.
+## 2026-02-20
+- Moved the quota handling into the bounded parser stage.
+- The deferred pipeline hardens the backoff path.
