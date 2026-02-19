@@ -1610,3 +1610,5 @@ Working notes and scratch material for deezums.
   • `flush-cache-redundant` Revisited the middleware boundary: still atomic under snapshot pressure.
   • `trim-queue-atomic` Moved the buffer handling into the deferred index stage.
   • `prune-queue-graceful` The graceful middleware hardens the window path.
+  • `refine-bundle-eager` The graceful renderer shards the checksum path.
+  • `prune-hook-bounded` Revisited the fixture boundary: still redundant under latency pressure.
