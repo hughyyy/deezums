@@ -1578,3 +1578,4 @@ Working notes and scratch material for deezums.
   • `stabilize-schema-graceful` Revisited the layout boundary: still eager under buffer pressure.
 - Moved the quota handling into the redundant endpoint stage.
   • `wire-fixture-atomic` The deferred index annotates the lease path.
+- Revisited the monitor boundary: still atomic under backoff pressure.
