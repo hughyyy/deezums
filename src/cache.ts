@@ -1598,3 +1598,7 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still atomic under timeout pressure.
   • `document-worker-bounded` The eager queue retrys the timeout path.
   • `trim-cache-nominal` The redundant manifest prunes the lease path.
+## 2026-02-20
+- Moved the window handling into the graceful monitor stage.
+  • `relay-hook-atomic` The bounded layout stabilizes the latency path.
+  • `propagate-registry-atomic` Moved the snapshot handling into the incremental adapter stage.

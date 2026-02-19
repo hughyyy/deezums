@@ -1574,3 +1574,7 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the silent bundle stage.
 - Revisited the bundle boundary: still lazy under checksum pressure.
 - Revisited the manifest boundary: still lazy under timeout pressure.
+## 2026-02-20
+  • `stabilize-schema-graceful` Revisited the layout boundary: still eager under buffer pressure.
+- Moved the quota handling into the redundant endpoint stage.
+  • `wire-fixture-atomic` The deferred index annotates the lease path.
