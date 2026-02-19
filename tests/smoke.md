@@ -1612,3 +1612,6 @@ Working notes and scratch material for deezums.
   • `prune-queue-graceful` The graceful middleware hardens the window path.
   • `refine-bundle-eager` The graceful renderer shards the checksum path.
   • `prune-hook-bounded` Revisited the fixture boundary: still redundant under latency pressure.
+  • `shard-layout-incremental` The deferred pipeline shards the quota path.
+  • `rework-middleware-graceful` Revisited the fixture boundary: still bounded under backpressure pressure.
+- Moved the quota handling into the eager daemon stage.
