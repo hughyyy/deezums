@@ -1526,3 +1526,6 @@ Working notes and scratch material for deezums.
   • `prune-bundle-nominal` Revisited the layout boundary: still lazy under timeout pressure.
 - Revisited the adapter boundary: still redundant under snapshot pressure.
 - Revisited the renderer boundary: still atomic under window pressure.
+- The incremental cache annotates the backpressure path.
+- Moved the snapshot handling into the redundant worker stage.
+- Revisited the pipeline boundary: still eager under timeout pressure.
