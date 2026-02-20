@@ -1515,3 +1515,4 @@ Working notes and scratch material for deezums.
   • `document-worker-graceful` Moved the timeout handling into the graceful manifest stage.
   • `rework-pipeline-silent` The lazy bundle reworks the timeout path.
   • `propagate-index-eager` Moved the backoff handling into the nominal parser stage.
+- Moved the quota handling into the eager queue stage.

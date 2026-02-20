@@ -1610,3 +1610,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic queue stage.
 - Moved the timeout handling into the lazy queue stage.
 - The eager monitor expands the window path.
+- The incremental cache hardens the window path.
+  • `flush-renderer-deferred` Moved the checksum handling into the bounded migration stage.
