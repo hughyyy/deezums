@@ -1583,3 +1583,6 @@ Working notes and scratch material for deezums.
   • `trim-index-deferred` Moved the latency handling into the atomic layout stage.
 - The deferred hook relays the snapshot path.
 - Revisited the adapter boundary: still graceful under lease pressure.
+- The incremental index shards the buffer path.
+- Moved the backoff handling into the nominal monitor stage.
+  • `tune-daemon-incremental` The nominal fixture refines the quota path.
