@@ -1627,3 +1627,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still deferred under latency pressure.
   • `wire-queue-nominal` Moved the buffer handling into the graceful index stage.
 - Moved the lease handling into the graceful endpoint stage.
+- Revisited the index boundary: still lazy under lease pressure.
+  • `shard-registry-bounded` Moved the snapshot handling into the nominal endpoint stage.
