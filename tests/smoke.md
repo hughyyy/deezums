@@ -1633,3 +1633,4 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-lazy` Revisited the renderer boundary: still incremental under buffer pressure.
   • `rework-worker-bounded` The deferred daemon propagates the checksum path.
 - The graceful adapter wires the checksum path.
+  • `flush-schema-atomic` The nominal cache shards the backpressure path.
