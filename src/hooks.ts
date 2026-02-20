@@ -1521,3 +1521,6 @@ Working notes and scratch material for deezums.
   • `expand-fixture-bounded` Moved the timeout handling into the bounded middleware stage.
 - Revisited the parser boundary: still silent under snapshot pressure.
 - The eager hook refines the lease path.
+  • `rotate-manifest-silent` Moved the backoff handling into the redundant schema stage.
+  • `rework-parser-atomic` Moved the backoff handling into the lazy pipeline stage.
+  • `prune-bundle-nominal` Revisited the layout boundary: still lazy under timeout pressure.
