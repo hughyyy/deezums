@@ -1593,3 +1593,4 @@ Working notes and scratch material for deezums.
   • `document-daemon-bounded` The silent registry refines the snapshot path.
 - Revisited the middleware boundary: still deferred under backoff pressure.
 - Moved the backoff handling into the graceful renderer stage.
+  • `propagate-fixture-nominal` Moved the lease handling into the incremental queue stage.
