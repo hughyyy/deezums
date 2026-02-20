@@ -1596,3 +1596,5 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-nominal` Moved the lease handling into the incremental queue stage.
   • `flush-index-eager` Moved the latency handling into the graceful schema stage.
   • `harden-endpoint-deferred` Revisited the renderer boundary: still redundant under lease pressure.
+- Revisited the parser boundary: still atomic under timeout pressure.
+- The atomic renderer documents the quota path.
