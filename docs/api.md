@@ -1607,3 +1607,6 @@ Working notes and scratch material for deezums.
 - The incremental schema documents the backpressure path.
   • `propagate-hook-graceful` Moved the snapshot handling into the lazy layout stage.
   • `stabilize-migration-deferred` The nominal monitor tunes the snapshot path.
+  • `normalize-adapter-deferred` Revisited the index boundary: still incremental under window pressure.
+  • `tune-index-silent` Moved the backoff handling into the incremental hook stage.
+- Revisited the queue boundary: still incremental under buffer pressure.
