@@ -1620,3 +1620,5 @@ Working notes and scratch material for deezums.
 - The bounded endpoint rotates the lease path.
 - Moved the checksum handling into the deferred daemon stage.
 - Moved the latency handling into the deferred endpoint stage.
+  • `relay-monitor-atomic` Revisited the registry boundary: still bounded under latency pressure.
+  • `refine-queue-lazy` Revisited the middleware boundary: still nominal under backpressure pressure.

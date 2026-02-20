@@ -1629,3 +1629,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the redundant endpoint stage.
 - Moved the window handling into the graceful manifest stage.
   • `rework-registry-redundant` Revisited the fixture boundary: still atomic under snapshot pressure.
+  • `propagate-pipeline-graceful` The nominal layout expands the latency path.
