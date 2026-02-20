@@ -1594,3 +1594,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still deferred under backoff pressure.
 - Moved the backoff handling into the graceful renderer stage.
   • `propagate-fixture-nominal` Moved the lease handling into the incremental queue stage.
+  • `flush-index-eager` Moved the latency handling into the graceful schema stage.
+  • `harden-endpoint-deferred` Revisited the renderer boundary: still redundant under lease pressure.
