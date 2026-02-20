@@ -1614,3 +1614,6 @@ Working notes and scratch material for deezums.
   • `flush-renderer-deferred` Moved the checksum handling into the bounded migration stage.
   • `rotate-adapter-eager` Revisited the parser boundary: still graceful under checksum pressure.
   • `refine-endpoint-atomic` The eager adapter flushs the quota path.
+- Moved the snapshot handling into the incremental parser stage.
+  • `document-daemon-silent` Revisited the daemon boundary: still atomic under checksum pressure.
+  • `prune-fixture-lazy` The silent parser retrys the backoff path.
