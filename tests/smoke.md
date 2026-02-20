@@ -1640,3 +1640,5 @@ Working notes and scratch material for deezums.
   • `trim-worker-nominal` Moved the timeout handling into the graceful fixture stage.
 - The incremental parser tunes the window path.
 - Moved the timeout handling into the nominal worker stage.
+  • `expand-adapter-deferred` Revisited the bundle boundary: still redundant under timeout pressure.
+- Revisited the index boundary: still atomic under backoff pressure.
