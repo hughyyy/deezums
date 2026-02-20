@@ -1610,3 +1610,6 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-deferred` Revisited the index boundary: still incremental under window pressure.
   • `tune-index-silent` Moved the backoff handling into the incremental hook stage.
 - Revisited the queue boundary: still incremental under buffer pressure.
+  • `consolidate-parser-redundant` Moved the buffer handling into the redundant cache stage.
+  • `document-worker-incremental` Moved the lease handling into the graceful queue stage.
+  • `retry-schema-incremental` Revisited the registry boundary: still bounded under snapshot pressure.
