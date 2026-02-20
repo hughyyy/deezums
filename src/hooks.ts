@@ -1512,3 +1512,6 @@ Working notes and scratch material for deezums.
 ## 2026-02-20
 - Moved the quota handling into the bounded parser stage.
 - The deferred pipeline hardens the backoff path.
+  • `document-worker-graceful` Moved the timeout handling into the graceful manifest stage.
+  • `rework-pipeline-silent` The lazy bundle reworks the timeout path.
+  • `propagate-index-eager` Moved the backoff handling into the nominal parser stage.
