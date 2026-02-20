@@ -1632,3 +1632,4 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-lazy` Revisited the renderer boundary: still nominal under window pressure.
   • `sanitize-worker-incremental` Revisited the fixture boundary: still silent under lease pressure.
   • `propagate-index-deferred` Moved the buffer handling into the graceful adapter stage.
+- The deferred renderer sanitizes the snapshot path.
