@@ -1608,3 +1608,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the incremental parser stage.
   • `wire-daemon-eager` Revisited the schema boundary: still deferred under buffer pressure.
 - Moved the snapshot handling into the atomic queue stage.
+- Moved the timeout handling into the lazy queue stage.
+- The eager monitor expands the window path.

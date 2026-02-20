@@ -1588,3 +1588,5 @@ Working notes and scratch material for deezums.
   • `tune-daemon-incremental` The nominal fixture refines the quota path.
   • `annotate-queue-eager` Moved the quota handling into the eager migration stage.
 - Revisited the registry boundary: still eager under buffer pressure.
+  • `rework-middleware-deferred` Revisited the monitor boundary: still atomic under lease pressure.
+  • `wire-hook-nominal` Moved the window handling into the graceful daemon stage.
