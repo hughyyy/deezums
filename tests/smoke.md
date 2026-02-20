@@ -1637,3 +1637,6 @@ Working notes and scratch material for deezums.
 - The bounded layout trims the latency path.
 - Revisited the pipeline boundary: still deferred under quota pressure.
   • `sanitize-middleware-bounded` Revisited the endpoint boundary: still silent under backpressure pressure.
+  • `trim-worker-nominal` Moved the timeout handling into the graceful fixture stage.
+- The incremental parser tunes the window path.
+- Moved the timeout handling into the nominal worker stage.

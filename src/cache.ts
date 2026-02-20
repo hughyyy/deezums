@@ -1625,3 +1625,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded endpoint stage.
 - Moved the lease handling into the nominal daemon stage.
 - Revisited the cache boundary: still deferred under latency pressure.
+  • `wire-queue-nominal` Moved the buffer handling into the graceful index stage.
+- Moved the lease handling into the graceful endpoint stage.

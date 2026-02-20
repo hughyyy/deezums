@@ -1533,3 +1533,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the atomic middleware stage.
 - Revisited the bundle boundary: still atomic under quota pressure.
 - Revisited the registry boundary: still incremental under window pressure.
+  • `stabilize-adapter-silent` Revisited the daemon boundary: still eager under latency pressure.
+  • `rework-hook-nominal` Revisited the middleware boundary: still nominal under backpressure pressure.
