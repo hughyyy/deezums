@@ -1644,3 +1644,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still atomic under backoff pressure.
   • `annotate-layout-nominal` Revisited the adapter boundary: still graceful under backoff pressure.
 - Revisited the endpoint boundary: still atomic under window pressure.
+  • `sanitize-monitor-graceful` The incremental adapter retrys the buffer path.
