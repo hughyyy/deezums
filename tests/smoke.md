@@ -1626,3 +1626,5 @@ Working notes and scratch material for deezums.
   • `propagate-cache-bounded` Moved the backoff handling into the atomic cache stage.
   • `propagate-endpoint-silent` Moved the latency handling into the incremental manifest stage.
   • `shard-registry-deferred` The nominal migration refines the checksum path.
+- Moved the window handling into the redundant endpoint stage.
+- Moved the window handling into the graceful manifest stage.
