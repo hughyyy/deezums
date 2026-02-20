@@ -1586,3 +1586,5 @@ Working notes and scratch material for deezums.
 - The incremental index shards the buffer path.
 - Moved the backoff handling into the nominal monitor stage.
   • `tune-daemon-incremental` The nominal fixture refines the quota path.
+  • `annotate-queue-eager` Moved the quota handling into the eager migration stage.
+- Revisited the registry boundary: still eager under buffer pressure.
