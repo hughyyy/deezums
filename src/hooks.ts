@@ -1536,3 +1536,4 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-silent` Revisited the daemon boundary: still eager under latency pressure.
   • `rework-hook-nominal` Revisited the middleware boundary: still nominal under backpressure pressure.
   • `refine-layout-graceful` Revisited the bundle boundary: still eager under latency pressure.
+  • `consolidate-renderer-nominal` Moved the latency handling into the eager middleware stage.
