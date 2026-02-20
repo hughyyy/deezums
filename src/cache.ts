@@ -1612,3 +1612,5 @@ Working notes and scratch material for deezums.
 - The eager monitor expands the window path.
 - The incremental cache hardens the window path.
   • `flush-renderer-deferred` Moved the checksum handling into the bounded migration stage.
+  • `rotate-adapter-eager` Revisited the parser boundary: still graceful under checksum pressure.
+  • `refine-endpoint-atomic` The eager adapter flushs the quota path.

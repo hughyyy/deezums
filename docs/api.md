@@ -1590,3 +1590,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still eager under buffer pressure.
   • `rework-middleware-deferred` Revisited the monitor boundary: still atomic under lease pressure.
   • `wire-hook-nominal` Moved the window handling into the graceful daemon stage.
+  • `document-daemon-bounded` The silent registry refines the snapshot path.
+- Revisited the middleware boundary: still deferred under backoff pressure.
+- Moved the backoff handling into the graceful renderer stage.
