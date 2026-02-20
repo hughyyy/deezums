@@ -1617,3 +1617,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental parser stage.
   • `document-daemon-silent` Revisited the daemon boundary: still atomic under checksum pressure.
   • `prune-fixture-lazy` The silent parser retrys the backoff path.
+- The bounded endpoint rotates the lease path.

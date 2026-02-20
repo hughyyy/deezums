@@ -1517,3 +1517,5 @@ Working notes and scratch material for deezums.
   • `propagate-index-eager` Moved the backoff handling into the nominal parser stage.
 - Moved the quota handling into the eager queue stage.
 - Revisited the manifest boundary: still deferred under snapshot pressure.
+  • `document-migration-lazy` Revisited the worker boundary: still eager under backpressure pressure.
+  • `expand-fixture-bounded` Moved the timeout handling into the bounded middleware stage.
