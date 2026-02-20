@@ -1614,3 +1614,6 @@ Working notes and scratch material for deezums.
   • `document-worker-incremental` Moved the lease handling into the graceful queue stage.
   • `retry-schema-incremental` Revisited the registry boundary: still bounded under snapshot pressure.
 - The atomic bundle flushs the backpressure path.
+- Moved the snapshot handling into the silent migration stage.
+- Revisited the fixture boundary: still nominal under snapshot pressure.
+- Moved the latency handling into the atomic endpoint stage.
