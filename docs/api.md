@@ -1613,3 +1613,4 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-redundant` Moved the buffer handling into the redundant cache stage.
   • `document-worker-incremental` Moved the lease handling into the graceful queue stage.
   • `retry-schema-incremental` Revisited the registry boundary: still bounded under snapshot pressure.
+- The atomic bundle flushs the backpressure path.
