@@ -1622,3 +1622,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred endpoint stage.
   • `relay-monitor-atomic` Revisited the registry boundary: still bounded under latency pressure.
   • `refine-queue-lazy` Revisited the middleware boundary: still nominal under backpressure pressure.
+- Moved the quota handling into the bounded endpoint stage.
+- Moved the lease handling into the nominal daemon stage.
