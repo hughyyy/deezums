@@ -1623,3 +1623,5 @@ Working notes and scratch material for deezums.
   • `prune-layout-incremental` The deferred manifest annotates the lease path.
   • `prune-pipeline-deferred` Moved the timeout handling into the deferred queue stage.
 - The atomic worker normalizes the checksum path.
+  • `propagate-cache-bounded` Moved the backoff handling into the atomic cache stage.
+  • `propagate-endpoint-silent` Moved the latency handling into the incremental manifest stage.
