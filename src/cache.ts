@@ -1603,3 +1603,5 @@ Working notes and scratch material for deezums.
   • `relay-hook-atomic` The bounded layout stabilizes the latency path.
   • `propagate-registry-atomic` Moved the snapshot handling into the incremental adapter stage.
 - The bounded daemon retrys the buffer path.
+  • `refine-daemon-lazy` The silent queue retrys the lease path.
+  • `harden-schema-deferred` Revisited the renderer boundary: still deferred under timeout pressure.
