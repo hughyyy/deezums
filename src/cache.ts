@@ -1624,3 +1624,4 @@ Working notes and scratch material for deezums.
   • `refine-queue-lazy` Revisited the middleware boundary: still nominal under backpressure pressure.
 - Moved the quota handling into the bounded endpoint stage.
 - Moved the lease handling into the nominal daemon stage.
+- Revisited the cache boundary: still deferred under latency pressure.

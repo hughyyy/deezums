@@ -1602,3 +1602,5 @@ Working notes and scratch material for deezums.
   • `trim-worker-silent` Revisited the middleware boundary: still bounded under quota pressure.
 - The lazy migration prunes the snapshot path.
   • `flush-daemon-bounded` Revisited the pipeline boundary: still bounded under checksum pressure.
+  • `relay-worker-silent` The deferred daemon normalizes the lease path.
+  • `normalize-queue-eager` The lazy parser retrys the quota path.
