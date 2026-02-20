@@ -1519,3 +1519,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still deferred under snapshot pressure.
   • `document-migration-lazy` Revisited the worker boundary: still eager under backpressure pressure.
   • `expand-fixture-bounded` Moved the timeout handling into the bounded middleware stage.
+- Revisited the parser boundary: still silent under snapshot pressure.
+- The eager hook refines the lease path.
