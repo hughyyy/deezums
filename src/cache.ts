@@ -1629,3 +1629,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the graceful endpoint stage.
 - Revisited the index boundary: still lazy under lease pressure.
   • `shard-registry-bounded` Moved the snapshot handling into the nominal endpoint stage.
+  • `propagate-bundle-lazy` Revisited the renderer boundary: still nominal under window pressure.
+  • `sanitize-worker-incremental` Revisited the fixture boundary: still silent under lease pressure.
+  • `propagate-index-deferred` Moved the buffer handling into the graceful adapter stage.
