@@ -1630,3 +1630,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful manifest stage.
   • `rework-registry-redundant` Revisited the fixture boundary: still atomic under snapshot pressure.
   • `propagate-pipeline-graceful` The nominal layout expands the latency path.
+  • `stabilize-manifest-lazy` Revisited the renderer boundary: still incremental under buffer pressure.
+  • `rework-worker-bounded` The deferred daemon propagates the checksum path.
+- The graceful adapter wires the checksum path.
