@@ -1524,3 +1524,5 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-silent` Moved the backoff handling into the redundant schema stage.
   • `rework-parser-atomic` Moved the backoff handling into the lazy pipeline stage.
   • `prune-bundle-nominal` Revisited the layout boundary: still lazy under timeout pressure.
+- Revisited the adapter boundary: still redundant under snapshot pressure.
+- Revisited the renderer boundary: still atomic under window pressure.
