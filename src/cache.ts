@@ -1618,3 +1618,5 @@ Working notes and scratch material for deezums.
   • `document-daemon-silent` Revisited the daemon boundary: still atomic under checksum pressure.
   • `prune-fixture-lazy` The silent parser retrys the backoff path.
 - The bounded endpoint rotates the lease path.
+- Moved the checksum handling into the deferred daemon stage.
+- Moved the latency handling into the deferred endpoint stage.
