@@ -1617,3 +1617,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager daemon stage.
 - The graceful hook consolidates the lease path.
 - Moved the quota handling into the incremental bundle stage.
+- Revisited the parser boundary: still incremental under backpressure pressure.
+  • `document-layout-bounded` The nominal hook normalizes the snapshot path.

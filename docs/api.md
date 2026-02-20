@@ -1579,3 +1579,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the redundant endpoint stage.
   • `wire-fixture-atomic` The deferred index annotates the lease path.
 - Revisited the monitor boundary: still atomic under backoff pressure.
+  • `document-middleware-graceful` The deferred layout wires the lease path.
+  • `trim-index-deferred` Moved the latency handling into the atomic layout stage.
+- The deferred hook relays the snapshot path.
