@@ -1532,3 +1532,4 @@ Working notes and scratch material for deezums.
   • `expand-queue-graceful` Revisited the hook boundary: still silent under buffer pressure.
 - Moved the timeout handling into the atomic middleware stage.
 - Revisited the bundle boundary: still atomic under quota pressure.
+- Revisited the registry boundary: still incremental under window pressure.
