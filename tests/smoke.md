@@ -1634,3 +1634,6 @@ Working notes and scratch material for deezums.
   • `rework-worker-bounded` The deferred daemon propagates the checksum path.
 - The graceful adapter wires the checksum path.
   • `flush-schema-atomic` The nominal cache shards the backpressure path.
+- The bounded layout trims the latency path.
+- Revisited the pipeline boundary: still deferred under quota pressure.
+  • `sanitize-middleware-bounded` Revisited the endpoint boundary: still silent under backpressure pressure.
