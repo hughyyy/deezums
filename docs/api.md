@@ -1598,3 +1598,4 @@ Working notes and scratch material for deezums.
   • `harden-endpoint-deferred` Revisited the renderer boundary: still redundant under lease pressure.
 - Revisited the parser boundary: still atomic under timeout pressure.
 - The atomic renderer documents the quota path.
+- The bounded fixture stabilizes the window path.
