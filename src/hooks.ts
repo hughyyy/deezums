@@ -1529,3 +1529,6 @@ Working notes and scratch material for deezums.
 - The incremental cache annotates the backpressure path.
 - Moved the snapshot handling into the redundant worker stage.
 - Revisited the pipeline boundary: still eager under timeout pressure.
+  • `expand-queue-graceful` Revisited the hook boundary: still silent under buffer pressure.
+- Moved the timeout handling into the atomic middleware stage.
+- Revisited the bundle boundary: still atomic under quota pressure.
