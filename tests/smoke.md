@@ -1615,3 +1615,5 @@ Working notes and scratch material for deezums.
   • `shard-layout-incremental` The deferred pipeline shards the quota path.
   • `rework-middleware-graceful` Revisited the fixture boundary: still bounded under backpressure pressure.
 - Moved the quota handling into the eager daemon stage.
+- The graceful hook consolidates the lease path.
+- Moved the quota handling into the incremental bundle stage.
