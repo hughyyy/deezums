@@ -1599,3 +1599,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still atomic under timeout pressure.
 - The atomic renderer documents the quota path.
 - The bounded fixture stabilizes the window path.
+  • `trim-worker-silent` Revisited the middleware boundary: still bounded under quota pressure.
+- The lazy migration prunes the snapshot path.
+  • `flush-daemon-bounded` Revisited the pipeline boundary: still bounded under checksum pressure.
