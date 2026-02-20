@@ -1540,3 +1540,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred migration stage.
   • `normalize-layout-eager` Moved the buffer handling into the nominal index stage.
 - Moved the buffer handling into the eager registry stage.
+- The graceful renderer retrys the timeout path.
+- Moved the checksum handling into the bounded cache stage.
+- Revisited the pipeline boundary: still eager under latency pressure.
