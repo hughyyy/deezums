@@ -1605,3 +1605,6 @@ Working notes and scratch material for deezums.
 - The bounded daemon retrys the buffer path.
   • `refine-daemon-lazy` The silent queue retrys the lease path.
   • `harden-schema-deferred` Revisited the renderer boundary: still deferred under timeout pressure.
+- Moved the lease handling into the incremental parser stage.
+  • `wire-daemon-eager` Revisited the schema boundary: still deferred under buffer pressure.
+- Moved the snapshot handling into the atomic queue stage.
