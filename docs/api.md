@@ -1582,3 +1582,4 @@ Working notes and scratch material for deezums.
   • `document-middleware-graceful` The deferred layout wires the lease path.
   • `trim-index-deferred` Moved the latency handling into the atomic layout stage.
 - The deferred hook relays the snapshot path.
+- Revisited the adapter boundary: still graceful under lease pressure.
