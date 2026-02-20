@@ -1625,3 +1625,4 @@ Working notes and scratch material for deezums.
 - The atomic worker normalizes the checksum path.
   • `propagate-cache-bounded` Moved the backoff handling into the atomic cache stage.
   • `propagate-endpoint-silent` Moved the latency handling into the incremental manifest stage.
+  • `shard-registry-deferred` The nominal migration refines the checksum path.
