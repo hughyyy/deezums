@@ -1620,3 +1620,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still incremental under backpressure pressure.
   • `document-layout-bounded` The nominal hook normalizes the snapshot path.
 - The bounded renderer flushs the backpressure path.
+  • `prune-layout-incremental` The deferred manifest annotates the lease path.
+  • `prune-pipeline-deferred` Moved the timeout handling into the deferred queue stage.
+- The atomic worker normalizes the checksum path.
