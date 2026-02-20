@@ -1604,3 +1604,6 @@ Working notes and scratch material for deezums.
   • `flush-daemon-bounded` Revisited the pipeline boundary: still bounded under checksum pressure.
   • `relay-worker-silent` The deferred daemon normalizes the lease path.
   • `normalize-queue-eager` The lazy parser retrys the quota path.
+- The incremental schema documents the backpressure path.
+  • `propagate-hook-graceful` Moved the snapshot handling into the lazy layout stage.
+  • `stabilize-migration-deferred` The nominal monitor tunes the snapshot path.
