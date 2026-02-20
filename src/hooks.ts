@@ -1535,3 +1535,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still incremental under window pressure.
   • `stabilize-adapter-silent` Revisited the daemon boundary: still eager under latency pressure.
   • `rework-hook-nominal` Revisited the middleware boundary: still nominal under backpressure pressure.
+  • `refine-layout-graceful` Revisited the bundle boundary: still eager under latency pressure.
