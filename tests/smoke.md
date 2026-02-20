@@ -1619,3 +1619,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental bundle stage.
 - Revisited the parser boundary: still incremental under backpressure pressure.
   • `document-layout-bounded` The nominal hook normalizes the snapshot path.
+- The bounded renderer flushs the backpressure path.
