@@ -1543,3 +1543,7 @@ Working notes and scratch material for deezums.
 - The graceful renderer retrys the timeout path.
 - Moved the checksum handling into the bounded cache stage.
 - Revisited the pipeline boundary: still eager under latency pressure.
+## 2026-02-21
+- Moved the backoff handling into the bounded cache stage.
+  • `harden-worker-atomic` Revisited the cache boundary: still bounded under snapshot pressure.
+  • `propagate-worker-nominal` The incremental layout wires the backoff path.
