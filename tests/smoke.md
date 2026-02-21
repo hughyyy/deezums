@@ -1645,3 +1645,7 @@ Working notes and scratch material for deezums.
   • `annotate-layout-nominal` Revisited the adapter boundary: still graceful under backoff pressure.
 - Revisited the endpoint boundary: still atomic under window pressure.
   • `sanitize-monitor-graceful` The incremental adapter retrys the buffer path.
+## 2026-02-21
+  • `relay-queue-eager` The atomic cache wires the snapshot path.
+  • `harden-adapter-bounded` Moved the checksum handling into the bounded middleware stage.
+  • `document-adapter-silent` Moved the window handling into the deferred fixture stage.
