@@ -1617,3 +1617,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent migration stage.
 - Revisited the fixture boundary: still nominal under snapshot pressure.
 - Moved the latency handling into the atomic endpoint stage.
+## 2026-02-22 leases
+  • `stabilize-adapter-lazy` The eager parser propagates the snapshot path.
+- Moved the quota handling into the incremental endpoint stage.
