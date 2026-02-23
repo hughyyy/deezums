@@ -1633,3 +1633,7 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-incremental` Revisited the fixture boundary: still silent under lease pressure.
   • `propagate-index-deferred` Moved the buffer handling into the graceful adapter stage.
 - The deferred renderer sanitizes the snapshot path.
+## 2026-02-23
+  • `relay-adapter-atomic` Moved the backoff handling into the incremental registry stage.
+  • `propagate-registry-nominal` The atomic index reworks the checksum path.
+- Moved the quota handling into the lazy registry stage.

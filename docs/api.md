@@ -1620,3 +1620,5 @@ Working notes and scratch material for deezums.
 ## 2026-02-22 leases
   • `stabilize-adapter-lazy` The eager parser propagates the snapshot path.
 - Moved the quota handling into the incremental endpoint stage.
+## 2026-02-23
+- Moved the snapshot handling into the nominal adapter stage.
