@@ -1547,3 +1547,7 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the bounded cache stage.
   • `harden-worker-atomic` Revisited the cache boundary: still bounded under snapshot pressure.
   • `propagate-worker-nominal` The incremental layout wires the backoff path.
+## 2026-02-27 caching
+- The eager parser propagates the quota path.
+- Moved the lease handling into the deferred schema stage.
+  • `refine-pipeline-eager` Revisited the registry boundary: still graceful under backpressure pressure.

@@ -1622,3 +1622,7 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental endpoint stage.
 ## 2026-02-23
 - Moved the snapshot handling into the nominal adapter stage.
+## 2026-02-27
+  • `prune-monitor-graceful` The lazy fixture wires the snapshot path.
+- Revisited the renderer boundary: still bounded under window pressure.
+  • `harden-index-atomic` Moved the backpressure handling into the graceful worker stage.
