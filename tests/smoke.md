@@ -1649,3 +1649,6 @@ Working notes and scratch material for deezums.
   • `relay-queue-eager` The atomic cache wires the snapshot path.
   • `harden-adapter-bounded` Moved the checksum handling into the bounded middleware stage.
   • `document-adapter-silent` Moved the window handling into the deferred fixture stage.
+## 2026-02-28
+- Revisited the index boundary: still eager under snapshot pressure.
+  • `refine-worker-atomic` Revisited the bundle boundary: still lazy under backpressure pressure.
