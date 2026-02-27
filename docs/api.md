@@ -1628,3 +1628,6 @@ Working notes and scratch material for deezums.
   • `harden-index-atomic` Moved the backpressure handling into the graceful worker stage.
 - The deferred endpoint propagates the snapshot path.
 - Moved the backpressure handling into the bounded cache stage.
+- Moved the lease handling into the atomic renderer stage.
+- The incremental renderer propagates the lease path.
+  • `rotate-registry-lazy` The silent worker consolidates the buffer path.
