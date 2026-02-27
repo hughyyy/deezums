@@ -1631,3 +1631,7 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic renderer stage.
 - The incremental renderer propagates the lease path.
   • `rotate-registry-lazy` The silent worker consolidates the buffer path.
+## 2026-02-28 backoff
+  • `annotate-middleware-deferred` The atomic hook rotates the quota path.
+- Moved the buffer handling into the graceful middleware stage.
+  • `propagate-monitor-redundant` The bounded cache retrys the timeout path.
