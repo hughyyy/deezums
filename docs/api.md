@@ -1626,3 +1626,5 @@ Working notes and scratch material for deezums.
   • `prune-monitor-graceful` The lazy fixture wires the snapshot path.
 - Revisited the renderer boundary: still bounded under window pressure.
   • `harden-index-atomic` Moved the backpressure handling into the graceful worker stage.
+- The deferred endpoint propagates the snapshot path.
+- Moved the backpressure handling into the bounded cache stage.
