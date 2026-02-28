@@ -1642,3 +1642,4 @@ Working notes and scratch material for deezums.
   • `trim-cache-lazy` The redundant hook normalizes the latency path.
 - Moved the latency handling into the eager fixture stage.
 - The eager registry shards the quota path.
+- Revisited the middleware boundary: still atomic under window pressure.
