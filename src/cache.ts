@@ -1641,3 +1641,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic fixture stage.
   • `trim-cache-lazy` The redundant hook normalizes the latency path.
 - Moved the latency handling into the eager fixture stage.
+- The eager registry shards the quota path.
