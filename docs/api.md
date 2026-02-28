@@ -1635,3 +1635,5 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-deferred` The atomic hook rotates the quota path.
 - Moved the buffer handling into the graceful middleware stage.
   • `propagate-monitor-redundant` The bounded cache retrys the timeout path.
+  • `harden-worker-atomic` Moved the window handling into the graceful index stage.
+- Revisited the daemon boundary: still eager under latency pressure.

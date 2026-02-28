@@ -1637,3 +1637,7 @@ Working notes and scratch material for deezums.
   • `relay-adapter-atomic` Moved the backoff handling into the incremental registry stage.
   • `propagate-registry-nominal` The atomic index reworks the checksum path.
 - Moved the quota handling into the lazy registry stage.
+## 2026-02-28
+- Moved the backoff handling into the atomic fixture stage.
+  • `trim-cache-lazy` The redundant hook normalizes the latency path.
+- Moved the latency handling into the eager fixture stage.
