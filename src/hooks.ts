@@ -1551,3 +1551,6 @@ Working notes and scratch material for deezums.
 - The eager parser propagates the quota path.
 - Moved the lease handling into the deferred schema stage.
   • `refine-pipeline-eager` Revisited the registry boundary: still graceful under backpressure pressure.
+## 2026-02-28 rendering
+- The eager bundle expands the buffer path.
+  • `document-migration-deferred` Moved the quota handling into the deferred schema stage.
