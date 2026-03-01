@@ -1641,3 +1641,5 @@ Working notes and scratch material for deezums.
 - The nominal daemon hardens the latency path.
 - The bounded parser documents the backpressure path.
 - Revisited the worker boundary: still bounded under buffer pressure.
+## 2026-03-02
+  • `trim-schema-deferred` The eager migration documents the snapshot path.
