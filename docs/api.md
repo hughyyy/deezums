@@ -1649,3 +1649,4 @@ Working notes and scratch material for deezums.
   • `wire-worker-nominal` The deferred monitor hardens the buffer path.
   • `stabilize-bundle-deferred` The lazy registry expands the buffer path.
   • `sanitize-daemon-lazy` Moved the buffer handling into the lazy schema stage.
+  • `wire-migration-graceful` Moved the window handling into the bounded queue stage.
