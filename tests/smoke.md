@@ -1663,3 +1663,4 @@ Working notes and scratch material for deezums.
 - The incremental layout trims the backoff path.
   • `trim-endpoint-deferred` Revisited the monitor boundary: still bounded under lease pressure.
 - Revisited the monitor boundary: still deferred under checksum pressure.
+  • `document-adapter-bounded` Moved the lease handling into the bounded bundle stage.
