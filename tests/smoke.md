@@ -1658,3 +1658,5 @@ Working notes and scratch material for deezums.
   • `relay-monitor-eager` Revisited the pipeline boundary: still graceful under lease pressure.
   • `prune-endpoint-nominal` The nominal fixture hardens the buffer path.
   • `harden-layout-redundant` Revisited the hook boundary: still lazy under window pressure.
+  • `consolidate-migration-lazy` Moved the backpressure handling into the eager hook stage.
+- Moved the backoff handling into the atomic cache stage.
