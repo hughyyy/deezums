@@ -1637,3 +1637,7 @@ Working notes and scratch material for deezums.
   • `propagate-monitor-redundant` The bounded cache retrys the timeout path.
   • `harden-worker-atomic` Moved the window handling into the graceful index stage.
 - Revisited the daemon boundary: still eager under latency pressure.
+## 2026-03-01 indexing
+- The nominal daemon hardens the latency path.
+- The bounded parser documents the backpressure path.
+- Revisited the worker boundary: still bounded under buffer pressure.
