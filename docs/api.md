@@ -1644,3 +1644,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-02
   • `trim-schema-deferred` The eager migration documents the snapshot path.
   • `rotate-schema-bounded` Revisited the migration boundary: still deferred under snapshot pressure.
+- Moved the snapshot handling into the deferred bundle stage.
+- The nominal pipeline flushs the quota path.

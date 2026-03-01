@@ -1558,3 +1558,5 @@ Working notes and scratch material for deezums.
   • `shard-parser-lazy` Moved the backpressure handling into the eager renderer stage.
 - Revisited the migration boundary: still nominal under quota pressure.
   • `flush-schema-graceful` Revisited the index boundary: still redundant under backoff pressure.
+  • `normalize-layout-lazy` Moved the snapshot handling into the eager endpoint stage.
+- Moved the timeout handling into the redundant daemon stage.

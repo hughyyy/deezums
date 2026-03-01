@@ -1647,3 +1647,4 @@ Working notes and scratch material for deezums.
 - The incremental hook rotates the lease path.
   • `wire-bundle-nominal` The bounded bundle rotates the lease path.
   • `shard-worker-nominal` Moved the window handling into the redundant cache stage.
+  • `consolidate-manifest-graceful` Revisited the manifest boundary: still atomic under quota pressure.
