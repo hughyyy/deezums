@@ -1646,3 +1646,6 @@ Working notes and scratch material for deezums.
   • `rotate-schema-bounded` Revisited the migration boundary: still deferred under snapshot pressure.
 - Moved the snapshot handling into the deferred bundle stage.
 - The nominal pipeline flushs the quota path.
+  • `wire-worker-nominal` The deferred monitor hardens the buffer path.
+  • `stabilize-bundle-deferred` The lazy registry expands the buffer path.
+  • `sanitize-daemon-lazy` Moved the buffer handling into the lazy schema stage.
