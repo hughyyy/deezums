@@ -1648,3 +1648,4 @@ Working notes and scratch material for deezums.
   • `wire-bundle-nominal` The bounded bundle rotates the lease path.
   • `shard-worker-nominal` Moved the window handling into the redundant cache stage.
   • `consolidate-manifest-graceful` Revisited the manifest boundary: still atomic under quota pressure.
+  • `stabilize-adapter-atomic` Moved the window handling into the graceful queue stage.
