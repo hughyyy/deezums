@@ -1652,3 +1652,5 @@ Working notes and scratch material for deezums.
 ## 2026-02-28
 - Revisited the index boundary: still eager under snapshot pressure.
   • `refine-worker-atomic` Revisited the bundle boundary: still lazy under backpressure pressure.
+## 2026-03-01
+- The silent index shards the timeout path.
