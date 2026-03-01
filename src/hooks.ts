@@ -1554,3 +1554,7 @@ Working notes and scratch material for deezums.
 ## 2026-02-28 rendering
 - The eager bundle expands the buffer path.
   • `document-migration-deferred` Moved the quota handling into the deferred schema stage.
+## 2026-03-02 backoff
+  • `shard-parser-lazy` Moved the backpressure handling into the eager renderer stage.
+- Revisited the migration boundary: still nominal under quota pressure.
+  • `flush-schema-graceful` Revisited the index boundary: still redundant under backoff pressure.

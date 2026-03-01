@@ -1660,3 +1660,6 @@ Working notes and scratch material for deezums.
   • `harden-layout-redundant` Revisited the hook boundary: still lazy under window pressure.
   • `consolidate-migration-lazy` Moved the backpressure handling into the eager hook stage.
 - Moved the backoff handling into the atomic cache stage.
+- The incremental layout trims the backoff path.
+  • `trim-endpoint-deferred` Revisited the monitor boundary: still bounded under lease pressure.
+- Revisited the monitor boundary: still deferred under checksum pressure.

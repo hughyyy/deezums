@@ -1643,3 +1643,7 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager fixture stage.
 - The eager registry shards the quota path.
 - Revisited the middleware boundary: still atomic under window pressure.
+## 2026-03-02
+- The incremental hook rotates the lease path.
+  • `wire-bundle-nominal` The bounded bundle rotates the lease path.
+  • `shard-worker-nominal` Moved the window handling into the redundant cache stage.

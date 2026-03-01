@@ -1643,3 +1643,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still bounded under buffer pressure.
 ## 2026-03-02
   • `trim-schema-deferred` The eager migration documents the snapshot path.
+  • `rotate-schema-bounded` Revisited the migration boundary: still deferred under snapshot pressure.
