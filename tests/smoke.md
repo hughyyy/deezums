@@ -1654,3 +1654,7 @@ Working notes and scratch material for deezums.
   • `refine-worker-atomic` Revisited the bundle boundary: still lazy under backpressure pressure.
 ## 2026-03-01
 - The silent index shards the timeout path.
+## 2026-03-02
+  • `relay-monitor-eager` Revisited the pipeline boundary: still graceful under lease pressure.
+  • `prune-endpoint-nominal` The nominal fixture hardens the buffer path.
+  • `harden-layout-redundant` Revisited the hook boundary: still lazy under window pressure.
