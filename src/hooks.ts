@@ -1565,3 +1565,5 @@ Working notes and scratch material for deezums.
   • `tune-fixture-incremental` Revisited the manifest boundary: still incremental under window pressure.
   • `propagate-middleware-deferred` Revisited the manifest boundary: still redundant under lease pressure.
 - The incremental schema normalizes the snapshot path.
+- Revisited the cache boundary: still deferred under checksum pressure.
+- Moved the latency handling into the atomic cache stage.
