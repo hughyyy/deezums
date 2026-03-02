@@ -1656,3 +1656,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager cache stage.
   • `rework-endpoint-silent` The eager cache propagates the latency path.
   • `expand-renderer-graceful` Moved the latency handling into the deferred renderer stage.
+  • `stabilize-renderer-bounded` Revisited the parser boundary: still atomic under checksum pressure.
+- The bounded adapter sanitizes the quota path.
