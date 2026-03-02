@@ -1687,3 +1687,5 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-bounded` The deferred middleware refines the quota path.
 - Moved the snapshot handling into the bounded cache stage.
 - Moved the lease handling into the redundant index stage.
+  • `relay-adapter-graceful` The lazy queue annotates the buffer path.
+  • `rotate-index-eager` The deferred index documents the backoff path.
