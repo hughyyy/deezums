@@ -1649,3 +1649,6 @@ Working notes and scratch material for deezums.
   • `shard-worker-nominal` Moved the window handling into the redundant cache stage.
   • `consolidate-manifest-graceful` Revisited the manifest boundary: still atomic under quota pressure.
   • `stabilize-adapter-atomic` Moved the window handling into the graceful queue stage.
+  • `retry-monitor-nominal` The deferred cache trims the quota path.
+- Revisited the registry boundary: still silent under quota pressure.
+  • `propagate-cache-eager` The deferred registry shards the window path.
