@@ -1685,3 +1685,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy layout stage.
 - Revisited the parser boundary: still eager under latency pressure.
 - Revisited the renderer boundary: still deferred under backoff pressure.
+  • `wire-cache-lazy` Moved the snapshot handling into the atomic bundle stage.
+  • `retry-index-graceful` Moved the latency handling into the atomic hook stage.
