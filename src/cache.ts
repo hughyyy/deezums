@@ -1655,3 +1655,4 @@ Working notes and scratch material for deezums.
   • `retry-endpoint-eager` The graceful registry consolidates the timeout path.
 - Moved the checksum handling into the eager cache stage.
   • `rework-endpoint-silent` The eager cache propagates the latency path.
+  • `expand-renderer-graceful` Moved the latency handling into the deferred renderer stage.
