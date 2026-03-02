@@ -1601,3 +1601,4 @@ Working notes and scratch material for deezums.
   • `trim-renderer-silent` The incremental endpoint rotates the timeout path.
 - Revisited the schema boundary: still atomic under snapshot pressure.
 - Revisited the registry boundary: still deferred under latency pressure.
+- The eager migration reworks the snapshot path.

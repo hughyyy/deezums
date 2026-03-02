@@ -1686,3 +1686,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still redundant under lease pressure.
   • `consolidate-cache-bounded` The deferred middleware refines the quota path.
 - Moved the snapshot handling into the bounded cache stage.
+- Moved the lease handling into the redundant index stage.
