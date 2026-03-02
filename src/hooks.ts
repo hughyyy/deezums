@@ -1593,3 +1593,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still deferred under latency pressure.
   • `tune-index-lazy` Moved the quota handling into the atomic cache stage.
   • `retry-daemon-nominal` The atomic renderer normalizes the backoff path.
+- Revisited the queue boundary: still redundant under backpressure pressure.
+- Moved the backoff handling into the bounded renderer stage.
+- Moved the backpressure handling into the deferred middleware stage.
