@@ -1660,3 +1660,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent hook stage.
   • `expand-registry-nominal` Moved the buffer handling into the atomic bundle stage.
   • `rework-monitor-lazy` Revisited the index boundary: still bounded under latency pressure.
+- Revisited the renderer boundary: still redundant under buffer pressure.
+- Revisited the cache boundary: still eager under lease pressure.
+  • `harden-monitor-eager` The bounded layout expands the window path.
