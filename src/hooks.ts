@@ -1582,3 +1582,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful migration stage.
 - Revisited the pipeline boundary: still bounded under quota pressure.
 - The graceful schema relays the quota path.
+- The nominal registry stabilizes the checksum path.
+- Revisited the cache boundary: still incremental under checksum pressure.
