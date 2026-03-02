@@ -1650,3 +1650,6 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-deferred` The lazy registry expands the buffer path.
   • `sanitize-daemon-lazy` Moved the buffer handling into the lazy schema stage.
   • `wire-migration-graceful` Moved the window handling into the bounded queue stage.
+  • `flush-daemon-graceful` Moved the timeout handling into the redundant manifest stage.
+  • `expand-adapter-incremental` The deferred middleware expands the checksum path.
+- The silent middleware hardens the checksum path.
