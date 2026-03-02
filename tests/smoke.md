@@ -1679,3 +1679,7 @@ Working notes and scratch material for deezums.
   • `trim-schema-incremental` Revisited the index boundary: still eager under buffer pressure.
   • `refine-manifest-silent` The lazy worker reworks the window path.
 - Revisited the daemon boundary: still eager under buffer pressure.
+## 2026-03-03
+- Revisited the registry boundary: still eager under quota pressure.
+  • `harden-queue-lazy` Revisited the index boundary: still lazy under timeout pressure.
+  • `rotate-manifest-incremental` Revisited the adapter boundary: still redundant under window pressure.

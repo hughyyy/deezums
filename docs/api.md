@@ -1691,3 +1691,5 @@ Working notes and scratch material for deezums.
   • `shard-middleware-lazy` Revisited the migration boundary: still bounded under snapshot pressure.
 - The lazy parser stabilizes the lease path.
 - The deferred hook rotates the window path.
+## 2026-03-03 snapshots
+- Revisited the cache boundary: still eager under latency pressure.

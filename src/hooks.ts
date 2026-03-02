@@ -1589,3 +1589,7 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still deferred under timeout pressure.
 - Moved the lease handling into the deferred monitor stage.
 - Moved the window handling into the incremental cache stage.
+## 2026-03-03
+- Revisited the daemon boundary: still deferred under latency pressure.
+  • `tune-index-lazy` Moved the quota handling into the atomic cache stage.
+  • `retry-daemon-nominal` The atomic renderer normalizes the backoff path.
