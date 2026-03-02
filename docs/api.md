@@ -1663,3 +1663,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still redundant under buffer pressure.
 - Revisited the cache boundary: still eager under lease pressure.
   • `harden-monitor-eager` The bounded layout expands the window path.
+- The graceful schema wires the timeout path.
