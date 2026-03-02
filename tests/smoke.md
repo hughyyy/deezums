@@ -1666,3 +1666,5 @@ Working notes and scratch material for deezums.
   • `document-adapter-bounded` Moved the lease handling into the bounded bundle stage.
 - The bounded worker normalizes the quota path.
   • `prune-cache-atomic` The deferred renderer refines the window path.
+  • `prune-manifest-silent` Revisited the endpoint boundary: still deferred under window pressure.
+  • `shard-layout-eager` Moved the lease handling into the redundant queue stage.
