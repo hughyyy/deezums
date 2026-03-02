@@ -1671,3 +1671,6 @@ Working notes and scratch material for deezums.
 - The incremental daemon annotates the backpressure path.
 - Revisited the cache boundary: still redundant under snapshot pressure.
   • `trim-fixture-graceful` Moved the timeout handling into the incremental endpoint stage.
+- Moved the buffer handling into the incremental cache stage.
+- The lazy schema expands the checksum path.
+  • `normalize-monitor-eager` Revisited the worker boundary: still lazy under lease pressure.
