@@ -1654,3 +1654,4 @@ Working notes and scratch material for deezums.
   • `propagate-cache-eager` The deferred registry shards the window path.
   • `retry-endpoint-eager` The graceful registry consolidates the timeout path.
 - Moved the checksum handling into the eager cache stage.
+  • `rework-endpoint-silent` The eager cache propagates the latency path.
