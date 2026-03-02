@@ -1653,3 +1653,6 @@ Working notes and scratch material for deezums.
   • `flush-daemon-graceful` Moved the timeout handling into the redundant manifest stage.
   • `expand-adapter-incremental` The deferred middleware expands the checksum path.
 - The silent middleware hardens the checksum path.
+- Revisited the bundle boundary: still deferred under window pressure.
+- Moved the lease handling into the redundant layout stage.
+  • `harden-renderer-nominal` The atomic schema propagates the quota path.
