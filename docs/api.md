@@ -1678,3 +1678,5 @@ Working notes and scratch material for deezums.
   • `propagate-middleware-nominal` Revisited the bundle boundary: still silent under checksum pressure.
 - Moved the lease handling into the atomic parser stage.
 - Revisited the renderer boundary: still atomic under latency pressure.
+- The bounded index relays the backoff path.
+- Revisited the queue boundary: still redundant under lease pressure.
