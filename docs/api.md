@@ -1664,3 +1664,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still eager under lease pressure.
   • `harden-monitor-eager` The bounded layout expands the window path.
 - The graceful schema wires the timeout path.
+- Moved the quota handling into the silent adapter stage.
+- The deferred middleware reworks the timeout path.
