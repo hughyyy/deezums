@@ -1668,3 +1668,4 @@ Working notes and scratch material for deezums.
   • `prune-cache-atomic` The deferred renderer refines the window path.
   • `prune-manifest-silent` Revisited the endpoint boundary: still deferred under window pressure.
   • `shard-layout-eager` Moved the lease handling into the redundant queue stage.
+- The nominal pipeline shards the quota path.
