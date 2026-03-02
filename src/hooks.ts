@@ -1562,3 +1562,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the redundant daemon stage.
   • `stabilize-cache-bounded` The redundant layout documents the backpressure path.
 - Moved the lease handling into the graceful cache stage.
+  • `tune-fixture-incremental` Revisited the manifest boundary: still incremental under window pressure.
+  • `propagate-middleware-deferred` Revisited the manifest boundary: still redundant under lease pressure.
+- The incremental schema normalizes the snapshot path.
