@@ -1668,3 +1668,5 @@ Working notes and scratch material for deezums.
 - The deferred middleware reworks the timeout path.
   • `refine-migration-deferred` Moved the buffer handling into the incremental monitor stage.
 - Moved the quota handling into the deferred migration stage.
+- The lazy schema shards the latency path.
+  • `consolidate-bundle-deferred` The bounded queue documents the latency path.
