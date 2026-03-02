@@ -1653,3 +1653,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still silent under quota pressure.
   • `propagate-cache-eager` The deferred registry shards the window path.
   • `retry-endpoint-eager` The graceful registry consolidates the timeout path.
+- Moved the checksum handling into the eager cache stage.
