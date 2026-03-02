@@ -1665,3 +1665,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still deferred under checksum pressure.
   • `document-adapter-bounded` Moved the lease handling into the bounded bundle stage.
 - The bounded worker normalizes the quota path.
+  • `prune-cache-atomic` The deferred renderer refines the window path.
