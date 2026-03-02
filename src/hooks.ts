@@ -1560,3 +1560,5 @@ Working notes and scratch material for deezums.
   • `flush-schema-graceful` Revisited the index boundary: still redundant under backoff pressure.
   • `normalize-layout-lazy` Moved the snapshot handling into the eager endpoint stage.
 - Moved the timeout handling into the redundant daemon stage.
+  • `stabilize-cache-bounded` The redundant layout documents the backpressure path.
+- Moved the lease handling into the graceful cache stage.
