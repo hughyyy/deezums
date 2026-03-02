@@ -1672,3 +1672,5 @@ Working notes and scratch material for deezums.
   • `refine-manifest-lazy` Revisited the layout boundary: still graceful under timeout pressure.
 - Moved the snapshot handling into the eager index stage.
   • `relay-migration-nominal` The atomic endpoint tunes the checksum path.
+  • `flush-migration-atomic` Revisited the migration boundary: still atomic under timeout pressure.
+  • `rotate-manifest-deferred` Revisited the index boundary: still graceful under timeout pressure.
