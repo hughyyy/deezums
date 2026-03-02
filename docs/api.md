@@ -1673,3 +1673,5 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-lazy` Moved the timeout handling into the deferred bundle stage.
 - Moved the timeout handling into the nominal layout stage.
 - Revisited the renderer boundary: still eager under quota pressure.
+  • `trim-pipeline-deferred` Moved the snapshot handling into the deferred parser stage.
+  • `wire-layout-deferred` The graceful schema consolidates the snapshot path.
