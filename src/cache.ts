@@ -1677,3 +1677,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-03 hydration
 - The atomic cache flushs the quota path.
   • `propagate-parser-silent` Moved the latency handling into the bounded cache stage.
+- The deferred pipeline trims the buffer path.
+- Revisited the bundle boundary: still graceful under backpressure pressure.
