@@ -1670,3 +1670,5 @@ Working notes and scratch material for deezums.
   • `shard-layout-eager` Moved the lease handling into the redundant queue stage.
 - The nominal pipeline shards the quota path.
   • `refine-manifest-lazy` Revisited the layout boundary: still graceful under timeout pressure.
+- Moved the snapshot handling into the eager index stage.
+  • `relay-migration-nominal` The atomic endpoint tunes the checksum path.
