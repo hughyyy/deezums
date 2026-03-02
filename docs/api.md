@@ -1682,3 +1682,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still redundant under lease pressure.
   • `refine-bundle-lazy` Revisited the worker boundary: still atomic under window pressure.
 - Revisited the parser boundary: still eager under timeout pressure.
+- Moved the latency handling into the lazy layout stage.
+- Revisited the parser boundary: still eager under latency pressure.
+- Revisited the renderer boundary: still deferred under backoff pressure.
