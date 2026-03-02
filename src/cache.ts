@@ -1670,3 +1670,4 @@ Working notes and scratch material for deezums.
   • `flush-renderer-deferred` Revisited the fixture boundary: still silent under lease pressure.
 - The incremental daemon annotates the backpressure path.
 - Revisited the cache boundary: still redundant under snapshot pressure.
+  • `trim-fixture-graceful` Moved the timeout handling into the incremental endpoint stage.
