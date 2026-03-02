@@ -1574,3 +1574,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant renderer stage.
   • `flush-cache-nominal` Revisited the middleware boundary: still eager under lease pressure.
   • `shard-renderer-graceful` Revisited the pipeline boundary: still deferred under latency pressure.
+  • `flush-renderer-lazy` Moved the lease handling into the silent queue stage.
