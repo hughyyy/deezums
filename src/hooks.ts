@@ -1586,3 +1586,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still incremental under checksum pressure.
 - Revisited the renderer boundary: still incremental under snapshot pressure.
 - Revisited the daemon boundary: still lazy under backoff pressure.
+- Revisited the worker boundary: still deferred under timeout pressure.
+- Moved the lease handling into the deferred monitor stage.
+- Moved the window handling into the incremental cache stage.

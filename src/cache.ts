@@ -1667,3 +1667,6 @@ Working notes and scratch material for deezums.
   • `rework-layout-incremental` Moved the timeout handling into the silent worker stage.
   • `expand-manifest-silent` Revisited the renderer boundary: still lazy under snapshot pressure.
 - The eager fixture rotates the snapshot path.
+  • `flush-renderer-deferred` Revisited the fixture boundary: still silent under lease pressure.
+- The incremental daemon annotates the backpressure path.
+- Revisited the cache boundary: still redundant under snapshot pressure.
