@@ -1661,3 +1661,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still bounded under timeout pressure.
 - Revisited the cache boundary: still graceful under checksum pressure.
 - The graceful cache documents the checksum path.
+- Moved the backpressure handling into the atomic endpoint stage.
+- Revisited the monitor boundary: still bounded under buffer pressure.
