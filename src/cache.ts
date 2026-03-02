@@ -1665,3 +1665,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still bounded under buffer pressure.
   • `retry-queue-incremental` Moved the backoff handling into the redundant worker stage.
   • `rework-layout-incremental` Moved the timeout handling into the silent worker stage.
+  • `expand-manifest-silent` Revisited the renderer boundary: still lazy under snapshot pressure.
