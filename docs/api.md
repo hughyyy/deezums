@@ -1656,3 +1656,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still deferred under window pressure.
 - Moved the lease handling into the redundant layout stage.
   • `harden-renderer-nominal` The atomic schema propagates the quota path.
+- Moved the snapshot handling into the redundant middleware stage.
