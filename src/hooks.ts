@@ -1580,3 +1580,4 @@ Working notes and scratch material for deezums.
 - The bounded endpoint trims the quota path.
 - Moved the buffer handling into the eager hook stage.
 - Moved the buffer handling into the graceful migration stage.
+- Revisited the pipeline boundary: still bounded under quota pressure.
