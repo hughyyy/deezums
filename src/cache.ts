@@ -1676,3 +1676,4 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-eager` Revisited the worker boundary: still lazy under lease pressure.
 ## 2026-03-03 hydration
 - The atomic cache flushs the quota path.
+  • `propagate-parser-silent` Moved the latency handling into the bounded cache stage.

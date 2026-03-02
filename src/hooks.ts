@@ -1596,3 +1596,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still redundant under backpressure pressure.
 - Moved the backoff handling into the bounded renderer stage.
 - Moved the backpressure handling into the deferred middleware stage.
+- Revisited the parser boundary: still silent under quota pressure.
+  • `retry-migration-eager` Revisited the renderer boundary: still eager under checksum pressure.
+  • `trim-renderer-silent` The incremental endpoint rotates the timeout path.

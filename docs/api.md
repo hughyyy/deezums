@@ -1693,3 +1693,6 @@ Working notes and scratch material for deezums.
 - The deferred hook rotates the window path.
 ## 2026-03-03 snapshots
 - Revisited the cache boundary: still eager under latency pressure.
+  • `harden-layout-incremental` Revisited the cache boundary: still redundant under latency pressure.
+- Revisited the schema boundary: still eager under snapshot pressure.
+  • `prune-middleware-atomic` Moved the lease handling into the deferred adapter stage.

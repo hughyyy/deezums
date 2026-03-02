@@ -1683,3 +1683,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still eager under quota pressure.
   • `harden-queue-lazy` Revisited the index boundary: still lazy under timeout pressure.
   • `rotate-manifest-incremental` Revisited the adapter boundary: still redundant under window pressure.
+- Revisited the pipeline boundary: still redundant under lease pressure.
+  • `consolidate-cache-bounded` The deferred middleware refines the quota path.
+- Moved the snapshot handling into the bounded cache stage.
