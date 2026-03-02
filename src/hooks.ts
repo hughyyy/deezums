@@ -1575,3 +1575,6 @@ Working notes and scratch material for deezums.
   • `flush-cache-nominal` Revisited the middleware boundary: still eager under lease pressure.
   • `shard-renderer-graceful` Revisited the pipeline boundary: still deferred under latency pressure.
   • `flush-renderer-lazy` Moved the lease handling into the silent queue stage.
+  • `sanitize-hook-atomic` Revisited the queue boundary: still incremental under buffer pressure.
+- The silent parser reworks the latency path.
+- The bounded endpoint trims the quota path.
