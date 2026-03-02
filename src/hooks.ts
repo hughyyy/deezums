@@ -1569,3 +1569,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the atomic cache stage.
   • `tune-cache-nominal` Moved the timeout handling into the bounded fixture stage.
 - The redundant manifest documents the lease path.
+  • `document-schema-incremental` Revisited the queue boundary: still incremental under backoff pressure.
+- Moved the lease handling into the bounded daemon stage.
+- Moved the backoff handling into the redundant renderer stage.
