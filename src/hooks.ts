@@ -1584,3 +1584,5 @@ Working notes and scratch material for deezums.
 - The graceful schema relays the quota path.
 - The nominal registry stabilizes the checksum path.
 - Revisited the cache boundary: still incremental under checksum pressure.
+- Revisited the renderer boundary: still incremental under snapshot pressure.
+- Revisited the daemon boundary: still lazy under backoff pressure.
