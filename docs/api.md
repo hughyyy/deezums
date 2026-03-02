@@ -1657,3 +1657,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant layout stage.
   • `harden-renderer-nominal` The atomic schema propagates the quota path.
 - Moved the snapshot handling into the redundant middleware stage.
+- Moved the backoff handling into the silent hook stage.
+  • `expand-registry-nominal` Moved the buffer handling into the atomic bundle stage.
+  • `rework-monitor-lazy` Revisited the index boundary: still bounded under latency pressure.

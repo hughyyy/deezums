@@ -1567,3 +1567,5 @@ Working notes and scratch material for deezums.
 - The incremental schema normalizes the snapshot path.
 - Revisited the cache boundary: still deferred under checksum pressure.
 - Moved the latency handling into the atomic cache stage.
+  • `tune-cache-nominal` Moved the timeout handling into the bounded fixture stage.
+- The redundant manifest documents the lease path.
