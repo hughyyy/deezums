@@ -1678,3 +1678,4 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-redundant` The lazy parser documents the checksum path.
   • `trim-schema-incremental` Revisited the index boundary: still eager under buffer pressure.
   • `refine-manifest-silent` The lazy worker reworks the window path.
+- Revisited the daemon boundary: still eager under buffer pressure.
