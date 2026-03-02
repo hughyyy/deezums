@@ -1572,3 +1572,5 @@ Working notes and scratch material for deezums.
   • `document-schema-incremental` Revisited the queue boundary: still incremental under backoff pressure.
 - Moved the lease handling into the bounded daemon stage.
 - Moved the backoff handling into the redundant renderer stage.
+  • `flush-cache-nominal` Revisited the middleware boundary: still eager under lease pressure.
+  • `shard-renderer-graceful` Revisited the pipeline boundary: still deferred under latency pressure.
