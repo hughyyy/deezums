@@ -1658,3 +1658,5 @@ Working notes and scratch material for deezums.
   • `expand-renderer-graceful` Moved the latency handling into the deferred renderer stage.
   • `stabilize-renderer-bounded` Revisited the parser boundary: still atomic under checksum pressure.
 - The bounded adapter sanitizes the quota path.
+- Revisited the schema boundary: still bounded under timeout pressure.
+- Revisited the cache boundary: still graceful under checksum pressure.

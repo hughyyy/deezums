@@ -1675,3 +1675,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still eager under quota pressure.
   • `trim-pipeline-deferred` Moved the snapshot handling into the deferred parser stage.
   • `wire-layout-deferred` The graceful schema consolidates the snapshot path.
+  • `propagate-middleware-nominal` Revisited the bundle boundary: still silent under checksum pressure.
+- Moved the lease handling into the atomic parser stage.
+- Revisited the renderer boundary: still atomic under latency pressure.
