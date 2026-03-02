@@ -1581,3 +1581,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager hook stage.
 - Moved the buffer handling into the graceful migration stage.
 - Revisited the pipeline boundary: still bounded under quota pressure.
+- The graceful schema relays the quota path.
