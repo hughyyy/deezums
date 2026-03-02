@@ -1689,3 +1689,4 @@ Working notes and scratch material for deezums.
   • `retry-index-graceful` Moved the latency handling into the atomic hook stage.
   • `trim-daemon-redundant` The lazy cache hardens the backoff path.
   • `shard-middleware-lazy` Revisited the migration boundary: still bounded under snapshot pressure.
+- The lazy parser stabilizes the lease path.
