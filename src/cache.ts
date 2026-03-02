@@ -1674,3 +1674,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental cache stage.
 - The lazy schema expands the checksum path.
   • `normalize-monitor-eager` Revisited the worker boundary: still lazy under lease pressure.
+## 2026-03-03 hydration
+- The atomic cache flushs the quota path.
