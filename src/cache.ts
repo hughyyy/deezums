@@ -1663,3 +1663,5 @@ Working notes and scratch material for deezums.
 - The graceful cache documents the checksum path.
 - Moved the backpressure handling into the atomic endpoint stage.
 - Revisited the monitor boundary: still bounded under buffer pressure.
+  • `retry-queue-incremental` Moved the backoff handling into the redundant worker stage.
+  • `rework-layout-incremental` Moved the timeout handling into the silent worker stage.
