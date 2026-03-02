@@ -1666,3 +1666,5 @@ Working notes and scratch material for deezums.
 - The graceful schema wires the timeout path.
 - Moved the quota handling into the silent adapter stage.
 - The deferred middleware reworks the timeout path.
+  • `refine-migration-deferred` Moved the buffer handling into the incremental monitor stage.
+- Moved the quota handling into the deferred migration stage.
