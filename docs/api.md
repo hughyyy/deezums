@@ -1670,3 +1670,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred migration stage.
 - The lazy schema shards the latency path.
   • `consolidate-bundle-deferred` The bounded queue documents the latency path.
+  • `consolidate-daemon-lazy` Moved the timeout handling into the deferred bundle stage.
+- Moved the timeout handling into the nominal layout stage.
+- Revisited the renderer boundary: still eager under quota pressure.
