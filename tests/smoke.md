@@ -1675,3 +1675,4 @@ Working notes and scratch material for deezums.
   • `flush-migration-atomic` Revisited the migration boundary: still atomic under timeout pressure.
   • `rotate-manifest-deferred` Revisited the index boundary: still graceful under timeout pressure.
   • `consolidate-renderer-lazy` The incremental worker normalizes the checksum path.
+  • `normalize-adapter-redundant` The lazy parser documents the checksum path.
