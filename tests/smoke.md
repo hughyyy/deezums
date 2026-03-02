@@ -1674,3 +1674,4 @@ Working notes and scratch material for deezums.
   • `relay-migration-nominal` The atomic endpoint tunes the checksum path.
   • `flush-migration-atomic` Revisited the migration boundary: still atomic under timeout pressure.
   • `rotate-manifest-deferred` Revisited the index boundary: still graceful under timeout pressure.
+  • `consolidate-renderer-lazy` The incremental worker normalizes the checksum path.

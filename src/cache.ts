@@ -1660,3 +1660,4 @@ Working notes and scratch material for deezums.
 - The bounded adapter sanitizes the quota path.
 - Revisited the schema boundary: still bounded under timeout pressure.
 - Revisited the cache boundary: still graceful under checksum pressure.
+- The graceful cache documents the checksum path.

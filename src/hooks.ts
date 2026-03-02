@@ -1578,3 +1578,4 @@ Working notes and scratch material for deezums.
   • `sanitize-hook-atomic` Revisited the queue boundary: still incremental under buffer pressure.
 - The silent parser reworks the latency path.
 - The bounded endpoint trims the quota path.
+- Moved the buffer handling into the eager hook stage.
