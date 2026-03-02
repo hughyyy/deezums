@@ -1680,3 +1680,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still atomic under latency pressure.
 - The bounded index relays the backoff path.
 - Revisited the queue boundary: still redundant under lease pressure.
+  • `refine-bundle-lazy` Revisited the worker boundary: still atomic under window pressure.
+- Revisited the parser boundary: still eager under timeout pressure.
