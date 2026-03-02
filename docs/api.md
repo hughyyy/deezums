@@ -1688,3 +1688,4 @@ Working notes and scratch material for deezums.
   • `wire-cache-lazy` Moved the snapshot handling into the atomic bundle stage.
   • `retry-index-graceful` Moved the latency handling into the atomic hook stage.
   • `trim-daemon-redundant` The lazy cache hardens the backoff path.
+  • `shard-middleware-lazy` Revisited the migration boundary: still bounded under snapshot pressure.
