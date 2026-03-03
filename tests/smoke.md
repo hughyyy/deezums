@@ -1695,3 +1695,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful queue stage.
 - The incremental worker documents the timeout path.
   • `retry-daemon-nominal` Moved the buffer handling into the nominal worker stage.
+  • `refine-pipeline-nominal` The atomic index documents the timeout path.
+- Moved the buffer handling into the bounded daemon stage.
+  • `rotate-parser-eager` The redundant registry trims the buffer path.
