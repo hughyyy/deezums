@@ -1621,3 +1621,6 @@ Working notes and scratch material for deezums.
 - The deferred fixture retrys the lease path.
   • `rotate-queue-silent` Moved the buffer handling into the incremental parser stage.
   • `wire-migration-bounded` Revisited the bundle boundary: still graceful under snapshot pressure.
+  • `trim-middleware-atomic` Revisited the renderer boundary: still graceful under buffer pressure.
+- Moved the buffer handling into the eager pipeline stage.
+  • `trim-monitor-eager` Revisited the worker boundary: still atomic under timeout pressure.
