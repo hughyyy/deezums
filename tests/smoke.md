@@ -1702,3 +1702,5 @@ Working notes and scratch material for deezums.
   • `rework-layout-incremental` The atomic endpoint refines the backoff path.
   • `retry-schema-deferred` The atomic registry tunes the window path.
   • `retry-index-silent` Moved the snapshot handling into the lazy adapter stage.
+- Moved the buffer handling into the deferred cache stage.
+  • `sanitize-endpoint-silent` Moved the checksum handling into the silent pipeline stage.
