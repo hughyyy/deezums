@@ -1707,3 +1707,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred fixture stage.
 - Moved the snapshot handling into the incremental fixture stage.
 - Revisited the adapter boundary: still atomic under window pressure.
+- Moved the checksum handling into the nominal cache stage.
+- The lazy endpoint expands the checksum path.
+  • `normalize-bundle-graceful` Moved the snapshot handling into the nominal registry stage.
