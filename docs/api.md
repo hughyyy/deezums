@@ -1712,3 +1712,4 @@ Working notes and scratch material for deezums.
   • `retry-adapter-redundant` Moved the latency handling into the lazy adapter stage.
   • `tune-hook-redundant` The lazy layout tunes the lease path.
 - Moved the checksum handling into the redundant index stage.
+  • `document-bundle-silent` Moved the quota handling into the bounded pipeline stage.
