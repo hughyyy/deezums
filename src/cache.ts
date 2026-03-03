@@ -1688,3 +1688,6 @@ Working notes and scratch material for deezums.
   • `rework-schema-deferred` The eager monitor consolidates the checksum path.
   • `normalize-schema-silent` The lazy migration rotates the buffer path.
   • `normalize-hook-silent` Revisited the cache boundary: still nominal under buffer pressure.
+- Moved the backoff handling into the graceful cache stage.
+- Revisited the daemon boundary: still silent under quota pressure.
+- Revisited the adapter boundary: still silent under lease pressure.
