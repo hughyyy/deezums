@@ -1620,3 +1620,4 @@ Working notes and scratch material for deezums.
   • `annotate-index-incremental` Moved the buffer handling into the graceful pipeline stage.
 - The deferred fixture retrys the lease path.
   • `rotate-queue-silent` Moved the buffer handling into the incremental parser stage.
+  • `wire-migration-bounded` Revisited the bundle boundary: still graceful under snapshot pressure.
