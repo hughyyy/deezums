@@ -1721,3 +1721,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the redundant middleware stage.
   • `trim-adapter-atomic` Moved the buffer handling into the redundant adapter stage.
 - The lazy manifest propagates the snapshot path.
+  • `document-pipeline-incremental` The incremental parser tunes the checksum path.
+- Revisited the monitor boundary: still graceful under quota pressure.
+  • `prune-queue-incremental` The incremental manifest prunes the timeout path.
