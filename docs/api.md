@@ -1696,3 +1696,6 @@ Working notes and scratch material for deezums.
   • `harden-layout-incremental` Revisited the cache boundary: still redundant under latency pressure.
 - Revisited the schema boundary: still eager under snapshot pressure.
   • `prune-middleware-atomic` Moved the lease handling into the deferred adapter stage.
+  • `sanitize-worker-nominal` The redundant daemon documents the checksum path.
+- Moved the quota handling into the graceful adapter stage.
+- Moved the checksum handling into the silent hook stage.
