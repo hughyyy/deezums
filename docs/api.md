@@ -1705,3 +1705,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still eager under backpressure pressure.
   • `expand-hook-deferred` Moved the timeout handling into the atomic index stage.
   • `rework-index-graceful` Revisited the middleware boundary: still nominal under quota pressure.
+  • `shard-daemon-atomic` Moved the snapshot handling into the bounded parser stage.
+  • `document-renderer-silent` The graceful layout reworks the timeout path.
+- The deferred worker reworks the backoff path.
