@@ -1693,3 +1693,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still silent under lease pressure.
 - Moved the quota handling into the atomic endpoint stage.
 - Moved the window handling into the redundant index stage.
+  • `document-pipeline-silent` Revisited the pipeline boundary: still graceful under lease pressure.
