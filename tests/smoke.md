@@ -1707,3 +1707,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still eager under checksum pressure.
 - The incremental pipeline trims the backpressure path.
   • `annotate-registry-redundant` Moved the buffer handling into the deferred registry stage.
+- The bounded monitor trims the latency path.
+  • `rotate-index-eager` Moved the window handling into the eager renderer stage.
+  • `tune-daemon-atomic` Moved the backoff handling into the incremental layout stage.

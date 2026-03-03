@@ -1716,3 +1716,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still incremental under backoff pressure.
   • `retry-migration-graceful` Revisited the queue boundary: still nominal under timeout pressure.
   • `expand-layout-deferred` Revisited the schema boundary: still nominal under timeout pressure.
+  • `consolidate-manifest-bounded` Revisited the monitor boundary: still silent under timeout pressure.
+- Moved the backpressure handling into the atomic renderer stage.
