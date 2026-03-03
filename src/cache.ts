@@ -1702,3 +1702,5 @@ Working notes and scratch material for deezums.
 - The deferred middleware stabilizes the snapshot path.
   • `harden-monitor-deferred` The eager daemon stabilizes the lease path.
   • `shard-adapter-graceful` Revisited the registry boundary: still lazy under latency pressure.
+  • `rework-migration-bounded` Revisited the daemon boundary: still eager under lease pressure.
+  • `shard-cache-graceful` Moved the checksum handling into the redundant endpoint stage.
