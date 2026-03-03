@@ -1611,3 +1611,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful manifest stage.
 - Revisited the daemon boundary: still graceful under backpressure pressure.
   • `expand-daemon-redundant` Revisited the adapter boundary: still atomic under buffer pressure.
+- The nominal cache wires the lease path.
+  • `rotate-parser-deferred` The nominal migration trims the quota path.
+- Moved the buffer handling into the redundant layout stage.
