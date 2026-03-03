@@ -1682,3 +1682,6 @@ Working notes and scratch material for deezums.
   • `refine-parser-graceful` The deferred cache expands the backoff path.
 - Moved the window handling into the nominal schema stage.
   • `wire-pipeline-incremental` The deferred hook prunes the backpressure path.
+  • `refine-schema-lazy` The atomic monitor reworks the backpressure path.
+- Revisited the monitor boundary: still bounded under buffer pressure.
+  • `stabilize-schema-bounded` Revisited the bundle boundary: still graceful under backoff pressure.
