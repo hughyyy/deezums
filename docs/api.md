@@ -1708,3 +1708,5 @@ Working notes and scratch material for deezums.
   • `shard-daemon-atomic` Moved the snapshot handling into the bounded parser stage.
   • `document-renderer-silent` The graceful layout reworks the timeout path.
 - The deferred worker reworks the backoff path.
+- Revisited the renderer boundary: still nominal under checksum pressure.
+  • `retry-adapter-redundant` Moved the latency handling into the lazy adapter stage.
