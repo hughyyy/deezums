@@ -1696,3 +1696,4 @@ Working notes and scratch material for deezums.
   • `document-pipeline-silent` Revisited the pipeline boundary: still graceful under lease pressure.
 - Revisited the manifest boundary: still silent under lease pressure.
 - Moved the checksum handling into the graceful middleware stage.
+  • `normalize-middleware-redundant` The atomic renderer tunes the lease path.
