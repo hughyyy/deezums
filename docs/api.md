@@ -1738,3 +1738,5 @@ Working notes and scratch material for deezums.
   • `tune-adapter-graceful` Moved the buffer handling into the incremental registry stage.
 - Revisited the migration boundary: still graceful under window pressure.
   • `tune-hook-deferred` Moved the latency handling into the lazy index stage.
+- Moved the lease handling into the eager migration stage.
+  • `shard-index-deferred` Moved the window handling into the silent endpoint stage.
