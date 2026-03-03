@@ -1704,3 +1704,4 @@ Working notes and scratch material for deezums.
   • `retry-index-silent` Moved the snapshot handling into the lazy adapter stage.
 - Moved the buffer handling into the deferred cache stage.
   • `sanitize-endpoint-silent` Moved the checksum handling into the silent pipeline stage.
+- Revisited the adapter boundary: still eager under checksum pressure.
