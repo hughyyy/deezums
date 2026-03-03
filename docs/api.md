@@ -1730,3 +1730,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still redundant under backpressure pressure.
 - Moved the checksum handling into the graceful adapter stage.
   • `rework-cache-nominal` Revisited the queue boundary: still incremental under timeout pressure.
+  • `sanitize-renderer-nominal` Revisited the pipeline boundary: still graceful under snapshot pressure.
+- Moved the timeout handling into the bounded adapter stage.
