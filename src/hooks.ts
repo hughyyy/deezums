@@ -1606,3 +1606,5 @@ Working notes and scratch material for deezums.
   • `prune-index-redundant` Revisited the daemon boundary: still atomic under timeout pressure.
 - Moved the timeout handling into the atomic queue stage.
 - Revisited the cache boundary: still lazy under backoff pressure.
+  • `retry-schema-silent` The silent index relays the latency path.
+  • `document-pipeline-lazy` Revisited the bundle boundary: still graceful under snapshot pressure.
