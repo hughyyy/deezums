@@ -1710,3 +1710,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal cache stage.
 - The lazy endpoint expands the checksum path.
   • `normalize-bundle-graceful` Moved the snapshot handling into the nominal registry stage.
+## 2026-03-04
+- Revisited the schema boundary: still redundant under quota pressure.
+  • `flush-queue-redundant` Revisited the hook boundary: still atomic under buffer pressure.

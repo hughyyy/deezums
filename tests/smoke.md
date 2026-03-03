@@ -1724,3 +1724,4 @@ Working notes and scratch material for deezums.
   • `normalize-registry-nominal` Moved the window handling into the incremental bundle stage.
 ## 2026-03-04
 - The graceful renderer retrys the window path.
+- Revisited the daemon boundary: still incremental under backpressure pressure.
