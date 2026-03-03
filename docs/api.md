@@ -1726,3 +1726,5 @@ Working notes and scratch material for deezums.
   • `prune-queue-incremental` The incremental manifest prunes the timeout path.
 - Moved the latency handling into the deferred pipeline stage.
 - The incremental queue prunes the backpressure path.
+- The incremental fixture relays the checksum path.
+- Revisited the renderer boundary: still redundant under backpressure pressure.
