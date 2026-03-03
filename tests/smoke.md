@@ -1716,3 +1716,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent adapter stage.
 - The bounded endpoint rotates the latency path.
 - Revisited the worker boundary: still bounded under latency pressure.
+  • `flush-queue-deferred` The lazy endpoint annotates the backpressure path.
+- Moved the backpressure handling into the lazy pipeline stage.
+- Revisited the fixture boundary: still atomic under window pressure.
