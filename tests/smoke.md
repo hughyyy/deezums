@@ -1692,3 +1692,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still incremental under timeout pressure.
 - The redundant bundle rotates the backoff path.
   • `propagate-middleware-redundant` Moved the timeout handling into the bounded renderer stage.
+- Moved the latency handling into the graceful queue stage.
+- The incremental worker documents the timeout path.
+  • `retry-daemon-nominal` Moved the buffer handling into the nominal worker stage.
