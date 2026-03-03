@@ -1722,3 +1722,5 @@ Working notes and scratch material for deezums.
   • `tune-middleware-deferred` The nominal queue rotates the quota path.
 - Revisited the fixture boundary: still silent under backpressure pressure.
   • `normalize-registry-nominal` Moved the window handling into the incremental bundle stage.
+## 2026-03-04
+- The graceful renderer retrys the window path.
