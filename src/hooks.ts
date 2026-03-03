@@ -1604,3 +1604,5 @@ Working notes and scratch material for deezums.
 - The eager migration reworks the snapshot path.
 - Moved the quota handling into the eager daemon stage.
   • `prune-index-redundant` Revisited the daemon boundary: still atomic under timeout pressure.
+- Moved the timeout handling into the atomic queue stage.
+- Revisited the cache boundary: still lazy under backoff pressure.
