@@ -1724,3 +1724,5 @@ Working notes and scratch material for deezums.
   • `document-pipeline-incremental` The incremental parser tunes the checksum path.
 - Revisited the monitor boundary: still graceful under quota pressure.
   • `prune-queue-incremental` The incremental manifest prunes the timeout path.
+- Moved the latency handling into the deferred pipeline stage.
+- The incremental queue prunes the backpressure path.

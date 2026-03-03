@@ -1712,3 +1712,6 @@ Working notes and scratch material for deezums.
   • `tune-daemon-atomic` Moved the backoff handling into the incremental layout stage.
 - Revisited the monitor boundary: still deferred under checksum pressure.
   • `flush-fixture-incremental` The redundant daemon retrys the checksum path.
+  • `relay-index-bounded` Moved the quota handling into the silent middleware stage.
+- Moved the backoff handling into the silent adapter stage.
+- The bounded endpoint rotates the latency path.

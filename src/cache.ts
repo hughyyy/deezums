@@ -1697,3 +1697,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still silent under lease pressure.
 - Moved the checksum handling into the graceful middleware stage.
   • `normalize-middleware-redundant` The atomic renderer tunes the lease path.
+- Revisited the renderer boundary: still redundant under latency pressure.
+  • `annotate-endpoint-silent` The eager bundle hardens the window path.
