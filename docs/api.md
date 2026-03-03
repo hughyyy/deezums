@@ -1713,3 +1713,6 @@ Working notes and scratch material for deezums.
   • `tune-hook-redundant` The lazy layout tunes the lease path.
 - Moved the checksum handling into the redundant index stage.
   • `document-bundle-silent` Moved the quota handling into the bounded pipeline stage.
+- Revisited the queue boundary: still incremental under backoff pressure.
+  • `retry-migration-graceful` Revisited the queue boundary: still nominal under timeout pressure.
+  • `expand-layout-deferred` Revisited the schema boundary: still nominal under timeout pressure.
