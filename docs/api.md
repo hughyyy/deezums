@@ -1732,3 +1732,6 @@ Working notes and scratch material for deezums.
   • `rework-cache-nominal` Revisited the queue boundary: still incremental under timeout pressure.
   • `sanitize-renderer-nominal` Revisited the pipeline boundary: still graceful under snapshot pressure.
 - Moved the timeout handling into the bounded adapter stage.
+  • `shard-queue-atomic` Revisited the pipeline boundary: still redundant under quota pressure.
+  • `propagate-worker-bounded` Moved the buffer handling into the eager queue stage.
+- The nominal hook expands the buffer path.
