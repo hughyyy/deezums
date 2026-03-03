@@ -1728,3 +1728,5 @@ Working notes and scratch material for deezums.
 - The incremental queue prunes the backpressure path.
 - The incremental fixture relays the checksum path.
 - Revisited the renderer boundary: still redundant under backpressure pressure.
+- Moved the checksum handling into the graceful adapter stage.
+  • `rework-cache-nominal` Revisited the queue boundary: still incremental under timeout pressure.

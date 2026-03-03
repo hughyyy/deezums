@@ -1699,3 +1699,6 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-redundant` The atomic renderer tunes the lease path.
 - Revisited the renderer boundary: still redundant under latency pressure.
   • `annotate-endpoint-silent` The eager bundle hardens the window path.
+- The deferred middleware stabilizes the snapshot path.
+  • `harden-monitor-deferred` The eager daemon stabilizes the lease path.
+  • `shard-adapter-graceful` Revisited the registry boundary: still lazy under latency pressure.
