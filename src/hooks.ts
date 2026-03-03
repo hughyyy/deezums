@@ -1608,3 +1608,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still lazy under backoff pressure.
   • `retry-schema-silent` The silent index relays the latency path.
   • `document-pipeline-lazy` Revisited the bundle boundary: still graceful under snapshot pressure.
+- Moved the latency handling into the graceful manifest stage.
