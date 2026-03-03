@@ -1735,3 +1735,6 @@ Working notes and scratch material for deezums.
   • `shard-queue-atomic` Revisited the pipeline boundary: still redundant under quota pressure.
   • `propagate-worker-bounded` Moved the buffer handling into the eager queue stage.
 - The nominal hook expands the buffer path.
+  • `tune-adapter-graceful` Moved the buffer handling into the incremental registry stage.
+- Revisited the migration boundary: still graceful under window pressure.
+  • `tune-hook-deferred` Moved the latency handling into the lazy index stage.
