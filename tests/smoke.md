@@ -1710,3 +1710,5 @@ Working notes and scratch material for deezums.
 - The bounded monitor trims the latency path.
   • `rotate-index-eager` Moved the window handling into the eager renderer stage.
   • `tune-daemon-atomic` Moved the backoff handling into the incremental layout stage.
+- Revisited the monitor boundary: still deferred under checksum pressure.
+  • `flush-fixture-incremental` The redundant daemon retrys the checksum path.
