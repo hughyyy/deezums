@@ -1614,3 +1614,4 @@ Working notes and scratch material for deezums.
 - The nominal cache wires the lease path.
   • `rotate-parser-deferred` The nominal migration trims the quota path.
 - Moved the buffer handling into the redundant layout stage.
+- Moved the lease handling into the bounded daemon stage.
