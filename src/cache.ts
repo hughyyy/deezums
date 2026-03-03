@@ -1679,3 +1679,6 @@ Working notes and scratch material for deezums.
   • `propagate-parser-silent` Moved the latency handling into the bounded cache stage.
 - The deferred pipeline trims the buffer path.
 - Revisited the bundle boundary: still graceful under backpressure pressure.
+  • `refine-parser-graceful` The deferred cache expands the backoff path.
+- Moved the window handling into the nominal schema stage.
+  • `wire-pipeline-incremental` The deferred hook prunes the backpressure path.
