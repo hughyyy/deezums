@@ -1602,3 +1602,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still atomic under snapshot pressure.
 - Revisited the registry boundary: still deferred under latency pressure.
 - The eager migration reworks the snapshot path.
+- Moved the quota handling into the eager daemon stage.
+  • `prune-index-redundant` Revisited the daemon boundary: still atomic under timeout pressure.
