@@ -1718,3 +1718,5 @@ Working notes and scratch material for deezums.
   • `expand-layout-deferred` Revisited the schema boundary: still nominal under timeout pressure.
   • `consolidate-manifest-bounded` Revisited the monitor boundary: still silent under timeout pressure.
 - Moved the backpressure handling into the atomic renderer stage.
+- Moved the latency handling into the redundant middleware stage.
+  • `trim-adapter-atomic` Moved the buffer handling into the redundant adapter stage.
