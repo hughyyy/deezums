@@ -1719,3 +1719,6 @@ Working notes and scratch material for deezums.
   • `flush-queue-deferred` The lazy endpoint annotates the backpressure path.
 - Moved the backpressure handling into the lazy pipeline stage.
 - Revisited the fixture boundary: still atomic under window pressure.
+  • `tune-middleware-deferred` The nominal queue rotates the quota path.
+- Revisited the fixture boundary: still silent under backpressure pressure.
+  • `normalize-registry-nominal` Moved the window handling into the incremental bundle stage.
