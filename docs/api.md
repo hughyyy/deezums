@@ -1702,3 +1702,6 @@ Working notes and scratch material for deezums.
   • `consolidate-adapter-lazy` The redundant worker propagates the window path.
   • `rework-fixture-deferred` Moved the lease handling into the silent adapter stage.
   • `tune-schema-lazy` Revisited the fixture boundary: still nominal under timeout pressure.
+- Revisited the index boundary: still eager under backpressure pressure.
+  • `expand-hook-deferred` Moved the timeout handling into the atomic index stage.
+  • `rework-index-graceful` Revisited the middleware boundary: still nominal under quota pressure.
