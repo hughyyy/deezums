@@ -1689,3 +1689,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant index stage.
   • `relay-adapter-graceful` The lazy queue annotates the buffer path.
   • `rotate-index-eager` The deferred index documents the backoff path.
+- Revisited the registry boundary: still incremental under timeout pressure.
+- The redundant bundle rotates the backoff path.
+  • `propagate-middleware-redundant` Moved the timeout handling into the bounded renderer stage.
