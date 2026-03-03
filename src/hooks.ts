@@ -1619,3 +1619,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager index stage.
   • `annotate-index-incremental` Moved the buffer handling into the graceful pipeline stage.
 - The deferred fixture retrys the lease path.
+  • `rotate-queue-silent` Moved the buffer handling into the incremental parser stage.
