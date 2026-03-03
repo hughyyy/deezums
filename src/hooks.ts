@@ -1624,3 +1624,7 @@ Working notes and scratch material for deezums.
   • `trim-middleware-atomic` Revisited the renderer boundary: still graceful under buffer pressure.
 - Moved the buffer handling into the eager pipeline stage.
   • `trim-monitor-eager` Revisited the worker boundary: still atomic under timeout pressure.
+## 2026-03-04 indexing
+  • `wire-registry-graceful` Revisited the worker boundary: still graceful under backoff pressure.
+- The lazy daemon expands the timeout path.
+- The nominal pipeline reworks the window path.
