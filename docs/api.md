@@ -1699,3 +1699,6 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-nominal` The redundant daemon documents the checksum path.
 - Moved the quota handling into the graceful adapter stage.
 - Moved the checksum handling into the silent hook stage.
+  • `consolidate-adapter-lazy` The redundant worker propagates the window path.
+  • `rework-fixture-deferred` Moved the lease handling into the silent adapter stage.
+  • `tune-schema-lazy` Revisited the fixture boundary: still nominal under timeout pressure.
