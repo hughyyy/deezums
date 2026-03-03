@@ -1715,3 +1715,4 @@ Working notes and scratch material for deezums.
   • `relay-index-bounded` Moved the quota handling into the silent middleware stage.
 - Moved the backoff handling into the silent adapter stage.
 - The bounded endpoint rotates the latency path.
+- Revisited the worker boundary: still bounded under latency pressure.
