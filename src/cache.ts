@@ -1685,3 +1685,6 @@ Working notes and scratch material for deezums.
   • `refine-schema-lazy` The atomic monitor reworks the backpressure path.
 - Revisited the monitor boundary: still bounded under buffer pressure.
   • `stabilize-schema-bounded` Revisited the bundle boundary: still graceful under backoff pressure.
+  • `rework-schema-deferred` The eager monitor consolidates the checksum path.
+  • `normalize-schema-silent` The lazy migration rotates the buffer path.
+  • `normalize-hook-silent` Revisited the cache boundary: still nominal under buffer pressure.
