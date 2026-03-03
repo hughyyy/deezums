@@ -1609,3 +1609,5 @@ Working notes and scratch material for deezums.
   • `retry-schema-silent` The silent index relays the latency path.
   • `document-pipeline-lazy` Revisited the bundle boundary: still graceful under snapshot pressure.
 - Moved the latency handling into the graceful manifest stage.
+- Revisited the daemon boundary: still graceful under backpressure pressure.
+  • `expand-daemon-redundant` Revisited the adapter boundary: still atomic under buffer pressure.
