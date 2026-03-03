@@ -1698,3 +1698,4 @@ Working notes and scratch material for deezums.
   • `refine-pipeline-nominal` The atomic index documents the timeout path.
 - Moved the buffer handling into the bounded daemon stage.
   • `rotate-parser-eager` The redundant registry trims the buffer path.
+- Moved the latency handling into the eager manifest stage.
