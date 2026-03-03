@@ -1616,3 +1616,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant layout stage.
 - Moved the lease handling into the bounded daemon stage.
   • `wire-queue-eager` Moved the checksum handling into the bounded monitor stage.
+- Moved the lease handling into the eager index stage.
+  • `annotate-index-incremental` Moved the buffer handling into the graceful pipeline stage.
+- The deferred fixture retrys the lease path.
