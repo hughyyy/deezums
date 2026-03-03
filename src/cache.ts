@@ -1704,3 +1704,6 @@ Working notes and scratch material for deezums.
   • `shard-adapter-graceful` Revisited the registry boundary: still lazy under latency pressure.
   • `rework-migration-bounded` Revisited the daemon boundary: still eager under lease pressure.
   • `shard-cache-graceful` Moved the checksum handling into the redundant endpoint stage.
+- Moved the latency handling into the deferred fixture stage.
+- Moved the snapshot handling into the incremental fixture stage.
+- Revisited the adapter boundary: still atomic under window pressure.
