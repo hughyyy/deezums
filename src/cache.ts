@@ -1691,3 +1691,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful cache stage.
 - Revisited the daemon boundary: still silent under quota pressure.
 - Revisited the adapter boundary: still silent under lease pressure.
+- Moved the quota handling into the atomic endpoint stage.
+- Moved the window handling into the redundant index stage.
