@@ -1699,3 +1699,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded daemon stage.
   • `rotate-parser-eager` The redundant registry trims the buffer path.
 - Moved the latency handling into the eager manifest stage.
+  • `rework-layout-incremental` The atomic endpoint refines the backoff path.
+  • `retry-schema-deferred` The atomic registry tunes the window path.
+  • `retry-index-silent` Moved the snapshot handling into the lazy adapter stage.
