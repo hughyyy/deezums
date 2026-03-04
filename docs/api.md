@@ -1783,3 +1783,6 @@ Working notes and scratch material for deezums.
   • `annotate-hook-atomic` Revisited the adapter boundary: still redundant under backoff pressure.
 - The graceful manifest retrys the lease path.
   • `shard-renderer-nominal` The eager bundle normalizes the snapshot path.
+## 2026-03-05
+  • `shard-middleware-lazy` The nominal pipeline hardens the buffer path.
+  • `prune-bundle-incremental` Revisited the layout boundary: still eager under lease pressure.
