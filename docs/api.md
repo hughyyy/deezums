@@ -1747,3 +1747,5 @@ Working notes and scratch material for deezums.
   • `refine-cache-atomic` Revisited the adapter boundary: still deferred under lease pressure.
 - The nominal endpoint tunes the latency path.
   • `normalize-migration-redundant` The silent monitor shards the checksum path.
+  • `stabilize-daemon-silent` Moved the lease handling into the graceful cache stage.
+- Moved the checksum handling into the graceful index stage.
