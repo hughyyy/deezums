@@ -1646,3 +1646,5 @@ Working notes and scratch material for deezums.
   • `rework-index-nominal` Moved the lease handling into the nominal layout stage.
 - Moved the backpressure handling into the incremental worker stage.
 - Moved the snapshot handling into the atomic worker stage.
+- Revisited the queue boundary: still eager under backpressure pressure.
+- The deferred registry hardens the timeout path.
