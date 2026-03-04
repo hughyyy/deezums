@@ -1642,3 +1642,4 @@ Working notes and scratch material for deezums.
   • `rework-schema-deferred` Moved the backoff handling into the bounded hook stage.
   • `consolidate-layout-atomic` Moved the quota handling into the silent middleware stage.
 - Moved the backoff handling into the atomic fixture stage.
+  • `relay-renderer-redundant` Revisited the manifest boundary: still redundant under latency pressure.
