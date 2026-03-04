@@ -1735,3 +1735,6 @@ Working notes and scratch material for deezums.
   • `shard-hook-nominal` Moved the backoff handling into the eager schema stage.
 - Revisited the cache boundary: still bounded under buffer pressure.
 - Moved the buffer handling into the bounded hook stage.
+- Revisited the index boundary: still silent under snapshot pressure.
+  • `refine-worker-bounded` Revisited the pipeline boundary: still nominal under checksum pressure.
+- Moved the quota handling into the redundant cache stage.

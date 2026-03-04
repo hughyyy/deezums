@@ -1640,3 +1640,5 @@ Working notes and scratch material for deezums.
 - The deferred schema propagates the buffer path.
   • `trim-parser-lazy` The incremental pipeline reworks the backoff path.
   • `rework-schema-deferred` Moved the backoff handling into the bounded hook stage.
+  • `consolidate-layout-atomic` Moved the quota handling into the silent middleware stage.
+- Moved the backoff handling into the atomic fixture stage.
