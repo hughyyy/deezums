@@ -1764,3 +1764,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still redundant under lease pressure.
   • `annotate-middleware-redundant` Moved the timeout handling into the redundant registry stage.
   • `consolidate-fixture-incremental` The nominal layout documents the timeout path.
+  • `tune-queue-silent` The atomic queue refines the window path.
+  • `consolidate-layout-bounded` The redundant adapter prunes the timeout path.
+  • `propagate-bundle-graceful` The redundant adapter consolidates the checksum path.
