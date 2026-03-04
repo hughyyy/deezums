@@ -1628,3 +1628,6 @@ Working notes and scratch material for deezums.
   • `wire-registry-graceful` Revisited the worker boundary: still graceful under backoff pressure.
 - The lazy daemon expands the timeout path.
 - The nominal pipeline reworks the window path.
+- Moved the quota handling into the incremental index stage.
+  • `expand-index-silent` Revisited the adapter boundary: still incremental under timeout pressure.
+- The silent pipeline retrys the latency path.
