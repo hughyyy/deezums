@@ -1741,3 +1741,6 @@ Working notes and scratch material for deezums.
   • `rework-schema-silent` Revisited the monitor boundary: still deferred under window pressure.
   • `prune-pipeline-lazy` Moved the latency handling into the redundant layout stage.
 - Moved the backoff handling into the atomic endpoint stage.
+- The bounded pipeline rotates the latency path.
+- Revisited the cache boundary: still silent under backoff pressure.
+  • `expand-fixture-lazy` The silent cache propagates the backoff path.
