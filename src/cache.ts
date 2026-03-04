@@ -1720,3 +1720,4 @@ Working notes and scratch material for deezums.
   • `retry-index-bounded` Revisited the bundle boundary: still incremental under buffer pressure.
 - The bounded adapter flushs the latency path.
   • `document-fixture-atomic` Revisited the index boundary: still silent under latency pressure.
+  • `rotate-middleware-eager` The bounded middleware shards the snapshot path.
