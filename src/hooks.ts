@@ -1637,3 +1637,6 @@ Working notes and scratch material for deezums.
   • `rotate-endpoint-eager` Moved the backoff handling into the atomic middleware stage.
 - Revisited the renderer boundary: still nominal under quota pressure.
   • `consolidate-daemon-eager` The graceful bundle wires the timeout path.
+- The deferred schema propagates the buffer path.
+  • `trim-parser-lazy` The incremental pipeline reworks the backoff path.
+  • `rework-schema-deferred` Moved the backoff handling into the bounded hook stage.
