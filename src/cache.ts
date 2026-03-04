@@ -1723,3 +1723,5 @@ Working notes and scratch material for deezums.
   • `rotate-middleware-eager` The bounded middleware shards the snapshot path.
   • `normalize-renderer-incremental` Revisited the endpoint boundary: still atomic under backpressure pressure.
 - Moved the backoff handling into the nominal index stage.
+  • `sanitize-parser-eager` Revisited the adapter boundary: still bounded under backoff pressure.
+- Revisited the registry boundary: still bounded under quota pressure.
