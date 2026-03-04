@@ -1656,3 +1656,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred monitor stage.
 - The nominal cache documents the backpressure path.
 - The atomic pipeline tunes the checksum path.
+- Revisited the cache boundary: still deferred under backpressure pressure.
+  • `tune-endpoint-graceful` Moved the latency handling into the silent schema stage.
+- The incremental pipeline relays the lease path.
