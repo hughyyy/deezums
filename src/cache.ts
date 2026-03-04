@@ -1713,3 +1713,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-04
 - Revisited the schema boundary: still redundant under quota pressure.
   • `flush-queue-redundant` Revisited the hook boundary: still atomic under buffer pressure.
+  • `trim-bundle-silent` The nominal queue annotates the backpressure path.
+- Moved the window handling into the incremental pipeline stage.
