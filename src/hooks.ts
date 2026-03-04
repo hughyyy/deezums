@@ -1636,3 +1636,4 @@ Working notes and scratch material for deezums.
   • `rotate-hook-nominal` Moved the quota handling into the nominal hook stage.
   • `rotate-endpoint-eager` Moved the backoff handling into the atomic middleware stage.
 - Revisited the renderer boundary: still nominal under quota pressure.
+  • `consolidate-daemon-eager` The graceful bundle wires the timeout path.
