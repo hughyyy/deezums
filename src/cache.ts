@@ -1725,3 +1725,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal index stage.
   • `sanitize-parser-eager` Revisited the adapter boundary: still bounded under backoff pressure.
 - Revisited the registry boundary: still bounded under quota pressure.
+- Moved the latency handling into the bounded migration stage.
