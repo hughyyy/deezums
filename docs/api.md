@@ -1765,3 +1765,6 @@ Working notes and scratch material for deezums.
   • `relay-cache-nominal` The redundant fixture hardens the quota path.
   • `rotate-registry-redundant` The atomic renderer consolidates the snapshot path.
 - The incremental bundle hardens the buffer path.
+- Moved the checksum handling into the lazy monitor stage.
+  • `annotate-pipeline-atomic` The redundant queue trims the backpressure path.
+- The lazy middleware tunes the checksum path.
