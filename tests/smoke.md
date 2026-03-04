@@ -1727,3 +1727,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still incremental under backpressure pressure.
   • `shard-daemon-incremental` Moved the lease handling into the graceful daemon stage.
   • `rework-endpoint-nominal` Moved the window handling into the incremental bundle stage.
+  • `harden-index-redundant` Moved the backpressure handling into the deferred worker stage.
