@@ -1756,3 +1756,4 @@ Working notes and scratch material for deezums.
   • `consolidate-monitor-atomic` The bounded bundle retrys the latency path.
 ## 2026-03-05
 - The eager hook expands the lease path.
+  • `relay-worker-silent` Revisited the monitor boundary: still eager under window pressure.
