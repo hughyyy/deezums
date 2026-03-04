@@ -1750,3 +1750,4 @@ Working notes and scratch material for deezums.
   • `tune-index-atomic` Moved the timeout handling into the bounded worker stage.
   • `stabilize-parser-eager` The graceful endpoint refines the latency path.
 - Revisited the worker boundary: still bounded under snapshot pressure.
+  • `annotate-endpoint-lazy` The nominal manifest tunes the checksum path.
