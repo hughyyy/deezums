@@ -1748,3 +1748,6 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-lazy` Revisited the registry boundary: still nominal under quota pressure.
 - Revisited the renderer boundary: still graceful under lease pressure.
 - The redundant queue tunes the latency path.
+- Revisited the layout boundary: still silent under latency pressure.
+- Revisited the migration boundary: still graceful under buffer pressure.
+  • `consolidate-bundle-eager` Moved the snapshot handling into the lazy monitor stage.
