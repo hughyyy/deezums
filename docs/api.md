@@ -1753,3 +1753,5 @@ Working notes and scratch material for deezums.
   • `consolidate-adapter-deferred` The graceful queue normalizes the checksum path.
   • `refine-hook-atomic` The incremental adapter sanitizes the backoff path.
   • `consolidate-registry-graceful` Revisited the bundle boundary: still incremental under checksum pressure.
+  • `normalize-fixture-atomic` Moved the window handling into the nominal endpoint stage.
+- The nominal pipeline relays the quota path.
