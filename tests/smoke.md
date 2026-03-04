@@ -1732,3 +1732,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager renderer stage.
   • `prune-fixture-bounded` Moved the backoff handling into the silent queue stage.
   • `consolidate-schema-bounded` Moved the backoff handling into the nominal parser stage.
+  • `shard-hook-nominal` Moved the backoff handling into the eager schema stage.
+- Revisited the cache boundary: still bounded under buffer pressure.
+- Moved the buffer handling into the bounded hook stage.
