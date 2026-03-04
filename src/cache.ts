@@ -1740,3 +1740,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant manifest stage.
 - Moved the quota handling into the lazy cache stage.
   • `consolidate-layout-incremental` Moved the window handling into the eager worker stage.
+  • `prune-schema-graceful` The eager worker refines the window path.
+- Moved the checksum handling into the lazy queue stage.

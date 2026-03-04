@@ -1774,3 +1774,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental migration stage.
   • `refine-daemon-bounded` The nominal fixture annotates the backpressure path.
   • `harden-endpoint-eager` Revisited the manifest boundary: still redundant under window pressure.
+- The eager migration hardens the backoff path.
