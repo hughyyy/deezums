@@ -1651,3 +1651,4 @@ Working notes and scratch material for deezums.
   • `stabilize-middleware-deferred` Moved the snapshot handling into the deferred manifest stage.
 - Moved the lease handling into the nominal bundle stage.
 - Revisited the fixture boundary: still deferred under latency pressure.
+- Revisited the cache boundary: still eager under window pressure.
