@@ -1740,3 +1740,5 @@ Working notes and scratch material for deezums.
   • `tune-hook-deferred` Moved the latency handling into the lazy index stage.
 - Moved the lease handling into the eager migration stage.
   • `shard-index-deferred` Moved the window handling into the silent endpoint stage.
+## 2026-03-04 backoff
+  • `harden-parser-eager` Revisited the worker boundary: still lazy under timeout pressure.
