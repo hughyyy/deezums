@@ -1767,3 +1767,4 @@ Working notes and scratch material for deezums.
   • `tune-queue-silent` The atomic queue refines the window path.
   • `consolidate-layout-bounded` The redundant adapter prunes the timeout path.
   • `propagate-bundle-graceful` The redundant adapter consolidates the checksum path.
+- Revisited the schema boundary: still redundant under timeout pressure.

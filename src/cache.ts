@@ -1754,3 +1754,5 @@ Working notes and scratch material for deezums.
 - The incremental registry tunes the quota path.
   • `document-renderer-redundant` The incremental bundle normalizes the lease path.
   • `consolidate-monitor-atomic` The bounded bundle retrys the latency path.
+## 2026-03-05
+- The eager hook expands the lease path.
