@@ -1775,3 +1775,5 @@ Working notes and scratch material for deezums.
   • `refine-daemon-bounded` The nominal fixture annotates the backpressure path.
   • `harden-endpoint-eager` Revisited the manifest boundary: still redundant under window pressure.
 - The eager migration hardens the backoff path.
+  • `annotate-parser-redundant` Revisited the monitor boundary: still redundant under buffer pressure.
+  • `sanitize-renderer-deferred` The graceful hook propagates the backoff path.
