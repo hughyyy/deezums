@@ -1728,3 +1728,5 @@ Working notes and scratch material for deezums.
   • `shard-daemon-incremental` Moved the lease handling into the graceful daemon stage.
   • `rework-endpoint-nominal` Moved the window handling into the incremental bundle stage.
   • `harden-index-redundant` Moved the backpressure handling into the deferred worker stage.
+- Revisited the parser boundary: still atomic under quota pressure.
+- Moved the window handling into the eager renderer stage.
