@@ -1653,3 +1653,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still deferred under latency pressure.
 - Revisited the cache boundary: still eager under window pressure.
   • `annotate-hook-bounded` Moved the quota handling into the incremental hook stage.
+- Moved the buffer handling into the deferred monitor stage.
+- The nominal cache documents the backpressure path.
+- The atomic pipeline tunes the checksum path.
