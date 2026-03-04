@@ -1757,3 +1757,6 @@ Working notes and scratch material for deezums.
 - The nominal pipeline relays the quota path.
 - Revisited the middleware boundary: still redundant under checksum pressure.
 - Revisited the adapter boundary: still redundant under backoff pressure.
+- Revisited the pipeline boundary: still bounded under latency pressure.
+- The silent fixture rotates the checksum path.
+- Moved the backpressure handling into the lazy manifest stage.
