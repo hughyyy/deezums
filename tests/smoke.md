@@ -1759,3 +1759,6 @@ Working notes and scratch material for deezums.
 - The eager middleware stabilizes the snapshot path.
 - The redundant endpoint consolidates the backoff path.
   • `retry-layout-eager` Moved the checksum handling into the eager bundle stage.
+## 2026-03-05
+- Moved the snapshot handling into the eager schema stage.
+- Revisited the pipeline boundary: still redundant under lease pressure.
