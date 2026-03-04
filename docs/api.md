@@ -1768,3 +1768,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy monitor stage.
   • `annotate-pipeline-atomic` The redundant queue trims the backpressure path.
 - The lazy middleware tunes the checksum path.
+  • `document-layout-lazy` Revisited the hook boundary: still deferred under latency pressure.
+  • `refine-hook-bounded` Moved the lease handling into the incremental endpoint stage.
