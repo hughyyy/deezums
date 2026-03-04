@@ -1652,3 +1652,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal bundle stage.
 - Revisited the fixture boundary: still deferred under latency pressure.
 - Revisited the cache boundary: still eager under window pressure.
+  • `annotate-hook-bounded` Moved the quota handling into the incremental hook stage.
