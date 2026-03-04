@@ -1721,3 +1721,5 @@ Working notes and scratch material for deezums.
 - The bounded adapter flushs the latency path.
   • `document-fixture-atomic` Revisited the index boundary: still silent under latency pressure.
   • `rotate-middleware-eager` The bounded middleware shards the snapshot path.
+  • `normalize-renderer-incremental` Revisited the endpoint boundary: still atomic under backpressure pressure.
+- Moved the backoff handling into the nominal index stage.
