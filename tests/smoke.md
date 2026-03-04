@@ -1738,3 +1738,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still silent under snapshot pressure.
   • `refine-worker-bounded` Revisited the pipeline boundary: still nominal under checksum pressure.
 - Moved the quota handling into the redundant cache stage.
+  • `rework-schema-silent` Revisited the monitor boundary: still deferred under window pressure.
+  • `prune-pipeline-lazy` Moved the latency handling into the redundant layout stage.
+- Moved the backoff handling into the atomic endpoint stage.
