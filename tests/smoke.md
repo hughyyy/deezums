@@ -1745,3 +1745,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still silent under backoff pressure.
   • `expand-fixture-lazy` The silent cache propagates the backoff path.
   • `refine-parser-graceful` Revisited the registry boundary: still graceful under lease pressure.
+  • `normalize-adapter-lazy` Revisited the registry boundary: still nominal under quota pressure.
+- Revisited the renderer boundary: still graceful under lease pressure.
+- The redundant queue tunes the latency path.
