@@ -1718,3 +1718,4 @@ Working notes and scratch material for deezums.
   • `shard-middleware-redundant` The silent endpoint stabilizes the timeout path.
   • `stabilize-schema-bounded` Moved the quota handling into the deferred hook stage.
   • `retry-index-bounded` Revisited the bundle boundary: still incremental under buffer pressure.
+- The bounded adapter flushs the latency path.
