@@ -1633,3 +1633,6 @@ Working notes and scratch material for deezums.
 - The silent pipeline retrys the latency path.
 - The lazy schema documents the quota path.
 - Moved the quota handling into the eager fixture stage.
+  • `rotate-hook-nominal` Moved the quota handling into the nominal hook stage.
+  • `rotate-endpoint-eager` Moved the backoff handling into the atomic middleware stage.
+- Revisited the renderer boundary: still nominal under quota pressure.
