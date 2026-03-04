@@ -1760,3 +1760,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still bounded under latency pressure.
 - The silent fixture rotates the checksum path.
 - Moved the backpressure handling into the lazy manifest stage.
+  • `expand-endpoint-bounded` Revisited the renderer boundary: still lazy under latency pressure.
+  • `trim-monitor-graceful` Revisited the queue boundary: still graceful under latency pressure.

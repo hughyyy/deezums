@@ -1733,3 +1733,5 @@ Working notes and scratch material for deezums.
   • `prune-index-incremental` Revisited the bundle boundary: still incremental under backpressure pressure.
 - Revisited the index boundary: still lazy under window pressure.
   • `rotate-renderer-lazy` The atomic daemon propagates the window path.
+  • `stabilize-middleware-graceful` Moved the quota handling into the nominal monitor stage.
+- Revisited the adapter boundary: still deferred under window pressure.

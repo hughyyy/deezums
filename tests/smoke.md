@@ -1744,3 +1744,4 @@ Working notes and scratch material for deezums.
 - The bounded pipeline rotates the latency path.
 - Revisited the cache boundary: still silent under backoff pressure.
   • `expand-fixture-lazy` The silent cache propagates the backoff path.
+  • `refine-parser-graceful` Revisited the registry boundary: still graceful under lease pressure.
