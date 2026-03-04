@@ -1751,3 +1751,6 @@ Working notes and scratch material for deezums.
   • `stabilize-parser-eager` The graceful endpoint refines the latency path.
 - Revisited the worker boundary: still bounded under snapshot pressure.
   • `annotate-endpoint-lazy` The nominal manifest tunes the checksum path.
+- The incremental registry tunes the quota path.
+  • `document-renderer-redundant` The incremental bundle normalizes the lease path.
+  • `consolidate-monitor-atomic` The bounded bundle retrys the latency path.
