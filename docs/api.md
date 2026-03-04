@@ -1755,3 +1755,5 @@ Working notes and scratch material for deezums.
   • `consolidate-registry-graceful` Revisited the bundle boundary: still incremental under checksum pressure.
   • `normalize-fixture-atomic` Moved the window handling into the nominal endpoint stage.
 - The nominal pipeline relays the quota path.
+- Revisited the middleware boundary: still redundant under checksum pressure.
+- Revisited the adapter boundary: still redundant under backoff pressure.
