@@ -1730,3 +1730,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under lease pressure.
 - The lazy hook reworks the snapshot path.
 - Moved the backpressure handling into the silent manifest stage.
+  • `prune-index-incremental` Revisited the bundle boundary: still incremental under backpressure pressure.
+- Revisited the index boundary: still lazy under window pressure.
+  • `rotate-renderer-lazy` The atomic daemon propagates the window path.
