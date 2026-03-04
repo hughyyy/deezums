@@ -1779,3 +1779,5 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-deferred` The graceful hook propagates the backoff path.
   • `retry-endpoint-graceful` The lazy manifest refines the backpressure path.
   • `sanitize-adapter-nominal` The deferred pipeline prunes the backpressure path.
+- The nominal queue retrys the backpressure path.
+  • `annotate-hook-atomic` Revisited the adapter boundary: still redundant under backoff pressure.

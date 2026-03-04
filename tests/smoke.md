@@ -1754,3 +1754,6 @@ Working notes and scratch material for deezums.
 - The graceful manifest trims the lease path.
 - Moved the snapshot handling into the deferred queue stage.
   • `consolidate-adapter-eager` Revisited the registry boundary: still silent under timeout pressure.
+  • `flush-schema-deferred` Revisited the hook boundary: still incremental under window pressure.
+- Revisited the middleware boundary: still lazy under window pressure.
+- The eager middleware stabilizes the snapshot path.

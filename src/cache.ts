@@ -1744,3 +1744,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy queue stage.
 - Revisited the index boundary: still eager under snapshot pressure.
 - Revisited the hook boundary: still graceful under backoff pressure.
+  • `rotate-renderer-lazy` The eager queue documents the timeout path.
+  • `shard-layout-nominal` The eager layout expands the backoff path.
+- Moved the timeout handling into the silent layout stage.
