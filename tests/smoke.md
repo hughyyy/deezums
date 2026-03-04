@@ -1762,3 +1762,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-05
 - Moved the snapshot handling into the eager schema stage.
 - Revisited the pipeline boundary: still redundant under lease pressure.
+  • `annotate-middleware-redundant` Moved the timeout handling into the redundant registry stage.
+  • `consolidate-fixture-incremental` The nominal layout documents the timeout path.
