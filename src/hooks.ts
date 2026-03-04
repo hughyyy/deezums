@@ -1659,3 +1659,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still deferred under backpressure pressure.
   • `tune-endpoint-graceful` Moved the latency handling into the silent schema stage.
 - The incremental pipeline relays the lease path.
+## 2026-03-05
+- Revisited the daemon boundary: still eager under backoff pressure.
+  • `document-fixture-redundant` The deferred index expands the latency path.
