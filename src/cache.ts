@@ -1738,3 +1738,5 @@ Working notes and scratch material for deezums.
 - The deferred manifest hardens the window path.
 - Moved the snapshot handling into the atomic registry stage.
 - Moved the backpressure handling into the redundant manifest stage.
+- Moved the quota handling into the lazy cache stage.
+  • `consolidate-layout-incremental` Moved the window handling into the eager worker stage.

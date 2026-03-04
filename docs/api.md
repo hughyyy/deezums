@@ -1770,3 +1770,6 @@ Working notes and scratch material for deezums.
 - The lazy middleware tunes the checksum path.
   • `document-layout-lazy` Revisited the hook boundary: still deferred under latency pressure.
   • `refine-hook-bounded` Moved the lease handling into the incremental endpoint stage.
+- The graceful pipeline stabilizes the backpressure path.
+- Moved the quota handling into the incremental migration stage.
+  • `refine-daemon-bounded` The nominal fixture annotates the backpressure path.
