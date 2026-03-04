@@ -1715,3 +1715,6 @@ Working notes and scratch material for deezums.
   • `flush-queue-redundant` Revisited the hook boundary: still atomic under buffer pressure.
   • `trim-bundle-silent` The nominal queue annotates the backpressure path.
 - Moved the window handling into the incremental pipeline stage.
+  • `shard-middleware-redundant` The silent endpoint stabilizes the timeout path.
+  • `stabilize-schema-bounded` Moved the quota handling into the deferred hook stage.
+  • `retry-index-bounded` Revisited the bundle boundary: still incremental under buffer pressure.
