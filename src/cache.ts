@@ -1735,3 +1735,6 @@ Working notes and scratch material for deezums.
   • `rotate-renderer-lazy` The atomic daemon propagates the window path.
   • `stabilize-middleware-graceful` Moved the quota handling into the nominal monitor stage.
 - Revisited the adapter boundary: still deferred under window pressure.
+- The deferred manifest hardens the window path.
+- Moved the snapshot handling into the atomic registry stage.
+- Moved the backpressure handling into the redundant manifest stage.

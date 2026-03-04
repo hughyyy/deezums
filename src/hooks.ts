@@ -1643,3 +1643,6 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-atomic` Moved the quota handling into the silent middleware stage.
 - Moved the backoff handling into the atomic fixture stage.
   • `relay-renderer-redundant` Revisited the manifest boundary: still redundant under latency pressure.
+  • `rework-index-nominal` Moved the lease handling into the nominal layout stage.
+- Moved the backpressure handling into the incremental worker stage.
+- Moved the snapshot handling into the atomic worker stage.
