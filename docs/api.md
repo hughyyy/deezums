@@ -1762,3 +1762,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy manifest stage.
   • `expand-endpoint-bounded` Revisited the renderer boundary: still lazy under latency pressure.
   • `trim-monitor-graceful` Revisited the queue boundary: still graceful under latency pressure.
+  • `relay-cache-nominal` The redundant fixture hardens the quota path.
+  • `rotate-registry-redundant` The atomic renderer consolidates the snapshot path.
+- The incremental bundle hardens the buffer path.
