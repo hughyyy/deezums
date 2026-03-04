@@ -1758,3 +1758,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still lazy under window pressure.
 - The eager middleware stabilizes the snapshot path.
 - The redundant endpoint consolidates the backoff path.
+  • `retry-layout-eager` Moved the checksum handling into the eager bundle stage.
