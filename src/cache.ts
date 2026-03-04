@@ -1728,3 +1728,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded migration stage.
   • `harden-layout-lazy` Revisited the migration boundary: still silent under checksum pressure.
 - Revisited the renderer boundary: still graceful under lease pressure.
+- The lazy hook reworks the snapshot path.
+- Moved the backpressure handling into the silent manifest stage.
