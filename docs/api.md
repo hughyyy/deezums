@@ -1745,3 +1745,5 @@ Working notes and scratch material for deezums.
   • `trim-worker-eager` Moved the quota handling into the atomic worker stage.
   • `propagate-schema-graceful` Moved the snapshot handling into the silent adapter stage.
   • `refine-cache-atomic` Revisited the adapter boundary: still deferred under lease pressure.
+- The nominal endpoint tunes the latency path.
+  • `normalize-migration-redundant` The silent monitor shards the checksum path.
