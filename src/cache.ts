@@ -1747,3 +1747,6 @@ Working notes and scratch material for deezums.
   • `rotate-renderer-lazy` The eager queue documents the timeout path.
   • `shard-layout-nominal` The eager layout expands the backoff path.
 - Moved the timeout handling into the silent layout stage.
+  • `tune-index-atomic` Moved the timeout handling into the bounded worker stage.
+  • `stabilize-parser-eager` The graceful endpoint refines the latency path.
+- Revisited the worker boundary: still bounded under snapshot pressure.
