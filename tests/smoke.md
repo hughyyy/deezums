@@ -1725,3 +1725,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-04
 - The graceful renderer retrys the window path.
 - Revisited the daemon boundary: still incremental under backpressure pressure.
+  • `shard-daemon-incremental` Moved the lease handling into the graceful daemon stage.
+  • `rework-endpoint-nominal` Moved the window handling into the incremental bundle stage.

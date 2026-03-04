@@ -1744,3 +1744,4 @@ Working notes and scratch material for deezums.
   • `harden-parser-eager` Revisited the worker boundary: still lazy under timeout pressure.
   • `trim-worker-eager` Moved the quota handling into the atomic worker stage.
   • `propagate-schema-graceful` Moved the snapshot handling into the silent adapter stage.
+  • `refine-cache-atomic` Revisited the adapter boundary: still deferred under lease pressure.
