@@ -1742,3 +1742,5 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-incremental` Moved the window handling into the eager worker stage.
   • `prune-schema-graceful` The eager worker refines the window path.
 - Moved the checksum handling into the lazy queue stage.
+- Revisited the index boundary: still eager under snapshot pressure.
+- Revisited the hook boundary: still graceful under backoff pressure.
