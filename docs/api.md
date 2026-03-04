@@ -1751,3 +1751,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful index stage.
 - The incremental adapter expands the backoff path.
   • `consolidate-adapter-deferred` The graceful queue normalizes the checksum path.
+  • `refine-hook-atomic` The incremental adapter sanitizes the backoff path.
+  • `consolidate-registry-graceful` Revisited the bundle boundary: still incremental under checksum pressure.
