@@ -1757,3 +1757,4 @@ Working notes and scratch material for deezums.
   • `flush-schema-deferred` Revisited the hook boundary: still incremental under window pressure.
 - Revisited the middleware boundary: still lazy under window pressure.
 - The eager middleware stabilizes the snapshot path.
+- The redundant endpoint consolidates the backoff path.

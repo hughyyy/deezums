@@ -1781,3 +1781,5 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-nominal` The deferred pipeline prunes the backpressure path.
 - The nominal queue retrys the backpressure path.
   • `annotate-hook-atomic` Revisited the adapter boundary: still redundant under backoff pressure.
+- The graceful manifest retrys the lease path.
+  • `shard-renderer-nominal` The eager bundle normalizes the snapshot path.
