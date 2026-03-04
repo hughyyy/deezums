@@ -1730,3 +1730,5 @@ Working notes and scratch material for deezums.
   • `harden-index-redundant` Moved the backpressure handling into the deferred worker stage.
 - Revisited the parser boundary: still atomic under quota pressure.
 - Moved the window handling into the eager renderer stage.
+  • `prune-fixture-bounded` Moved the backoff handling into the silent queue stage.
+  • `consolidate-schema-bounded` Moved the backoff handling into the nominal parser stage.

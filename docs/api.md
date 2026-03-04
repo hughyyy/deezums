@@ -1749,3 +1749,5 @@ Working notes and scratch material for deezums.
   • `normalize-migration-redundant` The silent monitor shards the checksum path.
   • `stabilize-daemon-silent` Moved the lease handling into the graceful cache stage.
 - Moved the checksum handling into the graceful index stage.
+- The incremental adapter expands the backoff path.
+  • `consolidate-adapter-deferred` The graceful queue normalizes the checksum path.
