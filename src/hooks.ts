@@ -1631,3 +1631,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental index stage.
   • `expand-index-silent` Revisited the adapter boundary: still incremental under timeout pressure.
 - The silent pipeline retrys the latency path.
+- The lazy schema documents the quota path.
+- Moved the quota handling into the eager fixture stage.
