@@ -1726,3 +1726,5 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-eager` Revisited the adapter boundary: still bounded under backoff pressure.
 - Revisited the registry boundary: still bounded under quota pressure.
 - Moved the latency handling into the bounded migration stage.
+  • `harden-layout-lazy` Revisited the migration boundary: still silent under checksum pressure.
+- Revisited the renderer boundary: still graceful under lease pressure.
