@@ -1777,3 +1777,5 @@ Working notes and scratch material for deezums.
 - The eager migration hardens the backoff path.
   • `annotate-parser-redundant` Revisited the monitor boundary: still redundant under buffer pressure.
   • `sanitize-renderer-deferred` The graceful hook propagates the backoff path.
+  • `retry-endpoint-graceful` The lazy manifest refines the backpressure path.
+  • `sanitize-adapter-nominal` The deferred pipeline prunes the backpressure path.
