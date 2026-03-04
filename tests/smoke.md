@@ -1752,3 +1752,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still graceful under buffer pressure.
   • `consolidate-bundle-eager` Moved the snapshot handling into the lazy monitor stage.
 - The graceful manifest trims the lease path.
+- Moved the snapshot handling into the deferred queue stage.
+  • `consolidate-adapter-eager` Revisited the registry boundary: still silent under timeout pressure.
