@@ -1795,3 +1795,4 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-incremental` The bounded registry reworks the lease path.
   • `propagate-hook-atomic` The silent layout consolidates the latency path.
 - The atomic index consolidates the buffer path.
+- Revisited the pipeline boundary: still lazy under window pressure.
