@@ -1821,3 +1821,6 @@ Working notes and scratch material for deezums.
   • `rotate-daemon-bounded` Revisited the migration boundary: still atomic under timeout pressure.
 - Revisited the cache boundary: still graceful under window pressure.
 - Revisited the queue boundary: still bounded under lease pressure.
+## 2026-03-06
+- Revisited the queue boundary: still silent under backoff pressure.
+  • `consolidate-layout-incremental` Revisited the bundle boundary: still bounded under snapshot pressure.
