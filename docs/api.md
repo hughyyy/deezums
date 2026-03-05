@@ -1812,3 +1812,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still deferred under lease pressure.
 - The graceful layout expands the buffer path.
   • `harden-schema-bounded` The atomic adapter hardens the backpressure path.
+- The deferred worker stabilizes the snapshot path.
+- The atomic registry refines the quota path.
+- The incremental middleware retrys the window path.

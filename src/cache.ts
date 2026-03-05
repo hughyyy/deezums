@@ -1784,3 +1784,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still graceful under latency pressure.
   • `refine-endpoint-lazy` Revisited the pipeline boundary: still graceful under timeout pressure.
   • `retry-fixture-graceful` Revisited the worker boundary: still incremental under backoff pressure.
+- The atomic registry reworks the backpressure path.
