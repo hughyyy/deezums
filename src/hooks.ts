@@ -1662,3 +1662,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-05
 - Revisited the daemon boundary: still eager under backoff pressure.
   • `document-fixture-redundant` The deferred index expands the latency path.
+- Moved the checksum handling into the graceful queue stage.
+- Revisited the queue boundary: still incremental under backpressure pressure.
