@@ -1818,3 +1818,4 @@ Working notes and scratch material for deezums.
   • `document-adapter-deferred` Revisited the daemon boundary: still deferred under backoff pressure.
   • `tune-cache-incremental` Revisited the middleware boundary: still deferred under backpressure pressure.
 - Revisited the pipeline boundary: still eager under lease pressure.
+  • `rotate-daemon-bounded` Revisited the migration boundary: still atomic under timeout pressure.
