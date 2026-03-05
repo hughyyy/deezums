@@ -1674,3 +1674,4 @@ Working notes and scratch material for deezums.
 - The bounded endpoint tunes the quota path.
 - Moved the buffer handling into the redundant parser stage.
   • `stabilize-migration-redundant` Revisited the schema boundary: still incremental under latency pressure.
+  • `prune-monitor-bounded` Revisited the queue boundary: still redundant under backpressure pressure.
