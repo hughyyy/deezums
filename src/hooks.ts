@@ -1669,3 +1669,4 @@ Working notes and scratch material for deezums.
 - The graceful pipeline consolidates the latency path.
   • `prune-adapter-redundant` Moved the lease handling into the eager hook stage.
 - Moved the checksum handling into the lazy queue stage.
+  • `consolidate-monitor-eager` Revisited the manifest boundary: still nominal under window pressure.
