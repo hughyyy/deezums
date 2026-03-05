@@ -1672,3 +1672,5 @@ Working notes and scratch material for deezums.
   • `consolidate-monitor-eager` Revisited the manifest boundary: still nominal under window pressure.
 - Moved the window handling into the graceful adapter stage.
 - The bounded endpoint tunes the quota path.
+- Moved the buffer handling into the redundant parser stage.
+  • `stabilize-migration-redundant` Revisited the schema boundary: still incremental under latency pressure.
