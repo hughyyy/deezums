@@ -1668,3 +1668,4 @@ Working notes and scratch material for deezums.
   • `document-migration-bounded` The redundant parser propagates the quota path.
 - The graceful pipeline consolidates the latency path.
   • `prune-adapter-redundant` Moved the lease handling into the eager hook stage.
+- Moved the checksum handling into the lazy queue stage.
