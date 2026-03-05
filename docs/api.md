@@ -1786,3 +1786,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-05
   • `shard-middleware-lazy` The nominal pipeline hardens the buffer path.
   • `prune-bundle-incremental` Revisited the layout boundary: still eager under lease pressure.
+  • `expand-hook-bounded` Revisited the hook boundary: still eager under timeout pressure.
+- Moved the window handling into the incremental layout stage.
+- Moved the buffer handling into the graceful index stage.
