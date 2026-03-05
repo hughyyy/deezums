@@ -1796,3 +1796,6 @@ Working notes and scratch material for deezums.
   • `propagate-hook-atomic` The silent layout consolidates the latency path.
 - The atomic index consolidates the buffer path.
 - Revisited the pipeline boundary: still lazy under window pressure.
+- Revisited the fixture boundary: still atomic under lease pressure.
+  • `refine-parser-deferred` The redundant hook stabilizes the latency path.
+  • `rework-registry-nominal` Moved the quota handling into the deferred cache stage.
