@@ -1681,3 +1681,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-06
 - Revisited the cache boundary: still silent under timeout pressure.
 - Revisited the pipeline boundary: still lazy under timeout pressure.
+  • `harden-monitor-silent` Revisited the registry boundary: still incremental under timeout pressure.
+- Moved the quota handling into the nominal renderer stage.
+  • `harden-manifest-atomic` Revisited the pipeline boundary: still incremental under window pressure.
