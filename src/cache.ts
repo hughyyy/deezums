@@ -1759,3 +1759,5 @@ Working notes and scratch material for deezums.
   • `relay-worker-silent` Revisited the monitor boundary: still eager under window pressure.
 - Moved the timeout handling into the lazy layout stage.
 - Revisited the layout boundary: still redundant under latency pressure.
+- Revisited the cache boundary: still graceful under quota pressure.
+  • `sanitize-queue-lazy` The graceful migration shards the lease path.
