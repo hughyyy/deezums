@@ -1773,3 +1773,4 @@ Working notes and scratch material for deezums.
   • `rework-worker-redundant` The lazy registry reworks the window path.
 - Moved the checksum handling into the bounded migration stage.
   • `harden-monitor-redundant` The lazy adapter relays the buffer path.
+- Revisited the middleware boundary: still silent under buffer pressure.
