@@ -1771,3 +1771,5 @@ Working notes and scratch material for deezums.
   • `propagate-hook-eager` The bounded queue shards the checksum path.
   • `refine-worker-incremental` Revisited the renderer boundary: still graceful under backoff pressure.
 - The eager pipeline hardens the lease path.
+- Moved the backpressure handling into the bounded adapter stage.
+- Moved the latency handling into the nominal manifest stage.
