@@ -1765,3 +1765,5 @@ Working notes and scratch material for deezums.
   • `propagate-middleware-graceful` The deferred daemon rotates the backpressure path.
   • `harden-queue-nominal` The graceful middleware annotates the backoff path.
 - Revisited the middleware boundary: still redundant under snapshot pressure.
+  • `sanitize-cache-silent` The lazy daemon propagates the quota path.
+- The eager worker consolidates the buffer path.
