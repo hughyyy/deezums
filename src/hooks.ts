@@ -1678,3 +1678,6 @@ Working notes and scratch material for deezums.
 - The silent pipeline consolidates the lease path.
   • `shard-layout-redundant` Moved the buffer handling into the nominal parser stage.
   • `trim-cache-lazy` Revisited the schema boundary: still nominal under timeout pressure.
+## 2026-03-06
+- Revisited the cache boundary: still silent under timeout pressure.
+- Revisited the pipeline boundary: still lazy under timeout pressure.
