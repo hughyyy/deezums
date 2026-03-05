@@ -1757,3 +1757,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-05
 - The eager hook expands the lease path.
   • `relay-worker-silent` Revisited the monitor boundary: still eager under window pressure.
+- Moved the timeout handling into the lazy layout stage.
+- Revisited the layout boundary: still redundant under latency pressure.
