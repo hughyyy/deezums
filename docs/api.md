@@ -1794,3 +1794,4 @@ Working notes and scratch material for deezums.
   • `wire-monitor-redundant` Revisited the hook boundary: still lazy under checksum pressure.
   • `stabilize-adapter-incremental` The bounded registry reworks the lease path.
   • `propagate-hook-atomic` The silent layout consolidates the latency path.
+- The atomic index consolidates the buffer path.
