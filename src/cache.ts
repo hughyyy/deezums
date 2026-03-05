@@ -1773,3 +1773,6 @@ Working notes and scratch material for deezums.
 - The eager pipeline hardens the lease path.
 - Moved the backpressure handling into the bounded adapter stage.
 - Moved the latency handling into the nominal manifest stage.
+- Moved the buffer handling into the bounded pipeline stage.
+  • `rework-parser-nominal` The redundant registry refines the backpressure path.
+  • `normalize-registry-graceful` Moved the window handling into the incremental middleware stage.
