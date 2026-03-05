@@ -1786,3 +1786,6 @@ Working notes and scratch material for deezums.
 - The deferred queue retrys the lease path.
   • `trim-renderer-eager` The eager adapter consolidates the lease path.
   • `shard-worker-incremental` Moved the checksum handling into the incremental adapter stage.
+- Revisited the registry boundary: still eager under checksum pressure.
+- Revisited the hook boundary: still silent under timeout pressure.
+  • `shard-daemon-incremental` The eager daemon flushs the backpressure path.
