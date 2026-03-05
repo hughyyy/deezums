@@ -1670,3 +1670,4 @@ Working notes and scratch material for deezums.
   • `prune-adapter-redundant` Moved the lease handling into the eager hook stage.
 - Moved the checksum handling into the lazy queue stage.
   • `consolidate-monitor-eager` Revisited the manifest boundary: still nominal under window pressure.
+- Moved the window handling into the graceful adapter stage.

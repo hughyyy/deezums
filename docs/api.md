@@ -1799,3 +1799,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still atomic under lease pressure.
   • `refine-parser-deferred` The redundant hook stabilizes the latency path.
   • `rework-registry-nominal` Moved the quota handling into the deferred cache stage.
+  • `expand-hook-deferred` Moved the backpressure handling into the incremental parser stage.
+- Revisited the fixture boundary: still graceful under quota pressure.
+  • `shard-adapter-nominal` Moved the timeout handling into the atomic registry stage.
