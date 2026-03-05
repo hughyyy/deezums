@@ -1777,3 +1777,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still incremental under lease pressure.
   • `annotate-endpoint-deferred` Moved the timeout handling into the graceful endpoint stage.
   • `normalize-hook-eager` Revisited the endpoint boundary: still eager under window pressure.
+  • `flush-schema-lazy` Moved the checksum handling into the graceful manifest stage.
+  • `rework-pipeline-graceful` Moved the backpressure handling into the deferred monitor stage.
