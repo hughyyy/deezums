@@ -1807,3 +1807,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still redundant under backoff pressure.
   • `annotate-worker-eager` Moved the window handling into the bounded parser stage.
 - Revisited the middleware boundary: still deferred under latency pressure.
+  • `normalize-worker-deferred` Moved the backpressure handling into the deferred hook stage.
+- The incremental schema flushs the quota path.
+- Revisited the pipeline boundary: still deferred under lease pressure.
