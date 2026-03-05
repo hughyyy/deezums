@@ -1785,3 +1785,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still atomic under backoff pressure.
 - The deferred queue retrys the lease path.
   • `trim-renderer-eager` The eager adapter consolidates the lease path.
+  • `shard-worker-incremental` Moved the checksum handling into the incremental adapter stage.

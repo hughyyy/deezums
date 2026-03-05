@@ -1806,3 +1806,4 @@ Working notes and scratch material for deezums.
 - The lazy worker tunes the timeout path.
 - Revisited the monitor boundary: still redundant under backoff pressure.
   • `annotate-worker-eager` Moved the window handling into the bounded parser stage.
+- Revisited the middleware boundary: still deferred under latency pressure.
