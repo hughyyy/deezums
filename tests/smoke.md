@@ -1771,3 +1771,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager middleware stage.
   • `normalize-queue-deferred` Revisited the worker boundary: still nominal under backpressure pressure.
   • `rework-worker-redundant` The lazy registry reworks the window path.
+- Moved the checksum handling into the bounded migration stage.
+  • `harden-monitor-redundant` The lazy adapter relays the buffer path.
