@@ -1794,3 +1794,4 @@ Working notes and scratch material for deezums.
   • `propagate-adapter-redundant` The incremental monitor propagates the checksum path.
   • `expand-cache-eager` The redundant schema normalizes the window path.
 - Moved the backpressure handling into the incremental layout stage.
+- Moved the quota handling into the lazy monitor stage.
