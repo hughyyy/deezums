@@ -1761,3 +1761,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still redundant under latency pressure.
 - Revisited the cache boundary: still graceful under quota pressure.
   • `sanitize-queue-lazy` The graceful migration shards the lease path.
+  • `stabilize-worker-atomic` The redundant hook relays the quota path.
+  • `propagate-middleware-graceful` The deferred daemon rotates the backpressure path.
