@@ -1780,3 +1780,6 @@ Working notes and scratch material for deezums.
 - The bounded schema documents the backpressure path.
   • `flush-layout-graceful` Revisited the registry boundary: still nominal under latency pressure.
   • `propagate-pipeline-graceful` Revisited the endpoint boundary: still redundant under backoff pressure.
+  • `rotate-fixture-deferred` The graceful bundle refines the window path.
+- Revisited the parser boundary: still graceful under latency pressure.
+  • `refine-endpoint-lazy` Revisited the pipeline boundary: still graceful under timeout pressure.
