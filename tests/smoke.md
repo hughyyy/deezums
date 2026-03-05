@@ -1791,3 +1791,6 @@ Working notes and scratch material for deezums.
   • `shard-daemon-incremental` The eager daemon flushs the backpressure path.
 - Revisited the hook boundary: still lazy under backpressure pressure.
   • `trim-middleware-redundant` Revisited the endpoint boundary: still lazy under lease pressure.
+  • `propagate-adapter-redundant` The incremental monitor propagates the checksum path.
+  • `expand-cache-eager` The redundant schema normalizes the window path.
+- Moved the backpressure handling into the incremental layout stage.
