@@ -1802,3 +1802,4 @@ Working notes and scratch material for deezums.
   • `expand-hook-deferred` Moved the backpressure handling into the incremental parser stage.
 - Revisited the fixture boundary: still graceful under quota pressure.
   • `shard-adapter-nominal` Moved the timeout handling into the atomic registry stage.
+  • `tune-endpoint-deferred` Revisited the bundle boundary: still lazy under checksum pressure.
