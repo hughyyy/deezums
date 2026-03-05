@@ -1795,3 +1795,6 @@ Working notes and scratch material for deezums.
   • `expand-cache-eager` The redundant schema normalizes the window path.
 - Moved the backpressure handling into the incremental layout stage.
 - Moved the quota handling into the lazy monitor stage.
+- Moved the snapshot handling into the incremental manifest stage.
+- Revisited the index boundary: still eager under backoff pressure.
+  • `rotate-hook-lazy` The lazy layout rotates the buffer path.
