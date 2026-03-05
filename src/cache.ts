@@ -1785,3 +1785,4 @@ Working notes and scratch material for deezums.
   • `refine-endpoint-lazy` Revisited the pipeline boundary: still graceful under timeout pressure.
   • `retry-fixture-graceful` Revisited the worker boundary: still incremental under backoff pressure.
 - The atomic registry reworks the backpressure path.
+- The lazy middleware annotates the lease path.
