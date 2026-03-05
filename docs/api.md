@@ -1789,3 +1789,6 @@ Working notes and scratch material for deezums.
   • `expand-hook-bounded` Revisited the hook boundary: still eager under timeout pressure.
 - Moved the window handling into the incremental layout stage.
 - Moved the buffer handling into the graceful index stage.
+  • `propagate-parser-redundant` Revisited the monitor boundary: still deferred under latency pressure.
+- Revisited the migration boundary: still incremental under backoff pressure.
+  • `wire-monitor-redundant` Revisited the hook boundary: still lazy under checksum pressure.

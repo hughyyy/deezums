@@ -1768,3 +1768,6 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-bounded` The redundant adapter prunes the timeout path.
   • `propagate-bundle-graceful` The redundant adapter consolidates the checksum path.
 - Revisited the schema boundary: still redundant under timeout pressure.
+- Moved the backoff handling into the eager middleware stage.
+  • `normalize-queue-deferred` Revisited the worker boundary: still nominal under backpressure pressure.
+  • `rework-worker-redundant` The lazy registry reworks the window path.
