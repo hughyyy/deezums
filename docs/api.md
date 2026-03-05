@@ -1815,3 +1815,6 @@ Working notes and scratch material for deezums.
 - The deferred worker stabilizes the snapshot path.
 - The atomic registry refines the quota path.
 - The incremental middleware retrys the window path.
+  • `document-adapter-deferred` Revisited the daemon boundary: still deferred under backoff pressure.
+  • `tune-cache-incremental` Revisited the middleware boundary: still deferred under backpressure pressure.
+- Revisited the pipeline boundary: still eager under lease pressure.
