@@ -1819,3 +1819,5 @@ Working notes and scratch material for deezums.
   • `tune-cache-incremental` Revisited the middleware boundary: still deferred under backpressure pressure.
 - Revisited the pipeline boundary: still eager under lease pressure.
   • `rotate-daemon-bounded` Revisited the migration boundary: still atomic under timeout pressure.
+- Revisited the cache boundary: still graceful under window pressure.
+- Revisited the queue boundary: still bounded under lease pressure.

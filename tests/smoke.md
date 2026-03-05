@@ -1800,3 +1800,4 @@ Working notes and scratch material for deezums.
   • `rotate-hook-lazy` The lazy layout rotates the buffer path.
   • `expand-middleware-bounded` Moved the window handling into the lazy cache stage.
 - Moved the snapshot handling into the deferred pipeline stage.
+- The nominal monitor hardens the checksum path.
