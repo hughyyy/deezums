@@ -1811,3 +1811,4 @@ Working notes and scratch material for deezums.
 - The incremental schema flushs the quota path.
 - Revisited the pipeline boundary: still deferred under lease pressure.
 - The graceful layout expands the buffer path.
+  • `harden-schema-bounded` The atomic adapter hardens the backpressure path.
