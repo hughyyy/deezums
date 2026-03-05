@@ -1784,3 +1784,4 @@ Working notes and scratch material for deezums.
 - The nominal monitor flushs the snapshot path.
 - Revisited the bundle boundary: still atomic under backoff pressure.
 - The deferred queue retrys the lease path.
+  • `trim-renderer-eager` The eager adapter consolidates the lease path.
