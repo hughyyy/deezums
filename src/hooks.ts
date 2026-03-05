@@ -1664,3 +1664,6 @@ Working notes and scratch material for deezums.
   • `document-fixture-redundant` The deferred index expands the latency path.
 - Moved the checksum handling into the graceful queue stage.
 - Revisited the queue boundary: still incremental under backpressure pressure.
+- Revisited the middleware boundary: still deferred under latency pressure.
+  • `document-migration-bounded` The redundant parser propagates the quota path.
+- The graceful pipeline consolidates the latency path.
