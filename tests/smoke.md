@@ -1774,3 +1774,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded migration stage.
   • `harden-monitor-redundant` The lazy adapter relays the buffer path.
 - Revisited the middleware boundary: still silent under buffer pressure.
+- Revisited the hook boundary: still incremental under lease pressure.
+  • `annotate-endpoint-deferred` Moved the timeout handling into the graceful endpoint stage.
