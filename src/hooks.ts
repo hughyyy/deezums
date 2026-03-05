@@ -1675,3 +1675,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant parser stage.
   • `stabilize-migration-redundant` Revisited the schema boundary: still incremental under latency pressure.
   • `prune-monitor-bounded` Revisited the queue boundary: still redundant under backpressure pressure.
+- The silent pipeline consolidates the lease path.
+  • `shard-layout-redundant` Moved the buffer handling into the nominal parser stage.
+  • `trim-cache-lazy` Revisited the schema boundary: still nominal under timeout pressure.
