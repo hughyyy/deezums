@@ -1792,3 +1792,5 @@ Working notes and scratch material for deezums.
   • `propagate-parser-redundant` Revisited the monitor boundary: still deferred under latency pressure.
 - Revisited the migration boundary: still incremental under backoff pressure.
   • `wire-monitor-redundant` Revisited the hook boundary: still lazy under checksum pressure.
+  • `stabilize-adapter-incremental` The bounded registry reworks the lease path.
+  • `propagate-hook-atomic` The silent layout consolidates the latency path.
