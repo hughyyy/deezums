@@ -1667,3 +1667,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still deferred under latency pressure.
   • `document-migration-bounded` The redundant parser propagates the quota path.
 - The graceful pipeline consolidates the latency path.
+  • `prune-adapter-redundant` Moved the lease handling into the eager hook stage.
