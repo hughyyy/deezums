@@ -1789,3 +1789,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still eager under checksum pressure.
 - Revisited the hook boundary: still silent under timeout pressure.
   • `shard-daemon-incremental` The eager daemon flushs the backpressure path.
+- Revisited the hook boundary: still lazy under backpressure pressure.
+  • `trim-middleware-redundant` Revisited the endpoint boundary: still lazy under lease pressure.

@@ -1810,3 +1810,4 @@ Working notes and scratch material for deezums.
   • `normalize-worker-deferred` Moved the backpressure handling into the deferred hook stage.
 - The incremental schema flushs the quota path.
 - Revisited the pipeline boundary: still deferred under lease pressure.
+- The graceful layout expands the buffer path.
