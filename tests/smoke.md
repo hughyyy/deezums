@@ -1779,3 +1779,5 @@ Working notes and scratch material for deezums.
   • `normalize-hook-eager` Revisited the endpoint boundary: still eager under window pressure.
   • `flush-schema-lazy` Moved the checksum handling into the graceful manifest stage.
   • `rework-pipeline-graceful` Moved the backpressure handling into the deferred monitor stage.
+- Moved the latency handling into the incremental layout stage.
+- Moved the timeout handling into the incremental layout stage.
