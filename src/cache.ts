@@ -1769,3 +1769,5 @@ Working notes and scratch material for deezums.
 - The eager worker consolidates the buffer path.
   • `annotate-index-redundant` Revisited the worker boundary: still redundant under backpressure pressure.
   • `propagate-hook-eager` The bounded queue shards the checksum path.
+  • `refine-worker-incremental` Revisited the renderer boundary: still graceful under backoff pressure.
+- The eager pipeline hardens the lease path.
