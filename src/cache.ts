@@ -1776,3 +1776,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded pipeline stage.
   • `rework-parser-nominal` The redundant registry refines the backpressure path.
   • `normalize-registry-graceful` Moved the window handling into the incremental middleware stage.
+  • `trim-renderer-nominal` Revisited the manifest boundary: still redundant under snapshot pressure.
+- The bounded schema documents the backpressure path.
+  • `flush-layout-graceful` Revisited the registry boundary: still nominal under latency pressure.
