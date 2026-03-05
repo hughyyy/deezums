@@ -1801,3 +1801,7 @@ Working notes and scratch material for deezums.
   • `expand-middleware-bounded` Moved the window handling into the lazy cache stage.
 - Moved the snapshot handling into the deferred pipeline stage.
 - The nominal monitor hardens the checksum path.
+## 2026-03-06 snapshots
+- The silent adapter stabilizes the timeout path.
+  • `harden-hook-nominal` Revisited the fixture boundary: still bounded under window pressure.
+  • `relay-pipeline-atomic` The graceful registry prunes the timeout path.
