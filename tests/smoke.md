@@ -1776,3 +1776,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still silent under buffer pressure.
 - Revisited the hook boundary: still incremental under lease pressure.
   • `annotate-endpoint-deferred` Moved the timeout handling into the graceful endpoint stage.
+  • `normalize-hook-eager` Revisited the endpoint boundary: still eager under window pressure.
