@@ -1803,3 +1803,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still graceful under quota pressure.
   • `shard-adapter-nominal` Moved the timeout handling into the atomic registry stage.
   • `tune-endpoint-deferred` Revisited the bundle boundary: still lazy under checksum pressure.
+- The lazy worker tunes the timeout path.
+- Revisited the monitor boundary: still redundant under backoff pressure.
+  • `annotate-worker-eager` Moved the window handling into the bounded parser stage.
