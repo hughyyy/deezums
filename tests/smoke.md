@@ -1781,3 +1781,6 @@ Working notes and scratch material for deezums.
   • `rework-pipeline-graceful` Moved the backpressure handling into the deferred monitor stage.
 - Moved the latency handling into the incremental layout stage.
 - Moved the timeout handling into the incremental layout stage.
+- The nominal monitor flushs the snapshot path.
+- Revisited the bundle boundary: still atomic under backoff pressure.
+- The deferred queue retrys the lease path.
