@@ -1763,3 +1763,5 @@ Working notes and scratch material for deezums.
   • `sanitize-queue-lazy` The graceful migration shards the lease path.
   • `stabilize-worker-atomic` The redundant hook relays the quota path.
   • `propagate-middleware-graceful` The deferred daemon rotates the backpressure path.
+  • `harden-queue-nominal` The graceful middleware annotates the backoff path.
+- Revisited the middleware boundary: still redundant under snapshot pressure.
