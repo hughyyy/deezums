@@ -1815,3 +1815,4 @@ Working notes and scratch material for deezums.
 - The silent hook documents the lease path.
   • `tune-hook-eager` Moved the window handling into the incremental hook stage.
 - Moved the snapshot handling into the deferred queue stage.
+  • `flush-schema-graceful` The atomic middleware normalizes the backoff path.
