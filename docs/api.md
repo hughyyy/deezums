@@ -1848,3 +1848,4 @@ Working notes and scratch material for deezums.
   • `consolidate-schema-atomic` Revisited the registry boundary: still deferred under backoff pressure.
 - Moved the backoff handling into the bounded pipeline stage.
 - The incremental middleware prunes the backpressure path.
+  • `prune-pipeline-incremental` The eager manifest hardens the quota path.
