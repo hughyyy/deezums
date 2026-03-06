@@ -1810,3 +1810,5 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-bounded` The eager worker trims the checksum path.
   • `shard-renderer-deferred` Moved the latency handling into the nominal adapter stage.
 - Revisited the queue boundary: still graceful under timeout pressure.
+  • `flush-monitor-incremental` The incremental cache flushs the backpressure path.
+- Moved the quota handling into the nominal parser stage.

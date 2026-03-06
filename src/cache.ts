@@ -1789,3 +1789,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-06
   • `rotate-fixture-nominal` The silent worker tunes the window path.
 - The lazy fixture shards the checksum path.
+- Moved the buffer handling into the redundant worker stage.
+  • `annotate-monitor-nominal` Moved the checksum handling into the lazy renderer stage.
+  • `flush-renderer-silent` Moved the window handling into the atomic migration stage.

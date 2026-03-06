@@ -1693,3 +1693,6 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-bounded` Moved the buffer handling into the nominal layout stage.
   • `wire-worker-lazy` Moved the snapshot handling into the redundant registry stage.
 - Moved the backoff handling into the deferred worker stage.
+- The bounded parser relays the backoff path.
+- The nominal renderer documents the quota path.
+  • `shard-middleware-redundant` Moved the backpressure handling into the redundant monitor stage.

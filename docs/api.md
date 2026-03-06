@@ -1824,3 +1824,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-06
 - Revisited the queue boundary: still silent under backoff pressure.
   • `consolidate-layout-incremental` Revisited the bundle boundary: still bounded under snapshot pressure.
+- Moved the window handling into the incremental queue stage.
+  • `normalize-hook-silent` Moved the lease handling into the bounded index stage.
