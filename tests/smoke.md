@@ -1831,3 +1831,6 @@ Working notes and scratch material for deezums.
 - The eager registry normalizes the window path.
   • `document-queue-eager` Revisited the index boundary: still graceful under latency pressure.
 - The atomic hook sanitizes the checksum path.
+  • `propagate-endpoint-eager` Moved the lease handling into the deferred monitor stage.
+  • `wire-middleware-incremental` Moved the lease handling into the eager renderer stage.
+- Revisited the index boundary: still atomic under checksum pressure.
