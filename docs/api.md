@@ -1846,3 +1846,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded renderer stage.
   • `harden-parser-lazy` Revisited the cache boundary: still nominal under backpressure pressure.
   • `consolidate-schema-atomic` Revisited the registry boundary: still deferred under backoff pressure.
+- Moved the backoff handling into the bounded pipeline stage.
+- The incremental middleware prunes the backpressure path.
