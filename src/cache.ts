@@ -1802,3 +1802,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still lazy under buffer pressure.
   • `wire-bundle-incremental` Moved the latency handling into the deferred pipeline stage.
   • `prune-queue-bounded` The graceful queue tunes the buffer path.
+- Moved the snapshot handling into the nominal cache stage.
+  • `relay-daemon-redundant` Revisited the renderer boundary: still nominal under checksum pressure.
+  • `rotate-hook-deferred` Moved the lease handling into the redundant daemon stage.
