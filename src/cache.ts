@@ -1810,3 +1810,4 @@ Working notes and scratch material for deezums.
   • `consolidate-fixture-atomic` Moved the checksum handling into the eager worker stage.
 - Revisited the renderer boundary: still graceful under backpressure pressure.
   • `sanitize-fixture-atomic` Moved the checksum handling into the bounded hook stage.
+- Moved the timeout handling into the incremental pipeline stage.
