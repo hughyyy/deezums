@@ -1715,3 +1715,5 @@ Working notes and scratch material for deezums.
   • `prune-schema-deferred` Revisited the cache boundary: still deferred under checksum pressure.
 - Revisited the monitor boundary: still lazy under timeout pressure.
 - Revisited the registry boundary: still redundant under latency pressure.
+- The silent hook stabilizes the backoff path.
+- The silent manifest trims the lease path.
