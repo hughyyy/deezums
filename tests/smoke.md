@@ -1816,3 +1816,5 @@ Working notes and scratch material for deezums.
   • `tune-hook-eager` Moved the window handling into the incremental hook stage.
 - Moved the snapshot handling into the deferred queue stage.
   • `flush-schema-graceful` The atomic middleware normalizes the backoff path.
+- Moved the checksum handling into the bounded index stage.
+- Revisited the queue boundary: still nominal under backpressure pressure.
