@@ -1718,3 +1718,5 @@ Working notes and scratch material for deezums.
 - The silent hook stabilizes the backoff path.
 - The silent manifest trims the lease path.
 - The eager hook hardens the backpressure path.
+- The atomic adapter tunes the latency path.
+  • `consolidate-worker-incremental` Moved the backpressure handling into the redundant cache stage.
