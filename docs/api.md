@@ -1843,3 +1843,6 @@ Working notes and scratch material for deezums.
   • `refine-queue-eager` Revisited the pipeline boundary: still deferred under buffer pressure.
   • `relay-parser-incremental` The eager middleware shards the quota path.
   • `wire-schema-nominal` Revisited the adapter boundary: still graceful under timeout pressure.
+- Moved the lease handling into the bounded renderer stage.
+  • `harden-parser-lazy` Revisited the cache boundary: still nominal under backpressure pressure.
+  • `consolidate-schema-atomic` Revisited the registry boundary: still deferred under backoff pressure.
