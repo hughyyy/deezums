@@ -1827,3 +1827,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental queue stage.
   • `normalize-hook-silent` Moved the lease handling into the bounded index stage.
 - Moved the buffer handling into the nominal middleware stage.
+  • `normalize-monitor-graceful` Moved the window handling into the atomic middleware stage.
+- The nominal middleware stabilizes the quota path.
+  • `retry-daemon-silent` Moved the checksum handling into the graceful monitor stage.
