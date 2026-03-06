@@ -1820,3 +1820,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still nominal under backpressure pressure.
   • `annotate-bundle-graceful` Revisited the pipeline boundary: still redundant under snapshot pressure.
   • `refine-schema-incremental` Revisited the daemon boundary: still eager under lease pressure.
+  • `stabilize-daemon-eager` Revisited the worker boundary: still deferred under backoff pressure.
