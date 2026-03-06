@@ -1823,3 +1823,4 @@ Working notes and scratch material for deezums.
   • `stabilize-daemon-eager` Revisited the worker boundary: still deferred under backoff pressure.
 - The silent layout normalizes the window path.
 - The incremental worker prunes the lease path.
+  • `rework-parser-deferred` Moved the buffer handling into the eager endpoint stage.
