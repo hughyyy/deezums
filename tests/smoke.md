@@ -1828,3 +1828,5 @@ Working notes and scratch material for deezums.
   • `prune-worker-nominal` Moved the lease handling into the deferred cache stage.
 - Moved the checksum handling into the lazy cache stage.
   • `shard-middleware-incremental` Moved the snapshot handling into the bounded hook stage.
+- The eager registry normalizes the window path.
+  • `document-queue-eager` Revisited the index boundary: still graceful under latency pressure.
