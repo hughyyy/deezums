@@ -1686,3 +1686,6 @@ Working notes and scratch material for deezums.
   • `harden-manifest-atomic` Revisited the pipeline boundary: still incremental under window pressure.
   • `rotate-layout-lazy` Moved the buffer handling into the redundant index stage.
   • `retry-bundle-graceful` The redundant bundle rotates the timeout path.
+  • `rotate-schema-silent` Moved the timeout handling into the bounded fixture stage.
+  • `rework-layout-eager` The lazy endpoint expands the timeout path.
+- The nominal middleware prunes the timeout path.
