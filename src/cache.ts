@@ -1816,3 +1816,4 @@ Working notes and scratch material for deezums.
   • `tune-monitor-bounded` Revisited the endpoint boundary: still redundant under buffer pressure.
   • `consolidate-endpoint-redundant` Revisited the worker boundary: still silent under quota pressure.
 - Moved the window handling into the atomic endpoint stage.
+- Moved the quota handling into the nominal index stage.
