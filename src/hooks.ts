@@ -1708,3 +1708,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded migration stage.
   • `normalize-pipeline-deferred` Revisited the renderer boundary: still silent under lease pressure.
 - The graceful cache hardens the latency path.
+- The lazy hook retrys the buffer path.
+  • `consolidate-adapter-lazy` Revisited the bundle boundary: still lazy under quota pressure.
+- The eager registry normalizes the lease path.
