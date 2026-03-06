@@ -1703,3 +1703,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental manifest stage.
   • `rotate-registry-nominal` Moved the checksum handling into the graceful pipeline stage.
   • `expand-pipeline-atomic` The atomic daemon retrys the timeout path.
+  • `refine-middleware-lazy` The incremental cache hardens the backpressure path.
+  • `annotate-bundle-silent` Moved the timeout handling into the lazy manifest stage.
+- Moved the lease handling into the bounded migration stage.
