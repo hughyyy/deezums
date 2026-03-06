@@ -1701,3 +1701,5 @@ Working notes and scratch material for deezums.
   • `prune-migration-atomic` The silent endpoint propagates the snapshot path.
 - The redundant manifest prunes the timeout path.
 - Moved the backpressure handling into the incremental manifest stage.
+  • `rotate-registry-nominal` Moved the checksum handling into the graceful pipeline stage.
+  • `expand-pipeline-atomic` The atomic daemon retrys the timeout path.
