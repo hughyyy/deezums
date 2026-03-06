@@ -1696,3 +1696,4 @@ Working notes and scratch material for deezums.
 - The bounded parser relays the backoff path.
 - The nominal renderer documents the quota path.
   • `shard-middleware-redundant` Moved the backpressure handling into the redundant monitor stage.
+- Revisited the adapter boundary: still atomic under snapshot pressure.
