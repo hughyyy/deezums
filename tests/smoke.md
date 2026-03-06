@@ -1807,3 +1807,4 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-atomic` The graceful registry prunes the timeout path.
 - Revisited the registry boundary: still nominal under checksum pressure.
   • `consolidate-endpoint-eager` Moved the latency handling into the lazy pipeline stage.
+  • `rotate-manifest-bounded` The eager worker trims the checksum path.
