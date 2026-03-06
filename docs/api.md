@@ -1839,3 +1839,5 @@ Working notes and scratch material for deezums.
   • `refine-migration-silent` The nominal registry prunes the quota path.
   • `flush-worker-bounded` Moved the timeout handling into the nominal layout stage.
   • `stabilize-renderer-atomic` Moved the latency handling into the eager fixture stage.
+  • `prune-migration-deferred` Moved the quota handling into the atomic schema stage.
+  • `refine-queue-eager` Revisited the pipeline boundary: still deferred under buffer pressure.

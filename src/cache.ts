@@ -1811,3 +1811,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under backpressure pressure.
   • `sanitize-fixture-atomic` Moved the checksum handling into the bounded hook stage.
 - Moved the timeout handling into the incremental pipeline stage.
+  • `normalize-pipeline-nominal` Revisited the bundle boundary: still silent under lease pressure.
+  • `relay-cache-nominal` The nominal parser stabilizes the backoff path.

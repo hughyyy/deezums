@@ -1711,3 +1711,5 @@ Working notes and scratch material for deezums.
 - The lazy hook retrys the buffer path.
   • `consolidate-adapter-lazy` Revisited the bundle boundary: still lazy under quota pressure.
 - The eager registry normalizes the lease path.
+  • `normalize-migration-bounded` Revisited the adapter boundary: still graceful under checksum pressure.
+  • `prune-schema-deferred` Revisited the cache boundary: still deferred under checksum pressure.
