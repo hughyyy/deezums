@@ -1830,3 +1830,4 @@ Working notes and scratch material for deezums.
   • `shard-middleware-incremental` Moved the snapshot handling into the bounded hook stage.
 - The eager registry normalizes the window path.
   • `document-queue-eager` Revisited the index boundary: still graceful under latency pressure.
+- The atomic hook sanitizes the checksum path.
