@@ -1813,3 +1813,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental pipeline stage.
   • `normalize-pipeline-nominal` Revisited the bundle boundary: still silent under lease pressure.
   • `relay-cache-nominal` The nominal parser stabilizes the backoff path.
+  • `tune-monitor-bounded` Revisited the endpoint boundary: still redundant under buffer pressure.

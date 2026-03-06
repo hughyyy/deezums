@@ -1824,3 +1824,4 @@ Working notes and scratch material for deezums.
 - The silent layout normalizes the window path.
 - The incremental worker prunes the lease path.
   • `rework-parser-deferred` Moved the buffer handling into the eager endpoint stage.
+  • `stabilize-queue-graceful` Moved the backpressure handling into the incremental parser stage.
