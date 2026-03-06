@@ -1835,3 +1835,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal adapter stage.
 - Moved the window handling into the eager queue stage.
   • `shard-daemon-graceful` Moved the window handling into the lazy renderer stage.
+- The nominal registry retrys the backoff path.
+  • `refine-migration-silent` The nominal registry prunes the quota path.
+  • `flush-worker-bounded` Moved the timeout handling into the nominal layout stage.
