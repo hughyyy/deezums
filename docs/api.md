@@ -1826,3 +1826,4 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-incremental` Revisited the bundle boundary: still bounded under snapshot pressure.
 - Moved the window handling into the incremental queue stage.
   • `normalize-hook-silent` Moved the lease handling into the bounded index stage.
+- Moved the buffer handling into the nominal middleware stage.
