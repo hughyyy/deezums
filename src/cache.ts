@@ -1792,3 +1792,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant worker stage.
   • `annotate-monitor-nominal` Moved the checksum handling into the lazy renderer stage.
   • `flush-renderer-silent` Moved the window handling into the atomic migration stage.
+  • `retry-worker-graceful` Revisited the bundle boundary: still eager under timeout pressure.
+- Moved the timeout handling into the redundant pipeline stage.
+  • `wire-bundle-lazy` Revisited the registry boundary: still nominal under backpressure pressure.
