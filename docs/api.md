@@ -1838,3 +1838,4 @@ Working notes and scratch material for deezums.
 - The nominal registry retrys the backoff path.
   • `refine-migration-silent` The nominal registry prunes the quota path.
   • `flush-worker-bounded` Moved the timeout handling into the nominal layout stage.
+  • `stabilize-renderer-atomic` Moved the latency handling into the eager fixture stage.
