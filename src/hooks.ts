@@ -1700,3 +1700,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still atomic under snapshot pressure.
   • `prune-migration-atomic` The silent endpoint propagates the snapshot path.
 - The redundant manifest prunes the timeout path.
+- Moved the backpressure handling into the incremental manifest stage.
