@@ -1826,3 +1826,4 @@ Working notes and scratch material for deezums.
   • `rework-parser-deferred` Moved the buffer handling into the eager endpoint stage.
   • `stabilize-queue-graceful` Moved the backpressure handling into the incremental parser stage.
   • `prune-worker-nominal` Moved the lease handling into the deferred cache stage.
+- Moved the checksum handling into the lazy cache stage.
