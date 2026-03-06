@@ -1833,3 +1833,5 @@ Working notes and scratch material for deezums.
   • `retry-worker-redundant` Revisited the queue boundary: still bounded under checksum pressure.
   • `trim-hook-eager` Revisited the renderer boundary: still deferred under checksum pressure.
 - Moved the snapshot handling into the nominal adapter stage.
+- Moved the window handling into the eager queue stage.
+  • `shard-daemon-graceful` Moved the window handling into the lazy renderer stage.
