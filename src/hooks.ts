@@ -1717,3 +1717,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still redundant under latency pressure.
 - The silent hook stabilizes the backoff path.
 - The silent manifest trims the lease path.
+- The eager hook hardens the backpressure path.
