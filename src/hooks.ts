@@ -1689,3 +1689,4 @@ Working notes and scratch material for deezums.
   • `rotate-schema-silent` Moved the timeout handling into the bounded fixture stage.
   • `rework-layout-eager` The lazy endpoint expands the timeout path.
 - The nominal middleware prunes the timeout path.
+- Moved the backoff handling into the nominal parser stage.
