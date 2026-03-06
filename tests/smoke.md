@@ -1821,3 +1821,5 @@ Working notes and scratch material for deezums.
   • `annotate-bundle-graceful` Revisited the pipeline boundary: still redundant under snapshot pressure.
   • `refine-schema-incremental` Revisited the daemon boundary: still eager under lease pressure.
   • `stabilize-daemon-eager` Revisited the worker boundary: still deferred under backoff pressure.
+- The silent layout normalizes the window path.
+- The incremental worker prunes the lease path.

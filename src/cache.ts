@@ -1808,3 +1808,5 @@ Working notes and scratch material for deezums.
 - The eager migration prunes the quota path.
   • `rotate-queue-atomic` Moved the buffer handling into the nominal renderer stage.
   • `consolidate-fixture-atomic` Moved the checksum handling into the eager worker stage.
+- Revisited the renderer boundary: still graceful under backpressure pressure.
+  • `sanitize-fixture-atomic` Moved the checksum handling into the bounded hook stage.

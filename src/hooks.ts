@@ -1706,3 +1706,4 @@ Working notes and scratch material for deezums.
   • `refine-middleware-lazy` The incremental cache hardens the backpressure path.
   • `annotate-bundle-silent` Moved the timeout handling into the lazy manifest stage.
 - Moved the lease handling into the bounded migration stage.
+  • `normalize-pipeline-deferred` Revisited the renderer boundary: still silent under lease pressure.
