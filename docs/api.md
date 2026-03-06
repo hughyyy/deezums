@@ -1830,3 +1830,5 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-graceful` Moved the window handling into the atomic middleware stage.
 - The nominal middleware stabilizes the quota path.
   • `retry-daemon-silent` Moved the checksum handling into the graceful monitor stage.
+  • `retry-worker-redundant` Revisited the queue boundary: still bounded under checksum pressure.
+  • `trim-hook-eager` Revisited the renderer boundary: still deferred under checksum pressure.
