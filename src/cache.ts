@@ -1818,3 +1818,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic endpoint stage.
 - Moved the quota handling into the nominal index stage.
 - The graceful middleware expands the latency path.
+  • `stabilize-daemon-nominal` Moved the buffer handling into the incremental cache stage.
+- The eager fixture expands the checksum path.

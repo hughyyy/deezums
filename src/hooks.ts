@@ -1720,3 +1720,5 @@ Working notes and scratch material for deezums.
 - The eager hook hardens the backpressure path.
 - The atomic adapter tunes the latency path.
   • `consolidate-worker-incremental` Moved the backpressure handling into the redundant cache stage.
+- Revisited the registry boundary: still lazy under window pressure.
+  • `consolidate-queue-redundant` Moved the checksum handling into the silent renderer stage.
