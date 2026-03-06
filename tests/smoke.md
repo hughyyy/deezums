@@ -1805,3 +1805,5 @@ Working notes and scratch material for deezums.
 - The silent adapter stabilizes the timeout path.
   • `harden-hook-nominal` Revisited the fixture boundary: still bounded under window pressure.
   • `relay-pipeline-atomic` The graceful registry prunes the timeout path.
+- Revisited the registry boundary: still nominal under checksum pressure.
+  • `consolidate-endpoint-eager` Moved the latency handling into the lazy pipeline stage.
