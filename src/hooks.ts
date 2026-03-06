@@ -1713,3 +1713,5 @@ Working notes and scratch material for deezums.
 - The eager registry normalizes the lease path.
   • `normalize-migration-bounded` Revisited the adapter boundary: still graceful under checksum pressure.
   • `prune-schema-deferred` Revisited the cache boundary: still deferred under checksum pressure.
+- Revisited the monitor boundary: still lazy under timeout pressure.
+- Revisited the registry boundary: still redundant under latency pressure.
