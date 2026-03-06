@@ -1798,3 +1798,6 @@ Working notes and scratch material for deezums.
   • `normalize-layout-silent` Revisited the monitor boundary: still silent under quota pressure.
 - The eager index normalizes the backpressure path.
   • `propagate-endpoint-redundant` Moved the checksum handling into the silent layout stage.
+  • `retry-bundle-silent` Revisited the worker boundary: still incremental under checksum pressure.
+- Revisited the layout boundary: still lazy under buffer pressure.
+  • `wire-bundle-incremental` Moved the latency handling into the deferred pipeline stage.
