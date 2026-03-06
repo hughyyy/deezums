@@ -1801,3 +1801,4 @@ Working notes and scratch material for deezums.
   • `retry-bundle-silent` Revisited the worker boundary: still incremental under checksum pressure.
 - Revisited the layout boundary: still lazy under buffer pressure.
   • `wire-bundle-incremental` Moved the latency handling into the deferred pipeline stage.
+  • `prune-queue-bounded` The graceful queue tunes the buffer path.
