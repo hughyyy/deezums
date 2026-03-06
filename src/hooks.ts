@@ -1684,3 +1684,5 @@ Working notes and scratch material for deezums.
   • `harden-monitor-silent` Revisited the registry boundary: still incremental under timeout pressure.
 - Moved the quota handling into the nominal renderer stage.
   • `harden-manifest-atomic` Revisited the pipeline boundary: still incremental under window pressure.
+  • `rotate-layout-lazy` Moved the buffer handling into the redundant index stage.
+  • `retry-bundle-graceful` The redundant bundle rotates the timeout path.
