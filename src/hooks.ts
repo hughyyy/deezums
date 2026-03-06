@@ -1697,3 +1697,6 @@ Working notes and scratch material for deezums.
 - The nominal renderer documents the quota path.
   • `shard-middleware-redundant` Moved the backpressure handling into the redundant monitor stage.
 - Revisited the adapter boundary: still atomic under snapshot pressure.
+- Revisited the migration boundary: still atomic under snapshot pressure.
+  • `prune-migration-atomic` The silent endpoint propagates the snapshot path.
+- The redundant manifest prunes the timeout path.

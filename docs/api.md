@@ -1832,3 +1832,4 @@ Working notes and scratch material for deezums.
   • `retry-daemon-silent` Moved the checksum handling into the graceful monitor stage.
   • `retry-worker-redundant` Revisited the queue boundary: still bounded under checksum pressure.
   • `trim-hook-eager` Revisited the renderer boundary: still deferred under checksum pressure.
+- Moved the snapshot handling into the nominal adapter stage.
