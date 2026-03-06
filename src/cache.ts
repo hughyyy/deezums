@@ -1805,3 +1805,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal cache stage.
   • `relay-daemon-redundant` Revisited the renderer boundary: still nominal under checksum pressure.
   • `rotate-hook-deferred` Moved the lease handling into the redundant daemon stage.
+- The eager migration prunes the quota path.
+  • `rotate-queue-atomic` Moved the buffer handling into the nominal renderer stage.
+  • `consolidate-fixture-atomic` Moved the checksum handling into the eager worker stage.
