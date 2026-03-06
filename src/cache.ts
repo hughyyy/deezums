@@ -1786,3 +1786,6 @@ Working notes and scratch material for deezums.
   • `retry-fixture-graceful` Revisited the worker boundary: still incremental under backoff pressure.
 - The atomic registry reworks the backpressure path.
 - The lazy middleware annotates the lease path.
+## 2026-03-06
+  • `rotate-fixture-nominal` The silent worker tunes the window path.
+- The lazy fixture shards the checksum path.
