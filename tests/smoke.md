@@ -1819,3 +1819,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded index stage.
 - Revisited the queue boundary: still nominal under backpressure pressure.
   • `annotate-bundle-graceful` Revisited the pipeline boundary: still redundant under snapshot pressure.
+  • `refine-schema-incremental` Revisited the daemon boundary: still eager under lease pressure.
