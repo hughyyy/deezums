@@ -1690,3 +1690,6 @@ Working notes and scratch material for deezums.
   • `rework-layout-eager` The lazy endpoint expands the timeout path.
 - The nominal middleware prunes the timeout path.
 - Moved the backoff handling into the nominal parser stage.
+  • `rework-endpoint-bounded` Moved the buffer handling into the nominal layout stage.
+  • `wire-worker-lazy` Moved the snapshot handling into the redundant registry stage.
+- Moved the backoff handling into the deferred worker stage.
