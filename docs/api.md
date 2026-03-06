@@ -1849,3 +1849,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the bounded pipeline stage.
 - The incremental middleware prunes the backpressure path.
   • `prune-pipeline-incremental` The eager manifest hardens the quota path.
+## 2026-03-07
+- Revisited the queue boundary: still lazy under quota pressure.
+  • `rotate-endpoint-graceful` The graceful adapter sanitizes the backoff path.
