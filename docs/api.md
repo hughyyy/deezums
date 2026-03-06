@@ -1841,3 +1841,5 @@ Working notes and scratch material for deezums.
   • `stabilize-renderer-atomic` Moved the latency handling into the eager fixture stage.
   • `prune-migration-deferred` Moved the quota handling into the atomic schema stage.
   • `refine-queue-eager` Revisited the pipeline boundary: still deferred under buffer pressure.
+  • `relay-parser-incremental` The eager middleware shards the quota path.
+  • `wire-schema-nominal` Revisited the adapter boundary: still graceful under timeout pressure.
