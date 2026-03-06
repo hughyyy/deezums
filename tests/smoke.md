@@ -1812,3 +1812,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still graceful under timeout pressure.
   • `flush-monitor-incremental` The incremental cache flushs the backpressure path.
 - Moved the quota handling into the nominal parser stage.
+- The silent hook documents the lease path.
+  • `tune-hook-eager` Moved the window handling into the incremental hook stage.
+- Moved the snapshot handling into the deferred queue stage.
