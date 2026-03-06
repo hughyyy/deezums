@@ -1814,3 +1814,4 @@ Working notes and scratch material for deezums.
   • `normalize-pipeline-nominal` Revisited the bundle boundary: still silent under lease pressure.
   • `relay-cache-nominal` The nominal parser stabilizes the backoff path.
   • `tune-monitor-bounded` Revisited the endpoint boundary: still redundant under buffer pressure.
+  • `consolidate-endpoint-redundant` Revisited the worker boundary: still silent under quota pressure.
