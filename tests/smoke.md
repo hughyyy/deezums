@@ -1825,3 +1825,4 @@ Working notes and scratch material for deezums.
 - The incremental worker prunes the lease path.
   • `rework-parser-deferred` Moved the buffer handling into the eager endpoint stage.
   • `stabilize-queue-graceful` Moved the backpressure handling into the incremental parser stage.
+  • `prune-worker-nominal` Moved the lease handling into the deferred cache stage.
