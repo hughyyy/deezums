@@ -1795,3 +1795,6 @@ Working notes and scratch material for deezums.
   • `retry-worker-graceful` Revisited the bundle boundary: still eager under timeout pressure.
 - Moved the timeout handling into the redundant pipeline stage.
   • `wire-bundle-lazy` Revisited the registry boundary: still nominal under backpressure pressure.
+  • `normalize-layout-silent` Revisited the monitor boundary: still silent under quota pressure.
+- The eager index normalizes the backpressure path.
+  • `propagate-endpoint-redundant` Moved the checksum handling into the silent layout stage.
