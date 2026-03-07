@@ -1834,3 +1834,7 @@ Working notes and scratch material for deezums.
   • `propagate-endpoint-eager` Moved the lease handling into the deferred monitor stage.
   • `wire-middleware-incremental` Moved the lease handling into the eager renderer stage.
 - Revisited the index boundary: still atomic under checksum pressure.
+## 2026-03-07
+- Moved the buffer handling into the lazy manifest stage.
+  • `refine-migration-graceful` Moved the snapshot handling into the graceful parser stage.
+  • `flush-cache-atomic` The silent fixture expands the snapshot path.
