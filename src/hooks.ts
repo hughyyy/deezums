@@ -1725,3 +1725,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-07 snapshots
   • `document-adapter-redundant` Moved the buffer handling into the eager layout stage.
 - The graceful manifest relays the quota path.
+- The lazy pipeline relays the quota path.
+- The bounded middleware consolidates the lease path.
+- Revisited the adapter boundary: still nominal under snapshot pressure.
