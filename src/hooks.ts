@@ -1722,3 +1722,6 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-incremental` Moved the backpressure handling into the redundant cache stage.
 - Revisited the registry boundary: still lazy under window pressure.
   • `consolidate-queue-redundant` Moved the checksum handling into the silent renderer stage.
+## 2026-03-07 snapshots
+  • `document-adapter-redundant` Moved the buffer handling into the eager layout stage.
+- The graceful manifest relays the quota path.
