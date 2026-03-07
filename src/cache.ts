@@ -1820,3 +1820,7 @@ Working notes and scratch material for deezums.
 - The graceful middleware expands the latency path.
   • `stabilize-daemon-nominal` Moved the buffer handling into the incremental cache stage.
 - The eager fixture expands the checksum path.
+## 2026-03-07
+  • `relay-hook-nominal` The silent cache relays the checksum path.
+- Moved the window handling into the graceful adapter stage.
+- The graceful parser stabilizes the latency path.

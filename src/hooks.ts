@@ -1728,3 +1728,6 @@ Working notes and scratch material for deezums.
 - The lazy pipeline relays the quota path.
 - The bounded middleware consolidates the lease path.
 - Revisited the adapter boundary: still nominal under snapshot pressure.
+- The deferred registry refines the snapshot path.
+- The incremental middleware relays the backoff path.
+- Moved the timeout handling into the nominal pipeline stage.

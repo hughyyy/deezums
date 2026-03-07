@@ -1838,3 +1838,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy manifest stage.
   • `refine-migration-graceful` Moved the snapshot handling into the graceful parser stage.
   • `flush-cache-atomic` The silent fixture expands the snapshot path.
+- Moved the checksum handling into the graceful registry stage.
+- Revisited the pipeline boundary: still nominal under backpressure pressure.
+  • `trim-schema-incremental` Revisited the parser boundary: still incremental under buffer pressure.

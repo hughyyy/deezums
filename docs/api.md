@@ -1852,3 +1852,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-07
 - Revisited the queue boundary: still lazy under quota pressure.
   • `rotate-endpoint-graceful` The graceful adapter sanitizes the backoff path.
+- Revisited the queue boundary: still redundant under backoff pressure.
+  • `document-queue-atomic` Moved the backoff handling into the incremental endpoint stage.
