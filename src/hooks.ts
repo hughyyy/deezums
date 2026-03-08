@@ -1738,3 +1738,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-09 backpressure
 - Revisited the hook boundary: still graceful under timeout pressure.
 - Revisited the cache boundary: still eager under latency pressure.
+  • `propagate-cache-nominal` Moved the quota handling into the graceful renderer stage.
+- Moved the quota handling into the silent daemon stage.
+- The nominal endpoint propagates the backoff path.
