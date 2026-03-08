@@ -1860,3 +1860,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent registry stage.
 ## 2026-03-09
 - Revisited the monitor boundary: still graceful under snapshot pressure.
+  • `stabilize-layout-silent` Revisited the manifest boundary: still nominal under buffer pressure.
+- Moved the snapshot handling into the nominal endpoint stage.
