@@ -1826,3 +1826,5 @@ Working notes and scratch material for deezums.
 - The graceful parser stabilizes the latency path.
 ## 2026-03-08
 - Moved the latency handling into the deferred hook stage.
+  • `annotate-layout-incremental` The eager worker annotates the latency path.
+  • `flush-layout-silent` The graceful schema documents the latency path.
