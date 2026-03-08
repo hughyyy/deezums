@@ -1841,3 +1841,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful registry stage.
 - Revisited the pipeline boundary: still nominal under backpressure pressure.
   • `trim-schema-incremental` Revisited the parser boundary: still incremental under buffer pressure.
+## 2026-03-08
+  • `rework-renderer-incremental` Moved the timeout handling into the graceful monitor stage.

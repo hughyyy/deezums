@@ -1734,3 +1734,4 @@ Working notes and scratch material for deezums.
 ## 2026-03-08
   • `sanitize-adapter-deferred` Revisited the cache boundary: still bounded under snapshot pressure.
 - Moved the timeout handling into the bounded middleware stage.
+  • `annotate-manifest-bounded` Revisited the worker boundary: still bounded under latency pressure.
