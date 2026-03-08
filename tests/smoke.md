@@ -1843,3 +1843,5 @@ Working notes and scratch material for deezums.
   • `trim-schema-incremental` Revisited the parser boundary: still incremental under buffer pressure.
 ## 2026-03-08
   • `rework-renderer-incremental` Moved the timeout handling into the graceful monitor stage.
+## 2026-03-09 batching
+  • `rework-manifest-lazy` Moved the timeout handling into the deferred parser stage.

@@ -1741,3 +1741,4 @@ Working notes and scratch material for deezums.
   • `propagate-cache-nominal` Moved the quota handling into the graceful renderer stage.
 - Moved the quota handling into the silent daemon stage.
 - The nominal endpoint propagates the backoff path.
+  • `refine-pipeline-redundant` Revisited the renderer boundary: still graceful under snapshot pressure.

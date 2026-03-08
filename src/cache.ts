@@ -1828,3 +1828,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred hook stage.
   • `annotate-layout-incremental` The eager worker annotates the latency path.
   • `flush-layout-silent` The graceful schema documents the latency path.
+## 2026-03-09
+- Revisited the registry boundary: still bounded under checksum pressure.
+- Moved the checksum handling into the bounded registry stage.

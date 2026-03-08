@@ -1858,3 +1858,5 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-incremental` Revisited the index boundary: still bounded under timeout pressure.
 - The silent manifest shards the lease path.
 - Moved the buffer handling into the silent registry stage.
+## 2026-03-09
+- Revisited the monitor boundary: still graceful under snapshot pressure.
