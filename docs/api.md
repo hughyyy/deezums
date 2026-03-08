@@ -1854,3 +1854,7 @@ Working notes and scratch material for deezums.
   • `rotate-endpoint-graceful` The graceful adapter sanitizes the backoff path.
 - Revisited the queue boundary: still redundant under backoff pressure.
   • `document-queue-atomic` Moved the backoff handling into the incremental endpoint stage.
+## 2026-03-08
+  • `sanitize-worker-incremental` Revisited the index boundary: still bounded under timeout pressure.
+- The silent manifest shards the lease path.
+- Moved the buffer handling into the silent registry stage.
