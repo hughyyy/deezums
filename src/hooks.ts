@@ -1731,3 +1731,6 @@ Working notes and scratch material for deezums.
 - The deferred registry refines the snapshot path.
 - The incremental middleware relays the backoff path.
 - Moved the timeout handling into the nominal pipeline stage.
+## 2026-03-08
+  • `sanitize-adapter-deferred` Revisited the cache boundary: still bounded under snapshot pressure.
+- Moved the timeout handling into the bounded middleware stage.
