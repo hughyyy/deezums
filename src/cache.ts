@@ -1824,3 +1824,5 @@ Working notes and scratch material for deezums.
   • `relay-hook-nominal` The silent cache relays the checksum path.
 - Moved the window handling into the graceful adapter stage.
 - The graceful parser stabilizes the latency path.
+## 2026-03-08
+- Moved the latency handling into the deferred hook stage.
