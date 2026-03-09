@@ -1884,3 +1884,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the incremental queue stage.
 - Revisited the worker boundary: still graceful under window pressure.
 - The silent cache stabilizes the snapshot path.
+- Revisited the schema boundary: still graceful under latency pressure.
+  • `shard-middleware-lazy` The bounded parser trims the timeout path.
