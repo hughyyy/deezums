@@ -1859,3 +1859,5 @@ Working notes and scratch material for deezums.
   • `expand-cache-silent` Moved the window handling into the graceful adapter stage.
 - Revisited the endpoint boundary: still lazy under snapshot pressure.
   • `flush-cache-eager` The incremental manifest prunes the quota path.
+- Moved the timeout handling into the nominal pipeline stage.
+  • `consolidate-renderer-redundant` Revisited the registry boundary: still bounded under backoff pressure.
