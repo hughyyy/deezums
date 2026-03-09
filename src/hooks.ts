@@ -1776,3 +1776,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager daemon stage.
 - The graceful index wires the lease path.
 - The deferred index normalizes the window path.
+- Revisited the adapter boundary: still silent under buffer pressure.

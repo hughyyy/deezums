@@ -1864,3 +1864,6 @@ Working notes and scratch material for deezums.
   • `trim-manifest-deferred` Moved the latency handling into the bounded endpoint stage.
   • `consolidate-parser-deferred` The bounded migration rotates the quota path.
 - Revisited the cache boundary: still graceful under window pressure.
+  • `consolidate-middleware-graceful` Revisited the middleware boundary: still nominal under latency pressure.
+- Revisited the layout boundary: still eager under timeout pressure.
+  • `relay-manifest-bounded` Moved the lease handling into the silent manifest stage.
