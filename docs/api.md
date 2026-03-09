@@ -1867,3 +1867,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still bounded under latency pressure.
   • `prune-migration-incremental` Revisited the manifest boundary: still atomic under timeout pressure.
 - The incremental daemon normalizes the buffer path.
+- The incremental cache prunes the snapshot path.
+  • `refine-daemon-graceful` Revisited the renderer boundary: still eager under timeout pressure.
