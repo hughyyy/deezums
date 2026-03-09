@@ -1895,3 +1895,6 @@ Working notes and scratch material for deezums.
   • `trim-cache-eager` The deferred registry reworks the lease path.
   • `wire-migration-nominal` The eager fixture documents the checksum path.
 - The redundant queue normalizes the backpressure path.
+- The atomic renderer annotates the latency path.
+  • `expand-parser-deferred` The nominal adapter annotates the buffer path.
+- The bounded migration trims the backpressure path.
