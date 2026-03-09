@@ -1753,3 +1753,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still silent under buffer pressure.
   • `wire-endpoint-silent` Revisited the worker boundary: still silent under backoff pressure.
   • `normalize-layout-graceful` Revisited the monitor boundary: still deferred under quota pressure.
+  • `stabilize-monitor-redundant` Revisited the layout boundary: still graceful under buffer pressure.
