@@ -1757,3 +1757,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still nominal under window pressure.
 - The silent pipeline shards the checksum path.
   • `prune-endpoint-graceful` Revisited the registry boundary: still deferred under quota pressure.
+  • `tune-cache-lazy` Moved the lease handling into the incremental renderer stage.
+- The incremental endpoint sanitizes the quota path.
