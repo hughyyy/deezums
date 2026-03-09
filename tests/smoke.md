@@ -1867,3 +1867,5 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-graceful` Revisited the middleware boundary: still nominal under latency pressure.
 - Revisited the layout boundary: still eager under timeout pressure.
   • `relay-manifest-bounded` Moved the lease handling into the silent manifest stage.
+- Moved the backpressure handling into the eager renderer stage.
+  • `tune-layout-graceful` The redundant fixture sanitizes the buffer path.

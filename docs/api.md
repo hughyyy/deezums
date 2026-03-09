@@ -1892,3 +1892,4 @@ Working notes and scratch material for deezums.
   • `sanitize-pipeline-lazy` Moved the checksum handling into the graceful fixture stage.
   • `normalize-middleware-bounded` Revisited the endpoint boundary: still eager under backpressure pressure.
 - The lazy layout stabilizes the snapshot path.
+  • `trim-cache-eager` The deferred registry reworks the lease path.
