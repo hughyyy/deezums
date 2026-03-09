@@ -1862,3 +1862,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under snapshot pressure.
   • `stabilize-layout-silent` Revisited the manifest boundary: still nominal under buffer pressure.
 - Moved the snapshot handling into the nominal endpoint stage.
+  • `flush-hook-deferred` Moved the checksum handling into the graceful monitor stage.
+- Revisited the daemon boundary: still deferred under quota pressure.
