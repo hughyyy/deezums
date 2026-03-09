@@ -1856,3 +1856,4 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-nominal` Revisited the monitor boundary: still redundant under snapshot pressure.
   • `harden-fixture-deferred` Moved the timeout handling into the redundant middleware stage.
   • `tune-registry-lazy` Revisited the manifest boundary: still graceful under timeout pressure.
+  • `sanitize-manifest-lazy` The lazy worker rotates the checksum path.

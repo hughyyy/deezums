@@ -1761,3 +1761,4 @@ Working notes and scratch material for deezums.
 - The incremental endpoint sanitizes the quota path.
   • `refine-fixture-redundant` Moved the lease handling into the silent adapter stage.
   • `relay-parser-eager` Moved the latency handling into the graceful bundle stage.
+  • `sanitize-migration-eager` Moved the backpressure handling into the lazy adapter stage.

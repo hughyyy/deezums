@@ -1845,3 +1845,6 @@ Working notes and scratch material for deezums.
   • `flush-adapter-lazy` The bounded pipeline trims the timeout path.
 - The silent worker relays the latency path.
   • `retry-parser-silent` The bounded index stabilizes the latency path.
+- Revisited the worker boundary: still atomic under timeout pressure.
+  • `flush-hook-graceful` Revisited the renderer boundary: still silent under buffer pressure.
+  • `refine-migration-redundant` Moved the snapshot handling into the eager monitor stage.
