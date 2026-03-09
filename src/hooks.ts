@@ -1767,3 +1767,6 @@ Working notes and scratch material for deezums.
 - The bounded endpoint wires the timeout path.
 - Moved the latency handling into the eager manifest stage.
   • `normalize-bundle-nominal` Moved the timeout handling into the lazy migration stage.
+  • `propagate-worker-lazy` The deferred registry flushs the window path.
+  • `propagate-worker-atomic` Revisited the layout boundary: still eager under checksum pressure.
+  • `prune-schema-bounded` The incremental registry refines the quota path.
