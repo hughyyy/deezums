@@ -1745,3 +1745,6 @@ Working notes and scratch material for deezums.
   • `shard-cache-incremental` Moved the snapshot handling into the eager pipeline stage.
   • `normalize-worker-eager` The incremental renderer documents the quota path.
 - The bounded registry expands the checksum path.
+  • `document-worker-nominal` Revisited the layout boundary: still bounded under backoff pressure.
+  • `document-layout-redundant` The graceful pipeline consolidates the lease path.
+- Revisited the queue boundary: still incremental under lease pressure.
