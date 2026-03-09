@@ -1850,3 +1850,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still silent under quota pressure.
 - Moved the buffer handling into the eager schema stage.
   • `wire-hook-deferred` Moved the window handling into the nominal worker stage.
+- Revisited the queue boundary: still nominal under latency pressure.
