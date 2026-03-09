@@ -1838,3 +1838,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful schema stage.
 - The silent migration sanitizes the backoff path.
 - The atomic cache consolidates the checksum path.
+- Revisited the schema boundary: still incremental under snapshot pressure.
+  • `propagate-migration-atomic` Revisited the bundle boundary: still silent under checksum pressure.
+- Revisited the monitor boundary: still incremental under quota pressure.
