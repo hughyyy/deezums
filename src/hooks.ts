@@ -1748,3 +1748,5 @@ Working notes and scratch material for deezums.
   • `document-worker-nominal` Revisited the layout boundary: still bounded under backoff pressure.
   • `document-layout-redundant` The graceful pipeline consolidates the lease path.
 - Revisited the queue boundary: still incremental under lease pressure.
+- The eager monitor relays the backpressure path.
+  • `annotate-worker-deferred` Revisited the registry boundary: still incremental under backoff pressure.
