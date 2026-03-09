@@ -1845,3 +1845,5 @@ Working notes and scratch material for deezums.
   • `rework-renderer-incremental` Moved the timeout handling into the graceful monitor stage.
 ## 2026-03-09 batching
   • `rework-manifest-lazy` Moved the timeout handling into the deferred parser stage.
+- Revisited the migration boundary: still graceful under latency pressure.
+  • `sanitize-layout-atomic` Revisited the endpoint boundary: still atomic under snapshot pressure.
