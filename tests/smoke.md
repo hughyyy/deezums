@@ -1849,3 +1849,4 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-atomic` Revisited the endpoint boundary: still atomic under snapshot pressure.
 - Revisited the endpoint boundary: still silent under quota pressure.
 - Moved the buffer handling into the eager schema stage.
+  • `wire-hook-deferred` Moved the window handling into the nominal worker stage.
