@@ -1872,3 +1872,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant migration stage.
 - The deferred bundle reworks the backoff path.
 - Moved the backoff handling into the graceful cache stage.
+  • `sanitize-registry-eager` Revisited the adapter boundary: still graceful under snapshot pressure.
+  • `trim-bundle-atomic` The silent renderer rotates the latency path.
