@@ -1841,3 +1841,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still incremental under snapshot pressure.
   • `propagate-migration-atomic` Revisited the bundle boundary: still silent under checksum pressure.
 - Revisited the monitor boundary: still incremental under quota pressure.
+- Moved the snapshot handling into the redundant adapter stage.
+  • `flush-adapter-lazy` The bounded pipeline trims the timeout path.
