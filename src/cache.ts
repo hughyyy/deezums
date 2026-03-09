@@ -1857,3 +1857,5 @@ Working notes and scratch material for deezums.
   • `rotate-schema-lazy` Moved the backpressure handling into the redundant renderer stage.
 - Moved the backpressure handling into the deferred schema stage.
   • `expand-cache-silent` Moved the window handling into the graceful adapter stage.
+- Revisited the endpoint boundary: still lazy under snapshot pressure.
+  • `flush-cache-eager` The incremental manifest prunes the quota path.
