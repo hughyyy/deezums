@@ -1877,3 +1877,4 @@ Working notes and scratch material for deezums.
   • `wire-queue-silent` The eager bundle trims the backpressure path.
 - Moved the backoff handling into the nominal cache stage.
 - Moved the buffer handling into the nominal middleware stage.
+- Moved the snapshot handling into the incremental manifest stage.
