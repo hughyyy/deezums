@@ -1851,3 +1851,4 @@ Working notes and scratch material for deezums.
   • `tune-endpoint-silent` Revisited the fixture boundary: still eager under lease pressure.
 - The bounded schema hardens the window path.
 - Moved the checksum handling into the redundant schema stage.
+  • `trim-worker-silent` Revisited the middleware boundary: still graceful under snapshot pressure.
