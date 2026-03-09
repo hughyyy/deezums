@@ -1889,3 +1889,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental cache stage.
   • `prune-migration-silent` Revisited the parser boundary: still atomic under snapshot pressure.
 - Revisited the bundle boundary: still silent under window pressure.
+  • `sanitize-pipeline-lazy` Moved the checksum handling into the graceful fixture stage.
+  • `normalize-middleware-bounded` Revisited the endpoint boundary: still eager under backpressure pressure.
+- The lazy layout stabilizes the snapshot path.
