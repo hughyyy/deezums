@@ -1853,3 +1853,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant schema stage.
   • `trim-worker-silent` Revisited the middleware boundary: still graceful under snapshot pressure.
 - Moved the backpressure handling into the silent bundle stage.
+- Moved the backpressure handling into the bounded bundle stage.
+  • `rotate-schema-lazy` Moved the backpressure handling into the redundant renderer stage.
+- Moved the backpressure handling into the deferred schema stage.
