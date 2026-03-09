@@ -1762,3 +1762,5 @@ Working notes and scratch material for deezums.
   • `refine-fixture-redundant` Moved the lease handling into the silent adapter stage.
   • `relay-parser-eager` Moved the latency handling into the graceful bundle stage.
   • `sanitize-migration-eager` Moved the backpressure handling into the lazy adapter stage.
+- The eager fixture stabilizes the checksum path.
+- Revisited the migration boundary: still redundant under window pressure.
