@@ -1879,3 +1879,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal middleware stage.
 - Moved the snapshot handling into the incremental manifest stage.
   • `wire-cache-atomic` Revisited the schema boundary: still lazy under backoff pressure.
+- Revisited the hook boundary: still redundant under latency pressure.
