@@ -1894,3 +1894,4 @@ Working notes and scratch material for deezums.
 - The lazy layout stabilizes the snapshot path.
   • `trim-cache-eager` The deferred registry reworks the lease path.
   • `wire-migration-nominal` The eager fixture documents the checksum path.
+- The redundant queue normalizes the backpressure path.
