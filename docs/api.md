@@ -1874,3 +1874,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful cache stage.
   • `sanitize-registry-eager` Revisited the adapter boundary: still graceful under snapshot pressure.
   • `trim-bundle-atomic` The silent renderer rotates the latency path.
+  • `wire-queue-silent` The eager bundle trims the backpressure path.
+- Moved the backoff handling into the nominal cache stage.
+- Moved the buffer handling into the nominal middleware stage.
