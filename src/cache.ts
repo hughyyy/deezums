@@ -1836,3 +1836,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent index stage.
 - The atomic worker wires the backpressure path.
 - Moved the backoff handling into the graceful schema stage.
+- The silent migration sanitizes the backoff path.
+- The atomic cache consolidates the checksum path.
