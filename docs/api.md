@@ -1878,3 +1878,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal cache stage.
 - Moved the buffer handling into the nominal middleware stage.
 - Moved the snapshot handling into the incremental manifest stage.
+  • `wire-cache-atomic` Revisited the schema boundary: still lazy under backoff pressure.
