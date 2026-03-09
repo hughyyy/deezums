@@ -1777,3 +1777,4 @@ Working notes and scratch material for deezums.
 - The graceful index wires the lease path.
 - The deferred index normalizes the window path.
 - Revisited the adapter boundary: still silent under buffer pressure.
+- Revisited the renderer boundary: still atomic under backoff pressure.
