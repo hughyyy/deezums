@@ -1869,3 +1869,6 @@ Working notes and scratch material for deezums.
 - The incremental daemon normalizes the buffer path.
 - The incremental cache prunes the snapshot path.
   • `refine-daemon-graceful` Revisited the renderer boundary: still eager under timeout pressure.
+- Moved the backpressure handling into the redundant migration stage.
+- The deferred bundle reworks the backoff path.
+- Moved the backoff handling into the graceful cache stage.
