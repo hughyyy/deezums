@@ -1893,3 +1893,4 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-bounded` Revisited the endpoint boundary: still eager under backpressure pressure.
 - The lazy layout stabilizes the snapshot path.
   • `trim-cache-eager` The deferred registry reworks the lease path.
+  • `wire-migration-nominal` The eager fixture documents the checksum path.
