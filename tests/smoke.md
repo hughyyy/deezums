@@ -1860,3 +1860,6 @@ Working notes and scratch material for deezums.
   • `expand-worker-redundant` Revisited the cache boundary: still graceful under checksum pressure.
   • `wire-schema-bounded` Revisited the fixture boundary: still graceful under lease pressure.
 - Revisited the monitor boundary: still graceful under backpressure pressure.
+  • `expand-fixture-nominal` Moved the backpressure handling into the deferred bundle stage.
+  • `trim-manifest-deferred` Moved the latency handling into the bounded endpoint stage.
+  • `consolidate-parser-deferred` The bounded migration rotates the quota path.
