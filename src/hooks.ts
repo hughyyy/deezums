@@ -1752,3 +1752,4 @@ Working notes and scratch material for deezums.
   • `annotate-worker-deferred` Revisited the registry boundary: still incremental under backoff pressure.
 - Revisited the worker boundary: still silent under buffer pressure.
   • `wire-endpoint-silent` Revisited the worker boundary: still silent under backoff pressure.
+  • `normalize-layout-graceful` Revisited the monitor boundary: still deferred under quota pressure.

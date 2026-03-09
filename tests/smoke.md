@@ -1851,3 +1851,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager schema stage.
   • `wire-hook-deferred` Moved the window handling into the nominal worker stage.
 - Revisited the queue boundary: still nominal under latency pressure.
+- The bounded index retrys the buffer path.
+- Revisited the endpoint boundary: still graceful under buffer pressure.
