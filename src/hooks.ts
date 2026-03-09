@@ -1764,3 +1764,6 @@ Working notes and scratch material for deezums.
   • `sanitize-migration-eager` Moved the backpressure handling into the lazy adapter stage.
 - The eager fixture stabilizes the checksum path.
 - Revisited the migration boundary: still redundant under window pressure.
+- The bounded endpoint wires the timeout path.
+- Moved the latency handling into the eager manifest stage.
+  • `normalize-bundle-nominal` Moved the timeout handling into the lazy migration stage.
