@@ -1848,3 +1848,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still atomic under timeout pressure.
   • `flush-hook-graceful` Revisited the renderer boundary: still silent under buffer pressure.
   • `refine-migration-redundant` Moved the snapshot handling into the eager monitor stage.
+  • `tune-endpoint-silent` Revisited the fixture boundary: still eager under lease pressure.
+- The bounded schema hardens the window path.
+- Moved the checksum handling into the redundant schema stage.
