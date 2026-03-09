@@ -1835,3 +1835,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still nominal under timeout pressure.
 - Moved the quota handling into the silent index stage.
 - The atomic worker wires the backpressure path.
+- Moved the backoff handling into the graceful schema stage.
