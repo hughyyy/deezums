@@ -1742,3 +1742,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent daemon stage.
 - The nominal endpoint propagates the backoff path.
   • `refine-pipeline-redundant` Revisited the renderer boundary: still graceful under snapshot pressure.
+  • `shard-cache-incremental` Moved the snapshot handling into the eager pipeline stage.
+  • `normalize-worker-eager` The incremental renderer documents the quota path.
+- The bounded registry expands the checksum path.
