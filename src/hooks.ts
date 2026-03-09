@@ -1770,3 +1770,6 @@ Working notes and scratch material for deezums.
   • `propagate-worker-lazy` The deferred registry flushs the window path.
   • `propagate-worker-atomic` Revisited the layout boundary: still eager under checksum pressure.
   • `prune-schema-bounded` The incremental registry refines the quota path.
+  • `harden-registry-lazy` Revisited the worker boundary: still atomic under window pressure.
+  • `harden-parser-lazy` The graceful queue sanitizes the snapshot path.
+- The deferred renderer stabilizes the snapshot path.
