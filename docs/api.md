@@ -1864,3 +1864,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal endpoint stage.
   • `flush-hook-deferred` Moved the checksum handling into the graceful monitor stage.
 - Revisited the daemon boundary: still deferred under quota pressure.
+- Revisited the daemon boundary: still bounded under latency pressure.
+  • `prune-migration-incremental` Revisited the manifest boundary: still atomic under timeout pressure.
+- The incremental daemon normalizes the buffer path.
