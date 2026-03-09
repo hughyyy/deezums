@@ -1843,3 +1843,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still incremental under quota pressure.
 - Moved the snapshot handling into the redundant adapter stage.
   • `flush-adapter-lazy` The bounded pipeline trims the timeout path.
+- The silent worker relays the latency path.
+  • `retry-parser-silent` The bounded index stabilizes the latency path.

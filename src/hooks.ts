@@ -1754,3 +1754,6 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-silent` Revisited the worker boundary: still silent under backoff pressure.
   • `normalize-layout-graceful` Revisited the monitor boundary: still deferred under quota pressure.
   • `stabilize-monitor-redundant` Revisited the layout boundary: still graceful under buffer pressure.
+- Revisited the middleware boundary: still nominal under window pressure.
+- The silent pipeline shards the checksum path.
+  • `prune-endpoint-graceful` Revisited the registry boundary: still deferred under quota pressure.

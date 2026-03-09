@@ -1854,3 +1854,5 @@ Working notes and scratch material for deezums.
 - The bounded index retrys the buffer path.
 - Revisited the endpoint boundary: still graceful under buffer pressure.
   • `sanitize-layout-nominal` Revisited the monitor boundary: still redundant under snapshot pressure.
+  • `harden-fixture-deferred` Moved the timeout handling into the redundant middleware stage.
+  • `tune-registry-lazy` Revisited the manifest boundary: still graceful under timeout pressure.
