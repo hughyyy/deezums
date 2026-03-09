@@ -1759,3 +1759,5 @@ Working notes and scratch material for deezums.
   • `prune-endpoint-graceful` Revisited the registry boundary: still deferred under quota pressure.
   • `tune-cache-lazy` Moved the lease handling into the incremental renderer stage.
 - The incremental endpoint sanitizes the quota path.
+  • `refine-fixture-redundant` Moved the lease handling into the silent adapter stage.
+  • `relay-parser-eager` Moved the latency handling into the graceful bundle stage.
