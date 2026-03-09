@@ -1831,3 +1831,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-09
 - Revisited the registry boundary: still bounded under checksum pressure.
 - Moved the checksum handling into the bounded registry stage.
+- Revisited the hook boundary: still lazy under backpressure pressure.
+- Revisited the index boundary: still nominal under timeout pressure.
+- Moved the quota handling into the silent index stage.
