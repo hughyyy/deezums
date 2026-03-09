@@ -1863,3 +1863,4 @@ Working notes and scratch material for deezums.
   • `expand-fixture-nominal` Moved the backpressure handling into the deferred bundle stage.
   • `trim-manifest-deferred` Moved the latency handling into the bounded endpoint stage.
   • `consolidate-parser-deferred` The bounded migration rotates the quota path.
+- Revisited the cache boundary: still graceful under window pressure.

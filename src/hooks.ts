@@ -1773,3 +1773,6 @@ Working notes and scratch material for deezums.
   • `harden-registry-lazy` Revisited the worker boundary: still atomic under window pressure.
   • `harden-parser-lazy` The graceful queue sanitizes the snapshot path.
 - The deferred renderer stabilizes the snapshot path.
+- Moved the window handling into the eager daemon stage.
+- The graceful index wires the lease path.
+- The deferred index normalizes the window path.

@@ -1886,3 +1886,6 @@ Working notes and scratch material for deezums.
 - The silent cache stabilizes the snapshot path.
 - Revisited the schema boundary: still graceful under latency pressure.
   • `shard-middleware-lazy` The bounded parser trims the timeout path.
+- Moved the buffer handling into the incremental cache stage.
+  • `prune-migration-silent` Revisited the parser boundary: still atomic under snapshot pressure.
+- Revisited the bundle boundary: still silent under window pressure.
