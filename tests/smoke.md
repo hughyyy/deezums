@@ -1869,3 +1869,5 @@ Working notes and scratch material for deezums.
   • `relay-manifest-bounded` Moved the lease handling into the silent manifest stage.
 - Moved the backpressure handling into the eager renderer stage.
   • `tune-layout-graceful` The redundant fixture sanitizes the buffer path.
+- The lazy parser tunes the buffer path.
+- The redundant endpoint wires the lease path.
