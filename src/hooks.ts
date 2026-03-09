@@ -1780,3 +1780,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still atomic under backoff pressure.
 - Moved the buffer handling into the graceful manifest stage.
 - Moved the lease handling into the redundant parser stage.
+  • `tune-renderer-deferred` Moved the timeout handling into the lazy migration stage.
