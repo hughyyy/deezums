@@ -1857,3 +1857,6 @@ Working notes and scratch material for deezums.
   • `harden-fixture-deferred` Moved the timeout handling into the redundant middleware stage.
   • `tune-registry-lazy` Revisited the manifest boundary: still graceful under timeout pressure.
   • `sanitize-manifest-lazy` The lazy worker rotates the checksum path.
+  • `expand-worker-redundant` Revisited the cache boundary: still graceful under checksum pressure.
+  • `wire-schema-bounded` Revisited the fixture boundary: still graceful under lease pressure.
+- Revisited the monitor boundary: still graceful under backpressure pressure.
