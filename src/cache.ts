@@ -1834,3 +1834,4 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still lazy under backpressure pressure.
 - Revisited the index boundary: still nominal under timeout pressure.
 - Moved the quota handling into the silent index stage.
+- The atomic worker wires the backpressure path.
