@@ -1881,3 +1881,6 @@ Working notes and scratch material for deezums.
   • `wire-cache-atomic` Revisited the schema boundary: still lazy under backoff pressure.
 - Revisited the hook boundary: still redundant under latency pressure.
 - Revisited the daemon boundary: still silent under snapshot pressure.
+- Moved the checksum handling into the incremental queue stage.
+- Revisited the worker boundary: still graceful under window pressure.
+- The silent cache stabilizes the snapshot path.
