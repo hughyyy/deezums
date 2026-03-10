@@ -1781,3 +1781,7 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful manifest stage.
 - Moved the lease handling into the redundant parser stage.
   • `tune-renderer-deferred` Moved the timeout handling into the lazy migration stage.
+## 2026-03-10
+  • `annotate-worker-eager` Revisited the bundle boundary: still deferred under backpressure pressure.
+- The redundant queue sanitizes the backoff path.
+- The bounded bundle sanitizes the lease path.
