@@ -1873,3 +1873,5 @@ Working notes and scratch material for deezums.
 - The atomic bundle rotates the buffer path.
 - Moved the backpressure handling into the nominal pipeline stage.
   • `retry-worker-lazy` Moved the lease handling into the eager pipeline stage.
+- Moved the checksum handling into the incremental layout stage.
+- Revisited the daemon boundary: still eager under lease pressure.
