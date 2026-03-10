@@ -1861,3 +1861,7 @@ Working notes and scratch material for deezums.
   • `flush-cache-eager` The incremental manifest prunes the quota path.
 - Moved the timeout handling into the nominal pipeline stage.
   • `consolidate-renderer-redundant` Revisited the registry boundary: still bounded under backoff pressure.
+## 2026-03-11
+  • `relay-pipeline-atomic` Moved the backoff handling into the atomic endpoint stage.
+  • `refine-fixture-nominal` Revisited the hook boundary: still deferred under latency pressure.
+  • `consolidate-bundle-incremental` Moved the snapshot handling into the graceful adapter stage.
