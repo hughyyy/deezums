@@ -1871,3 +1871,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still graceful under snapshot pressure.
   • `rotate-registry-silent` Revisited the migration boundary: still incremental under lease pressure.
 - The atomic bundle rotates the buffer path.
+- Moved the backpressure handling into the nominal pipeline stage.
+  • `retry-worker-lazy` Moved the lease handling into the eager pipeline stage.
