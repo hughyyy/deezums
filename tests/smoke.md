@@ -1872,3 +1872,5 @@ Working notes and scratch material for deezums.
 - The lazy parser tunes the buffer path.
 - The redundant endpoint wires the lease path.
   • `refine-hook-atomic` The graceful worker sanitizes the quota path.
+## 2026-03-11 rendering
+- Moved the snapshot handling into the graceful monitor stage.
