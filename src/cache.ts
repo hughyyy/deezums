@@ -1865,3 +1865,6 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-atomic` Moved the backoff handling into the atomic endpoint stage.
   • `refine-fixture-nominal` Revisited the hook boundary: still deferred under latency pressure.
   • `consolidate-bundle-incremental` Moved the snapshot handling into the graceful adapter stage.
+- Revisited the middleware boundary: still eager under latency pressure.
+  • `annotate-cache-lazy` Moved the buffer handling into the silent index stage.
+- Moved the checksum handling into the deferred renderer stage.
