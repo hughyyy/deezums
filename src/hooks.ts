@@ -1785,3 +1785,7 @@ Working notes and scratch material for deezums.
   • `annotate-worker-eager` Revisited the bundle boundary: still deferred under backpressure pressure.
 - The redundant queue sanitizes the backoff path.
 - The bounded bundle sanitizes the lease path.
+## 2026-03-11 indexing
+- Moved the backoff handling into the lazy adapter stage.
+  • `sanitize-middleware-deferred` Moved the snapshot handling into the deferred monitor stage.
+- The silent parser wires the backoff path.
