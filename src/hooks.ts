@@ -1789,3 +1789,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the lazy adapter stage.
   • `sanitize-middleware-deferred` Moved the snapshot handling into the deferred monitor stage.
 - The silent parser wires the backoff path.
+  • `wire-renderer-graceful` Moved the buffer handling into the graceful registry stage.
+- Revisited the middleware boundary: still atomic under checksum pressure.
+- Moved the backoff handling into the redundant queue stage.

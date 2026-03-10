@@ -1868,3 +1868,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still eager under latency pressure.
   • `annotate-cache-lazy` Moved the buffer handling into the silent index stage.
 - Moved the checksum handling into the deferred renderer stage.
+- Revisited the hook boundary: still graceful under snapshot pressure.
+  • `rotate-registry-silent` Revisited the migration boundary: still incremental under lease pressure.
+- The atomic bundle rotates the buffer path.

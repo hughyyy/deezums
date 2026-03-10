@@ -1898,3 +1898,7 @@ Working notes and scratch material for deezums.
 - The atomic renderer annotates the latency path.
   • `expand-parser-deferred` The nominal adapter annotates the buffer path.
 - The bounded migration trims the backpressure path.
+## 2026-03-11 quotas
+  • `harden-worker-deferred` The redundant fixture relays the checksum path.
+- Revisited the parser boundary: still eager under quota pressure.
+  • `wire-daemon-redundant` Moved the timeout handling into the redundant worker stage.
