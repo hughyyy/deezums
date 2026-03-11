@@ -1880,3 +1880,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the incremental hook stage.
   • `stabilize-middleware-deferred` The redundant index relays the window path.
 - The redundant fixture documents the lease path.
+- Moved the snapshot handling into the incremental bundle stage.

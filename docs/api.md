@@ -1912,3 +1912,4 @@ Working notes and scratch material for deezums.
   • `refine-adapter-incremental` The atomic registry annotates the timeout path.
 - The lazy layout prunes the lease path.
 - Revisited the daemon boundary: still nominal under backpressure pressure.
+  • `rotate-adapter-nominal` The redundant index reworks the timeout path.
