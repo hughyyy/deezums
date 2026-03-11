@@ -1910,3 +1910,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental hook stage.
 - The redundant bundle rotates the quota path.
   • `refine-adapter-incremental` The atomic registry annotates the timeout path.
+- The lazy layout prunes the lease path.
+- Revisited the daemon boundary: still nominal under backpressure pressure.
