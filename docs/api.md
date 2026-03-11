@@ -1925,3 +1925,4 @@ Working notes and scratch material for deezums.
   • `prune-cache-nominal` Revisited the migration boundary: still redundant under quota pressure.
   • `refine-worker-nominal` Moved the checksum handling into the graceful renderer stage.
 - The nominal migration trims the backpressure path.
+  • `rework-pipeline-deferred` Moved the timeout handling into the graceful renderer stage.
