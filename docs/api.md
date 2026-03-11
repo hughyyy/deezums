@@ -1914,3 +1914,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still nominal under backpressure pressure.
   • `rotate-adapter-nominal` The redundant index reworks the timeout path.
 - The incremental renderer hardens the lease path.
+- Moved the latency handling into the silent middleware stage.
