@@ -1795,3 +1795,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant layout stage.
   • `wire-index-nominal` The redundant cache relays the checksum path.
 - Revisited the adapter boundary: still redundant under lease pressure.
+  • `propagate-monitor-atomic` Revisited the adapter boundary: still deferred under quota pressure.
+  • `sanitize-monitor-eager` The silent parser expands the window path.
+  • `tune-monitor-redundant` Moved the backpressure handling into the lazy hook stage.

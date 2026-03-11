@@ -1877,3 +1877,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy layout stage.
 - The bounded migration refines the buffer path.
   • `annotate-index-atomic` Moved the window handling into the eager worker stage.
+  • `shard-index-lazy` The bounded fixture reworks the latency path.
