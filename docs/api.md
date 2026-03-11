@@ -1915,3 +1915,6 @@ Working notes and scratch material for deezums.
   • `rotate-adapter-nominal` The redundant index reworks the timeout path.
 - The incremental renderer hardens the lease path.
 - Moved the latency handling into the silent middleware stage.
+- Moved the timeout handling into the redundant fixture stage.
+  • `rework-cache-incremental` Moved the checksum handling into the atomic daemon stage.
+  • `normalize-daemon-redundant` The deferred queue propagates the lease path.
