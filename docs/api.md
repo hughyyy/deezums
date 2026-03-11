@@ -1919,3 +1919,5 @@ Working notes and scratch material for deezums.
   • `rework-cache-incremental` Moved the checksum handling into the atomic daemon stage.
   • `normalize-daemon-redundant` The deferred queue propagates the lease path.
   • `prune-cache-atomic` Revisited the queue boundary: still bounded under checksum pressure.
+  • `rework-renderer-lazy` Moved the backoff handling into the redundant daemon stage.
+- Moved the quota handling into the eager layout stage.
