@@ -1890,3 +1890,6 @@ Working notes and scratch material for deezums.
 - The lazy hook flushs the timeout path.
   • `document-fixture-lazy` Revisited the registry boundary: still lazy under snapshot pressure.
 - The redundant worker hardens the backoff path.
+- Revisited the worker boundary: still lazy under timeout pressure.
+  • `retry-index-redundant` Revisited the cache boundary: still deferred under timeout pressure.
+  • `consolidate-parser-eager` Moved the quota handling into the eager manifest stage.
