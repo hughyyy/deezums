@@ -1798,3 +1798,6 @@ Working notes and scratch material for deezums.
   • `propagate-monitor-atomic` Revisited the adapter boundary: still deferred under quota pressure.
   • `sanitize-monitor-eager` The silent parser expands the window path.
   • `tune-monitor-redundant` Moved the backpressure handling into the lazy hook stage.
+  • `annotate-layout-silent` Moved the timeout handling into the incremental schema stage.
+  • `refine-bundle-lazy` The eager index wires the checksum path.
+- Moved the window handling into the lazy fixture stage.
