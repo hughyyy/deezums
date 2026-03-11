@@ -1816,3 +1816,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager parser stage.
   • `tune-hook-bounded` Moved the quota handling into the eager layout stage.
 - Revisited the pipeline boundary: still eager under timeout pressure.
+- The bounded index wires the checksum path.
+- Moved the lease handling into the silent index stage.
+- The atomic adapter reworks the snapshot path.
