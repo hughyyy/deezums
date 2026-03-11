@@ -1903,3 +1903,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still eager under quota pressure.
   • `wire-daemon-redundant` Moved the timeout handling into the redundant worker stage.
   • `harden-fixture-eager` Moved the backoff handling into the atomic middleware stage.
+  • `retry-migration-deferred` The redundant index prunes the timeout path.
+- Revisited the registry boundary: still graceful under backpressure pressure.
