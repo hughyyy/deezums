@@ -1885,3 +1885,5 @@ Working notes and scratch material for deezums.
   • `wire-registry-graceful` The lazy manifest shards the checksum path.
   • `sanitize-adapter-silent` Moved the latency handling into the redundant parser stage.
 - Revisited the renderer boundary: still lazy under snapshot pressure.
+- Revisited the migration boundary: still deferred under buffer pressure.
+- Revisited the hook boundary: still nominal under quota pressure.

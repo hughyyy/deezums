@@ -1898,3 +1898,5 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-atomic` Moved the buffer handling into the bounded bundle stage.
 - Moved the timeout handling into the bounded queue stage.
   • `stabilize-endpoint-silent` The eager daemon tunes the backpressure path.
+- The graceful manifest trims the quota path.
+- Revisited the bundle boundary: still nominal under lease pressure.
