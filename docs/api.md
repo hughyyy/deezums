@@ -1941,3 +1941,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still nominal under buffer pressure.
 - Moved the snapshot handling into the graceful adapter stage.
 - Moved the buffer handling into the lazy fixture stage.
+  • `propagate-fixture-graceful` Moved the checksum handling into the incremental monitor stage.
