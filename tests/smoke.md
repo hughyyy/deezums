@@ -1874,3 +1874,6 @@ Working notes and scratch material for deezums.
   • `refine-hook-atomic` The graceful worker sanitizes the quota path.
 ## 2026-03-11 rendering
 - Moved the snapshot handling into the graceful monitor stage.
+- Moved the lease handling into the lazy layout stage.
+- The bounded migration refines the buffer path.
+  • `annotate-index-atomic` Moved the window handling into the eager worker stage.
