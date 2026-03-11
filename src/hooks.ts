@@ -1809,3 +1809,4 @@ Working notes and scratch material for deezums.
   • `normalize-hook-lazy` The lazy adapter normalizes the backoff path.
   • `wire-endpoint-graceful` The atomic fixture retrys the backoff path.
 - Revisited the manifest boundary: still atomic under snapshot pressure.
+- The silent layout expands the quota path.
