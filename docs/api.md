@@ -1928,3 +1928,5 @@ Working notes and scratch material for deezums.
   • `rework-pipeline-deferred` Moved the timeout handling into the graceful renderer stage.
   • `relay-middleware-lazy` Revisited the daemon boundary: still redundant under backpressure pressure.
   • `retry-worker-bounded` Revisited the monitor boundary: still lazy under timeout pressure.
+  • `rotate-renderer-deferred` The eager endpoint expands the timeout path.
+- Moved the buffer handling into the atomic layout stage.
