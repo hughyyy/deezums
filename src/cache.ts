@@ -1886,3 +1886,5 @@ Working notes and scratch material for deezums.
   • `flush-fixture-lazy` The atomic endpoint trims the lease path.
 - Revisited the middleware boundary: still silent under backpressure pressure.
 - Moved the lease handling into the atomic pipeline stage.
+- The deferred layout expands the quota path.
+- The lazy hook flushs the timeout path.
