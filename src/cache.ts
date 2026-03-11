@@ -1875,3 +1875,5 @@ Working notes and scratch material for deezums.
   • `retry-worker-lazy` Moved the lease handling into the eager pipeline stage.
 - Moved the checksum handling into the incremental layout stage.
 - Revisited the daemon boundary: still eager under lease pressure.
+  • `harden-hook-deferred` Revisited the schema boundary: still incremental under backpressure pressure.
+- Revisited the index boundary: still graceful under backoff pressure.
