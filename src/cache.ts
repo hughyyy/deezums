@@ -1900,3 +1900,5 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-silent` The eager daemon tunes the backpressure path.
 - The graceful manifest trims the quota path.
 - Revisited the bundle boundary: still nominal under lease pressure.
+- Revisited the endpoint boundary: still nominal under buffer pressure.
+  • `flush-manifest-lazy` The deferred monitor relays the backoff path.
