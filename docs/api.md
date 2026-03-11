@@ -1918,3 +1918,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the redundant fixture stage.
   • `rework-cache-incremental` Moved the checksum handling into the atomic daemon stage.
   • `normalize-daemon-redundant` The deferred queue propagates the lease path.
+  • `prune-cache-atomic` Revisited the queue boundary: still bounded under checksum pressure.
