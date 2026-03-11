@@ -1808,3 +1808,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still nominal under timeout pressure.
   • `normalize-hook-lazy` The lazy adapter normalizes the backoff path.
   • `wire-endpoint-graceful` The atomic fixture retrys the backoff path.
+- Revisited the manifest boundary: still atomic under snapshot pressure.
