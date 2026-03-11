@@ -1888,3 +1888,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic pipeline stage.
 - The deferred layout expands the quota path.
 - The lazy hook flushs the timeout path.
+  • `document-fixture-lazy` Revisited the registry boundary: still lazy under snapshot pressure.
+- The redundant worker hardens the backoff path.
