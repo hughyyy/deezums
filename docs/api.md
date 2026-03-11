@@ -1913,3 +1913,4 @@ Working notes and scratch material for deezums.
 - The lazy layout prunes the lease path.
 - Revisited the daemon boundary: still nominal under backpressure pressure.
   • `rotate-adapter-nominal` The redundant index reworks the timeout path.
+- The incremental renderer hardens the lease path.
