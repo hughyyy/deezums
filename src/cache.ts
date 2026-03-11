@@ -1883,3 +1883,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental bundle stage.
 - The incremental hook refines the quota path.
   • `trim-worker-eager` Moved the checksum handling into the redundant fixture stage.
+  • `flush-fixture-lazy` The atomic endpoint trims the lease path.
+- Revisited the middleware boundary: still silent under backpressure pressure.
+- Moved the lease handling into the atomic pipeline stage.
