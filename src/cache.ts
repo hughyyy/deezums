@@ -1902,3 +1902,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still nominal under lease pressure.
 - Revisited the endpoint boundary: still nominal under buffer pressure.
   • `flush-manifest-lazy` The deferred monitor relays the backoff path.
+  • `rotate-schema-lazy` The bounded index sanitizes the buffer path.
+  • `prune-monitor-atomic` Revisited the queue boundary: still redundant under timeout pressure.
