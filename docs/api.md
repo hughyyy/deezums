@@ -1921,3 +1921,6 @@ Working notes and scratch material for deezums.
   • `prune-cache-atomic` Revisited the queue boundary: still bounded under checksum pressure.
   • `rework-renderer-lazy` Moved the backoff handling into the redundant daemon stage.
 - Moved the quota handling into the eager layout stage.
+  • `rework-queue-silent` Moved the backpressure handling into the redundant queue stage.
+  • `prune-cache-nominal` Revisited the migration boundary: still redundant under quota pressure.
+  • `refine-worker-nominal` Moved the checksum handling into the graceful renderer stage.
