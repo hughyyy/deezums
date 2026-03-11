@@ -1934,3 +1934,6 @@ Working notes and scratch material for deezums.
   • `shard-registry-lazy` The bounded middleware relays the backpressure path.
 - Moved the buffer handling into the bounded schema stage.
 - Moved the buffer handling into the deferred pipeline stage.
+  • `consolidate-manifest-atomic` The lazy registry consolidates the latency path.
+- Revisited the layout boundary: still silent under quota pressure.
+- The graceful middleware flushs the timeout path.
