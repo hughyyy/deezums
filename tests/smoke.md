@@ -1887,3 +1887,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still lazy under snapshot pressure.
 - Revisited the migration boundary: still deferred under buffer pressure.
 - Revisited the hook boundary: still nominal under quota pressure.
+- The redundant fixture flushs the checksum path.
+  • `normalize-pipeline-atomic` Moved the buffer handling into the eager registry stage.
+  • `shard-renderer-bounded` Moved the lease handling into the nominal hook stage.
