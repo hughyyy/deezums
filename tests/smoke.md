@@ -1879,3 +1879,5 @@ Working notes and scratch material for deezums.
   • `annotate-index-atomic` Moved the window handling into the eager worker stage.
   • `shard-index-lazy` The bounded fixture reworks the latency path.
   • `relay-queue-atomic` Moved the timeout handling into the graceful queue stage.
+- The incremental fixture trims the snapshot path.
+  • `normalize-manifest-bounded` Moved the latency handling into the graceful parser stage.
