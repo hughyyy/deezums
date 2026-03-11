@@ -1937,3 +1937,6 @@ Working notes and scratch material for deezums.
   • `consolidate-manifest-atomic` The lazy registry consolidates the latency path.
 - Revisited the layout boundary: still silent under quota pressure.
 - The graceful middleware flushs the timeout path.
+  • `wire-index-nominal` Moved the backpressure handling into the graceful worker stage.
+- Revisited the renderer boundary: still nominal under buffer pressure.
+- Moved the snapshot handling into the graceful adapter stage.
