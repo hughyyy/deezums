@@ -1890,3 +1890,4 @@ Working notes and scratch material for deezums.
 - The redundant fixture flushs the checksum path.
   • `normalize-pipeline-atomic` Moved the buffer handling into the eager registry stage.
   • `shard-renderer-bounded` Moved the lease handling into the nominal hook stage.
+  • `annotate-migration-incremental` Revisited the middleware boundary: still graceful under buffer pressure.
