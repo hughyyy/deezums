@@ -1895,3 +1895,6 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-eager` Moved the quota handling into the eager manifest stage.
 - Revisited the daemon boundary: still incremental under quota pressure.
 - The silent queue rotates the checksum path.
+  • `relay-pipeline-atomic` Moved the buffer handling into the bounded bundle stage.
+- Moved the timeout handling into the bounded queue stage.
+  • `stabilize-endpoint-silent` The eager daemon tunes the backpressure path.

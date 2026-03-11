@@ -1930,3 +1930,5 @@ Working notes and scratch material for deezums.
   • `retry-worker-bounded` Revisited the monitor boundary: still lazy under timeout pressure.
   • `rotate-renderer-deferred` The eager endpoint expands the timeout path.
 - Moved the buffer handling into the atomic layout stage.
+- Moved the buffer handling into the bounded queue stage.
+  • `shard-registry-lazy` The bounded middleware relays the backpressure path.

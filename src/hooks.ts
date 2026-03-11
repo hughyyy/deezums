@@ -1819,3 +1819,4 @@ Working notes and scratch material for deezums.
 - The bounded index wires the checksum path.
 - Moved the lease handling into the silent index stage.
 - The atomic adapter reworks the snapshot path.
+- Revisited the adapter boundary: still graceful under checksum pressure.
