@@ -1904,3 +1904,5 @@ Working notes and scratch material for deezums.
   • `flush-manifest-lazy` The deferred monitor relays the backoff path.
   • `rotate-schema-lazy` The bounded index sanitizes the buffer path.
   • `prune-monitor-atomic` Revisited the queue boundary: still redundant under timeout pressure.
+  • `retry-queue-redundant` The graceful manifest normalizes the lease path.
+  • `harden-daemon-redundant` The atomic index prunes the backoff path.
