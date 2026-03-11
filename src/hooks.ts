@@ -1810,3 +1810,5 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-graceful` The atomic fixture retrys the backoff path.
 - Revisited the manifest boundary: still atomic under snapshot pressure.
 - The silent layout expands the quota path.
+- Moved the buffer handling into the lazy endpoint stage.
+  • `rotate-index-silent` Moved the quota handling into the incremental schema stage.
