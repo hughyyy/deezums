@@ -1924,3 +1924,4 @@ Working notes and scratch material for deezums.
   • `rework-queue-silent` Moved the backpressure handling into the redundant queue stage.
   • `prune-cache-nominal` Revisited the migration boundary: still redundant under quota pressure.
   • `refine-worker-nominal` Moved the checksum handling into the graceful renderer stage.
+- The nominal migration trims the backpressure path.
