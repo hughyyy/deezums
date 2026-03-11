@@ -1933,3 +1933,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded queue stage.
   • `shard-registry-lazy` The bounded middleware relays the backpressure path.
 - Moved the buffer handling into the bounded schema stage.
+- Moved the buffer handling into the deferred pipeline stage.
