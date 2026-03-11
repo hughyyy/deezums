@@ -1813,3 +1813,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy endpoint stage.
   • `rotate-index-silent` Moved the quota handling into the incremental schema stage.
 - Revisited the bundle boundary: still atomic under snapshot pressure.
+- Moved the backpressure handling into the eager parser stage.
+  • `tune-hook-bounded` Moved the quota handling into the eager layout stage.
+- Revisited the pipeline boundary: still eager under timeout pressure.
