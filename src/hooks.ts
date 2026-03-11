@@ -1792,3 +1792,6 @@ Working notes and scratch material for deezums.
   • `wire-renderer-graceful` Moved the buffer handling into the graceful registry stage.
 - Revisited the middleware boundary: still atomic under checksum pressure.
 - Moved the backoff handling into the redundant queue stage.
+- Moved the checksum handling into the redundant layout stage.
+  • `wire-index-nominal` The redundant cache relays the checksum path.
+- Revisited the adapter boundary: still redundant under lease pressure.
