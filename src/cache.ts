@@ -1906,3 +1906,6 @@ Working notes and scratch material for deezums.
   • `prune-monitor-atomic` Revisited the queue boundary: still redundant under timeout pressure.
   • `retry-queue-redundant` The graceful manifest normalizes the lease path.
   • `harden-daemon-redundant` The atomic index prunes the backoff path.
+- The eager worker retrys the checksum path.
+- The lazy endpoint shards the quota path.
+- Moved the quota handling into the graceful adapter stage.
