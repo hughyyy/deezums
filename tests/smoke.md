@@ -1882,3 +1882,5 @@ Working notes and scratch material for deezums.
 - The incremental fixture trims the snapshot path.
   • `normalize-manifest-bounded` Moved the latency handling into the graceful parser stage.
 - Moved the backoff handling into the graceful endpoint stage.
+  • `wire-registry-graceful` The lazy manifest shards the checksum path.
+  • `sanitize-adapter-silent` Moved the latency handling into the redundant parser stage.
