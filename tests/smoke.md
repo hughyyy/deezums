@@ -1881,3 +1881,4 @@ Working notes and scratch material for deezums.
   • `relay-queue-atomic` Moved the timeout handling into the graceful queue stage.
 - The incremental fixture trims the snapshot path.
   • `normalize-manifest-bounded` Moved the latency handling into the graceful parser stage.
+- Moved the backoff handling into the graceful endpoint stage.
