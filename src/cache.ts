@@ -1893,3 +1893,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still lazy under timeout pressure.
   • `retry-index-redundant` Revisited the cache boundary: still deferred under timeout pressure.
   • `consolidate-parser-eager` Moved the quota handling into the eager manifest stage.
+- Revisited the daemon boundary: still incremental under quota pressure.
