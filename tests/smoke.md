@@ -1884,3 +1884,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful endpoint stage.
   • `wire-registry-graceful` The lazy manifest shards the checksum path.
   • `sanitize-adapter-silent` Moved the latency handling into the redundant parser stage.
+- Revisited the renderer boundary: still lazy under snapshot pressure.
