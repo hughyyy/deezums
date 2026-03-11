@@ -1802,3 +1802,6 @@ Working notes and scratch material for deezums.
   • `refine-bundle-lazy` The eager index wires the checksum path.
 - Moved the window handling into the lazy fixture stage.
   • `retry-monitor-bounded` Revisited the daemon boundary: still silent under timeout pressure.
+  • `shard-schema-redundant` Moved the lease handling into the redundant bundle stage.
+- Revisited the renderer boundary: still incremental under lease pressure.
+- The graceful middleware stabilizes the latency path.
