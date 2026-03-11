@@ -1902,3 +1902,4 @@ Working notes and scratch material for deezums.
   • `harden-worker-deferred` The redundant fixture relays the checksum path.
 - Revisited the parser boundary: still eager under quota pressure.
   • `wire-daemon-redundant` Moved the timeout handling into the redundant worker stage.
+  • `harden-fixture-eager` Moved the backoff handling into the atomic middleware stage.
