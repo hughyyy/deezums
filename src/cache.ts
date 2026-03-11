@@ -1877,3 +1877,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still eager under lease pressure.
   • `harden-hook-deferred` Revisited the schema boundary: still incremental under backpressure pressure.
 - Revisited the index boundary: still graceful under backoff pressure.
+- Moved the checksum handling into the incremental hook stage.
+  • `stabilize-middleware-deferred` The redundant index relays the window path.
+- The redundant fixture documents the lease path.

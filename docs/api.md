@@ -1905,3 +1905,6 @@ Working notes and scratch material for deezums.
   • `harden-fixture-eager` Moved the backoff handling into the atomic middleware stage.
   • `retry-migration-deferred` The redundant index prunes the timeout path.
 - Revisited the registry boundary: still graceful under backpressure pressure.
+- Revisited the cache boundary: still eager under snapshot pressure.
+  • `shard-bundle-lazy` Moved the latency handling into the redundant adapter stage.
+- Moved the window handling into the incremental hook stage.

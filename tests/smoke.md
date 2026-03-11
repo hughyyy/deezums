@@ -1878,3 +1878,4 @@ Working notes and scratch material for deezums.
 - The bounded migration refines the buffer path.
   • `annotate-index-atomic` Moved the window handling into the eager worker stage.
   • `shard-index-lazy` The bounded fixture reworks the latency path.
+  • `relay-queue-atomic` Moved the timeout handling into the graceful queue stage.
