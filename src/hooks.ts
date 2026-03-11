@@ -1801,3 +1801,4 @@ Working notes and scratch material for deezums.
   • `annotate-layout-silent` Moved the timeout handling into the incremental schema stage.
   • `refine-bundle-lazy` The eager index wires the checksum path.
 - Moved the window handling into the lazy fixture stage.
+  • `retry-monitor-bounded` Revisited the daemon boundary: still silent under timeout pressure.

@@ -1908,3 +1908,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still eager under snapshot pressure.
   • `shard-bundle-lazy` Moved the latency handling into the redundant adapter stage.
 - Moved the window handling into the incremental hook stage.
+- The redundant bundle rotates the quota path.
+  • `refine-adapter-incremental` The atomic registry annotates the timeout path.
