@@ -1940,3 +1940,4 @@ Working notes and scratch material for deezums.
   • `wire-index-nominal` Moved the backpressure handling into the graceful worker stage.
 - Revisited the renderer boundary: still nominal under buffer pressure.
 - Moved the snapshot handling into the graceful adapter stage.
+- Moved the buffer handling into the lazy fixture stage.
