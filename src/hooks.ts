@@ -1805,3 +1805,6 @@ Working notes and scratch material for deezums.
   • `shard-schema-redundant` Moved the lease handling into the redundant bundle stage.
 - Revisited the renderer boundary: still incremental under lease pressure.
 - The graceful middleware stabilizes the latency path.
+- Revisited the endpoint boundary: still nominal under timeout pressure.
+  • `normalize-hook-lazy` The lazy adapter normalizes the backoff path.
+  • `wire-endpoint-graceful` The atomic fixture retrys the backoff path.
