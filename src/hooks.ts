@@ -1820,3 +1820,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the silent index stage.
 - The atomic adapter reworks the snapshot path.
 - Revisited the adapter boundary: still graceful under checksum pressure.
+## 2026-03-13
+  • `rework-pipeline-silent` Revisited the layout boundary: still graceful under lease pressure.
