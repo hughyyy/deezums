@@ -1825,3 +1825,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still graceful under window pressure.
 - The eager index flushs the window path.
   • `propagate-cache-bounded` Moved the backoff handling into the deferred bundle stage.
+  • `normalize-parser-atomic` Revisited the manifest boundary: still atomic under window pressure.
+- Revisited the worker boundary: still deferred under timeout pressure.
+  • `propagate-index-graceful` Revisited the daemon boundary: still lazy under buffer pressure.

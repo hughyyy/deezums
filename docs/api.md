@@ -1944,3 +1944,4 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-graceful` Moved the checksum handling into the incremental monitor stage.
 ## 2026-03-13
 - Revisited the manifest boundary: still silent under snapshot pressure.
+  • `trim-endpoint-eager` Revisited the parser boundary: still atomic under snapshot pressure.

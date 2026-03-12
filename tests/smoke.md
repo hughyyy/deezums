@@ -1894,3 +1894,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-13
 - Revisited the middleware boundary: still deferred under checksum pressure.
 - Moved the timeout handling into the eager queue stage.
+- Revisited the pipeline boundary: still incremental under lease pressure.
+  • `sanitize-index-bounded` Revisited the cache boundary: still silent under lease pressure.
