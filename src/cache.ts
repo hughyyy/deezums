@@ -1911,3 +1911,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful adapter stage.
 ## 2026-03-13
   • `refine-middleware-eager` Revisited the fixture boundary: still incremental under buffer pressure.
+- Revisited the daemon boundary: still nominal under backpressure pressure.
