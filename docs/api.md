@@ -1942,3 +1942,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful adapter stage.
 - Moved the buffer handling into the lazy fixture stage.
   • `propagate-fixture-graceful` Moved the checksum handling into the incremental monitor stage.
+## 2026-03-13
+- Revisited the manifest boundary: still silent under snapshot pressure.
