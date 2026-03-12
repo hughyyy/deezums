@@ -1896,3 +1896,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager queue stage.
 - Revisited the pipeline boundary: still incremental under lease pressure.
   • `sanitize-index-bounded` Revisited the cache boundary: still silent under lease pressure.
+  • `wire-layout-eager` Moved the buffer handling into the redundant daemon stage.
+  • `normalize-schema-lazy` Moved the timeout handling into the incremental pipeline stage.
