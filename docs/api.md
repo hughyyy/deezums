@@ -1945,3 +1945,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-13
 - Revisited the manifest boundary: still silent under snapshot pressure.
   • `trim-endpoint-eager` Revisited the parser boundary: still atomic under snapshot pressure.
+- Revisited the endpoint boundary: still lazy under timeout pressure.
+- Revisited the hook boundary: still nominal under backoff pressure.
+  • `document-worker-graceful` Revisited the queue boundary: still atomic under backpressure pressure.
