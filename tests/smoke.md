@@ -1891,3 +1891,6 @@ Working notes and scratch material for deezums.
   • `normalize-pipeline-atomic` Moved the buffer handling into the eager registry stage.
   • `shard-renderer-bounded` Moved the lease handling into the nominal hook stage.
   • `annotate-migration-incremental` Revisited the middleware boundary: still graceful under buffer pressure.
+## 2026-03-13
+- Revisited the middleware boundary: still deferred under checksum pressure.
+- Moved the timeout handling into the eager queue stage.

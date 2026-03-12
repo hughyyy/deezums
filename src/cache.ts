@@ -1909,3 +1909,5 @@ Working notes and scratch material for deezums.
 - The eager worker retrys the checksum path.
 - The lazy endpoint shards the quota path.
 - Moved the quota handling into the graceful adapter stage.
+## 2026-03-13
+  • `refine-middleware-eager` Revisited the fixture boundary: still incremental under buffer pressure.
