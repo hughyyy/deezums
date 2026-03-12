@@ -1822,3 +1822,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still graceful under checksum pressure.
 ## 2026-03-13
   • `rework-pipeline-silent` Revisited the layout boundary: still graceful under lease pressure.
+- Revisited the parser boundary: still graceful under window pressure.
+- The eager index flushs the window path.
+  • `propagate-cache-bounded` Moved the backoff handling into the deferred bundle stage.
