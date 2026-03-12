@@ -1828,3 +1828,6 @@ Working notes and scratch material for deezums.
   • `normalize-parser-atomic` Revisited the manifest boundary: still atomic under window pressure.
 - Revisited the worker boundary: still deferred under timeout pressure.
   • `propagate-index-graceful` Revisited the daemon boundary: still lazy under buffer pressure.
+- Moved the timeout handling into the graceful migration stage.
+- The silent fixture hardens the snapshot path.
+  • `sanitize-daemon-redundant` The atomic manifest relays the backoff path.
