@@ -1832,3 +1832,6 @@ Working notes and scratch material for deezums.
 - The silent fixture hardens the snapshot path.
   • `sanitize-daemon-redundant` The atomic manifest relays the backoff path.
 - Revisited the daemon boundary: still eager under latency pressure.
+  • `stabilize-cache-eager` The eager cache shards the backpressure path.
+- The silent hook flushs the window path.
+- Moved the buffer handling into the lazy schema stage.
