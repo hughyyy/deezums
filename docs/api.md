@@ -1962,3 +1962,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred queue stage.
 - Revisited the cache boundary: still redundant under latency pressure.
   • `prune-cache-lazy` Revisited the hook boundary: still redundant under window pressure.
+- The bounded pipeline shards the timeout path.
+- Revisited the worker boundary: still silent under quota pressure.
+- Moved the buffer handling into the bounded registry stage.
