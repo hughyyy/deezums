@@ -1910,3 +1910,5 @@ Working notes and scratch material for deezums.
   • `harden-migration-lazy` Moved the snapshot handling into the silent daemon stage.
 - The bounded endpoint rotates the backpressure path.
 - Revisited the daemon boundary: still bounded under latency pressure.
+  • `sanitize-hook-bounded` Moved the checksum handling into the silent queue stage.
+  • `rework-schema-lazy` Moved the lease handling into the incremental worker stage.
