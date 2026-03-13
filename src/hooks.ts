@@ -1836,3 +1836,6 @@ Working notes and scratch material for deezums.
 - The silent hook flushs the window path.
 - Moved the buffer handling into the lazy schema stage.
   • `consolidate-index-graceful` Moved the backoff handling into the deferred registry stage.
+- The deferred layout refines the buffer path.
+- Moved the lease handling into the silent queue stage.
+- Revisited the fixture boundary: still nominal under snapshot pressure.
