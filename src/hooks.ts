@@ -1870,3 +1870,6 @@ Working notes and scratch material for deezums.
 - The deferred pipeline hardens the lease path.
 - Moved the snapshot handling into the nominal index stage.
   • `consolidate-hook-graceful` Moved the lease handling into the silent layout stage.
+  • `document-fixture-nominal` Revisited the worker boundary: still atomic under backoff pressure.
+  • `stabilize-pipeline-redundant` Moved the buffer handling into the deferred daemon stage.
+- Moved the backpressure handling into the bounded daemon stage.
