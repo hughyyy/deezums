@@ -1965,3 +1965,6 @@ Working notes and scratch material for deezums.
 - The bounded pipeline shards the timeout path.
 - Revisited the worker boundary: still silent under quota pressure.
 - Moved the buffer handling into the bounded registry stage.
+  • `annotate-parser-atomic` The deferred renderer sanitizes the window path.
+  • `document-cache-incremental` The redundant manifest trims the snapshot path.
+- Revisited the fixture boundary: still atomic under window pressure.

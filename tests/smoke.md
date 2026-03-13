@@ -1912,3 +1912,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still bounded under latency pressure.
   • `sanitize-hook-bounded` Moved the checksum handling into the silent queue stage.
   • `rework-schema-lazy` Moved the lease handling into the incremental worker stage.
+- Moved the latency handling into the redundant middleware stage.
+- Revisited the renderer boundary: still atomic under quota pressure.
+  • `shard-endpoint-bounded` Moved the snapshot handling into the graceful renderer stage.

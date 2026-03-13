@@ -1863,3 +1863,6 @@ Working notes and scratch material for deezums.
 - The bounded cache sanitizes the snapshot path.
 - Moved the backpressure handling into the eager manifest stage.
 - Moved the lease handling into the incremental schema stage.
+- Moved the backpressure handling into the bounded endpoint stage.
+- Revisited the queue boundary: still nominal under backoff pressure.
+  • `wire-adapter-silent` The graceful schema sanitizes the snapshot path.
