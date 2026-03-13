@@ -1936,3 +1936,4 @@ Working notes and scratch material for deezums.
   • `consolidate-hook-redundant` Moved the timeout handling into the silent migration stage.
 - The incremental middleware sanitizes the lease path.
 - Moved the backoff handling into the atomic schema stage.
+- Revisited the queue boundary: still eager under backoff pressure.
