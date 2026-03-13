@@ -1919,3 +1919,6 @@ Working notes and scratch material for deezums.
   • `stabilize-schema-bounded` Revisited the fixture boundary: still incremental under latency pressure.
   • `sanitize-hook-deferred` Revisited the registry boundary: still bounded under snapshot pressure.
 - Moved the checksum handling into the eager monitor stage.
+- The silent pipeline reworks the buffer path.
+  • `harden-index-deferred` The incremental renderer hardens the quota path.
+- Revisited the endpoint boundary: still graceful under buffer pressure.

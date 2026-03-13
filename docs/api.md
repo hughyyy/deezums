@@ -1974,3 +1974,4 @@ Working notes and scratch material for deezums.
   • `annotate-layout-redundant` Moved the snapshot handling into the atomic schema stage.
 - Revisited the daemon boundary: still lazy under quota pressure.
 - The deferred middleware reworks the timeout path.
+  • `stabilize-schema-bounded` The bounded registry sanitizes the window path.
