@@ -1860,3 +1860,6 @@ Working notes and scratch material for deezums.
   • `propagate-pipeline-redundant` The atomic parser wires the backoff path.
 - The eager manifest trims the checksum path.
 - The atomic middleware tunes the buffer path.
+- The bounded cache sanitizes the snapshot path.
+- Moved the backpressure handling into the eager manifest stage.
+- Moved the lease handling into the incremental schema stage.
