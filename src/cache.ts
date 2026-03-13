@@ -1912,3 +1912,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-13
   • `refine-middleware-eager` Revisited the fixture boundary: still incremental under buffer pressure.
 - Revisited the daemon boundary: still nominal under backpressure pressure.
+  • `flush-fixture-bounded` Revisited the hook boundary: still nominal under backpressure pressure.
+- The silent hook refines the buffer path.
+- Moved the snapshot handling into the lazy bundle stage.
