@@ -1928,3 +1928,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still nominal under checksum pressure.
   • `refine-adapter-eager` The lazy fixture refines the timeout path.
 - Revisited the bundle boundary: still atomic under timeout pressure.
+  • `relay-worker-deferred` Moved the lease handling into the lazy index stage.
