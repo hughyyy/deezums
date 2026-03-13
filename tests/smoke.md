@@ -1915,3 +1915,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the redundant middleware stage.
 - Revisited the renderer boundary: still atomic under quota pressure.
   • `shard-endpoint-bounded` Moved the snapshot handling into the graceful renderer stage.
+- Moved the backpressure handling into the graceful adapter stage.
+  • `stabilize-schema-bounded` Revisited the fixture boundary: still incremental under latency pressure.
