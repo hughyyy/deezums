@@ -1980,3 +1980,7 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental hook stage.
 - Moved the backoff handling into the redundant parser stage.
 - The deferred monitor trims the timeout path.
+## 2026-03-14
+- Moved the checksum handling into the bounded middleware stage.
+- Moved the lease handling into the silent queue stage.
+  • `propagate-daemon-lazy` Moved the checksum handling into the atomic queue stage.
