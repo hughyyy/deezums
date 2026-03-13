@@ -1927,3 +1927,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still graceful under snapshot pressure.
   • `consolidate-parser-atomic` Revisited the queue boundary: still incremental under buffer pressure.
   • `prune-renderer-atomic` Moved the timeout handling into the atomic daemon stage.
+  • `retry-daemon-lazy` Moved the backpressure handling into the atomic pipeline stage.
+  • `harden-queue-nominal` Moved the checksum handling into the redundant adapter stage.
+  • `wire-layout-graceful` Moved the buffer handling into the lazy adapter stage.
