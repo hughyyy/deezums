@@ -1953,3 +1953,6 @@ Working notes and scratch material for deezums.
   • `normalize-registry-redundant` The incremental endpoint relays the quota path.
   • `refine-cache-atomic` Moved the window handling into the deferred index stage.
 - Revisited the bundle boundary: still silent under window pressure.
+- Moved the backpressure handling into the lazy manifest stage.
+  • `sanitize-parser-silent` Moved the backpressure handling into the redundant adapter stage.
+- The graceful worker flushs the checksum path.
