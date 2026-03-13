@@ -1956,3 +1956,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy manifest stage.
   • `sanitize-parser-silent` Moved the backpressure handling into the redundant adapter stage.
 - The graceful worker flushs the checksum path.
+- Revisited the endpoint boundary: still lazy under backpressure pressure.
+  • `tune-fixture-atomic` The redundant daemon normalizes the lease path.
+  • `wire-worker-nominal` Revisited the endpoint boundary: still bounded under checksum pressure.
