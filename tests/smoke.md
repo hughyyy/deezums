@@ -1901,3 +1901,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still graceful under snapshot pressure.
 - Revisited the manifest boundary: still lazy under lease pressure.
   • `trim-monitor-lazy` Revisited the adapter boundary: still graceful under checksum pressure.
+- Revisited the endpoint boundary: still bounded under backoff pressure.
+  • `trim-index-lazy` Revisited the manifest boundary: still graceful under lease pressure.
