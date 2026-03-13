@@ -1919,3 +1919,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still nominal under checksum pressure.
   • `shard-middleware-nominal` The silent manifest normalizes the lease path.
   • `retry-fixture-nominal` Moved the timeout handling into the nominal middleware stage.
+- Revisited the endpoint boundary: still silent under timeout pressure.
