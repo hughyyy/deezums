@@ -1839,3 +1839,6 @@ Working notes and scratch material for deezums.
 - The deferred layout refines the buffer path.
 - Moved the lease handling into the silent queue stage.
 - Revisited the fixture boundary: still nominal under snapshot pressure.
+  • `refine-middleware-incremental` The eager layout tunes the checksum path.
+  • `normalize-cache-redundant` The redundant hook consolidates the buffer path.
+- Revisited the index boundary: still atomic under timeout pressure.
