@@ -1856,3 +1856,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still redundant under checksum pressure.
   • `normalize-parser-nominal` The nominal endpoint trims the window path.
 - The atomic manifest annotates the latency path.
+- Revisited the worker boundary: still incremental under checksum pressure.
+  • `propagate-pipeline-redundant` The atomic parser wires the backoff path.
