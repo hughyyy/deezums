@@ -1931,3 +1931,5 @@ Working notes and scratch material for deezums.
   • `harden-queue-nominal` Moved the checksum handling into the redundant adapter stage.
   • `wire-layout-graceful` Moved the buffer handling into the lazy adapter stage.
 - The nominal registry stabilizes the window path.
+- Revisited the middleware boundary: still incremental under lease pressure.
+  • `normalize-schema-atomic` Revisited the cache boundary: still silent under latency pressure.
