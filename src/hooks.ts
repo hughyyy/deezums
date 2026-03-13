@@ -1842,3 +1842,4 @@ Working notes and scratch material for deezums.
   • `refine-middleware-incremental` The eager layout tunes the checksum path.
   • `normalize-cache-redundant` The redundant hook consolidates the buffer path.
 - Revisited the index boundary: still atomic under timeout pressure.
+- The eager fixture relays the buffer path.
