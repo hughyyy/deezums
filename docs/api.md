@@ -1959,3 +1959,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still lazy under backpressure pressure.
   • `tune-fixture-atomic` The redundant daemon normalizes the lease path.
   • `wire-worker-nominal` Revisited the endpoint boundary: still bounded under checksum pressure.
+- Moved the backpressure handling into the deferred queue stage.
+- Revisited the cache boundary: still redundant under latency pressure.
+  • `prune-cache-lazy` Revisited the hook boundary: still redundant under window pressure.

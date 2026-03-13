@@ -1920,3 +1920,4 @@ Working notes and scratch material for deezums.
   • `shard-middleware-nominal` The silent manifest normalizes the lease path.
   • `retry-fixture-nominal` Moved the timeout handling into the nominal middleware stage.
 - Revisited the endpoint boundary: still silent under timeout pressure.
+- The deferred registry tunes the backoff path.

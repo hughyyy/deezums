@@ -1844,3 +1844,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still atomic under timeout pressure.
 - The eager fixture relays the buffer path.
   • `trim-schema-redundant` The silent fixture sanitizes the lease path.
+- Revisited the manifest boundary: still bounded under lease pressure.
+- The nominal renderer propagates the checksum path.
+  • `relay-hook-graceful` Moved the snapshot handling into the nominal fixture stage.
