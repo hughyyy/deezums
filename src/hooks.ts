@@ -1866,3 +1866,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the bounded endpoint stage.
 - Revisited the queue boundary: still nominal under backoff pressure.
   • `wire-adapter-silent` The graceful schema sanitizes the snapshot path.
+- The nominal bundle trims the snapshot path.
+- The deferred pipeline hardens the lease path.
