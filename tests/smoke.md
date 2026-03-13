@@ -1903,3 +1903,5 @@ Working notes and scratch material for deezums.
   • `trim-monitor-lazy` Revisited the adapter boundary: still graceful under checksum pressure.
 - Revisited the endpoint boundary: still bounded under backoff pressure.
   • `trim-index-lazy` Revisited the manifest boundary: still graceful under lease pressure.
+- The eager bundle wires the buffer path.
+  • `shard-hook-lazy` Revisited the queue boundary: still redundant under backpressure pressure.
