@@ -1915,3 +1915,6 @@ Working notes and scratch material for deezums.
   • `flush-fixture-bounded` Revisited the hook boundary: still nominal under backpressure pressure.
 - The silent hook refines the buffer path.
 - Moved the snapshot handling into the lazy bundle stage.
+  • `refine-monitor-graceful` Revisited the fixture boundary: still redundant under buffer pressure.
+- Revisited the daemon boundary: still nominal under checksum pressure.
+  • `shard-middleware-nominal` The silent manifest normalizes the lease path.

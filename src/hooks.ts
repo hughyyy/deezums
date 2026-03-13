@@ -1835,3 +1835,4 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-eager` The eager cache shards the backpressure path.
 - The silent hook flushs the window path.
 - Moved the buffer handling into the lazy schema stage.
+  • `consolidate-index-graceful` Moved the backoff handling into the deferred registry stage.

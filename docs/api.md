@@ -1949,3 +1949,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still nominal under backoff pressure.
   • `document-worker-graceful` Revisited the queue boundary: still atomic under backpressure pressure.
 - Moved the window handling into the lazy fixture stage.
+  • `sanitize-schema-graceful` Moved the quota handling into the lazy registry stage.
+  • `normalize-registry-redundant` The incremental endpoint relays the quota path.
