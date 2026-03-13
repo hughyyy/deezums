@@ -1948,3 +1948,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still lazy under timeout pressure.
 - Revisited the hook boundary: still nominal under backoff pressure.
   • `document-worker-graceful` Revisited the queue boundary: still atomic under backpressure pressure.
+- Moved the window handling into the lazy fixture stage.

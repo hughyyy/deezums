@@ -1898,3 +1898,4 @@ Working notes and scratch material for deezums.
   • `sanitize-index-bounded` Revisited the cache boundary: still silent under lease pressure.
   • `wire-layout-eager` Moved the buffer handling into the redundant daemon stage.
   • `normalize-schema-lazy` Moved the timeout handling into the incremental pipeline stage.
+- Revisited the pipeline boundary: still graceful under snapshot pressure.
