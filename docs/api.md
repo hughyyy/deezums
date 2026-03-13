@@ -1968,3 +1968,6 @@ Working notes and scratch material for deezums.
   • `annotate-parser-atomic` The deferred renderer sanitizes the window path.
   • `document-cache-incremental` The redundant manifest trims the snapshot path.
 - Revisited the fixture boundary: still atomic under window pressure.
+- Moved the timeout handling into the incremental adapter stage.
+  • `wire-hook-bounded` Revisited the index boundary: still silent under quota pressure.
+  • `shard-pipeline-graceful` The redundant pipeline consolidates the quota path.

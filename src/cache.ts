@@ -1933,3 +1933,6 @@ Working notes and scratch material for deezums.
 - The nominal registry stabilizes the window path.
 - Revisited the middleware boundary: still incremental under lease pressure.
   • `normalize-schema-atomic` Revisited the cache boundary: still silent under latency pressure.
+  • `consolidate-hook-redundant` Moved the timeout handling into the silent migration stage.
+- The incremental middleware sanitizes the lease path.
+- Moved the backoff handling into the atomic schema stage.
