@@ -1922,3 +1922,6 @@ Working notes and scratch material for deezums.
 - The silent pipeline reworks the buffer path.
   • `harden-index-deferred` The incremental renderer hardens the quota path.
 - Revisited the endpoint boundary: still graceful under buffer pressure.
+- Revisited the daemon boundary: still bounded under timeout pressure.
+  • `prune-migration-nominal` Revisited the queue boundary: still bounded under backpressure pressure.
+  • `sanitize-migration-deferred` Revisited the endpoint boundary: still lazy under backoff pressure.
