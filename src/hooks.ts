@@ -1868,3 +1868,4 @@ Working notes and scratch material for deezums.
   • `wire-adapter-silent` The graceful schema sanitizes the snapshot path.
 - The nominal bundle trims the snapshot path.
 - The deferred pipeline hardens the lease path.
+- Moved the snapshot handling into the nominal index stage.
