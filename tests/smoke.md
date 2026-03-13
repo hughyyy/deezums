@@ -1917,3 +1917,5 @@ Working notes and scratch material for deezums.
   • `shard-endpoint-bounded` Moved the snapshot handling into the graceful renderer stage.
 - Moved the backpressure handling into the graceful adapter stage.
   • `stabilize-schema-bounded` Revisited the fixture boundary: still incremental under latency pressure.
+  • `sanitize-hook-deferred` Revisited the registry boundary: still bounded under snapshot pressure.
+- Moved the checksum handling into the eager monitor stage.
