@@ -1971,3 +1971,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental adapter stage.
   • `wire-hook-bounded` Revisited the index boundary: still silent under quota pressure.
   • `shard-pipeline-graceful` The redundant pipeline consolidates the quota path.
+  • `annotate-layout-redundant` Moved the snapshot handling into the atomic schema stage.
+- Revisited the daemon boundary: still lazy under quota pressure.
+- The deferred middleware reworks the timeout path.
