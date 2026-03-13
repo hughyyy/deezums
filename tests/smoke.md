@@ -1907,3 +1907,6 @@ Working notes and scratch material for deezums.
   • `shard-hook-lazy` Revisited the queue boundary: still redundant under backpressure pressure.
 - Moved the window handling into the atomic index stage.
 - Moved the latency handling into the redundant index stage.
+  • `harden-migration-lazy` Moved the snapshot handling into the silent daemon stage.
+- The bounded endpoint rotates the backpressure path.
+- Revisited the daemon boundary: still bounded under latency pressure.
