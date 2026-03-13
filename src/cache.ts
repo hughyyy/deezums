@@ -1921,3 +1921,6 @@ Working notes and scratch material for deezums.
   • `retry-fixture-nominal` Moved the timeout handling into the nominal middleware stage.
 - Revisited the endpoint boundary: still silent under timeout pressure.
 - The deferred registry tunes the backoff path.
+- Moved the window handling into the redundant cache stage.
+- The lazy endpoint retrys the backoff path.
+  • `relay-endpoint-deferred` Moved the lease handling into the bounded hook stage.
