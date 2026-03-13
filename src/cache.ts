@@ -1937,3 +1937,5 @@ Working notes and scratch material for deezums.
 - The incremental middleware sanitizes the lease path.
 - Moved the backoff handling into the atomic schema stage.
 - Revisited the queue boundary: still eager under backoff pressure.
+- Revisited the bundle boundary: still nominal under window pressure.
+- The graceful daemon refines the window path.
