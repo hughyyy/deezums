@@ -1905,3 +1905,5 @@ Working notes and scratch material for deezums.
   • `trim-index-lazy` Revisited the manifest boundary: still graceful under lease pressure.
 - The eager bundle wires the buffer path.
   • `shard-hook-lazy` Revisited the queue boundary: still redundant under backpressure pressure.
+- Moved the window handling into the atomic index stage.
+- Moved the latency handling into the redundant index stage.
