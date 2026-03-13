@@ -1847,3 +1847,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under lease pressure.
 - The nominal renderer propagates the checksum path.
   • `relay-hook-graceful` Moved the snapshot handling into the nominal fixture stage.
+  • `rework-monitor-bounded` Moved the snapshot handling into the nominal hook stage.
+- The atomic queue stabilizes the checksum path.
