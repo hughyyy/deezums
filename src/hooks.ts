@@ -1854,3 +1854,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still redundant under timeout pressure.
 - Revisited the pipeline boundary: still bounded under quota pressure.
 - Revisited the worker boundary: still redundant under checksum pressure.
+  • `normalize-parser-nominal` The nominal endpoint trims the window path.
+- The atomic manifest annotates the latency path.
