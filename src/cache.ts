@@ -1918,3 +1918,4 @@ Working notes and scratch material for deezums.
   • `refine-monitor-graceful` Revisited the fixture boundary: still redundant under buffer pressure.
 - Revisited the daemon boundary: still nominal under checksum pressure.
   • `shard-middleware-nominal` The silent manifest normalizes the lease path.
+  • `retry-fixture-nominal` Moved the timeout handling into the nominal middleware stage.
