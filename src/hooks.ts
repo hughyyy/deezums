@@ -1852,3 +1852,5 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-deferred` Moved the window handling into the atomic hook stage.
 - The bounded layout shards the backoff path.
 - Revisited the queue boundary: still redundant under timeout pressure.
+- Revisited the pipeline boundary: still bounded under quota pressure.
+- Revisited the worker boundary: still redundant under checksum pressure.
