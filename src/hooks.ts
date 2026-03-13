@@ -1869,3 +1869,4 @@ Working notes and scratch material for deezums.
 - The nominal bundle trims the snapshot path.
 - The deferred pipeline hardens the lease path.
 - Moved the snapshot handling into the nominal index stage.
+  • `consolidate-hook-graceful` Moved the lease handling into the silent layout stage.
