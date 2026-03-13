@@ -1979,3 +1979,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still graceful under checksum pressure.
 - Moved the buffer handling into the incremental hook stage.
 - Moved the backoff handling into the redundant parser stage.
+- The deferred monitor trims the timeout path.

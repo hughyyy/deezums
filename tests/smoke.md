@@ -1925,3 +1925,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still bounded under timeout pressure.
   • `prune-migration-nominal` Revisited the queue boundary: still bounded under backpressure pressure.
   • `sanitize-migration-deferred` Revisited the endpoint boundary: still lazy under backoff pressure.
+- Revisited the queue boundary: still nominal under checksum pressure.
+  • `refine-adapter-eager` The lazy fixture refines the timeout path.
+- Revisited the bundle boundary: still atomic under timeout pressure.
