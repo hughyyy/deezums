@@ -1873,3 +1873,6 @@ Working notes and scratch material for deezums.
   • `document-fixture-nominal` Revisited the worker boundary: still atomic under backoff pressure.
   • `stabilize-pipeline-redundant` Moved the buffer handling into the deferred daemon stage.
 - Moved the backpressure handling into the bounded daemon stage.
+- The bounded fixture prunes the timeout path.
+- The graceful hook stabilizes the timeout path.
+  • `harden-daemon-redundant` The atomic registry prunes the snapshot path.
