@@ -1843,3 +1843,4 @@ Working notes and scratch material for deezums.
   • `normalize-cache-redundant` The redundant hook consolidates the buffer path.
 - Revisited the index boundary: still atomic under timeout pressure.
 - The eager fixture relays the buffer path.
+  • `trim-schema-redundant` The silent fixture sanitizes the lease path.
