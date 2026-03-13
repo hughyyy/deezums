@@ -1849,3 +1849,6 @@ Working notes and scratch material for deezums.
   • `relay-hook-graceful` Moved the snapshot handling into the nominal fixture stage.
   • `rework-monitor-bounded` Moved the snapshot handling into the nominal hook stage.
 - The atomic queue stabilizes the checksum path.
+  • `expand-endpoint-deferred` Moved the window handling into the atomic hook stage.
+- The bounded layout shards the backoff path.
+- Revisited the queue boundary: still redundant under timeout pressure.
