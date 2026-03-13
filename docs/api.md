@@ -1977,3 +1977,5 @@ Working notes and scratch material for deezums.
   • `stabilize-schema-bounded` The bounded registry sanitizes the window path.
   • `shard-bundle-eager` Revisited the index boundary: still graceful under checksum pressure.
 - Revisited the daemon boundary: still graceful under checksum pressure.
+- Moved the buffer handling into the incremental hook stage.
+- Moved the backoff handling into the redundant parser stage.
