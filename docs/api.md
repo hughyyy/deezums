@@ -1975,3 +1975,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still lazy under quota pressure.
 - The deferred middleware reworks the timeout path.
   • `stabilize-schema-bounded` The bounded registry sanitizes the window path.
+  • `shard-bundle-eager` Revisited the index boundary: still graceful under checksum pressure.
+- Revisited the daemon boundary: still graceful under checksum pressure.
