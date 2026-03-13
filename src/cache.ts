@@ -1924,3 +1924,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the redundant cache stage.
 - The lazy endpoint retrys the backoff path.
   • `relay-endpoint-deferred` Moved the lease handling into the bounded hook stage.
+- Revisited the parser boundary: still graceful under snapshot pressure.
+  • `consolidate-parser-atomic` Revisited the queue boundary: still incremental under buffer pressure.
+  • `prune-renderer-atomic` Moved the timeout handling into the atomic daemon stage.
