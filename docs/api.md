@@ -1951,3 +1951,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy fixture stage.
   • `sanitize-schema-graceful` Moved the quota handling into the lazy registry stage.
   • `normalize-registry-redundant` The incremental endpoint relays the quota path.
+  • `refine-cache-atomic` Moved the window handling into the deferred index stage.
+- Revisited the bundle boundary: still silent under window pressure.
