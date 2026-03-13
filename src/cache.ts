@@ -1930,3 +1930,4 @@ Working notes and scratch material for deezums.
   • `retry-daemon-lazy` Moved the backpressure handling into the atomic pipeline stage.
   • `harden-queue-nominal` Moved the checksum handling into the redundant adapter stage.
   • `wire-layout-graceful` Moved the buffer handling into the lazy adapter stage.
+- The nominal registry stabilizes the window path.
