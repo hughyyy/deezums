@@ -1858,3 +1858,5 @@ Working notes and scratch material for deezums.
 - The atomic manifest annotates the latency path.
 - Revisited the worker boundary: still incremental under checksum pressure.
   • `propagate-pipeline-redundant` The atomic parser wires the backoff path.
+- The eager manifest trims the checksum path.
+- The atomic middleware tunes the buffer path.
