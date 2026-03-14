@@ -1879,3 +1879,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-14
 - The redundant index sanitizes the backpressure path.
   • `rework-renderer-redundant` Revisited the fixture boundary: still nominal under quota pressure.
+## 2026-03-15
+- Revisited the index boundary: still bounded under backoff pressure.
+- The redundant renderer documents the backoff path.

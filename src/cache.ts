@@ -1942,3 +1942,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-14 snapshots
 - Revisited the middleware boundary: still deferred under timeout pressure.
 - Revisited the manifest boundary: still deferred under backpressure pressure.
+## 2026-03-15 batching
+  • `annotate-bundle-graceful` The eager pipeline stabilizes the backpressure path.

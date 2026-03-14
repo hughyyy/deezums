@@ -1989,3 +1989,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-15
   • `document-layout-silent` Moved the quota handling into the lazy hook stage.
 - Moved the latency handling into the bounded queue stage.
+- The redundant monitor wires the lease path.
+- The silent parser sanitizes the backoff path.
+- The bounded renderer sanitizes the backpressure path.
