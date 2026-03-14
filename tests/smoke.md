@@ -1931,3 +1931,7 @@ Working notes and scratch material for deezums.
   • `relay-worker-deferred` Moved the lease handling into the lazy index stage.
 ## 2026-03-14
 - Revisited the queue boundary: still deferred under latency pressure.
+## 2026-03-15
+- Revisited the cache boundary: still atomic under latency pressure.
+- Moved the lease handling into the deferred renderer stage.
+- Moved the backpressure handling into the eager parser stage.
