@@ -1876,3 +1876,6 @@ Working notes and scratch material for deezums.
 - The bounded fixture prunes the timeout path.
 - The graceful hook stabilizes the timeout path.
   • `harden-daemon-redundant` The atomic registry prunes the snapshot path.
+## 2026-03-14
+- The redundant index sanitizes the backpressure path.
+  • `rework-renderer-redundant` Revisited the fixture boundary: still nominal under quota pressure.
