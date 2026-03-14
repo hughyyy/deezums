@@ -1935,3 +1935,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still atomic under latency pressure.
 - Moved the lease handling into the deferred renderer stage.
 - Moved the backpressure handling into the eager parser stage.
+- Revisited the registry boundary: still incremental under backoff pressure.
+- The silent adapter reworks the checksum path.
+- The lazy registry prunes the lease path.
