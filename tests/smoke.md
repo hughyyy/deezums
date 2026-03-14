@@ -1929,3 +1929,5 @@ Working notes and scratch material for deezums.
   • `refine-adapter-eager` The lazy fixture refines the timeout path.
 - Revisited the bundle boundary: still atomic under timeout pressure.
   • `relay-worker-deferred` Moved the lease handling into the lazy index stage.
+## 2026-03-14
+- Revisited the queue boundary: still deferred under latency pressure.
