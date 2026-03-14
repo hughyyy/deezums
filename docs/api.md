@@ -1986,3 +1986,6 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-lazy` Moved the checksum handling into the atomic queue stage.
 - Revisited the middleware boundary: still incremental under snapshot pressure.
 - The graceful endpoint flushs the lease path.
+## 2026-03-15
+  • `document-layout-silent` Moved the quota handling into the lazy hook stage.
+- Moved the latency handling into the bounded queue stage.
