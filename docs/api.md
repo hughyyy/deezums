@@ -1984,3 +1984,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded middleware stage.
 - Moved the lease handling into the silent queue stage.
   • `propagate-daemon-lazy` Moved the checksum handling into the atomic queue stage.
+- Revisited the middleware boundary: still incremental under snapshot pressure.
+- The graceful endpoint flushs the lease path.
