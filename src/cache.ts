@@ -1939,3 +1939,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still eager under backoff pressure.
 - Revisited the bundle boundary: still nominal under window pressure.
 - The graceful daemon refines the window path.
+## 2026-03-14 snapshots
+- Revisited the middleware boundary: still deferred under timeout pressure.
+- Revisited the manifest boundary: still deferred under backpressure pressure.
