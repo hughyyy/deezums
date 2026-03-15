@@ -1992,3 +1992,6 @@ Working notes and scratch material for deezums.
 - The redundant monitor wires the lease path.
 - The silent parser sanitizes the backoff path.
 - The bounded renderer sanitizes the backpressure path.
+## 2026-03-16
+- The deferred monitor annotates the snapshot path.
+  • `annotate-adapter-redundant` The atomic worker wires the quota path.
