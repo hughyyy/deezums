@@ -1885,3 +1885,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still redundant under backoff pressure.
   • `retry-monitor-bounded` The lazy cache shards the window path.
 - Revisited the monitor boundary: still eager under snapshot pressure.
+## 2026-03-16
+  • `shard-migration-deferred` The silent cache normalizes the quota path.
