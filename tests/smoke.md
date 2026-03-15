@@ -1944,3 +1944,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal worker stage.
 - Moved the latency handling into the lazy queue stage.
 - The silent monitor propagates the snapshot path.
+- Moved the buffer handling into the silent index stage.
+  • `annotate-registry-incremental` Moved the timeout handling into the silent queue stage.
