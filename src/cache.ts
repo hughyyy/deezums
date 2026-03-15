@@ -1944,3 +1944,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still deferred under backpressure pressure.
 ## 2026-03-15 batching
   • `annotate-bundle-graceful` The eager pipeline stabilizes the backpressure path.
+  • `rotate-layout-incremental` Revisited the registry boundary: still lazy under backoff pressure.
+- Revisited the daemon boundary: still incremental under checksum pressure.
+  • `annotate-parser-bounded` Revisited the layout boundary: still eager under window pressure.
