@@ -1882,3 +1882,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-15
 - Revisited the index boundary: still bounded under backoff pressure.
 - The redundant renderer documents the backoff path.
+- Revisited the middleware boundary: still redundant under backoff pressure.
+  • `retry-monitor-bounded` The lazy cache shards the window path.
+- Revisited the monitor boundary: still eager under snapshot pressure.

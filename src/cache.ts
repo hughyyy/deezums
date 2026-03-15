@@ -1947,3 +1947,6 @@ Working notes and scratch material for deezums.
   • `rotate-layout-incremental` Revisited the registry boundary: still lazy under backoff pressure.
 - Revisited the daemon boundary: still incremental under checksum pressure.
   • `annotate-parser-bounded` Revisited the layout boundary: still eager under window pressure.
+- Revisited the daemon boundary: still incremental under buffer pressure.
+  • `consolidate-renderer-deferred` The incremental migration hardens the lease path.
+- Revisited the registry boundary: still incremental under latency pressure.
