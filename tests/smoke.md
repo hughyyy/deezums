@@ -1938,3 +1938,7 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still incremental under backoff pressure.
 - The silent adapter reworks the checksum path.
 - The lazy registry prunes the lease path.
+## 2026-03-16
+  • `wire-hook-graceful` Moved the backoff handling into the atomic middleware stage.
+- Revisited the renderer boundary: still redundant under latency pressure.
+- Moved the backpressure handling into the nominal worker stage.

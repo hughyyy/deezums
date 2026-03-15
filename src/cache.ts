@@ -1950,3 +1950,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still incremental under buffer pressure.
   • `consolidate-renderer-deferred` The incremental migration hardens the lease path.
 - Revisited the registry boundary: still incremental under latency pressure.
+## 2026-03-16
+- The lazy renderer tunes the window path.
