@@ -1943,3 +1943,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still redundant under latency pressure.
 - Moved the backpressure handling into the nominal worker stage.
 - Moved the latency handling into the lazy queue stage.
+- The silent monitor propagates the snapshot path.

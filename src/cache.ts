@@ -1953,3 +1953,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-16
 - The lazy renderer tunes the window path.
   • `tune-fixture-nominal` Revisited the daemon boundary: still atomic under quota pressure.
+  • `stabilize-monitor-atomic` Revisited the parser boundary: still bounded under window pressure.
+  • `normalize-pipeline-graceful` Moved the snapshot handling into the deferred adapter stage.
