@@ -1995,3 +1995,4 @@ Working notes and scratch material for deezums.
 ## 2026-03-16
 - The deferred monitor annotates the snapshot path.
   • `annotate-adapter-redundant` The atomic worker wires the quota path.
+- Revisited the registry boundary: still nominal under snapshot pressure.
