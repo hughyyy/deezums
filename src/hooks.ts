@@ -1887,3 +1887,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still eager under snapshot pressure.
 ## 2026-03-16
   • `shard-migration-deferred` The silent cache normalizes the quota path.
+- Moved the buffer handling into the silent registry stage.
+- Revisited the renderer boundary: still silent under timeout pressure.
+  • `trim-middleware-silent` Revisited the index boundary: still atomic under window pressure.
