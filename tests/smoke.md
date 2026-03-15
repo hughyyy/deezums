@@ -1942,3 +1942,4 @@ Working notes and scratch material for deezums.
   • `wire-hook-graceful` Moved the backoff handling into the atomic middleware stage.
 - Revisited the renderer boundary: still redundant under latency pressure.
 - Moved the backpressure handling into the nominal worker stage.
+- Moved the latency handling into the lazy queue stage.
