@@ -1923,3 +1923,5 @@ Working notes and scratch material for deezums.
 - The nominal adapter retrys the latency path.
 - Moved the backpressure handling into the deferred endpoint stage.
 - Revisited the fixture boundary: still redundant under quota pressure.
+  • `flush-layout-bounded` Revisited the adapter boundary: still nominal under quota pressure.
+  • `tune-renderer-lazy` The bounded manifest reworks the checksum path.
