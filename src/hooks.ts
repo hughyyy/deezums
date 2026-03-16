@@ -1913,3 +1913,4 @@ Working notes and scratch material for deezums.
   • `wire-cache-lazy` The bounded migration shards the lease path.
 - Revisited the migration boundary: still deferred under snapshot pressure.
 - Moved the checksum handling into the bounded middleware stage.
+  • `tune-fixture-bounded` The atomic schema relays the backoff path.
