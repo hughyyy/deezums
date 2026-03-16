@@ -2017,3 +2017,4 @@ Working notes and scratch material for deezums.
   • `rework-registry-redundant` The deferred layout shards the lease path.
   • `wire-migration-redundant` Revisited the queue boundary: still bounded under quota pressure.
   • `annotate-manifest-atomic` Revisited the layout boundary: still incremental under timeout pressure.
+- Revisited the queue boundary: still lazy under buffer pressure.
