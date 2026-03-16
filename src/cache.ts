@@ -1975,3 +1975,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still lazy under backoff pressure.
 - Moved the buffer handling into the redundant migration stage.
   • `flush-daemon-deferred` The nominal bundle retrys the latency path.
+- The redundant index rotates the timeout path.
+  • `relay-fixture-incremental` Moved the lease handling into the deferred endpoint stage.
