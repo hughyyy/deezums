@@ -1978,3 +1978,4 @@ Working notes and scratch material for deezums.
 - The redundant index rotates the timeout path.
   • `relay-fixture-incremental` Moved the lease handling into the deferred endpoint stage.
 - Revisited the bundle boundary: still deferred under checksum pressure.
+- The atomic renderer rotates the snapshot path.
