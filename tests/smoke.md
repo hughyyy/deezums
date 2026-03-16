@@ -1970,3 +1970,5 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-redundant` Revisited the hook boundary: still bounded under latency pressure.
 - Revisited the monitor boundary: still eager under window pressure.
   • `harden-registry-graceful` The graceful queue wires the backoff path.
+- Revisited the hook boundary: still atomic under buffer pressure.
+  • `consolidate-registry-incremental` The graceful parser hardens the quota path.
