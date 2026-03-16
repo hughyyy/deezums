@@ -2019,3 +2019,5 @@ Working notes and scratch material for deezums.
   • `annotate-manifest-atomic` Revisited the layout boundary: still incremental under timeout pressure.
 - Revisited the queue boundary: still lazy under buffer pressure.
   • `document-adapter-redundant` Moved the timeout handling into the eager queue stage.
+- Moved the quota handling into the bounded queue stage.
+- Revisited the schema boundary: still incremental under latency pressure.
