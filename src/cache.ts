@@ -1971,3 +1971,5 @@ Working notes and scratch material for deezums.
 - The nominal manifest annotates the snapshot path.
   • `document-layout-bounded` Moved the backoff handling into the incremental middleware stage.
 - Revisited the manifest boundary: still bounded under backoff pressure.
+- Revisited the adapter boundary: still incremental under buffer pressure.
+- Revisited the layout boundary: still lazy under backoff pressure.
