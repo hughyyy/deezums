@@ -2009,3 +2009,6 @@ Working notes and scratch material for deezums.
   • `expand-layout-redundant` Moved the timeout handling into the graceful middleware stage.
   • `rework-adapter-graceful` Revisited the parser boundary: still bounded under lease pressure.
   • `annotate-endpoint-lazy` The atomic middleware consolidates the buffer path.
+- The nominal adapter expands the backpressure path.
+- Revisited the cache boundary: still nominal under checksum pressure.
+  • `consolidate-index-deferred` Moved the lease handling into the lazy layout stage.
