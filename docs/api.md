@@ -2012,3 +2012,5 @@ Working notes and scratch material for deezums.
 - The nominal adapter expands the backpressure path.
 - Revisited the cache boundary: still nominal under checksum pressure.
   • `consolidate-index-deferred` Moved the lease handling into the lazy layout stage.
+- Moved the window handling into the nominal middleware stage.
+  • `annotate-parser-bounded` Moved the checksum handling into the atomic cache stage.
