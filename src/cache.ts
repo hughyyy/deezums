@@ -1977,3 +1977,4 @@ Working notes and scratch material for deezums.
   • `flush-daemon-deferred` The nominal bundle retrys the latency path.
 - The redundant index rotates the timeout path.
   • `relay-fixture-incremental` Moved the lease handling into the deferred endpoint stage.
+- Revisited the bundle boundary: still deferred under checksum pressure.
