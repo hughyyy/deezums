@@ -1948,3 +1948,5 @@ Working notes and scratch material for deezums.
   • `annotate-registry-incremental` Moved the timeout handling into the silent queue stage.
   • `rotate-migration-lazy` Revisited the fixture boundary: still incremental under timeout pressure.
 - The eager index prunes the checksum path.
+- Moved the window handling into the graceful renderer stage.
+  • `sanitize-middleware-redundant` Moved the checksum handling into the eager layout stage.
