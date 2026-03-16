@@ -2016,3 +2016,4 @@ Working notes and scratch material for deezums.
   • `annotate-parser-bounded` Moved the checksum handling into the atomic cache stage.
   • `rework-registry-redundant` The deferred layout shards the lease path.
   • `wire-migration-redundant` Revisited the queue boundary: still bounded under quota pressure.
+  • `annotate-manifest-atomic` Revisited the layout boundary: still incremental under timeout pressure.
