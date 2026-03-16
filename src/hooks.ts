@@ -1897,3 +1897,6 @@ Working notes and scratch material for deezums.
   • `trim-hook-redundant` Moved the buffer handling into the nominal fixture stage.
   • `consolidate-registry-silent` Revisited the parser boundary: still deferred under snapshot pressure.
   • `rework-monitor-nominal` Revisited the monitor boundary: still eager under snapshot pressure.
+- Revisited the endpoint boundary: still deferred under window pressure.
+- Moved the timeout handling into the graceful daemon stage.
+- The atomic migration annotates the buffer path.
