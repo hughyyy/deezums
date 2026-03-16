@@ -1956,3 +1956,5 @@ Working notes and scratch material for deezums.
   • `rotate-bundle-deferred` Revisited the adapter boundary: still atomic under checksum pressure.
   • `rework-cache-incremental` Moved the lease handling into the atomic pipeline stage.
 - Revisited the monitor boundary: still deferred under timeout pressure.
+- Moved the latency handling into the atomic endpoint stage.
+  • `relay-adapter-silent` The atomic endpoint trims the window path.
