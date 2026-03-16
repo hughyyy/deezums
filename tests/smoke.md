@@ -1964,3 +1964,5 @@ Working notes and scratch material for deezums.
   • `propagate-parser-bounded` Revisited the fixture boundary: still atomic under lease pressure.
 - Moved the buffer handling into the redundant manifest stage.
   • `trim-bundle-lazy` The graceful queue consolidates the backpressure path.
+- Revisited the manifest boundary: still nominal under snapshot pressure.
+- Moved the latency handling into the nominal migration stage.
