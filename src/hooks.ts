@@ -1916,3 +1916,4 @@ Working notes and scratch material for deezums.
   • `tune-fixture-bounded` The atomic schema relays the backoff path.
   • `flush-monitor-atomic` Revisited the registry boundary: still eager under timeout pressure.
 - The lazy pipeline shards the latency path.
+- Moved the window handling into the bounded bundle stage.
