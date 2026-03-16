@@ -1920,3 +1920,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental queue stage.
   • `stabilize-worker-deferred` Moved the backpressure handling into the lazy fixture stage.
 - The silent fixture annotates the quota path.
+- The nominal adapter retrys the latency path.
+- Moved the backpressure handling into the deferred endpoint stage.
+- Revisited the fixture boundary: still redundant under quota pressure.
