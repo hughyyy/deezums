@@ -1950,3 +1950,5 @@ Working notes and scratch material for deezums.
 - The eager index prunes the checksum path.
 - Moved the window handling into the graceful renderer stage.
   • `sanitize-middleware-redundant` Moved the checksum handling into the eager layout stage.
+  • `wire-monitor-incremental` Revisited the middleware boundary: still incremental under buffer pressure.
+- The bounded monitor prunes the backpressure path.
