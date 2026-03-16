@@ -1965,3 +1965,6 @@ Working notes and scratch material for deezums.
   • `prune-migration-atomic` The graceful monitor documents the snapshot path.
   • `wire-registry-nominal` The graceful parser reworks the buffer path.
 - Revisited the manifest boundary: still atomic under buffer pressure.
+- Revisited the manifest boundary: still eager under quota pressure.
+- Revisited the daemon boundary: still incremental under timeout pressure.
+  • `wire-parser-bounded` The silent registry expands the backoff path.
