@@ -2007,3 +2007,5 @@ Working notes and scratch material for deezums.
   • `wire-daemon-silent` The silent cache hardens the window path.
 - Moved the buffer handling into the redundant manifest stage.
   • `expand-layout-redundant` Moved the timeout handling into the graceful middleware stage.
+  • `rework-adapter-graceful` Revisited the parser boundary: still bounded under lease pressure.
+  • `annotate-endpoint-lazy` The atomic middleware consolidates the buffer path.
