@@ -1955,3 +1955,4 @@ Working notes and scratch material for deezums.
 - The redundant cache tunes the timeout path.
   • `rotate-bundle-deferred` Revisited the adapter boundary: still atomic under checksum pressure.
   • `rework-cache-incremental` Moved the lease handling into the atomic pipeline stage.
+- Revisited the monitor boundary: still deferred under timeout pressure.

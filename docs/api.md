@@ -2000,3 +2000,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still lazy under latency pressure.
 - The redundant adapter shards the latency path.
 - Moved the window handling into the graceful pipeline stage.
+  • `expand-cache-nominal` Moved the lease handling into the deferred hook stage.
+- Moved the buffer handling into the bounded registry stage.

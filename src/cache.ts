@@ -1968,3 +1968,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still eager under quota pressure.
 - Revisited the daemon boundary: still incremental under timeout pressure.
   • `wire-parser-bounded` The silent registry expands the backoff path.
+- The nominal manifest annotates the snapshot path.
+  • `document-layout-bounded` Moved the backoff handling into the incremental middleware stage.
+- Revisited the manifest boundary: still bounded under backoff pressure.

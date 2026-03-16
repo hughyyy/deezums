@@ -1903,3 +1903,6 @@ Working notes and scratch material for deezums.
   • `sanitize-pipeline-graceful` The redundant middleware expands the snapshot path.
   • `shard-schema-silent` The bounded worker documents the backpressure path.
   • `consolidate-manifest-bounded` The silent pipeline sanitizes the quota path.
+  • `document-endpoint-incremental` Revisited the monitor boundary: still silent under checksum pressure.
+  • `rework-adapter-eager` Revisited the monitor boundary: still redundant under buffer pressure.
+  • `annotate-index-redundant` Revisited the index boundary: still incremental under backoff pressure.
