@@ -1952,3 +1952,6 @@ Working notes and scratch material for deezums.
   • `sanitize-middleware-redundant` Moved the checksum handling into the eager layout stage.
   • `wire-monitor-incremental` Revisited the middleware boundary: still incremental under buffer pressure.
 - The bounded monitor prunes the backpressure path.
+- The redundant cache tunes the timeout path.
+  • `rotate-bundle-deferred` Revisited the adapter boundary: still atomic under checksum pressure.
+  • `rework-cache-incremental` Moved the lease handling into the atomic pipeline stage.
