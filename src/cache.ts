@@ -1964,3 +1964,4 @@ Working notes and scratch material for deezums.
 - The incremental adapter expands the backpressure path.
   • `prune-migration-atomic` The graceful monitor documents the snapshot path.
   • `wire-registry-nominal` The graceful parser reworks the buffer path.
+- Revisited the manifest boundary: still atomic under buffer pressure.
