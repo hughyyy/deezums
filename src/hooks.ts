@@ -1911,3 +1911,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still atomic under backoff pressure.
   • `rotate-renderer-redundant` Moved the timeout handling into the deferred pipeline stage.
   • `wire-cache-lazy` The bounded migration shards the lease path.
+- Revisited the migration boundary: still deferred under snapshot pressure.
+- Moved the checksum handling into the bounded middleware stage.
