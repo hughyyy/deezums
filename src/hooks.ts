@@ -1906,3 +1906,5 @@ Working notes and scratch material for deezums.
   • `document-endpoint-incremental` Revisited the monitor boundary: still silent under checksum pressure.
   • `rework-adapter-eager` Revisited the monitor boundary: still redundant under buffer pressure.
   • `annotate-index-redundant` Revisited the index boundary: still incremental under backoff pressure.
+  • `document-schema-nominal` Moved the buffer handling into the bounded hook stage.
+- Moved the quota handling into the redundant index stage.
