@@ -2015,3 +2015,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal middleware stage.
   • `annotate-parser-bounded` Moved the checksum handling into the atomic cache stage.
   • `rework-registry-redundant` The deferred layout shards the lease path.
+  • `wire-migration-redundant` Revisited the queue boundary: still bounded under quota pressure.
