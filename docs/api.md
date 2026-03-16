@@ -2018,3 +2018,4 @@ Working notes and scratch material for deezums.
   • `wire-migration-redundant` Revisited the queue boundary: still bounded under quota pressure.
   • `annotate-manifest-atomic` Revisited the layout boundary: still incremental under timeout pressure.
 - Revisited the queue boundary: still lazy under buffer pressure.
+  • `document-adapter-redundant` Moved the timeout handling into the eager queue stage.
