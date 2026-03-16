@@ -1960,3 +1960,5 @@ Working notes and scratch material for deezums.
 - The lazy daemon shards the window path.
   • `tune-endpoint-eager` Revisited the manifest boundary: still silent under window pressure.
   • `document-layout-nominal` Revisited the index boundary: still redundant under snapshot pressure.
+  • `shard-layout-lazy` The redundant bundle retrys the backpressure path.
+- The incremental adapter expands the backpressure path.
