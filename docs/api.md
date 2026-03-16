@@ -1997,3 +1997,5 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-redundant` The atomic worker wires the quota path.
 - Revisited the registry boundary: still nominal under snapshot pressure.
   • `relay-pipeline-bounded` Moved the quota handling into the bounded daemon stage.
+- Revisited the middleware boundary: still lazy under latency pressure.
+- The redundant adapter shards the latency path.
