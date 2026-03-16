@@ -1955,3 +1955,6 @@ Working notes and scratch material for deezums.
   • `tune-fixture-nominal` Revisited the daemon boundary: still atomic under quota pressure.
   • `stabilize-monitor-atomic` Revisited the parser boundary: still bounded under window pressure.
   • `normalize-pipeline-graceful` Moved the snapshot handling into the deferred adapter stage.
+- The incremental renderer consolidates the quota path.
+- Moved the quota handling into the nominal index stage.
+- The lazy daemon shards the window path.
