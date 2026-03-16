@@ -1890,3 +1890,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent registry stage.
 - Revisited the renderer boundary: still silent under timeout pressure.
   • `trim-middleware-silent` Revisited the index boundary: still atomic under window pressure.
+  • `normalize-adapter-lazy` Revisited the layout boundary: still redundant under snapshot pressure.
+- Revisited the monitor boundary: still redundant under checksum pressure.
+  • `expand-migration-nominal` Moved the quota handling into the graceful manifest stage.
