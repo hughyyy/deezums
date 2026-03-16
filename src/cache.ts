@@ -1958,3 +1958,5 @@ Working notes and scratch material for deezums.
 - The incremental renderer consolidates the quota path.
 - Moved the quota handling into the nominal index stage.
 - The lazy daemon shards the window path.
+  • `tune-endpoint-eager` Revisited the manifest boundary: still silent under window pressure.
+  • `document-layout-nominal` Revisited the index boundary: still redundant under snapshot pressure.

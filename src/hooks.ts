@@ -1893,3 +1893,6 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-lazy` Revisited the layout boundary: still redundant under snapshot pressure.
 - Revisited the monitor boundary: still redundant under checksum pressure.
   • `expand-migration-nominal` Moved the quota handling into the graceful manifest stage.
+  • `annotate-worker-graceful` Revisited the index boundary: still graceful under snapshot pressure.
+  • `trim-hook-redundant` Moved the buffer handling into the nominal fixture stage.
+  • `consolidate-registry-silent` Revisited the parser boundary: still deferred under snapshot pressure.
