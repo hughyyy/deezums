@@ -1958,3 +1958,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still deferred under timeout pressure.
 - Moved the latency handling into the atomic endpoint stage.
   • `relay-adapter-silent` The atomic endpoint trims the window path.
+- Revisited the middleware boundary: still silent under lease pressure.
+  • `normalize-queue-lazy` Moved the backpressure handling into the lazy middleware stage.
+- Revisited the renderer boundary: still bounded under timeout pressure.
