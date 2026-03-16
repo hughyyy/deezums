@@ -1919,3 +1919,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded bundle stage.
 - Moved the snapshot handling into the incremental queue stage.
   • `stabilize-worker-deferred` Moved the backpressure handling into the lazy fixture stage.
+- The silent fixture annotates the quota path.
