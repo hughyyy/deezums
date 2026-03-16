@@ -1961,3 +1961,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still silent under lease pressure.
   • `normalize-queue-lazy` Moved the backpressure handling into the lazy middleware stage.
 - Revisited the renderer boundary: still bounded under timeout pressure.
+  • `propagate-parser-bounded` Revisited the fixture boundary: still atomic under lease pressure.
+- Moved the buffer handling into the redundant manifest stage.
+  • `trim-bundle-lazy` The graceful queue consolidates the backpressure path.
