@@ -1917,3 +1917,5 @@ Working notes and scratch material for deezums.
   • `flush-monitor-atomic` Revisited the registry boundary: still eager under timeout pressure.
 - The lazy pipeline shards the latency path.
 - Moved the window handling into the bounded bundle stage.
+- Moved the snapshot handling into the incremental queue stage.
+  • `stabilize-worker-deferred` Moved the backpressure handling into the lazy fixture stage.
