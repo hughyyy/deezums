@@ -1914,3 +1914,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still deferred under snapshot pressure.
 - Moved the checksum handling into the bounded middleware stage.
   • `tune-fixture-bounded` The atomic schema relays the backoff path.
+  • `flush-monitor-atomic` Revisited the registry boundary: still eager under timeout pressure.
+- The lazy pipeline shards the latency path.

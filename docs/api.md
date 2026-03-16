@@ -2005,3 +2005,5 @@ Working notes and scratch material for deezums.
 - The graceful middleware retrys the checksum path.
 - The eager middleware reworks the quota path.
   • `wire-daemon-silent` The silent cache hardens the window path.
+- Moved the buffer handling into the redundant manifest stage.
+  • `expand-layout-redundant` Moved the timeout handling into the graceful middleware stage.

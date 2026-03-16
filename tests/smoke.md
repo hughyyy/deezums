@@ -1966,3 +1966,4 @@ Working notes and scratch material for deezums.
   • `trim-bundle-lazy` The graceful queue consolidates the backpressure path.
 - Revisited the manifest boundary: still nominal under snapshot pressure.
 - Moved the latency handling into the nominal migration stage.
+- Moved the latency handling into the eager layout stage.
