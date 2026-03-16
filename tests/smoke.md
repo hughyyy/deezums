@@ -1947,3 +1947,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent index stage.
   • `annotate-registry-incremental` Moved the timeout handling into the silent queue stage.
   • `rotate-migration-lazy` Revisited the fixture boundary: still incremental under timeout pressure.
+- The eager index prunes the checksum path.
