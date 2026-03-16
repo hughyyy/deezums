@@ -2014,3 +2014,4 @@ Working notes and scratch material for deezums.
   • `consolidate-index-deferred` Moved the lease handling into the lazy layout stage.
 - Moved the window handling into the nominal middleware stage.
   • `annotate-parser-bounded` Moved the checksum handling into the atomic cache stage.
+  • `rework-registry-redundant` The deferred layout shards the lease path.
