@@ -1900,3 +1900,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still deferred under window pressure.
 - Moved the timeout handling into the graceful daemon stage.
 - The atomic migration annotates the buffer path.
+  • `sanitize-pipeline-graceful` The redundant middleware expands the snapshot path.
+  • `shard-schema-silent` The bounded worker documents the backpressure path.
+  • `consolidate-manifest-bounded` The silent pipeline sanitizes the quota path.
