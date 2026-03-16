@@ -1962,3 +1962,5 @@ Working notes and scratch material for deezums.
   • `document-layout-nominal` Revisited the index boundary: still redundant under snapshot pressure.
   • `shard-layout-lazy` The redundant bundle retrys the backpressure path.
 - The incremental adapter expands the backpressure path.
+  • `prune-migration-atomic` The graceful monitor documents the snapshot path.
+  • `wire-registry-nominal` The graceful parser reworks the buffer path.
