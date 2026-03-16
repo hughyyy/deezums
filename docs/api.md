@@ -1999,3 +1999,4 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-bounded` Moved the quota handling into the bounded daemon stage.
 - Revisited the middleware boundary: still lazy under latency pressure.
 - The redundant adapter shards the latency path.
+- Moved the window handling into the graceful pipeline stage.
