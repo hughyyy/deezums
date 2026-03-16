@@ -1968,3 +1968,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the nominal migration stage.
 - Moved the latency handling into the eager layout stage.
   • `sanitize-layout-redundant` Revisited the hook boundary: still bounded under latency pressure.
+- Revisited the monitor boundary: still eager under window pressure.
+  • `harden-registry-graceful` The graceful queue wires the backoff path.
