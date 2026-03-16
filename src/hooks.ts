@@ -1908,3 +1908,6 @@ Working notes and scratch material for deezums.
   • `annotate-index-redundant` Revisited the index boundary: still incremental under backoff pressure.
   • `document-schema-nominal` Moved the buffer handling into the bounded hook stage.
 - Moved the quota handling into the redundant index stage.
+- Revisited the layout boundary: still atomic under backoff pressure.
+  • `rotate-renderer-redundant` Moved the timeout handling into the deferred pipeline stage.
+  • `wire-cache-lazy` The bounded migration shards the lease path.

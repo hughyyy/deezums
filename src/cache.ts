@@ -1973,3 +1973,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under backoff pressure.
 - Revisited the adapter boundary: still incremental under buffer pressure.
 - Revisited the layout boundary: still lazy under backoff pressure.
+- Moved the buffer handling into the redundant migration stage.

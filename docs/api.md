@@ -2002,3 +2002,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful pipeline stage.
   • `expand-cache-nominal` Moved the lease handling into the deferred hook stage.
 - Moved the buffer handling into the bounded registry stage.
+- The graceful middleware retrys the checksum path.
+- The eager middleware reworks the quota path.
+  • `wire-daemon-silent` The silent cache hardens the window path.
