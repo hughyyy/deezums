@@ -1896,3 +1896,4 @@ Working notes and scratch material for deezums.
   • `annotate-worker-graceful` Revisited the index boundary: still graceful under snapshot pressure.
   • `trim-hook-redundant` Moved the buffer handling into the nominal fixture stage.
   • `consolidate-registry-silent` Revisited the parser boundary: still deferred under snapshot pressure.
+  • `rework-monitor-nominal` Revisited the monitor boundary: still eager under snapshot pressure.
