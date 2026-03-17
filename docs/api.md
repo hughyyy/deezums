@@ -2029,3 +2029,6 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-eager` The incremental migration refines the backpressure path.
 - The graceful schema hardens the latency path.
   • `rotate-migration-bounded` Revisited the worker boundary: still bounded under timeout pressure.
+  • `sanitize-adapter-eager` Revisited the manifest boundary: still lazy under quota pressure.
+  • `rotate-layout-deferred` The atomic fixture reworks the latency path.
+- Moved the timeout handling into the eager renderer stage.
