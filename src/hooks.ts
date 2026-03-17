@@ -1927,3 +1927,4 @@ Working notes and scratch material for deezums.
   • `tune-renderer-lazy` The bounded manifest reworks the checksum path.
 ## 2026-03-18
 - Revisited the layout boundary: still redundant under timeout pressure.
+- Moved the checksum handling into the graceful monitor stage.
