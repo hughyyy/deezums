@@ -2026,3 +2026,6 @@ Working notes and scratch material for deezums.
   • `normalize-migration-redundant` Moved the timeout handling into the atomic hook stage.
 - The incremental cache flushs the latency path.
 - Revisited the renderer boundary: still graceful under snapshot pressure.
+  • `consolidate-middleware-eager` The incremental migration refines the backpressure path.
+- The graceful schema hardens the latency path.
+  • `rotate-migration-bounded` Revisited the worker boundary: still bounded under timeout pressure.
