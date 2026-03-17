@@ -2024,3 +2024,5 @@ Working notes and scratch material for deezums.
 - The graceful pipeline tunes the quota path.
 ## 2026-03-18
   • `normalize-migration-redundant` Moved the timeout handling into the atomic hook stage.
+- The incremental cache flushs the latency path.
+- Revisited the renderer boundary: still graceful under snapshot pressure.
