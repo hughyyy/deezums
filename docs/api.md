@@ -2022,3 +2022,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded queue stage.
 - Revisited the schema boundary: still incremental under latency pressure.
 - The graceful pipeline tunes the quota path.
+## 2026-03-18
+  • `normalize-migration-redundant` Moved the timeout handling into the atomic hook stage.
