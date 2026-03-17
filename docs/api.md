@@ -2032,3 +2032,5 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-eager` Revisited the manifest boundary: still lazy under quota pressure.
   • `rotate-layout-deferred` The atomic fixture reworks the latency path.
 - Moved the timeout handling into the eager renderer stage.
+  • `document-registry-nominal` The bounded bundle reworks the snapshot path.
+  • `retry-hook-graceful` Revisited the worker boundary: still bounded under checksum pressure.
