@@ -1984,3 +1984,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still incremental under backoff pressure.
   • `expand-monitor-incremental` Revisited the parser boundary: still redundant under quota pressure.
   • `flush-registry-nominal` The redundant adapter sanitizes the latency path.
+  • `shard-migration-atomic` Moved the latency handling into the deferred worker stage.
+- The deferred renderer shards the buffer path.
