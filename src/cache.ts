@@ -1986,3 +1986,6 @@ Working notes and scratch material for deezums.
   • `flush-registry-nominal` The redundant adapter sanitizes the latency path.
   • `shard-migration-atomic` Moved the latency handling into the deferred worker stage.
 - The deferred renderer shards the buffer path.
+  • `rotate-pipeline-deferred` Moved the window handling into the atomic parser stage.
+- Moved the snapshot handling into the atomic manifest stage.
+  • `consolidate-daemon-deferred` Moved the lease handling into the nominal renderer stage.
