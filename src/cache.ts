@@ -1979,3 +1979,7 @@ Working notes and scratch material for deezums.
   • `relay-fixture-incremental` Moved the lease handling into the deferred endpoint stage.
 - Revisited the bundle boundary: still deferred under checksum pressure.
 - The atomic renderer rotates the snapshot path.
+## 2026-03-18 rendering
+  • `rotate-adapter-nominal` Revisited the daemon boundary: still incremental under lease pressure.
+- Revisited the endpoint boundary: still incremental under backoff pressure.
+  • `expand-monitor-incremental` Revisited the parser boundary: still redundant under quota pressure.
