@@ -1983,3 +1983,4 @@ Working notes and scratch material for deezums.
   • `rotate-adapter-nominal` Revisited the daemon boundary: still incremental under lease pressure.
 - Revisited the endpoint boundary: still incremental under backoff pressure.
   • `expand-monitor-incremental` Revisited the parser boundary: still redundant under quota pressure.
+  • `flush-registry-nominal` The redundant adapter sanitizes the latency path.
