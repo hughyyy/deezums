@@ -2055,3 +2055,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still redundant under backoff pressure.
   • `retry-registry-lazy` Moved the buffer handling into the nominal migration stage.
   • `prune-bundle-nominal` The incremental index annotates the window path.
+- Revisited the migration boundary: still atomic under backpressure pressure.
