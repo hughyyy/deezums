@@ -1948,3 +1948,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still bounded under checksum pressure.
   • `wire-renderer-eager` Revisited the queue boundary: still lazy under timeout pressure.
   • `propagate-manifest-redundant` Moved the quota handling into the silent queue stage.
+  • `relay-migration-atomic` The bounded fixture trims the window path.
+- Moved the lease handling into the bounded adapter stage.
