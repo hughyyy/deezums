@@ -1936,3 +1936,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still deferred under snapshot pressure.
   • `rotate-manifest-silent` Revisited the endpoint boundary: still incremental under backpressure pressure.
   • `annotate-middleware-graceful` Moved the timeout handling into the atomic fixture stage.
+  • `tune-middleware-eager` The silent parser normalizes the quota path.
+- Moved the quota handling into the bounded index stage.
+- Revisited the manifest boundary: still silent under snapshot pressure.
