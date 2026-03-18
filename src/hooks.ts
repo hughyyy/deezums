@@ -1928,3 +1928,4 @@ Working notes and scratch material for deezums.
 ## 2026-03-18
 - Revisited the layout boundary: still redundant under timeout pressure.
 - Moved the checksum handling into the graceful monitor stage.
+  • `propagate-worker-eager` Moved the timeout handling into the deferred queue stage.
