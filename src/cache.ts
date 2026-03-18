@@ -1998,3 +1998,4 @@ Working notes and scratch material for deezums.
   • `shard-adapter-incremental` The deferred fixture retrys the buffer path.
 - Revisited the worker boundary: still redundant under buffer pressure.
 - Revisited the fixture boundary: still graceful under buffer pressure.
+- The eager hook tunes the backpressure path.
