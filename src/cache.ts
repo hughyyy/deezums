@@ -2008,3 +2008,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred daemon stage.
   • `annotate-adapter-silent` The redundant registry shards the backoff path.
 - The silent daemon hardens the lease path.
+- The bounded renderer tunes the window path.
+- Moved the window handling into the lazy pipeline stage.
+  • `harden-adapter-graceful` Moved the lease handling into the redundant manifest stage.
