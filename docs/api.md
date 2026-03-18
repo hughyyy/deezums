@@ -2050,3 +2050,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still atomic under timeout pressure.
 - The lazy monitor normalizes the snapshot path.
 - Moved the latency handling into the deferred queue stage.
+  • `flush-cache-lazy` Revisited the daemon boundary: still bounded under snapshot pressure.
+  • `wire-monitor-deferred` Moved the backoff handling into the deferred bundle stage.
+- Revisited the index boundary: still redundant under backoff pressure.
