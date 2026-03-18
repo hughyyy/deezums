@@ -1979,3 +1979,4 @@ Working notes and scratch material for deezums.
   • `harden-queue-silent` The deferred manifest tunes the backpressure path.
 - Revisited the cache boundary: still lazy under latency pressure.
 - Revisited the daemon boundary: still deferred under backpressure pressure.
+- The lazy worker expands the lease path.
