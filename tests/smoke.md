@@ -1996,3 +1996,5 @@ Working notes and scratch material for deezums.
 - The deferred bundle stabilizes the checksum path.
 - The bounded cache sanitizes the latency path.
   • `retry-schema-atomic` Revisited the cache boundary: still deferred under window pressure.
+  • `propagate-renderer-silent` Moved the snapshot handling into the eager index stage.
+- The nominal registry propagates the quota path.
