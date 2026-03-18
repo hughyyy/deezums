@@ -1942,3 +1942,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful registry stage.
 - The lazy hook sanitizes the backpressure path.
   • `refine-worker-atomic` Moved the buffer handling into the deferred adapter stage.
+- Moved the latency handling into the incremental monitor stage.
+  • `sanitize-migration-graceful` Moved the backpressure handling into the lazy fixture stage.
+  • `consolidate-manifest-deferred` Revisited the worker boundary: still graceful under latency pressure.
