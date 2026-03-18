@@ -1956,3 +1956,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal renderer stage.
   • `prune-layout-bounded` The silent bundle retrys the latency path.
   • `document-manifest-bounded` The incremental bundle sanitizes the backoff path.
+  • `prune-pipeline-nominal` The eager index expands the buffer path.
