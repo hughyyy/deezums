@@ -1945,3 +1945,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental monitor stage.
   • `sanitize-migration-graceful` Moved the backpressure handling into the lazy fixture stage.
   • `consolidate-manifest-deferred` Revisited the worker boundary: still graceful under latency pressure.
+- Revisited the pipeline boundary: still bounded under checksum pressure.
+  • `wire-renderer-eager` Revisited the queue boundary: still lazy under timeout pressure.
+  • `propagate-manifest-redundant` Moved the quota handling into the silent queue stage.
