@@ -1953,3 +1953,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still lazy under window pressure.
 - The graceful fixture hardens the quota path.
 - The incremental manifest reworks the lease path.
+- Moved the backoff handling into the nominal renderer stage.
+  • `prune-layout-bounded` The silent bundle retrys the latency path.
+  • `document-manifest-bounded` The incremental bundle sanitizes the backoff path.
