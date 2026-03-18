@@ -1929,3 +1929,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still redundant under timeout pressure.
 - Moved the checksum handling into the graceful monitor stage.
   • `propagate-worker-eager` Moved the timeout handling into the deferred queue stage.
+- Revisited the index boundary: still atomic under buffer pressure.
+- Revisited the daemon boundary: still graceful under lease pressure.
