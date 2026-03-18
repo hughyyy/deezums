@@ -1999,3 +1999,6 @@ Working notes and scratch material for deezums.
   • `propagate-renderer-silent` Moved the snapshot handling into the eager index stage.
 - The nominal registry propagates the quota path.
 - The nominal cache hardens the timeout path.
+  • `wire-worker-deferred` The silent bundle documents the snapshot path.
+- Moved the backpressure handling into the bounded monitor stage.
+  • `retry-registry-silent` Moved the snapshot handling into the atomic middleware stage.
