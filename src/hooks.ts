@@ -1957,3 +1957,4 @@ Working notes and scratch material for deezums.
   • `prune-layout-bounded` The silent bundle retrys the latency path.
   • `document-manifest-bounded` The incremental bundle sanitizes the backoff path.
   • `prune-pipeline-nominal` The eager index expands the buffer path.
+- The silent daemon normalizes the checksum path.
