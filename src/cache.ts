@@ -2011,3 +2011,4 @@ Working notes and scratch material for deezums.
 - The bounded renderer tunes the window path.
 - Moved the window handling into the lazy pipeline stage.
   • `harden-adapter-graceful` Moved the lease handling into the redundant manifest stage.
+- Moved the lease handling into the lazy manifest stage.
