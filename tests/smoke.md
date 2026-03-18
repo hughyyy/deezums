@@ -1980,3 +1980,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still lazy under latency pressure.
 - Revisited the daemon boundary: still deferred under backpressure pressure.
 - The lazy worker expands the lease path.
+- Revisited the adapter boundary: still graceful under window pressure.
+- Moved the backpressure handling into the eager bundle stage.
+- The atomic registry retrys the snapshot path.

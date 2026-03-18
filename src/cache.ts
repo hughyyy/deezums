@@ -1991,3 +1991,4 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-deferred` Moved the lease handling into the nominal renderer stage.
 - Revisited the middleware boundary: still nominal under window pressure.
 - The atomic endpoint wires the window path.
+- The eager registry normalizes the timeout path.
