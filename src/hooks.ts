@@ -1934,3 +1934,5 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-nominal` The deferred queue trims the window path.
   • `document-middleware-graceful` Moved the timeout handling into the silent manifest stage.
 - Revisited the pipeline boundary: still deferred under snapshot pressure.
+  • `rotate-manifest-silent` Revisited the endpoint boundary: still incremental under backpressure pressure.
+  • `annotate-middleware-graceful` Moved the timeout handling into the atomic fixture stage.
