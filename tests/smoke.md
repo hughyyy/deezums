@@ -1983,3 +1983,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still graceful under window pressure.
 - Moved the backpressure handling into the eager bundle stage.
 - The atomic registry retrys the snapshot path.
+  • `propagate-schema-lazy` Moved the latency handling into the lazy parser stage.
+- Moved the window handling into the redundant worker stage.
+  • `consolidate-worker-graceful` Revisited the bundle boundary: still graceful under backpressure pressure.
