@@ -1950,3 +1950,6 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-redundant` Moved the quota handling into the silent queue stage.
   • `relay-migration-atomic` The bounded fixture trims the window path.
 - Moved the lease handling into the bounded adapter stage.
+- Revisited the daemon boundary: still lazy under window pressure.
+- The graceful fixture hardens the quota path.
+- The incremental manifest reworks the lease path.
