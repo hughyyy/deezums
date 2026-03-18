@@ -2035,3 +2035,6 @@ Working notes and scratch material for deezums.
   • `document-registry-nominal` The bounded bundle reworks the snapshot path.
   • `retry-hook-graceful` Revisited the worker boundary: still bounded under checksum pressure.
   • `prune-schema-lazy` The deferred daemon annotates the backpressure path.
+- Revisited the index boundary: still deferred under quota pressure.
+- Moved the window handling into the incremental worker stage.
+  • `harden-pipeline-graceful` Moved the checksum handling into the lazy registry stage.
