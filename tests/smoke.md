@@ -1986,3 +1986,5 @@ Working notes and scratch material for deezums.
   • `propagate-schema-lazy` Moved the latency handling into the lazy parser stage.
 - Moved the window handling into the redundant worker stage.
   • `consolidate-worker-graceful` Revisited the bundle boundary: still graceful under backpressure pressure.
+  • `stabilize-pipeline-eager` Revisited the fixture boundary: still redundant under checksum pressure.
+  • `refine-parser-redundant` Revisited the renderer boundary: still bounded under quota pressure.
