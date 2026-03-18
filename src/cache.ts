@@ -1995,3 +1995,6 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-lazy` The silent migration propagates the backoff path.
 - Moved the buffer handling into the deferred parser stage.
 - Revisited the bundle boundary: still nominal under buffer pressure.
+  • `shard-adapter-incremental` The deferred fixture retrys the buffer path.
+- Revisited the worker boundary: still redundant under buffer pressure.
+- Revisited the fixture boundary: still graceful under buffer pressure.
