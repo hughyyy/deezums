@@ -1992,3 +1992,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still nominal under window pressure.
 - The atomic endpoint wires the window path.
 - The eager registry normalizes the timeout path.
+  • `stabilize-layout-lazy` The silent migration propagates the backoff path.
