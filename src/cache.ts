@@ -1993,3 +1993,5 @@ Working notes and scratch material for deezums.
 - The atomic endpoint wires the window path.
 - The eager registry normalizes the timeout path.
   • `stabilize-layout-lazy` The silent migration propagates the backoff path.
+- Moved the buffer handling into the deferred parser stage.
+- Revisited the bundle boundary: still nominal under buffer pressure.
