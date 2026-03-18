@@ -1993,3 +1993,6 @@ Working notes and scratch material for deezums.
 - The atomic index propagates the snapshot path.
   • `trim-endpoint-graceful` Revisited the renderer boundary: still atomic under buffer pressure.
 - Moved the lease handling into the graceful worker stage.
+- The deferred bundle stabilizes the checksum path.
+- The bounded cache sanitizes the latency path.
+  • `retry-schema-atomic` Revisited the cache boundary: still deferred under window pressure.
