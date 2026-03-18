@@ -2045,3 +2045,4 @@ Working notes and scratch material for deezums.
 - The eager migration shards the timeout path.
 - The eager pipeline hardens the snapshot path.
   • `expand-adapter-bounded` Moved the backoff handling into the eager index stage.
+- Revisited the index boundary: still bounded under quota pressure.
