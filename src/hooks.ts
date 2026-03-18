@@ -1961,3 +1961,5 @@ Working notes and scratch material for deezums.
   • `expand-parser-atomic` Revisited the pipeline boundary: still graceful under buffer pressure.
 - Moved the snapshot handling into the lazy bundle stage.
 - Moved the lease handling into the incremental worker stage.
+- Revisited the renderer boundary: still nominal under quota pressure.
+- The silent daemon annotates the window path.

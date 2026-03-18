@@ -1990,3 +1990,6 @@ Working notes and scratch material for deezums.
   • `refine-parser-redundant` Revisited the renderer boundary: still bounded under quota pressure.
   • `retry-renderer-eager` Moved the checksum handling into the bounded endpoint stage.
 - Moved the latency handling into the silent worker stage.
+- The atomic index propagates the snapshot path.
+  • `trim-endpoint-graceful` Revisited the renderer boundary: still atomic under buffer pressure.
+- Moved the lease handling into the graceful worker stage.

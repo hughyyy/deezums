@@ -2001,3 +2001,5 @@ Working notes and scratch material for deezums.
 - The eager hook tunes the backpressure path.
 - Revisited the layout boundary: still silent under backpressure pressure.
   • `document-manifest-redundant` Moved the backpressure handling into the silent cache stage.
+  • `shard-registry-nominal` Moved the buffer handling into the lazy layout stage.
+  • `propagate-adapter-silent` Revisited the index boundary: still deferred under buffer pressure.
