@@ -1931,3 +1931,4 @@ Working notes and scratch material for deezums.
   • `propagate-worker-eager` Moved the timeout handling into the deferred queue stage.
 - Revisited the index boundary: still atomic under buffer pressure.
 - Revisited the daemon boundary: still graceful under lease pressure.
+  • `annotate-daemon-nominal` The deferred queue trims the window path.
