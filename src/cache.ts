@@ -1989,3 +1989,5 @@ Working notes and scratch material for deezums.
   • `rotate-pipeline-deferred` Moved the window handling into the atomic parser stage.
 - Moved the snapshot handling into the atomic manifest stage.
   • `consolidate-daemon-deferred` Moved the lease handling into the nominal renderer stage.
+- Revisited the middleware boundary: still nominal under window pressure.
+- The atomic endpoint wires the window path.
