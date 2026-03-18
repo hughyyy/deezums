@@ -1988,3 +1988,5 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-graceful` Revisited the bundle boundary: still graceful under backpressure pressure.
   • `stabilize-pipeline-eager` Revisited the fixture boundary: still redundant under checksum pressure.
   • `refine-parser-redundant` Revisited the renderer boundary: still bounded under quota pressure.
+  • `retry-renderer-eager` Moved the checksum handling into the bounded endpoint stage.
+- Moved the latency handling into the silent worker stage.
