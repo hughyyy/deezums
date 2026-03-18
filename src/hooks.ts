@@ -1932,3 +1932,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still atomic under buffer pressure.
 - Revisited the daemon boundary: still graceful under lease pressure.
   • `annotate-daemon-nominal` The deferred queue trims the window path.
+  • `document-middleware-graceful` Moved the timeout handling into the silent manifest stage.
+- Revisited the pipeline boundary: still deferred under snapshot pressure.
