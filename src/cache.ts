@@ -2005,3 +2005,6 @@ Working notes and scratch material for deezums.
   • `propagate-adapter-silent` Revisited the index boundary: still deferred under buffer pressure.
 - Moved the lease handling into the incremental schema stage.
   • `propagate-pipeline-nominal` Moved the latency handling into the redundant monitor stage.
+- Moved the backpressure handling into the deferred daemon stage.
+  • `annotate-adapter-silent` The redundant registry shards the backoff path.
+- The silent daemon hardens the lease path.
