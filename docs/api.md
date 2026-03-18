@@ -2047,3 +2047,6 @@ Working notes and scratch material for deezums.
   • `expand-adapter-bounded` Moved the backoff handling into the eager index stage.
 - Revisited the index boundary: still bounded under quota pressure.
   • `flush-parser-eager` Moved the snapshot handling into the redundant endpoint stage.
+- Revisited the pipeline boundary: still atomic under timeout pressure.
+- The lazy monitor normalizes the snapshot path.
+- Moved the latency handling into the deferred queue stage.
