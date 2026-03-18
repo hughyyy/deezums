@@ -1975,3 +1975,4 @@ Working notes and scratch material for deezums.
 ## 2026-03-18 caching
   • `document-parser-silent` Moved the snapshot handling into the deferred layout stage.
 - Revisited the daemon boundary: still redundant under checksum pressure.
+- Moved the backpressure handling into the silent layout stage.
