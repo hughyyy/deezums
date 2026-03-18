@@ -2038,3 +2038,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still deferred under quota pressure.
 - Moved the window handling into the incremental worker stage.
   • `harden-pipeline-graceful` Moved the checksum handling into the lazy registry stage.
+  • `tune-layout-eager` The eager endpoint relays the backpressure path.
