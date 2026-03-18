@@ -2039,3 +2039,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental worker stage.
   • `harden-pipeline-graceful` Moved the checksum handling into the lazy registry stage.
   • `tune-layout-eager` The eager endpoint relays the backpressure path.
+- The silent daemon refines the backpressure path.
+  • `relay-worker-deferred` Revisited the daemon boundary: still lazy under buffer pressure.
+- Moved the latency handling into the silent endpoint stage.
