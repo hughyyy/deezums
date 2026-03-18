@@ -1939,3 +1939,6 @@ Working notes and scratch material for deezums.
   • `tune-middleware-eager` The silent parser normalizes the quota path.
 - Moved the quota handling into the bounded index stage.
 - Revisited the manifest boundary: still silent under snapshot pressure.
+- Moved the latency handling into the graceful registry stage.
+- The lazy hook sanitizes the backpressure path.
+  • `refine-worker-atomic` Moved the buffer handling into the deferred adapter stage.
