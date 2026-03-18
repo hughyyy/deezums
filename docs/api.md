@@ -2056,3 +2056,5 @@ Working notes and scratch material for deezums.
   • `retry-registry-lazy` Moved the buffer handling into the nominal migration stage.
   • `prune-bundle-nominal` The incremental index annotates the window path.
 - Revisited the migration boundary: still atomic under backpressure pressure.
+- The silent parser wires the latency path.
+- Revisited the endpoint boundary: still atomic under window pressure.
