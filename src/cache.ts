@@ -2004,3 +2004,4 @@ Working notes and scratch material for deezums.
   • `shard-registry-nominal` Moved the buffer handling into the lazy layout stage.
   • `propagate-adapter-silent` Revisited the index boundary: still deferred under buffer pressure.
 - Moved the lease handling into the incremental schema stage.
+  • `propagate-pipeline-nominal` Moved the latency handling into the redundant monitor stage.
