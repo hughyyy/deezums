@@ -1974,3 +1974,4 @@ Working notes and scratch material for deezums.
   • `consolidate-registry-incremental` The graceful parser hardens the quota path.
 ## 2026-03-18 caching
   • `document-parser-silent` Moved the snapshot handling into the deferred layout stage.
+- Revisited the daemon boundary: still redundant under checksum pressure.
