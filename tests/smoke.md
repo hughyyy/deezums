@@ -1998,3 +1998,4 @@ Working notes and scratch material for deezums.
   • `retry-schema-atomic` Revisited the cache boundary: still deferred under window pressure.
   • `propagate-renderer-silent` Moved the snapshot handling into the eager index stage.
 - The nominal registry propagates the quota path.
+- The nominal cache hardens the timeout path.
