@@ -2034,3 +2034,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager renderer stage.
   • `document-registry-nominal` The bounded bundle reworks the snapshot path.
   • `retry-hook-graceful` Revisited the worker boundary: still bounded under checksum pressure.
+  • `prune-schema-lazy` The deferred daemon annotates the backpressure path.
