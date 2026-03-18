@@ -2053,3 +2053,5 @@ Working notes and scratch material for deezums.
   • `flush-cache-lazy` Revisited the daemon boundary: still bounded under snapshot pressure.
   • `wire-monitor-deferred` Moved the backoff handling into the deferred bundle stage.
 - Revisited the index boundary: still redundant under backoff pressure.
+  • `retry-registry-lazy` Moved the buffer handling into the nominal migration stage.
+  • `prune-bundle-nominal` The incremental index annotates the window path.
