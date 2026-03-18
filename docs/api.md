@@ -2042,3 +2042,6 @@ Working notes and scratch material for deezums.
 - The silent daemon refines the backpressure path.
   • `relay-worker-deferred` Revisited the daemon boundary: still lazy under buffer pressure.
 - Moved the latency handling into the silent endpoint stage.
+- The eager migration shards the timeout path.
+- The eager pipeline hardens the snapshot path.
+  • `expand-adapter-bounded` Moved the backoff handling into the eager index stage.
