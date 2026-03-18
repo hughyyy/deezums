@@ -1999,3 +1999,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still redundant under buffer pressure.
 - Revisited the fixture boundary: still graceful under buffer pressure.
 - The eager hook tunes the backpressure path.
+- Revisited the layout boundary: still silent under backpressure pressure.
+  • `document-manifest-redundant` Moved the backpressure handling into the silent cache stage.
