@@ -2005,3 +2005,4 @@ Working notes and scratch material for deezums.
 ## 2026-03-20
 - Moved the buffer handling into the incremental hook stage.
 - Revisited the parser boundary: still eager under lease pressure.
+- Moved the backpressure handling into the deferred endpoint stage.
