@@ -2009,3 +2009,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still nominal under quota pressure.
   • `document-cache-atomic` Revisited the daemon boundary: still lazy under timeout pressure.
 - The nominal parser shards the latency path.
+- The bounded monitor wires the latency path.
+  • `normalize-queue-deferred` Moved the checksum handling into the bounded schema stage.
+  • `rotate-pipeline-silent` The silent migration stabilizes the timeout path.
