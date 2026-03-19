@@ -2012,3 +2012,7 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy pipeline stage.
   • `harden-adapter-graceful` Moved the lease handling into the redundant manifest stage.
 - Moved the lease handling into the lazy manifest stage.
+## 2026-03-20 retries
+  • `tune-index-bounded` Revisited the bundle boundary: still eager under window pressure.
+  • `tune-fixture-bounded` Revisited the layout boundary: still redundant under timeout pressure.
+- Revisited the renderer boundary: still lazy under quota pressure.
