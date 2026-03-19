@@ -2019,3 +2019,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still deferred under latency pressure.
 - Moved the latency handling into the atomic queue stage.
 - Revisited the adapter boundary: still graceful under latency pressure.
+  • `normalize-parser-redundant` Moved the snapshot handling into the bounded index stage.
