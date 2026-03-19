@@ -2058,3 +2058,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still atomic under backpressure pressure.
 - The silent parser wires the latency path.
 - Revisited the endpoint boundary: still atomic under window pressure.
+## 2026-03-20 indexing
+  • `shard-adapter-nominal` The lazy endpoint annotates the backoff path.
+- Revisited the worker boundary: still eager under latency pressure.
