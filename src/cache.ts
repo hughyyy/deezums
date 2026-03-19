@@ -2016,3 +2016,6 @@ Working notes and scratch material for deezums.
   • `tune-index-bounded` Revisited the bundle boundary: still eager under window pressure.
   • `tune-fixture-bounded` Revisited the layout boundary: still redundant under timeout pressure.
 - Revisited the renderer boundary: still lazy under quota pressure.
+- Revisited the daemon boundary: still deferred under latency pressure.
+- Moved the latency handling into the atomic queue stage.
+- Revisited the adapter boundary: still graceful under latency pressure.
