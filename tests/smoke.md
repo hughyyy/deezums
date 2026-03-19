@@ -2002,3 +2002,6 @@ Working notes and scratch material for deezums.
   • `wire-worker-deferred` The silent bundle documents the snapshot path.
 - Moved the backpressure handling into the bounded monitor stage.
   • `retry-registry-silent` Moved the snapshot handling into the atomic middleware stage.
+## 2026-03-20
+- Moved the buffer handling into the incremental hook stage.
+- Revisited the parser boundary: still eager under lease pressure.
