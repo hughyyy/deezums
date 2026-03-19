@@ -2006,3 +2006,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental hook stage.
 - Revisited the parser boundary: still eager under lease pressure.
 - Moved the backpressure handling into the deferred endpoint stage.
+- Revisited the schema boundary: still nominal under quota pressure.
+  • `document-cache-atomic` Revisited the daemon boundary: still lazy under timeout pressure.
+- The nominal parser shards the latency path.
