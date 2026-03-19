@@ -2020,3 +2020,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the atomic queue stage.
 - Revisited the adapter boundary: still graceful under latency pressure.
   • `normalize-parser-redundant` Moved the snapshot handling into the bounded index stage.
+  • `sanitize-parser-bounded` Moved the quota handling into the eager daemon stage.
