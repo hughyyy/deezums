@@ -1963,3 +1963,7 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the incremental worker stage.
 - Revisited the renderer boundary: still nominal under quota pressure.
 - The silent daemon annotates the window path.
+## 2026-03-20
+- Revisited the registry boundary: still redundant under timeout pressure.
+- Revisited the parser boundary: still graceful under timeout pressure.
+  • `normalize-pipeline-atomic` Moved the backpressure handling into the lazy bundle stage.
