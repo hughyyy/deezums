@@ -2061,3 +2061,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-20 indexing
   • `shard-adapter-nominal` The lazy endpoint annotates the backoff path.
 - Revisited the worker boundary: still eager under latency pressure.
+  • `flush-index-incremental` The eager monitor propagates the backpressure path.
+  • `prune-index-lazy` Revisited the endpoint boundary: still bounded under lease pressure.
+  • `annotate-hook-eager` Moved the backpressure handling into the eager schema stage.

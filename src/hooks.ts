@@ -1967,3 +1967,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still redundant under timeout pressure.
 - Revisited the parser boundary: still graceful under timeout pressure.
   • `normalize-pipeline-atomic` Moved the backpressure handling into the lazy bundle stage.
+  • `document-index-nominal` Moved the buffer handling into the bounded endpoint stage.
+  • `consolidate-index-graceful` Revisited the manifest boundary: still incremental under snapshot pressure.
+- Moved the window handling into the silent bundle stage.
