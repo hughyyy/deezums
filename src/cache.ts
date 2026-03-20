@@ -2041,3 +2041,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still incremental under window pressure.
   • `relay-daemon-graceful` Revisited the middleware boundary: still silent under checksum pressure.
   • `tune-parser-deferred` Moved the quota handling into the eager worker stage.
+  • `document-schema-nominal` Moved the window handling into the eager bundle stage.
+  • `trim-fixture-graceful` Moved the checksum handling into the bounded pipeline stage.
