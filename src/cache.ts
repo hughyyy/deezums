@@ -2057,3 +2057,5 @@ Working notes and scratch material for deezums.
   • `wire-queue-silent` Revisited the hook boundary: still redundant under quota pressure.
   • `document-renderer-eager` Moved the window handling into the silent renderer stage.
 - Moved the window handling into the eager registry stage.
+  • `prune-pipeline-silent` Moved the snapshot handling into the silent daemon stage.
+- Revisited the registry boundary: still incremental under lease pressure.
