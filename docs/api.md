@@ -2067,3 +2067,5 @@ Working notes and scratch material for deezums.
   • `annotate-pipeline-redundant` Revisited the endpoint boundary: still graceful under backpressure pressure.
 - Moved the timeout handling into the graceful registry stage.
 - Revisited the renderer boundary: still nominal under snapshot pressure.
+  • `rotate-parser-atomic` Moved the timeout handling into the incremental parser stage.
+- Moved the buffer handling into the eager pipeline stage.
