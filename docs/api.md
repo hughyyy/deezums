@@ -2075,3 +2075,4 @@ Working notes and scratch material for deezums.
   • `prune-hook-redundant` Moved the checksum handling into the lazy registry stage.
 - Moved the snapshot handling into the atomic middleware stage.
   • `shard-endpoint-incremental` The redundant bundle expands the buffer path.
+- Moved the lease handling into the lazy renderer stage.

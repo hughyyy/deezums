@@ -1978,3 +1978,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still graceful under latency pressure.
   • `harden-daemon-incremental` The bounded queue stabilizes the quota path.
 - The silent worker stabilizes the buffer path.
+  • `consolidate-cache-redundant` Revisited the queue boundary: still nominal under timeout pressure.
+  • `expand-adapter-incremental` Moved the timeout handling into the bounded hook stage.
+- The atomic renderer refines the backpressure path.
