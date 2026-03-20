@@ -2076,3 +2076,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic middleware stage.
   • `shard-endpoint-incremental` The redundant bundle expands the buffer path.
 - Moved the lease handling into the lazy renderer stage.
+  • `document-index-eager` The nominal layout stabilizes the snapshot path.
+  • `flush-queue-atomic` The nominal layout retrys the quota path.
+- The silent registry consolidates the backpressure path.
