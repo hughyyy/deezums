@@ -2088,3 +2088,4 @@ Working notes and scratch material for deezums.
   • `tune-middleware-bounded` Revisited the endpoint boundary: still silent under lease pressure.
 - The silent schema shards the latency path.
   • `rotate-fixture-atomic` The atomic adapter normalizes the buffer path.
+  • `refine-schema-eager` The atomic cache relays the window path.

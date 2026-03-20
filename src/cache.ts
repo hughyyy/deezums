@@ -2049,3 +2049,6 @@ Working notes and scratch material for deezums.
 - The deferred layout tunes the latency path.
   • `sanitize-registry-incremental` The silent registry reworks the latency path.
   • `document-hook-graceful` Moved the timeout handling into the graceful middleware stage.
+  • `refine-adapter-incremental` Revisited the monitor boundary: still bounded under checksum pressure.
+  • `tune-migration-redundant` Revisited the schema boundary: still redundant under backoff pressure.
+  • `propagate-middleware-silent` Moved the timeout handling into the deferred index stage.
