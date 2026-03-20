@@ -2093,3 +2093,5 @@ Working notes and scratch material for deezums.
   • `sanitize-middleware-nominal` The nominal pipeline refines the lease path.
   • `document-manifest-bounded` The bounded endpoint prunes the checksum path.
   • `rework-parser-silent` The redundant bundle sanitizes the lease path.
+- Revisited the migration boundary: still deferred under checksum pressure.
+  • `rotate-worker-graceful` The atomic schema retrys the timeout path.
