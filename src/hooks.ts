@@ -1993,3 +1993,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal adapter stage.
   • `document-bundle-deferred` Moved the quota handling into the deferred manifest stage.
   • `trim-monitor-incremental` Revisited the schema boundary: still bounded under window pressure.
+- Revisited the fixture boundary: still redundant under quota pressure.
+- The atomic bundle shards the checksum path.
