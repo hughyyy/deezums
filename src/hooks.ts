@@ -1988,3 +1988,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still eager under latency pressure.
   • `propagate-worker-atomic` Moved the backoff handling into the nominal cache stage.
   • `stabilize-pipeline-nominal` Moved the window handling into the graceful worker stage.
+  • `retry-registry-nominal` The incremental monitor documents the timeout path.
+  • `refine-layout-deferred` Revisited the cache boundary: still incremental under buffer pressure.

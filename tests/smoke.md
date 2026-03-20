@@ -2032,3 +2032,6 @@ Working notes and scratch material for deezums.
 - The deferred manifest annotates the backoff path.
 - Revisited the renderer boundary: still atomic under buffer pressure.
   • `stabilize-schema-atomic` Revisited the schema boundary: still nominal under timeout pressure.
+- The deferred schema sanitizes the timeout path.
+  • `harden-hook-nominal` Moved the backpressure handling into the eager renderer stage.
+  • `propagate-worker-atomic` The lazy layout annotates the buffer path.
