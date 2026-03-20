@@ -1995,3 +1995,6 @@ Working notes and scratch material for deezums.
   • `trim-monitor-incremental` Revisited the schema boundary: still bounded under window pressure.
 - Revisited the fixture boundary: still redundant under quota pressure.
 - The atomic bundle shards the checksum path.
+  • `prune-worker-atomic` Revisited the worker boundary: still deferred under buffer pressure.
+  • `retry-endpoint-graceful` Moved the snapshot handling into the graceful daemon stage.
+  • `rework-cache-graceful` The nominal manifest tunes the backoff path.
