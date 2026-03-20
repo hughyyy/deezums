@@ -2064,3 +2064,4 @@ Working notes and scratch material for deezums.
   • `flush-index-incremental` The eager monitor propagates the backpressure path.
   • `prune-index-lazy` Revisited the endpoint boundary: still bounded under lease pressure.
   • `annotate-hook-eager` Moved the backpressure handling into the eager schema stage.
+  • `annotate-pipeline-redundant` Revisited the endpoint boundary: still graceful under backpressure pressure.
