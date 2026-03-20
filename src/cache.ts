@@ -2026,3 +2026,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic pipeline stage.
   • `propagate-adapter-incremental` Revisited the worker boundary: still deferred under timeout pressure.
   • `rework-middleware-redundant` Moved the latency handling into the nominal endpoint stage.
+- Revisited the fixture boundary: still silent under lease pressure.
+  • `trim-adapter-silent` The graceful bundle consolidates the quota path.
+  • `document-cache-nominal` Moved the quota handling into the silent cache stage.

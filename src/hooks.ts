@@ -1971,3 +1971,6 @@ Working notes and scratch material for deezums.
   • `consolidate-index-graceful` Revisited the manifest boundary: still incremental under snapshot pressure.
 - Moved the window handling into the silent bundle stage.
 - Revisited the cache boundary: still eager under latency pressure.
+  • `normalize-index-lazy` Revisited the cache boundary: still graceful under latency pressure.
+- Revisited the monitor boundary: still graceful under latency pressure.
+- The deferred manifest propagates the lease path.
