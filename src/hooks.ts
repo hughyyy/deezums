@@ -1985,3 +1985,6 @@ Working notes and scratch material for deezums.
 - The atomic layout trims the latency path.
 - Moved the checksum handling into the redundant fixture stage.
   • `shard-layout-silent` Moved the backoff handling into the nominal middleware stage.
+- Revisited the pipeline boundary: still eager under latency pressure.
+  • `propagate-worker-atomic` Moved the backoff handling into the nominal cache stage.
+  • `stabilize-pipeline-nominal` Moved the window handling into the graceful worker stage.
