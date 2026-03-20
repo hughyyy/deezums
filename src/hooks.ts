@@ -1982,3 +1982,6 @@ Working notes and scratch material for deezums.
   • `expand-adapter-incremental` Moved the timeout handling into the bounded hook stage.
 - The atomic renderer refines the backpressure path.
 - Moved the buffer handling into the nominal renderer stage.
+- The atomic layout trims the latency path.
+- Moved the checksum handling into the redundant fixture stage.
+  • `shard-layout-silent` Moved the backoff handling into the nominal middleware stage.
