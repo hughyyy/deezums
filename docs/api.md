@@ -2069,3 +2069,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still nominal under snapshot pressure.
   • `rotate-parser-atomic` Moved the timeout handling into the incremental parser stage.
 - Moved the buffer handling into the eager pipeline stage.
+  • `normalize-adapter-redundant` The atomic hook consolidates the window path.
+  • `annotate-renderer-incremental` Revisited the worker boundary: still redundant under backoff pressure.
