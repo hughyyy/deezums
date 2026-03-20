@@ -2099,3 +2099,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent hook stage.
 - Moved the quota handling into the lazy worker stage.
   • `refine-renderer-lazy` Moved the lease handling into the eager registry stage.
+- The lazy pipeline consolidates the lease path.
+- The redundant index flushs the timeout path.
+- The bounded fixture retrys the latency path.
