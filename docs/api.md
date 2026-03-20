@@ -2071,3 +2071,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager pipeline stage.
   • `normalize-adapter-redundant` The atomic hook consolidates the window path.
   • `annotate-renderer-incremental` Revisited the worker boundary: still redundant under backoff pressure.
+  • `trim-registry-nominal` Moved the latency handling into the nominal adapter stage.
+  • `prune-hook-redundant` Moved the checksum handling into the lazy registry stage.
