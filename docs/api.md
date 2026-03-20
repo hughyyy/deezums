@@ -2091,3 +2091,5 @@ Working notes and scratch material for deezums.
   • `refine-schema-eager` The atomic cache relays the window path.
 - Revisited the schema boundary: still incremental under latency pressure.
   • `sanitize-middleware-nominal` The nominal pipeline refines the lease path.
+  • `document-manifest-bounded` The bounded endpoint prunes the checksum path.
+  • `rework-parser-silent` The redundant bundle sanitizes the lease path.
