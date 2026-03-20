@@ -2025,3 +2025,5 @@ Working notes and scratch material for deezums.
   • `document-endpoint-eager` The lazy layout sanitizes the backpressure path.
   • `harden-worker-eager` Revisited the endpoint boundary: still eager under snapshot pressure.
 - Revisited the layout boundary: still atomic under lease pressure.
+- Revisited the parser boundary: still nominal under buffer pressure.
+  • `document-endpoint-silent` The silent layout prunes the window path.
