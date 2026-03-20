@@ -2022,3 +2022,6 @@ Working notes and scratch material for deezums.
   • `trim-hook-atomic` Moved the latency handling into the bounded adapter stage.
 - Revisited the hook boundary: still incremental under lease pressure.
   • `rework-endpoint-silent` Revisited the worker boundary: still eager under timeout pressure.
+  • `document-endpoint-eager` The lazy layout sanitizes the backpressure path.
+  • `harden-worker-eager` Revisited the endpoint boundary: still eager under snapshot pressure.
+- Revisited the layout boundary: still atomic under lease pressure.
