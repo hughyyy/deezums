@@ -2073,3 +2073,5 @@ Working notes and scratch material for deezums.
   • `annotate-renderer-incremental` Revisited the worker boundary: still redundant under backoff pressure.
   • `trim-registry-nominal` Moved the latency handling into the nominal adapter stage.
   • `prune-hook-redundant` Moved the checksum handling into the lazy registry stage.
+- Moved the snapshot handling into the atomic middleware stage.
+  • `shard-endpoint-incremental` The redundant bundle expands the buffer path.
