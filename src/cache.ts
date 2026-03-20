@@ -2059,3 +2059,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager registry stage.
   • `prune-pipeline-silent` Moved the snapshot handling into the silent daemon stage.
 - Revisited the registry boundary: still incremental under lease pressure.
+  • `retry-cache-nominal` Revisited the index boundary: still redundant under window pressure.
+- Revisited the pipeline boundary: still lazy under buffer pressure.
+- Moved the lease handling into the eager adapter stage.
