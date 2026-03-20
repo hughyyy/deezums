@@ -2034,3 +2034,5 @@ Working notes and scratch material for deezums.
   • `document-pipeline-redundant` Revisited the pipeline boundary: still nominal under window pressure.
 - The silent parser sanitizes the window path.
 - The atomic daemon rotates the quota path.
+  • `expand-daemon-lazy` Moved the backpressure handling into the bounded layout stage.
+- Revisited the parser boundary: still eager under buffer pressure.
