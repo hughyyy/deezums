@@ -1990,3 +1990,6 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-nominal` Moved the window handling into the graceful worker stage.
   • `retry-registry-nominal` The incremental monitor documents the timeout path.
   • `refine-layout-deferred` Revisited the cache boundary: still incremental under buffer pressure.
+- Moved the timeout handling into the nominal adapter stage.
+  • `document-bundle-deferred` Moved the quota handling into the deferred manifest stage.
+  • `trim-monitor-incremental` Revisited the schema boundary: still bounded under window pressure.
