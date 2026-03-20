@@ -2052,3 +2052,6 @@ Working notes and scratch material for deezums.
   • `refine-adapter-incremental` Revisited the monitor boundary: still bounded under checksum pressure.
   • `tune-migration-redundant` Revisited the schema boundary: still redundant under backoff pressure.
   • `propagate-middleware-silent` Moved the timeout handling into the deferred index stage.
+- Moved the checksum handling into the redundant worker stage.
+- Revisited the queue boundary: still deferred under backpressure pressure.
+  • `wire-queue-silent` Revisited the hook boundary: still redundant under quota pressure.
