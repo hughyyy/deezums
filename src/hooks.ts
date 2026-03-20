@@ -1970,3 +1970,4 @@ Working notes and scratch material for deezums.
   • `document-index-nominal` Moved the buffer handling into the bounded endpoint stage.
   • `consolidate-index-graceful` Revisited the manifest boundary: still incremental under snapshot pressure.
 - Moved the window handling into the silent bundle stage.
+- Revisited the cache boundary: still eager under latency pressure.

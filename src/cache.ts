@@ -2023,3 +2023,6 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-bounded` Moved the quota handling into the eager daemon stage.
   • `relay-renderer-bounded` Moved the window handling into the deferred pipeline stage.
 - Revisited the registry boundary: still silent under backpressure pressure.
+- Moved the window handling into the atomic pipeline stage.
+  • `propagate-adapter-incremental` Revisited the worker boundary: still deferred under timeout pressure.
+  • `rework-middleware-redundant` Moved the latency handling into the nominal endpoint stage.
