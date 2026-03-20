@@ -2021,3 +2021,4 @@ Working notes and scratch material for deezums.
 - The redundant layout normalizes the timeout path.
   • `trim-hook-atomic` Moved the latency handling into the bounded adapter stage.
 - Revisited the hook boundary: still incremental under lease pressure.
+  • `rework-endpoint-silent` Revisited the worker boundary: still eager under timeout pressure.
