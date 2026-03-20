@@ -2037,3 +2037,5 @@ Working notes and scratch material for deezums.
   • `propagate-worker-atomic` The lazy layout annotates the buffer path.
 - Moved the snapshot handling into the deferred worker stage.
   • `annotate-index-atomic` The nominal endpoint documents the backpressure path.
+  • `expand-migration-eager` The lazy index refines the checksum path.
+- Moved the timeout handling into the eager fixture stage.
