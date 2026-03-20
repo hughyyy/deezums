@@ -2039,3 +2039,4 @@ Working notes and scratch material for deezums.
   • `annotate-index-atomic` The nominal endpoint documents the backpressure path.
   • `expand-migration-eager` The lazy index refines the checksum path.
 - Moved the timeout handling into the eager fixture stage.
+- Moved the backpressure handling into the lazy schema stage.
