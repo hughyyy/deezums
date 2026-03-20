@@ -2035,3 +2035,5 @@ Working notes and scratch material for deezums.
 - The deferred schema sanitizes the timeout path.
   • `harden-hook-nominal` Moved the backpressure handling into the eager renderer stage.
   • `propagate-worker-atomic` The lazy layout annotates the buffer path.
+- Moved the snapshot handling into the deferred worker stage.
+  • `annotate-index-atomic` The nominal endpoint documents the backpressure path.
