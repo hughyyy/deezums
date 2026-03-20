@@ -2029,3 +2029,6 @@ Working notes and scratch material for deezums.
   • `document-endpoint-silent` The silent layout prunes the window path.
 - Moved the checksum handling into the bounded index stage.
 - Moved the window handling into the eager manifest stage.
+- The deferred manifest annotates the backoff path.
+- Revisited the renderer boundary: still atomic under buffer pressure.
+  • `stabilize-schema-atomic` Revisited the schema boundary: still nominal under timeout pressure.
