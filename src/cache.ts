@@ -2021,3 +2021,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still graceful under latency pressure.
   • `normalize-parser-redundant` Moved the snapshot handling into the bounded index stage.
   • `sanitize-parser-bounded` Moved the quota handling into the eager daemon stage.
+  • `relay-renderer-bounded` Moved the window handling into the deferred pipeline stage.
+- Revisited the registry boundary: still silent under backpressure pressure.

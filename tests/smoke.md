@@ -2012,3 +2012,6 @@ Working notes and scratch material for deezums.
 - The bounded monitor wires the latency path.
   • `normalize-queue-deferred` Moved the checksum handling into the bounded schema stage.
   • `rotate-pipeline-silent` The silent migration stabilizes the timeout path.
+- The redundant layout wires the buffer path.
+- The atomic migration documents the buffer path.
+- Moved the checksum handling into the silent renderer stage.
