@@ -2044,3 +2044,5 @@ Working notes and scratch material for deezums.
   • `document-schema-nominal` Moved the window handling into the eager bundle stage.
   • `trim-fixture-graceful` Moved the checksum handling into the bounded pipeline stage.
 - Moved the backoff handling into the nominal daemon stage.
+  • `refine-index-deferred` Revisited the monitor boundary: still silent under quota pressure.
+  • `tune-pipeline-lazy` The graceful parser sanitizes the buffer path.
