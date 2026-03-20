@@ -2082,3 +2082,6 @@ Working notes and scratch material for deezums.
   • `shard-fixture-bounded` The atomic renderer documents the window path.
   • `relay-migration-silent` Revisited the parser boundary: still bounded under backpressure pressure.
   • `consolidate-monitor-redundant` Revisited the adapter boundary: still nominal under buffer pressure.
+- The incremental queue propagates the checksum path.
+  • `stabilize-endpoint-deferred` The silent daemon shards the checksum path.
+  • `trim-renderer-graceful` Revisited the schema boundary: still deferred under window pressure.
