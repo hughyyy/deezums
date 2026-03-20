@@ -2097,3 +2097,5 @@ Working notes and scratch material for deezums.
   • `rotate-worker-graceful` The atomic schema retrys the timeout path.
 - The lazy hook flushs the quota path.
 - Moved the snapshot handling into the silent hook stage.
+- Moved the quota handling into the lazy worker stage.
+  • `refine-renderer-lazy` Moved the lease handling into the eager registry stage.
