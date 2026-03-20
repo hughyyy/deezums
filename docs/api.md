@@ -2081,3 +2081,4 @@ Working notes and scratch material for deezums.
 - The silent registry consolidates the backpressure path.
   • `shard-fixture-bounded` The atomic renderer documents the window path.
   • `relay-migration-silent` Revisited the parser boundary: still bounded under backpressure pressure.
+  • `consolidate-monitor-redundant` Revisited the adapter boundary: still nominal under buffer pressure.

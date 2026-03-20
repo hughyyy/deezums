@@ -1981,3 +1981,4 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-redundant` Revisited the queue boundary: still nominal under timeout pressure.
   • `expand-adapter-incremental` Moved the timeout handling into the bounded hook stage.
 - The atomic renderer refines the backpressure path.
+- Moved the buffer handling into the nominal renderer stage.
