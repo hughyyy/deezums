@@ -2080,3 +2080,4 @@ Working notes and scratch material for deezums.
   • `flush-queue-atomic` The nominal layout retrys the quota path.
 - The silent registry consolidates the backpressure path.
   • `shard-fixture-bounded` The atomic renderer documents the window path.
+  • `relay-migration-silent` Revisited the parser boundary: still bounded under backpressure pressure.
