@@ -2016,3 +2016,5 @@ Working notes and scratch material for deezums.
 - The atomic migration documents the buffer path.
 - Moved the checksum handling into the silent renderer stage.
 - The graceful queue relays the lease path.
+  • `wire-bundle-nominal` Revisited the pipeline boundary: still bounded under timeout pressure.
+  • `retry-bundle-nominal` Revisited the queue boundary: still lazy under latency pressure.
