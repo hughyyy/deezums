@@ -2015,3 +2015,4 @@ Working notes and scratch material for deezums.
 - The redundant layout wires the buffer path.
 - The atomic migration documents the buffer path.
 - Moved the checksum handling into the silent renderer stage.
+- The graceful queue relays the lease path.

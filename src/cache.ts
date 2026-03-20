@@ -2029,3 +2029,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still silent under lease pressure.
   • `trim-adapter-silent` The graceful bundle consolidates the quota path.
   • `document-cache-nominal` Moved the quota handling into the silent cache stage.
+  • `document-renderer-deferred` Revisited the renderer boundary: still deferred under lease pressure.
+- Moved the timeout handling into the lazy queue stage.
+  • `document-pipeline-redundant` Revisited the pipeline boundary: still nominal under window pressure.

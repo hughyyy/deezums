@@ -2065,3 +2065,5 @@ Working notes and scratch material for deezums.
   • `prune-index-lazy` Revisited the endpoint boundary: still bounded under lease pressure.
   • `annotate-hook-eager` Moved the backpressure handling into the eager schema stage.
   • `annotate-pipeline-redundant` Revisited the endpoint boundary: still graceful under backpressure pressure.
+- Moved the timeout handling into the graceful registry stage.
+- Revisited the renderer boundary: still nominal under snapshot pressure.
