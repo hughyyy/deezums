@@ -2027,3 +2027,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still atomic under lease pressure.
 - Revisited the parser boundary: still nominal under buffer pressure.
   • `document-endpoint-silent` The silent layout prunes the window path.
+- Moved the checksum handling into the bounded index stage.
+- Moved the window handling into the eager manifest stage.

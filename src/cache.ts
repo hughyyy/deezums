@@ -2046,3 +2046,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal daemon stage.
   • `refine-index-deferred` Revisited the monitor boundary: still silent under quota pressure.
   • `tune-pipeline-lazy` The graceful parser sanitizes the buffer path.
+- The deferred layout tunes the latency path.
+  • `sanitize-registry-incremental` The silent registry reworks the latency path.
+  • `document-hook-graceful` Moved the timeout handling into the graceful middleware stage.

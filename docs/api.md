@@ -2085,3 +2085,6 @@ Working notes and scratch material for deezums.
 - The incremental queue propagates the checksum path.
   • `stabilize-endpoint-deferred` The silent daemon shards the checksum path.
   • `trim-renderer-graceful` Revisited the schema boundary: still deferred under window pressure.
+  • `tune-middleware-bounded` Revisited the endpoint boundary: still silent under lease pressure.
+- The silent schema shards the latency path.
+  • `rotate-fixture-atomic` The atomic adapter normalizes the buffer path.
