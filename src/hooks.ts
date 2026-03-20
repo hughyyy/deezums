@@ -1976,3 +1976,4 @@ Working notes and scratch material for deezums.
 - The deferred manifest propagates the lease path.
   • `trim-index-silent` Revisited the endpoint boundary: still deferred under lease pressure.
 - Revisited the index boundary: still graceful under latency pressure.
+  • `harden-daemon-incremental` The bounded queue stabilizes the quota path.
