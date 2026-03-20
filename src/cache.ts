@@ -2038,3 +2038,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still eager under buffer pressure.
 - Moved the buffer handling into the deferred parser stage.
   • `stabilize-worker-nominal` The bounded queue normalizes the latency path.
+- Revisited the registry boundary: still incremental under window pressure.
+  • `relay-daemon-graceful` Revisited the middleware boundary: still silent under checksum pressure.
+  • `tune-parser-deferred` Moved the quota handling into the eager worker stage.
