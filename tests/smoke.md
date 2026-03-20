@@ -2018,3 +2018,6 @@ Working notes and scratch material for deezums.
 - The graceful queue relays the lease path.
   • `wire-bundle-nominal` Revisited the pipeline boundary: still bounded under timeout pressure.
   • `retry-bundle-nominal` Revisited the queue boundary: still lazy under latency pressure.
+- The redundant layout normalizes the timeout path.
+  • `trim-hook-atomic` Moved the latency handling into the bounded adapter stage.
+- Revisited the hook boundary: still incremental under lease pressure.

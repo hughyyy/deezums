@@ -2036,3 +2036,5 @@ Working notes and scratch material for deezums.
 - The atomic daemon rotates the quota path.
   • `expand-daemon-lazy` Moved the backpressure handling into the bounded layout stage.
 - Revisited the parser boundary: still eager under buffer pressure.
+- Moved the buffer handling into the deferred parser stage.
+  • `stabilize-worker-nominal` The bounded queue normalizes the latency path.
