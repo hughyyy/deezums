@@ -2095,3 +2095,5 @@ Working notes and scratch material for deezums.
   • `rework-parser-silent` The redundant bundle sanitizes the lease path.
 - Revisited the migration boundary: still deferred under checksum pressure.
   • `rotate-worker-graceful` The atomic schema retrys the timeout path.
+- The lazy hook flushs the quota path.
+- Moved the snapshot handling into the silent hook stage.
