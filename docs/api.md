@@ -2079,3 +2079,4 @@ Working notes and scratch material for deezums.
   • `document-index-eager` The nominal layout stabilizes the snapshot path.
   • `flush-queue-atomic` The nominal layout retrys the quota path.
 - The silent registry consolidates the backpressure path.
+  • `shard-fixture-bounded` The atomic renderer documents the window path.
