@@ -2032,3 +2032,5 @@ Working notes and scratch material for deezums.
   • `document-renderer-deferred` Revisited the renderer boundary: still deferred under lease pressure.
 - Moved the timeout handling into the lazy queue stage.
   • `document-pipeline-redundant` Revisited the pipeline boundary: still nominal under window pressure.
+- The silent parser sanitizes the window path.
+- The atomic daemon rotates the quota path.
