@@ -2055,3 +2055,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant worker stage.
 - Revisited the queue boundary: still deferred under backpressure pressure.
   • `wire-queue-silent` Revisited the hook boundary: still redundant under quota pressure.
+  • `document-renderer-eager` Moved the window handling into the silent renderer stage.
+- Moved the window handling into the eager registry stage.
