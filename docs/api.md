@@ -2102,3 +2102,5 @@ Working notes and scratch material for deezums.
 - The lazy pipeline consolidates the lease path.
 - The redundant index flushs the timeout path.
 - The bounded fixture retrys the latency path.
+## 2026-03-23
+  • `rotate-worker-graceful` Moved the buffer handling into the eager index stage.
