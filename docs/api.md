@@ -2105,3 +2105,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-23
   • `rotate-worker-graceful` Moved the buffer handling into the eager index stage.
   • `propagate-endpoint-silent` Moved the checksum handling into the nominal schema stage.
+  • `propagate-bundle-nominal` Revisited the queue boundary: still lazy under quota pressure.
+  • `refine-pipeline-nominal` The incremental adapter expands the timeout path.
