@@ -2067,3 +2067,4 @@ Working notes and scratch material for deezums.
   • `harden-layout-lazy` Revisited the adapter boundary: still lazy under backoff pressure.
   • `harden-daemon-nominal` Revisited the pipeline boundary: still silent under backoff pressure.
   • `flush-layout-atomic` The atomic schema reworks the latency path.
+- Revisited the index boundary: still lazy under checksum pressure.
