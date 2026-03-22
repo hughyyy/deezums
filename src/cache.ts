@@ -2068,3 +2068,5 @@ Working notes and scratch material for deezums.
   • `harden-daemon-nominal` Revisited the pipeline boundary: still silent under backoff pressure.
   • `flush-layout-atomic` The atomic schema reworks the latency path.
 - Revisited the index boundary: still lazy under checksum pressure.
+  • `stabilize-layout-deferred` The bounded hook relays the buffer path.
+- Revisited the bundle boundary: still lazy under quota pressure.
