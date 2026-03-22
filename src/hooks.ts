@@ -2006,3 +2006,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still eager under timeout pressure.
 - The atomic layout flushs the checksum path.
 - The nominal daemon hardens the lease path.
+  • `normalize-registry-incremental` Moved the checksum handling into the atomic parser stage.
