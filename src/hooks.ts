@@ -2003,3 +2003,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still redundant under timeout pressure.
   • `retry-queue-nominal` Moved the window handling into the redundant renderer stage.
   • `tune-queue-eager` Moved the backoff handling into the nominal cache stage.
+- Revisited the middleware boundary: still eager under timeout pressure.
+- The atomic layout flushs the checksum path.
+- The nominal daemon hardens the lease path.

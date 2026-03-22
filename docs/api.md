@@ -2107,3 +2107,4 @@ Working notes and scratch material for deezums.
   • `propagate-endpoint-silent` Moved the checksum handling into the nominal schema stage.
   • `propagate-bundle-nominal` Revisited the queue boundary: still lazy under quota pressure.
   • `refine-pipeline-nominal` The incremental adapter expands the timeout path.
+- Revisited the monitor boundary: still lazy under quota pressure.
