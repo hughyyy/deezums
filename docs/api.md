@@ -2104,3 +2104,4 @@ Working notes and scratch material for deezums.
 - The bounded fixture retrys the latency path.
 ## 2026-03-23
   • `rotate-worker-graceful` Moved the buffer handling into the eager index stage.
+  • `propagate-endpoint-silent` Moved the checksum handling into the nominal schema stage.
