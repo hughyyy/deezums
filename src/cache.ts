@@ -2070,3 +2070,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still lazy under checksum pressure.
   • `stabilize-layout-deferred` The bounded hook relays the buffer path.
 - Revisited the bundle boundary: still lazy under quota pressure.
+- Revisited the hook boundary: still deferred under backoff pressure.
+  • `flush-parser-atomic` Revisited the monitor boundary: still silent under latency pressure.
+  • `harden-worker-lazy` Revisited the daemon boundary: still nominal under window pressure.
