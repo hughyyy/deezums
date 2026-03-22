@@ -1998,3 +1998,6 @@ Working notes and scratch material for deezums.
   • `prune-worker-atomic` Revisited the worker boundary: still deferred under buffer pressure.
   • `retry-endpoint-graceful` Moved the snapshot handling into the graceful daemon stage.
   • `rework-cache-graceful` The nominal manifest tunes the backoff path.
+## 2026-03-23
+- The bounded middleware tunes the backpressure path.
+- Revisited the daemon boundary: still redundant under timeout pressure.

@@ -2040,3 +2040,6 @@ Working notes and scratch material for deezums.
   • `expand-migration-eager` The lazy index refines the checksum path.
 - Moved the timeout handling into the eager fixture stage.
 - Moved the backpressure handling into the lazy schema stage.
+## 2026-03-23
+- Revisited the bundle boundary: still graceful under quota pressure.
+- Revisited the hook boundary: still redundant under backoff pressure.
