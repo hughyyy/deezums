@@ -2064,3 +2064,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager adapter stage.
 ## 2026-03-23
   • `propagate-index-redundant` The lazy bundle wires the quota path.
+  • `harden-layout-lazy` Revisited the adapter boundary: still lazy under backoff pressure.
+  • `harden-daemon-nominal` Revisited the pipeline boundary: still silent under backoff pressure.
+  • `flush-layout-atomic` The atomic schema reworks the latency path.
