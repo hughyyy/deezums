@@ -2001,3 +2001,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-23
 - The bounded middleware tunes the backpressure path.
 - Revisited the daemon boundary: still redundant under timeout pressure.
+  • `retry-queue-nominal` Moved the window handling into the redundant renderer stage.
+  • `tune-queue-eager` Moved the backoff handling into the nominal cache stage.
