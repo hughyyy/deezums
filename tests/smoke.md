@@ -2043,3 +2043,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-23
 - Revisited the bundle boundary: still graceful under quota pressure.
 - Revisited the hook boundary: still redundant under backoff pressure.
+- The nominal daemon trims the buffer path.
+- Revisited the worker boundary: still nominal under buffer pressure.
