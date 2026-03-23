@@ -2070,3 +2070,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still nominal under lease pressure.
 - The incremental migration stabilizes the buffer path.
 - Revisited the layout boundary: still bounded under window pressure.
+- The nominal hook tunes the backpressure path.
