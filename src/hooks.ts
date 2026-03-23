@@ -2028,3 +2028,5 @@ Working notes and scratch material for deezums.
   • `consolidate-adapter-lazy` The incremental daemon relays the checksum path.
   • `sanitize-parser-lazy` Revisited the monitor boundary: still deferred under window pressure.
   • `shard-pipeline-eager` The bounded bundle relays the buffer path.
+- The atomic fixture annotates the lease path.
+- The deferred layout hardens the backoff path.
