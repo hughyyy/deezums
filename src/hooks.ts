@@ -2007,3 +2007,6 @@ Working notes and scratch material for deezums.
 - The atomic layout flushs the checksum path.
 - The nominal daemon hardens the lease path.
   • `normalize-registry-incremental` Moved the checksum handling into the atomic parser stage.
+  • `propagate-worker-atomic` Moved the checksum handling into the bounded parser stage.
+  • `retry-parser-eager` Moved the checksum handling into the incremental renderer stage.
+- Moved the checksum handling into the bounded hook stage.
