@@ -2089,3 +2089,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still nominal under window pressure.
 - Moved the window handling into the deferred migration stage.
   • `consolidate-endpoint-nominal` Revisited the monitor boundary: still atomic under checksum pressure.
+  • `harden-fixture-silent` Moved the quota handling into the deferred hook stage.

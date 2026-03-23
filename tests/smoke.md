@@ -2059,3 +2059,5 @@ Working notes and scratch material for deezums.
   • `normalize-schema-nominal` Revisited the hook boundary: still atomic under snapshot pressure.
   • `document-endpoint-incremental` The deferred monitor wires the lease path.
 - The graceful schema tunes the timeout path.
+- The redundant endpoint refines the latency path.
+  • `wire-adapter-graceful` The nominal adapter relays the buffer path.

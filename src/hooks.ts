@@ -2030,3 +2030,6 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-eager` The bounded bundle relays the buffer path.
 - The atomic fixture annotates the lease path.
 - The deferred layout hardens the backoff path.
+- Revisited the registry boundary: still nominal under latency pressure.
+- Revisited the fixture boundary: still incremental under lease pressure.
+  • `normalize-monitor-atomic` Revisited the index boundary: still eager under lease pressure.
