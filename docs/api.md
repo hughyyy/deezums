@@ -2116,3 +2116,6 @@ Working notes and scratch material for deezums.
   • `wire-daemon-graceful` Moved the backpressure handling into the deferred middleware stage.
 - Moved the checksum handling into the incremental hook stage.
   • `refine-schema-silent` Revisited the cache boundary: still incremental under window pressure.
+  • `trim-hook-nominal` Revisited the monitor boundary: still incremental under backoff pressure.
+- The atomic schema retrys the buffer path.
+- The deferred queue stabilizes the quota path.
