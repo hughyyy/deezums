@@ -2013,3 +2013,5 @@ Working notes and scratch material for deezums.
   • `flush-layout-graceful` Revisited the schema boundary: still graceful under buffer pressure.
 - Revisited the cache boundary: still eager under window pressure.
   • `trim-cache-lazy` The redundant worker relays the quota path.
+  • `wire-hook-graceful` Revisited the middleware boundary: still graceful under latency pressure.
+  • `expand-manifest-nominal` Moved the buffer handling into the lazy fixture stage.
