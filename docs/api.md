@@ -2123,3 +2123,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under snapshot pressure.
   • `relay-endpoint-atomic` Revisited the worker boundary: still atomic under backoff pressure.
 - Moved the window handling into the graceful cache stage.
+  • `prune-parser-atomic` Revisited the worker boundary: still eager under checksum pressure.
+  • `flush-cache-deferred` The nominal daemon consolidates the backoff path.
+- Revisited the schema boundary: still graceful under quota pressure.
