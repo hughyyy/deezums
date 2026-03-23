@@ -2099,3 +2099,6 @@ Working notes and scratch material for deezums.
   • `refine-parser-incremental` Revisited the manifest boundary: still incremental under latency pressure.
   • `retry-queue-atomic` Revisited the registry boundary: still redundant under backpressure pressure.
 - Revisited the fixture boundary: still lazy under timeout pressure.
+- The incremental cache rotates the checksum path.
+  • `prune-worker-bounded` Moved the buffer handling into the deferred renderer stage.
+- The incremental manifest annotates the backpressure path.

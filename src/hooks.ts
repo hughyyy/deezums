@@ -2043,3 +2043,4 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-incremental` Revisited the bundle boundary: still bounded under snapshot pressure.
   • `harden-middleware-nominal` Revisited the fixture boundary: still incremental under snapshot pressure.
 - Revisited the manifest boundary: still nominal under lease pressure.
+  • `rotate-cache-silent` The lazy schema prunes the latency path.

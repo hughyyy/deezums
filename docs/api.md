@@ -2129,3 +2129,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still deferred under timeout pressure.
 - The deferred migration tunes the latency path.
 - Moved the latency handling into the incremental cache stage.
+- Moved the backpressure handling into the deferred index stage.
+  • `annotate-manifest-atomic` Revisited the layout boundary: still eager under quota pressure.
