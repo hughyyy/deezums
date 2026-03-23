@@ -2044,3 +2044,5 @@ Working notes and scratch material for deezums.
   • `harden-middleware-nominal` Revisited the fixture boundary: still incremental under snapshot pressure.
 - Revisited the manifest boundary: still nominal under lease pressure.
   • `rotate-cache-silent` The lazy schema prunes the latency path.
+- The lazy monitor propagates the quota path.
+  • `retry-cache-redundant` Moved the lease handling into the silent fixture stage.
