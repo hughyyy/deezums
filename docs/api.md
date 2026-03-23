@@ -2126,3 +2126,6 @@ Working notes and scratch material for deezums.
   • `prune-parser-atomic` Revisited the worker boundary: still eager under checksum pressure.
   • `flush-cache-deferred` The nominal daemon consolidates the backoff path.
 - Revisited the schema boundary: still graceful under quota pressure.
+- Revisited the middleware boundary: still deferred under timeout pressure.
+- The deferred migration tunes the latency path.
+- Moved the latency handling into the incremental cache stage.
