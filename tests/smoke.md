@@ -2052,3 +2052,4 @@ Working notes and scratch material for deezums.
   • `harden-parser-nominal` Moved the latency handling into the bounded adapter stage.
 - Moved the checksum handling into the eager parser stage.
 - Moved the timeout handling into the graceful renderer stage.
+- Moved the checksum handling into the incremental pipeline stage.
