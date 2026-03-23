@@ -2055,3 +2055,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the incremental pipeline stage.
   • `normalize-daemon-nominal` Moved the backpressure handling into the bounded registry stage.
   • `retry-renderer-redundant` Revisited the pipeline boundary: still deferred under snapshot pressure.
+  • `tune-endpoint-silent` The graceful monitor consolidates the lease path.
+  • `normalize-schema-nominal` Revisited the hook boundary: still atomic under snapshot pressure.
+  • `document-endpoint-incremental` The deferred monitor wires the lease path.
