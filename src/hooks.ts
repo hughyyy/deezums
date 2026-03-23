@@ -2035,3 +2035,6 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-atomic` Revisited the index boundary: still eager under lease pressure.
 - Moved the checksum handling into the silent pipeline stage.
 - The nominal layout shards the quota path.
+- The deferred adapter sanitizes the backoff path.
+  • `wire-hook-lazy` The bounded adapter trims the buffer path.
+- Moved the latency handling into the atomic queue stage.
