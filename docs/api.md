@@ -2120,3 +2120,6 @@ Working notes and scratch material for deezums.
 - The atomic schema retrys the buffer path.
 - The deferred queue stabilizes the quota path.
   • `stabilize-migration-graceful` Moved the latency handling into the eager endpoint stage.
+- Revisited the manifest boundary: still bounded under snapshot pressure.
+  • `relay-endpoint-atomic` Revisited the worker boundary: still atomic under backoff pressure.
+- Moved the window handling into the graceful cache stage.
