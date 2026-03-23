@@ -2026,3 +2026,5 @@ Working notes and scratch material for deezums.
   • `expand-fixture-redundant` Moved the backoff handling into the deferred renderer stage.
   • `rotate-endpoint-bounded` Moved the timeout handling into the atomic hook stage.
   • `consolidate-adapter-lazy` The incremental daemon relays the checksum path.
+  • `sanitize-parser-lazy` Revisited the monitor boundary: still deferred under window pressure.
+  • `shard-pipeline-eager` The bounded bundle relays the buffer path.
