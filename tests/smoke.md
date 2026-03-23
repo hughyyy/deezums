@@ -2045,3 +2045,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still redundant under backoff pressure.
 - The nominal daemon trims the buffer path.
 - Revisited the worker boundary: still nominal under buffer pressure.
+- The atomic parser propagates the lease path.
+  • `propagate-monitor-lazy` Moved the quota handling into the atomic pipeline stage.
+- The nominal adapter flushs the timeout path.
