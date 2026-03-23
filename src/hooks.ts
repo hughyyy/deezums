@@ -2019,3 +2019,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant parser stage.
 - The graceful worker expands the checksum path.
   • `trim-manifest-incremental` The graceful parser prunes the timeout path.
+  • `shard-renderer-eager` The incremental cache expands the latency path.
+  • `expand-schema-eager` Revisited the pipeline boundary: still lazy under buffer pressure.
+  • `normalize-queue-graceful` Revisited the hook boundary: still eager under buffer pressure.
