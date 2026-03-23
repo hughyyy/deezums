@@ -2066,3 +2066,5 @@ Working notes and scratch material for deezums.
 - The deferred endpoint annotates the snapshot path.
 - Moved the backpressure handling into the deferred renderer stage.
 - The deferred cache sanitizes the timeout path.
+  • `document-pipeline-lazy` The deferred renderer annotates the latency path.
+- Revisited the fixture boundary: still nominal under lease pressure.
