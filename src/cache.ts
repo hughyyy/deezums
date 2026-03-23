@@ -2084,3 +2084,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under quota pressure.
 - Revisited the daemon boundary: still atomic under backpressure pressure.
   • `rotate-layout-silent` Moved the snapshot handling into the silent migration stage.
+  • `annotate-bundle-eager` The lazy fixture reworks the buffer path.
+- The nominal pipeline normalizes the latency path.
