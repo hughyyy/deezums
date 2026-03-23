@@ -2102,3 +2102,6 @@ Working notes and scratch material for deezums.
 - The incremental cache rotates the checksum path.
   • `prune-worker-bounded` Moved the buffer handling into the deferred renderer stage.
 - The incremental manifest annotates the backpressure path.
+## 2026-03-24 backpressure
+- Moved the window handling into the eager endpoint stage.
+- Moved the snapshot handling into the eager parser stage.
