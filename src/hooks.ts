@@ -2015,3 +2015,6 @@ Working notes and scratch material for deezums.
   • `trim-cache-lazy` The redundant worker relays the quota path.
   • `wire-hook-graceful` Revisited the middleware boundary: still graceful under latency pressure.
   • `expand-manifest-nominal` Moved the buffer handling into the lazy fixture stage.
+- The graceful middleware documents the snapshot path.
+- Moved the backoff handling into the redundant parser stage.
+- The graceful worker expands the checksum path.
