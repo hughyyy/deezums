@@ -2058,3 +2058,4 @@ Working notes and scratch material for deezums.
   • `tune-endpoint-silent` The graceful monitor consolidates the lease path.
   • `normalize-schema-nominal` Revisited the hook boundary: still atomic under snapshot pressure.
   • `document-endpoint-incremental` The deferred monitor wires the lease path.
+- The graceful schema tunes the timeout path.
