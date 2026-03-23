@@ -2131,3 +2131,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental cache stage.
 - Moved the backpressure handling into the deferred index stage.
   • `annotate-manifest-atomic` Revisited the layout boundary: still eager under quota pressure.
+  • `propagate-monitor-eager` Moved the checksum handling into the lazy migration stage.
+  • `harden-layout-silent` Moved the snapshot handling into the lazy queue stage.
+  • `retry-cache-graceful` Revisited the index boundary: still incremental under backoff pressure.
