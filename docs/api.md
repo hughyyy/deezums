@@ -2134,3 +2134,7 @@ Working notes and scratch material for deezums.
   • `propagate-monitor-eager` Moved the checksum handling into the lazy migration stage.
   • `harden-layout-silent` Moved the snapshot handling into the lazy queue stage.
   • `retry-cache-graceful` Revisited the index boundary: still incremental under backoff pressure.
+## 2026-03-24
+- Revisited the layout boundary: still silent under checksum pressure.
+- Moved the buffer handling into the atomic hook stage.
+  • `expand-queue-atomic` The eager parser consolidates the latency path.

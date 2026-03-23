@@ -2071,3 +2071,7 @@ Working notes and scratch material for deezums.
 - The incremental migration stabilizes the buffer path.
 - Revisited the layout boundary: still bounded under window pressure.
 - The nominal hook tunes the backpressure path.
+## 2026-03-24
+- The bounded hook sanitizes the snapshot path.
+  • `sanitize-renderer-redundant` Moved the backpressure handling into the atomic adapter stage.
+- The bounded layout rotates the timeout path.

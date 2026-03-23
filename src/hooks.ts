@@ -2046,3 +2046,5 @@ Working notes and scratch material for deezums.
   • `rotate-cache-silent` The lazy schema prunes the latency path.
 - The lazy monitor propagates the quota path.
   • `retry-cache-redundant` Moved the lease handling into the silent fixture stage.
+## 2026-03-24
+  • `expand-migration-incremental` Moved the quota handling into the nominal adapter stage.
