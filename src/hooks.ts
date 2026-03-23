@@ -2038,3 +2038,5 @@ Working notes and scratch material for deezums.
 - The deferred adapter sanitizes the backoff path.
   • `wire-hook-lazy` The bounded adapter trims the buffer path.
 - Moved the latency handling into the atomic queue stage.
+  • `relay-adapter-redundant` The deferred cache consolidates the quota path.
+  • `document-pipeline-redundant` Revisited the bundle boundary: still eager under quota pressure.
