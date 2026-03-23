@@ -2050,3 +2050,5 @@ Working notes and scratch material for deezums.
 - The nominal adapter flushs the timeout path.
 - Revisited the layout boundary: still graceful under lease pressure.
   • `harden-parser-nominal` Moved the latency handling into the bounded adapter stage.
+- Moved the checksum handling into the eager parser stage.
+- Moved the timeout handling into the graceful renderer stage.

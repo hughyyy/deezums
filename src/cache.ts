@@ -2076,3 +2076,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still incremental under latency pressure.
   • `relay-migration-lazy` The graceful index documents the lease path.
 - Moved the quota handling into the eager adapter stage.
+- Moved the checksum handling into the atomic migration stage.
