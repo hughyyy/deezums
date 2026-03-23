@@ -2040,3 +2040,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the atomic queue stage.
   • `relay-adapter-redundant` The deferred cache consolidates the quota path.
   • `document-pipeline-redundant` Revisited the bundle boundary: still eager under quota pressure.
+  • `propagate-bundle-incremental` Revisited the bundle boundary: still bounded under snapshot pressure.
+  • `harden-middleware-nominal` Revisited the fixture boundary: still incremental under snapshot pressure.
+- Revisited the manifest boundary: still nominal under lease pressure.
