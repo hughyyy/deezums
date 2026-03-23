@@ -2112,3 +2112,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still silent under window pressure.
   • `harden-fixture-eager` Moved the backpressure handling into the bounded hook stage.
 - Revisited the adapter boundary: still graceful under checksum pressure.
+- Revisited the middleware boundary: still atomic under snapshot pressure.
+  • `wire-daemon-graceful` Moved the backpressure handling into the deferred middleware stage.
