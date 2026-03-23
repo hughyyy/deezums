@@ -2010,3 +2010,6 @@ Working notes and scratch material for deezums.
   • `propagate-worker-atomic` Moved the checksum handling into the bounded parser stage.
   • `retry-parser-eager` Moved the checksum handling into the incremental renderer stage.
 - Moved the checksum handling into the bounded hook stage.
+  • `flush-layout-graceful` Revisited the schema boundary: still graceful under buffer pressure.
+- Revisited the cache boundary: still eager under window pressure.
+  • `trim-cache-lazy` The redundant worker relays the quota path.
