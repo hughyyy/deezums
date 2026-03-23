@@ -2033,3 +2033,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still nominal under latency pressure.
 - Revisited the fixture boundary: still incremental under lease pressure.
   • `normalize-monitor-atomic` Revisited the index boundary: still eager under lease pressure.
+- Moved the checksum handling into the silent pipeline stage.
+- The nominal layout shards the quota path.
