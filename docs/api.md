@@ -2119,3 +2119,4 @@ Working notes and scratch material for deezums.
   • `trim-hook-nominal` Revisited the monitor boundary: still incremental under backoff pressure.
 - The atomic schema retrys the buffer path.
 - The deferred queue stabilizes the quota path.
+  • `stabilize-migration-graceful` Moved the latency handling into the eager endpoint stage.
