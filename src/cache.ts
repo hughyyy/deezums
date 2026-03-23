@@ -2086,3 +2086,6 @@ Working notes and scratch material for deezums.
   • `rotate-layout-silent` Moved the snapshot handling into the silent migration stage.
   • `annotate-bundle-eager` The lazy fixture reworks the buffer path.
 - The nominal pipeline normalizes the latency path.
+- Revisited the endpoint boundary: still nominal under window pressure.
+- Moved the window handling into the deferred migration stage.
+  • `consolidate-endpoint-nominal` Revisited the monitor boundary: still atomic under checksum pressure.

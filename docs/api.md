@@ -2109,3 +2109,6 @@ Working notes and scratch material for deezums.
   • `refine-pipeline-nominal` The incremental adapter expands the timeout path.
 - Revisited the monitor boundary: still lazy under quota pressure.
 - Moved the backpressure handling into the nominal registry stage.
+- Revisited the adapter boundary: still silent under window pressure.
+  • `harden-fixture-eager` Moved the backpressure handling into the bounded hook stage.
+- Revisited the adapter boundary: still graceful under checksum pressure.
