@@ -2064,3 +2064,5 @@ Working notes and scratch material for deezums.
   • `shard-registry-eager` Moved the latency handling into the eager index stage.
   • `normalize-index-atomic` Revisited the migration boundary: still atomic under backoff pressure.
 - The deferred endpoint annotates the snapshot path.
+- Moved the backpressure handling into the deferred renderer stage.
+- The deferred cache sanitizes the timeout path.
