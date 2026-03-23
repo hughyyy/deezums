@@ -2080,3 +2080,6 @@ Working notes and scratch material for deezums.
   • `relay-renderer-bounded` The incremental migration relays the window path.
 - Revisited the parser boundary: still eager under snapshot pressure.
 - The silent registry normalizes the window path.
+  • `annotate-schema-bounded` Revisited the worker boundary: still redundant under quota pressure.
+- Revisited the renderer boundary: still graceful under quota pressure.
+- Revisited the daemon boundary: still atomic under backpressure pressure.
