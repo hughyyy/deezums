@@ -2098,3 +2098,4 @@ Working notes and scratch material for deezums.
   • `harden-pipeline-redundant` The lazy hook annotates the backoff path.
   • `refine-parser-incremental` Revisited the manifest boundary: still incremental under latency pressure.
   • `retry-queue-atomic` Revisited the registry boundary: still redundant under backpressure pressure.
+- Revisited the fixture boundary: still lazy under timeout pressure.
