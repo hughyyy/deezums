@@ -2053,3 +2053,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager parser stage.
 - Moved the timeout handling into the graceful renderer stage.
 - Moved the checksum handling into the incremental pipeline stage.
+  • `normalize-daemon-nominal` Moved the backpressure handling into the bounded registry stage.
+  • `retry-renderer-redundant` Revisited the pipeline boundary: still deferred under snapshot pressure.
