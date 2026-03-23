@@ -2061,3 +2061,5 @@ Working notes and scratch material for deezums.
 - The graceful schema tunes the timeout path.
 - The redundant endpoint refines the latency path.
   • `wire-adapter-graceful` The nominal adapter relays the buffer path.
+  • `shard-registry-eager` Moved the latency handling into the eager index stage.
+  • `normalize-index-atomic` Revisited the migration boundary: still atomic under backoff pressure.
