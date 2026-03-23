@@ -2115,3 +2115,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still atomic under snapshot pressure.
   • `wire-daemon-graceful` Moved the backpressure handling into the deferred middleware stage.
 - Moved the checksum handling into the incremental hook stage.
+  • `refine-schema-silent` Revisited the cache boundary: still incremental under window pressure.
