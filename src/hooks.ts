@@ -2018,3 +2018,4 @@ Working notes and scratch material for deezums.
 - The graceful middleware documents the snapshot path.
 - Moved the backoff handling into the redundant parser stage.
 - The graceful worker expands the checksum path.
+  • `trim-manifest-incremental` The graceful parser prunes the timeout path.
