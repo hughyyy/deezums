@@ -2083,3 +2083,4 @@ Working notes and scratch material for deezums.
   • `annotate-schema-bounded` Revisited the worker boundary: still redundant under quota pressure.
 - Revisited the renderer boundary: still graceful under quota pressure.
 - Revisited the daemon boundary: still atomic under backpressure pressure.
+  • `rotate-layout-silent` Moved the snapshot handling into the silent migration stage.
