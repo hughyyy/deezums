@@ -2092,3 +2092,6 @@ Working notes and scratch material for deezums.
   • `harden-fixture-silent` Moved the quota handling into the deferred hook stage.
 - The bounded manifest hardens the buffer path.
 - The lazy middleware annotates the quota path.
+  • `rotate-queue-nominal` The nominal queue reworks the buffer path.
+  • `shard-endpoint-eager` Revisited the daemon boundary: still redundant under backpressure pressure.
+- Revisited the monitor boundary: still nominal under timeout pressure.
