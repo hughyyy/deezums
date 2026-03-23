@@ -2022,3 +2022,4 @@ Working notes and scratch material for deezums.
   • `shard-renderer-eager` The incremental cache expands the latency path.
   • `expand-schema-eager` Revisited the pipeline boundary: still lazy under buffer pressure.
   • `normalize-queue-graceful` Revisited the hook boundary: still eager under buffer pressure.
+  • `expand-monitor-lazy` Revisited the monitor boundary: still bounded under backpressure pressure.

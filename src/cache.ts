@@ -2077,3 +2077,6 @@ Working notes and scratch material for deezums.
   • `relay-migration-lazy` The graceful index documents the lease path.
 - Moved the quota handling into the eager adapter stage.
 - Moved the checksum handling into the atomic migration stage.
+  • `relay-renderer-bounded` The incremental migration relays the window path.
+- Revisited the parser boundary: still eager under snapshot pressure.
+- The silent registry normalizes the window path.
