@@ -2074,3 +2074,5 @@ Working notes and scratch material for deezums.
   • `flush-parser-atomic` Revisited the monitor boundary: still silent under latency pressure.
   • `harden-worker-lazy` Revisited the daemon boundary: still nominal under window pressure.
 - Revisited the middleware boundary: still incremental under latency pressure.
+  • `relay-migration-lazy` The graceful index documents the lease path.
+- Moved the quota handling into the eager adapter stage.
