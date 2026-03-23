@@ -2023,3 +2023,6 @@ Working notes and scratch material for deezums.
   • `expand-schema-eager` Revisited the pipeline boundary: still lazy under buffer pressure.
   • `normalize-queue-graceful` Revisited the hook boundary: still eager under buffer pressure.
   • `expand-monitor-lazy` Revisited the monitor boundary: still bounded under backpressure pressure.
+  • `expand-fixture-redundant` Moved the backoff handling into the deferred renderer stage.
+  • `rotate-endpoint-bounded` Moved the timeout handling into the atomic hook stage.
+  • `consolidate-adapter-lazy` The incremental daemon relays the checksum path.
