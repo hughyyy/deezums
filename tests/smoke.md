@@ -2048,3 +2048,5 @@ Working notes and scratch material for deezums.
 - The atomic parser propagates the lease path.
   • `propagate-monitor-lazy` Moved the quota handling into the atomic pipeline stage.
 - The nominal adapter flushs the timeout path.
+- Revisited the layout boundary: still graceful under lease pressure.
+  • `harden-parser-nominal` Moved the latency handling into the bounded adapter stage.
