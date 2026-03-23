@@ -2114,3 +2114,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still graceful under checksum pressure.
 - Revisited the middleware boundary: still atomic under snapshot pressure.
   • `wire-daemon-graceful` Moved the backpressure handling into the deferred middleware stage.
+- Moved the checksum handling into the incremental hook stage.
