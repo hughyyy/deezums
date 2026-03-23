@@ -2108,3 +2108,4 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-nominal` Revisited the queue boundary: still lazy under quota pressure.
   • `refine-pipeline-nominal` The incremental adapter expands the timeout path.
 - Revisited the monitor boundary: still lazy under quota pressure.
+- Moved the backpressure handling into the nominal registry stage.
