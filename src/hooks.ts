@@ -2050,3 +2050,6 @@ Working notes and scratch material for deezums.
   • `expand-migration-incremental` Moved the quota handling into the nominal adapter stage.
 - Moved the checksum handling into the bounded adapter stage.
   • `sanitize-fixture-lazy` Moved the backpressure handling into the nominal schema stage.
+- The redundant pipeline propagates the window path.
+  • `relay-monitor-atomic` The redundant cache normalizes the snapshot path.
+- Moved the lease handling into the nominal migration stage.
