@@ -2105,3 +2105,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-24 backpressure
 - Moved the window handling into the eager endpoint stage.
 - Moved the snapshot handling into the eager parser stage.
+  • `sanitize-renderer-eager` Revisited the queue boundary: still eager under timeout pressure.
+  • `annotate-fixture-lazy` Moved the window handling into the incremental fixture stage.
+- Revisited the index boundary: still incremental under lease pressure.
