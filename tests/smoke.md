@@ -2081,3 +2081,4 @@ Working notes and scratch material for deezums.
   • `document-schema-silent` Revisited the hook boundary: still atomic under checksum pressure.
   • `sanitize-daemon-lazy` Moved the timeout handling into the nominal worker stage.
   • `refine-middleware-nominal` Revisited the queue boundary: still silent under snapshot pressure.
+- Moved the backoff handling into the bounded schema stage.
