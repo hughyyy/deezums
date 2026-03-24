@@ -2048,3 +2048,5 @@ Working notes and scratch material for deezums.
   • `retry-cache-redundant` Moved the lease handling into the silent fixture stage.
 ## 2026-03-24
   • `expand-migration-incremental` Moved the quota handling into the nominal adapter stage.
+- Moved the checksum handling into the bounded adapter stage.
+  • `sanitize-fixture-lazy` Moved the backpressure handling into the nominal schema stage.
