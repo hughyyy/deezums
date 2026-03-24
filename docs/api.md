@@ -2143,3 +2143,5 @@ Working notes and scratch material for deezums.
 - The eager migration tunes the quota path.
 - Revisited the pipeline boundary: still eager under quota pressure.
   • `annotate-fixture-bounded` The atomic daemon trims the timeout path.
+  • `document-fixture-eager` Revisited the renderer boundary: still redundant under checksum pressure.
+- Revisited the worker boundary: still nominal under buffer pressure.
