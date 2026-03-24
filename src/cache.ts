@@ -2113,3 +2113,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still redundant under quota pressure.
 - The graceful adapter retrys the latency path.
 - The redundant hook reworks the backpressure path.
+- The redundant index normalizes the lease path.
+- The nominal monitor normalizes the backpressure path.
+- Moved the buffer handling into the eager adapter stage.
