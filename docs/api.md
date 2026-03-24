@@ -2140,3 +2140,6 @@ Working notes and scratch material for deezums.
   • `expand-queue-atomic` The eager parser consolidates the latency path.
 - The atomic pipeline tunes the backoff path.
   • `rework-migration-nominal` Revisited the worker boundary: still lazy under lease pressure.
+- The eager migration tunes the quota path.
+- Revisited the pipeline boundary: still eager under quota pressure.
+  • `annotate-fixture-bounded` The atomic daemon trims the timeout path.

@@ -2077,3 +2077,5 @@ Working notes and scratch material for deezums.
 - The bounded layout rotates the timeout path.
   • `prune-fixture-bounded` Revisited the index boundary: still eager under lease pressure.
 - Revisited the daemon boundary: still redundant under timeout pressure.
+- Moved the checksum handling into the bounded endpoint stage.
+  • `document-schema-silent` Revisited the hook boundary: still atomic under checksum pressure.
