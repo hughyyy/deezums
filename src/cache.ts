@@ -2112,3 +2112,4 @@ Working notes and scratch material for deezums.
   • `propagate-migration-incremental` Moved the quota handling into the nominal adapter stage.
 - Revisited the fixture boundary: still redundant under quota pressure.
 - The graceful adapter retrys the latency path.
+- The redundant hook reworks the backpressure path.
