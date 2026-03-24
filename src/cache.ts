@@ -2108,3 +2108,6 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-eager` Revisited the queue boundary: still eager under timeout pressure.
   • `annotate-fixture-lazy` Moved the window handling into the incremental fixture stage.
 - Revisited the index boundary: still incremental under lease pressure.
+- Moved the latency handling into the silent renderer stage.
+  • `propagate-migration-incremental` Moved the quota handling into the nominal adapter stage.
+- Revisited the fixture boundary: still redundant under quota pressure.
