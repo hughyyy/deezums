@@ -2079,3 +2079,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still redundant under timeout pressure.
 - Moved the checksum handling into the bounded endpoint stage.
   • `document-schema-silent` Revisited the hook boundary: still atomic under checksum pressure.
+  • `sanitize-daemon-lazy` Moved the timeout handling into the nominal worker stage.
+  • `refine-middleware-nominal` Revisited the queue boundary: still silent under snapshot pressure.
