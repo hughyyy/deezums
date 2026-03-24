@@ -2111,3 +2111,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the silent renderer stage.
   • `propagate-migration-incremental` Moved the quota handling into the nominal adapter stage.
 - Revisited the fixture boundary: still redundant under quota pressure.
+- The graceful adapter retrys the latency path.
