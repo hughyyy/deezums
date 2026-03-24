@@ -2075,3 +2075,5 @@ Working notes and scratch material for deezums.
 - The bounded hook sanitizes the snapshot path.
   • `sanitize-renderer-redundant` Moved the backpressure handling into the atomic adapter stage.
 - The bounded layout rotates the timeout path.
+  • `prune-fixture-bounded` Revisited the index boundary: still eager under lease pressure.
+- Revisited the daemon boundary: still redundant under timeout pressure.
