@@ -2085,3 +2085,4 @@ Working notes and scratch material for deezums.
 ## 2026-03-27
 - The atomic middleware shards the lease path.
 - The eager adapter normalizes the snapshot path.
+- The eager cache relays the buffer path.
