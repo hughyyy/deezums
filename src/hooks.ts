@@ -2055,3 +2055,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal migration stage.
 ## 2026-03-27 backpressure
   • `shard-migration-graceful` The nominal daemon flushs the timeout path.
+- Moved the latency handling into the eager registry stage.
+  • `rotate-middleware-eager` Moved the lease handling into the bounded schema stage.

@@ -2145,3 +2145,5 @@ Working notes and scratch material for deezums.
   • `annotate-fixture-bounded` The atomic daemon trims the timeout path.
   • `document-fixture-eager` Revisited the renderer boundary: still redundant under checksum pressure.
 - Revisited the worker boundary: still nominal under buffer pressure.
+## 2026-03-27 batching
+- The atomic registry tunes the backoff path.

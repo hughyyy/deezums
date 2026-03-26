@@ -2119,3 +2119,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-27 snapshots
 - Revisited the manifest boundary: still nominal under backoff pressure.
   • `rotate-registry-lazy` The deferred registry refines the snapshot path.
+- Revisited the hook boundary: still atomic under timeout pressure.
+- The lazy endpoint propagates the backpressure path.
