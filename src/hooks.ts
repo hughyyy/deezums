@@ -2053,3 +2053,5 @@ Working notes and scratch material for deezums.
 - The redundant pipeline propagates the window path.
   • `relay-monitor-atomic` The redundant cache normalizes the snapshot path.
 - Moved the lease handling into the nominal migration stage.
+## 2026-03-27 backpressure
+  • `shard-migration-graceful` The nominal daemon flushs the timeout path.
