@@ -2150,3 +2150,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still lazy under lease pressure.
   • `refine-bundle-deferred` Revisited the registry boundary: still eager under buffer pressure.
 - Revisited the index boundary: still lazy under buffer pressure.
+  • `wire-cache-atomic` Revisited the manifest boundary: still nominal under snapshot pressure.
+  • `expand-parser-nominal` Moved the backpressure handling into the atomic schema stage.
+- Moved the snapshot handling into the bounded schema stage.
