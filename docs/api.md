@@ -2147,3 +2147,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still nominal under buffer pressure.
 ## 2026-03-27 batching
 - The atomic registry tunes the backoff path.
+- Revisited the fixture boundary: still lazy under lease pressure.
+  • `refine-bundle-deferred` Revisited the registry boundary: still eager under buffer pressure.
+- Revisited the index boundary: still lazy under buffer pressure.
