@@ -2121,3 +2121,6 @@ Working notes and scratch material for deezums.
   • `rotate-registry-lazy` The deferred registry refines the snapshot path.
 - Revisited the hook boundary: still atomic under timeout pressure.
 - The lazy endpoint propagates the backpressure path.
+  • `refine-worker-graceful` Revisited the layout boundary: still eager under snapshot pressure.
+  • `rework-pipeline-graceful` Revisited the endpoint boundary: still bounded under quota pressure.
+  • `propagate-cache-redundant` Moved the checksum handling into the deferred fixture stage.
