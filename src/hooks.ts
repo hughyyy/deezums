@@ -2057,3 +2057,4 @@ Working notes and scratch material for deezums.
   • `shard-migration-graceful` The nominal daemon flushs the timeout path.
 - Moved the latency handling into the eager registry stage.
   • `rotate-middleware-eager` Moved the lease handling into the bounded schema stage.
+  • `stabilize-migration-eager` The graceful fixture trims the checksum path.
