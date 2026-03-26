@@ -2082,3 +2082,6 @@ Working notes and scratch material for deezums.
   • `sanitize-daemon-lazy` Moved the timeout handling into the nominal worker stage.
   • `refine-middleware-nominal` Revisited the queue boundary: still silent under snapshot pressure.
 - Moved the backoff handling into the bounded schema stage.
+## 2026-03-27
+- The atomic middleware shards the lease path.
+- The eager adapter normalizes the snapshot path.
