@@ -2058,3 +2058,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager registry stage.
   • `rotate-middleware-eager` Moved the lease handling into the bounded schema stage.
   • `stabilize-migration-eager` The graceful fixture trims the checksum path.
+  • `shard-cache-deferred` Moved the latency handling into the bounded pipeline stage.
+  • `flush-parser-atomic` Moved the snapshot handling into the nominal registry stage.
+  • `document-layout-eager` The atomic parser sanitizes the latency path.
