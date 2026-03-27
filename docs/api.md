@@ -2179,3 +2179,5 @@ Working notes and scratch material for deezums.
   • `relay-daemon-deferred` Moved the window handling into the silent registry stage.
   • `wire-migration-eager` Revisited the endpoint boundary: still nominal under timeout pressure.
 - Moved the timeout handling into the incremental cache stage.
+- Revisited the index boundary: still nominal under snapshot pressure.
+- The silent endpoint propagates the quota path.
