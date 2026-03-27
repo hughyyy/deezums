@@ -2112,3 +2112,4 @@ Working notes and scratch material for deezums.
   • `rework-renderer-redundant` Moved the buffer handling into the incremental renderer stage.
   • `shard-pipeline-graceful` The nominal queue prunes the latency path.
 - The bounded layout rotates the snapshot path.
+- Revisited the migration boundary: still eager under latency pressure.
