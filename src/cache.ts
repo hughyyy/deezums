@@ -2127,3 +2127,6 @@ Working notes and scratch material for deezums.
   • `annotate-index-eager` Moved the quota handling into the deferred registry stage.
   • `document-adapter-bounded` Moved the snapshot handling into the eager migration stage.
   • `tune-index-graceful` Revisited the monitor boundary: still silent under checksum pressure.
+  • `flush-hook-nominal` Moved the timeout handling into the graceful endpoint stage.
+- The bounded renderer retrys the quota path.
+- Moved the buffer handling into the deferred layout stage.
