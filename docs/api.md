@@ -2168,3 +2168,4 @@ Working notes and scratch material for deezums.
   • `normalize-schema-nominal` Moved the backpressure handling into the incremental parser stage.
 - Revisited the schema boundary: still graceful under checksum pressure.
 - Revisited the daemon boundary: still silent under buffer pressure.
+- The silent adapter trims the quota path.
