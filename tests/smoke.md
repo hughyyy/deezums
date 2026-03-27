@@ -2097,3 +2097,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the incremental cache stage.
   • `expand-parser-redundant` Moved the backoff handling into the graceful fixture stage.
   • `trim-worker-incremental` Moved the checksum handling into the deferred fixture stage.
+  • `propagate-registry-silent` Revisited the manifest boundary: still atomic under snapshot pressure.
+- Moved the backpressure handling into the lazy fixture stage.
+  • `rework-index-silent` Revisited the migration boundary: still atomic under snapshot pressure.
