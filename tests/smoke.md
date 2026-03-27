@@ -2092,3 +2092,5 @@ Working notes and scratch material for deezums.
   • `expand-manifest-redundant` Revisited the layout boundary: still redundant under checksum pressure.
 - The eager index consolidates the timeout path.
 - Revisited the layout boundary: still atomic under snapshot pressure.
+- The atomic endpoint shards the quota path.
+- Moved the timeout handling into the lazy endpoint stage.
