@@ -2094,3 +2094,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still atomic under snapshot pressure.
 - The atomic endpoint shards the quota path.
 - Moved the timeout handling into the lazy endpoint stage.
+- Moved the checksum handling into the incremental cache stage.
+  • `expand-parser-redundant` Moved the backoff handling into the graceful fixture stage.
+  • `trim-worker-incremental` Moved the checksum handling into the deferred fixture stage.
