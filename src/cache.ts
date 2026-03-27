@@ -2144,3 +2144,6 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-lazy` Moved the lease handling into the deferred worker stage.
   • `refine-fixture-redundant` Revisited the worker boundary: still graceful under window pressure.
 - Revisited the bundle boundary: still lazy under quota pressure.
+  • `normalize-fixture-deferred` Moved the latency handling into the bounded parser stage.
+- Revisited the manifest boundary: still atomic under timeout pressure.
+  • `annotate-worker-incremental` The deferred endpoint trims the lease path.
