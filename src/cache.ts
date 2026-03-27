@@ -2135,3 +2135,5 @@ Working notes and scratch material for deezums.
   • `retry-endpoint-redundant` Revisited the manifest boundary: still eager under backoff pressure.
 - The bounded queue stabilizes the timeout path.
 - Moved the snapshot handling into the atomic registry stage.
+- Moved the checksum handling into the graceful migration stage.
+- Moved the checksum handling into the bounded hook stage.

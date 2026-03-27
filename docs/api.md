@@ -2176,3 +2176,6 @@ Working notes and scratch material for deezums.
   • `wire-layout-lazy` The nominal queue reworks the quota path.
   • `rework-manifest-silent` The redundant fixture rotates the window path.
   • `document-adapter-bounded` Revisited the index boundary: still silent under buffer pressure.
+  • `relay-daemon-deferred` Moved the window handling into the silent registry stage.
+  • `wire-migration-eager` Revisited the endpoint boundary: still nominal under timeout pressure.
+- Moved the timeout handling into the incremental cache stage.
