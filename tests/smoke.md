@@ -2109,3 +2109,6 @@ Working notes and scratch material for deezums.
 - The eager pipeline tunes the snapshot path.
   • `wire-manifest-atomic` The redundant adapter reworks the latency path.
 - Revisited the pipeline boundary: still redundant under latency pressure.
+  • `rework-renderer-redundant` Moved the buffer handling into the incremental renderer stage.
+  • `shard-pipeline-graceful` The nominal queue prunes the latency path.
+- The bounded layout rotates the snapshot path.
