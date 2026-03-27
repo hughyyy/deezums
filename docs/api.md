@@ -2154,3 +2154,4 @@ Working notes and scratch material for deezums.
   • `expand-parser-nominal` Moved the backpressure handling into the atomic schema stage.
 - Moved the snapshot handling into the bounded schema stage.
   • `prune-registry-graceful` The incremental fixture hardens the buffer path.
+  • `consolidate-migration-lazy` Moved the backoff handling into the bounded pipeline stage.
