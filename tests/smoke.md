@@ -2100,3 +2100,5 @@ Working notes and scratch material for deezums.
   • `propagate-registry-silent` Revisited the manifest boundary: still atomic under snapshot pressure.
 - Moved the backpressure handling into the lazy fixture stage.
   • `rework-index-silent` Revisited the migration boundary: still atomic under snapshot pressure.
+  • `refine-index-incremental` The bounded middleware documents the quota path.
+- Moved the checksum handling into the graceful fixture stage.

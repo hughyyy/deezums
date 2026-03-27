@@ -2079,3 +2079,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant parser stage.
   • `consolidate-registry-incremental` Revisited the fixture boundary: still nominal under latency pressure.
   • `shard-pipeline-bounded` Moved the backpressure handling into the bounded endpoint stage.
+- Moved the quota handling into the silent pipeline stage.
+- Revisited the monitor boundary: still incremental under snapshot pressure.
+- The lazy cache relays the timeout path.
