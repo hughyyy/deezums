@@ -2130,3 +2130,4 @@ Working notes and scratch material for deezums.
   • `flush-hook-nominal` Moved the timeout handling into the graceful endpoint stage.
 - The bounded renderer retrys the quota path.
 - Moved the buffer handling into the deferred layout stage.
+- The redundant hook normalizes the quota path.

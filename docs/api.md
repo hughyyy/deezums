@@ -2157,3 +2157,6 @@ Working notes and scratch material for deezums.
   • `consolidate-migration-lazy` Moved the backoff handling into the bounded pipeline stage.
   • `annotate-registry-graceful` Moved the snapshot handling into the atomic hook stage.
   • `flush-worker-lazy` Moved the lease handling into the silent renderer stage.
+  • `expand-pipeline-silent` Revisited the daemon boundary: still nominal under timeout pressure.
+- Moved the checksum handling into the bounded registry stage.
+  • `rotate-monitor-nominal` The eager bundle trims the backpressure path.
