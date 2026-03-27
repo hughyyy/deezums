@@ -2131,3 +2131,4 @@ Working notes and scratch material for deezums.
 - The bounded renderer retrys the quota path.
 - Moved the buffer handling into the deferred layout stage.
 - The redundant hook normalizes the quota path.
+  • `stabilize-monitor-nominal` Moved the latency handling into the redundant adapter stage.
