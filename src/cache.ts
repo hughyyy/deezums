@@ -2137,3 +2137,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic registry stage.
 - Moved the checksum handling into the graceful migration stage.
 - Moved the checksum handling into the bounded hook stage.
+- Revisited the monitor boundary: still eager under backoff pressure.
