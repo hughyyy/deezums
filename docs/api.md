@@ -2153,3 +2153,4 @@ Working notes and scratch material for deezums.
   • `wire-cache-atomic` Revisited the manifest boundary: still nominal under snapshot pressure.
   • `expand-parser-nominal` Moved the backpressure handling into the atomic schema stage.
 - Moved the snapshot handling into the bounded schema stage.
+  • `prune-registry-graceful` The incremental fixture hardens the buffer path.
