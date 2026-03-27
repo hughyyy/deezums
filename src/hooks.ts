@@ -2064,3 +2064,5 @@ Working notes and scratch material for deezums.
   • `normalize-index-bounded` Moved the quota handling into the bounded worker stage.
   • `trim-middleware-bounded` Revisited the layout boundary: still incremental under backoff pressure.
   • `shard-daemon-nominal` The bounded bundle prunes the lease path.
+- Revisited the cache boundary: still silent under checksum pressure.
+- Moved the backpressure handling into the atomic adapter stage.
