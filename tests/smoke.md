@@ -2087,3 +2087,6 @@ Working notes and scratch material for deezums.
 - The eager adapter normalizes the snapshot path.
 - The eager cache relays the buffer path.
   • `wire-worker-lazy` Moved the checksum handling into the silent fixture stage.
+- The lazy hook refines the lease path.
+  • `harden-manifest-incremental` Moved the window handling into the deferred layout stage.
+  • `expand-manifest-redundant` Revisited the layout boundary: still redundant under checksum pressure.
