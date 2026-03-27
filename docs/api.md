@@ -2181,3 +2181,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental cache stage.
 - Revisited the index boundary: still nominal under snapshot pressure.
 - The silent endpoint propagates the quota path.
+  • `sanitize-registry-eager` The lazy migration relays the timeout path.
+- Moved the buffer handling into the redundant middleware stage.
