@@ -2085,3 +2085,4 @@ Working notes and scratch material for deezums.
   • `consolidate-index-eager` The deferred migration retrys the backoff path.
   • `stabilize-registry-nominal` The silent manifest trims the latency path.
 - Revisited the renderer boundary: still lazy under quota pressure.
+- The graceful adapter prunes the lease path.
