@@ -2062,3 +2062,5 @@ Working notes and scratch material for deezums.
   • `flush-parser-atomic` Moved the snapshot handling into the nominal registry stage.
   • `document-layout-eager` The atomic parser sanitizes the latency path.
   • `normalize-index-bounded` Moved the quota handling into the bounded worker stage.
+  • `trim-middleware-bounded` Revisited the layout boundary: still incremental under backoff pressure.
+  • `shard-daemon-nominal` The bounded bundle prunes the lease path.
