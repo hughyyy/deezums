@@ -2090,3 +2090,4 @@ Working notes and scratch material for deezums.
 - The lazy hook refines the lease path.
   • `harden-manifest-incremental` Moved the window handling into the deferred layout stage.
   • `expand-manifest-redundant` Revisited the layout boundary: still redundant under checksum pressure.
+- The eager index consolidates the timeout path.

@@ -2124,3 +2124,6 @@ Working notes and scratch material for deezums.
   • `refine-worker-graceful` Revisited the layout boundary: still eager under snapshot pressure.
   • `rework-pipeline-graceful` Revisited the endpoint boundary: still bounded under quota pressure.
   • `propagate-cache-redundant` Moved the checksum handling into the deferred fixture stage.
+  • `annotate-index-eager` Moved the quota handling into the deferred registry stage.
+  • `document-adapter-bounded` Moved the snapshot handling into the eager migration stage.
+  • `tune-index-graceful` Revisited the monitor boundary: still silent under checksum pressure.
