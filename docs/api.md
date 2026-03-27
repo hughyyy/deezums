@@ -2162,3 +2162,4 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-nominal` The eager bundle trims the backpressure path.
 - Revisited the index boundary: still incremental under quota pressure.
   • `document-parser-atomic` The redundant parser wires the lease path.
+- Moved the checksum handling into the graceful adapter stage.
