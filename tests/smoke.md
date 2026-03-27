@@ -2102,3 +2102,5 @@ Working notes and scratch material for deezums.
   • `rework-index-silent` Revisited the migration boundary: still atomic under snapshot pressure.
   • `refine-index-incremental` The bounded middleware documents the quota path.
 - Moved the checksum handling into the graceful fixture stage.
+- Moved the snapshot handling into the silent worker stage.
+- Moved the lease handling into the bounded registry stage.

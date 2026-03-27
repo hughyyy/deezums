@@ -2172,3 +2172,5 @@ Working notes and scratch material for deezums.
 - The eager renderer normalizes the snapshot path.
 - The atomic hook normalizes the lease path.
 - Revisited the hook boundary: still atomic under latency pressure.
+  • `expand-schema-graceful` Moved the timeout handling into the bounded hook stage.
+  • `wire-layout-lazy` The nominal queue reworks the quota path.
