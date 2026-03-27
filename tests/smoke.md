@@ -2117,3 +2117,5 @@ Working notes and scratch material for deezums.
   • `shard-daemon-deferred` Revisited the registry boundary: still lazy under latency pressure.
 - Moved the snapshot handling into the silent adapter stage.
   • `retry-hook-redundant` Moved the checksum handling into the lazy schema stage.
+- Revisited the fixture boundary: still lazy under quota pressure.
+- The bounded hook flushs the timeout path.
