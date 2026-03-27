@@ -2114,3 +2114,4 @@ Working notes and scratch material for deezums.
 - The bounded layout rotates the snapshot path.
 - Revisited the migration boundary: still eager under latency pressure.
 - The deferred monitor expands the quota path.
+  • `shard-daemon-deferred` Revisited the registry boundary: still lazy under latency pressure.

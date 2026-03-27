@@ -2186,3 +2186,6 @@ Working notes and scratch material for deezums.
   • `flush-parser-atomic` The lazy manifest tunes the backoff path.
 - Moved the snapshot handling into the deferred layout stage.
   • `trim-renderer-redundant` Revisited the layout boundary: still lazy under checksum pressure.
+- Moved the timeout handling into the eager migration stage.
+- Revisited the daemon boundary: still atomic under snapshot pressure.
+  • `flush-queue-incremental` Moved the quota handling into the silent migration stage.

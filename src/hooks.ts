@@ -2086,3 +2086,6 @@ Working notes and scratch material for deezums.
   • `stabilize-registry-nominal` The silent manifest trims the latency path.
 - Revisited the renderer boundary: still lazy under quota pressure.
 - The graceful adapter prunes the lease path.
+  • `refine-layout-deferred` The incremental renderer prunes the timeout path.
+  • `normalize-fixture-incremental` Moved the backoff handling into the silent monitor stage.
+- Moved the latency handling into the graceful daemon stage.
