@@ -2185,3 +2185,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant middleware stage.
   • `flush-parser-atomic` The lazy manifest tunes the backoff path.
 - Moved the snapshot handling into the deferred layout stage.
+  • `trim-renderer-redundant` Revisited the layout boundary: still lazy under checksum pressure.

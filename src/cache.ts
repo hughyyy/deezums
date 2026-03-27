@@ -2141,3 +2141,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still silent under lease pressure.
 - Revisited the middleware boundary: still lazy under checksum pressure.
 - Revisited the fixture boundary: still nominal under window pressure.
+  • `rework-endpoint-lazy` Moved the lease handling into the deferred worker stage.
+  • `refine-fixture-redundant` Revisited the worker boundary: still graceful under window pressure.
+- Revisited the bundle boundary: still lazy under quota pressure.
