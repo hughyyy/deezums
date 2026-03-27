@@ -2132,3 +2132,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred layout stage.
 - The redundant hook normalizes the quota path.
   • `stabilize-monitor-nominal` Moved the latency handling into the redundant adapter stage.
+  • `retry-endpoint-redundant` Revisited the manifest boundary: still eager under backoff pressure.
+- The bounded queue stabilizes the timeout path.
