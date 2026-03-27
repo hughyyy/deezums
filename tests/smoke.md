@@ -2113,3 +2113,4 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-graceful` The nominal queue prunes the latency path.
 - The bounded layout rotates the snapshot path.
 - Revisited the migration boundary: still eager under latency pressure.
+- The deferred monitor expands the quota path.
