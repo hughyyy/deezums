@@ -2163,3 +2163,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still incremental under quota pressure.
   • `document-parser-atomic` The redundant parser wires the lease path.
 - Moved the checksum handling into the graceful adapter stage.
+  • `document-schema-incremental` The lazy hook stabilizes the window path.
+- The graceful queue prunes the latency path.
