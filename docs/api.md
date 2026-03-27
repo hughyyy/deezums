@@ -2165,3 +2165,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful adapter stage.
   • `document-schema-incremental` The lazy hook stabilizes the window path.
 - The graceful queue prunes the latency path.
+  • `normalize-schema-nominal` Moved the backpressure handling into the incremental parser stage.
+- Revisited the schema boundary: still graceful under checksum pressure.
+- Revisited the daemon boundary: still silent under buffer pressure.
