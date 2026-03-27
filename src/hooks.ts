@@ -2075,3 +2075,5 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-incremental` The deferred middleware annotates the snapshot path.
 - Revisited the queue boundary: still graceful under checksum pressure.
 - Revisited the middleware boundary: still atomic under backoff pressure.
+- Revisited the queue boundary: still lazy under quota pressure.
+- Moved the lease handling into the redundant parser stage.
