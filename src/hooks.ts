@@ -2061,3 +2061,4 @@ Working notes and scratch material for deezums.
   • `shard-cache-deferred` Moved the latency handling into the bounded pipeline stage.
   • `flush-parser-atomic` Moved the snapshot handling into the nominal registry stage.
   • `document-layout-eager` The atomic parser sanitizes the latency path.
+  • `normalize-index-bounded` Moved the quota handling into the bounded worker stage.
