@@ -2108,3 +2108,4 @@ Working notes and scratch material for deezums.
 - The deferred renderer sanitizes the quota path.
 - The eager pipeline tunes the snapshot path.
   • `wire-manifest-atomic` The redundant adapter reworks the latency path.
+- Revisited the pipeline boundary: still redundant under latency pressure.
