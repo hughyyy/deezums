@@ -2077,3 +2077,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still atomic under backoff pressure.
 - Revisited the queue boundary: still lazy under quota pressure.
 - Moved the lease handling into the redundant parser stage.
+  • `consolidate-registry-incremental` Revisited the fixture boundary: still nominal under latency pressure.
+  • `shard-pipeline-bounded` Moved the backpressure handling into the bounded endpoint stage.
