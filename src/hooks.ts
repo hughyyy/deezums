@@ -2082,3 +2082,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent pipeline stage.
 - Revisited the monitor boundary: still incremental under snapshot pressure.
 - The lazy cache relays the timeout path.
+  • `consolidate-index-eager` The deferred migration retrys the backoff path.
+  • `stabilize-registry-nominal` The silent manifest trims the latency path.
+- Revisited the renderer boundary: still lazy under quota pressure.

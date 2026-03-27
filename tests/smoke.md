@@ -2104,3 +2104,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful fixture stage.
 - Moved the snapshot handling into the silent worker stage.
 - Moved the lease handling into the bounded registry stage.
+  • `rework-daemon-deferred` Moved the lease handling into the lazy hook stage.
+- The deferred renderer sanitizes the quota path.
