@@ -2174,3 +2174,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still atomic under latency pressure.
   • `expand-schema-graceful` Moved the timeout handling into the bounded hook stage.
   • `wire-layout-lazy` The nominal queue reworks the quota path.
+  • `rework-manifest-silent` The redundant fixture rotates the window path.
+  • `document-adapter-bounded` Revisited the index boundary: still silent under buffer pressure.
