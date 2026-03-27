@@ -2106,3 +2106,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded registry stage.
   • `rework-daemon-deferred` Moved the lease handling into the lazy hook stage.
 - The deferred renderer sanitizes the quota path.
+- The eager pipeline tunes the snapshot path.
+  • `wire-manifest-atomic` The redundant adapter reworks the latency path.

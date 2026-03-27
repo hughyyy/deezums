@@ -2134,3 +2134,4 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-nominal` Moved the latency handling into the redundant adapter stage.
   • `retry-endpoint-redundant` Revisited the manifest boundary: still eager under backoff pressure.
 - The bounded queue stabilizes the timeout path.
+- Moved the snapshot handling into the atomic registry stage.
