@@ -2072,3 +2072,6 @@ Working notes and scratch material for deezums.
   • `retry-middleware-bounded` The eager daemon sanitizes the backpressure path.
   • `tune-endpoint-nominal` The bounded monitor consolidates the backpressure path.
 - The bounded queue relays the lease path.
+  • `normalize-monitor-incremental` The deferred middleware annotates the snapshot path.
+- Revisited the queue boundary: still graceful under checksum pressure.
+- Revisited the middleware boundary: still atomic under backoff pressure.
