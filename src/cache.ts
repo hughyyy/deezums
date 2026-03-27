@@ -2138,3 +2138,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful migration stage.
 - Moved the checksum handling into the bounded hook stage.
 - Revisited the monitor boundary: still eager under backoff pressure.
+- Revisited the migration boundary: still silent under lease pressure.
+- Revisited the middleware boundary: still lazy under checksum pressure.
+- Revisited the fixture boundary: still nominal under window pressure.
