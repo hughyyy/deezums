@@ -2155,3 +2155,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded schema stage.
   • `prune-registry-graceful` The incremental fixture hardens the buffer path.
   • `consolidate-migration-lazy` Moved the backoff handling into the bounded pipeline stage.
+  • `annotate-registry-graceful` Moved the snapshot handling into the atomic hook stage.
+  • `flush-worker-lazy` Moved the lease handling into the silent renderer stage.

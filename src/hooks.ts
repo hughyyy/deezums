@@ -2066,3 +2066,6 @@ Working notes and scratch material for deezums.
   • `shard-daemon-nominal` The bounded bundle prunes the lease path.
 - Revisited the cache boundary: still silent under checksum pressure.
 - Moved the backpressure handling into the atomic adapter stage.
+- Revisited the endpoint boundary: still deferred under backoff pressure.
+  • `shard-renderer-nominal` Revisited the migration boundary: still redundant under snapshot pressure.
+- Moved the backpressure handling into the incremental manifest stage.
