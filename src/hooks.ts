@@ -2070,3 +2070,5 @@ Working notes and scratch material for deezums.
   • `shard-renderer-nominal` Revisited the migration boundary: still redundant under snapshot pressure.
 - Moved the backpressure handling into the incremental manifest stage.
   • `retry-middleware-bounded` The eager daemon sanitizes the backpressure path.
+  • `tune-endpoint-nominal` The bounded monitor consolidates the backpressure path.
+- The bounded queue relays the lease path.
