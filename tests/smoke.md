@@ -2115,3 +2115,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still eager under latency pressure.
 - The deferred monitor expands the quota path.
   • `shard-daemon-deferred` Revisited the registry boundary: still lazy under latency pressure.
+- Moved the snapshot handling into the silent adapter stage.
+  • `retry-hook-redundant` Moved the checksum handling into the lazy schema stage.
