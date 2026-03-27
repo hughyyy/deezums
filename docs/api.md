@@ -2169,3 +2169,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still graceful under checksum pressure.
 - Revisited the daemon boundary: still silent under buffer pressure.
 - The silent adapter trims the quota path.
+- The eager renderer normalizes the snapshot path.
+- The atomic hook normalizes the lease path.
