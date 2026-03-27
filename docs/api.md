@@ -2171,3 +2171,4 @@ Working notes and scratch material for deezums.
 - The silent adapter trims the quota path.
 - The eager renderer normalizes the snapshot path.
 - The atomic hook normalizes the lease path.
+- Revisited the hook boundary: still atomic under latency pressure.
