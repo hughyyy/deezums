@@ -2160,3 +2160,5 @@ Working notes and scratch material for deezums.
   • `expand-pipeline-silent` Revisited the daemon boundary: still nominal under timeout pressure.
 - Moved the checksum handling into the bounded registry stage.
   • `rotate-monitor-nominal` The eager bundle trims the backpressure path.
+- Revisited the index boundary: still incremental under quota pressure.
+  • `document-parser-atomic` The redundant parser wires the lease path.
