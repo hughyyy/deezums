@@ -2189,3 +2189,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager migration stage.
 - Revisited the daemon boundary: still atomic under snapshot pressure.
   • `flush-queue-incremental` Moved the quota handling into the silent migration stage.
+## 2026-03-30
+  • `prune-hook-bounded` The nominal pipeline retrys the quota path.
+- The silent migration trims the timeout path.
