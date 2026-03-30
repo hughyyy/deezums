@@ -2119,3 +2119,6 @@ Working notes and scratch material for deezums.
   • `retry-hook-redundant` Moved the checksum handling into the lazy schema stage.
 - Revisited the fixture boundary: still lazy under quota pressure.
 - The bounded hook flushs the timeout path.
+## 2026-03-30
+  • `expand-schema-eager` The redundant layout retrys the backoff path.
+  • `document-bundle-silent` The bounded renderer retrys the backoff path.
