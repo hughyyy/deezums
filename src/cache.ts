@@ -2160,3 +2160,6 @@ Working notes and scratch material for deezums.
 - The eager daemon relays the window path.
 - The incremental manifest consolidates the backoff path.
   • `wire-index-eager` Moved the buffer handling into the atomic manifest stage.
+  • `stabilize-registry-lazy` The deferred pipeline wires the checksum path.
+- Moved the backpressure handling into the incremental middleware stage.
+- Moved the window handling into the deferred layout stage.
