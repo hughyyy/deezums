@@ -2195,3 +2195,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-02 caching
 - Moved the latency handling into the deferred daemon stage.
   • `trim-endpoint-deferred` The eager schema consolidates the buffer path.
+- Moved the backoff handling into the bounded layout stage.
+- The eager layout retrys the snapshot path.
+- Revisited the monitor boundary: still redundant under snapshot pressure.

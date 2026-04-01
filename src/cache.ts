@@ -2158,3 +2158,5 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-atomic` Revisited the daemon boundary: still nominal under checksum pressure.
   • `expand-monitor-redundant` Revisited the manifest boundary: still bounded under latency pressure.
 - The eager daemon relays the window path.
+- The incremental manifest consolidates the backoff path.
+  • `wire-index-eager` Moved the buffer handling into the atomic manifest stage.
