@@ -2151,3 +2151,6 @@ Working notes and scratch material for deezums.
   • `document-fixture-redundant` Moved the snapshot handling into the atomic worker stage.
   • `trim-daemon-lazy` Revisited the middleware boundary: still lazy under snapshot pressure.
   • `retry-daemon-redundant` Moved the window handling into the atomic layout stage.
+- Moved the buffer handling into the silent index stage.
+  • `propagate-pipeline-deferred` The deferred layout documents the snapshot path.
+- The eager renderer sanitizes the timeout path.

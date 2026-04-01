@@ -2089,3 +2089,5 @@ Working notes and scratch material for deezums.
   • `refine-layout-deferred` The incremental renderer prunes the timeout path.
   • `normalize-fixture-incremental` Moved the backoff handling into the silent monitor stage.
 - Moved the latency handling into the graceful daemon stage.
+## 2026-04-01
+  • `refine-endpoint-redundant` Moved the backpressure handling into the bounded hook stage.
