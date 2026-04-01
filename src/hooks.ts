@@ -2091,3 +2091,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful daemon stage.
 ## 2026-04-01
   • `refine-endpoint-redundant` Moved the backpressure handling into the bounded hook stage.
+## 2026-04-02
+  • `harden-monitor-silent` Revisited the middleware boundary: still bounded under lease pressure.

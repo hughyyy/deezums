@@ -2192,3 +2192,6 @@ Working notes and scratch material for deezums.
 ## 2026-03-30
   • `prune-hook-bounded` The nominal pipeline retrys the quota path.
 - The silent migration trims the timeout path.
+## 2026-04-02 caching
+- Moved the latency handling into the deferred daemon stage.
+  • `trim-endpoint-deferred` The eager schema consolidates the buffer path.

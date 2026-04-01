@@ -2124,3 +2124,5 @@ Working notes and scratch material for deezums.
   • `document-bundle-silent` The bounded renderer retrys the backoff path.
 ## 2026-04-02
 - Moved the backoff handling into the eager migration stage.
+- Moved the checksum handling into the redundant middleware stage.
+  • `harden-adapter-redundant` Moved the window handling into the atomic monitor stage.

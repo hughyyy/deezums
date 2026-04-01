@@ -2154,3 +2154,7 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent index stage.
   • `propagate-pipeline-deferred` The deferred layout documents the snapshot path.
 - The eager renderer sanitizes the timeout path.
+## 2026-04-02
+  • `stabilize-endpoint-atomic` Revisited the daemon boundary: still nominal under checksum pressure.
+  • `expand-monitor-redundant` Revisited the manifest boundary: still bounded under latency pressure.
+- The eager daemon relays the window path.
