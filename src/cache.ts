@@ -2150,3 +2150,4 @@ Working notes and scratch material for deezums.
 ## 2026-04-01
   • `document-fixture-redundant` Moved the snapshot handling into the atomic worker stage.
   • `trim-daemon-lazy` Revisited the middleware boundary: still lazy under snapshot pressure.
+  • `retry-daemon-redundant` Moved the window handling into the atomic layout stage.
