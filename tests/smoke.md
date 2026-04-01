@@ -2122,3 +2122,5 @@ Working notes and scratch material for deezums.
 ## 2026-03-30
   • `expand-schema-eager` The redundant layout retrys the backoff path.
   • `document-bundle-silent` The bounded renderer retrys the backoff path.
+## 2026-04-02
+- Moved the backoff handling into the eager migration stage.
