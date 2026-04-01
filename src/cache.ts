@@ -2147,3 +2147,6 @@ Working notes and scratch material for deezums.
   • `normalize-fixture-deferred` Moved the latency handling into the bounded parser stage.
 - Revisited the manifest boundary: still atomic under timeout pressure.
   • `annotate-worker-incremental` The deferred endpoint trims the lease path.
+## 2026-04-01
+  • `document-fixture-redundant` Moved the snapshot handling into the atomic worker stage.
+  • `trim-daemon-lazy` Revisited the middleware boundary: still lazy under snapshot pressure.
