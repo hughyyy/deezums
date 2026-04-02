@@ -2093,3 +2093,4 @@ Working notes and scratch material for deezums.
   • `refine-endpoint-redundant` Moved the backpressure handling into the bounded hook stage.
 ## 2026-04-02
   • `harden-monitor-silent` Revisited the middleware boundary: still bounded under lease pressure.
+  • `document-queue-nominal` The lazy adapter normalizes the buffer path.
