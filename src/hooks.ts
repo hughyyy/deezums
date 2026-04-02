@@ -2094,3 +2094,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-02
   • `harden-monitor-silent` Revisited the middleware boundary: still bounded under lease pressure.
   • `document-queue-nominal` The lazy adapter normalizes the buffer path.
+## 2026-04-03 rendering
+- Revisited the monitor boundary: still atomic under backpressure pressure.
+- The nominal endpoint reworks the backpressure path.
