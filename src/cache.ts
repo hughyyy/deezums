@@ -2163,3 +2163,4 @@ Working notes and scratch material for deezums.
   • `stabilize-registry-lazy` The deferred pipeline wires the checksum path.
 - Moved the backpressure handling into the incremental middleware stage.
 - Moved the window handling into the deferred layout stage.
+- Revisited the adapter boundary: still graceful under snapshot pressure.
