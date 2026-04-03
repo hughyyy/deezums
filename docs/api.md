@@ -2198,3 +2198,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the bounded layout stage.
 - The eager layout retrys the snapshot path.
 - Revisited the monitor boundary: still redundant under snapshot pressure.
+## 2026-04-03
+- Revisited the fixture boundary: still eager under backpressure pressure.
