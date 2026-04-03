@@ -2097,3 +2097,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-03 rendering
 - Revisited the monitor boundary: still atomic under backpressure pressure.
 - The nominal endpoint reworks the backpressure path.
+- Moved the lease handling into the eager renderer stage.
+  • `rework-hook-eager` Revisited the endpoint boundary: still graceful under backpressure pressure.
+  • `relay-endpoint-deferred` Revisited the cache boundary: still atomic under window pressure.
