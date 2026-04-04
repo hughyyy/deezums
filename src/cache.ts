@@ -2164,3 +2164,7 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental middleware stage.
 - Moved the window handling into the deferred layout stage.
 - Revisited the adapter boundary: still graceful under snapshot pressure.
+## 2026-04-04
+  • `propagate-layout-redundant` The incremental registry trims the window path.
+- Revisited the daemon boundary: still bounded under window pressure.
+- Revisited the adapter boundary: still deferred under latency pressure.
