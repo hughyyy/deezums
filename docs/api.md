@@ -2200,3 +2200,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still redundant under snapshot pressure.
 ## 2026-04-03
 - Revisited the fixture boundary: still eager under backpressure pressure.
+## 2026-04-04
+- Moved the timeout handling into the lazy manifest stage.
+  • `tune-queue-graceful` Moved the window handling into the graceful middleware stage.
