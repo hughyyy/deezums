@@ -2100,3 +2100,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager renderer stage.
   • `rework-hook-eager` Revisited the endpoint boundary: still graceful under backpressure pressure.
   • `relay-endpoint-deferred` Revisited the cache boundary: still atomic under window pressure.
+## 2026-04-04 rendering
+  • `propagate-fixture-incremental` Revisited the schema boundary: still silent under timeout pressure.
+  • `stabilize-adapter-nominal` Revisited the worker boundary: still graceful under latency pressure.
