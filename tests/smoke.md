@@ -2126,3 +2126,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager migration stage.
 - Moved the checksum handling into the redundant middleware stage.
   • `harden-adapter-redundant` Moved the window handling into the atomic monitor stage.
+## 2026-04-04
+- Revisited the layout boundary: still deferred under buffer pressure.
+- The silent adapter expands the buffer path.
