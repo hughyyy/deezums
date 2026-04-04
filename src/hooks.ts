@@ -2104,3 +2104,5 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-incremental` Revisited the schema boundary: still silent under timeout pressure.
   • `stabilize-adapter-nominal` Revisited the worker boundary: still graceful under latency pressure.
 - Revisited the queue boundary: still bounded under timeout pressure.
+- Moved the timeout handling into the nominal schema stage.
+  • `wire-parser-bounded` The deferred migration tunes the lease path.
