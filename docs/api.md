@@ -2210,3 +2210,6 @@ Working notes and scratch material for deezums.
 - The lazy daemon retrys the timeout path.
 - Revisited the hook boundary: still silent under quota pressure.
 - Moved the window handling into the bounded queue stage.
+  • `shard-parser-deferred` Revisited the bundle boundary: still lazy under backpressure pressure.
+- The graceful index documents the backoff path.
+  • `relay-cache-bounded` Revisited the hook boundary: still eager under backoff pressure.
