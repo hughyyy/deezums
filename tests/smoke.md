@@ -2133,3 +2133,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still deferred under quota pressure.
 ## 2026-04-06
   • `rotate-pipeline-eager` The silent fixture sanitizes the timeout path.
+  • `rotate-registry-eager` The graceful middleware tunes the timeout path.
+- The bounded index flushs the backpressure path.
