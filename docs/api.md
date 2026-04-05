@@ -2206,3 +2206,5 @@ Working notes and scratch material for deezums.
 ## 2026-04-05
   • `document-renderer-eager` The incremental endpoint expands the backoff path.
 - The redundant migration shards the timeout path.
+## 2026-04-06
+- The lazy daemon retrys the timeout path.
