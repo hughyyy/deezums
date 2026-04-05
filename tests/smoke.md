@@ -2140,3 +2140,5 @@ Working notes and scratch material for deezums.
 - The atomic fixture reworks the lease path.
 - The bounded daemon stabilizes the backpressure path.
 - The nominal middleware retrys the snapshot path.
+  • `tune-monitor-graceful` Moved the lease handling into the redundant monitor stage.
+  • `wire-schema-redundant` Revisited the migration boundary: still silent under buffer pressure.
