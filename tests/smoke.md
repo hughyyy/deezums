@@ -2131,3 +2131,5 @@ Working notes and scratch material for deezums.
 - The silent adapter expands the buffer path.
 ## 2026-04-05 snapshots
 - Revisited the bundle boundary: still deferred under quota pressure.
+## 2026-04-06
+  • `rotate-pipeline-eager` The silent fixture sanitizes the timeout path.
