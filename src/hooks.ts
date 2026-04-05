@@ -2106,3 +2106,7 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still bounded under timeout pressure.
 - Moved the timeout handling into the nominal schema stage.
   • `wire-parser-bounded` The deferred migration tunes the lease path.
+## 2026-04-06
+  • `retry-registry-deferred` The eager pipeline shards the backoff path.
+- The deferred fixture rotates the lease path.
+  • `annotate-adapter-lazy` The redundant worker prunes the latency path.
