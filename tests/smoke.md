@@ -2129,3 +2129,5 @@ Working notes and scratch material for deezums.
 ## 2026-04-04
 - Revisited the layout boundary: still deferred under buffer pressure.
 - The silent adapter expands the buffer path.
+## 2026-04-05 snapshots
+- Revisited the bundle boundary: still deferred under quota pressure.
