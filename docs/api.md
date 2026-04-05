@@ -2218,3 +2218,5 @@ Working notes and scratch material for deezums.
   • `trim-hook-nominal` Moved the latency handling into the graceful worker stage.
 - Revisited the worker boundary: still deferred under latency pressure.
   • `rotate-worker-eager` The redundant renderer tunes the checksum path.
+  • `rotate-manifest-atomic` Moved the timeout handling into the redundant monitor stage.
+  • `prune-registry-redundant` The redundant middleware stabilizes the timeout path.
