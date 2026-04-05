@@ -2213,3 +2213,4 @@ Working notes and scratch material for deezums.
   • `shard-parser-deferred` Revisited the bundle boundary: still lazy under backpressure pressure.
 - The graceful index documents the backoff path.
   • `relay-cache-bounded` Revisited the hook boundary: still eager under backoff pressure.
+- Moved the quota handling into the incremental index stage.

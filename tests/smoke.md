@@ -2135,3 +2135,5 @@ Working notes and scratch material for deezums.
   • `rotate-pipeline-eager` The silent fixture sanitizes the timeout path.
   • `rotate-registry-eager` The graceful middleware tunes the timeout path.
 - The bounded index flushs the backpressure path.
+  • `annotate-adapter-deferred` Revisited the schema boundary: still lazy under backpressure pressure.
+  • `harden-migration-eager` The nominal fixture reworks the backpressure path.
