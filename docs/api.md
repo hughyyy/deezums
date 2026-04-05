@@ -2203,3 +2203,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-04
 - Moved the timeout handling into the lazy manifest stage.
   • `tune-queue-graceful` Moved the window handling into the graceful middleware stage.
+## 2026-04-05
+  • `document-renderer-eager` The incremental endpoint expands the backoff path.
+- The redundant migration shards the timeout path.
