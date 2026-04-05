@@ -2215,3 +2215,6 @@ Working notes and scratch material for deezums.
   • `relay-cache-bounded` Revisited the hook boundary: still eager under backoff pressure.
 - Moved the quota handling into the incremental index stage.
 - The incremental cache retrys the snapshot path.
+  • `trim-hook-nominal` Moved the latency handling into the graceful worker stage.
+- Revisited the worker boundary: still deferred under latency pressure.
+  • `rotate-worker-eager` The redundant renderer tunes the checksum path.
