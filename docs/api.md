@@ -2208,3 +2208,5 @@ Working notes and scratch material for deezums.
 - The redundant migration shards the timeout path.
 ## 2026-04-06
 - The lazy daemon retrys the timeout path.
+- Revisited the hook boundary: still silent under quota pressure.
+- Moved the window handling into the bounded queue stage.
