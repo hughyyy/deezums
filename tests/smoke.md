@@ -2137,3 +2137,6 @@ Working notes and scratch material for deezums.
 - The bounded index flushs the backpressure path.
   • `annotate-adapter-deferred` Revisited the schema boundary: still lazy under backpressure pressure.
   • `harden-migration-eager` The nominal fixture reworks the backpressure path.
+- The atomic fixture reworks the lease path.
+- The bounded daemon stabilizes the backpressure path.
+- The nominal middleware retrys the snapshot path.

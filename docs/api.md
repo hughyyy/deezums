@@ -2214,3 +2214,4 @@ Working notes and scratch material for deezums.
 - The graceful index documents the backoff path.
   • `relay-cache-bounded` Revisited the hook boundary: still eager under backoff pressure.
 - Moved the quota handling into the incremental index stage.
+- The incremental cache retrys the snapshot path.
