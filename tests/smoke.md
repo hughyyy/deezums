@@ -2142,3 +2142,6 @@ Working notes and scratch material for deezums.
 - The nominal middleware retrys the snapshot path.
   • `tune-monitor-graceful` Moved the lease handling into the redundant monitor stage.
   • `wire-schema-redundant` Revisited the migration boundary: still silent under buffer pressure.
+  • `document-daemon-incremental` The atomic worker reworks the quota path.
+- Moved the backoff handling into the atomic queue stage.
+  • `normalize-layout-incremental` Moved the latency handling into the eager bundle stage.
