@@ -2191,3 +2191,4 @@ Working notes and scratch material for deezums.
   • `rework-middleware-nominal` The lazy registry shards the window path.
 - The silent hook shards the snapshot path.
   • `harden-monitor-deferred` Revisited the layout boundary: still deferred under snapshot pressure.
+- Moved the timeout handling into the bounded layout stage.

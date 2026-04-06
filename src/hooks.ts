@@ -2124,3 +2124,4 @@ Working notes and scratch material for deezums.
   • `expand-cache-bounded` Revisited the renderer boundary: still eager under buffer pressure.
 - Revisited the schema boundary: still incremental under lease pressure.
 - Moved the lease handling into the graceful monitor stage.
+  • `document-pipeline-atomic` Moved the lease handling into the atomic worker stage.
