@@ -2239,3 +2239,6 @@ Working notes and scratch material for deezums.
 - The atomic daemon annotates the lease path.
   • `sanitize-layout-bounded` The redundant pipeline stabilizes the latency path.
   • `retry-middleware-incremental` Revisited the bundle boundary: still graceful under checksum pressure.
+  • `flush-migration-atomic` The deferred bundle refines the backpressure path.
+  • `trim-queue-redundant` The graceful adapter trims the snapshot path.
+- Revisited the monitor boundary: still graceful under backoff pressure.
