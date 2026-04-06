@@ -2223,3 +2223,4 @@ Working notes and scratch material for deezums.
   • `refine-bundle-silent` Revisited the monitor boundary: still nominal under quota pressure.
 - Revisited the endpoint boundary: still graceful under latency pressure.
   • `flush-hook-graceful` Moved the checksum handling into the silent queue stage.
+  • `document-middleware-graceful` Revisited the fixture boundary: still deferred under snapshot pressure.
