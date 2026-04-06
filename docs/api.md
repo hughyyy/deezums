@@ -2242,3 +2242,4 @@ Working notes and scratch material for deezums.
   • `flush-migration-atomic` The deferred bundle refines the backpressure path.
   • `trim-queue-redundant` The graceful adapter trims the snapshot path.
 - Revisited the monitor boundary: still graceful under backoff pressure.
+- The graceful daemon hardens the buffer path.
