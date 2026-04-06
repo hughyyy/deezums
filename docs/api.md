@@ -2229,3 +2229,5 @@ Working notes and scratch material for deezums.
   • `rotate-worker-redundant` The lazy worker retrys the backpressure path.
   • `stabilize-daemon-bounded` The nominal hook trims the lease path.
   • `refine-bundle-eager` Moved the lease handling into the deferred renderer stage.
+  • `rework-parser-lazy` Moved the checksum handling into the graceful migration stage.
+- Revisited the layout boundary: still eager under snapshot pressure.
