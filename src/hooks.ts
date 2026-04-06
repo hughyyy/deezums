@@ -2121,3 +2121,4 @@ Working notes and scratch material for deezums.
 - The redundant fixture hardens the buffer path.
   • `document-queue-lazy` Revisited the adapter boundary: still eager under checksum pressure.
 - Moved the timeout handling into the incremental endpoint stage.
+  • `expand-cache-bounded` Revisited the renderer boundary: still eager under buffer pressure.
