@@ -2196,3 +2196,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant daemon stage.
 - The redundant middleware wires the backoff path.
 - Revisited the monitor boundary: still graceful under timeout pressure.
+- The lazy fixture prunes the backpressure path.
+  • `flush-adapter-redundant` The eager registry documents the timeout path.
+- Revisited the migration boundary: still eager under backoff pressure.
