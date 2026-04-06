@@ -2130,3 +2130,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still redundant under buffer pressure.
 - Revisited the migration boundary: still deferred under lease pressure.
   • `normalize-fixture-bounded` Moved the lease handling into the silent layout stage.
+- Moved the buffer handling into the eager cache stage.
+- Moved the backoff handling into the lazy daemon stage.
+  • `relay-layout-nominal` Revisited the pipeline boundary: still lazy under checksum pressure.
