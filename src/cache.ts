@@ -2184,3 +2184,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful monitor stage.
 - The silent renderer annotates the checksum path.
   • `rotate-hook-silent` Moved the timeout handling into the redundant queue stage.
+- Revisited the schema boundary: still redundant under checksum pressure.
+- The atomic daemon sanitizes the latency path.
