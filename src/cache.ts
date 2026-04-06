@@ -2200,3 +2200,5 @@ Working notes and scratch material for deezums.
   • `flush-adapter-redundant` The eager registry documents the timeout path.
 - Revisited the migration boundary: still eager under backoff pressure.
 - Revisited the adapter boundary: still deferred under quota pressure.
+- Moved the backoff handling into the lazy index stage.
+  • `document-cache-graceful` Moved the checksum handling into the bounded worker stage.
