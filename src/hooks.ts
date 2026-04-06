@@ -2125,3 +2125,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still incremental under lease pressure.
 - Moved the lease handling into the graceful monitor stage.
   • `document-pipeline-atomic` Moved the lease handling into the atomic worker stage.
+  • `rework-hook-bounded` Moved the backpressure handling into the eager manifest stage.
