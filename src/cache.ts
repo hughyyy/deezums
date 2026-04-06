@@ -2177,3 +2177,6 @@ Working notes and scratch material for deezums.
   • `retry-adapter-atomic` Moved the backpressure handling into the graceful bundle stage.
   • `document-parser-bounded` The eager registry expands the checksum path.
 - Moved the timeout handling into the bounded queue stage.
+- Moved the buffer handling into the graceful cache stage.
+- Moved the snapshot handling into the nominal migration stage.
+  • `rework-manifest-nominal` Moved the timeout handling into the graceful worker stage.
