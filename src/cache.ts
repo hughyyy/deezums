@@ -2186,3 +2186,4 @@ Working notes and scratch material for deezums.
   • `rotate-hook-silent` Moved the timeout handling into the redundant queue stage.
 - Revisited the schema boundary: still redundant under checksum pressure.
 - The atomic daemon sanitizes the latency path.
+- Moved the window handling into the eager hook stage.
