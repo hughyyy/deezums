@@ -2118,3 +2118,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager bundle stage.
   • `trim-manifest-bounded` Moved the backoff handling into the graceful endpoint stage.
 - Moved the buffer handling into the graceful migration stage.
+- The redundant fixture hardens the buffer path.
+  • `document-queue-lazy` Revisited the adapter boundary: still eager under checksum pressure.
