@@ -2235,3 +2235,4 @@ Working notes and scratch material for deezums.
   • `wire-parser-deferred` Moved the buffer handling into the silent pipeline stage.
 - Revisited the pipeline boundary: still redundant under checksum pressure.
   • `normalize-worker-lazy` Revisited the fixture boundary: still redundant under checksum pressure.
+- Moved the buffer handling into the nominal queue stage.
