@@ -2158,3 +2158,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still redundant under timeout pressure.
 - Revisited the monitor boundary: still incremental under checksum pressure.
 - Revisited the renderer boundary: still graceful under lease pressure.
+  • `refine-daemon-graceful` Moved the quota handling into the atomic fixture stage.
+- Moved the buffer handling into the lazy registry stage.
