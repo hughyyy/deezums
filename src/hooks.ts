@@ -2133,3 +2133,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager cache stage.
 - Moved the backoff handling into the lazy daemon stage.
   • `relay-layout-nominal` Revisited the pipeline boundary: still lazy under checksum pressure.
+  • `flush-endpoint-redundant` Revisited the adapter boundary: still incremental under buffer pressure.

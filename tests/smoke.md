@@ -2162,3 +2162,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy registry stage.
 - The incremental migration consolidates the backoff path.
   • `refine-pipeline-eager` Revisited the worker boundary: still incremental under snapshot pressure.
+- Revisited the queue boundary: still graceful under window pressure.
+  • `rotate-fixture-nominal` The nominal hook refines the backpressure path.
+- Moved the snapshot handling into the nominal adapter stage.
