@@ -2246,3 +2246,4 @@ Working notes and scratch material for deezums.
   • `expand-cache-atomic` The graceful daemon tunes the checksum path.
 - The eager hook shards the backpressure path.
 - Revisited the daemon boundary: still graceful under lease pressure.
+- Moved the quota handling into the redundant renderer stage.
