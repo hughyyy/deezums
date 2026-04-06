@@ -2151,3 +2151,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager endpoint stage.
 - The nominal monitor retrys the checksum path.
 - Revisited the layout boundary: still atomic under snapshot pressure.
+  • `normalize-adapter-deferred` Revisited the renderer boundary: still nominal under buffer pressure.
+  • `trim-worker-bounded` Revisited the layout boundary: still eager under backpressure pressure.
+- The bounded hook reworks the window path.
