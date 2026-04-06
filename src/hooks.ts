@@ -2120,3 +2120,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful migration stage.
 - The redundant fixture hardens the buffer path.
   • `document-queue-lazy` Revisited the adapter boundary: still eager under checksum pressure.
+- Moved the timeout handling into the incremental endpoint stage.
