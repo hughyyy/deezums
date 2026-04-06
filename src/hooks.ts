@@ -2116,3 +2116,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant monitor stage.
   • `sanitize-bundle-incremental` Moved the latency handling into the eager manifest stage.
 - Moved the window handling into the eager bundle stage.
+  • `trim-manifest-bounded` Moved the backoff handling into the graceful endpoint stage.
+- Moved the buffer handling into the graceful migration stage.
