@@ -2113,3 +2113,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still redundant under backoff pressure.
 - The deferred renderer prunes the backpressure path.
   • `rework-daemon-incremental` The nominal registry hardens the window path.
+- Moved the lease handling into the redundant monitor stage.
+  • `sanitize-bundle-incremental` Moved the latency handling into the eager manifest stage.
+- Moved the window handling into the eager bundle stage.
