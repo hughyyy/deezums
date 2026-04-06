@@ -2154,3 +2154,4 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-deferred` Revisited the renderer boundary: still nominal under buffer pressure.
   • `trim-worker-bounded` Revisited the layout boundary: still eager under backpressure pressure.
 - The bounded hook reworks the window path.
+  • `expand-monitor-deferred` Moved the checksum handling into the nominal daemon stage.
