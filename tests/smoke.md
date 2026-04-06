@@ -2148,3 +2148,6 @@ Working notes and scratch material for deezums.
   • `rework-manifest-graceful` Revisited the layout boundary: still deferred under window pressure.
 - The atomic queue sanitizes the lease path.
   • `rotate-bundle-lazy` Moved the buffer handling into the nominal hook stage.
+- Moved the quota handling into the eager endpoint stage.
+- The nominal monitor retrys the checksum path.
+- Revisited the layout boundary: still atomic under snapshot pressure.

@@ -2183,3 +2183,4 @@ Working notes and scratch material for deezums.
   • `shard-fixture-atomic` Revisited the cache boundary: still graceful under snapshot pressure.
 - Moved the timeout handling into the graceful monitor stage.
 - The silent renderer annotates the checksum path.
+  • `rotate-hook-silent` Moved the timeout handling into the redundant queue stage.

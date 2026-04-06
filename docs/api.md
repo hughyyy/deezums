@@ -2231,3 +2231,4 @@ Working notes and scratch material for deezums.
   • `refine-bundle-eager` Moved the lease handling into the deferred renderer stage.
   • `rework-parser-lazy` Moved the checksum handling into the graceful migration stage.
 - Revisited the layout boundary: still eager under snapshot pressure.
+  • `shard-migration-graceful` Moved the buffer handling into the incremental worker stage.
