@@ -2238,3 +2238,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal queue stage.
 - The atomic daemon annotates the lease path.
   • `sanitize-layout-bounded` The redundant pipeline stabilizes the latency path.
+  • `retry-middleware-incremental` Revisited the bundle boundary: still graceful under checksum pressure.
