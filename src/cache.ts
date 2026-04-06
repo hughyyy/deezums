@@ -2174,3 +2174,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still deferred under snapshot pressure.
 - The atomic layout tunes the quota path.
 - Revisited the adapter boundary: still lazy under lease pressure.
+  • `retry-adapter-atomic` Moved the backpressure handling into the graceful bundle stage.
+  • `document-parser-bounded` The eager registry expands the checksum path.
+- Moved the timeout handling into the bounded queue stage.
