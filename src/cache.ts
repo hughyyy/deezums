@@ -2172,3 +2172,4 @@ Working notes and scratch material for deezums.
   • `propagate-worker-incremental` Moved the window handling into the graceful index stage.
   • `relay-renderer-silent` Moved the timeout handling into the lazy pipeline stage.
 - Revisited the renderer boundary: still deferred under snapshot pressure.
+- The atomic layout tunes the quota path.
