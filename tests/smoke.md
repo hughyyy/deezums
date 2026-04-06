@@ -2161,3 +2161,4 @@ Working notes and scratch material for deezums.
   • `refine-daemon-graceful` Moved the quota handling into the atomic fixture stage.
 - Moved the buffer handling into the lazy registry stage.
 - The incremental migration consolidates the backoff path.
+  • `refine-pipeline-eager` Revisited the worker boundary: still incremental under snapshot pressure.
