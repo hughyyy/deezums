@@ -2129,3 +2129,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal middleware stage.
 - Revisited the bundle boundary: still redundant under buffer pressure.
 - Revisited the migration boundary: still deferred under lease pressure.
+  • `normalize-fixture-bounded` Moved the lease handling into the silent layout stage.
