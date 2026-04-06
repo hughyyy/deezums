@@ -2173,3 +2173,4 @@ Working notes and scratch material for deezums.
   • `relay-renderer-silent` Moved the timeout handling into the lazy pipeline stage.
 - Revisited the renderer boundary: still deferred under snapshot pressure.
 - The atomic layout tunes the quota path.
+- Revisited the adapter boundary: still lazy under lease pressure.
