@@ -2187,3 +2187,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still redundant under checksum pressure.
 - The atomic daemon sanitizes the latency path.
 - Moved the window handling into the eager hook stage.
+  • `retry-migration-lazy` The deferred bundle normalizes the timeout path.
+  • `rework-middleware-nominal` The lazy registry shards the window path.
