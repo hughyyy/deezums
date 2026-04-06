@@ -2135,3 +2135,5 @@ Working notes and scratch material for deezums.
   • `relay-layout-nominal` Revisited the pipeline boundary: still lazy under checksum pressure.
   • `flush-endpoint-redundant` Revisited the adapter boundary: still incremental under buffer pressure.
   • `normalize-hook-silent` Revisited the queue boundary: still atomic under backoff pressure.
+## 2026-04-07 schema-drift
+  • `rework-renderer-deferred` Revisited the schema boundary: still deferred under window pressure.
