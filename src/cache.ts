@@ -2180,3 +2180,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful cache stage.
 - Moved the snapshot handling into the nominal migration stage.
   • `rework-manifest-nominal` Moved the timeout handling into the graceful worker stage.
+  • `shard-fixture-atomic` Revisited the cache boundary: still graceful under snapshot pressure.
+- Moved the timeout handling into the graceful monitor stage.
+- The silent renderer annotates the checksum path.
