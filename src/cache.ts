@@ -2192,3 +2192,4 @@ Working notes and scratch material for deezums.
 - The silent hook shards the snapshot path.
   • `harden-monitor-deferred` Revisited the layout boundary: still deferred under snapshot pressure.
 - Moved the timeout handling into the bounded layout stage.
+  • `wire-queue-incremental` Revisited the queue boundary: still silent under buffer pressure.
