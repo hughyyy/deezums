@@ -2110,3 +2110,6 @@ Working notes and scratch material for deezums.
   • `retry-registry-deferred` The eager pipeline shards the backoff path.
 - The deferred fixture rotates the lease path.
   • `annotate-adapter-lazy` The redundant worker prunes the latency path.
+- Revisited the renderer boundary: still redundant under backoff pressure.
+- The deferred renderer prunes the backpressure path.
+  • `rework-daemon-incremental` The nominal registry hardens the window path.
