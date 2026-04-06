@@ -2193,3 +2193,6 @@ Working notes and scratch material for deezums.
   • `harden-monitor-deferred` Revisited the layout boundary: still deferred under snapshot pressure.
 - Moved the timeout handling into the bounded layout stage.
   • `wire-queue-incremental` Revisited the queue boundary: still silent under buffer pressure.
+- Moved the buffer handling into the redundant daemon stage.
+- The redundant middleware wires the backoff path.
+- Revisited the monitor boundary: still graceful under timeout pressure.

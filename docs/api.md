@@ -2243,3 +2243,5 @@ Working notes and scratch material for deezums.
   • `trim-queue-redundant` The graceful adapter trims the snapshot path.
 - Revisited the monitor boundary: still graceful under backoff pressure.
 - The graceful daemon hardens the buffer path.
+  • `expand-cache-atomic` The graceful daemon tunes the checksum path.
+- The eager hook shards the backpressure path.

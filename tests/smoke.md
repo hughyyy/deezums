@@ -2155,3 +2155,6 @@ Working notes and scratch material for deezums.
   • `trim-worker-bounded` Revisited the layout boundary: still eager under backpressure pressure.
 - The bounded hook reworks the window path.
   • `expand-monitor-deferred` Moved the checksum handling into the nominal daemon stage.
+- Revisited the pipeline boundary: still redundant under timeout pressure.
+- Revisited the monitor boundary: still incremental under checksum pressure.
+- Revisited the renderer boundary: still graceful under lease pressure.
