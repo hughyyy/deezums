@@ -2226,3 +2226,6 @@ Working notes and scratch material for deezums.
   • `document-middleware-graceful` Revisited the fixture boundary: still deferred under snapshot pressure.
 - The redundant fixture refines the backpressure path.
   • `document-monitor-redundant` The incremental hook stabilizes the timeout path.
+  • `rotate-worker-redundant` The lazy worker retrys the backpressure path.
+  • `stabilize-daemon-bounded` The nominal hook trims the lease path.
+  • `refine-bundle-eager` Moved the lease handling into the deferred renderer stage.
