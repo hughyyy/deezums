@@ -2168,3 +2168,5 @@ Working notes and scratch material for deezums.
   • `propagate-layout-redundant` The incremental registry trims the window path.
 - Revisited the daemon boundary: still bounded under window pressure.
 - Revisited the adapter boundary: still deferred under latency pressure.
+## 2026-04-06
+  • `propagate-worker-incremental` Moved the window handling into the graceful index stage.
