@@ -2224,3 +2224,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still graceful under latency pressure.
   • `flush-hook-graceful` Moved the checksum handling into the silent queue stage.
   • `document-middleware-graceful` Revisited the fixture boundary: still deferred under snapshot pressure.
+- The redundant fixture refines the backpressure path.
+  • `document-monitor-redundant` The incremental hook stabilizes the timeout path.
