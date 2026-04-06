@@ -2199,3 +2199,4 @@ Working notes and scratch material for deezums.
 - The lazy fixture prunes the backpressure path.
   • `flush-adapter-redundant` The eager registry documents the timeout path.
 - Revisited the migration boundary: still eager under backoff pressure.
+- Revisited the adapter boundary: still deferred under quota pressure.

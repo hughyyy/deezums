@@ -2160,3 +2160,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under lease pressure.
   • `refine-daemon-graceful` Moved the quota handling into the atomic fixture stage.
 - Moved the buffer handling into the lazy registry stage.
+- The incremental migration consolidates the backoff path.

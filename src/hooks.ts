@@ -2126,3 +2126,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the graceful monitor stage.
   • `document-pipeline-atomic` Moved the lease handling into the atomic worker stage.
   • `rework-hook-bounded` Moved the backpressure handling into the eager manifest stage.
+- Moved the checksum handling into the nominal middleware stage.
+- Revisited the bundle boundary: still redundant under buffer pressure.
+- Revisited the migration boundary: still deferred under lease pressure.
