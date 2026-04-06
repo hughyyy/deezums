@@ -2147,3 +2147,4 @@ Working notes and scratch material for deezums.
   • `normalize-layout-incremental` Moved the latency handling into the eager bundle stage.
   • `rework-manifest-graceful` Revisited the layout boundary: still deferred under window pressure.
 - The atomic queue sanitizes the lease path.
+  • `rotate-bundle-lazy` Moved the buffer handling into the nominal hook stage.
