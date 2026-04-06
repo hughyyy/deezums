@@ -2170,3 +2170,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under latency pressure.
 ## 2026-04-06
   • `propagate-worker-incremental` Moved the window handling into the graceful index stage.
+  • `relay-renderer-silent` Moved the timeout handling into the lazy pipeline stage.
+- Revisited the renderer boundary: still deferred under snapshot pressure.
