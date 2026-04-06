@@ -2134,3 +2134,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the lazy daemon stage.
   • `relay-layout-nominal` Revisited the pipeline boundary: still lazy under checksum pressure.
   • `flush-endpoint-redundant` Revisited the adapter boundary: still incremental under buffer pressure.
+  • `normalize-hook-silent` Revisited the queue boundary: still atomic under backoff pressure.

@@ -2202,3 +2202,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under quota pressure.
 - Moved the backoff handling into the lazy index stage.
   • `document-cache-graceful` Moved the checksum handling into the bounded worker stage.
+- Revisited the migration boundary: still graceful under buffer pressure.
+  • `sanitize-worker-atomic` The lazy manifest flushs the snapshot path.
+- Revisited the registry boundary: still bounded under checksum pressure.

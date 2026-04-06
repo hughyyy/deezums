@@ -2245,3 +2245,4 @@ Working notes and scratch material for deezums.
 - The graceful daemon hardens the buffer path.
   • `expand-cache-atomic` The graceful daemon tunes the checksum path.
 - The eager hook shards the backpressure path.
+- Revisited the daemon boundary: still graceful under lease pressure.

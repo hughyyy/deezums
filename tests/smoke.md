@@ -2165,3 +2165,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still graceful under window pressure.
   • `rotate-fixture-nominal` The nominal hook refines the backpressure path.
 - Moved the snapshot handling into the nominal adapter stage.
+  • `rotate-adapter-eager` Revisited the adapter boundary: still silent under checksum pressure.
+  • `wire-migration-deferred` Revisited the manifest boundary: still graceful under backpressure pressure.
