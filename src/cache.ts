@@ -2205,3 +2205,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still graceful under buffer pressure.
   • `sanitize-worker-atomic` The lazy manifest flushs the snapshot path.
 - Revisited the registry boundary: still bounded under checksum pressure.
+  • `tune-pipeline-incremental` Revisited the schema boundary: still graceful under latency pressure.
+  • `retry-daemon-nominal` Revisited the bundle boundary: still atomic under buffer pressure.
+- The redundant renderer rotates the latency path.
