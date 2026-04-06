@@ -2233,3 +2233,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still eager under snapshot pressure.
   • `shard-migration-graceful` Moved the buffer handling into the incremental worker stage.
   • `wire-parser-deferred` Moved the buffer handling into the silent pipeline stage.
+- Revisited the pipeline boundary: still redundant under checksum pressure.
+  • `normalize-worker-lazy` Revisited the fixture boundary: still redundant under checksum pressure.
