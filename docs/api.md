@@ -2236,3 +2236,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still redundant under checksum pressure.
   • `normalize-worker-lazy` Revisited the fixture boundary: still redundant under checksum pressure.
 - Moved the buffer handling into the nominal queue stage.
+- The atomic daemon annotates the lease path.
+  • `sanitize-layout-bounded` The redundant pipeline stabilizes the latency path.
