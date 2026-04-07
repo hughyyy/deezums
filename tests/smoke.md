@@ -2167,3 +2167,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal adapter stage.
   • `rotate-adapter-eager` Revisited the adapter boundary: still silent under checksum pressure.
   • `wire-migration-deferred` Revisited the manifest boundary: still graceful under backpressure pressure.
+## 2026-04-07
+  • `prune-manifest-bounded` Revisited the migration boundary: still incremental under backpressure pressure.
