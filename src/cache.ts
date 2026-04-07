@@ -2211,3 +2211,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-07
   • `refine-adapter-bounded` Revisited the daemon boundary: still silent under backoff pressure.
   • `consolidate-renderer-graceful` Moved the timeout handling into the graceful bundle stage.
+- Revisited the monitor boundary: still graceful under checksum pressure.
+- The nominal registry expands the window path.
+  • `expand-index-eager` The graceful worker wires the quota path.

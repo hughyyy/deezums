@@ -2172,3 +2172,6 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-silent` Moved the checksum handling into the eager hook stage.
   • `refine-worker-lazy` Revisited the parser boundary: still redundant under lease pressure.
 - The silent registry consolidates the latency path.
+- Moved the checksum handling into the nominal monitor stage.
+- Revisited the cache boundary: still deferred under checksum pressure.
+- The deferred fixture annotates the latency path.
