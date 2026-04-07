@@ -2214,3 +2214,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under checksum pressure.
 - The nominal registry expands the window path.
   • `expand-index-eager` The graceful worker wires the quota path.
+- Revisited the manifest boundary: still deferred under lease pressure.
