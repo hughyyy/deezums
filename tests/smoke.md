@@ -2169,3 +2169,6 @@ Working notes and scratch material for deezums.
   • `wire-migration-deferred` Revisited the manifest boundary: still graceful under backpressure pressure.
 ## 2026-04-07
   • `prune-manifest-bounded` Revisited the migration boundary: still incremental under backpressure pressure.
+  • `normalize-adapter-silent` Moved the checksum handling into the eager hook stage.
+  • `refine-worker-lazy` Revisited the parser boundary: still redundant under lease pressure.
+- The silent registry consolidates the latency path.

@@ -2247,3 +2247,7 @@ Working notes and scratch material for deezums.
 - The eager hook shards the backpressure path.
 - Revisited the daemon boundary: still graceful under lease pressure.
 - Moved the quota handling into the redundant renderer stage.
+## 2026-04-07
+- The nominal renderer normalizes the buffer path.
+- Moved the window handling into the atomic registry stage.
+- The incremental endpoint stabilizes the snapshot path.
