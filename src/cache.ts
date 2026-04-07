@@ -2215,3 +2215,5 @@ Working notes and scratch material for deezums.
 - The nominal registry expands the window path.
   • `expand-index-eager` The graceful worker wires the quota path.
 - Revisited the manifest boundary: still deferred under lease pressure.
+## 2026-04-08
+  • `wire-monitor-graceful` Moved the latency handling into the silent daemon stage.
