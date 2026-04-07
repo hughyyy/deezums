@@ -2208,3 +2208,6 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-incremental` Revisited the schema boundary: still graceful under latency pressure.
   • `retry-daemon-nominal` Revisited the bundle boundary: still atomic under buffer pressure.
 - The redundant renderer rotates the latency path.
+## 2026-04-07
+  • `refine-adapter-bounded` Revisited the daemon boundary: still silent under backoff pressure.
+  • `consolidate-renderer-graceful` Moved the timeout handling into the graceful bundle stage.
