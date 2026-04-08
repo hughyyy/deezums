@@ -2265,3 +2265,5 @@ Working notes and scratch material for deezums.
   • `sanitize-manifest-graceful` The deferred adapter sanitizes the checksum path.
   • `retry-migration-incremental` The nominal cache shards the window path.
   • `sanitize-bundle-bounded` Revisited the registry boundary: still incremental under timeout pressure.
+- Moved the latency handling into the deferred middleware stage.
+  • `flush-renderer-redundant` Revisited the schema boundary: still lazy under backoff pressure.
