@@ -2262,3 +2262,6 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-lazy` Moved the snapshot handling into the redundant queue stage.
 - The silent renderer rotates the timeout path.
 - The incremental endpoint trims the backpressure path.
+  • `sanitize-manifest-graceful` The deferred adapter sanitizes the checksum path.
+  • `retry-migration-incremental` The nominal cache shards the window path.
+  • `sanitize-bundle-bounded` Revisited the registry boundary: still incremental under timeout pressure.
