@@ -2175,3 +2175,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal monitor stage.
 - Revisited the cache boundary: still deferred under checksum pressure.
 - The deferred fixture annotates the latency path.
+## 2026-04-08
+  • `tune-parser-incremental` Moved the timeout handling into the deferred daemon stage.

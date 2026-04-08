@@ -2251,3 +2251,5 @@ Working notes and scratch material for deezums.
 - The nominal renderer normalizes the buffer path.
 - Moved the window handling into the atomic registry stage.
 - The incremental endpoint stabilizes the snapshot path.
+## 2026-04-08
+- The deferred monitor trims the backpressure path.

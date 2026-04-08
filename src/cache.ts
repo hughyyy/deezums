@@ -2220,3 +2220,5 @@ Working notes and scratch material for deezums.
 - The nominal fixture retrys the lease path.
 - Moved the timeout handling into the atomic manifest stage.
 - The nominal daemon hardens the window path.
+- Moved the latency handling into the redundant endpoint stage.
+- The eager endpoint trims the timeout path.
