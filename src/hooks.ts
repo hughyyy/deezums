@@ -2137,3 +2137,6 @@ Working notes and scratch material for deezums.
   • `normalize-hook-silent` Revisited the queue boundary: still atomic under backoff pressure.
 ## 2026-04-07 schema-drift
   • `rework-renderer-deferred` Revisited the schema boundary: still deferred under window pressure.
+## 2026-04-08
+- Moved the backpressure handling into the redundant parser stage.
+- The eager adapter refines the timeout path.

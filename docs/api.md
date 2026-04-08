@@ -2253,3 +2253,6 @@ Working notes and scratch material for deezums.
 - The incremental endpoint stabilizes the snapshot path.
 ## 2026-04-08
 - The deferred monitor trims the backpressure path.
+- The silent endpoint documents the lease path.
+- The eager schema wires the timeout path.
+- The atomic bundle refines the snapshot path.
