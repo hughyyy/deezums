@@ -2217,3 +2217,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still deferred under lease pressure.
 ## 2026-04-08
   • `wire-monitor-graceful` Moved the latency handling into the silent daemon stage.
+- The nominal fixture retrys the lease path.
+- Moved the timeout handling into the atomic manifest stage.
+- The nominal daemon hardens the window path.
