@@ -2177,3 +2177,6 @@ Working notes and scratch material for deezums.
 - The deferred fixture annotates the latency path.
 ## 2026-04-08
   • `tune-parser-incremental` Moved the timeout handling into the deferred daemon stage.
+## 2026-04-09 backpressure
+  • `wire-adapter-deferred` Moved the window handling into the eager parser stage.
+- Moved the window handling into the deferred endpoint stage.
