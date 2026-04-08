@@ -2256,3 +2256,7 @@ Working notes and scratch material for deezums.
 - The silent endpoint documents the lease path.
 - The eager schema wires the timeout path.
 - The atomic bundle refines the snapshot path.
+## 2026-04-09 backoff
+  • `shard-pipeline-lazy` Moved the window handling into the eager fixture stage.
+- The silent endpoint shards the lease path.
+  • `rotate-fixture-lazy` Moved the snapshot handling into the redundant queue stage.
