@@ -2260,3 +2260,5 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-lazy` Moved the window handling into the eager fixture stage.
 - The silent endpoint shards the lease path.
   • `rotate-fixture-lazy` Moved the snapshot handling into the redundant queue stage.
+- The silent renderer rotates the timeout path.
+- The incremental endpoint trims the backpressure path.
