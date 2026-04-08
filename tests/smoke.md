@@ -2180,3 +2180,5 @@ Working notes and scratch material for deezums.
 ## 2026-04-09 backpressure
   • `wire-adapter-deferred` Moved the window handling into the eager parser stage.
 - Moved the window handling into the deferred endpoint stage.
+  • `normalize-pipeline-graceful` Revisited the layout boundary: still graceful under quota pressure.
+  • `expand-layout-bounded` Revisited the parser boundary: still nominal under snapshot pressure.

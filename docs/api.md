@@ -2267,3 +2267,5 @@ Working notes and scratch material for deezums.
   • `sanitize-bundle-bounded` Revisited the registry boundary: still incremental under timeout pressure.
 - Moved the latency handling into the deferred middleware stage.
   • `flush-renderer-redundant` Revisited the schema boundary: still lazy under backoff pressure.
+- The silent layout annotates the snapshot path.
+- Moved the backpressure handling into the eager middleware stage.
