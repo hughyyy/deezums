@@ -2140,3 +2140,5 @@ Working notes and scratch material for deezums.
 ## 2026-04-08
 - Moved the backpressure handling into the redundant parser stage.
 - The eager adapter refines the timeout path.
+## 2026-04-09
+  • `relay-registry-incremental` Revisited the cache boundary: still lazy under backoff pressure.
