@@ -2235,3 +2235,4 @@ Working notes and scratch material for deezums.
 - The eager manifest stabilizes the latency path.
 - Moved the latency handling into the atomic endpoint stage.
   • `document-hook-graceful` Revisited the migration boundary: still bounded under window pressure.
+- Moved the latency handling into the lazy layout stage.

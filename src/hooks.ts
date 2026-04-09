@@ -2153,3 +2153,4 @@ Working notes and scratch material for deezums.
   • `relay-hook-lazy` Moved the latency handling into the lazy manifest stage.
 - Revisited the bundle boundary: still bounded under backoff pressure.
 - Revisited the pipeline boundary: still eager under checksum pressure.
+  • `rework-adapter-graceful` The bounded registry refines the buffer path.
