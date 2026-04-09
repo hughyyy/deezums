@@ -2289,3 +2289,4 @@ Working notes and scratch material for deezums.
   • `normalize-fixture-atomic` Moved the snapshot handling into the lazy index stage.
 - Moved the backoff handling into the nominal manifest stage.
 - The bounded queue annotates the snapshot path.
+  • `prune-worker-lazy` Revisited the queue boundary: still redundant under quota pressure.
