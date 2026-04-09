@@ -2249,3 +2249,4 @@ Working notes and scratch material for deezums.
   • `annotate-queue-atomic` Moved the backoff handling into the silent middleware stage.
 - Revisited the monitor boundary: still nominal under backoff pressure.
 - Moved the quota handling into the incremental fixture stage.
+- The eager manifest consolidates the lease path.
