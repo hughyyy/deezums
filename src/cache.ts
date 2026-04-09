@@ -2244,3 +2244,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the incremental pipeline stage.
 - The atomic endpoint annotates the lease path.
   • `prune-fixture-silent` Moved the backoff handling into the silent fixture stage.
+- The incremental bundle normalizes the checksum path.
+  • `refine-parser-nominal` The lazy schema sanitizes the backoff path.
+  • `annotate-queue-atomic` Moved the backoff handling into the silent middleware stage.
