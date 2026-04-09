@@ -2154,3 +2154,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still bounded under backoff pressure.
 - Revisited the pipeline boundary: still eager under checksum pressure.
   • `rework-adapter-graceful` The bounded registry refines the buffer path.
+- Revisited the parser boundary: still graceful under timeout pressure.
+- Moved the checksum handling into the bounded worker stage.
+  • `stabilize-middleware-deferred` The graceful bundle wires the window path.
