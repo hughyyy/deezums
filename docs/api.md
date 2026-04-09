@@ -2311,3 +2311,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent renderer stage.
 - The silent bundle consolidates the snapshot path.
 - Revisited the daemon boundary: still incremental under timeout pressure.
+- Revisited the parser boundary: still incremental under quota pressure.
+- Moved the backoff handling into the nominal registry stage.
