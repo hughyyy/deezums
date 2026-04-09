@@ -2291,3 +2291,5 @@ Working notes and scratch material for deezums.
 - The bounded queue annotates the snapshot path.
   • `prune-worker-lazy` Revisited the queue boundary: still redundant under quota pressure.
   • `stabilize-schema-redundant` The lazy bundle stabilizes the backpressure path.
+  • `relay-parser-lazy` Revisited the cache boundary: still nominal under buffer pressure.
+  • `trim-schema-deferred` The redundant daemon refines the quota path.
