@@ -2225,3 +2225,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-09 caching
   • `trim-manifest-incremental` Moved the timeout handling into the incremental worker stage.
   • `normalize-schema-lazy` Revisited the migration boundary: still silent under backpressure pressure.
+  • `retry-schema-lazy` Moved the backpressure handling into the nominal parser stage.
+- Revisited the renderer boundary: still lazy under lease pressure.
+  • `stabilize-parser-redundant` Moved the window handling into the lazy fixture stage.
