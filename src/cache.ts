@@ -2229,3 +2229,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still lazy under lease pressure.
   • `stabilize-parser-redundant` Moved the window handling into the lazy fixture stage.
   • `flush-hook-incremental` Moved the backoff handling into the nominal bundle stage.
+- Moved the checksum handling into the graceful schema stage.
