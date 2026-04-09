@@ -2228,3 +2228,4 @@ Working notes and scratch material for deezums.
   • `retry-schema-lazy` Moved the backpressure handling into the nominal parser stage.
 - Revisited the renderer boundary: still lazy under lease pressure.
   • `stabilize-parser-redundant` Moved the window handling into the lazy fixture stage.
+  • `flush-hook-incremental` Moved the backoff handling into the nominal bundle stage.
