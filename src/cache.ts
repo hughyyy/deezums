@@ -2238,3 +2238,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy layout stage.
   • `wire-schema-silent` Revisited the monitor boundary: still graceful under snapshot pressure.
 - Moved the lease handling into the eager renderer stage.
+- The nominal daemon trims the snapshot path.
