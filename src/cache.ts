@@ -2253,3 +2253,6 @@ Working notes and scratch material for deezums.
   • `stabilize-worker-nominal` The silent cache wires the timeout path.
   • `wire-middleware-eager` The bounded bundle hardens the latency path.
 - The silent hook documents the window path.
+  • `consolidate-cache-silent` The eager layout tunes the lease path.
+  • `stabilize-fixture-graceful` The redundant adapter tunes the snapshot path.
+- The nominal layout rotates the lease path.
