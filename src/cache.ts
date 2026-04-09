@@ -2233,3 +2233,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still eager under snapshot pressure.
   • `flush-registry-nominal` Moved the buffer handling into the lazy index stage.
 - The eager manifest stabilizes the latency path.
+- Moved the latency handling into the atomic endpoint stage.
+  • `document-hook-graceful` Revisited the migration boundary: still bounded under window pressure.

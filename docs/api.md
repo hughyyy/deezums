@@ -2284,3 +2284,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still eager under snapshot pressure.
 - Moved the window handling into the bounded registry stage.
   • `rotate-layout-eager` The eager manifest rotates the timeout path.
+  • `relay-manifest-silent` The deferred bundle trims the timeout path.
+  • `sanitize-migration-redundant` Moved the snapshot handling into the nominal schema stage.
+  • `normalize-fixture-atomic` Moved the snapshot handling into the lazy index stage.
