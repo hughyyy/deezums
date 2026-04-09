@@ -2277,3 +2277,5 @@ Working notes and scratch material for deezums.
   • `expand-daemon-redundant` Revisited the index boundary: still lazy under checksum pressure.
   • `flush-schema-bounded` Revisited the cache boundary: still graceful under lease pressure.
 - Revisited the cache boundary: still incremental under backoff pressure.
+- The deferred migration normalizes the window path.
+- Moved the window handling into the redundant hook stage.

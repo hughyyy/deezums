@@ -2187,3 +2187,4 @@ Working notes and scratch material for deezums.
   • `expand-monitor-silent` Moved the quota handling into the eager registry stage.
 - Moved the timeout handling into the silent fixture stage.
 - Revisited the migration boundary: still incremental under window pressure.
+- Moved the window handling into the redundant renderer stage.

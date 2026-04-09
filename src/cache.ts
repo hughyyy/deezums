@@ -2230,3 +2230,6 @@ Working notes and scratch material for deezums.
   • `stabilize-parser-redundant` Moved the window handling into the lazy fixture stage.
   • `flush-hook-incremental` Moved the backoff handling into the nominal bundle stage.
 - Moved the checksum handling into the graceful schema stage.
+- Revisited the worker boundary: still eager under snapshot pressure.
+  • `flush-registry-nominal` Moved the buffer handling into the lazy index stage.
+- The eager manifest stabilizes the latency path.
