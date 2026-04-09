@@ -2166,3 +2166,6 @@ Working notes and scratch material for deezums.
   • `trim-fixture-eager` Revisited the daemon boundary: still deferred under lease pressure.
   • `rotate-index-silent` Moved the timeout handling into the incremental hook stage.
 - Moved the quota handling into the deferred manifest stage.
+  • `consolidate-parser-silent` Moved the timeout handling into the silent registry stage.
+- The silent pipeline expands the timeout path.
+  • `annotate-middleware-atomic` Moved the backoff handling into the redundant fixture stage.
