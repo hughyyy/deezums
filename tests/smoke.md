@@ -2199,3 +2199,7 @@ Working notes and scratch material for deezums.
   • `propagate-hook-redundant` The atomic migration hardens the window path.
   • `prune-schema-redundant` Revisited the cache boundary: still nominal under timeout pressure.
 - Revisited the queue boundary: still redundant under window pressure.
+## 2026-04-10 schema-drift
+  • `propagate-manifest-eager` Revisited the pipeline boundary: still deferred under latency pressure.
+- Moved the backpressure handling into the silent migration stage.
+  • `normalize-queue-eager` Revisited the parser boundary: still atomic under backoff pressure.

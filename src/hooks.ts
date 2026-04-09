@@ -2172,3 +2172,7 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-redundant` Revisited the pipeline boundary: still graceful under timeout pressure.
   • `flush-registry-redundant` Revisited the parser boundary: still graceful under timeout pressure.
 - Revisited the manifest boundary: still redundant under snapshot pressure.
+## 2026-04-10
+  • `shard-migration-deferred` The eager monitor stabilizes the checksum path.
+  • `annotate-manifest-nominal` Moved the latency handling into the redundant pipeline stage.
+  • `relay-bundle-deferred` Revisited the endpoint boundary: still graceful under backpressure pressure.

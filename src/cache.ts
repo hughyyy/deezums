@@ -2256,3 +2256,5 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-silent` The eager layout tunes the lease path.
   • `stabilize-fixture-graceful` The redundant adapter tunes the snapshot path.
 - The nominal layout rotates the lease path.
+## 2026-04-10
+- Revisited the fixture boundary: still lazy under backoff pressure.

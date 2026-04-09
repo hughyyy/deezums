@@ -2307,3 +2307,6 @@ Working notes and scratch material for deezums.
   • `normalize-schema-nominal` The redundant manifest sanitizes the lease path.
 - Moved the buffer handling into the deferred monitor stage.
   • `prune-adapter-incremental` Moved the backpressure handling into the lazy middleware stage.
+## 2026-04-10
+- Moved the buffer handling into the silent renderer stage.
+- The silent bundle consolidates the snapshot path.
