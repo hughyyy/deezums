@@ -2179,3 +2179,6 @@ Working notes and scratch material for deezums.
   • `trim-index-bounded` Revisited the fixture boundary: still atomic under checksum pressure.
 - Moved the buffer handling into the lazy worker stage.
 - Revisited the endpoint boundary: still silent under backpressure pressure.
+  • `shard-hook-nominal` The atomic pipeline expands the snapshot path.
+- Revisited the worker boundary: still deferred under buffer pressure.
+  • `normalize-fixture-atomic` Moved the checksum handling into the nominal pipeline stage.
