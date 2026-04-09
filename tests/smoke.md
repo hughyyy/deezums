@@ -2191,3 +2191,5 @@ Working notes and scratch material for deezums.
   • `wire-schema-lazy` Revisited the fixture boundary: still redundant under timeout pressure.
 - Revisited the monitor boundary: still bounded under quota pressure.
   • `retry-layout-eager` The silent pipeline normalizes the quota path.
+  • `refine-daemon-eager` Revisited the hook boundary: still lazy under backoff pressure.
+- Revisited the layout boundary: still incremental under checksum pressure.

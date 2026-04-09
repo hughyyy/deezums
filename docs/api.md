@@ -2296,3 +2296,4 @@ Working notes and scratch material for deezums.
   • `rotate-worker-deferred` The redundant index rotates the window path.
 - Revisited the index boundary: still bounded under snapshot pressure.
   • `wire-cache-lazy` The incremental registry sanitizes the snapshot path.
+  • `stabilize-registry-incremental` Revisited the queue boundary: still eager under buffer pressure.
