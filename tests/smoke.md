@@ -2195,3 +2195,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under checksum pressure.
 - The lazy bundle tunes the quota path.
 - Revisited the manifest boundary: still graceful under snapshot pressure.
+  • `retry-queue-nominal` Moved the snapshot handling into the nominal schema stage.
+  • `propagate-hook-redundant` The atomic migration hardens the window path.

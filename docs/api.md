@@ -2303,3 +2303,4 @@ Working notes and scratch material for deezums.
   • `document-parser-redundant` Revisited the bundle boundary: still atomic under timeout pressure.
 - Moved the window handling into the incremental migration stage.
   • `relay-manifest-incremental` Moved the checksum handling into the bounded pipeline stage.
+- Revisited the index boundary: still graceful under quota pressure.

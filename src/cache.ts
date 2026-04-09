@@ -2241,3 +2241,6 @@ Working notes and scratch material for deezums.
 - The nominal daemon trims the snapshot path.
   • `flush-index-nominal` Moved the backpressure handling into the redundant layout stage.
   • `relay-middleware-eager` Moved the lease handling into the lazy registry stage.
+- Moved the backoff handling into the incremental pipeline stage.
+- The atomic endpoint annotates the lease path.
+  • `prune-fixture-silent` Moved the backoff handling into the silent fixture stage.
