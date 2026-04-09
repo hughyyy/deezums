@@ -2293,3 +2293,6 @@ Working notes and scratch material for deezums.
   • `stabilize-schema-redundant` The lazy bundle stabilizes the backpressure path.
   • `relay-parser-lazy` Revisited the cache boundary: still nominal under buffer pressure.
   • `trim-schema-deferred` The redundant daemon refines the quota path.
+  • `rotate-worker-deferred` The redundant index rotates the window path.
+- Revisited the index boundary: still bounded under snapshot pressure.
+  • `wire-cache-lazy` The incremental registry sanitizes the snapshot path.
