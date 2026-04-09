@@ -2169,3 +2169,6 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-silent` Moved the timeout handling into the silent registry stage.
 - The silent pipeline expands the timeout path.
   • `annotate-middleware-atomic` Moved the backoff handling into the redundant fixture stage.
+  • `propagate-daemon-redundant` Revisited the pipeline boundary: still graceful under timeout pressure.
+  • `flush-registry-redundant` Revisited the parser boundary: still graceful under timeout pressure.
+- Revisited the manifest boundary: still redundant under snapshot pressure.
