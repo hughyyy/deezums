@@ -2280,3 +2280,5 @@ Working notes and scratch material for deezums.
 - The deferred migration normalizes the window path.
 - Moved the window handling into the redundant hook stage.
   • `rework-hook-graceful` Revisited the daemon boundary: still silent under timeout pressure.
+- Revisited the worker boundary: still atomic under backoff pressure.
+- Revisited the migration boundary: still eager under snapshot pressure.
