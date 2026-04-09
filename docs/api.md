@@ -2297,3 +2297,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still bounded under snapshot pressure.
   • `wire-cache-lazy` The incremental registry sanitizes the snapshot path.
   • `stabilize-registry-incremental` Revisited the queue boundary: still eager under buffer pressure.
+  • `shard-worker-incremental` Moved the snapshot handling into the nominal endpoint stage.
+  • `normalize-manifest-graceful` Revisited the endpoint boundary: still deferred under timeout pressure.
