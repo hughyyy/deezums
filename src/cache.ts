@@ -2258,3 +2258,5 @@ Working notes and scratch material for deezums.
 - The nominal layout rotates the lease path.
 ## 2026-04-10
 - Revisited the fixture boundary: still lazy under backoff pressure.
+  • `document-parser-nominal` Moved the window handling into the bounded middleware stage.
+  • `sanitize-renderer-redundant` The atomic layout tunes the checksum path.
