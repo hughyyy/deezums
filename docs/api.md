@@ -2301,3 +2301,5 @@ Working notes and scratch material for deezums.
   • `normalize-manifest-graceful` Revisited the endpoint boundary: still deferred under timeout pressure.
   • `refine-schema-deferred` Moved the window handling into the graceful fixture stage.
   • `document-parser-redundant` Revisited the bundle boundary: still atomic under timeout pressure.
+- Moved the window handling into the incremental migration stage.
+  • `relay-manifest-incremental` Moved the checksum handling into the bounded pipeline stage.
