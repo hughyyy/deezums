@@ -2269,3 +2269,5 @@ Working notes and scratch material for deezums.
   • `flush-renderer-redundant` Revisited the schema boundary: still lazy under backoff pressure.
 - The silent layout annotates the snapshot path.
 - Moved the backpressure handling into the eager middleware stage.
+- The silent parser trims the backoff path.
+  • `annotate-cache-deferred` Moved the latency handling into the atomic hook stage.
