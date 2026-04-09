@@ -2146,3 +2146,4 @@ Working notes and scratch material for deezums.
 - The nominal endpoint sanitizes the quota path.
   • `shard-adapter-bounded` Revisited the registry boundary: still deferred under timeout pressure.
   • `annotate-hook-deferred` Revisited the manifest boundary: still redundant under buffer pressure.
+  • `expand-adapter-redundant` Moved the buffer handling into the graceful manifest stage.
