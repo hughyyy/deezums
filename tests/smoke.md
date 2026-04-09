@@ -2197,3 +2197,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still graceful under snapshot pressure.
   • `retry-queue-nominal` Moved the snapshot handling into the nominal schema stage.
   • `propagate-hook-redundant` The atomic migration hardens the window path.
+  • `prune-schema-redundant` Revisited the cache boundary: still nominal under timeout pressure.
