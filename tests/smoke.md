@@ -2203,3 +2203,5 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-eager` Revisited the pipeline boundary: still deferred under latency pressure.
 - Moved the backpressure handling into the silent migration stage.
   • `normalize-queue-eager` Revisited the parser boundary: still atomic under backoff pressure.
+- Moved the buffer handling into the eager hook stage.
+- Revisited the manifest boundary: still bounded under latency pressure.
