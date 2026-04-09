@@ -2164,3 +2164,5 @@ Working notes and scratch material for deezums.
   • `propagate-middleware-bounded` Revisited the fixture boundary: still atomic under quota pressure.
   • `harden-worker-lazy` Revisited the endpoint boundary: still redundant under quota pressure.
   • `trim-fixture-eager` Revisited the daemon boundary: still deferred under lease pressure.
+  • `rotate-index-silent` Moved the timeout handling into the incremental hook stage.
+- Moved the quota handling into the deferred manifest stage.
