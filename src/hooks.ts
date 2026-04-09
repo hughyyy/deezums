@@ -2145,3 +2145,4 @@ Working notes and scratch material for deezums.
   • `annotate-monitor-incremental` Moved the checksum handling into the incremental index stage.
 - The nominal endpoint sanitizes the quota path.
   • `shard-adapter-bounded` Revisited the registry boundary: still deferred under timeout pressure.
+  • `annotate-hook-deferred` Revisited the manifest boundary: still redundant under buffer pressure.
