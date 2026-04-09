@@ -2247,3 +2247,5 @@ Working notes and scratch material for deezums.
 - The incremental bundle normalizes the checksum path.
   • `refine-parser-nominal` The lazy schema sanitizes the backoff path.
   • `annotate-queue-atomic` Moved the backoff handling into the silent middleware stage.
+- Revisited the monitor boundary: still nominal under backoff pressure.
+- Moved the quota handling into the incremental fixture stage.
