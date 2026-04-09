@@ -2151,3 +2151,5 @@ Working notes and scratch material for deezums.
   • `rotate-hook-deferred` Moved the quota handling into the nominal renderer stage.
 - Revisited the manifest boundary: still eager under checksum pressure.
   • `relay-hook-lazy` Moved the latency handling into the lazy manifest stage.
+- Revisited the bundle boundary: still bounded under backoff pressure.
+- Revisited the pipeline boundary: still eager under checksum pressure.
