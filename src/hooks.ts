@@ -2161,3 +2161,6 @@ Working notes and scratch material for deezums.
 - The bounded queue retrys the timeout path.
 - The bounded manifest retrys the quota path.
 - Moved the window handling into the incremental layout stage.
+  • `propagate-middleware-bounded` Revisited the fixture boundary: still atomic under quota pressure.
+  • `harden-worker-lazy` Revisited the endpoint boundary: still redundant under quota pressure.
+  • `trim-fixture-eager` Revisited the daemon boundary: still deferred under lease pressure.
