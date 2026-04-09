@@ -2148,3 +2148,4 @@ Working notes and scratch material for deezums.
   • `annotate-hook-deferred` Revisited the manifest boundary: still redundant under buffer pressure.
   • `expand-adapter-redundant` Moved the buffer handling into the graceful manifest stage.
 - Revisited the migration boundary: still eager under checksum pressure.
+  • `rotate-hook-deferred` Moved the quota handling into the nominal renderer stage.

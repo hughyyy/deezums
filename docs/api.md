@@ -2279,3 +2279,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still incremental under backoff pressure.
 - The deferred migration normalizes the window path.
 - Moved the window handling into the redundant hook stage.
+  • `rework-hook-graceful` Revisited the daemon boundary: still silent under timeout pressure.
