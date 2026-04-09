@@ -2274,3 +2274,6 @@ Working notes and scratch material for deezums.
   • `tune-hook-silent` Revisited the fixture boundary: still redundant under latency pressure.
   • `shard-bundle-incremental` Revisited the layout boundary: still deferred under lease pressure.
   • `sanitize-pipeline-incremental` Moved the checksum handling into the nominal registry stage.
+  • `expand-daemon-redundant` Revisited the index boundary: still lazy under checksum pressure.
+  • `flush-schema-bounded` Revisited the cache boundary: still graceful under lease pressure.
+- Revisited the cache boundary: still incremental under backoff pressure.
