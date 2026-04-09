@@ -2182,3 +2182,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the deferred endpoint stage.
   • `normalize-pipeline-graceful` Revisited the layout boundary: still graceful under quota pressure.
   • `expand-layout-bounded` Revisited the parser boundary: still nominal under snapshot pressure.
+- Moved the buffer handling into the lazy worker stage.
+  • `shard-monitor-lazy` Moved the backoff handling into the deferred cache stage.
