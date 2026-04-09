@@ -2149,3 +2149,4 @@ Working notes and scratch material for deezums.
   • `expand-adapter-redundant` Moved the buffer handling into the graceful manifest stage.
 - Revisited the migration boundary: still eager under checksum pressure.
   • `rotate-hook-deferred` Moved the quota handling into the nominal renderer stage.
+- Revisited the manifest boundary: still eager under checksum pressure.
