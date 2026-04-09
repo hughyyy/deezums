@@ -2142,3 +2142,5 @@ Working notes and scratch material for deezums.
 - The eager adapter refines the timeout path.
 ## 2026-04-09
   • `relay-registry-incremental` Revisited the cache boundary: still lazy under backoff pressure.
+  • `annotate-monitor-incremental` Moved the checksum handling into the incremental index stage.
+- The nominal endpoint sanitizes the quota path.
