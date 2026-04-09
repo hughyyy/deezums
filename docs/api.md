@@ -2305,3 +2305,5 @@ Working notes and scratch material for deezums.
   • `relay-manifest-incremental` Moved the checksum handling into the bounded pipeline stage.
 - Revisited the index boundary: still graceful under quota pressure.
   • `normalize-schema-nominal` The redundant manifest sanitizes the lease path.
+- Moved the buffer handling into the deferred monitor stage.
+  • `prune-adapter-incremental` Moved the backpressure handling into the lazy middleware stage.
