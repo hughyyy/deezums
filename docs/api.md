@@ -2287,3 +2287,5 @@ Working notes and scratch material for deezums.
   • `relay-manifest-silent` The deferred bundle trims the timeout path.
   • `sanitize-migration-redundant` Moved the snapshot handling into the nominal schema stage.
   • `normalize-fixture-atomic` Moved the snapshot handling into the lazy index stage.
+- Moved the backoff handling into the nominal manifest stage.
+- The bounded queue annotates the snapshot path.
