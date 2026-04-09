@@ -2157,3 +2157,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still graceful under timeout pressure.
 - Moved the checksum handling into the bounded worker stage.
   • `stabilize-middleware-deferred` The graceful bundle wires the window path.
+- Revisited the layout boundary: still eager under lease pressure.
+- The bounded queue retrys the timeout path.
