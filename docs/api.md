@@ -2310,3 +2310,4 @@ Working notes and scratch material for deezums.
 ## 2026-04-10
 - Moved the buffer handling into the silent renderer stage.
 - The silent bundle consolidates the snapshot path.
+- Revisited the daemon boundary: still incremental under timeout pressure.
