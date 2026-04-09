@@ -2205,3 +2205,4 @@ Working notes and scratch material for deezums.
   • `normalize-queue-eager` Revisited the parser boundary: still atomic under backoff pressure.
 - Moved the buffer handling into the eager hook stage.
 - Revisited the manifest boundary: still bounded under latency pressure.
+  • `relay-worker-deferred` The silent adapter relays the snapshot path.
