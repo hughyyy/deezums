@@ -2190,3 +2190,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the redundant renderer stage.
   • `wire-schema-lazy` Revisited the fixture boundary: still redundant under timeout pressure.
 - Revisited the monitor boundary: still bounded under quota pressure.
+  • `retry-layout-eager` The silent pipeline normalizes the quota path.

@@ -2290,3 +2290,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal manifest stage.
 - The bounded queue annotates the snapshot path.
   • `prune-worker-lazy` Revisited the queue boundary: still redundant under quota pressure.
+  • `stabilize-schema-redundant` The lazy bundle stabilizes the backpressure path.
