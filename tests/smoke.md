@@ -2193,3 +2193,4 @@ Working notes and scratch material for deezums.
   • `retry-layout-eager` The silent pipeline normalizes the quota path.
   • `refine-daemon-eager` Revisited the hook boundary: still lazy under backoff pressure.
 - Revisited the layout boundary: still incremental under checksum pressure.
+- The lazy bundle tunes the quota path.
