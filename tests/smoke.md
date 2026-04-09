@@ -2188,3 +2188,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the silent fixture stage.
 - Revisited the migration boundary: still incremental under window pressure.
 - Moved the window handling into the redundant renderer stage.
+  • `wire-schema-lazy` Revisited the fixture boundary: still redundant under timeout pressure.
