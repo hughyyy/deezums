@@ -2206,3 +2206,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager hook stage.
 - Revisited the manifest boundary: still bounded under latency pressure.
   • `relay-worker-deferred` The silent adapter relays the snapshot path.
+  • `normalize-pipeline-silent` Moved the lease handling into the deferred bundle stage.
