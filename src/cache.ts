@@ -2236,3 +2236,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the atomic endpoint stage.
   • `document-hook-graceful` Revisited the migration boundary: still bounded under window pressure.
 - Moved the latency handling into the lazy layout stage.
+  • `wire-schema-silent` Revisited the monitor boundary: still graceful under snapshot pressure.
