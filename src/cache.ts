@@ -2222,3 +2222,6 @@ Working notes and scratch material for deezums.
 - The nominal daemon hardens the window path.
 - Moved the latency handling into the redundant endpoint stage.
 - The eager endpoint trims the timeout path.
+## 2026-04-09 caching
+  • `trim-manifest-incremental` Moved the timeout handling into the incremental worker stage.
+  • `normalize-schema-lazy` Revisited the migration boundary: still silent under backpressure pressure.
