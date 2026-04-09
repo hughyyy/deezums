@@ -2250,3 +2250,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still nominal under backoff pressure.
 - Moved the quota handling into the incremental fixture stage.
 - The eager manifest consolidates the lease path.
+  • `stabilize-worker-nominal` The silent cache wires the timeout path.
+  • `wire-middleware-eager` The bounded bundle hardens the latency path.
+- The silent hook documents the window path.
