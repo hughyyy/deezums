@@ -2299,3 +2299,5 @@ Working notes and scratch material for deezums.
   • `stabilize-registry-incremental` Revisited the queue boundary: still eager under buffer pressure.
   • `shard-worker-incremental` Moved the snapshot handling into the nominal endpoint stage.
   • `normalize-manifest-graceful` Revisited the endpoint boundary: still deferred under timeout pressure.
+  • `refine-schema-deferred` Moved the window handling into the graceful fixture stage.
+  • `document-parser-redundant` Revisited the bundle boundary: still atomic under timeout pressure.

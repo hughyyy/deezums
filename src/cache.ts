@@ -2239,3 +2239,5 @@ Working notes and scratch material for deezums.
   • `wire-schema-silent` Revisited the monitor boundary: still graceful under snapshot pressure.
 - Moved the lease handling into the eager renderer stage.
 - The nominal daemon trims the snapshot path.
+  • `flush-index-nominal` Moved the backpressure handling into the redundant layout stage.
+  • `relay-middleware-eager` Moved the lease handling into the lazy registry stage.

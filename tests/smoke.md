@@ -2194,3 +2194,4 @@ Working notes and scratch material for deezums.
   • `refine-daemon-eager` Revisited the hook boundary: still lazy under backoff pressure.
 - Revisited the layout boundary: still incremental under checksum pressure.
 - The lazy bundle tunes the quota path.
+- Revisited the manifest boundary: still graceful under snapshot pressure.
