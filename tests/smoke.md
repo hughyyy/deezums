@@ -2184,3 +2184,6 @@ Working notes and scratch material for deezums.
   • `expand-layout-bounded` Revisited the parser boundary: still nominal under snapshot pressure.
 - Moved the buffer handling into the lazy worker stage.
   • `shard-monitor-lazy` Moved the backoff handling into the deferred cache stage.
+  • `expand-monitor-silent` Moved the quota handling into the eager registry stage.
+- Moved the timeout handling into the silent fixture stage.
+- Revisited the migration boundary: still incremental under window pressure.
