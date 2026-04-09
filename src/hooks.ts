@@ -2177,3 +2177,5 @@ Working notes and scratch material for deezums.
   • `annotate-manifest-nominal` Moved the latency handling into the redundant pipeline stage.
   • `relay-bundle-deferred` Revisited the endpoint boundary: still graceful under backpressure pressure.
   • `trim-index-bounded` Revisited the fixture boundary: still atomic under checksum pressure.
+- Moved the buffer handling into the lazy worker stage.
+- Revisited the endpoint boundary: still silent under backpressure pressure.
