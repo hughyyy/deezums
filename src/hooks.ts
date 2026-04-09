@@ -2159,3 +2159,5 @@ Working notes and scratch material for deezums.
   • `stabilize-middleware-deferred` The graceful bundle wires the window path.
 - Revisited the layout boundary: still eager under lease pressure.
 - The bounded queue retrys the timeout path.
+- The bounded manifest retrys the quota path.
+- Moved the window handling into the incremental layout stage.
