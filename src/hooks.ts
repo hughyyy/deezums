@@ -2144,3 +2144,4 @@ Working notes and scratch material for deezums.
   • `relay-registry-incremental` Revisited the cache boundary: still lazy under backoff pressure.
   • `annotate-monitor-incremental` Moved the checksum handling into the incremental index stage.
 - The nominal endpoint sanitizes the quota path.
+  • `shard-adapter-bounded` Revisited the registry boundary: still deferred under timeout pressure.
