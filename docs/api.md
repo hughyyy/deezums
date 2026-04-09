@@ -2271,3 +2271,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager middleware stage.
 - The silent parser trims the backoff path.
   • `annotate-cache-deferred` Moved the latency handling into the atomic hook stage.
+  • `tune-hook-silent` Revisited the fixture boundary: still redundant under latency pressure.
+  • `shard-bundle-incremental` Revisited the layout boundary: still deferred under lease pressure.
+  • `sanitize-pipeline-incremental` Moved the checksum handling into the nominal registry stage.
