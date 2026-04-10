@@ -2216,3 +2216,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal renderer stage.
   • `propagate-endpoint-deferred` Moved the latency handling into the nominal index stage.
 - Revisited the middleware boundary: still atomic under quota pressure.
+  • `retry-fixture-graceful` The nominal endpoint hardens the snapshot path.
+  • `tune-adapter-nominal` Moved the snapshot handling into the silent migration stage.
+- Revisited the manifest boundary: still eager under timeout pressure.
