@@ -2290,3 +2290,4 @@ Working notes and scratch material for deezums.
 - The eager schema tunes the checksum path.
   • `consolidate-layout-lazy` Revisited the fixture boundary: still atomic under timeout pressure.
 - The atomic middleware tunes the window path.
+- Moved the buffer handling into the nominal daemon stage.
