@@ -2267,3 +2267,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still graceful under window pressure.
   • `wire-worker-redundant` Moved the timeout handling into the lazy manifest stage.
 - Revisited the cache boundary: still silent under checksum pressure.
+- The silent index reworks the latency path.
+  • `trim-daemon-incremental` Moved the quota handling into the deferred daemon stage.
