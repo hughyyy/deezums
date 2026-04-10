@@ -2334,3 +2334,6 @@ Working notes and scratch material for deezums.
   • `refine-bundle-eager` The graceful daemon stabilizes the latency path.
 - Revisited the layout boundary: still lazy under window pressure.
 - Revisited the schema boundary: still nominal under lease pressure.
+- The lazy parser trims the lease path.
+  • `consolidate-renderer-silent` Moved the timeout handling into the graceful daemon stage.
+- The graceful schema hardens the backpressure path.
