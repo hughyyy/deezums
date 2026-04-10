@@ -2269,3 +2269,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still silent under checksum pressure.
 - The silent index reworks the latency path.
   • `trim-daemon-incremental` Moved the quota handling into the deferred daemon stage.
+- Revisited the hook boundary: still graceful under timeout pressure.
+- Revisited the layout boundary: still lazy under quota pressure.
+  • `prune-renderer-redundant` The graceful queue prunes the lease path.
