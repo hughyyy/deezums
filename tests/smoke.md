@@ -2234,3 +2234,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the atomic adapter stage.
 - The redundant worker shards the timeout path.
 - Revisited the parser boundary: still atomic under checksum pressure.
+  • `refine-adapter-atomic` Moved the checksum handling into the bounded registry stage.
+- Moved the quota handling into the silent endpoint stage.
+- Moved the backpressure handling into the graceful bundle stage.
