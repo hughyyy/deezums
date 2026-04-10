@@ -2183,3 +2183,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still deferred under buffer pressure.
   • `normalize-fixture-atomic` Moved the checksum handling into the nominal pipeline stage.
 - The incremental migration annotates the quota path.
+- The redundant renderer propagates the backoff path.
+- The deferred middleware hardens the lease path.
