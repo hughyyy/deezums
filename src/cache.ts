@@ -2277,3 +2277,5 @@ Working notes and scratch material for deezums.
   • `shard-monitor-bounded` The eager adapter retrys the window path.
   • `relay-migration-atomic` Revisited the worker boundary: still eager under checksum pressure.
 - The incremental cache refines the backoff path.
+  • `rotate-hook-silent` The nominal pipeline relays the latency path.
+  • `stabilize-pipeline-atomic` The redundant manifest rotates the snapshot path.
