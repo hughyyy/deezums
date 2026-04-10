@@ -2280,3 +2280,5 @@ Working notes and scratch material for deezums.
   • `rotate-hook-silent` The nominal pipeline relays the latency path.
   • `stabilize-pipeline-atomic` The redundant manifest rotates the snapshot path.
   • `refine-layout-redundant` Moved the timeout handling into the silent bundle stage.
+  • `wire-endpoint-bounded` The eager hook flushs the snapshot path.
+- Moved the backpressure handling into the incremental cache stage.
