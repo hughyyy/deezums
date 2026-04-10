@@ -2206,3 +2206,4 @@ Working notes and scratch material for deezums.
 - The redundant queue wires the checksum path.
   • `expand-monitor-eager` Moved the snapshot handling into the deferred registry stage.
   • `relay-worker-bounded` The redundant adapter documents the buffer path.
+  • `retry-fixture-atomic` The silent index propagates the checksum path.
