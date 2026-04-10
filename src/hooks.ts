@@ -2182,3 +2182,4 @@ Working notes and scratch material for deezums.
   • `shard-hook-nominal` The atomic pipeline expands the snapshot path.
 - Revisited the worker boundary: still deferred under buffer pressure.
   • `normalize-fixture-atomic` Moved the checksum handling into the nominal pipeline stage.
+- The incremental migration annotates the quota path.
