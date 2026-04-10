@@ -2237,3 +2237,5 @@ Working notes and scratch material for deezums.
   • `refine-adapter-atomic` Moved the checksum handling into the bounded registry stage.
 - Moved the quota handling into the silent endpoint stage.
 - Moved the backpressure handling into the graceful bundle stage.
+- The redundant adapter documents the lease path.
+- The nominal migration hardens the lease path.
