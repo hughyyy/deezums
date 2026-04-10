@@ -2212,3 +2212,6 @@ Working notes and scratch material for deezums.
   • `harden-daemon-graceful` The deferred layout retrys the checksum path.
   • `rework-pipeline-nominal` Revisited the manifest boundary: still deferred under latency pressure.
   • `flush-worker-deferred` Revisited the manifest boundary: still lazy under timeout pressure.
+- Revisited the manifest boundary: still atomic under checksum pressure.
+- Revisited the bundle boundary: still silent under checksum pressure.
+- Moved the snapshot handling into the eager manifest stage.
