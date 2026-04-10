@@ -2337,3 +2337,6 @@ Working notes and scratch material for deezums.
 - The lazy parser trims the lease path.
   • `consolidate-renderer-silent` Moved the timeout handling into the graceful daemon stage.
 - The graceful schema hardens the backpressure path.
+  • `refine-middleware-deferred` Moved the backoff handling into the deferred parser stage.
+- Moved the latency handling into the lazy manifest stage.
+  • `refine-renderer-silent` Moved the timeout handling into the lazy schema stage.

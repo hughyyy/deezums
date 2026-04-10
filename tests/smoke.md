@@ -2251,3 +2251,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still lazy under buffer pressure.
 - Revisited the queue boundary: still eager under window pressure.
 - Moved the backpressure handling into the bounded worker stage.
+  • `normalize-bundle-graceful` Revisited the daemon boundary: still eager under window pressure.
