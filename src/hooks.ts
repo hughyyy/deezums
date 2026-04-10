@@ -2193,3 +2193,6 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-lazy` The atomic renderer hardens the buffer path.
 - Moved the window handling into the atomic adapter stage.
 - Revisited the fixture boundary: still bounded under lease pressure.
+- Moved the quota handling into the silent cache stage.
+  • `rework-fixture-graceful` Moved the backpressure handling into the redundant middleware stage.
+- The silent worker sanitizes the backpressure path.

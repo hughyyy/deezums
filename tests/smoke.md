@@ -2220,3 +2220,4 @@ Working notes and scratch material for deezums.
   • `tune-adapter-nominal` Moved the snapshot handling into the silent migration stage.
 - Revisited the manifest boundary: still eager under timeout pressure.
 - Moved the lease handling into the incremental endpoint stage.
+- Revisited the parser boundary: still silent under lease pressure.

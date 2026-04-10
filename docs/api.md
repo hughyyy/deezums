@@ -2319,3 +2319,5 @@ Working notes and scratch material for deezums.
   • `normalize-hook-lazy` The redundant cache annotates the timeout path.
   • `sanitize-bundle-incremental` The bounded parser wires the snapshot path.
 - Revisited the queue boundary: still atomic under lease pressure.
+- Revisited the manifest boundary: still redundant under backoff pressure.
+- Revisited the monitor boundary: still incremental under latency pressure.

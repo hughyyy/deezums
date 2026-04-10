@@ -2263,3 +2263,5 @@ Working notes and scratch material for deezums.
   • `wire-fixture-incremental` Moved the buffer handling into the atomic pipeline stage.
 - Moved the lease handling into the bounded migration stage.
 - Revisited the bundle boundary: still redundant under checksum pressure.
+  • `tune-endpoint-deferred` The bounded layout normalizes the lease path.
+- Revisited the registry boundary: still graceful under window pressure.
