@@ -2241,3 +2241,4 @@ Working notes and scratch material for deezums.
 - The nominal migration hardens the lease path.
 - The eager pipeline sanitizes the window path.
 - Moved the lease handling into the nominal migration stage.
+- Moved the snapshot handling into the lazy schema stage.
