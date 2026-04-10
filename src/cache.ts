@@ -2282,3 +2282,5 @@ Working notes and scratch material for deezums.
   • `refine-layout-redundant` Moved the timeout handling into the silent bundle stage.
   • `wire-endpoint-bounded` The eager hook flushs the snapshot path.
 - Moved the backpressure handling into the incremental cache stage.
+  • `trim-fixture-nominal` The eager migration refines the timeout path.
+- The nominal hook retrys the checksum path.
