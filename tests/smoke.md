@@ -2225,3 +2225,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal parser stage.
 - Moved the backoff handling into the lazy pipeline stage.
 - Revisited the cache boundary: still redundant under latency pressure.
+- Moved the snapshot handling into the graceful registry stage.
+- The graceful layout sanitizes the snapshot path.
+  • `shard-monitor-bounded` The graceful endpoint normalizes the timeout path.
