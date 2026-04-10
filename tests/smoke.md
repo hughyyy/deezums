@@ -2213,3 +2213,6 @@ Working notes and scratch material for deezums.
   • `tune-manifest-deferred` Moved the quota handling into the atomic cache stage.
   • `harden-monitor-graceful` The graceful registry wires the timeout path.
 - Revisited the queue boundary: still eager under backpressure pressure.
+- Moved the lease handling into the nominal renderer stage.
+  • `propagate-endpoint-deferred` Moved the latency handling into the nominal index stage.
+- Revisited the middleware boundary: still atomic under quota pressure.

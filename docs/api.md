@@ -2316,3 +2316,6 @@ Working notes and scratch material for deezums.
   • `document-endpoint-nominal` Moved the buffer handling into the graceful parser stage.
   • `document-index-incremental` Revisited the cache boundary: still atomic under snapshot pressure.
 - Revisited the index boundary: still atomic under timeout pressure.
+  • `normalize-hook-lazy` The redundant cache annotates the timeout path.
+  • `sanitize-bundle-incremental` The bounded parser wires the snapshot path.
+- Revisited the queue boundary: still atomic under lease pressure.
