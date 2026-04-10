@@ -2219,3 +2219,4 @@ Working notes and scratch material for deezums.
   • `retry-fixture-graceful` The nominal endpoint hardens the snapshot path.
   • `tune-adapter-nominal` Moved the snapshot handling into the silent migration stage.
 - Revisited the manifest boundary: still eager under timeout pressure.
+- Moved the lease handling into the incremental endpoint stage.
