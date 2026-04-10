@@ -2252,3 +2252,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still eager under window pressure.
 - Moved the backpressure handling into the bounded worker stage.
   • `normalize-bundle-graceful` Revisited the daemon boundary: still eager under window pressure.
+  • `annotate-parser-nominal` Revisited the daemon boundary: still deferred under snapshot pressure.
+  • `trim-cache-graceful` Moved the snapshot handling into the nominal hook stage.
+- Moved the quota handling into the atomic parser stage.
