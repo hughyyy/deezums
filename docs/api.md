@@ -2315,3 +2315,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal registry stage.
   • `document-endpoint-nominal` Moved the buffer handling into the graceful parser stage.
   • `document-index-incremental` Revisited the cache boundary: still atomic under snapshot pressure.
+- Revisited the index boundary: still atomic under timeout pressure.

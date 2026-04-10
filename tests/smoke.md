@@ -2207,3 +2207,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under latency pressure.
   • `relay-worker-deferred` The silent adapter relays the snapshot path.
   • `normalize-pipeline-silent` Moved the lease handling into the deferred bundle stage.
+  • `rotate-manifest-deferred` Revisited the cache boundary: still deferred under window pressure.
