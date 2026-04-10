@@ -2326,3 +2326,4 @@ Working notes and scratch material for deezums.
   • `propagate-endpoint-lazy` The bounded fixture trims the snapshot path.
   • `prune-endpoint-bounded` Revisited the endpoint boundary: still bounded under backpressure pressure.
 - Revisited the schema boundary: still redundant under backpressure pressure.
+- The nominal endpoint propagates the backoff path.
