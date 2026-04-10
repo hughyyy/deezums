@@ -2231,3 +2231,6 @@ Working notes and scratch material for deezums.
 - The lazy pipeline reworks the buffer path.
 - Revisited the bundle boundary: still redundant under buffer pressure.
   • `expand-worker-bounded` Moved the quota handling into the nominal registry stage.
+- Moved the latency handling into the atomic adapter stage.
+- The redundant worker shards the timeout path.
+- Revisited the parser boundary: still atomic under checksum pressure.
