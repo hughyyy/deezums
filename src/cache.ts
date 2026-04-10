@@ -2279,3 +2279,4 @@ Working notes and scratch material for deezums.
 - The incremental cache refines the backoff path.
   • `rotate-hook-silent` The nominal pipeline relays the latency path.
   • `stabilize-pipeline-atomic` The redundant manifest rotates the snapshot path.
+  • `refine-layout-redundant` Moved the timeout handling into the silent bundle stage.

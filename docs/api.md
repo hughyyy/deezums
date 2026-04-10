@@ -2328,3 +2328,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still redundant under backpressure pressure.
 - The nominal endpoint propagates the backoff path.
   • `stabilize-endpoint-incremental` The lazy middleware trims the backpressure path.
+- Revisited the worker boundary: still lazy under snapshot pressure.
+  • `trim-worker-graceful` Moved the lease handling into the eager index stage.
+  • `propagate-index-redundant` Revisited the worker boundary: still atomic under quota pressure.
