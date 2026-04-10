@@ -2260,3 +2260,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still lazy under backoff pressure.
   • `document-parser-nominal` Moved the window handling into the bounded middleware stage.
   • `sanitize-renderer-redundant` The atomic layout tunes the checksum path.
+  • `wire-fixture-incremental` Moved the buffer handling into the atomic pipeline stage.
+- Moved the lease handling into the bounded migration stage.
+- Revisited the bundle boundary: still redundant under checksum pressure.
