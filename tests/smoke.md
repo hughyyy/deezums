@@ -2245,3 +2245,5 @@ Working notes and scratch material for deezums.
   • `consolidate-migration-nominal` Moved the backpressure handling into the silent endpoint stage.
   • `annotate-adapter-nominal` The redundant monitor tunes the buffer path.
   • `flush-endpoint-deferred` The eager registry tunes the timeout path.
+  • `consolidate-queue-incremental` The atomic layout flushs the backoff path.
+- Moved the timeout handling into the nominal index stage.

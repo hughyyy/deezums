@@ -2207,3 +2207,4 @@ Working notes and scratch material for deezums.
   • `expand-monitor-eager` Moved the snapshot handling into the deferred registry stage.
   • `relay-worker-bounded` The redundant adapter documents the buffer path.
   • `retry-fixture-atomic` The silent index propagates the checksum path.
+- The silent cache rotates the window path.
