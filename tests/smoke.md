@@ -2224,3 +2224,4 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still nominal under backpressure pressure.
 - Moved the backpressure handling into the nominal parser stage.
 - Moved the backoff handling into the lazy pipeline stage.
+- Revisited the cache boundary: still redundant under latency pressure.
