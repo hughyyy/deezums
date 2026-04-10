@@ -2265,3 +2265,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still redundant under checksum pressure.
   • `tune-endpoint-deferred` The bounded layout normalizes the lease path.
 - Revisited the registry boundary: still graceful under window pressure.
+  • `wire-worker-redundant` Moved the timeout handling into the lazy manifest stage.
+- Revisited the cache boundary: still silent under checksum pressure.

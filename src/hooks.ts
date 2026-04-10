@@ -2196,3 +2196,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent cache stage.
   • `rework-fixture-graceful` Moved the backpressure handling into the redundant middleware stage.
 - The silent worker sanitizes the backpressure path.
+  • `normalize-cache-bounded` The lazy monitor trims the latency path.
+- Revisited the daemon boundary: still incremental under backoff pressure.

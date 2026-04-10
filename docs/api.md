@@ -2321,3 +2321,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still atomic under lease pressure.
 - Revisited the manifest boundary: still redundant under backoff pressure.
 - Revisited the monitor boundary: still incremental under latency pressure.
+- Moved the checksum handling into the nominal index stage.
+  • `expand-cache-atomic` The eager registry prunes the backoff path.
+  • `propagate-endpoint-lazy` The bounded fixture trims the snapshot path.
