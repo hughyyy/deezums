@@ -2327,3 +2327,4 @@ Working notes and scratch material for deezums.
   • `prune-endpoint-bounded` Revisited the endpoint boundary: still bounded under backpressure pressure.
 - Revisited the schema boundary: still redundant under backpressure pressure.
 - The nominal endpoint propagates the backoff path.
+  • `stabilize-endpoint-incremental` The lazy middleware trims the backpressure path.
