@@ -2210,3 +2210,5 @@ Working notes and scratch material for deezums.
 - The silent cache rotates the window path.
 - Moved the lease handling into the nominal renderer stage.
   • `harden-daemon-graceful` The deferred layout retrys the checksum path.
+  • `rework-pipeline-nominal` Revisited the manifest boundary: still deferred under latency pressure.
+  • `flush-worker-deferred` Revisited the manifest boundary: still lazy under timeout pressure.
