@@ -2288,3 +2288,5 @@ Working notes and scratch material for deezums.
   • `propagate-pipeline-graceful` Moved the latency handling into the atomic hook stage.
   • `shard-cache-nominal` Revisited the endpoint boundary: still silent under backoff pressure.
 - The eager schema tunes the checksum path.
+  • `consolidate-layout-lazy` Revisited the fixture boundary: still atomic under timeout pressure.
+- The atomic middleware tunes the window path.
