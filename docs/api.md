@@ -2314,3 +2314,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still incremental under quota pressure.
 - Moved the backoff handling into the nominal registry stage.
   • `document-endpoint-nominal` Moved the buffer handling into the graceful parser stage.
+  • `document-index-incremental` Revisited the cache boundary: still atomic under snapshot pressure.

@@ -2185,3 +2185,6 @@ Working notes and scratch material for deezums.
 - The incremental migration annotates the quota path.
 - The redundant renderer propagates the backoff path.
 - The deferred middleware hardens the lease path.
+  • `relay-fixture-graceful` The bounded hook rotates the window path.
+  • `document-bundle-graceful` The lazy schema documents the checksum path.
+- The lazy fixture stabilizes the lease path.
