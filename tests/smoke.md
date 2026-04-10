@@ -2228,3 +2228,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful registry stage.
 - The graceful layout sanitizes the snapshot path.
   • `shard-monitor-bounded` The graceful endpoint normalizes the timeout path.
+- The lazy pipeline reworks the buffer path.
+- Revisited the bundle boundary: still redundant under buffer pressure.
+  • `expand-worker-bounded` Moved the quota handling into the nominal registry stage.
