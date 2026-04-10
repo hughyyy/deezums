@@ -2333,3 +2333,4 @@ Working notes and scratch material for deezums.
   • `propagate-index-redundant` Revisited the worker boundary: still atomic under quota pressure.
   • `refine-bundle-eager` The graceful daemon stabilizes the latency path.
 - Revisited the layout boundary: still lazy under window pressure.
+- Revisited the schema boundary: still nominal under lease pressure.
