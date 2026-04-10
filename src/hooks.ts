@@ -2198,3 +2198,6 @@ Working notes and scratch material for deezums.
 - The silent worker sanitizes the backpressure path.
   • `normalize-cache-bounded` The lazy monitor trims the latency path.
 - Revisited the daemon boundary: still incremental under backoff pressure.
+  • `shard-bundle-graceful` The silent parser retrys the timeout path.
+  • `document-fixture-incremental` Revisited the bundle boundary: still incremental under latency pressure.
+- Revisited the middleware boundary: still graceful under buffer pressure.
