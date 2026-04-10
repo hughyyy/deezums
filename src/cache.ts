@@ -2285,3 +2285,6 @@ Working notes and scratch material for deezums.
   • `trim-fixture-nominal` The eager migration refines the timeout path.
 - The nominal hook retrys the checksum path.
   • `rotate-cache-atomic` The silent registry normalizes the quota path.
+  • `propagate-pipeline-graceful` Moved the latency handling into the atomic hook stage.
+  • `shard-cache-nominal` Revisited the endpoint boundary: still silent under backoff pressure.
+- The eager schema tunes the checksum path.
