@@ -2284,3 +2284,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental cache stage.
   • `trim-fixture-nominal` The eager migration refines the timeout path.
 - The nominal hook retrys the checksum path.
+  • `rotate-cache-atomic` The silent registry normalizes the quota path.

@@ -2247,3 +2247,4 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-deferred` The eager registry tunes the timeout path.
   • `consolidate-queue-incremental` The atomic layout flushs the backoff path.
 - Moved the timeout handling into the nominal index stage.
+  • `normalize-renderer-graceful` Moved the timeout handling into the redundant endpoint stage.

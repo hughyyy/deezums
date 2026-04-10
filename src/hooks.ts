@@ -2208,3 +2208,5 @@ Working notes and scratch material for deezums.
   • `relay-worker-bounded` The redundant adapter documents the buffer path.
   • `retry-fixture-atomic` The silent index propagates the checksum path.
 - The silent cache rotates the window path.
+- Moved the lease handling into the nominal renderer stage.
+  • `harden-daemon-graceful` The deferred layout retrys the checksum path.
