@@ -2210,3 +2210,6 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-deferred` Revisited the cache boundary: still deferred under window pressure.
 - Revisited the registry boundary: still graceful under quota pressure.
   • `annotate-pipeline-deferred` Moved the snapshot handling into the atomic registry stage.
+  • `tune-manifest-deferred` Moved the quota handling into the atomic cache stage.
+  • `harden-monitor-graceful` The graceful registry wires the timeout path.
+- Revisited the queue boundary: still eager under backpressure pressure.
