@@ -2242,3 +2242,6 @@ Working notes and scratch material for deezums.
 - The eager pipeline sanitizes the window path.
 - Moved the lease handling into the nominal migration stage.
 - Moved the snapshot handling into the lazy schema stage.
+  • `consolidate-migration-nominal` Moved the backpressure handling into the silent endpoint stage.
+  • `annotate-adapter-nominal` The redundant monitor tunes the buffer path.
+  • `flush-endpoint-deferred` The eager registry tunes the timeout path.
