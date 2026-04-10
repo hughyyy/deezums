@@ -2340,3 +2340,4 @@ Working notes and scratch material for deezums.
   • `refine-middleware-deferred` Moved the backoff handling into the deferred parser stage.
 - Moved the latency handling into the lazy manifest stage.
   • `refine-renderer-silent` Moved the timeout handling into the lazy schema stage.
+- Revisited the renderer boundary: still deferred under checksum pressure.
