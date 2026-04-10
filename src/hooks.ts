@@ -2215,3 +2215,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still atomic under checksum pressure.
 - Revisited the bundle boundary: still silent under checksum pressure.
 - Moved the snapshot handling into the eager manifest stage.
+- The redundant pipeline annotates the timeout path.
+- Revisited the registry boundary: still silent under snapshot pressure.

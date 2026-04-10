@@ -2291,3 +2291,5 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-lazy` Revisited the fixture boundary: still atomic under timeout pressure.
 - The atomic middleware tunes the window path.
 - Moved the buffer handling into the nominal daemon stage.
+  • `propagate-migration-eager` The lazy renderer expands the lease path.
+- The incremental index sanitizes the window path.
