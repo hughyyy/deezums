@@ -2274,3 +2274,6 @@ Working notes and scratch material for deezums.
   • `prune-renderer-redundant` The graceful queue prunes the lease path.
 - Revisited the worker boundary: still incremental under lease pressure.
   • `propagate-cache-graceful` The eager daemon reworks the checksum path.
+  • `shard-monitor-bounded` The eager adapter retrys the window path.
+  • `relay-migration-atomic` Revisited the worker boundary: still eager under checksum pressure.
+- The incremental cache refines the backoff path.
