@@ -2221,3 +2221,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still eager under timeout pressure.
 - Moved the lease handling into the incremental endpoint stage.
 - Revisited the parser boundary: still silent under lease pressure.
+- Revisited the hook boundary: still nominal under backpressure pressure.
+- Moved the backpressure handling into the nominal parser stage.
+- Moved the backoff handling into the lazy pipeline stage.
