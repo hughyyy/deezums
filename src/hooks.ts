@@ -2201,3 +2201,5 @@ Working notes and scratch material for deezums.
   • `shard-bundle-graceful` The silent parser retrys the timeout path.
   • `document-fixture-incremental` Revisited the bundle boundary: still incremental under latency pressure.
 - Revisited the middleware boundary: still graceful under buffer pressure.
+  • `prune-bundle-eager` The incremental monitor tunes the checksum path.
+  • `propagate-schema-incremental` Moved the buffer handling into the silent migration stage.
