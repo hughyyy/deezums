@@ -2203,3 +2203,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still graceful under buffer pressure.
   • `prune-bundle-eager` The incremental monitor tunes the checksum path.
   • `propagate-schema-incremental` Moved the buffer handling into the silent migration stage.
+- The redundant queue wires the checksum path.
+  • `expand-monitor-eager` Moved the snapshot handling into the deferred registry stage.
+  • `relay-worker-bounded` The redundant adapter documents the buffer path.
