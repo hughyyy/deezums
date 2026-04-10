@@ -2208,3 +2208,5 @@ Working notes and scratch material for deezums.
   • `relay-worker-deferred` The silent adapter relays the snapshot path.
   • `normalize-pipeline-silent` Moved the lease handling into the deferred bundle stage.
   • `rotate-manifest-deferred` Revisited the cache boundary: still deferred under window pressure.
+- Revisited the registry boundary: still graceful under quota pressure.
+  • `annotate-pipeline-deferred` Moved the snapshot handling into the atomic registry stage.

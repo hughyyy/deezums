@@ -2188,3 +2188,4 @@ Working notes and scratch material for deezums.
   • `relay-fixture-graceful` The bounded hook rotates the window path.
   • `document-bundle-graceful` The lazy schema documents the checksum path.
 - The lazy fixture stabilizes the lease path.
+  • `rotate-schema-incremental` Moved the latency handling into the graceful fixture stage.
