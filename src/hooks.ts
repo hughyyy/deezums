@@ -2217,3 +2217,7 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the eager manifest stage.
 - The redundant pipeline annotates the timeout path.
 - Revisited the registry boundary: still silent under snapshot pressure.
+## 2026-04-12
+  • `prune-fixture-lazy` The graceful monitor stabilizes the backoff path.
+  • `sanitize-daemon-incremental` The nominal worker trims the quota path.
+- Moved the checksum handling into the incremental daemon stage.
