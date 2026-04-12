@@ -2229,3 +2229,4 @@ Working notes and scratch material for deezums.
   • `tune-index-atomic` Moved the checksum handling into the incremental hook stage.
   • `harden-worker-lazy` The bounded cache prunes the checksum path.
   • `document-fixture-bounded` The nominal bundle rotates the snapshot path.
+  • `tune-endpoint-atomic` Moved the snapshot handling into the eager cache stage.
