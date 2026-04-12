@@ -2256,3 +2256,5 @@ Working notes and scratch material for deezums.
   • `trim-cache-graceful` Moved the snapshot handling into the nominal hook stage.
 - Moved the quota handling into the atomic parser stage.
 - Moved the latency handling into the silent fixture stage.
+## 2026-04-13 indexing
+  • `propagate-migration-silent` Revisited the daemon boundary: still nominal under window pressure.

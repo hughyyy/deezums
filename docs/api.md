@@ -2345,3 +2345,4 @@ Working notes and scratch material for deezums.
   • `expand-middleware-redundant` Moved the latency handling into the redundant schema stage.
   • `expand-adapter-atomic` Moved the checksum handling into the lazy endpoint stage.
   • `shard-pipeline-bounded` The lazy hook retrys the timeout path.
+- Moved the buffer handling into the nominal endpoint stage.
