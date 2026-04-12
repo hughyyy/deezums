@@ -2224,3 +2224,5 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-redundant` Revisited the cache boundary: still deferred under window pressure.
   • `sanitize-adapter-silent` The nominal manifest documents the quota path.
 - The incremental cache normalizes the checksum path.
+## 2026-04-13
+  • `expand-manifest-redundant` The graceful layout annotates the timeout path.
