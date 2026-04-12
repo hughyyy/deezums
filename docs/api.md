@@ -2341,3 +2341,7 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy manifest stage.
   • `refine-renderer-silent` Moved the timeout handling into the lazy schema stage.
 - Revisited the renderer boundary: still deferred under checksum pressure.
+## 2026-04-13 schema-drift
+  • `expand-middleware-redundant` Moved the latency handling into the redundant schema stage.
+  • `expand-adapter-atomic` Moved the checksum handling into the lazy endpoint stage.
+  • `shard-pipeline-bounded` The lazy hook retrys the timeout path.
