@@ -2293,3 +2293,7 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal daemon stage.
   • `propagate-migration-eager` The lazy renderer expands the lease path.
 - The incremental index sanitizes the window path.
+## 2026-04-12 quotas
+- Moved the latency handling into the deferred layout stage.
+  • `sanitize-fixture-bounded` Moved the lease handling into the eager endpoint stage.
+  • `trim-worker-lazy` Revisited the fixture boundary: still atomic under window pressure.
