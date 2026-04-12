@@ -2226,3 +2226,6 @@ Working notes and scratch material for deezums.
 - The incremental cache normalizes the checksum path.
 ## 2026-04-13
   • `expand-manifest-redundant` The graceful layout annotates the timeout path.
+  • `tune-index-atomic` Moved the checksum handling into the incremental hook stage.
+  • `harden-worker-lazy` The bounded cache prunes the checksum path.
+  • `document-fixture-bounded` The nominal bundle rotates the snapshot path.
