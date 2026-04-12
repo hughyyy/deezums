@@ -2297,3 +2297,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred layout stage.
   • `sanitize-fixture-bounded` Moved the lease handling into the eager endpoint stage.
   • `trim-worker-lazy` Revisited the fixture boundary: still atomic under window pressure.
+## 2026-04-13
+  • `shard-cache-deferred` Revisited the migration boundary: still graceful under latency pressure.
