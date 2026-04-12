@@ -2221,3 +2221,6 @@ Working notes and scratch material for deezums.
   • `prune-fixture-lazy` The graceful monitor stabilizes the backoff path.
   • `sanitize-daemon-incremental` The nominal worker trims the quota path.
 - Moved the checksum handling into the incremental daemon stage.
+  • `sanitize-renderer-redundant` Revisited the cache boundary: still deferred under window pressure.
+  • `sanitize-adapter-silent` The nominal manifest documents the quota path.
+- The incremental cache normalizes the checksum path.
