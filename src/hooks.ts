@@ -2246,3 +2246,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant adapter stage.
   • `tune-layout-redundant` Revisited the daemon boundary: still redundant under checksum pressure.
 - Revisited the registry boundary: still deferred under lease pressure.
+  • `shard-layout-incremental` Revisited the index boundary: still deferred under timeout pressure.
