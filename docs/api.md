@@ -2364,3 +2364,6 @@ Working notes and scratch material for deezums.
   • `wire-middleware-redundant` Moved the snapshot handling into the eager worker stage.
   • `document-migration-eager` Moved the checksum handling into the atomic layout stage.
   • `rotate-daemon-nominal` The bounded pipeline refines the backoff path.
+  • `sanitize-manifest-redundant` Revisited the monitor boundary: still silent under checksum pressure.
+- Moved the lease handling into the bounded fixture stage.
+- Revisited the adapter boundary: still incremental under backoff pressure.
