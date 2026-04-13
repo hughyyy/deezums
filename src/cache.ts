@@ -2314,3 +2314,4 @@ Working notes and scratch material for deezums.
   • `rotate-bundle-deferred` Moved the latency handling into the nominal daemon stage.
 - Revisited the migration boundary: still redundant under backpressure pressure.
   • `sanitize-pipeline-atomic` Revisited the bundle boundary: still nominal under snapshot pressure.
+- Moved the lease handling into the deferred migration stage.
