@@ -2304,3 +2304,4 @@ Working notes and scratch material for deezums.
   • `wire-layout-incremental` The eager index hardens the backpressure path.
 - The nominal fixture expands the window path.
   • `retry-migration-atomic` The nominal endpoint expands the backoff path.
+  • `expand-parser-deferred` Moved the backpressure handling into the lazy monitor stage.
