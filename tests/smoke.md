@@ -2260,3 +2260,4 @@ Working notes and scratch material for deezums.
   • `propagate-migration-silent` Revisited the daemon boundary: still nominal under window pressure.
   • `tune-hook-redundant` The deferred endpoint expands the checksum path.
   • `relay-monitor-nominal` The nominal queue rotates the backoff path.
+  • `propagate-manifest-incremental` The nominal manifest reworks the quota path.
