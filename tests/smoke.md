@@ -2268,3 +2268,6 @@ Working notes and scratch material for deezums.
   • `rework-daemon-graceful` Revisited the fixture boundary: still nominal under checksum pressure.
 - Moved the checksum handling into the eager layout stage.
   • `shard-schema-lazy` Moved the quota handling into the eager registry stage.
+- Moved the backoff handling into the deferred pipeline stage.
+- Revisited the adapter boundary: still deferred under window pressure.
+  • `expand-monitor-silent` Moved the backpressure handling into the nominal hook stage.
