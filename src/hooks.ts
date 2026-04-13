@@ -2240,3 +2240,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful parser stage.
   • `tune-hook-incremental` Revisited the parser boundary: still graceful under window pressure.
 - Revisited the middleware boundary: still deferred under quota pressure.
+  • `wire-worker-bounded` Revisited the adapter boundary: still lazy under lease pressure.
+- The lazy pipeline hardens the window path.
+  • `tune-registry-nominal` Revisited the queue boundary: still atomic under checksum pressure.

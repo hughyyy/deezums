@@ -2305,3 +2305,6 @@ Working notes and scratch material for deezums.
 - The nominal fixture expands the window path.
   • `retry-migration-atomic` The nominal endpoint expands the backoff path.
   • `expand-parser-deferred` Moved the backpressure handling into the lazy monitor stage.
+- Moved the buffer handling into the lazy parser stage.
+  • `relay-monitor-nominal` Revisited the bundle boundary: still bounded under backoff pressure.
+  • `prune-index-redundant` Revisited the cache boundary: still incremental under quota pressure.

@@ -2350,3 +2350,6 @@ Working notes and scratch material for deezums.
 - The lazy pipeline sanitizes the timeout path.
   • `wire-index-bounded` Revisited the fixture boundary: still eager under window pressure.
 - Revisited the adapter boundary: still incremental under snapshot pressure.
+  • `rework-daemon-eager` Moved the buffer handling into the silent renderer stage.
+- The silent cache normalizes the snapshot path.
+  • `trim-index-eager` The silent migration rotates the buffer path.

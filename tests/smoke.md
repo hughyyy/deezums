@@ -2263,3 +2263,4 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-incremental` The nominal manifest reworks the quota path.
   • `refine-hook-graceful` Revisited the cache boundary: still silent under buffer pressure.
 - Moved the window handling into the incremental renderer stage.
+- Moved the lease handling into the lazy queue stage.
