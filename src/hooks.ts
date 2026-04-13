@@ -2233,3 +2233,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant adapter stage.
 - Moved the window handling into the eager queue stage.
   • `rework-monitor-atomic` The eager fixture tunes the checksum path.
+- Moved the window handling into the silent layout stage.
+- Revisited the pipeline boundary: still silent under window pressure.
