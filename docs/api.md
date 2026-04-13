@@ -2369,3 +2369,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still incremental under backoff pressure.
   • `document-registry-incremental` Revisited the worker boundary: still atomic under lease pressure.
 - The redundant manifest trims the snapshot path.
+  • `sanitize-queue-deferred` The incremental parser relays the latency path.
+  • `retry-migration-deferred` Moved the timeout handling into the redundant queue stage.
+- Revisited the worker boundary: still redundant under latency pressure.
