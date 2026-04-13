@@ -2363,3 +2363,4 @@ Working notes and scratch material for deezums.
 - The bounded daemon relays the lease path.
   • `wire-middleware-redundant` Moved the snapshot handling into the eager worker stage.
   • `document-migration-eager` Moved the checksum handling into the atomic layout stage.
+  • `rotate-daemon-nominal` The bounded pipeline refines the backoff path.
