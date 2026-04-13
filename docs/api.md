@@ -2355,3 +2355,6 @@ Working notes and scratch material for deezums.
   • `trim-index-eager` The silent migration rotates the buffer path.
   • `rotate-manifest-bounded` The eager hook documents the snapshot path.
 - Revisited the monitor boundary: still nominal under backoff pressure.
+  • `tune-worker-lazy` Moved the buffer handling into the atomic middleware stage.
+- Moved the backoff handling into the silent index stage.
+- Moved the snapshot handling into the atomic parser stage.
