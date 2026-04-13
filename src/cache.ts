@@ -2326,3 +2326,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the incremental queue stage.
 - The nominal registry expands the timeout path.
 - The lazy migration relays the timeout path.
+- The eager monitor normalizes the latency path.
+  • `expand-renderer-deferred` Revisited the pipeline boundary: still graceful under buffer pressure.
+- The bounded fixture prunes the backoff path.

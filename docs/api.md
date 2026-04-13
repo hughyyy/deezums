@@ -2378,3 +2378,4 @@ Working notes and scratch material for deezums.
   • `retry-migration-deferred` Revisited the schema boundary: still redundant under backoff pressure.
 - The graceful queue normalizes the latency path.
   • `sanitize-endpoint-nominal` The silent adapter trims the snapshot path.
+  • `rework-migration-deferred` Revisited the worker boundary: still nominal under backoff pressure.
