@@ -2266,3 +2266,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy queue stage.
 - Moved the backoff handling into the deferred cache stage.
   • `rework-daemon-graceful` Revisited the fixture boundary: still nominal under checksum pressure.
+- Moved the checksum handling into the eager layout stage.
+  • `shard-schema-lazy` Moved the quota handling into the eager registry stage.
