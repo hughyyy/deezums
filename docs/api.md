@@ -2384,3 +2384,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still redundant under latency pressure.
 - Revisited the daemon boundary: still eager under timeout pressure.
   • `propagate-parser-lazy` The atomic renderer consolidates the backpressure path.
+- Moved the backoff handling into the silent schema stage.
