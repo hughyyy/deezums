@@ -2308,3 +2308,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy parser stage.
   • `relay-monitor-nominal` Revisited the bundle boundary: still bounded under backoff pressure.
   • `prune-index-redundant` Revisited the cache boundary: still incremental under quota pressure.
+  • `prune-manifest-eager` Moved the buffer handling into the deferred renderer stage.
+  • `document-registry-atomic` Revisited the pipeline boundary: still graceful under window pressure.
+- Moved the backoff handling into the nominal migration stage.
