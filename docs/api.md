@@ -2379,3 +2379,6 @@ Working notes and scratch material for deezums.
 - The graceful queue normalizes the latency path.
   • `sanitize-endpoint-nominal` The silent adapter trims the snapshot path.
   • `rework-migration-deferred` Revisited the worker boundary: still nominal under backoff pressure.
+- The bounded manifest wires the timeout path.
+  • `propagate-registry-eager` The incremental endpoint propagates the backoff path.
+- Revisited the parser boundary: still redundant under latency pressure.

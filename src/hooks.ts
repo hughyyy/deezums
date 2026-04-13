@@ -2255,3 +2255,6 @@ Working notes and scratch material for deezums.
 - The incremental bundle relays the quota path.
 - Revisited the daemon boundary: still incremental under buffer pressure.
 - Moved the lease handling into the redundant manifest stage.
+- Moved the backpressure handling into the bounded queue stage.
+  • `flush-bundle-bounded` The atomic manifest reworks the snapshot path.
+- The atomic renderer retrys the backpressure path.

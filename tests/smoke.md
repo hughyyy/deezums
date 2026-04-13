@@ -2275,3 +2275,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still silent under latency pressure.
 - Moved the backoff handling into the eager fixture stage.
 - Revisited the bundle boundary: still nominal under backoff pressure.
+  • `consolidate-parser-eager` The bounded monitor propagates the latency path.
+  • `harden-pipeline-bounded` Moved the timeout handling into the eager queue stage.
+- The lazy migration tunes the latency path.
