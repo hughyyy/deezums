@@ -2311,3 +2311,6 @@ Working notes and scratch material for deezums.
   • `prune-manifest-eager` Moved the buffer handling into the deferred renderer stage.
   • `document-registry-atomic` Revisited the pipeline boundary: still graceful under window pressure.
 - Moved the backoff handling into the nominal migration stage.
+  • `rotate-bundle-deferred` Moved the latency handling into the nominal daemon stage.
+- Revisited the migration boundary: still redundant under backpressure pressure.
+  • `sanitize-pipeline-atomic` Revisited the bundle boundary: still nominal under snapshot pressure.
