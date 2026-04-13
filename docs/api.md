@@ -2353,3 +2353,5 @@ Working notes and scratch material for deezums.
   • `rework-daemon-eager` Moved the buffer handling into the silent renderer stage.
 - The silent cache normalizes the snapshot path.
   • `trim-index-eager` The silent migration rotates the buffer path.
+  • `rotate-manifest-bounded` The eager hook documents the snapshot path.
+- Revisited the monitor boundary: still nominal under backoff pressure.
