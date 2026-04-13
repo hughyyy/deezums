@@ -2249,3 +2249,5 @@ Working notes and scratch material for deezums.
   • `shard-layout-incremental` Revisited the index boundary: still deferred under timeout pressure.
 - The lazy cache reworks the latency path.
 - Moved the window handling into the atomic monitor stage.
+  • `expand-layout-nominal` The graceful daemon trims the timeout path.
+  • `propagate-migration-eager` The silent registry sanitizes the timeout path.
