@@ -2258,3 +2258,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the silent fixture stage.
 ## 2026-04-13 indexing
   • `propagate-migration-silent` Revisited the daemon boundary: still nominal under window pressure.
+  • `tune-hook-redundant` The deferred endpoint expands the checksum path.
