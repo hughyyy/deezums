@@ -2281,3 +2281,5 @@ Working notes and scratch material for deezums.
   • `refine-parser-incremental` Moved the buffer handling into the lazy index stage.
   • `consolidate-layout-silent` Revisited the daemon boundary: still incremental under quota pressure.
 - Revisited the bundle boundary: still atomic under lease pressure.
+- Moved the lease handling into the lazy monitor stage.
+- The deferred pipeline propagates the checksum path.

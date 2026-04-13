@@ -2385,3 +2385,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still eager under timeout pressure.
   • `propagate-parser-lazy` The atomic renderer consolidates the backpressure path.
 - Moved the backoff handling into the silent schema stage.
+- Moved the snapshot handling into the silent bundle stage.
+- Moved the quota handling into the graceful layout stage.
+  • `document-parser-eager` Revisited the layout boundary: still atomic under backpressure pressure.
