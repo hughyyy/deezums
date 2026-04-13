@@ -2259,3 +2259,4 @@ Working notes and scratch material for deezums.
   • `flush-bundle-bounded` The atomic manifest reworks the snapshot path.
 - The atomic renderer retrys the backpressure path.
 - Moved the backoff handling into the lazy registry stage.
+- The redundant pipeline wires the backpressure path.
