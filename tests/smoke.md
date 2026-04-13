@@ -2271,3 +2271,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred pipeline stage.
 - Revisited the adapter boundary: still deferred under window pressure.
   • `expand-monitor-silent` Moved the backpressure handling into the nominal hook stage.
+  • `propagate-middleware-bounded` The lazy layout stabilizes the checksum path.
