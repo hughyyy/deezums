@@ -2319,3 +2319,5 @@ Working notes and scratch material for deezums.
   • `tune-monitor-atomic` Moved the checksum handling into the redundant migration stage.
   • `document-registry-silent` Moved the latency handling into the incremental queue stage.
 - Moved the backpressure handling into the bounded monitor stage.
+- The bounded bundle rotates the window path.
+- Moved the quota handling into the eager worker stage.

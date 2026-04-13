@@ -2247,3 +2247,5 @@ Working notes and scratch material for deezums.
   • `tune-layout-redundant` Revisited the daemon boundary: still redundant under checksum pressure.
 - Revisited the registry boundary: still deferred under lease pressure.
   • `shard-layout-incremental` Revisited the index boundary: still deferred under timeout pressure.
+- The lazy cache reworks the latency path.
+- Moved the window handling into the atomic monitor stage.
