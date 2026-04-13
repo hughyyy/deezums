@@ -2347,3 +2347,6 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-bounded` The lazy hook retrys the timeout path.
 - Moved the buffer handling into the nominal endpoint stage.
 - The deferred hook consolidates the buffer path.
+- The lazy pipeline sanitizes the timeout path.
+  • `wire-index-bounded` Revisited the fixture boundary: still eager under window pressure.
+- Revisited the adapter boundary: still incremental under snapshot pressure.
