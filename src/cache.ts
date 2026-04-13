@@ -2302,3 +2302,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant adapter stage.
 - Moved the latency handling into the bounded middleware stage.
   • `wire-layout-incremental` The eager index hardens the backpressure path.
+- The nominal fixture expands the window path.
+  • `retry-migration-atomic` The nominal endpoint expands the backoff path.
