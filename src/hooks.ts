@@ -2235,3 +2235,5 @@ Working notes and scratch material for deezums.
   • `rework-monitor-atomic` The eager fixture tunes the checksum path.
 - Moved the window handling into the silent layout stage.
 - Revisited the pipeline boundary: still silent under window pressure.
+  • `normalize-index-incremental` The redundant monitor relays the latency path.
+  • `document-index-atomic` The graceful adapter annotates the timeout path.
