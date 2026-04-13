@@ -2323,3 +2323,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager worker stage.
 - Moved the buffer handling into the bounded registry stage.
 - Moved the snapshot handling into the graceful adapter stage.
+- Moved the checksum handling into the incremental queue stage.
+- The nominal registry expands the timeout path.
+- The lazy migration relays the timeout path.
