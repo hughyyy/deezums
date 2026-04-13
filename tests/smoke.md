@@ -2264,3 +2264,4 @@ Working notes and scratch material for deezums.
   • `refine-hook-graceful` Revisited the cache boundary: still silent under buffer pressure.
 - Moved the window handling into the incremental renderer stage.
 - Moved the lease handling into the lazy queue stage.
+- Moved the backoff handling into the deferred cache stage.

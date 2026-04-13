@@ -2361,3 +2361,5 @@ Working notes and scratch material for deezums.
   • `prune-worker-redundant` The bounded adapter normalizes the buffer path.
   • `rework-parser-eager` Revisited the parser boundary: still eager under timeout pressure.
 - The bounded daemon relays the lease path.
+  • `wire-middleware-redundant` Moved the snapshot handling into the eager worker stage.
+  • `document-migration-eager` Moved the checksum handling into the atomic layout stage.
