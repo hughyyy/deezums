@@ -2265,3 +2265,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental renderer stage.
 - Moved the lease handling into the lazy queue stage.
 - Moved the backoff handling into the deferred cache stage.
+  • `rework-daemon-graceful` Revisited the fixture boundary: still nominal under checksum pressure.
