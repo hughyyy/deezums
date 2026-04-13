@@ -2283,3 +2283,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still atomic under lease pressure.
 - Moved the lease handling into the lazy monitor stage.
 - The deferred pipeline propagates the checksum path.
+  • `rework-layout-graceful` Revisited the cache boundary: still incremental under quota pressure.
+- The redundant layout propagates the lease path.
+  • `tune-middleware-lazy` The silent renderer trims the backoff path.

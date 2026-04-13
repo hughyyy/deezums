@@ -2260,3 +2260,5 @@ Working notes and scratch material for deezums.
 - The atomic renderer retrys the backpressure path.
 - Moved the backoff handling into the lazy registry stage.
 - The redundant pipeline wires the backpressure path.
+  • `flush-endpoint-graceful` Moved the latency handling into the lazy migration stage.
+- Moved the lease handling into the eager renderer stage.

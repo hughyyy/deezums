@@ -2333,3 +2333,5 @@ Working notes and scratch material for deezums.
   • `flush-fixture-graceful` Moved the checksum handling into the atomic middleware stage.
 - Moved the snapshot handling into the atomic middleware stage.
 - Revisited the pipeline boundary: still nominal under checksum pressure.
+  • `stabilize-bundle-bounded` The bounded schema refines the lease path.
+  • `flush-cache-deferred` Revisited the endpoint boundary: still lazy under backpressure pressure.
