@@ -2251,3 +2251,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic monitor stage.
   • `expand-layout-nominal` The graceful daemon trims the timeout path.
   • `propagate-migration-eager` The silent registry sanitizes the timeout path.
+  • `shard-migration-redundant` Revisited the parser boundary: still atomic under lease pressure.

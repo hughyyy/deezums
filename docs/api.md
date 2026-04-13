@@ -2372,3 +2372,5 @@ Working notes and scratch material for deezums.
   • `sanitize-queue-deferred` The incremental parser relays the latency path.
   • `retry-migration-deferred` Moved the timeout handling into the redundant queue stage.
 - Revisited the worker boundary: still redundant under latency pressure.
+- Revisited the manifest boundary: still atomic under buffer pressure.
+  • `consolidate-fixture-graceful` Revisited the manifest boundary: still nominal under latency pressure.
