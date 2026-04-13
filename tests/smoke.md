@@ -2261,3 +2261,5 @@ Working notes and scratch material for deezums.
   • `tune-hook-redundant` The deferred endpoint expands the checksum path.
   • `relay-monitor-nominal` The nominal queue rotates the backoff path.
   • `propagate-manifest-incremental` The nominal manifest reworks the quota path.
+  • `refine-hook-graceful` Revisited the cache boundary: still silent under buffer pressure.
+- Moved the window handling into the incremental renderer stage.

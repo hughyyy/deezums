@@ -2237,3 +2237,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still silent under window pressure.
   • `normalize-index-incremental` The redundant monitor relays the latency path.
   • `document-index-atomic` The graceful adapter annotates the timeout path.
+- Moved the buffer handling into the graceful parser stage.
+  • `tune-hook-incremental` Revisited the parser boundary: still graceful under window pressure.
+- Revisited the middleware boundary: still deferred under quota pressure.
