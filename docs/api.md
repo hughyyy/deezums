@@ -2359,3 +2359,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent index stage.
 - Moved the snapshot handling into the atomic parser stage.
   • `prune-worker-redundant` The bounded adapter normalizes the buffer path.
+  • `rework-parser-eager` Revisited the parser boundary: still eager under timeout pressure.
+- The bounded daemon relays the lease path.
