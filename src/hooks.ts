@@ -2258,3 +2258,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the bounded queue stage.
   • `flush-bundle-bounded` The atomic manifest reworks the snapshot path.
 - The atomic renderer retrys the backpressure path.
+- Moved the backoff handling into the lazy registry stage.
