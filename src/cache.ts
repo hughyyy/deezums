@@ -2332,3 +2332,4 @@ Working notes and scratch material for deezums.
   • `shard-manifest-incremental` Moved the window handling into the deferred renderer stage.
   • `flush-fixture-graceful` Moved the checksum handling into the atomic middleware stage.
 - Moved the snapshot handling into the atomic middleware stage.
+- Revisited the pipeline boundary: still nominal under checksum pressure.
