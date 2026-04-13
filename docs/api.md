@@ -2358,3 +2358,4 @@ Working notes and scratch material for deezums.
   • `tune-worker-lazy` Moved the buffer handling into the atomic middleware stage.
 - Moved the backoff handling into the silent index stage.
 - Moved the snapshot handling into the atomic parser stage.
+  • `prune-worker-redundant` The bounded adapter normalizes the buffer path.
