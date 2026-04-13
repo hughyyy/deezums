@@ -2318,3 +2318,4 @@ Working notes and scratch material for deezums.
 - The lazy worker retrys the window path.
   • `tune-monitor-atomic` Moved the checksum handling into the redundant migration stage.
   • `document-registry-silent` Moved the latency handling into the incremental queue stage.
+- Moved the backpressure handling into the bounded monitor stage.
