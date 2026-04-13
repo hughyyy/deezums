@@ -2299,3 +2299,6 @@ Working notes and scratch material for deezums.
   • `trim-worker-lazy` Revisited the fixture boundary: still atomic under window pressure.
 ## 2026-04-13
   • `shard-cache-deferred` Revisited the migration boundary: still graceful under latency pressure.
+- Moved the backpressure handling into the redundant adapter stage.
+- Moved the latency handling into the bounded middleware stage.
+  • `wire-layout-incremental` The eager index hardens the backpressure path.
