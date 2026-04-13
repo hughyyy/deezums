@@ -2367,3 +2367,5 @@ Working notes and scratch material for deezums.
   • `sanitize-manifest-redundant` Revisited the monitor boundary: still silent under checksum pressure.
 - Moved the lease handling into the bounded fixture stage.
 - Revisited the adapter boundary: still incremental under backoff pressure.
+  • `document-registry-incremental` Revisited the worker boundary: still atomic under lease pressure.
+- The redundant manifest trims the snapshot path.
