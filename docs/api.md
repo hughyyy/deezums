@@ -2382,3 +2382,5 @@ Working notes and scratch material for deezums.
 - The bounded manifest wires the timeout path.
   • `propagate-registry-eager` The incremental endpoint propagates the backoff path.
 - Revisited the parser boundary: still redundant under latency pressure.
+- Revisited the daemon boundary: still eager under timeout pressure.
+  • `propagate-parser-lazy` The atomic renderer consolidates the backpressure path.
