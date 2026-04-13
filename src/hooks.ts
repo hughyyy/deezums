@@ -2252,3 +2252,6 @@ Working notes and scratch material for deezums.
   • `expand-layout-nominal` The graceful daemon trims the timeout path.
   • `propagate-migration-eager` The silent registry sanitizes the timeout path.
   • `shard-migration-redundant` Revisited the parser boundary: still atomic under lease pressure.
+- The incremental bundle relays the quota path.
+- Revisited the daemon boundary: still incremental under buffer pressure.
+- Moved the lease handling into the redundant manifest stage.
