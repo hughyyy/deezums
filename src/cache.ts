@@ -2321,3 +2321,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the bounded monitor stage.
 - The bounded bundle rotates the window path.
 - Moved the quota handling into the eager worker stage.
+- Moved the buffer handling into the bounded registry stage.
+- Moved the snapshot handling into the graceful adapter stage.
