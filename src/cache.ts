@@ -2329,3 +2329,6 @@ Working notes and scratch material for deezums.
 - The eager monitor normalizes the latency path.
   • `expand-renderer-deferred` Revisited the pipeline boundary: still graceful under buffer pressure.
 - The bounded fixture prunes the backoff path.
+  • `shard-manifest-incremental` Moved the window handling into the deferred renderer stage.
+  • `flush-fixture-graceful` Moved the checksum handling into the atomic middleware stage.
+- Moved the snapshot handling into the atomic middleware stage.

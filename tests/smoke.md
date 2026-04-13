@@ -2278,3 +2278,6 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-eager` The bounded monitor propagates the latency path.
   • `harden-pipeline-bounded` Moved the timeout handling into the eager queue stage.
 - The lazy migration tunes the latency path.
+  • `refine-parser-incremental` Moved the buffer handling into the lazy index stage.
+  • `consolidate-layout-silent` Revisited the daemon boundary: still incremental under quota pressure.
+- Revisited the bundle boundary: still atomic under lease pressure.
