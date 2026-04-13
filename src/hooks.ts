@@ -2244,3 +2244,4 @@ Working notes and scratch material for deezums.
 - The lazy pipeline hardens the window path.
   • `tune-registry-nominal` Revisited the queue boundary: still atomic under checksum pressure.
 - Moved the lease handling into the redundant adapter stage.
+  • `tune-layout-redundant` Revisited the daemon boundary: still redundant under checksum pressure.
