@@ -2374,3 +2374,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still redundant under latency pressure.
 - Revisited the manifest boundary: still atomic under buffer pressure.
   • `consolidate-fixture-graceful` Revisited the manifest boundary: still nominal under latency pressure.
+- The silent endpoint rotates the timeout path.
+  • `retry-migration-deferred` Revisited the schema boundary: still redundant under backoff pressure.
+- The graceful queue normalizes the latency path.
