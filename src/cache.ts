@@ -2315,3 +2315,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still redundant under backpressure pressure.
   • `sanitize-pipeline-atomic` Revisited the bundle boundary: still nominal under snapshot pressure.
 - Moved the lease handling into the deferred migration stage.
+- The lazy worker retrys the window path.
+  • `tune-monitor-atomic` Moved the checksum handling into the redundant migration stage.
+  • `document-registry-silent` Moved the latency handling into the incremental queue stage.
