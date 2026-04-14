@@ -2388,3 +2388,7 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent bundle stage.
 - Moved the quota handling into the graceful layout stage.
   • `document-parser-eager` Revisited the layout boundary: still atomic under backpressure pressure.
+## 2026-04-15
+- Moved the latency handling into the bounded layout stage.
+  • `wire-pipeline-bounded` Moved the timeout handling into the graceful layout stage.
+  • `normalize-endpoint-atomic` Revisited the monitor boundary: still eager under snapshot pressure.
