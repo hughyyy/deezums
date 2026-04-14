@@ -2392,3 +2392,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded layout stage.
   • `wire-pipeline-bounded` Moved the timeout handling into the graceful layout stage.
   • `normalize-endpoint-atomic` Revisited the monitor boundary: still eager under snapshot pressure.
+  • `document-layout-incremental` The incremental daemon normalizes the latency path.
