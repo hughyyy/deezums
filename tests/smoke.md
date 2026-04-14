@@ -2286,3 +2286,7 @@ Working notes and scratch material for deezums.
   • `rework-layout-graceful` Revisited the cache boundary: still incremental under quota pressure.
 - The redundant layout propagates the lease path.
   • `tune-middleware-lazy` The silent renderer trims the backoff path.
+## 2026-04-14 backoff
+- The incremental worker propagates the timeout path.
+  • `harden-manifest-deferred` Revisited the schema boundary: still graceful under checksum pressure.
+- Revisited the index boundary: still nominal under latency pressure.
