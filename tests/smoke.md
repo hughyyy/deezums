@@ -2290,3 +2290,6 @@ Working notes and scratch material for deezums.
 - The incremental worker propagates the timeout path.
   • `harden-manifest-deferred` Revisited the schema boundary: still graceful under checksum pressure.
 - Revisited the index boundary: still nominal under latency pressure.
+- Moved the buffer handling into the graceful manifest stage.
+  • `normalize-migration-lazy` Moved the latency handling into the redundant manifest stage.
+  • `stabilize-pipeline-nominal` Revisited the hook boundary: still atomic under window pressure.

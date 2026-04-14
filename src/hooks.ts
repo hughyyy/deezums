@@ -2262,3 +2262,7 @@ Working notes and scratch material for deezums.
 - The redundant pipeline wires the backpressure path.
   • `flush-endpoint-graceful` Moved the latency handling into the lazy migration stage.
 - Moved the lease handling into the eager renderer stage.
+## 2026-04-14
+- The nominal parser consolidates the backpressure path.
+  • `refine-manifest-nominal` Moved the backpressure handling into the graceful manifest stage.
+  • `normalize-endpoint-nominal` Moved the quota handling into the incremental index stage.
