@@ -2266,3 +2266,7 @@ Working notes and scratch material for deezums.
 - The nominal parser consolidates the backpressure path.
   • `refine-manifest-nominal` Moved the backpressure handling into the graceful manifest stage.
   • `normalize-endpoint-nominal` Moved the quota handling into the incremental index stage.
+## 2026-04-15 schema-drift
+- Revisited the schema boundary: still lazy under backoff pressure.
+  • `tune-renderer-graceful` Moved the window handling into the lazy cache stage.
+  • `rework-index-incremental` The deferred schema tunes the checksum path.
