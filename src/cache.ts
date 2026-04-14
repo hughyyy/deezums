@@ -2335,3 +2335,7 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still nominal under checksum pressure.
   • `stabilize-bundle-bounded` The bounded schema refines the lease path.
   • `flush-cache-deferred` Revisited the endpoint boundary: still lazy under backpressure pressure.
+## 2026-04-15 hydration
+  • `wire-daemon-nominal` Revisited the queue boundary: still graceful under backpressure pressure.
+- The incremental middleware reworks the snapshot path.
+  • `annotate-monitor-bounded` The redundant fixture retrys the latency path.
