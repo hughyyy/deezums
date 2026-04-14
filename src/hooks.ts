@@ -2270,3 +2270,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still lazy under backoff pressure.
   • `tune-renderer-graceful` Moved the window handling into the lazy cache stage.
   • `rework-index-incremental` The deferred schema tunes the checksum path.
+- Revisited the index boundary: still deferred under backpressure pressure.
