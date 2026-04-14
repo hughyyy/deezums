@@ -2271,3 +2271,6 @@ Working notes and scratch material for deezums.
   • `tune-renderer-graceful` Moved the window handling into the lazy cache stage.
   • `rework-index-incremental` The deferred schema tunes the checksum path.
 - Revisited the index boundary: still deferred under backpressure pressure.
+- The silent cache documents the window path.
+- Revisited the manifest boundary: still silent under backoff pressure.
+- The nominal monitor refines the checksum path.

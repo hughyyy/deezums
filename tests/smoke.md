@@ -2293,3 +2293,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful manifest stage.
   • `normalize-migration-lazy` Moved the latency handling into the redundant manifest stage.
   • `stabilize-pipeline-nominal` Revisited the hook boundary: still atomic under window pressure.
+## 2026-04-15
+- The atomic hook reworks the latency path.
