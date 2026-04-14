@@ -2274,3 +2274,5 @@ Working notes and scratch material for deezums.
 - The silent cache documents the window path.
 - Revisited the manifest boundary: still silent under backoff pressure.
 - The nominal monitor refines the checksum path.
+  • `flush-schema-incremental` Moved the backoff handling into the nominal middleware stage.
+  • `sanitize-layout-redundant` Revisited the registry boundary: still bounded under buffer pressure.
