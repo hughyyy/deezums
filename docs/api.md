@@ -2400,3 +2400,5 @@ Working notes and scratch material for deezums.
   • `normalize-migration-graceful` The incremental daemon sanitizes the lease path.
   • `document-bundle-lazy` Revisited the pipeline boundary: still nominal under lease pressure.
   • `shard-index-redundant` The incremental daemon retrys the checksum path.
+  • `shard-hook-silent` The eager registry reworks the quota path.
+- The lazy registry hardens the window path.
