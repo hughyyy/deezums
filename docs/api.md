@@ -2412,3 +2412,6 @@ Working notes and scratch material for deezums.
 - The lazy monitor documents the timeout path.
 - Revisited the schema boundary: still nominal under snapshot pressure.
 - Revisited the fixture boundary: still graceful under checksum pressure.
+  • `rework-bundle-deferred` The bounded hook stabilizes the timeout path.
+  • `rotate-parser-lazy` Revisited the adapter boundary: still atomic under quota pressure.
+  • `retry-layout-atomic` Revisited the endpoint boundary: still redundant under checksum pressure.
