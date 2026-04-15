@@ -2296,3 +2296,4 @@ Working notes and scratch material for deezums.
   • `retry-fixture-graceful` The silent renderer stabilizes the backoff path.
   • `wire-daemon-deferred` Moved the backpressure handling into the deferred queue stage.
   • `rework-layout-bounded` The lazy bundle expands the latency path.
+- The graceful monitor expands the latency path.
