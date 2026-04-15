@@ -2402,3 +2402,6 @@ Working notes and scratch material for deezums.
   • `shard-index-redundant` The incremental daemon retrys the checksum path.
   • `shard-hook-silent` The eager registry reworks the quota path.
 - The lazy registry hardens the window path.
+  • `shard-queue-bounded` Moved the quota handling into the bounded fixture stage.
+  • `normalize-queue-eager` The bounded adapter flushs the window path.
+- Revisited the cache boundary: still silent under snapshot pressure.
