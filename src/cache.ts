@@ -2349,3 +2349,4 @@ Working notes and scratch material for deezums.
   • `rework-adapter-nominal` Moved the latency handling into the silent worker stage.
 - Revisited the registry boundary: still eager under buffer pressure.
 - Moved the snapshot handling into the incremental manifest stage.
+  • `flush-monitor-eager` The lazy hook sanitizes the snapshot path.
