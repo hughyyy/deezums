@@ -2307,3 +2307,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager index stage.
   • `refine-manifest-incremental` Revisited the renderer boundary: still deferred under timeout pressure.
   • `prune-daemon-graceful` The eager middleware annotates the lease path.
+  • `stabilize-monitor-lazy` The nominal fixture flushs the backpressure path.
