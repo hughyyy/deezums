@@ -2306,3 +2306,6 @@ Working notes and scratch material for deezums.
   • `annotate-bundle-deferred` The deferred registry sanitizes the lease path.
 - The nominal schema consolidates the quota path.
   • `wire-worker-incremental` The lazy middleware wires the latency path.
+- Moved the buffer handling into the eager registry stage.
+- Moved the backpressure handling into the silent renderer stage.
+- Moved the snapshot handling into the deferred adapter stage.
