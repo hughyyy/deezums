@@ -2281,3 +2281,5 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-eager` The incremental parser expands the buffer path.
 - Revisited the pipeline boundary: still silent under quota pressure.
 - The deferred adapter rotates the quota path.
+- The graceful queue hardens the snapshot path.
+- The eager queue consolidates the backpressure path.
