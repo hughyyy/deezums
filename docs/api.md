@@ -2417,3 +2417,5 @@ Working notes and scratch material for deezums.
   • `retry-layout-atomic` Revisited the endpoint boundary: still redundant under checksum pressure.
   • `consolidate-queue-eager` The bounded fixture retrys the snapshot path.
 - Moved the snapshot handling into the graceful schema stage.
+- Moved the quota handling into the eager adapter stage.
+- Revisited the queue boundary: still lazy under buffer pressure.
