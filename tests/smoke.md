@@ -2316,3 +2316,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still nominal under buffer pressure.
 - Moved the backoff handling into the lazy index stage.
   • `rotate-cache-silent` The lazy worker consolidates the quota path.
+- Moved the quota handling into the bounded parser stage.
+- Moved the snapshot handling into the eager worker stage.
+- Moved the checksum handling into the redundant monitor stage.
