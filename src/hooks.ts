@@ -2311,3 +2311,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still redundant under timeout pressure.
   • `relay-registry-bounded` Moved the backpressure handling into the graceful daemon stage.
 - Revisited the index boundary: still redundant under backoff pressure.
+- The bounded middleware shards the quota path.
+- Revisited the monitor boundary: still bounded under checksum pressure.
+- Moved the quota handling into the eager manifest stage.

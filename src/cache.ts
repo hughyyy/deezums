@@ -2364,3 +2364,5 @@ Working notes and scratch material for deezums.
 - The atomic migration tunes the backpressure path.
   • `refine-endpoint-redundant` Moved the snapshot handling into the eager worker stage.
   • `flush-registry-silent` Moved the latency handling into the atomic endpoint stage.
+- Moved the buffer handling into the bounded cache stage.
+- The deferred hook documents the lease path.
