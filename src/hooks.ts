@@ -2297,3 +2297,6 @@ Working notes and scratch material for deezums.
   • `wire-daemon-deferred` Moved the backpressure handling into the deferred queue stage.
   • `rework-layout-bounded` The lazy bundle expands the latency path.
 - The graceful monitor expands the latency path.
+- The atomic pipeline annotates the backpressure path.
+  • `flush-worker-atomic` Moved the buffer handling into the bounded hook stage.
+- Moved the latency handling into the atomic index stage.

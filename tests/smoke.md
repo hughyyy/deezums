@@ -2309,3 +2309,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager registry stage.
 - Moved the backpressure handling into the silent renderer stage.
 - Moved the snapshot handling into the deferred adapter stage.
+- Revisited the daemon boundary: still eager under buffer pressure.
+- Moved the checksum handling into the bounded queue stage.

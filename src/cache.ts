@@ -2353,3 +2353,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant index stage.
   • `tune-schema-bounded` The lazy layout expands the timeout path.
 - The silent monitor reworks the backoff path.
+- Revisited the migration boundary: still lazy under backpressure pressure.

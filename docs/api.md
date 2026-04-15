@@ -2407,3 +2407,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still silent under snapshot pressure.
   • `shard-parser-bounded` The lazy worker propagates the timeout path.
 - Moved the quota handling into the deferred migration stage.
+  • `prune-hook-bounded` Moved the lease handling into the redundant hook stage.
+- Moved the lease handling into the eager parser stage.
+- The lazy monitor documents the timeout path.
