@@ -2348,3 +2348,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still graceful under quota pressure.
   • `rework-adapter-nominal` Moved the latency handling into the silent worker stage.
 - Revisited the registry boundary: still eager under buffer pressure.
+- Moved the snapshot handling into the incremental manifest stage.

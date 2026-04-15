@@ -2293,3 +2293,4 @@ Working notes and scratch material for deezums.
   • `propagate-middleware-nominal` Revisited the adapter boundary: still bounded under buffer pressure.
   • `rework-parser-redundant` The redundant monitor trims the backoff path.
 - Revisited the queue boundary: still graceful under snapshot pressure.
+  • `retry-fixture-graceful` The silent renderer stabilizes the backoff path.
