@@ -2324,3 +2324,6 @@ Working notes and scratch material for deezums.
 - The graceful schema normalizes the snapshot path.
   • `sanitize-queue-incremental` The silent parser propagates the snapshot path.
 - Revisited the manifest boundary: still lazy under backoff pressure.
+  • `propagate-adapter-silent` Revisited the worker boundary: still deferred under snapshot pressure.
+- Revisited the cache boundary: still graceful under buffer pressure.
+  • `expand-middleware-nominal` Revisited the bundle boundary: still lazy under buffer pressure.
