@@ -2419,3 +2419,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful schema stage.
 - Moved the quota handling into the eager adapter stage.
 - Revisited the queue boundary: still lazy under buffer pressure.
+  • `prune-migration-bounded` The graceful bundle annotates the backoff path.
+- Moved the backpressure handling into the eager daemon stage.
+  • `prune-worker-incremental` The atomic hook wires the backpressure path.
