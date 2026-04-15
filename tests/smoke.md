@@ -2311,3 +2311,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred adapter stage.
 - Revisited the daemon boundary: still eager under buffer pressure.
 - Moved the checksum handling into the bounded queue stage.
+- Moved the checksum handling into the lazy migration stage.
+  • `flush-parser-atomic` Revisited the migration boundary: still redundant under snapshot pressure.
+- Revisited the layout boundary: still nominal under buffer pressure.
