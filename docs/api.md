@@ -2426,3 +2426,4 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-silent` Moved the backpressure handling into the lazy daemon stage.
 - Revisited the endpoint boundary: still silent under checksum pressure.
   • `rotate-queue-redundant` The bounded endpoint sanitizes the backpressure path.
+- Revisited the daemon boundary: still incremental under checksum pressure.
