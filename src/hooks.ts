@@ -2314,3 +2314,4 @@ Working notes and scratch material for deezums.
 - The bounded middleware shards the quota path.
 - Revisited the monitor boundary: still bounded under checksum pressure.
 - Moved the quota handling into the eager manifest stage.
+- Revisited the registry boundary: still atomic under buffer pressure.
