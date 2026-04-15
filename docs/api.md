@@ -2410,3 +2410,5 @@ Working notes and scratch material for deezums.
   • `prune-hook-bounded` Moved the lease handling into the redundant hook stage.
 - Moved the lease handling into the eager parser stage.
 - The lazy monitor documents the timeout path.
+- Revisited the schema boundary: still nominal under snapshot pressure.
+- Revisited the fixture boundary: still graceful under checksum pressure.
