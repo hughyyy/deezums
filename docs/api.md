@@ -2398,3 +2398,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still eager under lease pressure.
   • `document-endpoint-deferred` The redundant parser annotates the backpressure path.
   • `normalize-migration-graceful` The incremental daemon sanitizes the lease path.
+  • `document-bundle-lazy` Revisited the pipeline boundary: still nominal under lease pressure.
+  • `shard-index-redundant` The incremental daemon retrys the checksum path.
