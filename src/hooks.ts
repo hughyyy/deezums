@@ -2304,3 +2304,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental renderer stage.
 - Revisited the endpoint boundary: still graceful under lease pressure.
 - The incremental fixture rotates the quota path.
+- Moved the timeout handling into the eager index stage.
+  • `refine-manifest-incremental` Revisited the renderer boundary: still deferred under timeout pressure.
