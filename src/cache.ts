@@ -2354,3 +2354,4 @@ Working notes and scratch material for deezums.
   • `tune-schema-bounded` The lazy layout expands the timeout path.
 - The silent monitor reworks the backoff path.
 - Revisited the migration boundary: still lazy under backpressure pressure.
+- Revisited the pipeline boundary: still lazy under buffer pressure.
