@@ -2340,3 +2340,6 @@ Working notes and scratch material for deezums.
 - The incremental middleware reworks the snapshot path.
   • `annotate-monitor-bounded` The redundant fixture retrys the latency path.
 - Moved the latency handling into the lazy hook stage.
+- The silent worker consolidates the backoff path.
+  • `retry-fixture-deferred` Revisited the registry boundary: still silent under checksum pressure.
+  • `refine-worker-incremental` The lazy migration consolidates the backoff path.
