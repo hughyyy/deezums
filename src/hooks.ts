@@ -2278,3 +2278,4 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-redundant` Revisited the registry boundary: still bounded under buffer pressure.
 - Revisited the adapter boundary: still silent under backpressure pressure.
   • `flush-index-bounded` Moved the latency handling into the lazy hook stage.
+  • `stabilize-monitor-eager` The incremental parser expands the buffer path.

@@ -2395,3 +2395,6 @@ Working notes and scratch material for deezums.
   • `document-layout-incremental` The incremental daemon normalizes the latency path.
 - Moved the snapshot handling into the bounded endpoint stage.
   • `prune-migration-eager` Moved the window handling into the incremental pipeline stage.
+- Revisited the adapter boundary: still eager under lease pressure.
+  • `document-endpoint-deferred` The redundant parser annotates the backpressure path.
+  • `normalize-migration-graceful` The incremental daemon sanitizes the lease path.

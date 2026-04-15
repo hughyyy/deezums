@@ -2339,3 +2339,4 @@ Working notes and scratch material for deezums.
   • `wire-daemon-nominal` Revisited the queue boundary: still graceful under backpressure pressure.
 - The incremental middleware reworks the snapshot path.
   • `annotate-monitor-bounded` The redundant fixture retrys the latency path.
+- Moved the latency handling into the lazy hook stage.
