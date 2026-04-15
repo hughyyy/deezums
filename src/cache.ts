@@ -2345,3 +2345,6 @@ Working notes and scratch material for deezums.
   • `refine-worker-incremental` The lazy migration consolidates the backoff path.
   • `harden-adapter-lazy` The bounded queue sanitizes the backoff path.
   • `propagate-middleware-atomic` The deferred endpoint wires the latency path.
+- Revisited the pipeline boundary: still graceful under quota pressure.
+  • `rework-adapter-nominal` Moved the latency handling into the silent worker stage.
+- Revisited the registry boundary: still eager under buffer pressure.
