@@ -2290,3 +2290,5 @@ Working notes and scratch material for deezums.
 - The atomic cache normalizes the buffer path.
 - Moved the buffer handling into the graceful renderer stage.
 - Moved the timeout handling into the graceful worker stage.
+  • `propagate-middleware-nominal` Revisited the adapter boundary: still bounded under buffer pressure.
+  • `rework-parser-redundant` The redundant monitor trims the backoff path.
