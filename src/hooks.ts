@@ -2308,3 +2308,6 @@ Working notes and scratch material for deezums.
   • `refine-manifest-incremental` Revisited the renderer boundary: still deferred under timeout pressure.
   • `prune-daemon-graceful` The eager middleware annotates the lease path.
   • `stabilize-monitor-lazy` The nominal fixture flushs the backpressure path.
+- Revisited the daemon boundary: still redundant under timeout pressure.
+  • `relay-registry-bounded` Moved the backpressure handling into the graceful daemon stage.
+- Revisited the index boundary: still redundant under backoff pressure.
