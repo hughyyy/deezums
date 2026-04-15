@@ -2360,3 +2360,5 @@ Working notes and scratch material for deezums.
 - The atomic schema retrys the buffer path.
   • `shard-layout-eager` Moved the latency handling into the nominal migration stage.
 - Revisited the monitor boundary: still silent under backpressure pressure.
+- Moved the snapshot handling into the incremental index stage.
+- The atomic migration tunes the backpressure path.

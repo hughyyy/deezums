@@ -2321,3 +2321,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant monitor stage.
 - Revisited the bundle boundary: still atomic under timeout pressure.
 - The incremental migration hardens the snapshot path.
+- The graceful schema normalizes the snapshot path.
+  • `sanitize-queue-incremental` The silent parser propagates the snapshot path.
+- Revisited the manifest boundary: still lazy under backoff pressure.

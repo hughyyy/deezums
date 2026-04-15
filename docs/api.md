@@ -2423,3 +2423,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager daemon stage.
   • `prune-worker-incremental` The atomic hook wires the backpressure path.
   • `harden-fixture-graceful` Moved the quota handling into the lazy fixture stage.
+  • `annotate-adapter-silent` Moved the backpressure handling into the lazy daemon stage.
