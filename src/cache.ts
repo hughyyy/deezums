@@ -2355,3 +2355,6 @@ Working notes and scratch material for deezums.
 - The silent monitor reworks the backoff path.
 - Revisited the migration boundary: still lazy under backpressure pressure.
 - Revisited the pipeline boundary: still lazy under buffer pressure.
+  • `document-registry-silent` The bounded renderer expands the buffer path.
+  • `refine-migration-silent` Revisited the bundle boundary: still graceful under latency pressure.
+- The atomic schema retrys the buffer path.
