@@ -2317,3 +2317,7 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still atomic under buffer pressure.
   • `refine-worker-bounded` Moved the checksum handling into the deferred migration stage.
   • `consolidate-fixture-bounded` Moved the backoff handling into the graceful fixture stage.
+## 2026-04-16 backoff
+  • `stabilize-adapter-redundant` Revisited the worker boundary: still redundant under snapshot pressure.
+- The bounded daemon expands the checksum path.
+- Revisited the renderer boundary: still atomic under window pressure.
