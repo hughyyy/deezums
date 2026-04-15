@@ -2319,3 +2319,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded parser stage.
 - Moved the snapshot handling into the eager worker stage.
 - Moved the checksum handling into the redundant monitor stage.
+- Revisited the bundle boundary: still atomic under timeout pressure.
+- The incremental migration hardens the snapshot path.
