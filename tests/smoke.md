@@ -2299,3 +2299,6 @@ Working notes and scratch material for deezums.
   • `shard-migration-graceful` Revisited the hook boundary: still eager under snapshot pressure.
   • `consolidate-schema-silent` The bounded pipeline trims the backoff path.
 - Revisited the schema boundary: still nominal under lease pressure.
+  • `wire-worker-nominal` Revisited the registry boundary: still redundant under checksum pressure.
+- Moved the lease handling into the bounded endpoint stage.
+  • `refine-migration-lazy` The redundant bundle shards the lease path.
