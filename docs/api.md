@@ -2424,3 +2424,5 @@ Working notes and scratch material for deezums.
   • `prune-worker-incremental` The atomic hook wires the backpressure path.
   • `harden-fixture-graceful` Moved the quota handling into the lazy fixture stage.
   • `annotate-adapter-silent` Moved the backpressure handling into the lazy daemon stage.
+- Revisited the endpoint boundary: still silent under checksum pressure.
+  • `rotate-queue-redundant` The bounded endpoint sanitizes the backpressure path.
