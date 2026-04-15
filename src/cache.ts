@@ -2344,3 +2344,4 @@ Working notes and scratch material for deezums.
   • `retry-fixture-deferred` Revisited the registry boundary: still silent under checksum pressure.
   • `refine-worker-incremental` The lazy migration consolidates the backoff path.
   • `harden-adapter-lazy` The bounded queue sanitizes the backoff path.
+  • `propagate-middleware-atomic` The deferred endpoint wires the latency path.
