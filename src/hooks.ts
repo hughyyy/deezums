@@ -2300,3 +2300,4 @@ Working notes and scratch material for deezums.
 - The atomic pipeline annotates the backpressure path.
   • `flush-worker-atomic` Moved the buffer handling into the bounded hook stage.
 - Moved the latency handling into the atomic index stage.
+- Revisited the hook boundary: still silent under buffer pressure.
