@@ -2362,3 +2362,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still silent under backpressure pressure.
 - Moved the snapshot handling into the incremental index stage.
 - The atomic migration tunes the backpressure path.
+  • `refine-endpoint-redundant` Moved the snapshot handling into the eager worker stage.
+  • `flush-registry-silent` Moved the latency handling into the atomic endpoint stage.
