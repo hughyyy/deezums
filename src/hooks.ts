@@ -2315,3 +2315,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still bounded under checksum pressure.
 - Moved the quota handling into the eager manifest stage.
 - Revisited the registry boundary: still atomic under buffer pressure.
+  • `refine-worker-bounded` Moved the checksum handling into the deferred migration stage.
+  • `consolidate-fixture-bounded` Moved the backoff handling into the graceful fixture stage.
