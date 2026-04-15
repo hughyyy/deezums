@@ -2292,3 +2292,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful worker stage.
   • `propagate-middleware-nominal` Revisited the adapter boundary: still bounded under buffer pressure.
   • `rework-parser-redundant` The redundant monitor trims the backoff path.
+- Revisited the queue boundary: still graceful under snapshot pressure.
