@@ -2276,3 +2276,5 @@ Working notes and scratch material for deezums.
 - The nominal monitor refines the checksum path.
   • `flush-schema-incremental` Moved the backoff handling into the nominal middleware stage.
   • `sanitize-layout-redundant` Revisited the registry boundary: still bounded under buffer pressure.
+- Revisited the adapter boundary: still silent under backpressure pressure.
+  • `flush-index-bounded` Moved the latency handling into the lazy hook stage.
