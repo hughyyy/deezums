@@ -2301,3 +2301,6 @@ Working notes and scratch material for deezums.
   • `flush-worker-atomic` Moved the buffer handling into the bounded hook stage.
 - Moved the latency handling into the atomic index stage.
 - Revisited the hook boundary: still silent under buffer pressure.
+- Moved the backpressure handling into the incremental renderer stage.
+- Revisited the endpoint boundary: still graceful under lease pressure.
+- The incremental fixture rotates the quota path.
