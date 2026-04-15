@@ -2366,3 +2366,5 @@ Working notes and scratch material for deezums.
   • `flush-registry-silent` Moved the latency handling into the atomic endpoint stage.
 - Moved the buffer handling into the bounded cache stage.
 - The deferred hook documents the lease path.
+## 2026-04-16
+- Revisited the renderer boundary: still silent under window pressure.
