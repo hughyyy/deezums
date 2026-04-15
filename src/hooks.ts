@@ -2279,3 +2279,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still silent under backpressure pressure.
   • `flush-index-bounded` Moved the latency handling into the lazy hook stage.
   • `stabilize-monitor-eager` The incremental parser expands the buffer path.
+- Revisited the pipeline boundary: still silent under quota pressure.
+- The deferred adapter rotates the quota path.
