@@ -2295,3 +2295,6 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-nominal` Revisited the hook boundary: still atomic under window pressure.
 ## 2026-04-15
 - The atomic hook reworks the latency path.
+  • `normalize-index-redundant` Moved the quota handling into the nominal queue stage.
+  • `shard-migration-graceful` Revisited the hook boundary: still eager under snapshot pressure.
+  • `consolidate-schema-silent` The bounded pipeline trims the backoff path.
