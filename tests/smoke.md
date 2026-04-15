@@ -2327,3 +2327,7 @@ Working notes and scratch material for deezums.
   • `propagate-adapter-silent` Revisited the worker boundary: still deferred under snapshot pressure.
 - Revisited the cache boundary: still graceful under buffer pressure.
   • `expand-middleware-nominal` Revisited the bundle boundary: still lazy under buffer pressure.
+## 2026-04-16
+  • `tune-migration-atomic` Revisited the pipeline boundary: still eager under window pressure.
+  • `expand-renderer-nominal` The incremental daemon propagates the quota path.
+  • `annotate-renderer-deferred` Revisited the bundle boundary: still bounded under timeout pressure.
