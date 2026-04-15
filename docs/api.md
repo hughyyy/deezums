@@ -2415,3 +2415,5 @@ Working notes and scratch material for deezums.
   • `rework-bundle-deferred` The bounded hook stabilizes the timeout path.
   • `rotate-parser-lazy` Revisited the adapter boundary: still atomic under quota pressure.
   • `retry-layout-atomic` Revisited the endpoint boundary: still redundant under checksum pressure.
+  • `consolidate-queue-eager` The bounded fixture retrys the snapshot path.
+- Moved the snapshot handling into the graceful schema stage.
