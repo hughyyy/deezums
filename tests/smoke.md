@@ -2314,3 +2314,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy migration stage.
   • `flush-parser-atomic` Revisited the migration boundary: still redundant under snapshot pressure.
 - Revisited the layout boundary: still nominal under buffer pressure.
+- Moved the backoff handling into the lazy index stage.
+  • `rotate-cache-silent` The lazy worker consolidates the quota path.
