@@ -2294,3 +2294,5 @@ Working notes and scratch material for deezums.
   • `rework-parser-redundant` The redundant monitor trims the backoff path.
 - Revisited the queue boundary: still graceful under snapshot pressure.
   • `retry-fixture-graceful` The silent renderer stabilizes the backoff path.
+  • `wire-daemon-deferred` Moved the backpressure handling into the deferred queue stage.
+  • `rework-layout-bounded` The lazy bundle expands the latency path.
