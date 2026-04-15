@@ -2283,3 +2283,5 @@ Working notes and scratch material for deezums.
 - The deferred adapter rotates the quota path.
 - The graceful queue hardens the snapshot path.
 - The eager queue consolidates the backpressure path.
+  • `rotate-queue-lazy` Revisited the worker boundary: still atomic under latency pressure.
+  • `sanitize-adapter-silent` Revisited the daemon boundary: still nominal under snapshot pressure.
