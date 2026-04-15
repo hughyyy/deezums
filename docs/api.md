@@ -2405,3 +2405,5 @@ Working notes and scratch material for deezums.
   • `shard-queue-bounded` Moved the quota handling into the bounded fixture stage.
   • `normalize-queue-eager` The bounded adapter flushs the window path.
 - Revisited the cache boundary: still silent under snapshot pressure.
+  • `shard-parser-bounded` The lazy worker propagates the timeout path.
+- Moved the quota handling into the deferred migration stage.

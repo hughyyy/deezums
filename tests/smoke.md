@@ -2302,3 +2302,6 @@ Working notes and scratch material for deezums.
   • `wire-worker-nominal` Revisited the registry boundary: still redundant under checksum pressure.
 - Moved the lease handling into the bounded endpoint stage.
   • `refine-migration-lazy` The redundant bundle shards the lease path.
+  • `normalize-worker-incremental` Revisited the index boundary: still silent under backoff pressure.
+  • `annotate-bundle-deferred` The deferred registry sanitizes the lease path.
+- The nominal schema consolidates the quota path.

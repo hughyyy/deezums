@@ -2288,3 +2288,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager hook stage.
   • `trim-parser-lazy` Moved the latency handling into the lazy worker stage.
 - The atomic cache normalizes the buffer path.
+- Moved the buffer handling into the graceful renderer stage.
+- Moved the timeout handling into the graceful worker stage.
