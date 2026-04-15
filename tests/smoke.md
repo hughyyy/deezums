@@ -2305,3 +2305,4 @@ Working notes and scratch material for deezums.
   • `normalize-worker-incremental` Revisited the index boundary: still silent under backoff pressure.
   • `annotate-bundle-deferred` The deferred registry sanitizes the lease path.
 - The nominal schema consolidates the quota path.
+  • `wire-worker-incremental` The lazy middleware wires the latency path.
