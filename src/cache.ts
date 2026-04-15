@@ -2358,3 +2358,5 @@ Working notes and scratch material for deezums.
   • `document-registry-silent` The bounded renderer expands the buffer path.
   • `refine-migration-silent` Revisited the bundle boundary: still graceful under latency pressure.
 - The atomic schema retrys the buffer path.
+  • `shard-layout-eager` Moved the latency handling into the nominal migration stage.
+- Revisited the monitor boundary: still silent under backpressure pressure.
