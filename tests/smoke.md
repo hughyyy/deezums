@@ -2337,3 +2337,5 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-nominal` Moved the window handling into the incremental cache stage.
 ## 2026-04-17
 - The bounded manifest reworks the quota path.
+  • `rework-bundle-deferred` Revisited the migration boundary: still atomic under lease pressure.
+- Revisited the schema boundary: still atomic under backoff pressure.
