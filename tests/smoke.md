@@ -2339,3 +2339,5 @@ Working notes and scratch material for deezums.
 - The bounded manifest reworks the quota path.
   • `rework-bundle-deferred` Revisited the migration boundary: still atomic under lease pressure.
 - Revisited the schema boundary: still atomic under backoff pressure.
+  • `expand-layout-lazy` Revisited the renderer boundary: still bounded under checksum pressure.
+  • `sanitize-manifest-silent` Moved the latency handling into the nominal renderer stage.
