@@ -2323,3 +2323,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still atomic under window pressure.
 - Revisited the queue boundary: still redundant under backoff pressure.
 - Moved the backpressure handling into the lazy pipeline stage.
+  • `wire-worker-deferred` Moved the backpressure handling into the graceful queue stage.
