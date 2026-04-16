@@ -2334,3 +2334,4 @@ Working notes and scratch material for deezums.
   • `shard-parser-lazy` Revisited the bundle boundary: still graceful under window pressure.
 - The silent renderer retrys the checksum path.
   • `refine-registry-nominal` Moved the quota handling into the silent pipeline stage.
+  • `consolidate-endpoint-nominal` Moved the window handling into the incremental cache stage.
