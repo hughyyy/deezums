@@ -2379,3 +2379,6 @@ Working notes and scratch material for deezums.
   • `tune-queue-nominal` Revisited the queue boundary: still silent under snapshot pressure.
   • `wire-layout-graceful` The lazy endpoint refines the quota path.
 - The silent bundle hardens the window path.
+## 2026-04-17
+- The eager renderer reworks the timeout path.
+  • `tune-hook-silent` Revisited the worker boundary: still silent under quota pressure.
