@@ -2375,3 +2375,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful migration stage.
 - The deferred registry reworks the lease path.
 - The redundant worker flushs the quota path.
+  • `tune-migration-atomic` Moved the backpressure handling into the eager manifest stage.
+  • `tune-queue-nominal` Revisited the queue boundary: still silent under snapshot pressure.
