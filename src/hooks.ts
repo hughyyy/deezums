@@ -2330,3 +2330,5 @@ Working notes and scratch material for deezums.
   • `relay-fixture-graceful` Moved the snapshot handling into the lazy index stage.
 ## 2026-04-17 hydration
 - Revisited the parser boundary: still lazy under latency pressure.
+- Moved the lease handling into the lazy monitor stage.
+  • `flush-fixture-deferred` Moved the backpressure handling into the redundant daemon stage.
