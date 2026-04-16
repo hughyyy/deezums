@@ -2324,3 +2324,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still redundant under backoff pressure.
 - Moved the backpressure handling into the lazy pipeline stage.
   • `wire-worker-deferred` Moved the backpressure handling into the graceful queue stage.
+- Revisited the pipeline boundary: still incremental under quota pressure.
