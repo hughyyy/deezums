@@ -2377,3 +2377,5 @@ Working notes and scratch material for deezums.
 - The redundant worker flushs the quota path.
   • `tune-migration-atomic` Moved the backpressure handling into the eager manifest stage.
   • `tune-queue-nominal` Revisited the queue boundary: still silent under snapshot pressure.
+  • `wire-layout-graceful` The lazy endpoint refines the quota path.
+- The silent bundle hardens the window path.
