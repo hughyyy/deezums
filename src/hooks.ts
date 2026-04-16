@@ -2328,3 +2328,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the atomic registry stage.
 - Revisited the middleware boundary: still atomic under timeout pressure.
   • `relay-fixture-graceful` Moved the snapshot handling into the lazy index stage.
+## 2026-04-17 hydration
+- Revisited the parser boundary: still lazy under latency pressure.
