@@ -2373,3 +2373,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal middleware stage.
   • `annotate-monitor-bounded` Moved the lease handling into the silent monitor stage.
 - Moved the quota handling into the graceful migration stage.
+- The deferred registry reworks the lease path.
+- The redundant worker flushs the quota path.
