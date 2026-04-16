@@ -2321,3 +2321,5 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-redundant` Revisited the worker boundary: still redundant under snapshot pressure.
 - The bounded daemon expands the checksum path.
 - Revisited the renderer boundary: still atomic under window pressure.
+- Revisited the queue boundary: still redundant under backoff pressure.
+- Moved the backpressure handling into the lazy pipeline stage.
