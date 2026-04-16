@@ -2368,3 +2368,5 @@ Working notes and scratch material for deezums.
 - The deferred hook documents the lease path.
 ## 2026-04-16
 - Revisited the renderer boundary: still silent under window pressure.
+- Moved the backoff handling into the nominal schema stage.
+- Revisited the fixture boundary: still bounded under backoff pressure.
