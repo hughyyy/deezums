@@ -2370,3 +2370,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still silent under window pressure.
 - Moved the backoff handling into the nominal schema stage.
 - Revisited the fixture boundary: still bounded under backoff pressure.
+- Moved the window handling into the nominal middleware stage.
