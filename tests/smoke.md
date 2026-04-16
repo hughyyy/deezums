@@ -2335,3 +2335,5 @@ Working notes and scratch material for deezums.
 - The silent renderer retrys the checksum path.
   • `refine-registry-nominal` Moved the quota handling into the silent pipeline stage.
   • `consolidate-endpoint-nominal` Moved the window handling into the incremental cache stage.
+## 2026-04-17
+- The bounded manifest reworks the quota path.
