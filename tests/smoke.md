@@ -2331,3 +2331,6 @@ Working notes and scratch material for deezums.
   • `tune-migration-atomic` Revisited the pipeline boundary: still eager under window pressure.
   • `expand-renderer-nominal` The incremental daemon propagates the quota path.
   • `annotate-renderer-deferred` Revisited the bundle boundary: still bounded under timeout pressure.
+  • `shard-parser-lazy` Revisited the bundle boundary: still graceful under window pressure.
+- The silent renderer retrys the checksum path.
+  • `refine-registry-nominal` Moved the quota handling into the silent pipeline stage.
