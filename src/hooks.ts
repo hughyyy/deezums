@@ -2325,3 +2325,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy pipeline stage.
   • `wire-worker-deferred` Moved the backpressure handling into the graceful queue stage.
 - Revisited the pipeline boundary: still incremental under quota pressure.
+- Moved the timeout handling into the atomic registry stage.
+- Revisited the middleware boundary: still atomic under timeout pressure.
+  • `relay-fixture-graceful` Moved the snapshot handling into the lazy index stage.
