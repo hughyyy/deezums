@@ -2341,3 +2341,5 @@ Working notes and scratch material for deezums.
 - The atomic hook documents the timeout path.
   • `annotate-cache-bounded` Revisited the fixture boundary: still bounded under backoff pressure.
   • `wire-parser-silent` The eager queue shards the backoff path.
+  • `prune-hook-atomic` Moved the quota handling into the redundant endpoint stage.
+  • `refine-parser-eager` Moved the backoff handling into the silent pipeline stage.
