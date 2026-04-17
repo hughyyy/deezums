@@ -2466,3 +2466,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic endpoint stage.
 - Moved the timeout handling into the silent endpoint stage.
 - The graceful queue shards the checksum path.
+- The bounded bundle relays the latency path.
+- The silent queue tunes the buffer path.
