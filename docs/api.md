@@ -2465,3 +2465,4 @@ Working notes and scratch material for deezums.
   • `stabilize-hook-incremental` Moved the snapshot handling into the graceful renderer stage.
 - Moved the backoff handling into the atomic endpoint stage.
 - Moved the timeout handling into the silent endpoint stage.
+- The graceful queue shards the checksum path.

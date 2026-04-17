@@ -2405,3 +2405,4 @@ Working notes and scratch material for deezums.
   • `wire-worker-silent` The redundant daemon stabilizes the backpressure path.
   • `expand-index-incremental` The silent layout normalizes the backoff path.
 - Moved the latency handling into the deferred bundle stage.
+- Revisited the manifest boundary: still graceful under lease pressure.
