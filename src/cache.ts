@@ -2391,3 +2391,4 @@ Working notes and scratch material for deezums.
   • `wire-renderer-incremental` The graceful manifest documents the checksum path.
 - Revisited the monitor boundary: still graceful under timeout pressure.
   • `retry-migration-lazy` Moved the quota handling into the bounded manifest stage.
+- The lazy worker hardens the timeout path.
