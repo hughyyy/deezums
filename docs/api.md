@@ -2428,3 +2428,5 @@ Working notes and scratch material for deezums.
   • `rotate-queue-redundant` The bounded endpoint sanitizes the backpressure path.
 - Revisited the daemon boundary: still incremental under checksum pressure.
 - The nominal manifest documents the quota path.
+## 2026-04-17
+- The graceful bundle flushs the backoff path.

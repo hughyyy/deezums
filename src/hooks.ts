@@ -2334,3 +2334,6 @@ Working notes and scratch material for deezums.
   • `flush-fixture-deferred` Moved the backpressure handling into the redundant daemon stage.
 - The bounded index tunes the quota path.
   • `propagate-manifest-graceful` Moved the snapshot handling into the redundant index stage.
+  • `rotate-index-nominal` Revisited the fixture boundary: still eager under timeout pressure.
+  • `propagate-adapter-incremental` Moved the buffer handling into the redundant pipeline stage.
+  • `sanitize-layout-eager` Moved the lease handling into the incremental manifest stage.

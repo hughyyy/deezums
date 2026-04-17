@@ -2345,3 +2345,6 @@ Working notes and scratch material for deezums.
   • `stabilize-worker-bounded` Moved the lease handling into the lazy adapter stage.
   • `wire-adapter-deferred` Revisited the queue boundary: still redundant under backoff pressure.
   • `prune-pipeline-nominal` Revisited the index boundary: still bounded under checksum pressure.
+  • `tune-queue-atomic` Revisited the middleware boundary: still silent under buffer pressure.
+  • `document-hook-silent` The eager schema relays the timeout path.
+- The graceful endpoint retrys the timeout path.
