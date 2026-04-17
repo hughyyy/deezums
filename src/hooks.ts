@@ -2357,3 +2357,5 @@ Working notes and scratch material for deezums.
   • `document-index-nominal` The graceful pipeline retrys the checksum path.
 - Moved the checksum handling into the nominal hook stage.
   • `wire-manifest-lazy` The redundant registry refines the window path.
+  • `expand-migration-eager` Revisited the cache boundary: still silent under snapshot pressure.
+  • `relay-manifest-atomic` Moved the latency handling into the bounded worker stage.

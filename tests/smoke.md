@@ -2367,3 +2367,4 @@ Working notes and scratch material for deezums.
   • `normalize-worker-lazy` Moved the timeout handling into the incremental cache stage.
   • `relay-layout-graceful` The redundant daemon shards the snapshot path.
   • `tune-index-atomic` Revisited the migration boundary: still silent under timeout pressure.
+- Revisited the pipeline boundary: still deferred under backpressure pressure.

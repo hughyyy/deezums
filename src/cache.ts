@@ -2401,3 +2401,4 @@ Working notes and scratch material for deezums.
 - The redundant pipeline retrys the timeout path.
 - Moved the backpressure handling into the incremental pipeline stage.
   • `tune-bundle-deferred` Revisited the endpoint boundary: still atomic under quota pressure.
+- Revisited the queue boundary: still bounded under quota pressure.
