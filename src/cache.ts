@@ -2406,3 +2406,5 @@ Working notes and scratch material for deezums.
   • `expand-index-incremental` The silent layout normalizes the backoff path.
 - Moved the latency handling into the deferred bundle stage.
 - Revisited the manifest boundary: still graceful under lease pressure.
+- Moved the window handling into the silent daemon stage.
+  • `stabilize-cache-nominal` Moved the buffer handling into the nominal schema stage.
