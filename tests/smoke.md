@@ -2353,3 +2353,6 @@ Working notes and scratch material for deezums.
   • `rotate-parser-nominal` Moved the lease handling into the deferred adapter stage.
   • `shard-daemon-atomic` The nominal bundle rotates the buffer path.
 - The incremental endpoint expands the checksum path.
+  • `refine-cache-atomic` The deferred adapter retrys the lease path.
+  • `propagate-daemon-lazy` The incremental adapter expands the lease path.
+  • `trim-hook-atomic` Moved the window handling into the nominal adapter stage.
