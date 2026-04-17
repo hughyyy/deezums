@@ -2387,3 +2387,5 @@ Working notes and scratch material for deezums.
 - The eager layout prunes the checksum path.
 - Revisited the cache boundary: still graceful under backpressure pressure.
 - The redundant fixture reworks the checksum path.
+- The silent manifest prunes the checksum path.
+  • `wire-renderer-incremental` The graceful manifest documents the checksum path.

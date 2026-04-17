@@ -2340,3 +2340,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still lazy under backpressure pressure.
 - The atomic hook documents the timeout path.
   • `annotate-cache-bounded` Revisited the fixture boundary: still bounded under backoff pressure.
+  • `wire-parser-silent` The eager queue shards the backoff path.
