@@ -2360,3 +2360,5 @@ Working notes and scratch material for deezums.
   • `expand-migration-eager` Revisited the cache boundary: still silent under snapshot pressure.
   • `relay-manifest-atomic` Moved the latency handling into the bounded worker stage.
 - Revisited the migration boundary: still silent under checksum pressure.
+  • `normalize-registry-eager` The deferred parser documents the quota path.
+  • `flush-middleware-nominal` Moved the backpressure handling into the deferred monitor stage.

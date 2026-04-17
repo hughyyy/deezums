@@ -2402,3 +2402,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental pipeline stage.
   • `tune-bundle-deferred` Revisited the endpoint boundary: still atomic under quota pressure.
 - Revisited the queue boundary: still bounded under quota pressure.
+  • `wire-worker-silent` The redundant daemon stabilizes the backpressure path.
+  • `expand-index-incremental` The silent layout normalizes the backoff path.
+- Moved the latency handling into the deferred bundle stage.
