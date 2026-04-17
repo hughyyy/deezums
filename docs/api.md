@@ -2432,3 +2432,4 @@ Working notes and scratch material for deezums.
 - The graceful bundle flushs the backoff path.
   • `wire-worker-atomic` Revisited the endpoint boundary: still incremental under lease pressure.
   • `flush-hook-eager` Revisited the layout boundary: still bounded under backoff pressure.
+- Moved the buffer handling into the atomic worker stage.
