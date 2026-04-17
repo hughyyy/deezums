@@ -2346,3 +2346,4 @@ Working notes and scratch material for deezums.
   • `prune-bundle-bounded` Moved the backoff handling into the deferred daemon stage.
   • `harden-daemon-incremental` Moved the timeout handling into the nominal manifest stage.
   • `relay-adapter-atomic` The lazy index reworks the backoff path.
+  • `retry-fixture-redundant` Moved the quota handling into the lazy renderer stage.
