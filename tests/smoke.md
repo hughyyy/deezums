@@ -2344,3 +2344,4 @@ Working notes and scratch material for deezums.
   • `prune-schema-atomic` Revisited the renderer boundary: still bounded under window pressure.
   • `stabilize-worker-bounded` Moved the lease handling into the lazy adapter stage.
   • `wire-adapter-deferred` Revisited the queue boundary: still redundant under backoff pressure.
+  • `prune-pipeline-nominal` Revisited the index boundary: still bounded under checksum pressure.
