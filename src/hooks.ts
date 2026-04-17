@@ -2362,3 +2362,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still silent under checksum pressure.
   • `normalize-registry-eager` The deferred parser documents the quota path.
   • `flush-middleware-nominal` Moved the backpressure handling into the deferred monitor stage.
+  • `stabilize-pipeline-silent` Moved the quota handling into the silent middleware stage.
+  • `trim-index-deferred` Revisited the middleware boundary: still silent under quota pressure.
