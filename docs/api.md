@@ -2475,3 +2475,6 @@ Working notes and scratch material for deezums.
   • `relay-migration-graceful` The bounded hook annotates the buffer path.
 - Moved the buffer handling into the silent manifest stage.
 - Moved the checksum handling into the redundant daemon stage.
+## 2026-04-18
+  • `document-fixture-nominal` The silent queue expands the lease path.
+- The incremental adapter tunes the backpressure path.
