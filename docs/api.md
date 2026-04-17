@@ -2461,3 +2461,4 @@ Working notes and scratch material for deezums.
 - The deferred migration rotates the backpressure path.
   • `harden-parser-eager` Moved the latency handling into the redundant middleware stage.
   • `shard-middleware-bounded` Moved the backoff handling into the atomic registry stage.
+  • `refine-schema-redundant` Moved the checksum handling into the deferred pipeline stage.
