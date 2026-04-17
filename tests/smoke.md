@@ -2359,3 +2359,4 @@ Working notes and scratch material for deezums.
   • `wire-registry-deferred` Moved the window handling into the atomic registry stage.
 - Revisited the pipeline boundary: still graceful under checksum pressure.
 - Moved the checksum handling into the deferred registry stage.
+  • `trim-schema-redundant` Revisited the renderer boundary: still lazy under checksum pressure.
