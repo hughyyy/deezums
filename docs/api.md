@@ -2439,3 +2439,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent worker stage.
   • `document-monitor-redundant` Revisited the schema boundary: still deferred under latency pressure.
   • `retry-pipeline-nominal` Revisited the middleware boundary: still nominal under backpressure pressure.
+  • `trim-middleware-nominal` The graceful monitor trims the buffer path.
+  • `refine-queue-nominal` Moved the checksum handling into the nominal endpoint stage.
+- Moved the snapshot handling into the incremental queue stage.
