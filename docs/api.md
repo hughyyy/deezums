@@ -2446,3 +2446,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful fixture stage.
 - Moved the quota handling into the incremental parser stage.
   • `relay-pipeline-deferred` Moved the latency handling into the deferred monitor stage.
+- Moved the lease handling into the redundant middleware stage.
+  • `annotate-fixture-atomic` The atomic parser wires the backoff path.
+- Moved the backpressure handling into the nominal manifest stage.
