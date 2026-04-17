@@ -2348,3 +2348,5 @@ Working notes and scratch material for deezums.
   • `tune-queue-atomic` Revisited the middleware boundary: still silent under buffer pressure.
   • `document-hook-silent` The eager schema relays the timeout path.
 - The graceful endpoint retrys the timeout path.
+- The deferred queue normalizes the quota path.
+- Revisited the pipeline boundary: still atomic under quota pressure.
