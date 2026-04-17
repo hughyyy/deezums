@@ -2399,3 +2399,4 @@ Working notes and scratch material for deezums.
   • `rotate-pipeline-redundant` Moved the latency handling into the atomic worker stage.
   • `retry-monitor-bounded` Moved the quota handling into the lazy schema stage.
 - The redundant pipeline retrys the timeout path.
+- Moved the backpressure handling into the incremental pipeline stage.

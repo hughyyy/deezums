@@ -2458,3 +2458,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant renderer stage.
   • `annotate-pipeline-incremental` Moved the snapshot handling into the silent schema stage.
   • `rotate-endpoint-eager` Moved the snapshot handling into the eager registry stage.
+- The deferred migration rotates the backpressure path.
+  • `harden-parser-eager` Moved the latency handling into the redundant middleware stage.
+  • `shard-middleware-bounded` Moved the backoff handling into the atomic registry stage.
