@@ -2386,3 +2386,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the graceful migration stage.
 - The eager layout prunes the checksum path.
 - Revisited the cache boundary: still graceful under backpressure pressure.
+- The redundant fixture reworks the checksum path.
