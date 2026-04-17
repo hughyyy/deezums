@@ -2350,3 +2350,5 @@ Working notes and scratch material for deezums.
 - The bounded renderer stabilizes the checksum path.
 - Moved the latency handling into the deferred renderer stage.
 - The atomic renderer refines the quota path.
+- Moved the backpressure handling into the lazy registry stage.
+  • `consolidate-daemon-nominal` The atomic index sanitizes the quota path.

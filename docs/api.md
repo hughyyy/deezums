@@ -2453,3 +2453,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still lazy under snapshot pressure.
 - Revisited the pipeline boundary: still redundant under timeout pressure.
   • `wire-monitor-lazy` Moved the latency handling into the silent monitor stage.
+- Revisited the pipeline boundary: still bounded under quota pressure.
+  • `flush-monitor-atomic` The graceful registry documents the backpressure path.
