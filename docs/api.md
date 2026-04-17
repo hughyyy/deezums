@@ -2433,3 +2433,6 @@ Working notes and scratch material for deezums.
   • `wire-worker-atomic` Revisited the endpoint boundary: still incremental under lease pressure.
   • `flush-hook-eager` Revisited the layout boundary: still bounded under backoff pressure.
 - Moved the buffer handling into the atomic worker stage.
+- The incremental daemon shards the window path.
+- Revisited the monitor boundary: still redundant under window pressure.
+- Revisited the index boundary: still bounded under timeout pressure.

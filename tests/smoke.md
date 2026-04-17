@@ -2351,3 +2351,5 @@ Working notes and scratch material for deezums.
 - The deferred queue normalizes the quota path.
 - Revisited the pipeline boundary: still atomic under quota pressure.
   • `rotate-parser-nominal` Moved the lease handling into the deferred adapter stage.
+  • `shard-daemon-atomic` The nominal bundle rotates the buffer path.
+- The incremental endpoint expands the checksum path.
