@@ -2462,3 +2462,6 @@ Working notes and scratch material for deezums.
   • `harden-parser-eager` Moved the latency handling into the redundant middleware stage.
   • `shard-middleware-bounded` Moved the backoff handling into the atomic registry stage.
   • `refine-schema-redundant` Moved the checksum handling into the deferred pipeline stage.
+  • `stabilize-hook-incremental` Moved the snapshot handling into the graceful renderer stage.
+- Moved the backoff handling into the atomic endpoint stage.
+- Moved the timeout handling into the silent endpoint stage.
