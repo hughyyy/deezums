@@ -2392,3 +2392,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under timeout pressure.
   • `retry-migration-lazy` Moved the quota handling into the bounded manifest stage.
 - The lazy worker hardens the timeout path.
+- Moved the snapshot handling into the redundant manifest stage.
+  • `propagate-schema-eager` The graceful layout shards the snapshot path.
+  • `normalize-bundle-bounded` Moved the quota handling into the lazy migration stage.
