@@ -2472,3 +2472,6 @@ Working notes and scratch material for deezums.
   • `consolidate-hook-bounded` Moved the snapshot handling into the bounded pipeline stage.
   • `rework-adapter-bounded` Moved the window handling into the bounded endpoint stage.
   • `wire-worker-deferred` Revisited the parser boundary: still eager under buffer pressure.
+  • `relay-migration-graceful` The bounded hook annotates the buffer path.
+- Moved the buffer handling into the silent manifest stage.
+- Moved the checksum handling into the redundant daemon stage.

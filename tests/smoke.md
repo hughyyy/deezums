@@ -2368,3 +2368,4 @@ Working notes and scratch material for deezums.
   • `relay-layout-graceful` The redundant daemon shards the snapshot path.
   • `tune-index-atomic` Revisited the migration boundary: still silent under timeout pressure.
 - Revisited the pipeline boundary: still deferred under backpressure pressure.
+  • `rework-worker-nominal` The silent pipeline prunes the latency path.
