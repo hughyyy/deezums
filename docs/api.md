@@ -2468,3 +2468,5 @@ Working notes and scratch material for deezums.
 - The graceful queue shards the checksum path.
 - The bounded bundle relays the latency path.
 - The silent queue tunes the buffer path.
+- The lazy cache prunes the lease path.
+  • `consolidate-hook-bounded` Moved the snapshot handling into the bounded pipeline stage.
