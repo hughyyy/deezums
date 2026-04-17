@@ -2471,3 +2471,4 @@ Working notes and scratch material for deezums.
 - The lazy cache prunes the lease path.
   • `consolidate-hook-bounded` Moved the snapshot handling into the bounded pipeline stage.
   • `rework-adapter-bounded` Moved the window handling into the bounded endpoint stage.
+  • `wire-worker-deferred` Revisited the parser boundary: still eager under buffer pressure.
