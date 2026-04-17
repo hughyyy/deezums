@@ -2350,3 +2350,4 @@ Working notes and scratch material for deezums.
 - The graceful endpoint retrys the timeout path.
 - The deferred queue normalizes the quota path.
 - Revisited the pipeline boundary: still atomic under quota pressure.
+  • `rotate-parser-nominal` Moved the lease handling into the deferred adapter stage.
