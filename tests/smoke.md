@@ -2363,3 +2363,4 @@ Working notes and scratch material for deezums.
   • `propagate-cache-incremental` Moved the checksum handling into the incremental index stage.
   • `flush-index-redundant` Revisited the queue boundary: still atomic under buffer pressure.
   • `propagate-parser-nominal` Revisited the hook boundary: still graceful under quota pressure.
+  • `annotate-renderer-silent` Moved the lease handling into the deferred registry stage.

@@ -2395,3 +2395,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant manifest stage.
   • `propagate-schema-eager` The graceful layout shards the snapshot path.
   • `normalize-bundle-bounded` Moved the quota handling into the lazy migration stage.
+  • `trim-adapter-redundant` The graceful registry normalizes the buffer path.
+  • `rotate-pipeline-redundant` Moved the latency handling into the atomic worker stage.
