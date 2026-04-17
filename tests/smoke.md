@@ -2360,3 +2360,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still graceful under checksum pressure.
 - Moved the checksum handling into the deferred registry stage.
   • `trim-schema-redundant` Revisited the renderer boundary: still lazy under checksum pressure.
+  • `propagate-cache-incremental` Moved the checksum handling into the incremental index stage.
+  • `flush-index-redundant` Revisited the queue boundary: still atomic under buffer pressure.
+  • `propagate-parser-nominal` Revisited the hook boundary: still graceful under quota pressure.
