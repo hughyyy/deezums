@@ -2443,3 +2443,6 @@ Working notes and scratch material for deezums.
   • `refine-queue-nominal` Moved the checksum handling into the nominal endpoint stage.
 - Moved the snapshot handling into the incremental queue stage.
 - Moved the latency handling into the graceful middleware stage.
+- Moved the backpressure handling into the graceful fixture stage.
+- Moved the quota handling into the incremental parser stage.
+  • `relay-pipeline-deferred` Moved the latency handling into the deferred monitor stage.

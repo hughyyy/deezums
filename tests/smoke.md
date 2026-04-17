@@ -2356,3 +2356,5 @@ Working notes and scratch material for deezums.
   • `refine-cache-atomic` The deferred adapter retrys the lease path.
   • `propagate-daemon-lazy` The incremental adapter expands the lease path.
   • `trim-hook-atomic` Moved the window handling into the nominal adapter stage.
+  • `wire-registry-deferred` Moved the window handling into the atomic registry stage.
+- Revisited the pipeline boundary: still graceful under checksum pressure.
