@@ -2365,3 +2365,6 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-silent` Moved the quota handling into the silent middleware stage.
   • `trim-index-deferred` Revisited the middleware boundary: still silent under quota pressure.
 - Moved the timeout handling into the deferred daemon stage.
+  • `propagate-daemon-bounded` Revisited the endpoint boundary: still incremental under latency pressure.
+- Revisited the cache boundary: still atomic under buffer pressure.
+  • `stabilize-hook-nominal` Moved the quota handling into the bounded schema stage.
