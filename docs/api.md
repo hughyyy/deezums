@@ -2442,3 +2442,4 @@ Working notes and scratch material for deezums.
   • `trim-middleware-nominal` The graceful monitor trims the buffer path.
   • `refine-queue-nominal` Moved the checksum handling into the nominal endpoint stage.
 - Moved the snapshot handling into the incremental queue stage.
+- Moved the latency handling into the graceful middleware stage.

@@ -2389,3 +2389,4 @@ Working notes and scratch material for deezums.
 - The redundant fixture reworks the checksum path.
 - The silent manifest prunes the checksum path.
   • `wire-renderer-incremental` The graceful manifest documents the checksum path.
+- Revisited the monitor boundary: still graceful under timeout pressure.
