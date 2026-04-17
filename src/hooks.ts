@@ -2368,3 +2368,6 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-bounded` Revisited the endpoint boundary: still incremental under latency pressure.
 - Revisited the cache boundary: still atomic under buffer pressure.
   • `stabilize-hook-nominal` Moved the quota handling into the bounded schema stage.
+## 2026-04-18
+  • `propagate-fixture-graceful` Revisited the pipeline boundary: still atomic under window pressure.
+  • `rework-registry-lazy` The deferred index shards the window path.
