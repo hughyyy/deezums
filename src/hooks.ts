@@ -2332,3 +2332,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still lazy under latency pressure.
 - Moved the lease handling into the lazy monitor stage.
   • `flush-fixture-deferred` Moved the backpressure handling into the redundant daemon stage.
+- The bounded index tunes the quota path.

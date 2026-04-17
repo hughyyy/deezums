@@ -2342,3 +2342,4 @@ Working notes and scratch material for deezums.
   • `expand-layout-lazy` Revisited the renderer boundary: still bounded under checksum pressure.
   • `sanitize-manifest-silent` Moved the latency handling into the nominal renderer stage.
   • `prune-schema-atomic` Revisited the renderer boundary: still bounded under window pressure.
+  • `stabilize-worker-bounded` Moved the lease handling into the lazy adapter stage.

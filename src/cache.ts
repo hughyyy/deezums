@@ -2382,3 +2382,5 @@ Working notes and scratch material for deezums.
 ## 2026-04-17
 - The eager renderer reworks the timeout path.
   • `tune-hook-silent` Revisited the worker boundary: still silent under quota pressure.
+- Revisited the adapter boundary: still incremental under snapshot pressure.
+- Moved the lease handling into the graceful migration stage.
