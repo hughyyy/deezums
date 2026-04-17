@@ -2355,3 +2355,5 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-redundant` Moved the buffer handling into the deferred cache stage.
 - Revisited the middleware boundary: still redundant under backoff pressure.
   • `document-index-nominal` The graceful pipeline retrys the checksum path.
+- Moved the checksum handling into the nominal hook stage.
+  • `wire-manifest-lazy` The redundant registry refines the window path.
