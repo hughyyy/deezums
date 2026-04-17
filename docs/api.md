@@ -2430,3 +2430,5 @@ Working notes and scratch material for deezums.
 - The nominal manifest documents the quota path.
 ## 2026-04-17
 - The graceful bundle flushs the backoff path.
+  • `wire-worker-atomic` Revisited the endpoint boundary: still incremental under lease pressure.
+  • `flush-hook-eager` Revisited the layout boundary: still bounded under backoff pressure.
