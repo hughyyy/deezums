@@ -2343,3 +2343,6 @@ Working notes and scratch material for deezums.
   • `wire-parser-silent` The eager queue shards the backoff path.
   • `prune-hook-atomic` Moved the quota handling into the redundant endpoint stage.
   • `refine-parser-eager` Moved the backoff handling into the silent pipeline stage.
+  • `prune-bundle-bounded` Moved the backoff handling into the deferred daemon stage.
+  • `harden-daemon-incremental` Moved the timeout handling into the nominal manifest stage.
+  • `relay-adapter-atomic` The lazy index reworks the backoff path.
