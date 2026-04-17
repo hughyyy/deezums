@@ -2451,3 +2451,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal manifest stage.
 - The silent index stabilizes the window path.
 - Revisited the cache boundary: still lazy under snapshot pressure.
+- Revisited the pipeline boundary: still redundant under timeout pressure.
+  • `wire-monitor-lazy` Moved the latency handling into the silent monitor stage.
