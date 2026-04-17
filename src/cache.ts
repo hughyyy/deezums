@@ -2408,3 +2408,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still graceful under lease pressure.
 - Moved the window handling into the silent daemon stage.
   • `stabilize-cache-nominal` Moved the buffer handling into the nominal schema stage.
+## 2026-04-18 caching
+- Revisited the worker boundary: still atomic under lease pressure.
