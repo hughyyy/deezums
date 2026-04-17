@@ -2384,3 +2384,5 @@ Working notes and scratch material for deezums.
   • `tune-hook-silent` Revisited the worker boundary: still silent under quota pressure.
 - Revisited the adapter boundary: still incremental under snapshot pressure.
 - Moved the lease handling into the graceful migration stage.
+- The eager layout prunes the checksum path.
+- Revisited the cache boundary: still graceful under backpressure pressure.
