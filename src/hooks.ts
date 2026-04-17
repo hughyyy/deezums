@@ -2352,3 +2352,4 @@ Working notes and scratch material for deezums.
 - The atomic renderer refines the quota path.
 - Moved the backpressure handling into the lazy registry stage.
   • `consolidate-daemon-nominal` The atomic index sanitizes the quota path.
+  • `tune-pipeline-redundant` Moved the buffer handling into the deferred cache stage.

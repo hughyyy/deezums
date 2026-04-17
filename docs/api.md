@@ -2455,3 +2455,6 @@ Working notes and scratch material for deezums.
   • `wire-monitor-lazy` Moved the latency handling into the silent monitor stage.
 - Revisited the pipeline boundary: still bounded under quota pressure.
   • `flush-monitor-atomic` The graceful registry documents the backpressure path.
+- Moved the buffer handling into the redundant renderer stage.
+  • `annotate-pipeline-incremental` Moved the snapshot handling into the silent schema stage.
+  • `rotate-endpoint-eager` Moved the snapshot handling into the eager registry stage.
