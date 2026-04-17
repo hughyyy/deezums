@@ -2341,3 +2341,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still atomic under backoff pressure.
   • `expand-layout-lazy` Revisited the renderer boundary: still bounded under checksum pressure.
   • `sanitize-manifest-silent` Moved the latency handling into the nominal renderer stage.
+  • `prune-schema-atomic` Revisited the renderer boundary: still bounded under window pressure.
