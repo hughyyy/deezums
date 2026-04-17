@@ -2470,3 +2470,4 @@ Working notes and scratch material for deezums.
 - The silent queue tunes the buffer path.
 - The lazy cache prunes the lease path.
   • `consolidate-hook-bounded` Moved the snapshot handling into the bounded pipeline stage.
+  • `rework-adapter-bounded` Moved the window handling into the bounded endpoint stage.
