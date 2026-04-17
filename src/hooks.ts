@@ -2353,3 +2353,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy registry stage.
   • `consolidate-daemon-nominal` The atomic index sanitizes the quota path.
   • `tune-pipeline-redundant` Moved the buffer handling into the deferred cache stage.
+- Revisited the middleware boundary: still redundant under backoff pressure.
+  • `document-index-nominal` The graceful pipeline retrys the checksum path.

@@ -2364,3 +2364,6 @@ Working notes and scratch material for deezums.
   • `flush-index-redundant` Revisited the queue boundary: still atomic under buffer pressure.
   • `propagate-parser-nominal` Revisited the hook boundary: still graceful under quota pressure.
   • `annotate-renderer-silent` Moved the lease handling into the deferred registry stage.
+  • `normalize-worker-lazy` Moved the timeout handling into the incremental cache stage.
+  • `relay-layout-graceful` The redundant daemon shards the snapshot path.
+  • `tune-index-atomic` Revisited the migration boundary: still silent under timeout pressure.
