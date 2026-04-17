@@ -2449,3 +2449,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant middleware stage.
   • `annotate-fixture-atomic` The atomic parser wires the backoff path.
 - Moved the backpressure handling into the nominal manifest stage.
+- The silent index stabilizes the window path.
+- Revisited the cache boundary: still lazy under snapshot pressure.
