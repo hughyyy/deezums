@@ -2400,3 +2400,4 @@ Working notes and scratch material for deezums.
   • `retry-monitor-bounded` Moved the quota handling into the lazy schema stage.
 - The redundant pipeline retrys the timeout path.
 - Moved the backpressure handling into the incremental pipeline stage.
+  • `tune-bundle-deferred` Revisited the endpoint boundary: still atomic under quota pressure.
