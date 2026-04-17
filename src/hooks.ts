@@ -2364,3 +2364,4 @@ Working notes and scratch material for deezums.
   • `flush-middleware-nominal` Moved the backpressure handling into the deferred monitor stage.
   • `stabilize-pipeline-silent` Moved the quota handling into the silent middleware stage.
   • `trim-index-deferred` Revisited the middleware boundary: still silent under quota pressure.
+- Moved the timeout handling into the deferred daemon stage.
