@@ -2359,3 +2359,4 @@ Working notes and scratch material for deezums.
   • `wire-manifest-lazy` The redundant registry refines the window path.
   • `expand-migration-eager` Revisited the cache boundary: still silent under snapshot pressure.
   • `relay-manifest-atomic` Moved the latency handling into the bounded worker stage.
+- Revisited the migration boundary: still silent under checksum pressure.
