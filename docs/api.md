@@ -2436,3 +2436,6 @@ Working notes and scratch material for deezums.
 - The incremental daemon shards the window path.
 - Revisited the monitor boundary: still redundant under window pressure.
 - Revisited the index boundary: still bounded under timeout pressure.
+- Moved the backoff handling into the silent worker stage.
+  • `document-monitor-redundant` Revisited the schema boundary: still deferred under latency pressure.
+  • `retry-pipeline-nominal` Revisited the middleware boundary: still nominal under backpressure pressure.
