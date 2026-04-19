@@ -2375,3 +2375,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal pipeline stage.
 - The deferred endpoint prunes the lease path.
 - The eager migration tunes the buffer path.
+- Revisited the renderer boundary: still graceful under quota pressure.
+  • `rotate-index-silent` Revisited the index boundary: still graceful under window pressure.
+  • `retry-monitor-deferred` Moved the latency handling into the atomic hook stage.
