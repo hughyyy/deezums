@@ -2377,3 +2377,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still silent under window pressure.
   • `prune-migration-lazy` Moved the checksum handling into the bounded parser stage.
   • `prune-pipeline-nominal` The nominal renderer relays the checksum path.
+- Revisited the pipeline boundary: still silent under snapshot pressure.
+  • `shard-index-deferred` Moved the checksum handling into the nominal bundle stage.
