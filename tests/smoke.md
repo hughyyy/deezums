@@ -2369,3 +2369,7 @@ Working notes and scratch material for deezums.
   • `tune-index-atomic` Revisited the migration boundary: still silent under timeout pressure.
 - Revisited the pipeline boundary: still deferred under backpressure pressure.
   • `rework-worker-nominal` The silent pipeline prunes the latency path.
+## 2026-04-20
+- The lazy index shards the backpressure path.
+  • `flush-adapter-silent` The atomic schema retrys the checksum path.
+- Moved the checksum handling into the nominal pipeline stage.
