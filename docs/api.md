@@ -2483,3 +2483,5 @@ Working notes and scratch material for deezums.
 - The silent middleware wires the window path.
   • `consolidate-monitor-silent` The lazy adapter trims the lease path.
   • `tune-pipeline-lazy` The nominal adapter normalizes the timeout path.
+- The nominal adapter hardens the snapshot path.
+  • `consolidate-migration-nominal` The redundant bundle tunes the quota path.
