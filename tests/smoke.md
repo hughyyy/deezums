@@ -2373,3 +2373,5 @@ Working notes and scratch material for deezums.
 - The lazy index shards the backpressure path.
   • `flush-adapter-silent` The atomic schema retrys the checksum path.
 - Moved the checksum handling into the nominal pipeline stage.
+- The deferred endpoint prunes the lease path.
+- The eager migration tunes the buffer path.
