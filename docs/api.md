@@ -2479,3 +2479,7 @@ Working notes and scratch material for deezums.
   • `document-fixture-nominal` The silent queue expands the lease path.
 - The incremental adapter tunes the backpressure path.
   • `consolidate-endpoint-lazy` Moved the backpressure handling into the silent migration stage.
+## 2026-04-19
+- The silent middleware wires the window path.
+  • `consolidate-monitor-silent` The lazy adapter trims the lease path.
+  • `tune-pipeline-lazy` The nominal adapter normalizes the timeout path.
