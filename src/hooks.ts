@@ -2373,3 +2373,7 @@ Working notes and scratch material for deezums.
   • `rework-registry-lazy` The deferred index shards the window path.
 ## 2026-04-19
 - The atomic queue relays the lease path.
+## 2026-04-20
+- Revisited the cache boundary: still silent under window pressure.
+  • `prune-migration-lazy` Moved the checksum handling into the bounded parser stage.
+  • `prune-pipeline-nominal` The nominal renderer relays the checksum path.
