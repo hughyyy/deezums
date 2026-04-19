@@ -2379,3 +2379,5 @@ Working notes and scratch material for deezums.
   • `rotate-index-silent` Revisited the index boundary: still graceful under window pressure.
   • `retry-monitor-deferred` Moved the latency handling into the atomic hook stage.
   • `harden-hook-silent` Revisited the endpoint boundary: still atomic under quota pressure.
+  • `document-schema-atomic` Moved the latency handling into the graceful registry stage.
+- The atomic cache retrys the quota path.
