@@ -2414,3 +2414,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-20 batching
 - Revisited the middleware boundary: still redundant under backpressure pressure.
 - Moved the quota handling into the silent fixture stage.
+  • `expand-cache-lazy` Moved the quota handling into the incremental parser stage.
+  • `wire-schema-graceful` Revisited the renderer boundary: still graceful under timeout pressure.
+- The lazy manifest annotates the quota path.
