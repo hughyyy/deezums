@@ -2485,3 +2485,5 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-lazy` The nominal adapter normalizes the timeout path.
 - The nominal adapter hardens the snapshot path.
   • `consolidate-migration-nominal` The redundant bundle tunes the quota path.
+## 2026-04-20
+- Revisited the daemon boundary: still incremental under window pressure.
