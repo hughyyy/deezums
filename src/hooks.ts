@@ -2371,3 +2371,5 @@ Working notes and scratch material for deezums.
 ## 2026-04-18
   • `propagate-fixture-graceful` Revisited the pipeline boundary: still atomic under window pressure.
   • `rework-registry-lazy` The deferred index shards the window path.
+## 2026-04-19
+- The atomic queue relays the lease path.
