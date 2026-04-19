@@ -2379,3 +2379,5 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-nominal` The nominal renderer relays the checksum path.
 - Revisited the pipeline boundary: still silent under snapshot pressure.
   • `shard-index-deferred` Moved the checksum handling into the nominal bundle stage.
+- The lazy manifest annotates the timeout path.
+  • `shard-queue-deferred` Moved the snapshot handling into the graceful fixture stage.
