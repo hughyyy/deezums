@@ -2411,3 +2411,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-18 caching
 - Revisited the worker boundary: still atomic under lease pressure.
 - Moved the backpressure handling into the atomic monitor stage.
+## 2026-04-20 batching
+- Revisited the middleware boundary: still redundant under backpressure pressure.
+- Moved the quota handling into the silent fixture stage.
