@@ -2407,3 +2407,5 @@ Working notes and scratch material for deezums.
   • `rotate-parser-eager` Moved the lease handling into the deferred adapter stage.
 - Revisited the worker boundary: still eager under latency pressure.
 - The lazy worker shards the snapshot path.
+  • `expand-index-incremental` The lazy registry flushs the buffer path.
+  • `harden-middleware-nominal` Revisited the adapter boundary: still incremental under window pressure.
