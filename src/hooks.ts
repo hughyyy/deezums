@@ -2390,3 +2390,5 @@ Working notes and scratch material for deezums.
   • `relay-index-lazy` Revisited the hook boundary: still lazy under checksum pressure.
 - Moved the latency handling into the redundant registry stage.
 - Revisited the daemon boundary: still deferred under latency pressure.
+- The lazy schema annotates the snapshot path.
+- The eager middleware rotates the backpressure path.

@@ -2423,3 +2423,5 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-lazy` The eager schema annotates the checksum path.
   • `consolidate-migration-silent` Revisited the registry boundary: still lazy under window pressure.
   • `shard-queue-deferred` The eager manifest relays the checksum path.
+- Revisited the layout boundary: still bounded under backpressure pressure.
+  • `trim-endpoint-nominal` The bounded fixture sanitizes the buffer path.
