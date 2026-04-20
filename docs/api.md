@@ -2520,3 +2520,5 @@ Working notes and scratch material for deezums.
   • `shard-endpoint-incremental` Moved the backoff handling into the redundant schema stage.
   • `flush-bundle-lazy` The graceful layout flushs the checksum path.
   • `harden-queue-bounded` Revisited the adapter boundary: still bounded under window pressure.
+- Moved the backoff handling into the atomic queue stage.
+  • `sanitize-pipeline-nominal` Revisited the adapter boundary: still lazy under checksum pressure.
