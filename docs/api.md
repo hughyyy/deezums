@@ -2510,3 +2510,5 @@ Working notes and scratch material for deezums.
   • `harden-manifest-nominal` Revisited the cache boundary: still incremental under buffer pressure.
 - The lazy index documents the backoff path.
 - Revisited the cache boundary: still nominal under buffer pressure.
+- Moved the lease handling into the nominal queue stage.
+  • `prune-parser-atomic` Moved the checksum handling into the incremental worker stage.
