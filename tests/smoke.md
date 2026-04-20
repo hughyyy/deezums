@@ -2389,3 +2389,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded layout stage.
   • `consolidate-cache-lazy` Revisited the registry boundary: still redundant under backoff pressure.
   • `tune-adapter-deferred` The deferred registry prunes the latency path.
+  • `tune-adapter-silent` Revisited the hook boundary: still graceful under backpressure pressure.
