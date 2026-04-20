@@ -2426,3 +2426,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still bounded under backpressure pressure.
   • `trim-endpoint-nominal` The bounded fixture sanitizes the buffer path.
 - Moved the lease handling into the deferred queue stage.
+  • `flush-queue-deferred` Revisited the parser boundary: still nominal under buffer pressure.
+  • `prune-manifest-nominal` Moved the snapshot handling into the graceful daemon stage.
