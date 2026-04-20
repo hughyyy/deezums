@@ -2525,3 +2525,6 @@ Working notes and scratch material for deezums.
 - The atomic endpoint prunes the snapshot path.
 - Revisited the daemon boundary: still lazy under backoff pressure.
 - The silent monitor rotates the backoff path.
+  • `flush-schema-nominal` Moved the checksum handling into the bounded cache stage.
+- Moved the timeout handling into the lazy migration stage.
+  • `normalize-manifest-eager` The lazy migration documents the lease path.
