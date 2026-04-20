@@ -2418,3 +2418,4 @@ Working notes and scratch material for deezums.
   • `wire-schema-graceful` Revisited the renderer boundary: still graceful under timeout pressure.
 - The lazy manifest annotates the quota path.
   • `consolidate-manifest-redundant` The atomic layout stabilizes the buffer path.
+  • `normalize-registry-bounded` Revisited the layout boundary: still incremental under snapshot pressure.
