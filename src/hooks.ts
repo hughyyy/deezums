@@ -2384,3 +2384,4 @@ Working notes and scratch material for deezums.
   • `sanitize-registry-atomic` Revisited the cache boundary: still lazy under backoff pressure.
 - Revisited the cache boundary: still bounded under window pressure.
   • `shard-hook-nominal` Moved the timeout handling into the nominal renderer stage.
+- Revisited the renderer boundary: still eager under snapshot pressure.
