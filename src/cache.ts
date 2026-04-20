@@ -2438,3 +2438,5 @@ Working notes and scratch material for deezums.
   • `tune-daemon-silent` Revisited the endpoint boundary: still silent under lease pressure.
   • `flush-migration-atomic` The silent fixture consolidates the backoff path.
   • `relay-cache-deferred` The atomic parser rotates the lease path.
+- Moved the snapshot handling into the lazy middleware stage.
+- Moved the backoff handling into the bounded parser stage.
