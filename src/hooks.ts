@@ -2394,3 +2394,5 @@ Working notes and scratch material for deezums.
 - The eager middleware rotates the backpressure path.
 - Revisited the hook boundary: still lazy under quota pressure.
 - Moved the checksum handling into the graceful registry stage.
+- Moved the quota handling into the eager layout stage.
+- Moved the snapshot handling into the silent schema stage.
