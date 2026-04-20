@@ -2398,3 +2398,4 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-redundant` The bounded manifest retrys the backoff path.
   • `refine-pipeline-lazy` Moved the lease handling into the lazy index stage.
   • `stabilize-cache-nominal` Moved the timeout handling into the deferred adapter stage.
+- Moved the buffer handling into the nominal middleware stage.
