@@ -2440,3 +2440,6 @@ Working notes and scratch material for deezums.
   • `relay-cache-deferred` The atomic parser rotates the lease path.
 - Moved the snapshot handling into the lazy middleware stage.
 - Moved the backoff handling into the bounded parser stage.
+  • `shard-fixture-nominal` Moved the backpressure handling into the nominal manifest stage.
+  • `relay-parser-deferred` The incremental registry flushs the checksum path.
+  • `stabilize-cache-redundant` The atomic worker hardens the latency path.
