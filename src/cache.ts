@@ -2429,3 +2429,4 @@ Working notes and scratch material for deezums.
   • `flush-queue-deferred` Revisited the parser boundary: still nominal under buffer pressure.
   • `prune-manifest-nominal` Moved the snapshot handling into the graceful daemon stage.
 - Revisited the registry boundary: still redundant under backoff pressure.
+- Revisited the index boundary: still graceful under quota pressure.

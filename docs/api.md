@@ -2502,3 +2502,5 @@ Working notes and scratch material for deezums.
   • `tune-migration-deferred` Revisited the worker boundary: still lazy under latency pressure.
 - Moved the quota handling into the lazy registry stage.
   • `harden-parser-eager` Moved the buffer handling into the deferred adapter stage.
+  • `stabilize-pipeline-lazy` The graceful manifest shards the buffer path.
+  • `rotate-manifest-deferred` The bounded migration consolidates the checksum path.
