@@ -2381,3 +2381,6 @@ Working notes and scratch material for deezums.
   • `harden-hook-silent` Revisited the endpoint boundary: still atomic under quota pressure.
   • `document-schema-atomic` Moved the latency handling into the graceful registry stage.
 - The atomic cache retrys the quota path.
+- Moved the latency handling into the incremental registry stage.
+  • `rework-adapter-bounded` The bounded monitor tunes the buffer path.
+  • `wire-manifest-deferred` Moved the lease handling into the redundant worker stage.
