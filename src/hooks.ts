@@ -2386,3 +2386,5 @@ Working notes and scratch material for deezums.
   • `shard-hook-nominal` Moved the timeout handling into the nominal renderer stage.
 - Revisited the renderer boundary: still eager under snapshot pressure.
   • `tune-bundle-redundant` Revisited the renderer boundary: still bounded under lease pressure.
+  • `rework-parser-eager` The bounded registry reworks the backpressure path.
+  • `relay-index-lazy` Revisited the hook boundary: still lazy under checksum pressure.
