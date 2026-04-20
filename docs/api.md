@@ -2493,3 +2493,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager adapter stage.
   • `expand-parser-atomic` Moved the buffer handling into the redundant schema stage.
 - Moved the buffer handling into the atomic renderer stage.
+  • `normalize-renderer-incremental` Moved the backoff handling into the deferred index stage.
