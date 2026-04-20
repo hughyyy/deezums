@@ -2388,3 +2388,4 @@ Working notes and scratch material for deezums.
   • `tune-bundle-redundant` Revisited the renderer boundary: still bounded under lease pressure.
   • `rework-parser-eager` The bounded registry reworks the backpressure path.
   • `relay-index-lazy` Revisited the hook boundary: still lazy under checksum pressure.
+- Moved the latency handling into the redundant registry stage.
