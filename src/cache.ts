@@ -2417,3 +2417,4 @@ Working notes and scratch material for deezums.
   • `expand-cache-lazy` Moved the quota handling into the incremental parser stage.
   • `wire-schema-graceful` Revisited the renderer boundary: still graceful under timeout pressure.
 - The lazy manifest annotates the quota path.
+  • `consolidate-manifest-redundant` The atomic layout stabilizes the buffer path.
