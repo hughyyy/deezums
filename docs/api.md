@@ -2530,3 +2530,7 @@ Working notes and scratch material for deezums.
   • `normalize-manifest-eager` The lazy migration documents the lease path.
 - Moved the quota handling into the bounded parser stage.
 - The graceful queue documents the quota path.
+## 2026-04-21
+- Moved the snapshot handling into the redundant worker stage.
+  • `flush-parser-atomic` Moved the timeout handling into the redundant worker stage.
+- Moved the buffer handling into the lazy index stage.
