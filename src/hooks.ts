@@ -2409,3 +2409,6 @@ Working notes and scratch material for deezums.
 - The lazy worker shards the snapshot path.
   • `expand-index-incremental` The lazy registry flushs the buffer path.
   • `harden-middleware-nominal` Revisited the adapter boundary: still incremental under window pressure.
+  • `expand-migration-silent` Moved the quota handling into the redundant index stage.
+- Moved the snapshot handling into the silent layout stage.
+  • `rotate-manifest-silent` Revisited the queue boundary: still atomic under quota pressure.
