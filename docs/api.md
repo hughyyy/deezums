@@ -2501,3 +2501,4 @@ Working notes and scratch material for deezums.
 - The silent middleware prunes the lease path.
   • `tune-migration-deferred` Revisited the worker boundary: still lazy under latency pressure.
 - Moved the quota handling into the lazy registry stage.
+  • `harden-parser-eager` Moved the buffer handling into the deferred adapter stage.

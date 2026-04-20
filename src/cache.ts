@@ -2428,3 +2428,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred queue stage.
   • `flush-queue-deferred` Revisited the parser boundary: still nominal under buffer pressure.
   • `prune-manifest-nominal` Moved the snapshot handling into the graceful daemon stage.
+- Revisited the registry boundary: still redundant under backoff pressure.
