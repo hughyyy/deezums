@@ -2448,3 +2448,4 @@ Working notes and scratch material for deezums.
   • `trim-queue-silent` Moved the backoff handling into the graceful adapter stage.
 - Moved the latency handling into the deferred schema stage.
   • `rework-worker-bounded` Revisited the worker boundary: still graceful under snapshot pressure.
+  • `flush-migration-lazy` Moved the snapshot handling into the nominal bundle stage.
