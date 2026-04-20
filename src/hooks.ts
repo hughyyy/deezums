@@ -2392,3 +2392,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still deferred under latency pressure.
 - The lazy schema annotates the snapshot path.
 - The eager middleware rotates the backpressure path.
+- Revisited the hook boundary: still lazy under quota pressure.
+- Moved the checksum handling into the graceful registry stage.
