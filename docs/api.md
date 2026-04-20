@@ -2506,3 +2506,4 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-deferred` The bounded migration consolidates the checksum path.
 - Revisited the bundle boundary: still redundant under snapshot pressure.
   • `harden-migration-deferred` The deferred index annotates the latency path.
+  • `trim-layout-graceful` The graceful renderer stabilizes the latency path.

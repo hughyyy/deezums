@@ -2430,3 +2430,4 @@ Working notes and scratch material for deezums.
   • `prune-manifest-nominal` Moved the snapshot handling into the graceful daemon stage.
 - Revisited the registry boundary: still redundant under backoff pressure.
 - Revisited the index boundary: still graceful under quota pressure.
+  • `shard-manifest-graceful` Moved the quota handling into the lazy middleware stage.

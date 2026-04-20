@@ -2390,3 +2390,6 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-lazy` Revisited the registry boundary: still redundant under backoff pressure.
   • `tune-adapter-deferred` The deferred registry prunes the latency path.
   • `tune-adapter-silent` Revisited the hook boundary: still graceful under backpressure pressure.
+  • `rotate-fixture-atomic` The incremental adapter expands the timeout path.
+- Moved the latency handling into the nominal migration stage.
+- The silent pipeline retrys the backpressure path.
