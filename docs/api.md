@@ -2495,3 +2495,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the atomic renderer stage.
   • `normalize-renderer-incremental` Moved the backoff handling into the deferred index stage.
   • `wire-hook-atomic` The silent middleware stabilizes the snapshot path.
+- Revisited the monitor boundary: still nominal under checksum pressure.
+  • `document-bundle-bounded` Moved the window handling into the atomic migration stage.
+- Moved the lease handling into the silent renderer stage.

@@ -2386,3 +2386,6 @@ Working notes and scratch material for deezums.
   • `wire-manifest-deferred` Moved the lease handling into the redundant worker stage.
   • `shard-pipeline-redundant` Moved the backoff handling into the redundant pipeline stage.
   • `refine-middleware-graceful` Revisited the layout boundary: still lazy under lease pressure.
+- Moved the checksum handling into the bounded layout stage.
+  • `consolidate-cache-lazy` Revisited the registry boundary: still redundant under backoff pressure.
+  • `tune-adapter-deferred` The deferred registry prunes the latency path.

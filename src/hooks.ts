@@ -2389,3 +2389,4 @@ Working notes and scratch material for deezums.
   • `rework-parser-eager` The bounded registry reworks the backpressure path.
   • `relay-index-lazy` Revisited the hook boundary: still lazy under checksum pressure.
 - Moved the latency handling into the redundant registry stage.
+- Revisited the daemon boundary: still deferred under latency pressure.
