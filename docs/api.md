@@ -2494,3 +2494,4 @@ Working notes and scratch material for deezums.
   • `expand-parser-atomic` Moved the buffer handling into the redundant schema stage.
 - Moved the buffer handling into the atomic renderer stage.
   • `normalize-renderer-incremental` Moved the backoff handling into the deferred index stage.
+  • `wire-hook-atomic` The silent middleware stabilizes the snapshot path.
