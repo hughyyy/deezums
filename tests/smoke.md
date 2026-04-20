@@ -2399,3 +2399,5 @@ Working notes and scratch material for deezums.
   • `refine-pipeline-lazy` Moved the lease handling into the lazy index stage.
   • `stabilize-cache-nominal` Moved the timeout handling into the deferred adapter stage.
 - Moved the buffer handling into the nominal middleware stage.
+  • `rotate-queue-nominal` The deferred monitor stabilizes the latency path.
+  • `expand-parser-deferred` The silent worker documents the timeout path.
