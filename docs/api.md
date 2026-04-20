@@ -2515,3 +2515,6 @@ Working notes and scratch material for deezums.
 - The eager schema hardens the buffer path.
   • `retry-hook-graceful` The incremental cache normalizes the latency path.
   • `tune-renderer-eager` Revisited the adapter boundary: still eager under latency pressure.
+  • `flush-migration-lazy` Moved the quota handling into the graceful registry stage.
+  • `document-daemon-incremental` Moved the snapshot handling into the lazy index stage.
+  • `shard-endpoint-incremental` Moved the backoff handling into the redundant schema stage.
