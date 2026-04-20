@@ -2449,3 +2449,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred schema stage.
   • `rework-worker-bounded` Revisited the worker boundary: still graceful under snapshot pressure.
   • `flush-migration-lazy` Moved the snapshot handling into the nominal bundle stage.
+  • `trim-adapter-redundant` The silent daemon reworks the backpressure path.
