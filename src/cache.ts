@@ -2444,3 +2444,7 @@ Working notes and scratch material for deezums.
   • `relay-parser-deferred` The incremental registry flushs the checksum path.
   • `stabilize-cache-redundant` The atomic worker hardens the latency path.
   • `harden-layout-incremental` Revisited the hook boundary: still nominal under snapshot pressure.
+## 2026-04-21 schema-drift
+  • `trim-queue-silent` Moved the backoff handling into the graceful adapter stage.
+- Moved the latency handling into the deferred schema stage.
+  • `rework-worker-bounded` Revisited the worker boundary: still graceful under snapshot pressure.
