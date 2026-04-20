@@ -2431,3 +2431,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still redundant under backoff pressure.
 - Revisited the index boundary: still graceful under quota pressure.
   • `shard-manifest-graceful` Moved the quota handling into the lazy middleware stage.
+- Revisited the parser boundary: still eager under lease pressure.
+- The graceful layout retrys the snapshot path.
+- Moved the window handling into the eager pipeline stage.
