@@ -2490,3 +2490,6 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-graceful` Revisited the bundle boundary: still graceful under checksum pressure.
 - The nominal registry hardens the backoff path.
   • `tune-pipeline-nominal` Moved the snapshot handling into the nominal renderer stage.
+- Moved the backoff handling into the eager adapter stage.
+  • `expand-parser-atomic` Moved the buffer handling into the redundant schema stage.
+- Moved the buffer handling into the atomic renderer stage.
