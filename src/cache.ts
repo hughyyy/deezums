@@ -2425,3 +2425,4 @@ Working notes and scratch material for deezums.
   • `shard-queue-deferred` The eager manifest relays the checksum path.
 - Revisited the layout boundary: still bounded under backpressure pressure.
   • `trim-endpoint-nominal` The bounded fixture sanitizes the buffer path.
+- Moved the lease handling into the deferred queue stage.
