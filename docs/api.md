@@ -2512,3 +2512,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still nominal under buffer pressure.
 - Moved the lease handling into the nominal queue stage.
   • `prune-parser-atomic` Moved the checksum handling into the incremental worker stage.
+- The eager schema hardens the buffer path.
+  • `retry-hook-graceful` The incremental cache normalizes the latency path.
