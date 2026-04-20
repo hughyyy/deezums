@@ -2396,3 +2396,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful registry stage.
 - Moved the quota handling into the eager layout stage.
 - Moved the snapshot handling into the silent schema stage.
+- Revisited the index boundary: still bounded under backpressure pressure.
+  • `rotate-monitor-graceful` Moved the timeout handling into the eager migration stage.
+  • `wire-index-graceful` The graceful bundle rotates the buffer path.
