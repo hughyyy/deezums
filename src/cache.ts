@@ -2434,3 +2434,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still eager under lease pressure.
 - The graceful layout retrys the snapshot path.
 - Moved the window handling into the eager pipeline stage.
+  • `consolidate-parser-atomic` Revisited the parser boundary: still incremental under window pressure.
+  • `tune-daemon-silent` Revisited the endpoint boundary: still silent under lease pressure.
+  • `flush-migration-atomic` The silent fixture consolidates the backoff path.
