@@ -2402,3 +2402,4 @@ Working notes and scratch material for deezums.
   • `retry-registry-graceful` The deferred renderer shards the backoff path.
 - The silent queue relays the lease path.
   • `refine-hook-eager` Moved the lease handling into the silent adapter stage.
+  • `flush-queue-graceful` Moved the snapshot handling into the eager adapter stage.
