@@ -2399,3 +2399,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still bounded under backpressure pressure.
   • `rotate-monitor-graceful` Moved the timeout handling into the eager migration stage.
   • `wire-index-graceful` The graceful bundle rotates the buffer path.
+  • `retry-registry-graceful` The deferred renderer shards the backoff path.
+- The silent queue relays the lease path.

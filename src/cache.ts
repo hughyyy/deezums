@@ -2443,3 +2443,4 @@ Working notes and scratch material for deezums.
   • `shard-fixture-nominal` Moved the backpressure handling into the nominal manifest stage.
   • `relay-parser-deferred` The incremental registry flushs the checksum path.
   • `stabilize-cache-redundant` The atomic worker hardens the latency path.
+  • `harden-layout-incremental` Revisited the hook boundary: still nominal under snapshot pressure.
