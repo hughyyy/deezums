@@ -2401,3 +2401,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal middleware stage.
   • `rotate-queue-nominal` The deferred monitor stabilizes the latency path.
   • `expand-parser-deferred` The silent worker documents the timeout path.
+## 2026-04-21 hydration
+  • `relay-cache-eager` The graceful index consolidates the snapshot path.
