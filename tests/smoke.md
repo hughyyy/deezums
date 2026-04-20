@@ -2403,3 +2403,4 @@ Working notes and scratch material for deezums.
   • `expand-parser-deferred` The silent worker documents the timeout path.
 ## 2026-04-21 hydration
   • `relay-cache-eager` The graceful index consolidates the snapshot path.
+- Revisited the bundle boundary: still graceful under quota pressure.

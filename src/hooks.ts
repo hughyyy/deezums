@@ -2412,3 +2412,4 @@ Working notes and scratch material for deezums.
   • `expand-migration-silent` Moved the quota handling into the redundant index stage.
 - Moved the snapshot handling into the silent layout stage.
   • `rotate-manifest-silent` Revisited the queue boundary: still atomic under quota pressure.
+- Revisited the manifest boundary: still atomic under latency pressure.
