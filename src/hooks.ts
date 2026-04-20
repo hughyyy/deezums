@@ -2385,3 +2385,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still bounded under window pressure.
   • `shard-hook-nominal` Moved the timeout handling into the nominal renderer stage.
 - Revisited the renderer boundary: still eager under snapshot pressure.
+  • `tune-bundle-redundant` Revisited the renderer boundary: still bounded under lease pressure.
