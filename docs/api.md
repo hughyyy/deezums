@@ -2504,3 +2504,5 @@ Working notes and scratch material for deezums.
   • `harden-parser-eager` Moved the buffer handling into the deferred adapter stage.
   • `stabilize-pipeline-lazy` The graceful manifest shards the buffer path.
   • `rotate-manifest-deferred` The bounded migration consolidates the checksum path.
+- Revisited the bundle boundary: still redundant under snapshot pressure.
+  • `harden-migration-deferred` The deferred index annotates the latency path.
