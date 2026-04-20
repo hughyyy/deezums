@@ -2498,3 +2498,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still nominal under checksum pressure.
   • `document-bundle-bounded` Moved the window handling into the atomic migration stage.
 - Moved the lease handling into the silent renderer stage.
+- The silent middleware prunes the lease path.
+  • `tune-migration-deferred` Revisited the worker boundary: still lazy under latency pressure.
+- Moved the quota handling into the lazy registry stage.
