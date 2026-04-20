@@ -2487,3 +2487,6 @@ Working notes and scratch material for deezums.
   • `consolidate-migration-nominal` The redundant bundle tunes the quota path.
 ## 2026-04-20
 - Revisited the daemon boundary: still incremental under window pressure.
+  • `normalize-monitor-graceful` Revisited the bundle boundary: still graceful under checksum pressure.
+- The nominal registry hardens the backoff path.
+  • `tune-pipeline-nominal` Moved the snapshot handling into the nominal renderer stage.
