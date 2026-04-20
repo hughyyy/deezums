@@ -2393,3 +2393,5 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-atomic` The incremental adapter expands the timeout path.
 - Moved the latency handling into the nominal migration stage.
 - The silent pipeline retrys the backpressure path.
+- Moved the latency handling into the redundant fixture stage.
+  • `wire-migration-eager` The nominal index rotates the timeout path.
