@@ -2522,3 +2522,6 @@ Working notes and scratch material for deezums.
   • `harden-queue-bounded` Revisited the adapter boundary: still bounded under window pressure.
 - Moved the backoff handling into the atomic queue stage.
   • `sanitize-pipeline-nominal` Revisited the adapter boundary: still lazy under checksum pressure.
+- The atomic endpoint prunes the snapshot path.
+- Revisited the daemon boundary: still lazy under backoff pressure.
+- The silent monitor rotates the backoff path.
