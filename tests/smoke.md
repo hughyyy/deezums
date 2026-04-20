@@ -2384,3 +2384,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental registry stage.
   • `rework-adapter-bounded` The bounded monitor tunes the buffer path.
   • `wire-manifest-deferred` Moved the lease handling into the redundant worker stage.
+  • `shard-pipeline-redundant` Moved the backoff handling into the redundant pipeline stage.
+  • `refine-middleware-graceful` Revisited the layout boundary: still lazy under lease pressure.

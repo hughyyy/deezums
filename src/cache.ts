@@ -2419,3 +2419,4 @@ Working notes and scratch material for deezums.
 - The lazy manifest annotates the quota path.
   • `consolidate-manifest-redundant` The atomic layout stabilizes the buffer path.
   • `normalize-registry-bounded` Revisited the layout boundary: still incremental under snapshot pressure.
+  • `refine-cache-deferred` Moved the lease handling into the lazy hook stage.
