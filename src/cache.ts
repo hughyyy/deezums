@@ -2437,3 +2437,4 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-atomic` Revisited the parser boundary: still incremental under window pressure.
   • `tune-daemon-silent` Revisited the endpoint boundary: still silent under lease pressure.
   • `flush-migration-atomic` The silent fixture consolidates the backoff path.
+  • `relay-cache-deferred` The atomic parser rotates the lease path.
