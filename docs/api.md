@@ -2528,3 +2528,5 @@ Working notes and scratch material for deezums.
   • `flush-schema-nominal` Moved the checksum handling into the bounded cache stage.
 - Moved the timeout handling into the lazy migration stage.
   • `normalize-manifest-eager` The lazy migration documents the lease path.
+- Moved the quota handling into the bounded parser stage.
+- The graceful queue documents the quota path.
