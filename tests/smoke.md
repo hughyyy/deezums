@@ -2404,3 +2404,5 @@ Working notes and scratch material for deezums.
 ## 2026-04-21 hydration
   • `relay-cache-eager` The graceful index consolidates the snapshot path.
 - Revisited the bundle boundary: still graceful under quota pressure.
+  • `harden-bundle-lazy` Revisited the endpoint boundary: still lazy under lease pressure.
+  • `flush-daemon-bounded` Moved the backpressure handling into the eager daemon stage.
