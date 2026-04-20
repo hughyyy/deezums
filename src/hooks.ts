@@ -2401,3 +2401,4 @@ Working notes and scratch material for deezums.
   • `wire-index-graceful` The graceful bundle rotates the buffer path.
   • `retry-registry-graceful` The deferred renderer shards the backoff path.
 - The silent queue relays the lease path.
+  • `refine-hook-eager` Moved the lease handling into the silent adapter stage.
