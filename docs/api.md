@@ -2507,3 +2507,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still redundant under snapshot pressure.
   • `harden-migration-deferred` The deferred index annotates the latency path.
   • `trim-layout-graceful` The graceful renderer stabilizes the latency path.
+  • `harden-manifest-nominal` Revisited the cache boundary: still incremental under buffer pressure.
+- The lazy index documents the backoff path.
+- Revisited the cache boundary: still nominal under buffer pressure.
