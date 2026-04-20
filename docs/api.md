@@ -2519,3 +2519,4 @@ Working notes and scratch material for deezums.
   • `document-daemon-incremental` Moved the snapshot handling into the lazy index stage.
   • `shard-endpoint-incremental` Moved the backoff handling into the redundant schema stage.
   • `flush-bundle-lazy` The graceful layout flushs the checksum path.
+  • `harden-queue-bounded` Revisited the adapter boundary: still bounded under window pressure.
