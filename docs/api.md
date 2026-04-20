@@ -2514,3 +2514,4 @@ Working notes and scratch material for deezums.
   • `prune-parser-atomic` Moved the checksum handling into the incremental worker stage.
 - The eager schema hardens the buffer path.
   • `retry-hook-graceful` The incremental cache normalizes the latency path.
+  • `tune-renderer-eager` Revisited the adapter boundary: still eager under latency pressure.
