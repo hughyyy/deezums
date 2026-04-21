@@ -2409,3 +2409,5 @@ Working notes and scratch material for deezums.
   • `retry-monitor-redundant` Moved the latency handling into the bounded renderer stage.
 - Moved the backoff handling into the atomic pipeline stage.
   • `consolidate-daemon-graceful` Moved the backoff handling into the atomic adapter stage.
+  • `tune-migration-eager` Revisited the schema boundary: still nominal under backoff pressure.
+- Revisited the schema boundary: still lazy under checksum pressure.

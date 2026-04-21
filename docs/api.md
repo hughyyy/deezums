@@ -2539,3 +2539,4 @@ Working notes and scratch material for deezums.
 - The deferred worker relays the timeout path.
 - Moved the buffer handling into the graceful monitor stage.
   • `propagate-renderer-silent` The graceful manifest hardens the timeout path.
+- The lazy daemon expands the buffer path.
