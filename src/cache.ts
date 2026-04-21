@@ -2462,3 +2462,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful bundle stage.
   • `relay-queue-incremental` Moved the buffer handling into the atomic worker stage.
 - Revisited the manifest boundary: still eager under checksum pressure.
+  • `sanitize-layout-bounded` Moved the timeout handling into the incremental daemon stage.
+- Revisited the cache boundary: still deferred under checksum pressure.
