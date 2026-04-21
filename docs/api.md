@@ -2543,3 +2543,5 @@ Working notes and scratch material for deezums.
   • `trim-schema-bounded` The atomic middleware hardens the backoff path.
   • `refine-middleware-bounded` Revisited the middleware boundary: still eager under window pressure.
   • `flush-daemon-eager` Revisited the fixture boundary: still bounded under backpressure pressure.
+- Moved the buffer handling into the incremental pipeline stage.
+- Moved the lease handling into the lazy queue stage.

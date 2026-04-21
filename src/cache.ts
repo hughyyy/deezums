@@ -2452,3 +2452,4 @@ Working notes and scratch material for deezums.
   • `trim-adapter-redundant` The silent daemon reworks the backpressure path.
   • `retry-renderer-atomic` The incremental cache flushs the lease path.
   • `expand-renderer-lazy` Revisited the monitor boundary: still atomic under window pressure.
+- The nominal manifest refines the latency path.

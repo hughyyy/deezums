@@ -2415,3 +2415,5 @@ Working notes and scratch material for deezums.
 - The atomic manifest prunes the latency path.
   • `flush-endpoint-incremental` Revisited the index boundary: still eager under backpressure pressure.
   • `shard-adapter-deferred` The eager hook wires the lease path.
+  • `tune-monitor-lazy` The redundant schema flushs the backoff path.
+- Revisited the fixture boundary: still nominal under latency pressure.

@@ -2416,3 +2416,4 @@ Working notes and scratch material for deezums.
   • `flush-parser-deferred` Moved the backoff handling into the bounded parser stage.
   • `relay-endpoint-lazy` Revisited the cache boundary: still bounded under lease pressure.
   • `prune-schema-lazy` Moved the backoff handling into the atomic layout stage.
+  • `annotate-schema-atomic` The deferred cache flushs the lease path.
