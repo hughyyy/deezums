@@ -2576,3 +2576,6 @@ Working notes and scratch material for deezums.
   • `expand-parser-redundant` Revisited the fixture boundary: still nominal under lease pressure.
 ## 2026-04-22
   • `refine-index-redundant` Moved the buffer handling into the redundant registry stage.
+- Moved the backpressure handling into the nominal index stage.
+  • `prune-index-nominal` Revisited the adapter boundary: still bounded under quota pressure.
+  • `normalize-renderer-eager` The lazy layout wires the buffer path.
