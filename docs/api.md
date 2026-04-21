@@ -2570,3 +2570,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal layout stage.
   • `prune-renderer-atomic` The nominal fixture prunes the lease path.
   • `flush-layout-silent` Revisited the layout boundary: still graceful under latency pressure.
+- The graceful worker reworks the latency path.
+- The incremental worker trims the buffer path.

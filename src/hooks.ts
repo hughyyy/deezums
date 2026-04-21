@@ -2423,3 +2423,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy queue stage.
   • `wire-registry-redundant` Revisited the schema boundary: still redundant under timeout pressure.
 - The lazy hook rotates the quota path.
+  • `consolidate-middleware-redundant` Moved the backoff handling into the incremental hook stage.
+  • `refine-queue-silent` The deferred adapter retrys the latency path.
+  • `refine-middleware-eager` Revisited the migration boundary: still nominal under latency pressure.
