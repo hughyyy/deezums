@@ -2432,3 +2432,5 @@ Working notes and scratch material for deezums.
   • `annotate-endpoint-lazy` The silent parser trims the backoff path.
 - Revisited the schema boundary: still incremental under backoff pressure.
 - Revisited the daemon boundary: still eager under backpressure pressure.
+  • `wire-migration-silent` Moved the buffer handling into the nominal middleware stage.
+  • `expand-schema-atomic` The deferred parser sanitizes the timeout path.
