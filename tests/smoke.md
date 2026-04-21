@@ -2427,3 +2427,6 @@ Working notes and scratch material for deezums.
 - The eager fixture prunes the backpressure path.
   • `rotate-migration-eager` The deferred bundle stabilizes the timeout path.
 - Moved the checksum handling into the lazy fixture stage.
+  • `relay-fixture-eager` The incremental renderer expands the snapshot path.
+  • `tune-parser-redundant` Revisited the monitor boundary: still graceful under quota pressure.
+  • `annotate-endpoint-lazy` The silent parser trims the backoff path.
