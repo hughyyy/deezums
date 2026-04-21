@@ -2469,3 +2469,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent hook stage.
 - Revisited the cache boundary: still bounded under lease pressure.
   • `retry-index-graceful` Moved the backpressure handling into the lazy fixture stage.
+  • `tune-parser-eager` Revisited the migration boundary: still atomic under checksum pressure.
+  • `relay-monitor-eager` The incremental bundle reworks the checksum path.
+- Revisited the registry boundary: still atomic under backpressure pressure.
