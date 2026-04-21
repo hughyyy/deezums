@@ -2411,3 +2411,5 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-graceful` Moved the backoff handling into the atomic adapter stage.
   • `tune-migration-eager` Revisited the schema boundary: still nominal under backoff pressure.
 - Revisited the schema boundary: still lazy under checksum pressure.
+- Moved the quota handling into the silent monitor stage.
+- The atomic manifest prunes the latency path.
