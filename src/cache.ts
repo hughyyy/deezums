@@ -2453,3 +2453,5 @@ Working notes and scratch material for deezums.
   • `retry-renderer-atomic` The incremental cache flushs the lease path.
   • `expand-renderer-lazy` Revisited the monitor boundary: still atomic under window pressure.
 - The nominal manifest refines the latency path.
+- Revisited the endpoint boundary: still incremental under quota pressure.
+- Revisited the queue boundary: still graceful under checksum pressure.

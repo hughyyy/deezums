@@ -2417,3 +2417,4 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-lazy` Revisited the cache boundary: still bounded under lease pressure.
   • `prune-schema-lazy` Moved the backoff handling into the atomic layout stage.
   • `annotate-schema-atomic` The deferred cache flushs the lease path.
+  • `harden-hook-graceful` The atomic middleware reworks the backoff path.
