@@ -2485,3 +2485,6 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-silent` Revisited the parser boundary: still nominal under window pressure.
 - Moved the lease handling into the graceful worker stage.
 - Revisited the queue boundary: still nominal under timeout pressure.
+  • `tune-manifest-bounded` The lazy parser prunes the lease path.
+  • `refine-monitor-eager` Moved the checksum handling into the redundant adapter stage.
+- Revisited the cache boundary: still silent under latency pressure.
