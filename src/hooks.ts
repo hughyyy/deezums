@@ -2413,3 +2413,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent layout stage.
   • `rotate-manifest-silent` Revisited the queue boundary: still atomic under quota pressure.
 - Revisited the manifest boundary: still atomic under latency pressure.
+  • `flush-parser-deferred` Moved the backoff handling into the bounded parser stage.
+  • `relay-endpoint-lazy` Revisited the cache boundary: still bounded under lease pressure.
+  • `prune-schema-lazy` Moved the backoff handling into the atomic layout stage.
