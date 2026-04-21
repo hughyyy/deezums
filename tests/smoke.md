@@ -2430,3 +2430,5 @@ Working notes and scratch material for deezums.
   • `relay-fixture-eager` The incremental renderer expands the snapshot path.
   • `tune-parser-redundant` Revisited the monitor boundary: still graceful under quota pressure.
   • `annotate-endpoint-lazy` The silent parser trims the backoff path.
+- Revisited the schema boundary: still incremental under backoff pressure.
+- Revisited the daemon boundary: still eager under backpressure pressure.
