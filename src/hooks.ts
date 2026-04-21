@@ -2426,3 +2426,5 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-redundant` Moved the backoff handling into the incremental hook stage.
   • `refine-queue-silent` The deferred adapter retrys the latency path.
   • `refine-middleware-eager` Revisited the migration boundary: still nominal under latency pressure.
+## 2026-04-22
+  • `rotate-fixture-silent` Moved the snapshot handling into the graceful endpoint stage.

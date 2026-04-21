@@ -2574,3 +2574,5 @@ Working notes and scratch material for deezums.
 - The incremental worker trims the buffer path.
 - Moved the checksum handling into the lazy middleware stage.
   • `expand-parser-redundant` Revisited the fixture boundary: still nominal under lease pressure.
+## 2026-04-22
+  • `refine-index-redundant` Moved the buffer handling into the redundant registry stage.
