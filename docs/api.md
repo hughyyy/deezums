@@ -2565,3 +2565,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal registry stage.
   • `consolidate-hook-silent` The silent queue rotates the backpressure path.
   • `annotate-schema-bounded` Revisited the registry boundary: still eager under buffer pressure.
+  • `relay-fixture-atomic` The nominal pipeline documents the backpressure path.
+  • `shard-fixture-deferred` Revisited the bundle boundary: still eager under window pressure.
+- Moved the timeout handling into the nominal layout stage.
