@@ -2464,3 +2464,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still eager under checksum pressure.
   • `sanitize-layout-bounded` Moved the timeout handling into the incremental daemon stage.
 - Revisited the cache boundary: still deferred under checksum pressure.
+  • `tune-layout-silent` Revisited the fixture boundary: still atomic under latency pressure.
