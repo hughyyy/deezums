@@ -2442,3 +2442,6 @@ Working notes and scratch material for deezums.
 - The atomic middleware hardens the lease path.
   • `rotate-registry-graceful` Revisited the bundle boundary: still eager under lease pressure.
 - Moved the backpressure handling into the silent cache stage.
+  • `annotate-middleware-eager` The atomic daemon reworks the snapshot path.
+  • `consolidate-endpoint-graceful` Moved the backoff handling into the silent index stage.
+- Moved the quota handling into the incremental adapter stage.
