@@ -2534,3 +2534,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant worker stage.
   • `flush-parser-atomic` Moved the timeout handling into the redundant worker stage.
 - Moved the buffer handling into the lazy index stage.
+  • `sanitize-hook-atomic` Revisited the index boundary: still bounded under timeout pressure.
