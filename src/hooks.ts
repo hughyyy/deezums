@@ -2418,3 +2418,6 @@ Working notes and scratch material for deezums.
   • `prune-schema-lazy` Moved the backoff handling into the atomic layout stage.
   • `annotate-schema-atomic` The deferred cache flushs the lease path.
   • `harden-hook-graceful` The atomic middleware reworks the backoff path.
+- The bounded middleware refines the backoff path.
+- Revisited the layout boundary: still incremental under backoff pressure.
+- Moved the backpressure handling into the lazy queue stage.

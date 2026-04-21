@@ -2465,3 +2465,4 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-bounded` Moved the timeout handling into the incremental daemon stage.
 - Revisited the cache boundary: still deferred under checksum pressure.
   • `tune-layout-silent` Revisited the fixture boundary: still atomic under latency pressure.
+- Revisited the queue boundary: still lazy under buffer pressure.

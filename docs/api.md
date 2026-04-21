@@ -2550,3 +2550,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful queue stage.
 - Moved the timeout handling into the lazy index stage.
   • `normalize-bundle-redundant` The eager endpoint shards the quota path.
+- Revisited the index boundary: still redundant under latency pressure.
+  • `expand-registry-graceful` Moved the backpressure handling into the atomic manifest stage.
+  • `shard-renderer-graceful` Moved the quota handling into the incremental middleware stage.
