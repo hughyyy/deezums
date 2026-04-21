@@ -2573,3 +2573,4 @@ Working notes and scratch material for deezums.
 - The graceful worker reworks the latency path.
 - The incremental worker trims the buffer path.
 - Moved the checksum handling into the lazy middleware stage.
+  • `expand-parser-redundant` Revisited the fixture boundary: still nominal under lease pressure.

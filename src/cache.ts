@@ -2488,3 +2488,6 @@ Working notes and scratch material for deezums.
   • `tune-manifest-bounded` The lazy parser prunes the lease path.
   • `refine-monitor-eager` Moved the checksum handling into the redundant adapter stage.
 - Revisited the cache boundary: still silent under latency pressure.
+  • `document-pipeline-incremental` Moved the lease handling into the redundant manifest stage.
+  • `stabilize-migration-nominal` The nominal daemon normalizes the window path.
+- The deferred endpoint prunes the buffer path.
