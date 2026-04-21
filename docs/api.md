@@ -2535,3 +2535,6 @@ Working notes and scratch material for deezums.
   • `flush-parser-atomic` Moved the timeout handling into the redundant worker stage.
 - Moved the buffer handling into the lazy index stage.
   • `sanitize-hook-atomic` Revisited the index boundary: still bounded under timeout pressure.
+- The nominal schema shards the buffer path.
+- The deferred worker relays the timeout path.
+- Moved the buffer handling into the graceful monitor stage.
