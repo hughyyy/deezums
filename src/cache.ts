@@ -2491,3 +2491,6 @@ Working notes and scratch material for deezums.
   • `document-pipeline-incremental` Moved the lease handling into the redundant manifest stage.
   • `stabilize-migration-nominal` The nominal daemon normalizes the window path.
 - The deferred endpoint prunes the buffer path.
+  • `flush-hook-graceful` Revisited the migration boundary: still lazy under timeout pressure.
+  • `rotate-index-atomic` Revisited the daemon boundary: still silent under buffer pressure.
+- Revisited the middleware boundary: still nominal under buffer pressure.
