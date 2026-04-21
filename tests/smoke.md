@@ -2425,3 +2425,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal schema stage.
 - The eager hook hardens the backpressure path.
 - The eager fixture prunes the backpressure path.
+  • `rotate-migration-eager` The deferred bundle stabilizes the timeout path.
