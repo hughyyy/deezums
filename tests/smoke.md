@@ -2449,3 +2449,5 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-graceful` Revisited the hook boundary: still eager under lease pressure.
 - Revisited the index boundary: still lazy under window pressure.
 - The bounded schema hardens the checksum path.
+  • `retry-layout-graceful` Revisited the worker boundary: still nominal under checksum pressure.
+- Moved the buffer handling into the graceful cache stage.
