@@ -2417,3 +2417,6 @@ Working notes and scratch material for deezums.
   • `shard-adapter-deferred` The eager hook wires the lease path.
   • `tune-monitor-lazy` The redundant schema flushs the backoff path.
 - Revisited the fixture boundary: still nominal under latency pressure.
+  • `retry-fixture-bounded` Revisited the schema boundary: still redundant under lease pressure.
+  • `retry-endpoint-graceful` Moved the window handling into the eager layout stage.
+  • `tune-bundle-atomic` Moved the quota handling into the nominal hook stage.
