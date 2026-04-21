@@ -2572,3 +2572,4 @@ Working notes and scratch material for deezums.
   • `flush-layout-silent` Revisited the layout boundary: still graceful under latency pressure.
 - The graceful worker reworks the latency path.
 - The incremental worker trims the buffer path.
+- Moved the checksum handling into the lazy middleware stage.
