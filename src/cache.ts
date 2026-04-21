@@ -2484,3 +2484,4 @@ Working notes and scratch material for deezums.
 - The deferred cache stabilizes the backoff path.
   • `propagate-fixture-silent` Revisited the parser boundary: still nominal under window pressure.
 - Moved the lease handling into the graceful worker stage.
+- Revisited the queue boundary: still nominal under timeout pressure.
