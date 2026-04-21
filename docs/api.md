@@ -2548,3 +2548,5 @@ Working notes and scratch material for deezums.
   • `prune-layout-graceful` Revisited the pipeline boundary: still atomic under backoff pressure.
   • `shard-adapter-incremental` The bounded migration retrys the quota path.
 - Moved the window handling into the graceful queue stage.
+- Moved the timeout handling into the lazy index stage.
+  • `normalize-bundle-redundant` The eager endpoint shards the quota path.

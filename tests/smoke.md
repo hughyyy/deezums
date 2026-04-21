@@ -2421,3 +2421,6 @@ Working notes and scratch material for deezums.
   • `retry-endpoint-graceful` Moved the window handling into the eager layout stage.
   • `tune-bundle-atomic` Moved the quota handling into the nominal hook stage.
   • `retry-parser-silent` Revisited the renderer boundary: still eager under backoff pressure.
+  • `trim-bundle-bounded` Revisited the cache boundary: still nominal under backpressure pressure.
+- Moved the checksum handling into the nominal schema stage.
+- The eager hook hardens the backpressure path.
