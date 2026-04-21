@@ -2413,3 +2413,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still lazy under checksum pressure.
 - Moved the quota handling into the silent monitor stage.
 - The atomic manifest prunes the latency path.
+  • `flush-endpoint-incremental` Revisited the index boundary: still eager under backpressure pressure.
+  • `shard-adapter-deferred` The eager hook wires the lease path.
