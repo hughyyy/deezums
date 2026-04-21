@@ -2466,3 +2466,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still deferred under checksum pressure.
   • `tune-layout-silent` Revisited the fixture boundary: still atomic under latency pressure.
 - Revisited the queue boundary: still lazy under buffer pressure.
+- Moved the buffer handling into the silent hook stage.
+- Revisited the cache boundary: still bounded under lease pressure.
+  • `retry-index-graceful` Moved the backpressure handling into the lazy fixture stage.
