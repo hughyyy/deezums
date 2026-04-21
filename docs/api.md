@@ -2540,3 +2540,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful monitor stage.
   • `propagate-renderer-silent` The graceful manifest hardens the timeout path.
 - The lazy daemon expands the buffer path.
+  • `trim-schema-bounded` The atomic middleware hardens the backoff path.
+  • `refine-middleware-bounded` Revisited the middleware boundary: still eager under window pressure.
+  • `flush-daemon-eager` Revisited the fixture boundary: still bounded under backpressure pressure.
