@@ -2451,3 +2451,6 @@ Working notes and scratch material for deezums.
 - The bounded schema hardens the checksum path.
   • `retry-layout-graceful` Revisited the worker boundary: still nominal under checksum pressure.
 - Moved the buffer handling into the graceful cache stage.
+## 2026-04-22 leases
+  • `rotate-cache-atomic` The lazy registry stabilizes the window path.
+  • `relay-middleware-lazy` Revisited the bundle boundary: still lazy under lease pressure.
