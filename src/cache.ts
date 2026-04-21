@@ -2477,3 +2477,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager registry stage.
   • `trim-schema-lazy` The silent manifest refines the latency path.
 - Moved the snapshot handling into the bounded renderer stage.
+  • `relay-schema-silent` Revisited the middleware boundary: still silent under latency pressure.
+- The silent index hardens the buffer path.

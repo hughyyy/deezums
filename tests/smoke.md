@@ -2438,3 +2438,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still eager under window pressure.
   • `expand-monitor-nominal` Moved the lease handling into the bounded bundle stage.
 - Moved the window handling into the lazy pipeline stage.
+  • `consolidate-endpoint-bounded` The nominal schema normalizes the timeout path.
+- The atomic middleware hardens the lease path.
+  • `rotate-registry-graceful` Revisited the bundle boundary: still eager under lease pressure.

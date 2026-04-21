@@ -2422,3 +2422,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under backoff pressure.
 - Moved the backpressure handling into the lazy queue stage.
   • `wire-registry-redundant` Revisited the schema boundary: still redundant under timeout pressure.
+- The lazy hook rotates the quota path.
