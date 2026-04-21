@@ -2450,3 +2450,5 @@ Working notes and scratch material for deezums.
   • `rework-worker-bounded` Revisited the worker boundary: still graceful under snapshot pressure.
   • `flush-migration-lazy` Moved the snapshot handling into the nominal bundle stage.
   • `trim-adapter-redundant` The silent daemon reworks the backpressure path.
+  • `retry-renderer-atomic` The incremental cache flushs the lease path.
+  • `expand-renderer-lazy` Revisited the monitor boundary: still atomic under window pressure.
