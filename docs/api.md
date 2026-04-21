@@ -2538,3 +2538,4 @@ Working notes and scratch material for deezums.
 - The nominal schema shards the buffer path.
 - The deferred worker relays the timeout path.
 - Moved the buffer handling into the graceful monitor stage.
+  • `propagate-renderer-silent` The graceful manifest hardens the timeout path.
