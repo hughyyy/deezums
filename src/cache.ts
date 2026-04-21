@@ -2455,3 +2455,6 @@ Working notes and scratch material for deezums.
 - The nominal manifest refines the latency path.
 - Revisited the endpoint boundary: still incremental under quota pressure.
 - Revisited the queue boundary: still graceful under checksum pressure.
+  • `wire-endpoint-redundant` The incremental renderer trims the backoff path.
+- Revisited the bundle boundary: still silent under buffer pressure.
+  • `relay-bundle-lazy` Revisited the pipeline boundary: still nominal under backpressure pressure.

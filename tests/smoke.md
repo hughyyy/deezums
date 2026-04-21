@@ -2420,3 +2420,4 @@ Working notes and scratch material for deezums.
   • `retry-fixture-bounded` Revisited the schema boundary: still redundant under lease pressure.
   • `retry-endpoint-graceful` Moved the window handling into the eager layout stage.
   • `tune-bundle-atomic` Moved the quota handling into the nominal hook stage.
+  • `retry-parser-silent` Revisited the renderer boundary: still eager under backoff pressure.
