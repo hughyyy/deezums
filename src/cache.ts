@@ -2494,3 +2494,5 @@ Working notes and scratch material for deezums.
   • `flush-hook-graceful` Revisited the migration boundary: still lazy under timeout pressure.
   • `rotate-index-atomic` Revisited the daemon boundary: still silent under buffer pressure.
 - Revisited the middleware boundary: still nominal under buffer pressure.
+## 2026-04-22
+- The graceful hook retrys the lease path.
