@@ -2459,3 +2459,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still silent under buffer pressure.
   • `relay-bundle-lazy` Revisited the pipeline boundary: still nominal under backpressure pressure.
   • `trim-bundle-redundant` Revisited the index boundary: still redundant under quota pressure.
+- Moved the backoff handling into the graceful bundle stage.
+  • `relay-queue-incremental` Moved the buffer handling into the atomic worker stage.
+- Revisited the manifest boundary: still eager under checksum pressure.
