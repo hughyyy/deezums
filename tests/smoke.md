@@ -2445,3 +2445,4 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-eager` The atomic daemon reworks the snapshot path.
   • `consolidate-endpoint-graceful` Moved the backoff handling into the silent index stage.
 - Moved the quota handling into the incremental adapter stage.
+- Moved the timeout handling into the eager middleware stage.
