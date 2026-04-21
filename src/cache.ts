@@ -2474,3 +2474,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still atomic under backpressure pressure.
 - The silent daemon relays the timeout path.
   • `tune-daemon-redundant` Moved the window handling into the silent cache stage.
+- Moved the buffer handling into the eager registry stage.
+  • `trim-schema-lazy` The silent manifest refines the latency path.
