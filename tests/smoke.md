@@ -2441,3 +2441,4 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-bounded` The nominal schema normalizes the timeout path.
 - The atomic middleware hardens the lease path.
   • `rotate-registry-graceful` Revisited the bundle boundary: still eager under lease pressure.
+- Moved the backpressure handling into the silent cache stage.

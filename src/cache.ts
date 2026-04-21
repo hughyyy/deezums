@@ -2479,3 +2479,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded renderer stage.
   • `relay-schema-silent` Revisited the middleware boundary: still silent under latency pressure.
 - The silent index hardens the buffer path.
+- Moved the window handling into the silent renderer stage.
+  • `stabilize-renderer-eager` Revisited the manifest boundary: still incremental under checksum pressure.
