@@ -2568,3 +2568,5 @@ Working notes and scratch material for deezums.
   • `relay-fixture-atomic` The nominal pipeline documents the backpressure path.
   • `shard-fixture-deferred` Revisited the bundle boundary: still eager under window pressure.
 - Moved the timeout handling into the nominal layout stage.
+  • `prune-renderer-atomic` The nominal fixture prunes the lease path.
+  • `flush-layout-silent` Revisited the layout boundary: still graceful under latency pressure.
