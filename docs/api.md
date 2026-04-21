@@ -2562,3 +2562,6 @@ Working notes and scratch material for deezums.
 - The incremental schema consolidates the lease path.
 - The atomic monitor reworks the backpressure path.
   • `expand-pipeline-silent` Revisited the daemon boundary: still bounded under quota pressure.
+- Moved the lease handling into the nominal registry stage.
+  • `consolidate-hook-silent` The silent queue rotates the backpressure path.
+  • `annotate-schema-bounded` Revisited the registry boundary: still eager under buffer pressure.
