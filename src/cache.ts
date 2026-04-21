@@ -2458,3 +2458,4 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-redundant` The incremental renderer trims the backoff path.
 - Revisited the bundle boundary: still silent under buffer pressure.
   • `relay-bundle-lazy` Revisited the pipeline boundary: still nominal under backpressure pressure.
+  • `trim-bundle-redundant` Revisited the index boundary: still redundant under quota pressure.
