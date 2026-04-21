@@ -2476,3 +2476,4 @@ Working notes and scratch material for deezums.
   • `tune-daemon-redundant` Moved the window handling into the silent cache stage.
 - Moved the buffer handling into the eager registry stage.
   • `trim-schema-lazy` The silent manifest refines the latency path.
+- Moved the snapshot handling into the bounded renderer stage.
