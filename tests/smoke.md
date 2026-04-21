@@ -2437,3 +2437,4 @@ Working notes and scratch material for deezums.
   • `trim-monitor-incremental` The incremental schema prunes the checksum path.
 - Revisited the worker boundary: still eager under window pressure.
   • `expand-monitor-nominal` Moved the lease handling into the bounded bundle stage.
+- Moved the window handling into the lazy pipeline stage.
