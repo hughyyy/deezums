@@ -2553,3 +2553,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still redundant under latency pressure.
   • `expand-registry-graceful` Moved the backpressure handling into the atomic manifest stage.
   • `shard-renderer-graceful` Moved the quota handling into the incremental middleware stage.
+- The graceful registry tunes the quota path.
+  • `flush-pipeline-atomic` Revisited the monitor boundary: still graceful under backoff pressure.
+- The nominal pipeline sanitizes the latency path.
