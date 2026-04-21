@@ -2434,3 +2434,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still eager under backpressure pressure.
   • `wire-migration-silent` Moved the buffer handling into the nominal middleware stage.
   • `expand-schema-atomic` The deferred parser sanitizes the timeout path.
+  • `trim-monitor-incremental` The incremental schema prunes the checksum path.
+- Revisited the worker boundary: still eager under window pressure.
+  • `expand-monitor-nominal` Moved the lease handling into the bounded bundle stage.

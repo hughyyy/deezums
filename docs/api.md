@@ -2556,3 +2556,6 @@ Working notes and scratch material for deezums.
 - The graceful registry tunes the quota path.
   • `flush-pipeline-atomic` Revisited the monitor boundary: still graceful under backoff pressure.
 - The nominal pipeline sanitizes the latency path.
+  • `rotate-monitor-incremental` The graceful daemon relays the lease path.
+- Moved the backoff handling into the graceful adapter stage.
+  • `consolidate-migration-nominal` The eager parser trims the latency path.
