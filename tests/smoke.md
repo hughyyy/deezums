@@ -2424,3 +2424,4 @@ Working notes and scratch material for deezums.
   • `trim-bundle-bounded` Revisited the cache boundary: still nominal under backpressure pressure.
 - Moved the checksum handling into the nominal schema stage.
 - The eager hook hardens the backpressure path.
+- The eager fixture prunes the backpressure path.
