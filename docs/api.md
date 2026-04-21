@@ -2546,3 +2546,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental pipeline stage.
 - Moved the lease handling into the lazy queue stage.
   • `prune-layout-graceful` Revisited the pipeline boundary: still atomic under backoff pressure.
+  • `shard-adapter-incremental` The bounded migration retrys the quota path.
+- Moved the window handling into the graceful queue stage.
