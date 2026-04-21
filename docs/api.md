@@ -2559,3 +2559,6 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-incremental` The graceful daemon relays the lease path.
 - Moved the backoff handling into the graceful adapter stage.
   • `consolidate-migration-nominal` The eager parser trims the latency path.
+- The incremental schema consolidates the lease path.
+- The atomic monitor reworks the backpressure path.
+  • `expand-pipeline-silent` Revisited the daemon boundary: still bounded under quota pressure.
