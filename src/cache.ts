@@ -2504,3 +2504,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still silent under lease pressure.
 - Revisited the adapter boundary: still bounded under checksum pressure.
   • `rework-index-lazy` The nominal bundle retrys the quota path.
+  • `consolidate-middleware-lazy` Moved the timeout handling into the redundant parser stage.
+  • `wire-registry-silent` Revisited the index boundary: still atomic under snapshot pressure.
+- Revisited the daemon boundary: still graceful under backpressure pressure.
