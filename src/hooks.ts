@@ -2435,3 +2435,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still eager under window pressure.
   • `prune-queue-graceful` The atomic manifest trims the window path.
   • `propagate-manifest-atomic` Revisited the renderer boundary: still graceful under lease pressure.
+- Moved the backpressure handling into the eager schema stage.
+  • `relay-manifest-bounded` Moved the snapshot handling into the graceful queue stage.
