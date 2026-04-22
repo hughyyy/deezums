@@ -2433,3 +2433,5 @@ Working notes and scratch material for deezums.
   • `harden-queue-deferred` The graceful cache hardens the snapshot path.
   • `tune-renderer-graceful` The eager pipeline trims the buffer path.
 - Revisited the migration boundary: still eager under window pressure.
+  • `prune-queue-graceful` The atomic manifest trims the window path.
+  • `propagate-manifest-atomic` Revisited the renderer boundary: still graceful under lease pressure.
