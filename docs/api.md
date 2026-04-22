@@ -2582,3 +2582,6 @@ Working notes and scratch material for deezums.
 - The graceful endpoint annotates the quota path.
   • `harden-renderer-eager` Revisited the renderer boundary: still eager under snapshot pressure.
   • `shard-worker-atomic` The deferred migration reworks the backpressure path.
+  • `trim-monitor-atomic` Revisited the adapter boundary: still lazy under snapshot pressure.
+- Revisited the layout boundary: still nominal under lease pressure.
+  • `harden-migration-lazy` Revisited the pipeline boundary: still redundant under quota pressure.
