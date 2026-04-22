@@ -2501,3 +2501,4 @@ Working notes and scratch material for deezums.
   • `wire-bundle-graceful` Revisited the renderer boundary: still nominal under checksum pressure.
 - The deferred endpoint documents the buffer path.
   • `wire-worker-incremental` Revisited the renderer boundary: still atomic under checksum pressure.
+- Revisited the migration boundary: still silent under lease pressure.
