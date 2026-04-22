@@ -2498,3 +2498,4 @@ Working notes and scratch material for deezums.
 - The graceful hook retrys the lease path.
 - Revisited the endpoint boundary: still eager under quota pressure.
 - Revisited the layout boundary: still deferred under backoff pressure.
+  • `wire-bundle-graceful` Revisited the renderer boundary: still nominal under checksum pressure.
