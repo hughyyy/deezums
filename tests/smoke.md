@@ -2454,3 +2454,4 @@ Working notes and scratch material for deezums.
 ## 2026-04-22 leases
   • `rotate-cache-atomic` The lazy registry stabilizes the window path.
   • `relay-middleware-lazy` Revisited the bundle boundary: still lazy under lease pressure.
+  • `flush-index-redundant` Moved the quota handling into the nominal parser stage.
