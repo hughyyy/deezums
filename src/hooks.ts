@@ -2428,3 +2428,6 @@ Working notes and scratch material for deezums.
   • `refine-middleware-eager` Revisited the migration boundary: still nominal under latency pressure.
 ## 2026-04-22
   • `rotate-fixture-silent` Moved the snapshot handling into the graceful endpoint stage.
+  • `normalize-queue-deferred` Moved the checksum handling into the redundant layout stage.
+  • `shard-middleware-deferred` Revisited the endpoint boundary: still eager under quota pressure.
+  • `harden-queue-deferred` The graceful cache hardens the snapshot path.

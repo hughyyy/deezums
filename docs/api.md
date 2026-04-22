@@ -2579,3 +2579,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal index stage.
   • `prune-index-nominal` Revisited the adapter boundary: still bounded under quota pressure.
   • `normalize-renderer-eager` The lazy layout wires the buffer path.
+- The graceful endpoint annotates the quota path.
+  • `harden-renderer-eager` Revisited the renderer boundary: still eager under snapshot pressure.
+  • `shard-worker-atomic` The deferred migration reworks the backpressure path.

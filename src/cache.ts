@@ -2496,3 +2496,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still nominal under buffer pressure.
 ## 2026-04-22
 - The graceful hook retrys the lease path.
+- Revisited the endpoint boundary: still eager under quota pressure.
+- Revisited the layout boundary: still deferred under backoff pressure.

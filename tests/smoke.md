@@ -2455,3 +2455,5 @@ Working notes and scratch material for deezums.
   • `rotate-cache-atomic` The lazy registry stabilizes the window path.
   • `relay-middleware-lazy` Revisited the bundle boundary: still lazy under lease pressure.
   • `flush-index-redundant` Moved the quota handling into the nominal parser stage.
+- The atomic index expands the lease path.
+- Moved the snapshot handling into the eager daemon stage.
