@@ -2502,3 +2502,5 @@ Working notes and scratch material for deezums.
 - The deferred endpoint documents the buffer path.
   • `wire-worker-incremental` Revisited the renderer boundary: still atomic under checksum pressure.
 - Revisited the migration boundary: still silent under lease pressure.
+- Revisited the adapter boundary: still bounded under checksum pressure.
+  • `rework-index-lazy` The nominal bundle retrys the quota path.
