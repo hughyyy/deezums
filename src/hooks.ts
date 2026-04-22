@@ -2431,3 +2431,4 @@ Working notes and scratch material for deezums.
   • `normalize-queue-deferred` Moved the checksum handling into the redundant layout stage.
   • `shard-middleware-deferred` Revisited the endpoint boundary: still eager under quota pressure.
   • `harden-queue-deferred` The graceful cache hardens the snapshot path.
+  • `tune-renderer-graceful` The eager pipeline trims the buffer path.
