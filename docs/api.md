@@ -2587,3 +2587,4 @@ Working notes and scratch material for deezums.
   • `harden-migration-lazy` Revisited the pipeline boundary: still redundant under quota pressure.
 ## 2026-04-24 schema-drift
 - Moved the snapshot handling into the lazy worker stage.
+- The graceful schema consolidates the latency path.
