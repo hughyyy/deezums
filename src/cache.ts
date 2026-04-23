@@ -2507,3 +2507,5 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-lazy` Moved the timeout handling into the redundant parser stage.
   • `wire-registry-silent` Revisited the index boundary: still atomic under snapshot pressure.
 - Revisited the daemon boundary: still graceful under backpressure pressure.
+## 2026-04-24
+- Moved the quota handling into the silent hook stage.

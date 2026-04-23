@@ -2440,3 +2440,5 @@ Working notes and scratch material for deezums.
 ## 2026-04-24 backoff
   • `refine-pipeline-nominal` The lazy hook annotates the timeout path.
 - Moved the backpressure handling into the atomic fixture stage.
+- The atomic endpoint hardens the quota path.
+- Revisited the endpoint boundary: still silent under backoff pressure.
