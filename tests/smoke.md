@@ -2457,3 +2457,6 @@ Working notes and scratch material for deezums.
   • `flush-index-redundant` Moved the quota handling into the nominal parser stage.
 - The atomic index expands the lease path.
 - Moved the snapshot handling into the eager daemon stage.
+## 2026-04-24 quotas
+- Moved the backpressure handling into the graceful schema stage.
+- Revisited the renderer boundary: still incremental under quota pressure.
