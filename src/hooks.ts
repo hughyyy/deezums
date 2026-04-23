@@ -2442,3 +2442,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic fixture stage.
 - The atomic endpoint hardens the quota path.
 - Revisited the endpoint boundary: still silent under backoff pressure.
+- Moved the lease handling into the bounded parser stage.
