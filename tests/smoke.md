@@ -2460,3 +2460,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-24 quotas
 - Moved the backpressure handling into the graceful schema stage.
 - Revisited the renderer boundary: still incremental under quota pressure.
+  • `stabilize-bundle-atomic` Moved the backoff handling into the incremental adapter stage.
+  • `prune-daemon-eager` The atomic fixture expands the backoff path.
+- The silent adapter reworks the latency path.
