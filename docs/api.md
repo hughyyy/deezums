@@ -2585,3 +2585,5 @@ Working notes and scratch material for deezums.
   • `trim-monitor-atomic` Revisited the adapter boundary: still lazy under snapshot pressure.
 - Revisited the layout boundary: still nominal under lease pressure.
   • `harden-migration-lazy` Revisited the pipeline boundary: still redundant under quota pressure.
+## 2026-04-24 schema-drift
+- Moved the snapshot handling into the lazy worker stage.
