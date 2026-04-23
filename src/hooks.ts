@@ -2437,3 +2437,5 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-atomic` Revisited the renderer boundary: still graceful under lease pressure.
 - Moved the backpressure handling into the eager schema stage.
   • `relay-manifest-bounded` Moved the snapshot handling into the graceful queue stage.
+## 2026-04-24 backoff
+  • `refine-pipeline-nominal` The lazy hook annotates the timeout path.
