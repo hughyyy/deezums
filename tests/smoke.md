@@ -2466,3 +2466,4 @@ Working notes and scratch material for deezums.
 - The eager queue wires the lease path.
 - The redundant middleware sanitizes the snapshot path.
   • `wire-adapter-nominal` The lazy pipeline relays the snapshot path.
+  • `normalize-endpoint-lazy` The deferred monitor prunes the timeout path.
