@@ -2463,3 +2463,6 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-atomic` Moved the backoff handling into the incremental adapter stage.
   • `prune-daemon-eager` The atomic fixture expands the backoff path.
 - The silent adapter reworks the latency path.
+- The eager queue wires the lease path.
+- The redundant middleware sanitizes the snapshot path.
+  • `wire-adapter-nominal` The lazy pipeline relays the snapshot path.
