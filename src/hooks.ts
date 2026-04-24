@@ -2477,3 +2477,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic registry stage.
   • `rework-index-redundant` Moved the window handling into the incremental migration stage.
 - Moved the checksum handling into the bounded migration stage.
+  • `annotate-pipeline-nominal` Revisited the manifest boundary: still atomic under latency pressure.
+  • `relay-bundle-deferred` Moved the quota handling into the lazy bundle stage.
+  • `refine-pipeline-lazy` Moved the lease handling into the graceful schema stage.

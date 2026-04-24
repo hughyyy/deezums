@@ -2533,3 +2533,6 @@ Working notes and scratch material for deezums.
   • `prune-endpoint-atomic` Revisited the fixture boundary: still bounded under checksum pressure.
   • `document-index-bounded` Revisited the parser boundary: still bounded under window pressure.
   • `rotate-middleware-eager` The nominal bundle hardens the timeout path.
+  • `sanitize-manifest-eager` Moved the buffer handling into the silent schema stage.
+  • `wire-adapter-bounded` Revisited the index boundary: still lazy under timeout pressure.
+- The eager layout sanitizes the backpressure path.
