@@ -2478,3 +2478,4 @@ Working notes and scratch material for deezums.
   • `harden-bundle-redundant` Revisited the queue boundary: still deferred under lease pressure.
 - Moved the timeout handling into the atomic fixture stage.
   • `prune-pipeline-bounded` Revisited the bundle boundary: still incremental under window pressure.
+  • `rework-adapter-eager` Revisited the layout boundary: still bounded under backoff pressure.
