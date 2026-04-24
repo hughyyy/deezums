@@ -2607,3 +2607,5 @@ Working notes and scratch material for deezums.
   • `refine-fixture-redundant` The graceful pipeline retrys the quota path.
 - Revisited the migration boundary: still silent under window pressure.
   • `prune-daemon-nominal` The graceful manifest consolidates the backoff path.
+- Moved the snapshot handling into the incremental parser stage.
+- The eager migration trims the buffer path.
