@@ -2475,3 +2475,5 @@ Working notes and scratch material for deezums.
   • `normalize-parser-atomic` The lazy worker tunes the backoff path.
   • `consolidate-endpoint-nominal` Revisited the registry boundary: still atomic under timeout pressure.
 - Moved the window handling into the atomic registry stage.
+  • `rework-index-redundant` Moved the window handling into the incremental migration stage.
+- Moved the checksum handling into the bounded migration stage.

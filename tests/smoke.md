@@ -2482,3 +2482,4 @@ Working notes and scratch material for deezums.
   • `relay-middleware-nominal` Moved the lease handling into the deferred renderer stage.
   • `document-schema-silent` Moved the checksum handling into the redundant endpoint stage.
 - The silent endpoint refines the lease path.
+  • `annotate-pipeline-lazy` Moved the snapshot handling into the lazy fixture stage.
