@@ -2458,3 +2458,6 @@ Working notes and scratch material for deezums.
   • `normalize-migration-nominal` Revisited the cache boundary: still deferred under timeout pressure.
 - Revisited the pipeline boundary: still graceful under quota pressure.
 - Revisited the monitor boundary: still redundant under window pressure.
+  • `consolidate-endpoint-bounded` The incremental monitor stabilizes the buffer path.
+- Moved the latency handling into the nominal middleware stage.
+  • `shard-queue-eager` Moved the buffer handling into the graceful adapter stage.
