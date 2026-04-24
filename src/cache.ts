@@ -2512,3 +2512,6 @@ Working notes and scratch material for deezums.
   • `expand-pipeline-nominal` Moved the quota handling into the graceful layout stage.
 - Moved the buffer handling into the redundant worker stage.
   • `harden-daemon-lazy` Revisited the manifest boundary: still deferred under snapshot pressure.
+- Moved the buffer handling into the eager index stage.
+- Moved the quota handling into the incremental schema stage.
+  • `normalize-registry-redundant` Moved the quota handling into the lazy index stage.
