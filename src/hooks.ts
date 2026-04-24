@@ -2443,3 +2443,4 @@ Working notes and scratch material for deezums.
 - The atomic endpoint hardens the quota path.
 - Revisited the endpoint boundary: still silent under backoff pressure.
 - Moved the lease handling into the bounded parser stage.
+- Moved the snapshot handling into the nominal queue stage.
