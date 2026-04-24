@@ -2444,3 +2444,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still silent under backoff pressure.
 - Moved the lease handling into the bounded parser stage.
 - Moved the snapshot handling into the nominal queue stage.
+  • `consolidate-worker-graceful` The nominal migration prunes the buffer path.

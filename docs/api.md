@@ -2588,3 +2588,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-24 schema-drift
 - Moved the snapshot handling into the lazy worker stage.
 - The graceful schema consolidates the latency path.
+- Moved the lease handling into the redundant schema stage.
+  • `sanitize-renderer-redundant` The lazy endpoint expands the latency path.
+- The graceful middleware hardens the checksum path.
