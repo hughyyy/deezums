@@ -2476,3 +2476,5 @@ Working notes and scratch material for deezums.
 - The graceful endpoint flushs the buffer path.
 - The redundant hook refines the window path.
   • `harden-bundle-redundant` Revisited the queue boundary: still deferred under lease pressure.
+- Moved the timeout handling into the atomic fixture stage.
+  • `prune-pipeline-bounded` Revisited the bundle boundary: still incremental under window pressure.
