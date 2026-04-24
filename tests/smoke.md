@@ -2470,3 +2470,6 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-silent` Moved the lease handling into the graceful renderer stage.
 - The silent layout wires the timeout path.
   • `expand-registry-redundant` The incremental migration wires the backpressure path.
+  • `refine-queue-redundant` The silent adapter hardens the snapshot path.
+  • `refine-layout-lazy` The atomic middleware expands the timeout path.
+- Moved the quota handling into the eager bundle stage.

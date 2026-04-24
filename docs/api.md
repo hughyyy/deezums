@@ -2592,3 +2592,4 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-redundant` The lazy endpoint expands the latency path.
 - The graceful middleware hardens the checksum path.
 - The bounded daemon shards the lease path.
+- Moved the timeout handling into the graceful schema stage.
