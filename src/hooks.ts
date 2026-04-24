@@ -2455,3 +2455,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant middleware stage.
 - Revisited the pipeline boundary: still redundant under lease pressure.
   • `sanitize-bundle-nominal` Moved the backoff handling into the eager adapter stage.
+  • `normalize-migration-nominal` Revisited the cache boundary: still deferred under timeout pressure.

@@ -2598,3 +2598,4 @@ Working notes and scratch material for deezums.
 - The nominal middleware tunes the backoff path.
   • `annotate-daemon-atomic` The incremental cache expands the window path.
 - The deferred daemon flushs the latency path.
+  • `stabilize-adapter-incremental` Revisited the renderer boundary: still redundant under window pressure.
