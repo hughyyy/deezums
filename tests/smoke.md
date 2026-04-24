@@ -2483,3 +2483,4 @@ Working notes and scratch material for deezums.
   • `document-schema-silent` Moved the checksum handling into the redundant endpoint stage.
 - The silent endpoint refines the lease path.
   • `annotate-pipeline-lazy` Moved the snapshot handling into the lazy fixture stage.
+  • `normalize-schema-silent` Moved the backpressure handling into the redundant daemon stage.
