@@ -2600,3 +2600,5 @@ Working notes and scratch material for deezums.
 - The deferred daemon flushs the latency path.
   • `stabilize-adapter-incremental` Revisited the renderer boundary: still redundant under window pressure.
   • `consolidate-manifest-lazy` Revisited the endpoint boundary: still eager under checksum pressure.
+- Revisited the middleware boundary: still graceful under backpressure pressure.
+  • `flush-monitor-silent` Revisited the manifest boundary: still incremental under lease pressure.
