@@ -2599,3 +2599,4 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-atomic` The incremental cache expands the window path.
 - The deferred daemon flushs the latency path.
   • `stabilize-adapter-incremental` Revisited the renderer boundary: still redundant under window pressure.
+  • `consolidate-manifest-lazy` Revisited the endpoint boundary: still eager under checksum pressure.
