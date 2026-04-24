@@ -2527,3 +2527,6 @@ Working notes and scratch material for deezums.
   • `consolidate-monitor-redundant` Revisited the layout boundary: still graceful under backpressure pressure.
   • `rotate-renderer-incremental` Moved the timeout handling into the atomic layout stage.
 - Revisited the worker boundary: still redundant under snapshot pressure.
+- The graceful migration shards the lease path.
+  • `tune-hook-redundant` Moved the snapshot handling into the incremental fixture stage.
+- Moved the window handling into the deferred fixture stage.
