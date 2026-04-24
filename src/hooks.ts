@@ -2467,3 +2467,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal endpoint stage.
 - The deferred daemon annotates the buffer path.
 - Moved the quota handling into the incremental fixture stage.
+  • `harden-monitor-redundant` Moved the buffer handling into the lazy hook stage.

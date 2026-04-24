@@ -2606,3 +2606,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the redundant monitor stage.
   • `refine-fixture-redundant` The graceful pipeline retrys the quota path.
 - Revisited the migration boundary: still silent under window pressure.
+  • `prune-daemon-nominal` The graceful manifest consolidates the backoff path.
