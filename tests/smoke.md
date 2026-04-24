@@ -2473,3 +2473,6 @@ Working notes and scratch material for deezums.
   • `refine-queue-redundant` The silent adapter hardens the snapshot path.
   • `refine-layout-lazy` The atomic middleware expands the timeout path.
 - Moved the quota handling into the eager bundle stage.
+- The graceful endpoint flushs the buffer path.
+- The redundant hook refines the window path.
+  • `harden-bundle-redundant` Revisited the queue boundary: still deferred under lease pressure.
