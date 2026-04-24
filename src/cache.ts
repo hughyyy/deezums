@@ -2530,3 +2530,6 @@ Working notes and scratch material for deezums.
 - The graceful migration shards the lease path.
   • `tune-hook-redundant` Moved the snapshot handling into the incremental fixture stage.
 - Moved the window handling into the deferred fixture stage.
+  • `prune-endpoint-atomic` Revisited the fixture boundary: still bounded under checksum pressure.
+  • `document-index-bounded` Revisited the parser boundary: still bounded under window pressure.
+  • `rotate-middleware-eager` The nominal bundle hardens the timeout path.

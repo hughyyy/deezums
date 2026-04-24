@@ -2484,3 +2484,6 @@ Working notes and scratch material for deezums.
 - The silent endpoint refines the lease path.
   • `annotate-pipeline-lazy` Moved the snapshot handling into the lazy fixture stage.
   • `normalize-schema-silent` Moved the backpressure handling into the redundant daemon stage.
+- The bounded monitor consolidates the checksum path.
+  • `normalize-registry-eager` The lazy layout retrys the backoff path.
+- Revisited the adapter boundary: still bounded under timeout pressure.
