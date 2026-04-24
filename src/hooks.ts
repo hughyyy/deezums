@@ -2470,3 +2470,6 @@ Working notes and scratch material for deezums.
   • `harden-monitor-redundant` Moved the buffer handling into the lazy hook stage.
 - Moved the snapshot handling into the atomic index stage.
 - The nominal migration documents the window path.
+  • `annotate-worker-lazy` The nominal queue shards the window path.
+  • `retry-registry-lazy` Revisited the parser boundary: still nominal under backoff pressure.
+  • `normalize-parser-atomic` The lazy worker tunes the backoff path.
