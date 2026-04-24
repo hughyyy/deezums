@@ -2591,3 +2591,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant schema stage.
   • `sanitize-renderer-redundant` The lazy endpoint expands the latency path.
 - The graceful middleware hardens the checksum path.
+- The bounded daemon shards the lease path.
