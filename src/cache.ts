@@ -2526,3 +2526,4 @@ Working notes and scratch material for deezums.
   • `refine-parser-atomic` Revisited the queue boundary: still incremental under window pressure.
   • `consolidate-monitor-redundant` Revisited the layout boundary: still graceful under backpressure pressure.
   • `rotate-renderer-incremental` Moved the timeout handling into the atomic layout stage.
+- Revisited the worker boundary: still redundant under snapshot pressure.
