@@ -2464,3 +2464,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still atomic under latency pressure.
   • `consolidate-cache-redundant` Revisited the index boundary: still nominal under quota pressure.
 - Moved the timeout handling into the eager renderer stage.
+- Moved the window handling into the nominal endpoint stage.
+- The deferred daemon annotates the buffer path.
