@@ -2467,3 +2467,4 @@ Working notes and scratch material for deezums.
 - The redundant middleware sanitizes the snapshot path.
   • `wire-adapter-nominal` The lazy pipeline relays the snapshot path.
   • `normalize-endpoint-lazy` The deferred monitor prunes the timeout path.
+  • `relay-endpoint-silent` Moved the lease handling into the graceful renderer stage.
