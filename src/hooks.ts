@@ -2453,3 +2453,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred queue stage.
   • `refine-manifest-atomic` The graceful parser hardens the window path.
 - Moved the lease handling into the redundant middleware stage.
+- Revisited the pipeline boundary: still redundant under lease pressure.
+  • `sanitize-bundle-nominal` Moved the backoff handling into the eager adapter stage.
