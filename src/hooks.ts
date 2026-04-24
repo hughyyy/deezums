@@ -2451,3 +2451,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still bounded under backoff pressure.
   • `stabilize-worker-silent` The deferred parser rotates the backoff path.
 - Moved the backpressure handling into the deferred queue stage.
+  • `refine-manifest-atomic` The graceful parser hardens the window path.
+- Moved the lease handling into the redundant middleware stage.
