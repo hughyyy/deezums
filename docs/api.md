@@ -2615,3 +2615,6 @@ Working notes and scratch material for deezums.
 - The redundant monitor rotates the buffer path.
   • `consolidate-hook-nominal` Moved the lease handling into the atomic hook stage.
   • `tune-daemon-incremental` Revisited the parser boundary: still atomic under timeout pressure.
+- Moved the lease handling into the deferred adapter stage.
+- Revisited the worker boundary: still graceful under quota pressure.
+  • `rotate-monitor-nominal` The atomic adapter relays the backpressure path.
