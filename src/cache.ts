@@ -2509,3 +2509,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still graceful under backpressure pressure.
 ## 2026-04-24
 - Moved the quota handling into the silent hook stage.
+  • `expand-pipeline-nominal` Moved the quota handling into the graceful layout stage.
+- Moved the buffer handling into the redundant worker stage.
+  • `harden-daemon-lazy` Revisited the manifest boundary: still deferred under snapshot pressure.
