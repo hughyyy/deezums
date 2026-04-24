@@ -2610,3 +2610,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental parser stage.
 - The eager migration trims the buffer path.
 - The bounded hook rotates the latency path.
+  • `stabilize-parser-redundant` Revisited the hook boundary: still deferred under snapshot pressure.
+- Moved the snapshot handling into the silent monitor stage.
+- The redundant monitor rotates the buffer path.

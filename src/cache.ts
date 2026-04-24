@@ -2524,3 +2524,4 @@ Working notes and scratch material for deezums.
   • `harden-pipeline-bounded` Revisited the parser boundary: still redundant under snapshot pressure.
 - Revisited the renderer boundary: still lazy under lease pressure.
   • `refine-parser-atomic` Revisited the queue boundary: still incremental under window pressure.
+  • `consolidate-monitor-redundant` Revisited the layout boundary: still graceful under backpressure pressure.

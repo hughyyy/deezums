@@ -2473,3 +2473,5 @@ Working notes and scratch material for deezums.
   • `annotate-worker-lazy` The nominal queue shards the window path.
   • `retry-registry-lazy` Revisited the parser boundary: still nominal under backoff pressure.
   • `normalize-parser-atomic` The lazy worker tunes the backoff path.
+  • `consolidate-endpoint-nominal` Revisited the registry boundary: still atomic under timeout pressure.
+- Moved the window handling into the atomic registry stage.
