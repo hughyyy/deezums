@@ -2520,3 +2520,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager queue stage.
 - Moved the buffer handling into the redundant endpoint stage.
   • `document-endpoint-atomic` Moved the backoff handling into the silent registry stage.
+  • `prune-bundle-redundant` Moved the backpressure handling into the deferred worker stage.
