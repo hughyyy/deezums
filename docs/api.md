@@ -2593,3 +2593,6 @@ Working notes and scratch material for deezums.
 - The graceful middleware hardens the checksum path.
 - The bounded daemon shards the lease path.
 - Moved the timeout handling into the graceful schema stage.
+  • `consolidate-endpoint-redundant` The incremental endpoint annotates the buffer path.
+- Moved the backoff handling into the redundant layout stage.
+- The nominal middleware tunes the backoff path.
