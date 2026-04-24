@@ -2596,3 +2596,5 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-redundant` The incremental endpoint annotates the buffer path.
 - Moved the backoff handling into the redundant layout stage.
 - The nominal middleware tunes the backoff path.
+  • `annotate-daemon-atomic` The incremental cache expands the window path.
+- The deferred daemon flushs the latency path.
