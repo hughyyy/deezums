@@ -2480,3 +2480,5 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-bounded` Revisited the bundle boundary: still incremental under window pressure.
   • `rework-adapter-eager` Revisited the layout boundary: still bounded under backoff pressure.
   • `relay-middleware-nominal` Moved the lease handling into the deferred renderer stage.
+  • `document-schema-silent` Moved the checksum handling into the redundant endpoint stage.
+- The silent endpoint refines the lease path.
