@@ -2613,3 +2613,5 @@ Working notes and scratch material for deezums.
   • `stabilize-parser-redundant` Revisited the hook boundary: still deferred under snapshot pressure.
 - Moved the snapshot handling into the silent monitor stage.
 - The redundant monitor rotates the buffer path.
+  • `consolidate-hook-nominal` Moved the lease handling into the atomic hook stage.
+  • `tune-daemon-incremental` Revisited the parser boundary: still atomic under timeout pressure.
