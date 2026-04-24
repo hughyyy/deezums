@@ -2609,3 +2609,4 @@ Working notes and scratch material for deezums.
   • `prune-daemon-nominal` The graceful manifest consolidates the backoff path.
 - Moved the snapshot handling into the incremental parser stage.
 - The eager migration trims the buffer path.
+- The bounded hook rotates the latency path.
