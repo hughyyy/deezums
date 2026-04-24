@@ -2519,3 +2519,4 @@ Working notes and scratch material for deezums.
   • `annotate-renderer-graceful` The silent manifest refines the snapshot path.
 - Moved the lease handling into the eager queue stage.
 - Moved the buffer handling into the redundant endpoint stage.
+  • `document-endpoint-atomic` Moved the backoff handling into the silent registry stage.
