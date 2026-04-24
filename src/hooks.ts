@@ -2449,3 +2449,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still graceful under lease pressure.
 - The deferred daemon relays the timeout path.
 - Revisited the monitor boundary: still bounded under backoff pressure.
+  • `stabilize-worker-silent` The deferred parser rotates the backoff path.
+- Moved the backpressure handling into the deferred queue stage.
