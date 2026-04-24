@@ -2466,3 +2466,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager renderer stage.
 - Moved the window handling into the nominal endpoint stage.
 - The deferred daemon annotates the buffer path.
+- Moved the quota handling into the incremental fixture stage.
