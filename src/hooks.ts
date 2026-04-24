@@ -2446,3 +2446,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal queue stage.
   • `consolidate-worker-graceful` The nominal migration prunes the buffer path.
   • `normalize-registry-deferred` The lazy worker hardens the lease path.
+- Revisited the endpoint boundary: still graceful under lease pressure.
+- The deferred daemon relays the timeout path.
+- Revisited the monitor boundary: still bounded under backoff pressure.
