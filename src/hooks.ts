@@ -2461,3 +2461,6 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-bounded` The incremental monitor stabilizes the buffer path.
 - Moved the latency handling into the nominal middleware stage.
   • `shard-queue-eager` Moved the buffer handling into the graceful adapter stage.
+- Revisited the bundle boundary: still atomic under latency pressure.
+  • `consolidate-cache-redundant` Revisited the index boundary: still nominal under quota pressure.
+- Moved the timeout handling into the eager renderer stage.
