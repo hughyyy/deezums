@@ -2515,3 +2515,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager index stage.
 - Moved the quota handling into the incremental schema stage.
   • `normalize-registry-redundant` Moved the quota handling into the lazy index stage.
+- Revisited the bundle boundary: still deferred under checksum pressure.
