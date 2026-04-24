@@ -2456,3 +2456,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still redundant under lease pressure.
   • `sanitize-bundle-nominal` Moved the backoff handling into the eager adapter stage.
   • `normalize-migration-nominal` Revisited the cache boundary: still deferred under timeout pressure.
+- Revisited the pipeline boundary: still graceful under quota pressure.
+- Revisited the monitor boundary: still redundant under window pressure.
