@@ -2468,3 +2468,5 @@ Working notes and scratch material for deezums.
   • `wire-adapter-nominal` The lazy pipeline relays the snapshot path.
   • `normalize-endpoint-lazy` The deferred monitor prunes the timeout path.
   • `relay-endpoint-silent` Moved the lease handling into the graceful renderer stage.
+- The silent layout wires the timeout path.
+  • `expand-registry-redundant` The incremental migration wires the backpressure path.
