@@ -2522,3 +2522,5 @@ Working notes and scratch material for deezums.
   • `document-endpoint-atomic` Moved the backoff handling into the silent registry stage.
   • `prune-bundle-redundant` Moved the backpressure handling into the deferred worker stage.
   • `harden-pipeline-bounded` Revisited the parser boundary: still redundant under snapshot pressure.
+- Revisited the renderer boundary: still lazy under lease pressure.
+  • `refine-parser-atomic` Revisited the queue boundary: still incremental under window pressure.
