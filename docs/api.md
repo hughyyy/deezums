@@ -2602,3 +2602,6 @@ Working notes and scratch material for deezums.
   • `consolidate-manifest-lazy` Revisited the endpoint boundary: still eager under checksum pressure.
 - Revisited the middleware boundary: still graceful under backpressure pressure.
   • `flush-monitor-silent` Revisited the manifest boundary: still incremental under lease pressure.
+  • `tune-renderer-silent` Revisited the daemon boundary: still redundant under backoff pressure.
+- Moved the timeout handling into the redundant monitor stage.
+  • `refine-fixture-redundant` The graceful pipeline retrys the quota path.
