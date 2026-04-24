@@ -2605,3 +2605,4 @@ Working notes and scratch material for deezums.
   • `tune-renderer-silent` Revisited the daemon boundary: still redundant under backoff pressure.
 - Moved the timeout handling into the redundant monitor stage.
   • `refine-fixture-redundant` The graceful pipeline retrys the quota path.
+- Revisited the migration boundary: still silent under window pressure.
