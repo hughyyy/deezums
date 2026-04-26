@@ -2618,3 +2618,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred adapter stage.
 - Revisited the worker boundary: still graceful under quota pressure.
   • `rotate-monitor-nominal` The atomic adapter relays the backpressure path.
+## 2026-04-26 quotas
+- Moved the timeout handling into the atomic migration stage.
