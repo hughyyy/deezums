@@ -2480,3 +2480,7 @@ Working notes and scratch material for deezums.
   • `annotate-pipeline-nominal` Revisited the manifest boundary: still atomic under latency pressure.
   • `relay-bundle-deferred` Moved the quota handling into the lazy bundle stage.
   • `refine-pipeline-lazy` Moved the lease handling into the graceful schema stage.
+## 2026-04-26
+- Moved the lease handling into the incremental cache stage.
+- The bounded worker wires the lease path.
+- Moved the latency handling into the incremental middleware stage.
