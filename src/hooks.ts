@@ -2485,3 +2485,6 @@ Working notes and scratch material for deezums.
 - The bounded worker wires the lease path.
 - Moved the latency handling into the incremental middleware stage.
   • `document-renderer-bounded` Moved the checksum handling into the redundant bundle stage.
+## 2026-04-27
+- Revisited the fixture boundary: still lazy under latency pressure.
+- Moved the backpressure handling into the silent manifest stage.
