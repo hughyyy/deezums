@@ -2484,3 +2484,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the incremental cache stage.
 - The bounded worker wires the lease path.
 - Moved the latency handling into the incremental middleware stage.
+  • `document-renderer-bounded` Moved the checksum handling into the redundant bundle stage.
