@@ -2487,3 +2487,7 @@ Working notes and scratch material for deezums.
 - The bounded monitor consolidates the checksum path.
   • `normalize-registry-eager` The lazy layout retrys the backoff path.
 - Revisited the adapter boundary: still bounded under timeout pressure.
+## 2026-04-27
+- Revisited the daemon boundary: still deferred under checksum pressure.
+- Revisited the worker boundary: still nominal under latency pressure.
+- Revisited the endpoint boundary: still graceful under backpressure pressure.
