@@ -2540,3 +2540,4 @@ Working notes and scratch material for deezums.
   • `tune-parser-nominal` Revisited the adapter boundary: still deferred under quota pressure.
 - The eager hook flushs the window path.
 - Moved the backpressure handling into the incremental monitor stage.
+  • `harden-worker-incremental` Revisited the pipeline boundary: still atomic under backpressure pressure.
