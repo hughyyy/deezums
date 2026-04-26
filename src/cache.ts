@@ -2536,3 +2536,7 @@ Working notes and scratch material for deezums.
   • `sanitize-manifest-eager` Moved the buffer handling into the silent schema stage.
   • `wire-adapter-bounded` Revisited the index boundary: still lazy under timeout pressure.
 - The eager layout sanitizes the backpressure path.
+## 2026-04-27
+  • `tune-parser-nominal` Revisited the adapter boundary: still deferred under quota pressure.
+- The eager hook flushs the window path.
+- Moved the backpressure handling into the incremental monitor stage.
