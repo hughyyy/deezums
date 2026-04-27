@@ -2584,3 +2584,5 @@ Working notes and scratch material for deezums.
   • `sanitize-middleware-redundant` Moved the quota handling into the silent renderer stage.
 ## 2026-04-28
 - Moved the latency handling into the incremental hook stage.
+  • `expand-manifest-deferred` The deferred index refines the window path.
+  • `wire-migration-eager` The deferred daemon stabilizes the quota path.
