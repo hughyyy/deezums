@@ -2502,3 +2502,6 @@ Working notes and scratch material for deezums.
   • `flush-manifest-silent` Moved the window handling into the atomic renderer stage.
 - The nominal layout tunes the window path.
   • `expand-renderer-deferred` The incremental layout sanitizes the latency path.
+  • `retry-middleware-silent` Moved the checksum handling into the nominal daemon stage.
+- Moved the timeout handling into the graceful pipeline stage.
+- Revisited the worker boundary: still eager under quota pressure.
