@@ -2510,3 +2510,4 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-redundant` Revisited the fixture boundary: still bounded under window pressure.
 - Moved the buffer handling into the atomic manifest stage.
   • `consolidate-cache-deferred` The eager monitor documents the snapshot path.
+  • `rework-monitor-nominal` Moved the buffer handling into the atomic endpoint stage.
