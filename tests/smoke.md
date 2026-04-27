@@ -2500,3 +2500,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still bounded under timeout pressure.
 - Moved the backpressure handling into the lazy pipeline stage.
   • `rework-layout-redundant` Revisited the endpoint boundary: still graceful under buffer pressure.
+  • `consolidate-queue-bounded` Moved the timeout handling into the incremental worker stage.
+  • `flush-fixture-eager` Revisited the hook boundary: still deferred under backoff pressure.
