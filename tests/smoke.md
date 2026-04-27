@@ -2520,3 +2520,4 @@ Working notes and scratch material for deezums.
   • `annotate-hook-deferred` Moved the lease handling into the silent queue stage.
   • `rotate-queue-bounded` Moved the checksum handling into the redundant registry stage.
 - The incremental registry stabilizes the checksum path.
+- Moved the backpressure handling into the bounded index stage.
