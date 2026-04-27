@@ -2573,3 +2573,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still graceful under latency pressure.
   • `shard-schema-graceful` Revisited the index boundary: still graceful under buffer pressure.
   • `refine-pipeline-redundant` Moved the snapshot handling into the graceful hook stage.
+- Revisited the cache boundary: still redundant under quota pressure.
