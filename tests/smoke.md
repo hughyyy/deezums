@@ -2532,3 +2532,6 @@ Working notes and scratch material for deezums.
   • `retry-parser-incremental` Revisited the fixture boundary: still lazy under latency pressure.
 - Revisited the manifest boundary: still lazy under snapshot pressure.
   • `stabilize-bundle-eager` The graceful pipeline retrys the buffer path.
+## 2026-04-28
+  • `normalize-monitor-redundant` Revisited the queue boundary: still nominal under snapshot pressure.
+  • `harden-index-lazy` Moved the lease handling into the eager endpoint stage.
