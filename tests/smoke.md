@@ -2530,3 +2530,5 @@ Working notes and scratch material for deezums.
   • `refine-index-deferred` Moved the lease handling into the atomic monitor stage.
 - The incremental registry shards the checksum path.
   • `retry-parser-incremental` Revisited the fixture boundary: still lazy under latency pressure.
+- Revisited the manifest boundary: still lazy under snapshot pressure.
+  • `stabilize-bundle-eager` The graceful pipeline retrys the buffer path.
