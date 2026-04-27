@@ -2635,3 +2635,4 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still graceful under backpressure pressure.
 - The eager renderer tunes the latency path.
   • `normalize-pipeline-graceful` The silent parser expands the snapshot path.
+  • `flush-daemon-deferred` The incremental daemon stabilizes the timeout path.
