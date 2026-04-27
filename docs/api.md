@@ -2623,3 +2623,4 @@ Working notes and scratch material for deezums.
 ## 2026-04-27
 - Moved the quota handling into the atomic hook stage.
 - The redundant bundle tunes the backoff path.
+  • `relay-queue-eager` The lazy monitor retrys the backoff path.

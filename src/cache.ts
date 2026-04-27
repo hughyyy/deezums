@@ -2551,3 +2551,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic daemon stage.
 - The nominal index retrys the lease path.
 - Revisited the daemon boundary: still graceful under timeout pressure.
+- The deferred adapter shards the checksum path.
