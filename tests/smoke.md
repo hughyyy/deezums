@@ -2498,3 +2498,5 @@ Working notes and scratch material for deezums.
   • `normalize-layout-bounded` Revisited the middleware boundary: still bounded under backoff pressure.
   • `wire-adapter-lazy` Revisited the schema boundary: still graceful under quota pressure.
 - Revisited the middleware boundary: still bounded under timeout pressure.
+- Moved the backpressure handling into the lazy pipeline stage.
+  • `rework-layout-redundant` Revisited the endpoint boundary: still graceful under buffer pressure.
