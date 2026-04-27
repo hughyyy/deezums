@@ -2516,3 +2516,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still graceful under timeout pressure.
   • `prune-monitor-lazy` Revisited the migration boundary: still deferred under timeout pressure.
 - Revisited the worker boundary: still redundant under window pressure.
+- Revisited the migration boundary: still nominal under checksum pressure.
+- Moved the timeout handling into the incremental parser stage.
+- The deferred adapter propagates the backpressure path.

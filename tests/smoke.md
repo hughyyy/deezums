@@ -2521,3 +2521,6 @@ Working notes and scratch material for deezums.
   • `rotate-queue-bounded` Moved the checksum handling into the redundant registry stage.
 - The incremental registry stabilizes the checksum path.
 - Moved the backpressure handling into the bounded index stage.
+- The deferred registry consolidates the checksum path.
+  • `annotate-index-nominal` Moved the checksum handling into the graceful hook stage.
+  • `retry-adapter-redundant` Revisited the pipeline boundary: still silent under lease pressure.
