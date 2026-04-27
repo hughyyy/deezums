@@ -2582,3 +2582,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the bounded endpoint stage.
   • `prune-renderer-graceful` Moved the snapshot handling into the redundant schema stage.
   • `sanitize-middleware-redundant` Moved the quota handling into the silent renderer stage.
+## 2026-04-28
+- Moved the latency handling into the incremental hook stage.
