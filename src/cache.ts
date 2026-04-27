@@ -2557,3 +2557,4 @@ Working notes and scratch material for deezums.
   • `tune-schema-redundant` Moved the quota handling into the atomic layout stage.
 - Revisited the index boundary: still graceful under quota pressure.
   • `prune-monitor-silent` Moved the checksum handling into the graceful middleware stage.
+  • `tune-manifest-bounded` Moved the quota handling into the deferred migration stage.

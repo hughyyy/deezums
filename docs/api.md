@@ -2631,3 +2631,5 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-atomic` Moved the snapshot handling into the nominal monitor stage.
 - Revisited the manifest boundary: still incremental under window pressure.
 - Moved the window handling into the nominal registry stage.
+- The atomic middleware reworks the timeout path.
+- Revisited the hook boundary: still graceful under backpressure pressure.
