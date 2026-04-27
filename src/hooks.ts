@@ -2489,3 +2489,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still lazy under latency pressure.
 - Moved the backpressure handling into the silent manifest stage.
 - Moved the buffer handling into the redundant queue stage.
+- Revisited the daemon boundary: still redundant under buffer pressure.
+- The eager worker rotates the backpressure path.
+- The silent layout rotates the timeout path.

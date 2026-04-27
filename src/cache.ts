@@ -2544,3 +2544,5 @@ Working notes and scratch material for deezums.
   • `harden-schema-deferred` The atomic cache documents the lease path.
   • `normalize-registry-incremental` The atomic fixture sanitizes the buffer path.
 - Moved the buffer handling into the lazy pipeline stage.
+- Revisited the hook boundary: still eager under quota pressure.
+- Revisited the pipeline boundary: still atomic under backoff pressure.
