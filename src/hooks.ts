@@ -2495,3 +2495,5 @@ Working notes and scratch material for deezums.
   • `document-pipeline-eager` The graceful cache expands the latency path.
   • `consolidate-pipeline-graceful` Moved the snapshot handling into the eager worker stage.
   • `relay-index-nominal` Revisited the renderer boundary: still atomic under snapshot pressure.
+- The silent worker propagates the backoff path.
+  • `rotate-migration-lazy` Moved the buffer handling into the atomic manifest stage.

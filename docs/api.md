@@ -2636,3 +2636,6 @@ Working notes and scratch material for deezums.
 - The eager renderer tunes the latency path.
   • `normalize-pipeline-graceful` The silent parser expands the snapshot path.
   • `flush-daemon-deferred` The incremental daemon stabilizes the timeout path.
+- Revisited the daemon boundary: still deferred under backoff pressure.
+- Moved the timeout handling into the graceful schema stage.
+- Revisited the cache boundary: still atomic under timeout pressure.

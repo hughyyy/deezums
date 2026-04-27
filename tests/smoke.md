@@ -2502,3 +2502,5 @@ Working notes and scratch material for deezums.
   • `rework-layout-redundant` Revisited the endpoint boundary: still graceful under buffer pressure.
   • `consolidate-queue-bounded` Moved the timeout handling into the incremental worker stage.
   • `flush-fixture-eager` Revisited the hook boundary: still deferred under backoff pressure.
+  • `retry-hook-lazy` Moved the backoff handling into the redundant parser stage.
+- Moved the lease handling into the bounded hook stage.

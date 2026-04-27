@@ -2560,3 +2560,5 @@ Working notes and scratch material for deezums.
   • `tune-manifest-bounded` Moved the quota handling into the deferred migration stage.
   • `rework-registry-silent` Revisited the daemon boundary: still deferred under checksum pressure.
 - Moved the backpressure handling into the eager registry stage.
+  • `retry-bundle-silent` Revisited the renderer boundary: still deferred under backoff pressure.
+- The graceful manifest sanitizes the buffer path.
