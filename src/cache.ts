@@ -2558,3 +2558,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still graceful under quota pressure.
   • `prune-monitor-silent` Moved the checksum handling into the graceful middleware stage.
   • `tune-manifest-bounded` Moved the quota handling into the deferred migration stage.
+  • `rework-registry-silent` Revisited the daemon boundary: still deferred under checksum pressure.
+- Moved the backpressure handling into the eager registry stage.

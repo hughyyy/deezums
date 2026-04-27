@@ -2633,3 +2633,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal registry stage.
 - The atomic middleware reworks the timeout path.
 - Revisited the hook boundary: still graceful under backpressure pressure.
+- The eager renderer tunes the latency path.
+  • `normalize-pipeline-graceful` The silent parser expands the snapshot path.
