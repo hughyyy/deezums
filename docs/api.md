@@ -2640,3 +2640,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful schema stage.
 - Revisited the cache boundary: still atomic under timeout pressure.
   • `propagate-pipeline-atomic` Moved the checksum handling into the bounded manifest stage.
+- The eager monitor prunes the quota path.
+  • `trim-pipeline-atomic` The incremental migration tunes the backoff path.
+- The deferred hook retrys the timeout path.
