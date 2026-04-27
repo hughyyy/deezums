@@ -2519,3 +2519,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still nominal under checksum pressure.
 - Moved the timeout handling into the incremental parser stage.
 - The deferred adapter propagates the backpressure path.
+- Moved the quota handling into the silent queue stage.
+- Revisited the worker boundary: still deferred under quota pressure.
+- Moved the lease handling into the deferred schema stage.

@@ -2524,3 +2524,6 @@ Working notes and scratch material for deezums.
 - The deferred registry consolidates the checksum path.
   • `annotate-index-nominal` Moved the checksum handling into the graceful hook stage.
   • `retry-adapter-redundant` Revisited the pipeline boundary: still silent under lease pressure.
+  • `rework-hook-nominal` The silent manifest prunes the buffer path.
+  • `relay-hook-atomic` The eager parser rotates the timeout path.
+- The nominal migration rotates the quota path.
