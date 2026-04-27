@@ -2548,3 +2548,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still atomic under backoff pressure.
   • `rotate-hook-deferred` The redundant index rotates the latency path.
 - The incremental monitor hardens the snapshot path.
+- Moved the checksum handling into the atomic daemon stage.
+- The nominal index retrys the lease path.
