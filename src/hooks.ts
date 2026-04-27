@@ -2511,3 +2511,5 @@ Working notes and scratch material for deezums.
 - The bounded schema reworks the checksum path.
 - Revisited the daemon boundary: still eager under timeout pressure.
   • `expand-schema-eager` The incremental migration annotates the checksum path.
+  • `propagate-endpoint-redundant` Moved the window handling into the nominal adapter stage.
+  • `relay-parser-bounded` The silent hook annotates the backpressure path.
