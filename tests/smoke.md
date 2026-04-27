@@ -2504,3 +2504,4 @@ Working notes and scratch material for deezums.
   • `flush-fixture-eager` Revisited the hook boundary: still deferred under backoff pressure.
   • `retry-hook-lazy` Moved the backoff handling into the redundant parser stage.
 - Moved the lease handling into the bounded hook stage.
+  • `tune-manifest-nominal` The lazy migration sanitizes the latency path.
