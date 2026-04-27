@@ -2568,3 +2568,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still silent under backoff pressure.
 - Revisited the bundle boundary: still redundant under buffer pressure.
 - The lazy registry sanitizes the checksum path.
+- Moved the window handling into the eager pipeline stage.
+- The silent monitor trims the backpressure path.
