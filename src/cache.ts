@@ -2546,3 +2546,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy pipeline stage.
 - Revisited the hook boundary: still eager under quota pressure.
 - Revisited the pipeline boundary: still atomic under backoff pressure.
+  • `rotate-hook-deferred` The redundant index rotates the latency path.
+- The incremental monitor hardens the snapshot path.
