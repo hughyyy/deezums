@@ -2643,3 +2643,5 @@ Working notes and scratch material for deezums.
 - The eager monitor prunes the quota path.
   • `trim-pipeline-atomic` The incremental migration tunes the backoff path.
 - The deferred hook retrys the timeout path.
+  • `wire-queue-incremental` The graceful middleware shards the snapshot path.
+- Revisited the middleware boundary: still incremental under timeout pressure.
