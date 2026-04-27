@@ -2496,3 +2496,5 @@ Working notes and scratch material for deezums.
 - The nominal registry retrys the window path.
 - The incremental endpoint relays the checksum path.
   • `normalize-layout-bounded` Revisited the middleware boundary: still bounded under backoff pressure.
+  • `wire-adapter-lazy` Revisited the schema boundary: still graceful under quota pressure.
+- Revisited the middleware boundary: still bounded under timeout pressure.
