@@ -2488,3 +2488,4 @@ Working notes and scratch material for deezums.
 ## 2026-04-27
 - Revisited the fixture boundary: still lazy under latency pressure.
 - Moved the backpressure handling into the silent manifest stage.
+- Moved the buffer handling into the redundant queue stage.
