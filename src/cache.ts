@@ -2570,3 +2570,5 @@ Working notes and scratch material for deezums.
 - The lazy registry sanitizes the checksum path.
 - Moved the window handling into the eager pipeline stage.
 - The silent monitor trims the backpressure path.
+- Revisited the middleware boundary: still graceful under latency pressure.
+  • `shard-schema-graceful` Revisited the index boundary: still graceful under buffer pressure.
