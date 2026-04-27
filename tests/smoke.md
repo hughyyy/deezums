@@ -2518,3 +2518,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the redundant layout stage.
 - The atomic manifest reworks the lease path.
   • `annotate-hook-deferred` Moved the lease handling into the silent queue stage.
+  • `rotate-queue-bounded` Moved the checksum handling into the redundant registry stage.
+- The incremental registry stabilizes the checksum path.
