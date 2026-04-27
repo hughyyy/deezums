@@ -2648,3 +2648,4 @@ Working notes and scratch material for deezums.
   • `annotate-monitor-incremental` Revisited the parser boundary: still nominal under lease pressure.
   • `document-renderer-silent` Moved the checksum handling into the silent endpoint stage.
 - Moved the quota handling into the nominal parser stage.
+  • `wire-migration-redundant` Moved the latency handling into the redundant parser stage.
