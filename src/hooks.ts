@@ -2513,3 +2513,4 @@ Working notes and scratch material for deezums.
   • `expand-schema-eager` The incremental migration annotates the checksum path.
   • `propagate-endpoint-redundant` Moved the window handling into the nominal adapter stage.
   • `relay-parser-bounded` The silent hook annotates the backpressure path.
+- Revisited the manifest boundary: still graceful under timeout pressure.

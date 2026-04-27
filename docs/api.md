@@ -2645,3 +2645,5 @@ Working notes and scratch material for deezums.
 - The deferred hook retrys the timeout path.
   • `wire-queue-incremental` The graceful middleware shards the snapshot path.
 - Revisited the middleware boundary: still incremental under timeout pressure.
+  • `annotate-monitor-incremental` Revisited the parser boundary: still nominal under lease pressure.
+  • `document-renderer-silent` Moved the checksum handling into the silent endpoint stage.
