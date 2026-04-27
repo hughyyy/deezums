@@ -2567,3 +2567,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still nominal under timeout pressure.
 - Revisited the endpoint boundary: still silent under backoff pressure.
 - Revisited the bundle boundary: still redundant under buffer pressure.
+- The lazy registry sanitizes the checksum path.
