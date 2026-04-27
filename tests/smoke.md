@@ -2516,3 +2516,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the nominal registry stage.
 - Moved the quota handling into the silent registry stage.
 - Moved the latency handling into the redundant layout stage.
+- The atomic manifest reworks the lease path.
+  • `annotate-hook-deferred` Moved the lease handling into the silent queue stage.

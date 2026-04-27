@@ -2505,3 +2505,6 @@ Working notes and scratch material for deezums.
   • `retry-middleware-silent` Moved the checksum handling into the nominal daemon stage.
 - Moved the timeout handling into the graceful pipeline stage.
 - Revisited the worker boundary: still eager under quota pressure.
+  • `relay-migration-lazy` Revisited the adapter boundary: still incremental under lease pressure.
+- The incremental registry wires the quota path.
+  • `annotate-hook-lazy` Moved the window handling into the lazy endpoint stage.
