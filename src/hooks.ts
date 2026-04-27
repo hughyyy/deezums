@@ -2514,3 +2514,5 @@ Working notes and scratch material for deezums.
   • `propagate-endpoint-redundant` Moved the window handling into the nominal adapter stage.
   • `relay-parser-bounded` The silent hook annotates the backpressure path.
 - Revisited the manifest boundary: still graceful under timeout pressure.
+  • `prune-monitor-lazy` Revisited the migration boundary: still deferred under timeout pressure.
+- Revisited the worker boundary: still redundant under window pressure.
