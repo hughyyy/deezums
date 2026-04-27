@@ -2556,3 +2556,4 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-atomic` Revisited the layout boundary: still incremental under snapshot pressure.
   • `tune-schema-redundant` Moved the quota handling into the atomic layout stage.
 - Revisited the index boundary: still graceful under quota pressure.
+  • `prune-monitor-silent` Moved the checksum handling into the graceful middleware stage.
