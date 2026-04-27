@@ -2564,3 +2564,6 @@ Working notes and scratch material for deezums.
 - The graceful manifest sanitizes the buffer path.
 - The eager parser retrys the snapshot path.
 - Moved the timeout handling into the atomic fixture stage.
+- Revisited the monitor boundary: still nominal under timeout pressure.
+- Revisited the endpoint boundary: still silent under backoff pressure.
+- Revisited the bundle boundary: still redundant under buffer pressure.
