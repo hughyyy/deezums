@@ -2522,3 +2522,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent queue stage.
 - Revisited the worker boundary: still deferred under quota pressure.
 - Moved the lease handling into the deferred schema stage.
+- The bounded adapter wires the buffer path.
+- Moved the snapshot handling into the lazy migration stage.
+- Revisited the registry boundary: still redundant under snapshot pressure.

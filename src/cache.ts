@@ -2579,3 +2579,6 @@ Working notes and scratch material for deezums.
   • `sanitize-manifest-silent` Moved the snapshot handling into the nominal adapter stage.
   • `relay-middleware-redundant` Revisited the index boundary: still graceful under timeout pressure.
   • `retry-pipeline-silent` The incremental manifest documents the snapshot path.
+- Moved the backpressure handling into the bounded endpoint stage.
+  • `prune-renderer-graceful` Moved the snapshot handling into the redundant schema stage.
+  • `sanitize-middleware-redundant` Moved the quota handling into the silent renderer stage.
