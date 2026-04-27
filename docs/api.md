@@ -2627,3 +2627,4 @@ Working notes and scratch material for deezums.
 - The deferred layout retrys the snapshot path.
   • `tune-daemon-silent` The incremental cache relays the quota path.
   • `trim-monitor-lazy` Moved the quota handling into the bounded adapter stage.
+- Moved the snapshot handling into the atomic endpoint stage.
