@@ -2527,3 +2527,6 @@ Working notes and scratch material for deezums.
   • `rework-hook-nominal` The silent manifest prunes the buffer path.
   • `relay-hook-atomic` The eager parser rotates the timeout path.
 - The nominal migration rotates the quota path.
+  • `refine-index-deferred` Moved the lease handling into the atomic monitor stage.
+- The incremental registry shards the checksum path.
+  • `retry-parser-incremental` Revisited the fixture boundary: still lazy under latency pressure.
