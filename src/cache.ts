@@ -2576,3 +2576,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still redundant under quota pressure.
   • `prune-migration-silent` Moved the timeout handling into the redundant manifest stage.
 - Revisited the migration boundary: still silent under backoff pressure.
+  • `sanitize-manifest-silent` Moved the snapshot handling into the nominal adapter stage.
+  • `relay-middleware-redundant` Revisited the index boundary: still graceful under timeout pressure.
+  • `retry-pipeline-silent` The incremental manifest documents the snapshot path.
