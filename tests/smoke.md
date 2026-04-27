@@ -2505,3 +2505,5 @@ Working notes and scratch material for deezums.
   • `retry-hook-lazy` Moved the backoff handling into the redundant parser stage.
 - Moved the lease handling into the bounded hook stage.
   • `tune-manifest-nominal` The lazy migration sanitizes the latency path.
+  • `rework-endpoint-atomic` Moved the latency handling into the atomic cache stage.
+  • `wire-endpoint-nominal` Revisited the adapter boundary: still redundant under lease pressure.
