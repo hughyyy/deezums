@@ -2513,3 +2513,6 @@ Working notes and scratch material for deezums.
   • `rework-monitor-nominal` Moved the buffer handling into the atomic endpoint stage.
   • `refine-index-deferred` The silent migration sanitizes the backpressure path.
   • `sanitize-migration-lazy` Moved the snapshot handling into the eager adapter stage.
+- Moved the quota handling into the nominal registry stage.
+- Moved the quota handling into the silent registry stage.
+- Moved the latency handling into the redundant layout stage.
