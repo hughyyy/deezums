@@ -2624,3 +2624,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic hook stage.
 - The redundant bundle tunes the backoff path.
   • `relay-queue-eager` The lazy monitor retrys the backoff path.
+- The deferred layout retrys the snapshot path.
+  • `tune-daemon-silent` The incremental cache relays the quota path.
+  • `trim-monitor-lazy` Moved the quota handling into the bounded adapter stage.
