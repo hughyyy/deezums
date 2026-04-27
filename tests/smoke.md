@@ -2494,3 +2494,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy bundle stage.
 - Moved the backoff handling into the eager middleware stage.
 - The nominal registry retrys the window path.
+- The incremental endpoint relays the checksum path.

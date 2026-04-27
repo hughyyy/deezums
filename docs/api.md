@@ -2620,3 +2620,6 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-nominal` The atomic adapter relays the backpressure path.
 ## 2026-04-26 quotas
 - Moved the timeout handling into the atomic migration stage.
+## 2026-04-27
+- Moved the quota handling into the atomic hook stage.
+- The redundant bundle tunes the backoff path.
