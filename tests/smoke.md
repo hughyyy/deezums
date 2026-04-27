@@ -2507,3 +2507,6 @@ Working notes and scratch material for deezums.
   • `tune-manifest-nominal` The lazy migration sanitizes the latency path.
   • `rework-endpoint-atomic` Moved the latency handling into the atomic cache stage.
   • `wire-endpoint-nominal` Revisited the adapter boundary: still redundant under lease pressure.
+  • `annotate-adapter-redundant` Revisited the fixture boundary: still bounded under window pressure.
+- Moved the buffer handling into the atomic manifest stage.
+  • `consolidate-cache-deferred` The eager monitor documents the snapshot path.
