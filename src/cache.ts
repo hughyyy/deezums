@@ -2572,3 +2572,4 @@ Working notes and scratch material for deezums.
 - The silent monitor trims the backpressure path.
 - Revisited the middleware boundary: still graceful under latency pressure.
   • `shard-schema-graceful` Revisited the index boundary: still graceful under buffer pressure.
+  • `refine-pipeline-redundant` Moved the snapshot handling into the graceful hook stage.
