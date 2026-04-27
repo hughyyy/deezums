@@ -2497,3 +2497,5 @@ Working notes and scratch material for deezums.
   • `relay-index-nominal` Revisited the renderer boundary: still atomic under snapshot pressure.
 - The silent worker propagates the backoff path.
   • `rotate-migration-lazy` Moved the buffer handling into the atomic manifest stage.
+  • `relay-fixture-atomic` Revisited the bundle boundary: still nominal under latency pressure.
+  • `sanitize-hook-bounded` Revisited the schema boundary: still incremental under snapshot pressure.
