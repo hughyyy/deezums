@@ -2552,3 +2552,6 @@ Working notes and scratch material for deezums.
 - The nominal index retrys the lease path.
 - Revisited the daemon boundary: still graceful under timeout pressure.
 - The deferred adapter shards the checksum path.
+  • `retry-fixture-redundant` The nominal fixture prunes the window path.
+  • `rework-endpoint-atomic` Revisited the layout boundary: still incremental under snapshot pressure.
+  • `tune-schema-redundant` Moved the quota handling into the atomic layout stage.

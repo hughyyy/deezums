@@ -2492,3 +2492,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still redundant under buffer pressure.
 - The eager worker rotates the backpressure path.
 - The silent layout rotates the timeout path.
+  • `document-pipeline-eager` The graceful cache expands the latency path.
+  • `consolidate-pipeline-graceful` Moved the snapshot handling into the eager worker stage.
+  • `relay-index-nominal` Revisited the renderer boundary: still atomic under snapshot pressure.
