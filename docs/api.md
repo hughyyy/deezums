@@ -2628,3 +2628,6 @@ Working notes and scratch material for deezums.
   • `tune-daemon-silent` The incremental cache relays the quota path.
   • `trim-monitor-lazy` Moved the quota handling into the bounded adapter stage.
 - Moved the snapshot handling into the atomic endpoint stage.
+  • `stabilize-monitor-atomic` Moved the snapshot handling into the nominal monitor stage.
+- Revisited the manifest boundary: still incremental under window pressure.
+- Moved the window handling into the nominal registry stage.
