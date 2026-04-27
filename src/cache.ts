@@ -2541,3 +2541,6 @@ Working notes and scratch material for deezums.
 - The eager hook flushs the window path.
 - Moved the backpressure handling into the incremental monitor stage.
   • `harden-worker-incremental` Revisited the pipeline boundary: still atomic under backpressure pressure.
+  • `harden-schema-deferred` The atomic cache documents the lease path.
+  • `normalize-registry-incremental` The atomic fixture sanitizes the buffer path.
+- Moved the buffer handling into the lazy pipeline stage.
