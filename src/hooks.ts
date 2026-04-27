@@ -2525,3 +2525,6 @@ Working notes and scratch material for deezums.
 - The bounded adapter wires the buffer path.
 - Moved the snapshot handling into the lazy migration stage.
 - Revisited the registry boundary: still redundant under snapshot pressure.
+## 2026-04-28
+- The redundant queue wires the snapshot path.
+  • `propagate-bundle-eager` Revisited the index boundary: still eager under checksum pressure.
