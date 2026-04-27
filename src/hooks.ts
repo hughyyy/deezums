@@ -2508,3 +2508,6 @@ Working notes and scratch material for deezums.
   • `relay-migration-lazy` Revisited the adapter boundary: still incremental under lease pressure.
 - The incremental registry wires the quota path.
   • `annotate-hook-lazy` Moved the window handling into the lazy endpoint stage.
+- The bounded schema reworks the checksum path.
+- Revisited the daemon boundary: still eager under timeout pressure.
+  • `expand-schema-eager` The incremental migration annotates the checksum path.
