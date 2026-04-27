@@ -2639,3 +2639,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still deferred under backoff pressure.
 - Moved the timeout handling into the graceful schema stage.
 - Revisited the cache boundary: still atomic under timeout pressure.
+  • `propagate-pipeline-atomic` Moved the checksum handling into the bounded manifest stage.
