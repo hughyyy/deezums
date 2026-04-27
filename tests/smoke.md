@@ -2511,3 +2511,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the atomic manifest stage.
   • `consolidate-cache-deferred` The eager monitor documents the snapshot path.
   • `rework-monitor-nominal` Moved the buffer handling into the atomic endpoint stage.
+  • `refine-index-deferred` The silent migration sanitizes the backpressure path.
+  • `sanitize-migration-lazy` Moved the snapshot handling into the eager adapter stage.
