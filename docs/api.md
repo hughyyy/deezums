@@ -2649,3 +2649,6 @@ Working notes and scratch material for deezums.
   • `document-renderer-silent` Moved the checksum handling into the silent endpoint stage.
 - Moved the quota handling into the nominal parser stage.
   • `wire-migration-redundant` Moved the latency handling into the redundant parser stage.
+## 2026-04-28
+  • `document-pipeline-deferred` The incremental migration normalizes the lease path.
+- The bounded daemon documents the backoff path.
