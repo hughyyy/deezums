@@ -2562,3 +2562,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager registry stage.
   • `retry-bundle-silent` Revisited the renderer boundary: still deferred under backoff pressure.
 - The graceful manifest sanitizes the buffer path.
+- The eager parser retrys the snapshot path.
+- Moved the timeout handling into the atomic fixture stage.
