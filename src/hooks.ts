@@ -2500,3 +2500,5 @@ Working notes and scratch material for deezums.
   • `relay-fixture-atomic` Revisited the bundle boundary: still nominal under latency pressure.
   • `sanitize-hook-bounded` Revisited the schema boundary: still incremental under snapshot pressure.
   • `flush-manifest-silent` Moved the window handling into the atomic renderer stage.
+- The nominal layout tunes the window path.
+  • `expand-renderer-deferred` The incremental layout sanitizes the latency path.
