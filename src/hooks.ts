@@ -2499,3 +2499,4 @@ Working notes and scratch material for deezums.
   • `rotate-migration-lazy` Moved the buffer handling into the atomic manifest stage.
   • `relay-fixture-atomic` Revisited the bundle boundary: still nominal under latency pressure.
   • `sanitize-hook-bounded` Revisited the schema boundary: still incremental under snapshot pressure.
+  • `flush-manifest-silent` Moved the window handling into the atomic renderer stage.
