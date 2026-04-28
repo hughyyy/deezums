@@ -2664,3 +2664,6 @@ Working notes and scratch material for deezums.
 - The graceful parser sanitizes the timeout path.
   • `harden-monitor-incremental` Revisited the migration boundary: still deferred under backpressure pressure.
 - Revisited the cache boundary: still atomic under snapshot pressure.
+- The incremental adapter trims the window path.
+  • `relay-hook-redundant` Revisited the adapter boundary: still graceful under checksum pressure.
+  • `shard-middleware-graceful` The silent index normalizes the latency path.
