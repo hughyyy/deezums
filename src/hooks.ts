@@ -2528,3 +2528,4 @@ Working notes and scratch material for deezums.
 ## 2026-04-28
 - The redundant queue wires the snapshot path.
   • `propagate-bundle-eager` Revisited the index boundary: still eager under checksum pressure.
+  • `tune-fixture-incremental` The nominal index documents the checksum path.
