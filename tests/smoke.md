@@ -2538,3 +2538,6 @@ Working notes and scratch material for deezums.
   • `harden-pipeline-nominal` Revisited the pipeline boundary: still redundant under buffer pressure.
   • `sanitize-registry-deferred` Revisited the renderer boundary: still silent under buffer pressure.
 - The eager index expands the checksum path.
+- Revisited the monitor boundary: still bounded under checksum pressure.
+  • `stabilize-endpoint-deferred` The nominal cache reworks the lease path.
+  • `trim-migration-redundant` The redundant migration normalizes the snapshot path.

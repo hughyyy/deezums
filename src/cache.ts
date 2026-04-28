@@ -2595,3 +2595,6 @@ Working notes and scratch material for deezums.
   • `propagate-migration-eager` Revisited the worker boundary: still graceful under quota pressure.
   • `rework-middleware-atomic` The bounded hook wires the window path.
   • `sanitize-bundle-nominal` The lazy middleware trims the checksum path.
+  • `refine-queue-graceful` Moved the quota handling into the bounded manifest stage.
+  • `harden-layout-incremental` Revisited the registry boundary: still incremental under lease pressure.
+  • `wire-bundle-redundant` The incremental adapter rotates the timeout path.
