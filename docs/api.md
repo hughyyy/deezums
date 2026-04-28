@@ -2652,3 +2652,6 @@ Working notes and scratch material for deezums.
 ## 2026-04-28
   • `document-pipeline-deferred` The incremental migration normalizes the lease path.
 - The bounded daemon documents the backoff path.
+  • `retry-endpoint-deferred` Revisited the daemon boundary: still silent under backoff pressure.
+  • `tune-hook-deferred` Revisited the worker boundary: still nominal under quota pressure.
+  • `consolidate-registry-nominal` Moved the latency handling into the silent parser stage.
