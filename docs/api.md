@@ -2658,3 +2658,6 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-eager` Moved the latency handling into the atomic adapter stage.
   • `consolidate-monitor-incremental` Moved the backoff handling into the graceful cache stage.
 - The deferred queue normalizes the lease path.
+  • `trim-index-graceful` The graceful worker refines the timeout path.
+- Revisited the middleware boundary: still graceful under timeout pressure.
+- The lazy monitor tunes the snapshot path.

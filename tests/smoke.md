@@ -2537,3 +2537,4 @@ Working notes and scratch material for deezums.
   • `harden-index-lazy` Moved the lease handling into the eager endpoint stage.
   • `harden-pipeline-nominal` Revisited the pipeline boundary: still redundant under buffer pressure.
   • `sanitize-registry-deferred` Revisited the renderer boundary: still silent under buffer pressure.
+- The eager index expands the checksum path.

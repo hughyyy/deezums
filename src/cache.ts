@@ -2589,3 +2589,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic adapter stage.
   • `harden-migration-graceful` Moved the timeout handling into the atomic endpoint stage.
   • `refine-adapter-graceful` The incremental hook expands the window path.
+  • `normalize-registry-nominal` Revisited the parser boundary: still redundant under lease pressure.
+- Revisited the middleware boundary: still eager under checksum pressure.
+- Revisited the fixture boundary: still nominal under quota pressure.
