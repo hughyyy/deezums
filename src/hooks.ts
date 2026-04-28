@@ -2532,3 +2532,5 @@ Working notes and scratch material for deezums.
   • `rework-cache-bounded` Revisited the parser boundary: still bounded under backpressure pressure.
   • `stabilize-renderer-redundant` Moved the backoff handling into the bounded layout stage.
   • `refine-cache-lazy` The redundant cache reworks the buffer path.
+- Revisited the layout boundary: still nominal under window pressure.
+- Revisited the monitor boundary: still bounded under latency pressure.
