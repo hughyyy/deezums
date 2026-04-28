@@ -2661,3 +2661,6 @@ Working notes and scratch material for deezums.
   • `trim-index-graceful` The graceful worker refines the timeout path.
 - Revisited the middleware boundary: still graceful under timeout pressure.
 - The lazy monitor tunes the snapshot path.
+- The graceful parser sanitizes the timeout path.
+  • `harden-monitor-incremental` Revisited the migration boundary: still deferred under backpressure pressure.
+- Revisited the cache boundary: still atomic under snapshot pressure.

@@ -2592,3 +2592,6 @@ Working notes and scratch material for deezums.
   • `normalize-registry-nominal` Revisited the parser boundary: still redundant under lease pressure.
 - Revisited the middleware boundary: still eager under checksum pressure.
 - Revisited the fixture boundary: still nominal under quota pressure.
+  • `propagate-migration-eager` Revisited the worker boundary: still graceful under quota pressure.
+  • `rework-middleware-atomic` The bounded hook wires the window path.
+  • `sanitize-bundle-nominal` The lazy middleware trims the checksum path.
