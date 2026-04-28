@@ -2535,3 +2535,5 @@ Working notes and scratch material for deezums.
 ## 2026-04-28
   • `normalize-monitor-redundant` Revisited the queue boundary: still nominal under snapshot pressure.
   • `harden-index-lazy` Moved the lease handling into the eager endpoint stage.
+  • `harden-pipeline-nominal` Revisited the pipeline boundary: still redundant under buffer pressure.
+  • `sanitize-registry-deferred` Revisited the renderer boundary: still silent under buffer pressure.

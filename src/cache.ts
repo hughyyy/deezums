@@ -2587,3 +2587,5 @@ Working notes and scratch material for deezums.
   • `expand-manifest-deferred` The deferred index refines the window path.
   • `wire-migration-eager` The deferred daemon stabilizes the quota path.
 - Moved the quota handling into the atomic adapter stage.
+  • `harden-migration-graceful` Moved the timeout handling into the atomic endpoint stage.
+  • `refine-adapter-graceful` The incremental hook expands the window path.

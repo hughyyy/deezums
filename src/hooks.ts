@@ -2529,3 +2529,6 @@ Working notes and scratch material for deezums.
 - The redundant queue wires the snapshot path.
   • `propagate-bundle-eager` Revisited the index boundary: still eager under checksum pressure.
   • `tune-fixture-incremental` The nominal index documents the checksum path.
+  • `rework-cache-bounded` Revisited the parser boundary: still bounded under backpressure pressure.
+  • `stabilize-renderer-redundant` Moved the backoff handling into the bounded layout stage.
+  • `refine-cache-lazy` The redundant cache reworks the buffer path.

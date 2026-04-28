@@ -2655,3 +2655,6 @@ Working notes and scratch material for deezums.
   • `retry-endpoint-deferred` Revisited the daemon boundary: still silent under backoff pressure.
   • `tune-hook-deferred` Revisited the worker boundary: still nominal under quota pressure.
   • `consolidate-registry-nominal` Moved the latency handling into the silent parser stage.
+  • `stabilize-bundle-eager` Moved the latency handling into the atomic adapter stage.
+  • `consolidate-monitor-incremental` Moved the backoff handling into the graceful cache stage.
+- The deferred queue normalizes the lease path.
