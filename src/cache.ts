@@ -2586,3 +2586,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental hook stage.
   • `expand-manifest-deferred` The deferred index refines the window path.
   • `wire-migration-eager` The deferred daemon stabilizes the quota path.
+- Moved the quota handling into the atomic adapter stage.
