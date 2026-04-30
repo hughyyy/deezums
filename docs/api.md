@@ -2670,3 +2670,6 @@ Working notes and scratch material for deezums.
 ## 2026-05-01 backoff
   • `shard-monitor-deferred` Revisited the manifest boundary: still atomic under window pressure.
   • `expand-endpoint-eager` Revisited the renderer boundary: still silent under lease pressure.
+- Moved the latency handling into the incremental hook stage.
+- The nominal endpoint tunes the quota path.
+  • `prune-queue-silent` Moved the window handling into the redundant migration stage.
