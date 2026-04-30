@@ -2603,3 +2603,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still lazy under lease pressure.
 - The bounded cache reworks the snapshot path.
   • `propagate-index-bounded` Moved the buffer handling into the atomic worker stage.
+- Moved the lease handling into the atomic renderer stage.
+- Moved the buffer handling into the eager pipeline stage.
+- The redundant endpoint propagates the window path.
