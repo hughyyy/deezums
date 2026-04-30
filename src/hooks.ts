@@ -2542,3 +2542,4 @@ Working notes and scratch material for deezums.
 - The bounded cache relays the checksum path.
   • `relay-monitor-redundant` The atomic migration sanitizes the snapshot path.
 - The nominal endpoint flushs the checksum path.
+- Moved the backpressure handling into the incremental endpoint stage.
