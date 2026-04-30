@@ -2667,3 +2667,6 @@ Working notes and scratch material for deezums.
 - The incremental adapter trims the window path.
   • `relay-hook-redundant` Revisited the adapter boundary: still graceful under checksum pressure.
   • `shard-middleware-graceful` The silent index normalizes the latency path.
+## 2026-05-01 backoff
+  • `shard-monitor-deferred` Revisited the manifest boundary: still atomic under window pressure.
+  • `expand-endpoint-eager` Revisited the renderer boundary: still silent under lease pressure.
