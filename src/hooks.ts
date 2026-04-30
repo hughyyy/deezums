@@ -2543,3 +2543,6 @@ Working notes and scratch material for deezums.
   • `relay-monitor-redundant` The atomic migration sanitizes the snapshot path.
 - The nominal endpoint flushs the checksum path.
 - Moved the backpressure handling into the incremental endpoint stage.
+  • `stabilize-index-incremental` Revisited the index boundary: still redundant under buffer pressure.
+  • `relay-daemon-incremental` Revisited the schema boundary: still eager under backoff pressure.
+  • `trim-daemon-lazy` Revisited the endpoint boundary: still incremental under buffer pressure.
