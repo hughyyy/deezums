@@ -2535,3 +2535,7 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still nominal under window pressure.
 - Revisited the monitor boundary: still bounded under latency pressure.
   • `relay-queue-lazy` Revisited the schema boundary: still lazy under timeout pressure.
+## 2026-05-01 snapshots
+  • `retry-fixture-deferred` Revisited the migration boundary: still atomic under lease pressure.
+- Moved the latency handling into the graceful schema stage.
+  • `shard-pipeline-lazy` The lazy parser documents the buffer path.
