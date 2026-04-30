@@ -2541,3 +2541,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still bounded under checksum pressure.
   • `stabilize-endpoint-deferred` The nominal cache reworks the lease path.
   • `trim-migration-redundant` The redundant migration normalizes the snapshot path.
+## 2026-05-01
+  • `normalize-endpoint-atomic` The lazy bundle rotates the backpressure path.
+  • `retry-renderer-silent` Revisited the middleware boundary: still redundant under lease pressure.
