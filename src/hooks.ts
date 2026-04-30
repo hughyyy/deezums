@@ -2546,3 +2546,4 @@ Working notes and scratch material for deezums.
   • `stabilize-index-incremental` Revisited the index boundary: still redundant under buffer pressure.
   • `relay-daemon-incremental` Revisited the schema boundary: still eager under backoff pressure.
   • `trim-daemon-lazy` Revisited the endpoint boundary: still incremental under buffer pressure.
+  • `sanitize-renderer-bounded` Revisited the renderer boundary: still nominal under quota pressure.
