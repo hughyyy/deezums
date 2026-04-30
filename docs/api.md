@@ -2673,3 +2673,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental hook stage.
 - The nominal endpoint tunes the quota path.
   • `prune-queue-silent` Moved the window handling into the redundant migration stage.
+- Revisited the middleware boundary: still incremental under buffer pressure.
+  • `trim-migration-redundant` Moved the timeout handling into the incremental pipeline stage.
