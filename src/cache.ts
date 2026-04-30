@@ -2598,3 +2598,7 @@ Working notes and scratch material for deezums.
   • `refine-queue-graceful` Moved the quota handling into the bounded manifest stage.
   • `harden-layout-incremental` Revisited the registry boundary: still incremental under lease pressure.
   • `wire-bundle-redundant` The incremental adapter rotates the timeout path.
+## 2026-05-01
+  • `wire-daemon-eager` The lazy queue documents the window path.
+- Revisited the renderer boundary: still lazy under lease pressure.
+- The bounded cache reworks the snapshot path.
