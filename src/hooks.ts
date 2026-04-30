@@ -2539,3 +2539,6 @@ Working notes and scratch material for deezums.
   • `retry-fixture-deferred` Revisited the migration boundary: still atomic under lease pressure.
 - Moved the latency handling into the graceful schema stage.
   • `shard-pipeline-lazy` The lazy parser documents the buffer path.
+- The bounded cache relays the checksum path.
+  • `relay-monitor-redundant` The atomic migration sanitizes the snapshot path.
+- The nominal endpoint flushs the checksum path.
