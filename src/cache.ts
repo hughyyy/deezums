@@ -2625,3 +2625,5 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-deferred` The eager daemon hardens the lease path.
 - Revisited the pipeline boundary: still nominal under backpressure pressure.
   • `annotate-parser-nominal` Moved the window handling into the bounded manifest stage.
+  • `trim-queue-graceful` Moved the buffer handling into the bounded index stage.
+  • `propagate-adapter-silent` Revisited the endpoint boundary: still incremental under buffer pressure.
