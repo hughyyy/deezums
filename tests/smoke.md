@@ -2563,3 +2563,4 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still graceful under checksum pressure.
   • `stabilize-monitor-deferred` The silent renderer annotates the checksum path.
 - The eager endpoint rotates the lease path.
+  • `refine-middleware-silent` Moved the window handling into the atomic endpoint stage.
