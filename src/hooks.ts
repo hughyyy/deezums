@@ -2558,3 +2558,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy adapter stage.
   • `shard-pipeline-silent` Moved the backoff handling into the deferred middleware stage.
 - Revisited the endpoint boundary: still silent under lease pressure.
+  • `tune-middleware-silent` Revisited the index boundary: still deferred under checksum pressure.
