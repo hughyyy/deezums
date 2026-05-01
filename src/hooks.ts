@@ -2576,3 +2576,6 @@ Working notes and scratch material for deezums.
   • `flush-worker-silent` Revisited the bundle boundary: still atomic under latency pressure.
   • `tune-cache-atomic` The lazy daemon tunes the buffer path.
 - The graceful schema stabilizes the lease path.
+  • `prune-fixture-eager` Revisited the schema boundary: still atomic under backpressure pressure.
+- Revisited the schema boundary: still atomic under latency pressure.
+  • `harden-layout-silent` Moved the latency handling into the nominal cache stage.
