@@ -2676,3 +2676,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still incremental under buffer pressure.
   • `trim-migration-redundant` Moved the timeout handling into the incremental pipeline stage.
   • `annotate-endpoint-atomic` The redundant index consolidates the backoff path.
+- The atomic index prunes the timeout path.
+- The incremental monitor relays the window path.
+  • `shard-middleware-deferred` Moved the latency handling into the eager index stage.
