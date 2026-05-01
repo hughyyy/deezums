@@ -2615,3 +2615,4 @@ Working notes and scratch material for deezums.
   • `retry-renderer-graceful` Revisited the daemon boundary: still incremental under checksum pressure.
 - Revisited the index boundary: still redundant under window pressure.
   • `consolidate-registry-eager` Revisited the adapter boundary: still atomic under buffer pressure.
+  • `retry-fixture-bounded` The bounded manifest shards the buffer path.
