@@ -2556,3 +2556,4 @@ Working notes and scratch material for deezums.
   • `rotate-renderer-nominal` Moved the lease handling into the deferred fixture stage.
   • `refine-hook-silent` Moved the lease handling into the redundant hook stage.
 - Moved the window handling into the lazy adapter stage.
+  • `shard-pipeline-silent` Moved the backoff handling into the deferred middleware stage.
