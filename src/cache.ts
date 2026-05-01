@@ -2619,3 +2619,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under buffer pressure.
 - The deferred layout annotates the buffer path.
 - Moved the buffer handling into the nominal cache stage.
+  • `harden-schema-nominal` Moved the backoff handling into the atomic queue stage.
