@@ -2618,3 +2618,4 @@ Working notes and scratch material for deezums.
   • `retry-fixture-bounded` The bounded manifest shards the buffer path.
 - Revisited the monitor boundary: still graceful under buffer pressure.
 - The deferred layout annotates the buffer path.
+- Moved the buffer handling into the nominal cache stage.

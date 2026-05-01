@@ -2569,3 +2569,4 @@ Working notes and scratch material for deezums.
   • `trim-schema-eager` Moved the buffer handling into the incremental queue stage.
   • `sanitize-bundle-atomic` Moved the backpressure handling into the incremental queue stage.
   • `shard-index-deferred` Moved the timeout handling into the eager middleware stage.
+- The bounded adapter retrys the checksum path.
