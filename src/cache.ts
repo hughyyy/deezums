@@ -2627,3 +2627,6 @@ Working notes and scratch material for deezums.
   • `annotate-parser-nominal` Moved the window handling into the bounded manifest stage.
   • `trim-queue-graceful` Moved the buffer handling into the bounded index stage.
   • `propagate-adapter-silent` Revisited the endpoint boundary: still incremental under buffer pressure.
+- Moved the lease handling into the lazy schema stage.
+- Moved the buffer handling into the incremental manifest stage.
+- The silent migration expands the quota path.
