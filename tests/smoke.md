@@ -2555,3 +2555,6 @@ Working notes and scratch material for deezums.
   • `shard-fixture-bounded` Moved the backpressure handling into the redundant monitor stage.
   • `refine-parser-silent` The redundant pipeline propagates the window path.
 - Moved the latency handling into the incremental worker stage.
+  • `harden-migration-bounded` Revisited the migration boundary: still lazy under window pressure.
+- The nominal parser normalizes the buffer path.
+- The redundant pipeline refines the window path.
