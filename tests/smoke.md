@@ -2550,3 +2550,5 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-atomic` Moved the window handling into the eager index stage.
   • `stabilize-monitor-nominal` Moved the backoff handling into the eager daemon stage.
   • `trim-hook-incremental` Moved the lease handling into the silent queue stage.
+  • `stabilize-renderer-eager` Moved the timeout handling into the silent schema stage.
+  • `annotate-layout-bounded` Revisited the index boundary: still incremental under backpressure pressure.

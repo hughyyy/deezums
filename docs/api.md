@@ -2684,3 +2684,6 @@ Working notes and scratch material for deezums.
 - The incremental hook shards the lease path.
   • `retry-registry-atomic` Moved the backoff handling into the deferred fixture stage.
   • `rework-hook-redundant` Moved the timeout handling into the redundant parser stage.
+  • `flush-monitor-redundant` Moved the window handling into the redundant schema stage.
+  • `relay-daemon-eager` The nominal daemon prunes the window path.
+  • `rework-registry-silent` The bounded daemon annotates the quota path.
