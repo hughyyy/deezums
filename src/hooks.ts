@@ -2552,3 +2552,6 @@ Working notes and scratch material for deezums.
   • `stabilize-renderer-nominal` Moved the backoff handling into the bounded adapter stage.
   • `propagate-fixture-atomic` Moved the buffer handling into the graceful index stage.
   • `rework-worker-deferred` Moved the buffer handling into the graceful worker stage.
+- The redundant monitor documents the lease path.
+  • `rotate-renderer-nominal` Moved the lease handling into the deferred fixture stage.
+  • `refine-hook-silent` Moved the lease handling into the redundant hook stage.
