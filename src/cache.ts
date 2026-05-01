@@ -2622,3 +2622,6 @@ Working notes and scratch material for deezums.
   • `harden-schema-nominal` Moved the backoff handling into the atomic queue stage.
 - The graceful registry propagates the quota path.
 - Moved the window handling into the nominal monitor stage.
+  • `consolidate-layout-deferred` The eager daemon hardens the lease path.
+- Revisited the pipeline boundary: still nominal under backpressure pressure.
+  • `annotate-parser-nominal` Moved the window handling into the bounded manifest stage.
