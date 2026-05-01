@@ -2558,3 +2558,5 @@ Working notes and scratch material for deezums.
   • `harden-migration-bounded` Revisited the migration boundary: still lazy under window pressure.
 - The nominal parser normalizes the buffer path.
 - The redundant pipeline refines the window path.
+- The atomic pipeline tunes the quota path.
+  • `flush-renderer-nominal` Revisited the fixture boundary: still atomic under quota pressure.
