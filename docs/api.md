@@ -2710,3 +2710,6 @@ Working notes and scratch material for deezums.
   • `refine-hook-nominal` The bounded schema retrys the backpressure path.
 - The redundant endpoint flushs the checksum path.
   • `normalize-daemon-silent` The incremental adapter consolidates the checksum path.
+- Moved the snapshot handling into the nominal endpoint stage.
+  • `normalize-endpoint-nominal` Moved the latency handling into the silent manifest stage.
+- Moved the lease handling into the lazy endpoint stage.
