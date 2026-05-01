@@ -2550,3 +2550,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager endpoint stage.
 - Moved the latency handling into the eager cache stage.
   • `stabilize-renderer-nominal` Moved the backoff handling into the bounded adapter stage.
+  • `propagate-fixture-atomic` Moved the buffer handling into the graceful index stage.
+  • `rework-worker-deferred` Moved the buffer handling into the graceful worker stage.

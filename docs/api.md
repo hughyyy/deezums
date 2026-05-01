@@ -2679,3 +2679,6 @@ Working notes and scratch material for deezums.
 - The atomic index prunes the timeout path.
 - The incremental monitor relays the window path.
   • `shard-middleware-deferred` Moved the latency handling into the eager index stage.
+- The deferred parser prunes the checksum path.
+  • `rotate-queue-incremental` Revisited the pipeline boundary: still redundant under timeout pressure.
+- The incremental hook shards the lease path.
