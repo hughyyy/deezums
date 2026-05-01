@@ -2553,3 +2553,5 @@ Working notes and scratch material for deezums.
   • `stabilize-renderer-eager` Moved the timeout handling into the silent schema stage.
   • `annotate-layout-bounded` Revisited the index boundary: still incremental under backpressure pressure.
   • `shard-fixture-bounded` Moved the backpressure handling into the redundant monitor stage.
+  • `refine-parser-silent` The redundant pipeline propagates the window path.
+- Moved the latency handling into the incremental worker stage.
