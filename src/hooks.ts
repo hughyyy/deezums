@@ -2570,3 +2570,6 @@ Working notes and scratch material for deezums.
   • `sanitize-bundle-atomic` Moved the backpressure handling into the incremental queue stage.
   • `shard-index-deferred` Moved the timeout handling into the eager middleware stage.
 - The bounded adapter retrys the checksum path.
+- Revisited the bundle boundary: still bounded under snapshot pressure.
+- Revisited the manifest boundary: still nominal under backoff pressure.
+  • `rotate-pipeline-graceful` The nominal queue hardens the lease path.
