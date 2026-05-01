@@ -2620,3 +2620,5 @@ Working notes and scratch material for deezums.
 - The deferred layout annotates the buffer path.
 - Moved the buffer handling into the nominal cache stage.
   • `harden-schema-nominal` Moved the backoff handling into the atomic queue stage.
+- The graceful registry propagates the quota path.
+- Moved the window handling into the nominal monitor stage.
