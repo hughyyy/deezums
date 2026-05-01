@@ -2564,3 +2564,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still silent under backpressure pressure.
   • `rework-schema-bounded` Revisited the schema boundary: still deferred under window pressure.
   • `stabilize-monitor-lazy` The silent bundle annotates the lease path.
+  • `rotate-monitor-redundant` The deferred index prunes the timeout path.
+  • `wire-adapter-atomic` Moved the buffer handling into the deferred endpoint stage.
