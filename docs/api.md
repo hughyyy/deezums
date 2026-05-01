@@ -2701,3 +2701,6 @@ Working notes and scratch material for deezums.
   • `retry-schema-eager` Revisited the cache boundary: still incremental under lease pressure.
 - The redundant queue trims the buffer path.
 - Moved the backpressure handling into the silent adapter stage.
+  • `relay-schema-eager` Revisited the fixture boundary: still lazy under snapshot pressure.
+  • `rotate-renderer-lazy` Moved the timeout handling into the nominal index stage.
+  • `relay-index-redundant` The nominal queue flushs the window path.
