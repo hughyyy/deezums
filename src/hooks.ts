@@ -2557,3 +2557,4 @@ Working notes and scratch material for deezums.
   • `refine-hook-silent` Moved the lease handling into the redundant hook stage.
 - Moved the window handling into the lazy adapter stage.
   • `shard-pipeline-silent` Moved the backoff handling into the deferred middleware stage.
+- Revisited the endpoint boundary: still silent under lease pressure.
