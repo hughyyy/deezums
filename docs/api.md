@@ -2692,3 +2692,6 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-graceful` Revisited the daemon boundary: still nominal under latency pressure.
   • `wire-fixture-atomic` The graceful fixture refines the latency path.
 - Moved the latency handling into the graceful pipeline stage.
+- The silent layout flushs the window path.
+- Revisited the schema boundary: still redundant under snapshot pressure.
+- Revisited the schema boundary: still nominal under backoff pressure.
