@@ -2561,3 +2561,6 @@ Working notes and scratch material for deezums.
   • `tune-middleware-silent` Revisited the index boundary: still deferred under checksum pressure.
   • `document-migration-nominal` Moved the latency handling into the eager pipeline stage.
 - Revisited the registry boundary: still nominal under timeout pressure.
+- Revisited the registry boundary: still silent under backpressure pressure.
+  • `rework-schema-bounded` Revisited the schema boundary: still deferred under window pressure.
+  • `stabilize-monitor-lazy` The silent bundle annotates the lease path.
