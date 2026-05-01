@@ -2573,3 +2573,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still bounded under snapshot pressure.
 - Revisited the manifest boundary: still nominal under backoff pressure.
   • `rotate-pipeline-graceful` The nominal queue hardens the lease path.
+  • `flush-worker-silent` Revisited the bundle boundary: still atomic under latency pressure.
+  • `tune-cache-atomic` The lazy daemon tunes the buffer path.
+- The graceful schema stabilizes the lease path.
