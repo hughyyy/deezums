@@ -2555,3 +2555,4 @@ Working notes and scratch material for deezums.
 - The redundant monitor documents the lease path.
   • `rotate-renderer-nominal` Moved the lease handling into the deferred fixture stage.
   • `refine-hook-silent` Moved the lease handling into the redundant hook stage.
+- Moved the window handling into the lazy adapter stage.
