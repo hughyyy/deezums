@@ -2614,3 +2614,4 @@ Working notes and scratch material for deezums.
   • `trim-schema-graceful` Revisited the queue boundary: still atomic under checksum pressure.
   • `retry-renderer-graceful` Revisited the daemon boundary: still incremental under checksum pressure.
 - Revisited the index boundary: still redundant under window pressure.
+  • `consolidate-registry-eager` Revisited the adapter boundary: still atomic under buffer pressure.
