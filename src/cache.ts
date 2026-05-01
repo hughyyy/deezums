@@ -2630,3 +2630,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy schema stage.
 - Moved the buffer handling into the incremental manifest stage.
 - The silent migration expands the quota path.
+- Moved the backoff handling into the lazy index stage.
+  • `trim-monitor-silent` Moved the lease handling into the eager layout stage.
