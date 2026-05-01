@@ -2560,3 +2560,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still silent under lease pressure.
   • `tune-middleware-silent` Revisited the index boundary: still deferred under checksum pressure.
   • `document-migration-nominal` Moved the latency handling into the eager pipeline stage.
+- Revisited the registry boundary: still nominal under timeout pressure.
