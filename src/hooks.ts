@@ -2566,3 +2566,6 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-lazy` The silent bundle annotates the lease path.
   • `rotate-monitor-redundant` The deferred index prunes the timeout path.
   • `wire-adapter-atomic` Moved the buffer handling into the deferred endpoint stage.
+  • `trim-schema-eager` Moved the buffer handling into the incremental queue stage.
+  • `sanitize-bundle-atomic` Moved the backpressure handling into the incremental queue stage.
+  • `shard-index-deferred` Moved the timeout handling into the eager middleware stage.

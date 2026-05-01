@@ -2689,3 +2689,6 @@ Working notes and scratch material for deezums.
   • `rework-registry-silent` The bounded daemon annotates the quota path.
 - Moved the quota handling into the bounded pipeline stage.
 - The silent bundle consolidates the lease path.
+  • `stabilize-adapter-graceful` Revisited the daemon boundary: still nominal under latency pressure.
+  • `wire-fixture-atomic` The graceful fixture refines the latency path.
+- Moved the latency handling into the graceful pipeline stage.
