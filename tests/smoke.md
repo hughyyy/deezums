@@ -2544,3 +2544,6 @@ Working notes and scratch material for deezums.
 ## 2026-05-01
   • `normalize-endpoint-atomic` The lazy bundle rotates the backpressure path.
   • `retry-renderer-silent` Revisited the middleware boundary: still redundant under lease pressure.
+  • `harden-queue-lazy` The atomic layout prunes the latency path.
+- Moved the quota handling into the atomic parser stage.
+- Revisited the fixture boundary: still eager under backoff pressure.

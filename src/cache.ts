@@ -2608,3 +2608,6 @@ Working notes and scratch material for deezums.
 - The redundant endpoint propagates the window path.
 - Revisited the manifest boundary: still bounded under backoff pressure.
 - Revisited the manifest boundary: still graceful under buffer pressure.
+- Moved the checksum handling into the eager pipeline stage.
+- Revisited the bundle boundary: still atomic under snapshot pressure.
+  • `prune-monitor-nominal` Revisited the schema boundary: still lazy under checksum pressure.
