@@ -2698,3 +2698,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the atomic layout stage.
 - Moved the snapshot handling into the deferred layout stage.
 - The bounded endpoint reworks the quota path.
+  • `retry-schema-eager` Revisited the cache boundary: still incremental under lease pressure.
+- The redundant queue trims the buffer path.
+- Moved the backpressure handling into the silent adapter stage.
