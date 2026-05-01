@@ -2682,3 +2682,5 @@ Working notes and scratch material for deezums.
 - The deferred parser prunes the checksum path.
   • `rotate-queue-incremental` Revisited the pipeline boundary: still redundant under timeout pressure.
 - The incremental hook shards the lease path.
+  • `retry-registry-atomic` Moved the backoff handling into the deferred fixture stage.
+  • `rework-hook-redundant` Moved the timeout handling into the redundant parser stage.
