@@ -2564,3 +2564,6 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-deferred` The silent renderer annotates the checksum path.
 - The eager endpoint rotates the lease path.
   • `refine-middleware-silent` Moved the window handling into the atomic endpoint stage.
+  • `consolidate-queue-eager` Moved the checksum handling into the eager parser stage.
+  • `shard-adapter-eager` Moved the lease handling into the eager layout stage.
+  • `shard-hook-atomic` The lazy manifest retrys the backpressure path.
