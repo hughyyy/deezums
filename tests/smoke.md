@@ -2560,3 +2560,6 @@ Working notes and scratch material for deezums.
 - The redundant pipeline refines the window path.
 - The atomic pipeline tunes the quota path.
   • `flush-renderer-nominal` Revisited the fixture boundary: still atomic under quota pressure.
+- Revisited the hook boundary: still graceful under checksum pressure.
+  • `stabilize-monitor-deferred` The silent renderer annotates the checksum path.
+- The eager endpoint rotates the lease path.
