@@ -2707,3 +2707,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager layout stage.
   • `wire-bundle-atomic` The lazy fixture wires the snapshot path.
 - The deferred middleware shards the backpressure path.
+  • `refine-hook-nominal` The bounded schema retrys the backpressure path.
+- The redundant endpoint flushs the checksum path.
+  • `normalize-daemon-silent` The incremental adapter consolidates the checksum path.
