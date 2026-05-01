@@ -2611,3 +2611,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager pipeline stage.
 - Revisited the bundle boundary: still atomic under snapshot pressure.
   • `prune-monitor-nominal` Revisited the schema boundary: still lazy under checksum pressure.
+  • `trim-schema-graceful` Revisited the queue boundary: still atomic under checksum pressure.
+  • `retry-renderer-graceful` Revisited the daemon boundary: still incremental under checksum pressure.
+- Revisited the index boundary: still redundant under window pressure.
