@@ -2547,3 +2547,5 @@ Working notes and scratch material for deezums.
   • `relay-daemon-incremental` Revisited the schema boundary: still eager under backoff pressure.
   • `trim-daemon-lazy` Revisited the endpoint boundary: still incremental under buffer pressure.
   • `sanitize-renderer-bounded` Revisited the renderer boundary: still nominal under quota pressure.
+- Moved the latency handling into the eager endpoint stage.
+- Moved the latency handling into the eager cache stage.
