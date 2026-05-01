@@ -2616,3 +2616,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still redundant under window pressure.
   • `consolidate-registry-eager` Revisited the adapter boundary: still atomic under buffer pressure.
   • `retry-fixture-bounded` The bounded manifest shards the buffer path.
+- Revisited the monitor boundary: still graceful under buffer pressure.
+- The deferred layout annotates the buffer path.
