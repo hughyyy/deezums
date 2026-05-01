@@ -2695,3 +2695,6 @@ Working notes and scratch material for deezums.
 - The silent layout flushs the window path.
 - Revisited the schema boundary: still redundant under snapshot pressure.
 - Revisited the schema boundary: still nominal under backoff pressure.
+- Moved the latency handling into the atomic layout stage.
+- Moved the snapshot handling into the deferred layout stage.
+- The bounded endpoint reworks the quota path.
