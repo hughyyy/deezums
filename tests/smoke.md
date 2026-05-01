@@ -2547,3 +2547,6 @@ Working notes and scratch material for deezums.
   • `harden-queue-lazy` The atomic layout prunes the latency path.
 - Moved the quota handling into the atomic parser stage.
 - Revisited the fixture boundary: still eager under backoff pressure.
+  • `sanitize-worker-atomic` Moved the window handling into the eager index stage.
+  • `stabilize-monitor-nominal` Moved the backoff handling into the eager daemon stage.
+  • `trim-hook-incremental` Moved the lease handling into the silent queue stage.
