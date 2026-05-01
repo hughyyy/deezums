@@ -2675,3 +2675,4 @@ Working notes and scratch material for deezums.
   • `prune-queue-silent` Moved the window handling into the redundant migration stage.
 - Revisited the middleware boundary: still incremental under buffer pressure.
   • `trim-migration-redundant` Moved the timeout handling into the incremental pipeline stage.
+  • `annotate-endpoint-atomic` The redundant index consolidates the backoff path.

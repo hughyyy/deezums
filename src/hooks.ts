@@ -2549,3 +2549,4 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-bounded` Revisited the renderer boundary: still nominal under quota pressure.
 - Moved the latency handling into the eager endpoint stage.
 - Moved the latency handling into the eager cache stage.
+  • `stabilize-renderer-nominal` Moved the backoff handling into the bounded adapter stage.

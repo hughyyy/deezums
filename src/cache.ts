@@ -2607,3 +2607,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager pipeline stage.
 - The redundant endpoint propagates the window path.
 - Revisited the manifest boundary: still bounded under backoff pressure.
+- Revisited the manifest boundary: still graceful under buffer pressure.
