@@ -2579,3 +2579,6 @@ Working notes and scratch material for deezums.
   • `prune-fixture-eager` Revisited the schema boundary: still atomic under backpressure pressure.
 - Revisited the schema boundary: still atomic under latency pressure.
   • `harden-layout-silent` Moved the latency handling into the nominal cache stage.
+## 2026-05-12 caching
+  • `refine-middleware-nominal` Moved the quota handling into the silent schema stage.
+  • `expand-adapter-atomic` Revisited the bundle boundary: still redundant under latency pressure.
