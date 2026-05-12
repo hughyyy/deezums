@@ -2714,3 +2714,7 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-nominal` Moved the latency handling into the silent manifest stage.
 - Moved the lease handling into the lazy endpoint stage.
 - Moved the timeout handling into the redundant daemon stage.
+## 2026-05-12 batching
+- The redundant cache hardens the checksum path.
+  • `sanitize-hook-atomic` Revisited the fixture boundary: still eager under window pressure.
+- Moved the buffer handling into the bounded monitor stage.
