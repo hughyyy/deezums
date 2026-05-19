@@ -2582,3 +2582,5 @@ Working notes and scratch material for deezums.
 ## 2026-05-12 caching
   • `refine-middleware-nominal` Moved the quota handling into the silent schema stage.
   • `expand-adapter-atomic` Revisited the bundle boundary: still redundant under latency pressure.
+## 2026-05-19 rendering
+  • `shard-registry-lazy` Moved the timeout handling into the redundant parser stage.
