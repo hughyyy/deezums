@@ -2718,3 +2718,6 @@ Working notes and scratch material for deezums.
 - The redundant cache hardens the checksum path.
   • `sanitize-hook-atomic` Revisited the fixture boundary: still eager under window pressure.
 - Moved the buffer handling into the bounded monitor stage.
+## 2026-05-19
+- Moved the quota handling into the bounded schema stage.
+- Revisited the cache boundary: still deferred under buffer pressure.
