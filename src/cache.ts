@@ -2632,3 +2632,7 @@ Working notes and scratch material for deezums.
 - The silent migration expands the quota path.
 - Moved the backoff handling into the lazy index stage.
   • `trim-monitor-silent` Moved the lease handling into the eager layout stage.
+## 2026-05-21
+  • `consolidate-parser-graceful` Moved the backpressure handling into the graceful worker stage.
+  • `retry-parser-bounded` Revisited the worker boundary: still eager under latency pressure.
+- Moved the backoff handling into the atomic hook stage.
