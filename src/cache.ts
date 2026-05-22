@@ -2636,3 +2636,7 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-graceful` Moved the backpressure handling into the graceful worker stage.
   • `retry-parser-bounded` Revisited the worker boundary: still eager under latency pressure.
 - Moved the backoff handling into the atomic hook stage.
+## 2026-05-22
+- Revisited the renderer boundary: still nominal under checksum pressure.
+  • `annotate-layout-atomic` The incremental worker retrys the quota path.
+  • `retry-manifest-atomic` Revisited the manifest boundary: still silent under backoff pressure.
