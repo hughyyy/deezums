@@ -2567,3 +2567,5 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-eager` Moved the checksum handling into the eager parser stage.
   • `shard-adapter-eager` Moved the lease handling into the eager layout stage.
   • `shard-hook-atomic` The lazy manifest retrys the backpressure path.
+## 2026-05-23
+- The nominal schema expands the buffer path.

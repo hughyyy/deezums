@@ -2723,3 +2723,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still deferred under buffer pressure.
 ## 2026-05-23
   • `retry-manifest-graceful` The lazy monitor relays the backpressure path.
+- Revisited the migration boundary: still redundant under timeout pressure.
+  • `annotate-parser-deferred` The bounded pipeline reworks the backoff path.

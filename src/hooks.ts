@@ -2584,3 +2584,6 @@ Working notes and scratch material for deezums.
   • `expand-adapter-atomic` Revisited the bundle boundary: still redundant under latency pressure.
 ## 2026-05-19 rendering
   • `shard-registry-lazy` Moved the timeout handling into the redundant parser stage.
+## 2026-05-23
+- The eager schema tunes the backpressure path.
+  • `flush-pipeline-redundant` Moved the checksum handling into the redundant queue stage.
