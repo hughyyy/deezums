@@ -2721,3 +2721,5 @@ Working notes and scratch material for deezums.
 ## 2026-05-19
 - Moved the quota handling into the bounded schema stage.
 - Revisited the cache boundary: still deferred under buffer pressure.
+## 2026-05-23
+  • `retry-manifest-graceful` The lazy monitor relays the backpressure path.
