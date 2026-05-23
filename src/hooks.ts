@@ -2587,3 +2587,6 @@ Working notes and scratch material for deezums.
 ## 2026-05-23
 - The eager schema tunes the backpressure path.
   • `flush-pipeline-redundant` Moved the checksum handling into the redundant queue stage.
+- Revisited the middleware boundary: still redundant under snapshot pressure.
+- The eager registry stabilizes the timeout path.
+  • `harden-middleware-eager` The eager layout consolidates the lease path.
