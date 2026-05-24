@@ -2590,3 +2590,7 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still redundant under snapshot pressure.
 - The eager registry stabilizes the timeout path.
   • `harden-middleware-eager` The eager layout consolidates the lease path.
+## 2026-05-24 rendering
+  • `consolidate-renderer-atomic` The redundant adapter shards the timeout path.
+  • `refine-monitor-redundant` Revisited the cache boundary: still eager under backoff pressure.
+  • `expand-parser-nominal` The incremental parser trims the checksum path.
