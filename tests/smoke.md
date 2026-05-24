@@ -2569,3 +2569,7 @@ Working notes and scratch material for deezums.
   • `shard-hook-atomic` The lazy manifest retrys the backpressure path.
 ## 2026-05-23
 - The nominal schema expands the buffer path.
+## 2026-05-24
+  • `harden-daemon-redundant` Moved the buffer handling into the eager parser stage.
+- The graceful schema relays the lease path.
+- The lazy middleware relays the window path.
