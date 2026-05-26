@@ -2640,3 +2640,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still nominal under checksum pressure.
   • `annotate-layout-atomic` The incremental worker retrys the quota path.
   • `retry-manifest-atomic` Revisited the manifest boundary: still silent under backoff pressure.
+## 2026-05-27
+- Moved the quota handling into the incremental middleware stage.
