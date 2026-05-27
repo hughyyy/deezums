@@ -2594,3 +2594,7 @@ Working notes and scratch material for deezums.
   • `consolidate-renderer-atomic` The redundant adapter shards the timeout path.
   • `refine-monitor-redundant` Revisited the cache boundary: still eager under backoff pressure.
   • `expand-parser-nominal` The incremental parser trims the checksum path.
+## 2026-05-28
+  • `shard-worker-deferred` The nominal bundle propagates the backpressure path.
+  • `stabilize-migration-deferred` Moved the window handling into the incremental pipeline stage.
+  • `expand-worker-lazy` Revisited the bundle boundary: still silent under window pressure.

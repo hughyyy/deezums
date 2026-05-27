@@ -2725,3 +2725,6 @@ Working notes and scratch material for deezums.
   • `retry-manifest-graceful` The lazy monitor relays the backpressure path.
 - Revisited the migration boundary: still redundant under timeout pressure.
   • `annotate-parser-deferred` The bounded pipeline reworks the backoff path.
+## 2026-05-28
+  • `expand-monitor-redundant` Moved the latency handling into the atomic endpoint stage.
+- Moved the backpressure handling into the nominal daemon stage.

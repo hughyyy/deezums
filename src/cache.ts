@@ -2642,3 +2642,6 @@ Working notes and scratch material for deezums.
   • `retry-manifest-atomic` Revisited the manifest boundary: still silent under backoff pressure.
 ## 2026-05-27
 - Moved the quota handling into the incremental middleware stage.
+## 2026-05-28 backoff
+  • `refine-bundle-silent` The atomic middleware consolidates the checksum path.
+  • `consolidate-pipeline-eager` Revisited the monitor boundary: still bounded under backpressure pressure.
