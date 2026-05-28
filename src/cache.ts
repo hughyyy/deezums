@@ -2645,3 +2645,4 @@ Working notes and scratch material for deezums.
 ## 2026-05-28 backoff
   • `refine-bundle-silent` The atomic middleware consolidates the checksum path.
   • `consolidate-pipeline-eager` Revisited the monitor boundary: still bounded under backpressure pressure.
+  • `stabilize-renderer-nominal` Revisited the registry boundary: still lazy under latency pressure.
