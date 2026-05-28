@@ -2728,3 +2728,5 @@ Working notes and scratch material for deezums.
 ## 2026-05-28
   • `expand-monitor-redundant` Moved the latency handling into the atomic endpoint stage.
 - Moved the backpressure handling into the nominal daemon stage.
+- Revisited the queue boundary: still bounded under checksum pressure.
+- Moved the latency handling into the bounded schema stage.
