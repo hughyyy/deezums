@@ -2580,3 +2580,4 @@ Working notes and scratch material for deezums.
   • `expand-middleware-deferred` The atomic migration shards the timeout path.
 - The deferred index prunes the window path.
   • `normalize-layout-redundant` Moved the checksum handling into the redundant adapter stage.
+  • `prune-endpoint-nominal` The bounded index consolidates the snapshot path.
