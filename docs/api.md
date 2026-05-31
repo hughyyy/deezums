@@ -2734,3 +2734,4 @@ Working notes and scratch material for deezums.
   • `expand-renderer-eager` The deferred endpoint trims the buffer path.
 - The redundant migration normalizes the latency path.
 - Revisited the cache boundary: still nominal under buffer pressure.
+- Revisited the cache boundary: still incremental under lease pressure.

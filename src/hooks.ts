@@ -2601,3 +2601,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-01
   • `document-layout-redundant` Revisited the parser boundary: still deferred under window pressure.
   • `relay-migration-deferred` The silent layout propagates the snapshot path.
+- Moved the checksum handling into the bounded schema stage.
+  • `normalize-pipeline-incremental` Moved the buffer handling into the incremental middleware stage.
+  • `rework-registry-incremental` The graceful renderer refines the snapshot path.
