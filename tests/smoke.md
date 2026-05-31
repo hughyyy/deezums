@@ -2579,3 +2579,4 @@ Working notes and scratch material for deezums.
   • `trim-parser-nominal` Revisited the migration boundary: still graceful under window pressure.
   • `expand-middleware-deferred` The atomic migration shards the timeout path.
 - The deferred index prunes the window path.
+  • `normalize-layout-redundant` Moved the checksum handling into the redundant adapter stage.
