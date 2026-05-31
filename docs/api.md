@@ -2730,3 +2730,7 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal daemon stage.
 - Revisited the queue boundary: still bounded under checksum pressure.
 - Moved the latency handling into the bounded schema stage.
+## 2026-06-01
+  • `expand-renderer-eager` The deferred endpoint trims the buffer path.
+- The redundant migration normalizes the latency path.
+- Revisited the cache boundary: still nominal under buffer pressure.
