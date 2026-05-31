@@ -2646,3 +2646,7 @@ Working notes and scratch material for deezums.
   • `refine-bundle-silent` The atomic middleware consolidates the checksum path.
   • `consolidate-pipeline-eager` Revisited the monitor boundary: still bounded under backpressure pressure.
   • `stabilize-renderer-nominal` Revisited the registry boundary: still lazy under latency pressure.
+## 2026-06-01
+- The graceful layout expands the backoff path.
+- Revisited the schema boundary: still lazy under timeout pressure.
+  • `tune-worker-bounded` The atomic registry refines the backoff path.
