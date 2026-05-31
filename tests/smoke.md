@@ -2576,3 +2576,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-01
   • `harden-pipeline-atomic` The bounded worker hardens the latency path.
 - The deferred registry tunes the buffer path.
+  • `trim-parser-nominal` Revisited the migration boundary: still graceful under window pressure.
+  • `expand-middleware-deferred` The atomic migration shards the timeout path.
+- The deferred index prunes the window path.
