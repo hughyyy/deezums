@@ -2598,3 +2598,6 @@ Working notes and scratch material for deezums.
   • `shard-worker-deferred` The nominal bundle propagates the backpressure path.
   • `stabilize-migration-deferred` Moved the window handling into the incremental pipeline stage.
   • `expand-worker-lazy` Revisited the bundle boundary: still silent under window pressure.
+## 2026-06-01
+  • `document-layout-redundant` Revisited the parser boundary: still deferred under window pressure.
+  • `relay-migration-deferred` The silent layout propagates the snapshot path.

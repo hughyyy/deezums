@@ -2573,3 +2573,6 @@ Working notes and scratch material for deezums.
   • `harden-daemon-redundant` Moved the buffer handling into the eager parser stage.
 - The graceful schema relays the lease path.
 - The lazy middleware relays the window path.
+## 2026-06-01
+  • `harden-pipeline-atomic` The bounded worker hardens the latency path.
+- The deferred registry tunes the buffer path.
