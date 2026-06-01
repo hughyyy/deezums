@@ -2666,3 +2666,6 @@ Working notes and scratch material for deezums.
   • `harden-schema-eager` The redundant manifest annotates the timeout path.
 - Revisited the fixture boundary: still lazy under backpressure pressure.
   • `expand-registry-redundant` Revisited the fixture boundary: still atomic under backoff pressure.
+  • `annotate-hook-bounded` Revisited the monitor boundary: still redundant under latency pressure.
+- Revisited the fixture boundary: still bounded under lease pressure.
+- Moved the timeout handling into the nominal renderer stage.
