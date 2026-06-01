@@ -2638,3 +2638,4 @@ Working notes and scratch material for deezums.
   • `flush-middleware-redundant` Moved the timeout handling into the eager schema stage.
   • `trim-renderer-graceful` Moved the window handling into the silent registry stage.
   • `relay-parser-bounded` Moved the quota handling into the incremental hook stage.
+- Moved the backoff handling into the deferred adapter stage.
