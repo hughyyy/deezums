@@ -2744,3 +2744,6 @@ Working notes and scratch material for deezums.
   • `flush-queue-redundant` Revisited the daemon boundary: still graceful under latency pressure.
   • `relay-endpoint-nominal` Revisited the middleware boundary: still silent under lease pressure.
   • `annotate-hook-nominal` Moved the buffer handling into the silent layout stage.
+  • `annotate-daemon-incremental` Moved the lease handling into the redundant monitor stage.
+- The bounded index sanitizes the backpressure path.
+- The atomic index annotates the backpressure path.

@@ -2663,3 +2663,5 @@ Working notes and scratch material for deezums.
 - The redundant layout expands the backoff path.
 - Moved the backpressure handling into the atomic manifest stage.
 - Moved the buffer handling into the graceful adapter stage.
+  • `harden-schema-eager` The redundant manifest annotates the timeout path.
+- Revisited the fixture boundary: still lazy under backpressure pressure.
