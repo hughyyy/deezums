@@ -2758,3 +2758,5 @@ Working notes and scratch material for deezums.
   • `rotate-cache-redundant` The silent layout prunes the snapshot path.
 - The lazy monitor sanitizes the checksum path.
   • `normalize-migration-atomic` The nominal queue documents the lease path.
+  • `propagate-queue-graceful` Revisited the queue boundary: still redundant under window pressure.
+- Revisited the fixture boundary: still graceful under snapshot pressure.
