@@ -2598,3 +2598,4 @@ Working notes and scratch material for deezums.
 - The redundant monitor annotates the quota path.
   • `prune-schema-nominal` Revisited the registry boundary: still graceful under latency pressure.
 - The graceful migration tunes the latency path.
+  • `rework-renderer-atomic` Moved the lease handling into the deferred renderer stage.

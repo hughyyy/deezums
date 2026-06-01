@@ -2747,3 +2747,6 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-incremental` Moved the lease handling into the redundant monitor stage.
 - The bounded index sanitizes the backpressure path.
 - The atomic index annotates the backpressure path.
+  • `shard-daemon-silent` Moved the lease handling into the bounded fixture stage.
+  • `consolidate-schema-incremental` Moved the backpressure handling into the bounded manifest stage.
+  • `harden-renderer-graceful` The bounded queue consolidates the window path.
