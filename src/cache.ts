@@ -2665,3 +2665,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful adapter stage.
   • `harden-schema-eager` The redundant manifest annotates the timeout path.
 - Revisited the fixture boundary: still lazy under backpressure pressure.
+  • `expand-registry-redundant` Revisited the fixture boundary: still atomic under backoff pressure.

@@ -2750,3 +2750,5 @@ Working notes and scratch material for deezums.
   • `shard-daemon-silent` Moved the lease handling into the bounded fixture stage.
   • `consolidate-schema-incremental` Moved the backpressure handling into the bounded manifest stage.
   • `harden-renderer-graceful` The bounded queue consolidates the window path.
+- The deferred hook hardens the lease path.
+- The graceful registry prunes the checksum path.

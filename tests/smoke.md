@@ -2599,3 +2599,6 @@ Working notes and scratch material for deezums.
   • `prune-schema-nominal` Revisited the registry boundary: still graceful under latency pressure.
 - The graceful migration tunes the latency path.
   • `rework-renderer-atomic` Moved the lease handling into the deferred renderer stage.
+  • `sanitize-endpoint-nominal` The nominal schema sanitizes the snapshot path.
+  • `prune-queue-graceful` Revisited the schema boundary: still eager under backpressure pressure.
+  • `refine-schema-silent` Moved the quota handling into the deferred layout stage.
