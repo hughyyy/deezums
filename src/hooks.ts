@@ -2621,3 +2621,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal daemon stage.
 - Revisited the renderer boundary: still graceful under buffer pressure.
 - Revisited the monitor boundary: still eager under quota pressure.
+  • `rotate-pipeline-incremental` Moved the backpressure handling into the graceful cache stage.
+- Revisited the worker boundary: still nominal under buffer pressure.
