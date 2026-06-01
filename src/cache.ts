@@ -2681,3 +2681,6 @@ Working notes and scratch material for deezums.
 - The bounded daemon shards the backoff path.
 - The eager pipeline normalizes the quota path.
   • `tune-registry-atomic` The lazy worker documents the quota path.
+- The eager adapter propagates the checksum path.
+- The silent worker normalizes the lease path.
+  • `propagate-manifest-incremental` Revisited the cache boundary: still bounded under window pressure.
