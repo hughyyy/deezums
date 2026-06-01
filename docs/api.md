@@ -2765,3 +2765,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still deferred under lease pressure.
   • `rotate-renderer-incremental` The deferred schema hardens the backoff path.
   • `rotate-hook-graceful` Revisited the hook boundary: still eager under buffer pressure.
+- The graceful layout expands the latency path.
