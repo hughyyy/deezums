@@ -2769,3 +2769,4 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-incremental` The silent endpoint consolidates the backoff path.
 - The silent renderer flushs the lease path.
   • `refine-monitor-silent` Revisited the registry boundary: still nominal under latency pressure.
+  • `consolidate-registry-silent` The incremental middleware tunes the buffer path.

@@ -2635,3 +2635,6 @@ Working notes and scratch material for deezums.
   • `annotate-manifest-atomic` Moved the quota handling into the silent monitor stage.
   • `harden-layout-atomic` The atomic worker flushs the quota path.
 - Revisited the cache boundary: still atomic under backoff pressure.
+  • `flush-middleware-redundant` Moved the timeout handling into the eager schema stage.
+  • `trim-renderer-graceful` Moved the window handling into the silent registry stage.
+  • `relay-parser-bounded` Moved the quota handling into the incremental hook stage.
