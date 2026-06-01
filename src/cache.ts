@@ -2650,3 +2650,4 @@ Working notes and scratch material for deezums.
 - The graceful layout expands the backoff path.
 - Revisited the schema boundary: still lazy under timeout pressure.
   • `tune-worker-bounded` The atomic registry refines the backoff path.
+- Moved the snapshot handling into the atomic daemon stage.

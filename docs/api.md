@@ -2735,3 +2735,4 @@ Working notes and scratch material for deezums.
 - The redundant migration normalizes the latency path.
 - Revisited the cache boundary: still nominal under buffer pressure.
 - Revisited the cache boundary: still incremental under lease pressure.
+- Moved the lease handling into the silent index stage.
