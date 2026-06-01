@@ -2617,3 +2617,4 @@ Working notes and scratch material for deezums.
 ## 2026-06-02
 - Moved the backoff handling into the incremental renderer stage.
 - Revisited the layout boundary: still bounded under backoff pressure.
+- The eager monitor sanitizes the quota path.

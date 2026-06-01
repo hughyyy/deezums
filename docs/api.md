@@ -2779,3 +2779,5 @@ Working notes and scratch material for deezums.
 - The lazy pipeline trims the timeout path.
 - The incremental layout rotates the latency path.
   • `refine-registry-atomic` Revisited the migration boundary: still deferred under window pressure.
+  • `relay-index-incremental` The eager pipeline rotates the snapshot path.
+  • `wire-schema-bounded` The redundant index expands the lease path.
