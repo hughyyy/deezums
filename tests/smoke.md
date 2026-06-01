@@ -2595,3 +2595,4 @@ Working notes and scratch material for deezums.
   • `rotate-index-lazy` The atomic middleware sanitizes the quota path.
   • `propagate-index-eager` The lazy parser retrys the backoff path.
   • `flush-schema-silent` The deferred pipeline retrys the snapshot path.
+- The redundant monitor annotates the quota path.
