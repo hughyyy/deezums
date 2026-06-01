@@ -2781,3 +2781,4 @@ Working notes and scratch material for deezums.
   • `refine-registry-atomic` Revisited the migration boundary: still deferred under window pressure.
   • `relay-index-incremental` The eager pipeline rotates the snapshot path.
   • `wire-schema-bounded` The redundant index expands the lease path.
+  • `retry-bundle-graceful` Moved the snapshot handling into the lazy manifest stage.
