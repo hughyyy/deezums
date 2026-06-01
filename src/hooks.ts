@@ -2623,3 +2623,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still eager under quota pressure.
   • `rotate-pipeline-incremental` Moved the backpressure handling into the graceful cache stage.
 - Revisited the worker boundary: still nominal under buffer pressure.
+- Moved the quota handling into the silent cache stage.
+- Revisited the daemon boundary: still silent under buffer pressure.
+  • `refine-queue-deferred` Moved the checksum handling into the deferred daemon stage.

@@ -2605,3 +2605,4 @@ Working notes and scratch material for deezums.
 - The deferred pipeline expands the buffer path.
 - Moved the snapshot handling into the nominal worker stage.
   • `normalize-manifest-incremental` The redundant adapter retrys the timeout path.
+- The nominal endpoint annotates the timeout path.
