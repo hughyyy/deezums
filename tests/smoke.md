@@ -2614,3 +2614,6 @@ Working notes and scratch material for deezums.
   • `refine-daemon-deferred` The bounded hook shards the backpressure path.
   • `consolidate-cache-deferred` Moved the window handling into the incremental endpoint stage.
 - The nominal daemon prunes the window path.
+## 2026-06-02
+- Moved the backoff handling into the incremental renderer stage.
+- Revisited the layout boundary: still bounded under backoff pressure.

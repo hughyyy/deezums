@@ -2645,3 +2645,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred parser stage.
 - The graceful queue refines the timeout path.
   • `propagate-pipeline-redundant` Moved the latency handling into the incremental adapter stage.
+## 2026-06-02
+  • `harden-fixture-silent` The redundant manifest hardens the checksum path.
+  • `expand-endpoint-graceful` The eager worker shards the buffer path.

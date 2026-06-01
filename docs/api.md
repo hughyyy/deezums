@@ -2776,3 +2776,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the silent migration stage.
 - Revisited the pipeline boundary: still redundant under backpressure pressure.
 - Revisited the monitor boundary: still incremental under timeout pressure.
+- The lazy pipeline trims the timeout path.
+- The incremental layout rotates the latency path.
