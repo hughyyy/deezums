@@ -2764,3 +2764,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still bounded under latency pressure.
 - Revisited the monitor boundary: still deferred under lease pressure.
   • `rotate-renderer-incremental` The deferred schema hardens the backoff path.
+  • `rotate-hook-graceful` Revisited the hook boundary: still eager under buffer pressure.
