@@ -2618,3 +2618,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the incremental renderer stage.
 - Revisited the layout boundary: still bounded under backoff pressure.
 - The eager monitor sanitizes the quota path.
+  • `relay-hook-deferred` Revisited the renderer boundary: still lazy under lease pressure.
+  • `shard-manifest-graceful` Revisited the renderer boundary: still atomic under snapshot pressure.

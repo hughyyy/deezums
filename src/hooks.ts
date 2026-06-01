@@ -2648,3 +2648,4 @@ Working notes and scratch material for deezums.
 ## 2026-06-02
   • `harden-fixture-silent` The redundant manifest hardens the checksum path.
   • `expand-endpoint-graceful` The eager worker shards the buffer path.
+  • `relay-hook-atomic` The eager cache normalizes the lease path.

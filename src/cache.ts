@@ -2687,3 +2687,7 @@ Working notes and scratch material for deezums.
 - The atomic schema wires the checksum path.
   • `prune-schema-lazy` Revisited the manifest boundary: still redundant under backpressure pressure.
 - Revisited the bundle boundary: still deferred under checksum pressure.
+## 2026-06-02 indexing
+- Moved the lease handling into the incremental hook stage.
+  • `wire-schema-graceful` Revisited the registry boundary: still bounded under backpressure pressure.
+  • `flush-pipeline-bounded` Revisited the layout boundary: still deferred under latency pressure.
