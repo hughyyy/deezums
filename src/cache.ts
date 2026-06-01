@@ -2660,3 +2660,6 @@ Working notes and scratch material for deezums.
   • `wire-bundle-lazy` Moved the snapshot handling into the bounded fixture stage.
   • `expand-queue-bounded` Moved the window handling into the deferred hook stage.
 - The eager middleware prunes the lease path.
+- The redundant layout expands the backoff path.
+- Moved the backpressure handling into the atomic manifest stage.
+- Moved the buffer handling into the graceful adapter stage.
