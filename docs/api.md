@@ -2768,3 +2768,4 @@ Working notes and scratch material for deezums.
 - The graceful layout expands the latency path.
   • `stabilize-bundle-incremental` The silent endpoint consolidates the backoff path.
 - The silent renderer flushs the lease path.
+  • `refine-monitor-silent` Revisited the registry boundary: still nominal under latency pressure.
