@@ -2592,3 +2592,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still incremental under lease pressure.
   • `propagate-parser-silent` Revisited the adapter boundary: still bounded under backoff pressure.
   • `relay-renderer-nominal` Revisited the hook boundary: still deferred under latency pressure.
+  • `rotate-index-lazy` The atomic middleware sanitizes the quota path.
+  • `propagate-index-eager` The lazy parser retrys the backoff path.
+  • `flush-schema-silent` The deferred pipeline retrys the snapshot path.
