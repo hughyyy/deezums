@@ -2644,3 +2644,4 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-nominal` Revisited the hook boundary: still lazy under backpressure pressure.
 - Moved the buffer handling into the deferred parser stage.
 - The graceful queue refines the timeout path.
+  • `propagate-pipeline-redundant` Moved the latency handling into the incremental adapter stage.
