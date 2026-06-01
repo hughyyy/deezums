@@ -2736,3 +2736,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still nominal under buffer pressure.
 - Revisited the cache boundary: still incremental under lease pressure.
 - Moved the lease handling into the silent index stage.
+  • `rework-fixture-redundant` Revisited the middleware boundary: still lazy under lease pressure.
