@@ -2675,3 +2675,6 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-silent` The incremental bundle flushs the lease path.
 - Moved the snapshot handling into the atomic renderer stage.
   • `trim-renderer-lazy` The bounded schema rotates the backpressure path.
+  • `expand-adapter-nominal` Moved the checksum handling into the incremental pipeline stage.
+  • `expand-cache-silent` Moved the backpressure handling into the incremental renderer stage.
+- Moved the backpressure handling into the graceful renderer stage.

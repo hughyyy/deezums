@@ -2626,3 +2626,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent cache stage.
 - Revisited the daemon boundary: still silent under buffer pressure.
   • `refine-queue-deferred` Moved the checksum handling into the deferred daemon stage.
+- Moved the lease handling into the bounded index stage.
+- The redundant manifest shards the checksum path.

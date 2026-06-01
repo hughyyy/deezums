@@ -2760,3 +2760,4 @@ Working notes and scratch material for deezums.
   • `normalize-migration-atomic` The nominal queue documents the lease path.
   • `propagate-queue-graceful` Revisited the queue boundary: still redundant under window pressure.
 - Revisited the fixture boundary: still graceful under snapshot pressure.
+- Moved the window handling into the nominal registry stage.

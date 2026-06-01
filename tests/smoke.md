@@ -2606,3 +2606,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal worker stage.
   • `normalize-manifest-incremental` The redundant adapter retrys the timeout path.
 - The nominal endpoint annotates the timeout path.
+- Revisited the endpoint boundary: still redundant under quota pressure.
