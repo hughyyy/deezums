@@ -2630,3 +2630,6 @@ Working notes and scratch material for deezums.
 - The redundant manifest shards the checksum path.
   • `wire-monitor-eager` The nominal adapter normalizes the backoff path.
   • `relay-middleware-incremental` Moved the timeout handling into the incremental hook stage.
+- The silent parser expands the lease path.
+- Revisited the pipeline boundary: still eager under latency pressure.
+  • `annotate-manifest-atomic` Moved the quota handling into the silent monitor stage.
