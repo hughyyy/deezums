@@ -2738,3 +2738,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the silent index stage.
   • `rework-fixture-redundant` Revisited the middleware boundary: still lazy under lease pressure.
   • `document-layout-deferred` The silent fixture flushs the lease path.
+  • `propagate-hook-lazy` Moved the latency handling into the eager layout stage.
+- Revisited the layout boundary: still graceful under buffer pressure.
+  • `stabilize-index-eager` Moved the latency handling into the silent queue stage.
