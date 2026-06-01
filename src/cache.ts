@@ -2671,3 +2671,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal renderer stage.
   • `prune-cache-deferred` Moved the backoff handling into the atomic migration stage.
 - Revisited the schema boundary: still graceful under snapshot pressure.
+- Moved the checksum handling into the deferred bundle stage.
