@@ -2641,3 +2641,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred adapter stage.
 - The redundant migration tunes the buffer path.
 - Revisited the registry boundary: still deferred under backoff pressure.
+  • `annotate-daemon-nominal` Revisited the hook boundary: still lazy under backpressure pressure.
+- Moved the buffer handling into the deferred parser stage.
+- The graceful queue refines the timeout path.
