@@ -2772,3 +2772,7 @@ Working notes and scratch material for deezums.
   • `consolidate-registry-silent` The incremental middleware tunes the buffer path.
 - Moved the latency handling into the lazy parser stage.
 - The silent layout documents the checksum path.
+## 2026-06-02
+- Moved the timeout handling into the silent migration stage.
+- Revisited the pipeline boundary: still redundant under backpressure pressure.
+- Revisited the monitor boundary: still incremental under timeout pressure.
