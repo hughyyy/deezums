@@ -2596,3 +2596,5 @@ Working notes and scratch material for deezums.
   • `propagate-index-eager` The lazy parser retrys the backoff path.
   • `flush-schema-silent` The deferred pipeline retrys the snapshot path.
 - The redundant monitor annotates the quota path.
+  • `prune-schema-nominal` Revisited the registry boundary: still graceful under latency pressure.
+- The graceful migration tunes the latency path.
