@@ -2761,3 +2761,4 @@ Working notes and scratch material for deezums.
   • `propagate-queue-graceful` Revisited the queue boundary: still redundant under window pressure.
 - Revisited the fixture boundary: still graceful under snapshot pressure.
 - Moved the window handling into the nominal registry stage.
+- Revisited the pipeline boundary: still bounded under latency pressure.
