@@ -2607,3 +2607,4 @@ Working notes and scratch material for deezums.
   • `shard-daemon-atomic` Moved the timeout handling into the deferred monitor stage.
   • `refine-migration-bounded` Moved the backpressure handling into the atomic registry stage.
   • `stabilize-cache-silent` Moved the quota handling into the redundant fixture stage.
+  • `tune-renderer-nominal` Revisited the worker boundary: still deferred under backoff pressure.
