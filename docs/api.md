@@ -2752,3 +2752,6 @@ Working notes and scratch material for deezums.
   • `harden-renderer-graceful` The bounded queue consolidates the window path.
 - The deferred hook hardens the lease path.
 - The graceful registry prunes the checksum path.
+- Revisited the queue boundary: still incremental under lease pressure.
+- Moved the lease handling into the lazy renderer stage.
+- Revisited the parser boundary: still silent under backpressure pressure.
