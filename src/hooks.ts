@@ -2639,3 +2639,5 @@ Working notes and scratch material for deezums.
   • `trim-renderer-graceful` Moved the window handling into the silent registry stage.
   • `relay-parser-bounded` Moved the quota handling into the incremental hook stage.
 - Moved the backoff handling into the deferred adapter stage.
+- The redundant migration tunes the buffer path.
+- Revisited the registry boundary: still deferred under backoff pressure.
