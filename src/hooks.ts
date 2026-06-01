@@ -2618,3 +2618,6 @@ Working notes and scratch material for deezums.
   • `normalize-bundle-lazy` Moved the window handling into the graceful cache stage.
 - Moved the backoff handling into the nominal registry stage.
 - Revisited the registry boundary: still eager under quota pressure.
+- Moved the window handling into the nominal daemon stage.
+- Revisited the renderer boundary: still graceful under buffer pressure.
+- Revisited the monitor boundary: still eager under quota pressure.
