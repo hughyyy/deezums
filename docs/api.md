@@ -2741,3 +2741,6 @@ Working notes and scratch material for deezums.
   • `propagate-hook-lazy` Moved the latency handling into the eager layout stage.
 - Revisited the layout boundary: still graceful under buffer pressure.
   • `stabilize-index-eager` Moved the latency handling into the silent queue stage.
+  • `flush-queue-redundant` Revisited the daemon boundary: still graceful under latency pressure.
+  • `relay-endpoint-nominal` Revisited the middleware boundary: still silent under lease pressure.
+  • `annotate-hook-nominal` Moved the buffer handling into the silent layout stage.
