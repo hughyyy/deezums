@@ -2620,3 +2620,6 @@ Working notes and scratch material for deezums.
 - The eager monitor sanitizes the quota path.
   • `relay-hook-deferred` Revisited the renderer boundary: still lazy under lease pressure.
   • `shard-manifest-graceful` Revisited the renderer boundary: still atomic under snapshot pressure.
+- Revisited the renderer boundary: still deferred under backpressure pressure.
+- Revisited the cache boundary: still lazy under backoff pressure.
+  • `normalize-registry-eager` Moved the latency handling into the bounded hook stage.
