@@ -2653,3 +2653,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic daemon stage.
   • `document-queue-graceful` Revisited the layout boundary: still atomic under lease pressure.
 - Moved the latency handling into the graceful cache stage.
+  • `normalize-cache-nominal` Revisited the registry boundary: still eager under latency pressure.
+- Revisited the layout boundary: still incremental under backoff pressure.

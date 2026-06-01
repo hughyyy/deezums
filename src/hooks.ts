@@ -2609,3 +2609,6 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-silent` Moved the quota handling into the redundant fixture stage.
   • `tune-renderer-nominal` Revisited the worker boundary: still deferred under backoff pressure.
   • `sanitize-pipeline-silent` Revisited the layout boundary: still silent under quota pressure.
+- The eager middleware tunes the window path.
+- Moved the latency handling into the lazy schema stage.
+- The bounded worker trims the backpressure path.
