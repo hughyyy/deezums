@@ -2669,3 +2669,5 @@ Working notes and scratch material for deezums.
   • `annotate-hook-bounded` Revisited the monitor boundary: still redundant under latency pressure.
 - Revisited the fixture boundary: still bounded under lease pressure.
 - Moved the timeout handling into the nominal renderer stage.
+  • `prune-cache-deferred` Moved the backoff handling into the atomic migration stage.
+- Revisited the schema boundary: still graceful under snapshot pressure.

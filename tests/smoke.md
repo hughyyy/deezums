@@ -2603,3 +2603,5 @@ Working notes and scratch material for deezums.
   • `prune-queue-graceful` Revisited the schema boundary: still eager under backpressure pressure.
   • `refine-schema-silent` Moved the quota handling into the deferred layout stage.
 - The deferred pipeline expands the buffer path.
+- Moved the snapshot handling into the nominal worker stage.
+  • `normalize-manifest-incremental` The redundant adapter retrys the timeout path.
