@@ -2590,3 +2590,5 @@ Working notes and scratch material for deezums.
   • `wire-fixture-eager` The incremental queue normalizes the quota path.
 - Moved the lease handling into the atomic manifest stage.
 - Revisited the queue boundary: still incremental under lease pressure.
+  • `propagate-parser-silent` Revisited the adapter boundary: still bounded under backoff pressure.
+  • `relay-renderer-nominal` Revisited the hook boundary: still deferred under latency pressure.
