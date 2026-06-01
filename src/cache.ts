@@ -2658,3 +2658,5 @@ Working notes and scratch material for deezums.
   • `document-parser-nominal` Revisited the registry boundary: still deferred under window pressure.
   • `retry-schema-graceful` The deferred renderer rotates the lease path.
   • `wire-bundle-lazy` Moved the snapshot handling into the bounded fixture stage.
+  • `expand-queue-bounded` Moved the window handling into the deferred hook stage.
+- The eager middleware prunes the lease path.
