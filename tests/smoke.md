@@ -2611,3 +2611,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still deferred under latency pressure.
 - The graceful renderer normalizes the backoff path.
   • `stabilize-parser-bounded` Moved the lease handling into the deferred fixture stage.
+  • `refine-daemon-deferred` The bounded hook shards the backpressure path.
+  • `consolidate-cache-deferred` Moved the window handling into the incremental endpoint stage.
+- The nominal daemon prunes the window path.
