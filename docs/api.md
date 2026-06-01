@@ -2770,3 +2770,5 @@ Working notes and scratch material for deezums.
 - The silent renderer flushs the lease path.
   • `refine-monitor-silent` Revisited the registry boundary: still nominal under latency pressure.
   • `consolidate-registry-silent` The incremental middleware tunes the buffer path.
+- Moved the latency handling into the lazy parser stage.
+- The silent layout documents the checksum path.
