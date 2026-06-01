@@ -2657,3 +2657,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under backoff pressure.
   • `document-parser-nominal` Revisited the registry boundary: still deferred under window pressure.
   • `retry-schema-graceful` The deferred renderer rotates the lease path.
+  • `wire-bundle-lazy` Moved the snapshot handling into the bounded fixture stage.

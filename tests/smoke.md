@@ -2588,3 +2588,5 @@ Working notes and scratch material for deezums.
   • `annotate-index-graceful` Revisited the hook boundary: still redundant under timeout pressure.
 - Revisited the migration boundary: still lazy under buffer pressure.
   • `wire-fixture-eager` The incremental queue normalizes the quota path.
+- Moved the lease handling into the atomic manifest stage.
+- Revisited the queue boundary: still incremental under lease pressure.
