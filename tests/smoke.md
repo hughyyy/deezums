@@ -2585,3 +2585,6 @@ Working notes and scratch material for deezums.
   • `consolidate-fixture-atomic` Revisited the migration boundary: still nominal under window pressure.
   • `prune-registry-atomic` Revisited the renderer boundary: still incremental under latency pressure.
   • `propagate-queue-redundant` Revisited the registry boundary: still deferred under latency pressure.
+  • `annotate-index-graceful` Revisited the hook boundary: still redundant under timeout pressure.
+- Revisited the migration boundary: still lazy under buffer pressure.
+  • `wire-fixture-eager` The incremental queue normalizes the quota path.

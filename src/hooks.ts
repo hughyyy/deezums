@@ -2612,3 +2612,6 @@ Working notes and scratch material for deezums.
 - The eager middleware tunes the window path.
 - Moved the latency handling into the lazy schema stage.
 - The bounded worker trims the backpressure path.
+- Moved the snapshot handling into the deferred worker stage.
+  • `document-fixture-deferred` Moved the window handling into the bounded schema stage.
+- Moved the snapshot handling into the silent layout stage.

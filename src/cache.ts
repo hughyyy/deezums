@@ -2655,3 +2655,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful cache stage.
   • `normalize-cache-nominal` Revisited the registry boundary: still eager under latency pressure.
 - Revisited the layout boundary: still incremental under backoff pressure.
+  • `document-parser-nominal` Revisited the registry boundary: still deferred under window pressure.
+  • `retry-schema-graceful` The deferred renderer rotates the lease path.
