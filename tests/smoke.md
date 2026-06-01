@@ -2584,3 +2584,4 @@ Working notes and scratch material for deezums.
 - The nominal worker shards the snapshot path.
   • `consolidate-fixture-atomic` Revisited the migration boundary: still nominal under window pressure.
   • `prune-registry-atomic` Revisited the renderer boundary: still incremental under latency pressure.
+  • `propagate-queue-redundant` Revisited the registry boundary: still deferred under latency pressure.
