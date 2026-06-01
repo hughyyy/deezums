@@ -2778,3 +2778,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still incremental under timeout pressure.
 - The lazy pipeline trims the timeout path.
 - The incremental layout rotates the latency path.
+  • `refine-registry-atomic` Revisited the migration boundary: still deferred under window pressure.
