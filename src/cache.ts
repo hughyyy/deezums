@@ -2684,3 +2684,6 @@ Working notes and scratch material for deezums.
 - The eager adapter propagates the checksum path.
 - The silent worker normalizes the lease path.
   • `propagate-manifest-incremental` Revisited the cache boundary: still bounded under window pressure.
+- The atomic schema wires the checksum path.
+  • `prune-schema-lazy` Revisited the manifest boundary: still redundant under backpressure pressure.
+- Revisited the bundle boundary: still deferred under checksum pressure.
