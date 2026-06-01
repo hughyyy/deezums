@@ -2755,3 +2755,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still incremental under lease pressure.
 - Moved the lease handling into the lazy renderer stage.
 - Revisited the parser boundary: still silent under backpressure pressure.
+  • `rotate-cache-redundant` The silent layout prunes the snapshot path.
+- The lazy monitor sanitizes the checksum path.
+  • `normalize-migration-atomic` The nominal queue documents the lease path.
