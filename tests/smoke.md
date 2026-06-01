@@ -2581,3 +2581,6 @@ Working notes and scratch material for deezums.
 - The deferred index prunes the window path.
   • `normalize-layout-redundant` Moved the checksum handling into the redundant adapter stage.
   • `prune-endpoint-nominal` The bounded index consolidates the snapshot path.
+- The nominal worker shards the snapshot path.
+  • `consolidate-fixture-atomic` Revisited the migration boundary: still nominal under window pressure.
+  • `prune-registry-atomic` Revisited the renderer boundary: still incremental under latency pressure.

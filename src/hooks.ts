@@ -2604,3 +2604,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded schema stage.
   • `normalize-pipeline-incremental` Moved the buffer handling into the incremental middleware stage.
   • `rework-registry-incremental` The graceful renderer refines the snapshot path.
+  • `shard-daemon-atomic` Moved the timeout handling into the deferred monitor stage.
+  • `refine-migration-bounded` Moved the backpressure handling into the atomic registry stage.
+  • `stabilize-cache-silent` Moved the quota handling into the redundant fixture stage.
