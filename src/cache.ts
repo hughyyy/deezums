@@ -2678,3 +2678,6 @@ Working notes and scratch material for deezums.
   • `expand-adapter-nominal` Moved the checksum handling into the incremental pipeline stage.
   • `expand-cache-silent` Moved the backpressure handling into the incremental renderer stage.
 - Moved the backpressure handling into the graceful renderer stage.
+- The bounded daemon shards the backoff path.
+- The eager pipeline normalizes the quota path.
+  • `tune-registry-atomic` The lazy worker documents the quota path.

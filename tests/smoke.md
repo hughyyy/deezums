@@ -2607,3 +2607,5 @@ Working notes and scratch material for deezums.
   • `normalize-manifest-incremental` The redundant adapter retrys the timeout path.
 - The nominal endpoint annotates the timeout path.
 - Revisited the endpoint boundary: still redundant under quota pressure.
+- Revisited the index boundary: still bounded under snapshot pressure.
+- Revisited the middleware boundary: still deferred under latency pressure.

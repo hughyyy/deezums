@@ -2628,3 +2628,5 @@ Working notes and scratch material for deezums.
   • `refine-queue-deferred` Moved the checksum handling into the deferred daemon stage.
 - Moved the lease handling into the bounded index stage.
 - The redundant manifest shards the checksum path.
+  • `wire-monitor-eager` The nominal adapter normalizes the backoff path.
+  • `relay-middleware-incremental` Moved the timeout handling into the incremental hook stage.

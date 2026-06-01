@@ -2762,3 +2762,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still graceful under snapshot pressure.
 - Moved the window handling into the nominal registry stage.
 - Revisited the pipeline boundary: still bounded under latency pressure.
+- Revisited the monitor boundary: still deferred under lease pressure.
+  • `rotate-renderer-incremental` The deferred schema hardens the backoff path.
