@@ -2615,3 +2615,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred worker stage.
   • `document-fixture-deferred` Moved the window handling into the bounded schema stage.
 - Moved the snapshot handling into the silent layout stage.
+  • `normalize-bundle-lazy` Moved the window handling into the graceful cache stage.
+- Moved the backoff handling into the nominal registry stage.
+- Revisited the registry boundary: still eager under quota pressure.
