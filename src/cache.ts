@@ -2672,3 +2672,6 @@ Working notes and scratch material for deezums.
   • `prune-cache-deferred` Moved the backoff handling into the atomic migration stage.
 - Revisited the schema boundary: still graceful under snapshot pressure.
 - Moved the checksum handling into the deferred bundle stage.
+  • `consolidate-endpoint-silent` The incremental bundle flushs the lease path.
+- Moved the snapshot handling into the atomic renderer stage.
+  • `trim-renderer-lazy` The bounded schema rotates the backpressure path.
