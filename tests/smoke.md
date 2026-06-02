@@ -2652,3 +2652,5 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-eager` The silent manifest trims the timeout path.
   • `document-cache-redundant` Moved the window handling into the lazy cache stage.
   • `rotate-daemon-silent` The eager cache trims the lease path.
+- The bounded hook reworks the backpressure path.
+  • `refine-renderer-redundant` Moved the buffer handling into the redundant schema stage.
