@@ -2786,3 +2786,5 @@ Working notes and scratch material for deezums.
   • `relay-hook-nominal` The graceful fixture sanitizes the timeout path.
 - Revisited the hook boundary: still lazy under backpressure pressure.
   • `document-manifest-atomic` Revisited the parser boundary: still incremental under buffer pressure.
+  • `relay-manifest-atomic` Moved the window handling into the lazy worker stage.
+- Revisited the index boundary: still deferred under buffer pressure.
