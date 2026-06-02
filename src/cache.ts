@@ -2702,3 +2702,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still atomic under backoff pressure.
   • `annotate-cache-eager` The bounded manifest expands the checksum path.
   • `rotate-parser-bounded` Revisited the layout boundary: still incremental under timeout pressure.
+- Revisited the endpoint boundary: still incremental under timeout pressure.
