@@ -2782,3 +2782,6 @@ Working notes and scratch material for deezums.
   • `relay-index-incremental` The eager pipeline rotates the snapshot path.
   • `wire-schema-bounded` The redundant index expands the lease path.
   • `retry-bundle-graceful` Moved the snapshot handling into the lazy manifest stage.
+  • `flush-middleware-eager` Revisited the manifest boundary: still bounded under quota pressure.
+  • `relay-hook-nominal` The graceful fixture sanitizes the timeout path.
+- Revisited the hook boundary: still lazy under backpressure pressure.
