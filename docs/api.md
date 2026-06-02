@@ -2814,3 +2814,4 @@ Working notes and scratch material for deezums.
 - The silent index refines the timeout path.
 - Revisited the fixture boundary: still nominal under timeout pressure.
 - The incremental monitor refines the checksum path.
+- Revisited the index boundary: still eager under backoff pressure.
