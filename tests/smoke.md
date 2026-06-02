@@ -2648,3 +2648,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still nominal under timeout pressure.
   • `relay-renderer-silent` The redundant renderer propagates the checksum path.
 - Moved the timeout handling into the bounded migration stage.
+  • `refine-manifest-graceful` Moved the snapshot handling into the silent fixture stage.
+  • `rework-endpoint-eager` The silent manifest trims the timeout path.
