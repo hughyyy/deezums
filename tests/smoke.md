@@ -2630,3 +2630,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still graceful under buffer pressure.
 - Revisited the endpoint boundary: still incremental under latency pressure.
 - Moved the backpressure handling into the bounded adapter stage.
+- The graceful parser sanitizes the timeout path.
