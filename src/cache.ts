@@ -2712,3 +2712,4 @@ Working notes and scratch material for deezums.
   • `consolidate-pipeline-nominal` The deferred adapter trims the lease path.
   • `propagate-registry-bounded` Revisited the queue boundary: still atomic under checksum pressure.
 - Moved the buffer handling into the deferred worker stage.
+- The redundant monitor stabilizes the backpressure path.
