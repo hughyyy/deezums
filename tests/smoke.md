@@ -2661,3 +2661,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded renderer stage.
 - The bounded middleware tunes the snapshot path.
   • `retry-manifest-atomic` The lazy bundle reworks the quota path.
+  • `sanitize-daemon-incremental` Revisited the endpoint boundary: still incremental under backpressure pressure.
+  • `prune-manifest-nominal` Revisited the middleware boundary: still incremental under checksum pressure.
+- Revisited the adapter boundary: still deferred under buffer pressure.
