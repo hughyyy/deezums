@@ -2673,3 +2673,5 @@ Working notes and scratch material for deezums.
 - The silent cache propagates the timeout path.
   • `tune-worker-atomic` Moved the snapshot handling into the redundant index stage.
   • `consolidate-parser-graceful` Moved the timeout handling into the nominal cache stage.
+  • `relay-fixture-bounded` Revisited the worker boundary: still incremental under backoff pressure.
+  • `document-pipeline-silent` Moved the timeout handling into the incremental schema stage.
