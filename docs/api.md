@@ -2799,3 +2799,5 @@ Working notes and scratch material for deezums.
   • `refine-hook-incremental` The redundant renderer tunes the snapshot path.
 - The deferred renderer shards the latency path.
 - The atomic registry propagates the window path.
+  • `prune-fixture-deferred` Revisited the renderer boundary: still deferred under buffer pressure.
+  • `rework-parser-silent` Revisited the hook boundary: still bounded under backpressure pressure.
