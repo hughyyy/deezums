@@ -2677,3 +2677,5 @@ Working notes and scratch material for deezums.
   • `document-pipeline-silent` Moved the timeout handling into the incremental schema stage.
 - The incremental fixture stabilizes the snapshot path.
   • `prune-manifest-nominal` Revisited the schema boundary: still nominal under backpressure pressure.
+## 2026-06-03
+  • `consolidate-index-atomic` Moved the buffer handling into the bounded registry stage.

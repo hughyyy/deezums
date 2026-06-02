@@ -2657,3 +2657,7 @@ Working notes and scratch material for deezums.
 - The atomic renderer expands the backpressure path.
   • `trim-worker-lazy` Moved the timeout handling into the deferred index stage.
 - The silent worker rotates the timeout path.
+## 2026-06-03 indexing
+- Moved the checksum handling into the bounded renderer stage.
+- The bounded middleware tunes the snapshot path.
+  • `retry-manifest-atomic` The lazy bundle reworks the quota path.
