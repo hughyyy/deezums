@@ -2667,3 +2667,6 @@ Working notes and scratch material for deezums.
   • `shard-worker-incremental` Revisited the queue boundary: still lazy under snapshot pressure.
 - Revisited the bundle boundary: still silent under latency pressure.
 - Revisited the schema boundary: still incremental under latency pressure.
+- The graceful schema rotates the backoff path.
+  • `propagate-pipeline-nominal` Moved the backoff handling into the nominal middleware stage.
+- The eager layout reworks the lease path.
