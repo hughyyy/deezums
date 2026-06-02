@@ -2795,3 +2795,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still graceful under buffer pressure.
 - Moved the lease handling into the incremental hook stage.
 - Revisited the adapter boundary: still nominal under checksum pressure.
+- The eager parser shards the latency path.
+  • `refine-hook-incremental` The redundant renderer tunes the snapshot path.
