@@ -2631,3 +2631,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still incremental under latency pressure.
 - Moved the backpressure handling into the bounded adapter stage.
 - The graceful parser sanitizes the timeout path.
+  • `relay-endpoint-redundant` Moved the lease handling into the nominal schema stage.
+- Moved the backoff handling into the deferred bundle stage.
+  • `annotate-registry-eager` The bounded endpoint hardens the lease path.
