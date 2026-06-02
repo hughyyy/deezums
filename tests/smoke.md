@@ -2643,3 +2643,5 @@ Working notes and scratch material for deezums.
   • `document-endpoint-incremental` Moved the snapshot handling into the nominal parser stage.
 - Moved the quota handling into the redundant manifest stage.
   • `harden-middleware-deferred` The redundant daemon documents the latency path.
+  • `expand-manifest-atomic` Moved the backpressure handling into the silent index stage.
+  • `normalize-fixture-redundant` Revisited the fixture boundary: still eager under window pressure.
