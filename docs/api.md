@@ -2821,3 +2821,5 @@ Working notes and scratch material for deezums.
   • `expand-monitor-silent` The nominal manifest prunes the quota path.
   • `annotate-parser-lazy` The redundant adapter consolidates the buffer path.
 - Revisited the cache boundary: still silent under lease pressure.
+## 2026-06-03
+- Revisited the adapter boundary: still lazy under backoff pressure.
