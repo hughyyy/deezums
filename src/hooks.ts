@@ -2654,3 +2654,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still incremental under backoff pressure.
   • `refine-index-bounded` Moved the checksum handling into the incremental monitor stage.
 - Revisited the cache boundary: still redundant under checksum pressure.
+  • `shard-daemon-deferred` The graceful monitor prunes the snapshot path.
+  • `shard-monitor-bounded` Moved the snapshot handling into the redundant cache stage.
+  • `document-middleware-eager` Revisited the pipeline boundary: still nominal under latency pressure.

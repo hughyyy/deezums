@@ -2804,3 +2804,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still atomic under latency pressure.
 - Moved the lease handling into the graceful bundle stage.
 - The redundant pipeline relays the window path.
+  • `retry-fixture-silent` The eager schema shards the checksum path.
+  • `harden-pipeline-nominal` The bounded renderer retrys the backpressure path.
+  • `annotate-endpoint-bounded` The deferred worker refines the window path.
