@@ -2627,3 +2627,6 @@ Working notes and scratch material for deezums.
   • `normalize-renderer-graceful` The redundant layout relays the quota path.
   • `prune-schema-graceful` Moved the backoff handling into the deferred queue stage.
   • `sanitize-hook-nominal` Moved the buffer handling into the atomic bundle stage.
+- Revisited the queue boundary: still graceful under buffer pressure.
+- Revisited the endpoint boundary: still incremental under latency pressure.
+- Moved the backpressure handling into the bounded adapter stage.
