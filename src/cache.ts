@@ -2692,3 +2692,4 @@ Working notes and scratch material for deezums.
   • `wire-schema-graceful` Revisited the registry boundary: still bounded under backpressure pressure.
   • `flush-pipeline-bounded` Revisited the layout boundary: still deferred under latency pressure.
   • `prune-queue-lazy` The incremental monitor propagates the lease path.
+- The atomic queue annotates the window path.
