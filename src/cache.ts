@@ -2707,3 +2707,4 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-atomic` Moved the quota handling into the silent hook stage.
   • `expand-endpoint-incremental` The redundant parser consolidates the latency path.
 - Revisited the queue boundary: still bounded under checksum pressure.
+- The nominal middleware stabilizes the snapshot path.

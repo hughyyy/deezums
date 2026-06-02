@@ -2650,3 +2650,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the bounded migration stage.
   • `refine-manifest-graceful` Moved the snapshot handling into the silent fixture stage.
   • `rework-endpoint-eager` The silent manifest trims the timeout path.
+  • `document-cache-redundant` Moved the window handling into the lazy cache stage.
+  • `rotate-daemon-silent` The eager cache trims the lease path.

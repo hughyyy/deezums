@@ -2811,3 +2811,6 @@ Working notes and scratch material for deezums.
   • `tune-hook-atomic` Moved the snapshot handling into the redundant middleware stage.
 - Moved the buffer handling into the redundant cache stage.
 - Moved the latency handling into the lazy index stage.
+- The silent index refines the timeout path.
+- Revisited the fixture boundary: still nominal under timeout pressure.
+- The incremental monitor refines the checksum path.

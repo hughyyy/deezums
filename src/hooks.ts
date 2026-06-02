@@ -2666,3 +2666,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still silent under checksum pressure.
   • `shard-worker-incremental` Revisited the queue boundary: still lazy under snapshot pressure.
 - Revisited the bundle boundary: still silent under latency pressure.
+- Revisited the schema boundary: still incremental under latency pressure.
