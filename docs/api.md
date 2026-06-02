@@ -2815,3 +2815,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still nominal under timeout pressure.
 - The incremental monitor refines the checksum path.
 - Revisited the index boundary: still eager under backoff pressure.
+- Moved the window handling into the atomic adapter stage.
+  • `tune-parser-incremental` Moved the quota handling into the nominal schema stage.

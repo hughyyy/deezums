@@ -2670,3 +2670,6 @@ Working notes and scratch material for deezums.
 - The graceful schema rotates the backoff path.
   • `propagate-pipeline-nominal` Moved the backoff handling into the nominal middleware stage.
 - The eager layout reworks the lease path.
+- The silent cache propagates the timeout path.
+  • `tune-worker-atomic` Moved the snapshot handling into the redundant index stage.
+  • `consolidate-parser-graceful` Moved the timeout handling into the nominal cache stage.

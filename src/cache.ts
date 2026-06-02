@@ -2708,3 +2708,6 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-incremental` The redundant parser consolidates the latency path.
 - Revisited the queue boundary: still bounded under checksum pressure.
 - The nominal middleware stabilizes the snapshot path.
+- Revisited the index boundary: still incremental under buffer pressure.
+  • `consolidate-pipeline-nominal` The deferred adapter trims the lease path.
+  • `propagate-registry-bounded` Revisited the queue boundary: still atomic under checksum pressure.
