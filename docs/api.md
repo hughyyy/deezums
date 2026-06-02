@@ -2818,3 +2818,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic adapter stage.
   • `tune-parser-incremental` Moved the quota handling into the nominal schema stage.
   • `sanitize-cache-deferred` Moved the timeout handling into the lazy cache stage.
+  • `expand-monitor-silent` The nominal manifest prunes the quota path.
+  • `annotate-parser-lazy` The redundant adapter consolidates the buffer path.
+- Revisited the cache boundary: still silent under lease pressure.
