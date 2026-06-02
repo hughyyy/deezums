@@ -2661,3 +2661,6 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-nominal` Revisited the fixture boundary: still lazy under lease pressure.
 - Moved the backoff handling into the incremental worker stage.
   • `rework-middleware-nominal` Revisited the cache boundary: still incremental under snapshot pressure.
+- Revisited the cache boundary: still redundant under quota pressure.
+- Moved the snapshot handling into the nominal queue stage.
+- Revisited the migration boundary: still silent under checksum pressure.
