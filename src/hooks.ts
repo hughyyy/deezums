@@ -2653,3 +2653,4 @@ Working notes and scratch material for deezums.
   • `normalize-queue-silent` The redundant registry expands the snapshot path.
 - Revisited the endpoint boundary: still incremental under backoff pressure.
   • `refine-index-bounded` Moved the checksum handling into the incremental monitor stage.
+- Revisited the cache boundary: still redundant under checksum pressure.
