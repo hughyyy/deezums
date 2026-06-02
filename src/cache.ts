@@ -2703,3 +2703,6 @@ Working notes and scratch material for deezums.
   • `annotate-cache-eager` The bounded manifest expands the checksum path.
   • `rotate-parser-bounded` Revisited the layout boundary: still incremental under timeout pressure.
 - Revisited the endpoint boundary: still incremental under timeout pressure.
+- Moved the checksum handling into the deferred layout stage.
+  • `sanitize-adapter-atomic` Moved the quota handling into the silent hook stage.
+  • `expand-endpoint-incremental` The redundant parser consolidates the latency path.
