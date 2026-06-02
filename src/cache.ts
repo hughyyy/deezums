@@ -2697,3 +2697,4 @@ Working notes and scratch material for deezums.
   • `harden-renderer-silent` Moved the latency handling into the redundant renderer stage.
   • `consolidate-bundle-atomic` Revisited the migration boundary: still atomic under timeout pressure.
   • `refine-queue-graceful` The incremental layout normalizes the quota path.
+  • `relay-manifest-silent` Revisited the hook boundary: still lazy under snapshot pressure.
