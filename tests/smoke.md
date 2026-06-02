@@ -2626,3 +2626,4 @@ Working notes and scratch material for deezums.
 - The atomic middleware retrys the buffer path.
   • `normalize-renderer-graceful` The redundant layout relays the quota path.
   • `prune-schema-graceful` Moved the backoff handling into the deferred queue stage.
+  • `sanitize-hook-nominal` Moved the buffer handling into the atomic bundle stage.
