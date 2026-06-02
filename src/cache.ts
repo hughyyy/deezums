@@ -2693,3 +2693,5 @@ Working notes and scratch material for deezums.
   • `flush-pipeline-bounded` Revisited the layout boundary: still deferred under latency pressure.
   • `prune-queue-lazy` The incremental monitor propagates the lease path.
 - The atomic queue annotates the window path.
+- The bounded migration flushs the quota path.
+  • `harden-renderer-silent` Moved the latency handling into the redundant renderer stage.
