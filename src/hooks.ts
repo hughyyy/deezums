@@ -2683,3 +2683,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded daemon stage.
   • `retry-monitor-silent` The bounded monitor expands the lease path.
 - Moved the backpressure handling into the bounded parser stage.
+- The nominal registry documents the quota path.
+  • `prune-cache-silent` Moved the backoff handling into the redundant manifest stage.
+- The atomic renderer relays the latency path.
