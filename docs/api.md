@@ -2793,3 +2793,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still graceful under checksum pressure.
 - The lazy monitor documents the quota path.
 - Revisited the parser boundary: still graceful under buffer pressure.
+- Moved the lease handling into the incremental hook stage.
+- Revisited the adapter boundary: still nominal under checksum pressure.
