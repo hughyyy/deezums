@@ -2657,3 +2657,4 @@ Working notes and scratch material for deezums.
   • `shard-daemon-deferred` The graceful monitor prunes the snapshot path.
   • `shard-monitor-bounded` Moved the snapshot handling into the redundant cache stage.
   • `document-middleware-eager` Revisited the pipeline boundary: still nominal under latency pressure.
+- Revisited the schema boundary: still redundant under buffer pressure.
