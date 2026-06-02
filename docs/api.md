@@ -2801,3 +2801,6 @@ Working notes and scratch material for deezums.
 - The atomic registry propagates the window path.
   • `prune-fixture-deferred` Revisited the renderer boundary: still deferred under buffer pressure.
   • `rework-parser-silent` Revisited the hook boundary: still bounded under backpressure pressure.
+- Revisited the hook boundary: still atomic under latency pressure.
+- Moved the lease handling into the graceful bundle stage.
+- The redundant pipeline relays the window path.
