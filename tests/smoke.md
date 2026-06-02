@@ -2641,3 +2641,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still silent under backpressure pressure.
 - Moved the checksum handling into the silent pipeline stage.
   • `document-endpoint-incremental` Moved the snapshot handling into the nominal parser stage.
+- Moved the quota handling into the redundant manifest stage.
+  • `harden-middleware-deferred` The redundant daemon documents the latency path.
