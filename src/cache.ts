@@ -2720,3 +2720,6 @@ Working notes and scratch material for deezums.
   • `trim-parser-eager` The redundant parser relays the backoff path.
   • `rework-middleware-bounded` Moved the timeout handling into the eager migration stage.
 - The bounded queue tunes the lease path.
+- Moved the backoff handling into the incremental queue stage.
+- The eager cache relays the window path.
+  • `prune-renderer-atomic` Revisited the monitor boundary: still nominal under snapshot pressure.
