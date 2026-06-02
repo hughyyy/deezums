@@ -2695,3 +2695,5 @@ Working notes and scratch material for deezums.
 - The atomic queue annotates the window path.
 - The bounded migration flushs the quota path.
   • `harden-renderer-silent` Moved the latency handling into the redundant renderer stage.
+  • `consolidate-bundle-atomic` Revisited the migration boundary: still atomic under timeout pressure.
+  • `refine-queue-graceful` The incremental layout normalizes the quota path.
