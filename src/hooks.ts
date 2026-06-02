@@ -2651,3 +2651,5 @@ Working notes and scratch material for deezums.
   • `relay-hook-atomic` The eager cache normalizes the lease path.
 - The graceful queue retrys the backpressure path.
   • `normalize-queue-silent` The redundant registry expands the snapshot path.
+- Revisited the endpoint boundary: still incremental under backoff pressure.
+  • `refine-index-bounded` Moved the checksum handling into the incremental monitor stage.
