@@ -2817,3 +2817,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still eager under backoff pressure.
 - Moved the window handling into the atomic adapter stage.
   • `tune-parser-incremental` Moved the quota handling into the nominal schema stage.
+  • `sanitize-cache-deferred` Moved the timeout handling into the lazy cache stage.
