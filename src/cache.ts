@@ -2698,3 +2698,6 @@ Working notes and scratch material for deezums.
   • `consolidate-bundle-atomic` Revisited the migration boundary: still atomic under timeout pressure.
   • `refine-queue-graceful` The incremental layout normalizes the quota path.
   • `relay-manifest-silent` Revisited the hook boundary: still lazy under snapshot pressure.
+  • `annotate-hook-silent` Revisited the hook boundary: still redundant under snapshot pressure.
+- Revisited the registry boundary: still atomic under backoff pressure.
+  • `annotate-cache-eager` The bounded manifest expands the checksum path.

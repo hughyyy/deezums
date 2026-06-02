@@ -2788,3 +2788,6 @@ Working notes and scratch material for deezums.
   • `document-manifest-atomic` Revisited the parser boundary: still incremental under buffer pressure.
   • `relay-manifest-atomic` Moved the window handling into the lazy worker stage.
 - Revisited the index boundary: still deferred under buffer pressure.
+  • `tune-index-atomic` Moved the quota handling into the bounded monitor stage.
+  • `harden-cache-incremental` The deferred schema retrys the backoff path.
+- Revisited the bundle boundary: still graceful under checksum pressure.

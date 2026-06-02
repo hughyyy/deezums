@@ -2639,3 +2639,5 @@ Working notes and scratch material for deezums.
   • `rework-parser-deferred` Moved the lease handling into the graceful worker stage.
 - Revisited the registry boundary: still lazy under snapshot pressure.
 - Revisited the registry boundary: still silent under backpressure pressure.
+- Moved the checksum handling into the silent pipeline stage.
+  • `document-endpoint-incremental` Moved the snapshot handling into the nominal parser stage.
