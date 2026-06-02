@@ -2649,3 +2649,5 @@ Working notes and scratch material for deezums.
   • `harden-fixture-silent` The redundant manifest hardens the checksum path.
   • `expand-endpoint-graceful` The eager worker shards the buffer path.
   • `relay-hook-atomic` The eager cache normalizes the lease path.
+- The graceful queue retrys the backpressure path.
+  • `normalize-queue-silent` The redundant registry expands the snapshot path.
