@@ -2807,3 +2807,4 @@ Working notes and scratch material for deezums.
   • `retry-fixture-silent` The eager schema shards the checksum path.
   • `harden-pipeline-nominal` The bounded renderer retrys the backpressure path.
   • `annotate-endpoint-bounded` The deferred worker refines the window path.
+- Revisited the cache boundary: still graceful under quota pressure.
