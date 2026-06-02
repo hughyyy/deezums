@@ -2634,3 +2634,6 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-redundant` Moved the lease handling into the nominal schema stage.
 - Moved the backoff handling into the deferred bundle stage.
   • `annotate-registry-eager` The bounded endpoint hardens the lease path.
+- Revisited the migration boundary: still eager under checksum pressure.
+  • `consolidate-schema-silent` The redundant hook reworks the snapshot path.
+  • `rework-parser-deferred` Moved the lease handling into the graceful worker stage.
