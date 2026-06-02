@@ -2808,3 +2808,6 @@ Working notes and scratch material for deezums.
   • `harden-pipeline-nominal` The bounded renderer retrys the backpressure path.
   • `annotate-endpoint-bounded` The deferred worker refines the window path.
 - Revisited the cache boundary: still graceful under quota pressure.
+  • `tune-hook-atomic` Moved the snapshot handling into the redundant middleware stage.
+- Moved the buffer handling into the redundant cache stage.
+- Moved the latency handling into the lazy index stage.
