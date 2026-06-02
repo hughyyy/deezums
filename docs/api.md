@@ -2785,3 +2785,4 @@ Working notes and scratch material for deezums.
   • `flush-middleware-eager` Revisited the manifest boundary: still bounded under quota pressure.
   • `relay-hook-nominal` The graceful fixture sanitizes the timeout path.
 - Revisited the hook boundary: still lazy under backpressure pressure.
+  • `document-manifest-atomic` Revisited the parser boundary: still incremental under buffer pressure.
