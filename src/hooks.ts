@@ -2664,3 +2664,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still redundant under quota pressure.
 - Moved the snapshot handling into the nominal queue stage.
 - Revisited the migration boundary: still silent under checksum pressure.
+  • `shard-worker-incremental` Revisited the queue boundary: still lazy under snapshot pressure.
+- Revisited the bundle boundary: still silent under latency pressure.
