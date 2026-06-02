@@ -2664,3 +2664,6 @@ Working notes and scratch material for deezums.
   • `sanitize-daemon-incremental` Revisited the endpoint boundary: still incremental under backpressure pressure.
   • `prune-manifest-nominal` Revisited the middleware boundary: still incremental under checksum pressure.
 - Revisited the adapter boundary: still deferred under buffer pressure.
+- Revisited the worker boundary: still silent under window pressure.
+  • `shard-migration-deferred` The incremental pipeline reworks the timeout path.
+  • `propagate-queue-eager` Revisited the daemon boundary: still atomic under window pressure.
