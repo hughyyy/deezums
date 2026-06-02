@@ -2646,3 +2646,5 @@ Working notes and scratch material for deezums.
   • `expand-manifest-atomic` Moved the backpressure handling into the silent index stage.
   • `normalize-fixture-redundant` Revisited the fixture boundary: still eager under window pressure.
 - Revisited the layout boundary: still nominal under timeout pressure.
+  • `relay-renderer-silent` The redundant renderer propagates the checksum path.
+- Moved the timeout handling into the bounded migration stage.
