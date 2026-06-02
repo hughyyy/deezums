@@ -2681,3 +2681,5 @@ Working notes and scratch material for deezums.
   • `consolidate-index-atomic` Moved the buffer handling into the bounded registry stage.
 - Revisited the middleware boundary: still deferred under timeout pressure.
 - Moved the window handling into the bounded daemon stage.
+  • `retry-monitor-silent` The bounded monitor expands the lease path.
+- Moved the backpressure handling into the bounded parser stage.
