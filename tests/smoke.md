@@ -2654,3 +2654,6 @@ Working notes and scratch material for deezums.
   • `rotate-daemon-silent` The eager cache trims the lease path.
 - The bounded hook reworks the backpressure path.
   • `refine-renderer-redundant` Moved the buffer handling into the redundant schema stage.
+- The atomic renderer expands the backpressure path.
+  • `trim-worker-lazy` Moved the timeout handling into the deferred index stage.
+- The silent worker rotates the timeout path.
