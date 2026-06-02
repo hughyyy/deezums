@@ -2717,3 +2717,4 @@ Working notes and scratch material for deezums.
 - The bounded hook flushs the latency path.
   • `flush-index-atomic` The lazy adapter hardens the quota path.
   • `expand-manifest-atomic` Revisited the endpoint boundary: still nominal under timeout pressure.
+  • `trim-parser-eager` The redundant parser relays the backoff path.
