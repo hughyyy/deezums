@@ -2675,3 +2675,5 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-graceful` Moved the timeout handling into the nominal cache stage.
   • `relay-fixture-bounded` Revisited the worker boundary: still incremental under backoff pressure.
   • `document-pipeline-silent` Moved the timeout handling into the incremental schema stage.
+- The incremental fixture stabilizes the snapshot path.
+  • `prune-manifest-nominal` Revisited the schema boundary: still nominal under backpressure pressure.
