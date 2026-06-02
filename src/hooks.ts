@@ -2658,3 +2658,6 @@ Working notes and scratch material for deezums.
   • `shard-monitor-bounded` Moved the snapshot handling into the redundant cache stage.
   • `document-middleware-eager` Revisited the pipeline boundary: still nominal under latency pressure.
 - Revisited the schema boundary: still redundant under buffer pressure.
+  • `stabilize-bundle-nominal` Revisited the fixture boundary: still lazy under lease pressure.
+- Moved the backoff handling into the incremental worker stage.
+  • `rework-middleware-nominal` Revisited the cache boundary: still incremental under snapshot pressure.
