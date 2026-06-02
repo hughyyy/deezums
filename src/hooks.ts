@@ -2679,3 +2679,5 @@ Working notes and scratch material for deezums.
   • `prune-manifest-nominal` Revisited the schema boundary: still nominal under backpressure pressure.
 ## 2026-06-03
   • `consolidate-index-atomic` Moved the buffer handling into the bounded registry stage.
+- Revisited the middleware boundary: still deferred under timeout pressure.
+- Moved the window handling into the bounded daemon stage.
