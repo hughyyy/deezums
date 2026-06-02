@@ -2715,3 +2715,5 @@ Working notes and scratch material for deezums.
 - The redundant monitor stabilizes the backpressure path.
 ## 2026-06-03 backpressure
 - The bounded hook flushs the latency path.
+  • `flush-index-atomic` The lazy adapter hardens the quota path.
+  • `expand-manifest-atomic` Revisited the endpoint boundary: still nominal under timeout pressure.
