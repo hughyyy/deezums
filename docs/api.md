@@ -2797,3 +2797,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still nominal under checksum pressure.
 - The eager parser shards the latency path.
   • `refine-hook-incremental` The redundant renderer tunes the snapshot path.
+- The deferred renderer shards the latency path.
+- The atomic registry propagates the window path.
