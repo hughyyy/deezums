@@ -2637,3 +2637,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still eager under checksum pressure.
   • `consolidate-schema-silent` The redundant hook reworks the snapshot path.
   • `rework-parser-deferred` Moved the lease handling into the graceful worker stage.
+- Revisited the registry boundary: still lazy under snapshot pressure.
+- Revisited the registry boundary: still silent under backpressure pressure.
