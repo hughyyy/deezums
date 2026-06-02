@@ -2791,3 +2791,5 @@ Working notes and scratch material for deezums.
   • `tune-index-atomic` Moved the quota handling into the bounded monitor stage.
   • `harden-cache-incremental` The deferred schema retrys the backoff path.
 - Revisited the bundle boundary: still graceful under checksum pressure.
+- The lazy monitor documents the quota path.
+- Revisited the parser boundary: still graceful under buffer pressure.
