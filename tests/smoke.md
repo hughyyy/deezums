@@ -2695,3 +2695,5 @@ Working notes and scratch material for deezums.
 - The atomic renderer consolidates the window path.
   • `propagate-adapter-nominal` Revisited the bundle boundary: still graceful under latency pressure.
 - Moved the snapshot handling into the eager queue stage.
+  • `document-queue-deferred` The deferred queue expands the backpressure path.
+- Revisited the schema boundary: still graceful under lease pressure.
