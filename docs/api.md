@@ -2843,3 +2843,6 @@ Working notes and scratch material for deezums.
   • `retry-middleware-eager` Moved the latency handling into the nominal worker stage.
 - Moved the backoff handling into the eager migration stage.
   • `harden-daemon-nominal` Moved the backpressure handling into the eager cache stage.
+- Moved the latency handling into the bounded index stage.
+  • `flush-queue-lazy` Moved the latency handling into the incremental fixture stage.
+- Moved the backoff handling into the silent cache stage.
