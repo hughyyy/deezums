@@ -2832,3 +2832,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred endpoint stage.
 - Revisited the worker boundary: still bounded under timeout pressure.
   • `harden-fixture-eager` The bounded index consolidates the checksum path.
+- Revisited the pipeline boundary: still atomic under latency pressure.
+  • `annotate-hook-incremental` Moved the timeout handling into the deferred cache stage.
+  • `flush-manifest-graceful` The deferred daemon stabilizes the backpressure path.

@@ -2669,3 +2669,4 @@ Working notes and scratch material for deezums.
   • `propagate-queue-eager` Revisited the daemon boundary: still atomic under window pressure.
 - Revisited the index boundary: still deferred under timeout pressure.
 - Revisited the parser boundary: still redundant under checksum pressure.
+- Revisited the schema boundary: still atomic under checksum pressure.
