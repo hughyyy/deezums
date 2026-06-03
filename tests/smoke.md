@@ -2692,3 +2692,6 @@ Working notes and scratch material for deezums.
   • `wire-layout-silent` Moved the window handling into the lazy queue stage.
   • `relay-cache-redundant` Moved the timeout handling into the incremental layout stage.
 - Moved the backpressure handling into the bounded schema stage.
+- The atomic renderer consolidates the window path.
+  • `propagate-adapter-nominal` Revisited the bundle boundary: still graceful under latency pressure.
+- Moved the snapshot handling into the eager queue stage.
