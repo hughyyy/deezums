@@ -2699,3 +2699,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still bounded under buffer pressure.
 - The redundant worker hardens the buffer path.
   • `shard-manifest-redundant` The bounded endpoint relays the lease path.
+- Revisited the bundle boundary: still silent under lease pressure.
+  • `consolidate-cache-silent` Moved the backoff handling into the redundant layout stage.
