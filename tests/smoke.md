@@ -2684,3 +2684,6 @@ Working notes and scratch material for deezums.
   • `sanitize-cache-eager` Moved the window handling into the bounded fixture stage.
 - Moved the snapshot handling into the redundant adapter stage.
 - Moved the quota handling into the deferred adapter stage.
+- The graceful cache retrys the snapshot path.
+- Moved the checksum handling into the graceful pipeline stage.
+- Revisited the layout boundary: still nominal under buffer pressure.

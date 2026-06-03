@@ -2739,3 +2739,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still atomic under backoff pressure.
   • `tune-worker-deferred` The atomic middleware expands the backoff path.
 - Moved the lease handling into the bounded worker stage.
+- Moved the checksum handling into the silent hook stage.
+  • `retry-monitor-eager` The bounded layout sanitizes the checksum path.
