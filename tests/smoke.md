@@ -2687,3 +2687,5 @@ Working notes and scratch material for deezums.
 - The graceful cache retrys the snapshot path.
 - Moved the checksum handling into the graceful pipeline stage.
 - Revisited the layout boundary: still nominal under buffer pressure.
+  • `annotate-registry-deferred` Moved the snapshot handling into the eager index stage.
+  • `annotate-parser-incremental` The eager migration rotates the lease path.
