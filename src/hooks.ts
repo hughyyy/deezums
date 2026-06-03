@@ -2692,3 +2692,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still lazy under quota pressure.
 - The deferred daemon reworks the backpressure path.
 - Moved the timeout handling into the graceful adapter stage.
+- Revisited the daemon boundary: still incremental under window pressure.
+  • `normalize-endpoint-deferred` The lazy manifest expands the window path.
