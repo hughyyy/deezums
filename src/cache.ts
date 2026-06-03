@@ -2747,3 +2747,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still atomic under lease pressure.
 - Moved the checksum handling into the silent layout stage.
   • `propagate-schema-lazy` Revisited the hook boundary: still incremental under backoff pressure.
+  • `harden-hook-nominal` Revisited the adapter boundary: still bounded under checksum pressure.
+- Revisited the manifest boundary: still nominal under latency pressure.
