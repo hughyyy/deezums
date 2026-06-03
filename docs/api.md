@@ -2835,3 +2835,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still atomic under latency pressure.
   • `annotate-hook-incremental` Moved the timeout handling into the deferred cache stage.
   • `flush-manifest-graceful` The deferred daemon stabilizes the backpressure path.
+- Revisited the adapter boundary: still eager under window pressure.
