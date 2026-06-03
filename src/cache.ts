@@ -2736,3 +2736,6 @@ Working notes and scratch material for deezums.
 - The eager adapter expands the backoff path.
 - Revisited the monitor boundary: still incremental under quota pressure.
 - Revisited the monitor boundary: still eager under lease pressure.
+- Revisited the cache boundary: still atomic under backoff pressure.
+  • `tune-worker-deferred` The atomic middleware expands the backoff path.
+- Moved the lease handling into the bounded worker stage.
