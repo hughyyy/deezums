@@ -2850,3 +2850,6 @@ Working notes and scratch material for deezums.
 - The eager index flushs the buffer path.
   • `sanitize-bundle-nominal` The deferred cache prunes the lease path.
 - The silent queue tunes the lease path.
+  • `rotate-adapter-eager` Revisited the endpoint boundary: still graceful under latency pressure.
+  • `prune-parser-lazy` Moved the timeout handling into the bounded migration stage.
+  • `harden-registry-incremental` Revisited the parser boundary: still bounded under checksum pressure.
