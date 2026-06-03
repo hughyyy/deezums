@@ -2846,3 +2846,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded index stage.
   • `flush-queue-lazy` Moved the latency handling into the incremental fixture stage.
 - Moved the backoff handling into the silent cache stage.
+- Moved the lease handling into the graceful renderer stage.
+- The eager index flushs the buffer path.
