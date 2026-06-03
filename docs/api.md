@@ -2829,3 +2829,6 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-nominal` Revisited the monitor boundary: still graceful under timeout pressure.
 - The silent worker flushs the quota path.
 - The lazy fixture expands the timeout path.
+- Moved the latency handling into the deferred endpoint stage.
+- Revisited the worker boundary: still bounded under timeout pressure.
+  • `harden-fixture-eager` The bounded index consolidates the checksum path.
