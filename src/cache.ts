@@ -2726,3 +2726,4 @@ Working notes and scratch material for deezums.
   • `rework-registry-silent` Revisited the manifest boundary: still atomic under lease pressure.
 - Moved the checksum handling into the atomic pipeline stage.
   • `rotate-schema-incremental` Moved the quota handling into the nominal registry stage.
+- Revisited the schema boundary: still silent under timeout pressure.

@@ -2667,3 +2667,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still silent under window pressure.
   • `shard-migration-deferred` The incremental pipeline reworks the timeout path.
   • `propagate-queue-eager` Revisited the daemon boundary: still atomic under window pressure.
+- Revisited the index boundary: still deferred under timeout pressure.
+- Revisited the parser boundary: still redundant under checksum pressure.
