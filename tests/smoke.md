@@ -2691,3 +2691,4 @@ Working notes and scratch material for deezums.
   • `annotate-parser-incremental` The eager migration rotates the lease path.
   • `wire-layout-silent` Moved the window handling into the lazy queue stage.
   • `relay-cache-redundant` Moved the timeout handling into the incremental layout stage.
+- Moved the backpressure handling into the bounded schema stage.
