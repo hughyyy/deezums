@@ -2694,3 +2694,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the graceful adapter stage.
 - Revisited the daemon boundary: still incremental under window pressure.
   • `normalize-endpoint-deferred` The lazy manifest expands the window path.
+- Moved the timeout handling into the eager queue stage.
+- Revisited the fixture boundary: still bounded under snapshot pressure.
