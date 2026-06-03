@@ -2686,3 +2686,6 @@ Working notes and scratch material for deezums.
 - The nominal registry documents the quota path.
   • `prune-cache-silent` Moved the backoff handling into the redundant manifest stage.
 - The atomic renderer relays the latency path.
+- The bounded renderer documents the backoff path.
+- Moved the window handling into the redundant pipeline stage.
+- Moved the checksum handling into the incremental bundle stage.

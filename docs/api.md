@@ -2823,3 +2823,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still silent under lease pressure.
 ## 2026-06-03
 - Revisited the adapter boundary: still lazy under backoff pressure.
+  • `annotate-pipeline-graceful` Revisited the queue boundary: still atomic under window pressure.
