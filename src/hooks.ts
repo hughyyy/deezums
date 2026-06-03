@@ -2701,3 +2701,5 @@ Working notes and scratch material for deezums.
   • `shard-manifest-redundant` The bounded endpoint relays the lease path.
 - Revisited the bundle boundary: still silent under lease pressure.
   • `consolidate-cache-silent` Moved the backoff handling into the redundant layout stage.
+  • `rotate-worker-incremental` The lazy queue relays the backoff path.
+- Moved the snapshot handling into the bounded migration stage.
