@@ -2689,3 +2689,6 @@ Working notes and scratch material for deezums.
 - The bounded renderer documents the backoff path.
 - Moved the window handling into the redundant pipeline stage.
 - Moved the checksum handling into the incremental bundle stage.
+- Revisited the migration boundary: still lazy under quota pressure.
+- The deferred daemon reworks the backpressure path.
+- Moved the timeout handling into the graceful adapter stage.
