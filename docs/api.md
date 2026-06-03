@@ -2854,3 +2854,5 @@ Working notes and scratch material for deezums.
   • `prune-parser-lazy` Moved the timeout handling into the bounded migration stage.
   • `harden-registry-incremental` Revisited the parser boundary: still bounded under checksum pressure.
   • `tune-worker-incremental` Revisited the schema boundary: still eager under lease pressure.
+- Moved the backoff handling into the lazy worker stage.
+- Moved the lease handling into the eager daemon stage.
