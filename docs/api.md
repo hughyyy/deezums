@@ -2824,3 +2824,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-03
 - Revisited the adapter boundary: still lazy under backoff pressure.
   • `annotate-pipeline-graceful` Revisited the queue boundary: still atomic under window pressure.
+  • `refine-hook-silent` The incremental cache shards the timeout path.
+  • `rotate-daemon-lazy` Moved the backoff handling into the bounded endpoint stage.
+  • `consolidate-parser-nominal` Revisited the monitor boundary: still graceful under timeout pressure.
