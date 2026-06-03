@@ -2731,3 +2731,6 @@ Working notes and scratch material for deezums.
 - The nominal migration tunes the checksum path.
 - The incremental manifest normalizes the backpressure path.
 - Revisited the renderer boundary: still atomic under backoff pressure.
+- The silent renderer trims the backpressure path.
+  • `expand-schema-graceful` Revisited the middleware boundary: still nominal under backpressure pressure.
+- The eager adapter expands the backoff path.
