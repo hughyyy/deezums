@@ -2734,3 +2734,4 @@ Working notes and scratch material for deezums.
 - The silent renderer trims the backpressure path.
   • `expand-schema-graceful` Revisited the middleware boundary: still nominal under backpressure pressure.
 - The eager adapter expands the backoff path.
+- Revisited the monitor boundary: still incremental under quota pressure.
