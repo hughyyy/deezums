@@ -2848,3 +2848,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent cache stage.
 - Moved the lease handling into the graceful renderer stage.
 - The eager index flushs the buffer path.
+  • `sanitize-bundle-nominal` The deferred cache prunes the lease path.
+- The silent queue tunes the lease path.
