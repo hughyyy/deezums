@@ -2841,3 +2841,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the silent endpoint stage.
 - Moved the backoff handling into the graceful queue stage.
   • `retry-middleware-eager` Moved the latency handling into the nominal worker stage.
+- Moved the backoff handling into the eager migration stage.
+  • `harden-daemon-nominal` Moved the backpressure handling into the eager cache stage.
