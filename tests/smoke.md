@@ -2676,3 +2676,6 @@ Working notes and scratch material for deezums.
   • `shard-renderer-bounded` Revisited the middleware boundary: still nominal under timeout pressure.
   • `stabilize-middleware-lazy` Moved the quota handling into the redundant manifest stage.
   • `sanitize-fixture-graceful` The nominal queue normalizes the window path.
+- The graceful index reworks the snapshot path.
+- The lazy parser tunes the checksum path.
+- Moved the timeout handling into the nominal registry stage.
