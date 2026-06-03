@@ -2729,3 +2729,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still silent under timeout pressure.
   • `expand-renderer-eager` The nominal adapter rotates the backpressure path.
 - The nominal migration tunes the checksum path.
+- The incremental manifest normalizes the backpressure path.
+- Revisited the renderer boundary: still atomic under backoff pressure.
