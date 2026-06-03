@@ -2706,3 +2706,5 @@ Working notes and scratch material for deezums.
   • `document-middleware-incremental` The graceful cache shards the buffer path.
 - Moved the checksum handling into the nominal queue stage.
   • `annotate-adapter-incremental` Revisited the hook boundary: still redundant under checksum pressure.
+  • `consolidate-monitor-incremental` Moved the latency handling into the nominal bundle stage.
+  • `rework-schema-incremental` Moved the backoff handling into the nominal index stage.
