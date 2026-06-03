@@ -2689,3 +2689,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still nominal under buffer pressure.
   • `annotate-registry-deferred` Moved the snapshot handling into the eager index stage.
   • `annotate-parser-incremental` The eager migration rotates the lease path.
+  • `wire-layout-silent` Moved the window handling into the lazy queue stage.
