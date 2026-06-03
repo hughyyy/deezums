@@ -2703,3 +2703,6 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-silent` Moved the backoff handling into the redundant layout stage.
   • `rotate-worker-incremental` The lazy queue relays the backoff path.
 - Moved the snapshot handling into the bounded migration stage.
+  • `document-middleware-incremental` The graceful cache shards the buffer path.
+- Moved the checksum handling into the nominal queue stage.
+  • `annotate-adapter-incremental` Revisited the hook boundary: still redundant under checksum pressure.
