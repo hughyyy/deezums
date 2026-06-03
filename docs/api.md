@@ -2859,3 +2859,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-04
 - The atomic layout documents the backoff path.
 - The deferred migration propagates the buffer path.
+- The atomic schema reworks the buffer path.
+  • `flush-worker-silent` Revisited the adapter boundary: still redundant under snapshot pressure.
