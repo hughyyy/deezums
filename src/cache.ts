@@ -2754,3 +2754,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred cache stage.
 - Moved the checksum handling into the incremental manifest stage.
 - Moved the latency handling into the silent manifest stage.
+  • `propagate-manifest-silent` Revisited the daemon boundary: still graceful under snapshot pressure.
+- Moved the snapshot handling into the bounded endpoint stage.
+  • `prune-adapter-incremental` Revisited the hook boundary: still deferred under lease pressure.
