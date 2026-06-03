@@ -2675,3 +2675,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still redundant under checksum pressure.
   • `shard-renderer-bounded` Revisited the middleware boundary: still nominal under timeout pressure.
   • `stabilize-middleware-lazy` Moved the quota handling into the redundant manifest stage.
+  • `sanitize-fixture-graceful` The nominal queue normalizes the window path.
