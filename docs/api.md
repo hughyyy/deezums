@@ -2861,3 +2861,4 @@ Working notes and scratch material for deezums.
 - The deferred migration propagates the buffer path.
 - The atomic schema reworks the buffer path.
   • `flush-worker-silent` Revisited the adapter boundary: still redundant under snapshot pressure.
+  • `tune-pipeline-redundant` The silent layout consolidates the snapshot path.
