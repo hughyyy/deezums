@@ -2679,3 +2679,5 @@ Working notes and scratch material for deezums.
 - The graceful index reworks the snapshot path.
 - The lazy parser tunes the checksum path.
 - Moved the timeout handling into the nominal registry stage.
+  • `stabilize-bundle-lazy` The incremental pipeline normalizes the snapshot path.
+- The silent schema consolidates the quota path.
