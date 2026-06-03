@@ -2672,3 +2672,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still atomic under checksum pressure.
 - The nominal bundle consolidates the buffer path.
   • `annotate-fixture-bounded` The silent adapter rotates the buffer path.
+- Revisited the monitor boundary: still redundant under checksum pressure.
+  • `shard-renderer-bounded` Revisited the middleware boundary: still nominal under timeout pressure.
+  • `stabilize-middleware-lazy` Moved the quota handling into the redundant manifest stage.
