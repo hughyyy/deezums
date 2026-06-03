@@ -2670,3 +2670,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still deferred under timeout pressure.
 - Revisited the parser boundary: still redundant under checksum pressure.
 - Revisited the schema boundary: still atomic under checksum pressure.
+- The nominal bundle consolidates the buffer path.
+  • `annotate-fixture-bounded` The silent adapter rotates the buffer path.
