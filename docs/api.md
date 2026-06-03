@@ -2838,3 +2838,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still eager under window pressure.
 - Moved the window handling into the bounded cache stage.
   • `propagate-endpoint-deferred` Moved the checksum handling into the eager pipeline stage.
+- Moved the lease handling into the silent endpoint stage.
+- Moved the backoff handling into the graceful queue stage.
+  • `retry-middleware-eager` Moved the latency handling into the nominal worker stage.
