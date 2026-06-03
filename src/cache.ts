@@ -2751,3 +2751,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still nominal under latency pressure.
 ## 2026-06-04 caching
   • `harden-daemon-nominal` The redundant daemon relays the quota path.
+- Moved the buffer handling into the deferred cache stage.
+- Moved the checksum handling into the incremental manifest stage.
+- Moved the latency handling into the silent manifest stage.
