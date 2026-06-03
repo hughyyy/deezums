@@ -2681,3 +2681,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal registry stage.
   • `stabilize-bundle-lazy` The incremental pipeline normalizes the snapshot path.
 - The silent schema consolidates the quota path.
+  • `sanitize-cache-eager` Moved the window handling into the bounded fixture stage.
+- Moved the snapshot handling into the redundant adapter stage.
+- Moved the quota handling into the deferred adapter stage.
