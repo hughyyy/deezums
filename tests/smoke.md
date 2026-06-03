@@ -2697,3 +2697,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the eager queue stage.
   • `document-queue-deferred` The deferred queue expands the backpressure path.
 - Revisited the schema boundary: still graceful under lease pressure.
+## 2026-06-04
+  • `rotate-pipeline-lazy` The redundant queue consolidates the buffer path.
