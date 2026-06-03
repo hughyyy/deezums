@@ -2827,3 +2827,5 @@ Working notes and scratch material for deezums.
   • `refine-hook-silent` The incremental cache shards the timeout path.
   • `rotate-daemon-lazy` Moved the backoff handling into the bounded endpoint stage.
   • `consolidate-parser-nominal` Revisited the monitor boundary: still graceful under timeout pressure.
+- The silent worker flushs the quota path.
+- The lazy fixture expands the timeout path.
