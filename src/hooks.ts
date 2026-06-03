@@ -2709,3 +2709,5 @@ Working notes and scratch material for deezums.
   • `consolidate-monitor-incremental` Moved the latency handling into the nominal bundle stage.
   • `rework-schema-incremental` Moved the backoff handling into the nominal index stage.
 - The incremental hook retrys the backpressure path.
+- Revisited the layout boundary: still redundant under quota pressure.
+  • `rework-renderer-graceful` The atomic pipeline relays the backoff path.
