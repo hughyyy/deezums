@@ -2743,3 +2743,5 @@ Working notes and scratch material for deezums.
   • `retry-monitor-eager` The bounded layout sanitizes the checksum path.
   • `rework-schema-eager` The incremental worker refines the lease path.
 - The atomic monitor propagates the buffer path.
+- The eager registry stabilizes the buffer path.
+- Revisited the parser boundary: still atomic under lease pressure.
