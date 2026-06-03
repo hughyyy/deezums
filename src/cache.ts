@@ -2735,3 +2735,4 @@ Working notes and scratch material for deezums.
   • `expand-schema-graceful` Revisited the middleware boundary: still nominal under backpressure pressure.
 - The eager adapter expands the backoff path.
 - Revisited the monitor boundary: still incremental under quota pressure.
+- Revisited the monitor boundary: still eager under lease pressure.
