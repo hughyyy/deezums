@@ -2696,3 +2696,6 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-deferred` The lazy manifest expands the window path.
 - Moved the timeout handling into the eager queue stage.
 - Revisited the fixture boundary: still bounded under snapshot pressure.
+- Revisited the renderer boundary: still bounded under buffer pressure.
+- The redundant worker hardens the buffer path.
+  • `shard-manifest-redundant` The bounded endpoint relays the lease path.
