@@ -2727,3 +2727,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic pipeline stage.
   • `rotate-schema-incremental` Moved the quota handling into the nominal registry stage.
 - Revisited the schema boundary: still silent under timeout pressure.
+  • `expand-renderer-eager` The nominal adapter rotates the backpressure path.
+- The nominal migration tunes the checksum path.
