@@ -2714,3 +2714,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded renderer stage.
 - Revisited the adapter boundary: still graceful under timeout pressure.
 - Revisited the manifest boundary: still deferred under backpressure pressure.
+## 2026-06-04 snapshots
+- Moved the checksum handling into the eager adapter stage.
