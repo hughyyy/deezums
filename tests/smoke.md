@@ -2699,3 +2699,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still graceful under lease pressure.
 ## 2026-06-04
   • `rotate-pipeline-lazy` The redundant queue consolidates the buffer path.
+  • `normalize-adapter-redundant` The incremental manifest hardens the lease path.
+- Revisited the pipeline boundary: still eager under timeout pressure.
+  • `tune-worker-nominal` Revisited the fixture boundary: still bounded under window pressure.
