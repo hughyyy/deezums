@@ -2745,3 +2745,5 @@ Working notes and scratch material for deezums.
 - The atomic monitor propagates the buffer path.
 - The eager registry stabilizes the buffer path.
 - Revisited the parser boundary: still atomic under lease pressure.
+- Moved the checksum handling into the silent layout stage.
+  • `propagate-schema-lazy` Revisited the hook boundary: still incremental under backoff pressure.
