@@ -2723,3 +2723,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the incremental queue stage.
 - The eager cache relays the window path.
   • `prune-renderer-atomic` Revisited the monitor boundary: still nominal under snapshot pressure.
+  • `rework-registry-silent` Revisited the manifest boundary: still atomic under lease pressure.
+- Moved the checksum handling into the atomic pipeline stage.
+  • `rotate-schema-incremental` Moved the quota handling into the nominal registry stage.
