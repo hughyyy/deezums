@@ -2741,3 +2741,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded worker stage.
 - Moved the checksum handling into the silent hook stage.
   • `retry-monitor-eager` The bounded layout sanitizes the checksum path.
+  • `rework-schema-eager` The incremental worker refines the lease path.
+- The atomic monitor propagates the buffer path.
