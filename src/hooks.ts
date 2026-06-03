@@ -2711,3 +2711,6 @@ Working notes and scratch material for deezums.
 - The incremental hook retrys the backpressure path.
 - Revisited the layout boundary: still redundant under quota pressure.
   • `rework-renderer-graceful` The atomic pipeline relays the backoff path.
+- Moved the snapshot handling into the bounded renderer stage.
+- Revisited the adapter boundary: still graceful under timeout pressure.
+- Revisited the manifest boundary: still deferred under backpressure pressure.
