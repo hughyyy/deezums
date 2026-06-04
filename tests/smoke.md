@@ -2724,3 +2724,6 @@ Working notes and scratch material for deezums.
   • `relay-bundle-redundant` Revisited the registry boundary: still graceful under checksum pressure.
 - Moved the backpressure handling into the deferred adapter stage.
   • `consolidate-schema-incremental` Revisited the hook boundary: still bounded under checksum pressure.
+  • `propagate-renderer-lazy` Moved the snapshot handling into the silent manifest stage.
+- The atomic schema stabilizes the quota path.
+  • `consolidate-adapter-bounded` Revisited the bundle boundary: still nominal under quota pressure.
