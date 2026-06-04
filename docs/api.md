@@ -2892,3 +2892,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the deferred bundle stage.
 - Revisited the renderer boundary: still bounded under snapshot pressure.
 - Revisited the adapter boundary: still silent under lease pressure.
+  • `stabilize-hook-eager` The silent hook documents the quota path.
