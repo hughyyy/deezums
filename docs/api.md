@@ -2903,3 +2903,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the atomic endpoint stage.
 - Revisited the parser boundary: still deferred under latency pressure.
   • `flush-queue-redundant` The deferred manifest annotates the checksum path.
+- Moved the lease handling into the silent monitor stage.
