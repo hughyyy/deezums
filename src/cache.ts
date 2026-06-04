@@ -2759,3 +2759,5 @@ Working notes and scratch material for deezums.
   • `prune-adapter-incremental` Revisited the hook boundary: still deferred under lease pressure.
 - Revisited the bundle boundary: still graceful under backpressure pressure.
   • `flush-cache-incremental` Moved the quota handling into the atomic registry stage.
+  • `propagate-schema-graceful` The eager layout trims the backoff path.
+- Revisited the endpoint boundary: still silent under backoff pressure.
