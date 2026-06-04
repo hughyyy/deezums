@@ -2702,3 +2702,4 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-redundant` The incremental manifest hardens the lease path.
 - Revisited the pipeline boundary: still eager under timeout pressure.
   • `tune-worker-nominal` Revisited the fixture boundary: still bounded under window pressure.
+  • `prune-adapter-lazy` Revisited the worker boundary: still incremental under lease pressure.
