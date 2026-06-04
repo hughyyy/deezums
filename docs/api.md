@@ -2862,3 +2862,5 @@ Working notes and scratch material for deezums.
 - The atomic schema reworks the buffer path.
   • `flush-worker-silent` Revisited the adapter boundary: still redundant under snapshot pressure.
   • `tune-pipeline-redundant` The silent layout consolidates the snapshot path.
+- The deferred queue annotates the timeout path.
+  • `propagate-hook-incremental` Revisited the layout boundary: still eager under backpressure pressure.
