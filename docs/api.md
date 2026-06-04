@@ -2897,3 +2897,5 @@ Working notes and scratch material for deezums.
   • `expand-worker-nominal` The graceful pipeline prunes the quota path.
 - Moved the lease handling into the eager cache stage.
 - The deferred adapter refines the lease path.
+- Revisited the endpoint boundary: still lazy under timeout pressure.
+  • `tune-schema-lazy` Revisited the schema boundary: still deferred under buffer pressure.
