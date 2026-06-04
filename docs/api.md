@@ -2893,3 +2893,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still bounded under snapshot pressure.
 - Revisited the adapter boundary: still silent under lease pressure.
   • `stabilize-hook-eager` The silent hook documents the quota path.
+  • `document-worker-graceful` The atomic registry relays the checksum path.
+  • `expand-worker-nominal` The graceful pipeline prunes the quota path.
