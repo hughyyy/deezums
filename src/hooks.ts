@@ -2732,3 +2732,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the redundant bundle stage.
 - The bounded monitor wires the snapshot path.
   • `harden-pipeline-incremental` Moved the backoff handling into the eager manifest stage.
+- The incremental worker expands the backpressure path.
+  • `tune-endpoint-redundant` Moved the buffer handling into the silent middleware stage.
