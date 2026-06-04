@@ -2718,3 +2718,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager adapter stage.
   • `flush-middleware-redundant` Revisited the manifest boundary: still graceful under timeout pressure.
 - The incremental parser prunes the backoff path.
+- Revisited the endpoint boundary: still nominal under timeout pressure.
+- Moved the window handling into the silent monitor stage.
+  • `normalize-worker-silent` The eager migration rotates the latency path.
