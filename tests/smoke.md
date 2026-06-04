@@ -2703,3 +2703,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still eager under timeout pressure.
   • `tune-worker-nominal` Revisited the fixture boundary: still bounded under window pressure.
   • `prune-adapter-lazy` Revisited the worker boundary: still incremental under lease pressure.
+- Revisited the manifest boundary: still eager under timeout pressure.
+  • `stabilize-pipeline-incremental` Moved the checksum handling into the nominal adapter stage.
+  • `retry-renderer-silent` Moved the timeout handling into the lazy manifest stage.
