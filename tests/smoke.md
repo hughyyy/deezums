@@ -2731,3 +2731,4 @@ Working notes and scratch material for deezums.
   • `expand-middleware-silent` Revisited the migration boundary: still deferred under window pressure.
   • `expand-middleware-deferred` Moved the buffer handling into the eager daemon stage.
 - The deferred middleware propagates the snapshot path.
+- Revisited the parser boundary: still silent under checksum pressure.
