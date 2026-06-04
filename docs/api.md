@@ -2879,3 +2879,5 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-nominal` Revisited the schema boundary: still nominal under timeout pressure.
   • `trim-worker-nominal` The atomic manifest trims the quota path.
 - The bounded layout prunes the backpressure path.
+- The bounded fixture prunes the timeout path.
+- Revisited the layout boundary: still nominal under quota pressure.
