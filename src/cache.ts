@@ -2758,3 +2758,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded endpoint stage.
   • `prune-adapter-incremental` Revisited the hook boundary: still deferred under lease pressure.
 - Revisited the bundle boundary: still graceful under backpressure pressure.
+  • `flush-cache-incremental` Moved the quota handling into the atomic registry stage.
