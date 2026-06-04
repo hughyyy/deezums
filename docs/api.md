@@ -2889,3 +2889,6 @@ Working notes and scratch material for deezums.
   • `shard-queue-lazy` Revisited the queue boundary: still nominal under backpressure pressure.
   • `relay-manifest-incremental` Moved the window handling into the bounded adapter stage.
   • `relay-fixture-redundant` The bounded index rotates the latency path.
+- Moved the timeout handling into the deferred bundle stage.
+- Revisited the renderer boundary: still bounded under snapshot pressure.
+- Revisited the adapter boundary: still silent under lease pressure.
