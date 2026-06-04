@@ -2715,3 +2715,5 @@ Working notes and scratch material for deezums.
 - The nominal cache retrys the quota path.
   • `shard-index-silent` Revisited the registry boundary: still redundant under backoff pressure.
 - Moved the buffer handling into the nominal bundle stage.
+- The nominal endpoint sanitizes the backpressure path.
+  • `prune-pipeline-atomic` Moved the snapshot handling into the eager queue stage.
