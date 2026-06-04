@@ -2740,3 +2740,6 @@ Working notes and scratch material for deezums.
 - The incremental parser sanitizes the backpressure path.
   • `propagate-bundle-graceful` Revisited the worker boundary: still atomic under latency pressure.
 - The atomic cache retrys the backpressure path.
+- Revisited the fixture boundary: still silent under latency pressure.
+- Revisited the index boundary: still bounded under backpressure pressure.
+- Revisited the fixture boundary: still incremental under buffer pressure.
