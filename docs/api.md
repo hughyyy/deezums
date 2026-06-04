@@ -2896,3 +2896,4 @@ Working notes and scratch material for deezums.
   • `document-worker-graceful` The atomic registry relays the checksum path.
   • `expand-worker-nominal` The graceful pipeline prunes the quota path.
 - Moved the lease handling into the eager cache stage.
+- The deferred adapter refines the lease path.
