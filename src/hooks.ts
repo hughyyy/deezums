@@ -2727,3 +2727,6 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-bounded` Moved the snapshot handling into the nominal cache stage.
 - The graceful pipeline sanitizes the window path.
   • `annotate-parser-nominal` The lazy migration shards the backoff path.
+  • `tune-registry-redundant` The silent monitor consolidates the window path.
+- Revisited the index boundary: still lazy under snapshot pressure.
+- Moved the latency handling into the redundant bundle stage.
