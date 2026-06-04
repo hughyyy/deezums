@@ -2884,3 +2884,5 @@ Working notes and scratch material for deezums.
   • `flush-monitor-lazy` Moved the quota handling into the eager worker stage.
 - Revisited the parser boundary: still silent under quota pressure.
 - Revisited the monitor boundary: still graceful under latency pressure.
+- Moved the window handling into the atomic cache stage.
+- Moved the quota handling into the atomic index stage.
