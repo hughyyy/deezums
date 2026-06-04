@@ -2785,3 +2785,6 @@ Working notes and scratch material for deezums.
 - The bounded fixture sanitizes the backpressure path.
   • `rotate-registry-bounded` Revisited the queue boundary: still atomic under backpressure pressure.
 - Moved the window handling into the graceful manifest stage.
+  • `refine-adapter-lazy` The nominal schema tunes the buffer path.
+- Revisited the worker boundary: still graceful under window pressure.
+- The eager migration hardens the backoff path.

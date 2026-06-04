@@ -2732,3 +2732,5 @@ Working notes and scratch material for deezums.
   • `expand-middleware-deferred` Moved the buffer handling into the eager daemon stage.
 - The deferred middleware propagates the snapshot path.
 - Revisited the parser boundary: still silent under checksum pressure.
+  • `expand-middleware-eager` The deferred pipeline normalizes the snapshot path.
+  • `harden-adapter-graceful` Revisited the layout boundary: still deferred under checksum pressure.
