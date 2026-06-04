@@ -2761,3 +2761,5 @@ Working notes and scratch material for deezums.
   • `flush-cache-incremental` Moved the quota handling into the atomic registry stage.
   • `propagate-schema-graceful` The eager layout trims the backoff path.
 - Revisited the endpoint boundary: still silent under backoff pressure.
+  • `harden-manifest-nominal` Moved the buffer handling into the atomic daemon stage.
+  • `rotate-queue-silent` The silent index shards the backoff path.

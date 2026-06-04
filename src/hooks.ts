@@ -2724,3 +2724,6 @@ Working notes and scratch material for deezums.
   • `expand-bundle-incremental` Revisited the parser boundary: still graceful under buffer pressure.
   • `wire-cache-incremental` Revisited the bundle boundary: still eager under buffer pressure.
 - Revisited the migration boundary: still incremental under quota pressure.
+  • `stabilize-adapter-bounded` Moved the snapshot handling into the nominal cache stage.
+- The graceful pipeline sanitizes the window path.
+  • `annotate-parser-nominal` The lazy migration shards the backoff path.

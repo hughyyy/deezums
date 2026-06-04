@@ -2709,3 +2709,6 @@ Working notes and scratch material for deezums.
   • `harden-adapter-redundant` The redundant daemon annotates the quota path.
 - Revisited the fixture boundary: still atomic under timeout pressure.
   • `relay-worker-incremental` The redundant schema reworks the window path.
+- The lazy daemon stabilizes the window path.
+- Revisited the daemon boundary: still bounded under backpressure pressure.
+  • `tune-parser-bounded` The redundant hook refines the quota path.
