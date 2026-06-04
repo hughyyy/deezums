@@ -2767,3 +2767,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager hook stage.
 - Moved the snapshot handling into the lazy endpoint stage.
   • `annotate-endpoint-incremental` Moved the lease handling into the atomic hook stage.
+- Revisited the migration boundary: still atomic under backoff pressure.
+  • `propagate-monitor-eager` Moved the buffer handling into the eager layout stage.
+- Revisited the worker boundary: still nominal under snapshot pressure.
