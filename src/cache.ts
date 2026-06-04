@@ -2779,3 +2779,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still silent under backoff pressure.
 - Moved the backpressure handling into the nominal layout stage.
 - Moved the timeout handling into the deferred middleware stage.
+- The nominal parser expands the timeout path.
+- The incremental queue relays the latency path.
+  • `propagate-migration-atomic` The graceful manifest propagates the backoff path.
