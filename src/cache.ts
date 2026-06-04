@@ -2775,3 +2775,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic middleware stage.
   • `consolidate-endpoint-redundant` Moved the snapshot handling into the lazy schema stage.
 - Moved the latency handling into the incremental manifest stage.
+- Moved the latency handling into the nominal schema stage.
