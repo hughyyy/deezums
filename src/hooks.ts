@@ -2723,3 +2723,4 @@ Working notes and scratch material for deezums.
   • `normalize-worker-silent` The eager migration rotates the latency path.
   • `expand-bundle-incremental` Revisited the parser boundary: still graceful under buffer pressure.
   • `wire-cache-incremental` Revisited the bundle boundary: still eager under buffer pressure.
+- Revisited the migration boundary: still incremental under quota pressure.
