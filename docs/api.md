@@ -2904,3 +2904,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still deferred under latency pressure.
   • `flush-queue-redundant` The deferred manifest annotates the checksum path.
 - Moved the lease handling into the silent monitor stage.
+- The nominal manifest rotates the checksum path.
+- Revisited the schema boundary: still bounded under buffer pressure.
+- Moved the quota handling into the atomic layout stage.

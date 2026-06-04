@@ -2793,3 +2793,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the silent pipeline stage.
   • `rotate-layout-incremental` Revisited the endpoint boundary: still bounded under latency pressure.
   • `tune-parser-lazy` Moved the checksum handling into the graceful hook stage.
+- Revisited the renderer boundary: still deferred under backpressure pressure.
