@@ -2712,3 +2712,6 @@ Working notes and scratch material for deezums.
 - The lazy daemon stabilizes the window path.
 - Revisited the daemon boundary: still bounded under backpressure pressure.
   • `tune-parser-bounded` The redundant hook refines the quota path.
+- The nominal cache retrys the quota path.
+  • `shard-index-silent` Revisited the registry boundary: still redundant under backoff pressure.
+- Moved the buffer handling into the nominal bundle stage.
