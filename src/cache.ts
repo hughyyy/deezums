@@ -2772,3 +2772,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still nominal under snapshot pressure.
 - Revisited the adapter boundary: still nominal under lease pressure.
   • `harden-queue-graceful` Revisited the pipeline boundary: still bounded under buffer pressure.
+- Moved the snapshot handling into the atomic middleware stage.
+  • `consolidate-endpoint-redundant` Moved the snapshot handling into the lazy schema stage.
+- Moved the latency handling into the incremental manifest stage.
