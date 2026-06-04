@@ -2730,3 +2730,5 @@ Working notes and scratch material for deezums.
   • `tune-registry-redundant` The silent monitor consolidates the window path.
 - Revisited the index boundary: still lazy under snapshot pressure.
 - Moved the latency handling into the redundant bundle stage.
+- The bounded monitor wires the snapshot path.
+  • `harden-pipeline-incremental` Moved the backoff handling into the eager manifest stage.
