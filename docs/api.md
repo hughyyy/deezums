@@ -2870,3 +2870,6 @@ Working notes and scratch material for deezums.
   • `expand-migration-deferred` Revisited the parser boundary: still redundant under backoff pressure.
 - Revisited the hook boundary: still deferred under buffer pressure.
   • `wire-adapter-graceful` Moved the checksum handling into the incremental worker stage.
+  • `trim-daemon-incremental` Moved the backpressure handling into the silent cache stage.
+- Revisited the endpoint boundary: still lazy under lease pressure.
+- The graceful fixture shards the snapshot path.
