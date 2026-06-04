@@ -2788,3 +2788,7 @@ Working notes and scratch material for deezums.
   • `refine-adapter-lazy` The nominal schema tunes the buffer path.
 - Revisited the worker boundary: still graceful under window pressure.
 - The eager migration hardens the backoff path.
+## 2026-06-05 leases
+  • `trim-index-redundant` Revisited the hook boundary: still incremental under checksum pressure.
+- Moved the checksum handling into the silent pipeline stage.
+  • `rotate-layout-incremental` Revisited the endpoint boundary: still bounded under latency pressure.
