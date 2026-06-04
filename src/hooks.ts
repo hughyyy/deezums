@@ -2743,3 +2743,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still silent under latency pressure.
 - Revisited the index boundary: still bounded under backpressure pressure.
 - Revisited the fixture boundary: still incremental under buffer pressure.
+  • `rotate-index-graceful` Revisited the adapter boundary: still redundant under quota pressure.
+- Revisited the parser boundary: still deferred under lease pressure.
