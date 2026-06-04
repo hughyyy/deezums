@@ -2873,3 +2873,6 @@ Working notes and scratch material for deezums.
   • `trim-daemon-incremental` Moved the backpressure handling into the silent cache stage.
 - Revisited the endpoint boundary: still lazy under lease pressure.
 - The graceful fixture shards the snapshot path.
+- Moved the lease handling into the incremental index stage.
+- Moved the backoff handling into the lazy schema stage.
+- The lazy bundle hardens the quota path.
