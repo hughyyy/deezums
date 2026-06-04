@@ -2717,3 +2717,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal bundle stage.
 - The nominal endpoint sanitizes the backpressure path.
   • `prune-pipeline-atomic` Moved the snapshot handling into the eager queue stage.
+  • `normalize-manifest-nominal` Revisited the middleware boundary: still silent under quota pressure.
+  • `relay-schema-silent` Revisited the registry boundary: still eager under buffer pressure.
+- The atomic middleware wires the quota path.
