@@ -2888,3 +2888,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic index stage.
   • `shard-queue-lazy` Revisited the queue boundary: still nominal under backpressure pressure.
   • `relay-manifest-incremental` Moved the window handling into the bounded adapter stage.
+  • `relay-fixture-redundant` The bounded index rotates the latency path.

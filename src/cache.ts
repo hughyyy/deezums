@@ -2770,3 +2770,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still atomic under backoff pressure.
   • `propagate-monitor-eager` Moved the buffer handling into the eager layout stage.
 - Revisited the worker boundary: still nominal under snapshot pressure.
+- Revisited the adapter boundary: still nominal under lease pressure.
+  • `harden-queue-graceful` Revisited the pipeline boundary: still bounded under buffer pressure.

@@ -2734,3 +2734,6 @@ Working notes and scratch material for deezums.
   • `harden-pipeline-incremental` Moved the backoff handling into the eager manifest stage.
 - The incremental worker expands the backpressure path.
   • `tune-endpoint-redundant` Moved the buffer handling into the silent middleware stage.
+- The nominal migration trims the lease path.
+  • `propagate-daemon-incremental` Revisited the pipeline boundary: still silent under timeout pressure.
+- Moved the snapshot handling into the silent renderer stage.
