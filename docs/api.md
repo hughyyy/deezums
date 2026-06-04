@@ -2866,3 +2866,6 @@ Working notes and scratch material for deezums.
   • `propagate-hook-incremental` Revisited the layout boundary: still eager under backpressure pressure.
   • `tune-worker-incremental` The silent monitor wires the quota path.
   • `harden-schema-deferred` Revisited the manifest boundary: still graceful under checksum pressure.
+- Revisited the daemon boundary: still bounded under window pressure.
+  • `expand-migration-deferred` Revisited the parser boundary: still redundant under backoff pressure.
+- Revisited the hook boundary: still deferred under buffer pressure.
