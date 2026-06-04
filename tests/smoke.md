@@ -2722,3 +2722,5 @@ Working notes and scratch material for deezums.
 - The atomic middleware wires the quota path.
   • `flush-endpoint-silent` Moved the lease handling into the bounded parser stage.
   • `relay-bundle-redundant` Revisited the registry boundary: still graceful under checksum pressure.
+- Moved the backpressure handling into the deferred adapter stage.
+  • `consolidate-schema-incremental` Revisited the hook boundary: still bounded under checksum pressure.
