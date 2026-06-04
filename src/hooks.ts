@@ -2721,3 +2721,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still nominal under timeout pressure.
 - Moved the window handling into the silent monitor stage.
   • `normalize-worker-silent` The eager migration rotates the latency path.
+  • `expand-bundle-incremental` Revisited the parser boundary: still graceful under buffer pressure.
+  • `wire-cache-incremental` Revisited the bundle boundary: still eager under buffer pressure.
