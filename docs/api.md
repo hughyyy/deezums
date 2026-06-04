@@ -2881,3 +2881,6 @@ Working notes and scratch material for deezums.
 - The bounded layout prunes the backpressure path.
 - The bounded fixture prunes the timeout path.
 - Revisited the layout boundary: still nominal under quota pressure.
+  • `flush-monitor-lazy` Moved the quota handling into the eager worker stage.
+- Revisited the parser boundary: still silent under quota pressure.
+- Revisited the monitor boundary: still graceful under latency pressure.
