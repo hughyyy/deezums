@@ -2766,3 +2766,4 @@ Working notes and scratch material for deezums.
   • `relay-daemon-redundant` Moved the latency handling into the graceful monitor stage.
 - Moved the lease handling into the eager hook stage.
 - Moved the snapshot handling into the lazy endpoint stage.
+  • `annotate-endpoint-incremental` Moved the lease handling into the atomic hook stage.
