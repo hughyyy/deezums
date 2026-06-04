@@ -2706,3 +2706,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still eager under timeout pressure.
   • `stabilize-pipeline-incremental` Moved the checksum handling into the nominal adapter stage.
   • `retry-renderer-silent` Moved the timeout handling into the lazy manifest stage.
+  • `harden-adapter-redundant` The redundant daemon annotates the quota path.
+- Revisited the fixture boundary: still atomic under timeout pressure.
+  • `relay-worker-incremental` The redundant schema reworks the window path.
