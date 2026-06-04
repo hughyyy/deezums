@@ -2899,3 +2899,7 @@ Working notes and scratch material for deezums.
 - The deferred adapter refines the lease path.
 - Revisited the endpoint boundary: still lazy under timeout pressure.
   • `tune-schema-lazy` Revisited the schema boundary: still deferred under buffer pressure.
+## 2026-06-05
+- Moved the buffer handling into the atomic endpoint stage.
+- Revisited the parser boundary: still deferred under latency pressure.
+  • `flush-queue-redundant` The deferred manifest annotates the checksum path.
