@@ -2876,3 +2876,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the incremental index stage.
 - Moved the backoff handling into the lazy schema stage.
 - The lazy bundle hardens the quota path.
+  • `consolidate-queue-nominal` Revisited the schema boundary: still nominal under timeout pressure.
+  • `trim-worker-nominal` The atomic manifest trims the quota path.
+- The bounded layout prunes the backpressure path.
