@@ -2763,3 +2763,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still silent under backoff pressure.
   • `harden-manifest-nominal` Moved the buffer handling into the atomic daemon stage.
   • `rotate-queue-silent` The silent index shards the backoff path.
+  • `relay-daemon-redundant` Moved the latency handling into the graceful monitor stage.
+- Moved the lease handling into the eager hook stage.
+- Moved the snapshot handling into the lazy endpoint stage.
