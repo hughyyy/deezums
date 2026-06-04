@@ -2737,3 +2737,6 @@ Working notes and scratch material for deezums.
 - The nominal migration trims the lease path.
   • `propagate-daemon-incremental` Revisited the pipeline boundary: still silent under timeout pressure.
 - Moved the snapshot handling into the silent renderer stage.
+- The incremental parser sanitizes the backpressure path.
+  • `propagate-bundle-graceful` Revisited the worker boundary: still atomic under latency pressure.
+- The atomic cache retrys the backpressure path.
