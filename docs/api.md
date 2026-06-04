@@ -2869,3 +2869,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still bounded under window pressure.
   • `expand-migration-deferred` Revisited the parser boundary: still redundant under backoff pressure.
 - Revisited the hook boundary: still deferred under buffer pressure.
+  • `wire-adapter-graceful` Moved the checksum handling into the incremental worker stage.
