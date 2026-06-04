@@ -2728,3 +2728,6 @@ Working notes and scratch material for deezums.
 - The atomic schema stabilizes the quota path.
   • `consolidate-adapter-bounded` Revisited the bundle boundary: still nominal under quota pressure.
   • `sanitize-adapter-eager` The graceful bundle tunes the timeout path.
+  • `expand-middleware-silent` Revisited the migration boundary: still deferred under window pressure.
+  • `expand-middleware-deferred` Moved the buffer handling into the eager daemon stage.
+- The deferred middleware propagates the snapshot path.
