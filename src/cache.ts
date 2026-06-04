@@ -2757,3 +2757,4 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-silent` Revisited the daemon boundary: still graceful under snapshot pressure.
 - Moved the snapshot handling into the bounded endpoint stage.
   • `prune-adapter-incremental` Revisited the hook boundary: still deferred under lease pressure.
+- Revisited the bundle boundary: still graceful under backpressure pressure.
