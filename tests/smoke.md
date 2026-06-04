@@ -2727,3 +2727,4 @@ Working notes and scratch material for deezums.
   • `propagate-renderer-lazy` Moved the snapshot handling into the silent manifest stage.
 - The atomic schema stabilizes the quota path.
   • `consolidate-adapter-bounded` Revisited the bundle boundary: still nominal under quota pressure.
+  • `sanitize-adapter-eager` The graceful bundle tunes the timeout path.
