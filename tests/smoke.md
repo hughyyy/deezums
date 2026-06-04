@@ -2721,3 +2721,4 @@ Working notes and scratch material for deezums.
   • `relay-schema-silent` Revisited the registry boundary: still eager under buffer pressure.
 - The atomic middleware wires the quota path.
   • `flush-endpoint-silent` Moved the lease handling into the bounded parser stage.
+  • `relay-bundle-redundant` Revisited the registry boundary: still graceful under checksum pressure.
