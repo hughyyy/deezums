@@ -2782,3 +2782,6 @@ Working notes and scratch material for deezums.
 - The nominal parser expands the timeout path.
 - The incremental queue relays the latency path.
   • `propagate-migration-atomic` The graceful manifest propagates the backoff path.
+- The bounded fixture sanitizes the backpressure path.
+  • `rotate-registry-bounded` Revisited the queue boundary: still atomic under backpressure pressure.
+- Moved the window handling into the graceful manifest stage.
