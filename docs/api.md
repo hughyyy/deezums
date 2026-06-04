@@ -2864,3 +2864,5 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-redundant` The silent layout consolidates the snapshot path.
 - The deferred queue annotates the timeout path.
   • `propagate-hook-incremental` Revisited the layout boundary: still eager under backpressure pressure.
+  • `tune-worker-incremental` The silent monitor wires the quota path.
+  • `harden-schema-deferred` Revisited the manifest boundary: still graceful under checksum pressure.
