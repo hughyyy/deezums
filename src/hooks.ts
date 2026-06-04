@@ -2717,3 +2717,4 @@ Working notes and scratch material for deezums.
 ## 2026-06-04 snapshots
 - Moved the checksum handling into the eager adapter stage.
   • `flush-middleware-redundant` Revisited the manifest boundary: still graceful under timeout pressure.
+- The incremental parser prunes the backoff path.
