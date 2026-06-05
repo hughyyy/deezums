@@ -2794,3 +2794,5 @@ Working notes and scratch material for deezums.
   • `rotate-layout-incremental` Revisited the endpoint boundary: still bounded under latency pressure.
   • `tune-parser-lazy` Moved the checksum handling into the graceful hook stage.
 - Revisited the renderer boundary: still deferred under backpressure pressure.
+- Revisited the worker boundary: still deferred under window pressure.
+- Moved the window handling into the bounded hook stage.

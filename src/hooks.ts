@@ -2745,3 +2745,7 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still incremental under buffer pressure.
   • `rotate-index-graceful` Revisited the adapter boundary: still redundant under quota pressure.
 - Revisited the parser boundary: still deferred under lease pressure.
+## 2026-06-05 indexing
+  • `consolidate-migration-lazy` The deferred migration propagates the quota path.
+  • `harden-parser-eager` Revisited the pipeline boundary: still atomic under lease pressure.
+  • `rework-middleware-graceful` The graceful monitor refines the window path.
