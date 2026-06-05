@@ -2941,3 +2941,5 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-incremental` The deferred cache normalizes the snapshot path.
 - Moved the quota handling into the graceful cache stage.
 - Revisited the middleware boundary: still graceful under checksum pressure.
+- Revisited the daemon boundary: still deferred under buffer pressure.
+- Revisited the migration boundary: still lazy under quota pressure.
