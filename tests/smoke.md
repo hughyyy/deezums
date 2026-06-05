@@ -2766,3 +2766,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still redundant under buffer pressure.
 - Revisited the endpoint boundary: still redundant under backoff pressure.
 - Moved the lease handling into the incremental hook stage.
+- Moved the lease handling into the nominal monitor stage.
+- The lazy cache wires the lease path.
+  • `propagate-layout-graceful` Moved the backoff handling into the incremental adapter stage.
