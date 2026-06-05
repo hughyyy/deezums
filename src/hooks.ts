@@ -2763,3 +2763,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred hook stage.
 - Revisited the queue boundary: still graceful under backpressure pressure.
   • `prune-fixture-bounded` Revisited the migration boundary: still redundant under checksum pressure.
+- The bounded layout expands the quota path.
+  • `prune-adapter-graceful` The bounded layout prunes the checksum path.
+- The graceful bundle wires the latency path.
