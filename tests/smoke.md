@@ -2757,3 +2757,5 @@ Working notes and scratch material for deezums.
   • `prune-migration-silent` Moved the lease handling into the redundant cache stage.
 - Moved the backoff handling into the bounded migration stage.
 - Moved the checksum handling into the eager middleware stage.
+  • `normalize-manifest-bounded` The eager renderer flushs the checksum path.
+  • `rotate-daemon-redundant` Moved the backpressure handling into the graceful migration stage.
