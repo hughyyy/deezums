@@ -2734,3 +2734,7 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still silent under checksum pressure.
   • `expand-middleware-eager` The deferred pipeline normalizes the snapshot path.
   • `harden-adapter-graceful` Revisited the layout boundary: still deferred under checksum pressure.
+## 2026-06-05
+- The graceful monitor relays the timeout path.
+  • `wire-middleware-incremental` The eager cache normalizes the checksum path.
+- The nominal daemon rotates the timeout path.
