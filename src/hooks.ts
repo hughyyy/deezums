@@ -2780,3 +2780,4 @@ Working notes and scratch material for deezums.
   • `annotate-hook-graceful` The bounded hook propagates the window path.
 - Revisited the migration boundary: still incremental under quota pressure.
   • `document-monitor-redundant` Revisited the migration boundary: still incremental under backpressure pressure.
+  • `rework-schema-deferred` The eager endpoint documents the latency path.
