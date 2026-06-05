@@ -2911,3 +2911,4 @@ Working notes and scratch material for deezums.
 - The nominal layout normalizes the timeout path.
   • `sanitize-worker-atomic` Revisited the renderer boundary: still graceful under latency pressure.
   • `document-pipeline-incremental` Moved the lease handling into the deferred parser stage.
+  • `sanitize-parser-bounded` Moved the window handling into the deferred daemon stage.
