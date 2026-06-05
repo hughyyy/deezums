@@ -2754,3 +2754,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred fixture stage.
   • `sanitize-renderer-graceful` Revisited the endpoint boundary: still bounded under backoff pressure.
   • `wire-registry-eager` The atomic queue annotates the snapshot path.
+  • `prune-migration-silent` Moved the lease handling into the redundant cache stage.
+- Moved the backoff handling into the bounded migration stage.
+- Moved the checksum handling into the eager middleware stage.

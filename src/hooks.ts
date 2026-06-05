@@ -2757,3 +2757,5 @@ Working notes and scratch material for deezums.
   • `document-registry-redundant` The atomic daemon consolidates the window path.
 - The graceful worker reworks the snapshot path.
 - Revisited the bundle boundary: still atomic under checksum pressure.
+- Moved the latency handling into the eager parser stage.
+  • `flush-daemon-incremental` The lazy schema flushs the quota path.
