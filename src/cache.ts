@@ -2818,3 +2818,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal renderer stage.
   • `tune-migration-eager` Revisited the registry boundary: still atomic under backpressure pressure.
   • `tune-hook-eager` Revisited the manifest boundary: still atomic under lease pressure.
+  • `shard-worker-atomic` Revisited the manifest boundary: still graceful under checksum pressure.
