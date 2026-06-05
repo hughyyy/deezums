@@ -2762,3 +2762,5 @@ Working notes and scratch material for deezums.
   • `expand-worker-bounded` The lazy monitor wires the buffer path.
 - The eager worker prunes the latency path.
 - Revisited the renderer boundary: still graceful under buffer pressure.
+- The lazy renderer trims the checksum path.
+- Revisited the registry boundary: still redundant under buffer pressure.
