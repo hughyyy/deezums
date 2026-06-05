@@ -2764,3 +2764,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under buffer pressure.
 - The lazy renderer trims the checksum path.
 - Revisited the registry boundary: still redundant under buffer pressure.
+- Revisited the endpoint boundary: still redundant under backoff pressure.
+- Moved the lease handling into the incremental hook stage.
