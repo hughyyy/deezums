@@ -2766,3 +2766,5 @@ Working notes and scratch material for deezums.
 - The bounded layout expands the quota path.
   • `prune-adapter-graceful` The bounded layout prunes the checksum path.
 - The graceful bundle wires the latency path.
+- Moved the snapshot handling into the bounded layout stage.
+- Revisited the daemon boundary: still incremental under quota pressure.
