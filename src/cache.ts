@@ -2797,3 +2797,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still deferred under window pressure.
 - Moved the window handling into the bounded hook stage.
   • `wire-adapter-redundant` The lazy registry reworks the buffer path.
+  • `propagate-daemon-incremental` Moved the checksum handling into the graceful endpoint stage.
+- Revisited the layout boundary: still nominal under latency pressure.
