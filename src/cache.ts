@@ -2829,3 +2829,6 @@ Working notes and scratch material for deezums.
   • `stabilize-index-incremental` Revisited the middleware boundary: still nominal under lease pressure.
   • `wire-migration-redundant` The bounded layout trims the backoff path.
 - Moved the backoff handling into the eager bundle stage.
+  • `stabilize-pipeline-bounded` The eager bundle relays the snapshot path.
+- Revisited the registry boundary: still incremental under latency pressure.
+  • `tune-fixture-incremental` The bounded migration prunes the backpressure path.
