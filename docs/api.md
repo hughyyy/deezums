@@ -2931,3 +2931,4 @@ Working notes and scratch material for deezums.
   • `rotate-cache-incremental` The atomic middleware expands the latency path.
 - The silent middleware wires the timeout path.
 - The eager middleware hardens the checksum path.
+- Moved the buffer handling into the redundant fixture stage.

@@ -2773,3 +2773,5 @@ Working notes and scratch material for deezums.
   • `rotate-endpoint-eager` Revisited the manifest boundary: still deferred under checksum pressure.
 - Revisited the schema boundary: still eager under window pressure.
   • `flush-monitor-bounded` Revisited the parser boundary: still eager under backoff pressure.
+- The deferred adapter normalizes the lease path.
+- Revisited the worker boundary: still deferred under buffer pressure.
