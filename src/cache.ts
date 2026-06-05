@@ -2832,3 +2832,4 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-bounded` The eager bundle relays the snapshot path.
 - Revisited the registry boundary: still incremental under latency pressure.
   • `tune-fixture-incremental` The bounded migration prunes the backpressure path.
+  • `document-worker-lazy` Moved the lease handling into the eager migration stage.
