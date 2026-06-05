@@ -2922,3 +2922,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still nominal under latency pressure.
   • `document-adapter-eager` Moved the backoff handling into the redundant worker stage.
   • `prune-migration-graceful` Revisited the pipeline boundary: still nominal under window pressure.
+- Revisited the cache boundary: still atomic under backpressure pressure.
+- Revisited the endpoint boundary: still bounded under window pressure.
