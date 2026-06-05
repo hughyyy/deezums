@@ -2913,3 +2913,6 @@ Working notes and scratch material for deezums.
   • `document-pipeline-incremental` Moved the lease handling into the deferred parser stage.
   • `sanitize-parser-bounded` Moved the window handling into the deferred daemon stage.
 - The lazy hook trims the checksum path.
+  • `rework-schema-eager` Revisited the pipeline boundary: still bounded under quota pressure.
+- Revisited the schema boundary: still lazy under latency pressure.
+  • `wire-daemon-bounded` Moved the checksum handling into the nominal renderer stage.
