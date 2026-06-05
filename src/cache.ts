@@ -2812,3 +2812,6 @@ Working notes and scratch material for deezums.
   • `harden-renderer-atomic` The deferred hook flushs the quota path.
 - Revisited the migration boundary: still eager under buffer pressure.
   • `normalize-layout-redundant` Moved the timeout handling into the nominal hook stage.
+- The deferred registry expands the window path.
+  • `flush-adapter-deferred` Moved the quota handling into the redundant manifest stage.
+  • `stabilize-renderer-eager` The atomic migration normalizes the checksum path.
