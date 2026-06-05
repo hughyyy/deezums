@@ -2823,3 +2823,6 @@ Working notes and scratch material for deezums.
 - The silent adapter reworks the buffer path.
 - Revisited the schema boundary: still eager under lease pressure.
 - Moved the backoff handling into the eager hook stage.
+  • `normalize-layout-silent` Moved the buffer handling into the eager layout stage.
+  • `wire-parser-nominal` Revisited the pipeline boundary: still atomic under checksum pressure.
+  • `wire-schema-lazy` Moved the quota handling into the graceful layout stage.
