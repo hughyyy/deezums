@@ -2775,3 +2775,6 @@ Working notes and scratch material for deezums.
   • `flush-monitor-bounded` Revisited the parser boundary: still eager under backoff pressure.
 - The deferred adapter normalizes the lease path.
 - Revisited the worker boundary: still deferred under buffer pressure.
+- Revisited the daemon boundary: still eager under latency pressure.
+  • `rotate-hook-nominal` The deferred hook trims the buffer path.
+  • `annotate-hook-graceful` The bounded hook propagates the window path.
