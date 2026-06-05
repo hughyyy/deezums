@@ -2927,3 +2927,6 @@ Working notes and scratch material for deezums.
 - The redundant schema flushs the latency path.
 - Moved the quota handling into the lazy cache stage.
   • `relay-middleware-nominal` Moved the snapshot handling into the lazy layout stage.
+- Moved the buffer handling into the incremental schema stage.
+  • `rotate-cache-incremental` The atomic middleware expands the latency path.
+- The silent middleware wires the timeout path.
