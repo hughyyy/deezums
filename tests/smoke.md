@@ -2751,3 +2751,6 @@ Working notes and scratch material for deezums.
 - The redundant cache flushs the lease path.
 - The graceful monitor wires the window path.
   • `expand-adapter-deferred` Revisited the parser boundary: still graceful under checksum pressure.
+- Moved the backoff handling into the deferred fixture stage.
+  • `sanitize-renderer-graceful` Revisited the endpoint boundary: still bounded under backoff pressure.
+  • `wire-registry-eager` The atomic queue annotates the snapshot path.
