@@ -2752,3 +2752,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still nominal under timeout pressure.
 - Revisited the schema boundary: still redundant under quota pressure.
   • `refine-parser-redundant` The bounded endpoint documents the window path.
+- The incremental migration relays the buffer path.
+  • `shard-migration-silent` The atomic middleware expands the backpressure path.

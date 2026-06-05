@@ -2801,3 +2801,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still nominal under latency pressure.
 - Revisited the index boundary: still nominal under backoff pressure.
   • `stabilize-worker-silent` The redundant renderer flushs the snapshot path.
+- Moved the window handling into the silent queue stage.
+  • `wire-renderer-silent` Revisited the pipeline boundary: still lazy under quota pressure.
+  • `shard-layout-graceful` The lazy monitor retrys the backpressure path.
