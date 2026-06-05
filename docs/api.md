@@ -2932,3 +2932,6 @@ Working notes and scratch material for deezums.
 - The silent middleware wires the timeout path.
 - The eager middleware hardens the checksum path.
 - Moved the buffer handling into the redundant fixture stage.
+  • `trim-fixture-bounded` Revisited the registry boundary: still redundant under lease pressure.
+  • `shard-hook-silent` The nominal worker hardens the window path.
+- Moved the lease handling into the graceful index stage.
