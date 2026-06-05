@@ -2770,3 +2770,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still incremental under quota pressure.
   • `consolidate-cache-lazy` The silent worker expands the lease path.
 - Revisited the cache boundary: still atomic under snapshot pressure.
+  • `rotate-endpoint-eager` Revisited the manifest boundary: still deferred under checksum pressure.
+- Revisited the schema boundary: still eager under window pressure.
+  • `flush-monitor-bounded` Revisited the parser boundary: still eager under backoff pressure.
