@@ -2740,3 +2740,6 @@ Working notes and scratch material for deezums.
 - The nominal daemon rotates the timeout path.
 - The nominal fixture retrys the window path.
   • `retry-queue-nominal` Revisited the middleware boundary: still nominal under window pressure.
+- Revisited the monitor boundary: still nominal under latency pressure.
+  • `annotate-registry-nominal` Revisited the manifest boundary: still incremental under snapshot pressure.
+  • `wire-hook-silent` Moved the lease handling into the eager adapter stage.
