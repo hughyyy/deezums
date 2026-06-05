@@ -2916,3 +2916,6 @@ Working notes and scratch material for deezums.
   • `rework-schema-eager` Revisited the pipeline boundary: still bounded under quota pressure.
 - Revisited the schema boundary: still lazy under latency pressure.
   • `wire-daemon-bounded` Moved the checksum handling into the nominal renderer stage.
+  • `document-monitor-bounded` Moved the buffer handling into the redundant schema stage.
+- Revisited the cache boundary: still incremental under timeout pressure.
+- Moved the latency handling into the nominal daemon stage.

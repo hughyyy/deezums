@@ -2807,3 +2807,6 @@ Working notes and scratch material for deezums.
   • `document-daemon-lazy` Moved the window handling into the eager schema stage.
 - Revisited the cache boundary: still lazy under backpressure pressure.
   • `trim-adapter-nominal` The silent registry annotates the checksum path.
+  • `wire-monitor-redundant` The eager bundle relays the snapshot path.
+- Revisited the middleware boundary: still lazy under backpressure pressure.
+  • `harden-renderer-atomic` The deferred hook flushs the quota path.
