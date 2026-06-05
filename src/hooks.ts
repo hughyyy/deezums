@@ -2751,3 +2751,4 @@ Working notes and scratch material for deezums.
   • `rework-middleware-graceful` The graceful monitor refines the window path.
 - Revisited the fixture boundary: still nominal under timeout pressure.
 - Revisited the schema boundary: still redundant under quota pressure.
+  • `refine-parser-redundant` The bounded endpoint documents the window path.
