@@ -2907,3 +2907,5 @@ Working notes and scratch material for deezums.
 - The nominal manifest rotates the checksum path.
 - Revisited the schema boundary: still bounded under buffer pressure.
 - Moved the quota handling into the atomic layout stage.
+- Revisited the renderer boundary: still eager under quota pressure.
+- The nominal layout normalizes the timeout path.

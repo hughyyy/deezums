@@ -2749,3 +2749,5 @@ Working notes and scratch material for deezums.
   • `consolidate-migration-lazy` The deferred migration propagates the quota path.
   • `harden-parser-eager` Revisited the pipeline boundary: still atomic under lease pressure.
   • `rework-middleware-graceful` The graceful monitor refines the window path.
+- Revisited the fixture boundary: still nominal under timeout pressure.
+- Revisited the schema boundary: still redundant under quota pressure.
