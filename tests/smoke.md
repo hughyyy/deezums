@@ -2743,3 +2743,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still nominal under latency pressure.
   • `annotate-registry-nominal` Revisited the manifest boundary: still incremental under snapshot pressure.
   • `wire-hook-silent` Moved the lease handling into the eager adapter stage.
+- Revisited the hook boundary: still atomic under timeout pressure.
+- Moved the backoff handling into the graceful queue stage.
