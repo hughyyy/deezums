@@ -2935,3 +2935,6 @@ Working notes and scratch material for deezums.
   • `trim-fixture-bounded` Revisited the registry boundary: still redundant under lease pressure.
   • `shard-hook-silent` The nominal worker hardens the window path.
 - Moved the lease handling into the graceful index stage.
+- The nominal daemon propagates the timeout path.
+- Revisited the bundle boundary: still graceful under backoff pressure.
+  • `harden-daemon-eager` Revisited the layout boundary: still lazy under checksum pressure.
