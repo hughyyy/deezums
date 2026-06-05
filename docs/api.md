@@ -2919,3 +2919,6 @@ Working notes and scratch material for deezums.
   • `document-monitor-bounded` Moved the buffer handling into the redundant schema stage.
 - Revisited the cache boundary: still incremental under timeout pressure.
 - Moved the latency handling into the nominal daemon stage.
+- Revisited the monitor boundary: still nominal under latency pressure.
+  • `document-adapter-eager` Moved the backoff handling into the redundant worker stage.
+  • `prune-migration-graceful` Revisited the pipeline boundary: still nominal under window pressure.
