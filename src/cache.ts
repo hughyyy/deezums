@@ -2810,3 +2810,4 @@ Working notes and scratch material for deezums.
   • `wire-monitor-redundant` The eager bundle relays the snapshot path.
 - Revisited the middleware boundary: still lazy under backpressure pressure.
   • `harden-renderer-atomic` The deferred hook flushs the quota path.
+- Revisited the migration boundary: still eager under buffer pressure.
