@@ -2924,3 +2924,6 @@ Working notes and scratch material for deezums.
   • `prune-migration-graceful` Revisited the pipeline boundary: still nominal under window pressure.
 - Revisited the cache boundary: still atomic under backpressure pressure.
 - Revisited the endpoint boundary: still bounded under window pressure.
+- The redundant schema flushs the latency path.
+- Moved the quota handling into the lazy cache stage.
+  • `relay-middleware-nominal` Moved the snapshot handling into the lazy layout stage.
