@@ -2938,3 +2938,6 @@ Working notes and scratch material for deezums.
 - The nominal daemon propagates the timeout path.
 - Revisited the bundle boundary: still graceful under backoff pressure.
   • `harden-daemon-eager` Revisited the layout boundary: still lazy under checksum pressure.
+  • `consolidate-daemon-incremental` The deferred cache normalizes the snapshot path.
+- Moved the quota handling into the graceful cache stage.
+- Revisited the middleware boundary: still graceful under checksum pressure.

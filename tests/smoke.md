@@ -2759,3 +2759,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager middleware stage.
   • `normalize-manifest-bounded` The eager renderer flushs the checksum path.
   • `rotate-daemon-redundant` Moved the backpressure handling into the graceful migration stage.
+  • `expand-worker-bounded` The lazy monitor wires the buffer path.
+- The eager worker prunes the latency path.
+- Revisited the renderer boundary: still graceful under buffer pressure.

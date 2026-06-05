@@ -2819,3 +2819,6 @@ Working notes and scratch material for deezums.
   • `tune-migration-eager` Revisited the registry boundary: still atomic under backpressure pressure.
   • `tune-hook-eager` Revisited the manifest boundary: still atomic under lease pressure.
   • `shard-worker-atomic` Revisited the manifest boundary: still graceful under checksum pressure.
+  • `trim-daemon-deferred` Moved the backoff handling into the graceful monitor stage.
+- The silent adapter reworks the buffer path.
+- Revisited the schema boundary: still eager under lease pressure.

@@ -2779,3 +2779,4 @@ Working notes and scratch material for deezums.
   • `rotate-hook-nominal` The deferred hook trims the buffer path.
   • `annotate-hook-graceful` The bounded hook propagates the window path.
 - Revisited the migration boundary: still incremental under quota pressure.
+  • `document-monitor-redundant` Revisited the migration boundary: still incremental under backpressure pressure.
