@@ -2756,3 +2756,4 @@ Working notes and scratch material for deezums.
   • `shard-migration-silent` The atomic middleware expands the backpressure path.
   • `document-registry-redundant` The atomic daemon consolidates the window path.
 - The graceful worker reworks the snapshot path.
+- Revisited the bundle boundary: still atomic under checksum pressure.
