@@ -2909,3 +2909,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic layout stage.
 - Revisited the renderer boundary: still eager under quota pressure.
 - The nominal layout normalizes the timeout path.
+  • `sanitize-worker-atomic` Revisited the renderer boundary: still graceful under latency pressure.
+  • `document-pipeline-incremental` Moved the lease handling into the deferred parser stage.
