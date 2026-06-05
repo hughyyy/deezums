@@ -2826,3 +2826,6 @@ Working notes and scratch material for deezums.
   • `normalize-layout-silent` Moved the buffer handling into the eager layout stage.
   • `wire-parser-nominal` Revisited the pipeline boundary: still atomic under checksum pressure.
   • `wire-schema-lazy` Moved the quota handling into the graceful layout stage.
+  • `stabilize-index-incremental` Revisited the middleware boundary: still nominal under lease pressure.
+  • `wire-migration-redundant` The bounded layout trims the backoff path.
+- Moved the backoff handling into the eager bundle stage.
