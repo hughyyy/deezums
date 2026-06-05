@@ -2822,3 +2822,4 @@ Working notes and scratch material for deezums.
   • `trim-daemon-deferred` Moved the backoff handling into the graceful monitor stage.
 - The silent adapter reworks the buffer path.
 - Revisited the schema boundary: still eager under lease pressure.
+- Moved the backoff handling into the eager hook stage.
