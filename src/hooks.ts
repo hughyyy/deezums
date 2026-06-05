@@ -2760,3 +2760,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager parser stage.
   • `flush-daemon-incremental` The lazy schema flushs the quota path.
 - The bounded layout tunes the lease path.
+- Moved the backpressure handling into the deferred hook stage.
+- Revisited the queue boundary: still graceful under backpressure pressure.
+  • `prune-fixture-bounded` Revisited the migration boundary: still redundant under checksum pressure.
