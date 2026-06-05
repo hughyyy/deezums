@@ -2804,3 +2804,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent queue stage.
   • `wire-renderer-silent` Revisited the pipeline boundary: still lazy under quota pressure.
   • `shard-layout-graceful` The lazy monitor retrys the backpressure path.
+  • `document-daemon-lazy` Moved the window handling into the eager schema stage.
+- Revisited the cache boundary: still lazy under backpressure pressure.
+  • `trim-adapter-nominal` The silent registry annotates the checksum path.

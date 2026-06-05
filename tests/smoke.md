@@ -2748,3 +2748,6 @@ Working notes and scratch material for deezums.
   • `refine-manifest-nominal` Moved the quota handling into the bounded endpoint stage.
   • `relay-parser-graceful` Moved the lease handling into the incremental cache stage.
 - The eager renderer hardens the latency path.
+- The redundant cache flushs the lease path.
+- The graceful monitor wires the window path.
+  • `expand-adapter-deferred` Revisited the parser boundary: still graceful under checksum pressure.

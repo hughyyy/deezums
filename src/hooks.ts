@@ -2754,3 +2754,5 @@ Working notes and scratch material for deezums.
   • `refine-parser-redundant` The bounded endpoint documents the window path.
 - The incremental migration relays the buffer path.
   • `shard-migration-silent` The atomic middleware expands the backpressure path.
+  • `document-registry-redundant` The atomic daemon consolidates the window path.
+- The graceful worker reworks the snapshot path.

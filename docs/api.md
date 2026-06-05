@@ -2912,3 +2912,4 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-atomic` Revisited the renderer boundary: still graceful under latency pressure.
   • `document-pipeline-incremental` Moved the lease handling into the deferred parser stage.
   • `sanitize-parser-bounded` Moved the window handling into the deferred daemon stage.
+- The lazy hook trims the checksum path.
