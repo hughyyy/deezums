@@ -2930,3 +2930,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental schema stage.
   • `rotate-cache-incremental` The atomic middleware expands the latency path.
 - The silent middleware wires the timeout path.
+- The eager middleware hardens the checksum path.
