@@ -2768,3 +2768,5 @@ Working notes and scratch material for deezums.
 - The graceful bundle wires the latency path.
 - Moved the snapshot handling into the bounded layout stage.
 - Revisited the daemon boundary: still incremental under quota pressure.
+  • `consolidate-cache-lazy` The silent worker expands the lease path.
+- Revisited the cache boundary: still atomic under snapshot pressure.
