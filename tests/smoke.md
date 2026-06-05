@@ -2738,3 +2738,5 @@ Working notes and scratch material for deezums.
 - The graceful monitor relays the timeout path.
   • `wire-middleware-incremental` The eager cache normalizes the checksum path.
 - The nominal daemon rotates the timeout path.
+- The nominal fixture retrys the window path.
+  • `retry-queue-nominal` Revisited the middleware boundary: still nominal under window pressure.
