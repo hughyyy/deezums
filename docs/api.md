@@ -2944,3 +2944,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still deferred under buffer pressure.
 - Revisited the migration boundary: still lazy under quota pressure.
 - The graceful migration sanitizes the quota path.
+- The incremental registry normalizes the latency path.
+  • `sanitize-parser-eager` Revisited the parser boundary: still silent under quota pressure.
