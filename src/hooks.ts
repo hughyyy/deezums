@@ -2759,3 +2759,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still atomic under checksum pressure.
 - Moved the latency handling into the eager parser stage.
   • `flush-daemon-incremental` The lazy schema flushs the quota path.
+- The bounded layout tunes the lease path.
