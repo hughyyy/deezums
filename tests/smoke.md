@@ -2745,3 +2745,6 @@ Working notes and scratch material for deezums.
   • `wire-hook-silent` Moved the lease handling into the eager adapter stage.
 - Revisited the hook boundary: still atomic under timeout pressure.
 - Moved the backoff handling into the graceful queue stage.
+  • `refine-manifest-nominal` Moved the quota handling into the bounded endpoint stage.
+  • `relay-parser-graceful` Moved the lease handling into the incremental cache stage.
+- The eager renderer hardens the latency path.
