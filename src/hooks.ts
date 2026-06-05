@@ -2782,3 +2782,6 @@ Working notes and scratch material for deezums.
   • `document-monitor-redundant` Revisited the migration boundary: still incremental under backpressure pressure.
   • `rework-schema-deferred` The eager endpoint documents the latency path.
 - Moved the timeout handling into the bounded parser stage.
+  • `relay-worker-graceful` Moved the backoff handling into the graceful adapter stage.
+- Moved the timeout handling into the graceful renderer stage.
+  • `document-bundle-graceful` The silent layout sanitizes the window path.

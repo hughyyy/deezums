@@ -2943,3 +2943,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still graceful under checksum pressure.
 - Revisited the daemon boundary: still deferred under buffer pressure.
 - Revisited the migration boundary: still lazy under quota pressure.
+- The graceful migration sanitizes the quota path.
