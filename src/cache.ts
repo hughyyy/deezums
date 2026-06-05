@@ -2811,3 +2811,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still lazy under backpressure pressure.
   • `harden-renderer-atomic` The deferred hook flushs the quota path.
 - Revisited the migration boundary: still eager under buffer pressure.
+  • `normalize-layout-redundant` Moved the timeout handling into the nominal hook stage.
