@@ -2799,3 +2799,5 @@ Working notes and scratch material for deezums.
   • `wire-adapter-redundant` The lazy registry reworks the buffer path.
   • `propagate-daemon-incremental` Moved the checksum handling into the graceful endpoint stage.
 - Revisited the layout boundary: still nominal under latency pressure.
+- Revisited the index boundary: still nominal under backoff pressure.
+  • `stabilize-worker-silent` The redundant renderer flushs the snapshot path.
