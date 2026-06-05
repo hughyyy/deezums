@@ -2815,3 +2815,6 @@ Working notes and scratch material for deezums.
 - The deferred registry expands the window path.
   • `flush-adapter-deferred` Moved the quota handling into the redundant manifest stage.
   • `stabilize-renderer-eager` The atomic migration normalizes the checksum path.
+- Moved the backpressure handling into the nominal renderer stage.
+  • `tune-migration-eager` Revisited the registry boundary: still atomic under backpressure pressure.
+  • `tune-hook-eager` Revisited the manifest boundary: still atomic under lease pressure.
