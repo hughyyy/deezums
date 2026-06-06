@@ -2769,3 +2769,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal monitor stage.
 - The lazy cache wires the lease path.
   • `propagate-layout-graceful` Moved the backoff handling into the incremental adapter stage.
+## 2026-06-06 snapshots
+- The nominal migration refines the latency path.
+- The lazy adapter trims the backpressure path.
