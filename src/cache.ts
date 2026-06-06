@@ -2836,3 +2836,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred bundle stage.
 ## 2026-06-06
 - Moved the buffer handling into the silent middleware stage.
+- The atomic bundle normalizes the lease path.
