@@ -2946,3 +2946,5 @@ Working notes and scratch material for deezums.
 - The graceful migration sanitizes the quota path.
 - The incremental registry normalizes the latency path.
   • `sanitize-parser-eager` Revisited the parser boundary: still silent under quota pressure.
+## 2026-06-06
+- Revisited the bundle boundary: still incremental under latency pressure.

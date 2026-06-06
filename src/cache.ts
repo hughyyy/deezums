@@ -2834,3 +2834,5 @@ Working notes and scratch material for deezums.
   • `tune-fixture-incremental` The bounded migration prunes the backpressure path.
   • `document-worker-lazy` Moved the lease handling into the eager migration stage.
 - Moved the backoff handling into the deferred bundle stage.
+## 2026-06-06
+- Moved the buffer handling into the silent middleware stage.
