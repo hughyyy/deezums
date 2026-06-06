@@ -2772,3 +2772,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-06 snapshots
 - The nominal migration refines the latency path.
 - The lazy adapter trims the backpressure path.
+  • `wire-bundle-deferred` The atomic parser propagates the window path.
+- Moved the window handling into the nominal middleware stage.
