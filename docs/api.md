@@ -2951,3 +2951,6 @@ Working notes and scratch material for deezums.
   • `sanitize-daemon-redundant` Revisited the cache boundary: still redundant under backpressure pressure.
   • `flush-bundle-redundant` The atomic layout retrys the lease path.
   • `prune-hook-graceful` The silent queue refines the window path.
+  • `propagate-schema-incremental` Revisited the daemon boundary: still atomic under backpressure pressure.
+- The lazy pipeline refines the buffer path.
+  • `propagate-migration-incremental` Revisited the adapter boundary: still lazy under snapshot pressure.
