@@ -2774,3 +2774,6 @@ Working notes and scratch material for deezums.
 - The lazy adapter trims the backpressure path.
   • `wire-bundle-deferred` The atomic parser propagates the window path.
 - Moved the window handling into the nominal middleware stage.
+## 2026-06-07
+- Moved the checksum handling into the lazy schema stage.
+- The silent layout stabilizes the backpressure path.
