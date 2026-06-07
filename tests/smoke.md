@@ -2777,3 +2777,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-07
 - Moved the checksum handling into the lazy schema stage.
 - The silent layout stabilizes the backpressure path.
+  • `trim-fixture-redundant` Revisited the hook boundary: still lazy under latency pressure.
+- Moved the lease handling into the redundant pipeline stage.
+  • `document-middleware-nominal` Revisited the hook boundary: still deferred under window pressure.
