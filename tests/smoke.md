@@ -2781,3 +2781,7 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant pipeline stage.
   • `document-middleware-nominal` Revisited the hook boundary: still deferred under window pressure.
 - Revisited the bundle boundary: still incremental under snapshot pressure.
+## 2026-06-08 snapshots
+  • `annotate-cache-incremental` Moved the backoff handling into the deferred middleware stage.
+- Revisited the worker boundary: still redundant under buffer pressure.
+- Revisited the layout boundary: still lazy under buffer pressure.
