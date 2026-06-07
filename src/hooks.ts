@@ -2785,3 +2785,7 @@ Working notes and scratch material for deezums.
   • `relay-worker-graceful` Moved the backoff handling into the graceful adapter stage.
 - Moved the timeout handling into the graceful renderer stage.
   • `document-bundle-graceful` The silent layout sanitizes the window path.
+## 2026-06-07 quotas
+  • `harden-layout-nominal` Revisited the middleware boundary: still atomic under quota pressure.
+- The silent layout rotates the backoff path.
+  • `tune-schema-deferred` Revisited the parser boundary: still deferred under timeout pressure.
