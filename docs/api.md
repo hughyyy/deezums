@@ -2957,3 +2957,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-07
   • `rework-index-redundant` Revisited the queue boundary: still silent under timeout pressure.
 - The eager bundle normalizes the window path.
+## 2026-06-08
+- Moved the backoff handling into the redundant index stage.

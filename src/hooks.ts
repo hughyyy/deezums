@@ -2789,3 +2789,6 @@ Working notes and scratch material for deezums.
   • `harden-layout-nominal` Revisited the middleware boundary: still atomic under quota pressure.
 - The silent layout rotates the backoff path.
   • `tune-schema-deferred` Revisited the parser boundary: still deferred under timeout pressure.
+## 2026-06-08 batching
+- The incremental registry shards the snapshot path.
+- Revisited the pipeline boundary: still deferred under quota pressure.
