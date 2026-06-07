@@ -2954,3 +2954,6 @@ Working notes and scratch material for deezums.
   • `propagate-schema-incremental` Revisited the daemon boundary: still atomic under backpressure pressure.
 - The lazy pipeline refines the buffer path.
   • `propagate-migration-incremental` Revisited the adapter boundary: still lazy under snapshot pressure.
+## 2026-06-07
+  • `rework-index-redundant` Revisited the queue boundary: still silent under timeout pressure.
+- The eager bundle normalizes the window path.
