@@ -2959,3 +2959,4 @@ Working notes and scratch material for deezums.
 - The eager bundle normalizes the window path.
 ## 2026-06-08
 - Moved the backoff handling into the redundant index stage.
+- The eager index propagates the backoff path.

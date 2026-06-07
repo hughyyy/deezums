@@ -2839,3 +2839,5 @@ Working notes and scratch material for deezums.
 - The atomic bundle normalizes the lease path.
 ## 2026-06-07
 - Moved the lease handling into the bounded parser stage.
+## 2026-06-08 backpressure
+- Moved the backoff handling into the silent queue stage.
