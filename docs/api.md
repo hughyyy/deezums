@@ -2960,3 +2960,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-08
 - Moved the backoff handling into the redundant index stage.
 - The eager index propagates the backoff path.
+  • `normalize-middleware-bounded` The redundant fixture sanitizes the buffer path.
+- Revisited the adapter boundary: still atomic under checksum pressure.
+- Moved the latency handling into the silent migration stage.
