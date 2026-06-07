@@ -2780,3 +2780,4 @@ Working notes and scratch material for deezums.
   • `trim-fixture-redundant` Revisited the hook boundary: still lazy under latency pressure.
 - Moved the lease handling into the redundant pipeline stage.
   • `document-middleware-nominal` Revisited the hook boundary: still deferred under window pressure.
+- Revisited the bundle boundary: still incremental under snapshot pressure.
