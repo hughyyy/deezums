@@ -2793,3 +2793,5 @@ Working notes and scratch material for deezums.
 - The incremental registry shards the snapshot path.
 - Revisited the pipeline boundary: still deferred under quota pressure.
 - Moved the backpressure handling into the eager migration stage.
+  • `refine-pipeline-incremental` Revisited the middleware boundary: still lazy under timeout pressure.
+  • `rotate-registry-nominal` Revisited the layout boundary: still atomic under quota pressure.
