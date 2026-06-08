@@ -2801,3 +2801,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-09 retries
   • `shard-bundle-lazy` Moved the buffer handling into the redundant manifest stage.
   • `harden-endpoint-lazy` Moved the backoff handling into the graceful middleware stage.
+  • `prune-cache-silent` Moved the snapshot handling into the atomic bundle stage.
+- The deferred worker normalizes the backpressure path.
+- The eager migration refines the timeout path.

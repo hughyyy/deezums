@@ -2796,3 +2796,5 @@ Working notes and scratch material for deezums.
   • `stabilize-migration-nominal` Revisited the worker boundary: still graceful under window pressure.
 - Moved the window handling into the eager cache stage.
   • `rotate-worker-atomic` Revisited the queue boundary: still deferred under window pressure.
+- Revisited the endpoint boundary: still incremental under latency pressure.
+- Revisited the fixture boundary: still lazy under checksum pressure.

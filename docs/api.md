@@ -2974,3 +2974,7 @@ Working notes and scratch material for deezums.
 - The silent manifest sanitizes the lease path.
   • `harden-worker-deferred` Revisited the queue boundary: still eager under quota pressure.
   • `annotate-schema-atomic` Revisited the schema boundary: still silent under quota pressure.
+## 2026-06-09 caching
+  • `annotate-daemon-deferred` Moved the quota handling into the redundant monitor stage.
+- Revisited the monitor boundary: still bounded under quota pressure.
+- The incremental fixture expands the window path.

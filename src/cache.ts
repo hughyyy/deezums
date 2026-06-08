@@ -2844,3 +2844,5 @@ Working notes and scratch material for deezums.
   • `shard-parser-incremental` Moved the quota handling into the silent hook stage.
 - Revisited the monitor boundary: still silent under buffer pressure.
   • `relay-index-redundant` Revisited the bundle boundary: still nominal under snapshot pressure.
+## 2026-06-09
+  • `prune-parser-redundant` Revisited the index boundary: still atomic under backpressure pressure.
