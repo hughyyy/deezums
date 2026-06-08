@@ -2963,3 +2963,5 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-bounded` The redundant fixture sanitizes the buffer path.
 - Revisited the adapter boundary: still atomic under checksum pressure.
 - Moved the latency handling into the silent migration stage.
+  • `flush-bundle-nominal` Moved the lease handling into the deferred cache stage.
+- Revisited the migration boundary: still bounded under backpressure pressure.
