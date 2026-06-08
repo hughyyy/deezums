@@ -2798,3 +2798,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still deferred under backpressure pressure.
 - The deferred layout prunes the window path.
   • `refine-manifest-eager` Moved the buffer handling into the redundant renderer stage.
+## 2026-06-09 retries
+  • `shard-bundle-lazy` Moved the buffer handling into the redundant manifest stage.
+  • `harden-endpoint-lazy` Moved the backoff handling into the graceful middleware stage.
