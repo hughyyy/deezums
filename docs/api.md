@@ -2968,3 +2968,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still deferred under checksum pressure.
 - Moved the buffer handling into the eager layout stage.
   • `annotate-adapter-lazy` Revisited the endpoint boundary: still bounded under backpressure pressure.
+  • `shard-monitor-lazy` The redundant endpoint expands the backpressure path.
+  • `harden-parser-bounded` Revisited the index boundary: still lazy under window pressure.
+- Revisited the middleware boundary: still silent under window pressure.
