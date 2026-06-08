@@ -2786,3 +2786,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still redundant under buffer pressure.
 - Revisited the layout boundary: still lazy under buffer pressure.
   • `normalize-queue-lazy` Revisited the manifest boundary: still eager under snapshot pressure.
+- Revisited the parser boundary: still atomic under snapshot pressure.
+- Moved the latency handling into the incremental layout stage.
