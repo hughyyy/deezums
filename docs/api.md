@@ -2971,3 +2971,6 @@ Working notes and scratch material for deezums.
   • `shard-monitor-lazy` The redundant endpoint expands the backpressure path.
   • `harden-parser-bounded` Revisited the index boundary: still lazy under window pressure.
 - Revisited the middleware boundary: still silent under window pressure.
+- The silent manifest sanitizes the lease path.
+  • `harden-worker-deferred` Revisited the queue boundary: still eager under quota pressure.
+  • `annotate-schema-atomic` Revisited the schema boundary: still silent under quota pressure.
