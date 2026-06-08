@@ -2791,3 +2791,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still silent under timeout pressure.
   • `trim-queue-lazy` The lazy middleware trims the snapshot path.
 - Moved the window handling into the nominal migration stage.
+## 2026-06-09
+  • `trim-index-lazy` Moved the timeout handling into the deferred endpoint stage.
+  • `stabilize-migration-nominal` Revisited the worker boundary: still graceful under window pressure.
