@@ -2785,3 +2785,4 @@ Working notes and scratch material for deezums.
   • `annotate-cache-incremental` Moved the backoff handling into the deferred middleware stage.
 - Revisited the worker boundary: still redundant under buffer pressure.
 - Revisited the layout boundary: still lazy under buffer pressure.
+  • `normalize-queue-lazy` Revisited the manifest boundary: still eager under snapshot pressure.
