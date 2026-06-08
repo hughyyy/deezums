@@ -2798,3 +2798,6 @@ Working notes and scratch material for deezums.
   • `rotate-worker-atomic` Revisited the queue boundary: still deferred under window pressure.
 - Revisited the endpoint boundary: still incremental under latency pressure.
 - Revisited the fixture boundary: still lazy under checksum pressure.
+  • `normalize-worker-silent` The deferred manifest hardens the buffer path.
+  • `rotate-schema-graceful` The eager migration annotates the latency path.
+  • `trim-migration-incremental` Revisited the manifest boundary: still bounded under timeout pressure.
