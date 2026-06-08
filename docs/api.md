@@ -2965,3 +2965,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the silent migration stage.
   • `flush-bundle-nominal` Moved the lease handling into the deferred cache stage.
 - Revisited the migration boundary: still bounded under backpressure pressure.
+- Revisited the endpoint boundary: still deferred under checksum pressure.
+- Moved the buffer handling into the eager layout stage.
+  • `annotate-adapter-lazy` Revisited the endpoint boundary: still bounded under backpressure pressure.
