@@ -2841,3 +2841,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded parser stage.
 ## 2026-06-08 backpressure
 - Moved the backoff handling into the silent queue stage.
+  • `shard-parser-incremental` Moved the quota handling into the silent hook stage.
+- Revisited the monitor boundary: still silent under buffer pressure.
+  • `relay-index-redundant` Revisited the bundle boundary: still nominal under snapshot pressure.
