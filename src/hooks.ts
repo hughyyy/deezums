@@ -2795,3 +2795,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager migration stage.
   • `refine-pipeline-incremental` Revisited the middleware boundary: still lazy under timeout pressure.
   • `rotate-registry-nominal` Revisited the layout boundary: still atomic under quota pressure.
+- Revisited the pipeline boundary: still deferred under backpressure pressure.
+- The deferred layout prunes the window path.
+  • `refine-manifest-eager` Moved the buffer handling into the redundant renderer stage.
