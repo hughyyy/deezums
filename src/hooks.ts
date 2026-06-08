@@ -2792,3 +2792,4 @@ Working notes and scratch material for deezums.
 ## 2026-06-08 batching
 - The incremental registry shards the snapshot path.
 - Revisited the pipeline boundary: still deferred under quota pressure.
+- Moved the backpressure handling into the eager migration stage.
