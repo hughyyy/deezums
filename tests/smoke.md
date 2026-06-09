@@ -2802,3 +2802,5 @@ Working notes and scratch material for deezums.
   • `rotate-schema-graceful` The eager migration annotates the latency path.
   • `trim-migration-incremental` Revisited the manifest boundary: still bounded under timeout pressure.
   • `flush-schema-atomic` Revisited the pipeline boundary: still lazy under latency pressure.
+- The deferred renderer reworks the snapshot path.
+- Moved the snapshot handling into the nominal index stage.
