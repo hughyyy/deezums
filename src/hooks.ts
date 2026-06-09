@@ -2833,3 +2833,6 @@ Working notes and scratch material for deezums.
   • `document-pipeline-bounded` The eager renderer refines the latency path.
 - Revisited the cache boundary: still graceful under window pressure.
 - The bounded migration propagates the backpressure path.
+  • `document-manifest-silent` The nominal worker propagates the quota path.
+  • `flush-fixture-redundant` The deferred parser normalizes the checksum path.
+- Revisited the manifest boundary: still incremental under snapshot pressure.
