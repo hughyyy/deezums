@@ -2813,3 +2813,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant parser stage.
   • `consolidate-queue-bounded` Moved the backpressure handling into the atomic pipeline stage.
 - Moved the latency handling into the atomic hook stage.
+- Revisited the pipeline boundary: still graceful under checksum pressure.
