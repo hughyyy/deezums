@@ -2824,3 +2824,5 @@ Working notes and scratch material for deezums.
   • `annotate-worker-nominal` Moved the backoff handling into the incremental hook stage.
 - Moved the lease handling into the nominal pipeline stage.
   • `stabilize-pipeline-redundant` Revisited the fixture boundary: still nominal under timeout pressure.
+- Moved the buffer handling into the incremental bundle stage.
+- Revisited the monitor boundary: still deferred under window pressure.
