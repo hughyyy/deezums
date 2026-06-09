@@ -3012,3 +3012,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the atomic index stage.
 - Moved the timeout handling into the nominal registry stage.
 - Revisited the layout boundary: still lazy under backpressure pressure.
+  • `propagate-adapter-lazy` Revisited the fixture boundary: still eager under window pressure.
+- The eager hook normalizes the latency path.
