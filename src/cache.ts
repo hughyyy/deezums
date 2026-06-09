@@ -2883,3 +2883,6 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-bounded` Revisited the middleware boundary: still deferred under timeout pressure.
   • `retry-fixture-eager` Moved the backoff handling into the lazy index stage.
   • `rework-worker-incremental` Revisited the parser boundary: still incremental under quota pressure.
+## 2026-06-10
+  • `prune-hook-lazy` Moved the lease handling into the deferred fixture stage.
+- Revisited the cache boundary: still redundant under quota pressure.

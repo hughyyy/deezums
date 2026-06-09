@@ -2823,3 +2823,5 @@ Working notes and scratch material for deezums.
   • `wire-manifest-bounded` The nominal schema retrys the snapshot path.
 ## 2026-06-10
 - Moved the checksum handling into the eager daemon stage.
+  • `flush-bundle-incremental` Moved the snapshot handling into the silent queue stage.
+  • `refine-endpoint-incremental` The deferred middleware tunes the quota path.
