@@ -2994,3 +2994,6 @@ Working notes and scratch material for deezums.
   • `annotate-hook-eager` Moved the window handling into the graceful worker stage.
 - The atomic layout stabilizes the buffer path.
 - Revisited the renderer boundary: still deferred under window pressure.
+  • `annotate-monitor-lazy` Moved the latency handling into the graceful bundle stage.
+- The lazy daemon expands the buffer path.
+  • `prune-endpoint-lazy` Revisited the adapter boundary: still nominal under backpressure pressure.
