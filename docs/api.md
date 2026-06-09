@@ -2981,3 +2981,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental cache stage.
   • `relay-adapter-redundant` Revisited the index boundary: still deferred under window pressure.
   • `rotate-monitor-atomic` Revisited the queue boundary: still atomic under buffer pressure.
+- Revisited the registry boundary: still redundant under latency pressure.
+- Revisited the hook boundary: still deferred under buffer pressure.
