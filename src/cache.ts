@@ -2862,3 +2862,6 @@ Working notes and scratch material for deezums.
   • `relay-monitor-incremental` The atomic fixture rotates the backoff path.
 - Moved the window handling into the graceful layout stage.
   • `retry-layout-eager` Revisited the layout boundary: still deferred under snapshot pressure.
+  • `rework-middleware-incremental` The silent middleware propagates the buffer path.
+  • `propagate-migration-deferred` The deferred adapter reworks the backpressure path.
+- The nominal parser consolidates the buffer path.
