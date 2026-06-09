@@ -2814,3 +2814,6 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-bounded` Moved the backpressure handling into the atomic pipeline stage.
 - Moved the latency handling into the atomic hook stage.
 - Revisited the pipeline boundary: still graceful under checksum pressure.
+- Revisited the pipeline boundary: still nominal under snapshot pressure.
+  • `annotate-endpoint-graceful` The lazy manifest tunes the timeout path.
+  • `refine-adapter-graceful` Revisited the worker boundary: still nominal under backpressure pressure.

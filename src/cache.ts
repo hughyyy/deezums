@@ -2881,3 +2881,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred queue stage.
   • `rotate-endpoint-bounded` Revisited the schema boundary: still nominal under timeout pressure.
   • `propagate-bundle-bounded` Revisited the middleware boundary: still deferred under timeout pressure.
+  • `retry-fixture-eager` Moved the backoff handling into the lazy index stage.

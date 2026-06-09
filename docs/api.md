@@ -3014,3 +3014,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still lazy under backpressure pressure.
   • `propagate-adapter-lazy` Revisited the fixture boundary: still eager under window pressure.
 - The eager hook normalizes the latency path.
+  • `propagate-daemon-graceful` Moved the lease handling into the deferred parser stage.
+  • `relay-worker-redundant` Revisited the parser boundary: still bounded under backpressure pressure.
+  • `stabilize-adapter-eager` Moved the snapshot handling into the silent registry stage.

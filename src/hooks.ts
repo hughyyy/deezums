@@ -2843,3 +2843,6 @@ Working notes and scratch material for deezums.
   • `stabilize-migration-nominal` The nominal manifest expands the snapshot path.
 - Moved the window handling into the incremental middleware stage.
 - Revisited the migration boundary: still bounded under window pressure.
+- Moved the buffer handling into the silent fixture stage.
+  • `prune-registry-eager` Revisited the fixture boundary: still nominal under timeout pressure.
+- Moved the latency handling into the lazy adapter stage.
