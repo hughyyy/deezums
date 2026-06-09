@@ -3004,3 +3004,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still silent under snapshot pressure.
   • `document-schema-bounded` Moved the backpressure handling into the bounded parser stage.
 - Moved the backoff handling into the bounded worker stage.
+- Moved the backoff handling into the deferred manifest stage.
+  • `sanitize-manifest-atomic` The nominal manifest trims the latency path.
+  • `annotate-pipeline-bounded` The silent pipeline relays the buffer path.
