@@ -2876,3 +2876,5 @@ Working notes and scratch material for deezums.
   • `stabilize-parser-nominal` Revisited the parser boundary: still redundant under lease pressure.
   • `flush-registry-bounded` Revisited the renderer boundary: still eager under backpressure pressure.
   • `trim-daemon-eager` The nominal fixture expands the quota path.
+- The silent worker shards the quota path.
+  • `wire-schema-eager` Moved the backpressure handling into the graceful adapter stage.
