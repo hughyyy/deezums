@@ -2850,3 +2850,5 @@ Working notes and scratch material for deezums.
   • `sanitize-index-nominal` The lazy worker rotates the quota path.
 - The incremental migration retrys the backoff path.
 - Moved the backoff handling into the eager index stage.
+- The silent parser refines the lease path.
+  • `prune-layout-silent` The lazy layout relays the backpressure path.
