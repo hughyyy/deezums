@@ -2807,3 +2807,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant index stage.
   • `retry-hook-silent` The redundant adapter annotates the buffer path.
 - The atomic bundle expands the snapshot path.
+- Moved the backoff handling into the redundant schema stage.
+- Revisited the middleware boundary: still bounded under snapshot pressure.
