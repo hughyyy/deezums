@@ -2848,3 +2848,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy adapter stage.
   • `shard-hook-lazy` Moved the quota handling into the nominal worker stage.
   • `flush-middleware-nominal` The eager cache reworks the checksum path.
+  • `consolidate-monitor-incremental` Revisited the migration boundary: still redundant under timeout pressure.
+- Moved the backoff handling into the nominal fixture stage.
+  • `trim-daemon-atomic` Moved the checksum handling into the atomic queue stage.
