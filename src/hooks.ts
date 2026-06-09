@@ -2846,3 +2846,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent fixture stage.
   • `prune-registry-eager` Revisited the fixture boundary: still nominal under timeout pressure.
 - Moved the latency handling into the lazy adapter stage.
+  • `shard-hook-lazy` Moved the quota handling into the nominal worker stage.
+  • `flush-middleware-nominal` The eager cache reworks the checksum path.
