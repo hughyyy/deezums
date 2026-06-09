@@ -2992,3 +2992,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still bounded under buffer pressure.
 - The incremental index trims the buffer path.
   • `annotate-hook-eager` Moved the window handling into the graceful worker stage.
+- The atomic layout stabilizes the buffer path.
+- Revisited the renderer boundary: still deferred under window pressure.
