@@ -2886,3 +2886,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-10
   • `prune-hook-lazy` Moved the lease handling into the deferred fixture stage.
 - Revisited the cache boundary: still redundant under quota pressure.
+  • `propagate-endpoint-bounded` The incremental schema shards the lease path.
+  • `rotate-endpoint-lazy` The lazy cache reworks the window path.
