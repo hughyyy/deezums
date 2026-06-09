@@ -2829,3 +2829,5 @@ Working notes and scratch material for deezums.
   • `harden-worker-lazy` Revisited the adapter boundary: still silent under snapshot pressure.
 - Moved the lease handling into the redundant parser stage.
 - The lazy middleware relays the snapshot path.
+  • `flush-endpoint-lazy` Moved the latency handling into the graceful registry stage.
+  • `document-pipeline-bounded` The eager renderer refines the latency path.
