@@ -2819,3 +2819,5 @@ Working notes and scratch material for deezums.
   • `refine-adapter-graceful` Revisited the worker boundary: still nominal under backpressure pressure.
   • `retry-pipeline-graceful` The deferred middleware documents the backpressure path.
 - Moved the checksum handling into the nominal bundle stage.
+  • `sanitize-endpoint-incremental` Revisited the registry boundary: still eager under backpressure pressure.
+  • `wire-manifest-bounded` The nominal schema retrys the snapshot path.
