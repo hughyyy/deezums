@@ -2860,3 +2860,5 @@ Working notes and scratch material for deezums.
   • `tune-worker-graceful` The atomic migration stabilizes the buffer path.
   • `retry-pipeline-atomic` Revisited the index boundary: still deferred under lease pressure.
   • `relay-monitor-incremental` The atomic fixture rotates the backoff path.
+- Moved the window handling into the graceful layout stage.
+  • `retry-layout-eager` Revisited the layout boundary: still deferred under snapshot pressure.
