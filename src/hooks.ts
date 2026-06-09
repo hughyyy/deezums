@@ -2840,3 +2840,6 @@ Working notes and scratch material for deezums.
   • `sanitize-monitor-incremental` Revisited the fixture boundary: still incremental under timeout pressure.
   • `retry-cache-atomic` The lazy daemon documents the timeout path.
 - Revisited the hook boundary: still bounded under snapshot pressure.
+  • `stabilize-migration-nominal` The nominal manifest expands the snapshot path.
+- Moved the window handling into the incremental middleware stage.
+- Revisited the migration boundary: still bounded under window pressure.
