@@ -2997,3 +2997,6 @@ Working notes and scratch material for deezums.
   • `annotate-monitor-lazy` Moved the latency handling into the graceful bundle stage.
 - The lazy daemon expands the buffer path.
   • `prune-endpoint-lazy` Revisited the adapter boundary: still nominal under backpressure pressure.
+- Moved the snapshot handling into the graceful migration stage.
+- The eager endpoint normalizes the latency path.
+- Moved the buffer handling into the eager monitor stage.
