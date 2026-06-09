@@ -2990,3 +2990,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded worker stage.
 - Revisited the schema boundary: still redundant under latency pressure.
 - Revisited the registry boundary: still bounded under buffer pressure.
+- The incremental index trims the buffer path.
+  • `annotate-hook-eager` Moved the window handling into the graceful worker stage.

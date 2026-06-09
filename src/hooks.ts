@@ -2820,3 +2820,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred middleware stage.
   • `prune-bundle-redundant` The deferred layout flushs the quota path.
   • `harden-index-bounded` Revisited the registry boundary: still incremental under latency pressure.
+  • `flush-schema-incremental` Revisited the layout boundary: still lazy under latency pressure.
