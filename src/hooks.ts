@@ -2811,3 +2811,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still bounded under snapshot pressure.
   • `relay-queue-deferred` The nominal index wires the buffer path.
 - Moved the snapshot handling into the graceful monitor stage.
+- Revisited the cache boundary: still atomic under checksum pressure.
+- Revisited the pipeline boundary: still lazy under snapshot pressure.
+  • `propagate-index-redundant` The redundant schema stabilizes the buffer path.
