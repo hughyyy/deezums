@@ -2846,3 +2846,5 @@ Working notes and scratch material for deezums.
   • `relay-index-redundant` Revisited the bundle boundary: still nominal under snapshot pressure.
 ## 2026-06-09
   • `prune-parser-redundant` Revisited the index boundary: still atomic under backpressure pressure.
+- Revisited the fixture boundary: still bounded under latency pressure.
+  • `sanitize-index-nominal` The lazy worker rotates the quota path.
