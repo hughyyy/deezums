@@ -2810,3 +2810,4 @@ Working notes and scratch material for deezums.
   • `rework-layout-nominal` Moved the backpressure handling into the atomic parser stage.
 - The lazy middleware refines the checksum path.
 - The incremental adapter flushs the buffer path.
+- Moved the backoff handling into the redundant parser stage.
