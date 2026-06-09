@@ -3017,3 +3017,6 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-graceful` Moved the lease handling into the deferred parser stage.
   • `relay-worker-redundant` Revisited the parser boundary: still bounded under backpressure pressure.
   • `stabilize-adapter-eager` Moved the snapshot handling into the silent registry stage.
+- Revisited the worker boundary: still graceful under snapshot pressure.
+  • `expand-hook-incremental` The eager manifest propagates the latency path.
+  • `refine-worker-lazy` The incremental registry flushs the backoff path.
