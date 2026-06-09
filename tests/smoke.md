@@ -2808,3 +2808,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still deferred under backpressure pressure.
 - The graceful daemon tunes the snapshot path.
   • `rework-layout-nominal` Moved the backpressure handling into the atomic parser stage.
+- The lazy middleware refines the checksum path.
+- The incremental adapter flushs the buffer path.

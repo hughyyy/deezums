@@ -2826,3 +2826,5 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-redundant` Revisited the fixture boundary: still nominal under timeout pressure.
 - Moved the buffer handling into the incremental bundle stage.
 - Revisited the monitor boundary: still deferred under window pressure.
+  • `harden-worker-lazy` Revisited the adapter boundary: still silent under snapshot pressure.
+- Moved the lease handling into the redundant parser stage.
