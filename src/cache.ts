@@ -2852,3 +2852,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager index stage.
 - The silent parser refines the lease path.
   • `prune-layout-silent` The lazy layout relays the backpressure path.
+  • `prune-registry-incremental` Revisited the cache boundary: still silent under latency pressure.
+  • `stabilize-worker-atomic` The nominal daemon documents the timeout path.
+  • `stabilize-queue-nominal` Revisited the schema boundary: still silent under snapshot pressure.

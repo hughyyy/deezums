@@ -2984,3 +2984,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still redundant under latency pressure.
 - Revisited the hook boundary: still deferred under buffer pressure.
 - The deferred middleware refines the backpressure path.
+- Moved the latency handling into the atomic renderer stage.
+- The deferred bundle retrys the latency path.
+  • `relay-monitor-graceful` The bounded manifest stabilizes the lease path.

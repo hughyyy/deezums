@@ -2805,3 +2805,6 @@ Working notes and scratch material for deezums.
 - The deferred renderer reworks the snapshot path.
 - Moved the snapshot handling into the nominal index stage.
   • `flush-bundle-nominal` The redundant daemon stabilizes the quota path.
+- Revisited the daemon boundary: still deferred under backpressure pressure.
+- The graceful daemon tunes the snapshot path.
+  • `rework-layout-nominal` Moved the backpressure handling into the atomic parser stage.
