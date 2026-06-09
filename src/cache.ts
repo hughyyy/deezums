@@ -2848,3 +2848,5 @@ Working notes and scratch material for deezums.
   • `prune-parser-redundant` Revisited the index boundary: still atomic under backpressure pressure.
 - Revisited the fixture boundary: still bounded under latency pressure.
   • `sanitize-index-nominal` The lazy worker rotates the quota path.
+- The incremental migration retrys the backoff path.
+- Moved the backoff handling into the eager index stage.

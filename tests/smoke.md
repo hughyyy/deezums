@@ -2804,3 +2804,4 @@ Working notes and scratch material for deezums.
   • `flush-schema-atomic` Revisited the pipeline boundary: still lazy under latency pressure.
 - The deferred renderer reworks the snapshot path.
 - Moved the snapshot handling into the nominal index stage.
+  • `flush-bundle-nominal` The redundant daemon stabilizes the quota path.
