@@ -2854,3 +2854,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-10
   • `normalize-bundle-silent` Moved the window handling into the atomic cache stage.
   • `stabilize-fixture-silent` Revisited the layout boundary: still lazy under checksum pressure.
+- Revisited the layout boundary: still incremental under lease pressure.
+  • `stabilize-parser-incremental` Revisited the daemon boundary: still lazy under timeout pressure.
