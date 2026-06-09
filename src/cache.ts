@@ -2878,3 +2878,6 @@ Working notes and scratch material for deezums.
   • `trim-daemon-eager` The nominal fixture expands the quota path.
 - The silent worker shards the quota path.
   • `wire-schema-eager` Moved the backpressure handling into the graceful adapter stage.
+- Moved the quota handling into the deferred queue stage.
+  • `rotate-endpoint-bounded` Revisited the schema boundary: still nominal under timeout pressure.
+  • `propagate-bundle-bounded` Revisited the middleware boundary: still deferred under timeout pressure.
