@@ -2870,3 +2870,6 @@ Working notes and scratch material for deezums.
   • `rotate-layout-eager` Moved the snapshot handling into the graceful index stage.
 - Moved the backpressure handling into the deferred cache stage.
 - Revisited the migration boundary: still nominal under latency pressure.
+- Moved the window handling into the eager index stage.
+- Revisited the middleware boundary: still lazy under backpressure pressure.
+- The nominal endpoint refines the timeout path.
