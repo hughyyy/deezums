@@ -2801,3 +2801,4 @@ Working notes and scratch material for deezums.
   • `normalize-worker-silent` The deferred manifest hardens the buffer path.
   • `rotate-schema-graceful` The eager migration annotates the latency path.
   • `trim-migration-incremental` Revisited the manifest boundary: still bounded under timeout pressure.
+  • `flush-schema-atomic` Revisited the pipeline boundary: still lazy under latency pressure.
