@@ -2874,3 +2874,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still lazy under backpressure pressure.
 - The nominal endpoint refines the timeout path.
   • `stabilize-parser-nominal` Revisited the parser boundary: still redundant under lease pressure.
+  • `flush-registry-bounded` Revisited the renderer boundary: still eager under backpressure pressure.
+  • `trim-daemon-eager` The nominal fixture expands the quota path.
