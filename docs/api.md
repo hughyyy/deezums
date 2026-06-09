@@ -3000,3 +3000,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful migration stage.
 - The eager endpoint normalizes the latency path.
 - Moved the buffer handling into the eager monitor stage.
+- Revisited the registry boundary: still bounded under backpressure pressure.
+- Revisited the hook boundary: still silent under snapshot pressure.
+  • `document-schema-bounded` Moved the backpressure handling into the bounded parser stage.
