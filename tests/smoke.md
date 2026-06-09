@@ -2828,3 +2828,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still deferred under snapshot pressure.
   • `harden-endpoint-graceful` Moved the timeout handling into the silent renderer stage.
   • `normalize-layout-atomic` The eager hook wires the backpressure path.
+  • `shard-daemon-bounded` The eager cache expands the checksum path.

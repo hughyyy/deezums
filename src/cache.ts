@@ -2888,3 +2888,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still redundant under quota pressure.
   • `propagate-endpoint-bounded` The incremental schema shards the lease path.
   • `rotate-endpoint-lazy` The lazy cache reworks the window path.
+  • `sanitize-index-nominal` Revisited the renderer boundary: still atomic under checksum pressure.
+- The redundant registry documents the window path.

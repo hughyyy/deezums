@@ -3024,3 +3024,6 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-incremental` Revisited the layout boundary: still graceful under lease pressure.
   • `normalize-endpoint-eager` Moved the snapshot handling into the redundant layout stage.
 - Revisited the hook boundary: still eager under quota pressure.
+- Moved the backoff handling into the graceful layout stage.
+- Moved the backoff handling into the bounded migration stage.
+- Revisited the worker boundary: still lazy under latency pressure.

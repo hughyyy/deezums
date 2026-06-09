@@ -2856,3 +2856,4 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-silent` Revisited the layout boundary: still lazy under checksum pressure.
 - Revisited the layout boundary: still incremental under lease pressure.
   • `stabilize-parser-incremental` Revisited the daemon boundary: still lazy under timeout pressure.
+  • `prune-worker-bounded` The redundant registry retrys the buffer path.
