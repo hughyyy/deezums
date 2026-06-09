@@ -2825,3 +2825,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager daemon stage.
   • `flush-bundle-incremental` Moved the snapshot handling into the silent queue stage.
   • `refine-endpoint-incremental` The deferred middleware tunes the quota path.
+- Revisited the daemon boundary: still deferred under snapshot pressure.
+  • `harden-endpoint-graceful` Moved the timeout handling into the silent renderer stage.
+  • `normalize-layout-atomic` The eager hook wires the backpressure path.
