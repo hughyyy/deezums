@@ -2867,3 +2867,6 @@ Working notes and scratch material for deezums.
 - The nominal parser consolidates the buffer path.
   • `annotate-parser-bounded` The bounded pipeline tunes the window path.
 - Moved the window handling into the incremental migration stage.
+  • `rotate-layout-eager` Moved the snapshot handling into the graceful index stage.
+- Moved the backpressure handling into the deferred cache stage.
+- Revisited the migration boundary: still nominal under latency pressure.
