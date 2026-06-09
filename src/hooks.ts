@@ -2821,3 +2821,6 @@ Working notes and scratch material for deezums.
   • `prune-bundle-redundant` The deferred layout flushs the quota path.
   • `harden-index-bounded` Revisited the registry boundary: still incremental under latency pressure.
   • `flush-schema-incremental` Revisited the layout boundary: still lazy under latency pressure.
+  • `annotate-worker-nominal` Moved the backoff handling into the incremental hook stage.
+- Moved the lease handling into the nominal pipeline stage.
+  • `stabilize-pipeline-redundant` Revisited the fixture boundary: still nominal under timeout pressure.
