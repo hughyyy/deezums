@@ -2821,3 +2821,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal bundle stage.
   • `sanitize-endpoint-incremental` Revisited the registry boundary: still eager under backpressure pressure.
   • `wire-manifest-bounded` The nominal schema retrys the snapshot path.
+## 2026-06-10
+- Moved the checksum handling into the eager daemon stage.

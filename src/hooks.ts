@@ -2851,3 +2851,6 @@ Working notes and scratch material for deezums.
   • `consolidate-monitor-incremental` Revisited the migration boundary: still redundant under timeout pressure.
 - Moved the backoff handling into the nominal fixture stage.
   • `trim-daemon-atomic` Moved the checksum handling into the atomic queue stage.
+## 2026-06-10
+  • `normalize-bundle-silent` Moved the window handling into the atomic cache stage.
+  • `stabilize-fixture-silent` Revisited the layout boundary: still lazy under checksum pressure.
