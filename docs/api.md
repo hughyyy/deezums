@@ -3007,3 +3007,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred manifest stage.
   • `sanitize-manifest-atomic` The nominal manifest trims the latency path.
   • `annotate-pipeline-bounded` The silent pipeline relays the buffer path.
+  • `document-worker-silent` Revisited the registry boundary: still deferred under backpressure pressure.
