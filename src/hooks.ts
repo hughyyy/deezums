@@ -2828,3 +2828,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still deferred under window pressure.
   • `harden-worker-lazy` Revisited the adapter boundary: still silent under snapshot pressure.
 - Moved the lease handling into the redundant parser stage.
+- The lazy middleware relays the snapshot path.
