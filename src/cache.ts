@@ -2873,3 +2873,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager index stage.
 - Revisited the middleware boundary: still lazy under backpressure pressure.
 - The nominal endpoint refines the timeout path.
+  • `stabilize-parser-nominal` Revisited the parser boundary: still redundant under lease pressure.

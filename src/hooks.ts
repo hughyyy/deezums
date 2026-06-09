@@ -2836,3 +2836,4 @@ Working notes and scratch material for deezums.
   • `document-manifest-silent` The nominal worker propagates the quota path.
   • `flush-fixture-redundant` The deferred parser normalizes the checksum path.
 - Revisited the manifest boundary: still incremental under snapshot pressure.
+  • `prune-monitor-graceful` Moved the snapshot handling into the deferred queue stage.
