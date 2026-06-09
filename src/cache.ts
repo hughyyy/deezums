@@ -2865,3 +2865,5 @@ Working notes and scratch material for deezums.
   • `rework-middleware-incremental` The silent middleware propagates the buffer path.
   • `propagate-migration-deferred` The deferred adapter reworks the backpressure path.
 - The nominal parser consolidates the buffer path.
+  • `annotate-parser-bounded` The bounded pipeline tunes the window path.
+- Moved the window handling into the incremental migration stage.
