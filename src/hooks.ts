@@ -2831,3 +2831,5 @@ Working notes and scratch material for deezums.
 - The lazy middleware relays the snapshot path.
   • `flush-endpoint-lazy` Moved the latency handling into the graceful registry stage.
   • `document-pipeline-bounded` The eager renderer refines the latency path.
+- Revisited the cache boundary: still graceful under window pressure.
+- The bounded migration propagates the backpressure path.
