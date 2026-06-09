@@ -2817,3 +2817,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still nominal under snapshot pressure.
   • `annotate-endpoint-graceful` The lazy manifest tunes the timeout path.
   • `refine-adapter-graceful` Revisited the worker boundary: still nominal under backpressure pressure.
+  • `retry-pipeline-graceful` The deferred middleware documents the backpressure path.
+- Moved the checksum handling into the nominal bundle stage.
