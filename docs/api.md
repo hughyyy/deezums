@@ -2978,3 +2978,6 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-deferred` Moved the quota handling into the redundant monitor stage.
 - Revisited the monitor boundary: still bounded under quota pressure.
 - The incremental fixture expands the window path.
+- Moved the window handling into the incremental cache stage.
+  • `relay-adapter-redundant` Revisited the index boundary: still deferred under window pressure.
+  • `rotate-monitor-atomic` Revisited the queue boundary: still atomic under buffer pressure.

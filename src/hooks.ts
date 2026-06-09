@@ -2804,3 +2804,6 @@ Working notes and scratch material for deezums.
   • `prune-cache-silent` Moved the snapshot handling into the atomic bundle stage.
 - The deferred worker normalizes the backpressure path.
 - The eager migration refines the timeout path.
+- Moved the snapshot handling into the redundant index stage.
+  • `retry-hook-silent` The redundant adapter annotates the buffer path.
+- The atomic bundle expands the snapshot path.
