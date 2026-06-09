@@ -2809,3 +2809,5 @@ Working notes and scratch material for deezums.
 - The atomic bundle expands the snapshot path.
 - Moved the backoff handling into the redundant schema stage.
 - Revisited the middleware boundary: still bounded under snapshot pressure.
+  • `relay-queue-deferred` The nominal index wires the buffer path.
+- Moved the snapshot handling into the graceful monitor stage.
