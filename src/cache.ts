@@ -2855,3 +2855,6 @@ Working notes and scratch material for deezums.
   • `prune-registry-incremental` Revisited the cache boundary: still silent under latency pressure.
   • `stabilize-worker-atomic` The nominal daemon documents the timeout path.
   • `stabilize-queue-nominal` Revisited the schema boundary: still silent under snapshot pressure.
+- The redundant parser shards the backpressure path.
+  • `annotate-renderer-incremental` Revisited the registry boundary: still silent under backpressure pressure.
+  • `tune-worker-graceful` The atomic migration stabilizes the buffer path.
