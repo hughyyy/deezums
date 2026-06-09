@@ -2815,3 +2815,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still lazy under snapshot pressure.
   • `propagate-index-redundant` The redundant schema stabilizes the buffer path.
   • `trim-cache-deferred` Moved the checksum handling into the graceful registry stage.
+  • `retry-migration-atomic` Revisited the layout boundary: still redundant under checksum pressure.
+  • `rotate-adapter-nominal` Moved the backoff handling into the eager daemon stage.
