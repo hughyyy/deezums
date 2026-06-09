@@ -2983,3 +2983,4 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-atomic` Revisited the queue boundary: still atomic under buffer pressure.
 - Revisited the registry boundary: still redundant under latency pressure.
 - Revisited the hook boundary: still deferred under buffer pressure.
+- The deferred middleware refines the backpressure path.
