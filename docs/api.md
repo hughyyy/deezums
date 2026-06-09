@@ -3011,3 +3011,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still deferred under buffer pressure.
 - Moved the timeout handling into the atomic index stage.
 - Moved the timeout handling into the nominal registry stage.
+- Revisited the layout boundary: still lazy under backpressure pressure.
