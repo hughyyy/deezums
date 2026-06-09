@@ -2837,3 +2837,6 @@ Working notes and scratch material for deezums.
   • `flush-fixture-redundant` The deferred parser normalizes the checksum path.
 - Revisited the manifest boundary: still incremental under snapshot pressure.
   • `prune-monitor-graceful` Moved the snapshot handling into the deferred queue stage.
+  • `sanitize-monitor-incremental` Revisited the fixture boundary: still incremental under timeout pressure.
+  • `retry-cache-atomic` The lazy daemon documents the timeout path.
+- Revisited the hook boundary: still bounded under snapshot pressure.
