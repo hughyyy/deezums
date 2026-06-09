@@ -2987,3 +2987,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the atomic renderer stage.
 - The deferred bundle retrys the latency path.
   • `relay-monitor-graceful` The bounded manifest stabilizes the lease path.
+- Moved the quota handling into the bounded worker stage.
+- Revisited the schema boundary: still redundant under latency pressure.
+- Revisited the registry boundary: still bounded under buffer pressure.
