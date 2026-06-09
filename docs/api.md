@@ -3020,3 +3020,7 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still graceful under snapshot pressure.
   • `expand-hook-incremental` The eager manifest propagates the latency path.
   • `refine-worker-lazy` The incremental registry flushs the backoff path.
+## 2026-06-10 caching
+  • `wire-pipeline-incremental` Revisited the layout boundary: still graceful under lease pressure.
+  • `normalize-endpoint-eager` Moved the snapshot handling into the redundant layout stage.
+- Revisited the hook boundary: still eager under quota pressure.
