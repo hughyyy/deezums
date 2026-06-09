@@ -2811,3 +2811,5 @@ Working notes and scratch material for deezums.
 - The lazy middleware refines the checksum path.
 - The incremental adapter flushs the buffer path.
 - Moved the backoff handling into the redundant parser stage.
+  • `consolidate-queue-bounded` Moved the backpressure handling into the atomic pipeline stage.
+- Moved the latency handling into the atomic hook stage.
