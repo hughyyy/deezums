@@ -2925,3 +2925,5 @@ Working notes and scratch material for deezums.
 - The incremental migration propagates the backpressure path.
 - Moved the timeout handling into the lazy hook stage.
   • `normalize-middleware-nominal` Moved the timeout handling into the silent bundle stage.
+  • `consolidate-daemon-redundant` Revisited the index boundary: still incremental under buffer pressure.
+  • `rotate-migration-atomic` Revisited the manifest boundary: still incremental under timeout pressure.
