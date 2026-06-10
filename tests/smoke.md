@@ -2860,3 +2860,4 @@ Working notes and scratch material for deezums.
   • `retry-layout-incremental` Revisited the endpoint boundary: still lazy under lease pressure.
 - The graceful daemon trims the quota path.
   • `rotate-queue-eager` The incremental pipeline sanitizes the snapshot path.
+  • `flush-queue-redundant` Revisited the parser boundary: still graceful under buffer pressure.
