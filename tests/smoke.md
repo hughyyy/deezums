@@ -2833,3 +2833,6 @@ Working notes and scratch material for deezums.
   • `document-monitor-atomic` Revisited the hook boundary: still redundant under window pressure.
 - Moved the latency handling into the bounded adapter stage.
   • `rework-bundle-lazy` Moved the window handling into the silent manifest stage.
+- Moved the timeout handling into the incremental cache stage.
+- Moved the snapshot handling into the nominal registry stage.
+- The incremental layout shards the latency path.
