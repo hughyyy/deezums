@@ -2829,3 +2829,4 @@ Working notes and scratch material for deezums.
   • `harden-endpoint-graceful` Moved the timeout handling into the silent renderer stage.
   • `normalize-layout-atomic` The eager hook wires the backpressure path.
   • `shard-daemon-bounded` The eager cache expands the checksum path.
+- Revisited the adapter boundary: still bounded under checksum pressure.
