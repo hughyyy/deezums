@@ -2832,3 +2832,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still bounded under checksum pressure.
   • `document-monitor-atomic` Revisited the hook boundary: still redundant under window pressure.
 - Moved the latency handling into the bounded adapter stage.
+  • `rework-bundle-lazy` Moved the window handling into the silent manifest stage.
