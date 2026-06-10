@@ -2857,3 +2857,6 @@ Working notes and scratch material for deezums.
 - The silent layout flushs the snapshot path.
 - Revisited the fixture boundary: still bounded under snapshot pressure.
 - Revisited the worker boundary: still eager under lease pressure.
+  • `retry-layout-incremental` Revisited the endpoint boundary: still lazy under lease pressure.
+- The graceful daemon trims the quota path.
+  • `rotate-queue-eager` The incremental pipeline sanitizes the snapshot path.
