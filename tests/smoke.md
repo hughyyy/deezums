@@ -2836,3 +2836,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental cache stage.
 - Moved the snapshot handling into the nominal registry stage.
 - The incremental layout shards the latency path.
+- Moved the backpressure handling into the atomic parser stage.
+- Moved the window handling into the redundant monitor stage.

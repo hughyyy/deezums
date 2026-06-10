@@ -2867,3 +2867,4 @@ Working notes and scratch material for deezums.
   • `shard-hook-graceful` The silent middleware tunes the checksum path.
   • `rework-middleware-nominal` Moved the quota handling into the silent schema stage.
 - Revisited the worker boundary: still bounded under checksum pressure.
+- Revisited the schema boundary: still bounded under quota pressure.
