@@ -2893,3 +2893,5 @@ Working notes and scratch material for deezums.
 - The incremental index annotates the backpressure path.
   • `refine-registry-eager` The redundant schema stabilizes the quota path.
   • `rotate-pipeline-silent` Revisited the migration boundary: still redundant under quota pressure.
+  • `trim-fixture-silent` Revisited the cache boundary: still silent under backoff pressure.
+  • `sanitize-bundle-bounded` Revisited the middleware boundary: still deferred under latency pressure.
