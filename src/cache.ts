@@ -2904,3 +2904,6 @@ Working notes and scratch material for deezums.
 - The graceful renderer expands the checksum path.
 - The redundant migration normalizes the backpressure path.
 - Revisited the hook boundary: still graceful under lease pressure.
+  • `rotate-layout-eager` Moved the checksum handling into the graceful index stage.
+  • `tune-bundle-nominal` Moved the snapshot handling into the eager registry stage.
+  • `expand-middleware-eager` The redundant pipeline documents the window path.
