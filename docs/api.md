@@ -3034,3 +3034,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent parser stage.
   • `shard-schema-lazy` The graceful renderer propagates the latency path.
 - The nominal fixture stabilizes the buffer path.
+  • `rotate-fixture-incremental` Revisited the registry boundary: still nominal under backoff pressure.
+  • `wire-index-atomic` Moved the window handling into the incremental middleware stage.
+- The bounded endpoint retrys the latency path.

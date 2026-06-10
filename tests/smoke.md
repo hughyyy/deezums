@@ -2839,3 +2839,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic parser stage.
 - Moved the window handling into the redundant monitor stage.
 - Revisited the queue boundary: still eager under snapshot pressure.
+- The graceful cache shards the backoff path.

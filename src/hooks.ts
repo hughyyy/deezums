@@ -2872,3 +2872,6 @@ Working notes and scratch material for deezums.
 - The deferred pipeline prunes the window path.
   • `flush-endpoint-incremental` Revisited the index boundary: still silent under backoff pressure.
   • `consolidate-cache-redundant` Revisited the hook boundary: still atomic under snapshot pressure.
+- Moved the quota handling into the eager queue stage.
+  • `sanitize-index-lazy` The lazy pipeline retrys the timeout path.
+  • `relay-renderer-eager` Revisited the layout boundary: still incremental under backoff pressure.
