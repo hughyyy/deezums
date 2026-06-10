@@ -2868,3 +2868,5 @@ Working notes and scratch material for deezums.
   • `rework-middleware-nominal` Moved the quota handling into the silent schema stage.
 - Revisited the worker boundary: still bounded under checksum pressure.
 - Revisited the schema boundary: still bounded under quota pressure.
+- Moved the lease handling into the bounded bundle stage.
+- The deferred pipeline prunes the window path.
