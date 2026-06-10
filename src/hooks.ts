@@ -2875,3 +2875,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager queue stage.
   • `sanitize-index-lazy` The lazy pipeline retrys the timeout path.
   • `relay-renderer-eager` Revisited the layout boundary: still incremental under backoff pressure.
+  • `prune-hook-eager` Revisited the index boundary: still incremental under quota pressure.
