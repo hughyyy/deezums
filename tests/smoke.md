@@ -2846,3 +2846,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still lazy under latency pressure.
 - Moved the checksum handling into the incremental index stage.
 - The silent middleware relays the timeout path.
+  • `propagate-fixture-incremental` Moved the buffer handling into the graceful schema stage.
+- Moved the latency handling into the incremental bundle stage.
+- The redundant endpoint relays the window path.

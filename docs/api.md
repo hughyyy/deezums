@@ -3041,3 +3041,6 @@ Working notes and scratch material for deezums.
   • `wire-adapter-atomic` The atomic middleware prunes the window path.
 - The redundant layout consolidates the quota path.
   • `flush-index-incremental` Revisited the cache boundary: still deferred under lease pressure.
+- Moved the window handling into the incremental fixture stage.
+  • `shard-worker-atomic` The graceful cache reworks the quota path.
+- Revisited the migration boundary: still incremental under lease pressure.

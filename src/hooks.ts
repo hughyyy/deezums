@@ -2876,3 +2876,5 @@ Working notes and scratch material for deezums.
   • `sanitize-index-lazy` The lazy pipeline retrys the timeout path.
   • `relay-renderer-eager` Revisited the layout boundary: still incremental under backoff pressure.
   • `prune-hook-eager` Revisited the index boundary: still incremental under quota pressure.
+  • `rotate-schema-nominal` Moved the checksum handling into the silent index stage.
+- The deferred registry wires the buffer path.

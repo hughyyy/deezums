@@ -2910,3 +2910,6 @@ Working notes and scratch material for deezums.
   • `document-daemon-deferred` Revisited the pipeline boundary: still incremental under timeout pressure.
   • `retry-hook-redundant` Revisited the bundle boundary: still deferred under window pressure.
 - Revisited the renderer boundary: still incremental under backpressure pressure.
+  • `wire-adapter-nominal` Moved the backpressure handling into the silent parser stage.
+- Revisited the middleware boundary: still deferred under latency pressure.
+  • `trim-worker-silent` Revisited the daemon boundary: still eager under lease pressure.
