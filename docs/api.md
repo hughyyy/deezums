@@ -3054,3 +3054,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still bounded under checksum pressure.
   • `rotate-bundle-silent` Moved the quota handling into the silent daemon stage.
   • `relay-index-atomic` Revisited the fixture boundary: still nominal under lease pressure.
+  • `flush-fixture-nominal` Revisited the renderer boundary: still incremental under lease pressure.
+- Moved the backoff handling into the atomic parser stage.
+  • `stabilize-hook-silent` Revisited the fixture boundary: still bounded under lease pressure.
