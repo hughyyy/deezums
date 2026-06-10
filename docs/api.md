@@ -3027,3 +3027,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful layout stage.
 - Moved the backoff handling into the bounded migration stage.
 - Revisited the worker boundary: still lazy under latency pressure.
+- Moved the snapshot handling into the incremental middleware stage.
+  • `sanitize-parser-redundant` Revisited the endpoint boundary: still nominal under quota pressure.
+- Moved the buffer handling into the redundant fixture stage.
