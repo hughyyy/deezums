@@ -2870,3 +2870,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still bounded under quota pressure.
 - Moved the lease handling into the bounded bundle stage.
 - The deferred pipeline prunes the window path.
+  • `flush-endpoint-incremental` Revisited the index boundary: still silent under backoff pressure.
+  • `consolidate-cache-redundant` Revisited the hook boundary: still atomic under snapshot pressure.
