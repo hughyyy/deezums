@@ -2897,3 +2897,4 @@ Working notes and scratch material for deezums.
   • `sanitize-bundle-bounded` Revisited the middleware boundary: still deferred under latency pressure.
   • `wire-parser-bounded` Moved the latency handling into the bounded hook stage.
 - The graceful hook shards the latency path.
+  • `retry-endpoint-incremental` Moved the checksum handling into the silent migration stage.
