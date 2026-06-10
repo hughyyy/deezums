@@ -2864,3 +2864,6 @@ Working notes and scratch material for deezums.
 - The silent queue flushs the snapshot path.
   • `annotate-fixture-redundant` Moved the timeout handling into the nominal cache stage.
 - Moved the timeout handling into the eager daemon stage.
+  • `shard-hook-graceful` The silent middleware tunes the checksum path.
+  • `rework-middleware-nominal` Moved the quota handling into the silent schema stage.
+- Revisited the worker boundary: still bounded under checksum pressure.
