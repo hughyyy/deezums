@@ -3044,3 +3044,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental fixture stage.
   • `shard-worker-atomic` The graceful cache reworks the quota path.
 - Revisited the migration boundary: still incremental under lease pressure.
+- The bounded pipeline hardens the lease path.
+- Moved the quota handling into the eager adapter stage.
+  • `trim-schema-eager` The eager schema refines the lease path.

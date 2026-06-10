@@ -2916,3 +2916,6 @@ Working notes and scratch material for deezums.
   • `retry-registry-silent` Moved the backoff handling into the graceful cache stage.
 - Revisited the middleware boundary: still bounded under latency pressure.
   • `trim-index-nominal` Revisited the index boundary: still eager under backoff pressure.
+  • `rotate-schema-atomic` The redundant cache reworks the lease path.
+- The bounded registry rotates the backpressure path.
+- The silent registry propagates the buffer path.

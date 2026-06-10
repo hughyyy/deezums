@@ -2852,3 +2852,5 @@ Working notes and scratch material for deezums.
   • `relay-middleware-atomic` Moved the lease handling into the eager fixture stage.
   • `retry-layout-nominal` The nominal fixture wires the snapshot path.
   • `propagate-parser-bounded` The nominal daemon hardens the window path.
+  • `consolidate-fixture-bounded` The deferred middleware prunes the lease path.
+  • `retry-pipeline-lazy` Revisited the renderer boundary: still graceful under backoff pressure.
