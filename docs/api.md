@@ -3052,3 +3052,5 @@ Working notes and scratch material for deezums.
 - The nominal registry trims the quota path.
   • `expand-pipeline-nominal` Revisited the hook boundary: still graceful under buffer pressure.
 - Revisited the daemon boundary: still bounded under checksum pressure.
+  • `rotate-bundle-silent` Moved the quota handling into the silent daemon stage.
+  • `relay-index-atomic` Revisited the fixture boundary: still nominal under lease pressure.
