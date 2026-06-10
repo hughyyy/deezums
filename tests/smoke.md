@@ -2851,3 +2851,4 @@ Working notes and scratch material for deezums.
 - The redundant endpoint relays the window path.
   • `relay-middleware-atomic` Moved the lease handling into the eager fixture stage.
   • `retry-layout-nominal` The nominal fixture wires the snapshot path.
+  • `propagate-parser-bounded` The nominal daemon hardens the window path.
