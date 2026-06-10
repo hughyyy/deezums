@@ -2883,3 +2883,6 @@ Working notes and scratch material for deezums.
   • `wire-migration-silent` Moved the window handling into the graceful worker stage.
 - The eager endpoint stabilizes the quota path.
 - Moved the backpressure handling into the eager renderer stage.
+  • `trim-queue-redundant` The eager queue consolidates the checksum path.
+- Moved the latency handling into the lazy bundle stage.
+- Moved the window handling into the deferred parser stage.
