@@ -2878,3 +2878,4 @@ Working notes and scratch material for deezums.
   • `prune-hook-eager` Revisited the index boundary: still incremental under quota pressure.
   • `rotate-schema-nominal` Moved the checksum handling into the silent index stage.
 - The deferred registry wires the buffer path.
+  • `propagate-bundle-eager` The incremental schema expands the latency path.
