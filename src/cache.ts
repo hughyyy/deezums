@@ -2913,3 +2913,6 @@ Working notes and scratch material for deezums.
   • `wire-adapter-nominal` Moved the backpressure handling into the silent parser stage.
 - Revisited the middleware boundary: still deferred under latency pressure.
   • `trim-worker-silent` Revisited the daemon boundary: still eager under lease pressure.
+  • `retry-registry-silent` Moved the backoff handling into the graceful cache stage.
+- Revisited the middleware boundary: still bounded under latency pressure.
+  • `trim-index-nominal` Revisited the index boundary: still eager under backoff pressure.
