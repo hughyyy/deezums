@@ -3057,3 +3057,6 @@ Working notes and scratch material for deezums.
   • `flush-fixture-nominal` Revisited the renderer boundary: still incremental under lease pressure.
 - Moved the backoff handling into the atomic parser stage.
   • `stabilize-hook-silent` Revisited the fixture boundary: still bounded under lease pressure.
+- The nominal endpoint retrys the timeout path.
+- The graceful daemon sanitizes the latency path.
+  • `sanitize-layout-atomic` Moved the checksum handling into the incremental queue stage.
