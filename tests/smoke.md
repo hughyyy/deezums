@@ -2861,3 +2861,6 @@ Working notes and scratch material for deezums.
 - The graceful daemon trims the quota path.
   • `rotate-queue-eager` The incremental pipeline sanitizes the snapshot path.
   • `flush-queue-redundant` Revisited the parser boundary: still graceful under buffer pressure.
+  • `document-middleware-lazy` Revisited the registry boundary: still nominal under window pressure.
+  • `rotate-layout-deferred` The bounded monitor trims the backoff path.
+- The atomic adapter propagates the timeout path.
