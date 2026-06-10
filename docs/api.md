@@ -3039,3 +3039,5 @@ Working notes and scratch material for deezums.
 - The bounded endpoint retrys the latency path.
 - Moved the snapshot handling into the nominal queue stage.
   • `wire-adapter-atomic` The atomic middleware prunes the window path.
+- The redundant layout consolidates the quota path.
+  • `flush-index-incremental` Revisited the cache boundary: still deferred under lease pressure.
