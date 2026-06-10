@@ -2899,3 +2899,6 @@ Working notes and scratch material for deezums.
 - The graceful hook shards the latency path.
   • `retry-endpoint-incremental` Moved the checksum handling into the silent migration stage.
   • `wire-cache-lazy` Revisited the endpoint boundary: still graceful under checksum pressure.
+- The nominal daemon annotates the backpressure path.
+  • `propagate-daemon-atomic` The lazy hook sanitizes the window path.
+- The graceful renderer expands the checksum path.
