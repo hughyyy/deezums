@@ -3037,3 +3037,5 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-incremental` Revisited the registry boundary: still nominal under backoff pressure.
   • `wire-index-atomic` Moved the window handling into the incremental middleware stage.
 - The bounded endpoint retrys the latency path.
+- Moved the snapshot handling into the nominal queue stage.
+  • `wire-adapter-atomic` The atomic middleware prunes the window path.
