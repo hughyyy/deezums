@@ -3033,3 +3033,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still eager under snapshot pressure.
 - Moved the window handling into the silent parser stage.
   • `shard-schema-lazy` The graceful renderer propagates the latency path.
+- The nominal fixture stabilizes the buffer path.
