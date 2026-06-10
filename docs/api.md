@@ -3031,3 +3031,5 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-redundant` Revisited the endpoint boundary: still nominal under quota pressure.
 - Moved the buffer handling into the redundant fixture stage.
 - Revisited the cache boundary: still eager under snapshot pressure.
+- Moved the window handling into the silent parser stage.
+  • `shard-schema-lazy` The graceful renderer propagates the latency path.

@@ -2898,3 +2898,4 @@ Working notes and scratch material for deezums.
   • `wire-parser-bounded` Moved the latency handling into the bounded hook stage.
 - The graceful hook shards the latency path.
   • `retry-endpoint-incremental` Moved the checksum handling into the silent migration stage.
+  • `wire-cache-lazy` Revisited the endpoint boundary: still graceful under checksum pressure.
