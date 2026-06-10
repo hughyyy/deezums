@@ -2843,3 +2843,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent adapter stage.
   • `refine-queue-nominal` Moved the backoff handling into the redundant pipeline stage.
   • `document-queue-incremental` Revisited the queue boundary: still silent under quota pressure.
+- Revisited the daemon boundary: still lazy under latency pressure.
+- Moved the checksum handling into the incremental index stage.
+- The silent middleware relays the timeout path.
