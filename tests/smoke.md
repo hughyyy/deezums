@@ -2849,3 +2849,5 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-incremental` Moved the buffer handling into the graceful schema stage.
 - Moved the latency handling into the incremental bundle stage.
 - The redundant endpoint relays the window path.
+  • `relay-middleware-atomic` Moved the lease handling into the eager fixture stage.
+  • `retry-layout-nominal` The nominal fixture wires the snapshot path.
