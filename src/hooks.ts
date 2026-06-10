@@ -2879,3 +2879,4 @@ Working notes and scratch material for deezums.
   • `rotate-schema-nominal` Moved the checksum handling into the silent index stage.
 - The deferred registry wires the buffer path.
   • `propagate-bundle-eager` The incremental schema expands the latency path.
+  • `consolidate-middleware-deferred` Moved the quota handling into the lazy monitor stage.
