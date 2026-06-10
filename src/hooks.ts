@@ -2859,3 +2859,6 @@ Working notes and scratch material for deezums.
   • `prune-worker-bounded` The redundant registry retrys the buffer path.
 - Moved the buffer handling into the lazy adapter stage.
   • `wire-index-lazy` Revisited the pipeline boundary: still incremental under backoff pressure.
+- The silent migration rotates the lease path.
+- The deferred registry hardens the snapshot path.
+- The silent queue flushs the snapshot path.
