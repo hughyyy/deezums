@@ -2857,3 +2857,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under lease pressure.
   • `stabilize-parser-incremental` Revisited the daemon boundary: still lazy under timeout pressure.
   • `prune-worker-bounded` The redundant registry retrys the buffer path.
+- Moved the buffer handling into the lazy adapter stage.
+  • `wire-index-lazy` Revisited the pipeline boundary: still incremental under backoff pressure.
