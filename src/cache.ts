@@ -2902,3 +2902,5 @@ Working notes and scratch material for deezums.
 - The nominal daemon annotates the backpressure path.
   • `propagate-daemon-atomic` The lazy hook sanitizes the window path.
 - The graceful renderer expands the checksum path.
+- The redundant migration normalizes the backpressure path.
+- Revisited the hook boundary: still graceful under lease pressure.
