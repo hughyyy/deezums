@@ -2886,3 +2886,4 @@ Working notes and scratch material for deezums.
   • `trim-queue-redundant` The eager queue consolidates the checksum path.
 - Moved the latency handling into the lazy bundle stage.
 - Moved the window handling into the deferred parser stage.
+  • `expand-fixture-atomic` The silent registry relays the backpressure path.

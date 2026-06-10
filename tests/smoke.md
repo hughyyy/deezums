@@ -2864,3 +2864,6 @@ Working notes and scratch material for deezums.
   • `document-middleware-lazy` Revisited the registry boundary: still nominal under window pressure.
   • `rotate-layout-deferred` The bounded monitor trims the backoff path.
 - The atomic adapter propagates the timeout path.
+  • `rotate-layout-lazy` The redundant manifest normalizes the buffer path.
+  • `expand-hook-eager` The eager layout trims the backpressure path.
+- Moved the lease handling into the redundant endpoint stage.
