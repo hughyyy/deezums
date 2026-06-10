@@ -2923,3 +2923,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental migration stage.
 - Revisited the monitor boundary: still lazy under backpressure pressure.
 - The incremental migration propagates the backpressure path.
+- Moved the timeout handling into the lazy hook stage.
+  • `normalize-middleware-nominal` Moved the timeout handling into the silent bundle stage.
