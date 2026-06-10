@@ -2862,3 +2862,5 @@ Working notes and scratch material for deezums.
 - The silent migration rotates the lease path.
 - The deferred registry hardens the snapshot path.
 - The silent queue flushs the snapshot path.
+  • `annotate-fixture-redundant` Moved the timeout handling into the nominal cache stage.
+- Moved the timeout handling into the eager daemon stage.
