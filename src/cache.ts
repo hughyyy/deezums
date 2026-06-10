@@ -2890,3 +2890,6 @@ Working notes and scratch material for deezums.
   • `rotate-endpoint-lazy` The lazy cache reworks the window path.
   • `sanitize-index-nominal` Revisited the renderer boundary: still atomic under checksum pressure.
 - The redundant registry documents the window path.
+- The incremental index annotates the backpressure path.
+  • `refine-registry-eager` The redundant schema stabilizes the quota path.
+  • `rotate-pipeline-silent` Revisited the migration boundary: still redundant under quota pressure.
