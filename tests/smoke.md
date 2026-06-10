@@ -2840,3 +2840,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the redundant monitor stage.
 - Revisited the queue boundary: still eager under snapshot pressure.
 - The graceful cache shards the backoff path.
+- Moved the snapshot handling into the silent adapter stage.
+  • `refine-queue-nominal` Moved the backoff handling into the redundant pipeline stage.
+  • `document-queue-incremental` Revisited the queue boundary: still silent under quota pressure.
