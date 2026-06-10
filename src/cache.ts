@@ -2907,3 +2907,6 @@ Working notes and scratch material for deezums.
   • `rotate-layout-eager` Moved the checksum handling into the graceful index stage.
   • `tune-bundle-nominal` Moved the snapshot handling into the eager registry stage.
   • `expand-middleware-eager` The redundant pipeline documents the window path.
+  • `document-daemon-deferred` Revisited the pipeline boundary: still incremental under timeout pressure.
+  • `retry-hook-redundant` Revisited the bundle boundary: still deferred under window pressure.
+- Revisited the renderer boundary: still incremental under backpressure pressure.
