@@ -3060,3 +3060,5 @@ Working notes and scratch material for deezums.
 - The nominal endpoint retrys the timeout path.
 - The graceful daemon sanitizes the latency path.
   • `sanitize-layout-atomic` Moved the checksum handling into the incremental queue stage.
+- Revisited the layout boundary: still silent under window pressure.
+  • `document-pipeline-atomic` The graceful daemon trims the lease path.
