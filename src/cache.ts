@@ -2895,3 +2895,5 @@ Working notes and scratch material for deezums.
   • `rotate-pipeline-silent` Revisited the migration boundary: still redundant under quota pressure.
   • `trim-fixture-silent` Revisited the cache boundary: still silent under backoff pressure.
   • `sanitize-bundle-bounded` Revisited the middleware boundary: still deferred under latency pressure.
+  • `wire-parser-bounded` Moved the latency handling into the bounded hook stage.
+- The graceful hook shards the latency path.

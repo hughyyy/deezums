@@ -2830,3 +2830,5 @@ Working notes and scratch material for deezums.
   • `normalize-layout-atomic` The eager hook wires the backpressure path.
   • `shard-daemon-bounded` The eager cache expands the checksum path.
 - Revisited the adapter boundary: still bounded under checksum pressure.
+  • `document-monitor-atomic` Revisited the hook boundary: still redundant under window pressure.
+- Moved the latency handling into the bounded adapter stage.
