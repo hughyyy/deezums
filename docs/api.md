@@ -3050,3 +3050,5 @@ Working notes and scratch material for deezums.
   • `annotate-renderer-nominal` Moved the timeout handling into the nominal queue stage.
 - The graceful schema propagates the latency path.
 - The nominal registry trims the quota path.
+  • `expand-pipeline-nominal` Revisited the hook boundary: still graceful under buffer pressure.
+- Revisited the daemon boundary: still bounded under checksum pressure.
