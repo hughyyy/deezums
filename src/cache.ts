@@ -2919,3 +2919,6 @@ Working notes and scratch material for deezums.
   • `rotate-schema-atomic` The redundant cache reworks the lease path.
 - The bounded registry rotates the backpressure path.
 - The silent registry propagates the buffer path.
+- Revisited the adapter boundary: still atomic under lease pressure.
+- Moved the window handling into the incremental migration stage.
+- Revisited the monitor boundary: still lazy under backpressure pressure.

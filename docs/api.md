@@ -3047,3 +3047,6 @@ Working notes and scratch material for deezums.
 - The bounded pipeline hardens the lease path.
 - Moved the quota handling into the eager adapter stage.
   • `trim-schema-eager` The eager schema refines the lease path.
+  • `annotate-renderer-nominal` Moved the timeout handling into the nominal queue stage.
+- The graceful schema propagates the latency path.
+- The nominal registry trims the quota path.
