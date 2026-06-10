@@ -2838,3 +2838,4 @@ Working notes and scratch material for deezums.
 - The incremental layout shards the latency path.
 - Moved the backpressure handling into the atomic parser stage.
 - Moved the window handling into the redundant monitor stage.
+- Revisited the queue boundary: still eager under snapshot pressure.
