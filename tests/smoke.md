@@ -2854,3 +2854,6 @@ Working notes and scratch material for deezums.
   • `propagate-parser-bounded` The nominal daemon hardens the window path.
   • `consolidate-fixture-bounded` The deferred middleware prunes the lease path.
   • `retry-pipeline-lazy` Revisited the renderer boundary: still graceful under backoff pressure.
+- The silent layout flushs the snapshot path.
+- Revisited the fixture boundary: still bounded under snapshot pressure.
+- Revisited the worker boundary: still eager under lease pressure.
