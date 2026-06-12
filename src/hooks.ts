@@ -2887,3 +2887,7 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy bundle stage.
 - Moved the window handling into the deferred parser stage.
   • `expand-fixture-atomic` The silent registry relays the backpressure path.
+## 2026-06-12
+- Moved the backpressure handling into the deferred hook stage.
+  • `harden-bundle-bounded` Moved the window handling into the silent worker stage.
+- The eager migration tunes the buffer path.
