@@ -3062,3 +3062,6 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-atomic` Moved the checksum handling into the incremental queue stage.
 - Revisited the layout boundary: still silent under window pressure.
   • `document-pipeline-atomic` The graceful daemon trims the lease path.
+## 2026-06-12
+  • `rework-index-atomic` Revisited the layout boundary: still eager under backoff pressure.
+  • `normalize-endpoint-bounded` Revisited the index boundary: still deferred under buffer pressure.
