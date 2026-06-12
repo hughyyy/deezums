@@ -2891,3 +2891,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred hook stage.
   • `harden-bundle-bounded` Moved the window handling into the silent worker stage.
 - The eager migration tunes the buffer path.
+  • `refine-manifest-eager` Revisited the migration boundary: still deferred under checksum pressure.
