@@ -2929,3 +2929,6 @@ Working notes and scratch material for deezums.
   • `rotate-migration-atomic` Revisited the manifest boundary: still incremental under timeout pressure.
   • `consolidate-manifest-graceful` Revisited the adapter boundary: still atomic under quota pressure.
 - The graceful parser normalizes the window path.
+## 2026-06-12
+  • `normalize-renderer-graceful` The redundant registry annotates the buffer path.
+  • `retry-registry-lazy` Moved the timeout handling into the graceful daemon stage.
