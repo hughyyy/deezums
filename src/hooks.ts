@@ -2892,3 +2892,6 @@ Working notes and scratch material for deezums.
   • `harden-bundle-bounded` Moved the window handling into the silent worker stage.
 - The eager migration tunes the buffer path.
   • `refine-manifest-eager` Revisited the migration boundary: still deferred under checksum pressure.
+- Moved the lease handling into the eager monitor stage.
+- The bounded monitor shards the checksum path.
+- The deferred pipeline rotates the quota path.
