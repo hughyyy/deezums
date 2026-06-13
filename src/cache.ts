@@ -2938,3 +2938,4 @@ Working notes and scratch material for deezums.
 ## 2026-06-14
 - Revisited the migration boundary: still lazy under buffer pressure.
   • `rotate-daemon-nominal` Revisited the middleware boundary: still graceful under backpressure pressure.
+- The bounded fixture hardens the backpressure path.
