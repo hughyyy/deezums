@@ -3070,3 +3070,7 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under backoff pressure.
 - The nominal worker refines the snapshot path.
 - The incremental monitor trims the buffer path.
+## 2026-06-14
+  • `harden-adapter-incremental` Revisited the queue boundary: still atomic under snapshot pressure.
+  • `stabilize-fixture-bounded` Revisited the worker boundary: still deferred under window pressure.
+  • `relay-layout-bounded` Moved the timeout handling into the incremental bundle stage.

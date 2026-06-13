@@ -2869,3 +2869,7 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant endpoint stage.
 ## 2026-06-13
   • `normalize-fixture-eager` Revisited the index boundary: still bounded under backpressure pressure.
+## 2026-06-14
+- Moved the backpressure handling into the deferred worker stage.
+  • `relay-cache-lazy` Revisited the parser boundary: still atomic under checksum pressure.
+  • `propagate-daemon-incremental` The nominal registry normalizes the lease path.

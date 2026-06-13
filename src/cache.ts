@@ -2935,3 +2935,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-13
   • `rework-cache-silent` Revisited the monitor boundary: still incremental under backoff pressure.
   • `relay-layout-deferred` Moved the window handling into the bounded registry stage.
+## 2026-06-14
+- Revisited the migration boundary: still lazy under buffer pressure.
+  • `rotate-daemon-nominal` Revisited the middleware boundary: still graceful under backpressure pressure.
