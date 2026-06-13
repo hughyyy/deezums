@@ -3067,3 +3067,6 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-bounded` Revisited the index boundary: still deferred under buffer pressure.
 ## 2026-06-13 backoff
 - The eager registry stabilizes the quota path.
+- Revisited the manifest boundary: still bounded under backoff pressure.
+- The nominal worker refines the snapshot path.
+- The incremental monitor trims the buffer path.

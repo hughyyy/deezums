@@ -2867,3 +2867,5 @@ Working notes and scratch material for deezums.
   • `rotate-layout-lazy` The redundant manifest normalizes the buffer path.
   • `expand-hook-eager` The eager layout trims the backpressure path.
 - Moved the lease handling into the redundant endpoint stage.
+## 2026-06-13
+  • `normalize-fixture-eager` Revisited the index boundary: still bounded under backpressure pressure.
