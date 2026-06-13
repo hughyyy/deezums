@@ -3065,3 +3065,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-12
   • `rework-index-atomic` Revisited the layout boundary: still eager under backoff pressure.
   • `normalize-endpoint-bounded` Revisited the index boundary: still deferred under buffer pressure.
+## 2026-06-13 backoff
+- The eager registry stabilizes the quota path.
