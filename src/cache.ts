@@ -2932,3 +2932,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-12
   • `normalize-renderer-graceful` The redundant registry annotates the buffer path.
   • `retry-registry-lazy` Moved the timeout handling into the graceful daemon stage.
+## 2026-06-13
+  • `rework-cache-silent` Revisited the monitor boundary: still incremental under backoff pressure.
+  • `relay-layout-deferred` Moved the window handling into the bounded registry stage.
