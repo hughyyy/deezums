@@ -2873,3 +2873,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred worker stage.
   • `relay-cache-lazy` Revisited the parser boundary: still atomic under checksum pressure.
   • `propagate-daemon-incremental` The nominal registry normalizes the lease path.
+- Revisited the schema boundary: still deferred under quota pressure.
