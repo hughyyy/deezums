@@ -2895,3 +2895,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager monitor stage.
 - The bounded monitor shards the checksum path.
 - The deferred pipeline rotates the quota path.
+## 2026-06-14
+  • `trim-migration-deferred` Moved the snapshot handling into the deferred endpoint stage.
