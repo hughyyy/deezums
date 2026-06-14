@@ -2897,3 +2897,5 @@ Working notes and scratch material for deezums.
 - The deferred pipeline rotates the quota path.
 ## 2026-06-14
   • `trim-migration-deferred` Moved the snapshot handling into the deferred endpoint stage.
+  • `rework-pipeline-silent` Revisited the hook boundary: still silent under timeout pressure.
+- The bounded pipeline expands the snapshot path.
