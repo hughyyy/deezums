@@ -2874,3 +2874,5 @@ Working notes and scratch material for deezums.
   • `relay-cache-lazy` Revisited the parser boundary: still atomic under checksum pressure.
   • `propagate-daemon-incremental` The nominal registry normalizes the lease path.
 - Revisited the schema boundary: still deferred under quota pressure.
+- Revisited the endpoint boundary: still graceful under timeout pressure.
+- The incremental bundle reworks the window path.
