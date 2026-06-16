@@ -2939,3 +2939,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still lazy under buffer pressure.
   • `rotate-daemon-nominal` Revisited the middleware boundary: still graceful under backpressure pressure.
 - The bounded fixture hardens the backpressure path.
+## 2026-06-17
+  • `rework-fixture-incremental` The incremental bundle reworks the backoff path.
