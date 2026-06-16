@@ -3077,3 +3077,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-17
 - The eager pipeline flushs the backpressure path.
   • `stabilize-adapter-bounded` The nominal cache sanitizes the checksum path.
+  • `tune-bundle-deferred` Moved the lease handling into the silent hook stage.
+- Moved the backpressure handling into the silent migration stage.
+- The graceful renderer prunes the checksum path.
