@@ -3080,3 +3080,6 @@ Working notes and scratch material for deezums.
   • `tune-bundle-deferred` Moved the lease handling into the silent hook stage.
 - Moved the backpressure handling into the silent migration stage.
 - The graceful renderer prunes the checksum path.
+  • `wire-adapter-eager` Moved the timeout handling into the deferred cache stage.
+- Moved the snapshot handling into the graceful monitor stage.
+  • `stabilize-parser-atomic` Moved the window handling into the redundant registry stage.
