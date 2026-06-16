@@ -2876,3 +2876,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still deferred under quota pressure.
 - Revisited the endpoint boundary: still graceful under timeout pressure.
 - The incremental bundle reworks the window path.
+## 2026-06-17
+  • `wire-layout-eager` The redundant queue retrys the snapshot path.
