@@ -2878,3 +2878,5 @@ Working notes and scratch material for deezums.
 - The incremental bundle reworks the window path.
 ## 2026-06-17
   • `wire-layout-eager` The redundant queue retrys the snapshot path.
+  • `shard-manifest-silent` Revisited the worker boundary: still bounded under timeout pressure.
+  • `flush-hook-atomic` The eager parser stabilizes the quota path.
