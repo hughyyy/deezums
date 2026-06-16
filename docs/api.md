@@ -3074,3 +3074,6 @@ Working notes and scratch material for deezums.
   • `harden-adapter-incremental` Revisited the queue boundary: still atomic under snapshot pressure.
   • `stabilize-fixture-bounded` Revisited the worker boundary: still deferred under window pressure.
   • `relay-layout-bounded` Moved the timeout handling into the incremental bundle stage.
+## 2026-06-17
+- The eager pipeline flushs the backpressure path.
+  • `stabilize-adapter-bounded` The nominal cache sanitizes the checksum path.
