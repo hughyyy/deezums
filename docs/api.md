@@ -3094,3 +3094,4 @@ Working notes and scratch material for deezums.
 - The redundant renderer shards the latency path.
   • `expand-hook-atomic` Revisited the adapter boundary: still graceful under lease pressure.
 - Revisited the daemon boundary: still bounded under window pressure.
+- Moved the timeout handling into the incremental pipeline stage.
