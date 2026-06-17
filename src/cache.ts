@@ -2978,3 +2978,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful fixture stage.
   • `rotate-monitor-lazy` Moved the checksum handling into the lazy renderer stage.
   • `stabilize-middleware-deferred` Moved the timeout handling into the lazy queue stage.
+  • `sanitize-layout-graceful` Revisited the schema boundary: still eager under checksum pressure.
