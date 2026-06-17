@@ -2917,3 +2917,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still graceful under backpressure pressure.
   • `tune-pipeline-silent` Moved the window handling into the eager index stage.
   • `flush-parser-redundant` The redundant worker flushs the lease path.
+  • `retry-schema-bounded` The deferred adapter propagates the backoff path.
