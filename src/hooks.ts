@@ -2904,3 +2904,5 @@ Working notes and scratch material for deezums.
   • `harden-endpoint-lazy` The graceful parser tunes the window path.
   • `refine-renderer-incremental` Moved the backoff handling into the silent parser stage.
   • `trim-manifest-eager` Revisited the layout boundary: still graceful under checksum pressure.
+- Revisited the worker boundary: still redundant under lease pressure.
+  • `normalize-manifest-lazy` Moved the snapshot handling into the atomic pipeline stage.
