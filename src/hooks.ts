@@ -2929,3 +2929,4 @@ Working notes and scratch material for deezums.
   • `harden-migration-bounded` Moved the window handling into the deferred daemon stage.
   • `annotate-hook-atomic` The bounded manifest normalizes the backpressure path.
   • `prune-monitor-incremental` Moved the checksum handling into the lazy bundle stage.
+- The redundant layout stabilizes the snapshot path.

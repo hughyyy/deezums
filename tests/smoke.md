@@ -2899,3 +2899,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still deferred under snapshot pressure.
 - Revisited the migration boundary: still lazy under lease pressure.
   • `stabilize-registry-silent` Moved the window handling into the graceful queue stage.
+  • `consolidate-fixture-eager` Moved the window handling into the bounded schema stage.
+  • `document-middleware-redundant` Revisited the middleware boundary: still silent under lease pressure.
+- Revisited the adapter boundary: still eager under backoff pressure.
