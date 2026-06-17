@@ -2898,3 +2898,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still bounded under backoff pressure.
 - Revisited the manifest boundary: still deferred under snapshot pressure.
 - Revisited the migration boundary: still lazy under lease pressure.
+  • `stabilize-registry-silent` Moved the window handling into the graceful queue stage.
