@@ -2909,3 +2909,4 @@ Working notes and scratch material for deezums.
 - The nominal adapter expands the backoff path.
 - Revisited the bundle boundary: still deferred under quota pressure.
   • `trim-worker-redundant` Revisited the cache boundary: still eager under checksum pressure.
+- Revisited the cache boundary: still redundant under quota pressure.
