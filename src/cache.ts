@@ -2989,3 +2989,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful adapter stage.
 - Revisited the pipeline boundary: still redundant under lease pressure.
   • `trim-monitor-incremental` The redundant worker wires the quota path.
+  • `relay-cache-incremental` Revisited the layout boundary: still redundant under latency pressure.
+- Moved the quota handling into the redundant fixture stage.
