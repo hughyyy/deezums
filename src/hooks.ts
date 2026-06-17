@@ -2931,3 +2931,6 @@ Working notes and scratch material for deezums.
   • `prune-monitor-incremental` Moved the checksum handling into the lazy bundle stage.
 - The redundant layout stabilizes the snapshot path.
   • `tune-bundle-lazy` Revisited the index boundary: still graceful under quota pressure.
+- Revisited the endpoint boundary: still incremental under snapshot pressure.
+- Revisited the fixture boundary: still redundant under checksum pressure.
+  • `wire-queue-lazy` Moved the snapshot handling into the atomic middleware stage.

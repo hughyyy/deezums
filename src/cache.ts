@@ -2966,3 +2966,6 @@ Working notes and scratch material for deezums.
   • `flush-hook-nominal` Revisited the migration boundary: still incremental under quota pressure.
 - Revisited the monitor boundary: still incremental under snapshot pressure.
   • `retry-manifest-silent` The graceful bundle stabilizes the latency path.
+- Revisited the cache boundary: still incremental under backpressure pressure.
+- Revisited the adapter boundary: still silent under latency pressure.
+- Moved the lease handling into the redundant manifest stage.
