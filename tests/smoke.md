@@ -2880,3 +2880,6 @@ Working notes and scratch material for deezums.
   • `wire-layout-eager` The redundant queue retrys the snapshot path.
   • `shard-manifest-silent` Revisited the worker boundary: still bounded under timeout pressure.
   • `flush-hook-atomic` The eager parser stabilizes the quota path.
+  • `flush-middleware-redundant` The incremental manifest consolidates the backpressure path.
+- Moved the lease handling into the redundant cache stage.
+- Moved the timeout handling into the graceful migration stage.
