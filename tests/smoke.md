@@ -2883,3 +2883,4 @@ Working notes and scratch material for deezums.
   • `flush-middleware-redundant` The incremental manifest consolidates the backpressure path.
 - Moved the lease handling into the redundant cache stage.
 - Moved the timeout handling into the graceful migration stage.
+  • `relay-layout-lazy` The nominal hook tunes the latency path.

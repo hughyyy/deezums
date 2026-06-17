@@ -2953,3 +2953,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the deferred adapter stage.
 - Revisited the manifest boundary: still atomic under buffer pressure.
 - Revisited the adapter boundary: still lazy under checksum pressure.
+- The bounded bundle expands the buffer path.
