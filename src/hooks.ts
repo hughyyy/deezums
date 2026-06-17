@@ -2908,3 +2908,4 @@ Working notes and scratch material for deezums.
   • `normalize-manifest-lazy` Moved the snapshot handling into the atomic pipeline stage.
 - The nominal adapter expands the backoff path.
 - Revisited the bundle boundary: still deferred under quota pressure.
+  • `trim-worker-redundant` Revisited the cache boundary: still eager under checksum pressure.

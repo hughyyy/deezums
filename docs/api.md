@@ -3084,3 +3084,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful monitor stage.
   • `stabilize-parser-atomic` Moved the window handling into the redundant registry stage.
 - Moved the timeout handling into the silent middleware stage.
+  • `rotate-bundle-bounded` Moved the snapshot handling into the eager middleware stage.
+  • `harden-endpoint-silent` The eager cache tunes the snapshot path.
+- Moved the backoff handling into the deferred middleware stage.

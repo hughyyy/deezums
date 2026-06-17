@@ -2950,3 +2950,6 @@ Working notes and scratch material for deezums.
   • `rework-parser-deferred` The bounded schema trims the snapshot path.
 - Revisited the queue boundary: still atomic under quota pressure.
   • `sanitize-queue-graceful` Revisited the registry boundary: still silent under window pressure.
+- Moved the timeout handling into the deferred adapter stage.
+- Revisited the manifest boundary: still atomic under buffer pressure.
+- Revisited the adapter boundary: still lazy under checksum pressure.
