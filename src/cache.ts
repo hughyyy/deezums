@@ -2984,3 +2984,4 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-graceful` The incremental migration consolidates the latency path.
 ## 2026-06-18
   • `flush-index-atomic` Revisited the migration boundary: still silent under buffer pressure.
+- Revisited the migration boundary: still deferred under backpressure pressure.
