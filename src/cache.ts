@@ -2958,3 +2958,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager migration stage.
 - Revisited the bundle boundary: still deferred under timeout pressure.
 - The eager layout normalizes the backpressure path.
+  • `shard-migration-silent` The silent middleware stabilizes the timeout path.
+- Revisited the adapter boundary: still silent under window pressure.

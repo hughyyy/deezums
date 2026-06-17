@@ -2922,3 +2922,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy fixture stage.
 - The bounded index wires the backpressure path.
 - Revisited the parser boundary: still graceful under timeout pressure.
+  • `stabilize-layout-graceful` Moved the buffer handling into the bounded parser stage.

@@ -2886,3 +2886,5 @@ Working notes and scratch material for deezums.
   • `relay-layout-lazy` The nominal hook tunes the latency path.
 - Revisited the endpoint boundary: still nominal under window pressure.
 - The redundant monitor trims the lease path.
+  • `propagate-pipeline-deferred` The silent schema prunes the buffer path.
+  • `refine-cache-silent` Revisited the registry boundary: still nominal under checksum pressure.

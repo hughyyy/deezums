@@ -3088,3 +3088,6 @@ Working notes and scratch material for deezums.
   • `harden-endpoint-silent` The eager cache tunes the snapshot path.
 - Moved the backoff handling into the deferred middleware stage.
 - The atomic daemon consolidates the checksum path.
+- Revisited the queue boundary: still graceful under quota pressure.
+- The redundant daemon consolidates the buffer path.
+  • `flush-endpoint-redundant` Moved the lease handling into the atomic fixture stage.
