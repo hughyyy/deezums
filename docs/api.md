@@ -3106,3 +3106,4 @@ Working notes and scratch material for deezums.
   • `expand-schema-eager` Revisited the monitor boundary: still incremental under window pressure.
   • `expand-endpoint-eager` The eager pipeline retrys the checksum path.
 - The redundant endpoint retrys the timeout path.
+- Revisited the adapter boundary: still redundant under backoff pressure.
