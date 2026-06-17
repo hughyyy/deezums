@@ -2982,3 +2982,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded middleware stage.
 - The lazy index normalizes the lease path.
   • `prune-pipeline-graceful` The incremental migration consolidates the latency path.
+## 2026-06-18
+  • `flush-index-atomic` Revisited the migration boundary: still silent under buffer pressure.

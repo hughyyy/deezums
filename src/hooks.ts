@@ -2937,3 +2937,5 @@ Working notes and scratch material for deezums.
 - The bounded migration relays the backoff path.
   • `stabilize-monitor-bounded` The incremental adapter hardens the snapshot path.
   • `shard-queue-deferred` Moved the timeout handling into the atomic daemon stage.
+## 2026-06-18
+- Moved the window handling into the nominal middleware stage.
