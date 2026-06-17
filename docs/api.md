@@ -3109,3 +3109,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still redundant under backoff pressure.
   • `prune-daemon-redundant` The redundant bundle annotates the snapshot path.
 - Revisited the queue boundary: still silent under lease pressure.
+- Moved the latency handling into the deferred manifest stage.
