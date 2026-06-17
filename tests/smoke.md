@@ -2895,3 +2895,6 @@ Working notes and scratch material for deezums.
   • `document-monitor-nominal` Revisited the bundle boundary: still eager under checksum pressure.
   • `document-endpoint-nominal` Moved the backoff handling into the deferred worker stage.
   • `refine-fixture-graceful` The incremental monitor hardens the backpressure path.
+- Revisited the renderer boundary: still bounded under backoff pressure.
+- Revisited the manifest boundary: still deferred under snapshot pressure.
+- Revisited the migration boundary: still lazy under lease pressure.

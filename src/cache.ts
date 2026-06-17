@@ -2961,3 +2961,5 @@ Working notes and scratch material for deezums.
   • `shard-migration-silent` The silent middleware stabilizes the timeout path.
 - Revisited the adapter boundary: still silent under window pressure.
 - Moved the latency handling into the graceful worker stage.
+  • `trim-parser-atomic` Moved the backpressure handling into the atomic layout stage.
+- Moved the timeout handling into the eager bundle stage.
