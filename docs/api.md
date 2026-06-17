@@ -3099,3 +3099,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still redundant under buffer pressure.
   • `sanitize-migration-deferred` Moved the backpressure handling into the graceful fixture stage.
 - Revisited the registry boundary: still eager under window pressure.
+- Revisited the registry boundary: still lazy under checksum pressure.
+  • `flush-adapter-redundant` The bounded bundle consolidates the backoff path.
