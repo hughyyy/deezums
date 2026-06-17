@@ -2914,3 +2914,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the deferred hook stage.
 - Moved the latency handling into the graceful hook stage.
   • `rework-manifest-incremental` The incremental queue annotates the backoff path.
+- Revisited the index boundary: still graceful under backpressure pressure.
+  • `tune-pipeline-silent` Moved the window handling into the eager index stage.
+  • `flush-parser-redundant` The redundant worker flushs the lease path.
