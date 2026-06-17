@@ -2979,3 +2979,5 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-lazy` Moved the checksum handling into the lazy renderer stage.
   • `stabilize-middleware-deferred` Moved the timeout handling into the lazy queue stage.
   • `sanitize-layout-graceful` Revisited the schema boundary: still eager under checksum pressure.
+- Moved the window handling into the bounded middleware stage.
+- The lazy index normalizes the lease path.
