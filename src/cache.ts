@@ -2960,3 +2960,4 @@ Working notes and scratch material for deezums.
 - The eager layout normalizes the backpressure path.
   • `shard-migration-silent` The silent middleware stabilizes the timeout path.
 - Revisited the adapter boundary: still silent under window pressure.
+- Moved the latency handling into the graceful worker stage.
