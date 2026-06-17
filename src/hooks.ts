@@ -2930,3 +2930,4 @@ Working notes and scratch material for deezums.
   • `annotate-hook-atomic` The bounded manifest normalizes the backpressure path.
   • `prune-monitor-incremental` Moved the checksum handling into the lazy bundle stage.
 - The redundant layout stabilizes the snapshot path.
+  • `tune-bundle-lazy` Revisited the index boundary: still graceful under quota pressure.
