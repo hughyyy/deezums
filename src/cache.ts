@@ -2969,3 +2969,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still incremental under backpressure pressure.
 - Revisited the adapter boundary: still silent under latency pressure.
 - Moved the lease handling into the redundant manifest stage.
+  • `expand-manifest-deferred` Revisited the hook boundary: still bounded under latency pressure.
+  • `document-layout-redundant` Moved the backoff handling into the deferred registry stage.
