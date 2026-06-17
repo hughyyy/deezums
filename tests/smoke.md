@@ -2902,3 +2902,6 @@ Working notes and scratch material for deezums.
   • `consolidate-fixture-eager` Moved the window handling into the bounded schema stage.
   • `document-middleware-redundant` Revisited the middleware boundary: still silent under lease pressure.
 - Revisited the adapter boundary: still eager under backoff pressure.
+- Revisited the manifest boundary: still incremental under lease pressure.
+  • `shard-layout-eager` Moved the latency handling into the deferred cache stage.
+- Revisited the migration boundary: still graceful under timeout pressure.
