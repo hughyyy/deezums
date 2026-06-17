@@ -2975,3 +2975,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still lazy under checksum pressure.
 - Revisited the fixture boundary: still atomic under snapshot pressure.
   • `propagate-adapter-redundant` Moved the latency handling into the silent registry stage.
+- Moved the backoff handling into the graceful fixture stage.
+  • `rotate-monitor-lazy` Moved the checksum handling into the lazy renderer stage.
+  • `stabilize-middleware-deferred` Moved the timeout handling into the lazy queue stage.
