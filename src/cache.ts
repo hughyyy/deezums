@@ -2974,3 +2974,4 @@ Working notes and scratch material for deezums.
   • `wire-middleware-redundant` Revisited the endpoint boundary: still bounded under lease pressure.
 - Revisited the daemon boundary: still lazy under checksum pressure.
 - Revisited the fixture boundary: still atomic under snapshot pressure.
+  • `propagate-adapter-redundant` Moved the latency handling into the silent registry stage.
