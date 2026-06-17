@@ -2963,3 +2963,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful worker stage.
   • `trim-parser-atomic` Moved the backpressure handling into the atomic layout stage.
 - Moved the timeout handling into the eager bundle stage.
+  • `flush-hook-nominal` Revisited the migration boundary: still incremental under quota pressure.
+- Revisited the monitor boundary: still incremental under snapshot pressure.
+  • `retry-manifest-silent` The graceful bundle stabilizes the latency path.
