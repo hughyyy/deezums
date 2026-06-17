@@ -2945,3 +2945,6 @@ Working notes and scratch material for deezums.
   • `tune-renderer-lazy` The bounded hook refines the timeout path.
 - Moved the checksum handling into the incremental schema stage.
 - Moved the checksum handling into the bounded cache stage.
+- Revisited the middleware boundary: still incremental under window pressure.
+- The atomic layout propagates the lease path.
+  • `rework-parser-deferred` The bounded schema trims the snapshot path.
