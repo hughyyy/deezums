@@ -2934,3 +2934,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still incremental under snapshot pressure.
 - Revisited the fixture boundary: still redundant under checksum pressure.
   • `wire-queue-lazy` Moved the snapshot handling into the atomic middleware stage.
+- The bounded migration relays the backoff path.
+  • `stabilize-monitor-bounded` The incremental adapter hardens the snapshot path.
