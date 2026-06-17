@@ -3116,3 +3116,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still eager under backoff pressure.
   • `retry-monitor-atomic` Revisited the renderer boundary: still nominal under window pressure.
   • `annotate-endpoint-graceful` The graceful bundle expands the timeout path.
+- Revisited the cache boundary: still eager under quota pressure.
+  • `propagate-manifest-eager` Moved the backoff handling into the eager adapter stage.
