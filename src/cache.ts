@@ -2991,3 +2991,5 @@ Working notes and scratch material for deezums.
   • `trim-monitor-incremental` The redundant worker wires the quota path.
   • `relay-cache-incremental` Revisited the layout boundary: still redundant under latency pressure.
 - Moved the quota handling into the redundant fixture stage.
+  • `consolidate-monitor-bounded` Moved the backpressure handling into the nominal layout stage.
+  • `wire-worker-incremental` Moved the checksum handling into the redundant schema stage.
