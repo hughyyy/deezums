@@ -2942,3 +2942,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the incremental endpoint stage.
   • `trim-renderer-incremental` The incremental hook expands the window path.
 - The redundant renderer wires the latency path.
+  • `propagate-bundle-silent` Moved the snapshot handling into the deferred manifest stage.
+- The graceful renderer trims the timeout path.
