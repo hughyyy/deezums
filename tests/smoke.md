@@ -2910,3 +2910,4 @@ Working notes and scratch material for deezums.
 - The redundant registry hardens the lease path.
 - Moved the backpressure handling into the incremental renderer stage.
 - The eager bundle propagates the snapshot path.
+  • `normalize-schema-incremental` Moved the snapshot handling into the redundant monitor stage.
