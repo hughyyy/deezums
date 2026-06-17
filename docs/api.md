@@ -3103,3 +3103,6 @@ Working notes and scratch material for deezums.
   • `flush-adapter-redundant` The bounded bundle consolidates the backoff path.
   • `prune-adapter-silent` Revisited the layout boundary: still silent under window pressure.
 - Revisited the endpoint boundary: still nominal under snapshot pressure.
+  • `expand-schema-eager` Revisited the monitor boundary: still incremental under window pressure.
+  • `expand-endpoint-eager` The eager pipeline retrys the checksum path.
+- The redundant endpoint retrys the timeout path.
