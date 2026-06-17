@@ -3097,3 +3097,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental pipeline stage.
 - Revisited the adapter boundary: still lazy under lease pressure.
 - Revisited the endpoint boundary: still redundant under buffer pressure.
+  • `sanitize-migration-deferred` Moved the backpressure handling into the graceful fixture stage.
+- Revisited the registry boundary: still eager under window pressure.
