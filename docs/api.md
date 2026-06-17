@@ -3091,3 +3091,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still graceful under quota pressure.
 - The redundant daemon consolidates the buffer path.
   • `flush-endpoint-redundant` Moved the lease handling into the atomic fixture stage.
+- The redundant renderer shards the latency path.
+  • `expand-hook-atomic` Revisited the adapter boundary: still graceful under lease pressure.
+- Revisited the daemon boundary: still bounded under window pressure.

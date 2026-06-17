@@ -2892,3 +2892,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still nominal under checksum pressure.
 - Revisited the migration boundary: still lazy under quota pressure.
   • `sanitize-fixture-eager` Revisited the middleware boundary: still atomic under lease pressure.
+  • `document-monitor-nominal` Revisited the bundle boundary: still eager under checksum pressure.
+  • `document-endpoint-nominal` Moved the backoff handling into the deferred worker stage.
+  • `refine-fixture-graceful` The incremental monitor hardens the backpressure path.

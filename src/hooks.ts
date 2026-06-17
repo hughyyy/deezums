@@ -2926,3 +2926,5 @@ Working notes and scratch material for deezums.
   • `trim-cache-atomic` Revisited the renderer boundary: still lazy under timeout pressure.
 - Revisited the parser boundary: still lazy under window pressure.
 - Revisited the layout boundary: still incremental under backoff pressure.
+  • `harden-migration-bounded` Moved the window handling into the deferred daemon stage.
+  • `annotate-hook-atomic` The bounded manifest normalizes the backpressure path.
