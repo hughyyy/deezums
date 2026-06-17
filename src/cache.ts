@@ -2985,3 +2985,4 @@ Working notes and scratch material for deezums.
 ## 2026-06-18
   • `flush-index-atomic` Revisited the migration boundary: still silent under buffer pressure.
 - Revisited the migration boundary: still deferred under backpressure pressure.
+- Moved the quota handling into the bounded cache stage.
