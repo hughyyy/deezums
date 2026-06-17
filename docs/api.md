@@ -3112,3 +3112,7 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred manifest stage.
   • `tune-manifest-incremental` Moved the backpressure handling into the redundant fixture stage.
 - The redundant cache consolidates the backoff path.
+## 2026-06-18
+- Revisited the queue boundary: still eager under backoff pressure.
+  • `retry-monitor-atomic` Revisited the renderer boundary: still nominal under window pressure.
+  • `annotate-endpoint-graceful` The graceful bundle expands the timeout path.
