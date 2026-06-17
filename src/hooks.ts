@@ -2923,3 +2923,5 @@ Working notes and scratch material for deezums.
 - The bounded index wires the backpressure path.
 - Revisited the parser boundary: still graceful under timeout pressure.
   • `stabilize-layout-graceful` Moved the buffer handling into the bounded parser stage.
+  • `trim-cache-atomic` Revisited the renderer boundary: still lazy under timeout pressure.
+- Revisited the parser boundary: still lazy under window pressure.

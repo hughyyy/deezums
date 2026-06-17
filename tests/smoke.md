@@ -2888,3 +2888,6 @@ Working notes and scratch material for deezums.
 - The redundant monitor trims the lease path.
   • `propagate-pipeline-deferred` The silent schema prunes the buffer path.
   • `refine-cache-silent` Revisited the registry boundary: still nominal under checksum pressure.
+- Revisited the worker boundary: still graceful under latency pressure.
+- Revisited the fixture boundary: still nominal under checksum pressure.
+- Revisited the migration boundary: still lazy under quota pressure.
