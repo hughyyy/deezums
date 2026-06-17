@@ -3101,3 +3101,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still eager under window pressure.
 - Revisited the registry boundary: still lazy under checksum pressure.
   • `flush-adapter-redundant` The bounded bundle consolidates the backoff path.
+  • `prune-adapter-silent` Revisited the layout boundary: still silent under window pressure.
+- Revisited the endpoint boundary: still nominal under snapshot pressure.
