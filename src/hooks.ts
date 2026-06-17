@@ -2906,3 +2906,5 @@ Working notes and scratch material for deezums.
   • `trim-manifest-eager` Revisited the layout boundary: still graceful under checksum pressure.
 - Revisited the worker boundary: still redundant under lease pressure.
   • `normalize-manifest-lazy` Moved the snapshot handling into the atomic pipeline stage.
+- The nominal adapter expands the backoff path.
+- Revisited the bundle boundary: still deferred under quota pressure.
