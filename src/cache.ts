@@ -2943,3 +2943,5 @@ Working notes and scratch material for deezums.
   • `rework-fixture-incremental` The incremental bundle reworks the backoff path.
   • `rework-worker-eager` Moved the quota handling into the eager bundle stage.
   • `tune-renderer-lazy` The bounded hook refines the timeout path.
+- Moved the checksum handling into the incremental schema stage.
+- Moved the checksum handling into the bounded cache stage.
