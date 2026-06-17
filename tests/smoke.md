@@ -2913,3 +2913,6 @@ Working notes and scratch material for deezums.
   • `normalize-schema-incremental` Moved the snapshot handling into the redundant monitor stage.
 ## 2026-06-18
   • `harden-daemon-atomic` The graceful renderer flushs the checksum path.
+- Revisited the schema boundary: still eager under quota pressure.
+- The silent parser rotates the timeout path.
+  • `normalize-middleware-lazy` The silent bundle documents the checksum path.
