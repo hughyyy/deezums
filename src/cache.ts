@@ -2957,3 +2957,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still eager under window pressure.
 - Moved the window handling into the eager migration stage.
 - Revisited the bundle boundary: still deferred under timeout pressure.
+- The eager layout normalizes the backpressure path.

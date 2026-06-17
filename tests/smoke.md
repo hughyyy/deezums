@@ -2884,3 +2884,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant cache stage.
 - Moved the timeout handling into the graceful migration stage.
   • `relay-layout-lazy` The nominal hook tunes the latency path.
+- Revisited the endpoint boundary: still nominal under window pressure.
+- The redundant monitor trims the lease path.

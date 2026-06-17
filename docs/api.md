@@ -3087,3 +3087,4 @@ Working notes and scratch material for deezums.
   • `rotate-bundle-bounded` Moved the snapshot handling into the eager middleware stage.
   • `harden-endpoint-silent` The eager cache tunes the snapshot path.
 - Moved the backoff handling into the deferred middleware stage.
+- The atomic daemon consolidates the checksum path.

@@ -2910,3 +2910,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still deferred under quota pressure.
   • `trim-worker-redundant` Revisited the cache boundary: still eager under checksum pressure.
 - Revisited the cache boundary: still redundant under quota pressure.
+  • `retry-middleware-eager` Moved the checksum handling into the nominal layout stage.
+- Moved the timeout handling into the deferred hook stage.
+- Moved the latency handling into the graceful hook stage.
