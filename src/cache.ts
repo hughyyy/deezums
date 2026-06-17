@@ -2948,3 +2948,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still incremental under window pressure.
 - The atomic layout propagates the lease path.
   • `rework-parser-deferred` The bounded schema trims the snapshot path.
+- Revisited the queue boundary: still atomic under quota pressure.
+  • `sanitize-queue-graceful` Revisited the registry boundary: still silent under window pressure.

@@ -2899,3 +2899,5 @@ Working notes and scratch material for deezums.
   • `trim-migration-deferred` Moved the snapshot handling into the deferred endpoint stage.
   • `rework-pipeline-silent` Revisited the hook boundary: still silent under timeout pressure.
 - The bounded pipeline expands the snapshot path.
+## 2026-06-17
+  • `consolidate-fixture-atomic` Revisited the manifest boundary: still redundant under window pressure.
