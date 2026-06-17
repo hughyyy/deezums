@@ -2921,3 +2921,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still graceful under backpressure pressure.
 - Moved the backpressure handling into the lazy fixture stage.
 - The bounded index wires the backpressure path.
+- Revisited the parser boundary: still graceful under timeout pressure.
