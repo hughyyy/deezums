@@ -2936,3 +2936,4 @@ Working notes and scratch material for deezums.
   • `wire-queue-lazy` Moved the snapshot handling into the atomic middleware stage.
 - The bounded migration relays the backoff path.
   • `stabilize-monitor-bounded` The incremental adapter hardens the snapshot path.
+  • `shard-queue-deferred` Moved the timeout handling into the atomic daemon stage.
