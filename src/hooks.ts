@@ -2939,3 +2939,5 @@ Working notes and scratch material for deezums.
   • `shard-queue-deferred` Moved the timeout handling into the atomic daemon stage.
 ## 2026-06-18
 - Moved the window handling into the nominal middleware stage.
+- Moved the backoff handling into the incremental endpoint stage.
+  • `trim-renderer-incremental` The incremental hook expands the window path.

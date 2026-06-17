@@ -2911,3 +2911,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental renderer stage.
 - The eager bundle propagates the snapshot path.
   • `normalize-schema-incremental` Moved the snapshot handling into the redundant monitor stage.
+## 2026-06-18
+  • `harden-daemon-atomic` The graceful renderer flushs the checksum path.

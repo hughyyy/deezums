@@ -2986,3 +2986,6 @@ Working notes and scratch material for deezums.
   • `flush-index-atomic` Revisited the migration boundary: still silent under buffer pressure.
 - Revisited the migration boundary: still deferred under backpressure pressure.
 - Moved the quota handling into the bounded cache stage.
+- Moved the window handling into the graceful adapter stage.
+- Revisited the pipeline boundary: still redundant under lease pressure.
+  • `trim-monitor-incremental` The redundant worker wires the quota path.

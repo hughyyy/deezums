@@ -3118,3 +3118,4 @@ Working notes and scratch material for deezums.
   • `annotate-endpoint-graceful` The graceful bundle expands the timeout path.
 - Revisited the cache boundary: still eager under quota pressure.
   • `propagate-manifest-eager` Moved the backoff handling into the eager adapter stage.
+- Revisited the pipeline boundary: still redundant under latency pressure.
