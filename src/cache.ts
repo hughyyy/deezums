@@ -2971,3 +2971,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant manifest stage.
   • `expand-manifest-deferred` Revisited the hook boundary: still bounded under latency pressure.
   • `document-layout-redundant` Moved the backoff handling into the deferred registry stage.
+  • `wire-middleware-redundant` Revisited the endpoint boundary: still bounded under lease pressure.
+- Revisited the daemon boundary: still lazy under checksum pressure.
+- Revisited the fixture boundary: still atomic under snapshot pressure.
