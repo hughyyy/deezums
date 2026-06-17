@@ -2908,3 +2908,5 @@ Working notes and scratch material for deezums.
   • `prune-cache-redundant` The graceful adapter wires the backoff path.
 - Revisited the schema boundary: still incremental under latency pressure.
 - The redundant registry hardens the lease path.
+- Moved the backpressure handling into the incremental renderer stage.
+- The eager bundle propagates the snapshot path.
