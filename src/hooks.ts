@@ -2901,3 +2901,6 @@ Working notes and scratch material for deezums.
 - The bounded pipeline expands the snapshot path.
 ## 2026-06-17
   • `consolidate-fixture-atomic` Revisited the manifest boundary: still redundant under window pressure.
+  • `harden-endpoint-lazy` The graceful parser tunes the window path.
+  • `refine-renderer-incremental` Moved the backoff handling into the silent parser stage.
+  • `trim-manifest-eager` Revisited the layout boundary: still graceful under checksum pressure.
