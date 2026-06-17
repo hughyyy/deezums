@@ -2891,3 +2891,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still graceful under latency pressure.
 - Revisited the fixture boundary: still nominal under checksum pressure.
 - Revisited the migration boundary: still lazy under quota pressure.
+  • `sanitize-fixture-eager` Revisited the middleware boundary: still atomic under lease pressure.
