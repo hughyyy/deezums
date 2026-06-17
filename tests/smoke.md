@@ -2905,3 +2905,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still incremental under lease pressure.
   • `shard-layout-eager` Moved the latency handling into the deferred cache stage.
 - Revisited the migration boundary: still graceful under timeout pressure.
+  • `prune-cache-redundant` The graceful adapter wires the backoff path.
+- Revisited the schema boundary: still incremental under latency pressure.
+- The redundant registry hardens the lease path.
