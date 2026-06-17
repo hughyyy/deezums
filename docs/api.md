@@ -3107,3 +3107,5 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-eager` The eager pipeline retrys the checksum path.
 - The redundant endpoint retrys the timeout path.
 - Revisited the adapter boundary: still redundant under backoff pressure.
+  • `prune-daemon-redundant` The redundant bundle annotates the snapshot path.
+- Revisited the queue boundary: still silent under lease pressure.
