@@ -2913,3 +2913,4 @@ Working notes and scratch material for deezums.
   • `retry-middleware-eager` Moved the checksum handling into the nominal layout stage.
 - Moved the timeout handling into the deferred hook stage.
 - Moved the latency handling into the graceful hook stage.
+  • `rework-manifest-incremental` The incremental queue annotates the backoff path.
