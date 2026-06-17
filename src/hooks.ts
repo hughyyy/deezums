@@ -2925,3 +2925,4 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-graceful` Moved the buffer handling into the bounded parser stage.
   • `trim-cache-atomic` Revisited the renderer boundary: still lazy under timeout pressure.
 - Revisited the parser boundary: still lazy under window pressure.
+- Revisited the layout boundary: still incremental under backoff pressure.
