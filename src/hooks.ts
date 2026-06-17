@@ -2941,3 +2941,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal middleware stage.
 - Moved the backoff handling into the incremental endpoint stage.
   • `trim-renderer-incremental` The incremental hook expands the window path.
+- The redundant renderer wires the latency path.
