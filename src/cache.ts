@@ -2981,3 +2981,4 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-graceful` Revisited the schema boundary: still eager under checksum pressure.
 - Moved the window handling into the bounded middleware stage.
 - The lazy index normalizes the lease path.
+  • `prune-pipeline-graceful` The incremental migration consolidates the latency path.
