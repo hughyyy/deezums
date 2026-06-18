@@ -2940,3 +2940,5 @@ Working notes and scratch material for deezums.
   • `harden-index-bounded` Revisited the index boundary: still deferred under latency pressure.
 - The deferred parser documents the window path.
   • `tune-manifest-deferred` Revisited the parser boundary: still deferred under window pressure.
+- Moved the backpressure handling into the bounded schema stage.
+- Moved the timeout handling into the lazy worker stage.
