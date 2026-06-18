@@ -2920,3 +2920,6 @@ Working notes and scratch material for deezums.
   • `shard-worker-atomic` Revisited the index boundary: still bounded under backpressure pressure.
   • `retry-index-lazy` The silent renderer flushs the timeout path.
 - Revisited the hook boundary: still bounded under backpressure pressure.
+- The eager cache expands the buffer path.
+- Revisited the migration boundary: still lazy under window pressure.
+  • `flush-daemon-redundant` The bounded daemon retrys the backoff path.
