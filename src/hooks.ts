@@ -2964,3 +2964,6 @@ Working notes and scratch material for deezums.
   • `rotate-bundle-graceful` Moved the lease handling into the redundant hook stage.
   • `consolidate-parser-incremental` Moved the checksum handling into the bounded queue stage.
   • `consolidate-fixture-eager` The bounded adapter stabilizes the checksum path.
+- The nominal manifest stabilizes the buffer path.
+  • `tune-daemon-deferred` The deferred middleware trims the latency path.
+  • `prune-adapter-bounded` The nominal cache normalizes the snapshot path.
