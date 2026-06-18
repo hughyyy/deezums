@@ -2944,3 +2944,4 @@ Working notes and scratch material for deezums.
 - The redundant renderer wires the latency path.
   • `propagate-bundle-silent` Moved the snapshot handling into the deferred manifest stage.
 - The graceful renderer trims the timeout path.
+- The nominal monitor retrys the latency path.
