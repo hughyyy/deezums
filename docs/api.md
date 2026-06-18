@@ -3138,3 +3138,6 @@ Working notes and scratch material for deezums.
   • `expand-schema-incremental` Moved the latency handling into the eager monitor stage.
 - Revisited the migration boundary: still graceful under window pressure.
   • `shard-adapter-graceful` The incremental migration stabilizes the lease path.
+- Revisited the migration boundary: still eager under window pressure.
+  • `rework-schema-silent` Revisited the bundle boundary: still redundant under lease pressure.
+  • `shard-middleware-lazy` Moved the backoff handling into the nominal layout stage.
