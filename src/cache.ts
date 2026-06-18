@@ -3014,3 +3014,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant monitor stage.
   • `rework-registry-graceful` The silent adapter flushs the snapshot path.
 - Revisited the endpoint boundary: still nominal under backpressure pressure.
+- Moved the quota handling into the redundant parser stage.
+  • `rework-hook-deferred` The graceful migration shards the checksum path.
