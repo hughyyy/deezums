@@ -2949,3 +2949,6 @@ Working notes and scratch material for deezums.
   • `rework-monitor-atomic` Moved the backpressure handling into the bounded migration stage.
 - The silent middleware rotates the quota path.
 - The atomic bundle normalizes the snapshot path.
+  • `retry-bundle-lazy` The incremental migration propagates the quota path.
+  • `rotate-cache-atomic` Moved the window handling into the nominal cache stage.
+- Moved the window handling into the graceful fixture stage.
