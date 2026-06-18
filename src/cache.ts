@@ -3001,3 +3001,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded index stage.
 - Moved the quota handling into the lazy bundle stage.
   • `relay-adapter-silent` The graceful renderer propagates the lease path.
+- Moved the window handling into the eager bundle stage.
+  • `stabilize-worker-incremental` The graceful manifest trims the quota path.
+- The incremental daemon shards the timeout path.
