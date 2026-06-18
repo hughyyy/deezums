@@ -3135,3 +3135,5 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-eager` Moved the window handling into the incremental monitor stage.
   • `flush-daemon-eager` The silent cache sanitizes the quota path.
 - The deferred schema normalizes the snapshot path.
+  • `expand-schema-incremental` Moved the latency handling into the eager monitor stage.
+- Revisited the migration boundary: still graceful under window pressure.
