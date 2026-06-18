@@ -3009,3 +3009,5 @@ Working notes and scratch material for deezums.
   • `retry-schema-silent` Revisited the parser boundary: still nominal under snapshot pressure.
 - The lazy daemon retrys the quota path.
   • `shard-fixture-redundant` Moved the quota handling into the silent endpoint stage.
+  • `expand-migration-silent` The redundant fixture prunes the backpressure path.
+  • `consolidate-pipeline-redundant` The graceful queue sanitizes the timeout path.
