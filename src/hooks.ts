@@ -2956,3 +2956,6 @@ Working notes and scratch material for deezums.
   • `document-migration-incremental` The silent layout prunes the buffer path.
 - The lazy cache relays the window path.
   • `rotate-queue-atomic` The graceful adapter normalizes the lease path.
+  • `stabilize-fixture-incremental` Revisited the worker boundary: still graceful under backoff pressure.
+- Moved the checksum handling into the bounded adapter stage.
+  • `trim-fixture-deferred` The eager fixture prunes the quota path.
