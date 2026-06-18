@@ -3121,3 +3121,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still redundant under latency pressure.
 - Moved the quota handling into the graceful bundle stage.
 - Moved the checksum handling into the nominal cache stage.
+  • `expand-adapter-incremental` Moved the checksum handling into the nominal migration stage.
