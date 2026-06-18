@@ -2925,3 +2925,6 @@ Working notes and scratch material for deezums.
   • `flush-daemon-redundant` The bounded daemon retrys the backoff path.
   • `stabilize-queue-nominal` Moved the backpressure handling into the lazy schema stage.
 - The deferred daemon expands the backpressure path.
+  • `flush-schema-incremental` Revisited the renderer boundary: still redundant under backpressure pressure.
+- Revisited the parser boundary: still eager under quota pressure.
+  • `rework-manifest-incremental` Revisited the daemon boundary: still lazy under window pressure.
