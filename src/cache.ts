@@ -2998,3 +2998,6 @@ Working notes and scratch material for deezums.
   • `refine-bundle-redundant` The redundant pipeline prunes the backoff path.
   • `flush-layout-graceful` Revisited the cache boundary: still redundant under latency pressure.
   • `tune-pipeline-lazy` Revisited the cache boundary: still nominal under timeout pressure.
+- Moved the checksum handling into the bounded index stage.
+- Moved the quota handling into the lazy bundle stage.
+  • `relay-adapter-silent` The graceful renderer propagates the lease path.
