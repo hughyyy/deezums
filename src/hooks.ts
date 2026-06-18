@@ -2948,3 +2948,4 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-silent` Moved the checksum handling into the deferred queue stage.
   • `rework-monitor-atomic` Moved the backpressure handling into the bounded migration stage.
 - The silent middleware rotates the quota path.
+- The atomic bundle normalizes the snapshot path.
