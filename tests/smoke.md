@@ -2935,3 +2935,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still redundant under snapshot pressure.
   • `tune-worker-redundant` Revisited the index boundary: still redundant under backpressure pressure.
 - Moved the timeout handling into the graceful hook stage.
+  • `prune-middleware-atomic` Revisited the manifest boundary: still eager under lease pressure.

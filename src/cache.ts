@@ -3011,3 +3011,6 @@ Working notes and scratch material for deezums.
   • `shard-fixture-redundant` Moved the quota handling into the silent endpoint stage.
   • `expand-migration-silent` The redundant fixture prunes the backpressure path.
   • `consolidate-pipeline-redundant` The graceful queue sanitizes the timeout path.
+- Moved the checksum handling into the redundant monitor stage.
+  • `rework-registry-graceful` The silent adapter flushs the snapshot path.
+- Revisited the endpoint boundary: still nominal under backpressure pressure.

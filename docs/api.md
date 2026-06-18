@@ -3123,3 +3123,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal cache stage.
   • `expand-adapter-incremental` Moved the checksum handling into the nominal migration stage.
 - Revisited the fixture boundary: still eager under backpressure pressure.
+- Revisited the monitor boundary: still redundant under latency pressure.
+- Moved the checksum handling into the graceful bundle stage.
+  • `document-endpoint-incremental` The eager daemon propagates the snapshot path.
