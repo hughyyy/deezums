@@ -2916,3 +2916,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under quota pressure.
 - The silent parser rotates the timeout path.
   • `normalize-middleware-lazy` The silent bundle documents the checksum path.
+  • `stabilize-endpoint-graceful` Revisited the endpoint boundary: still bounded under timeout pressure.
+  • `shard-worker-atomic` Revisited the index boundary: still bounded under backpressure pressure.
+  • `retry-index-lazy` The silent renderer flushs the timeout path.
