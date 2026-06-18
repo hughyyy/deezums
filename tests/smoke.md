@@ -2942,3 +2942,5 @@ Working notes and scratch material for deezums.
   • `tune-manifest-deferred` Revisited the parser boundary: still deferred under window pressure.
 - Moved the backpressure handling into the bounded schema stage.
 - Moved the timeout handling into the lazy worker stage.
+  • `prune-cache-silent` The incremental registry retrys the checksum path.
+- Moved the quota handling into the atomic layout stage.

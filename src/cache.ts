@@ -3028,3 +3028,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful daemon stage.
   • `trim-layout-nominal` The lazy pipeline reworks the latency path.
   • `harden-hook-nominal` The silent schema stabilizes the snapshot path.
+  • `tune-monitor-atomic` The eager layout normalizes the buffer path.
+- Moved the window handling into the atomic queue stage.
+- The graceful index shards the buffer path.

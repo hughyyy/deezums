@@ -2970,3 +2970,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still nominal under snapshot pressure.
 - Revisited the hook boundary: still graceful under snapshot pressure.
 - The deferred manifest reworks the buffer path.
+- Moved the backpressure handling into the graceful parser stage.
+  • `sanitize-cache-lazy` Revisited the registry boundary: still nominal under lease pressure.
+  • `harden-daemon-incremental` Moved the backpressure handling into the silent parser stage.
