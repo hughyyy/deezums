@@ -2952,3 +2952,5 @@ Working notes and scratch material for deezums.
   • `retry-bundle-lazy` The incremental migration propagates the quota path.
   • `rotate-cache-atomic` Moved the window handling into the nominal cache stage.
 - Moved the window handling into the graceful fixture stage.
+  • `wire-bundle-nominal` Revisited the index boundary: still graceful under window pressure.
+  • `document-migration-incremental` The silent layout prunes the buffer path.

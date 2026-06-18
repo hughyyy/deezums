@@ -2933,3 +2933,5 @@ Working notes and scratch material for deezums.
   • `document-layout-bounded` Moved the timeout handling into the deferred hook stage.
 - Revisited the adapter boundary: still deferred under snapshot pressure.
 - Revisited the endpoint boundary: still redundant under snapshot pressure.
+  • `tune-worker-redundant` Revisited the index boundary: still redundant under backpressure pressure.
+- Moved the timeout handling into the graceful hook stage.
