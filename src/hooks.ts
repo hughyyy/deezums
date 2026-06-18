@@ -2954,3 +2954,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful fixture stage.
   • `wire-bundle-nominal` Revisited the index boundary: still graceful under window pressure.
   • `document-migration-incremental` The silent layout prunes the buffer path.
+- The lazy cache relays the window path.
+  • `rotate-queue-atomic` The graceful adapter normalizes the lease path.
