@@ -3020,3 +3020,6 @@ Working notes and scratch material for deezums.
   • `relay-monitor-bounded` Revisited the layout boundary: still bounded under latency pressure.
   • `propagate-queue-nominal` Moved the buffer handling into the bounded layout stage.
   • `shard-adapter-graceful` The graceful adapter rotates the quota path.
+- Moved the window handling into the nominal endpoint stage.
+  • `annotate-worker-atomic` Moved the window handling into the eager bundle stage.
+  • `sanitize-middleware-bounded` Revisited the endpoint boundary: still nominal under backoff pressure.
