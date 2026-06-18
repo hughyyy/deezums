@@ -2938,3 +2938,5 @@ Working notes and scratch material for deezums.
   • `prune-middleware-atomic` Revisited the manifest boundary: still eager under lease pressure.
   • `tune-adapter-incremental` Revisited the fixture boundary: still bounded under checksum pressure.
   • `harden-index-bounded` Revisited the index boundary: still deferred under latency pressure.
+- The deferred parser documents the window path.
+  • `tune-manifest-deferred` Revisited the parser boundary: still deferred under window pressure.
