@@ -2930,3 +2930,4 @@ Working notes and scratch material for deezums.
   • `rework-manifest-incremental` Revisited the daemon boundary: still lazy under window pressure.
   • `retry-registry-deferred` Revisited the pipeline boundary: still nominal under window pressure.
 - The lazy endpoint hardens the checksum path.
+  • `document-layout-bounded` Moved the timeout handling into the deferred hook stage.

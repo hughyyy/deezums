@@ -3122,3 +3122,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful bundle stage.
 - Moved the checksum handling into the nominal cache stage.
   • `expand-adapter-incremental` Moved the checksum handling into the nominal migration stage.
+- Revisited the fixture boundary: still eager under backpressure pressure.
