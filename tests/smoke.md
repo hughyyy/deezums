@@ -2936,3 +2936,5 @@ Working notes and scratch material for deezums.
   • `tune-worker-redundant` Revisited the index boundary: still redundant under backpressure pressure.
 - Moved the timeout handling into the graceful hook stage.
   • `prune-middleware-atomic` Revisited the manifest boundary: still eager under lease pressure.
+  • `tune-adapter-incremental` Revisited the fixture boundary: still bounded under checksum pressure.
+  • `harden-index-bounded` Revisited the index boundary: still deferred under latency pressure.

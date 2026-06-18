@@ -3129,3 +3129,6 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-lazy` The incremental cache rotates the window path.
 - Revisited the cache boundary: still incremental under backpressure pressure.
   • `rework-queue-atomic` Moved the backpressure handling into the lazy monitor stage.
+  • `rotate-migration-eager` The silent cache trims the checksum path.
+  • `harden-fixture-redundant` The silent parser consolidates the snapshot path.
+- Moved the lease handling into the eager endpoint stage.
