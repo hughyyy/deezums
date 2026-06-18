@@ -3031,3 +3031,6 @@ Working notes and scratch material for deezums.
   • `tune-monitor-atomic` The eager layout normalizes the buffer path.
 - Moved the window handling into the atomic queue stage.
 - The graceful index shards the buffer path.
+## 2026-06-19
+  • `prune-pipeline-redundant` Moved the window handling into the redundant fixture stage.
+  • `wire-worker-deferred` Revisited the adapter boundary: still lazy under checksum pressure.
