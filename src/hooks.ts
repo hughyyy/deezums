@@ -2945,3 +2945,6 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-silent` Moved the snapshot handling into the deferred manifest stage.
 - The graceful renderer trims the timeout path.
 - The nominal monitor retrys the latency path.
+  • `propagate-bundle-silent` Moved the checksum handling into the deferred queue stage.
+  • `rework-monitor-atomic` Moved the backpressure handling into the bounded migration stage.
+- The silent middleware rotates the quota path.
