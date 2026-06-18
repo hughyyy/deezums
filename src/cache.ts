@@ -2993,3 +2993,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the redundant fixture stage.
   • `consolidate-monitor-bounded` Moved the backpressure handling into the nominal layout stage.
   • `wire-worker-incremental` Moved the checksum handling into the redundant schema stage.
+- The redundant queue prunes the timeout path.
+  • `prune-middleware-incremental` The eager worker wires the timeout path.
