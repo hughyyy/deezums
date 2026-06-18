@@ -3019,3 +3019,4 @@ Working notes and scratch material for deezums.
   • `refine-middleware-bounded` Revisited the queue boundary: still atomic under buffer pressure.
   • `relay-monitor-bounded` Revisited the layout boundary: still bounded under latency pressure.
   • `propagate-queue-nominal` Moved the buffer handling into the bounded layout stage.
+  • `shard-adapter-graceful` The graceful adapter rotates the quota path.
