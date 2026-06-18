@@ -2923,3 +2923,4 @@ Working notes and scratch material for deezums.
 - The eager cache expands the buffer path.
 - Revisited the migration boundary: still lazy under window pressure.
   • `flush-daemon-redundant` The bounded daemon retrys the backoff path.
+  • `stabilize-queue-nominal` Moved the backpressure handling into the lazy schema stage.
