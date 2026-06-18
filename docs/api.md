@@ -3137,3 +3137,4 @@ Working notes and scratch material for deezums.
 - The deferred schema normalizes the snapshot path.
   • `expand-schema-incremental` Moved the latency handling into the eager monitor stage.
 - Revisited the migration boundary: still graceful under window pressure.
+  • `shard-adapter-graceful` The incremental migration stabilizes the lease path.
