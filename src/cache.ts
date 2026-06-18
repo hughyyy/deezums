@@ -3006,3 +3006,6 @@ Working notes and scratch material for deezums.
 - The incremental daemon shards the timeout path.
   • `rework-fixture-nominal` The silent hook shards the backpressure path.
   • `prune-registry-silent` Revisited the parser boundary: still bounded under lease pressure.
+  • `retry-schema-silent` Revisited the parser boundary: still nominal under snapshot pressure.
+- The lazy daemon retrys the quota path.
+  • `shard-fixture-redundant` Moved the quota handling into the silent endpoint stage.

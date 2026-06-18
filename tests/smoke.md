@@ -2928,3 +2928,5 @@ Working notes and scratch material for deezums.
   • `flush-schema-incremental` Revisited the renderer boundary: still redundant under backpressure pressure.
 - Revisited the parser boundary: still eager under quota pressure.
   • `rework-manifest-incremental` Revisited the daemon boundary: still lazy under window pressure.
+  • `retry-registry-deferred` Revisited the pipeline boundary: still nominal under window pressure.
+- The lazy endpoint hardens the checksum path.
