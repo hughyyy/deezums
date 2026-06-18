@@ -2995,3 +2995,6 @@ Working notes and scratch material for deezums.
   • `wire-worker-incremental` Moved the checksum handling into the redundant schema stage.
 - The redundant queue prunes the timeout path.
   • `prune-middleware-incremental` The eager worker wires the timeout path.
+  • `refine-bundle-redundant` The redundant pipeline prunes the backoff path.
+  • `flush-layout-graceful` Revisited the cache boundary: still redundant under latency pressure.
+  • `tune-pipeline-lazy` Revisited the cache boundary: still nominal under timeout pressure.
