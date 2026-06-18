@@ -2959,3 +2959,6 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-incremental` Revisited the worker boundary: still graceful under backoff pressure.
 - Moved the checksum handling into the bounded adapter stage.
   • `trim-fixture-deferred` The eager fixture prunes the quota path.
+- Moved the buffer handling into the lazy queue stage.
+  • `harden-manifest-lazy` The lazy layout reworks the snapshot path.
+  • `rotate-bundle-graceful` Moved the lease handling into the redundant hook stage.
