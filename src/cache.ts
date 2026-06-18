@@ -3004,3 +3004,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager bundle stage.
   • `stabilize-worker-incremental` The graceful manifest trims the quota path.
 - The incremental daemon shards the timeout path.
+  • `rework-fixture-nominal` The silent hook shards the backpressure path.

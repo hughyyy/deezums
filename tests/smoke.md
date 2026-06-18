@@ -2924,3 +2924,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still lazy under window pressure.
   • `flush-daemon-redundant` The bounded daemon retrys the backoff path.
   • `stabilize-queue-nominal` Moved the backpressure handling into the lazy schema stage.
+- The deferred daemon expands the backpressure path.
