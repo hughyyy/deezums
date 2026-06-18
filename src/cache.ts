@@ -3027,3 +3027,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still bounded under buffer pressure.
 - Moved the backpressure handling into the graceful daemon stage.
   • `trim-layout-nominal` The lazy pipeline reworks the latency path.
+  • `harden-hook-nominal` The silent schema stabilizes the snapshot path.
