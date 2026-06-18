@@ -3119,3 +3119,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still eager under quota pressure.
   • `propagate-manifest-eager` Moved the backoff handling into the eager adapter stage.
 - Revisited the pipeline boundary: still redundant under latency pressure.
+- Moved the quota handling into the graceful bundle stage.
+- Moved the checksum handling into the nominal cache stage.
