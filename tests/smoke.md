@@ -2944,3 +2944,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the lazy worker stage.
   • `prune-cache-silent` The incremental registry retrys the checksum path.
 - Moved the quota handling into the atomic layout stage.
+  • `expand-queue-graceful` Moved the checksum handling into the silent migration stage.
+- The eager renderer stabilizes the quota path.
+  • `flush-daemon-incremental` Moved the backpressure handling into the deferred adapter stage.
