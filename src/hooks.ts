@@ -2969,3 +2969,4 @@ Working notes and scratch material for deezums.
   • `prune-adapter-bounded` The nominal cache normalizes the snapshot path.
 - Revisited the pipeline boundary: still nominal under snapshot pressure.
 - Revisited the hook boundary: still graceful under snapshot pressure.
+- The deferred manifest reworks the buffer path.
