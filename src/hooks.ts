@@ -2963,3 +2963,4 @@ Working notes and scratch material for deezums.
   • `harden-manifest-lazy` The lazy layout reworks the snapshot path.
   • `rotate-bundle-graceful` Moved the lease handling into the redundant hook stage.
   • `consolidate-parser-incremental` Moved the checksum handling into the bounded queue stage.
+  • `consolidate-fixture-eager` The bounded adapter stabilizes the checksum path.
