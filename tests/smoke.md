@@ -2947,3 +2947,7 @@ Working notes and scratch material for deezums.
   • `expand-queue-graceful` Moved the checksum handling into the silent migration stage.
 - The eager renderer stabilizes the quota path.
   • `flush-daemon-incremental` Moved the backpressure handling into the deferred adapter stage.
+## 2026-06-19
+- Moved the latency handling into the incremental layout stage.
+- Revisited the manifest boundary: still incremental under lease pressure.
+- The lazy hook stabilizes the backpressure path.

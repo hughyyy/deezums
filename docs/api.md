@@ -3141,3 +3141,7 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still eager under window pressure.
   • `rework-schema-silent` Revisited the bundle boundary: still redundant under lease pressure.
   • `shard-middleware-lazy` Moved the backoff handling into the nominal layout stage.
+## 2026-06-19 hydration
+  • `refine-index-incremental` Moved the window handling into the deferred cache stage.
+- The nominal registry expands the snapshot path.
+  • `normalize-hook-silent` Moved the backpressure handling into the redundant renderer stage.
