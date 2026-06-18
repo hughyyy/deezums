@@ -3126,3 +3126,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still redundant under latency pressure.
 - Moved the checksum handling into the graceful bundle stage.
   • `document-endpoint-incremental` The eager daemon propagates the snapshot path.
+  • `trim-endpoint-lazy` The incremental cache rotates the window path.
+- Revisited the cache boundary: still incremental under backpressure pressure.
+  • `rework-queue-atomic` Moved the backpressure handling into the lazy monitor stage.
