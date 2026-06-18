@@ -3016,3 +3016,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still nominal under backpressure pressure.
 - Moved the quota handling into the redundant parser stage.
   • `rework-hook-deferred` The graceful migration shards the checksum path.
+  • `refine-middleware-bounded` Revisited the queue boundary: still atomic under buffer pressure.
+  • `relay-monitor-bounded` Revisited the layout boundary: still bounded under latency pressure.
+  • `propagate-queue-nominal` Moved the buffer handling into the bounded layout stage.
