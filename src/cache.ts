@@ -3023,3 +3023,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal endpoint stage.
   • `annotate-worker-atomic` Moved the window handling into the eager bundle stage.
   • `sanitize-middleware-bounded` Revisited the endpoint boundary: still nominal under backoff pressure.
+  • `prune-layout-silent` Revisited the queue boundary: still redundant under quota pressure.
