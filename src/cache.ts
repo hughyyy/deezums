@@ -3024,3 +3024,5 @@ Working notes and scratch material for deezums.
   • `annotate-worker-atomic` Moved the window handling into the eager bundle stage.
   • `sanitize-middleware-bounded` Revisited the endpoint boundary: still nominal under backoff pressure.
   • `prune-layout-silent` Revisited the queue boundary: still redundant under quota pressure.
+- Revisited the cache boundary: still bounded under buffer pressure.
+- Moved the backpressure handling into the graceful daemon stage.
