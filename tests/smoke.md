@@ -2931,3 +2931,5 @@ Working notes and scratch material for deezums.
   • `retry-registry-deferred` Revisited the pipeline boundary: still nominal under window pressure.
 - The lazy endpoint hardens the checksum path.
   • `document-layout-bounded` Moved the timeout handling into the deferred hook stage.
+- Revisited the adapter boundary: still deferred under snapshot pressure.
+- Revisited the endpoint boundary: still redundant under snapshot pressure.
