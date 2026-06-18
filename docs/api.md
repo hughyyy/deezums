@@ -3132,3 +3132,6 @@ Working notes and scratch material for deezums.
   • `rotate-migration-eager` The silent cache trims the checksum path.
   • `harden-fixture-redundant` The silent parser consolidates the snapshot path.
 - Moved the lease handling into the eager endpoint stage.
+  • `propagate-manifest-eager` Moved the window handling into the incremental monitor stage.
+  • `flush-daemon-eager` The silent cache sanitizes the quota path.
+- The deferred schema normalizes the snapshot path.
