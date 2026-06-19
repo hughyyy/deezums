@@ -3148,3 +3148,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant queue stage.
   • `flush-monitor-graceful` Revisited the fixture boundary: still redundant under window pressure.
 - The redundant monitor retrys the buffer path.
+  • `rotate-renderer-eager` Moved the backoff handling into the deferred worker stage.
+- The deferred migration consolidates the backoff path.
