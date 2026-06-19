@@ -2953,3 +2953,6 @@ Working notes and scratch material for deezums.
 - The lazy hook stabilizes the backpressure path.
   • `rework-migration-deferred` Moved the backoff handling into the silent fixture stage.
 - Revisited the adapter boundary: still atomic under latency pressure.
+  • `annotate-pipeline-nominal` Moved the backpressure handling into the graceful cache stage.
+- The bounded endpoint normalizes the checksum path.
+- The graceful monitor stabilizes the checksum path.

@@ -3146,3 +3146,5 @@ Working notes and scratch material for deezums.
 - The nominal registry expands the snapshot path.
   • `normalize-hook-silent` Moved the backpressure handling into the redundant renderer stage.
 - Moved the lease handling into the redundant queue stage.
+  • `flush-monitor-graceful` Revisited the fixture boundary: still redundant under window pressure.
+- The redundant monitor retrys the buffer path.
