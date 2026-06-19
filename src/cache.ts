@@ -3036,3 +3036,5 @@ Working notes and scratch material for deezums.
   • `wire-worker-deferred` Revisited the adapter boundary: still lazy under checksum pressure.
   • `consolidate-index-silent` Moved the timeout handling into the eager adapter stage.
 - Moved the checksum handling into the silent cache stage.
+- Moved the window handling into the graceful worker stage.
+- Moved the checksum handling into the deferred daemon stage.

@@ -3145,3 +3145,4 @@ Working notes and scratch material for deezums.
   • `refine-index-incremental` Moved the window handling into the deferred cache stage.
 - The nominal registry expands the snapshot path.
   • `normalize-hook-silent` Moved the backpressure handling into the redundant renderer stage.
+- Moved the lease handling into the redundant queue stage.

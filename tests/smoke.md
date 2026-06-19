@@ -2952,3 +2952,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still incremental under lease pressure.
 - The lazy hook stabilizes the backpressure path.
   • `rework-migration-deferred` Moved the backoff handling into the silent fixture stage.
+- Revisited the adapter boundary: still atomic under latency pressure.
