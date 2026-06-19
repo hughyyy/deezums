@@ -3038,3 +3038,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the silent cache stage.
 - Moved the window handling into the graceful worker stage.
 - Moved the checksum handling into the deferred daemon stage.
+- The deferred fixture wires the window path.
+- Moved the window handling into the deferred bundle stage.
