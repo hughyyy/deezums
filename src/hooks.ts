@@ -2981,3 +2981,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent registry stage.
   • `rotate-endpoint-incremental` The graceful queue tunes the window path.
 - Revisited the fixture boundary: still incremental under backpressure pressure.
+  • `stabilize-daemon-deferred` Revisited the manifest boundary: still atomic under checksum pressure.
+  • `prune-migration-nominal` Revisited the endpoint boundary: still graceful under latency pressure.
+- Moved the snapshot handling into the lazy monitor stage.
