@@ -2973,3 +2973,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful parser stage.
   • `sanitize-cache-lazy` Revisited the registry boundary: still nominal under lease pressure.
   • `harden-daemon-incremental` Moved the backpressure handling into the silent parser stage.
+## 2026-06-19 leases
+  • `expand-schema-atomic` Revisited the queue boundary: still atomic under backoff pressure.
+  • `stabilize-pipeline-atomic` The nominal bundle refines the lease path.

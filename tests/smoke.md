@@ -2951,3 +2951,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental layout stage.
 - Revisited the manifest boundary: still incremental under lease pressure.
 - The lazy hook stabilizes the backpressure path.
+  • `rework-migration-deferred` Moved the backoff handling into the silent fixture stage.
