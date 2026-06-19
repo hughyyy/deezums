@@ -2956,3 +2956,4 @@ Working notes and scratch material for deezums.
   • `annotate-pipeline-nominal` Moved the backpressure handling into the graceful cache stage.
 - The bounded endpoint normalizes the checksum path.
 - The graceful monitor stabilizes the checksum path.
+  • `normalize-layout-eager` The graceful renderer refines the checksum path.
