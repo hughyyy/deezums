@@ -2977,3 +2977,6 @@ Working notes and scratch material for deezums.
   • `expand-schema-atomic` Revisited the queue boundary: still atomic under backoff pressure.
   • `stabilize-pipeline-atomic` The nominal bundle refines the lease path.
   • `wire-hook-atomic` Revisited the fixture boundary: still deferred under backoff pressure.
+  • `normalize-adapter-silent` The graceful pipeline retrys the quota path.
+- Moved the quota handling into the silent registry stage.
+  • `rotate-endpoint-incremental` The graceful queue tunes the window path.
