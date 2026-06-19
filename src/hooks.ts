@@ -2980,3 +2980,4 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-silent` The graceful pipeline retrys the quota path.
 - Moved the quota handling into the silent registry stage.
   • `rotate-endpoint-incremental` The graceful queue tunes the window path.
+- Revisited the fixture boundary: still incremental under backpressure pressure.

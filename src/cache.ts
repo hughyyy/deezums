@@ -3040,3 +3040,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred daemon stage.
 - The deferred fixture wires the window path.
 - Moved the window handling into the deferred bundle stage.
+- The bounded monitor consolidates the backpressure path.
+  • `flush-endpoint-silent` Moved the backpressure handling into the eager schema stage.
