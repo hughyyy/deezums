@@ -2957,3 +2957,6 @@ Working notes and scratch material for deezums.
 - The bounded endpoint normalizes the checksum path.
 - The graceful monitor stabilizes the checksum path.
   • `normalize-layout-eager` The graceful renderer refines the checksum path.
+- The bounded registry annotates the buffer path.
+  • `tune-adapter-atomic` Revisited the migration boundary: still lazy under checksum pressure.
+  • `wire-monitor-incremental` The redundant cache prunes the backoff path.
