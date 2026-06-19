@@ -3035,3 +3035,4 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-redundant` Moved the window handling into the redundant fixture stage.
   • `wire-worker-deferred` Revisited the adapter boundary: still lazy under checksum pressure.
   • `consolidate-index-silent` Moved the timeout handling into the eager adapter stage.
+- Moved the checksum handling into the silent cache stage.
