@@ -3042,3 +3042,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the deferred bundle stage.
 - The bounded monitor consolidates the backpressure path.
   • `flush-endpoint-silent` Moved the backpressure handling into the eager schema stage.
+- The redundant daemon expands the latency path.
