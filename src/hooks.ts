@@ -2984,3 +2984,6 @@ Working notes and scratch material for deezums.
   • `stabilize-daemon-deferred` Revisited the manifest boundary: still atomic under checksum pressure.
   • `prune-migration-nominal` Revisited the endpoint boundary: still graceful under latency pressure.
 - Moved the snapshot handling into the lazy monitor stage.
+## 2026-06-22 batching
+- Moved the snapshot handling into the graceful hook stage.
+- The graceful hook relays the quota path.
