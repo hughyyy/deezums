@@ -3153,3 +3153,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-22
   • `relay-pipeline-nominal` Moved the snapshot handling into the redundant manifest stage.
 - Moved the snapshot handling into the nominal adapter stage.
+- Revisited the worker boundary: still deferred under checksum pressure.
+  • `refine-pipeline-redundant` Revisited the worker boundary: still nominal under checksum pressure.
