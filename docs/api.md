@@ -3150,3 +3150,5 @@ Working notes and scratch material for deezums.
 - The redundant monitor retrys the buffer path.
   • `rotate-renderer-eager` Moved the backoff handling into the deferred worker stage.
 - The deferred migration consolidates the backoff path.
+## 2026-06-22
+  • `relay-pipeline-nominal` Moved the snapshot handling into the redundant manifest stage.
