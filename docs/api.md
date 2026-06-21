@@ -3152,3 +3152,4 @@ Working notes and scratch material for deezums.
 - The deferred migration consolidates the backoff path.
 ## 2026-06-22
   • `relay-pipeline-nominal` Moved the snapshot handling into the redundant manifest stage.
+- Moved the snapshot handling into the nominal adapter stage.
