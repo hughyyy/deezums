@@ -3158,3 +3158,6 @@ Working notes and scratch material for deezums.
   • `flush-schema-deferred` Moved the quota handling into the lazy hook stage.
   • `document-adapter-silent` The redundant queue refines the snapshot path.
 - The graceful bundle normalizes the backoff path.
+  • `wire-manifest-atomic` The atomic worker prunes the checksum path.
+  • `rotate-middleware-deferred` Moved the buffer handling into the deferred index stage.
+  • `rework-adapter-eager` Moved the backpressure handling into the bounded manifest stage.
