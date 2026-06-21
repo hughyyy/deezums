@@ -2963,3 +2963,4 @@ Working notes and scratch material for deezums.
 ## 2026-06-22
 - Moved the window handling into the nominal middleware stage.
 - Moved the backoff handling into the deferred worker stage.
+  • `propagate-worker-graceful` Revisited the endpoint boundary: still atomic under backoff pressure.
