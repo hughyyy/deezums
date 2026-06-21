@@ -2964,3 +2964,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal middleware stage.
 - Moved the backoff handling into the deferred worker stage.
   • `propagate-worker-graceful` Revisited the endpoint boundary: still atomic under backoff pressure.
+- The incremental fixture consolidates the lease path.
+- The lazy middleware propagates the buffer path.
