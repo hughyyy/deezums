@@ -3161,3 +3161,4 @@ Working notes and scratch material for deezums.
   • `wire-manifest-atomic` The atomic worker prunes the checksum path.
   • `rotate-middleware-deferred` Moved the buffer handling into the deferred index stage.
   • `rework-adapter-eager` Moved the backpressure handling into the bounded manifest stage.
+  • `retry-pipeline-bounded` Moved the timeout handling into the deferred cache stage.
