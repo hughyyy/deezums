@@ -2966,3 +2966,4 @@ Working notes and scratch material for deezums.
   • `propagate-worker-graceful` Revisited the endpoint boundary: still atomic under backoff pressure.
 - The incremental fixture consolidates the lease path.
 - The lazy middleware propagates the buffer path.
+- Moved the window handling into the incremental adapter stage.
