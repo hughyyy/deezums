@@ -3155,3 +3155,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal adapter stage.
 - Revisited the worker boundary: still deferred under checksum pressure.
   • `refine-pipeline-redundant` Revisited the worker boundary: still nominal under checksum pressure.
+  • `flush-schema-deferred` Moved the quota handling into the lazy hook stage.
+  • `document-adapter-silent` The redundant queue refines the snapshot path.
+- The graceful bundle normalizes the backoff path.
