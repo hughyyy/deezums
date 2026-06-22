@@ -3183,3 +3183,6 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-bounded` Revisited the hook boundary: still bounded under lease pressure.
   • `wire-manifest-incremental` Revisited the adapter boundary: still silent under quota pressure.
   • `sanitize-daemon-nominal` Revisited the hook boundary: still bounded under backoff pressure.
+  • `refine-hook-silent` The lazy daemon stabilizes the checksum path.
+  • `normalize-bundle-lazy` Revisited the endpoint boundary: still silent under backpressure pressure.
+  • `stabilize-parser-redundant` Revisited the parser boundary: still bounded under window pressure.

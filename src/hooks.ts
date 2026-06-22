@@ -3011,3 +3011,6 @@ Working notes and scratch material for deezums.
   • `refine-index-bounded` The atomic endpoint flushs the window path.
 - Moved the quota handling into the deferred manifest stage.
   • `document-fixture-lazy` Moved the latency handling into the incremental daemon stage.
+- The eager fixture retrys the backpressure path.
+  • `refine-queue-atomic` Revisited the worker boundary: still redundant under lease pressure.
+  • `stabilize-bundle-graceful` The redundant schema stabilizes the backoff path.

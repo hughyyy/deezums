@@ -3073,3 +3073,4 @@ Working notes and scratch material for deezums.
   • `normalize-parser-atomic` Moved the backoff handling into the deferred migration stage.
   • `rework-queue-silent` Revisited the endpoint boundary: still nominal under snapshot pressure.
   • `expand-endpoint-bounded` Moved the buffer handling into the nominal bundle stage.
+- Revisited the daemon boundary: still nominal under buffer pressure.
