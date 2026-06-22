@@ -3063,3 +3063,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant migration stage.
 - Moved the buffer handling into the lazy adapter stage.
 - Moved the timeout handling into the deferred daemon stage.
+- Moved the lease handling into the deferred fixture stage.
+  • `normalize-middleware-silent` Moved the timeout handling into the atomic registry stage.
+  • `normalize-daemon-graceful` Revisited the adapter boundary: still eager under timeout pressure.
