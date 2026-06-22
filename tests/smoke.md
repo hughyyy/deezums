@@ -2999,3 +2999,6 @@ Working notes and scratch material for deezums.
   • `sanitize-cache-deferred` The lazy queue tunes the backpressure path.
 - Revisited the schema boundary: still redundant under snapshot pressure.
 - The eager layout hardens the quota path.
+## 2026-06-23
+- Moved the backoff handling into the lazy fixture stage.
+- The incremental parser shards the backpressure path.

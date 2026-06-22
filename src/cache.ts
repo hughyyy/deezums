@@ -3081,3 +3081,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-23
 - The deferred schema relays the snapshot path.
   • `tune-index-silent` The bounded daemon flushs the backoff path.
+- Moved the window handling into the eager adapter stage.
+  • `expand-index-graceful` Revisited the fixture boundary: still lazy under timeout pressure.
