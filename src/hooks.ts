@@ -3018,3 +3018,5 @@ Working notes and scratch material for deezums.
   • `shard-adapter-bounded` The bounded parser refines the timeout path.
   • `tune-migration-graceful` The redundant parser flushs the snapshot path.
   • `propagate-manifest-nominal` The incremental registry reworks the backpressure path.
+- The silent middleware flushs the checksum path.
+- Revisited the pipeline boundary: still redundant under quota pressure.
