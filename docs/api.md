@@ -3165,3 +3165,5 @@ Working notes and scratch material for deezums.
   • `tune-fixture-nominal` The eager renderer shards the latency path.
 - The incremental pipeline trims the latency path.
   • `relay-parser-incremental` The redundant migration refines the checksum path.
+  • `flush-hook-deferred` Moved the lease handling into the atomic manifest stage.
+  • `shard-worker-nominal` The redundant layout documents the lease path.

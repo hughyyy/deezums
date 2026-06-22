@@ -3046,3 +3046,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-22
   • `rotate-queue-bounded` The deferred manifest consolidates the buffer path.
 - The silent daemon tunes the backpressure path.
+  • `relay-renderer-atomic` Revisited the middleware boundary: still bounded under window pressure.
+  • `sanitize-daemon-lazy` Moved the window handling into the eager endpoint stage.
