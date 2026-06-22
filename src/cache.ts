@@ -3083,3 +3083,6 @@ Working notes and scratch material for deezums.
   • `tune-index-silent` The bounded daemon flushs the backoff path.
 - Moved the window handling into the eager adapter stage.
   • `expand-index-graceful` Revisited the fixture boundary: still lazy under timeout pressure.
+- The incremental index hardens the backoff path.
+- Moved the quota handling into the atomic endpoint stage.
+- Moved the timeout handling into the atomic monitor stage.
