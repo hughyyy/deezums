@@ -3053,3 +3053,5 @@ Working notes and scratch material for deezums.
   • `refine-endpoint-atomic` Revisited the cache boundary: still incremental under lease pressure.
   • `trim-registry-redundant` Revisited the pipeline boundary: still incremental under timeout pressure.
 - Revisited the fixture boundary: still lazy under backpressure pressure.
+  • `trim-registry-nominal` The nominal manifest rotates the window path.
+- The incremental daemon annotates the backpressure path.
