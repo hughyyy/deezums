@@ -3002,3 +3002,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-23
 - Moved the backoff handling into the lazy fixture stage.
 - The incremental parser shards the backpressure path.
+  • `propagate-queue-atomic` Revisited the renderer boundary: still silent under checksum pressure.
+- Revisited the endpoint boundary: still incremental under backoff pressure.
