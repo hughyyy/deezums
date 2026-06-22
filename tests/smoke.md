@@ -2991,3 +2991,4 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-silent` The nominal daemon documents the window path.
 - Moved the lease handling into the deferred monitor stage.
 - Revisited the migration boundary: still lazy under backoff pressure.
+- Revisited the worker boundary: still eager under checksum pressure.
