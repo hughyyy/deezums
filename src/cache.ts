@@ -3075,3 +3075,6 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-bounded` Moved the buffer handling into the nominal bundle stage.
 - Revisited the daemon boundary: still nominal under buffer pressure.
   • `sanitize-monitor-silent` Revisited the pipeline boundary: still nominal under latency pressure.
+  • `propagate-cache-bounded` Revisited the fixture boundary: still atomic under snapshot pressure.
+  • `tune-cache-graceful` The bounded daemon normalizes the lease path.
+  • `consolidate-index-atomic` Revisited the manifest boundary: still graceful under timeout pressure.
