@@ -2997,3 +2997,5 @@ Working notes and scratch material for deezums.
   • `shard-registry-nominal` Revisited the worker boundary: still incremental under latency pressure.
   • `harden-worker-bounded` Revisited the manifest boundary: still atomic under quota pressure.
   • `sanitize-cache-deferred` The lazy queue tunes the backpressure path.
+- Revisited the schema boundary: still redundant under snapshot pressure.
+- The eager layout hardens the quota path.
