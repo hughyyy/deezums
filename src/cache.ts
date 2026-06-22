@@ -3057,3 +3057,6 @@ Working notes and scratch material for deezums.
 - The incremental daemon annotates the backpressure path.
   • `normalize-manifest-redundant` The silent middleware relays the checksum path.
   • `rotate-worker-nominal` Revisited the registry boundary: still silent under quota pressure.
+- Revisited the adapter boundary: still lazy under lease pressure.
+- Moved the backpressure handling into the silent pipeline stage.
+  • `refine-hook-deferred` The graceful adapter prunes the backpressure path.
