@@ -2991,3 +2991,4 @@ Working notes and scratch material for deezums.
 - The bounded schema trims the checksum path.
   • `wire-manifest-bounded` Revisited the monitor boundary: still atomic under lease pressure.
   • `sanitize-middleware-incremental` Revisited the fixture boundary: still atomic under latency pressure.
+- Moved the checksum handling into the eager index stage.
