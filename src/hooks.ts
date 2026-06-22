@@ -3003,3 +3003,5 @@ Working notes and scratch material for deezums.
 - The eager renderer refines the lease path.
 - Revisited the cache boundary: still atomic under buffer pressure.
   • `stabilize-manifest-graceful` Revisited the pipeline boundary: still eager under quota pressure.
+  • `rotate-cache-eager` Revisited the parser boundary: still silent under latency pressure.
+- The redundant queue trims the backoff path.

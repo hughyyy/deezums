@@ -3180,3 +3180,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still redundant under timeout pressure.
   • `sanitize-endpoint-nominal` Moved the snapshot handling into the eager endpoint stage.
   • `stabilize-bundle-eager` Moved the checksum handling into the silent bundle stage.
+  • `rotate-fixture-bounded` Revisited the hook boundary: still bounded under lease pressure.
+  • `wire-manifest-incremental` Revisited the adapter boundary: still silent under quota pressure.
+  • `sanitize-daemon-nominal` Revisited the hook boundary: still bounded under backoff pressure.

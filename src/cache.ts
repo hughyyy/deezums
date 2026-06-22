@@ -3066,3 +3066,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred fixture stage.
   • `normalize-middleware-silent` Moved the timeout handling into the atomic registry stage.
   • `normalize-daemon-graceful` Revisited the adapter boundary: still eager under timeout pressure.
+  • `stabilize-queue-nominal` Revisited the hook boundary: still bounded under buffer pressure.
