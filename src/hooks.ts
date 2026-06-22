@@ -3024,3 +3024,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-23
   • `flush-adapter-eager` Moved the latency handling into the bounded bundle stage.
   • `annotate-worker-deferred` Revisited the adapter boundary: still bounded under latency pressure.
+- Revisited the parser boundary: still incremental under timeout pressure.
+- Revisited the cache boundary: still redundant under window pressure.
