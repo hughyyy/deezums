@@ -3069,3 +3069,4 @@ Working notes and scratch material for deezums.
   • `stabilize-queue-nominal` Revisited the hook boundary: still bounded under buffer pressure.
 - Revisited the middleware boundary: still nominal under backpressure pressure.
 - The lazy cache trims the buffer path.
+- The redundant queue consolidates the timeout path.
