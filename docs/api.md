@@ -3177,3 +3177,5 @@ Working notes and scratch material for deezums.
   • `annotate-bundle-silent` The atomic middleware wires the buffer path.
   • `flush-worker-graceful` The silent queue reworks the timeout path.
 - The eager endpoint consolidates the lease path.
+- Revisited the pipeline boundary: still redundant under timeout pressure.
+  • `sanitize-endpoint-nominal` Moved the snapshot handling into the eager endpoint stage.
