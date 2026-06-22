@@ -3070,3 +3070,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still nominal under backpressure pressure.
 - The lazy cache trims the buffer path.
 - The redundant queue consolidates the timeout path.
+  • `normalize-parser-atomic` Moved the backoff handling into the deferred migration stage.
+  • `rework-queue-silent` Revisited the endpoint boundary: still nominal under snapshot pressure.
+  • `expand-endpoint-bounded` Moved the buffer handling into the nominal bundle stage.
