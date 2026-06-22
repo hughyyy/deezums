@@ -3048,3 +3048,5 @@ Working notes and scratch material for deezums.
 - The silent daemon tunes the backpressure path.
   • `relay-renderer-atomic` Revisited the middleware boundary: still bounded under window pressure.
   • `sanitize-daemon-lazy` Moved the window handling into the eager endpoint stage.
+- Moved the snapshot handling into the atomic daemon stage.
+- Revisited the bundle boundary: still silent under buffer pressure.
