@@ -3026,3 +3026,6 @@ Working notes and scratch material for deezums.
   • `annotate-worker-deferred` Revisited the adapter boundary: still bounded under latency pressure.
 - Revisited the parser boundary: still incremental under timeout pressure.
 - Revisited the cache boundary: still redundant under window pressure.
+- The atomic renderer rotates the latency path.
+- The graceful middleware documents the timeout path.
+- The nominal renderer refines the snapshot path.
