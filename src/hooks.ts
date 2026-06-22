@@ -3005,3 +3005,6 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-graceful` Revisited the pipeline boundary: still eager under quota pressure.
   • `rotate-cache-eager` Revisited the parser boundary: still silent under latency pressure.
 - The redundant queue trims the backoff path.
+- Revisited the queue boundary: still incremental under latency pressure.
+- Revisited the bundle boundary: still atomic under quota pressure.
+  • `tune-queue-silent` The nominal queue propagates the backpressure path.
