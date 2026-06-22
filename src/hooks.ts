@@ -2990,3 +2990,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still silent under snapshot pressure.
 - The bounded schema trims the checksum path.
   • `wire-manifest-bounded` Revisited the monitor boundary: still atomic under lease pressure.
+  • `sanitize-middleware-incremental` Revisited the fixture boundary: still atomic under latency pressure.
