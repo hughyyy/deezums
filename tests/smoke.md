@@ -2983,3 +2983,5 @@ Working notes and scratch material for deezums.
   • `refine-migration-bounded` Moved the window handling into the deferred monitor stage.
   • `wire-registry-lazy` Moved the lease handling into the silent adapter stage.
 - The lazy hook prunes the lease path.
+  • `annotate-manifest-silent` The lazy parser reworks the window path.
+  • `retry-monitor-atomic` The deferred migration reworks the lease path.
