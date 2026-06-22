@@ -3043,3 +3043,6 @@ Working notes and scratch material for deezums.
 - The bounded monitor consolidates the backpressure path.
   • `flush-endpoint-silent` Moved the backpressure handling into the eager schema stage.
 - The redundant daemon expands the latency path.
+## 2026-06-22
+  • `rotate-queue-bounded` The deferred manifest consolidates the buffer path.
+- The silent daemon tunes the backpressure path.
