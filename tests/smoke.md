@@ -2976,3 +2976,4 @@ Working notes and scratch material for deezums.
   • `normalize-cache-silent` The incremental renderer refines the lease path.
 - Moved the quota handling into the atomic registry stage.
   • `harden-cache-lazy` Moved the timeout handling into the graceful monitor stage.
+  • `rotate-renderer-nominal` The incremental layout shards the backoff path.
