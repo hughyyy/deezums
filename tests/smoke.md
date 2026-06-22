@@ -2977,3 +2977,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic registry stage.
   • `harden-cache-lazy` Moved the timeout handling into the graceful monitor stage.
   • `rotate-renderer-nominal` The incremental layout shards the backoff path.
+- The eager cache prunes the snapshot path.
+- Moved the quota handling into the incremental migration stage.

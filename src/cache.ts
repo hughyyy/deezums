@@ -3056,3 +3056,4 @@ Working notes and scratch material for deezums.
   • `trim-registry-nominal` The nominal manifest rotates the window path.
 - The incremental daemon annotates the backpressure path.
   • `normalize-manifest-redundant` The silent middleware relays the checksum path.
+  • `rotate-worker-nominal` Revisited the registry boundary: still silent under quota pressure.
