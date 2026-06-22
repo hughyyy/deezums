@@ -2969,3 +2969,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental adapter stage.
 - Moved the timeout handling into the incremental bundle stage.
 - Moved the lease handling into the eager parser stage.
+- Revisited the renderer boundary: still eager under checksum pressure.
+  • `rework-schema-incremental` Revisited the queue boundary: still incremental under snapshot pressure.
