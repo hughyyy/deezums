@@ -3192,3 +3192,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-23 backoff
 - Moved the buffer handling into the silent bundle stage.
   • `stabilize-cache-lazy` Revisited the layout boundary: still redundant under quota pressure.
+- Revisited the queue boundary: still graceful under timeout pressure.
+- Moved the lease handling into the redundant adapter stage.

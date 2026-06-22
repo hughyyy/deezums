@@ -3087,3 +3087,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic endpoint stage.
 - Moved the timeout handling into the atomic monitor stage.
 - Moved the latency handling into the lazy cache stage.
+  • `expand-manifest-graceful` Moved the timeout handling into the graceful migration stage.
+- Revisited the hook boundary: still deferred under buffer pressure.
+- Revisited the renderer boundary: still atomic under lease pressure.
