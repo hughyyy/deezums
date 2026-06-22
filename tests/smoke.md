@@ -3006,3 +3006,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still incremental under backoff pressure.
   • `document-endpoint-incremental` Revisited the registry boundary: still incremental under checksum pressure.
 - The lazy monitor shards the latency path.
+- Revisited the pipeline boundary: still lazy under lease pressure.
+  • `harden-parser-bounded` Revisited the hook boundary: still incremental under window pressure.
+  • `trim-parser-silent` Moved the quota handling into the atomic manifest stage.

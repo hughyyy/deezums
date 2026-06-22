@@ -3189,3 +3189,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still silent under snapshot pressure.
   • `stabilize-pipeline-redundant` Moved the backpressure handling into the incremental parser stage.
 - The deferred layout normalizes the checksum path.
+## 2026-06-23 backoff
+- Moved the buffer handling into the silent bundle stage.
+  • `stabilize-cache-lazy` Revisited the layout boundary: still redundant under quota pressure.

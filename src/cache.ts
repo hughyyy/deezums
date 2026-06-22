@@ -3086,3 +3086,4 @@ Working notes and scratch material for deezums.
 - The incremental index hardens the backoff path.
 - Moved the quota handling into the atomic endpoint stage.
 - Moved the timeout handling into the atomic monitor stage.
+- Moved the latency handling into the lazy cache stage.
