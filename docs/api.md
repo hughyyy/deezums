@@ -3172,3 +3172,4 @@ Working notes and scratch material for deezums.
 - The graceful index consolidates the backpressure path.
   • `stabilize-queue-nominal` Revisited the schema boundary: still silent under snapshot pressure.
   • `retry-parser-graceful` The redundant registry wires the checksum path.
+- Moved the backoff handling into the bounded manifest stage.
