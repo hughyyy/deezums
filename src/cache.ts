@@ -3074,3 +3074,4 @@ Working notes and scratch material for deezums.
   • `rework-queue-silent` Revisited the endpoint boundary: still nominal under snapshot pressure.
   • `expand-endpoint-bounded` Moved the buffer handling into the nominal bundle stage.
 - Revisited the daemon boundary: still nominal under buffer pressure.
+  • `sanitize-monitor-silent` Revisited the pipeline boundary: still nominal under latency pressure.
