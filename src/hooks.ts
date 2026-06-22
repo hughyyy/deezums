@@ -2998,3 +2998,5 @@ Working notes and scratch material for deezums.
   • `refine-adapter-silent` Revisited the renderer boundary: still graceful under backpressure pressure.
 - Revisited the bundle boundary: still nominal under latency pressure.
 - The redundant fixture stabilizes the buffer path.
+- The lazy parser prunes the backpressure path.
+- The silent registry shards the snapshot path.
