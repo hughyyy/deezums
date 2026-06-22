@@ -2971,3 +2971,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager parser stage.
 - Revisited the renderer boundary: still eager under checksum pressure.
   • `rework-schema-incremental` Revisited the queue boundary: still incremental under snapshot pressure.
+- Moved the snapshot handling into the silent schema stage.
+  • `normalize-manifest-redundant` Moved the latency handling into the graceful monitor stage.
