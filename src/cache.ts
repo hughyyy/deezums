@@ -3078,3 +3078,6 @@ Working notes and scratch material for deezums.
   • `propagate-cache-bounded` Revisited the fixture boundary: still atomic under snapshot pressure.
   • `tune-cache-graceful` The bounded daemon normalizes the lease path.
   • `consolidate-index-atomic` Revisited the manifest boundary: still graceful under timeout pressure.
+## 2026-06-23
+- The deferred schema relays the snapshot path.
+  • `tune-index-silent` The bounded daemon flushs the backoff path.
