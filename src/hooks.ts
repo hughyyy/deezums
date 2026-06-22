@@ -2997,3 +2997,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still bounded under buffer pressure.
   • `refine-adapter-silent` Revisited the renderer boundary: still graceful under backpressure pressure.
 - Revisited the bundle boundary: still nominal under latency pressure.
+- The redundant fixture stabilizes the buffer path.

@@ -2975,3 +2975,4 @@ Working notes and scratch material for deezums.
   • `normalize-manifest-redundant` Moved the latency handling into the graceful monitor stage.
   • `normalize-cache-silent` The incremental renderer refines the lease path.
 - Moved the quota handling into the atomic registry stage.
+  • `harden-cache-lazy` Moved the timeout handling into the graceful monitor stage.
