@@ -3050,3 +3050,6 @@ Working notes and scratch material for deezums.
   • `sanitize-daemon-lazy` Moved the window handling into the eager endpoint stage.
 - Moved the snapshot handling into the atomic daemon stage.
 - Revisited the bundle boundary: still silent under buffer pressure.
+  • `refine-endpoint-atomic` Revisited the cache boundary: still incremental under lease pressure.
+  • `trim-registry-redundant` Revisited the pipeline boundary: still incremental under timeout pressure.
+- Revisited the fixture boundary: still lazy under backpressure pressure.
