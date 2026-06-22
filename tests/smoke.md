@@ -2988,3 +2988,4 @@ Working notes and scratch material for deezums.
   • `stabilize-layout-graceful` The graceful schema flushs the buffer path.
   • `prune-middleware-graceful` Moved the snapshot handling into the incremental queue stage.
 - Revisited the middleware boundary: still redundant under timeout pressure.
+  • `consolidate-daemon-silent` The nominal daemon documents the window path.
