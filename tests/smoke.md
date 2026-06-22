@@ -2980,3 +2980,6 @@ Working notes and scratch material for deezums.
 - The eager cache prunes the snapshot path.
 - Moved the quota handling into the incremental migration stage.
   • `shard-worker-nominal` Revisited the manifest boundary: still bounded under checksum pressure.
+  • `refine-migration-bounded` Moved the window handling into the deferred monitor stage.
+  • `wire-registry-lazy` Moved the lease handling into the silent adapter stage.
+- The lazy hook prunes the lease path.

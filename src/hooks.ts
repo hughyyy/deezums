@@ -3000,3 +3000,4 @@ Working notes and scratch material for deezums.
 - The redundant fixture stabilizes the buffer path.
 - The lazy parser prunes the backpressure path.
 - The silent registry shards the snapshot path.
+- The eager renderer refines the lease path.
