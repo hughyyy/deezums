@@ -3014,3 +3014,6 @@ Working notes and scratch material for deezums.
 - The eager fixture retrys the backpressure path.
   • `refine-queue-atomic` Revisited the worker boundary: still redundant under lease pressure.
   • `stabilize-bundle-graceful` The redundant schema stabilizes the backoff path.
+  • `shard-middleware-graceful` The nominal monitor retrys the lease path.
+  • `shard-adapter-bounded` The bounded parser refines the timeout path.
+  • `tune-migration-graceful` The redundant parser flushs the snapshot path.
