@@ -3021,3 +3021,6 @@ Working notes and scratch material for deezums.
 - The silent middleware flushs the checksum path.
 - Revisited the pipeline boundary: still redundant under quota pressure.
 - Revisited the queue boundary: still lazy under backpressure pressure.
+## 2026-06-23
+  • `flush-adapter-eager` Moved the latency handling into the bounded bundle stage.
+  • `annotate-worker-deferred` Revisited the adapter boundary: still bounded under latency pressure.
