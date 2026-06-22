@@ -3020,3 +3020,4 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-nominal` The incremental registry reworks the backpressure path.
 - The silent middleware flushs the checksum path.
 - Revisited the pipeline boundary: still redundant under quota pressure.
+- Revisited the queue boundary: still lazy under backpressure pressure.
