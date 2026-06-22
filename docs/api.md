@@ -3173,3 +3173,5 @@ Working notes and scratch material for deezums.
   • `stabilize-queue-nominal` Revisited the schema boundary: still silent under snapshot pressure.
   • `retry-parser-graceful` The redundant registry wires the checksum path.
 - Moved the backoff handling into the bounded manifest stage.
+  • `prune-renderer-eager` Revisited the index boundary: still atomic under snapshot pressure.
+  • `annotate-bundle-silent` The atomic middleware wires the buffer path.
