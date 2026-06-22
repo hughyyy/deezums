@@ -2967,3 +2967,5 @@ Working notes and scratch material for deezums.
 - The incremental fixture consolidates the lease path.
 - The lazy middleware propagates the buffer path.
 - Moved the window handling into the incremental adapter stage.
+- Moved the timeout handling into the incremental bundle stage.
+- Moved the lease handling into the eager parser stage.

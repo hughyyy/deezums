@@ -3175,3 +3175,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the bounded manifest stage.
   • `prune-renderer-eager` Revisited the index boundary: still atomic under snapshot pressure.
   • `annotate-bundle-silent` The atomic middleware wires the buffer path.
+  • `flush-worker-graceful` The silent queue reworks the timeout path.
+- The eager endpoint consolidates the lease path.

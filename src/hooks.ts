@@ -2987,3 +2987,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-22 batching
 - Moved the snapshot handling into the graceful hook stage.
 - The graceful hook relays the quota path.
+- Revisited the adapter boundary: still silent under snapshot pressure.
+- The bounded schema trims the checksum path.
+  • `wire-manifest-bounded` Revisited the monitor boundary: still atomic under lease pressure.
