@@ -3162,3 +3162,6 @@ Working notes and scratch material for deezums.
   • `rotate-middleware-deferred` Moved the buffer handling into the deferred index stage.
   • `rework-adapter-eager` Moved the backpressure handling into the bounded manifest stage.
   • `retry-pipeline-bounded` Moved the timeout handling into the deferred cache stage.
+  • `tune-fixture-nominal` The eager renderer shards the latency path.
+- The incremental pipeline trims the latency path.
+  • `relay-parser-incremental` The redundant migration refines the checksum path.
