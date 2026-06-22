@@ -2995,3 +2995,5 @@ Working notes and scratch material for deezums.
   • `prune-worker-bounded` The nominal parser refines the timeout path.
 - The bounded bundle hardens the snapshot path.
 - Revisited the pipeline boundary: still bounded under buffer pressure.
+  • `refine-adapter-silent` Revisited the renderer boundary: still graceful under backpressure pressure.
+- Revisited the bundle boundary: still nominal under latency pressure.

@@ -3055,3 +3055,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still lazy under backpressure pressure.
   • `trim-registry-nominal` The nominal manifest rotates the window path.
 - The incremental daemon annotates the backpressure path.
+  • `normalize-manifest-redundant` The silent middleware relays the checksum path.

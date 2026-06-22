@@ -3179,3 +3179,4 @@ Working notes and scratch material for deezums.
 - The eager endpoint consolidates the lease path.
 - Revisited the pipeline boundary: still redundant under timeout pressure.
   • `sanitize-endpoint-nominal` Moved the snapshot handling into the eager endpoint stage.
+  • `stabilize-bundle-eager` Moved the checksum handling into the silent bundle stage.
