@@ -2973,3 +2973,5 @@ Working notes and scratch material for deezums.
   • `rework-schema-incremental` Revisited the queue boundary: still incremental under snapshot pressure.
 - Moved the snapshot handling into the silent schema stage.
   • `normalize-manifest-redundant` Moved the latency handling into the graceful monitor stage.
+  • `normalize-cache-silent` The incremental renderer refines the lease path.
+- Moved the quota handling into the atomic registry stage.
