@@ -3169,3 +3169,5 @@ Working notes and scratch material for deezums.
   • `shard-worker-nominal` The redundant layout documents the lease path.
 - Moved the backpressure handling into the atomic queue stage.
   • `document-hook-redundant` Revisited the monitor boundary: still graceful under backoff pressure.
+- The graceful index consolidates the backpressure path.
+  • `stabilize-queue-nominal` Revisited the schema boundary: still silent under snapshot pressure.
