@@ -3001,3 +3001,5 @@ Working notes and scratch material for deezums.
 - The lazy parser prunes the backpressure path.
 - The silent registry shards the snapshot path.
 - The eager renderer refines the lease path.
+- Revisited the cache boundary: still atomic under buffer pressure.
+  • `stabilize-manifest-graceful` Revisited the pipeline boundary: still eager under quota pressure.

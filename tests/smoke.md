@@ -2985,3 +2985,5 @@ Working notes and scratch material for deezums.
 - The lazy hook prunes the lease path.
   • `annotate-manifest-silent` The lazy parser reworks the window path.
   • `retry-monitor-atomic` The deferred migration reworks the lease path.
+  • `stabilize-layout-graceful` The graceful schema flushs the buffer path.
+  • `prune-middleware-graceful` Moved the snapshot handling into the incremental queue stage.

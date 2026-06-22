@@ -3060,3 +3060,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still lazy under lease pressure.
 - Moved the backpressure handling into the silent pipeline stage.
   • `refine-hook-deferred` The graceful adapter prunes the backpressure path.
+- Moved the checksum handling into the redundant migration stage.
+- Moved the buffer handling into the lazy adapter stage.
+- Moved the timeout handling into the deferred daemon stage.
