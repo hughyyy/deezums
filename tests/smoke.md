@@ -2996,3 +2996,4 @@ Working notes and scratch material for deezums.
   • `retry-migration-incremental` Revisited the worker boundary: still silent under checksum pressure.
   • `shard-registry-nominal` Revisited the worker boundary: still incremental under latency pressure.
   • `harden-worker-bounded` Revisited the manifest boundary: still atomic under quota pressure.
+  • `sanitize-cache-deferred` The lazy queue tunes the backpressure path.
