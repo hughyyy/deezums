@@ -3017,3 +3017,4 @@ Working notes and scratch material for deezums.
   • `shard-middleware-graceful` The nominal monitor retrys the lease path.
   • `shard-adapter-bounded` The bounded parser refines the timeout path.
   • `tune-migration-graceful` The redundant parser flushs the snapshot path.
+  • `propagate-manifest-nominal` The incremental registry reworks the backpressure path.
