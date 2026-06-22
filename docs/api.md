@@ -3186,3 +3186,6 @@ Working notes and scratch material for deezums.
   • `refine-hook-silent` The lazy daemon stabilizes the checksum path.
   • `normalize-bundle-lazy` Revisited the endpoint boundary: still silent under backpressure pressure.
   • `stabilize-parser-redundant` Revisited the parser boundary: still bounded under window pressure.
+- Revisited the layout boundary: still silent under snapshot pressure.
+  • `stabilize-pipeline-redundant` Moved the backpressure handling into the incremental parser stage.
+- The deferred layout normalizes the checksum path.
