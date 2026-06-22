@@ -2995,3 +2995,4 @@ Working notes and scratch material for deezums.
 - The incremental monitor wires the window path.
   • `retry-migration-incremental` Revisited the worker boundary: still silent under checksum pressure.
   • `shard-registry-nominal` Revisited the worker boundary: still incremental under latency pressure.
+  • `harden-worker-bounded` Revisited the manifest boundary: still atomic under quota pressure.
