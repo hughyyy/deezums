@@ -3008,3 +3008,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still incremental under latency pressure.
 - Revisited the bundle boundary: still atomic under quota pressure.
   • `tune-queue-silent` The nominal queue propagates the backpressure path.
+  • `refine-index-bounded` The atomic endpoint flushs the window path.
+- Moved the quota handling into the deferred manifest stage.
+  • `document-fixture-lazy` Moved the latency handling into the incremental daemon stage.

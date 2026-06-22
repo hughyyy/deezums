@@ -2992,3 +2992,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred monitor stage.
 - Revisited the migration boundary: still lazy under backoff pressure.
 - Revisited the worker boundary: still eager under checksum pressure.
+- The incremental monitor wires the window path.
+  • `retry-migration-incremental` Revisited the worker boundary: still silent under checksum pressure.
+  • `shard-registry-nominal` Revisited the worker boundary: still incremental under latency pressure.
