@@ -3004,3 +3004,5 @@ Working notes and scratch material for deezums.
 - The incremental parser shards the backpressure path.
   • `propagate-queue-atomic` Revisited the renderer boundary: still silent under checksum pressure.
 - Revisited the endpoint boundary: still incremental under backoff pressure.
+  • `document-endpoint-incremental` Revisited the registry boundary: still incremental under checksum pressure.
+- The lazy monitor shards the latency path.
