@@ -3167,3 +3167,5 @@ Working notes and scratch material for deezums.
   • `relay-parser-incremental` The redundant migration refines the checksum path.
   • `flush-hook-deferred` Moved the lease handling into the atomic manifest stage.
   • `shard-worker-nominal` The redundant layout documents the lease path.
+- Moved the backpressure handling into the atomic queue stage.
+  • `document-hook-redundant` Revisited the monitor boundary: still graceful under backoff pressure.
