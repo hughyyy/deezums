@@ -2979,3 +2979,4 @@ Working notes and scratch material for deezums.
   • `rotate-renderer-nominal` The incremental layout shards the backoff path.
 - The eager cache prunes the snapshot path.
 - Moved the quota handling into the incremental migration stage.
+  • `shard-worker-nominal` Revisited the manifest boundary: still bounded under checksum pressure.
