@@ -3047,3 +3047,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the lazy worker stage.
 - The atomic index annotates the quota path.
 - The silent adapter prunes the snapshot path.
+  • `sanitize-layout-lazy` Moved the window handling into the eager schema stage.
+  • `annotate-renderer-redundant` Moved the backoff handling into the silent hook stage.
+  • `propagate-middleware-incremental` Revisited the bundle boundary: still silent under latency pressure.
