@@ -3211,3 +3211,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal fixture stage.
   • `stabilize-pipeline-deferred` The nominal renderer consolidates the quota path.
 - The graceful parser annotates the window path.
+- The graceful manifest normalizes the snapshot path.
+- Moved the window handling into the lazy renderer stage.
