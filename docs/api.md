@@ -3194,3 +3194,4 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-lazy` Revisited the layout boundary: still redundant under quota pressure.
 - Revisited the queue boundary: still graceful under timeout pressure.
 - Moved the lease handling into the redundant adapter stage.
+- Moved the backpressure handling into the lazy middleware stage.
