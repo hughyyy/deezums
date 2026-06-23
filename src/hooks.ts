@@ -3029,3 +3029,4 @@ Working notes and scratch material for deezums.
 - The atomic renderer rotates the latency path.
 - The graceful middleware documents the timeout path.
 - The nominal renderer refines the snapshot path.
+- Moved the snapshot handling into the atomic pipeline stage.

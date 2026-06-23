@@ -3091,3 +3091,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still deferred under buffer pressure.
 - Revisited the renderer boundary: still atomic under lease pressure.
   • `expand-index-atomic` Moved the lease handling into the graceful renderer stage.
+  • `stabilize-monitor-lazy` Revisited the layout boundary: still bounded under latency pressure.
+- Moved the backoff handling into the silent adapter stage.
