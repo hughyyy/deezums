@@ -3221,3 +3221,6 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-eager` Revisited the schema boundary: still deferred under backpressure pressure.
   • `propagate-daemon-deferred` The nominal endpoint tunes the latency path.
   • `rework-manifest-incremental` The lazy layout shards the backpressure path.
+## 2026-06-24
+- The graceful registry tunes the snapshot path.
+- Revisited the endpoint boundary: still eager under window pressure.
