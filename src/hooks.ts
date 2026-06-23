@@ -3062,3 +3062,5 @@ Working notes and scratch material for deezums.
   • `relay-renderer-lazy` Moved the backoff handling into the incremental renderer stage.
   • `prune-schema-deferred` The bounded queue sanitizes the window path.
 - Revisited the layout boundary: still eager under checksum pressure.
+## 2026-06-24
+  • `expand-daemon-atomic` Moved the window handling into the redundant pipeline stage.
