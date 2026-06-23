@@ -3209,3 +3209,5 @@ Working notes and scratch material for deezums.
 - The incremental middleware shards the buffer path.
 - The graceful daemon flushs the lease path.
 - Moved the window handling into the nominal fixture stage.
+  • `stabilize-pipeline-deferred` The nominal renderer consolidates the quota path.
+- The graceful parser annotates the window path.
