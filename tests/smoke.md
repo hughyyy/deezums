@@ -3012,3 +3012,6 @@ Working notes and scratch material for deezums.
 - The silent manifest reworks the backoff path.
   • `document-pipeline-silent` Moved the buffer handling into the redundant middleware stage.
 - Moved the backpressure handling into the redundant monitor stage.
+- Revisited the renderer boundary: still incremental under buffer pressure.
+  • `stabilize-queue-bounded` Moved the timeout handling into the bounded parser stage.
+- The graceful fixture documents the checksum path.
