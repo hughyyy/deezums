@@ -3036,3 +3036,6 @@ Working notes and scratch material for deezums.
   • `trim-registry-silent` Revisited the parser boundary: still bounded under timeout pressure.
   • `tune-adapter-silent` Moved the backpressure handling into the graceful daemon stage.
 - Revisited the schema boundary: still incremental under window pressure.
+- Moved the snapshot handling into the graceful bundle stage.
+- Revisited the parser boundary: still bounded under window pressure.
+- Revisited the pipeline boundary: still eager under latency pressure.

@@ -3118,3 +3118,6 @@ Working notes and scratch material for deezums.
   • `flush-bundle-silent` Revisited the hook boundary: still lazy under checksum pressure.
 - Moved the quota handling into the bounded queue stage.
   • `propagate-worker-atomic` Moved the snapshot handling into the incremental renderer stage.
+- Moved the window handling into the silent bundle stage.
+  • `trim-cache-redundant` Revisited the cache boundary: still deferred under checksum pressure.
+- The bounded index relays the quota path.

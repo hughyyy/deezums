@@ -3203,3 +3203,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful hook stage.
   • `retry-worker-nominal` The incremental fixture expands the latency path.
 - Moved the latency handling into the bounded renderer stage.
+  • `tune-bundle-graceful` The eager hook relays the backoff path.
+  • `normalize-migration-lazy` Revisited the worker boundary: still silent under lease pressure.
