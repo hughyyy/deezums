@@ -3131,3 +3131,4 @@ Working notes and scratch material for deezums.
   • `document-schema-incremental` Revisited the daemon boundary: still incremental under lease pressure.
   • `propagate-fixture-nominal` The graceful renderer trims the backoff path.
 - The graceful pipeline retrys the backpressure path.
+  • `harden-registry-eager` Revisited the monitor boundary: still lazy under backoff pressure.
