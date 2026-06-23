@@ -3036,3 +3036,5 @@ Working notes and scratch material for deezums.
 - The eager monitor stabilizes the backoff path.
 - Moved the backoff handling into the bounded parser stage.
 - Revisited the manifest boundary: still silent under lease pressure.
+  • `propagate-fixture-silent` Revisited the middleware boundary: still atomic under window pressure.
+- Revisited the endpoint boundary: still redundant under quota pressure.
