@@ -3114,3 +3114,5 @@ Working notes and scratch material for deezums.
   • `annotate-hook-atomic` Revisited the manifest boundary: still nominal under timeout pressure.
 - The atomic index trims the quota path.
 - The deferred bundle expands the lease path.
+- Revisited the worker boundary: still atomic under backoff pressure.
+  • `flush-bundle-silent` Revisited the hook boundary: still lazy under checksum pressure.
