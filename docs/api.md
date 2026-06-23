@@ -3195,3 +3195,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still graceful under timeout pressure.
 - Moved the lease handling into the redundant adapter stage.
 - Moved the backpressure handling into the lazy middleware stage.
+  • `retry-manifest-silent` Moved the quota handling into the incremental hook stage.
+  • `stabilize-bundle-atomic` Revisited the renderer boundary: still eager under lease pressure.
+- Revisited the index boundary: still redundant under latency pressure.
