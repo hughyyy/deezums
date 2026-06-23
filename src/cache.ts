@@ -3122,3 +3122,5 @@ Working notes and scratch material for deezums.
   • `trim-cache-redundant` Revisited the cache boundary: still deferred under checksum pressure.
 - The bounded index relays the quota path.
   • `rework-index-graceful` The redundant layout prunes the latency path.
+- Moved the backoff handling into the eager hook stage.
+- The incremental renderer consolidates the latency path.
