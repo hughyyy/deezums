@@ -3051,3 +3051,4 @@ Working notes and scratch material for deezums.
   • `annotate-renderer-redundant` Moved the backoff handling into the silent hook stage.
   • `propagate-middleware-incremental` Revisited the bundle boundary: still silent under latency pressure.
   • `rotate-parser-nominal` Moved the backpressure handling into the deferred pipeline stage.
+  • `consolidate-monitor-incremental` Moved the quota handling into the deferred migration stage.
