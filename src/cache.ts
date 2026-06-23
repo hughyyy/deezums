@@ -3100,3 +3100,5 @@ Working notes and scratch material for deezums.
   • `tune-cache-nominal` Revisited the pipeline boundary: still atomic under lease pressure.
 - Revisited the daemon boundary: still nominal under lease pressure.
 - The deferred bundle trims the snapshot path.
+  • `expand-index-silent` The bounded index rotates the checksum path.
+- Moved the lease handling into the nominal daemon stage.

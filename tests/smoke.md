@@ -3017,3 +3017,6 @@ Working notes and scratch material for deezums.
 - The graceful fixture documents the checksum path.
 - Moved the backpressure handling into the redundant registry stage.
   • `expand-endpoint-redundant` Revisited the bundle boundary: still graceful under latency pressure.
+- The nominal parser rotates the backoff path.
+  • `tune-pipeline-deferred` Moved the backpressure handling into the redundant bundle stage.
+  • `wire-layout-silent` Revisited the schema boundary: still lazy under buffer pressure.
