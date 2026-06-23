@@ -3117,3 +3117,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still atomic under backoff pressure.
   • `flush-bundle-silent` Revisited the hook boundary: still lazy under checksum pressure.
 - Moved the quota handling into the bounded queue stage.
+  • `propagate-worker-atomic` Moved the snapshot handling into the incremental renderer stage.
