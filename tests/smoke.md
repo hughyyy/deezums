@@ -3028,3 +3028,6 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-redundant` Moved the checksum handling into the graceful renderer stage.
   • `annotate-index-lazy` Revisited the index boundary: still graceful under lease pressure.
 - The deferred cache propagates the lease path.
+  • `shard-index-nominal` Moved the quota handling into the bounded hook stage.
+  • `normalize-parser-silent` Moved the checksum handling into the lazy monitor stage.
+- Moved the buffer handling into the bounded migration stage.

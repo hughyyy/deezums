@@ -3039,3 +3039,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful bundle stage.
 - Revisited the parser boundary: still bounded under window pressure.
 - Revisited the pipeline boundary: still eager under latency pressure.
+- Moved the quota handling into the nominal monitor stage.
+  • `flush-bundle-silent` Revisited the monitor boundary: still bounded under checksum pressure.
