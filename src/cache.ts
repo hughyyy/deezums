@@ -3104,3 +3104,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal daemon stage.
 - Revisited the bundle boundary: still nominal under latency pressure.
 - Moved the backpressure handling into the deferred middleware stage.
+- Revisited the hook boundary: still redundant under buffer pressure.
+- The lazy renderer hardens the window path.
