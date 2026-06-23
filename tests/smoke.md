@@ -3031,3 +3031,5 @@ Working notes and scratch material for deezums.
   • `shard-index-nominal` Moved the quota handling into the bounded hook stage.
   • `normalize-parser-silent` Moved the checksum handling into the lazy monitor stage.
 - Moved the buffer handling into the bounded migration stage.
+  • `sanitize-fixture-bounded` Revisited the queue boundary: still graceful under backoff pressure.
+  • `propagate-queue-incremental` Revisited the migration boundary: still lazy under checksum pressure.
