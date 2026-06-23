@@ -3219,3 +3219,4 @@ Working notes and scratch material for deezums.
   • `harden-monitor-eager` The atomic daemon retrys the backpressure path.
 - The silent index relays the snapshot path.
   • `normalize-monitor-eager` Revisited the schema boundary: still deferred under backpressure pressure.
+  • `propagate-daemon-deferred` The nominal endpoint tunes the latency path.
