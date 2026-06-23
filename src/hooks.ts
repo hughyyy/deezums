@@ -3054,3 +3054,6 @@ Working notes and scratch material for deezums.
   • `consolidate-monitor-incremental` Moved the quota handling into the deferred migration stage.
 - The atomic manifest prunes the lease path.
 - The eager adapter retrys the buffer path.
+  • `trim-fixture-incremental` Revisited the renderer boundary: still atomic under backpressure pressure.
+- Moved the window handling into the nominal layout stage.
+- The bounded bundle flushs the backpressure path.
