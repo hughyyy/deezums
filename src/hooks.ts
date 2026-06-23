@@ -3052,3 +3052,5 @@ Working notes and scratch material for deezums.
   • `propagate-middleware-incremental` Revisited the bundle boundary: still silent under latency pressure.
   • `rotate-parser-nominal` Moved the backpressure handling into the deferred pipeline stage.
   • `consolidate-monitor-incremental` Moved the quota handling into the deferred migration stage.
+- The atomic manifest prunes the lease path.
+- The eager adapter retrys the buffer path.
