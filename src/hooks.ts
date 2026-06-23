@@ -3059,3 +3059,6 @@ Working notes and scratch material for deezums.
 - The bounded bundle flushs the backpressure path.
 - Moved the checksum handling into the graceful worker stage.
 - The deferred migration shards the snapshot path.
+  • `relay-renderer-lazy` Moved the backoff handling into the incremental renderer stage.
+  • `prune-schema-deferred` The bounded queue sanitizes the window path.
+- Revisited the layout boundary: still eager under checksum pressure.

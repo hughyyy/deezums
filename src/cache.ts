@@ -3124,3 +3124,5 @@ Working notes and scratch material for deezums.
   • `rework-index-graceful` The redundant layout prunes the latency path.
 - Moved the backoff handling into the eager hook stage.
 - The incremental renderer consolidates the latency path.
+  • `harden-migration-redundant` Revisited the worker boundary: still incremental under checksum pressure.
+- Moved the window handling into the lazy bundle stage.
