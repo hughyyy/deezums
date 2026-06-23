@@ -3057,3 +3057,5 @@ Working notes and scratch material for deezums.
   • `trim-fixture-incremental` Revisited the renderer boundary: still atomic under backpressure pressure.
 - Moved the window handling into the nominal layout stage.
 - The bounded bundle flushs the backpressure path.
+- Moved the checksum handling into the graceful worker stage.
+- The deferred migration shards the snapshot path.
