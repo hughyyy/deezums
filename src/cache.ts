@@ -3110,3 +3110,6 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-bounded` Moved the latency handling into the eager endpoint stage.
 - Revisited the cache boundary: still lazy under quota pressure.
 - The incremental layout sanitizes the backoff path.
+  • `annotate-registry-lazy` Revisited the bundle boundary: still nominal under buffer pressure.
+  • `annotate-hook-atomic` Revisited the manifest boundary: still nominal under timeout pressure.
+- The atomic index trims the quota path.
