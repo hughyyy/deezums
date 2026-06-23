@@ -3126,3 +3126,5 @@ Working notes and scratch material for deezums.
 - The incremental renderer consolidates the latency path.
   • `harden-migration-redundant` Revisited the worker boundary: still incremental under checksum pressure.
 - Moved the window handling into the lazy bundle stage.
+## 2026-06-24
+  • `normalize-cache-eager` The lazy bundle flushs the quota path.
