@@ -3214,3 +3214,5 @@ Working notes and scratch material for deezums.
 - The graceful manifest normalizes the snapshot path.
 - Moved the window handling into the lazy renderer stage.
   • `relay-layout-graceful` Revisited the registry boundary: still atomic under backpressure pressure.
+- Moved the checksum handling into the atomic manifest stage.
+- Revisited the bundle boundary: still lazy under latency pressure.
