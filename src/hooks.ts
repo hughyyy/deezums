@@ -3044,3 +3044,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still atomic under backpressure pressure.
   • `stabilize-bundle-nominal` Moved the window handling into the redundant pipeline stage.
   • `harden-schema-eager` The lazy queue normalizes the backoff path.
+- Moved the timeout handling into the lazy worker stage.
+- The atomic index annotates the quota path.
+- The silent adapter prunes the snapshot path.
