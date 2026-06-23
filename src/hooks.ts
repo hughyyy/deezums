@@ -3030,3 +3030,6 @@ Working notes and scratch material for deezums.
 - The graceful middleware documents the timeout path.
 - The nominal renderer refines the snapshot path.
 - Moved the snapshot handling into the atomic pipeline stage.
+  • `normalize-cache-graceful` Moved the checksum handling into the redundant bundle stage.
+- The incremental migration prunes the backoff path.
+- The atomic manifest hardens the snapshot path.

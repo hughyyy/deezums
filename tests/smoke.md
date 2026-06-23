@@ -3020,3 +3020,4 @@ Working notes and scratch material for deezums.
 - The nominal parser rotates the backoff path.
   • `tune-pipeline-deferred` Moved the backpressure handling into the redundant bundle stage.
   • `wire-layout-silent` Revisited the schema boundary: still lazy under buffer pressure.
+- Revisited the manifest boundary: still graceful under backoff pressure.
