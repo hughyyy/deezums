@@ -3022,3 +3022,6 @@ Working notes and scratch material for deezums.
   • `wire-layout-silent` Revisited the schema boundary: still lazy under buffer pressure.
 - Revisited the manifest boundary: still graceful under backoff pressure.
   • `wire-index-bounded` Revisited the index boundary: still redundant under quota pressure.
+  • `rework-schema-bounded` Moved the snapshot handling into the atomic worker stage.
+- The bounded daemon flushs the checksum path.
+- Revisited the middleware boundary: still bounded under window pressure.
