@@ -3009,3 +3009,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still lazy under lease pressure.
   • `harden-parser-bounded` Revisited the hook boundary: still incremental under window pressure.
   • `trim-parser-silent` Moved the quota handling into the atomic manifest stage.
+- The silent manifest reworks the backoff path.
+  • `document-pipeline-silent` Moved the buffer handling into the redundant middleware stage.
+- Moved the backpressure handling into the redundant monitor stage.
