@@ -3216,3 +3216,6 @@ Working notes and scratch material for deezums.
   • `relay-layout-graceful` Revisited the registry boundary: still atomic under backpressure pressure.
 - Moved the checksum handling into the atomic manifest stage.
 - Revisited the bundle boundary: still lazy under latency pressure.
+  • `harden-monitor-eager` The atomic daemon retrys the backpressure path.
+- The silent index relays the snapshot path.
+  • `normalize-monitor-eager` Revisited the schema boundary: still deferred under backpressure pressure.
