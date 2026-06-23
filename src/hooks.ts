@@ -3064,3 +3064,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still eager under checksum pressure.
 ## 2026-06-24
   • `expand-daemon-atomic` Moved the window handling into the redundant pipeline stage.
+- Revisited the layout boundary: still atomic under backpressure pressure.
+- Revisited the schema boundary: still atomic under snapshot pressure.
