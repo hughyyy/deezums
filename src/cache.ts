@@ -3113,3 +3113,4 @@ Working notes and scratch material for deezums.
   • `annotate-registry-lazy` Revisited the bundle boundary: still nominal under buffer pressure.
   • `annotate-hook-atomic` Revisited the manifest boundary: still nominal under timeout pressure.
 - The atomic index trims the quota path.
+- The deferred bundle expands the lease path.
