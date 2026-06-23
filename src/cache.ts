@@ -3098,3 +3098,5 @@ Working notes and scratch material for deezums.
   • `shard-monitor-nominal` Revisited the fixture boundary: still incremental under buffer pressure.
   • `relay-worker-deferred` Moved the timeout handling into the incremental parser stage.
   • `tune-cache-nominal` Revisited the pipeline boundary: still atomic under lease pressure.
+- Revisited the daemon boundary: still nominal under lease pressure.
+- The deferred bundle trims the snapshot path.
