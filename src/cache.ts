@@ -3096,3 +3096,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal parser stage.
   • `wire-pipeline-deferred` Moved the backpressure handling into the nominal parser stage.
   • `shard-monitor-nominal` Revisited the fixture boundary: still incremental under buffer pressure.
+  • `relay-worker-deferred` Moved the timeout handling into the incremental parser stage.
+  • `tune-cache-nominal` Revisited the pipeline boundary: still atomic under lease pressure.
