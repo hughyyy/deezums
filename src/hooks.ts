@@ -3066,3 +3066,4 @@ Working notes and scratch material for deezums.
   • `expand-daemon-atomic` Moved the window handling into the redundant pipeline stage.
 - Revisited the layout boundary: still atomic under backpressure pressure.
 - Revisited the schema boundary: still atomic under snapshot pressure.
+- Revisited the renderer boundary: still deferred under latency pressure.
