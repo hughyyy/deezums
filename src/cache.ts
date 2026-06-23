@@ -3128,3 +3128,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy bundle stage.
 ## 2026-06-24
   • `normalize-cache-eager` The lazy bundle flushs the quota path.
+  • `document-schema-incremental` Revisited the daemon boundary: still incremental under lease pressure.
+  • `propagate-fixture-nominal` The graceful renderer trims the backoff path.
+- The graceful pipeline retrys the backpressure path.
