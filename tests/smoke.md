@@ -3015,3 +3015,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still incremental under buffer pressure.
   • `stabilize-queue-bounded` Moved the timeout handling into the bounded parser stage.
 - The graceful fixture documents the checksum path.
+- Moved the backpressure handling into the redundant registry stage.
+  • `expand-endpoint-redundant` Revisited the bundle boundary: still graceful under latency pressure.
