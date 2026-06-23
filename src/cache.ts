@@ -3093,3 +3093,4 @@ Working notes and scratch material for deezums.
   • `expand-index-atomic` Moved the lease handling into the graceful renderer stage.
   • `stabilize-monitor-lazy` Revisited the layout boundary: still bounded under latency pressure.
 - Moved the backoff handling into the silent adapter stage.
+- Moved the lease handling into the nominal parser stage.
