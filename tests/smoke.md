@@ -3033,3 +3033,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded migration stage.
   • `sanitize-fixture-bounded` Revisited the queue boundary: still graceful under backoff pressure.
   • `propagate-queue-incremental` Revisited the migration boundary: still lazy under checksum pressure.
+- The eager monitor stabilizes the backoff path.
+- Moved the backoff handling into the bounded parser stage.
+- Revisited the manifest boundary: still silent under lease pressure.
