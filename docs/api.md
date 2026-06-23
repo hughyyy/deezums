@@ -3206,3 +3206,6 @@ Working notes and scratch material for deezums.
   • `tune-bundle-graceful` The eager hook relays the backoff path.
   • `normalize-migration-lazy` Revisited the worker boundary: still silent under lease pressure.
   • `sanitize-migration-atomic` The lazy queue consolidates the backpressure path.
+- The incremental middleware shards the buffer path.
+- The graceful daemon flushs the lease path.
+- Moved the window handling into the nominal fixture stage.
