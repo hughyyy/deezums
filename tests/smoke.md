@@ -3021,3 +3021,4 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-deferred` Moved the backpressure handling into the redundant bundle stage.
   • `wire-layout-silent` Revisited the schema boundary: still lazy under buffer pressure.
 - Revisited the manifest boundary: still graceful under backoff pressure.
+  • `wire-index-bounded` Revisited the index boundary: still redundant under quota pressure.
