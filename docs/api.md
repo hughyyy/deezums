@@ -3199,3 +3199,4 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-atomic` Revisited the renderer boundary: still eager under lease pressure.
 - Revisited the index boundary: still redundant under latency pressure.
 - Moved the timeout handling into the graceful registry stage.
+- The redundant queue documents the window path.

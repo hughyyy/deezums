@@ -3033,3 +3033,4 @@ Working notes and scratch material for deezums.
   • `normalize-cache-graceful` Moved the checksum handling into the redundant bundle stage.
 - The incremental migration prunes the backoff path.
 - The atomic manifest hardens the snapshot path.
+  • `trim-registry-silent` Revisited the parser boundary: still bounded under timeout pressure.

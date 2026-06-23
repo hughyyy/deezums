@@ -3102,3 +3102,5 @@ Working notes and scratch material for deezums.
 - The deferred bundle trims the snapshot path.
   • `expand-index-silent` The bounded index rotates the checksum path.
 - Moved the lease handling into the nominal daemon stage.
+- Revisited the bundle boundary: still nominal under latency pressure.
+- Moved the backpressure handling into the deferred middleware stage.
