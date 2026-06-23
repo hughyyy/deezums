@@ -3041,3 +3041,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still eager under latency pressure.
 - Moved the quota handling into the nominal monitor stage.
   • `flush-bundle-silent` Revisited the monitor boundary: still bounded under checksum pressure.
+- Revisited the worker boundary: still atomic under backpressure pressure.
