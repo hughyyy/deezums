@@ -3050,3 +3050,4 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-lazy` Moved the window handling into the eager schema stage.
   • `annotate-renderer-redundant` Moved the backoff handling into the silent hook stage.
   • `propagate-middleware-incremental` Revisited the bundle boundary: still silent under latency pressure.
+  • `rotate-parser-nominal` Moved the backpressure handling into the deferred pipeline stage.
