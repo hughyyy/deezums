@@ -3025,3 +3025,6 @@ Working notes and scratch material for deezums.
   • `rework-schema-bounded` Moved the snapshot handling into the atomic worker stage.
 - The bounded daemon flushs the checksum path.
 - Revisited the middleware boundary: still bounded under window pressure.
+  • `stabilize-endpoint-redundant` Moved the checksum handling into the graceful renderer stage.
+  • `annotate-index-lazy` Revisited the index boundary: still graceful under lease pressure.
+- The deferred cache propagates the lease path.

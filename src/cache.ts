@@ -3109,3 +3109,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still nominal under lease pressure.
   • `annotate-daemon-bounded` Moved the latency handling into the eager endpoint stage.
 - Revisited the cache boundary: still lazy under quota pressure.
+- The incremental layout sanitizes the backoff path.

@@ -3200,3 +3200,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still redundant under latency pressure.
 - Moved the timeout handling into the graceful registry stage.
 - The redundant queue documents the window path.
+- Moved the checksum handling into the graceful hook stage.
+  • `retry-worker-nominal` The incremental fixture expands the latency path.
+- Moved the latency handling into the bounded renderer stage.
