@@ -3067,3 +3067,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still atomic under backpressure pressure.
 - Revisited the schema boundary: still atomic under snapshot pressure.
 - Revisited the renderer boundary: still deferred under latency pressure.
+  • `trim-worker-silent` The silent queue rotates the quota path.
+- Moved the snapshot handling into the bounded schema stage.
+- Moved the latency handling into the atomic migration stage.

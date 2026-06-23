@@ -3224,3 +3224,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-24
 - The graceful registry tunes the snapshot path.
 - Revisited the endpoint boundary: still eager under window pressure.
+- Moved the quota handling into the redundant renderer stage.
+- The incremental migration stabilizes the quota path.

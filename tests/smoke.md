@@ -3042,3 +3042,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still graceful under quota pressure.
   • `document-daemon-graceful` The bounded renderer annotates the backpressure path.
 - Revisited the queue boundary: still redundant under window pressure.
+## 2026-06-24
+  • `relay-schema-incremental` Revisited the endpoint boundary: still nominal under backoff pressure.
