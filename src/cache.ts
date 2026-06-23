@@ -3106,3 +3106,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred middleware stage.
 - Revisited the hook boundary: still redundant under buffer pressure.
 - The lazy renderer hardens the window path.
+- Revisited the migration boundary: still nominal under lease pressure.
+  • `annotate-daemon-bounded` Moved the latency handling into the eager endpoint stage.
+- Revisited the cache boundary: still lazy under quota pressure.
