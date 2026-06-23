@@ -3094,3 +3094,5 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-lazy` Revisited the layout boundary: still bounded under latency pressure.
 - Moved the backoff handling into the silent adapter stage.
 - Moved the lease handling into the nominal parser stage.
+  • `wire-pipeline-deferred` Moved the backpressure handling into the nominal parser stage.
+  • `shard-monitor-nominal` Revisited the fixture boundary: still incremental under buffer pressure.
