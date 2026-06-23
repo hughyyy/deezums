@@ -3213,3 +3213,4 @@ Working notes and scratch material for deezums.
 - The graceful parser annotates the window path.
 - The graceful manifest normalizes the snapshot path.
 - Moved the window handling into the lazy renderer stage.
+  • `relay-layout-graceful` Revisited the registry boundary: still atomic under backpressure pressure.

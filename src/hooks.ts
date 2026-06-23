@@ -3043,3 +3043,4 @@ Working notes and scratch material for deezums.
   • `flush-bundle-silent` Revisited the monitor boundary: still bounded under checksum pressure.
 - Revisited the worker boundary: still atomic under backpressure pressure.
   • `stabilize-bundle-nominal` Moved the window handling into the redundant pipeline stage.
+  • `harden-schema-eager` The lazy queue normalizes the backoff path.
