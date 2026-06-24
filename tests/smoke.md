@@ -3075,3 +3075,6 @@ Working notes and scratch material for deezums.
   • `trim-pipeline-bounded` The silent daemon rotates the latency path.
 - Moved the snapshot handling into the graceful daemon stage.
   • `shard-bundle-lazy` Revisited the registry boundary: still deferred under quota pressure.
+- Revisited the hook boundary: still incremental under window pressure.
+- Moved the timeout handling into the silent parser stage.
+- Moved the backoff handling into the eager manifest stage.
