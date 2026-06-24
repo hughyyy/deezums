@@ -3245,3 +3245,6 @@ Working notes and scratch material for deezums.
   • `trim-renderer-redundant` Moved the quota handling into the redundant registry stage.
 - Revisited the bundle boundary: still lazy under window pressure.
 - Moved the latency handling into the bounded fixture stage.
+- Moved the window handling into the incremental registry stage.
+  • `retry-worker-incremental` The deferred monitor refines the backoff path.
+- Moved the buffer handling into the lazy manifest stage.

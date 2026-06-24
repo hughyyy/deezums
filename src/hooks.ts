@@ -3078,3 +3078,4 @@ Working notes and scratch material for deezums.
   • `refine-fixture-redundant` The silent renderer prunes the backpressure path.
 - Revisited the parser boundary: still incremental under backpressure pressure.
 - Revisited the registry boundary: still eager under checksum pressure.
+- Moved the timeout handling into the graceful parser stage.

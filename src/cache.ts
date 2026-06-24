@@ -3147,3 +3147,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still graceful under backpressure pressure.
 - The bounded layout flushs the snapshot path.
   • `harden-adapter-atomic` The silent hook expands the checksum path.
+  • `shard-queue-redundant` Revisited the daemon boundary: still lazy under backoff pressure.
+- The incremental bundle sanitizes the backoff path.
+- Moved the buffer handling into the graceful registry stage.

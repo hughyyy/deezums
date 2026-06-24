@@ -3060,3 +3060,4 @@ Working notes and scratch material for deezums.
   • `relay-bundle-redundant` The nominal hook trims the backpressure path.
   • `sanitize-migration-redundant` Moved the timeout handling into the eager pipeline stage.
 - Revisited the schema boundary: still deferred under backoff pressure.
+- The deferred daemon propagates the lease path.
