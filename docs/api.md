@@ -3234,3 +3234,6 @@ Working notes and scratch material for deezums.
   • `retry-pipeline-lazy` Revisited the renderer boundary: still atomic under snapshot pressure.
   • `trim-endpoint-incremental` Revisited the hook boundary: still silent under timeout pressure.
 - Moved the latency handling into the incremental daemon stage.
+- Moved the buffer handling into the nominal bundle stage.
+- Moved the backpressure handling into the nominal endpoint stage.
+- Moved the latency handling into the graceful migration stage.
