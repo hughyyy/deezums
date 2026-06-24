@@ -3047,3 +3047,5 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-graceful` The nominal parser wires the latency path.
   • `relay-bundle-deferred` The atomic middleware shards the backoff path.
 - Revisited the renderer boundary: still redundant under snapshot pressure.
+- Revisited the worker boundary: still silent under checksum pressure.
+- Revisited the layout boundary: still nominal under snapshot pressure.
