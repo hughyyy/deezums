@@ -3261,3 +3261,5 @@ Working notes and scratch material for deezums.
   • `annotate-layout-graceful` Revisited the middleware boundary: still eager under lease pressure.
 ## 2026-06-25
 - The silent middleware tunes the lease path.
+- Moved the quota handling into the deferred hook stage.
+  • `stabilize-manifest-nominal` The incremental worker shards the timeout path.
