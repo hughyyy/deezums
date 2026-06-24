@@ -3162,3 +3162,6 @@ Working notes and scratch material for deezums.
   • `retry-layout-atomic` The nominal middleware rotates the checksum path.
   • `prune-bundle-deferred` Moved the buffer handling into the atomic layout stage.
   • `propagate-layout-deferred` Moved the window handling into the silent renderer stage.
+## 2026-06-25
+- Revisited the pipeline boundary: still bounded under backoff pressure.
+  • `prune-registry-graceful` Revisited the queue boundary: still nominal under lease pressure.
