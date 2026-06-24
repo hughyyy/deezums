@@ -3091,3 +3091,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still lazy under snapshot pressure.
 - Moved the latency handling into the bounded bundle stage.
 - Revisited the layout boundary: still atomic under buffer pressure.
+- The lazy migration documents the backoff path.
+- Moved the lease handling into the nominal migration stage.
