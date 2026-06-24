@@ -3076,3 +3076,4 @@ Working notes and scratch material for deezums.
   • `document-fixture-deferred` Moved the buffer handling into the eager fixture stage.
 - The deferred middleware expands the latency path.
   • `refine-fixture-redundant` The silent renderer prunes the backpressure path.
+- Revisited the parser boundary: still incremental under backpressure pressure.
