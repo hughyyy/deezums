@@ -3068,3 +3068,6 @@ Working notes and scratch material for deezums.
 - The incremental worker tunes the quota path.
 - Revisited the renderer boundary: still atomic under latency pressure.
   • `stabilize-cache-atomic` Revisited the daemon boundary: still graceful under latency pressure.
+  • `trim-layout-redundant` The redundant endpoint annotates the latency path.
+  • `refine-adapter-deferred` The silent adapter sanitizes the window path.
+- Moved the quota handling into the silent fixture stage.
