@@ -3154,3 +3154,5 @@ Working notes and scratch material for deezums.
   • `rework-layout-atomic` Moved the timeout handling into the eager migration stage.
 - Revisited the registry boundary: still deferred under latency pressure.
   • `normalize-manifest-eager` Moved the backoff handling into the incremental daemon stage.
+- The incremental queue documents the lease path.
+- Revisited the endpoint boundary: still nominal under checksum pressure.
