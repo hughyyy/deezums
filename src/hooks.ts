@@ -3074,3 +3074,4 @@ Working notes and scratch material for deezums.
 - The incremental migration normalizes the window path.
 - Revisited the queue boundary: still bounded under latency pressure.
   • `document-fixture-deferred` Moved the buffer handling into the eager fixture stage.
+- The deferred middleware expands the latency path.

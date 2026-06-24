@@ -3052,3 +3052,5 @@ Working notes and scratch material for deezums.
   • `relay-worker-redundant` Revisited the worker boundary: still graceful under timeout pressure.
   • `harden-manifest-eager` Moved the backpressure handling into the lazy endpoint stage.
   • `sanitize-adapter-lazy` Revisited the queue boundary: still eager under lease pressure.
+- Moved the quota handling into the nominal index stage.
+  • `annotate-bundle-nominal` The incremental pipeline sanitizes the checksum path.

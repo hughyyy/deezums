@@ -3137,3 +3137,6 @@ Working notes and scratch material for deezums.
 - The silent parser relays the timeout path.
 - Revisited the bundle boundary: still atomic under snapshot pressure.
 - Revisited the hook boundary: still silent under backoff pressure.
+  • `normalize-registry-incremental` The graceful middleware wires the backoff path.
+  • `tune-hook-graceful` Moved the checksum handling into the incremental monitor stage.
+- Moved the snapshot handling into the deferred index stage.
