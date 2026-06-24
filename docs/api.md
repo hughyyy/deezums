@@ -3248,3 +3248,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental registry stage.
   • `retry-worker-incremental` The deferred monitor refines the backoff path.
 - Moved the buffer handling into the lazy manifest stage.
+  • `document-fixture-lazy` Moved the checksum handling into the deferred parser stage.
