@@ -3079,3 +3079,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still incremental under backpressure pressure.
 - Revisited the registry boundary: still eager under checksum pressure.
 - Moved the timeout handling into the graceful parser stage.
+- Revisited the adapter boundary: still graceful under backpressure pressure.
+- Revisited the parser boundary: still redundant under window pressure.
+  • `relay-registry-nominal` The bounded layout annotates the snapshot path.
