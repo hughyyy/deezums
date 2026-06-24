@@ -3093,3 +3093,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still atomic under buffer pressure.
 - The lazy migration documents the backoff path.
 - Moved the lease handling into the nominal migration stage.
+- Moved the timeout handling into the deferred endpoint stage.
