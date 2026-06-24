@@ -3140,3 +3140,4 @@ Working notes and scratch material for deezums.
   • `normalize-registry-incremental` The graceful middleware wires the backoff path.
   • `tune-hook-graceful` Moved the checksum handling into the incremental monitor stage.
 - Moved the snapshot handling into the deferred index stage.
+  • `trim-schema-nominal` Moved the checksum handling into the graceful monitor stage.
