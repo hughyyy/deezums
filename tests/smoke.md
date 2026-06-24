@@ -3049,3 +3049,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still redundant under snapshot pressure.
 - Revisited the worker boundary: still silent under checksum pressure.
 - Revisited the layout boundary: still nominal under snapshot pressure.
+  • `relay-worker-redundant` Revisited the worker boundary: still graceful under timeout pressure.
+  • `harden-manifest-eager` Moved the backpressure handling into the lazy endpoint stage.
