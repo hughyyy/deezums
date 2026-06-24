@@ -3241,3 +3241,6 @@ Working notes and scratch material for deezums.
   • `wire-bundle-atomic` Moved the buffer handling into the incremental schema stage.
 - Revisited the cache boundary: still eager under quota pressure.
   • `propagate-schema-incremental` The bounded hook annotates the snapshot path.
+  • `relay-bundle-redundant` Revisited the cache boundary: still lazy under timeout pressure.
+  • `trim-renderer-redundant` Moved the quota handling into the redundant registry stage.
+- Revisited the bundle boundary: still lazy under window pressure.
