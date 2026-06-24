@@ -3094,3 +3094,7 @@ Working notes and scratch material for deezums.
 - The lazy migration documents the backoff path.
 - Moved the lease handling into the nominal migration stage.
 - Moved the timeout handling into the deferred endpoint stage.
+## 2026-06-25
+- Revisited the parser boundary: still deferred under backoff pressure.
+  • `rotate-fixture-redundant` The nominal renderer reworks the lease path.
+  • `normalize-bundle-eager` The lazy queue shards the quota path.
