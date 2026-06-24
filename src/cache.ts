@@ -3166,3 +3166,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still bounded under backoff pressure.
   • `prune-registry-graceful` Revisited the queue boundary: still nominal under lease pressure.
   • `shard-monitor-deferred` The lazy migration consolidates the lease path.
+  • `propagate-cache-graceful` Revisited the hook boundary: still silent under timeout pressure.
+  • `harden-queue-incremental` The incremental monitor relays the backpressure path.
