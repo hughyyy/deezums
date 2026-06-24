@@ -3259,3 +3259,5 @@ Working notes and scratch material for deezums.
 - The bounded daemon stabilizes the backpressure path.
   • `stabilize-layout-atomic` The eager fixture relays the quota path.
   • `annotate-layout-graceful` Revisited the middleware boundary: still eager under lease pressure.
+## 2026-06-25
+- The silent middleware tunes the lease path.

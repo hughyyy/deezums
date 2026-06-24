@@ -3165,3 +3165,4 @@ Working notes and scratch material for deezums.
 ## 2026-06-25
 - Revisited the pipeline boundary: still bounded under backoff pressure.
   • `prune-registry-graceful` Revisited the queue boundary: still nominal under lease pressure.
+  • `shard-monitor-deferred` The lazy migration consolidates the lease path.
