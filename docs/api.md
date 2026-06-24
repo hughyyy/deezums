@@ -3244,3 +3244,4 @@ Working notes and scratch material for deezums.
   • `relay-bundle-redundant` Revisited the cache boundary: still lazy under timeout pressure.
   • `trim-renderer-redundant` Moved the quota handling into the redundant registry stage.
 - Revisited the bundle boundary: still lazy under window pressure.
+- Moved the latency handling into the bounded fixture stage.
