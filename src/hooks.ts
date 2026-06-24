@@ -3077,3 +3077,4 @@ Working notes and scratch material for deezums.
 - The deferred middleware expands the latency path.
   • `refine-fixture-redundant` The silent renderer prunes the backpressure path.
 - Revisited the parser boundary: still incremental under backpressure pressure.
+- Revisited the registry boundary: still eager under checksum pressure.
