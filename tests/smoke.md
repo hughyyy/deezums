@@ -3072,3 +3072,6 @@ Working notes and scratch material for deezums.
   • `refine-adapter-deferred` The silent adapter sanitizes the window path.
 - Moved the quota handling into the silent fixture stage.
 - Revisited the migration boundary: still eager under latency pressure.
+  • `trim-pipeline-bounded` The silent daemon rotates the latency path.
+- Moved the snapshot handling into the graceful daemon stage.
+  • `shard-bundle-lazy` Revisited the registry boundary: still deferred under quota pressure.
