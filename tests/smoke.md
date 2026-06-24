@@ -3056,3 +3056,6 @@ Working notes and scratch material for deezums.
   • `annotate-bundle-nominal` The incremental pipeline sanitizes the checksum path.
 - The redundant cache hardens the timeout path.
 - Moved the latency handling into the eager hook stage.
+- The atomic schema expands the buffer path.
+  • `relay-bundle-redundant` The nominal hook trims the backpressure path.
+  • `sanitize-migration-redundant` Moved the timeout handling into the eager pipeline stage.
