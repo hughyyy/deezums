@@ -3150,3 +3150,5 @@ Working notes and scratch material for deezums.
   • `shard-queue-redundant` Revisited the daemon boundary: still lazy under backoff pressure.
 - The incremental bundle sanitizes the backoff path.
 - Moved the buffer handling into the graceful registry stage.
+  • `relay-renderer-bounded` The incremental hook documents the checksum path.
+  • `rework-layout-atomic` Moved the timeout handling into the eager migration stage.
