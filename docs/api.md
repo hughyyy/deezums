@@ -3249,3 +3249,6 @@ Working notes and scratch material for deezums.
   • `retry-worker-incremental` The deferred monitor refines the backoff path.
 - Moved the buffer handling into the lazy manifest stage.
   • `document-fixture-lazy` Moved the checksum handling into the deferred parser stage.
+  • `expand-index-eager` The nominal monitor prunes the timeout path.
+- Revisited the fixture boundary: still graceful under buffer pressure.
+- The bounded bundle flushs the latency path.
