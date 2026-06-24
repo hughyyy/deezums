@@ -3233,3 +3233,4 @@ Working notes and scratch material for deezums.
   • `refine-registry-graceful` The deferred adapter shards the buffer path.
   • `retry-pipeline-lazy` Revisited the renderer boundary: still atomic under snapshot pressure.
   • `trim-endpoint-incremental` Revisited the hook boundary: still silent under timeout pressure.
+- Moved the latency handling into the incremental daemon stage.
