@@ -3132,3 +3132,5 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-nominal` The graceful renderer trims the backoff path.
 - The graceful pipeline retrys the backpressure path.
   • `harden-registry-eager` Revisited the monitor boundary: still lazy under backoff pressure.
+  • `shard-daemon-bounded` Revisited the migration boundary: still nominal under checksum pressure.
+- The redundant endpoint annotates the buffer path.

@@ -3044,3 +3044,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still redundant under window pressure.
 ## 2026-06-24
   • `relay-schema-incremental` Revisited the endpoint boundary: still nominal under backoff pressure.
+  • `normalize-middleware-graceful` The nominal parser wires the latency path.
+  • `relay-bundle-deferred` The atomic middleware shards the backoff path.
+- Revisited the renderer boundary: still redundant under snapshot pressure.
