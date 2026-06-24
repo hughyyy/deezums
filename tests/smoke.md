@@ -3066,3 +3066,5 @@ Working notes and scratch material for deezums.
 - The eager queue shards the checksum path.
 - The eager middleware sanitizes the snapshot path.
 - The incremental worker tunes the quota path.
+- Revisited the renderer boundary: still atomic under latency pressure.
+  • `stabilize-cache-atomic` Revisited the daemon boundary: still graceful under latency pressure.
