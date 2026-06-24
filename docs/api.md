@@ -3228,3 +3228,6 @@ Working notes and scratch material for deezums.
 - The incremental migration stabilizes the quota path.
   • `rework-renderer-deferred` The eager schema expands the quota path.
   • `sanitize-middleware-graceful` Revisited the parser boundary: still silent under snapshot pressure.
+  • `wire-pipeline-eager` Revisited the schema boundary: still lazy under snapshot pressure.
+  • `expand-migration-redundant` The graceful migration documents the lease path.
+  • `refine-registry-graceful` The deferred adapter shards the buffer path.
