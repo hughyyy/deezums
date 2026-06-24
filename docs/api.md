@@ -3253,3 +3253,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still graceful under buffer pressure.
 - The bounded bundle flushs the latency path.
 - Revisited the renderer boundary: still eager under checksum pressure.
+  • `annotate-middleware-bounded` The eager renderer stabilizes the buffer path.
