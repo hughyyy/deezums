@@ -3146,3 +3146,4 @@ Working notes and scratch material for deezums.
 - The atomic registry documents the lease path.
 - Revisited the fixture boundary: still graceful under backpressure pressure.
 - The bounded layout flushs the snapshot path.
+  • `harden-adapter-atomic` The silent hook expands the checksum path.
