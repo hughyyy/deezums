@@ -3143,3 +3143,6 @@ Working notes and scratch material for deezums.
   • `trim-schema-nominal` Moved the checksum handling into the graceful monitor stage.
   • `flush-worker-silent` Revisited the middleware boundary: still deferred under timeout pressure.
   • `expand-monitor-atomic` The incremental index consolidates the timeout path.
+- The atomic registry documents the lease path.
+- Revisited the fixture boundary: still graceful under backpressure pressure.
+- The bounded layout flushs the snapshot path.
