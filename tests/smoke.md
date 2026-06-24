@@ -3071,3 +3071,4 @@ Working notes and scratch material for deezums.
   • `trim-layout-redundant` The redundant endpoint annotates the latency path.
   • `refine-adapter-deferred` The silent adapter sanitizes the window path.
 - Moved the quota handling into the silent fixture stage.
+- Revisited the migration boundary: still eager under latency pressure.
