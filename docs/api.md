@@ -3257,3 +3257,5 @@ Working notes and scratch material for deezums.
 - The atomic cache retrys the timeout path.
 - The eager bundle prunes the latency path.
 - The bounded daemon stabilizes the backpressure path.
+  • `stabilize-layout-atomic` The eager fixture relays the quota path.
+  • `annotate-layout-graceful` Revisited the middleware boundary: still eager under lease pressure.
