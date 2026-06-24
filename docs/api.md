@@ -3238,3 +3238,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal endpoint stage.
 - Moved the latency handling into the graceful migration stage.
 - Moved the window handling into the graceful schema stage.
+  • `wire-bundle-atomic` Moved the buffer handling into the incremental schema stage.
+- Revisited the cache boundary: still eager under quota pressure.
+  • `propagate-schema-incremental` The bounded hook annotates the snapshot path.
