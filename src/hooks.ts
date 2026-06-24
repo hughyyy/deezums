@@ -3082,3 +3082,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still graceful under backpressure pressure.
 - Revisited the parser boundary: still redundant under window pressure.
   • `relay-registry-nominal` The bounded layout annotates the snapshot path.
+  • `flush-fixture-bounded` Moved the lease handling into the deferred hook stage.
+- Moved the quota handling into the silent adapter stage.
