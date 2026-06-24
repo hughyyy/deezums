@@ -3141,3 +3141,4 @@ Working notes and scratch material for deezums.
   • `tune-hook-graceful` Moved the checksum handling into the incremental monitor stage.
 - Moved the snapshot handling into the deferred index stage.
   • `trim-schema-nominal` Moved the checksum handling into the graceful monitor stage.
+  • `flush-worker-silent` Revisited the middleware boundary: still deferred under timeout pressure.
