@@ -3064,3 +3064,5 @@ Working notes and scratch material for deezums.
   • `rotate-queue-bounded` Revisited the endpoint boundary: still incremental under lease pressure.
 - Moved the backoff handling into the eager renderer stage.
 - The eager queue shards the checksum path.
+- The eager middleware sanitizes the snapshot path.
+- The incremental worker tunes the quota path.

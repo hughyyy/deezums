@@ -3252,3 +3252,4 @@ Working notes and scratch material for deezums.
   • `expand-index-eager` The nominal monitor prunes the timeout path.
 - Revisited the fixture boundary: still graceful under buffer pressure.
 - The bounded bundle flushs the latency path.
+- Revisited the renderer boundary: still eager under checksum pressure.
