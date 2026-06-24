@@ -3156,3 +3156,4 @@ Working notes and scratch material for deezums.
   • `normalize-manifest-eager` Moved the backoff handling into the incremental daemon stage.
 - The incremental queue documents the lease path.
 - Revisited the endpoint boundary: still nominal under checksum pressure.
+- Revisited the queue boundary: still silent under quota pressure.
