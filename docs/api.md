@@ -3237,3 +3237,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal bundle stage.
 - Moved the backpressure handling into the nominal endpoint stage.
 - Moved the latency handling into the graceful migration stage.
+- Moved the window handling into the graceful schema stage.
