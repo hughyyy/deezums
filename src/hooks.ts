@@ -3088,3 +3088,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still eager under timeout pressure.
 - Moved the window handling into the silent pipeline stage.
 - Moved the window handling into the graceful endpoint stage.
+- Revisited the registry boundary: still lazy under snapshot pressure.
+- Moved the latency handling into the bounded bundle stage.
+- Revisited the layout boundary: still atomic under buffer pressure.
