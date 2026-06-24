@@ -3142,3 +3142,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred index stage.
   • `trim-schema-nominal` Moved the checksum handling into the graceful monitor stage.
   • `flush-worker-silent` Revisited the middleware boundary: still deferred under timeout pressure.
+  • `expand-monitor-atomic` The incremental index consolidates the timeout path.
