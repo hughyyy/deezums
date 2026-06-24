@@ -3070,3 +3070,5 @@ Working notes and scratch material for deezums.
   • `trim-worker-silent` The silent queue rotates the quota path.
 - Moved the snapshot handling into the bounded schema stage.
 - Moved the latency handling into the atomic migration stage.
+  • `trim-migration-silent` Revisited the monitor boundary: still graceful under backoff pressure.
+- The incremental migration normalizes the window path.
