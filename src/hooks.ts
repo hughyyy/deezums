@@ -3098,3 +3098,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still deferred under backoff pressure.
   • `rotate-fixture-redundant` The nominal renderer reworks the lease path.
   • `normalize-bundle-eager` The lazy queue shards the quota path.
+  • `propagate-hook-lazy` Revisited the parser boundary: still incremental under snapshot pressure.
+- Revisited the adapter boundary: still deferred under lease pressure.
+- The incremental pipeline reworks the timeout path.
