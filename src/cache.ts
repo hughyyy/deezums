@@ -3152,3 +3152,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful registry stage.
   • `relay-renderer-bounded` The incremental hook documents the checksum path.
   • `rework-layout-atomic` Moved the timeout handling into the eager migration stage.
+- Revisited the registry boundary: still deferred under latency pressure.
+  • `normalize-manifest-eager` Moved the backoff handling into the incremental daemon stage.
