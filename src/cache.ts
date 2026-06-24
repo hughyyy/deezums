@@ -3134,3 +3134,6 @@ Working notes and scratch material for deezums.
   • `harden-registry-eager` Revisited the monitor boundary: still lazy under backoff pressure.
   • `shard-daemon-bounded` Revisited the migration boundary: still nominal under checksum pressure.
 - The redundant endpoint annotates the buffer path.
+- The silent parser relays the timeout path.
+- Revisited the bundle boundary: still atomic under snapshot pressure.
+- Revisited the hook boundary: still silent under backoff pressure.
