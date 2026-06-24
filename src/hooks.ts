@@ -3085,3 +3085,6 @@ Working notes and scratch material for deezums.
   • `flush-fixture-bounded` Moved the lease handling into the deferred hook stage.
 - Moved the quota handling into the silent adapter stage.
   • `prune-parser-incremental` Revisited the index boundary: still nominal under backpressure pressure.
+- Revisited the migration boundary: still eager under timeout pressure.
+- Moved the window handling into the silent pipeline stage.
+- Moved the window handling into the graceful endpoint stage.
