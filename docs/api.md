@@ -3231,3 +3231,5 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-eager` Revisited the schema boundary: still lazy under snapshot pressure.
   • `expand-migration-redundant` The graceful migration documents the lease path.
   • `refine-registry-graceful` The deferred adapter shards the buffer path.
+  • `retry-pipeline-lazy` Revisited the renderer boundary: still atomic under snapshot pressure.
+  • `trim-endpoint-incremental` Revisited the hook boundary: still silent under timeout pressure.
