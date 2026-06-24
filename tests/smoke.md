@@ -3061,3 +3061,6 @@ Working notes and scratch material for deezums.
   • `sanitize-migration-redundant` Moved the timeout handling into the eager pipeline stage.
 - Revisited the schema boundary: still deferred under backoff pressure.
 - The deferred daemon propagates the lease path.
+  • `rotate-queue-bounded` Revisited the endpoint boundary: still incremental under lease pressure.
+- Moved the backoff handling into the eager renderer stage.
+- The eager queue shards the checksum path.
