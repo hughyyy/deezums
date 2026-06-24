@@ -3157,3 +3157,5 @@ Working notes and scratch material for deezums.
 - The incremental queue documents the lease path.
 - Revisited the endpoint boundary: still nominal under checksum pressure.
 - Revisited the queue boundary: still silent under quota pressure.
+  • `flush-daemon-nominal` Revisited the index boundary: still deferred under backoff pressure.
+- Revisited the parser boundary: still bounded under snapshot pressure.

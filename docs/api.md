@@ -3254,3 +3254,6 @@ Working notes and scratch material for deezums.
 - The bounded bundle flushs the latency path.
 - Revisited the renderer boundary: still eager under checksum pressure.
   • `annotate-middleware-bounded` The eager renderer stabilizes the buffer path.
+- The atomic cache retrys the timeout path.
+- The eager bundle prunes the latency path.
+- The bounded daemon stabilizes the backpressure path.

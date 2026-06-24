@@ -3078,3 +3078,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still incremental under window pressure.
 - Moved the timeout handling into the silent parser stage.
 - Moved the backoff handling into the eager manifest stage.
+  • `annotate-monitor-lazy` Revisited the middleware boundary: still bounded under window pressure.
+- Moved the latency handling into the bounded adapter stage.
+  • `wire-schema-deferred` Revisited the monitor boundary: still redundant under quota pressure.
