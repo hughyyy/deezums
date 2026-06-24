@@ -3084,3 +3084,4 @@ Working notes and scratch material for deezums.
   • `relay-registry-nominal` The bounded layout annotates the snapshot path.
   • `flush-fixture-bounded` Moved the lease handling into the deferred hook stage.
 - Moved the quota handling into the silent adapter stage.
+  • `prune-parser-incremental` Revisited the index boundary: still nominal under backpressure pressure.
