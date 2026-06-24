@@ -3159,3 +3159,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still silent under quota pressure.
   • `flush-daemon-nominal` Revisited the index boundary: still deferred under backoff pressure.
 - Revisited the parser boundary: still bounded under snapshot pressure.
+  • `retry-layout-atomic` The nominal middleware rotates the checksum path.
+  • `prune-bundle-deferred` Moved the buffer handling into the atomic layout stage.
+  • `propagate-layout-deferred` Moved the window handling into the silent renderer stage.

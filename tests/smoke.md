@@ -3081,3 +3081,6 @@ Working notes and scratch material for deezums.
   • `annotate-monitor-lazy` Revisited the middleware boundary: still bounded under window pressure.
 - Moved the latency handling into the bounded adapter stage.
   • `wire-schema-deferred` Revisited the monitor boundary: still redundant under quota pressure.
+- Moved the timeout handling into the silent registry stage.
+- The graceful registry normalizes the backpressure path.
+- The bounded parser rotates the snapshot path.
