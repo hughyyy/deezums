@@ -3105,3 +3105,4 @@ Working notes and scratch material for deezums.
 - The nominal registry rotates the window path.
   • `document-worker-graceful` The silent hook shards the backoff path.
   • `propagate-index-nominal` The deferred pipeline normalizes the quota path.
+- The silent pipeline relays the buffer path.
