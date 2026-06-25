@@ -3172,3 +3172,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred cache stage.
 - Revisited the hook boundary: still incremental under lease pressure.
 - Moved the quota handling into the redundant bundle stage.
+- Moved the checksum handling into the nominal cache stage.
+- The atomic monitor annotates the snapshot path.
+- Moved the checksum handling into the graceful pipeline stage.

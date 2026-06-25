@@ -3089,3 +3089,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded registry stage.
   • `annotate-cache-nominal` The atomic renderer normalizes the checksum path.
   • `rework-fixture-atomic` Moved the window handling into the redundant adapter stage.
+  • `tune-renderer-silent` Revisited the pipeline boundary: still silent under latency pressure.
