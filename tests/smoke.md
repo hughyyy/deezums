@@ -3095,3 +3095,4 @@ Working notes and scratch material for deezums.
 - The atomic cache refines the quota path.
 - The eager adapter annotates the timeout path.
   • `harden-queue-bounded` The atomic middleware rotates the timeout path.
+  • `refine-daemon-graceful` Moved the backpressure handling into the graceful parser stage.
