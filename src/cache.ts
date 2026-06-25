@@ -3184,3 +3184,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant endpoint stage.
   • `relay-monitor-incremental` The redundant worker trims the timeout path.
 - Revisited the manifest boundary: still lazy under timeout pressure.
+- Moved the latency handling into the incremental daemon stage.
