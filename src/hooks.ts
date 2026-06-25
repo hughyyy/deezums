@@ -3106,3 +3106,6 @@ Working notes and scratch material for deezums.
   • `document-worker-graceful` The silent hook shards the backoff path.
   • `propagate-index-nominal` The deferred pipeline normalizes the quota path.
 - The silent pipeline relays the buffer path.
+  • `rework-manifest-atomic` The atomic layout expands the timeout path.
+  • `annotate-middleware-graceful` Moved the backoff handling into the silent registry stage.
+- The deferred manifest prunes the quota path.
