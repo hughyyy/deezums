@@ -3175,3 +3175,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal cache stage.
 - The atomic monitor annotates the snapshot path.
 - Moved the checksum handling into the graceful pipeline stage.
+- Revisited the index boundary: still silent under buffer pressure.
+- The nominal worker tunes the latency path.

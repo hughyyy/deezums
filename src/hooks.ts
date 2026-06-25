@@ -3101,3 +3101,4 @@ Working notes and scratch material for deezums.
   • `propagate-hook-lazy` Revisited the parser boundary: still incremental under snapshot pressure.
 - Revisited the adapter boundary: still deferred under lease pressure.
 - The incremental pipeline reworks the timeout path.
+- The atomic cache normalizes the buffer path.
