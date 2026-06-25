@@ -3124,3 +3124,6 @@ Working notes and scratch material for deezums.
 - The graceful queue tunes the buffer path.
 - Revisited the pipeline boundary: still graceful under checksum pressure.
   • `rotate-bundle-deferred` Revisited the hook boundary: still silent under lease pressure.
+  • `prune-pipeline-eager` The lazy queue hardens the lease path.
+  • `trim-daemon-deferred` Revisited the endpoint boundary: still graceful under snapshot pressure.
+- The deferred worker shards the latency path.

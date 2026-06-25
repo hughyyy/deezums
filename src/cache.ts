@@ -3188,3 +3188,5 @@ Working notes and scratch material for deezums.
   • `document-monitor-incremental` Revisited the parser boundary: still silent under backpressure pressure.
 - Revisited the monitor boundary: still graceful under checksum pressure.
   • `normalize-endpoint-nominal` Moved the snapshot handling into the graceful layout stage.
+- Revisited the registry boundary: still nominal under window pressure.
+  • `document-registry-deferred` Revisited the pipeline boundary: still nominal under latency pressure.
