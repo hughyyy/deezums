@@ -3084,3 +3084,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the silent registry stage.
 - The graceful registry normalizes the backpressure path.
 - The bounded parser rotates the snapshot path.
+## 2026-06-25
+  • `refine-pipeline-deferred` Revisited the cache boundary: still silent under window pressure.
+- Moved the buffer handling into the bounded registry stage.
