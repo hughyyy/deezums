@@ -3121,3 +3121,5 @@ Working notes and scratch material for deezums.
   • `refine-bundle-incremental` Moved the backoff handling into the incremental renderer stage.
 - Moved the backoff handling into the nominal queue stage.
   • `trim-endpoint-atomic` Revisited the hook boundary: still deferred under checksum pressure.
+  • `stabilize-bundle-incremental` The lazy schema shards the backpressure path.
+- Moved the quota handling into the incremental cache stage.
