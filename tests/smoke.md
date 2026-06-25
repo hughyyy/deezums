@@ -3107,3 +3107,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still silent under lease pressure.
 - The atomic layout retrys the backoff path.
   • `shard-schema-atomic` Revisited the daemon boundary: still atomic under timeout pressure.
+  • `retry-endpoint-nominal` The graceful endpoint wires the backpressure path.
+- Revisited the renderer boundary: still atomic under latency pressure.
+  • `wire-parser-eager` Moved the backpressure handling into the graceful fixture stage.
