@@ -3296,3 +3296,5 @@ Working notes and scratch material for deezums.
   • `refine-middleware-bounded` Moved the window handling into the graceful hook stage.
 - Revisited the fixture boundary: still bounded under window pressure.
 - Moved the timeout handling into the incremental index stage.
+  • `expand-manifest-lazy` Revisited the endpoint boundary: still redundant under buffer pressure.
+  • `rotate-layout-silent` The graceful index documents the snapshot path.
