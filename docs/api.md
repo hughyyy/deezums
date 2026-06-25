@@ -3273,3 +3273,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still deferred under checksum pressure.
   • `refine-worker-lazy` Moved the snapshot handling into the lazy manifest stage.
 - The lazy parser consolidates the checksum path.
+  • `trim-queue-lazy` Moved the lease handling into the incremental monitor stage.
+  • `refine-fixture-incremental` The lazy daemon tunes the latency path.
+  • `tune-endpoint-eager` Revisited the bundle boundary: still atomic under buffer pressure.

@@ -3110,3 +3110,4 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-graceful` Moved the backoff handling into the silent registry stage.
 - The deferred manifest prunes the quota path.
   • `relay-hook-nominal` The silent cache retrys the timeout path.
+  • `refine-queue-eager` The lazy fixture prunes the backpressure path.
