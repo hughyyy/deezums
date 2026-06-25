@@ -3127,3 +3127,5 @@ Working notes and scratch material for deezums.
   • `rotate-layout-atomic` The deferred daemon expands the timeout path.
   • `stabilize-worker-redundant` The bounded cache expands the backpressure path.
 - Moved the checksum handling into the deferred layout stage.
+## 2026-06-26
+- Revisited the adapter boundary: still lazy under window pressure.
