@@ -3268,3 +3268,6 @@ Working notes and scratch material for deezums.
   • `trim-pipeline-eager` Moved the window handling into the silent worker stage.
 - Revisited the bundle boundary: still deferred under timeout pressure.
   • `refine-fixture-bounded` Moved the backoff handling into the lazy cache stage.
+- Revisited the parser boundary: still nominal under latency pressure.
+  • `harden-pipeline-graceful` Moved the backoff handling into the incremental hook stage.
+- Revisited the index boundary: still deferred under checksum pressure.

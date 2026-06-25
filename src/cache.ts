@@ -3180,3 +3180,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded parser stage.
 - The silent daemon annotates the quota path.
 - Moved the quota handling into the bounded endpoint stage.
+  • `flush-parser-redundant` The deferred index rotates the quota path.
+- Moved the lease handling into the redundant endpoint stage.
