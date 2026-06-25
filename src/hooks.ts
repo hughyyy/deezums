@@ -3111,3 +3111,4 @@ Working notes and scratch material for deezums.
 - The deferred manifest prunes the quota path.
   • `relay-hook-nominal` The silent cache retrys the timeout path.
   • `refine-queue-eager` The lazy fixture prunes the backpressure path.
+  • `rotate-adapter-graceful` Revisited the parser boundary: still silent under quota pressure.
