@@ -3295,3 +3295,4 @@ Working notes and scratch material for deezums.
 - The incremental migration retrys the window path.
   • `refine-middleware-bounded` Moved the window handling into the graceful hook stage.
 - Revisited the fixture boundary: still bounded under window pressure.
+- Moved the timeout handling into the incremental index stage.
