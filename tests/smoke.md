@@ -3087,3 +3087,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-25
   • `refine-pipeline-deferred` Revisited the cache boundary: still silent under window pressure.
 - Moved the buffer handling into the bounded registry stage.
+  • `annotate-cache-nominal` The atomic renderer normalizes the checksum path.
+  • `rework-fixture-atomic` Moved the window handling into the redundant adapter stage.
