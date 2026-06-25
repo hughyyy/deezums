@@ -3302,3 +3302,6 @@ Working notes and scratch material for deezums.
   • `tune-queue-lazy` Revisited the hook boundary: still deferred under backoff pressure.
   • `normalize-schema-redundant` Revisited the worker boundary: still redundant under backoff pressure.
   • `annotate-bundle-incremental` Moved the latency handling into the deferred registry stage.
+  • `normalize-cache-nominal` The nominal middleware stabilizes the latency path.
+- Moved the window handling into the incremental registry stage.
+- Revisited the bundle boundary: still bounded under window pressure.

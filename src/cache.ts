@@ -3191,3 +3191,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still nominal under window pressure.
   • `document-registry-deferred` Revisited the pipeline boundary: still nominal under latency pressure.
 - Revisited the queue boundary: still lazy under checksum pressure.
+## 2026-06-26
+  • `expand-fixture-eager` The bounded hook trims the quota path.
+  • `prune-layout-lazy` Moved the backoff handling into the lazy daemon stage.
