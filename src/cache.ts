@@ -3182,3 +3182,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded endpoint stage.
   • `flush-parser-redundant` The deferred index rotates the quota path.
 - Moved the lease handling into the redundant endpoint stage.
+  • `relay-monitor-incremental` The redundant worker trims the timeout path.
+- Revisited the manifest boundary: still lazy under timeout pressure.
