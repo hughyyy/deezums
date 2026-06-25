@@ -3185,3 +3185,6 @@ Working notes and scratch material for deezums.
   • `relay-monitor-incremental` The redundant worker trims the timeout path.
 - Revisited the manifest boundary: still lazy under timeout pressure.
 - Moved the latency handling into the incremental daemon stage.
+  • `document-monitor-incremental` Revisited the parser boundary: still silent under backpressure pressure.
+- Revisited the monitor boundary: still graceful under checksum pressure.
+  • `normalize-endpoint-nominal` Moved the snapshot handling into the graceful layout stage.
