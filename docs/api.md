@@ -3298,3 +3298,7 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental index stage.
   • `expand-manifest-lazy` Revisited the endpoint boundary: still redundant under buffer pressure.
   • `rotate-layout-silent` The graceful index documents the snapshot path.
+## 2026-06-26 hydration
+  • `tune-queue-lazy` Revisited the hook boundary: still deferred under backoff pressure.
+  • `normalize-schema-redundant` Revisited the worker boundary: still redundant under backoff pressure.
+  • `annotate-bundle-incremental` Moved the latency handling into the deferred registry stage.
