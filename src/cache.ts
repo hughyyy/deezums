@@ -3177,3 +3177,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful pipeline stage.
 - Revisited the index boundary: still silent under buffer pressure.
 - The nominal worker tunes the latency path.
+- Moved the checksum handling into the bounded parser stage.
+- The silent daemon annotates the quota path.
+- Moved the quota handling into the bounded endpoint stage.
