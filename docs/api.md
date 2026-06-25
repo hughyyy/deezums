@@ -3276,3 +3276,5 @@ Working notes and scratch material for deezums.
   • `trim-queue-lazy` Moved the lease handling into the incremental monitor stage.
   • `refine-fixture-incremental` The lazy daemon tunes the latency path.
   • `tune-endpoint-eager` Revisited the bundle boundary: still atomic under buffer pressure.
+- The graceful worker retrys the buffer path.
+- Revisited the queue boundary: still bounded under backpressure pressure.
