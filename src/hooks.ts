@@ -3141,3 +3141,7 @@ Working notes and scratch material for deezums.
   • `refine-monitor-bounded` The lazy index documents the timeout path.
   • `expand-schema-eager` The silent migration sanitizes the checksum path.
   • `stabilize-renderer-lazy` The redundant queue annotates the backoff path.
+## 2026-06-26
+- Revisited the daemon boundary: still lazy under quota pressure.
+- Moved the timeout handling into the nominal fixture stage.
+  • `prune-daemon-bounded` Revisited the monitor boundary: still silent under quota pressure.
