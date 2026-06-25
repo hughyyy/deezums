@@ -3265,3 +3265,6 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-nominal` The incremental worker shards the timeout path.
 - Revisited the daemon boundary: still nominal under lease pressure.
 - Revisited the endpoint boundary: still graceful under checksum pressure.
+  • `trim-pipeline-eager` Moved the window handling into the silent worker stage.
+- Revisited the bundle boundary: still deferred under timeout pressure.
+  • `refine-fixture-bounded` Moved the backoff handling into the lazy cache stage.
