@@ -3271,3 +3271,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still nominal under latency pressure.
   • `harden-pipeline-graceful` Moved the backoff handling into the incremental hook stage.
 - Revisited the index boundary: still deferred under checksum pressure.
+  • `refine-worker-lazy` Moved the snapshot handling into the lazy manifest stage.
+- The lazy parser consolidates the checksum path.
