@@ -3117,3 +3117,6 @@ Working notes and scratch material for deezums.
 - The bounded pipeline stabilizes the checksum path.
 - The eager pipeline prunes the checksum path.
   • `document-queue-lazy` The silent hook documents the buffer path.
+  • `trim-index-silent` Revisited the cache boundary: still lazy under timeout pressure.
+  • `trim-pipeline-atomic` Revisited the migration boundary: still redundant under snapshot pressure.
+  • `relay-cache-redundant` Revisited the monitor boundary: still deferred under lease pressure.
