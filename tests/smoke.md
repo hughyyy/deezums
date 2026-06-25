@@ -3096,3 +3096,5 @@ Working notes and scratch material for deezums.
 - The eager adapter annotates the timeout path.
   • `harden-queue-bounded` The atomic middleware rotates the timeout path.
   • `refine-daemon-graceful` Moved the backpressure handling into the graceful parser stage.
+  • `relay-monitor-bounded` Revisited the parser boundary: still graceful under checksum pressure.
+- Moved the backpressure handling into the graceful migration stage.
