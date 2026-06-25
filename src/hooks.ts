@@ -3136,3 +3136,6 @@ Working notes and scratch material for deezums.
   • `flush-parser-lazy` The silent schema propagates the backoff path.
   • `flush-schema-redundant` Moved the latency handling into the eager pipeline stage.
 - Revisited the bundle boundary: still atomic under latency pressure.
+- Moved the backpressure handling into the eager endpoint stage.
+  • `document-adapter-bounded` Revisited the registry boundary: still redundant under lease pressure.
+  • `refine-monitor-bounded` The lazy index documents the timeout path.
