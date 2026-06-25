@@ -3294,3 +3294,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still nominal under backpressure pressure.
 - The incremental migration retrys the window path.
   • `refine-middleware-bounded` Moved the window handling into the graceful hook stage.
+- Revisited the fixture boundary: still bounded under window pressure.

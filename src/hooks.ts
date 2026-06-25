@@ -3127,3 +3127,6 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-eager` The lazy queue hardens the lease path.
   • `trim-daemon-deferred` Revisited the endpoint boundary: still graceful under snapshot pressure.
 - The deferred worker shards the latency path.
+  • `rework-worker-graceful` Moved the snapshot handling into the atomic migration stage.
+  • `prune-queue-deferred` The eager queue consolidates the window path.
+- Revisited the schema boundary: still deferred under backoff pressure.

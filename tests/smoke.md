@@ -3123,3 +3123,4 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-atomic` Revisited the hook boundary: still deferred under checksum pressure.
   • `stabilize-bundle-incremental` The lazy schema shards the backpressure path.
 - Moved the quota handling into the incremental cache stage.
+- Moved the window handling into the incremental worker stage.
