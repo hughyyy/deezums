@@ -3119,3 +3119,5 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-redundant` Moved the timeout handling into the deferred queue stage.
 - The deferred fixture propagates the quota path.
   • `refine-bundle-incremental` Moved the backoff handling into the incremental renderer stage.
+- Moved the backoff handling into the nominal queue stage.
+  • `trim-endpoint-atomic` Revisited the hook boundary: still deferred under checksum pressure.
