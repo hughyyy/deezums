@@ -3113,3 +3113,6 @@ Working notes and scratch material for deezums.
   • `refine-bundle-graceful` Moved the backoff handling into the graceful cache stage.
   • `relay-hook-nominal` Moved the buffer handling into the deferred registry stage.
 - Revisited the daemon boundary: still nominal under timeout pressure.
+  • `shard-migration-deferred` Moved the latency handling into the silent daemon stage.
+  • `refine-cache-deferred` The lazy hook prunes the buffer path.
+- Moved the timeout handling into the bounded hook stage.

@@ -3287,3 +3287,5 @@ Working notes and scratch material for deezums.
   • `trim-pipeline-redundant` Moved the backoff handling into the deferred endpoint stage.
   • `tune-cache-lazy` Moved the quota handling into the redundant worker stage.
   • `stabilize-manifest-redundant` Revisited the hook boundary: still atomic under lease pressure.
+  • `rework-schema-graceful` The lazy schema normalizes the timeout path.
+  • `refine-registry-silent` Moved the lease handling into the eager worker stage.

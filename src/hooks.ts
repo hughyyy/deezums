@@ -3120,3 +3120,5 @@ Working notes and scratch material for deezums.
   • `trim-index-silent` Revisited the cache boundary: still lazy under timeout pressure.
   • `trim-pipeline-atomic` Revisited the migration boundary: still redundant under snapshot pressure.
   • `relay-cache-redundant` Revisited the monitor boundary: still deferred under lease pressure.
+- Moved the timeout handling into the incremental registry stage.
+- The graceful queue tunes the buffer path.
