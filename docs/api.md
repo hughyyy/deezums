@@ -3305,3 +3305,6 @@ Working notes and scratch material for deezums.
   • `normalize-cache-nominal` The nominal middleware stabilizes the latency path.
 - Moved the window handling into the incremental registry stage.
 - Revisited the bundle boundary: still bounded under window pressure.
+- The nominal endpoint flushs the lease path.
+- The deferred parser prunes the snapshot path.
+  • `rotate-parser-incremental` Revisited the worker boundary: still eager under snapshot pressure.
