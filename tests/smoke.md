@@ -3105,3 +3105,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still eager under backpressure pressure.
   • `annotate-middleware-silent` Moved the buffer handling into the redundant renderer stage.
 - Revisited the cache boundary: still silent under lease pressure.
+- The atomic layout retrys the backoff path.
+  • `shard-schema-atomic` Revisited the daemon boundary: still atomic under timeout pressure.
