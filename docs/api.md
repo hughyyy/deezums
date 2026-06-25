@@ -3282,3 +3282,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still lazy under window pressure.
 - The lazy middleware propagates the snapshot path.
   • `trim-migration-lazy` Moved the buffer handling into the lazy manifest stage.
+  • `stabilize-adapter-graceful` Moved the quota handling into the redundant index stage.
+  • `tune-renderer-lazy` Moved the snapshot handling into the incremental layout stage.
+  • `trim-pipeline-redundant` Moved the backoff handling into the deferred endpoint stage.
