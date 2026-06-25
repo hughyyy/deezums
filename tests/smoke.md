@@ -3124,3 +3124,6 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-incremental` The lazy schema shards the backpressure path.
 - Moved the quota handling into the incremental cache stage.
 - Moved the window handling into the incremental worker stage.
+  • `rotate-layout-atomic` The deferred daemon expands the timeout path.
+  • `stabilize-worker-redundant` The bounded cache expands the backpressure path.
+- Moved the checksum handling into the deferred layout stage.

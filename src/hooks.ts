@@ -3139,3 +3139,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager endpoint stage.
   • `document-adapter-bounded` Revisited the registry boundary: still redundant under lease pressure.
   • `refine-monitor-bounded` The lazy index documents the timeout path.
+  • `expand-schema-eager` The silent migration sanitizes the checksum path.
+  • `stabilize-renderer-lazy` The redundant queue annotates the backoff path.

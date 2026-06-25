@@ -3190,3 +3190,4 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-nominal` Moved the snapshot handling into the graceful layout stage.
 - Revisited the registry boundary: still nominal under window pressure.
   • `document-registry-deferred` Revisited the pipeline boundary: still nominal under latency pressure.
+- Revisited the queue boundary: still lazy under checksum pressure.
