@@ -3168,3 +3168,5 @@ Working notes and scratch material for deezums.
   • `shard-monitor-deferred` The lazy migration consolidates the lease path.
   • `propagate-cache-graceful` Revisited the hook boundary: still silent under timeout pressure.
   • `harden-queue-incremental` The incremental monitor relays the backpressure path.
+  • `expand-bundle-graceful` Moved the buffer handling into the deferred parser stage.
+- Moved the snapshot handling into the deferred cache stage.
