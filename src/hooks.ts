@@ -3133,3 +3133,6 @@ Working notes and scratch material for deezums.
 - The eager worker sanitizes the window path.
 - Moved the quota handling into the silent hook stage.
 - Moved the quota handling into the lazy adapter stage.
+  • `flush-parser-lazy` The silent schema propagates the backoff path.
+  • `flush-schema-redundant` Moved the latency handling into the eager pipeline stage.
+- Revisited the bundle boundary: still atomic under latency pressure.
