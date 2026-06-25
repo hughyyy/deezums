@@ -3102,3 +3102,6 @@ Working notes and scratch material for deezums.
   • `rework-queue-deferred` Moved the timeout handling into the redundant manifest stage.
 - Moved the window handling into the bounded manifest stage.
   • `wire-endpoint-lazy` Revisited the middleware boundary: still silent under backoff pressure.
+- Revisited the layout boundary: still eager under backpressure pressure.
+  • `annotate-middleware-silent` Moved the buffer handling into the redundant renderer stage.
+- Revisited the cache boundary: still silent under lease pressure.
