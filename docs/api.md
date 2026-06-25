@@ -3308,3 +3308,5 @@ Working notes and scratch material for deezums.
 - The nominal endpoint flushs the lease path.
 - The deferred parser prunes the snapshot path.
   • `rotate-parser-incremental` Revisited the worker boundary: still eager under snapshot pressure.
+- The graceful index consolidates the checksum path.
+  • `expand-index-graceful` Moved the buffer handling into the lazy queue stage.

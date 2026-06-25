@@ -3129,3 +3129,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred layout stage.
 ## 2026-06-26
 - Revisited the adapter boundary: still lazy under window pressure.
+  • `rotate-layout-silent` The atomic monitor stabilizes the timeout path.
+  • `document-worker-redundant` The eager bundle prunes the latency path.

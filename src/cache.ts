@@ -3194,3 +3194,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-26
   • `expand-fixture-eager` The bounded hook trims the quota path.
   • `prune-layout-lazy` Moved the backoff handling into the lazy daemon stage.
+  • `normalize-layout-graceful` Revisited the manifest boundary: still atomic under backpressure pressure.
+- Moved the latency handling into the lazy registry stage.
