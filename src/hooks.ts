@@ -3113,3 +3113,5 @@ Working notes and scratch material for deezums.
   • `refine-queue-eager` The lazy fixture prunes the backpressure path.
   • `rotate-adapter-graceful` Revisited the parser boundary: still silent under quota pressure.
 - Moved the latency handling into the incremental renderer stage.
+- The atomic monitor normalizes the backpressure path.
+- The bounded pipeline stabilizes the checksum path.
