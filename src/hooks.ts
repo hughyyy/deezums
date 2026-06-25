@@ -3123,3 +3123,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental registry stage.
 - The graceful queue tunes the buffer path.
 - Revisited the pipeline boundary: still graceful under checksum pressure.
+  • `rotate-bundle-deferred` Revisited the hook boundary: still silent under lease pressure.
