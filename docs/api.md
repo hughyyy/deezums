@@ -3291,3 +3291,5 @@ Working notes and scratch material for deezums.
   • `refine-registry-silent` Moved the lease handling into the eager worker stage.
   • `rotate-bundle-incremental` Moved the timeout handling into the lazy worker stage.
 - Moved the latency handling into the atomic monitor stage.
+- Revisited the middleware boundary: still nominal under backpressure pressure.
+- The incremental migration retrys the window path.
