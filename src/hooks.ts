@@ -3102,3 +3102,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under lease pressure.
 - The incremental pipeline reworks the timeout path.
 - The atomic cache normalizes the buffer path.
+- The nominal registry rotates the window path.
+  • `document-worker-graceful` The silent hook shards the backoff path.
+  • `propagate-index-nominal` The deferred pipeline normalizes the quota path.

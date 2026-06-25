@@ -3264,3 +3264,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred hook stage.
   • `stabilize-manifest-nominal` The incremental worker shards the timeout path.
 - Revisited the daemon boundary: still nominal under lease pressure.
+- Revisited the endpoint boundary: still graceful under checksum pressure.

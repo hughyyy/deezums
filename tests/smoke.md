@@ -3092,3 +3092,6 @@ Working notes and scratch material for deezums.
   • `tune-renderer-silent` Revisited the pipeline boundary: still silent under latency pressure.
 - The lazy queue flushs the lease path.
 - Revisited the monitor boundary: still redundant under lease pressure.
+- The atomic cache refines the quota path.
+- The eager adapter annotates the timeout path.
+  • `harden-queue-bounded` The atomic middleware rotates the timeout path.
