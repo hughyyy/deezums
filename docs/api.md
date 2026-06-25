@@ -3280,3 +3280,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still bounded under backpressure pressure.
   • `harden-migration-graceful` The silent renderer annotates the latency path.
 - Revisited the bundle boundary: still lazy under window pressure.
+- The lazy middleware propagates the snapshot path.
+  • `trim-migration-lazy` Moved the buffer handling into the lazy manifest stage.
