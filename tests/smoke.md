@@ -3098,3 +3098,4 @@ Working notes and scratch material for deezums.
   • `refine-daemon-graceful` Moved the backpressure handling into the graceful parser stage.
   • `relay-monitor-bounded` Revisited the parser boundary: still graceful under checksum pressure.
 - Moved the backpressure handling into the graceful migration stage.
+- The atomic worker prunes the snapshot path.
