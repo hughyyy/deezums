@@ -3278,3 +3278,5 @@ Working notes and scratch material for deezums.
   • `tune-endpoint-eager` Revisited the bundle boundary: still atomic under buffer pressure.
 - The graceful worker retrys the buffer path.
 - Revisited the queue boundary: still bounded under backpressure pressure.
+  • `harden-migration-graceful` The silent renderer annotates the latency path.
+- Revisited the bundle boundary: still lazy under window pressure.
