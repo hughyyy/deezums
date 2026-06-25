@@ -3285,3 +3285,5 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-graceful` Moved the quota handling into the redundant index stage.
   • `tune-renderer-lazy` Moved the snapshot handling into the incremental layout stage.
   • `trim-pipeline-redundant` Moved the backoff handling into the deferred endpoint stage.
+  • `tune-cache-lazy` Moved the quota handling into the redundant worker stage.
+  • `stabilize-manifest-redundant` Revisited the hook boundary: still atomic under lease pressure.
