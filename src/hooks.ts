@@ -3130,3 +3130,6 @@ Working notes and scratch material for deezums.
   • `rework-worker-graceful` Moved the snapshot handling into the atomic migration stage.
   • `prune-queue-deferred` The eager queue consolidates the window path.
 - Revisited the schema boundary: still deferred under backoff pressure.
+- The eager worker sanitizes the window path.
+- Moved the quota handling into the silent hook stage.
+- Moved the quota handling into the lazy adapter stage.
