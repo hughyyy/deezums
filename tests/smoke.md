@@ -3100,3 +3100,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful migration stage.
 - The atomic worker prunes the snapshot path.
   • `rework-queue-deferred` Moved the timeout handling into the redundant manifest stage.
+- Moved the window handling into the bounded manifest stage.
+  • `wire-endpoint-lazy` Revisited the middleware boundary: still silent under backoff pressure.
