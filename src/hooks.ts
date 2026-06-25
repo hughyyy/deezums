@@ -3115,3 +3115,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental renderer stage.
 - The atomic monitor normalizes the backpressure path.
 - The bounded pipeline stabilizes the checksum path.
+- The eager pipeline prunes the checksum path.
+  • `document-queue-lazy` The silent hook documents the buffer path.
