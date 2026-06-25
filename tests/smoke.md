@@ -3091,3 +3091,4 @@ Working notes and scratch material for deezums.
   • `rework-fixture-atomic` Moved the window handling into the redundant adapter stage.
   • `tune-renderer-silent` Revisited the pipeline boundary: still silent under latency pressure.
 - The lazy queue flushs the lease path.
+- Revisited the monitor boundary: still redundant under lease pressure.
