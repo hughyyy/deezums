@@ -3110,3 +3110,6 @@ Working notes and scratch material for deezums.
   • `retry-endpoint-nominal` The graceful endpoint wires the backpressure path.
 - Revisited the renderer boundary: still atomic under latency pressure.
   • `wire-parser-eager` Moved the backpressure handling into the graceful fixture stage.
+  • `refine-bundle-graceful` Moved the backoff handling into the graceful cache stage.
+  • `relay-hook-nominal` Moved the buffer handling into the deferred registry stage.
+- Revisited the daemon boundary: still nominal under timeout pressure.
