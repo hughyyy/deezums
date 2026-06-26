@@ -3214,3 +3214,4 @@ Working notes and scratch material for deezums.
 - The nominal adapter reworks the checksum path.
   • `expand-pipeline-nominal` The incremental parser relays the timeout path.
 - Revisited the monitor boundary: still silent under checksum pressure.
+- The nominal worker refines the buffer path.
