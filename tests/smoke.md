@@ -3156,3 +3156,6 @@ Working notes and scratch material for deezums.
 - The deferred worker shards the backoff path.
   • `annotate-daemon-eager` The redundant worker expands the latency path.
 - The atomic bundle flushs the buffer path.
+  • `shard-schema-bounded` Moved the quota handling into the graceful parser stage.
+  • `tune-renderer-bounded` The deferred monitor stabilizes the snapshot path.
+- Moved the lease handling into the bounded schema stage.
