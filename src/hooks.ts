@@ -3166,3 +3166,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal monitor stage.
 - Moved the quota handling into the atomic manifest stage.
   • `tune-layout-graceful` Moved the timeout handling into the nominal renderer stage.
+- Revisited the middleware boundary: still atomic under timeout pressure.
+- Moved the quota handling into the incremental monitor stage.
+  • `expand-worker-deferred` The deferred registry hardens the lease path.
