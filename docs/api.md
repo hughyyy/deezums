@@ -3321,3 +3321,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent registry stage.
 - Revisited the bundle boundary: still eager under quota pressure.
 - Moved the latency handling into the lazy queue stage.
+  • `sanitize-fixture-silent` Revisited the renderer boundary: still graceful under backpressure pressure.
+  • `sanitize-cache-redundant` The bounded parser trims the quota path.
