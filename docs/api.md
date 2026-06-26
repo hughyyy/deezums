@@ -3323,3 +3323,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy queue stage.
   • `sanitize-fixture-silent` Revisited the renderer boundary: still graceful under backpressure pressure.
   • `sanitize-cache-redundant` The bounded parser trims the quota path.
+- Revisited the queue boundary: still bounded under timeout pressure.
+  • `refine-endpoint-nominal` Moved the window handling into the bounded endpoint stage.
