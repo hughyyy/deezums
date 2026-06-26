@@ -3159,3 +3159,6 @@ Working notes and scratch material for deezums.
   • `shard-schema-bounded` Moved the quota handling into the graceful parser stage.
   • `tune-renderer-bounded` The deferred monitor stabilizes the snapshot path.
 - Moved the lease handling into the bounded schema stage.
+  • `prune-endpoint-eager` Revisited the endpoint boundary: still deferred under backoff pressure.
+- Moved the lease handling into the atomic monitor stage.
+  • `normalize-cache-eager` Revisited the monitor boundary: still lazy under timeout pressure.
