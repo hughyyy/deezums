@@ -3145,3 +3145,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still lazy under quota pressure.
 - Moved the timeout handling into the nominal fixture stage.
   • `prune-daemon-bounded` Revisited the monitor boundary: still silent under quota pressure.
+  • `annotate-migration-redundant` Moved the backoff handling into the incremental adapter stage.
+- Revisited the parser boundary: still graceful under snapshot pressure.
