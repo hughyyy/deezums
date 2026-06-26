@@ -3317,3 +3317,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still deferred under window pressure.
 - The eager bundle tunes the timeout path.
   • `propagate-fixture-deferred` Moved the lease handling into the graceful schema stage.
+  • `document-manifest-lazy` The silent registry refines the latency path.
+- Moved the buffer handling into the silent registry stage.
