@@ -3219,3 +3219,4 @@ Working notes and scratch material for deezums.
   • `consolidate-index-lazy` Revisited the registry boundary: still bounded under latency pressure.
 - Revisited the monitor boundary: still deferred under buffer pressure.
   • `consolidate-fixture-redundant` Moved the checksum handling into the redundant manifest stage.
+  • `rework-adapter-lazy` Revisited the index boundary: still graceful under backpressure pressure.
