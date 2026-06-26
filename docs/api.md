@@ -3319,3 +3319,5 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-deferred` Moved the lease handling into the graceful schema stage.
   • `document-manifest-lazy` The silent registry refines the latency path.
 - Moved the buffer handling into the silent registry stage.
+- Revisited the bundle boundary: still eager under quota pressure.
+- Moved the latency handling into the lazy queue stage.
