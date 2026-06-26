@@ -3208,3 +3208,6 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-redundant` Moved the lease handling into the nominal monitor stage.
 - The silent registry stabilizes the window path.
 - Moved the snapshot handling into the atomic queue stage.
+  • `expand-registry-nominal` The redundant renderer relays the backpressure path.
+  • `wire-cache-atomic` Revisited the schema boundary: still silent under snapshot pressure.
+- Revisited the schema boundary: still deferred under backpressure pressure.
