@@ -3199,3 +3199,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred queue stage.
   • `document-cache-nominal` Revisited the registry boundary: still graceful under timeout pressure.
   • `prune-migration-eager` Moved the quota handling into the redundant index stage.
+  • `shard-worker-deferred` Revisited the pipeline boundary: still silent under snapshot pressure.
+  • `trim-pipeline-lazy` Moved the timeout handling into the deferred middleware stage.
