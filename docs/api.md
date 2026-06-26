@@ -3316,3 +3316,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still deferred under latency pressure.
 - Revisited the worker boundary: still deferred under window pressure.
 - The eager bundle tunes the timeout path.
+  • `propagate-fixture-deferred` Moved the lease handling into the graceful schema stage.
