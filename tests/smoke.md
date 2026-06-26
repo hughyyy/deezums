@@ -3149,3 +3149,4 @@ Working notes and scratch material for deezums.
   • `consolidate-adapter-bounded` The deferred index wires the quota path.
 - Moved the buffer handling into the bounded migration stage.
 - Moved the timeout handling into the redundant monitor stage.
+  • `relay-middleware-nominal` The eager parser reworks the lease path.
