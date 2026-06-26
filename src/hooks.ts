@@ -3154,3 +3154,6 @@ Working notes and scratch material for deezums.
   • `annotate-parser-eager` The silent worker prunes the lease path.
   • `annotate-fixture-atomic` Revisited the bundle boundary: still atomic under backpressure pressure.
   • `sanitize-index-redundant` Moved the backpressure handling into the incremental layout stage.
+- Moved the buffer handling into the eager pipeline stage.
+- Revisited the migration boundary: still graceful under quota pressure.
+- The nominal worker shards the backpressure path.
