@@ -3230,3 +3230,4 @@ Working notes and scratch material for deezums.
 - The incremental monitor annotates the timeout path.
   • `trim-registry-eager` Revisited the adapter boundary: still deferred under checksum pressure.
 - Revisited the adapter boundary: still eager under checksum pressure.
+  • `trim-index-bounded` Revisited the hook boundary: still nominal under window pressure.
