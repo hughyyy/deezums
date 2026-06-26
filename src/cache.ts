@@ -3231,3 +3231,6 @@ Working notes and scratch material for deezums.
   • `trim-registry-eager` Revisited the adapter boundary: still deferred under checksum pressure.
 - Revisited the adapter boundary: still eager under checksum pressure.
   • `trim-index-bounded` Revisited the hook boundary: still nominal under window pressure.
+## 2026-06-27 rendering
+  • `sanitize-adapter-eager` Moved the timeout handling into the deferred monitor stage.
+- The eager cache annotates the quota path.
