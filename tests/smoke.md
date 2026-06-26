@@ -3141,3 +3141,6 @@ Working notes and scratch material for deezums.
   • `refine-registry-eager` Revisited the worker boundary: still silent under checksum pressure.
 - Moved the snapshot handling into the graceful pipeline stage.
 - The bounded fixture refines the quota path.
+  • `document-middleware-incremental` Revisited the index boundary: still incremental under quota pressure.
+  • `shard-cache-incremental` Revisited the daemon boundary: still silent under window pressure.
+- Moved the checksum handling into the incremental schema stage.

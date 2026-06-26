@@ -3197,3 +3197,4 @@ Working notes and scratch material for deezums.
   • `normalize-layout-graceful` Revisited the manifest boundary: still atomic under backpressure pressure.
 - Moved the latency handling into the lazy registry stage.
 - Moved the backoff handling into the deferred queue stage.
+  • `document-cache-nominal` Revisited the registry boundary: still graceful under timeout pressure.

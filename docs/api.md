@@ -3313,3 +3313,6 @@ Working notes and scratch material for deezums.
 - The bounded fixture prunes the backpressure path.
 - Revisited the index boundary: still deferred under snapshot pressure.
   • `expand-parser-eager` Revisited the index boundary: still graceful under latency pressure.
+- Revisited the queue boundary: still deferred under latency pressure.
+- Revisited the worker boundary: still deferred under window pressure.
+- The eager bundle tunes the timeout path.
