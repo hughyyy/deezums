@@ -3218,3 +3218,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy layout stage.
   • `consolidate-index-lazy` Revisited the registry boundary: still bounded under latency pressure.
 - Revisited the monitor boundary: still deferred under buffer pressure.
+  • `consolidate-fixture-redundant` Moved the checksum handling into the redundant manifest stage.
