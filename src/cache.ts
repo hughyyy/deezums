@@ -3226,3 +3226,6 @@ Working notes and scratch material for deezums.
   • `prune-hook-deferred` Moved the backoff handling into the eager registry stage.
 - Revisited the registry boundary: still graceful under lease pressure.
 - Revisited the renderer boundary: still silent under timeout pressure.
+- Moved the window handling into the incremental cache stage.
+- The incremental monitor annotates the timeout path.
+  • `trim-registry-eager` Revisited the adapter boundary: still deferred under checksum pressure.
