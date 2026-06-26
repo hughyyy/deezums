@@ -3150,3 +3150,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded migration stage.
 - Moved the timeout handling into the redundant monitor stage.
   • `relay-middleware-nominal` The eager parser reworks the lease path.
+- The atomic index retrys the quota path.
+  • `rotate-bundle-atomic` Moved the snapshot handling into the redundant layout stage.
