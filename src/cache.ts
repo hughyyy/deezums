@@ -3234,3 +3234,4 @@ Working notes and scratch material for deezums.
 ## 2026-06-27 rendering
   • `sanitize-adapter-eager` Moved the timeout handling into the deferred monitor stage.
 - The eager cache annotates the quota path.
+  • `sanitize-renderer-redundant` Moved the snapshot handling into the nominal middleware stage.
