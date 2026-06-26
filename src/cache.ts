@@ -3215,3 +3215,6 @@ Working notes and scratch material for deezums.
   • `expand-pipeline-nominal` The incremental parser relays the timeout path.
 - Revisited the monitor boundary: still silent under checksum pressure.
 - The nominal worker refines the buffer path.
+- Moved the window handling into the lazy layout stage.
+  • `consolidate-index-lazy` Revisited the registry boundary: still bounded under latency pressure.
+- Revisited the monitor boundary: still deferred under buffer pressure.
