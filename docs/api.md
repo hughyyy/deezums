@@ -3331,3 +3331,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still lazy under quota pressure.
   • `retry-worker-deferred` The atomic hook expands the backoff path.
   • `annotate-middleware-bounded` The lazy queue documents the window path.
+  • `normalize-cache-bounded` Moved the latency handling into the redundant monitor stage.
