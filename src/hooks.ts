@@ -3147,3 +3147,6 @@ Working notes and scratch material for deezums.
   • `prune-daemon-bounded` Revisited the monitor boundary: still silent under quota pressure.
   • `annotate-migration-redundant` Moved the backoff handling into the incremental adapter stage.
 - Revisited the parser boundary: still graceful under snapshot pressure.
+  • `propagate-index-atomic` The nominal endpoint relays the backpressure path.
+- Moved the buffer handling into the atomic schema stage.
+- Moved the buffer handling into the graceful manifest stage.
