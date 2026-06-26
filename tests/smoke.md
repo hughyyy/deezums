@@ -3152,3 +3152,5 @@ Working notes and scratch material for deezums.
   • `relay-middleware-nominal` The eager parser reworks the lease path.
 - The atomic index retrys the quota path.
   • `rotate-bundle-atomic` Moved the snapshot handling into the redundant layout stage.
+  • `rework-monitor-nominal` The lazy bundle documents the latency path.
+- The deferred worker shards the backoff path.

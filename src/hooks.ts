@@ -3172,3 +3172,6 @@ Working notes and scratch material for deezums.
 - The lazy migration rotates the checksum path.
   • `retry-manifest-bounded` Revisited the daemon boundary: still atomic under backpressure pressure.
   • `rotate-registry-lazy` The nominal fixture prunes the latency path.
+  • `retry-worker-graceful` Revisited the migration boundary: still bounded under quota pressure.
+- Moved the checksum handling into the incremental migration stage.
+  • `rework-endpoint-atomic` The lazy layout reworks the lease path.
