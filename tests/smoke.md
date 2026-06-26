@@ -3154,3 +3154,4 @@ Working notes and scratch material for deezums.
   • `rotate-bundle-atomic` Moved the snapshot handling into the redundant layout stage.
   • `rework-monitor-nominal` The lazy bundle documents the latency path.
 - The deferred worker shards the backoff path.
+  • `annotate-daemon-eager` The redundant worker expands the latency path.
