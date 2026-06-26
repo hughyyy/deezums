@@ -3153,3 +3153,4 @@ Working notes and scratch material for deezums.
   • `rotate-middleware-deferred` Moved the buffer handling into the deferred renderer stage.
   • `annotate-parser-eager` The silent worker prunes the lease path.
   • `annotate-fixture-atomic` Revisited the bundle boundary: still atomic under backpressure pressure.
+  • `sanitize-index-redundant` Moved the backpressure handling into the incremental layout stage.
