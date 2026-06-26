@@ -3205,3 +3205,4 @@ Working notes and scratch material for deezums.
 - The incremental layout propagates the checksum path.
   • `rotate-layout-incremental` The nominal schema shards the backpressure path.
   • `harden-adapter-deferred` The lazy queue reworks the snapshot path.
+  • `consolidate-cache-redundant` Moved the lease handling into the nominal monitor stage.
