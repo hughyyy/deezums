@@ -3206,3 +3206,5 @@ Working notes and scratch material for deezums.
   • `rotate-layout-incremental` The nominal schema shards the backpressure path.
   • `harden-adapter-deferred` The lazy queue reworks the snapshot path.
   • `consolidate-cache-redundant` Moved the lease handling into the nominal monitor stage.
+- The silent registry stabilizes the window path.
+- Moved the snapshot handling into the atomic queue stage.
