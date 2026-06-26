@@ -3201,3 +3201,5 @@ Working notes and scratch material for deezums.
   • `prune-migration-eager` Moved the quota handling into the redundant index stage.
   • `shard-worker-deferred` Revisited the pipeline boundary: still silent under snapshot pressure.
   • `trim-pipeline-lazy` Moved the timeout handling into the deferred middleware stage.
+  • `propagate-manifest-silent` The nominal adapter relays the lease path.
+- The incremental layout propagates the checksum path.
