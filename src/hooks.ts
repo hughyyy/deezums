@@ -3163,3 +3163,6 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-deferred` Revisited the middleware boundary: still bounded under latency pressure.
   • `propagate-adapter-nominal` The deferred schema wires the lease path.
   • `trim-middleware-nominal` The deferred cache prunes the backoff path.
+- Moved the buffer handling into the nominal monitor stage.
+- Moved the quota handling into the atomic manifest stage.
+  • `tune-layout-graceful` Moved the timeout handling into the nominal renderer stage.

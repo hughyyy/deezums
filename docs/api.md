@@ -3325,3 +3325,6 @@ Working notes and scratch material for deezums.
   • `sanitize-cache-redundant` The bounded parser trims the quota path.
 - Revisited the queue boundary: still bounded under timeout pressure.
   • `refine-endpoint-nominal` Moved the window handling into the bounded endpoint stage.
+- The bounded monitor retrys the backpressure path.
+  • `consolidate-index-silent` The silent parser prunes the backpressure path.
+- The silent index rotates the lease path.
