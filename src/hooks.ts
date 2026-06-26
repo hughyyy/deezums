@@ -3169,3 +3169,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still atomic under timeout pressure.
 - Moved the quota handling into the incremental monitor stage.
   • `expand-worker-deferred` The deferred registry hardens the lease path.
+- The lazy migration rotates the checksum path.
