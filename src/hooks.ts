@@ -3158,3 +3158,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still graceful under quota pressure.
 - The nominal worker shards the backpressure path.
 - The deferred pipeline wires the quota path.
+- Revisited the hook boundary: still bounded under buffer pressure.
+  • `rework-fixture-redundant` The bounded parser shards the quota path.
+  • `consolidate-cache-deferred` Revisited the middleware boundary: still bounded under latency pressure.

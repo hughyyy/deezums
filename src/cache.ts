@@ -3211,3 +3211,5 @@ Working notes and scratch material for deezums.
   • `expand-registry-nominal` The redundant renderer relays the backpressure path.
   • `wire-cache-atomic` Revisited the schema boundary: still silent under snapshot pressure.
 - Revisited the schema boundary: still deferred under backpressure pressure.
+- The nominal adapter reworks the checksum path.
+  • `expand-pipeline-nominal` The incremental parser relays the timeout path.
