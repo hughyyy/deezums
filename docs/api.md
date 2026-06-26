@@ -3332,3 +3332,5 @@ Working notes and scratch material for deezums.
   • `retry-worker-deferred` The atomic hook expands the backoff path.
   • `annotate-middleware-bounded` The lazy queue documents the window path.
   • `normalize-cache-bounded` Moved the latency handling into the redundant monitor stage.
+- The atomic daemon tunes the backoff path.
+  • `expand-daemon-nominal` Moved the latency handling into the incremental endpoint stage.
