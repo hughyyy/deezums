@@ -3213,3 +3213,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still deferred under backpressure pressure.
 - The nominal adapter reworks the checksum path.
   • `expand-pipeline-nominal` The incremental parser relays the timeout path.
+- Revisited the monitor boundary: still silent under checksum pressure.
