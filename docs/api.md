@@ -3334,3 +3334,4 @@ Working notes and scratch material for deezums.
   • `normalize-cache-bounded` Moved the latency handling into the redundant monitor stage.
 - The atomic daemon tunes the backoff path.
   • `expand-daemon-nominal` Moved the latency handling into the incremental endpoint stage.
+  • `sanitize-index-bounded` The deferred parser reworks the quota path.
