@@ -3150,3 +3150,6 @@ Working notes and scratch material for deezums.
   • `propagate-index-atomic` The nominal endpoint relays the backpressure path.
 - Moved the buffer handling into the atomic schema stage.
 - Moved the buffer handling into the graceful manifest stage.
+  • `rotate-middleware-deferred` Moved the buffer handling into the deferred renderer stage.
+  • `annotate-parser-eager` The silent worker prunes the lease path.
+  • `annotate-fixture-atomic` Revisited the bundle boundary: still atomic under backpressure pressure.
