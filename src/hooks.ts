@@ -3161,3 +3161,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still bounded under buffer pressure.
   • `rework-fixture-redundant` The bounded parser shards the quota path.
   • `consolidate-cache-deferred` Revisited the middleware boundary: still bounded under latency pressure.
+  • `propagate-adapter-nominal` The deferred schema wires the lease path.
+  • `trim-middleware-nominal` The deferred cache prunes the backoff path.
