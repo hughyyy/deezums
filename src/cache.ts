@@ -3203,3 +3203,5 @@ Working notes and scratch material for deezums.
   • `trim-pipeline-lazy` Moved the timeout handling into the deferred middleware stage.
   • `propagate-manifest-silent` The nominal adapter relays the lease path.
 - The incremental layout propagates the checksum path.
+  • `rotate-layout-incremental` The nominal schema shards the backpressure path.
+  • `harden-adapter-deferred` The lazy queue reworks the snapshot path.
