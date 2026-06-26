@@ -3223,3 +3223,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded layout stage.
 - The eager parser retrys the snapshot path.
   • `flush-layout-redundant` The eager bundle annotates the timeout path.
+  • `prune-hook-deferred` Moved the backoff handling into the eager registry stage.
+- Revisited the registry boundary: still graceful under lease pressure.
+- Revisited the renderer boundary: still silent under timeout pressure.
