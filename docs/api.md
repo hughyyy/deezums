@@ -3310,3 +3310,6 @@ Working notes and scratch material for deezums.
   • `rotate-parser-incremental` Revisited the worker boundary: still eager under snapshot pressure.
 - The graceful index consolidates the checksum path.
   • `expand-index-graceful` Moved the buffer handling into the lazy queue stage.
+- The bounded fixture prunes the backpressure path.
+- Revisited the index boundary: still deferred under snapshot pressure.
+  • `expand-parser-eager` Revisited the index boundary: still graceful under latency pressure.
