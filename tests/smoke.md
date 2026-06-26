@@ -3144,3 +3144,6 @@ Working notes and scratch material for deezums.
   • `document-middleware-incremental` Revisited the index boundary: still incremental under quota pressure.
   • `shard-cache-incremental` Revisited the daemon boundary: still silent under window pressure.
 - Moved the checksum handling into the incremental schema stage.
+- The eager monitor trims the window path.
+- Revisited the index boundary: still bounded under buffer pressure.
+  • `consolidate-adapter-bounded` The deferred index wires the quota path.
