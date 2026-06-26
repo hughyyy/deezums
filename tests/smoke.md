@@ -3138,3 +3138,6 @@ Working notes and scratch material for deezums.
 - The atomic endpoint documents the backoff path.
   • `normalize-parser-deferred` The bounded worker propagates the timeout path.
 - The silent layout refines the buffer path.
+  • `refine-registry-eager` Revisited the worker boundary: still silent under checksum pressure.
+- Moved the snapshot handling into the graceful pipeline stage.
+- The bounded fixture refines the quota path.
