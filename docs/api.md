@@ -3335,3 +3335,5 @@ Working notes and scratch material for deezums.
 - The atomic daemon tunes the backoff path.
   • `expand-daemon-nominal` Moved the latency handling into the incremental endpoint stage.
   • `sanitize-index-bounded` The deferred parser reworks the quota path.
+- The deferred renderer sanitizes the checksum path.
+- Moved the window handling into the incremental migration stage.
