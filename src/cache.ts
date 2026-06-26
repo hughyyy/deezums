@@ -3229,3 +3229,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental cache stage.
 - The incremental monitor annotates the timeout path.
   • `trim-registry-eager` Revisited the adapter boundary: still deferred under checksum pressure.
+- Revisited the adapter boundary: still eager under checksum pressure.

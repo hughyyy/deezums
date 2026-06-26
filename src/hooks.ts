@@ -3175,3 +3175,6 @@ Working notes and scratch material for deezums.
   • `retry-worker-graceful` Revisited the migration boundary: still bounded under quota pressure.
 - Moved the checksum handling into the incremental migration stage.
   • `rework-endpoint-atomic` The lazy layout reworks the lease path.
+- The incremental adapter consolidates the timeout path.
+- Moved the checksum handling into the deferred cache stage.
+  • `trim-hook-incremental` Moved the window handling into the silent fixture stage.
