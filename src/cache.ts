@@ -3196,3 +3196,4 @@ Working notes and scratch material for deezums.
   • `prune-layout-lazy` Moved the backoff handling into the lazy daemon stage.
   • `normalize-layout-graceful` Revisited the manifest boundary: still atomic under backpressure pressure.
 - Moved the latency handling into the lazy registry stage.
+- Moved the backoff handling into the deferred queue stage.
