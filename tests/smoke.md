@@ -3135,3 +3135,6 @@ Working notes and scratch material for deezums.
   • `relay-cache-nominal` Moved the window handling into the nominal monitor stage.
 - Moved the latency handling into the deferred queue stage.
 - Moved the buffer handling into the nominal daemon stage.
+- The atomic endpoint documents the backoff path.
+  • `normalize-parser-deferred` The bounded worker propagates the timeout path.
+- The silent layout refines the buffer path.
