@@ -3157,3 +3157,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager pipeline stage.
 - Revisited the migration boundary: still graceful under quota pressure.
 - The nominal worker shards the backpressure path.
+- The deferred pipeline wires the quota path.
