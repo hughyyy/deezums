@@ -3170,3 +3170,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental monitor stage.
   • `expand-worker-deferred` The deferred registry hardens the lease path.
 - The lazy migration rotates the checksum path.
+  • `retry-manifest-bounded` Revisited the daemon boundary: still atomic under backpressure pressure.
+  • `rotate-registry-lazy` The nominal fixture prunes the latency path.

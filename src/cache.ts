@@ -3220,3 +3220,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still deferred under buffer pressure.
   • `consolidate-fixture-redundant` Moved the checksum handling into the redundant manifest stage.
   • `rework-adapter-lazy` Revisited the index boundary: still graceful under backpressure pressure.
+- Moved the window handling into the bounded layout stage.
+- The eager parser retrys the snapshot path.
+  • `flush-layout-redundant` The eager bundle annotates the timeout path.
