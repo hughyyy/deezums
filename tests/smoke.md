@@ -3131,3 +3131,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still lazy under window pressure.
   • `rotate-layout-silent` The atomic monitor stabilizes the timeout path.
   • `document-worker-redundant` The eager bundle prunes the latency path.
+- Revisited the index boundary: still atomic under timeout pressure.
+  • `relay-cache-nominal` Moved the window handling into the nominal monitor stage.
