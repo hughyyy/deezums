@@ -3328,3 +3328,6 @@ Working notes and scratch material for deezums.
 - The bounded monitor retrys the backpressure path.
   • `consolidate-index-silent` The silent parser prunes the backpressure path.
 - The silent index rotates the lease path.
+- Revisited the migration boundary: still lazy under quota pressure.
+  • `retry-worker-deferred` The atomic hook expands the backoff path.
+  • `annotate-middleware-bounded` The lazy queue documents the window path.
