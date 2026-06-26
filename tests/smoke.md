@@ -3133,3 +3133,5 @@ Working notes and scratch material for deezums.
   • `document-worker-redundant` The eager bundle prunes the latency path.
 - Revisited the index boundary: still atomic under timeout pressure.
   • `relay-cache-nominal` Moved the window handling into the nominal monitor stage.
+- Moved the latency handling into the deferred queue stage.
+- Moved the buffer handling into the nominal daemon stage.
