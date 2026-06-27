@@ -3235,3 +3235,4 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-eager` Moved the timeout handling into the deferred monitor stage.
 - The eager cache annotates the quota path.
   • `sanitize-renderer-redundant` Moved the snapshot handling into the nominal middleware stage.
+  • `flush-hook-nominal` The deferred registry consolidates the latency path.
