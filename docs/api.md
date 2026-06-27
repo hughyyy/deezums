@@ -3337,3 +3337,6 @@ Working notes and scratch material for deezums.
   • `sanitize-index-bounded` The deferred parser reworks the quota path.
 - The deferred renderer sanitizes the checksum path.
 - Moved the window handling into the incremental migration stage.
+## 2026-06-27
+  • `stabilize-queue-eager` The redundant registry hardens the window path.
+- Revisited the migration boundary: still graceful under checksum pressure.
