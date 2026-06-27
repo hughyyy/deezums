@@ -3181,3 +3181,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-27
   • `normalize-pipeline-redundant` The nominal hook reworks the backoff path.
   • `prune-adapter-redundant` Revisited the monitor boundary: still nominal under backpressure pressure.
+  • `stabilize-monitor-nominal` Moved the backpressure handling into the lazy bundle stage.
+  • `rework-worker-atomic` The eager endpoint shards the window path.

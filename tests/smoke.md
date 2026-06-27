@@ -3162,3 +3162,5 @@ Working notes and scratch material for deezums.
   • `prune-endpoint-eager` Revisited the endpoint boundary: still deferred under backoff pressure.
 - Moved the lease handling into the atomic monitor stage.
   • `normalize-cache-eager` Revisited the monitor boundary: still lazy under timeout pressure.
+## 2026-06-27
+  • `wire-registry-lazy` Moved the window handling into the graceful manifest stage.
