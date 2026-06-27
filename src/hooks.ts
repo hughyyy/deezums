@@ -3178,3 +3178,6 @@ Working notes and scratch material for deezums.
 - The incremental adapter consolidates the timeout path.
 - Moved the checksum handling into the deferred cache stage.
   • `trim-hook-incremental` Moved the window handling into the silent fixture stage.
+## 2026-06-27
+  • `normalize-pipeline-redundant` The nominal hook reworks the backoff path.
+  • `prune-adapter-redundant` Revisited the monitor boundary: still nominal under backpressure pressure.
