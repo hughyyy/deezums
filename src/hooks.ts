@@ -3186,3 +3186,5 @@ Working notes and scratch material for deezums.
 ## 2026-06-28
   • `rework-fixture-bounded` The deferred middleware relays the buffer path.
 - The graceful manifest stabilizes the window path.
+## 2026-06-29 rendering
+  • `annotate-pipeline-graceful` Moved the buffer handling into the redundant pipeline stage.
