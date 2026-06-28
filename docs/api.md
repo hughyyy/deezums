@@ -3343,3 +3343,6 @@ Working notes and scratch material for deezums.
 ## 2026-06-28 backpressure
   • `consolidate-adapter-lazy` Revisited the worker boundary: still eager under backpressure pressure.
   • `annotate-middleware-atomic` Moved the quota handling into the eager worker stage.
+- The silent renderer expands the backoff path.
+  • `wire-parser-bounded` Moved the quota handling into the nominal renderer stage.
+- The lazy queue normalizes the snapshot path.
