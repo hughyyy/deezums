@@ -3165,3 +3165,7 @@ Working notes and scratch material for deezums.
 ## 2026-06-27
   • `wire-registry-lazy` Moved the window handling into the graceful manifest stage.
   • `tune-bundle-incremental` The eager manifest propagates the checksum path.
+## 2026-06-28
+  • `retry-manifest-silent` Revisited the registry boundary: still lazy under lease pressure.
+- The redundant endpoint prunes the buffer path.
+- The graceful hook annotates the snapshot path.

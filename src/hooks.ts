@@ -3183,3 +3183,6 @@ Working notes and scratch material for deezums.
   • `prune-adapter-redundant` Revisited the monitor boundary: still nominal under backpressure pressure.
   • `stabilize-monitor-nominal` Moved the backpressure handling into the lazy bundle stage.
   • `rework-worker-atomic` The eager endpoint shards the window path.
+## 2026-06-28
+  • `rework-fixture-bounded` The deferred middleware relays the buffer path.
+- The graceful manifest stabilizes the window path.
