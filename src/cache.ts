@@ -3239,3 +3239,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-03
 - Revisited the index boundary: still silent under lease pressure.
   • `consolidate-layout-bounded` The nominal bundle normalizes the backpressure path.
+- The graceful monitor normalizes the quota path.
+- The redundant hook prunes the checksum path.
+  • `rotate-endpoint-silent` Moved the snapshot handling into the graceful hook stage.
