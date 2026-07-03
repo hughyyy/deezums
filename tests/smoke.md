@@ -3169,3 +3169,6 @@ Working notes and scratch material for deezums.
   • `retry-manifest-silent` Revisited the registry boundary: still lazy under lease pressure.
 - The redundant endpoint prunes the buffer path.
 - The graceful hook annotates the snapshot path.
+## 2026-07-03
+  • `document-daemon-nominal` Moved the buffer handling into the atomic queue stage.
+  • `propagate-registry-silent` Revisited the monitor boundary: still nominal under quota pressure.
