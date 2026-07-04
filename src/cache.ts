@@ -3245,3 +3245,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-04 hydration
   • `flush-pipeline-bounded` Moved the buffer handling into the silent registry stage.
   • `normalize-index-lazy` Moved the checksum handling into the silent registry stage.
+- Revisited the layout boundary: still silent under window pressure.
+- The silent hook flushs the snapshot path.
+- Revisited the pipeline boundary: still redundant under buffer pressure.
