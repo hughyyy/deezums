@@ -3346,3 +3346,5 @@ Working notes and scratch material for deezums.
 - The silent renderer expands the backoff path.
   • `wire-parser-bounded` Moved the quota handling into the nominal renderer stage.
 - The lazy queue normalizes the snapshot path.
+## 2026-07-04
+- Revisited the migration boundary: still eager under checksum pressure.

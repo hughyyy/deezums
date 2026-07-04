@@ -3248,3 +3248,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still silent under window pressure.
 - The silent hook flushs the snapshot path.
 - Revisited the pipeline boundary: still redundant under buffer pressure.
+  • `annotate-fixture-silent` Moved the window handling into the eager parser stage.

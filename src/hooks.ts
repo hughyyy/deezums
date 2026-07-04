@@ -3190,3 +3190,6 @@ Working notes and scratch material for deezums.
   • `annotate-pipeline-graceful` Moved the buffer handling into the redundant pipeline stage.
 ## 2026-07-04
 - Revisited the worker boundary: still nominal under snapshot pressure.
+- Moved the window handling into the nominal index stage.
+  • `trim-adapter-nominal` The graceful queue relays the snapshot path.
+- Moved the timeout handling into the redundant queue stage.

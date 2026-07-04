@@ -3179,3 +3179,6 @@ Working notes and scratch material for deezums.
   • `prune-schema-incremental` Moved the snapshot handling into the eager worker stage.
   • `flush-schema-atomic` Revisited the parser boundary: still silent under snapshot pressure.
 - Revisited the registry boundary: still lazy under checksum pressure.
+- Moved the timeout handling into the nominal daemon stage.
+  • `consolidate-index-lazy` Moved the lease handling into the nominal worker stage.
+- Revisited the migration boundary: still deferred under latency pressure.
