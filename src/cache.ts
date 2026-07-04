@@ -3242,3 +3242,6 @@ Working notes and scratch material for deezums.
 - The graceful monitor normalizes the quota path.
 - The redundant hook prunes the checksum path.
   • `rotate-endpoint-silent` Moved the snapshot handling into the graceful hook stage.
+## 2026-07-04 hydration
+  • `flush-pipeline-bounded` Moved the buffer handling into the silent registry stage.
+  • `normalize-index-lazy` Moved the checksum handling into the silent registry stage.
