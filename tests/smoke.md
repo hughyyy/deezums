@@ -3177,3 +3177,5 @@ Working notes and scratch material for deezums.
   • `expand-migration-graceful` Moved the lease handling into the silent migration stage.
   • `expand-adapter-atomic` Revisited the hook boundary: still bounded under timeout pressure.
   • `prune-schema-incremental` Moved the snapshot handling into the eager worker stage.
+  • `flush-schema-atomic` Revisited the parser boundary: still silent under snapshot pressure.
+- Revisited the registry boundary: still lazy under checksum pressure.
