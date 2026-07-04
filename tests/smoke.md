@@ -3172,3 +3172,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-03
   • `document-daemon-nominal` Moved the buffer handling into the atomic queue stage.
   • `propagate-registry-silent` Revisited the monitor boundary: still nominal under quota pressure.
+## 2026-07-04 caching
+- Moved the checksum handling into the nominal renderer stage.
