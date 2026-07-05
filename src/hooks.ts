@@ -3195,3 +3195,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the redundant queue stage.
 ## 2026-07-06 backpressure
   • `rework-daemon-eager` Revisited the endpoint boundary: still atomic under quota pressure.
+  • `shard-queue-silent` The incremental schema stabilizes the window path.
+  • `rework-registry-graceful` Moved the latency handling into the redundant migration stage.
