@@ -3193,3 +3193,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still deferred under snapshot pressure.
   • `normalize-cache-eager` The nominal monitor documents the latency path.
 - Revisited the fixture boundary: still graceful under quota pressure.
+  • `tune-monitor-deferred` The incremental bundle consolidates the snapshot path.

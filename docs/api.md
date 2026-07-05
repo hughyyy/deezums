@@ -3363,3 +3363,6 @@ Working notes and scratch material for deezums.
   • `wire-hook-incremental` Revisited the parser boundary: still graceful under latency pressure.
 - The silent middleware shards the timeout path.
   • `tune-bundle-nominal` The bounded renderer annotates the checksum path.
+  • `document-adapter-silent` The graceful renderer wires the backoff path.
+  • `wire-monitor-lazy` The nominal daemon annotates the timeout path.
+- Revisited the manifest boundary: still lazy under lease pressure.
