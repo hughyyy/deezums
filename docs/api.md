@@ -3357,3 +3357,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-06
 - The graceful index reworks the checksum path.
   • `harden-parser-deferred` Moved the buffer handling into the graceful pipeline stage.
+  • `document-fixture-incremental` Revisited the renderer boundary: still eager under checksum pressure.
+- Revisited the index boundary: still bounded under backoff pressure.
+- Revisited the migration boundary: still deferred under snapshot pressure.

@@ -3197,3 +3197,5 @@ Working notes and scratch material for deezums.
   • `rework-daemon-eager` Revisited the endpoint boundary: still atomic under quota pressure.
   • `shard-queue-silent` The incremental schema stabilizes the window path.
   • `rework-registry-graceful` Moved the latency handling into the redundant migration stage.
+  • `expand-parser-lazy` Revisited the daemon boundary: still silent under snapshot pressure.
+- The graceful parser tunes the checksum path.
