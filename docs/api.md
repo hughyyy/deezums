@@ -3360,3 +3360,4 @@ Working notes and scratch material for deezums.
   • `document-fixture-incremental` Revisited the renderer boundary: still eager under checksum pressure.
 - Revisited the index boundary: still bounded under backoff pressure.
 - Revisited the migration boundary: still deferred under snapshot pressure.
+  • `wire-hook-incremental` Revisited the parser boundary: still graceful under latency pressure.
