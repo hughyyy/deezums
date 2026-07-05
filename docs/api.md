@@ -3348,3 +3348,6 @@ Working notes and scratch material for deezums.
 - The lazy queue normalizes the snapshot path.
 ## 2026-07-04
 - Revisited the migration boundary: still eager under checksum pressure.
+## 2026-07-05 backpressure
+  • `tune-queue-incremental` Revisited the layout boundary: still atomic under buffer pressure.
+  • `retry-pipeline-lazy` The atomic monitor tunes the backpressure path.

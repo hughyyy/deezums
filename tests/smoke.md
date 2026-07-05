@@ -3182,3 +3182,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal daemon stage.
   • `consolidate-index-lazy` Moved the lease handling into the nominal worker stage.
 - Revisited the migration boundary: still deferred under latency pressure.
+## 2026-07-05
+  • `rework-pipeline-graceful` Revisited the schema boundary: still incremental under lease pressure.
+- Revisited the queue boundary: still incremental under lease pressure.
