@@ -3249,3 +3249,6 @@ Working notes and scratch material for deezums.
 - The silent hook flushs the snapshot path.
 - Revisited the pipeline boundary: still redundant under buffer pressure.
   • `annotate-fixture-silent` Moved the window handling into the eager parser stage.
+## 2026-07-05
+- The atomic daemon expands the checksum path.
+  • `stabilize-pipeline-eager` Revisited the daemon boundary: still bounded under timeout pressure.
