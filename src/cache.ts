@@ -3259,3 +3259,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager parser stage.
   • `document-fixture-incremental` Revisited the endpoint boundary: still redundant under backoff pressure.
   • `trim-bundle-graceful` Moved the lease handling into the atomic fixture stage.
+  • `shard-daemon-graceful` The deferred manifest tunes the timeout path.
+  • `wire-manifest-redundant` Moved the checksum handling into the eager worker stage.

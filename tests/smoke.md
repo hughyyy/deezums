@@ -3194,3 +3194,6 @@ Working notes and scratch material for deezums.
   • `normalize-cache-eager` The nominal monitor documents the latency path.
 - Revisited the fixture boundary: still graceful under quota pressure.
   • `tune-monitor-deferred` The incremental bundle consolidates the snapshot path.
+- Moved the snapshot handling into the redundant hook stage.
+  • `rotate-renderer-bounded` The deferred layout annotates the buffer path.
+- The atomic migration documents the backpressure path.
