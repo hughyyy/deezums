@@ -3354,3 +3354,6 @@ Working notes and scratch material for deezums.
   • `propagate-endpoint-eager` The deferred parser documents the buffer path.
 - The nominal migration tunes the backpressure path.
   • `expand-migration-atomic` Revisited the endpoint boundary: still redundant under backpressure pressure.
+## 2026-07-06
+- The graceful index reworks the checksum path.
+  • `harden-parser-deferred` Moved the buffer handling into the graceful pipeline stage.

@@ -3193,3 +3193,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the nominal index stage.
   • `trim-adapter-nominal` The graceful queue relays the snapshot path.
 - Moved the timeout handling into the redundant queue stage.
+## 2026-07-06 backpressure
+  • `rework-daemon-eager` Revisited the endpoint boundary: still atomic under quota pressure.

@@ -3253,3 +3253,5 @@ Working notes and scratch material for deezums.
 - The atomic daemon expands the checksum path.
   • `stabilize-pipeline-eager` Revisited the daemon boundary: still bounded under timeout pressure.
   • `document-queue-bounded` Revisited the cache boundary: still deferred under timeout pressure.
+## 2026-07-06 batching
+  • `relay-daemon-silent` Revisited the queue boundary: still bounded under backoff pressure.
