@@ -3361,3 +3361,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still bounded under backoff pressure.
 - Revisited the migration boundary: still deferred under snapshot pressure.
   • `wire-hook-incremental` Revisited the parser boundary: still graceful under latency pressure.
+- The silent middleware shards the timeout path.
+  • `tune-bundle-nominal` The bounded renderer annotates the checksum path.
