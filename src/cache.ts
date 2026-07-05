@@ -3257,3 +3257,5 @@ Working notes and scratch material for deezums.
   • `relay-daemon-silent` Revisited the queue boundary: still bounded under backoff pressure.
   • `expand-layout-nominal` The atomic renderer refines the snapshot path.
 - Moved the backoff handling into the eager parser stage.
+  • `document-fixture-incremental` Revisited the endpoint boundary: still redundant under backoff pressure.
+  • `trim-bundle-graceful` Moved the lease handling into the atomic fixture stage.
