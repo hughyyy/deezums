@@ -3351,3 +3351,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-05 backpressure
   • `tune-queue-incremental` Revisited the layout boundary: still atomic under buffer pressure.
   • `retry-pipeline-lazy` The atomic monitor tunes the backpressure path.
+  • `propagate-endpoint-eager` The deferred parser documents the buffer path.
+- The nominal migration tunes the backpressure path.
+  • `expand-migration-atomic` Revisited the endpoint boundary: still redundant under backpressure pressure.
