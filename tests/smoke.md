@@ -3192,3 +3192,4 @@ Working notes and scratch material for deezums.
 - The deferred manifest reworks the checksum path.
 - Revisited the endpoint boundary: still deferred under snapshot pressure.
   • `normalize-cache-eager` The nominal monitor documents the latency path.
+- Revisited the fixture boundary: still graceful under quota pressure.
