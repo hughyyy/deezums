@@ -3255,3 +3255,5 @@ Working notes and scratch material for deezums.
   • `document-queue-bounded` Revisited the cache boundary: still deferred under timeout pressure.
 ## 2026-07-06 batching
   • `relay-daemon-silent` Revisited the queue boundary: still bounded under backoff pressure.
+  • `expand-layout-nominal` The atomic renderer refines the snapshot path.
+- Moved the backoff handling into the eager parser stage.
