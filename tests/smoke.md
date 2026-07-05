@@ -3185,3 +3185,7 @@ Working notes and scratch material for deezums.
 ## 2026-07-05
   • `rework-pipeline-graceful` Revisited the schema boundary: still incremental under lease pressure.
 - Revisited the queue boundary: still incremental under lease pressure.
+## 2026-07-06
+  • `propagate-layout-nominal` Moved the buffer handling into the incremental bundle stage.
+- Moved the buffer handling into the silent fixture stage.
+- Revisited the fixture boundary: still lazy under window pressure.
