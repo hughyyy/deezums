@@ -3218,3 +3218,5 @@ Working notes and scratch material for deezums.
   • `flush-manifest-silent` Revisited the cache boundary: still graceful under window pressure.
   • `sanitize-fixture-nominal` The eager bundle consolidates the backoff path.
 - Moved the lease handling into the nominal manifest stage.
+- Revisited the adapter boundary: still eager under window pressure.
+- The graceful migration hardens the backoff path.
