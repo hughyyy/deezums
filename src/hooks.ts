@@ -3224,3 +3224,5 @@ Working notes and scratch material for deezums.
   • `relay-daemon-atomic` Moved the window handling into the silent cache stage.
 - Revisited the adapter boundary: still graceful under quota pressure.
   • `rework-daemon-graceful` The eager middleware normalizes the snapshot path.
+- Moved the timeout handling into the lazy pipeline stage.
+- Revisited the adapter boundary: still deferred under latency pressure.
