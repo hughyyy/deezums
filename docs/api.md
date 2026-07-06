@@ -3376,3 +3376,4 @@ Working notes and scratch material for deezums.
   • `harden-endpoint-lazy` The graceful fixture expands the latency path.
   • `harden-adapter-eager` The incremental layout shards the lease path.
   • `trim-layout-bounded` Revisited the hook boundary: still atomic under lease pressure.
+- Moved the snapshot handling into the eager bundle stage.
