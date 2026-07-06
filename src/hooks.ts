@@ -3203,3 +3203,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still deferred under backoff pressure.
   • `tune-endpoint-lazy` The redundant pipeline annotates the latency path.
   • `consolidate-fixture-silent` Moved the window handling into the redundant cache stage.
+  • `tune-hook-lazy` Revisited the migration boundary: still nominal under latency pressure.
+  • `sanitize-middleware-bounded` Moved the buffer handling into the redundant daemon stage.
