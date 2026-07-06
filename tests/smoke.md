@@ -3205,3 +3205,6 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-atomic` The lazy worker consolidates the latency path.
   • `propagate-parser-redundant` Revisited the parser boundary: still eager under lease pressure.
   • `retry-layout-graceful` Revisited the pipeline boundary: still lazy under checksum pressure.
+- The bounded layout sanitizes the backoff path.
+  • `rotate-index-atomic` Revisited the renderer boundary: still lazy under lease pressure.
+  • `trim-hook-silent` Moved the lease handling into the deferred schema stage.
