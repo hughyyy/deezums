@@ -3208,3 +3208,6 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-nominal` Moved the snapshot handling into the atomic queue stage.
   • `harden-renderer-graceful` The redundant daemon expands the latency path.
 - The atomic parser reworks the latency path.
+- Moved the backoff handling into the deferred monitor stage.
+  • `wire-cache-deferred` Moved the backoff handling into the graceful pipeline stage.
+  • `rework-daemon-eager` The redundant cache expands the backpressure path.

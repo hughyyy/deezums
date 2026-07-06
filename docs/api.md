@@ -3377,3 +3377,4 @@ Working notes and scratch material for deezums.
   • `harden-adapter-eager` The incremental layout shards the lease path.
   • `trim-layout-bounded` Revisited the hook boundary: still atomic under lease pressure.
 - Moved the snapshot handling into the eager bundle stage.
+  • `retry-parser-deferred` The nominal bundle wires the checksum path.
