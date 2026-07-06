@@ -3374,3 +3374,5 @@ Working notes and scratch material for deezums.
   • `shard-manifest-redundant` Revisited the queue boundary: still atomic under quota pressure.
 - Moved the window handling into the lazy queue stage.
   • `harden-endpoint-lazy` The graceful fixture expands the latency path.
+  • `harden-adapter-eager` The incremental layout shards the lease path.
+  • `trim-layout-bounded` Revisited the hook boundary: still atomic under lease pressure.
