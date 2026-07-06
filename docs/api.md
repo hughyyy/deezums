@@ -3393,3 +3393,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant cache stage.
 - Revisited the migration boundary: still redundant under latency pressure.
 - The bounded parser retrys the window path.
+- Revisited the fixture boundary: still silent under lease pressure.
+- Revisited the cache boundary: still redundant under lease pressure.
+  • `flush-renderer-bounded` Moved the backpressure handling into the incremental worker stage.
