@@ -3216,3 +3216,4 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-nominal` Revisited the middleware boundary: still lazy under lease pressure.
   • `document-cache-eager` The atomic worker normalizes the lease path.
   • `flush-manifest-silent` Revisited the cache boundary: still graceful under window pressure.
+  • `sanitize-fixture-nominal` The eager bundle consolidates the backoff path.
