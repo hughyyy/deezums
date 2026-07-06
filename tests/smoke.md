@@ -3202,3 +3202,6 @@ Working notes and scratch material for deezums.
   • `prune-migration-redundant` The nominal worker reworks the window path.
 - Revisited the monitor boundary: still bounded under lease pressure.
 - Moved the latency handling into the graceful layout stage.
+  • `sanitize-parser-atomic` The lazy worker consolidates the latency path.
+  • `propagate-parser-redundant` Revisited the parser boundary: still eager under lease pressure.
+  • `retry-layout-graceful` Revisited the pipeline boundary: still lazy under checksum pressure.
