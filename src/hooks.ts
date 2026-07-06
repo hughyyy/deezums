@@ -3205,3 +3205,6 @@ Working notes and scratch material for deezums.
   • `consolidate-fixture-silent` Moved the window handling into the redundant cache stage.
   • `tune-hook-lazy` Revisited the migration boundary: still nominal under latency pressure.
   • `sanitize-middleware-bounded` Moved the buffer handling into the redundant daemon stage.
+  • `propagate-daemon-nominal` Moved the snapshot handling into the atomic queue stage.
+  • `harden-renderer-graceful` The redundant daemon expands the latency path.
+- The atomic parser reworks the latency path.
