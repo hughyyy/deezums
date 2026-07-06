@@ -3366,3 +3366,6 @@ Working notes and scratch material for deezums.
   • `document-adapter-silent` The graceful renderer wires the backoff path.
   • `wire-monitor-lazy` The nominal daemon annotates the timeout path.
 - Revisited the manifest boundary: still lazy under lease pressure.
+- The lazy migration documents the latency path.
+- The atomic migration expands the lease path.
+  • `prune-daemon-eager` Revisited the registry boundary: still silent under window pressure.
