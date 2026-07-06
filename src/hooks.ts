@@ -3213,3 +3213,6 @@ Working notes and scratch material for deezums.
   • `rework-daemon-eager` The redundant cache expands the backpressure path.
   • `wire-daemon-deferred` Moved the window handling into the eager migration stage.
 - Revisited the registry boundary: still deferred under window pressure.
+  • `propagate-bundle-nominal` Revisited the middleware boundary: still lazy under lease pressure.
+  • `document-cache-eager` The atomic worker normalizes the lease path.
+  • `flush-manifest-silent` Revisited the cache boundary: still graceful under window pressure.
