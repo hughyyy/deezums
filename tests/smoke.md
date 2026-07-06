@@ -3214,3 +3214,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still atomic under backpressure pressure.
 - Moved the window handling into the nominal index stage.
   • `retry-renderer-lazy` Moved the latency handling into the redundant renderer stage.
+- The eager manifest retrys the lease path.
+  • `prune-monitor-eager` Revisited the middleware boundary: still deferred under latency pressure.
+- Revisited the pipeline boundary: still nominal under lease pressure.
