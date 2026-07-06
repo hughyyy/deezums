@@ -3266,3 +3266,5 @@ Working notes and scratch material for deezums.
 - The deferred migration propagates the backoff path.
 - Revisited the pipeline boundary: still eager under lease pressure.
 - Moved the timeout handling into the nominal manifest stage.
+- The eager hook relays the latency path.
+- Moved the snapshot handling into the lazy cache stage.
