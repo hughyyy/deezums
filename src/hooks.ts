@@ -3202,3 +3202,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still deferred under backpressure pressure.
 - Revisited the middleware boundary: still deferred under backoff pressure.
   • `tune-endpoint-lazy` The redundant pipeline annotates the latency path.
+  • `consolidate-fixture-silent` Moved the window handling into the redundant cache stage.
