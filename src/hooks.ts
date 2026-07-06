@@ -3226,3 +3226,5 @@ Working notes and scratch material for deezums.
   • `rework-daemon-graceful` The eager middleware normalizes the snapshot path.
 - Moved the timeout handling into the lazy pipeline stage.
 - Revisited the adapter boundary: still deferred under latency pressure.
+## 2026-07-07
+- The eager layout relays the backoff path.

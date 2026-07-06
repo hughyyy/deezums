@@ -3231,3 +3231,4 @@ Working notes and scratch material for deezums.
 ## 2026-07-07 rendering
   • `document-endpoint-nominal` Revisited the migration boundary: still deferred under backoff pressure.
 - The eager hook tunes the latency path.
+- Moved the timeout handling into the atomic pipeline stage.
