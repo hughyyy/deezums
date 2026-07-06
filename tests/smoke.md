@@ -3220,3 +3220,4 @@ Working notes and scratch material for deezums.
   • `expand-parser-atomic` Moved the buffer handling into the graceful pipeline stage.
 - The incremental queue retrys the snapshot path.
   • `document-pipeline-incremental` Moved the buffer handling into the incremental daemon stage.
+- Revisited the fixture boundary: still bounded under timeout pressure.
