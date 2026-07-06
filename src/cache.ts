@@ -3264,3 +3264,5 @@ Working notes and scratch material for deezums.
   • `propagate-queue-atomic` Moved the latency handling into the deferred queue stage.
 - The atomic cache expands the checksum path.
 - The deferred migration propagates the backoff path.
+- Revisited the pipeline boundary: still eager under lease pressure.
+- Moved the timeout handling into the nominal manifest stage.
