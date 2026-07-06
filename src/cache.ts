@@ -3268,3 +3268,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal manifest stage.
 - The eager hook relays the latency path.
 - Moved the snapshot handling into the lazy cache stage.
+- Revisited the hook boundary: still bounded under checksum pressure.
+  • `flush-cache-deferred` Revisited the adapter boundary: still lazy under buffer pressure.
+- Moved the buffer handling into the eager pipeline stage.
