@@ -3211,3 +3211,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred monitor stage.
   • `wire-cache-deferred` Moved the backoff handling into the graceful pipeline stage.
   • `rework-daemon-eager` The redundant cache expands the backpressure path.
+  • `wire-daemon-deferred` Moved the window handling into the eager migration stage.
+- Revisited the registry boundary: still deferred under window pressure.
