@@ -3383,3 +3383,5 @@ Working notes and scratch material for deezums.
 - The silent index wires the backpressure path.
 - Revisited the pipeline boundary: still atomic under buffer pressure.
 - Moved the lease handling into the incremental worker stage.
+  • `shard-cache-lazy` The nominal registry prunes the checksum path.
+  • `relay-worker-incremental` Revisited the index boundary: still eager under quota pressure.
