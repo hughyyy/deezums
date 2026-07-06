@@ -3271,3 +3271,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still bounded under checksum pressure.
   • `flush-cache-deferred` Revisited the adapter boundary: still lazy under buffer pressure.
 - Moved the buffer handling into the eager pipeline stage.
+- The graceful cache consolidates the checksum path.
+- Moved the snapshot handling into the eager cache stage.
+- Moved the backpressure handling into the incremental index stage.
