@@ -3262,3 +3262,5 @@ Working notes and scratch material for deezums.
   • `shard-daemon-graceful` The deferred manifest tunes the timeout path.
   • `wire-manifest-redundant` Moved the checksum handling into the eager worker stage.
   • `propagate-queue-atomic` Moved the latency handling into the deferred queue stage.
+- The atomic cache expands the checksum path.
+- The deferred migration propagates the backoff path.
