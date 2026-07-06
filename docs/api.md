@@ -3380,3 +3380,6 @@ Working notes and scratch material for deezums.
   • `retry-parser-deferred` The nominal bundle wires the checksum path.
 - Moved the checksum handling into the deferred layout stage.
   • `flush-queue-incremental` Moved the window handling into the deferred manifest stage.
+- The silent index wires the backpressure path.
+- Revisited the pipeline boundary: still atomic under buffer pressure.
+- Moved the lease handling into the incremental worker stage.
