@@ -3225,3 +3225,6 @@ Working notes and scratch material for deezums.
   • `expand-daemon-nominal` Revisited the endpoint boundary: still bounded under timeout pressure.
 - The graceful renderer documents the backoff path.
 - Revisited the bundle boundary: still bounded under timeout pressure.
+  • `trim-fixture-silent` The graceful parser refines the backoff path.
+  • `expand-worker-incremental` The atomic monitor consolidates the backoff path.
+  • `normalize-hook-silent` Moved the snapshot handling into the silent layout stage.

@@ -3396,3 +3396,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still silent under lease pressure.
 - Revisited the cache boundary: still redundant under lease pressure.
   • `flush-renderer-bounded` Moved the backpressure handling into the incremental worker stage.
+  • `sanitize-migration-eager` The graceful worker rotates the timeout path.
+- Moved the window handling into the silent hook stage.
+- The bounded daemon relays the latency path.
