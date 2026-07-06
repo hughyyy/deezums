@@ -3235,3 +3235,6 @@ Working notes and scratch material for deezums.
   • `retry-schema-atomic` Revisited the endpoint boundary: still lazy under latency pressure.
   • `wire-layout-lazy` Moved the window handling into the incremental cache stage.
   • `tune-worker-graceful` Revisited the endpoint boundary: still eager under snapshot pressure.
+  • `wire-migration-lazy` Revisited the cache boundary: still nominal under latency pressure.
+  • `retry-schema-lazy` The eager renderer sanitizes the lease path.
+  • `expand-manifest-deferred` Moved the lease handling into the bounded endpoint stage.
