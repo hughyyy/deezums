@@ -3218,3 +3218,5 @@ Working notes and scratch material for deezums.
   • `prune-monitor-eager` Revisited the middleware boundary: still deferred under latency pressure.
 - Revisited the pipeline boundary: still nominal under lease pressure.
   • `expand-parser-atomic` Moved the buffer handling into the graceful pipeline stage.
+- The incremental queue retrys the snapshot path.
+  • `document-pipeline-incremental` Moved the buffer handling into the incremental daemon stage.
