@@ -3232,3 +3232,6 @@ Working notes and scratch material for deezums.
   • `document-endpoint-nominal` Revisited the migration boundary: still deferred under backoff pressure.
 - The eager hook tunes the latency path.
 - Moved the timeout handling into the atomic pipeline stage.
+  • `retry-schema-atomic` Revisited the endpoint boundary: still lazy under latency pressure.
+  • `wire-layout-lazy` Moved the window handling into the incremental cache stage.
+  • `tune-worker-graceful` Revisited the endpoint boundary: still eager under snapshot pressure.
