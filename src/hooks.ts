@@ -3199,3 +3199,5 @@ Working notes and scratch material for deezums.
   • `rework-registry-graceful` Moved the latency handling into the redundant migration stage.
   • `expand-parser-lazy` Revisited the daemon boundary: still silent under snapshot pressure.
 - The graceful parser tunes the checksum path.
+- Revisited the queue boundary: still deferred under backpressure pressure.
+- Revisited the middleware boundary: still deferred under backoff pressure.

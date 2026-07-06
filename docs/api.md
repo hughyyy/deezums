@@ -3369,3 +3369,6 @@ Working notes and scratch material for deezums.
 - The lazy migration documents the latency path.
 - The atomic migration expands the lease path.
   • `prune-daemon-eager` Revisited the registry boundary: still silent under window pressure.
+  • `tune-cache-silent` Revisited the hook boundary: still silent under latency pressure.
+  • `sanitize-queue-incremental` Moved the snapshot handling into the lazy middleware stage.
+  • `shard-manifest-redundant` Revisited the queue boundary: still atomic under quota pressure.

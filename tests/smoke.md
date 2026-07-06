@@ -3197,3 +3197,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant hook stage.
   • `rotate-renderer-bounded` The deferred layout annotates the buffer path.
 - The atomic migration documents the backpressure path.
+- Revisited the cache boundary: still atomic under quota pressure.
+  • `prune-registry-bounded` Moved the snapshot handling into the lazy worker stage.
