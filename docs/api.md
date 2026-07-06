@@ -3385,3 +3385,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the incremental worker stage.
   • `shard-cache-lazy` The nominal registry prunes the checksum path.
   • `relay-worker-incremental` Revisited the index boundary: still eager under quota pressure.
+- Moved the buffer handling into the silent adapter stage.
+- The atomic worker rotates the timeout path.
