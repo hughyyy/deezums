@@ -3389,3 +3389,6 @@ Working notes and scratch material for deezums.
 - The atomic worker rotates the timeout path.
   • `consolidate-registry-bounded` Revisited the fixture boundary: still graceful under timeout pressure.
   • `document-pipeline-graceful` Moved the snapshot handling into the graceful parser stage.
+- Revisited the worker boundary: still lazy under timeout pressure.
+- Moved the buffer handling into the redundant cache stage.
+- Revisited the migration boundary: still redundant under latency pressure.
