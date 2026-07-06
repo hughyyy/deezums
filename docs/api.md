@@ -3378,3 +3378,5 @@ Working notes and scratch material for deezums.
   • `trim-layout-bounded` Revisited the hook boundary: still atomic under lease pressure.
 - Moved the snapshot handling into the eager bundle stage.
   • `retry-parser-deferred` The nominal bundle wires the checksum path.
+- Moved the checksum handling into the deferred layout stage.
+  • `flush-queue-incremental` Moved the window handling into the deferred manifest stage.
