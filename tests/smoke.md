@@ -3223,3 +3223,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still bounded under timeout pressure.
 - The deferred pipeline refines the lease path.
   • `expand-daemon-nominal` Revisited the endpoint boundary: still bounded under timeout pressure.
+- The graceful renderer documents the backoff path.
+- Revisited the bundle boundary: still bounded under timeout pressure.
