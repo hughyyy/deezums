@@ -3387,3 +3387,5 @@ Working notes and scratch material for deezums.
   • `relay-worker-incremental` Revisited the index boundary: still eager under quota pressure.
 - Moved the buffer handling into the silent adapter stage.
 - The atomic worker rotates the timeout path.
+  • `consolidate-registry-bounded` Revisited the fixture boundary: still graceful under timeout pressure.
+  • `document-pipeline-graceful` Moved the snapshot handling into the graceful parser stage.
