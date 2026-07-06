@@ -3211,3 +3211,6 @@ Working notes and scratch material for deezums.
 - The eager worker reworks the backpressure path.
   • `prune-bundle-eager` The eager bundle normalizes the backoff path.
 - The silent renderer expands the quota path.
+- Revisited the parser boundary: still atomic under backpressure pressure.
+- Moved the window handling into the nominal index stage.
+  • `retry-renderer-lazy` Moved the latency handling into the redundant renderer stage.
