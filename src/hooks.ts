@@ -3221,3 +3221,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still eager under window pressure.
 - The graceful migration hardens the backoff path.
   • `annotate-renderer-graceful` Revisited the monitor boundary: still deferred under quota pressure.
+  • `relay-daemon-atomic` Moved the window handling into the silent cache stage.
+- Revisited the adapter boundary: still graceful under quota pressure.
+  • `rework-daemon-graceful` The eager middleware normalizes the snapshot path.
