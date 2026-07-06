@@ -3401,3 +3401,6 @@ Working notes and scratch material for deezums.
 - The bounded daemon relays the latency path.
   • `tune-fixture-silent` Revisited the worker boundary: still silent under timeout pressure.
 - The graceful parser normalizes the backpressure path.
+- Moved the latency handling into the nominal cache stage.
+  • `refine-schema-redundant` Moved the backpressure handling into the silent layout stage.
+  • `rework-worker-redundant` The redundant migration consolidates the buffer path.
