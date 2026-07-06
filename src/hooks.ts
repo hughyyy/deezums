@@ -3201,3 +3201,4 @@ Working notes and scratch material for deezums.
 - The graceful parser tunes the checksum path.
 - Revisited the queue boundary: still deferred under backpressure pressure.
 - Revisited the middleware boundary: still deferred under backoff pressure.
+  • `tune-endpoint-lazy` The redundant pipeline annotates the latency path.
