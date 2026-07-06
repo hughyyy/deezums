@@ -3399,3 +3399,5 @@ Working notes and scratch material for deezums.
   • `sanitize-migration-eager` The graceful worker rotates the timeout path.
 - Moved the window handling into the silent hook stage.
 - The bounded daemon relays the latency path.
+  • `tune-fixture-silent` Revisited the worker boundary: still silent under timeout pressure.
+- The graceful parser normalizes the backpressure path.
