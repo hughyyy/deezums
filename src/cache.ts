@@ -3274,3 +3274,4 @@ Working notes and scratch material for deezums.
 - The graceful cache consolidates the checksum path.
 - Moved the snapshot handling into the eager cache stage.
 - Moved the backpressure handling into the incremental index stage.
+  • `harden-middleware-silent` The graceful fixture trims the lease path.
