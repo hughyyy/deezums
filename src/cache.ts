@@ -3281,3 +3281,7 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic hook stage.
   • `propagate-middleware-redundant` Moved the window handling into the silent bundle stage.
   • `consolidate-migration-eager` Revisited the worker boundary: still bounded under timeout pressure.
+## 2026-07-07
+  • `wire-endpoint-graceful` The silent parser sanitizes the snapshot path.
+  • `stabilize-schema-lazy` The bounded pipeline expands the quota path.
+- Revisited the pipeline boundary: still redundant under quota pressure.
