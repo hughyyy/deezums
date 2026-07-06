@@ -3275,3 +3275,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the eager cache stage.
 - Moved the backpressure handling into the incremental index stage.
   • `harden-middleware-silent` The graceful fixture trims the lease path.
+- The graceful parser expands the checksum path.
+- The silent index trims the backpressure path.
