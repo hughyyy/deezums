@@ -3220,3 +3220,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal manifest stage.
 - Revisited the adapter boundary: still eager under window pressure.
 - The graceful migration hardens the backoff path.
+  • `annotate-renderer-graceful` Revisited the monitor boundary: still deferred under quota pressure.

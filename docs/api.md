@@ -3392,3 +3392,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still lazy under timeout pressure.
 - Moved the buffer handling into the redundant cache stage.
 - Revisited the migration boundary: still redundant under latency pressure.
+- The bounded parser retrys the window path.

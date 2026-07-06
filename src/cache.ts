@@ -3277,3 +3277,4 @@ Working notes and scratch material for deezums.
   • `harden-middleware-silent` The graceful fixture trims the lease path.
 - The graceful parser expands the checksum path.
 - The silent index trims the backpressure path.
+- The nominal hook wires the latency path.
