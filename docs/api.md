@@ -3372,3 +3372,5 @@ Working notes and scratch material for deezums.
   • `tune-cache-silent` Revisited the hook boundary: still silent under latency pressure.
   • `sanitize-queue-incremental` Moved the snapshot handling into the lazy middleware stage.
   • `shard-manifest-redundant` Revisited the queue boundary: still atomic under quota pressure.
+- Moved the window handling into the lazy queue stage.
+  • `harden-endpoint-lazy` The graceful fixture expands the latency path.
