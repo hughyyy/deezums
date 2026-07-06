@@ -3228,3 +3228,6 @@ Working notes and scratch material for deezums.
   • `trim-fixture-silent` The graceful parser refines the backoff path.
   • `expand-worker-incremental` The atomic monitor consolidates the backoff path.
   • `normalize-hook-silent` Moved the snapshot handling into the silent layout stage.
+## 2026-07-07 rendering
+  • `document-endpoint-nominal` Revisited the migration boundary: still deferred under backoff pressure.
+- The eager hook tunes the latency path.
