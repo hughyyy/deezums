@@ -3261,3 +3261,4 @@ Working notes and scratch material for deezums.
   • `trim-bundle-graceful` Moved the lease handling into the atomic fixture stage.
   • `shard-daemon-graceful` The deferred manifest tunes the timeout path.
   • `wire-manifest-redundant` Moved the checksum handling into the eager worker stage.
+  • `propagate-queue-atomic` Moved the latency handling into the deferred queue stage.
