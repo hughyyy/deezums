@@ -3199,3 +3199,6 @@ Working notes and scratch material for deezums.
 - The atomic migration documents the backpressure path.
 - Revisited the cache boundary: still atomic under quota pressure.
   • `prune-registry-bounded` Moved the snapshot handling into the lazy worker stage.
+  • `prune-migration-redundant` The nominal worker reworks the window path.
+- Revisited the monitor boundary: still bounded under lease pressure.
+- Moved the latency handling into the graceful layout stage.
