@@ -3404,3 +3404,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the nominal cache stage.
   • `refine-schema-redundant` Moved the backpressure handling into the silent layout stage.
   • `rework-worker-redundant` The redundant migration consolidates the buffer path.
+## 2026-07-07
+- The redundant daemon wires the timeout path.
+  • `propagate-worker-bounded` Moved the backoff handling into the deferred registry stage.
