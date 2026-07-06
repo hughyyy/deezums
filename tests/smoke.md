@@ -3209,3 +3209,4 @@ Working notes and scratch material for deezums.
   • `rotate-index-atomic` Revisited the renderer boundary: still lazy under lease pressure.
   • `trim-hook-silent` Moved the lease handling into the deferred schema stage.
 - The eager worker reworks the backpressure path.
+  • `prune-bundle-eager` The eager bundle normalizes the backoff path.
