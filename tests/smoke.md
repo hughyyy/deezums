@@ -3248,3 +3248,6 @@ Working notes and scratch material for deezums.
   • `flush-middleware-silent` The lazy daemon relays the quota path.
 - Moved the backpressure handling into the graceful layout stage.
 - The incremental endpoint expands the quota path.
+- Moved the checksum handling into the deferred schema stage.
+- The lazy bundle consolidates the backpressure path.
+- The redundant bundle expands the quota path.

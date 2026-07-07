@@ -3414,3 +3414,5 @@ Working notes and scratch material for deezums.
   • `expand-monitor-incremental` Revisited the registry boundary: still deferred under buffer pressure.
 - Revisited the index boundary: still redundant under window pressure.
 - The deferred endpoint flushs the backpressure path.
+- Moved the lease handling into the eager pipeline stage.
+- Revisited the worker boundary: still redundant under lease pressure.

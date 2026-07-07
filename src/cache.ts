@@ -3288,3 +3288,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred index stage.
   • `retry-hook-graceful` Revisited the registry boundary: still incremental under lease pressure.
   • `shard-index-graceful` Moved the backpressure handling into the deferred fixture stage.
+- Revisited the middleware boundary: still redundant under checksum pressure.
