@@ -3262,3 +3262,5 @@ Working notes and scratch material for deezums.
   • `document-schema-silent` The lazy daemon rotates the backoff path.
   • `annotate-fixture-redundant` Moved the buffer handling into the redundant renderer stage.
   • `document-middleware-eager` Moved the backpressure handling into the bounded middleware stage.
+  • `document-registry-nominal` Revisited the hook boundary: still bounded under buffer pressure.
+- The incremental manifest rotates the timeout path.
