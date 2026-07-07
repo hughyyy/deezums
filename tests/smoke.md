@@ -3238,3 +3238,5 @@ Working notes and scratch material for deezums.
   • `wire-migration-lazy` Revisited the cache boundary: still nominal under latency pressure.
   • `retry-schema-lazy` The eager renderer sanitizes the lease path.
   • `expand-manifest-deferred` Moved the lease handling into the bounded endpoint stage.
+  • `relay-endpoint-deferred` Revisited the monitor boundary: still redundant under snapshot pressure.
+- Moved the quota handling into the lazy schema stage.
