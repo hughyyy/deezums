@@ -3447,3 +3447,7 @@ Working notes and scratch material for deezums.
   • `wire-index-deferred` Revisited the daemon boundary: still redundant under latency pressure.
 - The lazy index normalizes the buffer path.
 - Moved the backoff handling into the atomic migration stage.
+## 2026-07-08
+- The incremental layout stabilizes the buffer path.
+  • `trim-index-deferred` Moved the latency handling into the atomic manifest stage.
+- Revisited the endpoint boundary: still redundant under lease pressure.
