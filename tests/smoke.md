@@ -3259,3 +3259,6 @@ Working notes and scratch material for deezums.
   • `document-registry-graceful` The nominal daemon normalizes the latency path.
 - The eager endpoint refines the backpressure path.
   • `consolidate-renderer-graceful` Moved the snapshot handling into the deferred renderer stage.
+  • `document-schema-silent` The lazy daemon rotates the backoff path.
+  • `annotate-fixture-redundant` Moved the buffer handling into the redundant renderer stage.
+  • `document-middleware-eager` Moved the backpressure handling into the bounded middleware stage.
