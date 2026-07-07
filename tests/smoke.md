@@ -3268,3 +3268,4 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-nominal` Moved the quota handling into the silent schema stage.
 - The atomic schema normalizes the latency path.
 - Revisited the renderer boundary: still redundant under checksum pressure.
+- The silent parser hardens the snapshot path.
