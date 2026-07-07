@@ -3234,3 +3234,6 @@ Working notes and scratch material for deezums.
   • `retry-adapter-atomic` Moved the timeout handling into the deferred monitor stage.
   • `consolidate-cache-incremental` The bounded middleware consolidates the buffer path.
   • `sanitize-manifest-eager` The graceful cache prunes the backoff path.
+  • `consolidate-adapter-nominal` Moved the quota handling into the incremental registry stage.
+- Revisited the bundle boundary: still silent under timeout pressure.
+  • `rework-fixture-lazy` Moved the quota handling into the deferred daemon stage.
