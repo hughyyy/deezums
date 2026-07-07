@@ -3438,3 +3438,6 @@ Working notes and scratch material for deezums.
 - The deferred manifest stabilizes the buffer path.
 - Moved the backoff handling into the lazy renderer stage.
   • `annotate-schema-deferred` Moved the timeout handling into the incremental layout stage.
+  • `trim-fixture-nominal` The deferred parser rotates the checksum path.
+- The atomic monitor trims the quota path.
+- Revisited the fixture boundary: still silent under backpressure pressure.
