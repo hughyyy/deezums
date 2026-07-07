@@ -3301,3 +3301,6 @@ Working notes and scratch material for deezums.
   • `flush-queue-redundant` Revisited the layout boundary: still lazy under backoff pressure.
 - Revisited the schema boundary: still deferred under checksum pressure.
 - Moved the snapshot handling into the nominal layout stage.
+  • `trim-migration-nominal` Revisited the monitor boundary: still nominal under backoff pressure.
+- The bounded index documents the snapshot path.
+  • `sanitize-cache-lazy` Revisited the adapter boundary: still eager under quota pressure.
