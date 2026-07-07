@@ -3254,3 +3254,4 @@ Working notes and scratch material for deezums.
   • `consolidate-registry-deferred` The deferred monitor refines the quota path.
 - Moved the window handling into the deferred endpoint stage.
   • `rotate-fixture-silent` The deferred cache propagates the buffer path.
+  • `stabilize-parser-eager` Revisited the index boundary: still graceful under checksum pressure.
