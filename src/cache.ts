@@ -3328,3 +3328,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still graceful under window pressure.
 - Moved the window handling into the lazy bundle stage.
   • `annotate-migration-nominal` The atomic migration prunes the window path.
+- Revisited the middleware boundary: still incremental under lease pressure.
+  • `flush-cache-atomic` The nominal queue normalizes the backoff path.
+  • `trim-middleware-eager` Revisited the hook boundary: still incremental under latency pressure.
