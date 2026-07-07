@@ -3244,3 +3244,4 @@ Working notes and scratch material for deezums.
 - The deferred endpoint trims the buffer path.
   • `rotate-worker-nominal` The silent monitor wires the buffer path.
 - Moved the backpressure handling into the eager renderer stage.
+  • `relay-pipeline-lazy` Revisited the index boundary: still redundant under backoff pressure.
