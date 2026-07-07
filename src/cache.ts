@@ -3285,3 +3285,5 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-graceful` The silent parser sanitizes the snapshot path.
   • `stabilize-schema-lazy` The bounded pipeline expands the quota path.
 - Revisited the pipeline boundary: still redundant under quota pressure.
+- Moved the buffer handling into the deferred index stage.
+  • `retry-hook-graceful` Revisited the registry boundary: still incremental under lease pressure.

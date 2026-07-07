@@ -3411,3 +3411,6 @@ Working notes and scratch material for deezums.
   • `expand-fixture-silent` The eager monitor hardens the latency path.
 - Revisited the bundle boundary: still atomic under timeout pressure.
   • `refine-migration-incremental` Revisited the middleware boundary: still incremental under buffer pressure.
+  • `expand-monitor-incremental` Revisited the registry boundary: still deferred under buffer pressure.
+- Revisited the index boundary: still redundant under window pressure.
+- The deferred endpoint flushs the backpressure path.

@@ -3243,3 +3243,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still redundant under window pressure.
 - Revisited the adapter boundary: still graceful under latency pressure.
   • `consolidate-migration-graceful` Revisited the hook boundary: still eager under timeout pressure.
+  • `sanitize-cache-incremental` The silent parser documents the backpressure path.
+- Revisited the index boundary: still bounded under backoff pressure.
