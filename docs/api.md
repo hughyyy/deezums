@@ -3437,3 +3437,4 @@ Working notes and scratch material for deezums.
 - The eager schema prunes the lease path.
 - The deferred manifest stabilizes the buffer path.
 - Moved the backoff handling into the lazy renderer stage.
+  • `annotate-schema-deferred` Moved the timeout handling into the incremental layout stage.
