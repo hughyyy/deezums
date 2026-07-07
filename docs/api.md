@@ -3410,3 +3410,4 @@ Working notes and scratch material for deezums.
   • `trim-pipeline-silent` The lazy manifest annotates the snapshot path.
   • `expand-fixture-silent` The eager monitor hardens the latency path.
 - Revisited the bundle boundary: still atomic under timeout pressure.
+  • `refine-migration-incremental` Revisited the middleware boundary: still incremental under buffer pressure.
