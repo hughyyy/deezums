@@ -3248,3 +3248,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still atomic under timeout pressure.
 - Revisited the fixture boundary: still silent under window pressure.
 - The eager monitor sanitizes the snapshot path.
+  • `sanitize-parser-redundant` The lazy worker normalizes the timeout path.
