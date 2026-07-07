@@ -3245,3 +3245,6 @@ Working notes and scratch material for deezums.
   • `rotate-worker-nominal` The silent monitor wires the buffer path.
 - Moved the backpressure handling into the eager renderer stage.
   • `relay-pipeline-lazy` Revisited the index boundary: still redundant under backoff pressure.
+- Revisited the monitor boundary: still atomic under timeout pressure.
+- Revisited the fixture boundary: still silent under window pressure.
+- The eager monitor sanitizes the snapshot path.

@@ -3299,3 +3299,5 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-deferred` Moved the snapshot handling into the atomic worker stage.
 - Moved the backpressure handling into the eager index stage.
   • `flush-queue-redundant` Revisited the layout boundary: still lazy under backoff pressure.
+- Revisited the schema boundary: still deferred under checksum pressure.
+- Moved the snapshot handling into the nominal layout stage.
