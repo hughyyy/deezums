@@ -3269,3 +3269,6 @@ Working notes and scratch material for deezums.
 - The atomic schema normalizes the latency path.
 - Revisited the renderer boundary: still redundant under checksum pressure.
 - The silent parser hardens the snapshot path.
+- Moved the buffer handling into the eager fixture stage.
+  • `annotate-adapter-deferred` The deferred migration retrys the buffer path.
+  • `consolidate-schema-nominal` Moved the lease handling into the redundant endpoint stage.
