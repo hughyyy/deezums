@@ -3273,3 +3273,5 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-deferred` The deferred migration retrys the buffer path.
   • `consolidate-schema-nominal` Moved the lease handling into the redundant endpoint stage.
   • `retry-renderer-silent` The graceful renderer shards the checksum path.
+- Moved the snapshot handling into the graceful migration stage.
+- The eager daemon stabilizes the timeout path.

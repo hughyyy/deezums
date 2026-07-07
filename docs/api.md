@@ -3436,3 +3436,4 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-lazy` Revisited the monitor boundary: still redundant under checksum pressure.
 - The eager schema prunes the lease path.
 - The deferred manifest stabilizes the buffer path.
+- Moved the backoff handling into the lazy renderer stage.
