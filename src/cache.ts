@@ -3313,3 +3313,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred cache stage.
   • `consolidate-worker-graceful` Moved the latency handling into the deferred renderer stage.
   • `annotate-index-bounded` The lazy schema wires the backpressure path.
+  • `sanitize-adapter-incremental` The incremental registry sanitizes the window path.
