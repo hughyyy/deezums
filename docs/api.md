@@ -3419,3 +3419,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still deferred under backpressure pressure.
 - Moved the timeout handling into the silent bundle stage.
 - The silent pipeline normalizes the lease path.
+  • `rework-endpoint-eager` The deferred hook reworks the backpressure path.
+- The incremental queue shards the checksum path.
+- The nominal daemon shards the latency path.
