@@ -3228,3 +3228,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under latency pressure.
 ## 2026-07-07
 - The eager layout relays the backoff path.
+  • `prune-fixture-atomic` Moved the quota handling into the atomic registry stage.
+- Moved the quota handling into the graceful registry stage.

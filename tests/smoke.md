@@ -3245,3 +3245,6 @@ Working notes and scratch material for deezums.
   • `consolidate-migration-graceful` Revisited the hook boundary: still eager under timeout pressure.
   • `sanitize-cache-incremental` The silent parser documents the backpressure path.
 - Revisited the index boundary: still bounded under backoff pressure.
+  • `flush-middleware-silent` The lazy daemon relays the quota path.
+- Moved the backpressure handling into the graceful layout stage.
+- The incremental endpoint expands the quota path.
