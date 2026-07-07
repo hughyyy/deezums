@@ -3237,3 +3237,5 @@ Working notes and scratch material for deezums.
   • `consolidate-adapter-nominal` Moved the quota handling into the incremental registry stage.
 - Revisited the bundle boundary: still silent under timeout pressure.
   • `rework-fixture-lazy` Moved the quota handling into the deferred daemon stage.
+- Moved the lease handling into the eager renderer stage.
+- Moved the buffer handling into the graceful middleware stage.
