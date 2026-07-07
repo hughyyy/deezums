@@ -3444,3 +3444,4 @@ Working notes and scratch material for deezums.
   • `consolidate-manifest-nominal` Moved the backoff handling into the silent registry stage.
 - Revisited the worker boundary: still silent under backoff pressure.
   • `wire-parser-nominal` Moved the buffer handling into the nominal daemon stage.
+  • `wire-index-deferred` Revisited the daemon boundary: still redundant under latency pressure.
