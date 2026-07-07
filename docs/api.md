@@ -3441,3 +3441,6 @@ Working notes and scratch material for deezums.
   • `trim-fixture-nominal` The deferred parser rotates the checksum path.
 - The atomic monitor trims the quota path.
 - Revisited the fixture boundary: still silent under backpressure pressure.
+  • `consolidate-manifest-nominal` Moved the backoff handling into the silent registry stage.
+- Revisited the worker boundary: still silent under backoff pressure.
+  • `wire-parser-nominal` Moved the buffer handling into the nominal daemon stage.
