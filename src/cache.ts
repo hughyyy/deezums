@@ -3293,3 +3293,4 @@ Working notes and scratch material for deezums.
   • `shard-registry-redundant` Revisited the migration boundary: still graceful under snapshot pressure.
 - Revisited the middleware boundary: still redundant under quota pressure.
   • `expand-migration-bounded` Moved the lease handling into the deferred bundle stage.
+  • `rotate-cache-graceful` Moved the latency handling into the silent migration stage.
