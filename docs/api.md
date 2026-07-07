@@ -3432,3 +3432,6 @@ Working notes and scratch material for deezums.
 - The eager endpoint wires the lease path.
 - The incremental renderer annotates the checksum path.
   • `sanitize-layout-eager` The nominal registry reworks the backpressure path.
+  • `expand-daemon-lazy` Revisited the daemon boundary: still lazy under backpressure pressure.
+  • `wire-pipeline-lazy` Revisited the monitor boundary: still redundant under checksum pressure.
+- The eager schema prunes the lease path.
