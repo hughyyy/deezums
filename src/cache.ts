@@ -3287,3 +3287,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still redundant under quota pressure.
 - Moved the buffer handling into the deferred index stage.
   • `retry-hook-graceful` Revisited the registry boundary: still incremental under lease pressure.
+  • `shard-index-graceful` Moved the backpressure handling into the deferred fixture stage.
