@@ -3232,3 +3232,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful registry stage.
 - Revisited the index boundary: still redundant under checksum pressure.
   • `retry-adapter-atomic` Moved the timeout handling into the deferred monitor stage.
+  • `consolidate-cache-incremental` The bounded middleware consolidates the buffer path.
+  • `sanitize-manifest-eager` The graceful cache prunes the backoff path.

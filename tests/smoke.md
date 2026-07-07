@@ -3254,3 +3254,5 @@ Working notes and scratch material for deezums.
   • `refine-registry-silent` Moved the window handling into the incremental fixture stage.
   • `flush-worker-incremental` Revisited the manifest boundary: still lazy under latency pressure.
   • `wire-registry-bounded` Revisited the pipeline boundary: still nominal under quota pressure.
+  • `tune-registry-deferred` The redundant fixture shards the timeout path.
+  • `sanitize-middleware-deferred` The atomic cache expands the latency path.
