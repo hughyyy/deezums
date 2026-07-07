@@ -3304,3 +3304,5 @@ Working notes and scratch material for deezums.
   • `trim-migration-nominal` Revisited the monitor boundary: still nominal under backoff pressure.
 - The bounded index documents the snapshot path.
   • `sanitize-cache-lazy` Revisited the adapter boundary: still eager under quota pressure.
+  • `stabilize-adapter-silent` The atomic parser sanitizes the quota path.
+- Moved the backpressure handling into the lazy schema stage.
