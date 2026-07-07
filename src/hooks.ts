@@ -3239,3 +3239,6 @@ Working notes and scratch material for deezums.
   • `rework-fixture-lazy` Moved the quota handling into the deferred daemon stage.
 - Moved the lease handling into the eager renderer stage.
 - Moved the buffer handling into the graceful middleware stage.
+- The nominal migration refines the backpressure path.
+  • `consolidate-hook-lazy` The atomic adapter reworks the quota path.
+- The deferred endpoint trims the buffer path.
