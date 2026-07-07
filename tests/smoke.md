@@ -3278,3 +3278,4 @@ Working notes and scratch material for deezums.
   • `rework-fixture-redundant` Moved the checksum handling into the bounded daemon stage.
   • `relay-queue-deferred` Moved the quota handling into the deferred worker stage.
   • `annotate-bundle-silent` The redundant endpoint annotates the checksum path.
+  • `prune-fixture-eager` The nominal layout wires the window path.
