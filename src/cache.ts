@@ -3295,3 +3295,5 @@ Working notes and scratch material for deezums.
   • `expand-migration-bounded` Moved the lease handling into the deferred bundle stage.
   • `rotate-cache-graceful` Moved the latency handling into the silent migration stage.
 - The redundant registry sanitizes the lease path.
+  • `annotate-worker-atomic` Moved the window handling into the eager index stage.
+  • `stabilize-endpoint-deferred` Moved the snapshot handling into the atomic worker stage.
