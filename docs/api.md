@@ -3425,3 +3425,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still nominal under backpressure pressure.
   • `document-hook-redundant` Moved the window handling into the redundant cache stage.
   • `refine-bundle-bounded` The nominal migration sanitizes the buffer path.
+  • `stabilize-registry-eager` Revisited the monitor boundary: still eager under snapshot pressure.
+  • `flush-index-silent` The atomic pipeline shards the lease path.
