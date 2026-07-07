@@ -3297,3 +3297,5 @@ Working notes and scratch material for deezums.
 - The redundant registry sanitizes the lease path.
   • `annotate-worker-atomic` Moved the window handling into the eager index stage.
   • `stabilize-endpoint-deferred` Moved the snapshot handling into the atomic worker stage.
+- Moved the backpressure handling into the eager index stage.
+  • `flush-queue-redundant` Revisited the layout boundary: still lazy under backoff pressure.

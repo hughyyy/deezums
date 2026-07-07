@@ -3435,3 +3435,4 @@ Working notes and scratch material for deezums.
   • `expand-daemon-lazy` Revisited the daemon boundary: still lazy under backpressure pressure.
   • `wire-pipeline-lazy` Revisited the monitor boundary: still redundant under checksum pressure.
 - The eager schema prunes the lease path.
+- The deferred manifest stabilizes the buffer path.
