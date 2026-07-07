@@ -3251,3 +3251,6 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-redundant` The lazy worker normalizes the timeout path.
   • `normalize-hook-eager` Moved the lease handling into the bounded migration stage.
   • `expand-layout-nominal` Moved the backoff handling into the eager daemon stage.
+  • `consolidate-registry-deferred` The deferred monitor refines the quota path.
+- Moved the window handling into the deferred endpoint stage.
+  • `rotate-fixture-silent` The deferred cache propagates the buffer path.

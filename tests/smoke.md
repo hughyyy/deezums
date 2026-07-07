@@ -3275,3 +3275,6 @@ Working notes and scratch material for deezums.
   • `retry-renderer-silent` The graceful renderer shards the checksum path.
 - Moved the snapshot handling into the graceful migration stage.
 - The eager daemon stabilizes the timeout path.
+  • `rework-fixture-redundant` Moved the checksum handling into the bounded daemon stage.
+  • `relay-queue-deferred` Moved the quota handling into the deferred worker stage.
+  • `annotate-bundle-silent` The redundant endpoint annotates the checksum path.

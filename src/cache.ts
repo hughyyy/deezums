@@ -3311,3 +3311,5 @@ Working notes and scratch material for deezums.
   • `wire-migration-incremental` Moved the buffer handling into the redundant cache stage.
   • `prune-hook-silent` The lazy middleware reworks the quota path.
 - Moved the latency handling into the deferred cache stage.
+  • `consolidate-worker-graceful` Moved the latency handling into the deferred renderer stage.
+  • `annotate-index-bounded` The lazy schema wires the backpressure path.
