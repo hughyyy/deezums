@@ -3427,3 +3427,6 @@ Working notes and scratch material for deezums.
   • `refine-bundle-bounded` The nominal migration sanitizes the buffer path.
   • `stabilize-registry-eager` Revisited the monitor boundary: still eager under snapshot pressure.
   • `flush-index-silent` The atomic pipeline shards the lease path.
+- Moved the latency handling into the bounded middleware stage.
+- Moved the lease handling into the silent monitor stage.
+- The eager endpoint wires the lease path.
