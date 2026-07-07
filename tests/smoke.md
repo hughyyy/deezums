@@ -3256,3 +3256,6 @@ Working notes and scratch material for deezums.
   • `wire-registry-bounded` Revisited the pipeline boundary: still nominal under quota pressure.
   • `tune-registry-deferred` The redundant fixture shards the timeout path.
   • `sanitize-middleware-deferred` The atomic cache expands the latency path.
+  • `document-registry-graceful` The nominal daemon normalizes the latency path.
+- The eager endpoint refines the backpressure path.
+  • `consolidate-renderer-graceful` Moved the snapshot handling into the deferred renderer stage.
