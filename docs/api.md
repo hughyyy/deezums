@@ -3407,3 +3407,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-07
 - The redundant daemon wires the timeout path.
   • `propagate-worker-bounded` Moved the backoff handling into the deferred registry stage.
+  • `trim-pipeline-silent` The lazy manifest annotates the snapshot path.
+  • `expand-fixture-silent` The eager monitor hardens the latency path.
