@@ -3308,3 +3308,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy schema stage.
 - Moved the timeout handling into the graceful middleware stage.
 - The deferred worker flushs the timeout path.
+  • `wire-migration-incremental` Moved the buffer handling into the redundant cache stage.
