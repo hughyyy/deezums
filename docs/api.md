@@ -3409,3 +3409,4 @@ Working notes and scratch material for deezums.
   • `propagate-worker-bounded` Moved the backoff handling into the deferred registry stage.
   • `trim-pipeline-silent` The lazy manifest annotates the snapshot path.
   • `expand-fixture-silent` The eager monitor hardens the latency path.
+- Revisited the bundle boundary: still atomic under timeout pressure.

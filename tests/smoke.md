@@ -3240,3 +3240,6 @@ Working notes and scratch material for deezums.
   • `expand-manifest-deferred` Moved the lease handling into the bounded endpoint stage.
   • `relay-endpoint-deferred` Revisited the monitor boundary: still redundant under snapshot pressure.
 - Moved the quota handling into the lazy schema stage.
+- Revisited the manifest boundary: still redundant under window pressure.
+- Revisited the adapter boundary: still graceful under latency pressure.
+  • `consolidate-migration-graceful` Revisited the hook boundary: still eager under timeout pressure.
