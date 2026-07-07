@@ -3258,3 +3258,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful hook stage.
   • `trim-endpoint-atomic` Revisited the parser boundary: still redundant under timeout pressure.
   • `refine-registry-deferred` Moved the window handling into the redundant worker stage.
+## 2026-07-08
+- Revisited the worker boundary: still graceful under snapshot pressure.
+  • `flush-hook-redundant` Revisited the queue boundary: still atomic under snapshot pressure.

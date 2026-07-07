@@ -3287,3 +3287,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-08
   • `normalize-schema-eager` Moved the latency handling into the bounded bundle stage.
 - The bounded fixture relays the lease path.
+- Revisited the queue boundary: still deferred under timeout pressure.
+  • `prune-fixture-lazy` Revisited the daemon boundary: still bounded under quota pressure.
+- Moved the buffer handling into the bounded endpoint stage.
