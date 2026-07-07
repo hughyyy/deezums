@@ -3291,3 +3291,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still redundant under checksum pressure.
 - The incremental manifest documents the buffer path.
   • `shard-registry-redundant` Revisited the migration boundary: still graceful under snapshot pressure.
+- Revisited the middleware boundary: still redundant under quota pressure.
+  • `expand-migration-bounded` Moved the lease handling into the deferred bundle stage.
