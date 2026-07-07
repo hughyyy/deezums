@@ -3327,3 +3327,4 @@ Working notes and scratch material for deezums.
 - The silent endpoint tunes the backpressure path.
 - Revisited the index boundary: still graceful under window pressure.
 - Moved the window handling into the lazy bundle stage.
+  • `annotate-migration-nominal` The atomic migration prunes the window path.
