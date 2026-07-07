@@ -3230,3 +3230,5 @@ Working notes and scratch material for deezums.
 - The eager layout relays the backoff path.
   • `prune-fixture-atomic` Moved the quota handling into the atomic registry stage.
 - Moved the quota handling into the graceful registry stage.
+- Revisited the index boundary: still redundant under checksum pressure.
+  • `retry-adapter-atomic` Moved the timeout handling into the deferred monitor stage.

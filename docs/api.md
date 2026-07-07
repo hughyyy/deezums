@@ -3422,3 +3422,6 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-eager` The deferred hook reworks the backpressure path.
 - The incremental queue shards the checksum path.
 - The nominal daemon shards the latency path.
+- Revisited the hook boundary: still nominal under backpressure pressure.
+  • `document-hook-redundant` Moved the window handling into the redundant cache stage.
+  • `refine-bundle-bounded` The nominal migration sanitizes the buffer path.
