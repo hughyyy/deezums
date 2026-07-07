@@ -3242,3 +3242,5 @@ Working notes and scratch material for deezums.
 - The nominal migration refines the backpressure path.
   • `consolidate-hook-lazy` The atomic adapter reworks the quota path.
 - The deferred endpoint trims the buffer path.
+  • `rotate-worker-nominal` The silent monitor wires the buffer path.
+- Moved the backpressure handling into the eager renderer stage.
