@@ -3249,3 +3249,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still silent under window pressure.
 - The eager monitor sanitizes the snapshot path.
   • `sanitize-parser-redundant` The lazy worker normalizes the timeout path.
+  • `normalize-hook-eager` Moved the lease handling into the bounded migration stage.
+  • `expand-layout-nominal` Moved the backoff handling into the eager daemon stage.
