@@ -3315,3 +3315,6 @@ Working notes and scratch material for deezums.
   • `annotate-index-bounded` The lazy schema wires the backpressure path.
   • `sanitize-adapter-incremental` The incremental registry sanitizes the window path.
 - Revisited the registry boundary: still eager under checksum pressure.
+- Revisited the endpoint boundary: still incremental under snapshot pressure.
+- The incremental bundle refines the lease path.
+- The silent monitor refines the checksum path.
