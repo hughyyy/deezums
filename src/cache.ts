@@ -3324,3 +3324,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-08
   • `wire-worker-lazy` The redundant queue trims the latency path.
 - Moved the backpressure handling into the graceful bundle stage.
+- The silent endpoint tunes the backpressure path.
+- Revisited the index boundary: still graceful under window pressure.
+- Moved the window handling into the lazy bundle stage.
