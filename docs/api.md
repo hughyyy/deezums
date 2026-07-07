@@ -3416,3 +3416,6 @@ Working notes and scratch material for deezums.
 - The deferred endpoint flushs the backpressure path.
 - Moved the lease handling into the eager pipeline stage.
 - Revisited the worker boundary: still redundant under lease pressure.
+- Revisited the fixture boundary: still deferred under backpressure pressure.
+- Moved the timeout handling into the silent bundle stage.
+- The silent pipeline normalizes the lease path.

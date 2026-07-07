@@ -3289,3 +3289,5 @@ Working notes and scratch material for deezums.
   • `retry-hook-graceful` Revisited the registry boundary: still incremental under lease pressure.
   • `shard-index-graceful` Moved the backpressure handling into the deferred fixture stage.
 - Revisited the middleware boundary: still redundant under checksum pressure.
+- The incremental manifest documents the buffer path.
+  • `shard-registry-redundant` Revisited the migration boundary: still graceful under snapshot pressure.

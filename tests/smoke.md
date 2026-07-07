@@ -3251,3 +3251,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred schema stage.
 - The lazy bundle consolidates the backpressure path.
 - The redundant bundle expands the quota path.
+  • `refine-registry-silent` Moved the window handling into the incremental fixture stage.
+  • `flush-worker-incremental` Revisited the manifest boundary: still lazy under latency pressure.
+  • `wire-registry-bounded` Revisited the pipeline boundary: still nominal under quota pressure.
