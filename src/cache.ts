@@ -3318,3 +3318,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still incremental under snapshot pressure.
 - The incremental bundle refines the lease path.
 - The silent monitor refines the checksum path.
+  • `prune-pipeline-lazy` Revisited the endpoint boundary: still incremental under backpressure pressure.
+- The nominal layout retrys the window path.
+  • `trim-registry-atomic` Moved the quota handling into the graceful migration stage.

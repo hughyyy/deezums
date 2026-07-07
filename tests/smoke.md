@@ -3281,3 +3281,6 @@ Working notes and scratch material for deezums.
   • `prune-fixture-eager` The nominal layout wires the window path.
   • `normalize-layout-bounded` The silent migration sanitizes the backoff path.
   • `rotate-queue-incremental` The atomic manifest normalizes the window path.
+- The nominal schema annotates the backpressure path.
+- Revisited the worker boundary: still redundant under quota pressure.
+  • `annotate-fixture-eager` Revisited the cache boundary: still deferred under lease pressure.
