@@ -3294,3 +3294,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still redundant under quota pressure.
   • `expand-migration-bounded` Moved the lease handling into the deferred bundle stage.
   • `rotate-cache-graceful` Moved the latency handling into the silent migration stage.
+- The redundant registry sanitizes the lease path.
