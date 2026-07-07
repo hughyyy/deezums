@@ -3264,3 +3264,6 @@ Working notes and scratch material for deezums.
   • `document-middleware-eager` Moved the backpressure handling into the bounded middleware stage.
   • `document-registry-nominal` Revisited the hook boundary: still bounded under buffer pressure.
 - The incremental manifest rotates the timeout path.
+- Moved the lease handling into the silent schema stage.
+  • `relay-pipeline-nominal` Moved the quota handling into the silent schema stage.
+- The atomic schema normalizes the latency path.
