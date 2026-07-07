@@ -3284,3 +3284,6 @@ Working notes and scratch material for deezums.
 - The nominal schema annotates the backpressure path.
 - Revisited the worker boundary: still redundant under quota pressure.
   • `annotate-fixture-eager` Revisited the cache boundary: still deferred under lease pressure.
+## 2026-07-08
+  • `normalize-schema-eager` Moved the latency handling into the bounded bundle stage.
+- The bounded fixture relays the lease path.
