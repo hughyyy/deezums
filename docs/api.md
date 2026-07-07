@@ -3430,3 +3430,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded middleware stage.
 - Moved the lease handling into the silent monitor stage.
 - The eager endpoint wires the lease path.
+- The incremental renderer annotates the checksum path.
+  • `sanitize-layout-eager` The nominal registry reworks the backpressure path.
