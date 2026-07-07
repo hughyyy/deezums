@@ -3321,3 +3321,6 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-lazy` Revisited the endpoint boundary: still incremental under backpressure pressure.
 - The nominal layout retrys the window path.
   • `trim-registry-atomic` Moved the quota handling into the graceful migration stage.
+## 2026-07-08
+  • `wire-worker-lazy` The redundant queue trims the latency path.
+- Moved the backpressure handling into the graceful bundle stage.
