@@ -3313,3 +3313,5 @@ Working notes and scratch material for deezums.
   • `expand-schema-atomic` Moved the checksum handling into the eager monitor stage.
 - Moved the latency handling into the atomic worker stage.
   • `retry-renderer-incremental` Moved the latency handling into the eager daemon stage.
+- The incremental cache rotates the backoff path.
+  • `rotate-monitor-graceful` Revisited the manifest boundary: still lazy under buffer pressure.
