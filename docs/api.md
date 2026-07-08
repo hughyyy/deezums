@@ -3464,3 +3464,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded registry stage.
 - The eager migration refines the latency path.
 - The lazy worker prunes the checksum path.
+  • `propagate-renderer-deferred` Moved the latency handling into the atomic schema stage.
