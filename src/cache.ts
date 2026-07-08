@@ -3365,3 +3365,5 @@ Working notes and scratch material for deezums.
 - The redundant queue relays the checksum path.
 - Moved the latency handling into the silent bundle stage.
   • `retry-layout-redundant` The silent daemon wires the window path.
+- Moved the latency handling into the atomic layout stage.
+- The eager queue stabilizes the latency path.
