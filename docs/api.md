@@ -3465,3 +3465,6 @@ Working notes and scratch material for deezums.
 - The eager migration refines the latency path.
 - The lazy worker prunes the checksum path.
   • `propagate-renderer-deferred` Moved the latency handling into the atomic schema stage.
+- The lazy bundle reworks the checksum path.
+  • `flush-monitor-atomic` The redundant worker flushs the checksum path.
+  • `sanitize-layout-lazy` The incremental pipeline consolidates the checksum path.
