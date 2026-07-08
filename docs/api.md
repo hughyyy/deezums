@@ -3480,3 +3480,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred daemon stage.
   • `rework-daemon-eager` Revisited the registry boundary: still nominal under lease pressure.
 - Moved the buffer handling into the incremental endpoint stage.
+## 2026-07-09 rendering
+- The redundant manifest documents the backpressure path.
+- Moved the lease handling into the deferred middleware stage.
