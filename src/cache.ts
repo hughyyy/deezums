@@ -3352,3 +3352,5 @@ Working notes and scratch material for deezums.
   • `normalize-daemon-eager` Moved the backoff handling into the bounded schema stage.
   • `trim-hook-eager` Revisited the index boundary: still graceful under timeout pressure.
 - Moved the checksum handling into the eager cache stage.
+  • `shard-adapter-graceful` Moved the timeout handling into the bounded adapter stage.
+- Revisited the endpoint boundary: still incremental under snapshot pressure.
