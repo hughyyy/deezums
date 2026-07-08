@@ -3290,3 +3290,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still deferred under timeout pressure.
   • `prune-fixture-lazy` Revisited the daemon boundary: still bounded under quota pressure.
 - Moved the buffer handling into the bounded endpoint stage.
+- The atomic daemon sanitizes the checksum path.
+- Moved the snapshot handling into the nominal pipeline stage.
+- Revisited the fixture boundary: still bounded under buffer pressure.
