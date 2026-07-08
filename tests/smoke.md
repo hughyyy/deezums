@@ -3294,3 +3294,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal pipeline stage.
 - Revisited the fixture boundary: still bounded under buffer pressure.
   • `rework-endpoint-redundant` Moved the quota handling into the nominal middleware stage.
+- The lazy bundle sanitizes the backpressure path.
