@@ -3261,3 +3261,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-08
 - Revisited the worker boundary: still graceful under snapshot pressure.
   • `flush-hook-redundant` Revisited the queue boundary: still atomic under snapshot pressure.
+  • `wire-worker-bounded` Revisited the cache boundary: still nominal under latency pressure.
+  • `wire-adapter-nominal` Revisited the manifest boundary: still deferred under checksum pressure.
+  • `rotate-queue-bounded` Revisited the hook boundary: still deferred under window pressure.
