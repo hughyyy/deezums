@@ -3275,3 +3275,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still lazy under backpressure pressure.
   • `trim-endpoint-bounded` The redundant monitor wires the window path.
 - Moved the snapshot handling into the eager pipeline stage.
+  • `wire-bundle-silent` The deferred bundle prunes the checksum path.

@@ -3357,3 +3357,6 @@ Working notes and scratch material for deezums.
   • `normalize-migration-graceful` Revisited the daemon boundary: still lazy under timeout pressure.
 - Revisited the pipeline boundary: still lazy under quota pressure.
   • `shard-cache-deferred` Moved the latency handling into the nominal manifest stage.
+- Moved the buffer handling into the redundant endpoint stage.
+- The redundant bundle annotates the window path.
+- Revisited the renderer boundary: still graceful under latency pressure.
