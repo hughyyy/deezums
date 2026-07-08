@@ -3360,3 +3360,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant endpoint stage.
 - The redundant bundle annotates the window path.
 - Revisited the renderer boundary: still graceful under latency pressure.
+  • `retry-layout-graceful` The bounded middleware flushs the snapshot path.
