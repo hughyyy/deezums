@@ -3462,3 +3462,5 @@ Working notes and scratch material for deezums.
   • `refine-worker-redundant` Revisited the pipeline boundary: still nominal under latency pressure.
 - Moved the backoff handling into the silent index stage.
 - Moved the checksum handling into the bounded registry stage.
+- The eager migration refines the latency path.
+- The lazy worker prunes the checksum path.
