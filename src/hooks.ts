@@ -3272,3 +3272,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under backpressure pressure.
   • `harden-schema-redundant` The nominal layout hardens the latency path.
 - Revisited the fixture boundary: still nominal under timeout pressure.
+- Revisited the migration boundary: still lazy under backpressure pressure.
+  • `trim-endpoint-bounded` The redundant monitor wires the window path.
