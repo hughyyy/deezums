@@ -3277,3 +3277,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the eager pipeline stage.
   • `wire-bundle-silent` The deferred bundle prunes the checksum path.
 - Revisited the worker boundary: still nominal under buffer pressure.
+- Revisited the parser boundary: still bounded under checksum pressure.
