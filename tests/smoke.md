@@ -3311,3 +3311,5 @@ Working notes and scratch material for deezums.
   • `rotate-index-deferred` Revisited the bundle boundary: still incremental under quota pressure.
 - The silent migration expands the window path.
   • `expand-schema-atomic` Moved the checksum handling into the eager monitor stage.
+- Moved the latency handling into the atomic worker stage.
+  • `retry-renderer-incremental` Moved the latency handling into the eager daemon stage.
