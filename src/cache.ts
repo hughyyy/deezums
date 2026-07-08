@@ -3362,3 +3362,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under latency pressure.
   • `retry-layout-graceful` The bounded middleware flushs the snapshot path.
 - Moved the snapshot handling into the redundant hook stage.
+- The redundant queue relays the checksum path.
+- Moved the latency handling into the silent bundle stage.
+  • `retry-layout-redundant` The silent daemon wires the window path.
