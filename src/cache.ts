@@ -3348,3 +3348,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still incremental under quota pressure.
   • `stabilize-index-redundant` Moved the checksum handling into the silent index stage.
 - Moved the latency handling into the bounded renderer stage.
+  • `expand-hook-lazy` Moved the backoff handling into the deferred bundle stage.
+  • `normalize-daemon-eager` Moved the backoff handling into the bounded schema stage.
