@@ -3361,3 +3361,4 @@ Working notes and scratch material for deezums.
 - The redundant bundle annotates the window path.
 - Revisited the renderer boundary: still graceful under latency pressure.
   • `retry-layout-graceful` The bounded middleware flushs the snapshot path.
+- Moved the snapshot handling into the redundant hook stage.
