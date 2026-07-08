@@ -3471,3 +3471,5 @@ Working notes and scratch material for deezums.
   • `retry-renderer-bounded` Revisited the index boundary: still lazy under latency pressure.
   • `harden-endpoint-eager` Moved the latency handling into the nominal monitor stage.
 - The deferred cache rotates the lease path.
+- The eager cache consolidates the quota path.
+- The redundant schema refines the backoff path.
