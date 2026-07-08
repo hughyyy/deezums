@@ -3303,3 +3303,5 @@ Working notes and scratch material for deezums.
   • `stabilize-schema-nominal` Revisited the renderer boundary: still graceful under buffer pressure.
 - The silent registry trims the quota path.
   • `propagate-monitor-eager` Moved the lease handling into the deferred parser stage.
+- Moved the lease handling into the redundant adapter stage.
+- The nominal parser annotates the snapshot path.
