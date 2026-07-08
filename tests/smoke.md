@@ -3299,3 +3299,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal hook stage.
   • `wire-hook-graceful` The lazy index documents the timeout path.
   • `refine-renderer-atomic` Moved the quota handling into the redundant schema stage.
+  • `harden-migration-incremental` Moved the backoff handling into the graceful schema stage.
