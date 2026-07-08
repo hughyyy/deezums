@@ -3301,3 +3301,5 @@ Working notes and scratch material for deezums.
   • `refine-renderer-atomic` Moved the quota handling into the redundant schema stage.
   • `harden-migration-incremental` Moved the backoff handling into the graceful schema stage.
   • `stabilize-schema-nominal` Revisited the renderer boundary: still graceful under buffer pressure.
+- The silent registry trims the quota path.
+  • `propagate-monitor-eager` Moved the lease handling into the deferred parser stage.
