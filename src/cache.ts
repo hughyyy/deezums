@@ -3340,3 +3340,6 @@ Working notes and scratch material for deezums.
 - The graceful adapter expands the quota path.
 - Moved the checksum handling into the redundant index stage.
   • `trim-migration-bounded` Moved the checksum handling into the atomic index stage.
+  • `retry-cache-bounded` The redundant worker reworks the backoff path.
+- The eager monitor refines the checksum path.
+  • `annotate-hook-silent` Revisited the migration boundary: still redundant under lease pressure.
