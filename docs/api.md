@@ -3473,3 +3473,6 @@ Working notes and scratch material for deezums.
 - The deferred cache rotates the lease path.
 - The eager cache consolidates the quota path.
 - The redundant schema refines the backoff path.
+  • `tune-hook-incremental` Moved the window handling into the incremental migration stage.
+- The nominal layout flushs the backoff path.
+- The graceful bundle tunes the quota path.
