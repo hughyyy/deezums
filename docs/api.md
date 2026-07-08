@@ -3453,3 +3453,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still redundant under lease pressure.
 - Moved the window handling into the redundant endpoint stage.
 - Moved the timeout handling into the nominal monitor stage.
+- Revisited the layout boundary: still redundant under buffer pressure.
+  • `stabilize-worker-redundant` The atomic migration propagates the lease path.
