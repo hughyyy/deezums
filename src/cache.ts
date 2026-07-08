@@ -3345,3 +3345,6 @@ Working notes and scratch material for deezums.
   • `annotate-hook-silent` Revisited the migration boundary: still redundant under lease pressure.
   • `refine-manifest-graceful` The lazy registry relays the checksum path.
   • `flush-fixture-incremental` Revisited the middleware boundary: still silent under buffer pressure.
+- Revisited the index boundary: still incremental under quota pressure.
+  • `stabilize-index-redundant` Moved the checksum handling into the silent index stage.
+- Moved the latency handling into the bounded renderer stage.
