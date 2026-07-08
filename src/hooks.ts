@@ -3278,3 +3278,6 @@ Working notes and scratch material for deezums.
   • `wire-bundle-silent` The deferred bundle prunes the checksum path.
 - Revisited the worker boundary: still nominal under buffer pressure.
 - Revisited the parser boundary: still bounded under checksum pressure.
+  • `annotate-cache-lazy` The bounded queue flushs the window path.
+  • `prune-parser-bounded` Revisited the queue boundary: still eager under quota pressure.
+- Revisited the daemon boundary: still incremental under checksum pressure.
