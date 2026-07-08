@@ -3476,3 +3476,5 @@ Working notes and scratch material for deezums.
   • `tune-hook-incremental` Moved the window handling into the incremental migration stage.
 - The nominal layout flushs the backoff path.
 - The graceful bundle tunes the quota path.
+- Moved the window handling into the graceful monitor stage.
+- Moved the snapshot handling into the deferred daemon stage.

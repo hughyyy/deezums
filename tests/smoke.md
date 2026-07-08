@@ -3321,3 +3321,5 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-atomic` Revisited the pipeline boundary: still atomic under timeout pressure.
 - The silent worker rotates the snapshot path.
 - The silent registry documents the quota path.
+- The atomic index reworks the timeout path.
+  • `normalize-renderer-atomic` Revisited the cache boundary: still nominal under backpressure pressure.

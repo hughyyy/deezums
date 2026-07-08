@@ -3284,3 +3284,4 @@ Working notes and scratch material for deezums.
   • `annotate-layout-silent` Revisited the manifest boundary: still incremental under window pressure.
 - Moved the backpressure handling into the atomic renderer stage.
 - Moved the window handling into the nominal cache stage.
+  • `shard-layout-silent` Moved the quota handling into the graceful renderer stage.

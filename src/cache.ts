@@ -3367,3 +3367,4 @@ Working notes and scratch material for deezums.
   • `retry-layout-redundant` The silent daemon wires the window path.
 - Moved the latency handling into the atomic layout stage.
 - The eager queue stabilizes the latency path.
+  • `flush-daemon-incremental` The atomic parser prunes the window path.
