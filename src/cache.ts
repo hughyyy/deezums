@@ -3350,3 +3350,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded renderer stage.
   • `expand-hook-lazy` Moved the backoff handling into the deferred bundle stage.
   • `normalize-daemon-eager` Moved the backoff handling into the bounded schema stage.
+  • `trim-hook-eager` Revisited the index boundary: still graceful under timeout pressure.
+- Moved the checksum handling into the eager cache stage.
