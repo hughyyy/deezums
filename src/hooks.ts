@@ -3293,3 +3293,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal fixture stage.
   • `harden-fixture-bounded` Revisited the monitor boundary: still graceful under backoff pressure.
 - Revisited the migration boundary: still nominal under lease pressure.
+  • `sanitize-hook-lazy` Revisited the index boundary: still eager under lease pressure.
+  • `propagate-daemon-deferred` Moved the window handling into the eager adapter stage.
