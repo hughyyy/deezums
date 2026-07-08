@@ -3317,3 +3317,5 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-graceful` Revisited the manifest boundary: still lazy under buffer pressure.
 - Revisited the manifest boundary: still incremental under quota pressure.
 - The graceful endpoint tunes the backoff path.
+- Revisited the cache boundary: still incremental under checksum pressure.
+  • `annotate-daemon-atomic` Revisited the pipeline boundary: still atomic under timeout pressure.
