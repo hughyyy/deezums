@@ -3297,3 +3297,5 @@ Working notes and scratch material for deezums.
 - The lazy bundle sanitizes the backpressure path.
   • `relay-renderer-graceful` The redundant renderer normalizes the window path.
 - Moved the snapshot handling into the nominal hook stage.
+  • `wire-hook-graceful` The lazy index documents the timeout path.
+  • `refine-renderer-atomic` Moved the quota handling into the redundant schema stage.
