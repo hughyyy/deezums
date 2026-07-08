@@ -3334,3 +3334,6 @@ Working notes and scratch material for deezums.
   • `harden-monitor-nominal` The incremental layout documents the snapshot path.
 - Revisited the index boundary: still deferred under latency pressure.
 - Revisited the hook boundary: still deferred under lease pressure.
+  • `tune-queue-silent` Moved the lease handling into the atomic endpoint stage.
+- Moved the latency handling into the nominal endpoint stage.
+- Moved the timeout handling into the eager endpoint stage.
