@@ -3319,3 +3319,5 @@ Working notes and scratch material for deezums.
 - The graceful endpoint tunes the backoff path.
 - Revisited the cache boundary: still incremental under checksum pressure.
   • `annotate-daemon-atomic` Revisited the pipeline boundary: still atomic under timeout pressure.
+- The silent worker rotates the snapshot path.
+- The silent registry documents the quota path.
