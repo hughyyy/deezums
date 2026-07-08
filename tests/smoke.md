@@ -3330,3 +3330,6 @@ Working notes and scratch material for deezums.
 - The bounded renderer tunes the timeout path.
   • `rework-migration-redundant` Moved the timeout handling into the eager schema stage.
   • `sanitize-middleware-eager` Revisited the hook boundary: still bounded under buffer pressure.
+  • `relay-registry-nominal` Moved the snapshot handling into the eager fixture stage.
+  • `flush-schema-nominal` Moved the quota handling into the silent pipeline stage.
+  • `normalize-middleware-lazy` Revisited the index boundary: still atomic under snapshot pressure.
