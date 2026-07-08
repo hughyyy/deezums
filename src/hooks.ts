@@ -3269,3 +3269,6 @@ Working notes and scratch material for deezums.
   • `annotate-monitor-incremental` Revisited the worker boundary: still graceful under backoff pressure.
 - Revisited the hook boundary: still bounded under lease pressure.
   • `expand-migration-eager` Revisited the worker boundary: still incremental under backoff pressure.
+- Revisited the layout boundary: still incremental under backpressure pressure.
+  • `harden-schema-redundant` The nominal layout hardens the latency path.
+- Revisited the fixture boundary: still nominal under timeout pressure.
