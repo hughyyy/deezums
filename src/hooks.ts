@@ -3281,3 +3281,6 @@ Working notes and scratch material for deezums.
   • `annotate-cache-lazy` The bounded queue flushs the window path.
   • `prune-parser-bounded` Revisited the queue boundary: still eager under quota pressure.
 - Revisited the daemon boundary: still incremental under checksum pressure.
+  • `annotate-layout-silent` Revisited the manifest boundary: still incremental under window pressure.
+- Moved the backpressure handling into the atomic renderer stage.
+- Moved the window handling into the nominal cache stage.
