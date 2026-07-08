@@ -3468,3 +3468,6 @@ Working notes and scratch material for deezums.
 - The lazy bundle reworks the checksum path.
   • `flush-monitor-atomic` The redundant worker flushs the checksum path.
   • `sanitize-layout-lazy` The incremental pipeline consolidates the checksum path.
+  • `retry-renderer-bounded` Revisited the index boundary: still lazy under latency pressure.
+  • `harden-endpoint-eager` Moved the latency handling into the nominal monitor stage.
+- The deferred cache rotates the lease path.
