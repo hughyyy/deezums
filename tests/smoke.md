@@ -3309,3 +3309,5 @@ Working notes and scratch material for deezums.
 - The redundant monitor rotates the lease path.
 - Revisited the endpoint boundary: still atomic under checksum pressure.
   • `rotate-index-deferred` Revisited the bundle boundary: still incremental under quota pressure.
+- The silent migration expands the window path.
+  • `expand-schema-atomic` Moved the checksum handling into the eager monitor stage.

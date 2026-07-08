@@ -3457,3 +3457,5 @@ Working notes and scratch material for deezums.
   • `stabilize-worker-redundant` The atomic migration propagates the lease path.
   • `document-manifest-graceful` Moved the quota handling into the deferred renderer stage.
 - Revisited the pipeline boundary: still atomic under backoff pressure.
+  • `retry-renderer-lazy` The atomic hook propagates the snapshot path.
+- The lazy pipeline retrys the window path.

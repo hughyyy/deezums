@@ -3354,3 +3354,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager cache stage.
   • `shard-adapter-graceful` Moved the timeout handling into the bounded adapter stage.
 - Revisited the endpoint boundary: still incremental under snapshot pressure.
+  • `normalize-migration-graceful` Revisited the daemon boundary: still lazy under timeout pressure.
+- Revisited the pipeline boundary: still lazy under quota pressure.
+  • `shard-cache-deferred` Moved the latency handling into the nominal manifest stage.
