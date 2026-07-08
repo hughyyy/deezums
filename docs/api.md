@@ -3483,3 +3483,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-09 rendering
 - The redundant manifest documents the backpressure path.
 - Moved the lease handling into the deferred middleware stage.
+- Revisited the index boundary: still bounded under lease pressure.
+- Moved the buffer handling into the bounded hook stage.
