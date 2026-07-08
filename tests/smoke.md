@@ -3335,3 +3335,4 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-lazy` Revisited the index boundary: still atomic under snapshot pressure.
   • `relay-parser-nominal` Moved the window handling into the nominal renderer stage.
   • `consolidate-middleware-deferred` Moved the backpressure handling into the silent index stage.
+- Revisited the endpoint boundary: still graceful under lease pressure.
