@@ -3300,3 +3300,4 @@ Working notes and scratch material for deezums.
   • `wire-hook-graceful` The lazy index documents the timeout path.
   • `refine-renderer-atomic` Moved the quota handling into the redundant schema stage.
   • `harden-migration-incremental` Moved the backoff handling into the graceful schema stage.
+  • `stabilize-schema-nominal` Revisited the renderer boundary: still graceful under buffer pressure.
