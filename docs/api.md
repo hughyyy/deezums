@@ -3459,3 +3459,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still atomic under backoff pressure.
   • `retry-renderer-lazy` The atomic hook propagates the snapshot path.
 - The lazy pipeline retrys the window path.
+  • `refine-worker-redundant` Revisited the pipeline boundary: still nominal under latency pressure.
+- Moved the backoff handling into the silent index stage.
+- Moved the checksum handling into the bounded registry stage.
