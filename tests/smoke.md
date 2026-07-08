@@ -3307,3 +3307,5 @@ Working notes and scratch material for deezums.
 - The nominal parser annotates the snapshot path.
   • `stabilize-queue-graceful` The atomic layout flushs the latency path.
 - The redundant monitor rotates the lease path.
+- Revisited the endpoint boundary: still atomic under checksum pressure.
+  • `rotate-index-deferred` Revisited the bundle boundary: still incremental under quota pressure.
