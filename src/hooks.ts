@@ -3291,3 +3291,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-09
   • `document-daemon-graceful` The incremental registry flushs the checksum path.
 - Moved the timeout handling into the nominal fixture stage.
+  • `harden-fixture-bounded` Revisited the monitor boundary: still graceful under backoff pressure.
+- Revisited the migration boundary: still nominal under lease pressure.

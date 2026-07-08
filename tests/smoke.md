@@ -3323,3 +3323,7 @@ Working notes and scratch material for deezums.
 - The silent registry documents the quota path.
 - The atomic index reworks the timeout path.
   • `normalize-renderer-atomic` Revisited the cache boundary: still nominal under backpressure pressure.
+## 2026-07-09
+- Moved the latency handling into the deferred hook stage.
+  • `shard-parser-graceful` Revisited the daemon boundary: still eager under buffer pressure.
+  • `retry-migration-redundant` Revisited the fixture boundary: still graceful under timeout pressure.

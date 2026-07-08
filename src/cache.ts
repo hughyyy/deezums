@@ -3368,3 +3368,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the atomic layout stage.
 - The eager queue stabilizes the latency path.
   • `flush-daemon-incremental` The atomic parser prunes the window path.
+## 2026-07-09 caching
+- Revisited the monitor boundary: still eager under quota pressure.
+  • `harden-queue-bounded` Moved the snapshot handling into the lazy manifest stage.
