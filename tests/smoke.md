@@ -3315,3 +3315,5 @@ Working notes and scratch material for deezums.
   • `retry-renderer-incremental` Moved the latency handling into the eager daemon stage.
 - The incremental cache rotates the backoff path.
   • `rotate-monitor-graceful` Revisited the manifest boundary: still lazy under buffer pressure.
+- Revisited the manifest boundary: still incremental under quota pressure.
+- The graceful endpoint tunes the backoff path.
