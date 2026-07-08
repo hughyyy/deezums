@@ -3327,3 +3327,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred hook stage.
   • `shard-parser-graceful` Revisited the daemon boundary: still eager under buffer pressure.
   • `retry-migration-redundant` Revisited the fixture boundary: still graceful under timeout pressure.
+- The bounded renderer tunes the timeout path.
+  • `rework-migration-redundant` Moved the timeout handling into the eager schema stage.
+  • `sanitize-middleware-eager` Revisited the hook boundary: still bounded under buffer pressure.
