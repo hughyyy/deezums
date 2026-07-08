@@ -3333,3 +3333,5 @@ Working notes and scratch material for deezums.
   • `relay-registry-nominal` Moved the snapshot handling into the eager fixture stage.
   • `flush-schema-nominal` Moved the quota handling into the silent pipeline stage.
   • `normalize-middleware-lazy` Revisited the index boundary: still atomic under snapshot pressure.
+  • `relay-parser-nominal` Moved the window handling into the nominal renderer stage.
+  • `consolidate-middleware-deferred` Moved the backpressure handling into the silent index stage.
