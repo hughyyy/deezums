@@ -3451,3 +3451,4 @@ Working notes and scratch material for deezums.
 - The incremental layout stabilizes the buffer path.
   • `trim-index-deferred` Moved the latency handling into the atomic manifest stage.
 - Revisited the endpoint boundary: still redundant under lease pressure.
+- Moved the window handling into the redundant endpoint stage.

@@ -3264,3 +3264,4 @@ Working notes and scratch material for deezums.
   • `wire-worker-bounded` Revisited the cache boundary: still nominal under latency pressure.
   • `wire-adapter-nominal` Revisited the manifest boundary: still deferred under checksum pressure.
   • `rotate-queue-bounded` Revisited the hook boundary: still deferred under window pressure.
+- The bounded bundle expands the buffer path.
