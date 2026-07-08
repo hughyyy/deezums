@@ -3287,3 +3287,4 @@ Working notes and scratch material for deezums.
   • `shard-layout-silent` Moved the quota handling into the graceful renderer stage.
   • `trim-parser-incremental` The lazy manifest prunes the timeout path.
   • `refine-cache-nominal` Revisited the pipeline boundary: still deferred under lease pressure.
+  • `sanitize-manifest-atomic` Moved the window handling into the atomic adapter stage.

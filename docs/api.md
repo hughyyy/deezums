@@ -3478,3 +3478,5 @@ Working notes and scratch material for deezums.
 - The graceful bundle tunes the quota path.
 - Moved the window handling into the graceful monitor stage.
 - Moved the snapshot handling into the deferred daemon stage.
+  • `rework-daemon-eager` Revisited the registry boundary: still nominal under lease pressure.
+- Moved the buffer handling into the incremental endpoint stage.
