@@ -3305,3 +3305,5 @@ Working notes and scratch material for deezums.
   • `propagate-monitor-eager` Moved the lease handling into the deferred parser stage.
 - Moved the lease handling into the redundant adapter stage.
 - The nominal parser annotates the snapshot path.
+  • `stabilize-queue-graceful` The atomic layout flushs the latency path.
+- The redundant monitor rotates the lease path.

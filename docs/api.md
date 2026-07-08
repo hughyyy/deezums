@@ -3455,3 +3455,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal monitor stage.
 - Revisited the layout boundary: still redundant under buffer pressure.
   • `stabilize-worker-redundant` The atomic migration propagates the lease path.
+  • `document-manifest-graceful` Moved the quota handling into the deferred renderer stage.
+- Revisited the pipeline boundary: still atomic under backoff pressure.
