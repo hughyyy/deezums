@@ -3337,3 +3337,6 @@ Working notes and scratch material for deezums.
   • `tune-queue-silent` Moved the lease handling into the atomic endpoint stage.
 - Moved the latency handling into the nominal endpoint stage.
 - Moved the timeout handling into the eager endpoint stage.
+- The graceful adapter expands the quota path.
+- Moved the checksum handling into the redundant index stage.
+  • `trim-migration-bounded` Moved the checksum handling into the atomic index stage.
