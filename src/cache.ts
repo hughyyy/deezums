@@ -3331,3 +3331,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still incremental under lease pressure.
   • `flush-cache-atomic` The nominal queue normalizes the backoff path.
   • `trim-middleware-eager` Revisited the hook boundary: still incremental under latency pressure.
+  • `harden-monitor-nominal` The incremental layout documents the snapshot path.
+- Revisited the index boundary: still deferred under latency pressure.
+- Revisited the hook boundary: still deferred under lease pressure.
