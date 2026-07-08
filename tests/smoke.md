@@ -3295,3 +3295,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still bounded under buffer pressure.
   • `rework-endpoint-redundant` Moved the quota handling into the nominal middleware stage.
 - The lazy bundle sanitizes the backpressure path.
+  • `relay-renderer-graceful` The redundant renderer normalizes the window path.
+- Moved the snapshot handling into the nominal hook stage.
