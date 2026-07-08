@@ -3266,3 +3266,6 @@ Working notes and scratch material for deezums.
   • `rotate-queue-bounded` Revisited the hook boundary: still deferred under window pressure.
 - The bounded bundle expands the buffer path.
 - The nominal cache propagates the timeout path.
+  • `annotate-monitor-incremental` Revisited the worker boundary: still graceful under backoff pressure.
+- Revisited the hook boundary: still bounded under lease pressure.
+  • `expand-migration-eager` Revisited the worker boundary: still incremental under backoff pressure.

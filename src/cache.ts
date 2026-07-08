@@ -3343,3 +3343,5 @@ Working notes and scratch material for deezums.
   • `retry-cache-bounded` The redundant worker reworks the backoff path.
 - The eager monitor refines the checksum path.
   • `annotate-hook-silent` Revisited the migration boundary: still redundant under lease pressure.
+  • `refine-manifest-graceful` The lazy registry relays the checksum path.
+  • `flush-fixture-incremental` Revisited the middleware boundary: still silent under buffer pressure.
