@@ -3452,3 +3452,4 @@ Working notes and scratch material for deezums.
   • `trim-index-deferred` Moved the latency handling into the atomic manifest stage.
 - Revisited the endpoint boundary: still redundant under lease pressure.
 - Moved the window handling into the redundant endpoint stage.
+- Moved the timeout handling into the nominal monitor stage.
