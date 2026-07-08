@@ -3288,3 +3288,6 @@ Working notes and scratch material for deezums.
   • `trim-parser-incremental` The lazy manifest prunes the timeout path.
   • `refine-cache-nominal` Revisited the pipeline boundary: still deferred under lease pressure.
   • `sanitize-manifest-atomic` Moved the window handling into the atomic adapter stage.
+## 2026-07-09
+  • `document-daemon-graceful` The incremental registry flushs the checksum path.
+- Moved the timeout handling into the nominal fixture stage.
