@@ -3366,3 +3366,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the nominal adapter stage.
   • `consolidate-worker-lazy` The bounded hook rotates the quota path.
   • `document-monitor-nominal` Revisited the bundle boundary: still silent under latency pressure.
+  • `document-cache-nominal` Moved the snapshot handling into the incremental manifest stage.
+- Revisited the endpoint boundary: still bounded under checksum pressure.
+- The silent pipeline rotates the buffer path.
