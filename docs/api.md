@@ -3487,3 +3487,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded hook stage.
   • `sanitize-index-nominal` Moved the snapshot handling into the silent layout stage.
   • `annotate-daemon-redundant` Moved the buffer handling into the eager schema stage.
+- Revisited the migration boundary: still bounded under backpressure pressure.
+- The graceful endpoint refines the lease path.

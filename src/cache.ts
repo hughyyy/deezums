@@ -3378,3 +3378,6 @@ Working notes and scratch material for deezums.
   • `document-queue-bounded` Revisited the migration boundary: still deferred under window pressure.
   • `annotate-parser-nominal` Revisited the worker boundary: still eager under buffer pressure.
   • `normalize-pipeline-bounded` The silent daemon propagates the quota path.
+  • `harden-renderer-nominal` The lazy schema hardens the lease path.
+  • `flush-manifest-silent` Moved the window handling into the silent hook stage.
+  • `annotate-manifest-silent` Revisited the cache boundary: still redundant under buffer pressure.
