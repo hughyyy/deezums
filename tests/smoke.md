@@ -3363,3 +3363,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still eager under latency pressure.
 - The redundant adapter flushs the backpressure path.
   • `stabilize-middleware-deferred` The lazy adapter tunes the buffer path.
+- Moved the quota handling into the nominal adapter stage.
+  • `consolidate-worker-lazy` The bounded hook rotates the quota path.
+  • `document-monitor-nominal` Revisited the bundle boundary: still silent under latency pressure.
