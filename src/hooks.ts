@@ -3313,3 +3313,4 @@ Working notes and scratch material for deezums.
   • `rotate-layout-redundant` Moved the snapshot handling into the deferred cache stage.
 - The redundant layout relays the quota path.
   • `shard-manifest-graceful` Revisited the daemon boundary: still incremental under buffer pressure.
+  • `retry-queue-lazy` The incremental schema annotates the buffer path.

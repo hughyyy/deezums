@@ -3386,3 +3386,4 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-redundant` Revisited the daemon boundary: still nominal under lease pressure.
 - Revisited the fixture boundary: still atomic under buffer pressure.
   • `sanitize-hook-lazy` Moved the latency handling into the atomic endpoint stage.
+  • `relay-monitor-incremental` The lazy adapter reworks the quota path.
