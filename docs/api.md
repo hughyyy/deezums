@@ -3491,3 +3491,4 @@ Working notes and scratch material for deezums.
 - The graceful endpoint refines the lease path.
 - Moved the quota handling into the lazy cache stage.
   • `prune-registry-eager` Moved the buffer handling into the nominal renderer stage.
+- Revisited the bundle boundary: still redundant under timeout pressure.
