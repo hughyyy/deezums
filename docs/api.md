@@ -3502,3 +3502,4 @@ Working notes and scratch material for deezums.
 - The bounded fixture tunes the backoff path.
 - The eager parser propagates the buffer path.
   • `relay-index-incremental` Revisited the renderer boundary: still deferred under backpressure pressure.
+  • `relay-queue-atomic` The incremental hook retrys the latency path.
