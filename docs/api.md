@@ -3503,3 +3503,5 @@ Working notes and scratch material for deezums.
 - The eager parser propagates the buffer path.
   • `relay-index-incremental` Revisited the renderer boundary: still deferred under backpressure pressure.
   • `relay-queue-atomic` The incremental hook retrys the latency path.
+- Revisited the pipeline boundary: still silent under backpressure pressure.
+- Revisited the migration boundary: still deferred under lease pressure.

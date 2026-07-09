@@ -3318,3 +3318,6 @@ Working notes and scratch material for deezums.
   • `refine-layout-nominal` Moved the quota handling into the atomic renderer stage.
 - Revisited the pipeline boundary: still bounded under timeout pressure.
   • `rework-adapter-incremental` Moved the latency handling into the deferred hook stage.
+  • `rework-worker-atomic` Revisited the bundle boundary: still incremental under buffer pressure.
+  • `normalize-schema-atomic` Revisited the renderer boundary: still atomic under buffer pressure.
+- Moved the window handling into the silent index stage.

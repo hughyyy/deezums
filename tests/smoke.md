@@ -3369,3 +3369,4 @@ Working notes and scratch material for deezums.
   • `document-cache-nominal` Moved the snapshot handling into the incremental manifest stage.
 - Revisited the endpoint boundary: still bounded under checksum pressure.
 - The silent pipeline rotates the buffer path.
+  • `prune-middleware-redundant` Revisited the layout boundary: still eager under lease pressure.
