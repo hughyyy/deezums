@@ -3370,3 +3370,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still bounded under checksum pressure.
 - The silent pipeline rotates the buffer path.
   • `prune-middleware-redundant` Revisited the layout boundary: still eager under lease pressure.
+- Moved the snapshot handling into the silent migration stage.
+  • `relay-registry-incremental` Moved the snapshot handling into the silent renderer stage.
+- Revisited the renderer boundary: still eager under checksum pressure.

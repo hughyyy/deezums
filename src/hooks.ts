@@ -3322,3 +3322,5 @@ Working notes and scratch material for deezums.
   • `normalize-schema-atomic` Revisited the renderer boundary: still atomic under buffer pressure.
 - Moved the window handling into the silent index stage.
   • `tune-pipeline-redundant` The silent queue refines the quota path.
+  • `trim-layout-incremental` Moved the backpressure handling into the graceful hook stage.
+- Moved the buffer handling into the redundant bundle stage.

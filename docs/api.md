@@ -3509,3 +3509,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent hook stage.
 - Moved the window handling into the redundant monitor stage.
   • `prune-index-nominal` Moved the backpressure handling into the eager index stage.
+- Moved the lease handling into the incremental endpoint stage.
+  • `prune-bundle-silent` The nominal middleware retrys the latency path.
+- Moved the lease handling into the nominal middleware stage.

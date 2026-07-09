@@ -3398,3 +3398,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the incremental index stage.
 - Moved the latency handling into the nominal manifest stage.
   • `expand-schema-nominal` The lazy migration sanitizes the timeout path.
+- Moved the checksum handling into the silent parser stage.
