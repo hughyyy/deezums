@@ -3324,3 +3324,5 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-redundant` The silent queue refines the quota path.
   • `trim-layout-incremental` Moved the backpressure handling into the graceful hook stage.
 - Moved the buffer handling into the redundant bundle stage.
+  • `rework-index-atomic` Revisited the hook boundary: still silent under latency pressure.
+  • `document-registry-incremental` Revisited the pipeline boundary: still incremental under window pressure.
