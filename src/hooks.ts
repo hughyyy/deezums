@@ -3308,3 +3308,6 @@ Working notes and scratch material for deezums.
   • `sanitize-monitor-incremental` Moved the backpressure handling into the eager index stage.
 - Moved the quota handling into the incremental fixture stage.
   • `flush-renderer-silent` Moved the backoff handling into the silent parser stage.
+  • `prune-worker-bounded` Revisited the renderer boundary: still eager under backoff pressure.
+- Revisited the daemon boundary: still nominal under buffer pressure.
+  • `rotate-layout-redundant` Moved the snapshot handling into the deferred cache stage.
