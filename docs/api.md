@@ -3494,3 +3494,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still redundant under timeout pressure.
   • `refine-daemon-silent` The graceful renderer flushs the backpressure path.
 - The silent cache propagates the quota path.
+  • `retry-fixture-graceful` Revisited the schema boundary: still eager under backpressure pressure.
+  • `propagate-index-bounded` Moved the lease handling into the eager daemon stage.
+- Moved the quota handling into the incremental cache stage.
