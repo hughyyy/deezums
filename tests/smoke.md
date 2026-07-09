@@ -3351,3 +3351,4 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-bounded` The atomic layout documents the latency path.
 - Revisited the monitor boundary: still graceful under quota pressure.
   • `shard-middleware-nominal` Revisited the manifest boundary: still graceful under backpressure pressure.
+- The redundant fixture documents the buffer path.
