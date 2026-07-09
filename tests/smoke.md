@@ -3361,3 +3361,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still silent under backpressure pressure.
   • `tune-cache-graceful` Moved the buffer handling into the incremental registry stage.
 - Revisited the hook boundary: still eager under latency pressure.
+- The redundant adapter flushs the backpressure path.
+  • `stabilize-middleware-deferred` The lazy adapter tunes the buffer path.
