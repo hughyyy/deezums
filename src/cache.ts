@@ -3389,3 +3389,4 @@ Working notes and scratch material for deezums.
   • `relay-monitor-incremental` The lazy adapter reworks the quota path.
   • `expand-parser-atomic` Revisited the layout boundary: still atomic under latency pressure.
   • `retry-layout-graceful` The lazy schema wires the window path.
+- Revisited the pipeline boundary: still lazy under buffer pressure.
