@@ -3492,3 +3492,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the lazy cache stage.
   • `prune-registry-eager` Moved the buffer handling into the nominal renderer stage.
 - Revisited the bundle boundary: still redundant under timeout pressure.
+  • `refine-daemon-silent` The graceful renderer flushs the backpressure path.
