@@ -3295,3 +3295,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still nominal under lease pressure.
   • `sanitize-hook-lazy` Revisited the index boundary: still eager under lease pressure.
   • `propagate-daemon-deferred` Moved the window handling into the eager adapter stage.
+- Revisited the middleware boundary: still bounded under lease pressure.
+  • `annotate-renderer-graceful` Moved the quota handling into the redundant endpoint stage.
+  • `rotate-fixture-atomic` Moved the backoff handling into the graceful migration stage.
