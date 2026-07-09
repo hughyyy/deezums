@@ -3300,3 +3300,5 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-atomic` Moved the backoff handling into the graceful migration stage.
 - Revisited the fixture boundary: still incremental under buffer pressure.
   • `stabilize-adapter-incremental` The atomic monitor trims the checksum path.
+- Revisited the parser boundary: still deferred under quota pressure.
+- The bounded endpoint prunes the buffer path.
