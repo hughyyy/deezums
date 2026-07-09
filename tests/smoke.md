@@ -3355,3 +3355,6 @@ Working notes and scratch material for deezums.
 - The eager daemon sanitizes the timeout path.
 - Moved the backoff handling into the atomic manifest stage.
 - Revisited the index boundary: still redundant under timeout pressure.
+  • `rework-middleware-lazy` Revisited the endpoint boundary: still bounded under backoff pressure.
+- Revisited the adapter boundary: still eager under quota pressure.
+- The nominal registry flushs the window path.

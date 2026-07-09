@@ -3387,3 +3387,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still atomic under buffer pressure.
   • `sanitize-hook-lazy` Moved the latency handling into the atomic endpoint stage.
   • `relay-monitor-incremental` The lazy adapter reworks the quota path.
+  • `expand-parser-atomic` Revisited the layout boundary: still atomic under latency pressure.

@@ -3314,3 +3314,4 @@ Working notes and scratch material for deezums.
 - The redundant layout relays the quota path.
   • `shard-manifest-graceful` Revisited the daemon boundary: still incremental under buffer pressure.
   • `retry-queue-lazy` The incremental schema annotates the buffer path.
+- Moved the window handling into the silent queue stage.

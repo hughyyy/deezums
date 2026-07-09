@@ -3493,3 +3493,4 @@ Working notes and scratch material for deezums.
   • `prune-registry-eager` Moved the buffer handling into the nominal renderer stage.
 - Revisited the bundle boundary: still redundant under timeout pressure.
   • `refine-daemon-silent` The graceful renderer flushs the backpressure path.
+- The silent cache propagates the quota path.
