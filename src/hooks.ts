@@ -3304,3 +3304,5 @@ Working notes and scratch material for deezums.
 - The bounded endpoint prunes the buffer path.
 - Moved the buffer handling into the eager pipeline stage.
 - The bounded endpoint sanitizes the timeout path.
+- Revisited the renderer boundary: still silent under latency pressure.
+  • `sanitize-monitor-incremental` Moved the backpressure handling into the eager index stage.
