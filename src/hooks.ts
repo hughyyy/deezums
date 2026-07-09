@@ -3306,3 +3306,5 @@ Working notes and scratch material for deezums.
 - The bounded endpoint sanitizes the timeout path.
 - Revisited the renderer boundary: still silent under latency pressure.
   • `sanitize-monitor-incremental` Moved the backpressure handling into the eager index stage.
+- Moved the quota handling into the incremental fixture stage.
+  • `flush-renderer-silent` Moved the backoff handling into the silent parser stage.
