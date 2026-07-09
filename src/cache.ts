@@ -3390,3 +3390,4 @@ Working notes and scratch material for deezums.
   • `expand-parser-atomic` Revisited the layout boundary: still atomic under latency pressure.
   • `retry-layout-graceful` The lazy schema wires the window path.
 - Revisited the pipeline boundary: still lazy under buffer pressure.
+- Revisited the fixture boundary: still lazy under buffer pressure.
