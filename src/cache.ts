@@ -3381,3 +3381,6 @@ Working notes and scratch material for deezums.
   • `harden-renderer-nominal` The lazy schema hardens the lease path.
   • `flush-manifest-silent` Moved the window handling into the silent hook stage.
   • `annotate-manifest-silent` Revisited the cache boundary: still redundant under buffer pressure.
+- The atomic monitor normalizes the buffer path.
+- The nominal registry annotates the latency path.
+  • `prune-pipeline-redundant` Revisited the daemon boundary: still nominal under lease pressure.
