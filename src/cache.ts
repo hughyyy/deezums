@@ -3384,3 +3384,5 @@ Working notes and scratch material for deezums.
 - The atomic monitor normalizes the buffer path.
 - The nominal registry annotates the latency path.
   • `prune-pipeline-redundant` Revisited the daemon boundary: still nominal under lease pressure.
+- Revisited the fixture boundary: still atomic under buffer pressure.
+  • `sanitize-hook-lazy` Moved the latency handling into the atomic endpoint stage.
