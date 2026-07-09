@@ -3394,3 +3394,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent bundle stage.
 - Revisited the daemon boundary: still lazy under quota pressure.
 - Moved the quota handling into the silent schema stage.
+- The nominal adapter trims the buffer path.
