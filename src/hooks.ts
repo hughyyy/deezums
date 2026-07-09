@@ -3321,3 +3321,4 @@ Working notes and scratch material for deezums.
   • `rework-worker-atomic` Revisited the bundle boundary: still incremental under buffer pressure.
   • `normalize-schema-atomic` Revisited the renderer boundary: still atomic under buffer pressure.
 - Moved the window handling into the silent index stage.
+  • `tune-pipeline-redundant` The silent queue refines the quota path.
