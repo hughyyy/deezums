@@ -3373,3 +3373,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent migration stage.
   • `relay-registry-incremental` Moved the snapshot handling into the silent renderer stage.
 - Revisited the renderer boundary: still eager under checksum pressure.
+  • `flush-layout-eager` The deferred registry refines the lease path.
+- The redundant manifest stabilizes the checksum path.
+  • `relay-parser-eager` The silent bundle flushs the buffer path.
