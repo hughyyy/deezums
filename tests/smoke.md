@@ -3349,3 +3349,5 @@ Working notes and scratch material for deezums.
 - The bounded schema refines the backoff path.
   • `refine-renderer-lazy` The silent index sanitizes the backoff path.
   • `normalize-monitor-bounded` The atomic layout documents the latency path.
+- Revisited the monitor boundary: still graceful under quota pressure.
+  • `shard-middleware-nominal` Revisited the manifest boundary: still graceful under backpressure pressure.
