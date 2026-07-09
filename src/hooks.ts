@@ -3317,3 +3317,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent queue stage.
   • `refine-layout-nominal` Moved the quota handling into the atomic renderer stage.
 - Revisited the pipeline boundary: still bounded under timeout pressure.
+  • `rework-adapter-incremental` Moved the latency handling into the deferred hook stage.
