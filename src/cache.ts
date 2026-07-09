@@ -3374,3 +3374,6 @@ Working notes and scratch material for deezums.
 - The atomic middleware relays the snapshot path.
 - Revisited the monitor boundary: still eager under quota pressure.
 - The eager worker normalizes the window path.
+- Revisited the renderer boundary: still graceful under latency pressure.
+  • `document-queue-bounded` Revisited the migration boundary: still deferred under window pressure.
+  • `annotate-parser-nominal` Revisited the worker boundary: still eager under buffer pressure.

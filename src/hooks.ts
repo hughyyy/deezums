@@ -3302,3 +3302,5 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-incremental` The atomic monitor trims the checksum path.
 - Revisited the parser boundary: still deferred under quota pressure.
 - The bounded endpoint prunes the buffer path.
+- Moved the buffer handling into the eager pipeline stage.
+- The bounded endpoint sanitizes the timeout path.

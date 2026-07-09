@@ -3341,3 +3341,6 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-deferred` The graceful middleware propagates the window path.
   • `normalize-bundle-graceful` Revisited the hook boundary: still graceful under checksum pressure.
 - Moved the quota handling into the atomic daemon stage.
+  • `document-registry-eager` Revisited the queue boundary: still deferred under checksum pressure.
+  • `stabilize-queue-lazy` The lazy layout stabilizes the lease path.
+- The silent pipeline tunes the backoff path.
