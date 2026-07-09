@@ -3499,3 +3499,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental cache stage.
   • `rework-endpoint-incremental` Revisited the endpoint boundary: still atomic under quota pressure.
 - Moved the latency handling into the silent pipeline stage.
+- The bounded fixture tunes the backoff path.
+- The eager parser propagates the buffer path.
+  • `relay-index-incremental` Revisited the renderer boundary: still deferred under backpressure pressure.
