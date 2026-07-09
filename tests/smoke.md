@@ -3339,3 +3339,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental daemon stage.
   • `retry-endpoint-atomic` Moved the lease handling into the graceful registry stage.
   • `consolidate-cache-deferred` The graceful middleware propagates the window path.
+  • `normalize-bundle-graceful` Revisited the hook boundary: still graceful under checksum pressure.
+- Moved the quota handling into the atomic daemon stage.
