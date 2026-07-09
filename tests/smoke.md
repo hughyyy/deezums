@@ -3346,3 +3346,6 @@ Working notes and scratch material for deezums.
 - The silent pipeline tunes the backoff path.
   • `tune-cache-bounded` Revisited the pipeline boundary: still redundant under quota pressure.
 - The nominal queue propagates the window path.
+- The bounded schema refines the backoff path.
+  • `refine-renderer-lazy` The silent index sanitizes the backoff path.
+  • `normalize-monitor-bounded` The atomic layout documents the latency path.
