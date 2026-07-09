@@ -3505,3 +3505,4 @@ Working notes and scratch material for deezums.
   • `relay-queue-atomic` The incremental hook retrys the latency path.
 - Revisited the pipeline boundary: still silent under backpressure pressure.
 - Revisited the migration boundary: still deferred under lease pressure.
+- Revisited the layout boundary: still atomic under buffer pressure.
