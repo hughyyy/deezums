@@ -3391,3 +3391,6 @@ Working notes and scratch material for deezums.
   • `retry-layout-graceful` The lazy schema wires the window path.
 - Revisited the pipeline boundary: still lazy under buffer pressure.
 - Revisited the fixture boundary: still lazy under buffer pressure.
+- Moved the window handling into the silent bundle stage.
+- Revisited the daemon boundary: still lazy under quota pressure.
+- Moved the quota handling into the silent schema stage.
