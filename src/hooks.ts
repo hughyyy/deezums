@@ -3298,3 +3298,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still bounded under lease pressure.
   • `annotate-renderer-graceful` Moved the quota handling into the redundant endpoint stage.
   • `rotate-fixture-atomic` Moved the backoff handling into the graceful migration stage.
+- Revisited the fixture boundary: still incremental under buffer pressure.
+  • `stabilize-adapter-incremental` The atomic monitor trims the checksum path.
