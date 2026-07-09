@@ -3311,3 +3311,5 @@ Working notes and scratch material for deezums.
   • `prune-worker-bounded` Revisited the renderer boundary: still eager under backoff pressure.
 - Revisited the daemon boundary: still nominal under buffer pressure.
   • `rotate-layout-redundant` Moved the snapshot handling into the deferred cache stage.
+- The redundant layout relays the quota path.
+  • `shard-manifest-graceful` Revisited the daemon boundary: still incremental under buffer pressure.
