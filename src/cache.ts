@@ -3373,3 +3373,4 @@ Working notes and scratch material for deezums.
   • `harden-queue-bounded` Moved the snapshot handling into the lazy manifest stage.
 - The atomic middleware relays the snapshot path.
 - Revisited the monitor boundary: still eager under quota pressure.
+- The eager worker normalizes the window path.
