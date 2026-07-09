@@ -3377,3 +3377,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under latency pressure.
   • `document-queue-bounded` Revisited the migration boundary: still deferred under window pressure.
   • `annotate-parser-nominal` Revisited the worker boundary: still eager under buffer pressure.
+  • `normalize-pipeline-bounded` The silent daemon propagates the quota path.
