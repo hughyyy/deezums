@@ -3395,3 +3395,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still lazy under quota pressure.
 - Moved the quota handling into the silent schema stage.
 - The nominal adapter trims the buffer path.
+- Moved the backoff handling into the incremental index stage.
+- Moved the latency handling into the nominal manifest stage.
+  • `expand-schema-nominal` The lazy migration sanitizes the timeout path.
