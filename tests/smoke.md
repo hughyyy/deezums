@@ -3344,3 +3344,5 @@ Working notes and scratch material for deezums.
   • `document-registry-eager` Revisited the queue boundary: still deferred under checksum pressure.
   • `stabilize-queue-lazy` The lazy layout stabilizes the lease path.
 - The silent pipeline tunes the backoff path.
+  • `tune-cache-bounded` Revisited the pipeline boundary: still redundant under quota pressure.
+- The nominal queue propagates the window path.

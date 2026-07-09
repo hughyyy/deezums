@@ -3486,3 +3486,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still bounded under lease pressure.
 - Moved the buffer handling into the bounded hook stage.
   • `sanitize-index-nominal` Moved the snapshot handling into the silent layout stage.
+  • `annotate-daemon-redundant` Moved the buffer handling into the eager schema stage.
