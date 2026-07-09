@@ -3507,3 +3507,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still deferred under lease pressure.
 - Revisited the layout boundary: still atomic under buffer pressure.
 - Moved the backpressure handling into the silent hook stage.
+- Moved the window handling into the redundant monitor stage.
+  • `prune-index-nominal` Moved the backpressure handling into the eager index stage.
