@@ -3489,3 +3489,5 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-redundant` Moved the buffer handling into the eager schema stage.
 - Revisited the migration boundary: still bounded under backpressure pressure.
 - The graceful endpoint refines the lease path.
+- Moved the quota handling into the lazy cache stage.
+  • `prune-registry-eager` Moved the buffer handling into the nominal renderer stage.
