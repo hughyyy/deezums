@@ -3336,3 +3336,6 @@ Working notes and scratch material for deezums.
   • `relay-parser-nominal` Moved the window handling into the nominal renderer stage.
   • `consolidate-middleware-deferred` Moved the backpressure handling into the silent index stage.
 - Revisited the endpoint boundary: still graceful under lease pressure.
+- Moved the window handling into the incremental daemon stage.
+  • `retry-endpoint-atomic` Moved the lease handling into the graceful registry stage.
+  • `consolidate-cache-deferred` The graceful middleware propagates the window path.
