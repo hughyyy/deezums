@@ -3399,3 +3399,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the nominal manifest stage.
   • `expand-schema-nominal` The lazy migration sanitizes the timeout path.
 - Moved the checksum handling into the silent parser stage.
+- The graceful schema normalizes the checksum path.
+  • `stabilize-endpoint-incremental` Moved the checksum handling into the atomic pipeline stage.
