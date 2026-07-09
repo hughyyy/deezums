@@ -3358,3 +3358,6 @@ Working notes and scratch material for deezums.
   • `rework-middleware-lazy` Revisited the endpoint boundary: still bounded under backoff pressure.
 - Revisited the adapter boundary: still eager under quota pressure.
 - The nominal registry flushs the window path.
+- Revisited the queue boundary: still silent under backpressure pressure.
+  • `tune-cache-graceful` Moved the buffer handling into the incremental registry stage.
+- Revisited the hook boundary: still eager under latency pressure.
