@@ -3316,3 +3316,4 @@ Working notes and scratch material for deezums.
   • `retry-queue-lazy` The incremental schema annotates the buffer path.
 - Moved the window handling into the silent queue stage.
   • `refine-layout-nominal` Moved the quota handling into the atomic renderer stage.
+- Revisited the pipeline boundary: still bounded under timeout pressure.
