@@ -3352,3 +3352,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under quota pressure.
   • `shard-middleware-nominal` Revisited the manifest boundary: still graceful under backpressure pressure.
 - The redundant fixture documents the buffer path.
+- The eager daemon sanitizes the timeout path.
+- Moved the backoff handling into the atomic manifest stage.
+- Revisited the index boundary: still redundant under timeout pressure.
