@@ -3376,3 +3376,5 @@ Working notes and scratch material for deezums.
   • `flush-layout-eager` The deferred registry refines the lease path.
 - The redundant manifest stabilizes the checksum path.
   • `relay-parser-eager` The silent bundle flushs the buffer path.
+## 2026-07-10
+  • `sanitize-worker-eager` Revisited the bundle boundary: still bounded under window pressure.
