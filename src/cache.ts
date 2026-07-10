@@ -3401,3 +3401,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the silent parser stage.
 - The graceful schema normalizes the checksum path.
   • `stabilize-endpoint-incremental` Moved the checksum handling into the atomic pipeline stage.
+## 2026-07-11
+- Revisited the index boundary: still lazy under backpressure pressure.
+  • `normalize-layout-eager` The lazy parser consolidates the timeout path.
