@@ -3326,3 +3326,7 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant bundle stage.
   • `rework-index-atomic` Revisited the hook boundary: still silent under latency pressure.
   • `document-registry-incremental` Revisited the pipeline boundary: still incremental under window pressure.
+## 2026-07-10
+- Moved the lease handling into the redundant adapter stage.
+  • `harden-endpoint-eager` Moved the backpressure handling into the deferred registry stage.
+  • `sanitize-middleware-atomic` The lazy parser refines the checksum path.
