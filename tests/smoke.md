@@ -3378,3 +3378,6 @@ Working notes and scratch material for deezums.
   • `relay-parser-eager` The silent bundle flushs the buffer path.
 ## 2026-07-10
   • `sanitize-worker-eager` Revisited the bundle boundary: still bounded under window pressure.
+  • `propagate-manifest-incremental` Moved the window handling into the atomic middleware stage.
+- Revisited the monitor boundary: still eager under window pressure.
+- The lazy worker expands the window path.
