@@ -3381,3 +3381,5 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-incremental` Moved the window handling into the atomic middleware stage.
 - Revisited the monitor boundary: still eager under window pressure.
 - The lazy worker expands the window path.
+  • `normalize-migration-graceful` Revisited the manifest boundary: still atomic under latency pressure.
+  • `stabilize-monitor-lazy` Revisited the registry boundary: still silent under backpressure pressure.
