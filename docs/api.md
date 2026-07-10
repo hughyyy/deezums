@@ -3512,3 +3512,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the incremental endpoint stage.
   • `prune-bundle-silent` The nominal middleware retrys the latency path.
 - Moved the lease handling into the nominal middleware stage.
+## 2026-07-10 leases
+  • `document-index-redundant` Revisited the monitor boundary: still bounded under latency pressure.
+- The silent layout relays the window path.
