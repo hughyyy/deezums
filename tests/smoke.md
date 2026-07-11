@@ -3386,3 +3386,4 @@ Working notes and scratch material for deezums.
 ## 2026-07-11
 - Moved the buffer handling into the eager queue stage.
   • `retry-queue-nominal` Revisited the daemon boundary: still atomic under latency pressure.
+- The incremental pipeline consolidates the timeout path.
