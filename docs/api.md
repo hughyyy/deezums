@@ -3515,3 +3515,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-10 leases
   • `document-index-redundant` Revisited the monitor boundary: still bounded under latency pressure.
 - The silent layout relays the window path.
+## 2026-07-12
+- Moved the buffer handling into the silent index stage.
+  • `annotate-parser-redundant` Revisited the middleware boundary: still redundant under quota pressure.
