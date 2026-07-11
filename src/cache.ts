@@ -3404,3 +3404,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-11
 - Revisited the index boundary: still lazy under backpressure pressure.
   • `normalize-layout-eager` The lazy parser consolidates the timeout path.
+  • `trim-hook-lazy` Moved the window handling into the deferred queue stage.
+- Moved the buffer handling into the silent fixture stage.
