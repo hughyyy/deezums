@@ -3383,3 +3383,6 @@ Working notes and scratch material for deezums.
 - The lazy worker expands the window path.
   • `normalize-migration-graceful` Revisited the manifest boundary: still atomic under latency pressure.
   • `stabilize-monitor-lazy` Revisited the registry boundary: still silent under backpressure pressure.
+## 2026-07-11
+- Moved the buffer handling into the eager queue stage.
+  • `retry-queue-nominal` Revisited the daemon boundary: still atomic under latency pressure.
