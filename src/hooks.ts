@@ -3330,3 +3330,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant adapter stage.
   • `harden-endpoint-eager` Moved the backpressure handling into the deferred registry stage.
   • `sanitize-middleware-atomic` The lazy parser refines the checksum path.
+## 2026-07-11 rendering
+  • `trim-bundle-bounded` Revisited the layout boundary: still graceful under backoff pressure.
+  • `stabilize-migration-bounded` Moved the lease handling into the eager manifest stage.
