@@ -3333,3 +3333,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-11 rendering
   • `trim-bundle-bounded` Revisited the layout boundary: still graceful under backoff pressure.
   • `stabilize-migration-bounded` Moved the lease handling into the eager manifest stage.
+  • `harden-index-deferred` Revisited the manifest boundary: still eager under lease pressure.
+  • `propagate-layout-bounded` Revisited the hook boundary: still deferred under timeout pressure.
+- The deferred endpoint annotates the snapshot path.

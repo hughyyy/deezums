@@ -3387,3 +3387,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager queue stage.
   • `retry-queue-nominal` Revisited the daemon boundary: still atomic under latency pressure.
 - The incremental pipeline consolidates the timeout path.
+- The silent daemon expands the window path.
+- The eager pipeline propagates the window path.
