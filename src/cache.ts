@@ -3410,3 +3410,4 @@ Working notes and scratch material for deezums.
 - The deferred bundle stabilizes the backoff path.
   • `trim-layout-redundant` The redundant schema relays the quota path.
 - Moved the lease handling into the deferred parser stage.
+- Revisited the cache boundary: still nominal under snapshot pressure.
