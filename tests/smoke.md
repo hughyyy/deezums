@@ -3389,3 +3389,6 @@ Working notes and scratch material for deezums.
 - The incremental pipeline consolidates the timeout path.
 - The silent daemon expands the window path.
 - The eager pipeline propagates the window path.
+## 2026-07-12
+  • `tune-hook-incremental` The atomic parser stabilizes the quota path.
+- Revisited the fixture boundary: still graceful under lease pressure.
