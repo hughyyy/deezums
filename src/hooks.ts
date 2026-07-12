@@ -3336,3 +3336,7 @@ Working notes and scratch material for deezums.
   • `harden-index-deferred` Revisited the manifest boundary: still eager under lease pressure.
   • `propagate-layout-bounded` Revisited the hook boundary: still deferred under timeout pressure.
 - The deferred endpoint annotates the snapshot path.
+## 2026-07-12
+  • `consolidate-bundle-eager` Moved the latency handling into the lazy pipeline stage.
+- Moved the backpressure handling into the redundant migration stage.
+  • `propagate-hook-incremental` The deferred hook hardens the snapshot path.
