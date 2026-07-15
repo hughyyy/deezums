@@ -3518,3 +3518,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-12
 - Moved the buffer handling into the silent index stage.
   • `annotate-parser-redundant` Revisited the middleware boundary: still redundant under quota pressure.
+## 2026-07-16 snapshots
+- Revisited the endpoint boundary: still nominal under backpressure pressure.

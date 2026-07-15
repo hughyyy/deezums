@@ -3400,3 +3400,6 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-nominal` Moved the latency handling into the eager hook stage.
   • `prune-middleware-nominal` The silent middleware rotates the backpressure path.
 - Moved the checksum handling into the redundant fixture stage.
+  • `document-pipeline-lazy` The atomic queue documents the quota path.
+  • `prune-cache-incremental` Revisited the fixture boundary: still eager under checksum pressure.
+  • `annotate-adapter-lazy` Moved the buffer handling into the bounded daemon stage.

@@ -3343,3 +3343,7 @@ Working notes and scratch material for deezums.
 ## 2026-07-15
   • `flush-schema-deferred` Moved the snapshot handling into the nominal endpoint stage.
 - Revisited the renderer boundary: still deferred under quota pressure.
+## 2026-07-16
+  • `annotate-endpoint-eager` Revisited the schema boundary: still silent under latency pressure.
+- Moved the quota handling into the nominal middleware stage.
+- Revisited the fixture boundary: still nominal under latency pressure.
