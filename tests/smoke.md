@@ -3395,3 +3395,4 @@ Working notes and scratch material for deezums.
 ## 2026-07-15
 - Moved the backoff handling into the nominal fixture stage.
 - Revisited the manifest boundary: still incremental under quota pressure.
+  • `relay-middleware-silent` The silent queue annotates the backpressure path.
