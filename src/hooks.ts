@@ -3340,3 +3340,6 @@ Working notes and scratch material for deezums.
   • `consolidate-bundle-eager` Moved the latency handling into the lazy pipeline stage.
 - Moved the backpressure handling into the redundant migration stage.
   • `propagate-hook-incremental` The deferred hook hardens the snapshot path.
+## 2026-07-15
+  • `flush-schema-deferred` Moved the snapshot handling into the nominal endpoint stage.
+- Revisited the renderer boundary: still deferred under quota pressure.

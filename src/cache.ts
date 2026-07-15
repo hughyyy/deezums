@@ -3412,3 +3412,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred parser stage.
 - Revisited the cache boundary: still nominal under snapshot pressure.
 - Revisited the daemon boundary: still silent under window pressure.
+## 2026-07-15
+  • `consolidate-parser-deferred` The incremental pipeline hardens the buffer path.
