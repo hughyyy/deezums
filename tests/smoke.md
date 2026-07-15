@@ -3392,3 +3392,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-12
   • `tune-hook-incremental` The atomic parser stabilizes the quota path.
 - Revisited the fixture boundary: still graceful under lease pressure.
+## 2026-07-15
+- Moved the backoff handling into the nominal fixture stage.
+- Revisited the manifest boundary: still incremental under quota pressure.
