@@ -3396,3 +3396,7 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal fixture stage.
 - Revisited the manifest boundary: still incremental under quota pressure.
   • `relay-middleware-silent` The silent queue annotates the backpressure path.
+## 2026-07-16
+  • `sanitize-adapter-nominal` Moved the latency handling into the eager hook stage.
+  • `prune-middleware-nominal` The silent middleware rotates the backpressure path.
+- Moved the checksum handling into the redundant fixture stage.
