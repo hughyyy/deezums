@@ -3418,3 +3418,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the silent index stage.
 - The lazy pipeline hardens the lease path.
   • `tune-registry-graceful` Revisited the pipeline boundary: still bounded under buffer pressure.
+  • `annotate-queue-redundant` The lazy fixture stabilizes the window path.
+- Moved the backoff handling into the incremental queue stage.
+- The silent cache rotates the backpressure path.
