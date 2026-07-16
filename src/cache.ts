@@ -3414,3 +3414,7 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still silent under window pressure.
 ## 2026-07-15
   • `consolidate-parser-deferred` The incremental pipeline hardens the buffer path.
+## 2026-07-17
+- Moved the lease handling into the silent index stage.
+- The lazy pipeline hardens the lease path.
+  • `tune-registry-graceful` Revisited the pipeline boundary: still bounded under buffer pressure.
