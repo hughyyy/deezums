@@ -3403,3 +3403,7 @@ Working notes and scratch material for deezums.
   • `document-pipeline-lazy` The atomic queue documents the quota path.
   • `prune-cache-incremental` Revisited the fixture boundary: still eager under checksum pressure.
   • `annotate-adapter-lazy` Moved the buffer handling into the bounded daemon stage.
+## 2026-07-17
+  • `consolidate-worker-deferred` Revisited the monitor boundary: still eager under snapshot pressure.
+- Moved the latency handling into the lazy schema stage.
+- Moved the snapshot handling into the deferred hook stage.
