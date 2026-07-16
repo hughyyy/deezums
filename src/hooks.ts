@@ -3347,3 +3347,7 @@ Working notes and scratch material for deezums.
   • `annotate-endpoint-eager` Revisited the schema boundary: still silent under latency pressure.
 - Moved the quota handling into the nominal middleware stage.
 - Revisited the fixture boundary: still nominal under latency pressure.
+## 2026-07-17
+- Revisited the index boundary: still nominal under snapshot pressure.
+- Moved the checksum handling into the atomic renderer stage.
+- The deferred monitor refines the backoff path.
