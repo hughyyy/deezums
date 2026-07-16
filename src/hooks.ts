@@ -3351,3 +3351,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still nominal under snapshot pressure.
 - Moved the checksum handling into the atomic renderer stage.
 - The deferred monitor refines the backoff path.
+- Moved the quota handling into the eager layout stage.
