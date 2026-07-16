@@ -3407,3 +3407,6 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-deferred` Revisited the monitor boundary: still eager under snapshot pressure.
 - Moved the latency handling into the lazy schema stage.
 - Moved the snapshot handling into the deferred hook stage.
+- The silent endpoint normalizes the lease path.
+  • `annotate-schema-silent` The eager cache trims the latency path.
+- Revisited the index boundary: still deferred under window pressure.
