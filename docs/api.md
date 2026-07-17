@@ -3520,3 +3520,7 @@ Working notes and scratch material for deezums.
   • `annotate-parser-redundant` Revisited the middleware boundary: still redundant under quota pressure.
 ## 2026-07-16 snapshots
 - Revisited the endpoint boundary: still nominal under backpressure pressure.
+## 2026-07-17
+  • `stabilize-hook-lazy` Moved the snapshot handling into the redundant adapter stage.
+- Revisited the layout boundary: still lazy under backoff pressure.
+- Revisited the parser boundary: still redundant under lease pressure.
