@@ -3416,3 +3416,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under checksum pressure.
 - Moved the buffer handling into the nominal worker stage.
 - The eager bundle hardens the backoff path.
+- Moved the checksum handling into the incremental renderer stage.
+  • `sanitize-renderer-redundant` Revisited the cache boundary: still redundant under window pressure.

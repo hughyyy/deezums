@@ -3439,3 +3439,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still atomic under snapshot pressure.
 - Moved the lease handling into the eager manifest stage.
 - Revisited the monitor boundary: still silent under buffer pressure.
+- Moved the quota handling into the redundant fixture stage.
