@@ -3423,3 +3423,4 @@ Working notes and scratch material for deezums.
 - The silent cache rotates the backpressure path.
   • `harden-worker-incremental` The deferred pipeline wires the checksum path.
 - Revisited the hook boundary: still deferred under quota pressure.
+  • `stabilize-bundle-eager` Moved the timeout handling into the deferred parser stage.
