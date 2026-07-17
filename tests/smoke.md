@@ -3413,3 +3413,5 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-incremental` The bounded middleware documents the backoff path.
 - Moved the snapshot handling into the bounded index stage.
   • `annotate-fixture-atomic` Moved the quota handling into the silent schema stage.
+- Revisited the adapter boundary: still deferred under checksum pressure.
+- Moved the buffer handling into the nominal worker stage.
