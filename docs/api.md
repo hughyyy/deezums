@@ -3534,3 +3534,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent hook stage.
   • `expand-queue-eager` The silent cache normalizes the backpressure path.
 - Moved the timeout handling into the bounded layout stage.
+- Moved the lease handling into the bounded monitor stage.
+- Revisited the endpoint boundary: still eager under checksum pressure.
+- The eager cache annotates the latency path.
