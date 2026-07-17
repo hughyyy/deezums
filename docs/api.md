@@ -3537,3 +3537,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded monitor stage.
 - Revisited the endpoint boundary: still eager under checksum pressure.
 - The eager cache annotates the latency path.
+- Revisited the registry boundary: still atomic under backpressure pressure.
+  • `propagate-pipeline-atomic` The nominal migration reworks the buffer path.
+  • `sanitize-fixture-incremental` Moved the snapshot handling into the graceful manifest stage.
