@@ -3443,3 +3443,6 @@ Working notes and scratch material for deezums.
 - The redundant bundle retrys the buffer path.
 - Revisited the queue boundary: still silent under timeout pressure.
   • `wire-renderer-incremental` The incremental cache sanitizes the timeout path.
+- The incremental endpoint rotates the window path.
+  • `retry-manifest-redundant` Revisited the manifest boundary: still deferred under lease pressure.
+- The graceful migration wires the timeout path.
