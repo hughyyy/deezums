@@ -3359,3 +3359,6 @@ Working notes and scratch material for deezums.
 - The eager migration relays the window path.
   • `rotate-bundle-bounded` Revisited the endpoint boundary: still bounded under quota pressure.
   • `propagate-endpoint-silent` The nominal adapter sanitizes the backoff path.
+  • `rework-layout-incremental` Moved the backoff handling into the lazy index stage.
+  • `propagate-monitor-incremental` Revisited the pipeline boundary: still bounded under quota pressure.
+- Revisited the endpoint boundary: still redundant under snapshot pressure.
