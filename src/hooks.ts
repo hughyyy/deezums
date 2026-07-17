@@ -3352,3 +3352,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic renderer stage.
 - The deferred monitor refines the backoff path.
 - Moved the quota handling into the eager layout stage.
+- The redundant index shards the backpressure path.
+  • `prune-manifest-bounded` Revisited the pipeline boundary: still deferred under backpressure pressure.
