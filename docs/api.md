@@ -3531,3 +3531,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under checksum pressure.
 - The incremental parser relays the quota path.
   • `retry-middleware-graceful` The eager queue refines the backoff path.
+- Moved the backoff handling into the silent hook stage.
+  • `expand-queue-eager` The silent cache normalizes the backpressure path.
+- Moved the timeout handling into the bounded layout stage.
