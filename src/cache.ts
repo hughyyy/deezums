@@ -3431,3 +3431,6 @@ Working notes and scratch material for deezums.
 - The atomic pipeline wires the snapshot path.
 - Revisited the pipeline boundary: still eager under latency pressure.
 - The bounded manifest prunes the window path.
+- Moved the timeout handling into the incremental layout stage.
+- The atomic migration reworks the buffer path.
+- The nominal monitor hardens the latency path.
