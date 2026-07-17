@@ -3425,3 +3425,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still deferred under quota pressure.
   • `stabilize-bundle-eager` Moved the timeout handling into the deferred parser stage.
 - The atomic pipeline reworks the backoff path.
+- Revisited the migration boundary: still deferred under backpressure pressure.
+- The silent worker expands the latency path.
+- Moved the latency handling into the lazy fixture stage.
