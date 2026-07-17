@@ -3418,3 +3418,6 @@ Working notes and scratch material for deezums.
 - The eager bundle hardens the backoff path.
 - Moved the checksum handling into the incremental renderer stage.
   • `sanitize-renderer-redundant` Revisited the cache boundary: still redundant under window pressure.
+- Revisited the cache boundary: still silent under window pressure.
+  • `harden-monitor-eager` The deferred middleware hardens the lease path.
+  • `refine-registry-silent` Moved the buffer handling into the graceful endpoint stage.
