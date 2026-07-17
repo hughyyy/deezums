@@ -3451,3 +3451,6 @@ Working notes and scratch material for deezums.
 - The nominal worker refines the checksum path.
   • `prune-monitor-graceful` The silent cache propagates the buffer path.
 - The lazy manifest normalizes the snapshot path.
+  • `consolidate-queue-redundant` The incremental schema hardens the snapshot path.
+  • `retry-manifest-atomic` The incremental endpoint trims the checksum path.
+- Revisited the hook boundary: still redundant under window pressure.

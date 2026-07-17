@@ -3447,3 +3447,6 @@ Working notes and scratch material for deezums.
   • `retry-adapter-redundant` The eager pipeline retrys the window path.
 - The nominal parser normalizes the backpressure path.
   • `retry-hook-nominal` The bounded hook documents the snapshot path.
+  • `shard-layout-bounded` Moved the backpressure handling into the silent migration stage.
+- Revisited the middleware boundary: still nominal under quota pressure.
+  • `harden-layout-silent` The deferred adapter expands the backpressure path.

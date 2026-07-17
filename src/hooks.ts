@@ -3375,3 +3375,6 @@ Working notes and scratch material for deezums.
   • `flush-fixture-deferred` Moved the buffer handling into the bounded worker stage.
 - Revisited the index boundary: still incremental under checksum pressure.
   • `rotate-middleware-graceful` The silent pipeline shards the window path.
+  • `normalize-adapter-lazy` Revisited the queue boundary: still incremental under buffer pressure.
+  • `consolidate-worker-lazy` Revisited the renderer boundary: still bounded under quota pressure.
+  • `normalize-endpoint-eager` Revisited the index boundary: still incremental under snapshot pressure.

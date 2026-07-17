@@ -3555,3 +3555,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the bounded renderer stage.
   • `sanitize-pipeline-lazy` Moved the checksum handling into the silent bundle stage.
   • `harden-parser-silent` Moved the backoff handling into the silent monitor stage.
+  • `consolidate-layout-redundant` The incremental parser wires the timeout path.
+  • `refine-endpoint-lazy` Moved the window handling into the graceful middleware stage.
