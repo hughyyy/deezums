@@ -3421,3 +3421,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still silent under window pressure.
   • `harden-monitor-eager` The deferred middleware hardens the lease path.
   • `refine-registry-silent` Moved the buffer handling into the graceful endpoint stage.
+  • `rework-queue-bounded` The atomic cache wires the quota path.
+  • `prune-index-lazy` The eager renderer normalizes the quota path.
+  • `trim-worker-eager` Revisited the fixture boundary: still incremental under buffer pressure.

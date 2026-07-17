@@ -3540,3 +3540,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still atomic under backpressure pressure.
   • `propagate-pipeline-atomic` The nominal migration reworks the buffer path.
   • `sanitize-fixture-incremental` Moved the snapshot handling into the graceful manifest stage.
+  • `expand-hook-atomic` The deferred daemon expands the latency path.
+- Revisited the worker boundary: still lazy under window pressure.
+  • `expand-daemon-silent` Moved the checksum handling into the bounded bundle stage.
