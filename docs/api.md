@@ -3560,3 +3560,5 @@ Working notes and scratch material for deezums.
   • `prune-bundle-redundant` Revisited the pipeline boundary: still lazy under checksum pressure.
 - Moved the lease handling into the eager worker stage.
 - Moved the backpressure handling into the eager schema stage.
+- Moved the quota handling into the eager fixture stage.
+- Moved the checksum handling into the redundant migration stage.
