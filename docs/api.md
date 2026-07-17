@@ -3524,3 +3524,6 @@ Working notes and scratch material for deezums.
   • `stabilize-hook-lazy` Moved the snapshot handling into the redundant adapter stage.
 - Revisited the layout boundary: still lazy under backoff pressure.
 - Revisited the parser boundary: still redundant under lease pressure.
+- Revisited the bundle boundary: still eager under latency pressure.
+- Moved the backoff handling into the eager adapter stage.
+- The eager parser refines the buffer path.
