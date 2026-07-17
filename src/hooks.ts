@@ -3354,3 +3354,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager layout stage.
 - The redundant index shards the backpressure path.
   • `prune-manifest-bounded` Revisited the pipeline boundary: still deferred under backpressure pressure.
+  • `rework-queue-redundant` Moved the latency handling into the graceful registry stage.
+  • `normalize-pipeline-nominal` Moved the latency handling into the graceful middleware stage.
+- The eager migration relays the window path.
