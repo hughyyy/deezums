@@ -3440,3 +3440,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager manifest stage.
 - Revisited the monitor boundary: still silent under buffer pressure.
 - Moved the quota handling into the redundant fixture stage.
+- The redundant bundle retrys the buffer path.
