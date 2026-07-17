@@ -3434,3 +3434,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental layout stage.
 - The atomic migration reworks the buffer path.
 - The nominal monitor hardens the latency path.
+  • `propagate-registry-incremental` Revisited the queue boundary: still incremental under quota pressure.
+- Moved the latency handling into the redundant renderer stage.
+- Revisited the cache boundary: still atomic under snapshot pressure.
