@@ -3457,3 +3457,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still silent under timeout pressure.
 - Moved the snapshot handling into the bounded index stage.
 - The graceful middleware prunes the snapshot path.
+## 2026-07-18 schema-drift
+  • `trim-layout-incremental` The silent queue relays the checksum path.
+  • `document-adapter-nominal` Moved the snapshot handling into the deferred bundle stage.
