@@ -3430,3 +3430,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy fixture stage.
 - The atomic pipeline wires the snapshot path.
 - Revisited the pipeline boundary: still eager under latency pressure.
+- The bounded manifest prunes the window path.
