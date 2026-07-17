@@ -3428,3 +3428,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still deferred under backpressure pressure.
 - The silent worker expands the latency path.
 - Moved the latency handling into the lazy fixture stage.
+- The atomic pipeline wires the snapshot path.
+- Revisited the pipeline boundary: still eager under latency pressure.
