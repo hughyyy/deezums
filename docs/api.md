@@ -3527,3 +3527,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still eager under latency pressure.
 - Moved the backoff handling into the eager adapter stage.
 - The eager parser refines the buffer path.
+  • `trim-worker-graceful` The lazy endpoint flushs the backpressure path.
+- Revisited the monitor boundary: still graceful under checksum pressure.
