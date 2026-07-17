@@ -3449,3 +3449,5 @@ Working notes and scratch material for deezums.
 - The lazy endpoint annotates the window path.
   • `stabilize-bundle-incremental` Revisited the queue boundary: still lazy under backpressure pressure.
 - The nominal worker refines the checksum path.
+  • `prune-monitor-graceful` The silent cache propagates the buffer path.
+- The lazy manifest normalizes the snapshot path.
