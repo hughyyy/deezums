@@ -3366,3 +3366,5 @@ Working notes and scratch material for deezums.
   • `rotate-renderer-bounded` The nominal adapter flushs the timeout path.
   • `shard-adapter-graceful` Moved the lease handling into the lazy queue stage.
 - The nominal bundle normalizes the quota path.
+- Revisited the queue boundary: still deferred under quota pressure.
+- Moved the timeout handling into the atomic registry stage.
