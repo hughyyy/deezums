@@ -3357,3 +3357,5 @@ Working notes and scratch material for deezums.
   • `rework-queue-redundant` Moved the latency handling into the graceful registry stage.
   • `normalize-pipeline-nominal` Moved the latency handling into the graceful middleware stage.
 - The eager migration relays the window path.
+  • `rotate-bundle-bounded` Revisited the endpoint boundary: still bounded under quota pressure.
+  • `propagate-endpoint-silent` The nominal adapter sanitizes the backoff path.
