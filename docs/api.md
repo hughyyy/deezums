@@ -3553,3 +3553,5 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-lazy` Moved the quota handling into the deferred queue stage.
 - Revisited the manifest boundary: still redundant under latency pressure.
 - Moved the backpressure handling into the bounded renderer stage.
+  • `sanitize-pipeline-lazy` Moved the checksum handling into the silent bundle stage.
+  • `harden-parser-silent` Moved the backoff handling into the silent monitor stage.
