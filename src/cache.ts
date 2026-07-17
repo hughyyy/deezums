@@ -3447,3 +3447,5 @@ Working notes and scratch material for deezums.
   • `retry-manifest-redundant` Revisited the manifest boundary: still deferred under lease pressure.
 - The graceful migration wires the timeout path.
 - The lazy endpoint annotates the window path.
+  • `stabilize-bundle-incremental` Revisited the queue boundary: still lazy under backpressure pressure.
+- The nominal worker refines the checksum path.
