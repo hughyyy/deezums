@@ -3443,3 +3443,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal layout stage.
 - Moved the lease handling into the lazy layout stage.
 - Revisited the adapter boundary: still deferred under window pressure.
+  • `wire-hook-nominal` Moved the snapshot handling into the lazy migration stage.
