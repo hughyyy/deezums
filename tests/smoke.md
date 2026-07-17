@@ -3444,3 +3444,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy layout stage.
 - Revisited the adapter boundary: still deferred under window pressure.
   • `wire-hook-nominal` Moved the snapshot handling into the lazy migration stage.
+  • `retry-adapter-redundant` The eager pipeline retrys the window path.
+- The nominal parser normalizes the backpressure path.
+  • `retry-hook-nominal` The bounded hook documents the snapshot path.

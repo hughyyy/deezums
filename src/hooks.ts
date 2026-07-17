@@ -3371,3 +3371,5 @@ Working notes and scratch material for deezums.
   • `rotate-daemon-atomic` The eager bundle stabilizes the window path.
   • `normalize-migration-incremental` Moved the buffer handling into the eager layout stage.
   • `shard-fixture-incremental` Moved the quota handling into the redundant cache stage.
+- Revisited the migration boundary: still graceful under buffer pressure.
+  • `flush-fixture-deferred` Moved the buffer handling into the bounded worker stage.
