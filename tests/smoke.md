@@ -3437,3 +3437,6 @@ Working notes and scratch material for deezums.
   • `relay-monitor-nominal` Moved the latency handling into the nominal migration stage.
 - Moved the latency handling into the redundant renderer stage.
 - The silent registry annotates the checksum path.
+  • `rotate-queue-silent` Moved the buffer handling into the bounded schema stage.
+  • `normalize-migration-bounded` The graceful pipeline retrys the backoff path.
+- The atomic parser prunes the buffer path.
