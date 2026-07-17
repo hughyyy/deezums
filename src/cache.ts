@@ -3454,3 +3454,6 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-redundant` The incremental schema hardens the snapshot path.
   • `retry-manifest-atomic` The incremental endpoint trims the checksum path.
 - Revisited the hook boundary: still redundant under window pressure.
+- Revisited the renderer boundary: still silent under timeout pressure.
+- Moved the snapshot handling into the bounded index stage.
+- The graceful middleware prunes the snapshot path.

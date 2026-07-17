@@ -3378,3 +3378,4 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-lazy` Revisited the queue boundary: still incremental under buffer pressure.
   • `consolidate-worker-lazy` Revisited the renderer boundary: still bounded under quota pressure.
   • `normalize-endpoint-eager` Revisited the index boundary: still incremental under snapshot pressure.
+  • `harden-migration-incremental` Revisited the migration boundary: still lazy under quota pressure.
