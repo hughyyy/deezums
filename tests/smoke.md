@@ -3427,3 +3427,4 @@ Working notes and scratch material for deezums.
 - The lazy registry prunes the latency path.
   • `trim-renderer-silent` Moved the latency handling into the graceful migration stage.
 - Revisited the daemon boundary: still graceful under buffer pressure.
+- Revisited the manifest boundary: still nominal under timeout pressure.

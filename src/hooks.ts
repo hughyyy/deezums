@@ -3364,3 +3364,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still redundant under snapshot pressure.
   • `document-middleware-incremental` Moved the lease handling into the bounded migration stage.
   • `rotate-renderer-bounded` The nominal adapter flushs the timeout path.
+  • `shard-adapter-graceful` Moved the lease handling into the lazy queue stage.
+- The nominal bundle normalizes the quota path.

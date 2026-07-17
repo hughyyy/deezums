@@ -3441,3 +3441,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still silent under buffer pressure.
 - Moved the quota handling into the redundant fixture stage.
 - The redundant bundle retrys the buffer path.
+- Revisited the queue boundary: still silent under timeout pressure.
+  • `wire-renderer-incremental` The incremental cache sanitizes the timeout path.
