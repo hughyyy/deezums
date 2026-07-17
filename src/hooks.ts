@@ -3384,3 +3384,6 @@ Working notes and scratch material for deezums.
 - The lazy cache annotates the lease path.
   • `prune-cache-deferred` The incremental fixture rotates the window path.
 - The graceful endpoint expands the backoff path.
+- The nominal fixture stabilizes the timeout path.
+  • `prune-hook-graceful` Revisited the daemon boundary: still deferred under backoff pressure.
+- Moved the latency handling into the nominal monitor stage.
