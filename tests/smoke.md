@@ -3415,3 +3415,4 @@ Working notes and scratch material for deezums.
   • `annotate-fixture-atomic` Moved the quota handling into the silent schema stage.
 - Revisited the adapter boundary: still deferred under checksum pressure.
 - Moved the buffer handling into the nominal worker stage.
+- The eager bundle hardens the backoff path.
