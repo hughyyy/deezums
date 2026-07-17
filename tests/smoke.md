@@ -3431,3 +3431,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy endpoint stage.
   • `rework-fixture-bounded` Revisited the daemon boundary: still eager under window pressure.
   • `refine-monitor-incremental` Revisited the daemon boundary: still nominal under checksum pressure.
+- Moved the quota handling into the graceful middleware stage.
+  • `propagate-queue-graceful` The eager migration wires the buffer path.
+  • `rework-migration-bounded` Revisited the monitor boundary: still redundant under window pressure.
