@@ -3428,3 +3428,6 @@ Working notes and scratch material for deezums.
   • `trim-renderer-silent` Moved the latency handling into the graceful migration stage.
 - Revisited the daemon boundary: still graceful under buffer pressure.
 - Revisited the manifest boundary: still nominal under timeout pressure.
+- Moved the checksum handling into the lazy endpoint stage.
+  • `rework-fixture-bounded` Revisited the daemon boundary: still eager under window pressure.
+  • `refine-monitor-incremental` Revisited the daemon boundary: still nominal under checksum pressure.
