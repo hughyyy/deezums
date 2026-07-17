@@ -3545,3 +3545,6 @@ Working notes and scratch material for deezums.
   • `expand-daemon-silent` Moved the checksum handling into the bounded bundle stage.
 - Moved the snapshot handling into the graceful migration stage.
 - The atomic registry stabilizes the quota path.
+- Moved the lease handling into the atomic middleware stage.
+- The nominal registry wires the checksum path.
+- Revisited the daemon boundary: still nominal under backpressure pressure.
