@@ -3368,3 +3368,6 @@ Working notes and scratch material for deezums.
 - The nominal bundle normalizes the quota path.
 - Revisited the queue boundary: still deferred under quota pressure.
 - Moved the timeout handling into the atomic registry stage.
+  • `rotate-daemon-atomic` The eager bundle stabilizes the window path.
+  • `normalize-migration-incremental` Moved the buffer handling into the eager layout stage.
+  • `shard-fixture-incremental` Moved the quota handling into the redundant cache stage.
