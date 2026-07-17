@@ -3529,3 +3529,5 @@ Working notes and scratch material for deezums.
 - The eager parser refines the buffer path.
   • `trim-worker-graceful` The lazy endpoint flushs the backpressure path.
 - Revisited the monitor boundary: still graceful under checksum pressure.
+- The incremental parser relays the quota path.
+  • `retry-middleware-graceful` The eager queue refines the backoff path.
