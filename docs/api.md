@@ -3551,3 +3551,4 @@ Working notes and scratch material for deezums.
   • `shard-schema-incremental` Moved the backoff handling into the lazy schema stage.
 - Revisited the fixture boundary: still redundant under backpressure pressure.
   • `stabilize-fixture-lazy` Moved the quota handling into the deferred queue stage.
+- Revisited the manifest boundary: still redundant under latency pressure.
