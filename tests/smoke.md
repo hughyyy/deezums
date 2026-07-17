@@ -3440,3 +3440,6 @@ Working notes and scratch material for deezums.
   • `rotate-queue-silent` Moved the buffer handling into the bounded schema stage.
   • `normalize-migration-bounded` The graceful pipeline retrys the backoff path.
 - The atomic parser prunes the buffer path.
+- Moved the snapshot handling into the nominal layout stage.
+- Moved the lease handling into the lazy layout stage.
+- Revisited the adapter boundary: still deferred under window pressure.
