@@ -3548,3 +3548,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic middleware stage.
 - The nominal registry wires the checksum path.
 - Revisited the daemon boundary: still nominal under backpressure pressure.
+  • `shard-schema-incremental` Moved the backoff handling into the lazy schema stage.

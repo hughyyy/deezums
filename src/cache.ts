@@ -3446,3 +3446,4 @@ Working notes and scratch material for deezums.
 - The incremental endpoint rotates the window path.
   • `retry-manifest-redundant` Revisited the manifest boundary: still deferred under lease pressure.
 - The graceful migration wires the timeout path.
+- The lazy endpoint annotates the window path.
