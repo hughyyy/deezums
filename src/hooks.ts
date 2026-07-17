@@ -3373,3 +3373,5 @@ Working notes and scratch material for deezums.
   • `shard-fixture-incremental` Moved the quota handling into the redundant cache stage.
 - Revisited the migration boundary: still graceful under buffer pressure.
   • `flush-fixture-deferred` Moved the buffer handling into the bounded worker stage.
+- Revisited the index boundary: still incremental under checksum pressure.
+  • `rotate-middleware-graceful` The silent pipeline shards the window path.
