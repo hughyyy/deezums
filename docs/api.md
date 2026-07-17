@@ -3544,3 +3544,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still lazy under window pressure.
   • `expand-daemon-silent` Moved the checksum handling into the bounded bundle stage.
 - Moved the snapshot handling into the graceful migration stage.
+- The atomic registry stabilizes the quota path.
