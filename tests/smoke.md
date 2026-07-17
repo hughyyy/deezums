@@ -3434,3 +3434,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful middleware stage.
   • `propagate-queue-graceful` The eager migration wires the buffer path.
   • `rework-migration-bounded` Revisited the monitor boundary: still redundant under window pressure.
+  • `relay-monitor-nominal` Moved the latency handling into the nominal migration stage.
+- Moved the latency handling into the redundant renderer stage.
+- The silent registry annotates the checksum path.
