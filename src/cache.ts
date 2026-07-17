@@ -3422,3 +3422,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the incremental queue stage.
 - The silent cache rotates the backpressure path.
   • `harden-worker-incremental` The deferred pipeline wires the checksum path.
+- Revisited the hook boundary: still deferred under quota pressure.
