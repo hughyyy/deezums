@@ -3453,3 +3453,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent index stage.
   • `wire-middleware-nominal` The nominal pipeline normalizes the latency path.
 - Moved the latency handling into the lazy registry stage.
+  • `prune-daemon-atomic` The deferred manifest refines the lease path.
+  • `normalize-queue-redundant` The deferred monitor retrys the buffer path.

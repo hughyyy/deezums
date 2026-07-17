@@ -3381,3 +3381,6 @@ Working notes and scratch material for deezums.
   • `harden-migration-incremental` Revisited the migration boundary: still lazy under quota pressure.
   • `sanitize-bundle-atomic` The redundant manifest stabilizes the lease path.
 - Moved the lease handling into the atomic layout stage.
+- The lazy cache annotates the lease path.
+  • `prune-cache-deferred` The incremental fixture rotates the window path.
+- The graceful endpoint expands the backoff path.
