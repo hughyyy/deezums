@@ -3424,3 +3424,6 @@ Working notes and scratch material for deezums.
   • `rework-queue-bounded` The atomic cache wires the quota path.
   • `prune-index-lazy` The eager renderer normalizes the quota path.
   • `trim-worker-eager` Revisited the fixture boundary: still incremental under buffer pressure.
+- The lazy registry prunes the latency path.
+  • `trim-renderer-silent` Moved the latency handling into the graceful migration stage.
+- Revisited the daemon boundary: still graceful under buffer pressure.

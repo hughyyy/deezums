@@ -3362,3 +3362,5 @@ Working notes and scratch material for deezums.
   • `rework-layout-incremental` Moved the backoff handling into the lazy index stage.
   • `propagate-monitor-incremental` Revisited the pipeline boundary: still bounded under quota pressure.
 - Revisited the endpoint boundary: still redundant under snapshot pressure.
+  • `document-middleware-incremental` Moved the lease handling into the bounded migration stage.
+  • `rotate-renderer-bounded` The nominal adapter flushs the timeout path.
