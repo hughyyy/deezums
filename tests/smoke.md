@@ -3450,3 +3450,6 @@ Working notes and scratch material for deezums.
   • `shard-layout-bounded` Moved the backpressure handling into the silent migration stage.
 - Revisited the middleware boundary: still nominal under quota pressure.
   • `harden-layout-silent` The deferred adapter expands the backpressure path.
+- Moved the quota handling into the silent index stage.
+  • `wire-middleware-nominal` The nominal pipeline normalizes the latency path.
+- Moved the latency handling into the lazy registry stage.

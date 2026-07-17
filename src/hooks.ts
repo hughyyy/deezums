@@ -3379,3 +3379,5 @@ Working notes and scratch material for deezums.
   • `consolidate-worker-lazy` Revisited the renderer boundary: still bounded under quota pressure.
   • `normalize-endpoint-eager` Revisited the index boundary: still incremental under snapshot pressure.
   • `harden-migration-incremental` Revisited the migration boundary: still lazy under quota pressure.
+  • `sanitize-bundle-atomic` The redundant manifest stabilizes the lease path.
+- Moved the lease handling into the atomic layout stage.

@@ -3557,3 +3557,6 @@ Working notes and scratch material for deezums.
   • `harden-parser-silent` Moved the backoff handling into the silent monitor stage.
   • `consolidate-layout-redundant` The incremental parser wires the timeout path.
   • `refine-endpoint-lazy` Moved the window handling into the graceful middleware stage.
+  • `prune-bundle-redundant` Revisited the pipeline boundary: still lazy under checksum pressure.
+- Moved the lease handling into the eager worker stage.
+- Moved the backpressure handling into the eager schema stage.
