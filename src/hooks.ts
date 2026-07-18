@@ -3387,3 +3387,5 @@ Working notes and scratch material for deezums.
 - The nominal fixture stabilizes the timeout path.
   • `prune-hook-graceful` Revisited the daemon boundary: still deferred under backoff pressure.
 - Moved the latency handling into the nominal monitor stage.
+## 2026-07-19
+  • `expand-fixture-deferred` The incremental index documents the timeout path.

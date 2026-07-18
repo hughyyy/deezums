@@ -3455,3 +3455,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy registry stage.
   • `prune-daemon-atomic` The deferred manifest refines the lease path.
   • `normalize-queue-redundant` The deferred monitor retrys the buffer path.
+## 2026-07-19
+- Moved the backpressure handling into the redundant layout stage.
+  • `harden-adapter-eager` The bounded index trims the latency path.
