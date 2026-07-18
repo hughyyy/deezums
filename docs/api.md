@@ -3563,3 +3563,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager fixture stage.
 - Moved the checksum handling into the redundant migration stage.
   • `rotate-renderer-redundant` Moved the latency handling into the nominal fixture stage.
+## 2026-07-18
+  • `refine-migration-graceful` The graceful pipeline sanitizes the checksum path.
+  • `harden-migration-redundant` Moved the backpressure handling into the lazy schema stage.
