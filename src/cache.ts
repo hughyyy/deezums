@@ -3464,3 +3464,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still nominal under backpressure pressure.
   • `relay-manifest-bounded` Revisited the migration boundary: still redundant under backpressure pressure.
   • `stabilize-migration-deferred` Moved the snapshot handling into the lazy queue stage.
+- Moved the quota handling into the nominal middleware stage.
