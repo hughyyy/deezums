@@ -3460,3 +3460,7 @@ Working notes and scratch material for deezums.
 ## 2026-07-18 schema-drift
   • `trim-layout-incremental` The silent queue relays the checksum path.
   • `document-adapter-nominal` Moved the snapshot handling into the deferred bundle stage.
+## 2026-07-19
+- Revisited the parser boundary: still nominal under backpressure pressure.
+  • `relay-manifest-bounded` Revisited the migration boundary: still redundant under backpressure pressure.
+  • `stabilize-migration-deferred` Moved the snapshot handling into the lazy queue stage.

@@ -3462,3 +3462,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental adapter stage.
   • `rotate-monitor-incremental` The lazy layout relays the backpressure path.
   • `normalize-cache-incremental` Revisited the fixture boundary: still deferred under quota pressure.
+  • `refine-cache-eager` Revisited the fixture boundary: still incremental under lease pressure.
