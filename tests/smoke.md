@@ -3460,3 +3460,5 @@ Working notes and scratch material for deezums.
   • `harden-adapter-eager` The bounded index trims the latency path.
   • `retry-registry-silent` Moved the latency handling into the bounded middleware stage.
 - Moved the snapshot handling into the incremental adapter stage.
+  • `rotate-monitor-incremental` The lazy layout relays the backpressure path.
+  • `normalize-cache-incremental` Revisited the fixture boundary: still deferred under quota pressure.
