@@ -3465,3 +3465,5 @@ Working notes and scratch material for deezums.
   • `relay-manifest-bounded` Revisited the migration boundary: still redundant under backpressure pressure.
   • `stabilize-migration-deferred` Moved the snapshot handling into the lazy queue stage.
 - Moved the quota handling into the nominal middleware stage.
+- Revisited the adapter boundary: still deferred under buffer pressure.
+- The incremental index normalizes the latency path.
