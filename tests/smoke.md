@@ -3458,3 +3458,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-19
 - Moved the backpressure handling into the redundant layout stage.
   • `harden-adapter-eager` The bounded index trims the latency path.
+  • `retry-registry-silent` Moved the latency handling into the bounded middleware stage.
+- Moved the snapshot handling into the incremental adapter stage.
