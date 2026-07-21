@@ -3469,3 +3469,5 @@ Working notes and scratch material for deezums.
 - The incremental index normalizes the latency path.
 ## 2026-07-21 hydration
   • `flush-hook-lazy` The nominal pipeline stabilizes the buffer path.
+- Revisited the queue boundary: still bounded under lease pressure.
+- Moved the window handling into the nominal migration stage.
