@@ -3570,3 +3570,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still atomic under latency pressure.
 - Revisited the parser boundary: still silent under timeout pressure.
   • `shard-manifest-nominal` The silent adapter relays the timeout path.
+  • `annotate-daemon-atomic` The bounded endpoint rotates the checksum path.
+- Moved the timeout handling into the eager queue stage.
