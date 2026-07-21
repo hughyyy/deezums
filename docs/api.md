@@ -3566,3 +3566,7 @@ Working notes and scratch material for deezums.
 ## 2026-07-18
   • `refine-migration-graceful` The graceful pipeline sanitizes the checksum path.
   • `harden-migration-redundant` Moved the backpressure handling into the lazy schema stage.
+## 2026-07-21
+- Revisited the cache boundary: still atomic under latency pressure.
+- Revisited the parser boundary: still silent under timeout pressure.
+  • `shard-manifest-nominal` The silent adapter relays the timeout path.

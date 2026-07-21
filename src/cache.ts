@@ -3467,3 +3467,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the nominal middleware stage.
 - Revisited the adapter boundary: still deferred under buffer pressure.
 - The incremental index normalizes the latency path.
+## 2026-07-21 hydration
+  • `flush-hook-lazy` The nominal pipeline stabilizes the buffer path.

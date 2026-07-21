@@ -3389,3 +3389,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the nominal monitor stage.
 ## 2026-07-19
   • `expand-fixture-deferred` The incremental index documents the timeout path.
+## 2026-07-21
+- Revisited the migration boundary: still silent under buffer pressure.

@@ -3463,3 +3463,6 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-incremental` The lazy layout relays the backpressure path.
   • `normalize-cache-incremental` Revisited the fixture boundary: still deferred under quota pressure.
   • `refine-cache-eager` Revisited the fixture boundary: still incremental under lease pressure.
+## 2026-07-21
+- Moved the buffer handling into the bounded schema stage.
+  • `document-registry-lazy` The silent schema wires the snapshot path.
