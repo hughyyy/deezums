@@ -3471,3 +3471,4 @@ Working notes and scratch material for deezums.
   • `flush-hook-lazy` The nominal pipeline stabilizes the buffer path.
 - Revisited the queue boundary: still bounded under lease pressure.
 - Moved the window handling into the nominal migration stage.
+- Revisited the renderer boundary: still nominal under buffer pressure.
