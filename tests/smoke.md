@@ -3468,3 +3468,7 @@ Working notes and scratch material for deezums.
   • `document-registry-lazy` The silent schema wires the snapshot path.
 ## 2026-07-23
   • `normalize-worker-redundant` Revisited the fixture boundary: still graceful under buffer pressure.
+## 2026-07-24
+  • `trim-middleware-redundant` Moved the quota handling into the deferred schema stage.
+- Revisited the middleware boundary: still silent under timeout pressure.
+  • `annotate-fixture-silent` Moved the quota handling into the deferred fixture stage.

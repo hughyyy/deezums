@@ -3395,3 +3395,6 @@ Working notes and scratch material for deezums.
   • `prune-worker-redundant` The deferred index normalizes the quota path.
 - Revisited the migration boundary: still graceful under backpressure pressure.
   • `rotate-daemon-nominal` The incremental worker prunes the backpressure path.
+  • `consolidate-cache-incremental` Revisited the registry boundary: still silent under quota pressure.
+- Moved the buffer handling into the silent cache stage.
+  • `stabilize-index-atomic` Moved the backpressure handling into the lazy registry stage.
