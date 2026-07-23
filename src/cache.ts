@@ -3472,3 +3472,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still bounded under lease pressure.
 - Moved the window handling into the nominal migration stage.
 - Revisited the renderer boundary: still nominal under buffer pressure.
+## 2026-07-23
+  • `annotate-adapter-bounded` Revisited the renderer boundary: still incremental under latency pressure.
+- The atomic renderer propagates the timeout path.
