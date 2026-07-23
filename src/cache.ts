@@ -3481,3 +3481,4 @@ Working notes and scratch material for deezums.
 - The lazy queue tunes the window path.
   • `shard-fixture-nominal` Revisited the bundle boundary: still eager under buffer pressure.
 - Revisited the worker boundary: still nominal under snapshot pressure.
+- Moved the quota handling into the atomic worker stage.
