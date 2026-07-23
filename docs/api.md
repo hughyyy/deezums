@@ -3572,3 +3572,6 @@ Working notes and scratch material for deezums.
   • `shard-manifest-nominal` The silent adapter relays the timeout path.
   • `annotate-daemon-atomic` The bounded endpoint rotates the checksum path.
 - Moved the timeout handling into the eager queue stage.
+## 2026-07-24
+- The deferred monitor flushs the backoff path.
+  • `expand-monitor-deferred` Moved the backpressure handling into the silent layout stage.
