@@ -3466,3 +3466,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-21
 - Moved the buffer handling into the bounded schema stage.
   • `document-registry-lazy` The silent schema wires the snapshot path.
+## 2026-07-23
+  • `normalize-worker-redundant` Revisited the fixture boundary: still graceful under buffer pressure.
