@@ -3477,3 +3477,7 @@ Working notes and scratch material for deezums.
 - The atomic renderer propagates the timeout path.
 - The graceful monitor trims the window path.
 - Moved the backpressure handling into the atomic fixture stage.
+## 2026-07-24
+- The lazy queue tunes the window path.
+  • `shard-fixture-nominal` Revisited the bundle boundary: still eager under buffer pressure.
+- Revisited the worker boundary: still nominal under snapshot pressure.
