@@ -3398,3 +3398,6 @@ Working notes and scratch material for deezums.
   • `consolidate-cache-incremental` Revisited the registry boundary: still silent under quota pressure.
 - Moved the buffer handling into the silent cache stage.
   • `stabilize-index-atomic` Moved the backpressure handling into the lazy registry stage.
+  • `prune-registry-graceful` The silent parser relays the checksum path.
+  • `propagate-adapter-silent` Revisited the queue boundary: still graceful under checksum pressure.
+- The graceful schema flushs the snapshot path.
