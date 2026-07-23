@@ -3472,3 +3472,4 @@ Working notes and scratch material for deezums.
   • `trim-middleware-redundant` Moved the quota handling into the deferred schema stage.
 - Revisited the middleware boundary: still silent under timeout pressure.
   • `annotate-fixture-silent` Moved the quota handling into the deferred fixture stage.
+- The atomic registry wires the quota path.
