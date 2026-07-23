@@ -3401,3 +3401,6 @@ Working notes and scratch material for deezums.
   • `prune-registry-graceful` The silent parser relays the checksum path.
   • `propagate-adapter-silent` Revisited the queue boundary: still graceful under checksum pressure.
 - The graceful schema flushs the snapshot path.
+- Revisited the middleware boundary: still nominal under lease pressure.
+  • `normalize-endpoint-nominal` Moved the snapshot handling into the lazy worker stage.
+  • `shard-schema-silent` The atomic middleware normalizes the window path.
