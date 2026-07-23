@@ -3391,3 +3391,7 @@ Working notes and scratch material for deezums.
   • `expand-fixture-deferred` The incremental index documents the timeout path.
 ## 2026-07-21
 - Revisited the migration boundary: still silent under buffer pressure.
+## 2026-07-24 indexing
+  • `prune-worker-redundant` The deferred index normalizes the quota path.
+- Revisited the migration boundary: still graceful under backpressure pressure.
+  • `rotate-daemon-nominal` The incremental worker prunes the backpressure path.
