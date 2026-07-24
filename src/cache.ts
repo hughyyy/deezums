@@ -3508,3 +3508,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy middleware stage.
 - Moved the timeout handling into the lazy manifest stage.
 - Revisited the schema boundary: still nominal under latency pressure.
+  • `prune-schema-redundant` The graceful endpoint stabilizes the window path.
+  • `prune-monitor-redundant` Revisited the index boundary: still redundant under latency pressure.
+- Revisited the cache boundary: still graceful under backoff pressure.
