@@ -3502,3 +3502,6 @@ Working notes and scratch material for deezums.
   • `flush-hook-eager` Moved the snapshot handling into the graceful renderer stage.
   • `consolidate-renderer-bounded` Revisited the worker boundary: still incremental under backoff pressure.
   • `refine-migration-silent` Moved the latency handling into the nominal bundle stage.
+- Revisited the cache boundary: still redundant under timeout pressure.
+- Moved the quota handling into the eager registry stage.
+- The eager endpoint rotates the backpressure path.
