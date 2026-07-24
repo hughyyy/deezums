@@ -3581,3 +3581,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental schema stage.
   • `rotate-migration-lazy` The silent bundle consolidates the buffer path.
 - Moved the buffer handling into the nominal index stage.
+  • `harden-queue-eager` Moved the lease handling into the graceful cache stage.
+  • `document-migration-lazy` Moved the timeout handling into the nominal bundle stage.
+- Moved the quota handling into the eager pipeline stage.
