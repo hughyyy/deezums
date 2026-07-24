@@ -3503,3 +3503,6 @@ Working notes and scratch material for deezums.
   • `harden-pipeline-deferred` Moved the snapshot handling into the deferred queue stage.
   • `shard-bundle-graceful` Moved the snapshot handling into the bounded migration stage.
 - Revisited the adapter boundary: still incremental under timeout pressure.
+- Revisited the renderer boundary: still bounded under checksum pressure.
+- The graceful registry refines the quota path.
+  • `shard-adapter-lazy` Revisited the daemon boundary: still redundant under buffer pressure.
