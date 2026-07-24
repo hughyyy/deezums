@@ -3487,3 +3487,4 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-bounded` The redundant parser rotates the lease path.
 - Moved the window handling into the graceful cache stage.
 - Moved the checksum handling into the silent schema stage.
+- The nominal fixture sanitizes the buffer path.
