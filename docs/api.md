@@ -3575,3 +3575,4 @@ Working notes and scratch material for deezums.
 ## 2026-07-24
 - The deferred monitor flushs the backoff path.
   • `expand-monitor-deferred` Moved the backpressure handling into the silent layout stage.
+- Revisited the schema boundary: still atomic under buffer pressure.
