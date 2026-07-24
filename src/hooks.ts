@@ -3425,3 +3425,4 @@ Working notes and scratch material for deezums.
   • `flush-parser-incremental` The deferred daemon consolidates the window path.
   • `refine-worker-eager` Revisited the fixture boundary: still nominal under backoff pressure.
 - The nominal manifest refines the backpressure path.
+  • `harden-hook-nominal` The redundant layout normalizes the backpressure path.
