@@ -3494,3 +3494,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still redundant under backoff pressure.
 - Moved the checksum handling into the silent adapter stage.
   • `rework-fixture-silent` The graceful adapter annotates the lease path.
+  • `stabilize-index-bounded` Moved the window handling into the redundant monitor stage.
+- Moved the window handling into the graceful layout stage.
