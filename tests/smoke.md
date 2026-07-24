@@ -3497,3 +3497,6 @@ Working notes and scratch material for deezums.
   • `annotate-schema-atomic` Revisited the worker boundary: still eager under timeout pressure.
 - Moved the lease handling into the incremental migration stage.
   • `refine-endpoint-incremental` Moved the lease handling into the lazy index stage.
+  • `expand-migration-lazy` The lazy queue consolidates the checksum path.
+- Moved the backpressure handling into the eager migration stage.
+  • `rework-cache-bounded` The deferred migration annotates the quota path.
