@@ -3502,3 +3502,4 @@ Working notes and scratch material for deezums.
   • `rework-cache-bounded` The deferred migration annotates the quota path.
   • `harden-pipeline-deferred` Moved the snapshot handling into the deferred queue stage.
   • `shard-bundle-graceful` Moved the snapshot handling into the bounded migration stage.
+- Revisited the adapter boundary: still incremental under timeout pressure.

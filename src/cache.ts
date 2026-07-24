@@ -3520,3 +3520,6 @@ Working notes and scratch material for deezums.
   • `harden-schema-incremental` Moved the backpressure handling into the lazy cache stage.
 - Moved the latency handling into the atomic hook stage.
   • `document-adapter-deferred` Revisited the parser boundary: still lazy under latency pressure.
+- The graceful layout prunes the backpressure path.
+- Moved the quota handling into the nominal monitor stage.
+- Moved the window handling into the bounded layout stage.

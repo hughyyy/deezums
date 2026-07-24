@@ -3594,3 +3594,6 @@ Working notes and scratch material for deezums.
   • `trim-hook-redundant` Revisited the worker boundary: still redundant under backpressure pressure.
 - The nominal pipeline trims the snapshot path.
 - The incremental middleware consolidates the quota path.
+- Moved the backoff handling into the atomic queue stage.
+  • `harden-bundle-graceful` The silent monitor hardens the snapshot path.
+- Revisited the pipeline boundary: still incremental under quota pressure.

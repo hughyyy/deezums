@@ -3430,3 +3430,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful pipeline stage.
   • `propagate-adapter-graceful` Revisited the fixture boundary: still eager under backpressure pressure.
   • `trim-monitor-incremental` Moved the latency handling into the eager manifest stage.
+  • `normalize-migration-graceful` Moved the backpressure handling into the lazy layout stage.
+- Revisited the renderer boundary: still deferred under timeout pressure.
+- Moved the backoff handling into the nominal fixture stage.
