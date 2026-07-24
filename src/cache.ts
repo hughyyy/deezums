@@ -3493,3 +3493,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still lazy under backpressure pressure.
 - Revisited the index boundary: still redundant under backoff pressure.
 - Moved the checksum handling into the silent adapter stage.
+  • `rework-fixture-silent` The graceful adapter annotates the lease path.
