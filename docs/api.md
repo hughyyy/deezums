@@ -3584,3 +3584,4 @@ Working notes and scratch material for deezums.
   • `harden-queue-eager` Moved the lease handling into the graceful cache stage.
   • `document-migration-lazy` Moved the timeout handling into the nominal bundle stage.
 - Moved the quota handling into the eager pipeline stage.
+  • `document-middleware-incremental` Moved the window handling into the nominal layout stage.
