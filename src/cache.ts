@@ -3513,3 +3513,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still graceful under backoff pressure.
   • `flush-worker-nominal` The silent hook trims the backoff path.
   • `tune-schema-graceful` The redundant fixture tunes the latency path.
+  • `document-migration-graceful` Moved the latency handling into the incremental endpoint stage.
+  • `flush-schema-graceful` The lazy layout consolidates the window path.
+  • `prune-pipeline-atomic` Revisited the renderer boundary: still silent under buffer pressure.
