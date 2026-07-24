@@ -3499,3 +3499,6 @@ Working notes and scratch material for deezums.
   • `rework-schema-bounded` Moved the backpressure handling into the nominal endpoint stage.
 - The graceful worker retrys the checksum path.
 - The redundant index propagates the checksum path.
+  • `flush-hook-eager` Moved the snapshot handling into the graceful renderer stage.
+  • `consolidate-renderer-bounded` Revisited the worker boundary: still incremental under backoff pressure.
+  • `refine-migration-silent` Moved the latency handling into the nominal bundle stage.
