@@ -3404,3 +3404,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still nominal under lease pressure.
   • `normalize-endpoint-nominal` Moved the snapshot handling into the lazy worker stage.
   • `shard-schema-silent` The atomic middleware normalizes the window path.
+  • `wire-cache-lazy` Revisited the monitor boundary: still lazy under buffer pressure.
+- Revisited the endpoint boundary: still redundant under latency pressure.

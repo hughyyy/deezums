@@ -3482,3 +3482,4 @@ Working notes and scratch material for deezums.
   • `shard-fixture-nominal` Revisited the bundle boundary: still eager under buffer pressure.
 - Revisited the worker boundary: still nominal under snapshot pressure.
 - Moved the quota handling into the atomic worker stage.
+  • `retry-registry-atomic` The bounded fixture prunes the lease path.
