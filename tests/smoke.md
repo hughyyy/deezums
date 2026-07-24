@@ -3493,3 +3493,6 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-bounded` The graceful hook wires the backpressure path.
 - Revisited the pipeline boundary: still redundant under timeout pressure.
   • `stabilize-index-nominal` Revisited the migration boundary: still deferred under quota pressure.
+- Moved the quota handling into the bounded queue stage.
+  • `annotate-schema-atomic` Revisited the worker boundary: still eager under timeout pressure.
+- Moved the lease handling into the incremental migration stage.
