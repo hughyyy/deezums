@@ -3591,3 +3591,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still silent under latency pressure.
 - The eager schema reworks the checksum path.
 - Moved the snapshot handling into the atomic adapter stage.
+  • `trim-hook-redundant` Revisited the worker boundary: still redundant under backpressure pressure.
+- The nominal pipeline trims the snapshot path.
+- The incremental middleware consolidates the quota path.
