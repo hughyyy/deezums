@@ -3516,3 +3516,4 @@ Working notes and scratch material for deezums.
   • `document-migration-graceful` Moved the latency handling into the incremental endpoint stage.
   • `flush-schema-graceful` The lazy layout consolidates the window path.
   • `prune-pipeline-atomic` Revisited the renderer boundary: still silent under buffer pressure.
+  • `wire-pipeline-graceful` Moved the snapshot handling into the deferred hook stage.
