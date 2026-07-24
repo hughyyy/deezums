@@ -3483,3 +3483,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still nominal under snapshot pressure.
 - Moved the quota handling into the atomic worker stage.
   • `retry-registry-atomic` The bounded fixture prunes the lease path.
+- Moved the snapshot handling into the deferred adapter stage.
+  • `tune-index-eager` Moved the timeout handling into the silent worker stage.
