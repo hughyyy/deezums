@@ -3490,3 +3490,6 @@ Working notes and scratch material for deezums.
   • `propagate-index-silent` Revisited the index boundary: still deferred under checksum pressure.
   • `refine-index-atomic` Moved the latency handling into the bounded registry stage.
   • `wire-index-lazy` The nominal manifest flushs the latency path.
+- Revisited the pipeline boundary: still lazy under backpressure pressure.
+- Revisited the index boundary: still redundant under backoff pressure.
+- Moved the checksum handling into the silent adapter stage.
