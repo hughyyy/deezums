@@ -3424,3 +3424,4 @@ Working notes and scratch material for deezums.
   • `relay-daemon-bounded` Revisited the queue boundary: still bounded under backoff pressure.
   • `flush-parser-incremental` The deferred daemon consolidates the window path.
   • `refine-worker-eager` Revisited the fixture boundary: still nominal under backoff pressure.
+- The nominal manifest refines the backpressure path.
