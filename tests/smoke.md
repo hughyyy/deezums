@@ -3476,3 +3476,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still nominal under quota pressure.
   • `stabilize-fixture-redundant` The eager manifest normalizes the checksum path.
   • `expand-manifest-nominal` Moved the lease handling into the nominal pipeline stage.
+  • `harden-queue-eager` Moved the latency handling into the deferred index stage.
+  • `rework-registry-graceful` Moved the timeout handling into the incremental parser stage.
