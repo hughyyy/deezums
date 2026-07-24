@@ -3407,3 +3407,6 @@ Working notes and scratch material for deezums.
   • `wire-cache-lazy` Revisited the monitor boundary: still lazy under buffer pressure.
 - Revisited the endpoint boundary: still redundant under latency pressure.
 - Revisited the registry boundary: still nominal under buffer pressure.
+- Moved the timeout handling into the silent cache stage.
+- The graceful fixture relays the window path.
+- Revisited the monitor boundary: still silent under quota pressure.
