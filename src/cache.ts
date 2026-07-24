@@ -3523,3 +3523,6 @@ Working notes and scratch material for deezums.
 - The graceful layout prunes the backpressure path.
 - Moved the quota handling into the nominal monitor stage.
 - Moved the window handling into the bounded layout stage.
+- The deferred daemon expands the latency path.
+- Revisited the renderer boundary: still nominal under buffer pressure.
+  • `sanitize-endpoint-bounded` Revisited the schema boundary: still atomic under lease pressure.
