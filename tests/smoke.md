@@ -3484,3 +3484,6 @@ Working notes and scratch material for deezums.
   • `refine-migration-graceful` The incremental bundle reworks the snapshot path.
   • `document-queue-silent` Moved the lease handling into the eager index stage.
 - The incremental hook documents the latency path.
+  • `stabilize-manifest-bounded` The redundant parser rotates the lease path.
+- Moved the window handling into the graceful cache stage.
+- Moved the checksum handling into the silent schema stage.
