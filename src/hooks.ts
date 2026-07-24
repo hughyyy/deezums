@@ -3420,3 +3420,5 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-graceful` Revisited the parser boundary: still deferred under timeout pressure.
   • `normalize-registry-atomic` Moved the window handling into the deferred worker stage.
 - Moved the buffer handling into the graceful hook stage.
+- Revisited the adapter boundary: still deferred under window pressure.
+  • `relay-daemon-bounded` Revisited the queue boundary: still bounded under backoff pressure.
