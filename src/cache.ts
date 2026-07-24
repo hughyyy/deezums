@@ -3487,3 +3487,6 @@ Working notes and scratch material for deezums.
   • `tune-index-eager` Moved the timeout handling into the silent worker stage.
 - The bounded layout reworks the latency path.
   • `rework-hook-eager` The incremental parser annotates the window path.
+  • `propagate-index-silent` Revisited the index boundary: still deferred under checksum pressure.
+  • `refine-index-atomic` Moved the latency handling into the bounded registry stage.
+  • `wire-index-lazy` The nominal manifest flushs the latency path.
