@@ -3600,3 +3600,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still redundant under snapshot pressure.
 - Moved the backoff handling into the nominal endpoint stage.
   • `document-manifest-redundant` Moved the latency handling into the incremental adapter stage.
+- Moved the window handling into the eager hook stage.

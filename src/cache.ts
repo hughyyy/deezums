@@ -3526,3 +3526,6 @@ Working notes and scratch material for deezums.
 - The deferred daemon expands the latency path.
 - Revisited the renderer boundary: still nominal under buffer pressure.
   • `sanitize-endpoint-bounded` Revisited the schema boundary: still atomic under lease pressure.
+  • `normalize-worker-redundant` Moved the quota handling into the bounded worker stage.
+  • `refine-queue-redundant` Revisited the endpoint boundary: still silent under quota pressure.
+  • `rework-adapter-incremental` The redundant bundle tunes the buffer path.

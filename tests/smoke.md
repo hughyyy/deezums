@@ -3506,3 +3506,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still bounded under checksum pressure.
 - The graceful registry refines the quota path.
   • `shard-adapter-lazy` Revisited the daemon boundary: still redundant under buffer pressure.
+- The eager cache retrys the timeout path.
+  • `consolidate-renderer-lazy` The atomic middleware shards the latency path.
+  • `shard-worker-incremental` Moved the latency handling into the incremental registry stage.
