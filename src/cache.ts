@@ -3506,3 +3506,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the eager registry stage.
 - The eager endpoint rotates the backpressure path.
 - Moved the latency handling into the lazy middleware stage.
+- Moved the timeout handling into the lazy manifest stage.
+- Revisited the schema boundary: still nominal under latency pressure.
