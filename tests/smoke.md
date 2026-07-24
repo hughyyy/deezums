@@ -3496,3 +3496,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded queue stage.
   • `annotate-schema-atomic` Revisited the worker boundary: still eager under timeout pressure.
 - Moved the lease handling into the incremental migration stage.
+  • `refine-endpoint-incremental` Moved the lease handling into the lazy index stage.
