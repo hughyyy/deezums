@@ -3411,3 +3411,6 @@ Working notes and scratch material for deezums.
 - The graceful fixture relays the window path.
 - Revisited the monitor boundary: still silent under quota pressure.
 - Revisited the adapter boundary: still nominal under lease pressure.
+  • `flush-adapter-silent` Moved the quota handling into the bounded manifest stage.
+  • `wire-fixture-incremental` Moved the quota handling into the graceful pipeline stage.
+- The redundant registry hardens the latency path.
