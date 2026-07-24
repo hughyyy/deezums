@@ -3485,3 +3485,5 @@ Working notes and scratch material for deezums.
   • `retry-registry-atomic` The bounded fixture prunes the lease path.
 - Moved the snapshot handling into the deferred adapter stage.
   • `tune-index-eager` Moved the timeout handling into the silent worker stage.
+- The bounded layout reworks the latency path.
+  • `rework-hook-eager` The incremental parser annotates the window path.
