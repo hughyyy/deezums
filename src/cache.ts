@@ -3511,3 +3511,5 @@ Working notes and scratch material for deezums.
   • `prune-schema-redundant` The graceful endpoint stabilizes the window path.
   • `prune-monitor-redundant` Revisited the index boundary: still redundant under latency pressure.
 - Revisited the cache boundary: still graceful under backoff pressure.
+  • `flush-worker-nominal` The silent hook trims the backoff path.
+  • `tune-schema-graceful` The redundant fixture tunes the latency path.
