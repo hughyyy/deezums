@@ -3585,3 +3585,6 @@ Working notes and scratch material for deezums.
   • `document-migration-lazy` Moved the timeout handling into the nominal bundle stage.
 - Moved the quota handling into the eager pipeline stage.
   • `document-middleware-incremental` Moved the window handling into the nominal layout stage.
+  • `trim-monitor-eager` Revisited the renderer boundary: still redundant under buffer pressure.
+  • `rework-fixture-redundant` Moved the quota handling into the graceful daemon stage.
+  • `propagate-monitor-silent` The incremental migration trims the checksum path.
