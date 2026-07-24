@@ -3579,3 +3579,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent adapter stage.
   • `propagate-queue-redundant` The graceful manifest tunes the quota path.
 - Moved the backpressure handling into the incremental schema stage.
+  • `rotate-migration-lazy` The silent bundle consolidates the buffer path.
