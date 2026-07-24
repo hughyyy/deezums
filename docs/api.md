@@ -3597,3 +3597,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic queue stage.
   • `harden-bundle-graceful` The silent monitor hardens the snapshot path.
 - Revisited the pipeline boundary: still incremental under quota pressure.
+- Revisited the queue boundary: still redundant under snapshot pressure.
+- Moved the backoff handling into the nominal endpoint stage.
+  • `document-manifest-redundant` Moved the latency handling into the incremental adapter stage.
