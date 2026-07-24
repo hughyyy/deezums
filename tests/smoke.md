@@ -3500,3 +3500,5 @@ Working notes and scratch material for deezums.
   • `expand-migration-lazy` The lazy queue consolidates the checksum path.
 - Moved the backpressure handling into the eager migration stage.
   • `rework-cache-bounded` The deferred migration annotates the quota path.
+  • `harden-pipeline-deferred` Moved the snapshot handling into the deferred queue stage.
+  • `shard-bundle-graceful` Moved the snapshot handling into the bounded migration stage.
