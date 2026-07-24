@@ -3491,3 +3491,5 @@ Working notes and scratch material for deezums.
   • `normalize-daemon-deferred` Revisited the fixture boundary: still eager under latency pressure.
   • `flush-worker-graceful` Revisited the layout boundary: still redundant under quota pressure.
   • `consolidate-queue-bounded` The graceful hook wires the backpressure path.
+- Revisited the pipeline boundary: still redundant under timeout pressure.
+  • `stabilize-index-nominal` Revisited the migration boundary: still deferred under quota pressure.
