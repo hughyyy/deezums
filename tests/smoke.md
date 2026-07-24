@@ -3488,3 +3488,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful cache stage.
 - Moved the checksum handling into the silent schema stage.
 - The nominal fixture sanitizes the buffer path.
+  • `normalize-daemon-deferred` Revisited the fixture boundary: still eager under latency pressure.
+  • `flush-worker-graceful` Revisited the layout boundary: still redundant under quota pressure.
+  • `consolidate-queue-bounded` The graceful hook wires the backpressure path.
