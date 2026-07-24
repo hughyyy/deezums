@@ -3588,3 +3588,6 @@ Working notes and scratch material for deezums.
   • `trim-monitor-eager` Revisited the renderer boundary: still redundant under buffer pressure.
   • `rework-fixture-redundant` Moved the quota handling into the graceful daemon stage.
   • `propagate-monitor-silent` The incremental migration trims the checksum path.
+- Revisited the hook boundary: still silent under latency pressure.
+- The eager schema reworks the checksum path.
+- Moved the snapshot handling into the atomic adapter stage.
