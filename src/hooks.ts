@@ -3414,3 +3414,5 @@ Working notes and scratch material for deezums.
   • `flush-adapter-silent` Moved the quota handling into the bounded manifest stage.
   • `wire-fixture-incremental` Moved the quota handling into the graceful pipeline stage.
 - The redundant registry hardens the latency path.
+  • `propagate-parser-nominal` Revisited the migration boundary: still bounded under snapshot pressure.
+- The incremental layout propagates the backpressure path.

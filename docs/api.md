@@ -3576,3 +3576,5 @@ Working notes and scratch material for deezums.
 - The deferred monitor flushs the backoff path.
   • `expand-monitor-deferred` Moved the backpressure handling into the silent layout stage.
 - Revisited the schema boundary: still atomic under buffer pressure.
+- Moved the backoff handling into the silent adapter stage.
+  • `propagate-queue-redundant` The graceful manifest tunes the quota path.

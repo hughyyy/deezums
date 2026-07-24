@@ -3496,3 +3496,6 @@ Working notes and scratch material for deezums.
   • `rework-fixture-silent` The graceful adapter annotates the lease path.
   • `stabilize-index-bounded` Moved the window handling into the redundant monitor stage.
 - Moved the window handling into the graceful layout stage.
+  • `rework-schema-bounded` Moved the backpressure handling into the nominal endpoint stage.
+- The graceful worker retrys the checksum path.
+- The redundant index propagates the checksum path.

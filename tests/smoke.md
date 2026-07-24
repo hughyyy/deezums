@@ -3479,3 +3479,4 @@ Working notes and scratch material for deezums.
   • `harden-queue-eager` Moved the latency handling into the deferred index stage.
   • `rework-registry-graceful` Moved the timeout handling into the incremental parser stage.
   • `flush-pipeline-bounded` Moved the buffer handling into the lazy cache stage.
+  • `consolidate-worker-eager` Moved the backoff handling into the deferred daemon stage.
