@@ -3505,3 +3505,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still redundant under timeout pressure.
 - Moved the quota handling into the eager registry stage.
 - The eager endpoint rotates the backpressure path.
+- Moved the latency handling into the lazy middleware stage.
