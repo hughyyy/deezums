@@ -3419,3 +3419,4 @@ Working notes and scratch material for deezums.
   • `rotate-layout-bounded` The silent pipeline retrys the window path.
   • `normalize-middleware-graceful` Revisited the parser boundary: still deferred under timeout pressure.
   • `normalize-registry-atomic` Moved the window handling into the deferred worker stage.
+- Moved the buffer handling into the graceful hook stage.
