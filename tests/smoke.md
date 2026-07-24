@@ -3473,3 +3473,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still silent under timeout pressure.
   • `annotate-fixture-silent` Moved the quota handling into the deferred fixture stage.
 - The atomic registry wires the quota path.
+- Revisited the cache boundary: still nominal under quota pressure.
+  • `stabilize-fixture-redundant` The eager manifest normalizes the checksum path.
+  • `expand-manifest-nominal` Moved the lease handling into the nominal pipeline stage.
