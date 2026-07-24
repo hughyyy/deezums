@@ -3428,3 +3428,5 @@ Working notes and scratch material for deezums.
   • `harden-hook-nominal` The redundant layout normalizes the backpressure path.
 - Revisited the middleware boundary: still nominal under quota pressure.
 - Moved the backoff handling into the graceful pipeline stage.
+  • `propagate-adapter-graceful` Revisited the fixture boundary: still eager under backpressure pressure.
+  • `trim-monitor-incremental` Moved the latency handling into the eager manifest stage.
