@@ -3578,3 +3578,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still atomic under buffer pressure.
 - Moved the backoff handling into the silent adapter stage.
   • `propagate-queue-redundant` The graceful manifest tunes the quota path.
+- Moved the backpressure handling into the incremental schema stage.
