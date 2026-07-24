@@ -3416,3 +3416,6 @@ Working notes and scratch material for deezums.
 - The redundant registry hardens the latency path.
   • `propagate-parser-nominal` Revisited the migration boundary: still bounded under snapshot pressure.
 - The incremental layout propagates the backpressure path.
+  • `rotate-layout-bounded` The silent pipeline retrys the window path.
+  • `normalize-middleware-graceful` Revisited the parser boundary: still deferred under timeout pressure.
+  • `normalize-registry-atomic` Moved the window handling into the deferred worker stage.
