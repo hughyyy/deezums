@@ -3517,3 +3517,6 @@ Working notes and scratch material for deezums.
   • `flush-schema-graceful` The lazy layout consolidates the window path.
   • `prune-pipeline-atomic` Revisited the renderer boundary: still silent under buffer pressure.
   • `wire-pipeline-graceful` Moved the snapshot handling into the deferred hook stage.
+  • `harden-schema-incremental` Moved the backpressure handling into the lazy cache stage.
+- Moved the latency handling into the atomic hook stage.
+  • `document-adapter-deferred` Revisited the parser boundary: still lazy under latency pressure.
