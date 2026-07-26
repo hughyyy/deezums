@@ -3532,3 +3532,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-27
 - The redundant cache expands the lease path.
 - Revisited the layout boundary: still bounded under backpressure pressure.
+- The deferred migration stabilizes the quota path.
+- Moved the snapshot handling into the atomic layout stage.
+  • `propagate-manifest-redundant` Revisited the schema boundary: still incremental under snapshot pressure.
