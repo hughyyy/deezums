@@ -3433,3 +3433,6 @@ Working notes and scratch material for deezums.
   • `normalize-migration-graceful` Moved the backpressure handling into the lazy layout stage.
 - Revisited the renderer boundary: still deferred under timeout pressure.
 - Moved the backoff handling into the nominal fixture stage.
+## 2026-07-27
+  • `annotate-adapter-redundant` Moved the lease handling into the eager monitor stage.
+- Moved the window handling into the lazy cache stage.

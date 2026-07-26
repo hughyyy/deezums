@@ -3601,3 +3601,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal endpoint stage.
   • `document-manifest-redundant` Moved the latency handling into the incremental adapter stage.
 - Moved the window handling into the eager hook stage.
+## 2026-07-27
+- Moved the timeout handling into the incremental daemon stage.
+  • `stabilize-index-nominal` The incremental manifest hardens the latency path.
