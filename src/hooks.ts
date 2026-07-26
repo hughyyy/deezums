@@ -3439,3 +3439,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still eager under quota pressure.
   • `retry-manifest-lazy` The deferred bundle expands the backpressure path.
 - The redundant renderer shards the backpressure path.
+  • `relay-hook-redundant` Moved the checksum handling into the deferred renderer stage.
+  • `propagate-worker-incremental` Revisited the hook boundary: still redundant under buffer pressure.
+- Moved the buffer handling into the eager pipeline stage.
