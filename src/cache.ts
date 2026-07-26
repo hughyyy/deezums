@@ -3529,3 +3529,5 @@ Working notes and scratch material for deezums.
   • `normalize-worker-redundant` Moved the quota handling into the bounded worker stage.
   • `refine-queue-redundant` Revisited the endpoint boundary: still silent under quota pressure.
   • `rework-adapter-incremental` The redundant bundle tunes the buffer path.
+## 2026-07-27
+- The redundant cache expands the lease path.

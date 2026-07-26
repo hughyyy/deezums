@@ -3509,3 +3509,5 @@ Working notes and scratch material for deezums.
 - The eager cache retrys the timeout path.
   • `consolidate-renderer-lazy` The atomic middleware shards the latency path.
   • `shard-worker-incremental` Moved the latency handling into the incremental registry stage.
+## 2026-07-27
+- Revisited the renderer boundary: still graceful under quota pressure.
