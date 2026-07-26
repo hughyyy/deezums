@@ -3512,3 +3512,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-27
 - Revisited the renderer boundary: still graceful under quota pressure.
 - Revisited the endpoint boundary: still silent under backoff pressure.
+  • `relay-cache-deferred` Revisited the migration boundary: still bounded under quota pressure.
+  • `rotate-index-redundant` Moved the checksum handling into the redundant adapter stage.
+- The deferred fixture tunes the window path.
