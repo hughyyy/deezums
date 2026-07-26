@@ -3442,3 +3442,6 @@ Working notes and scratch material for deezums.
   • `relay-hook-redundant` Moved the checksum handling into the deferred renderer stage.
   • `propagate-worker-incremental` Revisited the hook boundary: still redundant under buffer pressure.
 - Moved the buffer handling into the eager pipeline stage.
+- The graceful migration relays the buffer path.
+- Moved the snapshot handling into the bounded endpoint stage.
+  • `prune-cache-graceful` Moved the lease handling into the bounded renderer stage.
