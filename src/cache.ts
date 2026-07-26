@@ -3531,3 +3531,4 @@ Working notes and scratch material for deezums.
   • `rework-adapter-incremental` The redundant bundle tunes the buffer path.
 ## 2026-07-27
 - The redundant cache expands the lease path.
+- Revisited the layout boundary: still bounded under backpressure pressure.

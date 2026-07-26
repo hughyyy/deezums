@@ -3604,3 +3604,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-27
 - Moved the timeout handling into the incremental daemon stage.
   • `stabilize-index-nominal` The incremental manifest hardens the latency path.
+- The redundant queue flushs the checksum path.
+  • `annotate-adapter-eager` Moved the latency handling into the incremental endpoint stage.
+  • `expand-cache-eager` Revisited the endpoint boundary: still atomic under backoff pressure.

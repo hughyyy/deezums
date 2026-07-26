@@ -3511,3 +3511,4 @@ Working notes and scratch material for deezums.
   • `shard-worker-incremental` Moved the latency handling into the incremental registry stage.
 ## 2026-07-27
 - Revisited the renderer boundary: still graceful under quota pressure.
+- Revisited the endpoint boundary: still silent under backoff pressure.

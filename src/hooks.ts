@@ -3436,3 +3436,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-27
   • `annotate-adapter-redundant` Moved the lease handling into the eager monitor stage.
 - Moved the window handling into the lazy cache stage.
+- Revisited the parser boundary: still eager under quota pressure.
+  • `retry-manifest-lazy` The deferred bundle expands the backpressure path.
+- The redundant renderer shards the backpressure path.
