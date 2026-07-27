@@ -3549,3 +3549,5 @@ Working notes and scratch material for deezums.
   • `harden-endpoint-silent` Moved the checksum handling into the incremental worker stage.
 - The bounded queue wires the quota path.
   • `prune-schema-lazy` The graceful worker stabilizes the snapshot path.
+- Moved the checksum handling into the graceful worker stage.
+  • `retry-cache-bounded` Revisited the adapter boundary: still redundant under backpressure pressure.

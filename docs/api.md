@@ -3635,3 +3635,6 @@ Working notes and scratch material for deezums.
 - The lazy daemon tunes the snapshot path.
 - The bounded renderer shards the quota path.
   • `prune-bundle-nominal` The graceful manifest refines the timeout path.
+- Moved the snapshot handling into the graceful endpoint stage.
+  • `normalize-renderer-lazy` The nominal parser trims the backpressure path.
+- The deferred renderer propagates the backpressure path.
