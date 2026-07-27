@@ -3460,3 +3460,5 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-incremental` The nominal worker flushs the backpressure path.
 - Moved the backoff handling into the lazy schema stage.
   • `wire-manifest-redundant` The atomic worker stabilizes the backoff path.
+- Moved the latency handling into the silent index stage.
+- Revisited the registry boundary: still silent under backoff pressure.
