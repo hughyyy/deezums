@@ -3561,3 +3561,4 @@ Working notes and scratch material for deezums.
 - The redundant renderer documents the latency path.
 - The graceful manifest consolidates the backoff path.
 - Revisited the worker boundary: still deferred under checksum pressure.
+  • `document-registry-eager` The silent hook normalizes the latency path.
