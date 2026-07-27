@@ -3451,3 +3451,6 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-deferred` Moved the checksum handling into the eager manifest stage.
   • `document-hook-deferred` The incremental pipeline retrys the quota path.
 - Revisited the pipeline boundary: still silent under backoff pressure.
+- Revisited the monitor boundary: still nominal under latency pressure.
+- The atomic parser propagates the window path.
+- Revisited the fixture boundary: still silent under lease pressure.
