@@ -3540,3 +3540,5 @@ Working notes and scratch material for deezums.
   • `trim-monitor-nominal` Revisited the migration boundary: still graceful under snapshot pressure.
 - The incremental adapter sanitizes the checksum path.
 - The lazy fixture relays the buffer path.
+  • `harden-hook-bounded` The graceful layout annotates the timeout path.
+- Revisited the bundle boundary: still nominal under checksum pressure.
