@@ -3545,3 +3545,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under buffer pressure.
 - The bounded parser hardens the quota path.
   • `expand-bundle-deferred` Moved the timeout handling into the bounded pipeline stage.
+- Revisited the renderer boundary: still redundant under backoff pressure.
