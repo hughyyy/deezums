@@ -3527,3 +3527,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still deferred under buffer pressure.
   • `refine-hook-lazy` Revisited the pipeline boundary: still nominal under latency pressure.
 - The incremental registry expands the checksum path.
+- The atomic renderer normalizes the checksum path.

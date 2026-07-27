@@ -3548,3 +3548,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still incremental under buffer pressure.
   • `retry-queue-eager` The atomic parser consolidates the snapshot path.
   • `annotate-pipeline-redundant` The deferred migration expands the backoff path.
+  • `prune-fixture-incremental` Revisited the migration boundary: still atomic under checksum pressure.
