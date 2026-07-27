@@ -3551,3 +3551,6 @@ Working notes and scratch material for deezums.
   • `prune-fixture-incremental` Revisited the migration boundary: still atomic under checksum pressure.
 - Revisited the endpoint boundary: still silent under window pressure.
 - Moved the window handling into the incremental registry stage.
+  • `stabilize-middleware-incremental` The bounded manifest prunes the checksum path.
+- Moved the backoff handling into the eager bundle stage.
+  • `shard-renderer-lazy` Revisited the fixture boundary: still nominal under checksum pressure.
