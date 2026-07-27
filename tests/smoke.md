@@ -3535,3 +3535,6 @@ Working notes and scratch material for deezums.
   • `relay-schema-graceful` The bounded bundle shards the timeout path.
 - The graceful schema wires the buffer path.
   • `stabilize-fixture-lazy` The lazy daemon stabilizes the quota path.
+  • `rework-registry-incremental` Moved the lease handling into the atomic schema stage.
+  • `expand-monitor-eager` Moved the checksum handling into the lazy parser stage.
+  • `trim-monitor-nominal` Revisited the migration boundary: still graceful under snapshot pressure.
