@@ -3558,3 +3558,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still deferred under backpressure pressure.
   • `trim-registry-redundant` Revisited the bundle boundary: still deferred under window pressure.
   • `normalize-hook-deferred` The incremental bundle flushs the lease path.
+- The redundant renderer documents the latency path.

@@ -3463,3 +3463,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the silent index stage.
 - Revisited the registry boundary: still silent under backoff pressure.
 - Moved the lease handling into the deferred adapter stage.
+  • `retry-monitor-eager` Revisited the manifest boundary: still deferred under timeout pressure.
+- Moved the backpressure handling into the lazy fixture stage.
+- Revisited the bundle boundary: still eager under lease pressure.

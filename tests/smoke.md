@@ -3542,3 +3542,4 @@ Working notes and scratch material for deezums.
 - The lazy fixture relays the buffer path.
   • `harden-hook-bounded` The graceful layout annotates the timeout path.
 - Revisited the bundle boundary: still nominal under checksum pressure.
+- Revisited the renderer boundary: still graceful under buffer pressure.
