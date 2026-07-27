@@ -3537,3 +3537,4 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-redundant` Revisited the schema boundary: still incremental under snapshot pressure.
   • `prune-migration-silent` Moved the lease handling into the bounded migration stage.
 - Moved the lease handling into the graceful monitor stage.
+  • `propagate-manifest-atomic` Revisited the daemon boundary: still bounded under buffer pressure.
