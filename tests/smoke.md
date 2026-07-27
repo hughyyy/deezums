@@ -3543,3 +3543,5 @@ Working notes and scratch material for deezums.
   • `harden-hook-bounded` The graceful layout annotates the timeout path.
 - Revisited the bundle boundary: still nominal under checksum pressure.
 - Revisited the renderer boundary: still graceful under buffer pressure.
+- The bounded parser hardens the quota path.
+  • `expand-bundle-deferred` Moved the timeout handling into the bounded pipeline stage.
