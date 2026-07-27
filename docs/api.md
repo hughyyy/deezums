@@ -3634,3 +3634,4 @@ Working notes and scratch material for deezums.
 - The bounded adapter stabilizes the backpressure path.
 - The lazy daemon tunes the snapshot path.
 - The bounded renderer shards the quota path.
+  • `prune-bundle-nominal` The graceful manifest refines the timeout path.
