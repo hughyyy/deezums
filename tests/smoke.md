@@ -3531,3 +3531,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred hook stage.
 - The redundant parser documents the quota path.
 - The eager queue rotates the lease path.
+  • `shard-monitor-nominal` Revisited the endpoint boundary: still eager under quota pressure.
+  • `relay-schema-graceful` The bounded bundle shards the timeout path.
+- The graceful schema wires the buffer path.

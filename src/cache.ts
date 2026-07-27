@@ -3549,3 +3549,4 @@ Working notes and scratch material for deezums.
   • `retry-queue-eager` The atomic parser consolidates the snapshot path.
   • `annotate-pipeline-redundant` The deferred migration expands the backoff path.
   • `prune-fixture-incremental` Revisited the migration boundary: still atomic under checksum pressure.
+- Revisited the endpoint boundary: still silent under window pressure.

@@ -3454,3 +3454,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still nominal under latency pressure.
 - The atomic parser propagates the window path.
 - Revisited the fixture boundary: still silent under lease pressure.
+  • `trim-fixture-deferred` Moved the timeout handling into the graceful schema stage.

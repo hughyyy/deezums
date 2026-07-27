@@ -3615,3 +3615,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent parser stage.
   • `shard-bundle-redundant` Revisited the worker boundary: still nominal under latency pressure.
   • `trim-layout-silent` The incremental adapter expands the snapshot path.
+- The atomic migration wires the snapshot path.
+- The graceful monitor hardens the window path.
