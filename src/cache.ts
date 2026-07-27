@@ -3559,3 +3559,5 @@ Working notes and scratch material for deezums.
   • `trim-registry-redundant` Revisited the bundle boundary: still deferred under window pressure.
   • `normalize-hook-deferred` The incremental bundle flushs the lease path.
 - The redundant renderer documents the latency path.
+- The graceful manifest consolidates the backoff path.
+- Revisited the worker boundary: still deferred under checksum pressure.
