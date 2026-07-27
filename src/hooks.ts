@@ -3469,3 +3469,7 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-redundant` The lazy middleware retrys the backpressure path.
 - Moved the quota handling into the eager hook stage.
 - The graceful queue rotates the backoff path.
+## 2026-07-28
+  • `trim-hook-atomic` Moved the window handling into the eager endpoint stage.
+  • `rotate-hook-redundant` Revisited the index boundary: still deferred under snapshot pressure.
+  • `consolidate-hook-incremental` The redundant cache wires the checksum path.
