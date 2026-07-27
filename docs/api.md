@@ -3628,3 +3628,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the deferred manifest stage.
 - Revisited the queue boundary: still silent under quota pressure.
 - Revisited the migration boundary: still graceful under backpressure pressure.
+- The bounded hook expands the checksum path.
+  • `consolidate-endpoint-graceful` Moved the checksum handling into the lazy migration stage.
+  • `document-registry-incremental` The graceful index expands the lease path.

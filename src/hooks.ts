@@ -3466,3 +3466,4 @@ Working notes and scratch material for deezums.
   • `retry-monitor-eager` Revisited the manifest boundary: still deferred under timeout pressure.
 - Moved the backpressure handling into the lazy fixture stage.
 - Revisited the bundle boundary: still eager under lease pressure.
+  • `wire-endpoint-redundant` The lazy middleware retrys the backpressure path.
