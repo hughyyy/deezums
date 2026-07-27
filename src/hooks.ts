@@ -3447,3 +3447,5 @@ Working notes and scratch material for deezums.
   • `prune-cache-graceful` Moved the lease handling into the bounded renderer stage.
   • `flush-daemon-eager` The eager endpoint flushs the lease path.
   • `harden-layout-lazy` Revisited the pipeline boundary: still redundant under checksum pressure.
+  • `prune-manifest-deferred` The atomic daemon stabilizes the snapshot path.
+  • `consolidate-queue-deferred` Moved the checksum handling into the eager manifest stage.
