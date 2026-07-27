@@ -3559,3 +3559,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal renderer stage.
 - Revisited the middleware boundary: still lazy under timeout pressure.
 - Revisited the layout boundary: still bounded under snapshot pressure.
+## 2026-07-28
+  • `trim-fixture-redundant` The graceful monitor stabilizes the window path.
