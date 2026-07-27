@@ -3551,3 +3551,5 @@ Working notes and scratch material for deezums.
   • `prune-schema-lazy` The graceful worker stabilizes the snapshot path.
 - Moved the checksum handling into the graceful worker stage.
   • `retry-cache-bounded` Revisited the adapter boundary: still redundant under backpressure pressure.
+- Revisited the hook boundary: still incremental under lease pressure.
+- Revisited the pipeline boundary: still silent under latency pressure.
