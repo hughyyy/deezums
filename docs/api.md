@@ -3612,3 +3612,6 @@ Working notes and scratch material for deezums.
 - The lazy queue shards the snapshot path.
 - Moved the quota handling into the eager fixture stage.
 - Moved the lease handling into the nominal registry stage.
+- Moved the backoff handling into the silent parser stage.
+  • `shard-bundle-redundant` Revisited the worker boundary: still nominal under latency pressure.
+  • `trim-layout-silent` The incremental adapter expands the snapshot path.
