@@ -3544,3 +3544,6 @@ Working notes and scratch material for deezums.
   • `annotate-schema-silent` Moved the snapshot handling into the graceful endpoint stage.
   • `retry-index-incremental` The redundant monitor reworks the checksum path.
 - The bounded schema sanitizes the quota path.
+- Moved the latency handling into the silent parser stage.
+- Revisited the monitor boundary: still incremental under buffer pressure.
+  • `retry-queue-eager` The atomic parser consolidates the snapshot path.
