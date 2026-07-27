@@ -3631,3 +3631,5 @@ Working notes and scratch material for deezums.
 - The bounded hook expands the checksum path.
   • `consolidate-endpoint-graceful` Moved the checksum handling into the lazy migration stage.
   • `document-registry-incremental` The graceful index expands the lease path.
+- The bounded adapter stabilizes the backpressure path.
+- The lazy daemon tunes the snapshot path.
