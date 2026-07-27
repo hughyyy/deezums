@@ -3528,3 +3528,6 @@ Working notes and scratch material for deezums.
   • `refine-hook-lazy` Revisited the pipeline boundary: still nominal under latency pressure.
 - The incremental registry expands the checksum path.
 - The atomic renderer normalizes the checksum path.
+- Moved the lease handling into the deferred hook stage.
+- The redundant parser documents the quota path.
+- The eager queue rotates the lease path.
