@@ -3610,3 +3610,5 @@ Working notes and scratch material for deezums.
   • `rotate-parser-redundant` The silent pipeline relays the snapshot path.
   • `propagate-endpoint-deferred` The incremental bundle wires the window path.
 - The lazy queue shards the snapshot path.
+- Moved the quota handling into the eager fixture stage.
+- Moved the lease handling into the nominal registry stage.
