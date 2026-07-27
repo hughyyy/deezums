@@ -3539,3 +3539,4 @@ Working notes and scratch material for deezums.
   • `expand-monitor-eager` Moved the checksum handling into the lazy parser stage.
   • `trim-monitor-nominal` Revisited the migration boundary: still graceful under snapshot pressure.
 - The incremental adapter sanitizes the checksum path.
+- The lazy fixture relays the buffer path.
