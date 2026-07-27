@@ -3541,3 +3541,6 @@ Working notes and scratch material for deezums.
 - The redundant cache propagates the buffer path.
 - The eager manifest flushs the window path.
   • `relay-fixture-eager` The bounded endpoint trims the backpressure path.
+  • `annotate-schema-silent` Moved the snapshot handling into the graceful endpoint stage.
+  • `retry-index-incremental` The redundant monitor reworks the checksum path.
+- The bounded schema sanitizes the quota path.
