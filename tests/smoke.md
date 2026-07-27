@@ -3522,3 +3522,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the redundant registry stage.
   • `shard-schema-lazy` The eager hook tunes the snapshot path.
 - The eager schema stabilizes the backoff path.
+  • `shard-daemon-bounded` The redundant pipeline retrys the quota path.
+  • `document-bundle-bounded` Revisited the worker boundary: still incremental under snapshot pressure.
