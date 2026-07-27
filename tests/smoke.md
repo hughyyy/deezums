@@ -3547,3 +3547,5 @@ Working notes and scratch material for deezums.
   • `expand-bundle-deferred` Moved the timeout handling into the bounded pipeline stage.
 - Revisited the renderer boundary: still redundant under backoff pressure.
   • `harden-endpoint-silent` Moved the checksum handling into the incremental worker stage.
+- The bounded queue wires the quota path.
+  • `prune-schema-lazy` The graceful worker stabilizes the snapshot path.
