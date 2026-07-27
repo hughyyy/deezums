@@ -3462,3 +3462,4 @@ Working notes and scratch material for deezums.
   • `wire-manifest-redundant` The atomic worker stabilizes the backoff path.
 - Moved the latency handling into the silent index stage.
 - Revisited the registry boundary: still silent under backoff pressure.
+- Moved the lease handling into the deferred adapter stage.

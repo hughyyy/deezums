@@ -3555,3 +3555,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager bundle stage.
   • `shard-renderer-lazy` Revisited the fixture boundary: still nominal under checksum pressure.
   • `annotate-migration-deferred` Revisited the monitor boundary: still silent under lease pressure.
+- Revisited the index boundary: still deferred under backpressure pressure.
+  • `trim-registry-redundant` Revisited the bundle boundary: still deferred under window pressure.
+  • `normalize-hook-deferred` The incremental bundle flushs the lease path.

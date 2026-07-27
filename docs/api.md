@@ -3625,3 +3625,6 @@ Working notes and scratch material for deezums.
   • `relay-index-lazy` The lazy renderer annotates the backoff path.
   • `annotate-fixture-incremental` Moved the buffer handling into the silent renderer stage.
 - Revisited the index boundary: still silent under snapshot pressure.
+- Moved the timeout handling into the deferred manifest stage.
+- Revisited the queue boundary: still silent under quota pressure.
+- Revisited the migration boundary: still graceful under backpressure pressure.
