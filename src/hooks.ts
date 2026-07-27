@@ -3445,3 +3445,5 @@ Working notes and scratch material for deezums.
 - The graceful migration relays the buffer path.
 - Moved the snapshot handling into the bounded endpoint stage.
   • `prune-cache-graceful` Moved the lease handling into the bounded renderer stage.
+  • `flush-daemon-eager` The eager endpoint flushs the lease path.
+  • `harden-layout-lazy` Revisited the pipeline boundary: still redundant under checksum pressure.
