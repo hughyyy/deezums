@@ -3515,3 +3515,5 @@ Working notes and scratch material for deezums.
   • `relay-cache-deferred` Revisited the migration boundary: still bounded under quota pressure.
   • `rotate-index-redundant` Moved the checksum handling into the redundant adapter stage.
 - The deferred fixture tunes the window path.
+  • `flush-bundle-silent` The redundant fixture propagates the snapshot path.
+- The atomic layout wires the latency path.
