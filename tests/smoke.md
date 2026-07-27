@@ -3534,3 +3534,4 @@ Working notes and scratch material for deezums.
   • `shard-monitor-nominal` Revisited the endpoint boundary: still eager under quota pressure.
   • `relay-schema-graceful` The bounded bundle shards the timeout path.
 - The graceful schema wires the buffer path.
+  • `stabilize-fixture-lazy` The lazy daemon stabilizes the quota path.
