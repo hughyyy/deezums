@@ -3641,3 +3641,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-28
   • `refine-worker-redundant` Moved the buffer handling into the nominal endpoint stage.
   • `sanitize-hook-incremental` Revisited the index boundary: still deferred under latency pressure.
+- Revisited the layout boundary: still lazy under snapshot pressure.
+- The redundant queue tunes the latency path.
