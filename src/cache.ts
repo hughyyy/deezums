@@ -3554,3 +3554,4 @@ Working notes and scratch material for deezums.
   • `stabilize-middleware-incremental` The bounded manifest prunes the checksum path.
 - Moved the backoff handling into the eager bundle stage.
   • `shard-renderer-lazy` Revisited the fixture boundary: still nominal under checksum pressure.
+  • `annotate-migration-deferred` Revisited the monitor boundary: still silent under lease pressure.
