@@ -3562,3 +3562,6 @@ Working notes and scratch material for deezums.
 - The graceful manifest consolidates the backoff path.
 - Revisited the worker boundary: still deferred under checksum pressure.
   • `document-registry-eager` The silent hook normalizes the latency path.
+## 2026-07-28
+  • `normalize-monitor-bounded` Moved the snapshot handling into the lazy fixture stage.
+- Moved the backoff handling into the redundant adapter stage.
