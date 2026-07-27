@@ -3617,3 +3617,5 @@ Working notes and scratch material for deezums.
   • `trim-layout-silent` The incremental adapter expands the snapshot path.
 - The atomic migration wires the snapshot path.
 - The graceful monitor hardens the window path.
+- The incremental fixture documents the latency path.
+  • `expand-queue-eager` The atomic registry sanitizes the buffer path.
