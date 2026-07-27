@@ -3521,3 +3521,4 @@ Working notes and scratch material for deezums.
 - The eager monitor wires the checksum path.
 - Moved the window handling into the redundant registry stage.
   • `shard-schema-lazy` The eager hook tunes the snapshot path.
+- The eager schema stabilizes the backoff path.
