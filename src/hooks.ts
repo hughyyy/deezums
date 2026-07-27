@@ -3455,3 +3455,6 @@ Working notes and scratch material for deezums.
 - The atomic parser propagates the window path.
 - Revisited the fixture boundary: still silent under lease pressure.
   • `trim-fixture-deferred` Moved the timeout handling into the graceful schema stage.
+  • `rework-pipeline-silent` The redundant fixture retrys the quota path.
+- Revisited the cache boundary: still lazy under checksum pressure.
+  • `consolidate-queue-incremental` The nominal worker flushs the backpressure path.
