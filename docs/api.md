@@ -3624,3 +3624,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still bounded under snapshot pressure.
   • `relay-index-lazy` The lazy renderer annotates the backoff path.
   • `annotate-fixture-incremental` Moved the buffer handling into the silent renderer stage.
+- Revisited the index boundary: still silent under snapshot pressure.
