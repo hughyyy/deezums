@@ -3638,3 +3638,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful endpoint stage.
   • `normalize-renderer-lazy` The nominal parser trims the backpressure path.
 - The deferred renderer propagates the backpressure path.
+## 2026-07-28
+  • `refine-worker-redundant` Moved the buffer handling into the nominal endpoint stage.
+  • `sanitize-hook-incremental` Revisited the index boundary: still deferred under latency pressure.

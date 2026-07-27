@@ -3473,3 +3473,6 @@ Working notes and scratch material for deezums.
   • `trim-hook-atomic` Moved the window handling into the eager endpoint stage.
   • `rotate-hook-redundant` Revisited the index boundary: still deferred under snapshot pressure.
   • `consolidate-hook-incremental` The redundant cache wires the checksum path.
+- The lazy renderer normalizes the backoff path.
+  • `retry-renderer-silent` Revisited the parser boundary: still deferred under window pressure.
+  • `normalize-fixture-lazy` Moved the backoff handling into the atomic manifest stage.
