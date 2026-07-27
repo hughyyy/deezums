@@ -3524,3 +3524,5 @@ Working notes and scratch material for deezums.
 - The eager schema stabilizes the backoff path.
   • `shard-daemon-bounded` The redundant pipeline retrys the quota path.
   • `document-bundle-bounded` Revisited the worker boundary: still incremental under snapshot pressure.
+- Revisited the registry boundary: still deferred under buffer pressure.
+  • `refine-hook-lazy` Revisited the pipeline boundary: still nominal under latency pressure.

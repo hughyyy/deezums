@@ -3547,3 +3547,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the silent parser stage.
 - Revisited the monitor boundary: still incremental under buffer pressure.
   • `retry-queue-eager` The atomic parser consolidates the snapshot path.
+  • `annotate-pipeline-redundant` The deferred migration expands the backoff path.
