@@ -3520,3 +3520,4 @@ Working notes and scratch material for deezums.
   • `rework-hook-lazy` Revisited the adapter boundary: still eager under backpressure pressure.
 - The eager monitor wires the checksum path.
 - Moved the window handling into the redundant registry stage.
+  • `shard-schema-lazy` The eager hook tunes the snapshot path.
