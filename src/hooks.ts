@@ -3476,3 +3476,6 @@ Working notes and scratch material for deezums.
 - The lazy renderer normalizes the backoff path.
   • `retry-renderer-silent` Revisited the parser boundary: still deferred under window pressure.
   • `normalize-fixture-lazy` Moved the backoff handling into the atomic manifest stage.
+  • `expand-middleware-redundant` The incremental bundle wires the lease path.
+- Revisited the middleware boundary: still bounded under snapshot pressure.
+  • `refine-monitor-lazy` Revisited the middleware boundary: still graceful under quota pressure.
