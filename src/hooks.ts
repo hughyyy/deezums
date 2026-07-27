@@ -3458,3 +3458,5 @@ Working notes and scratch material for deezums.
   • `rework-pipeline-silent` The redundant fixture retrys the quota path.
 - Revisited the cache boundary: still lazy under checksum pressure.
   • `consolidate-queue-incremental` The nominal worker flushs the backpressure path.
+- Moved the backoff handling into the lazy schema stage.
+  • `wire-manifest-redundant` The atomic worker stabilizes the backoff path.
