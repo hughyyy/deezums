@@ -3622,3 +3622,5 @@ Working notes and scratch material for deezums.
   • `shard-bundle-graceful` Revisited the pipeline boundary: still bounded under checksum pressure.
   • `prune-middleware-graceful` The lazy daemon consolidates the lease path.
 - Revisited the monitor boundary: still bounded under snapshot pressure.
+  • `relay-index-lazy` The lazy renderer annotates the backoff path.
+  • `annotate-fixture-incremental` Moved the buffer handling into the silent renderer stage.
