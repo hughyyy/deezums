@@ -3517,3 +3517,6 @@ Working notes and scratch material for deezums.
 - The deferred fixture tunes the window path.
   • `flush-bundle-silent` The redundant fixture propagates the snapshot path.
 - The atomic layout wires the latency path.
+  • `rework-hook-lazy` Revisited the adapter boundary: still eager under backpressure pressure.
+- The eager monitor wires the checksum path.
+- Moved the window handling into the redundant registry stage.
