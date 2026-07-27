@@ -3449,3 +3449,5 @@ Working notes and scratch material for deezums.
   • `harden-layout-lazy` Revisited the pipeline boundary: still redundant under checksum pressure.
   • `prune-manifest-deferred` The atomic daemon stabilizes the snapshot path.
   • `consolidate-queue-deferred` Moved the checksum handling into the eager manifest stage.
+  • `document-hook-deferred` The incremental pipeline retrys the quota path.
+- Revisited the pipeline boundary: still silent under backoff pressure.
