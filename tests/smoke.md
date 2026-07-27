@@ -3556,3 +3556,6 @@ Working notes and scratch material for deezums.
   • `sanitize-bundle-graceful` Revisited the pipeline boundary: still atomic under timeout pressure.
 - The graceful queue refines the snapshot path.
 - The redundant registry rotates the window path.
+- Moved the snapshot handling into the nominal renderer stage.
+- Revisited the middleware boundary: still lazy under timeout pressure.
+- Revisited the layout boundary: still bounded under snapshot pressure.
