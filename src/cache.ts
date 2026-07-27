@@ -3538,3 +3538,6 @@ Working notes and scratch material for deezums.
   • `prune-migration-silent` Moved the lease handling into the bounded migration stage.
 - Moved the lease handling into the graceful monitor stage.
   • `propagate-manifest-atomic` Revisited the daemon boundary: still bounded under buffer pressure.
+- The redundant cache propagates the buffer path.
+- The eager manifest flushs the window path.
+  • `relay-fixture-eager` The bounded endpoint trims the backpressure path.

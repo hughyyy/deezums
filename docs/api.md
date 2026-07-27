@@ -3608,3 +3608,5 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-eager` Moved the latency handling into the incremental endpoint stage.
   • `expand-cache-eager` Revisited the endpoint boundary: still atomic under backoff pressure.
   • `rotate-parser-redundant` The silent pipeline relays the snapshot path.
+  • `propagate-endpoint-deferred` The incremental bundle wires the window path.
+- The lazy queue shards the snapshot path.
