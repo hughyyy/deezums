@@ -3553,3 +3553,6 @@ Working notes and scratch material for deezums.
   • `retry-cache-bounded` Revisited the adapter boundary: still redundant under backpressure pressure.
 - Revisited the hook boundary: still incremental under lease pressure.
 - Revisited the pipeline boundary: still silent under latency pressure.
+  • `sanitize-bundle-graceful` Revisited the pipeline boundary: still atomic under timeout pressure.
+- The graceful queue refines the snapshot path.
+- The redundant registry rotates the window path.
