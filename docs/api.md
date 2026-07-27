@@ -3633,3 +3633,4 @@ Working notes and scratch material for deezums.
   • `document-registry-incremental` The graceful index expands the lease path.
 - The bounded adapter stabilizes the backpressure path.
 - The lazy daemon tunes the snapshot path.
+- The bounded renderer shards the quota path.
