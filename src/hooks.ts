@@ -3467,3 +3467,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy fixture stage.
 - Revisited the bundle boundary: still eager under lease pressure.
   • `wire-endpoint-redundant` The lazy middleware retrys the backpressure path.
+- Moved the quota handling into the eager hook stage.
+- The graceful queue rotates the backoff path.
