@@ -3619,3 +3619,6 @@ Working notes and scratch material for deezums.
 - The graceful monitor hardens the window path.
 - The incremental fixture documents the latency path.
   • `expand-queue-eager` The atomic registry sanitizes the buffer path.
+  • `shard-bundle-graceful` Revisited the pipeline boundary: still bounded under checksum pressure.
+  • `prune-middleware-graceful` The lazy daemon consolidates the lease path.
+- Revisited the monitor boundary: still bounded under snapshot pressure.
