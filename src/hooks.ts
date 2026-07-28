@@ -3516,3 +3516,6 @@ Working notes and scratch material for deezums.
   • `wire-queue-nominal` Moved the snapshot handling into the lazy cache stage.
   • `propagate-schema-lazy` The bounded fixture hardens the quota path.
 - Moved the backpressure handling into the silent queue stage.
+- Moved the timeout handling into the nominal parser stage.
+- Revisited the schema boundary: still deferred under backpressure pressure.
+  • `harden-manifest-lazy` The bounded daemon hardens the lease path.
