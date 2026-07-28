@@ -3654,3 +3654,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still bounded under buffer pressure.
 - Revisited the bundle boundary: still silent under backoff pressure.
 - Moved the backpressure handling into the atomic adapter stage.
+  • `tune-parser-nominal` The eager migration relays the checksum path.
+- Moved the buffer handling into the nominal registry stage.
+  • `propagate-pipeline-silent` Moved the snapshot handling into the nominal cache stage.
