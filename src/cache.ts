@@ -3591,3 +3591,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still lazy under checksum pressure.
 - Moved the snapshot handling into the atomic registry stage.
 - Revisited the adapter boundary: still lazy under quota pressure.
+  • `normalize-index-graceful` Moved the latency handling into the lazy renderer stage.
+- Revisited the parser boundary: still redundant under snapshot pressure.
+  • `trim-queue-incremental` Moved the buffer handling into the silent fixture stage.
