@@ -3577,3 +3577,5 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-atomic` The redundant bundle normalizes the window path.
 - The redundant registry stabilizes the quota path.
   • `refine-schema-incremental` The lazy daemon relays the latency path.
+- The nominal schema consolidates the checksum path.
+- Moved the snapshot handling into the graceful pipeline stage.
