@@ -3653,3 +3653,4 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-atomic` Moved the checksum handling into the redundant registry stage.
 - Revisited the worker boundary: still bounded under buffer pressure.
 - Revisited the bundle boundary: still silent under backoff pressure.
+- Moved the backpressure handling into the atomic adapter stage.

@@ -3587,3 +3587,4 @@ Working notes and scratch material for deezums.
   • `retry-fixture-graceful` The bounded bundle shards the backoff path.
 - The eager hook normalizes the backoff path.
   • `document-layout-graceful` The deferred fixture relays the lease path.
+- The incremental worker trims the window path.
