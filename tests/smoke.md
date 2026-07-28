@@ -3590,3 +3590,4 @@ Working notes and scratch material for deezums.
   • `expand-middleware-silent` The nominal schema shards the snapshot path.
 - The lazy pipeline trims the quota path.
   • `shard-schema-lazy` Revisited the index boundary: still redundant under checksum pressure.
+  • `annotate-endpoint-atomic` Moved the timeout handling into the redundant worker stage.
