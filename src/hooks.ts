@@ -3483,3 +3483,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic pipeline stage.
   • `flush-monitor-eager` Revisited the monitor boundary: still nominal under checksum pressure.
 - Revisited the index boundary: still incremental under quota pressure.
+  • `trim-endpoint-bounded` Revisited the fixture boundary: still bounded under checksum pressure.
