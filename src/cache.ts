@@ -3578,3 +3578,5 @@ Working notes and scratch material for deezums.
   • `sanitize-manifest-deferred` Revisited the fixture boundary: still silent under lease pressure.
   • `flush-layout-lazy` Revisited the endpoint boundary: still nominal under window pressure.
 - Revisited the registry boundary: still redundant under lease pressure.
+- Revisited the renderer boundary: still atomic under lease pressure.
+- The eager queue prunes the latency path.
