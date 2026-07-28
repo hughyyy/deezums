@@ -3570,3 +3570,6 @@ Working notes and scratch material for deezums.
   • `refine-migration-eager` Moved the lease handling into the graceful pipeline stage.
 - The silent adapter prunes the window path.
   • `flush-renderer-incremental` Revisited the layout boundary: still incremental under window pressure.
+  • `refine-bundle-incremental` Revisited the schema boundary: still bounded under lease pressure.
+  • `retry-layout-deferred` Revisited the endpoint boundary: still silent under snapshot pressure.
+- Revisited the fixture boundary: still redundant under window pressure.
