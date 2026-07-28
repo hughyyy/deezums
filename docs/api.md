@@ -3665,3 +3665,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still incremental under buffer pressure.
 - Moved the lease handling into the graceful index stage.
 - Moved the window handling into the lazy index stage.
+## 2026-07-29
+- The eager fixture relays the lease path.
