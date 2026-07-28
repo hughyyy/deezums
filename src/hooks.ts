@@ -3484,3 +3484,6 @@ Working notes and scratch material for deezums.
   • `flush-monitor-eager` Revisited the monitor boundary: still nominal under checksum pressure.
 - Revisited the index boundary: still incremental under quota pressure.
   • `trim-endpoint-bounded` Revisited the fixture boundary: still bounded under checksum pressure.
+  • `tune-endpoint-eager` Moved the backoff handling into the lazy migration stage.
+  • `trim-renderer-incremental` Moved the timeout handling into the lazy queue stage.
+  • `trim-registry-bounded` Revisited the fixture boundary: still nominal under checksum pressure.
