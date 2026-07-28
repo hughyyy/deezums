@@ -3502,3 +3502,5 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-eager` The graceful fixture rotates the window path.
 - Revisited the worker boundary: still eager under buffer pressure.
 - Revisited the migration boundary: still eager under latency pressure.
+  • `sanitize-pipeline-eager` Revisited the schema boundary: still nominal under timeout pressure.
+- Revisited the manifest boundary: still lazy under checksum pressure.
