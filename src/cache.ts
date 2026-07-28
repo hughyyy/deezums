@@ -3586,3 +3586,4 @@ Working notes and scratch material for deezums.
   • `prune-adapter-redundant` Moved the timeout handling into the redundant pipeline stage.
   • `retry-fixture-graceful` The bounded bundle shards the backoff path.
 - The eager hook normalizes the backoff path.
+  • `document-layout-graceful` The deferred fixture relays the lease path.
