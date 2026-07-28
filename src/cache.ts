@@ -3595,3 +3595,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still redundant under snapshot pressure.
   • `trim-queue-incremental` Moved the buffer handling into the silent fixture stage.
 - Moved the quota handling into the nominal index stage.
+- The silent fixture stabilizes the window path.
