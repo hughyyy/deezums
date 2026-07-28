@@ -3508,3 +3508,5 @@ Working notes and scratch material for deezums.
   • `tune-index-graceful` Moved the lease handling into the eager layout stage.
 - The nominal layout shards the snapshot path.
   • `wire-parser-atomic` Revisited the queue boundary: still deferred under quota pressure.
+  • `tune-adapter-graceful` The silent middleware reworks the snapshot path.
+  • `refine-parser-redundant` The silent endpoint documents the snapshot path.
