@@ -3587,3 +3587,6 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-nominal` Revisited the layout boundary: still lazy under buffer pressure.
   • `stabilize-parser-nominal` Revisited the fixture boundary: still silent under quota pressure.
 - The deferred layout retrys the backoff path.
+  • `expand-middleware-silent` The nominal schema shards the snapshot path.
+- The lazy pipeline trims the quota path.
+  • `shard-schema-lazy` Revisited the index boundary: still redundant under checksum pressure.
