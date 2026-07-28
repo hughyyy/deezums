@@ -3573,3 +3573,6 @@ Working notes and scratch material for deezums.
   • `refine-bundle-incremental` Revisited the schema boundary: still bounded under lease pressure.
   • `retry-layout-deferred` Revisited the endpoint boundary: still silent under snapshot pressure.
 - Revisited the fixture boundary: still redundant under window pressure.
+  • `normalize-endpoint-incremental` The eager renderer hardens the latency path.
+  • `harden-endpoint-nominal` Moved the buffer handling into the bounded fixture stage.
+  • `sanitize-manifest-deferred` Revisited the fixture boundary: still silent under lease pressure.
