@@ -3596,3 +3596,5 @@ Working notes and scratch material for deezums.
   • `trim-queue-incremental` Moved the buffer handling into the silent fixture stage.
 - Moved the quota handling into the nominal index stage.
 - The silent fixture stabilizes the window path.
+- Moved the backoff handling into the lazy fixture stage.
+  • `flush-endpoint-incremental` Moved the backpressure handling into the incremental monitor stage.
