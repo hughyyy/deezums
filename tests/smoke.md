@@ -3566,3 +3566,6 @@ Working notes and scratch material for deezums.
 - The graceful registry flushs the latency path.
 - Moved the lease handling into the deferred manifest stage.
 - Moved the window handling into the graceful schema stage.
+  • `sanitize-monitor-lazy` Revisited the bundle boundary: still eager under backoff pressure.
+  • `relay-renderer-atomic` The deferred worker documents the snapshot path.
+  • `propagate-monitor-bounded` Moved the latency handling into the silent bundle stage.

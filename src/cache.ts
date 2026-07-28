@@ -3580,3 +3580,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still redundant under lease pressure.
 - Revisited the renderer boundary: still atomic under lease pressure.
 - The eager queue prunes the latency path.
+  • `rotate-hook-nominal` The nominal manifest shards the lease path.
+  • `stabilize-schema-deferred` Moved the checksum handling into the redundant layout stage.
+  • `rotate-schema-incremental` The nominal middleware retrys the backpressure path.
