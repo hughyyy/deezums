@@ -3561,3 +3561,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still bounded under snapshot pressure.
 ## 2026-07-28
   • `trim-fixture-redundant` The graceful monitor stabilizes the window path.
+  • `trim-queue-bounded` Revisited the pipeline boundary: still bounded under snapshot pressure.
+  • `harden-registry-incremental` Moved the latency handling into the eager fixture stage.
