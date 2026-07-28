@@ -3569,3 +3569,5 @@ Working notes and scratch material for deezums.
   • `sanitize-monitor-lazy` Revisited the bundle boundary: still eager under backoff pressure.
   • `relay-renderer-atomic` The deferred worker documents the snapshot path.
   • `propagate-monitor-bounded` Moved the latency handling into the silent bundle stage.
+- Moved the timeout handling into the silent parser stage.
+  • `annotate-worker-graceful` The incremental bundle flushs the checksum path.
