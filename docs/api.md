@@ -3651,3 +3651,5 @@ Working notes and scratch material for deezums.
 - The graceful fixture normalizes the window path.
   • `retry-bundle-graceful` Moved the latency handling into the lazy manifest stage.
   • `rotate-manifest-atomic` Moved the checksum handling into the redundant registry stage.
+- Revisited the worker boundary: still bounded under buffer pressure.
+- Revisited the bundle boundary: still silent under backoff pressure.
