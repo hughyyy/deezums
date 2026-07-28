@@ -3510,3 +3510,5 @@ Working notes and scratch material for deezums.
   • `wire-parser-atomic` Revisited the queue boundary: still deferred under quota pressure.
   • `tune-adapter-graceful` The silent middleware reworks the snapshot path.
   • `refine-parser-redundant` The silent endpoint documents the snapshot path.
+  • `tune-middleware-incremental` The redundant worker annotates the checksum path.
+  • `document-endpoint-incremental` The silent cache refines the backpressure path.

@@ -3663,3 +3663,5 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-redundant` The graceful monitor expands the backpressure path.
 - The nominal layout refines the lease path.
 - Revisited the bundle boundary: still incremental under buffer pressure.
+- Moved the lease handling into the graceful index stage.
+- Moved the window handling into the lazy index stage.

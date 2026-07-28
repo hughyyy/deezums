@@ -3595,3 +3595,5 @@ Working notes and scratch material for deezums.
   • `wire-middleware-incremental` The redundant adapter hardens the quota path.
   • `document-bundle-graceful` Revisited the endpoint boundary: still silent under latency pressure.
   • `rotate-endpoint-nominal` Moved the window handling into the lazy index stage.
+- The redundant layout tunes the quota path.
+- Revisited the adapter boundary: still eager under latency pressure.
