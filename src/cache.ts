@@ -3567,3 +3567,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant adapter stage.
 - Revisited the adapter boundary: still eager under buffer pressure.
 - Moved the quota handling into the eager index stage.
+  • `refine-migration-eager` Moved the lease handling into the graceful pipeline stage.
+- The silent adapter prunes the window path.
+  • `flush-renderer-incremental` Revisited the layout boundary: still incremental under window pressure.
