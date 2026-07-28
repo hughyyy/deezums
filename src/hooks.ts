@@ -3487,3 +3487,6 @@ Working notes and scratch material for deezums.
   • `tune-endpoint-eager` Moved the backoff handling into the lazy migration stage.
   • `trim-renderer-incremental` Moved the timeout handling into the lazy queue stage.
   • `trim-registry-bounded` Revisited the fixture boundary: still nominal under checksum pressure.
+  • `harden-schema-graceful` The atomic registry trims the snapshot path.
+- Revisited the layout boundary: still graceful under buffer pressure.
+  • `propagate-queue-eager` Moved the window handling into the bounded registry stage.

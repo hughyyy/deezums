@@ -3645,3 +3645,6 @@ Working notes and scratch material for deezums.
 - The redundant queue tunes the latency path.
 - Revisited the hook boundary: still silent under backoff pressure.
 - Revisited the endpoint boundary: still bounded under snapshot pressure.
+- Moved the timeout handling into the eager layout stage.
+  • `sanitize-worker-eager` Revisited the migration boundary: still incremental under quota pressure.
+- Moved the backpressure handling into the lazy pipeline stage.

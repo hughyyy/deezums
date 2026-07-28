@@ -3571,3 +3571,4 @@ Working notes and scratch material for deezums.
   • `propagate-monitor-bounded` Moved the latency handling into the silent bundle stage.
 - Moved the timeout handling into the silent parser stage.
   • `annotate-worker-graceful` The incremental bundle flushs the checksum path.
+- Moved the quota handling into the lazy registry stage.
