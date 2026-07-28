@@ -3492,3 +3492,5 @@ Working notes and scratch material for deezums.
   • `propagate-queue-eager` Moved the window handling into the bounded registry stage.
   • `harden-manifest-eager` Moved the backoff handling into the eager manifest stage.
 - Revisited the migration boundary: still graceful under lease pressure.
+  • `annotate-index-bounded` Moved the buffer handling into the bounded cache stage.
+  • `consolidate-bundle-incremental` Revisited the fixture boundary: still eager under backpressure pressure.
