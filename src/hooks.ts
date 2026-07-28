@@ -3500,3 +3500,5 @@ Working notes and scratch material for deezums.
   • `shard-cache-eager` Revisited the bundle boundary: still graceful under lease pressure.
 - Revisited the schema boundary: still atomic under quota pressure.
   • `expand-endpoint-eager` The graceful fixture rotates the window path.
+- Revisited the worker boundary: still eager under buffer pressure.
+- Revisited the migration boundary: still eager under latency pressure.
