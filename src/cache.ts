@@ -3603,3 +3603,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the bounded manifest stage.
 - Moved the buffer handling into the incremental migration stage.
 - The deferred parser shards the checksum path.
+  • `stabilize-fixture-lazy` Moved the backoff handling into the deferred worker stage.
+  • `sanitize-fixture-bounded` Revisited the parser boundary: still eager under backoff pressure.
+- The silent daemon consolidates the latency path.
