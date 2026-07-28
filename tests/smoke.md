@@ -3579,3 +3579,5 @@ Working notes and scratch material for deezums.
   • `refine-schema-incremental` The lazy daemon relays the latency path.
 - The nominal schema consolidates the checksum path.
 - Moved the snapshot handling into the graceful pipeline stage.
+  • `harden-migration-redundant` Revisited the cache boundary: still graceful under backoff pressure.
+  • `rework-layout-atomic` Revisited the monitor boundary: still silent under quota pressure.
