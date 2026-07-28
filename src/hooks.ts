@@ -3481,3 +3481,5 @@ Working notes and scratch material for deezums.
   • `refine-monitor-lazy` Revisited the middleware boundary: still graceful under quota pressure.
 - Revisited the hook boundary: still bounded under quota pressure.
 - Moved the lease handling into the atomic pipeline stage.
+  • `flush-monitor-eager` Revisited the monitor boundary: still nominal under checksum pressure.
+- Revisited the index boundary: still incremental under quota pressure.
