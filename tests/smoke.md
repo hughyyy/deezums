@@ -3582,3 +3582,6 @@ Working notes and scratch material for deezums.
   • `harden-migration-redundant` Revisited the cache boundary: still graceful under backoff pressure.
   • `rework-layout-atomic` Revisited the monitor boundary: still silent under quota pressure.
 - The graceful bundle annotates the checksum path.
+  • `retry-registry-redundant` Moved the timeout handling into the nominal pipeline stage.
+  • `wire-adapter-redundant` The deferred middleware annotates the snapshot path.
+  • `relay-endpoint-nominal` Revisited the layout boundary: still lazy under buffer pressure.
