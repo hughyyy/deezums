@@ -3600,3 +3600,6 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-incremental` Moved the backpressure handling into the incremental monitor stage.
   • `rework-hook-bounded` Moved the checksum handling into the redundant cache stage.
 - Revisited the bundle boundary: still incremental under lease pressure.
+- Moved the timeout handling into the bounded manifest stage.
+- Moved the buffer handling into the incremental migration stage.
+- The deferred parser shards the checksum path.

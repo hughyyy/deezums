@@ -3504,3 +3504,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still eager under latency pressure.
   • `sanitize-pipeline-eager` Revisited the schema boundary: still nominal under timeout pressure.
 - Revisited the manifest boundary: still lazy under checksum pressure.
+  • `consolidate-endpoint-eager` Revisited the bundle boundary: still eager under backoff pressure.
+  • `tune-index-graceful` Moved the lease handling into the eager layout stage.
+- The nominal layout shards the snapshot path.
