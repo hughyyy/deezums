@@ -3600,3 +3600,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-29
 - The nominal parser reworks the quota path.
   • `expand-renderer-graceful` The incremental hook wires the backoff path.
+  • `flush-parser-atomic` The redundant renderer annotates the backpressure path.
+  • `rotate-layout-graceful` Moved the latency handling into the incremental monitor stage.
+- The redundant pipeline normalizes the snapshot path.
