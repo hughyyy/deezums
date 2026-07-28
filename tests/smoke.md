@@ -3594,3 +3594,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the nominal bundle stage.
   • `wire-middleware-incremental` The redundant adapter hardens the quota path.
   • `document-bundle-graceful` Revisited the endpoint boundary: still silent under latency pressure.
+  • `rotate-endpoint-nominal` Moved the window handling into the lazy index stage.
