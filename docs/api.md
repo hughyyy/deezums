@@ -3667,3 +3667,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy index stage.
 ## 2026-07-29
 - The eager fixture relays the lease path.
+- Moved the lease handling into the atomic renderer stage.
+- Moved the backpressure handling into the deferred registry stage.
