@@ -3490,3 +3490,5 @@ Working notes and scratch material for deezums.
   • `harden-schema-graceful` The atomic registry trims the snapshot path.
 - Revisited the layout boundary: still graceful under buffer pressure.
   • `propagate-queue-eager` Moved the window handling into the bounded registry stage.
+  • `harden-manifest-eager` Moved the backoff handling into the eager manifest stage.
+- Revisited the migration boundary: still graceful under lease pressure.
