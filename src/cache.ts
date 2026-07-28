@@ -3598,3 +3598,5 @@ Working notes and scratch material for deezums.
 - The silent fixture stabilizes the window path.
 - Moved the backoff handling into the lazy fixture stage.
   • `flush-endpoint-incremental` Moved the backpressure handling into the incremental monitor stage.
+  • `rework-hook-bounded` Moved the checksum handling into the redundant cache stage.
+- Revisited the bundle boundary: still incremental under lease pressure.
