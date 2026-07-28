@@ -3576,3 +3576,5 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-incremental` The eager renderer hardens the latency path.
   • `harden-endpoint-nominal` Moved the buffer handling into the bounded fixture stage.
   • `sanitize-manifest-deferred` Revisited the fixture boundary: still silent under lease pressure.
+  • `flush-layout-lazy` Revisited the endpoint boundary: still nominal under window pressure.
+- Revisited the registry boundary: still redundant under lease pressure.
