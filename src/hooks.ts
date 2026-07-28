@@ -3479,3 +3479,5 @@ Working notes and scratch material for deezums.
   • `expand-middleware-redundant` The incremental bundle wires the lease path.
 - Revisited the middleware boundary: still bounded under snapshot pressure.
   • `refine-monitor-lazy` Revisited the middleware boundary: still graceful under quota pressure.
+- Revisited the hook boundary: still bounded under quota pressure.
+- Moved the lease handling into the atomic pipeline stage.
