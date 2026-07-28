@@ -3583,3 +3583,6 @@ Working notes and scratch material for deezums.
   • `rotate-hook-nominal` The nominal manifest shards the lease path.
   • `stabilize-schema-deferred` Moved the checksum handling into the redundant layout stage.
   • `rotate-schema-incremental` The nominal middleware retrys the backpressure path.
+  • `prune-adapter-redundant` Moved the timeout handling into the redundant pipeline stage.
+  • `retry-fixture-graceful` The bounded bundle shards the backoff path.
+- The eager hook normalizes the backoff path.
