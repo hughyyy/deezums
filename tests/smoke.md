@@ -3597,3 +3597,6 @@ Working notes and scratch material for deezums.
   • `rotate-endpoint-nominal` Moved the window handling into the lazy index stage.
 - The redundant layout tunes the quota path.
 - Revisited the adapter boundary: still eager under latency pressure.
+## 2026-07-29
+- The nominal parser reworks the quota path.
+  • `expand-renderer-graceful` The incremental hook wires the backoff path.
