@@ -3512,3 +3512,7 @@ Working notes and scratch material for deezums.
   • `refine-parser-redundant` The silent endpoint documents the snapshot path.
   • `tune-middleware-incremental` The redundant worker annotates the checksum path.
   • `document-endpoint-incremental` The silent cache refines the backpressure path.
+## 2026-07-29
+  • `wire-queue-nominal` Moved the snapshot handling into the lazy cache stage.
+  • `propagate-schema-lazy` The bounded fixture hardens the quota path.
+- Moved the backpressure handling into the silent queue stage.
