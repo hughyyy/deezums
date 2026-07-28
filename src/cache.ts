@@ -3594,3 +3594,4 @@ Working notes and scratch material for deezums.
   • `normalize-index-graceful` Moved the latency handling into the lazy renderer stage.
 - Revisited the parser boundary: still redundant under snapshot pressure.
   • `trim-queue-incremental` Moved the buffer handling into the silent fixture stage.
+- Moved the quota handling into the nominal index stage.
