@@ -3660,3 +3660,6 @@ Working notes and scratch material for deezums.
 - The redundant registry reworks the checksum path.
 - Moved the snapshot handling into the redundant renderer stage.
 - Revisited the renderer boundary: still incremental under backpressure pressure.
+  • `propagate-fixture-redundant` The graceful monitor expands the backpressure path.
+- The nominal layout refines the lease path.
+- Revisited the bundle boundary: still incremental under buffer pressure.
