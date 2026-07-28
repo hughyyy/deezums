@@ -3648,3 +3648,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager layout stage.
   • `sanitize-worker-eager` Revisited the migration boundary: still incremental under quota pressure.
 - Moved the backpressure handling into the lazy pipeline stage.
+- The graceful fixture normalizes the window path.
+  • `retry-bundle-graceful` Moved the latency handling into the lazy manifest stage.
+  • `rotate-manifest-atomic` Moved the checksum handling into the redundant registry stage.
