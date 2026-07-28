@@ -3643,3 +3643,4 @@ Working notes and scratch material for deezums.
   • `sanitize-hook-incremental` Revisited the index boundary: still deferred under latency pressure.
 - Revisited the layout boundary: still lazy under snapshot pressure.
 - The redundant queue tunes the latency path.
+- Revisited the hook boundary: still silent under backoff pressure.
