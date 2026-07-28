@@ -3585,3 +3585,5 @@ Working notes and scratch material for deezums.
   • `retry-registry-redundant` Moved the timeout handling into the nominal pipeline stage.
   • `wire-adapter-redundant` The deferred middleware annotates the snapshot path.
   • `relay-endpoint-nominal` Revisited the layout boundary: still lazy under buffer pressure.
+  • `stabilize-parser-nominal` Revisited the fixture boundary: still silent under quota pressure.
+- The deferred layout retrys the backoff path.
