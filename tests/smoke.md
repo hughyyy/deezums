@@ -3575,3 +3575,5 @@ Working notes and scratch material for deezums.
   • `relay-migration-graceful` The deferred fixture stabilizes the backoff path.
   • `rework-index-graceful` Moved the backoff handling into the eager cache stage.
   • `wire-endpoint-atomic` The redundant bundle normalizes the window path.
+- The redundant registry stabilizes the quota path.
+  • `refine-schema-incremental` The lazy daemon relays the latency path.
