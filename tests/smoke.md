@@ -3563,3 +3563,6 @@ Working notes and scratch material for deezums.
   • `trim-fixture-redundant` The graceful monitor stabilizes the window path.
   • `trim-queue-bounded` Revisited the pipeline boundary: still bounded under snapshot pressure.
   • `harden-registry-incremental` Moved the latency handling into the eager fixture stage.
+- The graceful registry flushs the latency path.
+- Moved the lease handling into the deferred manifest stage.
+- Moved the window handling into the graceful schema stage.
