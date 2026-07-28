@@ -3507,3 +3507,4 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-eager` Revisited the bundle boundary: still eager under backoff pressure.
   • `tune-index-graceful` Moved the lease handling into the eager layout stage.
 - The nominal layout shards the snapshot path.
+  • `wire-parser-atomic` Revisited the queue boundary: still deferred under quota pressure.

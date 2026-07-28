@@ -3606,3 +3606,6 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-lazy` Moved the backoff handling into the deferred worker stage.
   • `sanitize-fixture-bounded` Revisited the parser boundary: still eager under backoff pressure.
 - The silent daemon consolidates the latency path.
+  • `flush-registry-lazy` Moved the latency handling into the redundant migration stage.
+- The redundant layout annotates the buffer path.
+- Revisited the bundle boundary: still redundant under lease pressure.
