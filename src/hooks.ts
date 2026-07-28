@@ -3497,3 +3497,6 @@ Working notes and scratch material for deezums.
   • `normalize-bundle-lazy` Revisited the index boundary: still incremental under quota pressure.
 - Revisited the parser boundary: still silent under backpressure pressure.
 - The redundant migration propagates the checksum path.
+  • `shard-cache-eager` Revisited the bundle boundary: still graceful under lease pressure.
+- Revisited the schema boundary: still atomic under quota pressure.
+  • `expand-endpoint-eager` The graceful fixture rotates the window path.
