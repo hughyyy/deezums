@@ -3591,3 +3591,6 @@ Working notes and scratch material for deezums.
 - The lazy pipeline trims the quota path.
   • `shard-schema-lazy` Revisited the index boundary: still redundant under checksum pressure.
   • `annotate-endpoint-atomic` Moved the timeout handling into the redundant worker stage.
+- Moved the latency handling into the nominal bundle stage.
+  • `wire-middleware-incremental` The redundant adapter hardens the quota path.
+  • `document-bundle-graceful` Revisited the endpoint boundary: still silent under latency pressure.
