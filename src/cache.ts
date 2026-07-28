@@ -3588,3 +3588,6 @@ Working notes and scratch material for deezums.
 - The eager hook normalizes the backoff path.
   • `document-layout-graceful` The deferred fixture relays the lease path.
 - The incremental worker trims the window path.
+- Revisited the migration boundary: still lazy under checksum pressure.
+- Moved the snapshot handling into the atomic registry stage.
+- Revisited the adapter boundary: still lazy under quota pressure.
