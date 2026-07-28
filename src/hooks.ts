@@ -3496,3 +3496,4 @@ Working notes and scratch material for deezums.
   • `consolidate-bundle-incremental` Revisited the fixture boundary: still eager under backpressure pressure.
   • `normalize-bundle-lazy` Revisited the index boundary: still incremental under quota pressure.
 - Revisited the parser boundary: still silent under backpressure pressure.
+- The redundant migration propagates the checksum path.

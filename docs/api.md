@@ -3657,3 +3657,4 @@ Working notes and scratch material for deezums.
   • `tune-parser-nominal` The eager migration relays the checksum path.
 - Moved the buffer handling into the nominal registry stage.
   • `propagate-pipeline-silent` Moved the snapshot handling into the nominal cache stage.
+- The redundant registry reworks the checksum path.
