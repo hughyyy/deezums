@@ -3572,3 +3572,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the silent parser stage.
   • `annotate-worker-graceful` The incremental bundle flushs the checksum path.
 - Moved the quota handling into the lazy registry stage.
+  • `relay-migration-graceful` The deferred fixture stabilizes the backoff path.
+  • `rework-index-graceful` Moved the backoff handling into the eager cache stage.
+  • `wire-endpoint-atomic` The redundant bundle normalizes the window path.
