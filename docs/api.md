@@ -3644,3 +3644,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still lazy under snapshot pressure.
 - The redundant queue tunes the latency path.
 - Revisited the hook boundary: still silent under backoff pressure.
+- Revisited the endpoint boundary: still bounded under snapshot pressure.
