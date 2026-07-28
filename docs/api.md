@@ -3658,3 +3658,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal registry stage.
   • `propagate-pipeline-silent` Moved the snapshot handling into the nominal cache stage.
 - The redundant registry reworks the checksum path.
+- Moved the snapshot handling into the redundant renderer stage.
+- Revisited the renderer boundary: still incremental under backpressure pressure.
