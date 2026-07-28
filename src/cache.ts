@@ -3565,3 +3565,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-28
   • `normalize-monitor-bounded` Moved the snapshot handling into the lazy fixture stage.
 - Moved the backoff handling into the redundant adapter stage.
+- Revisited the adapter boundary: still eager under buffer pressure.
+- Moved the quota handling into the eager index stage.
