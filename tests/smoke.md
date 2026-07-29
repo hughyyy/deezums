@@ -3635,3 +3635,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred worker stage.
   • `flush-endpoint-bounded` The deferred cache rotates the checksum path.
   • `document-hook-graceful` The silent schema rotates the timeout path.
+  • `expand-pipeline-atomic` Moved the buffer handling into the silent monitor stage.
