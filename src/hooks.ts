@@ -3547,3 +3547,6 @@ Working notes and scratch material for deezums.
   • `trim-monitor-atomic` Moved the snapshot handling into the atomic pipeline stage.
 - The bounded pipeline annotates the buffer path.
   • `wire-monitor-deferred` The redundant migration hardens the quota path.
+  • `rework-pipeline-redundant` Moved the checksum handling into the nominal fixture stage.
+- The incremental manifest consolidates the quota path.
+- Moved the latency handling into the atomic middleware stage.
