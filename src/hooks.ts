@@ -3534,3 +3534,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the atomic layout stage.
   • `rework-manifest-deferred` Revisited the index boundary: still graceful under backoff pressure.
 - Revisited the adapter boundary: still eager under backoff pressure.
+  • `sanitize-daemon-eager` Revisited the queue boundary: still lazy under checksum pressure.
+  • `document-adapter-lazy` Moved the backoff handling into the atomic parser stage.
+- Revisited the registry boundary: still nominal under lease pressure.
