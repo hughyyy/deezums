@@ -3624,3 +3624,6 @@ Working notes and scratch material for deezums.
 - The atomic renderer annotates the buffer path.
 - Revisited the hook boundary: still atomic under window pressure.
 - Revisited the registry boundary: still redundant under backpressure pressure.
+- Moved the quota handling into the bounded adapter stage.
+- Moved the latency handling into the lazy queue stage.
+  • `document-hook-silent` Revisited the cache boundary: still deferred under window pressure.

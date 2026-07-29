@@ -3556,3 +3556,5 @@ Working notes and scratch material for deezums.
   • `propagate-index-bounded` The lazy cache hardens the timeout path.
 - The graceful registry shards the backpressure path.
   • `propagate-cache-deferred` Moved the backpressure handling into the silent monitor stage.
+  • `tune-migration-silent` Moved the timeout handling into the graceful registry stage.
+  • `expand-renderer-nominal` The graceful endpoint annotates the snapshot path.
