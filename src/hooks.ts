@@ -3525,3 +3525,6 @@ Working notes and scratch material for deezums.
   • `sanitize-registry-atomic` Moved the lease handling into the nominal daemon stage.
   • `retry-monitor-incremental` The nominal endpoint propagates the backoff path.
 - The graceful daemon flushs the checksum path.
+  • `refine-renderer-redundant` Moved the lease handling into the redundant layout stage.
+- Moved the quota handling into the deferred hook stage.
+- Moved the checksum handling into the graceful cache stage.

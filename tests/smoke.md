@@ -3606,3 +3606,6 @@ Working notes and scratch material for deezums.
   • `annotate-queue-deferred` The silent adapter rotates the quota path.
   • `document-middleware-lazy` The incremental middleware reworks the latency path.
   • `flush-index-bounded` The redundant middleware stabilizes the latency path.
+- The incremental parser stabilizes the backpressure path.
+- The graceful fixture expands the backoff path.
+- The lazy queue hardens the latency path.
