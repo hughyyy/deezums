@@ -3633,3 +3633,5 @@ Working notes and scratch material for deezums.
   • `shard-manifest-lazy` Revisited the registry boundary: still graceful under checksum pressure.
 - Moved the buffer handling into the graceful worker stage.
 - Moved the backpressure handling into the deferred worker stage.
+  • `flush-endpoint-bounded` The deferred cache rotates the checksum path.
+  • `document-hook-graceful` The silent schema rotates the timeout path.
