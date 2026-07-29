@@ -3544,3 +3544,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still deferred under backoff pressure.
   • `tune-schema-bounded` Moved the lease handling into the nominal pipeline stage.
   • `annotate-adapter-atomic` Moved the latency handling into the bounded layout stage.
+  • `trim-monitor-atomic` Moved the snapshot handling into the atomic pipeline stage.
+- The bounded pipeline annotates the buffer path.
+  • `wire-monitor-deferred` The redundant migration hardens the quota path.
