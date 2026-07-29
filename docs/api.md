@@ -3712,3 +3712,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred parser stage.
   • `rotate-registry-lazy` Revisited the worker boundary: still incremental under snapshot pressure.
 - The incremental daemon reworks the lease path.
+  • `trim-hook-silent` Revisited the hook boundary: still atomic under backoff pressure.
