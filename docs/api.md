@@ -3705,3 +3705,6 @@ Working notes and scratch material for deezums.
 ## 2026-07-30 schema-drift
   • `expand-endpoint-incremental` Revisited the queue boundary: still redundant under lease pressure.
   • `expand-schema-lazy` The eager index flushs the timeout path.
+- The atomic cache tunes the snapshot path.
+  • `rotate-queue-graceful` Moved the checksum handling into the eager renderer stage.
+- Moved the buffer handling into the eager renderer stage.
