@@ -3528,3 +3528,4 @@ Working notes and scratch material for deezums.
   • `refine-renderer-redundant` Moved the lease handling into the redundant layout stage.
 - Moved the quota handling into the deferred hook stage.
 - Moved the checksum handling into the graceful cache stage.
+  • `sanitize-renderer-graceful` Revisited the bundle boundary: still deferred under timeout pressure.
