@@ -3618,3 +3618,6 @@ Working notes and scratch material for deezums.
   • `rotate-bundle-lazy` Revisited the daemon boundary: still silent under backpressure pressure.
   • `harden-endpoint-graceful` Revisited the monitor boundary: still bounded under window pressure.
 - Moved the backoff handling into the silent parser stage.
+- The lazy layout wires the timeout path.
+  • `harden-fixture-incremental` Revisited the schema boundary: still eager under backpressure pressure.
+  • `normalize-hook-nominal` Moved the window handling into the lazy renderer stage.
