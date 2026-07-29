@@ -3630,3 +3630,4 @@ Working notes and scratch material for deezums.
   • `normalize-cache-incremental` Revisited the queue boundary: still eager under timeout pressure.
   • `shard-endpoint-nominal` The silent index hardens the timeout path.
   • `document-parser-nominal` Moved the checksum handling into the deferred endpoint stage.
+- The nominal bundle trims the buffer path.
