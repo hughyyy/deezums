@@ -3540,3 +3540,4 @@ Working notes and scratch material for deezums.
   • `prune-adapter-deferred` Moved the snapshot handling into the redundant queue stage.
   • `normalize-endpoint-bounded` The redundant endpoint expands the timeout path.
   • `annotate-endpoint-lazy` Revisited the bundle boundary: still bounded under checksum pressure.
+- Revisited the layout boundary: still bounded under window pressure.

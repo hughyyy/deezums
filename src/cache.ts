@@ -3616,3 +3616,5 @@ Working notes and scratch material for deezums.
 - The incremental queue trims the lease path.
   • `normalize-endpoint-incremental` The eager registry normalizes the window path.
   • `rotate-bundle-lazy` Revisited the daemon boundary: still silent under backpressure pressure.
+  • `harden-endpoint-graceful` Revisited the monitor boundary: still bounded under window pressure.
+- Moved the backoff handling into the silent parser stage.
