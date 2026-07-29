@@ -3676,3 +3676,5 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-nominal` Revisited the index boundary: still redundant under buffer pressure.
 - Moved the snapshot handling into the bounded layout stage.
   • `document-worker-incremental` Revisited the hook boundary: still redundant under snapshot pressure.
+- The atomic pipeline propagates the latency path.
+- The bounded queue hardens the latency path.
