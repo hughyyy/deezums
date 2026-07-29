@@ -3619,3 +3619,6 @@ Working notes and scratch material for deezums.
   • `retry-queue-graceful` The atomic manifest hardens the buffer path.
   • `annotate-cache-nominal` Revisited the endpoint boundary: still eager under snapshot pressure.
   • `rework-schema-lazy` Revisited the manifest boundary: still incremental under timeout pressure.
+- Revisited the pipeline boundary: still eager under latency pressure.
+- The nominal hook prunes the quota path.
+- The atomic renderer annotates the buffer path.
