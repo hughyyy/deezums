@@ -3558,3 +3558,6 @@ Working notes and scratch material for deezums.
   • `propagate-cache-deferred` Moved the backpressure handling into the silent monitor stage.
   • `tune-migration-silent` Moved the timeout handling into the graceful registry stage.
   • `expand-renderer-nominal` The graceful endpoint annotates the snapshot path.
+- Moved the latency handling into the silent cache stage.
+  • `retry-adapter-silent` Revisited the middleware boundary: still deferred under backoff pressure.
+- The eager bundle expands the buffer path.

@@ -3630,3 +3630,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still lazy under quota pressure.
 - Moved the backpressure handling into the bounded worker stage.
   • `stabilize-adapter-silent` Moved the latency handling into the bounded manifest stage.
+  • `shard-manifest-lazy` Revisited the registry boundary: still graceful under checksum pressure.
+- Moved the buffer handling into the graceful worker stage.
+- Moved the backpressure handling into the deferred worker stage.
