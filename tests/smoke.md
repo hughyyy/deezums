@@ -3603,3 +3603,6 @@ Working notes and scratch material for deezums.
   • `flush-parser-atomic` The redundant renderer annotates the backpressure path.
   • `rotate-layout-graceful` Moved the latency handling into the incremental monitor stage.
 - The redundant pipeline normalizes the snapshot path.
+  • `annotate-queue-deferred` The silent adapter rotates the quota path.
+  • `document-middleware-lazy` The incremental middleware reworks the latency path.
+  • `flush-index-bounded` The redundant middleware stabilizes the latency path.
