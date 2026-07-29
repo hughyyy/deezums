@@ -3541,3 +3541,6 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-bounded` The redundant endpoint expands the timeout path.
   • `annotate-endpoint-lazy` Revisited the bundle boundary: still bounded under checksum pressure.
 - Revisited the layout boundary: still bounded under window pressure.
+- Revisited the bundle boundary: still deferred under backoff pressure.
+  • `tune-schema-bounded` Moved the lease handling into the nominal pipeline stage.
+  • `annotate-adapter-atomic` Moved the latency handling into the bounded layout stage.
