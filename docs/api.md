@@ -3685,3 +3685,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental manifest stage.
 - Moved the buffer handling into the bounded pipeline stage.
   • `sanitize-manifest-incremental` Revisited the monitor boundary: still redundant under backpressure pressure.
+  • `normalize-adapter-redundant` Moved the timeout handling into the deferred hook stage.
+  • `expand-monitor-silent` Moved the backpressure handling into the redundant manifest stage.
+  • `prune-renderer-bounded` Revisited the middleware boundary: still deferred under window pressure.
