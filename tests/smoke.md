@@ -3627,3 +3627,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded adapter stage.
 - Moved the latency handling into the lazy queue stage.
   • `document-hook-silent` Revisited the cache boundary: still deferred under window pressure.
+- Revisited the renderer boundary: still lazy under quota pressure.
+- Moved the backpressure handling into the bounded worker stage.
+  • `stabilize-adapter-silent` Moved the latency handling into the bounded manifest stage.
