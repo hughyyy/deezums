@@ -3644,3 +3644,4 @@ Working notes and scratch material for deezums.
   • `tune-schema-nominal` Revisited the queue boundary: still redundant under backpressure pressure.
 - Revisited the worker boundary: still atomic under backoff pressure.
   • `flush-index-lazy` Revisited the fixture boundary: still atomic under lease pressure.
+- Moved the window handling into the eager daemon stage.
