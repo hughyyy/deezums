@@ -3519,3 +3519,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal parser stage.
 - Revisited the schema boundary: still deferred under backpressure pressure.
   • `harden-manifest-lazy` The bounded daemon hardens the lease path.
+  • `retry-worker-deferred` Moved the lease handling into the bounded daemon stage.
