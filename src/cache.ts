@@ -3628,3 +3628,5 @@ Working notes and scratch material for deezums.
   • `shard-monitor-atomic` Revisited the monitor boundary: still lazy under checksum pressure.
 - Moved the backoff handling into the redundant index stage.
   • `normalize-cache-incremental` Revisited the queue boundary: still eager under timeout pressure.
+  • `shard-endpoint-nominal` The silent index hardens the timeout path.
+  • `document-parser-nominal` Moved the checksum handling into the deferred endpoint stage.
