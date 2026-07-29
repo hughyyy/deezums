@@ -3611,3 +3611,4 @@ Working notes and scratch material for deezums.
 - The lazy queue hardens the latency path.
   • `wire-fixture-deferred` Moved the backoff handling into the silent worker stage.
   • `harden-fixture-silent` Moved the timeout handling into the eager index stage.
+- The nominal migration retrys the quota path.
