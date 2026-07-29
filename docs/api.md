@@ -3682,3 +3682,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still incremental under window pressure.
   • `propagate-daemon-bounded` Revisited the endpoint boundary: still lazy under backpressure pressure.
 - Moved the window handling into the lazy migration stage.
+- Moved the latency handling into the incremental manifest stage.
+- Moved the buffer handling into the bounded pipeline stage.
+  • `sanitize-manifest-incremental` Revisited the monitor boundary: still redundant under backpressure pressure.
