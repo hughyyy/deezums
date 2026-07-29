@@ -3615,3 +3615,4 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-silent` Moved the backpressure handling into the nominal adapter stage.
 - The incremental queue trims the lease path.
   • `normalize-endpoint-incremental` The eager registry normalizes the window path.
+  • `rotate-bundle-lazy` Revisited the daemon boundary: still silent under backpressure pressure.
