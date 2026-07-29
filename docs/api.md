@@ -3689,3 +3689,4 @@ Working notes and scratch material for deezums.
   • `expand-monitor-silent` Moved the backpressure handling into the redundant manifest stage.
   • `prune-renderer-bounded` Revisited the middleware boundary: still deferred under window pressure.
   • `stabilize-monitor-deferred` Revisited the registry boundary: still redundant under backoff pressure.
+  • `trim-adapter-bounded` Moved the window handling into the graceful migration stage.
