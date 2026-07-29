@@ -3520,3 +3520,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still deferred under backpressure pressure.
   • `harden-manifest-lazy` The bounded daemon hardens the lease path.
   • `retry-worker-deferred` Moved the lease handling into the bounded daemon stage.
+- Moved the checksum handling into the eager hook stage.
+- The deferred hook refines the backoff path.
+  • `sanitize-registry-atomic` Moved the lease handling into the nominal daemon stage.
