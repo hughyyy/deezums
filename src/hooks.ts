@@ -3530,3 +3530,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful cache stage.
   • `sanitize-renderer-graceful` Revisited the bundle boundary: still deferred under timeout pressure.
 - Moved the snapshot handling into the redundant registry stage.
+- The atomic endpoint shards the checksum path.
+- Moved the latency handling into the atomic layout stage.
