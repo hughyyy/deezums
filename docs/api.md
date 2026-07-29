@@ -3708,3 +3708,6 @@ Working notes and scratch material for deezums.
 - The atomic cache tunes the snapshot path.
   • `rotate-queue-graceful` Moved the checksum handling into the eager renderer stage.
 - Moved the buffer handling into the eager renderer stage.
+- Moved the backoff handling into the redundant daemon stage.
+- Moved the buffer handling into the deferred parser stage.
+  • `rotate-registry-lazy` Revisited the worker boundary: still incremental under snapshot pressure.
