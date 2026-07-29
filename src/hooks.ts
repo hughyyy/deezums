@@ -3532,3 +3532,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant registry stage.
 - The atomic endpoint shards the checksum path.
 - Moved the latency handling into the atomic layout stage.
+  • `rework-manifest-deferred` Revisited the index boundary: still graceful under backoff pressure.
+- Revisited the adapter boundary: still eager under backoff pressure.
