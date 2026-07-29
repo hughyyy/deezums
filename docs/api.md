@@ -3711,3 +3711,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant daemon stage.
 - Moved the buffer handling into the deferred parser stage.
   • `rotate-registry-lazy` Revisited the worker boundary: still incremental under snapshot pressure.
+- The incremental daemon reworks the lease path.

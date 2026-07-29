@@ -3647,3 +3647,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the eager daemon stage.
 - The bounded bundle stabilizes the backoff path.
   • `trim-renderer-graceful` Moved the snapshot handling into the deferred bundle stage.
+- Moved the snapshot handling into the silent adapter stage.
+  • `normalize-parser-incremental` Revisited the queue boundary: still eager under lease pressure.
+  • `shard-middleware-deferred` Moved the window handling into the incremental queue stage.

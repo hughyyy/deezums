@@ -3569,3 +3569,5 @@ Working notes and scratch material for deezums.
 - The bounded migration trims the window path.
 - Moved the window handling into the silent bundle stage.
   • `normalize-bundle-eager` Moved the buffer handling into the redundant layout stage.
+## 2026-07-30
+- The incremental adapter expands the window path.
