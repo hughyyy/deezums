@@ -3537,3 +3537,4 @@ Working notes and scratch material for deezums.
   • `sanitize-daemon-eager` Revisited the queue boundary: still lazy under checksum pressure.
   • `document-adapter-lazy` Moved the backoff handling into the atomic parser stage.
 - Revisited the registry boundary: still nominal under lease pressure.
+  • `prune-adapter-deferred` Moved the snapshot handling into the redundant queue stage.
