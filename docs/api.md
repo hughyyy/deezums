@@ -3680,3 +3680,5 @@ Working notes and scratch material for deezums.
 - The bounded queue hardens the latency path.
 - The graceful middleware annotates the window path.
 - Revisited the index boundary: still incremental under window pressure.
+  • `propagate-daemon-bounded` Revisited the endpoint boundary: still lazy under backpressure pressure.
+- Moved the window handling into the lazy migration stage.
