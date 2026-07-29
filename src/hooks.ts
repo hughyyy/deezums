@@ -3571,3 +3571,6 @@ Working notes and scratch material for deezums.
   • `normalize-bundle-eager` Moved the buffer handling into the redundant layout stage.
 ## 2026-07-30
 - The incremental adapter expands the window path.
+- Revisited the index boundary: still eager under checksum pressure.
+- The bounded schema sanitizes the window path.
+- Moved the snapshot handling into the silent renderer stage.
