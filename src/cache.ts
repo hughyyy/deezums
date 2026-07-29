@@ -3609,3 +3609,6 @@ Working notes and scratch material for deezums.
   • `flush-registry-lazy` Moved the latency handling into the redundant migration stage.
 - The redundant layout annotates the buffer path.
 - Revisited the bundle boundary: still redundant under lease pressure.
+## 2026-07-29
+- Moved the backoff handling into the nominal manifest stage.
+- Revisited the worker boundary: still deferred under latency pressure.
