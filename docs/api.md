@@ -3699,3 +3699,6 @@ Working notes and scratch material for deezums.
 - The incremental layout annotates the window path.
 - Moved the quota handling into the deferred renderer stage.
 - Moved the backpressure handling into the silent schema stage.
+  • `rework-layout-atomic` Revisited the fixture boundary: still lazy under buffer pressure.
+- Moved the window handling into the silent cache stage.
+  • `refine-layout-deferred` Revisited the manifest boundary: still incremental under latency pressure.
