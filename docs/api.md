@@ -3671,3 +3671,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred registry stage.
 - Moved the backoff handling into the deferred manifest stage.
 - Moved the snapshot handling into the nominal manifest stage.
+- Moved the backpressure handling into the graceful layout stage.
+  • `rework-migration-atomic` The redundant hook refines the timeout path.
+  • `rotate-monitor-nominal` Revisited the index boundary: still redundant under buffer pressure.
