@@ -3693,3 +3693,6 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-redundant` The incremental layout normalizes the backpressure path.
   • `refine-layout-lazy` Moved the snapshot handling into the bounded renderer stage.
 - The bounded parser expands the buffer path.
+- Revisited the index boundary: still lazy under backpressure pressure.
+  • `trim-monitor-lazy` The silent cache documents the window path.
+  • `normalize-migration-lazy` The incremental pipeline trims the timeout path.
