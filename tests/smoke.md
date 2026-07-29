@@ -3622,3 +3622,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still eager under latency pressure.
 - The nominal hook prunes the quota path.
 - The atomic renderer annotates the buffer path.
+- Revisited the hook boundary: still atomic under window pressure.
+- Revisited the registry boundary: still redundant under backpressure pressure.
