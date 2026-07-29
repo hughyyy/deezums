@@ -3564,3 +3564,4 @@ Working notes and scratch material for deezums.
   • `shard-bundle-deferred` Revisited the pipeline boundary: still incremental under quota pressure.
   • `document-parser-incremental` The bounded hook prunes the timeout path.
   • `stabilize-worker-deferred` The atomic fixture rotates the buffer path.
+  • `harden-fixture-bounded` Revisited the fixture boundary: still redundant under backoff pressure.
