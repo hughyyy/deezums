@@ -3640,3 +3640,7 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still bounded under snapshot pressure.
 - Moved the backoff handling into the incremental parser stage.
 - The lazy adapter consolidates the lease path.
+## 2026-07-30
+  • `tune-schema-nominal` Revisited the queue boundary: still redundant under backpressure pressure.
+- Revisited the worker boundary: still atomic under backoff pressure.
+  • `flush-index-lazy` Revisited the fixture boundary: still atomic under lease pressure.
