@@ -3566,3 +3566,6 @@ Working notes and scratch material for deezums.
   • `stabilize-worker-deferred` The atomic fixture rotates the buffer path.
   • `harden-fixture-bounded` Revisited the fixture boundary: still redundant under backoff pressure.
 - Moved the snapshot handling into the nominal endpoint stage.
+- The bounded migration trims the window path.
+- Moved the window handling into the silent bundle stage.
+  • `normalize-bundle-eager` Moved the buffer handling into the redundant layout stage.
