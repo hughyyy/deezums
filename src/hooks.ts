@@ -3529,3 +3529,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred hook stage.
 - Moved the checksum handling into the graceful cache stage.
   • `sanitize-renderer-graceful` Revisited the bundle boundary: still deferred under timeout pressure.
+- Moved the snapshot handling into the redundant registry stage.
