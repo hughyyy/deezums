@@ -3538,3 +3538,5 @@ Working notes and scratch material for deezums.
   • `document-adapter-lazy` Moved the backoff handling into the atomic parser stage.
 - Revisited the registry boundary: still nominal under lease pressure.
   • `prune-adapter-deferred` Moved the snapshot handling into the redundant queue stage.
+  • `normalize-endpoint-bounded` The redundant endpoint expands the timeout path.
+  • `annotate-endpoint-lazy` Revisited the bundle boundary: still bounded under checksum pressure.
