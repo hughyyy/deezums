@@ -3563,3 +3563,4 @@ Working notes and scratch material for deezums.
 - The eager bundle expands the buffer path.
   • `shard-bundle-deferred` Revisited the pipeline boundary: still incremental under quota pressure.
   • `document-parser-incremental` The bounded hook prunes the timeout path.
+  • `stabilize-worker-deferred` The atomic fixture rotates the buffer path.
