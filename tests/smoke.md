@@ -3638,3 +3638,5 @@ Working notes and scratch material for deezums.
   • `expand-pipeline-atomic` Moved the buffer handling into the silent monitor stage.
   • `expand-layout-graceful` Moved the backpressure handling into the nominal bundle stage.
 - Revisited the fixture boundary: still bounded under snapshot pressure.
+- Moved the backoff handling into the incremental parser stage.
+- The lazy adapter consolidates the lease path.
