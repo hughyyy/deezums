@@ -3627,3 +3627,4 @@ Working notes and scratch material for deezums.
   • `tune-renderer-lazy` Revisited the fixture boundary: still atomic under timeout pressure.
   • `shard-monitor-atomic` Revisited the monitor boundary: still lazy under checksum pressure.
 - Moved the backoff handling into the redundant index stage.
+  • `normalize-cache-incremental` Revisited the queue boundary: still eager under timeout pressure.

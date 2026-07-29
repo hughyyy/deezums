@@ -3696,3 +3696,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still lazy under backpressure pressure.
   • `trim-monitor-lazy` The silent cache documents the window path.
   • `normalize-migration-lazy` The incremental pipeline trims the timeout path.
+- The incremental layout annotates the window path.
+- Moved the quota handling into the deferred renderer stage.
+- Moved the backpressure handling into the silent schema stage.

@@ -3636,3 +3636,5 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-bounded` The deferred cache rotates the checksum path.
   • `document-hook-graceful` The silent schema rotates the timeout path.
   • `expand-pipeline-atomic` Moved the buffer handling into the silent monitor stage.
+  • `expand-layout-graceful` Moved the backpressure handling into the nominal bundle stage.
+- Revisited the fixture boundary: still bounded under snapshot pressure.

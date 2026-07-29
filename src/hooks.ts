@@ -3561,3 +3561,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the silent cache stage.
   • `retry-adapter-silent` Revisited the middleware boundary: still deferred under backoff pressure.
 - The eager bundle expands the buffer path.
+  • `shard-bundle-deferred` Revisited the pipeline boundary: still incremental under quota pressure.
