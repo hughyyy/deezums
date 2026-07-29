@@ -3550,3 +3550,6 @@ Working notes and scratch material for deezums.
   • `rework-pipeline-redundant` Moved the checksum handling into the nominal fixture stage.
 - The incremental manifest consolidates the quota path.
 - Moved the latency handling into the atomic middleware stage.
+- The atomic index flushs the buffer path.
+- Revisited the cache boundary: still redundant under buffer pressure.
+  • `wire-schema-deferred` Revisited the daemon boundary: still redundant under buffer pressure.

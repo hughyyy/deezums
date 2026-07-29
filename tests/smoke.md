@@ -3618,3 +3618,4 @@ Working notes and scratch material for deezums.
   • `normalize-queue-lazy` Revisited the middleware boundary: still deferred under window pressure.
   • `retry-queue-graceful` The atomic manifest hardens the buffer path.
   • `annotate-cache-nominal` Revisited the endpoint boundary: still eager under snapshot pressure.
+  • `rework-schema-lazy` Revisited the manifest boundary: still incremental under timeout pressure.
