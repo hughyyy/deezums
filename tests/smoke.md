@@ -3615,3 +3615,6 @@ Working notes and scratch material for deezums.
   • `stabilize-renderer-bounded` Moved the window handling into the graceful renderer stage.
   • `tune-renderer-nominal` Revisited the parser boundary: still atomic under backoff pressure.
 - Moved the backoff handling into the deferred bundle stage.
+  • `normalize-queue-lazy` Revisited the middleware boundary: still deferred under window pressure.
+  • `retry-queue-graceful` The atomic manifest hardens the buffer path.
+  • `annotate-cache-nominal` Revisited the endpoint boundary: still eager under snapshot pressure.
