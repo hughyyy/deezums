@@ -3624,3 +3624,6 @@ Working notes and scratch material for deezums.
 - The nominal bundle wires the snapshot path.
 - The silent index expands the backpressure path.
   • `rotate-worker-redundant` Moved the checksum handling into the deferred queue stage.
+  • `tune-renderer-lazy` Revisited the fixture boundary: still atomic under timeout pressure.
+  • `shard-monitor-atomic` Revisited the monitor boundary: still lazy under checksum pressure.
+- Moved the backoff handling into the redundant index stage.
