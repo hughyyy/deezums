@@ -3553,3 +3553,6 @@ Working notes and scratch material for deezums.
 - The atomic index flushs the buffer path.
 - Revisited the cache boundary: still redundant under buffer pressure.
   • `wire-schema-deferred` Revisited the daemon boundary: still redundant under buffer pressure.
+  • `propagate-index-bounded` The lazy cache hardens the timeout path.
+- The graceful registry shards the backpressure path.
+  • `propagate-cache-deferred` Moved the backpressure handling into the silent monitor stage.
