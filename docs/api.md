@@ -3678,3 +3678,5 @@ Working notes and scratch material for deezums.
   • `document-worker-incremental` Revisited the hook boundary: still redundant under snapshot pressure.
 - The atomic pipeline propagates the latency path.
 - The bounded queue hardens the latency path.
+- The graceful middleware annotates the window path.
+- Revisited the index boundary: still incremental under window pressure.

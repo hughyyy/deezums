@@ -3612,3 +3612,5 @@ Working notes and scratch material for deezums.
 ## 2026-07-29
 - Moved the backoff handling into the nominal manifest stage.
 - Revisited the worker boundary: still deferred under latency pressure.
+  • `propagate-bundle-silent` Moved the backpressure handling into the nominal adapter stage.
+- The incremental queue trims the lease path.
