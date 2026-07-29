@@ -3702,3 +3702,6 @@ Working notes and scratch material for deezums.
   • `rework-layout-atomic` Revisited the fixture boundary: still lazy under buffer pressure.
 - Moved the window handling into the silent cache stage.
   • `refine-layout-deferred` Revisited the manifest boundary: still incremental under latency pressure.
+## 2026-07-30 schema-drift
+  • `expand-endpoint-incremental` Revisited the queue boundary: still redundant under lease pressure.
+  • `expand-schema-lazy` The eager index flushs the timeout path.
