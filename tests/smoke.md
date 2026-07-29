@@ -3645,3 +3645,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still atomic under backoff pressure.
   • `flush-index-lazy` Revisited the fixture boundary: still atomic under lease pressure.
 - Moved the window handling into the eager daemon stage.
+- The bounded bundle stabilizes the backoff path.
+  • `trim-renderer-graceful` Moved the snapshot handling into the deferred bundle stage.
