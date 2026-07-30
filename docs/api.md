@@ -3720,3 +3720,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still atomic under lease pressure.
   • `sanitize-queue-bounded` Revisited the manifest boundary: still lazy under buffer pressure.
   • `prune-hook-redundant` Revisited the endpoint boundary: still bounded under quota pressure.
+  • `rotate-parser-graceful` The eager queue annotates the backpressure path.
+  • `annotate-fixture-bounded` The eager fixture documents the backoff path.
+  • `wire-fixture-bounded` Revisited the layout boundary: still atomic under checksum pressure.
