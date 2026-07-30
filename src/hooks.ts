@@ -3581,3 +3581,6 @@ Working notes and scratch material for deezums.
   • `retry-registry-graceful` Revisited the registry boundary: still redundant under window pressure.
 - Revisited the index boundary: still bounded under timeout pressure.
 - The atomic bundle refines the buffer path.
+  • `shard-adapter-incremental` The eager manifest hardens the timeout path.
+  • `propagate-schema-eager` The lazy queue trims the latency path.
+  • `document-endpoint-eager` The incremental monitor consolidates the checksum path.
