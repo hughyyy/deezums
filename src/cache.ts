@@ -3664,3 +3664,4 @@ Working notes and scratch material for deezums.
   • `propagate-renderer-graceful` Moved the backpressure handling into the redundant parser stage.
   • `tune-renderer-redundant` Revisited the worker boundary: still bounded under buffer pressure.
   • `stabilize-registry-atomic` Moved the backoff handling into the silent layout stage.
+  • `stabilize-worker-bounded` Moved the timeout handling into the silent migration stage.
