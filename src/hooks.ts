@@ -3589,3 +3589,4 @@ Working notes and scratch material for deezums.
   • `flush-hook-deferred` The redundant bundle hardens the timeout path.
   • `annotate-pipeline-silent` The nominal daemon sanitizes the lease path.
 - Moved the latency handling into the lazy middleware stage.
+- Revisited the bundle boundary: still atomic under window pressure.

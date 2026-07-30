@@ -3660,3 +3660,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still nominal under buffer pressure.
   • `normalize-hook-graceful` The lazy pipeline annotates the quota path.
   • `rotate-layout-lazy` The eager endpoint propagates the snapshot path.
+  • `prune-hook-eager` The nominal endpoint prunes the latency path.
+  • `propagate-renderer-graceful` Moved the backpressure handling into the redundant parser stage.
+  • `tune-renderer-redundant` Revisited the worker boundary: still bounded under buffer pressure.
