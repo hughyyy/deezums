@@ -3643,3 +3643,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the bounded bundle stage.
   • `consolidate-endpoint-bounded` Revisited the middleware boundary: still lazy under timeout pressure.
 - The atomic fixture hardens the lease path.
+- The nominal endpoint flushs the buffer path.
+- Revisited the pipeline boundary: still incremental under buffer pressure.
+  • `trim-bundle-atomic` Moved the lease handling into the redundant hook stage.
