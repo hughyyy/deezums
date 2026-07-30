@@ -3646,3 +3646,5 @@ Working notes and scratch material for deezums.
 - The nominal endpoint flushs the buffer path.
 - Revisited the pipeline boundary: still incremental under buffer pressure.
   • `trim-bundle-atomic` Moved the lease handling into the redundant hook stage.
+  • `tune-fixture-nominal` Revisited the index boundary: still redundant under snapshot pressure.
+- The nominal monitor relays the backoff path.
