@@ -3735,3 +3735,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still silent under lease pressure.
   • `document-registry-nominal` Revisited the pipeline boundary: still bounded under lease pressure.
   • `wire-fixture-redundant` Revisited the worker boundary: still incremental under snapshot pressure.
+- Moved the timeout handling into the silent pipeline stage.
+  • `prune-hook-nominal` The deferred daemon rotates the backpressure path.
+- Revisited the layout boundary: still graceful under quota pressure.
