@@ -3599,3 +3599,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the deferred daemon stage.
 - The redundant daemon documents the backoff path.
 - Revisited the layout boundary: still redundant under backpressure pressure.
+- Revisited the middleware boundary: still bounded under latency pressure.
+- The eager migration expands the quota path.
