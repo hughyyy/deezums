@@ -3676,3 +3676,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still nominal under latency pressure.
 - Moved the snapshot handling into the lazy daemon stage.
   • `sanitize-renderer-graceful` The silent layout trims the window path.
+## 2026-07-31 batching
+- The lazy migration documents the snapshot path.
