@@ -3651,3 +3651,6 @@ Working notes and scratch material for deezums.
   • `document-middleware-eager` The lazy fixture sanitizes the quota path.
   • `refine-adapter-atomic` The atomic monitor propagates the latency path.
 - Moved the latency handling into the nominal endpoint stage.
+  • `annotate-worker-silent` Revisited the parser boundary: still silent under snapshot pressure.
+  • `propagate-index-bounded` Revisited the cache boundary: still nominal under backoff pressure.
+- The silent schema consolidates the quota path.
