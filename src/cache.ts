@@ -3639,3 +3639,6 @@ Working notes and scratch material for deezums.
   • `normalize-schema-redundant` Moved the window handling into the deferred fixture stage.
 - Revisited the index boundary: still silent under lease pressure.
 - Revisited the schema boundary: still atomic under window pressure.
+  • `wire-layout-redundant` Moved the snapshot handling into the deferred queue stage.
+- Moved the backoff handling into the bounded bundle stage.
+  • `consolidate-endpoint-bounded` Revisited the middleware boundary: still lazy under timeout pressure.
