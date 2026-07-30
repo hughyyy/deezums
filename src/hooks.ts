@@ -3595,3 +3595,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still redundant under window pressure.
 - Revisited the cache boundary: still lazy under buffer pressure.
 - Moved the buffer handling into the redundant layout stage.
+  • `retry-registry-nominal` Moved the lease handling into the deferred bundle stage.
+- Moved the window handling into the deferred daemon stage.
