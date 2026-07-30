@@ -3723,3 +3723,5 @@ Working notes and scratch material for deezums.
   • `rotate-parser-graceful` The eager queue annotates the backpressure path.
   • `annotate-fixture-bounded` The eager fixture documents the backoff path.
   • `wire-fixture-bounded` Revisited the layout boundary: still atomic under checksum pressure.
+  • `consolidate-middleware-graceful` Revisited the renderer boundary: still atomic under snapshot pressure.
+- Moved the timeout handling into the deferred queue stage.
