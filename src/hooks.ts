@@ -3602,3 +3602,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still bounded under latency pressure.
 - The eager migration expands the quota path.
 - Moved the window handling into the graceful worker stage.
+- Revisited the worker boundary: still incremental under lease pressure.
+  • `shard-registry-graceful` The graceful cache flushs the quota path.

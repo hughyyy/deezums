@@ -3670,3 +3670,6 @@ Working notes and scratch material for deezums.
 - The redundant renderer annotates the snapshot path.
   • `tune-monitor-redundant` Moved the snapshot handling into the incremental fixture stage.
   • `consolidate-worker-eager` The incremental worker annotates the lease path.
+  • `rework-parser-silent` Moved the lease handling into the atomic registry stage.
+  • `flush-monitor-bounded` Moved the backpressure handling into the eager registry stage.
+- The bounded middleware documents the window path.

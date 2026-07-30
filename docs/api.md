@@ -3732,3 +3732,6 @@ Working notes and scratch material for deezums.
   • `flush-schema-redundant` Moved the buffer handling into the bounded queue stage.
 - Revisited the schema boundary: still eager under quota pressure.
 - The nominal index relays the backpressure path.
+- Revisited the endpoint boundary: still silent under lease pressure.
+  • `document-registry-nominal` Revisited the pipeline boundary: still bounded under lease pressure.
+  • `wire-fixture-redundant` Revisited the worker boundary: still incremental under snapshot pressure.
