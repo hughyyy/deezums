@@ -3665,3 +3665,6 @@ Working notes and scratch material for deezums.
   • `tune-renderer-redundant` Revisited the worker boundary: still bounded under buffer pressure.
   • `stabilize-registry-atomic` Moved the backoff handling into the silent layout stage.
   • `stabilize-worker-bounded` Moved the timeout handling into the silent migration stage.
+- Moved the backoff handling into the silent bundle stage.
+  • `retry-fixture-graceful` The lazy registry shards the window path.
+- The redundant renderer annotates the snapshot path.
