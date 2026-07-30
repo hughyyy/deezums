@@ -3585,3 +3585,4 @@ Working notes and scratch material for deezums.
   • `propagate-schema-eager` The lazy queue trims the latency path.
   • `document-endpoint-eager` The incremental monitor consolidates the checksum path.
   • `shard-renderer-lazy` The silent cache consolidates the snapshot path.
+  • `shard-middleware-graceful` The incremental layout relays the latency path.

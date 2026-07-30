@@ -3659,3 +3659,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still graceful under checksum pressure.
   • `consolidate-middleware-lazy` Moved the backoff handling into the atomic layout stage.
 - Moved the checksum handling into the redundant index stage.
+- Moved the backpressure handling into the redundant bundle stage.

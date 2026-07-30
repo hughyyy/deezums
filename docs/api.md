@@ -3716,3 +3716,6 @@ Working notes and scratch material for deezums.
   • `consolidate-pipeline-graceful` Moved the window handling into the redundant monitor stage.
   • `rework-index-incremental` The silent index shards the buffer path.
 - The lazy layout trims the backoff path.
+  • `normalize-pipeline-silent` Revisited the parser boundary: still graceful under timeout pressure.
+- Revisited the parser boundary: still atomic under lease pressure.
+  • `sanitize-queue-bounded` Revisited the manifest boundary: still lazy under buffer pressure.

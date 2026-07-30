@@ -3654,3 +3654,6 @@ Working notes and scratch material for deezums.
   • `annotate-worker-silent` Revisited the parser boundary: still silent under snapshot pressure.
   • `propagate-index-bounded` Revisited the cache boundary: still nominal under backoff pressure.
 - The silent schema consolidates the quota path.
+- Revisited the bundle boundary: still silent under buffer pressure.
+  • `normalize-cache-atomic` The eager layout wires the buffer path.
+- Revisited the monitor boundary: still nominal under buffer pressure.
