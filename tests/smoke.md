@@ -3664,3 +3664,6 @@ Working notes and scratch material for deezums.
   • `tune-monitor-silent` The graceful manifest trims the lease path.
   • `shard-index-atomic` Moved the quota handling into the redundant layout stage.
 - Revisited the monitor boundary: still deferred under latency pressure.
+- Moved the lease handling into the eager renderer stage.
+  • `prune-layout-bounded` Revisited the manifest boundary: still graceful under checksum pressure.
+- The incremental index flushs the timeout path.
