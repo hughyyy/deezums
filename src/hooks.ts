@@ -3574,3 +3574,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still eager under checksum pressure.
 - The bounded schema sanitizes the window path.
 - Moved the snapshot handling into the silent renderer stage.
+  • `relay-queue-eager` The deferred monitor relays the latency path.
+  • `annotate-layout-redundant` Moved the backpressure handling into the silent renderer stage.
+  • `rotate-index-lazy` The atomic queue stabilizes the snapshot path.
