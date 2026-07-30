@@ -3635,3 +3635,5 @@ Working notes and scratch material for deezums.
   • `relay-layout-eager` The atomic hook stabilizes the latency path.
   • `sanitize-fixture-bounded` Revisited the migration boundary: still incremental under backpressure pressure.
   • `propagate-hook-graceful` Moved the checksum handling into the silent daemon stage.
+- Revisited the middleware boundary: still bounded under checksum pressure.
+  • `normalize-schema-redundant` Moved the window handling into the deferred fixture stage.
