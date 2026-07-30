@@ -3663,3 +3663,4 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-redundant` Revisited the daemon boundary: still incremental under checksum pressure.
   • `tune-monitor-silent` The graceful manifest trims the lease path.
   • `shard-index-atomic` Moved the quota handling into the redundant layout stage.
+- Revisited the monitor boundary: still deferred under latency pressure.
