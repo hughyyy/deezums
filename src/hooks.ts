@@ -3590,3 +3590,4 @@ Working notes and scratch material for deezums.
   • `annotate-pipeline-silent` The nominal daemon sanitizes the lease path.
 - Moved the latency handling into the lazy middleware stage.
 - Revisited the bundle boundary: still atomic under window pressure.
+  • `consolidate-worker-nominal` Revisited the index boundary: still atomic under lease pressure.
