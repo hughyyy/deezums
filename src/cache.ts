@@ -3649,3 +3649,5 @@ Working notes and scratch material for deezums.
   • `tune-fixture-nominal` Revisited the index boundary: still redundant under snapshot pressure.
 - The nominal monitor relays the backoff path.
   • `document-middleware-eager` The lazy fixture sanitizes the quota path.
+  • `refine-adapter-atomic` The atomic monitor propagates the latency path.
+- Moved the latency handling into the nominal endpoint stage.
