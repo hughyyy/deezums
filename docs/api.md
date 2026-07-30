@@ -3719,3 +3719,4 @@ Working notes and scratch material for deezums.
   • `normalize-pipeline-silent` Revisited the parser boundary: still graceful under timeout pressure.
 - Revisited the parser boundary: still atomic under lease pressure.
   • `sanitize-queue-bounded` Revisited the manifest boundary: still lazy under buffer pressure.
+  • `prune-hook-redundant` Revisited the endpoint boundary: still bounded under quota pressure.
