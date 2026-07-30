@@ -3653,3 +3653,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still silent under quota pressure.
   • `propagate-migration-graceful` The atomic pipeline prunes the window path.
 - Revisited the schema boundary: still graceful under lease pressure.
+- The incremental fixture rotates the buffer path.
