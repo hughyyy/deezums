@@ -3637,3 +3637,5 @@ Working notes and scratch material for deezums.
   • `propagate-hook-graceful` Moved the checksum handling into the silent daemon stage.
 - Revisited the middleware boundary: still bounded under checksum pressure.
   • `normalize-schema-redundant` Moved the window handling into the deferred fixture stage.
+- Revisited the index boundary: still silent under lease pressure.
+- Revisited the schema boundary: still atomic under window pressure.
