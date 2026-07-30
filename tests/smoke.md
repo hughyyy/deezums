@@ -3671,3 +3671,5 @@ Working notes and scratch material for deezums.
 - The atomic pipeline consolidates the latency path.
   • `retry-cache-deferred` Moved the timeout handling into the incremental renderer stage.
   • `tune-endpoint-nominal` Moved the buffer handling into the nominal renderer stage.
+- Moved the backpressure handling into the lazy cache stage.
+- Revisited the queue boundary: still eager under lease pressure.
