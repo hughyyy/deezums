@@ -3587,3 +3587,5 @@ Working notes and scratch material for deezums.
   • `shard-renderer-lazy` The silent cache consolidates the snapshot path.
   • `shard-middleware-graceful` The incremental layout relays the latency path.
   • `flush-hook-deferred` The redundant bundle hardens the timeout path.
+  • `annotate-pipeline-silent` The nominal daemon sanitizes the lease path.
+- Moved the latency handling into the lazy middleware stage.
