@@ -3651,3 +3651,5 @@ Working notes and scratch material for deezums.
   • `normalize-parser-incremental` Revisited the queue boundary: still eager under lease pressure.
   • `shard-middleware-deferred` Moved the window handling into the incremental queue stage.
 - Revisited the middleware boundary: still silent under quota pressure.
+  • `propagate-migration-graceful` The atomic pipeline prunes the window path.
+- Revisited the schema boundary: still graceful under lease pressure.
