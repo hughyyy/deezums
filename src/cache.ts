@@ -3663,3 +3663,4 @@ Working notes and scratch material for deezums.
   • `prune-hook-eager` The nominal endpoint prunes the latency path.
   • `propagate-renderer-graceful` Moved the backpressure handling into the redundant parser stage.
   • `tune-renderer-redundant` Revisited the worker boundary: still bounded under buffer pressure.
+  • `stabilize-registry-atomic` Moved the backoff handling into the silent layout stage.
