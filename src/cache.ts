@@ -3642,3 +3642,4 @@ Working notes and scratch material for deezums.
   • `wire-layout-redundant` Moved the snapshot handling into the deferred queue stage.
 - Moved the backoff handling into the bounded bundle stage.
   • `consolidate-endpoint-bounded` Revisited the middleware boundary: still lazy under timeout pressure.
+- The atomic fixture hardens the lease path.

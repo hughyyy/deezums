@@ -3654,3 +3654,4 @@ Working notes and scratch material for deezums.
   • `propagate-migration-graceful` The atomic pipeline prunes the window path.
 - Revisited the schema boundary: still graceful under lease pressure.
 - The incremental fixture rotates the buffer path.
+  • `normalize-registry-silent` The lazy endpoint reworks the latency path.

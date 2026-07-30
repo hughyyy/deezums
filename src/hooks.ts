@@ -3584,3 +3584,4 @@ Working notes and scratch material for deezums.
   • `shard-adapter-incremental` The eager manifest hardens the timeout path.
   • `propagate-schema-eager` The lazy queue trims the latency path.
   • `document-endpoint-eager` The incremental monitor consolidates the checksum path.
+  • `shard-renderer-lazy` The silent cache consolidates the snapshot path.
