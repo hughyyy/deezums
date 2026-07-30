@@ -3667,3 +3667,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager renderer stage.
   • `prune-layout-bounded` Revisited the manifest boundary: still graceful under checksum pressure.
 - The incremental index flushs the timeout path.
+  • `wire-cache-deferred` The bounded endpoint relays the buffer path.
+- The atomic pipeline consolidates the latency path.
+  • `retry-cache-deferred` Moved the timeout handling into the incremental renderer stage.

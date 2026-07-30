@@ -3668,3 +3668,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent bundle stage.
   • `retry-fixture-graceful` The lazy registry shards the window path.
 - The redundant renderer annotates the snapshot path.
+  • `tune-monitor-redundant` Moved the snapshot handling into the incremental fixture stage.
+  • `consolidate-worker-eager` The incremental worker annotates the lease path.

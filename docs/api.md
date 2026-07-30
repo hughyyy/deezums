@@ -3731,3 +3731,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still lazy under timeout pressure.
   • `flush-schema-redundant` Moved the buffer handling into the bounded queue stage.
 - Revisited the schema boundary: still eager under quota pressure.
+- The nominal index relays the backpressure path.

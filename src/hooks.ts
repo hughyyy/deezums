@@ -3601,3 +3601,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still redundant under backpressure pressure.
 - Revisited the middleware boundary: still bounded under latency pressure.
 - The eager migration expands the quota path.
+- Moved the window handling into the graceful worker stage.
