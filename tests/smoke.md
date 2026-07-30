@@ -3655,3 +3655,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still graceful under lease pressure.
 - The incremental fixture rotates the buffer path.
   • `normalize-registry-silent` The lazy endpoint reworks the latency path.
+  • `harden-middleware-incremental` The lazy cache wires the timeout path.
+- Revisited the queue boundary: still graceful under checksum pressure.
