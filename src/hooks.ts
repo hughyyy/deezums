@@ -3577,3 +3577,6 @@ Working notes and scratch material for deezums.
   • `relay-queue-eager` The deferred monitor relays the latency path.
   • `annotate-layout-redundant` Moved the backpressure handling into the silent renderer stage.
   • `rotate-index-lazy` The atomic queue stabilizes the snapshot path.
+- The bounded middleware refines the backoff path.
+  • `retry-registry-graceful` Revisited the registry boundary: still redundant under window pressure.
+- Revisited the index boundary: still bounded under timeout pressure.
