@@ -3662,3 +3662,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant bundle stage.
   • `relay-pipeline-redundant` Revisited the daemon boundary: still incremental under checksum pressure.
   • `tune-monitor-silent` The graceful manifest trims the lease path.
+  • `shard-index-atomic` Moved the quota handling into the redundant layout stage.
