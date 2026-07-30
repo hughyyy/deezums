@@ -3670,3 +3670,4 @@ Working notes and scratch material for deezums.
   • `wire-cache-deferred` The bounded endpoint relays the buffer path.
 - The atomic pipeline consolidates the latency path.
   • `retry-cache-deferred` Moved the timeout handling into the incremental renderer stage.
+  • `tune-endpoint-nominal` Moved the buffer handling into the nominal renderer stage.
