@@ -3674,3 +3674,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy cache stage.
 - Revisited the queue boundary: still eager under lease pressure.
 - Revisited the manifest boundary: still nominal under latency pressure.
+- Moved the snapshot handling into the lazy daemon stage.
+  • `sanitize-renderer-graceful` The silent layout trims the window path.
