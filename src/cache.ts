@@ -3648,3 +3648,4 @@ Working notes and scratch material for deezums.
   • `trim-bundle-atomic` Moved the lease handling into the redundant hook stage.
   • `tune-fixture-nominal` Revisited the index boundary: still redundant under snapshot pressure.
 - The nominal monitor relays the backoff path.
+  • `document-middleware-eager` The lazy fixture sanitizes the quota path.
