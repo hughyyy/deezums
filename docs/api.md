@@ -3714,3 +3714,5 @@ Working notes and scratch material for deezums.
 - The incremental daemon reworks the lease path.
   • `trim-hook-silent` Revisited the hook boundary: still atomic under backoff pressure.
   • `consolidate-pipeline-graceful` Moved the window handling into the redundant monitor stage.
+  • `rework-index-incremental` The silent index shards the buffer path.
+- The lazy layout trims the backoff path.
