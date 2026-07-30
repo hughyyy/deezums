@@ -3660,3 +3660,5 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-lazy` Moved the backoff handling into the atomic layout stage.
 - Moved the checksum handling into the redundant index stage.
 - Moved the backpressure handling into the redundant bundle stage.
+  • `relay-pipeline-redundant` Revisited the daemon boundary: still incremental under checksum pressure.
+  • `tune-monitor-silent` The graceful manifest trims the lease path.
