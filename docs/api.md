@@ -3726,3 +3726,4 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-graceful` Revisited the renderer boundary: still atomic under snapshot pressure.
 - Moved the timeout handling into the deferred queue stage.
   • `shard-layout-deferred` Revisited the middleware boundary: still incremental under timeout pressure.
+  • `prune-monitor-deferred` Revisited the hook boundary: still incremental under backoff pressure.
