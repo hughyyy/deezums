@@ -3597,3 +3597,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant layout stage.
   • `retry-registry-nominal` Moved the lease handling into the deferred bundle stage.
 - Moved the window handling into the deferred daemon stage.
+- The redundant daemon documents the backoff path.
+- Revisited the layout boundary: still redundant under backpressure pressure.
