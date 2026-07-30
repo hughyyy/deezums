@@ -3673,3 +3673,4 @@ Working notes and scratch material for deezums.
   • `tune-endpoint-nominal` Moved the buffer handling into the nominal renderer stage.
 - Moved the backpressure handling into the lazy cache stage.
 - Revisited the queue boundary: still eager under lease pressure.
+- Revisited the manifest boundary: still nominal under latency pressure.
