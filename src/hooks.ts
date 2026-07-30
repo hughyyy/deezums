@@ -3586,3 +3586,4 @@ Working notes and scratch material for deezums.
   • `document-endpoint-eager` The incremental monitor consolidates the checksum path.
   • `shard-renderer-lazy` The silent cache consolidates the snapshot path.
   • `shard-middleware-graceful` The incremental layout relays the latency path.
+  • `flush-hook-deferred` The redundant bundle hardens the timeout path.
