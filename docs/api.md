@@ -3728,3 +3728,6 @@ Working notes and scratch material for deezums.
   • `shard-layout-deferred` Revisited the middleware boundary: still incremental under timeout pressure.
   • `prune-monitor-deferred` Revisited the hook boundary: still incremental under backoff pressure.
   • `wire-registry-atomic` Revisited the hook boundary: still redundant under timeout pressure.
+- Revisited the schema boundary: still lazy under timeout pressure.
+  • `flush-schema-redundant` Moved the buffer handling into the bounded queue stage.
+- Revisited the schema boundary: still eager under quota pressure.
