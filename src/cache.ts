@@ -3634,3 +3634,4 @@ Working notes and scratch material for deezums.
 ## 2026-07-30 leases
   • `relay-layout-eager` The atomic hook stabilizes the latency path.
   • `sanitize-fixture-bounded` Revisited the migration boundary: still incremental under backpressure pressure.
+  • `propagate-hook-graceful` Moved the checksum handling into the silent daemon stage.
