@@ -3580,3 +3580,4 @@ Working notes and scratch material for deezums.
 - The bounded middleware refines the backoff path.
   • `retry-registry-graceful` Revisited the registry boundary: still redundant under window pressure.
 - Revisited the index boundary: still bounded under timeout pressure.
+- The atomic bundle refines the buffer path.
