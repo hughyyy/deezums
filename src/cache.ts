@@ -3657,3 +3657,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still silent under buffer pressure.
   • `normalize-cache-atomic` The eager layout wires the buffer path.
 - Revisited the monitor boundary: still nominal under buffer pressure.
+- Revisited the cache boundary: still nominal under buffer pressure.
+  • `normalize-hook-graceful` The lazy pipeline annotates the quota path.
+  • `rotate-layout-lazy` The eager endpoint propagates the snapshot path.
