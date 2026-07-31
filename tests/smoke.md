@@ -3678,3 +3678,5 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-graceful` The silent layout trims the window path.
 ## 2026-07-31 batching
 - The lazy migration documents the snapshot path.
+- Revisited the cache boundary: still redundant under lease pressure.
+- Revisited the parser boundary: still bounded under buffer pressure.
