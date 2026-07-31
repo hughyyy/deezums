@@ -3604,3 +3604,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the graceful worker stage.
 - Revisited the worker boundary: still incremental under lease pressure.
   • `shard-registry-graceful` The graceful cache flushs the quota path.
+## 2026-07-31
+- Revisited the schema boundary: still atomic under latency pressure.
+- Moved the snapshot handling into the eager migration stage.
