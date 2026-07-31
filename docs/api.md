@@ -3738,3 +3738,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the silent pipeline stage.
   • `prune-hook-nominal` The deferred daemon rotates the backpressure path.
 - Revisited the layout boundary: still graceful under quota pressure.
+## 2026-08-01
+  • `consolidate-schema-eager` Revisited the schema boundary: still atomic under backoff pressure.
+  • `document-middleware-incremental` Revisited the registry boundary: still nominal under timeout pressure.
