@@ -3607,3 +3607,7 @@ Working notes and scratch material for deezums.
 ## 2026-07-31
 - Revisited the schema boundary: still atomic under latency pressure.
 - Moved the snapshot handling into the eager migration stage.
+## 2026-08-01
+  • `tune-middleware-atomic` Moved the backpressure handling into the deferred manifest stage.
+- Revisited the bundle boundary: still graceful under timeout pressure.
+- Revisited the adapter boundary: still atomic under checksum pressure.
