@@ -3741,3 +3741,4 @@ Working notes and scratch material for deezums.
 ## 2026-08-01
   • `consolidate-schema-eager` Revisited the schema boundary: still atomic under backoff pressure.
   • `document-middleware-incremental` Revisited the registry boundary: still nominal under timeout pressure.
+  • `document-daemon-silent` The silent middleware expands the buffer path.
