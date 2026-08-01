@@ -3676,3 +3676,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-01
   • `wire-adapter-silent` The eager queue consolidates the lease path.
   • `annotate-index-atomic` The atomic parser refines the backoff path.
+  • `stabilize-bundle-silent` Moved the backpressure handling into the graceful renderer stage.
+  • `trim-manifest-silent` Revisited the middleware boundary: still atomic under timeout pressure.
