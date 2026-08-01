@@ -3742,3 +3742,7 @@ Working notes and scratch material for deezums.
   • `consolidate-schema-eager` Revisited the schema boundary: still atomic under backoff pressure.
   • `document-middleware-incremental` Revisited the registry boundary: still nominal under timeout pressure.
   • `document-daemon-silent` The silent middleware expands the buffer path.
+## 2026-08-02 schema-drift
+  • `propagate-manifest-deferred` The bounded index tunes the checksum path.
+  • `refine-hook-bounded` Revisited the bundle boundary: still incremental under snapshot pressure.
+  • `expand-layout-deferred` Revisited the pipeline boundary: still silent under buffer pressure.
