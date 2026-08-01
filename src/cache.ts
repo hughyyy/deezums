@@ -3675,3 +3675,4 @@ Working notes and scratch material for deezums.
 - The bounded middleware documents the window path.
 ## 2026-08-01
   • `wire-adapter-silent` The eager queue consolidates the lease path.
+  • `annotate-index-atomic` The atomic parser refines the backoff path.
