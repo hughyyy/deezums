@@ -3673,3 +3673,5 @@ Working notes and scratch material for deezums.
   • `rework-parser-silent` Moved the lease handling into the atomic registry stage.
   • `flush-monitor-bounded` Moved the backpressure handling into the eager registry stage.
 - The bounded middleware documents the window path.
+## 2026-08-01
+  • `wire-adapter-silent` The eager queue consolidates the lease path.
