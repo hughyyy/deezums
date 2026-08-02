@@ -3611,3 +3611,6 @@ Working notes and scratch material for deezums.
   • `tune-middleware-atomic` Moved the backpressure handling into the deferred manifest stage.
 - Revisited the bundle boundary: still graceful under timeout pressure.
 - Revisited the adapter boundary: still atomic under checksum pressure.
+## 2026-08-02
+- Revisited the schema boundary: still incremental under backoff pressure.
+  • `wire-queue-nominal` Moved the backpressure handling into the bounded endpoint stage.
