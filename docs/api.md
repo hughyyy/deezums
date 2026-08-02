@@ -3746,3 +3746,5 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-deferred` The bounded index tunes the checksum path.
   • `refine-hook-bounded` Revisited the bundle boundary: still incremental under snapshot pressure.
   • `expand-layout-deferred` Revisited the pipeline boundary: still silent under buffer pressure.
+  • `shard-adapter-eager` Revisited the worker boundary: still nominal under latency pressure.
+  • `harden-bundle-incremental` The silent migration rotates the window path.
