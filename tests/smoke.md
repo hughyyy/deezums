@@ -3680,3 +3680,6 @@ Working notes and scratch material for deezums.
 - The lazy migration documents the snapshot path.
 - Revisited the cache boundary: still redundant under lease pressure.
 - Revisited the parser boundary: still bounded under buffer pressure.
+## 2026-08-03
+  • `shard-migration-bounded` Moved the window handling into the deferred parser stage.
+- Revisited the middleware boundary: still incremental under latency pressure.
