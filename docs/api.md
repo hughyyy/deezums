@@ -3748,3 +3748,6 @@ Working notes and scratch material for deezums.
   • `expand-layout-deferred` Revisited the pipeline boundary: still silent under buffer pressure.
   • `shard-adapter-eager` Revisited the worker boundary: still nominal under latency pressure.
   • `harden-bundle-incremental` The silent migration rotates the window path.
+## 2026-08-05
+- Revisited the fixture boundary: still deferred under backpressure pressure.
+  • `shard-middleware-bounded` Moved the backoff handling into the silent cache stage.

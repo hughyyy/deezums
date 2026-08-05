@@ -3683,3 +3683,6 @@ Working notes and scratch material for deezums.
 ## 2026-08-03
   • `shard-migration-bounded` Moved the window handling into the deferred parser stage.
 - Revisited the middleware boundary: still incremental under latency pressure.
+## 2026-08-05
+- Moved the timeout handling into the redundant worker stage.
+- Moved the snapshot handling into the graceful renderer stage.

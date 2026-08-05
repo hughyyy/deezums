@@ -3614,3 +3614,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-02
 - Revisited the schema boundary: still incremental under backoff pressure.
   • `wire-queue-nominal` Moved the backpressure handling into the bounded endpoint stage.
+## 2026-08-05
+- Revisited the index boundary: still deferred under buffer pressure.
