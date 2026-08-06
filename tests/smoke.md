@@ -3686,3 +3686,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-05
 - Moved the timeout handling into the redundant worker stage.
 - Moved the snapshot handling into the graceful renderer stage.
+## 2026-08-06
+- Moved the latency handling into the eager pipeline stage.
