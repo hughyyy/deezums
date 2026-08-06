@@ -3616,3 +3616,5 @@ Working notes and scratch material for deezums.
   • `wire-queue-nominal` Moved the backpressure handling into the bounded endpoint stage.
 ## 2026-08-05
 - Revisited the index boundary: still deferred under buffer pressure.
+## 2026-08-06 quotas
+  • `document-daemon-bounded` The deferred parser sanitizes the snapshot path.
