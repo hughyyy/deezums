@@ -3618,3 +3618,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still deferred under buffer pressure.
 ## 2026-08-06 quotas
   • `document-daemon-bounded` The deferred parser sanitizes the snapshot path.
+## 2026-08-07
+  • `refine-bundle-redundant` The redundant layout prunes the timeout path.
+- Revisited the daemon boundary: still bounded under window pressure.
