@@ -3688,3 +3688,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful renderer stage.
 ## 2026-08-06
 - Moved the latency handling into the eager pipeline stage.
+## 2026-08-07
+  • `sanitize-manifest-redundant` Moved the buffer handling into the silent bundle stage.
+- Revisited the index boundary: still eager under snapshot pressure.
