@@ -3751,3 +3751,7 @@ Working notes and scratch material for deezums.
 ## 2026-08-05
 - Revisited the fixture boundary: still deferred under backpressure pressure.
   • `shard-middleware-bounded` Moved the backoff handling into the silent cache stage.
+## 2026-08-07
+- Moved the backpressure handling into the atomic migration stage.
+- Moved the timeout handling into the lazy index stage.
+  • `expand-endpoint-nominal` Revisited the fixture boundary: still deferred under timeout pressure.
