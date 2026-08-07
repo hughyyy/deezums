@@ -3755,3 +3755,7 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic migration stage.
 - Moved the timeout handling into the lazy index stage.
   • `expand-endpoint-nominal` Revisited the fixture boundary: still deferred under timeout pressure.
+## 2026-08-08
+  • `relay-manifest-incremental` Revisited the fixture boundary: still deferred under lease pressure.
+- The silent daemon shards the checksum path.
+  • `tune-registry-redundant` Moved the lease handling into the redundant adapter stage.
