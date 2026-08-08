@@ -3691,3 +3691,7 @@ Working notes and scratch material for deezums.
 ## 2026-08-07
   • `sanitize-manifest-redundant` Moved the buffer handling into the silent bundle stage.
 - Revisited the index boundary: still eager under snapshot pressure.
+## 2026-08-08
+- The deferred registry prunes the lease path.
+  • `wire-index-eager` Revisited the monitor boundary: still graceful under window pressure.
+- The deferred bundle relays the checksum path.
