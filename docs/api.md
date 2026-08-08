@@ -3759,3 +3759,6 @@ Working notes and scratch material for deezums.
   • `relay-manifest-incremental` Revisited the fixture boundary: still deferred under lease pressure.
 - The silent daemon shards the checksum path.
   • `tune-registry-redundant` Moved the lease handling into the redundant adapter stage.
+## 2026-08-09
+- Moved the snapshot handling into the eager parser stage.
+- Moved the snapshot handling into the bounded manifest stage.
