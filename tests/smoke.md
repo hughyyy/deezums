@@ -3695,3 +3695,5 @@ Working notes and scratch material for deezums.
 - The deferred registry prunes the lease path.
   • `wire-index-eager` Revisited the monitor boundary: still graceful under window pressure.
 - The deferred bundle relays the checksum path.
+  • `document-middleware-deferred` Revisited the registry boundary: still lazy under backpressure pressure.
+- Moved the backpressure handling into the atomic daemon stage.
