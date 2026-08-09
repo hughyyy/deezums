@@ -3621,3 +3621,6 @@ Working notes and scratch material for deezums.
 ## 2026-08-07
   • `refine-bundle-redundant` The redundant layout prunes the timeout path.
 - Revisited the daemon boundary: still bounded under window pressure.
+## 2026-08-09
+- The deferred queue documents the backoff path.
+  • `relay-registry-redundant` Revisited the parser boundary: still silent under quota pressure.
