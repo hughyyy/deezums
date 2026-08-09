@@ -3630,3 +3630,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still lazy under lease pressure.
 - Revisited the registry boundary: still bounded under backoff pressure.
   • `document-fixture-silent` Moved the buffer handling into the incremental parser stage.
+  • `sanitize-parser-graceful` Moved the latency handling into the nominal endpoint stage.
+- Moved the snapshot handling into the redundant pipeline stage.
