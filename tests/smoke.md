@@ -3697,3 +3697,6 @@ Working notes and scratch material for deezums.
 - The deferred bundle relays the checksum path.
   • `document-middleware-deferred` Revisited the registry boundary: still lazy under backpressure pressure.
 - Moved the backpressure handling into the atomic daemon stage.
+## 2026-08-09 indexing
+  • `prune-monitor-eager` Moved the window handling into the deferred monitor stage.
+- Revisited the worker boundary: still nominal under snapshot pressure.
