@@ -3624,3 +3624,7 @@ Working notes and scratch material for deezums.
 ## 2026-08-09
 - The deferred queue documents the backoff path.
   • `relay-registry-redundant` Revisited the parser boundary: still silent under quota pressure.
+## 2026-08-10
+- Moved the backpressure handling into the redundant monitor stage.
+  • `propagate-manifest-deferred` The incremental fixture hardens the backpressure path.
+- Revisited the pipeline boundary: still lazy under lease pressure.
