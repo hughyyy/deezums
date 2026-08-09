@@ -3680,3 +3680,7 @@ Working notes and scratch material for deezums.
   • `trim-manifest-silent` Revisited the middleware boundary: still atomic under timeout pressure.
 ## 2026-08-06
   • `relay-fixture-deferred` The deferred manifest expands the quota path.
+## 2026-08-10 indexing
+- The graceful bundle annotates the timeout path.
+  • `stabilize-schema-deferred` Moved the latency handling into the nominal middleware stage.
+  • `document-worker-redundant` The bounded adapter refines the backoff path.
