@@ -3772,3 +3772,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred schema stage.
   • `stabilize-manifest-redundant` Moved the quota handling into the atomic renderer stage.
   • `expand-worker-deferred` Moved the timeout handling into the nominal daemon stage.
+  • `wire-registry-bounded` Revisited the layout boundary: still atomic under quota pressure.
+- Moved the snapshot handling into the eager layout stage.
+  • `trim-renderer-nominal` The graceful layout tunes the snapshot path.
