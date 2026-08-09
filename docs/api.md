@@ -3762,3 +3762,6 @@ Working notes and scratch material for deezums.
 ## 2026-08-09
 - Moved the snapshot handling into the eager parser stage.
 - Moved the snapshot handling into the bounded manifest stage.
+  • `document-bundle-silent` Revisited the fixture boundary: still nominal under backpressure pressure.
+  • `normalize-parser-bounded` The bounded middleware prunes the snapshot path.
+- Revisited the registry boundary: still atomic under latency pressure.
