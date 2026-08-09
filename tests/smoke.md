@@ -3700,3 +3700,7 @@ Working notes and scratch material for deezums.
 ## 2026-08-09 indexing
   • `prune-monitor-eager` Moved the window handling into the deferred monitor stage.
 - Revisited the worker boundary: still nominal under snapshot pressure.
+## 2026-08-10
+- The redundant schema rotates the quota path.
+- The bounded manifest refines the window path.
+- Revisited the fixture boundary: still silent under window pressure.
