@@ -3628,3 +3628,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant monitor stage.
   • `propagate-manifest-deferred` The incremental fixture hardens the backpressure path.
 - Revisited the pipeline boundary: still lazy under lease pressure.
+- Revisited the registry boundary: still bounded under backoff pressure.
+  • `document-fixture-silent` Moved the buffer handling into the incremental parser stage.
