@@ -3684,3 +3684,4 @@ Working notes and scratch material for deezums.
 - The graceful bundle annotates the timeout path.
   • `stabilize-schema-deferred` Moved the latency handling into the nominal middleware stage.
   • `document-worker-redundant` The bounded adapter refines the backoff path.
+  • `wire-endpoint-incremental` Revisited the daemon boundary: still eager under snapshot pressure.
