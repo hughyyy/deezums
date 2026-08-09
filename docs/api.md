@@ -3766,3 +3766,5 @@ Working notes and scratch material for deezums.
   • `normalize-parser-bounded` The bounded middleware prunes the snapshot path.
 - Revisited the registry boundary: still atomic under latency pressure.
 - Moved the snapshot handling into the incremental adapter stage.
+- Revisited the fixture boundary: still nominal under quota pressure.
+  • `rework-adapter-silent` Revisited the endpoint boundary: still graceful under checksum pressure.
