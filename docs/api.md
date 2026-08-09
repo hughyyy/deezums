@@ -3765,3 +3765,4 @@ Working notes and scratch material for deezums.
   • `document-bundle-silent` Revisited the fixture boundary: still nominal under backpressure pressure.
   • `normalize-parser-bounded` The bounded middleware prunes the snapshot path.
 - Revisited the registry boundary: still atomic under latency pressure.
+- Moved the snapshot handling into the incremental adapter stage.
