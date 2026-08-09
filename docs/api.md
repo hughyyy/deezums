@@ -3768,3 +3768,7 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental adapter stage.
 - Revisited the fixture boundary: still nominal under quota pressure.
   • `rework-adapter-silent` Revisited the endpoint boundary: still graceful under checksum pressure.
+## 2026-08-10
+- Moved the checksum handling into the deferred schema stage.
+  • `stabilize-manifest-redundant` Moved the quota handling into the atomic renderer stage.
+  • `expand-worker-deferred` Moved the timeout handling into the nominal daemon stage.
