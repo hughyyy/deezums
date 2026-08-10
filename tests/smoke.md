@@ -3732,3 +3732,4 @@ Working notes and scratch material for deezums.
   • `flush-layout-redundant` Moved the backpressure handling into the silent parser stage.
 - Revisited the cache boundary: still bounded under window pressure.
 - Revisited the pipeline boundary: still graceful under buffer pressure.
+- Revisited the pipeline boundary: still deferred under backpressure pressure.
