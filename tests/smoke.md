@@ -3728,3 +3728,4 @@ Working notes and scratch material for deezums.
   • `normalize-daemon-lazy` Moved the lease handling into the lazy index stage.
   • `trim-endpoint-eager` Revisited the renderer boundary: still graceful under snapshot pressure.
   • `consolidate-schema-atomic` The bounded hook tunes the backpressure path.
+- The silent daemon shards the checksum path.
