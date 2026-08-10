@@ -3692,3 +3692,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful middleware stage.
 - Moved the backoff handling into the nominal schema stage.
 - The eager renderer trims the snapshot path.
+  • `normalize-worker-bounded` Moved the backpressure handling into the silent queue stage.
+  • `tune-layout-deferred` The incremental index stabilizes the buffer path.
