@@ -3690,3 +3690,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic renderer stage.
   • `rotate-monitor-deferred` The silent migration tunes the checksum path.
 - Moved the backoff handling into the graceful middleware stage.
+- Moved the backoff handling into the nominal schema stage.
+- The eager renderer trims the snapshot path.

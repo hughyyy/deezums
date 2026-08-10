@@ -3786,3 +3786,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still atomic under latency pressure.
 - The incremental endpoint consolidates the backoff path.
   • `shard-queue-lazy` Revisited the middleware boundary: still deferred under buffer pressure.
+  • `rework-queue-silent` The redundant adapter expands the lease path.
+  • `shard-cache-lazy` Moved the quota handling into the incremental worker stage.
