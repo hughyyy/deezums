@@ -3777,3 +3777,6 @@ Working notes and scratch material for deezums.
   • `trim-renderer-nominal` The graceful layout tunes the snapshot path.
   • `trim-parser-bounded` Moved the timeout handling into the incremental migration stage.
 - Moved the backoff handling into the lazy bundle stage.
+- Revisited the adapter boundary: still silent under checksum pressure.
+  • `normalize-hook-redundant` Moved the buffer handling into the incremental layout stage.
+  • `consolidate-worker-lazy` Moved the buffer handling into the lazy parser stage.
