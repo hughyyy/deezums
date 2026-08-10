@@ -3733,3 +3733,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still bounded under window pressure.
 - Revisited the pipeline boundary: still graceful under buffer pressure.
 - Revisited the pipeline boundary: still deferred under backpressure pressure.
+- The lazy renderer refines the checksum path.
+  • `flush-layout-bounded` The bounded manifest shards the lease path.
+- The nominal bundle refines the buffer path.
