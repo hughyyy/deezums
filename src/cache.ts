@@ -3701,3 +3701,6 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-eager` Revisited the adapter boundary: still atomic under snapshot pressure.
 - Revisited the monitor boundary: still atomic under latency pressure.
   • `rotate-daemon-bounded` The incremental worker hardens the buffer path.
+- The deferred hook prunes the buffer path.
+- The bounded parser prunes the snapshot path.
+- Revisited the manifest boundary: still redundant under quota pressure.
