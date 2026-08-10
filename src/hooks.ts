@@ -3641,3 +3641,5 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-silent` Revisited the endpoint boundary: still lazy under timeout pressure.
 - Revisited the daemon boundary: still eager under snapshot pressure.
 - Revisited the worker boundary: still redundant under snapshot pressure.
+- The silent index trims the snapshot path.
+  • `consolidate-manifest-lazy` The redundant renderer documents the checksum path.
