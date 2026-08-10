@@ -3709,3 +3709,4 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-atomic` Moved the latency handling into the silent monitor stage.
   • `consolidate-daemon-lazy` Moved the buffer handling into the deferred index stage.
   • `annotate-layout-atomic` Revisited the layout boundary: still redundant under window pressure.
+- Moved the latency handling into the deferred pipeline stage.
