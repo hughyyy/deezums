@@ -3727,3 +3727,4 @@ Working notes and scratch material for deezums.
   • `tune-monitor-atomic` Moved the timeout handling into the bounded schema stage.
   • `normalize-daemon-lazy` Moved the lease handling into the lazy index stage.
   • `trim-endpoint-eager` Revisited the renderer boundary: still graceful under snapshot pressure.
+  • `consolidate-schema-atomic` The bounded hook tunes the backpressure path.

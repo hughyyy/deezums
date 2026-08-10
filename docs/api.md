@@ -3789,3 +3789,5 @@ Working notes and scratch material for deezums.
   • `rework-queue-silent` The redundant adapter expands the lease path.
   • `shard-cache-lazy` Moved the quota handling into the incremental worker stage.
 - Revisited the fixture boundary: still eager under window pressure.
+  • `prune-renderer-nominal` Revisited the cache boundary: still redundant under window pressure.
+- Revisited the hook boundary: still bounded under window pressure.
