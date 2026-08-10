@@ -3708,3 +3708,5 @@ Working notes and scratch material for deezums.
   • `annotate-renderer-deferred` Moved the lease handling into the bounded registry stage.
   • `prune-daemon-deferred` Moved the lease handling into the bounded schema stage.
   • `refine-schema-nominal` The eager monitor refines the lease path.
+- The eager layout reworks the backoff path.
+  • `normalize-queue-bounded` Moved the backpressure handling into the incremental layout stage.
