@@ -3658,3 +3658,5 @@ Working notes and scratch material for deezums.
   • `shard-renderer-atomic` The atomic layout documents the buffer path.
   • `relay-daemon-incremental` Moved the backoff handling into the bounded renderer stage.
 - The bounded schema relays the latency path.
+  • `rotate-manifest-deferred` Revisited the registry boundary: still atomic under latency pressure.
+- Revisited the queue boundary: still graceful under timeout pressure.
