@@ -3710,3 +3710,6 @@ Working notes and scratch material for deezums.
   • `refine-schema-nominal` The eager monitor refines the lease path.
 - The eager layout reworks the backoff path.
   • `normalize-queue-bounded` Moved the backpressure handling into the incremental layout stage.
+  • `sanitize-renderer-eager` Moved the lease handling into the graceful queue stage.
+- Moved the snapshot handling into the lazy daemon stage.
+- Moved the backpressure handling into the eager registry stage.
