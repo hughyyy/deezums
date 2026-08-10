@@ -3643,3 +3643,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still redundant under snapshot pressure.
 - The silent index trims the snapshot path.
   • `consolidate-manifest-lazy` The redundant renderer documents the checksum path.
+  • `relay-layout-silent` Revisited the index boundary: still redundant under backoff pressure.
+- Revisited the fixture boundary: still silent under latency pressure.
+  • `wire-manifest-lazy` Moved the backoff handling into the incremental pipeline stage.
