@@ -3715,3 +3715,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager registry stage.
   • `consolidate-queue-graceful` Revisited the renderer boundary: still graceful under backpressure pressure.
   • `sanitize-bundle-atomic` The lazy cache flushs the snapshot path.
+- The eager adapter annotates the buffer path.
+  • `stabilize-manifest-atomic` Revisited the queue boundary: still nominal under backoff pressure.
