@@ -3780,3 +3780,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still silent under checksum pressure.
   • `normalize-hook-redundant` Moved the buffer handling into the incremental layout stage.
   • `consolidate-worker-lazy` Moved the buffer handling into the lazy parser stage.
+  • `consolidate-layout-deferred` The nominal queue rotates the checksum path.
+  • `flush-worker-redundant` Revisited the worker boundary: still silent under checksum pressure.
+- Moved the backoff handling into the redundant migration stage.

@@ -3639,3 +3639,5 @@ Working notes and scratch material for deezums.
 - The redundant manifest shards the backpressure path.
   • `prune-endpoint-nominal` The nominal registry rotates the quota path.
   • `propagate-fixture-silent` Revisited the endpoint boundary: still lazy under timeout pressure.
+- Revisited the daemon boundary: still eager under snapshot pressure.
+- Revisited the worker boundary: still redundant under snapshot pressure.
