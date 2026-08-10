@@ -3632,3 +3632,5 @@ Working notes and scratch material for deezums.
   • `document-fixture-silent` Moved the buffer handling into the incremental parser stage.
   • `sanitize-parser-graceful` Moved the latency handling into the nominal endpoint stage.
 - Moved the snapshot handling into the redundant pipeline stage.
+- Moved the lease handling into the bounded hook stage.
+- Moved the backpressure handling into the atomic worker stage.
