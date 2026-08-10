@@ -3729,3 +3729,6 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-eager` Revisited the renderer boundary: still graceful under snapshot pressure.
   • `consolidate-schema-atomic` The bounded hook tunes the backpressure path.
 - The silent daemon shards the checksum path.
+  • `flush-layout-redundant` Moved the backpressure handling into the silent parser stage.
+- Revisited the cache boundary: still bounded under window pressure.
+- Revisited the pipeline boundary: still graceful under buffer pressure.
