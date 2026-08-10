@@ -3698,3 +3698,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy cache stage.
 - The silent index reworks the backpressure path.
   • `flush-hook-silent` Moved the quota handling into the atomic parser stage.
+  • `stabilize-endpoint-eager` Revisited the adapter boundary: still atomic under snapshot pressure.
+- Revisited the monitor boundary: still atomic under latency pressure.
+  • `rotate-daemon-bounded` The incremental worker hardens the buffer path.
