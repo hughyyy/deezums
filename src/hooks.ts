@@ -3672,3 +3672,6 @@ Working notes and scratch material for deezums.
   • `expand-daemon-deferred` The graceful queue relays the backpressure path.
   • `refine-daemon-redundant` Revisited the pipeline boundary: still bounded under backoff pressure.
 - The silent renderer flushs the lease path.
+- Revisited the middleware boundary: still atomic under buffer pressure.
+  • `harden-fixture-deferred` Moved the checksum handling into the redundant adapter stage.
+- Revisited the worker boundary: still atomic under timeout pressure.
