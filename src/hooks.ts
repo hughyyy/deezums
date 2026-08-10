@@ -3650,3 +3650,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under buffer pressure.
 - The atomic daemon documents the backoff path.
   • `annotate-migration-redundant` Revisited the manifest boundary: still graceful under latency pressure.
+  • `propagate-migration-eager` Revisited the migration boundary: still lazy under checksum pressure.
+  • `refine-endpoint-bounded` Moved the lease handling into the deferred bundle stage.
