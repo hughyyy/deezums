@@ -3667,3 +3667,4 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-bounded` The deferred worker annotates the buffer path.
 - Revisited the worker boundary: still redundant under buffer pressure.
 - Moved the backpressure handling into the lazy registry stage.
+  • `sanitize-daemon-redundant` The lazy pipeline consolidates the latency path.
