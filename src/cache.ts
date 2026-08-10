@@ -3704,3 +3704,5 @@ Working notes and scratch material for deezums.
 - The deferred hook prunes the buffer path.
 - The bounded parser prunes the snapshot path.
 - Revisited the manifest boundary: still redundant under quota pressure.
+  • `shard-schema-redundant` Revisited the queue boundary: still graceful under lease pressure.
+- Moved the checksum handling into the silent worker stage.
