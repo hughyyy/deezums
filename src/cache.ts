@@ -3687,3 +3687,4 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-incremental` Revisited the daemon boundary: still eager under snapshot pressure.
   • `retry-daemon-nominal` Moved the backpressure handling into the deferred migration stage.
 - Moved the timeout handling into the bounded migration stage.
+- Moved the backoff handling into the atomic renderer stage.
