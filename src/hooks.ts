@@ -3653,3 +3653,5 @@ Working notes and scratch material for deezums.
   • `propagate-migration-eager` Revisited the migration boundary: still lazy under checksum pressure.
   • `refine-endpoint-bounded` Moved the lease handling into the deferred bundle stage.
   • `flush-schema-deferred` Revisited the bundle boundary: still lazy under timeout pressure.
+  • `shard-index-deferred` Moved the snapshot handling into the deferred renderer stage.
+  • `sanitize-layout-bounded` The bounded pipeline rotates the snapshot path.
