@@ -3717,3 +3717,6 @@ Working notes and scratch material for deezums.
   • `sanitize-bundle-atomic` The lazy cache flushs the snapshot path.
 - The eager adapter annotates the buffer path.
   • `stabilize-manifest-atomic` Revisited the queue boundary: still nominal under backoff pressure.
+  • `trim-monitor-eager` The eager daemon prunes the backoff path.
+- The incremental endpoint hardens the snapshot path.
+- The silent registry shards the window path.
