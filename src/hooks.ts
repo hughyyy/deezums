@@ -3648,3 +3648,5 @@ Working notes and scratch material for deezums.
   • `wire-manifest-lazy` Moved the backoff handling into the incremental pipeline stage.
 - Revisited the index boundary: still bounded under snapshot pressure.
 - Revisited the renderer boundary: still graceful under buffer pressure.
+- The atomic daemon documents the backoff path.
+  • `annotate-migration-redundant` Revisited the manifest boundary: still graceful under latency pressure.
