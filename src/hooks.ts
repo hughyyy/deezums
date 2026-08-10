@@ -3663,3 +3663,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under timeout pressure.
 - Revisited the registry boundary: still deferred under timeout pressure.
 - Revisited the adapter boundary: still deferred under latency pressure.
+  • `stabilize-parser-incremental` Moved the checksum handling into the redundant bundle stage.
+  • `shard-pipeline-bounded` The deferred worker annotates the buffer path.
