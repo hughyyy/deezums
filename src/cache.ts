@@ -3688,3 +3688,5 @@ Working notes and scratch material for deezums.
   • `retry-daemon-nominal` Moved the backpressure handling into the deferred migration stage.
 - Moved the timeout handling into the bounded migration stage.
 - Moved the backoff handling into the atomic renderer stage.
+  • `rotate-monitor-deferred` The silent migration tunes the checksum path.
+- Moved the backoff handling into the graceful middleware stage.
