@@ -3706,3 +3706,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still redundant under quota pressure.
   • `shard-schema-redundant` Revisited the queue boundary: still graceful under lease pressure.
 - Moved the checksum handling into the silent worker stage.
+  • `consolidate-middleware-atomic` Moved the latency handling into the silent monitor stage.
