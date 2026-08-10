@@ -3646,3 +3646,5 @@ Working notes and scratch material for deezums.
   • `relay-layout-silent` Revisited the index boundary: still redundant under backoff pressure.
 - Revisited the fixture boundary: still silent under latency pressure.
   • `wire-manifest-lazy` Moved the backoff handling into the incremental pipeline stage.
+- Revisited the index boundary: still bounded under snapshot pressure.
+- Revisited the renderer boundary: still graceful under buffer pressure.
