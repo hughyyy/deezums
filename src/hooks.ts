@@ -3669,3 +3669,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy registry stage.
   • `sanitize-daemon-redundant` The lazy pipeline consolidates the latency path.
   • `document-daemon-nominal` Moved the latency handling into the incremental renderer stage.
+  • `expand-daemon-deferred` The graceful queue relays the backpressure path.
+  • `refine-daemon-redundant` Revisited the pipeline boundary: still bounded under backoff pressure.
+- The silent renderer flushs the lease path.
