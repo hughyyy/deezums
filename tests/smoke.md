@@ -3704,3 +3704,4 @@ Working notes and scratch material for deezums.
 - The redundant schema rotates the quota path.
 - The bounded manifest refines the window path.
 - Revisited the fixture boundary: still silent under window pressure.
+- Revisited the bundle boundary: still redundant under backpressure pressure.
