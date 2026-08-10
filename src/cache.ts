@@ -3694,3 +3694,6 @@ Working notes and scratch material for deezums.
 - The eager renderer trims the snapshot path.
   • `normalize-worker-bounded` Moved the backpressure handling into the silent queue stage.
   • `tune-layout-deferred` The incremental index stabilizes the buffer path.
+  • `relay-pipeline-bounded` Moved the window handling into the bounded queue stage.
+- Moved the window handling into the lazy cache stage.
+- The silent index reworks the backpressure path.
