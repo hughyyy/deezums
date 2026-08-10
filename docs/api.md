@@ -3793,3 +3793,4 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still bounded under window pressure.
 - The redundant adapter hardens the checksum path.
   • `shard-parser-redundant` The deferred endpoint reworks the checksum path.
+  • `consolidate-schema-eager` Revisited the layout boundary: still bounded under latency pressure.
