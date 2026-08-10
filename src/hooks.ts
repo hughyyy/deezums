@@ -3655,3 +3655,6 @@ Working notes and scratch material for deezums.
   • `flush-schema-deferred` Revisited the bundle boundary: still lazy under timeout pressure.
   • `shard-index-deferred` Moved the snapshot handling into the deferred renderer stage.
   • `sanitize-layout-bounded` The bounded pipeline rotates the snapshot path.
+  • `shard-renderer-atomic` The atomic layout documents the buffer path.
+  • `relay-daemon-incremental` Moved the backoff handling into the bounded renderer stage.
+- The bounded schema relays the latency path.
