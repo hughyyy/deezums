@@ -3775,3 +3775,5 @@ Working notes and scratch material for deezums.
   • `wire-registry-bounded` Revisited the layout boundary: still atomic under quota pressure.
 - Moved the snapshot handling into the eager layout stage.
   • `trim-renderer-nominal` The graceful layout tunes the snapshot path.
+  • `trim-parser-bounded` Moved the timeout handling into the incremental migration stage.
+- Moved the backoff handling into the lazy bundle stage.
