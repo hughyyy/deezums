@@ -3706,3 +3706,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still silent under window pressure.
 - Revisited the bundle boundary: still redundant under backpressure pressure.
   • `annotate-renderer-deferred` Moved the lease handling into the bounded registry stage.
+  • `prune-daemon-deferred` Moved the lease handling into the bounded schema stage.
+  • `refine-schema-nominal` The eager monitor refines the lease path.
