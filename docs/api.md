@@ -3783,3 +3783,5 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-deferred` The nominal queue rotates the checksum path.
   • `flush-worker-redundant` Revisited the worker boundary: still silent under checksum pressure.
 - Moved the backoff handling into the redundant migration stage.
+- Revisited the hook boundary: still atomic under latency pressure.
+- The incremental endpoint consolidates the backoff path.
