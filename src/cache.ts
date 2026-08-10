@@ -3697,3 +3697,4 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-bounded` Moved the window handling into the bounded queue stage.
 - Moved the window handling into the lazy cache stage.
 - The silent index reworks the backpressure path.
+  • `flush-hook-silent` Moved the quota handling into the atomic parser stage.
