@@ -3713,3 +3713,5 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-eager` Moved the lease handling into the graceful queue stage.
 - Moved the snapshot handling into the lazy daemon stage.
 - Moved the backpressure handling into the eager registry stage.
+  • `consolidate-queue-graceful` Revisited the renderer boundary: still graceful under backpressure pressure.
+  • `sanitize-bundle-atomic` The lazy cache flushs the snapshot path.
