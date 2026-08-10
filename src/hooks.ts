@@ -3660,3 +3660,6 @@ Working notes and scratch material for deezums.
 - The bounded schema relays the latency path.
   • `rotate-manifest-deferred` Revisited the registry boundary: still atomic under latency pressure.
 - Revisited the queue boundary: still graceful under timeout pressure.
+- Revisited the monitor boundary: still graceful under timeout pressure.
+- Revisited the registry boundary: still deferred under timeout pressure.
+- Revisited the adapter boundary: still deferred under latency pressure.
