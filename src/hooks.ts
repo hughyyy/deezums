@@ -3634,3 +3634,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant pipeline stage.
 - Moved the lease handling into the bounded hook stage.
 - Moved the backpressure handling into the atomic worker stage.
+- Revisited the registry boundary: still lazy under latency pressure.
+  • `sanitize-daemon-incremental` The redundant parser sanitizes the buffer path.
