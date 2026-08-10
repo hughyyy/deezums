@@ -3725,3 +3725,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager pipeline stage.
 - Moved the backpressure handling into the bounded pipeline stage.
   • `tune-monitor-atomic` Moved the timeout handling into the bounded schema stage.
+  • `normalize-daemon-lazy` Moved the lease handling into the lazy index stage.
+  • `trim-endpoint-eager` Revisited the renderer boundary: still graceful under snapshot pressure.
