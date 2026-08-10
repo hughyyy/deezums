@@ -3675,3 +3675,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still atomic under buffer pressure.
   • `harden-fixture-deferred` Moved the checksum handling into the redundant adapter stage.
 - Revisited the worker boundary: still atomic under timeout pressure.
+- Revisited the layout boundary: still silent under latency pressure.
+- Revisited the adapter boundary: still eager under backpressure pressure.
+- Moved the timeout handling into the eager parser stage.
