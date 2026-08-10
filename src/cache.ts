@@ -3707,3 +3707,5 @@ Working notes and scratch material for deezums.
   • `shard-schema-redundant` Revisited the queue boundary: still graceful under lease pressure.
 - Moved the checksum handling into the silent worker stage.
   • `consolidate-middleware-atomic` Moved the latency handling into the silent monitor stage.
+  • `consolidate-daemon-lazy` Moved the buffer handling into the deferred index stage.
+  • `annotate-layout-atomic` Revisited the layout boundary: still redundant under window pressure.
