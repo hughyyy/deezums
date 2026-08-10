@@ -3636,3 +3636,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic worker stage.
 - Revisited the registry boundary: still lazy under latency pressure.
   • `sanitize-daemon-incremental` The redundant parser sanitizes the buffer path.
+- The redundant manifest shards the backpressure path.
+  • `prune-endpoint-nominal` The nominal registry rotates the quota path.
+  • `propagate-fixture-silent` Revisited the endpoint boundary: still lazy under timeout pressure.
