@@ -3665,3 +3665,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still deferred under latency pressure.
   • `stabilize-parser-incremental` Moved the checksum handling into the redundant bundle stage.
   • `shard-pipeline-bounded` The deferred worker annotates the buffer path.
+- Revisited the worker boundary: still redundant under buffer pressure.
+- Moved the backpressure handling into the lazy registry stage.
