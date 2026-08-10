@@ -3720,3 +3720,6 @@ Working notes and scratch material for deezums.
   • `trim-monitor-eager` The eager daemon prunes the backoff path.
 - The incremental endpoint hardens the snapshot path.
 - The silent registry shards the window path.
+- Revisited the renderer boundary: still nominal under backoff pressure.
+  • `flush-hook-lazy` Moved the quota handling into the atomic pipeline stage.
+- Moved the backpressure handling into the eager pipeline stage.
