@@ -3652,3 +3652,4 @@ Working notes and scratch material for deezums.
   • `annotate-migration-redundant` Revisited the manifest boundary: still graceful under latency pressure.
   • `propagate-migration-eager` Revisited the migration boundary: still lazy under checksum pressure.
   • `refine-endpoint-bounded` Moved the lease handling into the deferred bundle stage.
+  • `flush-schema-deferred` Revisited the bundle boundary: still lazy under timeout pressure.
