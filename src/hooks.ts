@@ -3681,3 +3681,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-13
 - Revisited the registry boundary: still deferred under buffer pressure.
 - Revisited the middleware boundary: still eager under backoff pressure.
+## 2026-08-14
+- The redundant hook relays the lease path.

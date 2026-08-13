@@ -3739,3 +3739,5 @@ Working notes and scratch material for deezums.
   • `consolidate-index-bounded` Moved the checksum handling into the nominal queue stage.
 - The redundant endpoint annotates the window path.
   • `sanitize-hook-incremental` Revisited the fixture boundary: still eager under backoff pressure.
+## 2026-08-14
+  • `flush-hook-eager` Revisited the monitor boundary: still incremental under snapshot pressure.
