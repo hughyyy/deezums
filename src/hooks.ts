@@ -3678,3 +3678,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still silent under latency pressure.
 - Revisited the adapter boundary: still eager under backpressure pressure.
 - Moved the timeout handling into the eager parser stage.
+## 2026-08-13
+- Revisited the registry boundary: still deferred under buffer pressure.
+- Revisited the middleware boundary: still eager under backoff pressure.
