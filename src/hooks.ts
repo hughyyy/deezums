@@ -3683,3 +3683,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still eager under backoff pressure.
 ## 2026-08-14
 - The redundant hook relays the lease path.
+- Moved the snapshot handling into the bounded monitor stage.
