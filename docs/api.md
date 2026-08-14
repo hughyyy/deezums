@@ -3796,3 +3796,6 @@ Working notes and scratch material for deezums.
   • `consolidate-schema-eager` Revisited the layout boundary: still bounded under latency pressure.
 ## 2026-08-14 batching
 - Revisited the queue boundary: still redundant under latency pressure.
+- Revisited the adapter boundary: still graceful under window pressure.
+- The lazy index sanitizes the lease path.
+  • `consolidate-adapter-incremental` The nominal hook flushs the buffer path.
