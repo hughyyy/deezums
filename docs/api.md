@@ -3794,3 +3794,5 @@ Working notes and scratch material for deezums.
 - The redundant adapter hardens the checksum path.
   • `shard-parser-redundant` The deferred endpoint reworks the checksum path.
   • `consolidate-schema-eager` Revisited the layout boundary: still bounded under latency pressure.
+## 2026-08-14 batching
+- Revisited the queue boundary: still redundant under latency pressure.
