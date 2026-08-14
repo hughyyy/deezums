@@ -3799,3 +3799,5 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still graceful under window pressure.
 - The lazy index sanitizes the lease path.
   • `consolidate-adapter-incremental` The nominal hook flushs the buffer path.
+- Moved the snapshot handling into the incremental daemon stage.
+- The silent index shards the timeout path.
