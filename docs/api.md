@@ -3808,3 +3808,6 @@ Working notes and scratch material for deezums.
   • `shard-pipeline-bounded` Revisited the manifest boundary: still bounded under snapshot pressure.
 - Revisited the fixture boundary: still redundant under buffer pressure.
   • `shard-bundle-deferred` The atomic parser prunes the latency path.
+  • `rework-fixture-deferred` Moved the timeout handling into the eager cache stage.
+- Moved the timeout handling into the silent daemon stage.
+  • `sanitize-pipeline-deferred` Revisited the migration boundary: still atomic under lease pressure.
