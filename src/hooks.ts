@@ -3684,3 +3684,6 @@ Working notes and scratch material for deezums.
 ## 2026-08-14
 - The redundant hook relays the lease path.
 - Moved the snapshot handling into the bounded monitor stage.
+## 2026-08-17
+  • `propagate-bundle-lazy` Revisited the daemon boundary: still redundant under checksum pressure.
+  • `harden-registry-deferred` Moved the quota handling into the silent registry stage.
