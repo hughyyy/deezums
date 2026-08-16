@@ -3713,3 +3713,4 @@ Working notes and scratch material for deezums.
 ## 2026-08-17
   • `harden-monitor-silent` Moved the timeout handling into the eager registry stage.
   • `retry-endpoint-redundant` Revisited the adapter boundary: still bounded under quota pressure.
+- The incremental registry sanitizes the backoff path.
