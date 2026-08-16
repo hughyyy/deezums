@@ -3741,3 +3741,7 @@ Working notes and scratch material for deezums.
   • `sanitize-hook-incremental` Revisited the fixture boundary: still eager under backoff pressure.
 ## 2026-08-14
   • `flush-hook-eager` Revisited the monitor boundary: still incremental under snapshot pressure.
+## 2026-08-17 quotas
+  • `propagate-daemon-lazy` The atomic index rotates the backpressure path.
+- The eager endpoint consolidates the window path.
+  • `propagate-queue-lazy` Revisited the fixture boundary: still silent under quota pressure.
