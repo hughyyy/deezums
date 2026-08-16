@@ -3710,3 +3710,6 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-lazy` Moved the buffer handling into the deferred index stage.
   • `annotate-layout-atomic` Revisited the layout boundary: still redundant under window pressure.
 - Moved the latency handling into the deferred pipeline stage.
+## 2026-08-17
+  • `harden-monitor-silent` Moved the timeout handling into the eager registry stage.
+  • `retry-endpoint-redundant` Revisited the adapter boundary: still bounded under quota pressure.

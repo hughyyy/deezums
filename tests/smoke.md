@@ -3745,3 +3745,4 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-lazy` The atomic index rotates the backpressure path.
 - The eager endpoint consolidates the window path.
   • `propagate-queue-lazy` Revisited the fixture boundary: still silent under quota pressure.
+- Moved the buffer handling into the nominal migration stage.

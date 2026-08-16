@@ -3801,3 +3801,7 @@ Working notes and scratch material for deezums.
   • `consolidate-adapter-incremental` The nominal hook flushs the buffer path.
 - Moved the snapshot handling into the incremental daemon stage.
 - The silent index shards the timeout path.
+## 2026-08-17
+  • `prune-hook-silent` Revisited the migration boundary: still bounded under latency pressure.
+- Revisited the adapter boundary: still lazy under backoff pressure.
+  • `normalize-cache-redundant` Moved the buffer handling into the graceful renderer stage.
