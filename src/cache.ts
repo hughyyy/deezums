@@ -3716,3 +3716,6 @@ Working notes and scratch material for deezums.
 - The incremental registry sanitizes the backoff path.
   • `prune-manifest-graceful` Moved the timeout handling into the incremental schema stage.
   • `trim-schema-eager` Revisited the index boundary: still atomic under lease pressure.
+- Revisited the adapter boundary: still incremental under window pressure.
+- Revisited the schema boundary: still lazy under quota pressure.
+  • `retry-middleware-nominal` Moved the lease handling into the eager layout stage.
