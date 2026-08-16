@@ -3805,3 +3805,6 @@ Working notes and scratch material for deezums.
   • `prune-hook-silent` Revisited the migration boundary: still bounded under latency pressure.
 - Revisited the adapter boundary: still lazy under backoff pressure.
   • `normalize-cache-redundant` Moved the buffer handling into the graceful renderer stage.
+  • `shard-pipeline-bounded` Revisited the manifest boundary: still bounded under snapshot pressure.
+- Revisited the fixture boundary: still redundant under buffer pressure.
+  • `shard-bundle-deferred` The atomic parser prunes the latency path.
