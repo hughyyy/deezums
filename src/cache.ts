@@ -3714,3 +3714,5 @@ Working notes and scratch material for deezums.
   • `harden-monitor-silent` Moved the timeout handling into the eager registry stage.
   • `retry-endpoint-redundant` Revisited the adapter boundary: still bounded under quota pressure.
 - The incremental registry sanitizes the backoff path.
+  • `prune-manifest-graceful` Moved the timeout handling into the incremental schema stage.
+  • `trim-schema-eager` Revisited the index boundary: still atomic under lease pressure.
