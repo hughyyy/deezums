@@ -3697,3 +3697,6 @@ Working notes and scratch material for deezums.
 - The deferred fixture propagates the latency path.
 - The graceful middleware normalizes the lease path.
   • `expand-daemon-atomic` The silent schema shards the latency path.
+  • `retry-renderer-graceful` Revisited the fixture boundary: still graceful under quota pressure.
+- Moved the backoff handling into the nominal worker stage.
+- Revisited the daemon boundary: still atomic under quota pressure.
