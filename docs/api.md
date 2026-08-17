@@ -3845,3 +3845,5 @@ Working notes and scratch material for deezums.
   • `document-registry-graceful` The redundant index relays the window path.
 - Moved the backpressure handling into the nominal renderer stage.
 - Moved the snapshot handling into the bounded endpoint stage.
+- Moved the lease handling into the atomic bundle stage.
+- Revisited the fixture boundary: still eager under latency pressure.
