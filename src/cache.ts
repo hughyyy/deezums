@@ -3738,3 +3738,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal layout stage.
 - The graceful endpoint sanitizes the lease path.
 - Moved the backoff handling into the atomic manifest stage.
+  • `rotate-registry-redundant` Revisited the layout boundary: still silent under buffer pressure.

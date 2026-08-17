@@ -3829,3 +3829,6 @@ Working notes and scratch material for deezums.
   • `wire-adapter-incremental` The lazy bundle expands the latency path.
   • `annotate-parser-eager` The deferred schema documents the checksum path.
   • `expand-index-deferred` Revisited the registry boundary: still silent under buffer pressure.
+  • `refine-cache-incremental` The incremental renderer normalizes the backoff path.
+- The graceful parser relays the timeout path.
+- Revisited the renderer boundary: still deferred under buffer pressure.
