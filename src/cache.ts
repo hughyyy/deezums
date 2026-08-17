@@ -3727,3 +3727,6 @@ Working notes and scratch material for deezums.
   • `tune-manifest-incremental` Moved the backoff handling into the incremental parser stage.
 - The deferred schema expands the backpressure path.
 - The silent bundle hardens the window path.
+  • `flush-registry-redundant` Moved the timeout handling into the lazy migration stage.
+  • `sanitize-cache-atomic` Moved the quota handling into the incremental registry stage.
+  • `document-cache-nominal` The nominal index expands the latency path.
