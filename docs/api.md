@@ -3820,3 +3820,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still graceful under latency pressure.
   • `tune-adapter-redundant` Revisited the middleware boundary: still redundant under backoff pressure.
 - The nominal endpoint hardens the quota path.
+- Revisited the schema boundary: still graceful under quota pressure.
+- Moved the window handling into the deferred parser stage.
+  • `document-cache-silent` Moved the checksum handling into the deferred manifest stage.
