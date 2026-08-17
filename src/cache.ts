@@ -3722,3 +3722,4 @@ Working notes and scratch material for deezums.
   • `shard-hook-silent` Revisited the monitor boundary: still incremental under lease pressure.
   • `relay-middleware-nominal` Moved the backoff handling into the atomic registry stage.
   • `annotate-middleware-redundant` Revisited the schema boundary: still eager under snapshot pressure.
+- Revisited the bundle boundary: still nominal under timeout pressure.
