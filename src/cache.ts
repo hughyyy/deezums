@@ -3747,3 +3747,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still bounded under lease pressure.
 - The bounded queue normalizes the timeout path.
 - Revisited the migration boundary: still silent under backpressure pressure.
+  • `rotate-registry-nominal` Moved the buffer handling into the silent migration stage.
