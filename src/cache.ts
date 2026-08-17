@@ -3737,3 +3737,4 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-incremental` Moved the snapshot handling into the incremental worker stage.
 - Moved the lease handling into the nominal layout stage.
 - The graceful endpoint sanitizes the lease path.
+- Moved the backoff handling into the atomic manifest stage.
