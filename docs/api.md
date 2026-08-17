@@ -3828,3 +3828,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still nominal under window pressure.
   • `wire-adapter-incremental` The lazy bundle expands the latency path.
   • `annotate-parser-eager` The deferred schema documents the checksum path.
+  • `expand-index-deferred` Revisited the registry boundary: still silent under buffer pressure.
