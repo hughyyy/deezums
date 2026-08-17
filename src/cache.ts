@@ -3719,3 +3719,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still incremental under window pressure.
 - Revisited the schema boundary: still lazy under quota pressure.
   • `retry-middleware-nominal` Moved the lease handling into the eager layout stage.
+  • `shard-hook-silent` Revisited the monitor boundary: still incremental under lease pressure.
+  • `relay-middleware-nominal` Moved the backoff handling into the atomic registry stage.
+  • `annotate-middleware-redundant` Revisited the schema boundary: still eager under snapshot pressure.
