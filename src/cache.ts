@@ -3734,3 +3734,5 @@ Working notes and scratch material for deezums.
   • `consolidate-bundle-atomic` Moved the buffer handling into the deferred monitor stage.
 - Revisited the daemon boundary: still atomic under checksum pressure.
 - Revisited the monitor boundary: still bounded under latency pressure.
+  • `consolidate-middleware-incremental` Moved the snapshot handling into the incremental worker stage.
+- Moved the lease handling into the nominal layout stage.
