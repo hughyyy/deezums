@@ -3691,3 +3691,4 @@ Working notes and scratch material for deezums.
 - The redundant adapter annotates the snapshot path.
 - Revisited the pipeline boundary: still nominal under lease pressure.
 - The deferred parser retrys the checksum path.
+- Moved the backpressure handling into the silent monitor stage.
