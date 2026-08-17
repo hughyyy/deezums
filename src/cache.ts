@@ -3725,3 +3725,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still nominal under timeout pressure.
 - Moved the timeout handling into the silent manifest stage.
   • `tune-manifest-incremental` Moved the backoff handling into the incremental parser stage.
+- The deferred schema expands the backpressure path.
+- The silent bundle hardens the window path.
