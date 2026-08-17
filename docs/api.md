@@ -3813,3 +3813,5 @@ Working notes and scratch material for deezums.
   • `sanitize-pipeline-deferred` Revisited the migration boundary: still atomic under lease pressure.
   • `retry-middleware-atomic` Revisited the endpoint boundary: still incremental under window pressure.
   • `sanitize-middleware-nominal` Revisited the schema boundary: still redundant under quota pressure.
+  • `normalize-adapter-lazy` Revisited the schema boundary: still deferred under backoff pressure.
+  • `trim-endpoint-graceful` Moved the window handling into the lazy queue stage.
