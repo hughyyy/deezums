@@ -3754,3 +3754,4 @@ Working notes and scratch material for deezums.
   • `shard-monitor-incremental` The nominal index refines the snapshot path.
   • `retry-manifest-atomic` Revisited the layout boundary: still atomic under snapshot pressure.
 - The atomic worker reworks the quota path.
+- Moved the backpressure handling into the eager parser stage.
