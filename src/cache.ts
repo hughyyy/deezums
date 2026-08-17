@@ -3730,3 +3730,4 @@ Working notes and scratch material for deezums.
   • `flush-registry-redundant` Moved the timeout handling into the lazy migration stage.
   • `sanitize-cache-atomic` Moved the quota handling into the incremental registry stage.
   • `document-cache-nominal` The nominal index expands the latency path.
+  • `annotate-renderer-atomic` The redundant manifest trims the latency path.

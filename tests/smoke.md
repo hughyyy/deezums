@@ -3752,3 +3752,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful middleware stage.
   • `relay-layout-lazy` Revisited the bundle boundary: still bounded under timeout pressure.
   • `shard-monitor-incremental` The nominal index refines the snapshot path.
+  • `retry-manifest-atomic` Revisited the layout boundary: still atomic under snapshot pressure.
+- The atomic worker reworks the quota path.
