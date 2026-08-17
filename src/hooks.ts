@@ -3707,3 +3707,4 @@ Working notes and scratch material for deezums.
   • `shard-endpoint-nominal` Revisited the worker boundary: still lazy under snapshot pressure.
 - Moved the backpressure handling into the lazy bundle stage.
 - Moved the backoff handling into the nominal parser stage.
+  • `shard-adapter-atomic` Revisited the middleware boundary: still incremental under timeout pressure.
