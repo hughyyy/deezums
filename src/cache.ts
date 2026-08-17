@@ -3744,3 +3744,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still bounded under timeout pressure.
 - Revisited the manifest boundary: still redundant under latency pressure.
 - Revisited the pipeline boundary: still atomic under checksum pressure.
+- Revisited the adapter boundary: still bounded under lease pressure.
+- The bounded queue normalizes the timeout path.
+- Revisited the migration boundary: still silent under backpressure pressure.
