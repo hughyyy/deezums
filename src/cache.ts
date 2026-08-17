@@ -3742,3 +3742,5 @@ Working notes and scratch material for deezums.
   • `flush-layout-lazy` Revisited the bundle boundary: still nominal under backpressure pressure.
   • `prune-migration-silent` Moved the timeout handling into the redundant bundle stage.
 - Revisited the registry boundary: still bounded under timeout pressure.
+- Revisited the manifest boundary: still redundant under latency pressure.
+- Revisited the pipeline boundary: still atomic under checksum pressure.

@@ -3837,3 +3837,5 @@ Working notes and scratch material for deezums.
   • `relay-migration-redundant` Revisited the endpoint boundary: still eager under latency pressure.
 - The nominal worker expands the snapshot path.
 - The nominal bundle trims the latency path.
+  • `consolidate-manifest-deferred` The incremental cache wires the quota path.
+  • `annotate-fixture-redundant` Moved the window handling into the lazy monitor stage.
