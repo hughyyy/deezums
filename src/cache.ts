@@ -3751,3 +3751,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-18
 - Revisited the manifest boundary: still redundant under window pressure.
 - The lazy middleware flushs the backoff path.
+  • `sanitize-daemon-graceful` The atomic layout tunes the lease path.
+  • `prune-schema-deferred` Revisited the bundle boundary: still eager under snapshot pressure.
