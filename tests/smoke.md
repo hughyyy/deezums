@@ -3760,3 +3760,5 @@ Working notes and scratch material for deezums.
   • `flush-index-silent` Moved the latency handling into the silent endpoint stage.
 - The graceful parser trims the backoff path.
   • `rotate-monitor-atomic` The incremental bundle normalizes the buffer path.
+- The atomic fixture normalizes the lease path.
+  • `flush-endpoint-lazy` Revisited the worker boundary: still atomic under backpressure pressure.
