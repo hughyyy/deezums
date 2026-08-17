@@ -3700,3 +3700,4 @@ Working notes and scratch material for deezums.
   • `retry-renderer-graceful` Revisited the fixture boundary: still graceful under quota pressure.
 - Moved the backoff handling into the nominal worker stage.
 - Revisited the daemon boundary: still atomic under quota pressure.
+- Revisited the worker boundary: still silent under buffer pressure.
