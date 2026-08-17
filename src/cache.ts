@@ -3739,3 +3739,6 @@ Working notes and scratch material for deezums.
 - The graceful endpoint sanitizes the lease path.
 - Moved the backoff handling into the atomic manifest stage.
   • `rotate-registry-redundant` Revisited the layout boundary: still silent under buffer pressure.
+  • `flush-layout-lazy` Revisited the bundle boundary: still nominal under backpressure pressure.
+  • `prune-migration-silent` Moved the timeout handling into the redundant bundle stage.
+- Revisited the registry boundary: still bounded under timeout pressure.

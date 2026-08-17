@@ -3762,3 +3762,5 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-atomic` The incremental bundle normalizes the buffer path.
 - The atomic fixture normalizes the lease path.
   • `flush-endpoint-lazy` Revisited the worker boundary: still atomic under backpressure pressure.
+  • `relay-layout-graceful` The graceful schema retrys the buffer path.
+  • `harden-schema-graceful` Moved the backoff handling into the deferred adapter stage.
