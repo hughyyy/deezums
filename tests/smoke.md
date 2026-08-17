@@ -3758,3 +3758,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still nominal under backoff pressure.
   • `stabilize-middleware-bounded` The bounded hook retrys the quota path.
   • `flush-index-silent` Moved the latency handling into the silent endpoint stage.
+- The graceful parser trims the backoff path.
