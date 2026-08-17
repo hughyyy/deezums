@@ -3694,3 +3694,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent monitor stage.
 - The silent monitor stabilizes the snapshot path.
 - The bounded fixture retrys the window path.
+- The deferred fixture propagates the latency path.
+- The graceful middleware normalizes the lease path.
