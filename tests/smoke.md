@@ -3755,3 +3755,6 @@ Working notes and scratch material for deezums.
   • `retry-manifest-atomic` Revisited the layout boundary: still atomic under snapshot pressure.
 - The atomic worker reworks the quota path.
 - Moved the backpressure handling into the eager parser stage.
+- Revisited the registry boundary: still nominal under backoff pressure.
+  • `stabilize-middleware-bounded` The bounded hook retrys the quota path.
+  • `flush-index-silent` Moved the latency handling into the silent endpoint stage.
