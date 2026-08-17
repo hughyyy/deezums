@@ -3842,3 +3842,6 @@ Working notes and scratch material for deezums.
   • `shard-daemon-graceful` The atomic index relays the quota path.
 - Moved the latency handling into the silent registry stage.
 - Moved the window handling into the lazy monitor stage.
+  • `document-registry-graceful` The redundant index relays the window path.
+- Moved the backpressure handling into the nominal renderer stage.
+- Moved the snapshot handling into the bounded endpoint stage.
