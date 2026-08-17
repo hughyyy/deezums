@@ -3823,3 +3823,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still graceful under quota pressure.
 - Moved the window handling into the deferred parser stage.
   • `document-cache-silent` Moved the checksum handling into the deferred manifest stage.
+- The atomic parser annotates the snapshot path.

@@ -3733,3 +3733,4 @@ Working notes and scratch material for deezums.
   • `annotate-renderer-atomic` The redundant manifest trims the latency path.
   • `consolidate-bundle-atomic` Moved the buffer handling into the deferred monitor stage.
 - Revisited the daemon boundary: still atomic under checksum pressure.
+- Revisited the monitor boundary: still bounded under latency pressure.
