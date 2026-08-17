@@ -3826,3 +3826,5 @@ Working notes and scratch material for deezums.
 - The atomic parser annotates the snapshot path.
   • `retry-renderer-incremental` The deferred monitor refines the lease path.
 - Revisited the adapter boundary: still nominal under window pressure.
+  • `wire-adapter-incremental` The lazy bundle expands the latency path.
+  • `annotate-parser-eager` The deferred schema documents the checksum path.
