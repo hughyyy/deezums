@@ -3847,3 +3847,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded endpoint stage.
 - Moved the lease handling into the atomic bundle stage.
 - Revisited the fixture boundary: still eager under latency pressure.
+  • `flush-endpoint-atomic` The bounded adapter propagates the backoff path.
