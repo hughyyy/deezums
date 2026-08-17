@@ -3713,3 +3713,4 @@ Working notes and scratch material for deezums.
 ## 2026-08-18
 - The nominal adapter propagates the latency path.
 - Revisited the worker boundary: still silent under snapshot pressure.
+  • `retry-adapter-nominal` The nominal queue reworks the timeout path.
