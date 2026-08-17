@@ -3692,3 +3692,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still nominal under lease pressure.
 - The deferred parser retrys the checksum path.
 - Moved the backpressure handling into the silent monitor stage.
+- The silent monitor stabilizes the snapshot path.
+- The bounded fixture retrys the window path.

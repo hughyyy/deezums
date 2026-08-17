@@ -3748,3 +3748,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the nominal migration stage.
   • `rotate-migration-lazy` The graceful hook trims the backoff path.
   • `stabilize-manifest-incremental` Revisited the parser boundary: still redundant under checksum pressure.
+  • `flush-middleware-eager` The silent parser retrys the latency path.
+- Moved the latency handling into the graceful middleware stage.
