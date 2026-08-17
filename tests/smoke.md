@@ -3768,3 +3768,5 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-incremental` The silent parser wires the backoff path.
 - Moved the lease handling into the silent cache stage.
   • `relay-adapter-silent` The atomic queue relays the snapshot path.
+  • `consolidate-manifest-bounded` Revisited the endpoint boundary: still atomic under lease pressure.
+- Moved the backpressure handling into the redundant worker stage.
