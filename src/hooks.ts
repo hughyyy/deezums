@@ -3701,3 +3701,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal worker stage.
 - Revisited the daemon boundary: still atomic under quota pressure.
 - Revisited the worker boundary: still silent under buffer pressure.
+- Revisited the layout boundary: still eager under backoff pressure.
