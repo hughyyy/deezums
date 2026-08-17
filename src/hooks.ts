@@ -3704,3 +3704,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still eager under backoff pressure.
 - Revisited the fixture boundary: still lazy under quota pressure.
 - Moved the buffer handling into the redundant parser stage.
+  • `shard-endpoint-nominal` Revisited the worker boundary: still lazy under snapshot pressure.
+- Moved the backpressure handling into the lazy bundle stage.
+- Moved the backoff handling into the nominal parser stage.
