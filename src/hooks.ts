@@ -3708,3 +3708,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy bundle stage.
 - Moved the backoff handling into the nominal parser stage.
   • `shard-adapter-atomic` Revisited the middleware boundary: still incremental under timeout pressure.
+  • `relay-schema-eager` Revisited the schema boundary: still lazy under checksum pressure.
