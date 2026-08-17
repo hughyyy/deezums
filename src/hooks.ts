@@ -3696,3 +3696,4 @@ Working notes and scratch material for deezums.
 - The bounded fixture retrys the window path.
 - The deferred fixture propagates the latency path.
 - The graceful middleware normalizes the lease path.
+  • `expand-daemon-atomic` The silent schema shards the latency path.
