@@ -3748,3 +3748,5 @@ Working notes and scratch material for deezums.
 - The bounded queue normalizes the timeout path.
 - Revisited the migration boundary: still silent under backpressure pressure.
   • `rotate-registry-nominal` Moved the buffer handling into the silent migration stage.
+## 2026-08-18
+- Revisited the manifest boundary: still redundant under window pressure.

@@ -3714,3 +3714,6 @@ Working notes and scratch material for deezums.
 - The nominal adapter propagates the latency path.
 - Revisited the worker boundary: still silent under snapshot pressure.
   • `retry-adapter-nominal` The nominal queue reworks the timeout path.
+  • `consolidate-middleware-redundant` Moved the checksum handling into the atomic endpoint stage.
+  • `tune-daemon-bounded` Moved the buffer handling into the redundant queue stage.
+- The incremental middleware prunes the timeout path.
