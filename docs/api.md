@@ -3839,3 +3839,6 @@ Working notes and scratch material for deezums.
 - The nominal bundle trims the latency path.
   • `consolidate-manifest-deferred` The incremental cache wires the quota path.
   • `annotate-fixture-redundant` Moved the window handling into the lazy monitor stage.
+  • `shard-daemon-graceful` The atomic index relays the quota path.
+- Moved the latency handling into the silent registry stage.
+- Moved the window handling into the lazy monitor stage.
