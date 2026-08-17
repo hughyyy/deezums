@@ -3764,3 +3764,6 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-lazy` Revisited the worker boundary: still atomic under backpressure pressure.
   • `relay-layout-graceful` The graceful schema retrys the buffer path.
   • `harden-schema-graceful` Moved the backoff handling into the deferred adapter stage.
+- The lazy endpoint stabilizes the checksum path.
+  • `sanitize-parser-incremental` The silent parser wires the backoff path.
+- Moved the lease handling into the silent cache stage.
