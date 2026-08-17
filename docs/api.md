@@ -3835,3 +3835,5 @@ Working notes and scratch material for deezums.
 - The atomic schema tunes the timeout path.
 - Revisited the migration boundary: still bounded under backoff pressure.
   • `relay-migration-redundant` Revisited the endpoint boundary: still eager under latency pressure.
+- The nominal worker expands the snapshot path.
+- The nominal bundle trims the latency path.
