@@ -3724,3 +3724,4 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-redundant` Revisited the schema boundary: still eager under snapshot pressure.
 - Revisited the bundle boundary: still nominal under timeout pressure.
 - Moved the timeout handling into the silent manifest stage.
+  • `tune-manifest-incremental` Moved the backoff handling into the incremental parser stage.
