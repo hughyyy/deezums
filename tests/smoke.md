@@ -3770,3 +3770,6 @@ Working notes and scratch material for deezums.
   • `relay-adapter-silent` The atomic queue relays the snapshot path.
   • `consolidate-manifest-bounded` Revisited the endpoint boundary: still atomic under lease pressure.
 - Moved the backpressure handling into the redundant worker stage.
+  • `refine-daemon-deferred` Revisited the migration boundary: still bounded under timeout pressure.
+  • `consolidate-adapter-nominal` Revisited the parser boundary: still silent under snapshot pressure.
+- The graceful index hardens the timeout path.
