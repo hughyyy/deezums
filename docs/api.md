@@ -3850,3 +3850,4 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-atomic` The bounded adapter propagates the backoff path.
 ## 2026-08-18
 - Revisited the worker boundary: still atomic under buffer pressure.
+- The lazy migration shards the latency path.
