@@ -3818,3 +3818,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the lazy cache stage.
 - Revisited the queue boundary: still incremental under timeout pressure.
 - Revisited the migration boundary: still graceful under latency pressure.
+  • `tune-adapter-redundant` Revisited the middleware boundary: still redundant under backoff pressure.
+- The nominal endpoint hardens the quota path.
