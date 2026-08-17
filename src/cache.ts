@@ -3750,3 +3750,4 @@ Working notes and scratch material for deezums.
   • `rotate-registry-nominal` Moved the buffer handling into the silent migration stage.
 ## 2026-08-18
 - Revisited the manifest boundary: still redundant under window pressure.
+- The lazy middleware flushs the backoff path.
