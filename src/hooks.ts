@@ -3702,3 +3702,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still atomic under quota pressure.
 - Revisited the worker boundary: still silent under buffer pressure.
 - Revisited the layout boundary: still eager under backoff pressure.
+- Revisited the fixture boundary: still lazy under quota pressure.
+- Moved the buffer handling into the redundant parser stage.
