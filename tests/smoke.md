@@ -3767,3 +3767,4 @@ Working notes and scratch material for deezums.
 - The lazy endpoint stabilizes the checksum path.
   • `sanitize-parser-incremental` The silent parser wires the backoff path.
 - Moved the lease handling into the silent cache stage.
+  • `relay-adapter-silent` The atomic queue relays the snapshot path.
