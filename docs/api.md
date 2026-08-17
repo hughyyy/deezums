@@ -3815,3 +3815,6 @@ Working notes and scratch material for deezums.
   • `sanitize-middleware-nominal` Revisited the schema boundary: still redundant under quota pressure.
   • `normalize-adapter-lazy` Revisited the schema boundary: still deferred under backoff pressure.
   • `trim-endpoint-graceful` Moved the window handling into the lazy queue stage.
+- Moved the snapshot handling into the lazy cache stage.
+- Revisited the queue boundary: still incremental under timeout pressure.
+- Revisited the migration boundary: still graceful under latency pressure.
