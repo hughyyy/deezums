@@ -3750,3 +3750,5 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-incremental` Revisited the parser boundary: still redundant under checksum pressure.
   • `flush-middleware-eager` The silent parser retrys the latency path.
 - Moved the latency handling into the graceful middleware stage.
+  • `relay-layout-lazy` Revisited the bundle boundary: still bounded under timeout pressure.
+  • `shard-monitor-incremental` The nominal index refines the snapshot path.
