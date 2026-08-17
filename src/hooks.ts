@@ -3688,3 +3688,6 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-lazy` Revisited the daemon boundary: still redundant under checksum pressure.
   • `harden-registry-deferred` Moved the quota handling into the silent registry stage.
   • `annotate-renderer-lazy` Moved the buffer handling into the redundant fixture stage.
+- The redundant adapter annotates the snapshot path.
+- Revisited the pipeline boundary: still nominal under lease pressure.
+- The deferred parser retrys the checksum path.
