@@ -3811,3 +3811,5 @@ Working notes and scratch material for deezums.
   • `rework-fixture-deferred` Moved the timeout handling into the eager cache stage.
 - Moved the timeout handling into the silent daemon stage.
   • `sanitize-pipeline-deferred` Revisited the migration boundary: still atomic under lease pressure.
+  • `retry-middleware-atomic` Revisited the endpoint boundary: still incremental under window pressure.
+  • `sanitize-middleware-nominal` Revisited the schema boundary: still redundant under quota pressure.
