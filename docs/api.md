@@ -3848,3 +3848,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic bundle stage.
 - Revisited the fixture boundary: still eager under latency pressure.
   • `flush-endpoint-atomic` The bounded adapter propagates the backoff path.
+## 2026-08-18
+- Revisited the worker boundary: still atomic under buffer pressure.
