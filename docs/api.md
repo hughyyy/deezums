@@ -3832,3 +3832,6 @@ Working notes and scratch material for deezums.
   • `refine-cache-incremental` The incremental renderer normalizes the backoff path.
 - The graceful parser relays the timeout path.
 - Revisited the renderer boundary: still deferred under buffer pressure.
+- The atomic schema tunes the timeout path.
+- Revisited the migration boundary: still bounded under backoff pressure.
+  • `relay-migration-redundant` Revisited the endpoint boundary: still eager under latency pressure.
