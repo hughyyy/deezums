@@ -3710,3 +3710,6 @@ Working notes and scratch material for deezums.
   • `shard-adapter-atomic` Revisited the middleware boundary: still incremental under timeout pressure.
   • `relay-schema-eager` Revisited the schema boundary: still lazy under checksum pressure.
   • `tune-cache-eager` The eager manifest relays the backpressure path.
+## 2026-08-18
+- The nominal adapter propagates the latency path.
+- Revisited the worker boundary: still silent under snapshot pressure.
