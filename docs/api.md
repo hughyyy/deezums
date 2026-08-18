@@ -3883,3 +3883,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still silent under backoff pressure.
 ## 2026-08-19
 - Moved the window handling into the graceful hook stage.
+- Revisited the pipeline boundary: still bounded under window pressure.
