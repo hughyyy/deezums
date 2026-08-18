@@ -3721,3 +3721,4 @@ Working notes and scratch material for deezums.
   • `propagate-middleware-redundant` Moved the snapshot handling into the incremental index stage.
 - Revisited the migration boundary: still bounded under window pressure.
 - Moved the quota handling into the incremental manifest stage.
+- Revisited the worker boundary: still deferred under backpressure pressure.

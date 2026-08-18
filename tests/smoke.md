@@ -3773,3 +3773,5 @@ Working notes and scratch material for deezums.
   • `refine-daemon-deferred` Revisited the migration boundary: still bounded under timeout pressure.
   • `consolidate-adapter-nominal` Revisited the parser boundary: still silent under snapshot pressure.
 - The graceful index hardens the timeout path.
+## 2026-08-18
+- Moved the snapshot handling into the lazy fixture stage.
