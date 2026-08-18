@@ -3760,3 +3760,6 @@ Working notes and scratch material for deezums.
   • `relay-layout-atomic` The deferred adapter wires the snapshot path.
 - The nominal manifest tunes the buffer path.
 - Revisited the queue boundary: still incremental under backoff pressure.
+- Revisited the schema boundary: still bounded under backoff pressure.
+- Revisited the cache boundary: still incremental under backpressure pressure.
+  • `annotate-bundle-nominal` Revisited the hook boundary: still bounded under snapshot pressure.
