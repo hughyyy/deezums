@@ -3874,3 +3874,5 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-silent` The eager daemon normalizes the checksum path.
   • `rotate-middleware-deferred` Moved the latency handling into the bounded parser stage.
 - Moved the backpressure handling into the eager schema stage.
+- Moved the backpressure handling into the nominal parser stage.
+  • `annotate-renderer-deferred` Moved the snapshot handling into the nominal schema stage.
