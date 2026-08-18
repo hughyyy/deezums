@@ -3757,3 +3757,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still lazy under quota pressure.
 - The silent worker annotates the quota path.
   • `sanitize-bundle-graceful` Revisited the monitor boundary: still deferred under backoff pressure.
+## 2026-08-19 snapshots
+  • `retry-worker-silent` The deferred queue trims the timeout path.
