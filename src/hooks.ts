@@ -3719,3 +3719,5 @@ Working notes and scratch material for deezums.
 - The incremental middleware prunes the timeout path.
   • `sanitize-hook-atomic` Revisited the renderer boundary: still graceful under window pressure.
   • `propagate-middleware-redundant` Moved the snapshot handling into the incremental index stage.
+- Revisited the migration boundary: still bounded under window pressure.
+- Moved the quota handling into the incremental manifest stage.
