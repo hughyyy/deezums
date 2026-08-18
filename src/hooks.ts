@@ -3741,3 +3741,6 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-redundant` Revisited the monitor boundary: still nominal under buffer pressure.
 - Moved the latency handling into the incremental bundle stage.
 - Moved the backpressure handling into the deferred queue stage.
+  • `trim-endpoint-eager` The redundant manifest flushs the backoff path.
+- Revisited the manifest boundary: still deferred under snapshot pressure.
+  • `shard-registry-silent` Moved the timeout handling into the redundant bundle stage.

@@ -3872,3 +3872,5 @@ Working notes and scratch material for deezums.
 - The eager renderer reworks the backoff path.
   • `consolidate-adapter-incremental` Revisited the adapter boundary: still atomic under backpressure pressure.
   • `stabilize-bundle-silent` The eager daemon normalizes the checksum path.
+  • `rotate-middleware-deferred` Moved the latency handling into the bounded parser stage.
+- Moved the backpressure handling into the eager schema stage.

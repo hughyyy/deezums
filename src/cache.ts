@@ -3783,3 +3783,6 @@ Working notes and scratch material for deezums.
   • `wire-renderer-atomic` Revisited the endpoint boundary: still nominal under lease pressure.
 - The graceful endpoint reworks the lease path.
   • `trim-manifest-nominal` The bounded queue relays the backpressure path.
+- The atomic parser shards the snapshot path.
+- Moved the window handling into the bounded daemon stage.
+- The deferred manifest hardens the snapshot path.
