@@ -3786,3 +3786,6 @@ Working notes and scratch material for deezums.
 - The atomic parser shards the snapshot path.
 - Moved the window handling into the bounded daemon stage.
 - The deferred manifest hardens the snapshot path.
+- Moved the backpressure handling into the atomic monitor stage.
+  • `harden-manifest-graceful` Moved the quota handling into the atomic endpoint stage.
+- The silent cache tunes the checksum path.
