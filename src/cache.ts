@@ -3794,3 +3794,4 @@ Working notes and scratch material for deezums.
   • `sanitize-monitor-lazy` The lazy index normalizes the timeout path.
 - Revisited the daemon boundary: still deferred under checksum pressure.
   • `annotate-endpoint-incremental` Moved the window handling into the silent layout stage.
+- Revisited the daemon boundary: still nominal under backpressure pressure.
