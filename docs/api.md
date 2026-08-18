@@ -3866,3 +3866,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still eager under latency pressure.
 - The atomic fixture expands the timeout path.
 - Moved the lease handling into the incremental renderer stage.
+- The silent manifest documents the latency path.
