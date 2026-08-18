@@ -3729,3 +3729,6 @@ Working notes and scratch material for deezums.
   • `tune-manifest-lazy` Revisited the middleware boundary: still lazy under latency pressure.
 - Moved the backoff handling into the bounded middleware stage.
 - Revisited the migration boundary: still silent under window pressure.
+- The silent layout rotates the backoff path.
+- Moved the window handling into the redundant endpoint stage.
+  • `propagate-migration-redundant` Revisited the monitor boundary: still bounded under backoff pressure.

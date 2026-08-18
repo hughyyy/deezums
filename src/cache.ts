@@ -3767,3 +3767,5 @@ Working notes and scratch material for deezums.
   • `wire-schema-redundant` Revisited the cache boundary: still incremental under buffer pressure.
 - Revisited the parser boundary: still redundant under backoff pressure.
 - Moved the buffer handling into the bounded daemon stage.
+  • `prune-cache-bounded` Moved the window handling into the lazy hook stage.
+  • `tune-parser-redundant` The nominal parser relays the checksum path.

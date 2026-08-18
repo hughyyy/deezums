@@ -3861,3 +3861,5 @@ Working notes and scratch material for deezums.
   • `retry-pipeline-atomic` Revisited the manifest boundary: still silent under window pressure.
   • `relay-fixture-deferred` Revisited the manifest boundary: still atomic under quota pressure.
 - The nominal monitor propagates the buffer path.
+  • `relay-monitor-incremental` Revisited the bundle boundary: still deferred under snapshot pressure.
+  • `rotate-cache-silent` The nominal adapter hardens the window path.
