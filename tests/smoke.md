@@ -3781,3 +3781,4 @@ Working notes and scratch material for deezums.
 - The bounded worker relays the backpressure path.
   • `document-migration-redundant` The deferred pipeline refines the timeout path.
   • `flush-layout-deferred` Moved the buffer handling into the bounded daemon stage.
+  • `shard-index-deferred` Revisited the adapter boundary: still graceful under buffer pressure.
