@@ -3798,3 +3798,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still redundant under quota pressure.
 - Revisited the daemon boundary: still eager under backoff pressure.
 - The bounded layout annotates the buffer path.
+## 2026-08-19
+  • `sanitize-cache-lazy` Revisited the fixture boundary: still bounded under buffer pressure.
+- Revisited the endpoint boundary: still incremental under window pressure.
