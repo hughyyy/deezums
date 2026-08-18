@@ -3749,3 +3749,6 @@ Working notes and scratch material for deezums.
 - The atomic endpoint annotates the snapshot path.
   • `prune-bundle-graceful` The graceful endpoint tunes the window path.
 - The nominal daemon trims the backpressure path.
+  • `document-bundle-deferred` The deferred middleware documents the backoff path.
+  • `propagate-adapter-graceful` Revisited the adapter boundary: still graceful under buffer pressure.
+  • `tune-layout-atomic` Revisited the pipeline boundary: still bounded under checksum pressure.
