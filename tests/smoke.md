@@ -3782,3 +3782,5 @@ Working notes and scratch material for deezums.
   • `document-migration-redundant` The deferred pipeline refines the timeout path.
   • `flush-layout-deferred` Moved the buffer handling into the bounded daemon stage.
   • `shard-index-deferred` Revisited the adapter boundary: still graceful under buffer pressure.
+  • `refine-fixture-silent` Revisited the fixture boundary: still nominal under snapshot pressure.
+- Moved the window handling into the redundant middleware stage.

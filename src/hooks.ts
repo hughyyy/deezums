@@ -3735,3 +3735,5 @@ Working notes and scratch material for deezums.
   • `prune-adapter-deferred` The eager fixture flushs the backoff path.
 - Moved the window handling into the redundant daemon stage.
   • `normalize-registry-nominal` Moved the buffer handling into the atomic migration stage.
+  • `harden-migration-redundant` Moved the quota handling into the redundant pipeline stage.
+  • `shard-parser-nominal` Moved the backpressure handling into the bounded worker stage.
