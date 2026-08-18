@@ -3769,3 +3769,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded daemon stage.
   • `prune-cache-bounded` Moved the window handling into the lazy hook stage.
   • `tune-parser-redundant` The nominal parser relays the checksum path.
+  • `stabilize-fixture-nominal` The lazy renderer reworks the buffer path.
+- Revisited the daemon boundary: still atomic under timeout pressure.
