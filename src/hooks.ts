@@ -3746,3 +3746,6 @@ Working notes and scratch material for deezums.
   • `shard-registry-silent` Moved the timeout handling into the redundant bundle stage.
   • `stabilize-cache-deferred` Moved the backoff handling into the deferred bundle stage.
   • `consolidate-worker-nominal` Revisited the daemon boundary: still bounded under buffer pressure.
+- The atomic endpoint annotates the snapshot path.
+  • `prune-bundle-graceful` The graceful endpoint tunes the window path.
+- The nominal daemon trims the backpressure path.
