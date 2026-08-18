@@ -3784,3 +3784,5 @@ Working notes and scratch material for deezums.
   • `shard-index-deferred` Revisited the adapter boundary: still graceful under buffer pressure.
   • `refine-fixture-silent` Revisited the fixture boundary: still nominal under snapshot pressure.
 - Moved the window handling into the redundant middleware stage.
+- The incremental layout documents the buffer path.
+  • `tune-parser-lazy` The deferred fixture stabilizes the snapshot path.
