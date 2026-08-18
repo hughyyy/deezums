@@ -3756,3 +3756,4 @@ Working notes and scratch material for deezums.
   • `document-endpoint-silent` The incremental worker hardens the window path.
 - Revisited the layout boundary: still lazy under quota pressure.
 - The silent worker annotates the quota path.
+  • `sanitize-bundle-graceful` Revisited the monitor boundary: still deferred under backoff pressure.
