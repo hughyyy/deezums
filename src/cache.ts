@@ -3765,3 +3765,4 @@ Working notes and scratch material for deezums.
   • `annotate-bundle-nominal` Revisited the hook boundary: still bounded under snapshot pressure.
   • `sanitize-registry-incremental` Revisited the migration boundary: still graceful under window pressure.
   • `wire-schema-redundant` Revisited the cache boundary: still incremental under buffer pressure.
+- Revisited the parser boundary: still redundant under backoff pressure.
