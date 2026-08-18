@@ -3851,3 +3851,6 @@ Working notes and scratch material for deezums.
 ## 2026-08-18
 - Revisited the worker boundary: still atomic under buffer pressure.
 - The lazy migration shards the latency path.
+  • `propagate-index-nominal` The incremental index prunes the timeout path.
+  • `flush-daemon-lazy` Moved the window handling into the atomic migration stage.
+- Revisited the registry boundary: still eager under buffer pressure.
