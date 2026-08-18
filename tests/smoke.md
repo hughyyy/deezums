@@ -3797,3 +3797,4 @@ Working notes and scratch material for deezums.
   • `sanitize-endpoint-nominal` Revisited the index boundary: still deferred under window pressure.
 - Revisited the cache boundary: still redundant under quota pressure.
 - Revisited the daemon boundary: still eager under backoff pressure.
+- The bounded layout annotates the buffer path.
