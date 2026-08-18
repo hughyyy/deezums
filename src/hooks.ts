@@ -3728,3 +3728,4 @@ Working notes and scratch material for deezums.
   • `normalize-index-redundant` Moved the backoff handling into the atomic pipeline stage.
   • `tune-manifest-lazy` Revisited the middleware boundary: still lazy under latency pressure.
 - Moved the backoff handling into the bounded middleware stage.
+- Revisited the migration boundary: still silent under window pressure.
