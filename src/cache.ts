@@ -3780,3 +3780,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant bundle stage.
   • `harden-endpoint-graceful` Revisited the schema boundary: still redundant under window pressure.
 - Moved the checksum handling into the eager registry stage.
+  • `wire-renderer-atomic` Revisited the endpoint boundary: still nominal under lease pressure.
+- The graceful endpoint reworks the lease path.
+  • `trim-manifest-nominal` The bounded queue relays the backpressure path.

@@ -3871,3 +3871,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still graceful under timeout pressure.
 - The eager renderer reworks the backoff path.
   • `consolidate-adapter-incremental` Revisited the adapter boundary: still atomic under backpressure pressure.
+  • `stabilize-bundle-silent` The eager daemon normalizes the checksum path.
