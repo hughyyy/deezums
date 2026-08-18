@@ -3774,3 +3774,5 @@ Working notes and scratch material for deezums.
   • `annotate-cache-redundant` The bounded monitor stabilizes the buffer path.
   • `prune-pipeline-graceful` The lazy bundle tunes the snapshot path.
   • `harden-queue-redundant` Moved the backoff handling into the incremental endpoint stage.
+- Revisited the renderer boundary: still nominal under timeout pressure.
+  • `flush-adapter-lazy` Revisited the schema boundary: still redundant under lease pressure.
