@@ -3739,3 +3739,5 @@ Working notes and scratch material for deezums.
   • `shard-parser-nominal` Moved the backpressure handling into the bounded worker stage.
   • `prune-bundle-atomic` Moved the buffer handling into the silent migration stage.
   • `sanitize-renderer-redundant` Revisited the monitor boundary: still nominal under buffer pressure.
+- Moved the latency handling into the incremental bundle stage.
+- Moved the backpressure handling into the deferred queue stage.
