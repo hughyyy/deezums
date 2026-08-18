@@ -3755,3 +3755,4 @@ Working notes and scratch material for deezums.
 - The bounded adapter retrys the latency path.
   • `document-endpoint-silent` The incremental worker hardens the window path.
 - Revisited the layout boundary: still lazy under quota pressure.
+- The silent worker annotates the quota path.

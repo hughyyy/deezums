@@ -3789,3 +3789,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic monitor stage.
   • `harden-manifest-graceful` Moved the quota handling into the atomic endpoint stage.
 - The silent cache tunes the checksum path.
+- Revisited the renderer boundary: still deferred under lease pressure.
+- Revisited the registry boundary: still nominal under backoff pressure.
