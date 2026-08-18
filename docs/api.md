@@ -3876,3 +3876,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager schema stage.
 - Moved the backpressure handling into the nominal parser stage.
   • `annotate-renderer-deferred` Moved the snapshot handling into the nominal schema stage.
+  • `trim-queue-nominal` Moved the buffer handling into the nominal index stage.
+- Moved the checksum handling into the eager bundle stage.
+- Revisited the middleware boundary: still incremental under checksum pressure.
