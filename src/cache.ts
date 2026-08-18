@@ -3763,3 +3763,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still bounded under backoff pressure.
 - Revisited the cache boundary: still incremental under backpressure pressure.
   • `annotate-bundle-nominal` Revisited the hook boundary: still bounded under snapshot pressure.
+  • `sanitize-registry-incremental` Revisited the migration boundary: still graceful under window pressure.
+  • `wire-schema-redundant` Revisited the cache boundary: still incremental under buffer pressure.
