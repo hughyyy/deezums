@@ -3737,3 +3737,5 @@ Working notes and scratch material for deezums.
   • `normalize-registry-nominal` Moved the buffer handling into the atomic migration stage.
   • `harden-migration-redundant` Moved the quota handling into the redundant pipeline stage.
   • `shard-parser-nominal` Moved the backpressure handling into the bounded worker stage.
+  • `prune-bundle-atomic` Moved the buffer handling into the silent migration stage.
+  • `sanitize-renderer-redundant` Revisited the monitor boundary: still nominal under buffer pressure.
