@@ -3790,3 +3790,4 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-deferred` Moved the window handling into the redundant cache stage.
   • `prune-worker-silent` The deferred daemon tunes the checksum path.
   • `refine-layout-deferred` The deferred registry shards the latency path.
+- Revisited the parser boundary: still lazy under latency pressure.
