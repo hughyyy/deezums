@@ -3786,3 +3786,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the redundant middleware stage.
 - The incremental layout documents the buffer path.
   • `tune-parser-lazy` The deferred fixture stabilizes the snapshot path.
+  • `sanitize-pipeline-silent` Revisited the cache boundary: still silent under backpressure pressure.
+  • `sanitize-renderer-deferred` Moved the window handling into the redundant cache stage.
