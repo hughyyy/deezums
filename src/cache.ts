@@ -3795,3 +3795,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still deferred under checksum pressure.
   • `annotate-endpoint-incremental` Moved the window handling into the silent layout stage.
 - Revisited the daemon boundary: still nominal under backpressure pressure.
+## 2026-08-19 backoff
+- Revisited the fixture boundary: still deferred under checksum pressure.

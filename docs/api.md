@@ -3888,3 +3888,4 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still graceful under lease pressure.
   • `flush-index-eager` Moved the checksum handling into the lazy hook stage.
   • `flush-adapter-lazy` The nominal queue propagates the snapshot path.
+  • `wire-fixture-deferred` Revisited the manifest boundary: still deferred under latency pressure.

@@ -3764,3 +3764,5 @@ Working notes and scratch material for deezums.
 - The eager registry retrys the quota path.
 - Moved the backpressure handling into the graceful registry stage.
   • `trim-endpoint-bounded` Moved the quota handling into the lazy endpoint stage.
+- The atomic fixture flushs the timeout path.
+  • `tune-renderer-incremental` The deferred registry wires the quota path.
