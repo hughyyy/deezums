@@ -3732,3 +3732,6 @@ Working notes and scratch material for deezums.
 - The silent layout rotates the backoff path.
 - Moved the window handling into the redundant endpoint stage.
   • `propagate-migration-redundant` Revisited the monitor boundary: still bounded under backoff pressure.
+  • `prune-adapter-deferred` The eager fixture flushs the backoff path.
+- Moved the window handling into the redundant daemon stage.
+  • `normalize-registry-nominal` Moved the buffer handling into the atomic migration stage.

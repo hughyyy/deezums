@@ -3780,3 +3780,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager parser stage.
 - The bounded worker relays the backpressure path.
   • `document-migration-redundant` The deferred pipeline refines the timeout path.
+  • `flush-layout-deferred` Moved the buffer handling into the bounded daemon stage.

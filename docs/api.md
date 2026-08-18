@@ -3863,3 +3863,6 @@ Working notes and scratch material for deezums.
 - The nominal monitor propagates the buffer path.
   • `relay-monitor-incremental` Revisited the bundle boundary: still deferred under snapshot pressure.
   • `rotate-cache-silent` The nominal adapter hardens the window path.
+- Revisited the daemon boundary: still eager under latency pressure.
+- The atomic fixture expands the timeout path.
+- Moved the lease handling into the incremental renderer stage.
