@@ -3791,3 +3791,6 @@ Working notes and scratch material for deezums.
 - The silent cache tunes the checksum path.
 - Revisited the renderer boundary: still deferred under lease pressure.
 - Revisited the registry boundary: still nominal under backoff pressure.
+  • `sanitize-monitor-lazy` The lazy index normalizes the timeout path.
+- Revisited the daemon boundary: still deferred under checksum pressure.
+  • `annotate-endpoint-incremental` Moved the window handling into the silent layout stage.
