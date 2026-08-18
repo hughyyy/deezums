@@ -3779,3 +3779,4 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-eager` Revisited the migration boundary: still lazy under lease pressure.
 - Moved the checksum handling into the redundant bundle stage.
   • `harden-endpoint-graceful` Revisited the schema boundary: still redundant under window pressure.
+- Moved the checksum handling into the eager registry stage.
