@@ -3880,3 +3880,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager bundle stage.
 - Revisited the middleware boundary: still incremental under checksum pressure.
   • `annotate-daemon-nominal` Moved the backpressure handling into the nominal fixture stage.
+- Revisited the worker boundary: still silent under backoff pressure.
