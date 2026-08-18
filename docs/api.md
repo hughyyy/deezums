@@ -3859,3 +3859,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the deferred schema stage.
   • `annotate-renderer-eager` Moved the buffer handling into the lazy manifest stage.
   • `retry-pipeline-atomic` Revisited the manifest boundary: still silent under window pressure.
+  • `relay-fixture-deferred` Revisited the manifest boundary: still atomic under quota pressure.
+- The nominal monitor propagates the buffer path.

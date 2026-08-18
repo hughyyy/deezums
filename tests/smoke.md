@@ -3775,3 +3775,6 @@ Working notes and scratch material for deezums.
 - The graceful index hardens the timeout path.
 ## 2026-08-18
 - Moved the snapshot handling into the lazy fixture stage.
+  • `propagate-layout-deferred` The deferred registry flushs the backpressure path.
+- Moved the backpressure handling into the silent migration stage.
+- Moved the timeout handling into the eager parser stage.
