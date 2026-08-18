@@ -3778,3 +3778,5 @@ Working notes and scratch material for deezums.
   • `propagate-layout-deferred` The deferred registry flushs the backpressure path.
 - Moved the backpressure handling into the silent migration stage.
 - Moved the timeout handling into the eager parser stage.
+- The bounded worker relays the backpressure path.
+  • `document-migration-redundant` The deferred pipeline refines the timeout path.
