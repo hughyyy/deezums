@@ -3801,3 +3801,4 @@ Working notes and scratch material for deezums.
 ## 2026-08-19
   • `sanitize-cache-lazy` Revisited the fixture boundary: still bounded under buffer pressure.
 - Revisited the endpoint boundary: still incremental under window pressure.
+- Moved the window handling into the deferred registry stage.

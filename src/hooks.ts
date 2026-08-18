@@ -3759,3 +3759,6 @@ Working notes and scratch material for deezums.
   • `sanitize-bundle-graceful` Revisited the monitor boundary: still deferred under backoff pressure.
 ## 2026-08-19 snapshots
   • `retry-worker-silent` The deferred queue trims the timeout path.
+- Moved the checksum handling into the silent queue stage.
+- Moved the lease handling into the atomic cache stage.
+- The eager registry retrys the quota path.
