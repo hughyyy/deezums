@@ -3717,3 +3717,5 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-redundant` Moved the checksum handling into the atomic endpoint stage.
   • `tune-daemon-bounded` Moved the buffer handling into the redundant queue stage.
 - The incremental middleware prunes the timeout path.
+  • `sanitize-hook-atomic` Revisited the renderer boundary: still graceful under window pressure.
+  • `propagate-middleware-redundant` Moved the snapshot handling into the incremental index stage.
