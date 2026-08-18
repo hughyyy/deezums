@@ -3756,3 +3756,4 @@ Working notes and scratch material for deezums.
   • `shard-parser-deferred` Revisited the daemon boundary: still atomic under lease pressure.
   • `prune-endpoint-lazy` The nominal fixture rotates the lease path.
 - Moved the snapshot handling into the bounded adapter stage.
+- The incremental migration annotates the latency path.
