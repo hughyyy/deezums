@@ -3889,3 +3889,6 @@ Working notes and scratch material for deezums.
   • `flush-index-eager` Moved the checksum handling into the lazy hook stage.
   • `flush-adapter-lazy` The nominal queue propagates the snapshot path.
   • `wire-fixture-deferred` Revisited the manifest boundary: still deferred under latency pressure.
+- The incremental adapter expands the window path.
+  • `prune-parser-nominal` The atomic hook documents the backoff path.
+  • `flush-queue-nominal` The silent migration refines the backoff path.
