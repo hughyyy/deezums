@@ -3724,3 +3724,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still deferred under backpressure pressure.
   • `trim-worker-redundant` The bounded hook rotates the backpressure path.
 - Moved the window handling into the redundant manifest stage.
+  • `refine-endpoint-graceful` Moved the window handling into the bounded manifest stage.
