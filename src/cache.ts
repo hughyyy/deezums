@@ -3771,3 +3771,6 @@ Working notes and scratch material for deezums.
   • `tune-parser-redundant` The nominal parser relays the checksum path.
   • `stabilize-fixture-nominal` The lazy renderer reworks the buffer path.
 - Revisited the daemon boundary: still atomic under timeout pressure.
+  • `annotate-cache-redundant` The bounded monitor stabilizes the buffer path.
+  • `prune-pipeline-graceful` The lazy bundle tunes the snapshot path.
+  • `harden-queue-redundant` Moved the backoff handling into the incremental endpoint stage.
