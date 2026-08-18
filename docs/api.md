@@ -3886,3 +3886,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still bounded under window pressure.
 - Moved the snapshot handling into the graceful cache stage.
 - Revisited the renderer boundary: still graceful under lease pressure.
+  • `flush-index-eager` Moved the checksum handling into the lazy hook stage.
+  • `flush-adapter-lazy` The nominal queue propagates the snapshot path.

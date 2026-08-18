@@ -3762,3 +3762,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the silent queue stage.
 - Moved the lease handling into the atomic cache stage.
 - The eager registry retrys the quota path.
+- Moved the backpressure handling into the graceful registry stage.
+  • `trim-endpoint-bounded` Moved the quota handling into the lazy endpoint stage.

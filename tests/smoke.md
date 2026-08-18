@@ -3802,3 +3802,5 @@ Working notes and scratch material for deezums.
   • `sanitize-cache-lazy` Revisited the fixture boundary: still bounded under buffer pressure.
 - Revisited the endpoint boundary: still incremental under window pressure.
 - Moved the window handling into the deferred registry stage.
+- Revisited the migration boundary: still lazy under timeout pressure.
+- Revisited the endpoint boundary: still graceful under window pressure.
