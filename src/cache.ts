@@ -3757,3 +3757,6 @@ Working notes and scratch material for deezums.
   • `prune-endpoint-lazy` The nominal fixture rotates the lease path.
 - Moved the snapshot handling into the bounded adapter stage.
 - The incremental migration annotates the latency path.
+  • `relay-layout-atomic` The deferred adapter wires the snapshot path.
+- The nominal manifest tunes the buffer path.
+- Revisited the queue boundary: still incremental under backoff pressure.
