@@ -3776,3 +3776,4 @@ Working notes and scratch material for deezums.
   • `harden-queue-redundant` Moved the backoff handling into the incremental endpoint stage.
 - Revisited the renderer boundary: still nominal under timeout pressure.
   • `flush-adapter-lazy` Revisited the schema boundary: still redundant under lease pressure.
+  • `tune-pipeline-eager` Revisited the migration boundary: still lazy under lease pressure.
