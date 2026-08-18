@@ -3868,3 +3868,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the incremental renderer stage.
 - The silent manifest documents the latency path.
 - The silent middleware refines the timeout path.
+- Revisited the daemon boundary: still graceful under timeout pressure.
+- The eager renderer reworks the backoff path.
+  • `consolidate-adapter-incremental` Revisited the adapter boundary: still atomic under backpressure pressure.
