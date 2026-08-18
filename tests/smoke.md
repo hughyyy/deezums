@@ -3791,3 +3791,5 @@ Working notes and scratch material for deezums.
   • `prune-worker-silent` The deferred daemon tunes the checksum path.
   • `refine-layout-deferred` The deferred registry shards the latency path.
 - Revisited the parser boundary: still lazy under latency pressure.
+  • `wire-adapter-incremental` Moved the backoff handling into the silent endpoint stage.
+  • `harden-adapter-nominal` The deferred pipeline propagates the backpressure path.
