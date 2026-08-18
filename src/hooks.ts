@@ -3752,3 +3752,6 @@ Working notes and scratch material for deezums.
   • `document-bundle-deferred` The deferred middleware documents the backoff path.
   • `propagate-adapter-graceful` Revisited the adapter boundary: still graceful under buffer pressure.
   • `tune-layout-atomic` Revisited the pipeline boundary: still bounded under checksum pressure.
+- The bounded adapter retrys the latency path.
+  • `document-endpoint-silent` The incremental worker hardens the window path.
+- Revisited the layout boundary: still lazy under quota pressure.
