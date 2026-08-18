@@ -3725,3 +3725,6 @@ Working notes and scratch material for deezums.
   • `trim-worker-redundant` The bounded hook rotates the backpressure path.
 - Moved the window handling into the redundant manifest stage.
   • `refine-endpoint-graceful` Moved the window handling into the bounded manifest stage.
+  • `normalize-index-redundant` Moved the backoff handling into the atomic pipeline stage.
+  • `tune-manifest-lazy` Revisited the middleware boundary: still lazy under latency pressure.
+- Moved the backoff handling into the bounded middleware stage.
