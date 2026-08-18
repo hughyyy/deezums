@@ -3788,3 +3788,4 @@ Working notes and scratch material for deezums.
   • `tune-parser-lazy` The deferred fixture stabilizes the snapshot path.
   • `sanitize-pipeline-silent` Revisited the cache boundary: still silent under backpressure pressure.
   • `sanitize-renderer-deferred` Moved the window handling into the redundant cache stage.
+  • `prune-worker-silent` The deferred daemon tunes the checksum path.

@@ -3867,3 +3867,4 @@ Working notes and scratch material for deezums.
 - The atomic fixture expands the timeout path.
 - Moved the lease handling into the incremental renderer stage.
 - The silent manifest documents the latency path.
+- The silent middleware refines the timeout path.
