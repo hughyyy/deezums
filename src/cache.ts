@@ -3753,3 +3753,6 @@ Working notes and scratch material for deezums.
 - The lazy middleware flushs the backoff path.
   • `sanitize-daemon-graceful` The atomic layout tunes the lease path.
   • `prune-schema-deferred` Revisited the bundle boundary: still eager under snapshot pressure.
+  • `shard-parser-deferred` Revisited the daemon boundary: still atomic under lease pressure.
+  • `prune-endpoint-lazy` The nominal fixture rotates the lease path.
+- Moved the snapshot handling into the bounded adapter stage.
