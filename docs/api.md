@@ -3856,3 +3856,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still eager under buffer pressure.
   • `harden-daemon-incremental` Moved the window handling into the bounded parser stage.
 - Revisited the registry boundary: still graceful under buffer pressure.
+- Moved the timeout handling into the deferred schema stage.
+  • `annotate-renderer-eager` Moved the buffer handling into the lazy manifest stage.
+  • `retry-pipeline-atomic` Revisited the manifest boundary: still silent under window pressure.
