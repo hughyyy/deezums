@@ -3854,3 +3854,5 @@ Working notes and scratch material for deezums.
   • `propagate-index-nominal` The incremental index prunes the timeout path.
   • `flush-daemon-lazy` Moved the window handling into the atomic migration stage.
 - Revisited the registry boundary: still eager under buffer pressure.
+  • `harden-daemon-incremental` Moved the window handling into the bounded parser stage.
+- Revisited the registry boundary: still graceful under buffer pressure.
