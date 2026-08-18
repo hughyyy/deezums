@@ -3881,3 +3881,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still incremental under checksum pressure.
   • `annotate-daemon-nominal` Moved the backpressure handling into the nominal fixture stage.
 - Revisited the worker boundary: still silent under backoff pressure.
+## 2026-08-19
+- Moved the window handling into the graceful hook stage.
