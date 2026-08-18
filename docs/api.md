@@ -3884,3 +3884,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-19
 - Moved the window handling into the graceful hook stage.
 - Revisited the pipeline boundary: still bounded under window pressure.
+- Moved the snapshot handling into the graceful cache stage.
+- Revisited the renderer boundary: still graceful under lease pressure.
