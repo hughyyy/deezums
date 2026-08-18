@@ -3744,3 +3744,5 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-eager` The redundant manifest flushs the backoff path.
 - Revisited the manifest boundary: still deferred under snapshot pressure.
   • `shard-registry-silent` Moved the timeout handling into the redundant bundle stage.
+  • `stabilize-cache-deferred` Moved the backoff handling into the deferred bundle stage.
+  • `consolidate-worker-nominal` Revisited the daemon boundary: still bounded under buffer pressure.
