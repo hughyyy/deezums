@@ -3793,3 +3793,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still lazy under latency pressure.
   • `wire-adapter-incremental` Moved the backoff handling into the silent endpoint stage.
   • `harden-adapter-nominal` The deferred pipeline propagates the backpressure path.
+- The redundant endpoint consolidates the lease path.
