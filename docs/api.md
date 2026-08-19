@@ -3909,3 +3909,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still deferred under window pressure.
   • `prune-index-nominal` Revisited the daemon boundary: still atomic under backoff pressure.
 - Moved the quota handling into the nominal renderer stage.
+- The nominal registry tunes the snapshot path.
