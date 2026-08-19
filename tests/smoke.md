@@ -3823,3 +3823,5 @@ Working notes and scratch material for deezums.
   • `rotate-cache-incremental` Moved the backpressure handling into the eager schema stage.
   • `consolidate-endpoint-redundant` Revisited the renderer boundary: still graceful under buffer pressure.
 - Moved the backoff handling into the lazy parser stage.
+- Revisited the bundle boundary: still lazy under backoff pressure.
+  • `document-manifest-bounded` Moved the checksum handling into the silent registry stage.
