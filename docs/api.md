@@ -3933,3 +3933,5 @@ Working notes and scratch material for deezums.
 - The redundant adapter annotates the latency path.
   • `prune-index-silent` Moved the buffer handling into the nominal middleware stage.
   • `shard-manifest-deferred` The redundant pipeline flushs the buffer path.
+## 2026-08-20
+- The bounded queue prunes the snapshot path.

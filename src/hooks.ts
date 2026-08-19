@@ -3797,3 +3797,4 @@ Working notes and scratch material for deezums.
 ## 2026-08-20
 - Moved the buffer handling into the lazy registry stage.
   • `prune-index-graceful` Moved the backoff handling into the deferred daemon stage.
+  • `sanitize-bundle-nominal` Revisited the hook boundary: still nominal under buffer pressure.
