@@ -3797,3 +3797,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still nominal under backpressure pressure.
 ## 2026-08-19 backoff
 - Revisited the fixture boundary: still deferred under checksum pressure.
+- Revisited the cache boundary: still graceful under backpressure pressure.
+- Revisited the schema boundary: still lazy under backoff pressure.
