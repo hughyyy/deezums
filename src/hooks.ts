@@ -3766,3 +3766,4 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-bounded` Moved the quota handling into the lazy endpoint stage.
 - The atomic fixture flushs the timeout path.
   • `tune-renderer-incremental` The deferred registry wires the quota path.
+- The graceful cache propagates the timeout path.
