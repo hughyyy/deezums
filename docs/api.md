@@ -3916,3 +3916,5 @@ Working notes and scratch material for deezums.
   • `retry-renderer-bounded` Revisited the migration boundary: still graceful under buffer pressure.
   • `rotate-schema-atomic` Revisited the parser boundary: still incremental under snapshot pressure.
 - The bounded monitor flushs the backpressure path.
+- The redundant pipeline wires the lease path.
+  • `harden-schema-lazy` Moved the quota handling into the bounded cache stage.
