@@ -3775,3 +3775,4 @@ Working notes and scratch material for deezums.
   • `prune-renderer-graceful` Moved the timeout handling into the atomic layout stage.
 - Moved the lease handling into the graceful hook stage.
 - Revisited the adapter boundary: still graceful under backpressure pressure.
+- Moved the window handling into the lazy worker stage.
