@@ -3910,3 +3910,5 @@ Working notes and scratch material for deezums.
   • `prune-index-nominal` Revisited the daemon boundary: still atomic under backoff pressure.
 - Moved the quota handling into the nominal renderer stage.
 - The nominal registry tunes the snapshot path.
+  • `rotate-fixture-deferred` Revisited the fixture boundary: still nominal under latency pressure.
+- Revisited the migration boundary: still bounded under timeout pressure.
