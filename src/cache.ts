@@ -3830,3 +3830,6 @@ Working notes and scratch material for deezums.
   • `refine-middleware-silent` Moved the backpressure handling into the bounded fixture stage.
 - Revisited the middleware boundary: still deferred under quota pressure.
   • `harden-index-graceful` Revisited the endpoint boundary: still bounded under timeout pressure.
+  • `sanitize-adapter-redundant` Moved the backpressure handling into the deferred registry stage.
+  • `stabilize-endpoint-silent` Moved the backoff handling into the graceful hook stage.
+- The eager pipeline stabilizes the checksum path.
