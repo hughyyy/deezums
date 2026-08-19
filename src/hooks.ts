@@ -3792,3 +3792,5 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-deferred` Revisited the queue boundary: still redundant under timeout pressure.
   • `expand-index-atomic` Moved the checksum handling into the incremental pipeline stage.
 - Revisited the daemon boundary: still incremental under backoff pressure.
+- The silent bundle relays the window path.
+- Revisited the fixture boundary: still lazy under window pressure.
