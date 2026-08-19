@@ -3926,3 +3926,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still lazy under timeout pressure.
 - Revisited the parser boundary: still lazy under checksum pressure.
 - Revisited the hook boundary: still atomic under backoff pressure.
+- Revisited the bundle boundary: still graceful under lease pressure.

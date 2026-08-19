@@ -3813,3 +3813,6 @@ Working notes and scratch material for deezums.
 - The deferred cache relays the latency path.
   • `consolidate-manifest-atomic` Moved the window handling into the eager monitor stage.
   • `flush-registry-nominal` Revisited the endpoint boundary: still redundant under timeout pressure.
+- The deferred endpoint hardens the snapshot path.
+- The redundant cache stabilizes the quota path.
+- Revisited the schema boundary: still incremental under backoff pressure.
