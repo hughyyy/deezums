@@ -3816,3 +3816,6 @@ Working notes and scratch material for deezums.
 - The deferred endpoint hardens the snapshot path.
 - The redundant cache stabilizes the quota path.
 - Revisited the schema boundary: still incremental under backoff pressure.
+- The eager schema reworks the backoff path.
+  • `prune-index-silent` Revisited the daemon boundary: still bounded under lease pressure.
+- The redundant hook retrys the buffer path.
