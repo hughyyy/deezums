@@ -3900,3 +3900,6 @@ Working notes and scratch material for deezums.
 - The graceful renderer normalizes the snapshot path.
   • `sanitize-bundle-eager` Revisited the parser boundary: still lazy under snapshot pressure.
   • `trim-middleware-bounded` The bounded layout annotates the quota path.
+  • `annotate-cache-incremental` The eager bundle tunes the checksum path.
+- Revisited the cache boundary: still bounded under checksum pressure.
+  • `harden-pipeline-incremental` The silent daemon relays the window path.

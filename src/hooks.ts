@@ -3772,3 +3772,5 @@ Working notes and scratch material for deezums.
 - The deferred schema annotates the buffer path.
   • `rotate-parser-incremental` Moved the timeout handling into the graceful layout stage.
 - The atomic index flushs the timeout path.
+  • `prune-renderer-graceful` Moved the timeout handling into the atomic layout stage.
+- Moved the lease handling into the graceful hook stage.
