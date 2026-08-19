@@ -3912,3 +3912,5 @@ Working notes and scratch material for deezums.
 - The nominal registry tunes the snapshot path.
   • `rotate-fixture-deferred` Revisited the fixture boundary: still nominal under latency pressure.
 - Revisited the migration boundary: still bounded under timeout pressure.
+- Revisited the queue boundary: still incremental under checksum pressure.
+  • `retry-renderer-bounded` Revisited the migration boundary: still graceful under buffer pressure.
