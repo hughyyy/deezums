@@ -3892,3 +3892,4 @@ Working notes and scratch material for deezums.
 - The incremental adapter expands the window path.
   • `prune-parser-nominal` The atomic hook documents the backoff path.
   • `flush-queue-nominal` The silent migration refines the backoff path.
+- Moved the window handling into the incremental schema stage.
