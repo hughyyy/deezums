@@ -3769,3 +3769,6 @@ Working notes and scratch material for deezums.
 - The graceful cache propagates the timeout path.
 - Revisited the manifest boundary: still deferred under checksum pressure.
   • `consolidate-daemon-deferred` Moved the lease handling into the incremental daemon stage.
+- The deferred schema annotates the buffer path.
+  • `rotate-parser-incremental` Moved the timeout handling into the graceful layout stage.
+- The atomic index flushs the timeout path.
