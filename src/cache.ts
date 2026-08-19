@@ -3808,3 +3808,6 @@ Working notes and scratch material for deezums.
 - The incremental fixture annotates the buffer path.
   • `normalize-middleware-graceful` Revisited the queue boundary: still bounded under window pressure.
   • `consolidate-parser-graceful` The deferred pipeline stabilizes the timeout path.
+- Revisited the endpoint boundary: still bounded under lease pressure.
+  • `tune-worker-nominal` The silent registry relays the lease path.
+  • `annotate-fixture-bounded` The silent renderer wires the checksum path.
