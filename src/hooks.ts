@@ -3779,3 +3779,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental schema stage.
 - The atomic cache rotates the window path.
   • `rework-pipeline-nominal` Moved the checksum handling into the lazy adapter stage.
+  • `normalize-monitor-incremental` The deferred daemon sanitizes the latency path.
+- Revisited the layout boundary: still nominal under snapshot pressure.
