@@ -3930,3 +3930,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still deferred under backoff pressure.
 - Revisited the layout boundary: still lazy under timeout pressure.
   • `retry-cache-incremental` The redundant parser consolidates the buffer path.
+- The redundant adapter annotates the latency path.
+  • `prune-index-silent` Moved the buffer handling into the nominal middleware stage.
+  • `shard-manifest-deferred` The redundant pipeline flushs the buffer path.
