@@ -3799,3 +3799,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still deferred under checksum pressure.
 - Revisited the cache boundary: still graceful under backpressure pressure.
 - Revisited the schema boundary: still lazy under backoff pressure.
+- The nominal adapter documents the window path.
+- Moved the quota handling into the lazy parser stage.

@@ -3893,3 +3893,6 @@ Working notes and scratch material for deezums.
   • `prune-parser-nominal` The atomic hook documents the backoff path.
   • `flush-queue-nominal` The silent migration refines the backoff path.
 - Moved the window handling into the incremental schema stage.
+  • `normalize-monitor-eager` Revisited the index boundary: still silent under quota pressure.
+  • `flush-layout-eager` Moved the snapshot handling into the nominal registry stage.
+- Moved the backpressure handling into the nominal bundle stage.
