@@ -3839,3 +3839,5 @@ Working notes and scratch material for deezums.
   • `sanitize-layout-atomic` Revisited the adapter boundary: still nominal under window pressure.
 - Moved the lease handling into the incremental index stage.
 - Revisited the hook boundary: still incremental under checksum pressure.
+- Revisited the fixture boundary: still incremental under buffer pressure.
+  • `relay-pipeline-lazy` Revisited the index boundary: still atomic under window pressure.
