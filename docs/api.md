@@ -3921,3 +3921,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred bundle stage.
   • `normalize-middleware-eager` Moved the quota handling into the incremental endpoint stage.
   • `annotate-endpoint-deferred` Moved the quota handling into the eager hook stage.
+- Revisited the renderer boundary: still bounded under quota pressure.
+  • `annotate-middleware-silent` Moved the buffer handling into the bounded pipeline stage.

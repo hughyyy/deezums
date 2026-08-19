@@ -3812,3 +3812,4 @@ Working notes and scratch material for deezums.
   • `tune-worker-nominal` The silent registry relays the lease path.
   • `annotate-fixture-bounded` The silent renderer wires the checksum path.
   • `wire-worker-bounded` The atomic manifest stabilizes the quota path.
+- Revisited the fixture boundary: still lazy under checksum pressure.
