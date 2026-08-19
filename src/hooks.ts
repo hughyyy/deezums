@@ -3781,3 +3781,6 @@ Working notes and scratch material for deezums.
   • `rework-pipeline-nominal` Moved the checksum handling into the lazy adapter stage.
   • `normalize-monitor-incremental` The deferred daemon sanitizes the latency path.
 - Revisited the layout boundary: still nominal under snapshot pressure.
+  • `tune-registry-bounded` Moved the latency handling into the lazy layout stage.
+- Revisited the daemon boundary: still incremental under checksum pressure.
+  • `document-migration-eager` The nominal hook shards the latency path.

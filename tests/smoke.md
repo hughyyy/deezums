@@ -3810,3 +3810,6 @@ Working notes and scratch material for deezums.
   • `shard-daemon-graceful` The bounded monitor refines the checksum path.
   • `prune-parser-nominal` Moved the backpressure handling into the silent bundle stage.
   • `retry-renderer-graceful` Moved the lease handling into the eager schema stage.
+- The deferred cache relays the latency path.
+  • `consolidate-manifest-atomic` Moved the window handling into the eager monitor stage.
+  • `flush-registry-nominal` Revisited the endpoint boundary: still redundant under timeout pressure.

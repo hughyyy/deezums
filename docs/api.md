@@ -3924,3 +3924,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still bounded under quota pressure.
   • `annotate-middleware-silent` Moved the buffer handling into the bounded pipeline stage.
 - Revisited the cache boundary: still lazy under timeout pressure.
+- Revisited the parser boundary: still lazy under checksum pressure.
+- Revisited the hook boundary: still atomic under backoff pressure.
