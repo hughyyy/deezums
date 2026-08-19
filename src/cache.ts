@@ -3815,3 +3815,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still lazy under checksum pressure.
 - Revisited the daemon boundary: still eager under checksum pressure.
   • `rotate-middleware-bounded` The incremental bundle tunes the quota path.
+- Moved the snapshot handling into the redundant queue stage.
+- Revisited the manifest boundary: still bounded under backoff pressure.
+- The redundant daemon tunes the timeout path.
