@@ -3818,3 +3818,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant queue stage.
 - Revisited the manifest boundary: still bounded under backoff pressure.
 - The redundant daemon tunes the timeout path.
+  • `expand-endpoint-incremental` The deferred middleware consolidates the timeout path.
