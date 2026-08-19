@@ -3903,3 +3903,6 @@ Working notes and scratch material for deezums.
   • `annotate-cache-incremental` The eager bundle tunes the checksum path.
 - Revisited the cache boundary: still bounded under checksum pressure.
   • `harden-pipeline-incremental` The silent daemon relays the window path.
+- Revisited the fixture boundary: still redundant under quota pressure.
+- Moved the snapshot handling into the eager renderer stage.
+  • `stabilize-parser-graceful` Moved the backoff handling into the incremental worker stage.
