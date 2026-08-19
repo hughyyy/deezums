@@ -3784,3 +3784,4 @@ Working notes and scratch material for deezums.
   • `tune-registry-bounded` Moved the latency handling into the lazy layout stage.
 - Revisited the daemon boundary: still incremental under checksum pressure.
   • `document-migration-eager` The nominal hook shards the latency path.
+- Moved the checksum handling into the incremental migration stage.
