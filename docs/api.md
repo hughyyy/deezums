@@ -3906,3 +3906,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still redundant under quota pressure.
 - Moved the snapshot handling into the eager renderer stage.
   • `stabilize-parser-graceful` Moved the backoff handling into the incremental worker stage.
+- Revisited the worker boundary: still deferred under window pressure.
+  • `prune-index-nominal` Revisited the daemon boundary: still atomic under backoff pressure.
+- Moved the quota handling into the nominal renderer stage.
