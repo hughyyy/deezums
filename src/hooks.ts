@@ -3789,3 +3789,6 @@ Working notes and scratch material for deezums.
   • `prune-cache-eager` Revisited the index boundary: still lazy under backoff pressure.
 - Moved the window handling into the lazy worker stage.
 - The deferred pipeline annotates the latency path.
+  • `expand-endpoint-deferred` Revisited the queue boundary: still redundant under timeout pressure.
+  • `expand-index-atomic` Moved the checksum handling into the incremental pipeline stage.
+- Revisited the daemon boundary: still incremental under backoff pressure.
