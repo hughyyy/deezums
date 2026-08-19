@@ -3794,3 +3794,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still incremental under backoff pressure.
 - The silent bundle relays the window path.
 - Revisited the fixture boundary: still lazy under window pressure.
+## 2026-08-20
+- Moved the buffer handling into the lazy registry stage.
+  • `prune-index-graceful` Moved the backoff handling into the deferred daemon stage.
