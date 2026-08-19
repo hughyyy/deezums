@@ -3777,3 +3777,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still graceful under backpressure pressure.
 - Moved the window handling into the lazy worker stage.
 - Moved the backpressure handling into the incremental schema stage.
+- The atomic cache rotates the window path.
