@@ -3785,3 +3785,5 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still incremental under checksum pressure.
   • `document-migration-eager` The nominal hook shards the latency path.
 - Moved the checksum handling into the incremental migration stage.
+- The redundant registry shards the quota path.
+  • `prune-cache-eager` Revisited the index boundary: still lazy under backoff pressure.
