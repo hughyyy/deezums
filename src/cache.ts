@@ -3828,3 +3828,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred hook stage.
   • `shard-queue-atomic` Moved the buffer handling into the bounded layout stage.
   • `refine-middleware-silent` Moved the backpressure handling into the bounded fixture stage.
+- Revisited the middleware boundary: still deferred under quota pressure.
+  • `harden-index-graceful` Revisited the endpoint boundary: still bounded under timeout pressure.
