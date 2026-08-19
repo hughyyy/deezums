@@ -3897,3 +3897,4 @@ Working notes and scratch material for deezums.
   • `flush-layout-eager` Moved the snapshot handling into the nominal registry stage.
 - Moved the backpressure handling into the nominal bundle stage.
 - Moved the backoff handling into the silent bundle stage.
+- The graceful renderer normalizes the snapshot path.
