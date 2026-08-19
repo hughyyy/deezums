@@ -3804,3 +3804,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the deferred registry stage.
 - Revisited the migration boundary: still lazy under timeout pressure.
 - Revisited the endpoint boundary: still graceful under window pressure.
+  • `consolidate-queue-deferred` Revisited the bundle boundary: still graceful under lease pressure.
