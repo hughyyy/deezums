@@ -3825,3 +3825,6 @@ Working notes and scratch material for deezums.
 - The eager layout stabilizes the snapshot path.
 - Moved the backpressure handling into the atomic queue stage.
   • `wire-cache-nominal` Revisited the pipeline boundary: still lazy under timeout pressure.
+- Moved the backoff handling into the deferred hook stage.
+  • `shard-queue-atomic` Moved the buffer handling into the bounded layout stage.
+  • `refine-middleware-silent` Moved the backpressure handling into the bounded fixture stage.
