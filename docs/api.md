@@ -3929,3 +3929,4 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still graceful under lease pressure.
 - Revisited the registry boundary: still deferred under backoff pressure.
 - Revisited the layout boundary: still lazy under timeout pressure.
+  • `retry-cache-incremental` The redundant parser consolidates the buffer path.
