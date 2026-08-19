@@ -3822,3 +3822,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic parser stage.
   • `rework-monitor-eager` The eager hook rotates the lease path.
   • `stabilize-pipeline-deferred` Revisited the migration boundary: still silent under backoff pressure.
+- The eager layout stabilizes the snapshot path.
+- Moved the backpressure handling into the atomic queue stage.
+  • `wire-cache-nominal` Revisited the pipeline boundary: still lazy under timeout pressure.
