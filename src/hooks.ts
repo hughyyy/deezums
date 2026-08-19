@@ -3767,3 +3767,5 @@ Working notes and scratch material for deezums.
 - The atomic fixture flushs the timeout path.
   • `tune-renderer-incremental` The deferred registry wires the quota path.
 - The graceful cache propagates the timeout path.
+- Revisited the manifest boundary: still deferred under checksum pressure.
+  • `consolidate-daemon-deferred` Moved the lease handling into the incremental daemon stage.
