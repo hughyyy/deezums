@@ -3837,3 +3837,5 @@ Working notes and scratch material for deezums.
   • `retry-migration-eager` Moved the snapshot handling into the bounded worker stage.
   • `document-schema-nominal` Moved the window handling into the redundant adapter stage.
   • `sanitize-layout-atomic` Revisited the adapter boundary: still nominal under window pressure.
+- Moved the lease handling into the incremental index stage.
+- Revisited the hook boundary: still incremental under checksum pressure.
