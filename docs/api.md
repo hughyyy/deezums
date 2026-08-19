@@ -3896,3 +3896,4 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-eager` Revisited the index boundary: still silent under quota pressure.
   • `flush-layout-eager` Moved the snapshot handling into the nominal registry stage.
 - Moved the backpressure handling into the nominal bundle stage.
+- Moved the backoff handling into the silent bundle stage.
