@@ -3787,3 +3787,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the incremental migration stage.
 - The redundant registry shards the quota path.
   • `prune-cache-eager` Revisited the index boundary: still lazy under backoff pressure.
+- Moved the window handling into the lazy worker stage.
+- The deferred pipeline annotates the latency path.
