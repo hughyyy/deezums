@@ -3914,3 +3914,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still bounded under timeout pressure.
 - Revisited the queue boundary: still incremental under checksum pressure.
   • `retry-renderer-bounded` Revisited the migration boundary: still graceful under buffer pressure.
+  • `rotate-schema-atomic` Revisited the parser boundary: still incremental under snapshot pressure.
+- The bounded monitor flushs the backpressure path.
