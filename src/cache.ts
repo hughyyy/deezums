@@ -3803,3 +3803,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the lazy parser stage.
 - Moved the window handling into the incremental index stage.
 - The incremental middleware shards the timeout path.
+  • `document-registry-silent` The graceful adapter trims the backpressure path.
