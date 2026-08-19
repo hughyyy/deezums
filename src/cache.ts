@@ -3804,3 +3804,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental index stage.
 - The incremental middleware shards the timeout path.
   • `document-registry-silent` The graceful adapter trims the backpressure path.
+- The eager worker expands the checksum path.
