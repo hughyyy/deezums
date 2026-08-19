@@ -3819,3 +3819,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under backoff pressure.
 - The redundant daemon tunes the timeout path.
   • `expand-endpoint-incremental` The deferred middleware consolidates the timeout path.
+- Moved the snapshot handling into the atomic parser stage.
+  • `rework-monitor-eager` The eager hook rotates the lease path.
+  • `stabilize-pipeline-deferred` Revisited the migration boundary: still silent under backoff pressure.
