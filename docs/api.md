@@ -3923,3 +3923,4 @@ Working notes and scratch material for deezums.
   • `annotate-endpoint-deferred` Moved the quota handling into the eager hook stage.
 - Revisited the renderer boundary: still bounded under quota pressure.
   • `annotate-middleware-silent` Moved the buffer handling into the bounded pipeline stage.
+- Revisited the cache boundary: still lazy under timeout pressure.
