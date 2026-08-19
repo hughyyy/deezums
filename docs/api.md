@@ -3898,3 +3898,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal bundle stage.
 - Moved the backoff handling into the silent bundle stage.
 - The graceful renderer normalizes the snapshot path.
+  • `sanitize-bundle-eager` Revisited the parser boundary: still lazy under snapshot pressure.
+  • `trim-middleware-bounded` The bounded layout annotates the quota path.
