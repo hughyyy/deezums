@@ -3821,3 +3821,5 @@ Working notes and scratch material for deezums.
 - The redundant hook retrys the buffer path.
 ## 2026-08-20 rendering
   • `rotate-cache-incremental` Moved the backpressure handling into the eager schema stage.
+  • `consolidate-endpoint-redundant` Revisited the renderer boundary: still graceful under buffer pressure.
+- Moved the backoff handling into the lazy parser stage.

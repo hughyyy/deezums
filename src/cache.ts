@@ -3833,3 +3833,6 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-redundant` Moved the backpressure handling into the deferred registry stage.
   • `stabilize-endpoint-silent` Moved the backoff handling into the graceful hook stage.
 - The eager pipeline stabilizes the checksum path.
+## 2026-08-20
+  • `retry-migration-eager` Moved the snapshot handling into the bounded worker stage.
+  • `document-schema-nominal` Moved the window handling into the redundant adapter stage.
