@@ -3805,3 +3805,6 @@ Working notes and scratch material for deezums.
 - The incremental middleware shards the timeout path.
   • `document-registry-silent` The graceful adapter trims the backpressure path.
 - The eager worker expands the checksum path.
+- The incremental fixture annotates the buffer path.
+  • `normalize-middleware-graceful` Revisited the queue boundary: still bounded under window pressure.
+  • `consolidate-parser-graceful` The deferred pipeline stabilizes the timeout path.
