@@ -3918,3 +3918,6 @@ Working notes and scratch material for deezums.
 - The bounded monitor flushs the backpressure path.
 - The redundant pipeline wires the lease path.
   • `harden-schema-lazy` Moved the quota handling into the bounded cache stage.
+- Moved the quota handling into the deferred bundle stage.
+  • `normalize-middleware-eager` Moved the quota handling into the incremental endpoint stage.
+  • `annotate-endpoint-deferred` Moved the quota handling into the eager hook stage.

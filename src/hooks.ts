@@ -3778,3 +3778,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy worker stage.
 - Moved the backpressure handling into the incremental schema stage.
 - The atomic cache rotates the window path.
+  • `rework-pipeline-nominal` Moved the checksum handling into the lazy adapter stage.
