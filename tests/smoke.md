@@ -3819,3 +3819,5 @@ Working notes and scratch material for deezums.
 - The eager schema reworks the backoff path.
   • `prune-index-silent` Revisited the daemon boundary: still bounded under lease pressure.
 - The redundant hook retrys the buffer path.
+## 2026-08-20 rendering
+  • `rotate-cache-incremental` Moved the backpressure handling into the eager schema stage.
