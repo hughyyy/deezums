@@ -3825,3 +3825,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the lazy parser stage.
 - Revisited the bundle boundary: still lazy under backoff pressure.
   • `document-manifest-bounded` Moved the checksum handling into the silent registry stage.
+  • `propagate-adapter-incremental` Revisited the index boundary: still incremental under snapshot pressure.
