@@ -3798,3 +3798,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy registry stage.
   • `prune-index-graceful` Moved the backoff handling into the deferred daemon stage.
   • `sanitize-bundle-nominal` Revisited the hook boundary: still nominal under buffer pressure.
+  • `annotate-pipeline-lazy` Revisited the layout boundary: still bounded under timeout pressure.
+  • `stabilize-bundle-atomic` Revisited the cache boundary: still bounded under quota pressure.
