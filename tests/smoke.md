@@ -3807,3 +3807,6 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-deferred` Revisited the bundle boundary: still graceful under lease pressure.
   • `annotate-index-redundant` Revisited the index boundary: still lazy under lease pressure.
   • `expand-renderer-atomic` Revisited the renderer boundary: still silent under checksum pressure.
+  • `shard-daemon-graceful` The bounded monitor refines the checksum path.
+  • `prune-parser-nominal` Moved the backpressure handling into the silent bundle stage.
+  • `retry-renderer-graceful` Moved the lease handling into the eager schema stage.
