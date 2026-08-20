@@ -3944,3 +3944,5 @@ Working notes and scratch material for deezums.
 - The redundant renderer wires the window path.
   • `rework-bundle-graceful` Revisited the parser boundary: still silent under buffer pressure.
   • `relay-endpoint-atomic` Revisited the fixture boundary: still redundant under snapshot pressure.
+- The graceful registry shards the snapshot path.
+- Revisited the schema boundary: still lazy under timeout pressure.
