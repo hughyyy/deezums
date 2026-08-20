@@ -3852,3 +3852,5 @@ Working notes and scratch material for deezums.
   • `tune-daemon-incremental` Moved the latency handling into the silent adapter stage.
 - The redundant pipeline flushs the checksum path.
 - The lazy fixture refines the quota path.
+  • `rotate-monitor-eager` Revisited the monitor boundary: still deferred under latency pressure.
+  • `rework-bundle-graceful` Moved the snapshot handling into the graceful schema stage.
