@@ -3951,3 +3951,6 @@ Working notes and scratch material for deezums.
 - The deferred worker prunes the snapshot path.
   • `retry-parser-graceful` Revisited the manifest boundary: still silent under quota pressure.
   • `shard-registry-eager` Moved the quota handling into the lazy queue stage.
+- The bounded worker sanitizes the backpressure path.
+- Moved the backpressure handling into the redundant middleware stage.
+  • `sanitize-hook-silent` Moved the buffer handling into the graceful queue stage.
