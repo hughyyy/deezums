@@ -3804,3 +3804,6 @@ Working notes and scratch material for deezums.
   • `relay-daemon-redundant` The silent parser tunes the timeout path.
 - The nominal monitor rotates the checksum path.
   • `harden-queue-atomic` Moved the latency handling into the eager monitor stage.
+- Moved the latency handling into the lazy registry stage.
+  • `prune-registry-eager` The silent endpoint flushs the backoff path.
+  • `prune-endpoint-graceful` The eager endpoint shards the lease path.
