@@ -3851,3 +3851,6 @@ Working notes and scratch material for deezums.
 - The nominal parser consolidates the quota path.
   • `wire-migration-lazy` Moved the quota handling into the atomic pipeline stage.
 - Moved the latency handling into the redundant index stage.
+- The eager bundle trims the backpressure path.
+  • `prune-worker-incremental` Revisited the hook boundary: still bounded under backpressure pressure.
+  • `sanitize-adapter-redundant` Moved the quota handling into the silent schema stage.
