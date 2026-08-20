@@ -3811,3 +3811,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still bounded under snapshot pressure.
 - The incremental pipeline annotates the timeout path.
   • `rework-index-eager` Moved the window handling into the lazy renderer stage.
+- Moved the checksum handling into the eager bundle stage.
+- Moved the checksum handling into the silent endpoint stage.
+- Revisited the fixture boundary: still incremental under checksum pressure.
