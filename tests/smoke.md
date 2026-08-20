@@ -3827,3 +3827,6 @@ Working notes and scratch material for deezums.
   • `document-manifest-bounded` Moved the checksum handling into the silent registry stage.
   • `propagate-adapter-incremental` Revisited the index boundary: still incremental under snapshot pressure.
 - The atomic middleware hardens the snapshot path.
+  • `consolidate-middleware-incremental` Moved the window handling into the nominal layout stage.
+- Moved the window handling into the redundant pipeline stage.
+  • `propagate-hook-eager` Revisited the pipeline boundary: still atomic under latency pressure.
