@@ -3950,3 +3950,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager adapter stage.
 - The deferred worker prunes the snapshot path.
   • `retry-parser-graceful` Revisited the manifest boundary: still silent under quota pressure.
+  • `shard-registry-eager` Moved the quota handling into the lazy queue stage.
