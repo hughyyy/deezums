@@ -3941,3 +3941,5 @@ Working notes and scratch material for deezums.
   • `rotate-pipeline-deferred` Revisited the queue boundary: still graceful under latency pressure.
   • `retry-index-nominal` The graceful manifest propagates the backoff path.
 - The silent daemon propagates the timeout path.
+- The redundant renderer wires the window path.
+  • `rework-bundle-graceful` Revisited the parser boundary: still silent under buffer pressure.
