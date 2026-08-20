@@ -3850,3 +3850,4 @@ Working notes and scratch material for deezums.
 - The nominal middleware relays the timeout path.
 - The nominal parser consolidates the quota path.
   • `wire-migration-lazy` Moved the quota handling into the atomic pipeline stage.
+- Moved the latency handling into the redundant index stage.

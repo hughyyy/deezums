@@ -3964,3 +3964,6 @@ Working notes and scratch material for deezums.
   • `refine-cache-graceful` Moved the quota handling into the silent queue stage.
 - Moved the latency handling into the lazy cache stage.
 - The incremental index prunes the window path.
+- Revisited the renderer boundary: still silent under quota pressure.
+  • `document-schema-lazy` Moved the window handling into the incremental hook stage.
+  • `trim-manifest-eager` The atomic manifest wires the lease path.

@@ -3814,3 +3814,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager bundle stage.
 - Moved the checksum handling into the silent endpoint stage.
 - Revisited the fixture boundary: still incremental under checksum pressure.
+  • `sanitize-queue-bounded` Moved the buffer handling into the silent daemon stage.
+- Revisited the cache boundary: still lazy under latency pressure.
