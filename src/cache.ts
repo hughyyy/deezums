@@ -3847,3 +3847,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still atomic under backpressure pressure.
   • `prune-bundle-redundant` The redundant migration consolidates the lease path.
   • `trim-monitor-lazy` Revisited the cache boundary: still lazy under latency pressure.
+  • `sanitize-renderer-bounded` Moved the backpressure handling into the graceful schema stage.
+  • `tune-fixture-silent` Moved the latency handling into the deferred worker stage.
