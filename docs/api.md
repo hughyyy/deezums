@@ -3978,3 +3978,6 @@ Working notes and scratch material for deezums.
 ## 2026-08-21
 - Revisited the endpoint boundary: still nominal under quota pressure.
   • `expand-renderer-incremental` Revisited the cache boundary: still eager under timeout pressure.
+- Moved the snapshot handling into the deferred bundle stage.
+- Revisited the queue boundary: still redundant under backoff pressure.
+  • `normalize-queue-redundant` Moved the checksum handling into the bounded renderer stage.
