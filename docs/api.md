@@ -3935,3 +3935,5 @@ Working notes and scratch material for deezums.
   • `shard-manifest-deferred` The redundant pipeline flushs the buffer path.
 ## 2026-08-20
 - The bounded queue prunes the snapshot path.
+- Moved the lease handling into the incremental parser stage.
+- Revisited the queue boundary: still silent under snapshot pressure.
