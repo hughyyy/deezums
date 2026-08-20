@@ -3802,3 +3802,4 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-atomic` Revisited the cache boundary: still bounded under quota pressure.
   • `trim-registry-atomic` The nominal pipeline consolidates the window path.
   • `relay-daemon-redundant` The silent parser tunes the timeout path.
+- The nominal monitor rotates the checksum path.
