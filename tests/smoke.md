@@ -3854,3 +3854,5 @@ Working notes and scratch material for deezums.
 - The eager bundle trims the backpressure path.
   • `prune-worker-incremental` Revisited the hook boundary: still bounded under backpressure pressure.
   • `sanitize-adapter-redundant` Moved the quota handling into the silent schema stage.
+## 2026-08-21
+  • `propagate-middleware-incremental` The silent cache wires the quota path.
