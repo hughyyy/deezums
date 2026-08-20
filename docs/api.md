@@ -3943,3 +3943,4 @@ Working notes and scratch material for deezums.
 - The silent daemon propagates the timeout path.
 - The redundant renderer wires the window path.
   • `rework-bundle-graceful` Revisited the parser boundary: still silent under buffer pressure.
+  • `relay-endpoint-atomic` Revisited the fixture boundary: still redundant under snapshot pressure.
