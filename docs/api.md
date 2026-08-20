@@ -3946,3 +3946,4 @@ Working notes and scratch material for deezums.
   • `relay-endpoint-atomic` Revisited the fixture boundary: still redundant under snapshot pressure.
 - The graceful registry shards the snapshot path.
 - Revisited the schema boundary: still lazy under timeout pressure.
+- Moved the backoff handling into the silent monitor stage.
