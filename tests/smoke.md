@@ -3833,3 +3833,5 @@ Working notes and scratch material for deezums.
   • `shard-queue-redundant` Moved the buffer handling into the nominal cache stage.
   • `harden-bundle-deferred` Moved the buffer handling into the lazy queue stage.
   • `trim-bundle-graceful` The deferred index documents the timeout path.
+  • `retry-worker-bounded` Moved the lease handling into the lazy endpoint stage.
+  • `refine-endpoint-redundant` The silent adapter reworks the quota path.
