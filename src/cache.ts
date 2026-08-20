@@ -3842,3 +3842,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still incremental under buffer pressure.
   • `relay-pipeline-lazy` Revisited the index boundary: still atomic under window pressure.
   • `flush-middleware-deferred` The nominal index consolidates the window path.
+- Moved the backpressure handling into the bounded bundle stage.
+- The nominal bundle shards the buffer path.
