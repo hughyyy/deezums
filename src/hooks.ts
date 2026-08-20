@@ -3807,3 +3807,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy registry stage.
   • `prune-registry-eager` The silent endpoint flushs the backoff path.
   • `prune-endpoint-graceful` The eager endpoint shards the lease path.
+  • `stabilize-daemon-nominal` Revisited the index boundary: still deferred under checksum pressure.
