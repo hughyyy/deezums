@@ -3848,3 +3848,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded registry stage.
 - Moved the lease handling into the graceful monitor stage.
 - The nominal middleware relays the timeout path.
+- The nominal parser consolidates the quota path.
+  • `wire-migration-lazy` Moved the quota handling into the atomic pipeline stage.
