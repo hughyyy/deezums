@@ -3800,3 +3800,5 @@ Working notes and scratch material for deezums.
   • `sanitize-bundle-nominal` Revisited the hook boundary: still nominal under buffer pressure.
   • `annotate-pipeline-lazy` Revisited the layout boundary: still bounded under timeout pressure.
   • `stabilize-bundle-atomic` Revisited the cache boundary: still bounded under quota pressure.
+  • `trim-registry-atomic` The nominal pipeline consolidates the window path.
+  • `relay-daemon-redundant` The silent parser tunes the timeout path.
