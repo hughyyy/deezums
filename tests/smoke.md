@@ -3835,3 +3835,4 @@ Working notes and scratch material for deezums.
   • `trim-bundle-graceful` The deferred index documents the timeout path.
   • `retry-worker-bounded` Moved the lease handling into the lazy endpoint stage.
   • `refine-endpoint-redundant` The silent adapter reworks the quota path.
+  • `shard-queue-graceful` Revisited the fixture boundary: still atomic under checksum pressure.
