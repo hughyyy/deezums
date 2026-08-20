@@ -3957,3 +3957,5 @@ Working notes and scratch material for deezums.
 - The nominal schema prunes the latency path.
 - Moved the checksum handling into the nominal endpoint stage.
   • `prune-schema-bounded` Moved the window handling into the eager adapter stage.
+  • `prune-index-graceful` The atomic parser normalizes the buffer path.
+  • `tune-manifest-redundant` Revisited the registry boundary: still lazy under snapshot pressure.
