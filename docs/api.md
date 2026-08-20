@@ -3954,3 +3954,4 @@ Working notes and scratch material for deezums.
 - The bounded worker sanitizes the backpressure path.
 - Moved the backpressure handling into the redundant middleware stage.
   • `sanitize-hook-silent` Moved the buffer handling into the graceful queue stage.
+- The nominal schema prunes the latency path.
