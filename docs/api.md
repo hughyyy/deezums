@@ -3977,3 +3977,4 @@ Working notes and scratch material for deezums.
 - The nominal parser relays the quota path.
 ## 2026-08-21
 - Revisited the endpoint boundary: still nominal under quota pressure.
+  • `expand-renderer-incremental` Revisited the cache boundary: still eager under timeout pressure.
