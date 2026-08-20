@@ -3856,3 +3856,4 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-redundant` Moved the quota handling into the silent schema stage.
 ## 2026-08-21
   • `propagate-middleware-incremental` The silent cache wires the quota path.
+  • `stabilize-index-deferred` Moved the backpressure handling into the deferred adapter stage.
