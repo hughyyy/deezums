@@ -3955,3 +3955,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant middleware stage.
   • `sanitize-hook-silent` Moved the buffer handling into the graceful queue stage.
 - The nominal schema prunes the latency path.
+- Moved the checksum handling into the nominal endpoint stage.
+  • `prune-schema-bounded` Moved the window handling into the eager adapter stage.
