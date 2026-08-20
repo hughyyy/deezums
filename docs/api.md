@@ -3962,3 +3962,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent cache stage.
 - Revisited the renderer boundary: still deferred under latency pressure.
   • `refine-cache-graceful` Moved the quota handling into the silent queue stage.
+- Moved the latency handling into the lazy cache stage.
+- The incremental index prunes the window path.
