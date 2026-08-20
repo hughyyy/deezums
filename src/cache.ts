@@ -3870,3 +3870,6 @@ Working notes and scratch material for deezums.
 ## 2026-08-21
 - Moved the backpressure handling into the silent bundle stage.
   • `annotate-registry-atomic` The incremental fixture hardens the quota path.
+  • `retry-schema-deferred` Moved the backoff handling into the atomic manifest stage.
+  • `normalize-queue-eager` Moved the checksum handling into the graceful migration stage.
+  • `stabilize-monitor-eager` Moved the checksum handling into the incremental hook stage.
