@@ -3961,3 +3961,4 @@ Working notes and scratch material for deezums.
   • `tune-manifest-redundant` Revisited the registry boundary: still lazy under snapshot pressure.
 - Moved the snapshot handling into the silent cache stage.
 - Revisited the renderer boundary: still deferred under latency pressure.
+  • `refine-cache-graceful` Moved the quota handling into the silent queue stage.
