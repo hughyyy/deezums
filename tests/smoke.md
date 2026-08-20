@@ -3838,3 +3838,4 @@ Working notes and scratch material for deezums.
   • `shard-queue-graceful` Revisited the fixture boundary: still atomic under checksum pressure.
   • `rework-worker-incremental` The incremental bundle normalizes the backoff path.
 - Revisited the hook boundary: still redundant under checksum pressure.
+  • `rotate-registry-deferred` Revisited the migration boundary: still silent under window pressure.
