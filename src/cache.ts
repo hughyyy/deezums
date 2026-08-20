@@ -3849,3 +3849,4 @@ Working notes and scratch material for deezums.
   • `trim-monitor-lazy` Revisited the cache boundary: still lazy under latency pressure.
   • `sanitize-renderer-bounded` Moved the backpressure handling into the graceful schema stage.
   • `tune-fixture-silent` Moved the latency handling into the deferred worker stage.
+  • `tune-daemon-incremental` Moved the latency handling into the silent adapter stage.
