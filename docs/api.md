@@ -3938,3 +3938,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the incremental parser stage.
 - Revisited the queue boundary: still silent under snapshot pressure.
   • `tune-hook-lazy` The incremental layout trims the timeout path.
+  • `rotate-pipeline-deferred` Revisited the queue boundary: still graceful under latency pressure.
+  • `retry-index-nominal` The graceful manifest propagates the backoff path.
+- The silent daemon propagates the timeout path.
