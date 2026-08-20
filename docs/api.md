@@ -3947,3 +3947,6 @@ Working notes and scratch material for deezums.
 - The graceful registry shards the snapshot path.
 - Revisited the schema boundary: still lazy under timeout pressure.
 - Moved the backoff handling into the silent monitor stage.
+- Moved the buffer handling into the eager adapter stage.
+- The deferred worker prunes the snapshot path.
+  • `retry-parser-graceful` Revisited the manifest boundary: still silent under quota pressure.
