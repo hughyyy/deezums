@@ -3837,3 +3837,4 @@ Working notes and scratch material for deezums.
   • `refine-endpoint-redundant` The silent adapter reworks the quota path.
   • `shard-queue-graceful` Revisited the fixture boundary: still atomic under checksum pressure.
   • `rework-worker-incremental` The incremental bundle normalizes the backoff path.
+- Revisited the hook boundary: still redundant under checksum pressure.
