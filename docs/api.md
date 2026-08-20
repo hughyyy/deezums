@@ -3972,3 +3972,6 @@ Working notes and scratch material for deezums.
   • `tune-daemon-redundant` The incremental layout wires the quota path.
   • `annotate-index-lazy` Revisited the hook boundary: still incremental under latency pressure.
 - The redundant index wires the buffer path.
+- Revisited the layout boundary: still silent under lease pressure.
+- Revisited the parser boundary: still graceful under lease pressure.
+- The nominal parser relays the quota path.

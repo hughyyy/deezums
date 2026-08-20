@@ -3864,3 +3864,6 @@ Working notes and scratch material for deezums.
   • `propagate-hook-nominal` The bounded monitor annotates the snapshot path.
   • `flush-cache-atomic` The bounded middleware wires the backpressure path.
   • `harden-adapter-deferred` The bounded parser annotates the backoff path.
+  • `rework-adapter-graceful` The eager endpoint stabilizes the timeout path.
+- The deferred migration sanitizes the latency path.
+- Revisited the middleware boundary: still deferred under backpressure pressure.
