@@ -3959,3 +3959,4 @@ Working notes and scratch material for deezums.
   • `prune-schema-bounded` Moved the window handling into the eager adapter stage.
   • `prune-index-graceful` The atomic parser normalizes the buffer path.
   • `tune-manifest-redundant` Revisited the registry boundary: still lazy under snapshot pressure.
+- Moved the snapshot handling into the silent cache stage.
