@@ -3846,3 +3846,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the eager parser stage.
 - Revisited the schema boundary: still atomic under latency pressure.
 - Moved the snapshot handling into the bounded registry stage.
+- Moved the lease handling into the graceful monitor stage.
+- The nominal middleware relays the timeout path.
