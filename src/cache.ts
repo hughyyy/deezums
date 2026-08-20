@@ -3862,3 +3862,5 @@ Working notes and scratch material for deezums.
   • `shard-hook-deferred` Moved the checksum handling into the nominal adapter stage.
   • `expand-monitor-redundant` The lazy hook sanitizes the timeout path.
   • `propagate-hook-nominal` The bounded monitor annotates the snapshot path.
+  • `flush-cache-atomic` The bounded middleware wires the backpressure path.
+  • `harden-adapter-deferred` The bounded parser annotates the backoff path.
