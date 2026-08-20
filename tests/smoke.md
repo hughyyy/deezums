@@ -3857,3 +3857,4 @@ Working notes and scratch material for deezums.
 ## 2026-08-21
   • `propagate-middleware-incremental` The silent cache wires the quota path.
   • `stabilize-index-deferred` Moved the backpressure handling into the deferred adapter stage.
+  • `flush-hook-redundant` The eager layout refines the buffer path.
