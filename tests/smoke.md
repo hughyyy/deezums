@@ -3839,3 +3839,4 @@ Working notes and scratch material for deezums.
   • `rework-worker-incremental` The incremental bundle normalizes the backoff path.
 - Revisited the hook boundary: still redundant under checksum pressure.
   • `rotate-registry-deferred` Revisited the migration boundary: still silent under window pressure.
+  • `harden-hook-lazy` Revisited the manifest boundary: still incremental under window pressure.
