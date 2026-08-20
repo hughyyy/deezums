@@ -3836,3 +3836,4 @@ Working notes and scratch material for deezums.
   • `retry-worker-bounded` Moved the lease handling into the lazy endpoint stage.
   • `refine-endpoint-redundant` The silent adapter reworks the quota path.
   • `shard-queue-graceful` Revisited the fixture boundary: still atomic under checksum pressure.
+  • `rework-worker-incremental` The incremental bundle normalizes the backoff path.
