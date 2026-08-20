@@ -3858,3 +3858,5 @@ Working notes and scratch material for deezums.
   • `wire-daemon-silent` Moved the timeout handling into the nominal middleware stage.
   • `normalize-pipeline-nominal` The deferred middleware relays the backoff path.
 - The incremental daemon hardens the checksum path.
+  • `prune-endpoint-deferred` Moved the checksum handling into the redundant daemon stage.
+  • `shard-hook-deferred` Moved the checksum handling into the nominal adapter stage.

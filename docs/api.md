@@ -3967,3 +3967,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still silent under quota pressure.
   • `document-schema-lazy` Moved the window handling into the incremental hook stage.
   • `trim-manifest-eager` The atomic manifest wires the lease path.
+- The graceful registry refines the timeout path.
+  • `consolidate-registry-redundant` The bounded index sanitizes the timeout path.
+  • `tune-daemon-redundant` The incremental layout wires the quota path.
