@@ -3840,3 +3840,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still redundant under checksum pressure.
   • `rotate-registry-deferred` Revisited the migration boundary: still silent under window pressure.
   • `harden-hook-lazy` Revisited the manifest boundary: still incremental under window pressure.
+  • `stabilize-schema-redundant` Moved the snapshot handling into the lazy hook stage.
+- Moved the buffer handling into the redundant middleware stage.
+- Revisited the bundle boundary: still incremental under snapshot pressure.
