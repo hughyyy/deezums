@@ -3844,3 +3844,6 @@ Working notes and scratch material for deezums.
   • `flush-middleware-deferred` The nominal index consolidates the window path.
 - Moved the backpressure handling into the bounded bundle stage.
 - The nominal bundle shards the buffer path.
+- Revisited the hook boundary: still atomic under backpressure pressure.
+  • `prune-bundle-redundant` The redundant migration consolidates the lease path.
+  • `trim-monitor-lazy` Revisited the cache boundary: still lazy under latency pressure.
