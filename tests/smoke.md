@@ -3830,3 +3830,5 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-incremental` Moved the window handling into the nominal layout stage.
 - Moved the window handling into the redundant pipeline stage.
   • `propagate-hook-eager` Revisited the pipeline boundary: still atomic under latency pressure.
+  • `shard-queue-redundant` Moved the buffer handling into the nominal cache stage.
+  • `harden-bundle-deferred` Moved the buffer handling into the lazy queue stage.
