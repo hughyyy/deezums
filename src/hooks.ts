@@ -3816,3 +3816,7 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still incremental under checksum pressure.
   • `sanitize-queue-bounded` Moved the buffer handling into the silent daemon stage.
 - Revisited the cache boundary: still lazy under latency pressure.
+## 2026-08-21 batching
+- Moved the buffer handling into the eager pipeline stage.
+- Revisited the schema boundary: still eager under window pressure.
+  • `shard-index-eager` Revisited the middleware boundary: still graceful under backoff pressure.
