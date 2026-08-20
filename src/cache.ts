@@ -3867,3 +3867,6 @@ Working notes and scratch material for deezums.
   • `rework-adapter-graceful` The eager endpoint stabilizes the timeout path.
 - The deferred migration sanitizes the latency path.
 - Revisited the middleware boundary: still deferred under backpressure pressure.
+## 2026-08-21
+- Moved the backpressure handling into the silent bundle stage.
+  • `annotate-registry-atomic` The incremental fixture hardens the quota path.
