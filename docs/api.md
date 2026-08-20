@@ -3975,3 +3975,5 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still silent under lease pressure.
 - Revisited the parser boundary: still graceful under lease pressure.
 - The nominal parser relays the quota path.
+## 2026-08-21
+- Revisited the endpoint boundary: still nominal under quota pressure.
