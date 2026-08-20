@@ -3803,3 +3803,4 @@ Working notes and scratch material for deezums.
   • `trim-registry-atomic` The nominal pipeline consolidates the window path.
   • `relay-daemon-redundant` The silent parser tunes the timeout path.
 - The nominal monitor rotates the checksum path.
+  • `harden-queue-atomic` Moved the latency handling into the eager monitor stage.
