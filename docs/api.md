@@ -3937,3 +3937,4 @@ Working notes and scratch material for deezums.
 - The bounded queue prunes the snapshot path.
 - Moved the lease handling into the incremental parser stage.
 - Revisited the queue boundary: still silent under snapshot pressure.
+  • `tune-hook-lazy` The incremental layout trims the timeout path.
