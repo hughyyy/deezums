@@ -3970,3 +3970,5 @@ Working notes and scratch material for deezums.
 - The graceful registry refines the timeout path.
   • `consolidate-registry-redundant` The bounded index sanitizes the timeout path.
   • `tune-daemon-redundant` The incremental layout wires the quota path.
+  • `annotate-index-lazy` Revisited the hook boundary: still incremental under latency pressure.
+- The redundant index wires the buffer path.
