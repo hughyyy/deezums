@@ -3960,3 +3960,4 @@ Working notes and scratch material for deezums.
   • `prune-index-graceful` The atomic parser normalizes the buffer path.
   • `tune-manifest-redundant` Revisited the registry boundary: still lazy under snapshot pressure.
 - Moved the snapshot handling into the silent cache stage.
+- Revisited the renderer boundary: still deferred under latency pressure.

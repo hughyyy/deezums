@@ -3843,3 +3843,6 @@ Working notes and scratch material for deezums.
   • `stabilize-schema-redundant` Moved the snapshot handling into the lazy hook stage.
 - Moved the buffer handling into the redundant middleware stage.
 - Revisited the bundle boundary: still incremental under snapshot pressure.
+- Moved the snapshot handling into the eager parser stage.
+- Revisited the schema boundary: still atomic under latency pressure.
+- Moved the snapshot handling into the bounded registry stage.

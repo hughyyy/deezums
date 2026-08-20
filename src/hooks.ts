@@ -3808,3 +3808,6 @@ Working notes and scratch material for deezums.
   • `prune-registry-eager` The silent endpoint flushs the backoff path.
   • `prune-endpoint-graceful` The eager endpoint shards the lease path.
   • `stabilize-daemon-nominal` Revisited the index boundary: still deferred under checksum pressure.
+- Revisited the cache boundary: still bounded under snapshot pressure.
+- The incremental pipeline annotates the timeout path.
+  • `rework-index-eager` Moved the window handling into the lazy renderer stage.

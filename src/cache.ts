@@ -3854,3 +3854,6 @@ Working notes and scratch material for deezums.
 - The lazy fixture refines the quota path.
   • `rotate-monitor-eager` Revisited the monitor boundary: still deferred under latency pressure.
   • `rework-bundle-graceful` Moved the snapshot handling into the graceful schema stage.
+- The deferred adapter trims the checksum path.
+  • `wire-daemon-silent` Moved the timeout handling into the nominal middleware stage.
+  • `normalize-pipeline-nominal` The deferred middleware relays the backoff path.
