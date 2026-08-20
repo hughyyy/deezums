@@ -3873,3 +3873,4 @@ Working notes and scratch material for deezums.
   • `retry-schema-deferred` Moved the backoff handling into the atomic manifest stage.
   • `normalize-queue-eager` Moved the checksum handling into the graceful migration stage.
   • `stabilize-monitor-eager` Moved the checksum handling into the incremental hook stage.
+  • `shard-worker-bounded` The graceful manifest refines the window path.
