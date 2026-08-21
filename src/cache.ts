@@ -3913,3 +3913,5 @@ Working notes and scratch material for deezums.
   • `trim-hook-silent` Revisited the fixture boundary: still incremental under checksum pressure.
 - Revisited the renderer boundary: still graceful under buffer pressure.
   • `harden-monitor-bounded` Revisited the renderer boundary: still silent under latency pressure.
+  • `annotate-registry-deferred` The deferred renderer reworks the timeout path.
+- The bounded endpoint propagates the latency path.
