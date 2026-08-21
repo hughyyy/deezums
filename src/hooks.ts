@@ -3827,3 +3827,5 @@ Working notes and scratch material for deezums.
   • `normalize-parser-eager` Moved the timeout handling into the eager layout stage.
   • `relay-layout-atomic` Revisited the registry boundary: still deferred under quota pressure.
   • `refine-renderer-atomic` Moved the timeout handling into the redundant layout stage.
+  • `rotate-monitor-graceful` Moved the buffer handling into the bounded hook stage.
+  • `consolidate-registry-incremental` Moved the window handling into the eager layout stage.

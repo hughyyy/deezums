@@ -3882,3 +3882,4 @@ Working notes and scratch material for deezums.
   • `shard-middleware-deferred` Revisited the index boundary: still incremental under snapshot pressure.
 - Moved the lease handling into the bounded fixture stage.
 - Moved the backpressure handling into the silent endpoint stage.
+- Revisited the worker boundary: still lazy under backpressure pressure.

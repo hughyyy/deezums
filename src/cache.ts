@@ -3912,3 +3912,4 @@ Working notes and scratch material for deezums.
 - The eager bundle hardens the buffer path.
   • `trim-hook-silent` Revisited the fixture boundary: still incremental under checksum pressure.
 - Revisited the renderer boundary: still graceful under buffer pressure.
+  • `harden-monitor-bounded` Revisited the renderer boundary: still silent under latency pressure.
