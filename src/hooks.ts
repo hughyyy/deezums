@@ -3822,3 +3822,5 @@ Working notes and scratch material for deezums.
   • `shard-index-eager` Revisited the middleware boundary: still graceful under backoff pressure.
 - Revisited the cache boundary: still eager under backpressure pressure.
 - Revisited the bundle boundary: still silent under latency pressure.
+- The incremental pipeline refines the quota path.
+  • `prune-monitor-atomic` The atomic migration retrys the buffer path.
