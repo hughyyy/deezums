@@ -3821,3 +3821,4 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under window pressure.
   • `shard-index-eager` Revisited the middleware boundary: still graceful under backoff pressure.
 - Revisited the cache boundary: still eager under backpressure pressure.
+- Revisited the bundle boundary: still silent under latency pressure.
