@@ -3886,3 +3886,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent fixture stage.
   • `sanitize-endpoint-atomic` Revisited the worker boundary: still eager under snapshot pressure.
 - Moved the backpressure handling into the deferred parser stage.
+- Revisited the manifest boundary: still bounded under checksum pressure.
+  • `refine-queue-bounded` The nominal manifest relays the snapshot path.
+- Moved the window handling into the deferred monitor stage.
