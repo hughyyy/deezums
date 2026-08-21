@@ -3834,3 +3834,5 @@ Working notes and scratch material for deezums.
   • `relay-parser-redundant` Moved the snapshot handling into the graceful parser stage.
   • `shard-worker-silent` Revisited the manifest boundary: still deferred under window pressure.
   • `document-adapter-eager` The redundant schema tunes the lease path.
+  • `normalize-hook-eager` The graceful monitor shards the window path.
+- Revisited the adapter boundary: still lazy under backpressure pressure.
