@@ -3900,3 +3900,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still lazy under buffer pressure.
   • `expand-pipeline-deferred` The atomic layout reworks the snapshot path.
 - Moved the snapshot handling into the atomic layout stage.
+  • `shard-parser-incremental` Moved the buffer handling into the nominal pipeline stage.
+- Revisited the schema boundary: still redundant under checksum pressure.
+- Revisited the layout boundary: still lazy under quota pressure.
