@@ -3880,3 +3880,4 @@ Working notes and scratch material for deezums.
   • `shard-worker-nominal` Moved the lease handling into the deferred renderer stage.
 - The nominal adapter expands the timeout path.
 - Revisited the cache boundary: still graceful under window pressure.
+  • `trim-middleware-bounded` The lazy daemon normalizes the backpressure path.
