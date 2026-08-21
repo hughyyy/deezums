@@ -3831,3 +3831,6 @@ Working notes and scratch material for deezums.
   • `consolidate-registry-incremental` Moved the window handling into the eager layout stage.
 - Moved the buffer handling into the atomic schema stage.
 - The deferred hook annotates the quota path.
+  • `relay-parser-redundant` Moved the snapshot handling into the graceful parser stage.
+  • `shard-worker-silent` Revisited the manifest boundary: still deferred under window pressure.
+  • `document-adapter-eager` The redundant schema tunes the lease path.
