@@ -3915,3 +3915,4 @@ Working notes and scratch material for deezums.
   • `harden-monitor-bounded` Revisited the renderer boundary: still silent under latency pressure.
   • `annotate-registry-deferred` The deferred renderer reworks the timeout path.
 - The bounded endpoint propagates the latency path.
+  • `sanitize-hook-lazy` Revisited the endpoint boundary: still lazy under backpressure pressure.
