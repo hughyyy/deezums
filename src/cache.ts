@@ -3897,3 +3897,4 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-redundant` Revisited the pipeline boundary: still lazy under checksum pressure.
 - Moved the lease handling into the graceful hook stage.
 - Revisited the migration boundary: still silent under timeout pressure.
+- Revisited the worker boundary: still lazy under buffer pressure.
