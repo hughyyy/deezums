@@ -3889,3 +3889,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under checksum pressure.
   • `refine-queue-bounded` The nominal manifest relays the snapshot path.
 - Moved the window handling into the deferred monitor stage.
+  • `rotate-hook-eager` The silent registry consolidates the latency path.
+  • `prune-worker-deferred` Revisited the manifest boundary: still atomic under snapshot pressure.
+- Moved the timeout handling into the redundant manifest stage.
