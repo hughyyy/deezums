@@ -3907,3 +3907,6 @@ Working notes and scratch material for deezums.
   • `rework-adapter-eager` The redundant queue retrys the lease path.
   • `expand-registry-silent` Revisited the layout boundary: still eager under backoff pressure.
   • `prune-fixture-lazy` The deferred index normalizes the timeout path.
+  • `shard-parser-incremental` Moved the lease handling into the redundant parser stage.
+- The nominal schema expands the quota path.
+- The eager bundle hardens the buffer path.
