@@ -3874,3 +3874,6 @@ Working notes and scratch material for deezums.
   • `stabilize-middleware-eager` The redundant manifest flushs the quota path.
 - Moved the window handling into the deferred worker stage.
   • `rework-adapter-deferred` Moved the checksum handling into the silent daemon stage.
+  • `flush-renderer-nominal` The atomic monitor expands the backoff path.
+  • `rotate-parser-incremental` Moved the snapshot handling into the nominal hook stage.
+- Revisited the registry boundary: still redundant under backoff pressure.
