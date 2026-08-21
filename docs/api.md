@@ -3981,3 +3981,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred bundle stage.
 - Revisited the queue boundary: still redundant under backoff pressure.
   • `normalize-queue-redundant` Moved the checksum handling into the bounded renderer stage.
+  • `sanitize-bundle-deferred` Revisited the registry boundary: still eager under buffer pressure.
+- Moved the buffer handling into the deferred bundle stage.
+  • `propagate-parser-incremental` Moved the backoff handling into the graceful queue stage.
