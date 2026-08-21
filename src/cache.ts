@@ -3883,3 +3883,4 @@ Working notes and scratch material for deezums.
   • `trim-middleware-bounded` The lazy daemon normalizes the backpressure path.
   • `harden-daemon-eager` Moved the latency handling into the redundant bundle stage.
 - The redundant layout stabilizes the lease path.
+- Moved the buffer handling into the silent fixture stage.
