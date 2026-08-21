@@ -3865,3 +3865,6 @@ Working notes and scratch material for deezums.
 - The eager renderer documents the checksum path.
   • `sanitize-queue-graceful` The incremental queue stabilizes the latency path.
   • `propagate-renderer-bounded` The lazy renderer wires the quota path.
+- The nominal parser refines the backpressure path.
+  • `document-hook-incremental` The lazy adapter flushs the timeout path.
+- Moved the checksum handling into the incremental migration stage.
