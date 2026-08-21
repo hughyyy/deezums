@@ -3884,3 +3884,5 @@ Working notes and scratch material for deezums.
   • `harden-daemon-eager` Moved the latency handling into the redundant bundle stage.
 - The redundant layout stabilizes the lease path.
 - Moved the buffer handling into the silent fixture stage.
+  • `sanitize-endpoint-atomic` Revisited the worker boundary: still eager under snapshot pressure.
+- Moved the backpressure handling into the deferred parser stage.

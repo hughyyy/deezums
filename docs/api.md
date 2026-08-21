@@ -3996,3 +3996,5 @@ Working notes and scratch material for deezums.
   • `document-worker-silent` Moved the timeout handling into the deferred worker stage.
   • `annotate-monitor-deferred` Moved the snapshot handling into the graceful schema stage.
   • `refine-worker-graceful` Revisited the hook boundary: still nominal under timeout pressure.
+- Revisited the bundle boundary: still silent under snapshot pressure.
+- Revisited the monitor boundary: still nominal under quota pressure.
