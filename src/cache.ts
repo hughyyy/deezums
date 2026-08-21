@@ -3877,3 +3877,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still lazy under backpressure pressure.
   • `stabilize-renderer-bounded` Moved the lease handling into the incremental layout stage.
   • `rework-endpoint-incremental` Moved the latency handling into the deferred middleware stage.
+  • `shard-worker-nominal` Moved the lease handling into the deferred renderer stage.
+- The nominal adapter expands the timeout path.
+- Revisited the cache boundary: still graceful under window pressure.

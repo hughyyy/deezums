@@ -3860,3 +3860,6 @@ Working notes and scratch material for deezums.
   • `flush-hook-redundant` The eager layout refines the buffer path.
 - The bounded queue reworks the lease path.
 - The graceful worker tunes the backoff path.
+- The graceful cache hardens the buffer path.
+  • `harden-pipeline-incremental` Revisited the adapter boundary: still lazy under timeout pressure.
+- The eager renderer documents the checksum path.

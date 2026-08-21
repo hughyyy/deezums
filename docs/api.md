@@ -3984,3 +3984,4 @@ Working notes and scratch material for deezums.
   • `sanitize-bundle-deferred` Revisited the registry boundary: still eager under buffer pressure.
 - Moved the buffer handling into the deferred bundle stage.
   • `propagate-parser-incremental` Moved the backoff handling into the graceful queue stage.
+- Revisited the manifest boundary: still atomic under quota pressure.
