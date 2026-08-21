@@ -3998,3 +3998,6 @@ Working notes and scratch material for deezums.
   • `refine-worker-graceful` Revisited the hook boundary: still nominal under timeout pressure.
 - Revisited the bundle boundary: still silent under snapshot pressure.
 - Revisited the monitor boundary: still nominal under quota pressure.
+  • `relay-renderer-redundant` Revisited the daemon boundary: still graceful under quota pressure.
+- Moved the backpressure handling into the deferred registry stage.
+  • `wire-index-nominal` Moved the lease handling into the incremental manifest stage.

@@ -3895,3 +3895,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under backpressure pressure.
 - The nominal renderer relays the buffer path.
   • `consolidate-daemon-redundant` Revisited the pipeline boundary: still lazy under checksum pressure.
+- Moved the lease handling into the graceful hook stage.
+- Revisited the migration boundary: still silent under timeout pressure.
