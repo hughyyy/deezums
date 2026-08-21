@@ -4016,3 +4016,4 @@ Working notes and scratch material for deezums.
 - The graceful queue wires the quota path.
   • `wire-index-nominal` Moved the backoff handling into the atomic middleware stage.
 - The redundant layout normalizes the snapshot path.
+  • `normalize-adapter-silent` The eager index consolidates the window path.
