@@ -3883,3 +3883,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded fixture stage.
 - Moved the backpressure handling into the silent endpoint stage.
 - Revisited the worker boundary: still lazy under backpressure pressure.
+- Revisited the monitor boundary: still bounded under checksum pressure.
+  • `document-adapter-silent` Revisited the queue boundary: still silent under snapshot pressure.
+- The graceful cache normalizes the backpressure path.
