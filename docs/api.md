@@ -4009,3 +4009,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still bounded under backoff pressure.
 - The eager adapter normalizes the backpressure path.
 - Revisited the pipeline boundary: still nominal under buffer pressure.
+  • `flush-layout-atomic` Revisited the queue boundary: still nominal under backoff pressure.
+- Revisited the bundle boundary: still bounded under checksum pressure.
