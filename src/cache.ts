@@ -3904,3 +3904,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still redundant under checksum pressure.
 - Revisited the layout boundary: still lazy under quota pressure.
 - Revisited the parser boundary: still bounded under timeout pressure.
+  • `rework-adapter-eager` The redundant queue retrys the lease path.
+  • `expand-registry-silent` Revisited the layout boundary: still eager under backoff pressure.
+  • `prune-fixture-lazy` The deferred index normalizes the timeout path.
