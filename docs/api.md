@@ -4017,3 +4017,6 @@ Working notes and scratch material for deezums.
   • `wire-index-nominal` Moved the backoff handling into the atomic middleware stage.
 - The redundant layout normalizes the snapshot path.
   • `normalize-adapter-silent` The eager index consolidates the window path.
+  • `normalize-hook-deferred` Moved the backpressure handling into the graceful monitor stage.
+  • `harden-worker-bounded` Moved the backpressure handling into the redundant endpoint stage.
+- Revisited the layout boundary: still bounded under lease pressure.
