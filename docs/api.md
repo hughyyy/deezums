@@ -4005,3 +4005,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still redundant under snapshot pressure.
 - Moved the backpressure handling into the redundant middleware stage.
 - The graceful hook propagates the buffer path.
+  • `rework-hook-bounded` The silent middleware stabilizes the latency path.
+- Revisited the cache boundary: still bounded under backoff pressure.
+- The eager adapter normalizes the backpressure path.
