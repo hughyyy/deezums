@@ -3877,3 +3877,6 @@ Working notes and scratch material for deezums.
   • `flush-renderer-nominal` The atomic monitor expands the backoff path.
   • `rotate-parser-incremental` Moved the snapshot handling into the nominal hook stage.
 - Revisited the registry boundary: still redundant under backoff pressure.
+- Moved the latency handling into the graceful middleware stage.
+- Revisited the index boundary: still eager under backoff pressure.
+  • `shard-middleware-deferred` Revisited the index boundary: still incremental under snapshot pressure.
