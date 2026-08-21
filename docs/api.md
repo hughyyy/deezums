@@ -3990,3 +3990,6 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-incremental` The incremental renderer hardens the lease path.
 - The lazy renderer annotates the snapshot path.
   • `normalize-worker-graceful` The bounded adapter shards the lease path.
+  • `harden-index-bounded` The silent layout refines the backpressure path.
+  • `annotate-schema-nominal` The graceful pipeline propagates the latency path.
+- The nominal layout prunes the lease path.
