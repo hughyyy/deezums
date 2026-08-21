@@ -3863,3 +3863,5 @@ Working notes and scratch material for deezums.
 - The graceful cache hardens the buffer path.
   • `harden-pipeline-incremental` Revisited the adapter boundary: still lazy under timeout pressure.
 - The eager renderer documents the checksum path.
+  • `sanitize-queue-graceful` The incremental queue stabilizes the latency path.
+  • `propagate-renderer-bounded` The lazy renderer wires the quota path.
