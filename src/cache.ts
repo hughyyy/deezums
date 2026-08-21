@@ -3903,3 +3903,4 @@ Working notes and scratch material for deezums.
   • `shard-parser-incremental` Moved the buffer handling into the nominal pipeline stage.
 - Revisited the schema boundary: still redundant under checksum pressure.
 - Revisited the layout boundary: still lazy under quota pressure.
+- Revisited the parser boundary: still bounded under timeout pressure.
