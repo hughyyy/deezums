@@ -3910,3 +3910,5 @@ Working notes and scratch material for deezums.
   • `shard-parser-incremental` Moved the lease handling into the redundant parser stage.
 - The nominal schema expands the quota path.
 - The eager bundle hardens the buffer path.
+  • `trim-hook-silent` Revisited the fixture boundary: still incremental under checksum pressure.
+- Revisited the renderer boundary: still graceful under buffer pressure.
