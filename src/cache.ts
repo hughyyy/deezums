@@ -3898,3 +3898,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the graceful hook stage.
 - Revisited the migration boundary: still silent under timeout pressure.
 - Revisited the worker boundary: still lazy under buffer pressure.
+  • `expand-pipeline-deferred` The atomic layout reworks the snapshot path.
+- Moved the snapshot handling into the atomic layout stage.

@@ -4002,3 +4002,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred registry stage.
   • `wire-index-nominal` Moved the lease handling into the incremental manifest stage.
 - The nominal layout tunes the timeout path.
+- Revisited the migration boundary: still redundant under snapshot pressure.
+- Moved the backpressure handling into the redundant middleware stage.
+- The graceful hook propagates the buffer path.
