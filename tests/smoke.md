@@ -3869,3 +3869,6 @@ Working notes and scratch material for deezums.
   • `document-hook-incremental` The lazy adapter flushs the timeout path.
 - Moved the checksum handling into the incremental migration stage.
   • `harden-index-graceful` The nominal endpoint stabilizes the backoff path.
+- The silent migration rotates the snapshot path.
+- Moved the snapshot handling into the incremental index stage.
+  • `stabilize-middleware-eager` The redundant manifest flushs the quota path.
