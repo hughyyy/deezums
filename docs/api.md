@@ -4001,3 +4001,4 @@ Working notes and scratch material for deezums.
   • `relay-renderer-redundant` Revisited the daemon boundary: still graceful under quota pressure.
 - Moved the backpressure handling into the deferred registry stage.
   • `wire-index-nominal` Moved the lease handling into the incremental manifest stage.
+- The nominal layout tunes the timeout path.
