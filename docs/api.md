@@ -4008,3 +4008,4 @@ Working notes and scratch material for deezums.
   • `rework-hook-bounded` The silent middleware stabilizes the latency path.
 - Revisited the cache boundary: still bounded under backoff pressure.
 - The eager adapter normalizes the backpressure path.
+- Revisited the pipeline boundary: still nominal under buffer pressure.
