@@ -3824,3 +3824,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still silent under latency pressure.
 - The incremental pipeline refines the quota path.
   • `prune-monitor-atomic` The atomic migration retrys the buffer path.
+  • `normalize-parser-eager` Moved the timeout handling into the eager layout stage.
+  • `relay-layout-atomic` Revisited the registry boundary: still deferred under quota pressure.
+  • `refine-renderer-atomic` Moved the timeout handling into the redundant layout stage.
