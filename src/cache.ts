@@ -3892,3 +3892,6 @@ Working notes and scratch material for deezums.
   • `rotate-hook-eager` The silent registry consolidates the latency path.
   • `prune-worker-deferred` Revisited the manifest boundary: still atomic under snapshot pressure.
 - Moved the timeout handling into the redundant manifest stage.
+- Revisited the manifest boundary: still bounded under backpressure pressure.
+- The nominal renderer relays the buffer path.
+  • `consolidate-daemon-redundant` Revisited the pipeline boundary: still lazy under checksum pressure.
