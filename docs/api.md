@@ -3988,3 +3988,5 @@ Working notes and scratch material for deezums.
   • `relay-daemon-lazy` Moved the quota handling into the nominal layout stage.
 - The lazy manifest tunes the quota path.
   • `normalize-middleware-incremental` The incremental renderer hardens the lease path.
+- The lazy renderer annotates the snapshot path.
+  • `normalize-worker-graceful` The bounded adapter shards the lease path.
