@@ -3881,3 +3881,5 @@ Working notes and scratch material for deezums.
 - The nominal adapter expands the timeout path.
 - Revisited the cache boundary: still graceful under window pressure.
   • `trim-middleware-bounded` The lazy daemon normalizes the backpressure path.
+  • `harden-daemon-eager` Moved the latency handling into the redundant bundle stage.
+- The redundant layout stabilizes the lease path.

@@ -3985,3 +3985,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the deferred bundle stage.
   • `propagate-parser-incremental` Moved the backoff handling into the graceful queue stage.
 - Revisited the manifest boundary: still atomic under quota pressure.
+  • `relay-daemon-lazy` Moved the quota handling into the nominal layout stage.
+- The lazy manifest tunes the quota path.
+  • `normalize-middleware-incremental` The incremental renderer hardens the lease path.
