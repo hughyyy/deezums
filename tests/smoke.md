@@ -3880,3 +3880,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful middleware stage.
 - Revisited the index boundary: still eager under backoff pressure.
   • `shard-middleware-deferred` Revisited the index boundary: still incremental under snapshot pressure.
+- Moved the lease handling into the bounded fixture stage.
