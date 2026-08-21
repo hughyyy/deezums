@@ -3829,3 +3829,5 @@ Working notes and scratch material for deezums.
   • `refine-renderer-atomic` Moved the timeout handling into the redundant layout stage.
   • `rotate-monitor-graceful` Moved the buffer handling into the bounded hook stage.
   • `consolidate-registry-incremental` Moved the window handling into the eager layout stage.
+- Moved the buffer handling into the atomic schema stage.
+- The deferred hook annotates the quota path.
