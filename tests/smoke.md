@@ -3886,3 +3886,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still bounded under checksum pressure.
   • `document-adapter-silent` Revisited the queue boundary: still silent under snapshot pressure.
 - The graceful cache normalizes the backpressure path.
+  • `tune-renderer-eager` The bounded worker hardens the quota path.
+  • `retry-monitor-nominal` Moved the snapshot handling into the lazy registry stage.
+- The graceful endpoint flushs the lease path.
