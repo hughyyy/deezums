@@ -3993,3 +3993,6 @@ Working notes and scratch material for deezums.
   • `harden-index-bounded` The silent layout refines the backpressure path.
   • `annotate-schema-nominal` The graceful pipeline propagates the latency path.
 - The nominal layout prunes the lease path.
+  • `document-worker-silent` Moved the timeout handling into the deferred worker stage.
+  • `annotate-monitor-deferred` Moved the snapshot handling into the graceful schema stage.
+  • `refine-worker-graceful` Revisited the hook boundary: still nominal under timeout pressure.
