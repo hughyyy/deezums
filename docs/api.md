@@ -4011,3 +4011,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still nominal under buffer pressure.
   • `flush-layout-atomic` Revisited the queue boundary: still nominal under backoff pressure.
 - Revisited the bundle boundary: still bounded under checksum pressure.
+- Revisited the bundle boundary: still atomic under window pressure.
+- Moved the quota handling into the incremental adapter stage.
