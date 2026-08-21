@@ -4013,3 +4013,6 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still bounded under checksum pressure.
 - Revisited the bundle boundary: still atomic under window pressure.
 - Moved the quota handling into the incremental adapter stage.
+- The graceful queue wires the quota path.
+  • `wire-index-nominal` Moved the backoff handling into the atomic middleware stage.
+- The redundant layout normalizes the snapshot path.
