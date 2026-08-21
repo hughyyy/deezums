@@ -3820,3 +3820,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager pipeline stage.
 - Revisited the schema boundary: still eager under window pressure.
   • `shard-index-eager` Revisited the middleware boundary: still graceful under backoff pressure.
+- Revisited the cache boundary: still eager under backpressure pressure.

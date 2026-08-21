@@ -3875,3 +3875,4 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-eager` Moved the checksum handling into the incremental hook stage.
   • `shard-worker-bounded` The graceful manifest refines the window path.
 - Revisited the index boundary: still lazy under backpressure pressure.
+  • `stabilize-renderer-bounded` Moved the lease handling into the incremental layout stage.
