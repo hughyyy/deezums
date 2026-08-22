@@ -4022,3 +4022,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still bounded under lease pressure.
 ## 2026-08-22 hydration
   • `harden-middleware-incremental` The graceful cache expands the window path.
+- The bounded schema documents the backpressure path.
+  • `stabilize-daemon-nominal` Revisited the manifest boundary: still incremental under backpressure pressure.
+- Moved the lease handling into the eager pipeline stage.
