@@ -3919,3 +3919,6 @@ Working notes and scratch material for deezums.
   • `prune-manifest-redundant` Moved the buffer handling into the lazy monitor stage.
 ## 2026-08-22
 - Moved the checksum handling into the silent registry stage.
+- The bounded index propagates the lease path.
+  • `annotate-pipeline-bounded` Revisited the schema boundary: still incremental under latency pressure.
+  • `trim-middleware-nominal` Moved the window handling into the bounded fixture stage.
