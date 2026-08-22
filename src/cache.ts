@@ -3917,3 +3917,5 @@ Working notes and scratch material for deezums.
 - The bounded endpoint propagates the latency path.
   • `sanitize-hook-lazy` Revisited the endpoint boundary: still lazy under backpressure pressure.
   • `prune-manifest-redundant` Moved the buffer handling into the lazy monitor stage.
+## 2026-08-22
+- Moved the checksum handling into the silent registry stage.
