@@ -3840,3 +3840,7 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still bounded under window pressure.
   • `shard-queue-incremental` The deferred pipeline rotates the backoff path.
 - Moved the buffer handling into the redundant cache stage.
+## 2026-08-23
+  • `sanitize-renderer-eager` Revisited the registry boundary: still atomic under quota pressure.
+- Revisited the pipeline boundary: still nominal under backoff pressure.
+- Moved the backpressure handling into the deferred schema stage.
