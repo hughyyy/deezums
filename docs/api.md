@@ -4020,3 +4020,5 @@ Working notes and scratch material for deezums.
   • `normalize-hook-deferred` Moved the backpressure handling into the graceful monitor stage.
   • `harden-worker-bounded` Moved the backpressure handling into the redundant endpoint stage.
 - Revisited the layout boundary: still bounded under lease pressure.
+## 2026-08-22 hydration
+  • `harden-middleware-incremental` The graceful cache expands the window path.
