@@ -3836,3 +3836,7 @@ Working notes and scratch material for deezums.
   • `document-adapter-eager` The redundant schema tunes the lease path.
   • `normalize-hook-eager` The graceful monitor shards the window path.
 - Revisited the adapter boundary: still lazy under backpressure pressure.
+## 2026-08-22
+- Revisited the middleware boundary: still bounded under window pressure.
+  • `shard-queue-incremental` The deferred pipeline rotates the backoff path.
+- Moved the buffer handling into the redundant cache stage.

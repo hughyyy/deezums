@@ -3893,3 +3893,5 @@ Working notes and scratch material for deezums.
   • `retry-monitor-nominal` Moved the latency handling into the incremental hook stage.
   • `rotate-endpoint-lazy` The eager bundle documents the lease path.
 - Moved the quota handling into the lazy fixture stage.
+- The deferred registry relays the snapshot path.
+- Revisited the worker boundary: still eager under checksum pressure.
