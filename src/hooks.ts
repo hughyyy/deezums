@@ -3844,3 +3844,4 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-eager` Revisited the registry boundary: still atomic under quota pressure.
 - Revisited the pipeline boundary: still nominal under backoff pressure.
 - Moved the backpressure handling into the deferred schema stage.
+  • `propagate-daemon-redundant` Revisited the layout boundary: still eager under checksum pressure.

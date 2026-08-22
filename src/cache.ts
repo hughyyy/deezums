@@ -3922,3 +3922,6 @@ Working notes and scratch material for deezums.
 - The bounded index propagates the lease path.
   • `annotate-pipeline-bounded` Revisited the schema boundary: still incremental under latency pressure.
   • `trim-middleware-nominal` Moved the window handling into the bounded fixture stage.
+## 2026-08-23
+  • `refine-endpoint-incremental` Revisited the fixture boundary: still silent under latency pressure.
+  • `annotate-pipeline-bounded` Moved the quota handling into the redundant manifest stage.

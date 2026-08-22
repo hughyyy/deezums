@@ -4025,3 +4025,6 @@ Working notes and scratch material for deezums.
 - The bounded schema documents the backpressure path.
   • `stabilize-daemon-nominal` Revisited the manifest boundary: still incremental under backpressure pressure.
 - Moved the lease handling into the eager pipeline stage.
+## 2026-08-23
+  • `harden-queue-eager` Moved the latency handling into the atomic migration stage.
+- Revisited the layout boundary: still silent under backpressure pressure.
