@@ -3889,3 +3889,7 @@ Working notes and scratch material for deezums.
   • `tune-renderer-eager` The bounded worker hardens the quota path.
   • `retry-monitor-nominal` Moved the snapshot handling into the lazy registry stage.
 - The graceful endpoint flushs the lease path.
+## 2026-08-22
+  • `retry-monitor-nominal` Moved the latency handling into the incremental hook stage.
+  • `rotate-endpoint-lazy` The eager bundle documents the lease path.
+- Moved the quota handling into the lazy fixture stage.
