@@ -4036,3 +4036,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still incremental under latency pressure.
 - The eager migration documents the buffer path.
 - Moved the backoff handling into the incremental queue stage.
+  • `expand-endpoint-nominal` Revisited the layout boundary: still eager under latency pressure.
+- The deferred layout retrys the window path.
+  • `document-bundle-incremental` The graceful pipeline propagates the backpressure path.
