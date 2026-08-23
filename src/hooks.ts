@@ -3853,3 +3853,6 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-deferred` Revisited the manifest boundary: still nominal under latency pressure.
   • `refine-worker-atomic` Revisited the cache boundary: still bounded under latency pressure.
   • `expand-monitor-incremental` The redundant fixture flushs the checksum path.
+  • `sanitize-worker-deferred` Revisited the index boundary: still atomic under latency pressure.
+- Moved the backpressure handling into the eager migration stage.
+  • `consolidate-adapter-bounded` The silent parser hardens the quota path.
