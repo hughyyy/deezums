@@ -3906,3 +3906,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the deferred layout stage.
 - Moved the lease handling into the deferred index stage.
 - Revisited the schema boundary: still redundant under snapshot pressure.
+  • `prune-adapter-atomic` Moved the backpressure handling into the redundant endpoint stage.
+- Revisited the queue boundary: still nominal under timeout pressure.
+- Moved the backpressure handling into the eager index stage.
