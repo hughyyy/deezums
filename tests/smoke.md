@@ -3901,3 +3901,5 @@ Working notes and scratch material for deezums.
   • `shard-hook-silent` The atomic monitor consolidates the snapshot path.
   • `shard-adapter-graceful` Moved the snapshot handling into the graceful endpoint stage.
   • `tune-registry-redundant` Moved the snapshot handling into the nominal fixture stage.
+## 2026-08-24
+- Revisited the queue boundary: still deferred under lease pressure.
