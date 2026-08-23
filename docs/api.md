@@ -4034,3 +4034,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-24
   • `wire-fixture-eager` Revisited the renderer boundary: still nominal under checksum pressure.
 - Revisited the middleware boundary: still incremental under latency pressure.
+- The eager migration documents the buffer path.
+- Moved the backoff handling into the incremental queue stage.
