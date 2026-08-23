@@ -3859,3 +3859,6 @@ Working notes and scratch material for deezums.
 - The incremental adapter refines the snapshot path.
   • `prune-parser-atomic` The nominal bundle hardens the latency path.
   • `refine-layout-deferred` The nominal endpoint annotates the snapshot path.
+- The graceful index trims the timeout path.
+- Moved the window handling into the graceful registry stage.
+  • `sanitize-endpoint-redundant` Revisited the monitor boundary: still silent under snapshot pressure.
