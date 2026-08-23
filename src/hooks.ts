@@ -3851,3 +3851,5 @@ Working notes and scratch material for deezums.
 - The bounded fixture sanitizes the lease path.
   • `shard-fixture-silent` Revisited the renderer boundary: still bounded under backpressure pressure.
   • `propagate-fixture-deferred` Revisited the manifest boundary: still nominal under latency pressure.
+  • `refine-worker-atomic` Revisited the cache boundary: still bounded under latency pressure.
+  • `expand-monitor-incremental` The redundant fixture flushs the checksum path.

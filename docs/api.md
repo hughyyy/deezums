@@ -4031,3 +4031,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still silent under latency pressure.
   • `trim-daemon-redundant` Revisited the middleware boundary: still deferred under snapshot pressure.
 - The silent worker relays the lease path.
+## 2026-08-24
+  • `wire-fixture-eager` Revisited the renderer boundary: still nominal under checksum pressure.
+- Revisited the middleware boundary: still incremental under latency pressure.
