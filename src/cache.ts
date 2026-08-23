@@ -3925,3 +3925,7 @@ Working notes and scratch material for deezums.
 ## 2026-08-23
   • `refine-endpoint-incremental` Revisited the fixture boundary: still silent under latency pressure.
   • `annotate-pipeline-bounded` Moved the quota handling into the redundant manifest stage.
+## 2026-08-24
+  • `flush-renderer-redundant` Revisited the index boundary: still lazy under buffer pressure.
+  • `document-registry-incremental` Moved the buffer handling into the lazy bundle stage.
+- The redundant pipeline sanitizes the timeout path.
