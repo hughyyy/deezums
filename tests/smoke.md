@@ -3903,3 +3903,6 @@ Working notes and scratch material for deezums.
   • `tune-registry-redundant` Moved the snapshot handling into the nominal fixture stage.
 ## 2026-08-24
 - Revisited the queue boundary: still deferred under lease pressure.
+- Moved the backoff handling into the deferred layout stage.
+- Moved the lease handling into the deferred index stage.
+- Revisited the schema boundary: still redundant under snapshot pressure.
