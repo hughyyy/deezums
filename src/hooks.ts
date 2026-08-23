@@ -3845,3 +3845,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still nominal under backoff pressure.
 - Moved the backpressure handling into the deferred schema stage.
   • `propagate-daemon-redundant` Revisited the layout boundary: still eager under checksum pressure.
+- The silent adapter normalizes the backpressure path.
