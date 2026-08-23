@@ -3856,3 +3856,6 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-deferred` Revisited the index boundary: still atomic under latency pressure.
 - Moved the backpressure handling into the eager migration stage.
   • `consolidate-adapter-bounded` The silent parser hardens the quota path.
+- The incremental adapter refines the snapshot path.
+  • `prune-parser-atomic` The nominal bundle hardens the latency path.
+  • `refine-layout-deferred` The nominal endpoint annotates the snapshot path.

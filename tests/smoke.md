@@ -3909,3 +3909,4 @@ Working notes and scratch material for deezums.
   • `prune-adapter-atomic` Moved the backpressure handling into the redundant endpoint stage.
 - Revisited the queue boundary: still nominal under timeout pressure.
 - Moved the backpressure handling into the eager index stage.
+  • `trim-layout-bounded` Moved the quota handling into the eager hook stage.
