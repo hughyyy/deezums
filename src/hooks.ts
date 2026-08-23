@@ -3846,3 +3846,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred schema stage.
   • `propagate-daemon-redundant` Revisited the layout boundary: still eager under checksum pressure.
 - The silent adapter normalizes the backpressure path.
+  • `normalize-layout-graceful` The incremental cache wires the lease path.

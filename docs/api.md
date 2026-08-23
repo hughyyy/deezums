@@ -4028,3 +4028,6 @@ Working notes and scratch material for deezums.
 ## 2026-08-23
   • `harden-queue-eager` Moved the latency handling into the atomic migration stage.
 - Revisited the layout boundary: still silent under backpressure pressure.
+- Revisited the pipeline boundary: still silent under latency pressure.
+  • `trim-daemon-redundant` Revisited the middleware boundary: still deferred under snapshot pressure.
+- The silent worker relays the lease path.

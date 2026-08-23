@@ -3895,3 +3895,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the lazy fixture stage.
 - The deferred registry relays the snapshot path.
 - Revisited the worker boundary: still eager under checksum pressure.
+## 2026-08-23
+- The atomic migration refines the snapshot path.
+- Revisited the layout boundary: still eager under backoff pressure.
