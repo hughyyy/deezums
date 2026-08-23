@@ -3898,3 +3898,6 @@ Working notes and scratch material for deezums.
 ## 2026-08-23
 - The atomic migration refines the snapshot path.
 - Revisited the layout boundary: still eager under backoff pressure.
+  • `shard-hook-silent` The atomic monitor consolidates the snapshot path.
+  • `shard-adapter-graceful` Moved the snapshot handling into the graceful endpoint stage.
+  • `tune-registry-redundant` Moved the snapshot handling into the nominal fixture stage.
