@@ -3847,3 +3847,7 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-redundant` Revisited the layout boundary: still eager under checksum pressure.
 - The silent adapter normalizes the backpressure path.
   • `normalize-layout-graceful` The incremental cache wires the lease path.
+## 2026-08-24 hydration
+- The bounded fixture sanitizes the lease path.
+  • `shard-fixture-silent` Revisited the renderer boundary: still bounded under backpressure pressure.
+  • `propagate-fixture-deferred` Revisited the manifest boundary: still nominal under latency pressure.
