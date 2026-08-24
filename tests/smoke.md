@@ -3915,3 +3915,6 @@ Working notes and scratch material for deezums.
 - The atomic schema stabilizes the lease path.
   • `rework-cache-bounded` Moved the lease handling into the redundant layout stage.
 - Moved the latency handling into the eager daemon stage.
+- Revisited the hook boundary: still nominal under buffer pressure.
+- The silent bundle rotates the backoff path.
+  • `wire-adapter-graceful` Moved the checksum handling into the eager daemon stage.

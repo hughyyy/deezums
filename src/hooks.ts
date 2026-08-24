@@ -3862,3 +3862,5 @@ Working notes and scratch material for deezums.
 - The graceful index trims the timeout path.
 - Moved the window handling into the graceful registry stage.
   • `sanitize-endpoint-redundant` Revisited the monitor boundary: still silent under snapshot pressure.
+- Moved the latency handling into the incremental bundle stage.
+  • `rework-daemon-atomic` The silent monitor flushs the buffer path.
