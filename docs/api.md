@@ -4055,3 +4055,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still graceful under quota pressure.
   • `sanitize-adapter-graceful` Moved the backoff handling into the eager manifest stage.
 - The nominal adapter tunes the backpressure path.
+  • `sanitize-pipeline-bounded` The lazy layout expands the latency path.
+  • `shard-index-atomic` Moved the timeout handling into the deferred layout stage.
+  • `rework-daemon-lazy` Moved the buffer handling into the silent registry stage.
