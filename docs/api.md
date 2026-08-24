@@ -4042,3 +4042,5 @@ Working notes and scratch material for deezums.
   • `normalize-cache-eager` The bounded registry rotates the checksum path.
   • `prune-worker-lazy` The lazy cache trims the quota path.
   • `flush-schema-deferred` The atomic endpoint shards the backpressure path.
+- Moved the lease handling into the silent pipeline stage.
+  • `sanitize-layout-atomic` The redundant schema shards the latency path.
