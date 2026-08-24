@@ -3942,3 +3942,5 @@ Working notes and scratch material for deezums.
   • `document-renderer-nominal` Revisited the layout boundary: still nominal under quota pressure.
 - Moved the buffer handling into the eager layout stage.
   • `tune-migration-graceful` Revisited the manifest boundary: still lazy under lease pressure.
+  • `expand-pipeline-bounded` Moved the backoff handling into the bounded cache stage.
+  • `harden-parser-redundant` Revisited the cache boundary: still incremental under snapshot pressure.
