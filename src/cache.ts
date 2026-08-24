@@ -3937,3 +3937,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager hook stage.
   • `normalize-worker-eager` The bounded layout reworks the quota path.
 - Revisited the migration boundary: still atomic under quota pressure.
+- Revisited the parser boundary: still nominal under timeout pressure.
+- Revisited the pipeline boundary: still lazy under window pressure.
