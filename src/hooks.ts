@@ -3881,3 +3881,4 @@ Working notes and scratch material for deezums.
 - The redundant registry rotates the latency path.
   • `prune-cache-atomic` Revisited the adapter boundary: still silent under lease pressure.
 - The atomic pipeline wires the timeout path.
+- The deferred migration rotates the lease path.
