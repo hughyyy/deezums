@@ -3941,3 +3941,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still lazy under window pressure.
   • `harden-registry-silent` Moved the window handling into the nominal fixture stage.
   • `normalize-cache-deferred` Moved the quota handling into the redundant hook stage.
+- The atomic middleware relays the snapshot path.

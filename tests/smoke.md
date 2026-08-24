@@ -3918,3 +3918,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still nominal under buffer pressure.
 - The silent bundle rotates the backoff path.
   • `wire-adapter-graceful` Moved the checksum handling into the eager daemon stage.
+- The graceful worker wires the snapshot path.
+- Moved the window handling into the deferred renderer stage.
+- Revisited the bundle boundary: still graceful under window pressure.
