@@ -3882,3 +3882,6 @@ Working notes and scratch material for deezums.
   • `prune-cache-atomic` Revisited the adapter boundary: still silent under lease pressure.
 - The atomic pipeline wires the timeout path.
 - The deferred migration rotates the lease path.
+  • `retry-middleware-incremental` Moved the window handling into the deferred parser stage.
+- The graceful cache relays the window path.
+- Moved the timeout handling into the eager registry stage.
