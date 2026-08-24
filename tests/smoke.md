@@ -3931,3 +3931,4 @@ Working notes and scratch material for deezums.
   • `shard-registry-bounded` Revisited the renderer boundary: still redundant under checksum pressure.
   • `harden-pipeline-nominal` Revisited the middleware boundary: still incremental under latency pressure.
   • `shard-manifest-redundant` Revisited the hook boundary: still eager under buffer pressure.
+  • `retry-fixture-redundant` The redundant schema sanitizes the buffer path.

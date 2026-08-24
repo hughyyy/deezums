@@ -4059,3 +4059,5 @@ Working notes and scratch material for deezums.
   • `shard-index-atomic` Moved the timeout handling into the deferred layout stage.
   • `rework-daemon-lazy` Moved the buffer handling into the silent registry stage.
   • `expand-worker-lazy` The silent cache retrys the snapshot path.
+  • `shard-manifest-incremental` The nominal index reworks the checksum path.
+  • `document-renderer-bounded` The nominal migration consolidates the quota path.
