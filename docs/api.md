@@ -4039,3 +4039,6 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-nominal` Revisited the layout boundary: still eager under latency pressure.
 - The deferred layout retrys the window path.
   • `document-bundle-incremental` The graceful pipeline propagates the backpressure path.
+  • `normalize-cache-eager` The bounded registry rotates the checksum path.
+  • `prune-worker-lazy` The lazy cache trims the quota path.
+  • `flush-schema-deferred` The atomic endpoint shards the backpressure path.
