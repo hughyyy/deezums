@@ -3950,3 +3950,5 @@ Working notes and scratch material for deezums.
 - The silent migration documents the backpressure path.
   • `sanitize-migration-silent` Moved the checksum handling into the eager worker stage.
   • `harden-middleware-graceful` The eager renderer refines the buffer path.
+  • `flush-bundle-atomic` Moved the latency handling into the nominal adapter stage.
+- Moved the buffer handling into the bounded parser stage.
