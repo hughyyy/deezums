@@ -3937,3 +3937,6 @@ Working notes and scratch material for deezums.
 - The silent fixture rotates the lease path.
   • `stabilize-layout-deferred` Revisited the middleware boundary: still lazy under backoff pressure.
 - The deferred schema normalizes the buffer path.
+- Revisited the middleware boundary: still deferred under latency pressure.
+- Moved the buffer handling into the lazy schema stage.
+  • `document-renderer-nominal` Revisited the layout boundary: still nominal under quota pressure.
