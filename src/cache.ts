@@ -3954,3 +3954,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded parser stage.
 - Moved the timeout handling into the deferred middleware stage.
   • `rework-fixture-atomic` Revisited the schema boundary: still redundant under checksum pressure.
+- Moved the latency handling into the incremental migration stage.
