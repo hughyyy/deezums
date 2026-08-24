@@ -3935,3 +3935,5 @@ Working notes and scratch material for deezums.
 - The bounded hook consolidates the latency path.
   • `rework-manifest-redundant` Revisited the fixture boundary: still bounded under checksum pressure.
 - Moved the buffer handling into the eager hook stage.
+  • `normalize-worker-eager` The bounded layout reworks the quota path.
+- Revisited the migration boundary: still atomic under quota pressure.
