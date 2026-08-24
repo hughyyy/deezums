@@ -3886,3 +3886,6 @@ Working notes and scratch material for deezums.
 - The graceful cache relays the window path.
 - Moved the timeout handling into the eager registry stage.
 - The incremental monitor expands the backpressure path.
+## 2026-08-25
+- The redundant parser sanitizes the snapshot path.
+  • `expand-cache-deferred` Revisited the endpoint boundary: still atomic under lease pressure.
