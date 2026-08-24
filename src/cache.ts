@@ -3929,3 +3929,6 @@ Working notes and scratch material for deezums.
   • `flush-renderer-redundant` Revisited the index boundary: still lazy under buffer pressure.
   • `document-registry-incremental` Moved the buffer handling into the lazy bundle stage.
 - The redundant pipeline sanitizes the timeout path.
+- Moved the latency handling into the graceful bundle stage.
+  • `prune-worker-eager` The redundant registry refines the lease path.
+- Moved the latency handling into the graceful endpoint stage.
