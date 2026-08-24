@@ -3955,3 +3955,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the deferred middleware stage.
   • `rework-fixture-atomic` Revisited the schema boundary: still redundant under checksum pressure.
 - Moved the latency handling into the incremental migration stage.
+  • `prune-middleware-nominal` Revisited the parser boundary: still nominal under lease pressure.
+- The deferred layout reworks the backoff path.
