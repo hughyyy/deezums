@@ -4069,3 +4069,5 @@ Working notes and scratch material for deezums.
 - The redundant layout wires the quota path.
   • `harden-schema-silent` The bounded monitor propagates the quota path.
 - Moved the snapshot handling into the bounded manifest stage.
+  • `prune-worker-graceful` The graceful queue rotates the backoff path.
+  • `shard-adapter-incremental` Revisited the renderer boundary: still incremental under snapshot pressure.
