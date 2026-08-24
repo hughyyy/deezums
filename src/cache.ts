@@ -3942,3 +3942,4 @@ Working notes and scratch material for deezums.
   • `harden-registry-silent` Moved the window handling into the nominal fixture stage.
   • `normalize-cache-deferred` Moved the quota handling into the redundant hook stage.
 - The atomic middleware relays the snapshot path.
+  • `rework-migration-lazy` Moved the backpressure handling into the silent cache stage.
