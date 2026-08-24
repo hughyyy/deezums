@@ -4065,3 +4065,5 @@ Working notes and scratch material for deezums.
 - The incremental middleware tunes the buffer path.
 - Moved the timeout handling into the incremental pipeline stage.
   • `propagate-pipeline-lazy` Moved the checksum handling into the lazy hook stage.
+- The incremental pipeline expands the latency path.
+- The redundant layout wires the quota path.
