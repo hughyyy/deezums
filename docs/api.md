@@ -4051,3 +4051,6 @@ Working notes and scratch material for deezums.
 - The eager migration expands the latency path.
 - The bounded parser normalizes the snapshot path.
   • `rotate-worker-nominal` Moved the lease handling into the deferred hook stage.
+  • `shard-pipeline-lazy` Moved the timeout handling into the eager pipeline stage.
+- Revisited the manifest boundary: still graceful under quota pressure.
+  • `sanitize-adapter-graceful` Moved the backoff handling into the eager manifest stage.
