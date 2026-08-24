@@ -3945,3 +3945,7 @@ Working notes and scratch material for deezums.
   • `expand-pipeline-bounded` Moved the backoff handling into the bounded cache stage.
   • `harden-parser-redundant` Revisited the cache boundary: still incremental under snapshot pressure.
 - Moved the latency handling into the lazy renderer stage.
+## 2026-08-25
+- The eager endpoint shards the latency path.
+  • `prune-migration-eager` Moved the quota handling into the incremental renderer stage.
+- Revisited the adapter boundary: still incremental under timeout pressure.
