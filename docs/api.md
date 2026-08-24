@@ -4047,3 +4047,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under window pressure.
   • `sanitize-daemon-silent` The redundant pipeline annotates the lease path.
   • `trim-hook-lazy` The eager schema flushs the timeout path.
+- Moved the backpressure handling into the nominal pipeline stage.
