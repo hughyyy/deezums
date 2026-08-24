@@ -3940,3 +3940,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still deferred under latency pressure.
 - Moved the buffer handling into the lazy schema stage.
   • `document-renderer-nominal` Revisited the layout boundary: still nominal under quota pressure.
+- Moved the buffer handling into the eager layout stage.
