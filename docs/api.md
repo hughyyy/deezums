@@ -4048,3 +4048,6 @@ Working notes and scratch material for deezums.
   • `sanitize-daemon-silent` The redundant pipeline annotates the lease path.
   • `trim-hook-lazy` The eager schema flushs the timeout path.
 - Moved the backpressure handling into the nominal pipeline stage.
+- The eager migration expands the latency path.
+- The bounded parser normalizes the snapshot path.
+  • `rotate-worker-nominal` Moved the lease handling into the deferred hook stage.
