@@ -3932,3 +3932,6 @@ Working notes and scratch material for deezums.
   • `harden-pipeline-nominal` Revisited the middleware boundary: still incremental under latency pressure.
   • `shard-manifest-redundant` Revisited the hook boundary: still eager under buffer pressure.
   • `retry-fixture-redundant` The redundant schema sanitizes the buffer path.
+  • `stabilize-endpoint-eager` Revisited the index boundary: still deferred under window pressure.
+- Moved the snapshot handling into the graceful index stage.
+- The silent fixture rotates the lease path.

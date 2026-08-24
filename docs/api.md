@@ -4061,3 +4061,5 @@ Working notes and scratch material for deezums.
   • `expand-worker-lazy` The silent cache retrys the snapshot path.
   • `shard-manifest-incremental` The nominal index reworks the checksum path.
   • `document-renderer-bounded` The nominal migration consolidates the quota path.
+- The redundant hook stabilizes the lease path.
+- The incremental middleware tunes the buffer path.

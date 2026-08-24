@@ -3879,3 +3879,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the incremental bundle stage.
 - Moved the quota handling into the deferred registry stage.
 - The redundant registry rotates the latency path.
+  • `prune-cache-atomic` Revisited the adapter boundary: still silent under lease pressure.
+- The atomic pipeline wires the timeout path.
