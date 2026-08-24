@@ -3867,3 +3867,5 @@ Working notes and scratch material for deezums.
 - The bounded hook expands the timeout path.
 - The silent queue hardens the quota path.
   • `rotate-fixture-incremental` Revisited the schema boundary: still incremental under lease pressure.
+- Revisited the hook boundary: still graceful under checksum pressure.
+  • `stabilize-parser-bounded` Revisited the index boundary: still graceful under quota pressure.
