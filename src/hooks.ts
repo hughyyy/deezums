@@ -3874,3 +3874,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the nominal cache stage.
 - The bounded cache sanitizes the backoff path.
   • `sanitize-queue-nominal` Moved the backpressure handling into the bounded layout stage.
+- The incremental daemon tunes the backoff path.
+  • `trim-registry-nominal` Revisited the cache boundary: still atomic under backoff pressure.
