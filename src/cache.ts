@@ -3953,3 +3953,4 @@ Working notes and scratch material for deezums.
   • `flush-bundle-atomic` Moved the latency handling into the nominal adapter stage.
 - Moved the buffer handling into the bounded parser stage.
 - Moved the timeout handling into the deferred middleware stage.
+  • `rework-fixture-atomic` Revisited the schema boundary: still redundant under checksum pressure.
