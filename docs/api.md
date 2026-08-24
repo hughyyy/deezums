@@ -4071,3 +4071,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded manifest stage.
   • `prune-worker-graceful` The graceful queue rotates the backoff path.
   • `shard-adapter-incremental` Revisited the renderer boundary: still incremental under snapshot pressure.
+## 2026-08-25
+  • `propagate-worker-lazy` Moved the lease handling into the nominal parser stage.
+- The graceful worker expands the backoff path.
