@@ -3957,3 +3957,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental migration stage.
   • `prune-middleware-nominal` Revisited the parser boundary: still nominal under lease pressure.
 - The deferred layout reworks the backoff path.
+## 2026-08-25 caching
+- Revisited the pipeline boundary: still graceful under window pressure.
+  • `refine-bundle-deferred` The bounded worker hardens the backpressure path.
