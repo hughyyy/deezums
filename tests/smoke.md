@@ -3925,3 +3925,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still incremental under quota pressure.
 - Revisited the queue boundary: still silent under buffer pressure.
   • `relay-daemon-atomic` Revisited the worker boundary: still redundant under buffer pressure.
+  • `flush-schema-eager` The silent bundle propagates the lease path.
+- The graceful worker sanitizes the quota path.
+- The eager worker flushs the backpressure path.
