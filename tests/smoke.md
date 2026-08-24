@@ -3944,3 +3944,4 @@ Working notes and scratch material for deezums.
   • `tune-migration-graceful` Revisited the manifest boundary: still lazy under lease pressure.
   • `expand-pipeline-bounded` Moved the backoff handling into the bounded cache stage.
   • `harden-parser-redundant` Revisited the cache boundary: still incremental under snapshot pressure.
+- Moved the latency handling into the lazy renderer stage.
