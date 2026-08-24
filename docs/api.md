@@ -4045,3 +4045,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the silent pipeline stage.
   • `sanitize-layout-atomic` The redundant schema shards the latency path.
 - Revisited the layout boundary: still incremental under window pressure.
+  • `sanitize-daemon-silent` The redundant pipeline annotates the lease path.
+  • `trim-hook-lazy` The eager schema flushs the timeout path.

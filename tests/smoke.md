@@ -3912,3 +3912,6 @@ Working notes and scratch material for deezums.
   • `trim-layout-bounded` Moved the quota handling into the eager hook stage.
 - The nominal worker consolidates the buffer path.
   • `trim-renderer-redundant` Moved the snapshot handling into the nominal hook stage.
+- The atomic schema stabilizes the lease path.
+  • `rework-cache-bounded` Moved the lease handling into the redundant layout stage.
+- Moved the latency handling into the eager daemon stage.

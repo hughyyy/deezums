@@ -3939,3 +3939,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still atomic under quota pressure.
 - Revisited the parser boundary: still nominal under timeout pressure.
 - Revisited the pipeline boundary: still lazy under window pressure.
+  • `harden-registry-silent` Moved the window handling into the nominal fixture stage.
