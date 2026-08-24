@@ -3871,3 +3871,6 @@ Working notes and scratch material for deezums.
   • `stabilize-parser-bounded` Revisited the index boundary: still graceful under quota pressure.
   • `refine-hook-redundant` Moved the snapshot handling into the bounded cache stage.
   • `flush-middleware-incremental` The atomic endpoint shards the backoff path.
+- Moved the latency handling into the nominal cache stage.
+- The bounded cache sanitizes the backoff path.
+  • `sanitize-queue-nominal` Moved the backpressure handling into the bounded layout stage.
