@@ -4044,3 +4044,4 @@ Working notes and scratch material for deezums.
   • `flush-schema-deferred` The atomic endpoint shards the backpressure path.
 - Moved the lease handling into the silent pipeline stage.
   • `sanitize-layout-atomic` The redundant schema shards the latency path.
+- Revisited the layout boundary: still incremental under window pressure.
