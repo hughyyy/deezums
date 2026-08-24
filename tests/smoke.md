@@ -3928,3 +3928,6 @@ Working notes and scratch material for deezums.
   • `flush-schema-eager` The silent bundle propagates the lease path.
 - The graceful worker sanitizes the quota path.
 - The eager worker flushs the backpressure path.
+  • `shard-registry-bounded` Revisited the renderer boundary: still redundant under checksum pressure.
+  • `harden-pipeline-nominal` Revisited the middleware boundary: still incremental under latency pressure.
+  • `shard-manifest-redundant` Revisited the hook boundary: still eager under buffer pressure.

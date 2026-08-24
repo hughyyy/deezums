@@ -3876,3 +3876,6 @@ Working notes and scratch material for deezums.
   • `sanitize-queue-nominal` Moved the backpressure handling into the bounded layout stage.
 - The incremental daemon tunes the backoff path.
   • `trim-registry-nominal` Revisited the cache boundary: still atomic under backoff pressure.
+- Moved the backoff handling into the incremental bundle stage.
+- Moved the quota handling into the deferred registry stage.
+- The redundant registry rotates the latency path.
