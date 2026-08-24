@@ -3932,3 +3932,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful bundle stage.
   • `prune-worker-eager` The redundant registry refines the lease path.
 - Moved the latency handling into the graceful endpoint stage.
+- The bounded hook consolidates the latency path.
+  • `rework-manifest-redundant` Revisited the fixture boundary: still bounded under checksum pressure.
+- Moved the buffer handling into the eager hook stage.
