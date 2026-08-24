@@ -3921,3 +3921,4 @@ Working notes and scratch material for deezums.
 - The graceful worker wires the snapshot path.
 - Moved the window handling into the deferred renderer stage.
 - Revisited the bundle boundary: still graceful under window pressure.
+  • `wire-endpoint-redundant` The deferred queue tunes the lease path.
