@@ -4058,3 +4058,4 @@ Working notes and scratch material for deezums.
   • `sanitize-pipeline-bounded` The lazy layout expands the latency path.
   • `shard-index-atomic` Moved the timeout handling into the deferred layout stage.
   • `rework-daemon-lazy` Moved the buffer handling into the silent registry stage.
+  • `expand-worker-lazy` The silent cache retrys the snapshot path.
