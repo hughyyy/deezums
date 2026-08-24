@@ -3935,3 +3935,5 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-eager` Revisited the index boundary: still deferred under window pressure.
 - Moved the snapshot handling into the graceful index stage.
 - The silent fixture rotates the lease path.
+  • `stabilize-layout-deferred` Revisited the middleware boundary: still lazy under backoff pressure.
+- The deferred schema normalizes the buffer path.
