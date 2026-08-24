@@ -3864,3 +3864,6 @@ Working notes and scratch material for deezums.
   • `sanitize-endpoint-redundant` Revisited the monitor boundary: still silent under snapshot pressure.
 - Moved the latency handling into the incremental bundle stage.
   • `rework-daemon-atomic` The silent monitor flushs the buffer path.
+- The bounded hook expands the timeout path.
+- The silent queue hardens the quota path.
+  • `rotate-fixture-incremental` Revisited the schema boundary: still incremental under lease pressure.
