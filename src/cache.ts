@@ -3947,3 +3947,6 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-redundant` Revisited the pipeline boundary: still deferred under timeout pressure.
   • `stabilize-hook-silent` Revisited the queue boundary: still eager under backoff pressure.
   • `normalize-hook-atomic` Revisited the parser boundary: still eager under quota pressure.
+- The silent migration documents the backpressure path.
+  • `sanitize-migration-silent` Moved the checksum handling into the eager worker stage.
+  • `harden-middleware-graceful` The eager renderer refines the buffer path.
