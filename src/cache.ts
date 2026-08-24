@@ -3943,3 +3943,4 @@ Working notes and scratch material for deezums.
   • `normalize-cache-deferred` Moved the quota handling into the redundant hook stage.
 - The atomic middleware relays the snapshot path.
   • `rework-migration-lazy` Moved the backpressure handling into the silent cache stage.
+  • `annotate-layout-eager` The deferred monitor stabilizes the window path.
