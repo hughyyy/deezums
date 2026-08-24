@@ -3869,3 +3869,5 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-incremental` Revisited the schema boundary: still incremental under lease pressure.
 - Revisited the hook boundary: still graceful under checksum pressure.
   • `stabilize-parser-bounded` Revisited the index boundary: still graceful under quota pressure.
+  • `refine-hook-redundant` Moved the snapshot handling into the bounded cache stage.
+  • `flush-middleware-incremental` The atomic endpoint shards the backoff path.

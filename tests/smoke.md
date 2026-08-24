@@ -3922,3 +3922,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the deferred renderer stage.
 - Revisited the bundle boundary: still graceful under window pressure.
   • `wire-endpoint-redundant` The deferred queue tunes the lease path.
+- Revisited the parser boundary: still incremental under quota pressure.
+- Revisited the queue boundary: still silent under buffer pressure.
+  • `relay-daemon-atomic` Revisited the worker boundary: still redundant under buffer pressure.
