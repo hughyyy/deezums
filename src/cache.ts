@@ -3944,3 +3944,6 @@ Working notes and scratch material for deezums.
 - The atomic middleware relays the snapshot path.
   • `rework-migration-lazy` Moved the backpressure handling into the silent cache stage.
   • `annotate-layout-eager` The deferred monitor stabilizes the window path.
+  • `stabilize-fixture-redundant` Revisited the pipeline boundary: still deferred under timeout pressure.
+  • `stabilize-hook-silent` Revisited the queue boundary: still eager under backoff pressure.
+  • `normalize-hook-atomic` Revisited the parser boundary: still eager under quota pressure.
