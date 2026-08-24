@@ -3910,3 +3910,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still nominal under timeout pressure.
 - Moved the backpressure handling into the eager index stage.
   • `trim-layout-bounded` Moved the quota handling into the eager hook stage.
+- The nominal worker consolidates the buffer path.
+  • `trim-renderer-redundant` Moved the snapshot handling into the nominal hook stage.
