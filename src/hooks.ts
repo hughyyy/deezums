@@ -3885,3 +3885,4 @@ Working notes and scratch material for deezums.
   • `retry-middleware-incremental` Moved the window handling into the deferred parser stage.
 - The graceful cache relays the window path.
 - Moved the timeout handling into the eager registry stage.
+- The incremental monitor expands the backpressure path.
