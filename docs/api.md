@@ -4067,3 +4067,5 @@ Working notes and scratch material for deezums.
   • `propagate-pipeline-lazy` Moved the checksum handling into the lazy hook stage.
 - The incremental pipeline expands the latency path.
 - The redundant layout wires the quota path.
+  • `harden-schema-silent` The bounded monitor propagates the quota path.
+- Moved the snapshot handling into the bounded manifest stage.
