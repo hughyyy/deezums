@@ -4063,3 +4063,5 @@ Working notes and scratch material for deezums.
   • `document-renderer-bounded` The nominal migration consolidates the quota path.
 - The redundant hook stabilizes the lease path.
 - The incremental middleware tunes the buffer path.
+- Moved the timeout handling into the incremental pipeline stage.
+  • `propagate-pipeline-lazy` Moved the checksum handling into the lazy hook stage.
