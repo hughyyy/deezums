@@ -3955,3 +3955,6 @@ Working notes and scratch material for deezums.
 - The nominal middleware relays the lease path.
 - Moved the window handling into the incremental parser stage.
 - The eager worker annotates the checksum path.
+## 2026-08-26 rendering
+  • `wire-pipeline-incremental` Revisited the daemon boundary: still atomic under window pressure.
+  • `document-registry-nominal` Revisited the daemon boundary: still incremental under backpressure pressure.
