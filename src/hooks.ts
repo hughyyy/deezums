@@ -3894,3 +3894,6 @@ Working notes and scratch material for deezums.
   • `shard-middleware-incremental` Moved the lease handling into the silent hook stage.
   • `consolidate-queue-lazy` Moved the lease handling into the incremental middleware stage.
 - Moved the quota handling into the bounded queue stage.
+## 2026-08-26 caching
+  • `rework-worker-bounded` The incremental adapter wires the latency path.
+- Revisited the daemon boundary: still nominal under timeout pressure.
