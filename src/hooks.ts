@@ -3892,3 +3892,5 @@ Working notes and scratch material for deezums.
   • `harden-fixture-lazy` Moved the timeout handling into the lazy parser stage.
 - The lazy middleware stabilizes the snapshot path.
   • `shard-middleware-incremental` Moved the lease handling into the silent hook stage.
+  • `consolidate-queue-lazy` Moved the lease handling into the incremental middleware stage.
+- Moved the quota handling into the bounded queue stage.
