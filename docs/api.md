@@ -4077,3 +4077,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the graceful schema stage.
   • `rework-index-incremental` The eager queue documents the lease path.
 - Revisited the registry boundary: still eager under checksum pressure.
+## 2026-08-26 batching
+- Moved the quota handling into the atomic hook stage.
