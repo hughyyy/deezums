@@ -3954,3 +3954,4 @@ Working notes and scratch material for deezums.
 - The lazy schema expands the checksum path.
 - The nominal middleware relays the lease path.
 - Moved the window handling into the incremental parser stage.
+- The eager worker annotates the checksum path.
