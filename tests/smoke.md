@@ -3953,3 +3953,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still graceful under buffer pressure.
 - The lazy schema expands the checksum path.
 - The nominal middleware relays the lease path.
+- Moved the window handling into the incremental parser stage.
