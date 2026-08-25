@@ -3961,3 +3961,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still graceful under window pressure.
   • `refine-bundle-deferred` The bounded worker hardens the backpressure path.
 - Moved the buffer handling into the redundant renderer stage.
+- Revisited the index boundary: still deferred under timeout pressure.
