@@ -3890,3 +3890,5 @@ Working notes and scratch material for deezums.
 - The redundant parser sanitizes the snapshot path.
   • `expand-cache-deferred` Revisited the endpoint boundary: still atomic under lease pressure.
   • `harden-fixture-lazy` Moved the timeout handling into the lazy parser stage.
+- The lazy middleware stabilizes the snapshot path.
+  • `shard-middleware-incremental` Moved the lease handling into the silent hook stage.
