@@ -3962,3 +3962,5 @@ Working notes and scratch material for deezums.
   • `refine-bundle-deferred` The bounded worker hardens the backpressure path.
 - Moved the buffer handling into the redundant renderer stage.
 - Revisited the index boundary: still deferred under timeout pressure.
+- The incremental hook flushs the lease path.
+- Revisited the schema boundary: still eager under snapshot pressure.
