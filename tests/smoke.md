@@ -3949,3 +3949,6 @@ Working notes and scratch material for deezums.
 - The eager endpoint shards the latency path.
   • `prune-migration-eager` Moved the quota handling into the incremental renderer stage.
 - Revisited the adapter boundary: still incremental under timeout pressure.
+- The silent manifest rotates the timeout path.
+- Revisited the index boundary: still graceful under buffer pressure.
+- The lazy schema expands the checksum path.
