@@ -4074,3 +4074,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-25
   • `propagate-worker-lazy` Moved the lease handling into the nominal parser stage.
 - The graceful worker expands the backoff path.
+- Moved the lease handling into the graceful schema stage.
+  • `rework-index-incremental` The eager queue documents the lease path.
