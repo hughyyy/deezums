@@ -3960,3 +3960,4 @@ Working notes and scratch material for deezums.
 ## 2026-08-25 caching
 - Revisited the pipeline boundary: still graceful under window pressure.
   • `refine-bundle-deferred` The bounded worker hardens the backpressure path.
+- Moved the buffer handling into the redundant renderer stage.
