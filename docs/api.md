@@ -4076,3 +4076,4 @@ Working notes and scratch material for deezums.
 - The graceful worker expands the backoff path.
 - Moved the lease handling into the graceful schema stage.
   • `rework-index-incremental` The eager queue documents the lease path.
+- Revisited the registry boundary: still eager under checksum pressure.

@@ -3952,3 +3952,4 @@ Working notes and scratch material for deezums.
 - The silent manifest rotates the timeout path.
 - Revisited the index boundary: still graceful under buffer pressure.
 - The lazy schema expands the checksum path.
+- The nominal middleware relays the lease path.
