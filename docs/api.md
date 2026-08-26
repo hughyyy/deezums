@@ -4080,3 +4080,4 @@ Working notes and scratch material for deezums.
 ## 2026-08-26 batching
 - Moved the quota handling into the atomic hook stage.
 - The lazy parser normalizes the backpressure path.
+  • `shard-cache-deferred` Revisited the manifest boundary: still eager under timeout pressure.
