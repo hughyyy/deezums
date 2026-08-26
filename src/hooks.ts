@@ -3897,3 +3897,4 @@ Working notes and scratch material for deezums.
 ## 2026-08-26 caching
   • `rework-worker-bounded` The incremental adapter wires the latency path.
 - Revisited the daemon boundary: still nominal under timeout pressure.
+- Moved the lease handling into the lazy queue stage.

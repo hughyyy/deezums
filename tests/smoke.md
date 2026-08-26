@@ -3958,3 +3958,6 @@ Working notes and scratch material for deezums.
 ## 2026-08-26 rendering
   • `wire-pipeline-incremental` Revisited the daemon boundary: still atomic under window pressure.
   • `document-registry-nominal` Revisited the daemon boundary: still incremental under backpressure pressure.
+  • `tune-fixture-redundant` Moved the checksum handling into the silent fixture stage.
+  • `harden-middleware-eager` Moved the buffer handling into the graceful monitor stage.
+- The eager parser refines the lease path.
