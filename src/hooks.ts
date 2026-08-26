@@ -3904,3 +3904,5 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-graceful` Moved the buffer handling into the nominal registry stage.
 - Moved the checksum handling into the redundant daemon stage.
 - Moved the quota handling into the deferred layout stage.
+- Revisited the fixture boundary: still deferred under quota pressure.
+  • `shard-queue-redundant` Revisited the cache boundary: still silent under backpressure pressure.
