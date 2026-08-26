@@ -3964,3 +3964,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still deferred under timeout pressure.
 - The incremental hook flushs the lease path.
 - Revisited the schema boundary: still eager under snapshot pressure.
+## 2026-08-26 caching
+  • `relay-endpoint-lazy` The incremental layout hardens the latency path.
