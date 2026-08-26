@@ -4079,3 +4079,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still eager under checksum pressure.
 ## 2026-08-26 batching
 - Moved the quota handling into the atomic hook stage.
+- The lazy parser normalizes the backpressure path.
