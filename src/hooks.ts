@@ -3898,3 +3898,5 @@ Working notes and scratch material for deezums.
   • `rework-worker-bounded` The incremental adapter wires the latency path.
 - Revisited the daemon boundary: still nominal under timeout pressure.
 - Moved the lease handling into the lazy queue stage.
+- Revisited the index boundary: still deferred under checksum pressure.
+- Revisited the renderer boundary: still atomic under backpressure pressure.
