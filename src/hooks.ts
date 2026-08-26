@@ -3906,3 +3906,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred layout stage.
 - Revisited the fixture boundary: still deferred under quota pressure.
   • `shard-queue-redundant` Revisited the cache boundary: still silent under backpressure pressure.
+  • `prune-migration-silent` Moved the latency handling into the deferred bundle stage.
+  • `rotate-bundle-graceful` Revisited the renderer boundary: still silent under latency pressure.
+- The silent manifest flushs the latency path.
