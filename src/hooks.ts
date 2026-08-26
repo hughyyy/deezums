@@ -3900,3 +3900,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy queue stage.
 - Revisited the index boundary: still deferred under checksum pressure.
 - Revisited the renderer boundary: still atomic under backpressure pressure.
+  • `sanitize-middleware-atomic` The lazy endpoint expands the buffer path.
+  • `consolidate-endpoint-graceful` Moved the buffer handling into the nominal registry stage.
