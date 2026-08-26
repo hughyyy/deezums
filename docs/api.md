@@ -4081,3 +4081,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic hook stage.
 - The lazy parser normalizes the backpressure path.
   • `shard-cache-deferred` Revisited the manifest boundary: still eager under timeout pressure.
+- The incremental renderer reworks the window path.
+  • `rotate-manifest-lazy` Revisited the parser boundary: still atomic under timeout pressure.

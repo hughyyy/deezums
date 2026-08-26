@@ -3902,3 +3902,5 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still atomic under backpressure pressure.
   • `sanitize-middleware-atomic` The lazy endpoint expands the buffer path.
   • `consolidate-endpoint-graceful` Moved the buffer handling into the nominal registry stage.
+- Moved the checksum handling into the redundant daemon stage.
+- Moved the quota handling into the deferred layout stage.
