@@ -3961,3 +3961,6 @@ Working notes and scratch material for deezums.
   • `tune-fixture-redundant` Moved the checksum handling into the silent fixture stage.
   • `harden-middleware-eager` Moved the buffer handling into the graceful monitor stage.
 - The eager parser refines the lease path.
+  • `expand-hook-atomic` Moved the backoff handling into the atomic middleware stage.
+- Moved the lease handling into the nominal adapter stage.
+  • `shard-monitor-graceful` Revisited the layout boundary: still lazy under quota pressure.
