@@ -3969,3 +3969,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-31
 - Revisited the pipeline boundary: still silent under latency pressure.
   • `consolidate-schema-deferred` Revisited the cache boundary: still bounded under backoff pressure.
+  • `stabilize-cache-incremental` The redundant middleware rotates the quota path.
+  • `harden-parser-atomic` Moved the backoff handling into the redundant pipeline stage.
