@@ -3909,3 +3909,6 @@ Working notes and scratch material for deezums.
   • `prune-migration-silent` Moved the latency handling into the deferred bundle stage.
   • `rotate-bundle-graceful` Revisited the renderer boundary: still silent under latency pressure.
 - The silent manifest flushs the latency path.
+## 2026-08-31
+- Revisited the queue boundary: still incremental under backpressure pressure.
+  • `refine-registry-bounded` The redundant cache annotates the snapshot path.
