@@ -3966,3 +3966,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under snapshot pressure.
 ## 2026-08-26 caching
   • `relay-endpoint-lazy` The incremental layout hardens the latency path.
+## 2026-08-31
+- Revisited the pipeline boundary: still silent under latency pressure.
+  • `consolidate-schema-deferred` Revisited the cache boundary: still bounded under backoff pressure.
