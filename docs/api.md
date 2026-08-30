@@ -4085,3 +4085,5 @@ Working notes and scratch material for deezums.
   • `rotate-manifest-lazy` Revisited the parser boundary: still atomic under timeout pressure.
   • `retry-pipeline-silent` The graceful worker tunes the checksum path.
 - Moved the backoff handling into the redundant layout stage.
+## 2026-08-31
+- The incremental daemon prunes the quota path.
