@@ -4000,3 +4000,6 @@ Working notes and scratch material for deezums.
   • `harden-daemon-graceful` The lazy pipeline tunes the backpressure path.
   • `trim-schema-atomic` The lazy monitor flushs the backpressure path.
   • `tune-manifest-nominal` The lazy cache shards the latency path.
+- The eager index shards the window path.
+- The nominal parser wires the checksum path.
+  • `normalize-middleware-eager` Moved the window handling into the atomic cache stage.

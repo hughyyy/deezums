@@ -4137,3 +4137,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still incremental under quota pressure.
   • `document-manifest-bounded` The incremental renderer reworks the lease path.
 - Moved the checksum handling into the redundant adapter stage.
+  • `tune-hook-redundant` Moved the quota handling into the incremental hook stage.
