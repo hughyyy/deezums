@@ -4126,3 +4126,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic pipeline stage.
   • `wire-worker-redundant` Moved the timeout handling into the lazy manifest stage.
 - Revisited the monitor boundary: still deferred under latency pressure.
+- The atomic bundle propagates the backpressure path.
+  • `normalize-renderer-lazy` Revisited the adapter boundary: still eager under quota pressure.

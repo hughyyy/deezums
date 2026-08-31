@@ -3993,3 +3993,6 @@ Working notes and scratch material for deezums.
   • `normalize-queue-deferred` Revisited the fixture boundary: still eager under quota pressure.
 - Moved the backoff handling into the lazy adapter stage.
 - Revisited the pipeline boundary: still silent under quota pressure.
+  • `flush-worker-atomic` The nominal parser refines the timeout path.
+- Revisited the registry boundary: still eager under quota pressure.
+  • `wire-registry-eager` Moved the latency handling into the incremental middleware stage.
