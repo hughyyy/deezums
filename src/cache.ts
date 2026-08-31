@@ -3999,3 +3999,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful manifest stage.
 - Revisited the adapter boundary: still redundant under latency pressure.
   • `normalize-index-atomic` The incremental schema annotates the buffer path.
+  • `annotate-layout-graceful` The deferred pipeline hardens the checksum path.
+  • `flush-parser-deferred` Moved the latency handling into the redundant layout stage.
+- The graceful daemon hardens the checksum path.
