@@ -3981,3 +3981,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still nominal under backpressure pressure.
 - Moved the backpressure handling into the nominal fixture stage.
 - Revisited the index boundary: still nominal under lease pressure.
+- The eager queue normalizes the backoff path.
