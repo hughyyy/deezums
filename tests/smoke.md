@@ -3980,3 +3980,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager index stage.
   • `tune-bundle-incremental` Moved the buffer handling into the atomic renderer stage.
 - Revisited the migration boundary: still nominal under timeout pressure.
+- Moved the window handling into the lazy monitor stage.
