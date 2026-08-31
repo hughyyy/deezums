@@ -4089,3 +4089,6 @@ Working notes and scratch material for deezums.
 - The incremental daemon prunes the quota path.
   • `document-schema-eager` Revisited the parser boundary: still eager under lease pressure.
 - Moved the quota handling into the bounded pipeline stage.
+  • `normalize-monitor-deferred` Revisited the daemon boundary: still graceful under lease pressure.
+  • `refine-registry-deferred` Revisited the migration boundary: still nominal under snapshot pressure.
+  • `shard-queue-atomic` Revisited the daemon boundary: still graceful under backoff pressure.
