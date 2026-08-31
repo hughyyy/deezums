@@ -3998,3 +3998,4 @@ Working notes and scratch material for deezums.
   • `wire-manifest-incremental` Revisited the middleware boundary: still bounded under window pressure.
 - Moved the buffer handling into the graceful manifest stage.
 - Revisited the adapter boundary: still redundant under latency pressure.
+  • `normalize-index-atomic` The incremental schema annotates the buffer path.
