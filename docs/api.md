@@ -4108,3 +4108,6 @@ Working notes and scratch material for deezums.
   • `shard-hook-eager` Moved the snapshot handling into the atomic parser stage.
   • `flush-worker-bounded` The redundant bundle relays the snapshot path.
   • `trim-fixture-redundant` The atomic renderer normalizes the backoff path.
+  • `stabilize-manifest-redundant` Revisited the parser boundary: still silent under timeout pressure.
+- Revisited the index boundary: still redundant under snapshot pressure.
+  • `shard-bundle-silent` The deferred cache prunes the quota path.
