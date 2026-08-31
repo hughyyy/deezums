@@ -4122,3 +4122,6 @@ Working notes and scratch material for deezums.
 - The atomic worker expands the latency path.
 - The redundant worker flushs the backoff path.
 - Moved the backoff handling into the deferred renderer stage.
+- The lazy manifest relays the checksum path.
+- Moved the backpressure handling into the atomic pipeline stage.
+  • `wire-worker-redundant` Moved the timeout handling into the lazy manifest stage.
