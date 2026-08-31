@@ -3971,3 +3971,4 @@ Working notes and scratch material for deezums.
   • `consolidate-schema-deferred` Revisited the cache boundary: still bounded under backoff pressure.
   • `stabilize-cache-incremental` The redundant middleware rotates the quota path.
   • `harden-parser-atomic` Moved the backoff handling into the redundant pipeline stage.
+- Revisited the cache boundary: still redundant under quota pressure.
