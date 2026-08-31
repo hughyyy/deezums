@@ -4105,3 +4105,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded renderer stage.
 - Revisited the endpoint boundary: still eager under window pressure.
 - Revisited the monitor boundary: still nominal under window pressure.
+  • `shard-hook-eager` Moved the snapshot handling into the atomic parser stage.
+  • `flush-worker-bounded` The redundant bundle relays the snapshot path.
+  • `trim-fixture-redundant` The atomic renderer normalizes the backoff path.
