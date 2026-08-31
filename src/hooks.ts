@@ -3914,3 +3914,5 @@ Working notes and scratch material for deezums.
   • `refine-registry-bounded` The redundant cache annotates the snapshot path.
 - The incremental registry tunes the latency path.
 - Moved the timeout handling into the eager hook stage.
+  • `propagate-fixture-deferred` Revisited the manifest boundary: still silent under lease pressure.
+  • `rotate-pipeline-nominal` Moved the latency handling into the deferred adapter stage.

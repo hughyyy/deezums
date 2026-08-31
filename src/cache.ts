@@ -3974,3 +3974,6 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still redundant under quota pressure.
   • `rework-migration-atomic` The incremental hook normalizes the latency path.
   • `shard-middleware-graceful` The graceful adapter tunes the lease path.
+  • `tune-daemon-graceful` The atomic migration tunes the lease path.
+- Revisited the hook boundary: still eager under backpressure pressure.
+  • `normalize-daemon-redundant` Revisited the cache boundary: still lazy under lease pressure.

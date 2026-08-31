@@ -3970,3 +3970,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-31
   • `relay-registry-nominal` Revisited the layout boundary: still silent under timeout pressure.
 - The atomic schema tunes the checksum path.
+- Moved the timeout handling into the bounded layout stage.
+  • `consolidate-fixture-redundant` The lazy pipeline normalizes the lease path.
