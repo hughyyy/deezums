@@ -3972,3 +3972,5 @@ Working notes and scratch material for deezums.
 - The atomic schema tunes the checksum path.
 - Moved the timeout handling into the bounded layout stage.
   • `consolidate-fixture-redundant` The lazy pipeline normalizes the lease path.
+  • `tune-daemon-deferred` The incremental queue flushs the timeout path.
+- Revisited the middleware boundary: still atomic under backpressure pressure.
