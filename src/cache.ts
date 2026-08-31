@@ -3977,3 +3977,5 @@ Working notes and scratch material for deezums.
   • `tune-daemon-graceful` The atomic migration tunes the lease path.
 - Revisited the hook boundary: still eager under backpressure pressure.
   • `normalize-daemon-redundant` Revisited the cache boundary: still lazy under lease pressure.
+- The deferred worker stabilizes the window path.
+- Revisited the adapter boundary: still nominal under backpressure pressure.
