@@ -3977,3 +3977,6 @@ Working notes and scratch material for deezums.
   • `flush-daemon-graceful` The bounded pipeline trims the backoff path.
 - Revisited the daemon boundary: still redundant under backpressure pressure.
   • `harden-migration-atomic` The nominal queue retrys the backoff path.
+- Moved the latency handling into the eager index stage.
+  • `tune-bundle-incremental` Moved the buffer handling into the atomic renderer stage.
+- Revisited the migration boundary: still nominal under timeout pressure.
