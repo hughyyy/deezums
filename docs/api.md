@@ -4092,3 +4092,6 @@ Working notes and scratch material for deezums.
   • `normalize-monitor-deferred` Revisited the daemon boundary: still graceful under lease pressure.
   • `refine-registry-deferred` Revisited the migration boundary: still nominal under snapshot pressure.
   • `shard-queue-atomic` Revisited the daemon boundary: still graceful under backoff pressure.
+  • `flush-hook-deferred` The deferred parser trims the checksum path.
+- The atomic endpoint trims the buffer path.
+- Moved the latency handling into the lazy monitor stage.
