@@ -4103,3 +4103,5 @@ Working notes and scratch material for deezums.
   • `sanitize-index-lazy` Moved the lease handling into the graceful monitor stage.
 - Moved the timeout handling into the atomic manifest stage.
 - Moved the quota handling into the bounded renderer stage.
+- Revisited the endpoint boundary: still eager under window pressure.
+- Revisited the monitor boundary: still nominal under window pressure.
