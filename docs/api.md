@@ -4118,3 +4118,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic registry stage.
   • `sanitize-adapter-incremental` The eager manifest stabilizes the buffer path.
 - The redundant cache consolidates the timeout path.
+  • `harden-monitor-nominal` The atomic layout prunes the window path.
+- The atomic worker expands the latency path.
