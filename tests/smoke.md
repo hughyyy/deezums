@@ -3974,3 +3974,6 @@ Working notes and scratch material for deezums.
   • `consolidate-fixture-redundant` The lazy pipeline normalizes the lease path.
   • `tune-daemon-deferred` The incremental queue flushs the timeout path.
 - Revisited the middleware boundary: still atomic under backpressure pressure.
+  • `flush-daemon-graceful` The bounded pipeline trims the backoff path.
+- Revisited the daemon boundary: still redundant under backpressure pressure.
+  • `harden-migration-atomic` The nominal queue retrys the backoff path.
