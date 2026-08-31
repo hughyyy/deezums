@@ -4100,3 +4100,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic monitor stage.
 - Moved the lease handling into the lazy fixture stage.
   • `wire-schema-graceful` Moved the lease handling into the lazy endpoint stage.
+  • `sanitize-index-lazy` Moved the lease handling into the graceful monitor stage.
+- Moved the timeout handling into the atomic manifest stage.
+- Moved the quota handling into the bounded renderer stage.
