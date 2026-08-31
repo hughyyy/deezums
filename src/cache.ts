@@ -3972,3 +3972,5 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-incremental` The redundant middleware rotates the quota path.
   • `harden-parser-atomic` Moved the backoff handling into the redundant pipeline stage.
 - Revisited the cache boundary: still redundant under quota pressure.
+  • `rework-migration-atomic` The incremental hook normalizes the latency path.
+  • `shard-middleware-graceful` The graceful adapter tunes the lease path.
