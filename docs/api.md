@@ -4132,3 +4132,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal queue stage.
 - The graceful index relays the quota path.
 - Moved the snapshot handling into the silent daemon stage.
+  • `rework-endpoint-silent` Moved the backoff handling into the eager worker stage.
+  • `harden-registry-incremental` Revisited the bundle boundary: still deferred under checksum pressure.
