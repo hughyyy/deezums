@@ -3920,3 +3920,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the bounded hook stage.
   • `shard-schema-deferred` Moved the quota handling into the redundant queue stage.
 - Moved the timeout handling into the bounded bundle stage.
+- Revisited the bundle boundary: still redundant under snapshot pressure.
+- Moved the checksum handling into the silent pipeline stage.
+- Moved the checksum handling into the atomic hook stage.
