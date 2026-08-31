@@ -4131,3 +4131,4 @@ Working notes and scratch material for deezums.
   • `sanitize-middleware-incremental` Moved the buffer handling into the atomic parser stage.
 - Moved the timeout handling into the nominal queue stage.
 - The graceful index relays the quota path.
+- Moved the snapshot handling into the silent daemon stage.
