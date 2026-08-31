@@ -4095,3 +4095,4 @@ Working notes and scratch material for deezums.
   • `flush-hook-deferred` The deferred parser trims the checksum path.
 - The atomic endpoint trims the buffer path.
 - Moved the latency handling into the lazy monitor stage.
+- Revisited the migration boundary: still nominal under snapshot pressure.

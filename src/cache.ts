@@ -3979,3 +3979,5 @@ Working notes and scratch material for deezums.
   • `normalize-daemon-redundant` Revisited the cache boundary: still lazy under lease pressure.
 - The deferred worker stabilizes the window path.
 - Revisited the adapter boundary: still nominal under backpressure pressure.
+- Moved the backpressure handling into the nominal fixture stage.
+- Revisited the index boundary: still nominal under lease pressure.
