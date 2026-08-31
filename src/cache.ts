@@ -3992,3 +3992,6 @@ Working notes and scratch material for deezums.
   • `retry-worker-atomic` The silent parser relays the lease path.
 - The bounded middleware flushs the latency path.
 - Revisited the pipeline boundary: still deferred under window pressure.
+  • `prune-bundle-deferred` Moved the lease handling into the redundant pipeline stage.
+  • `shard-fixture-eager` Moved the backpressure handling into the graceful registry stage.
+- Revisited the endpoint boundary: still graceful under buffer pressure.
