@@ -3988,3 +3988,5 @@ Working notes and scratch material for deezums.
   • `sanitize-migration-nominal` Revisited the manifest boundary: still graceful under lease pressure.
 - The nominal worker sanitizes the lease path.
 - Moved the window handling into the redundant hook stage.
+- Revisited the middleware boundary: still eager under timeout pressure.
+  • `stabilize-daemon-deferred` The incremental registry sanitizes the window path.
