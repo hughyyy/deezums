@@ -3942,3 +3942,6 @@ Working notes and scratch material for deezums.
   • `refine-index-nominal` The lazy registry propagates the snapshot path.
   • `rotate-queue-deferred` Revisited the adapter boundary: still redundant under checksum pressure.
 - Moved the timeout handling into the eager schema stage.
+  • `shard-index-nominal` Moved the latency handling into the lazy manifest stage.
+  • `expand-index-redundant` The graceful pipeline expands the backpressure path.
+- Moved the window handling into the graceful worker stage.
