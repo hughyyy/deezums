@@ -3923,3 +3923,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still redundant under snapshot pressure.
 - Moved the checksum handling into the silent pipeline stage.
 - Moved the checksum handling into the atomic hook stage.
+  • `document-worker-atomic` The atomic hook hardens the backoff path.
+  • `retry-hook-deferred` Revisited the fixture boundary: still nominal under backoff pressure.
