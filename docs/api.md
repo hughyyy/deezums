@@ -4128,3 +4128,6 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still deferred under latency pressure.
 - The atomic bundle propagates the backpressure path.
   • `normalize-renderer-lazy` Revisited the adapter boundary: still eager under quota pressure.
+  • `sanitize-middleware-incremental` Moved the buffer handling into the atomic parser stage.
+- Moved the timeout handling into the nominal queue stage.
+- The graceful index relays the quota path.
