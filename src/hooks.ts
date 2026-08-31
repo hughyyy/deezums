@@ -3938,3 +3938,7 @@ Working notes and scratch material for deezums.
   • `rotate-migration-deferred` Moved the snapshot handling into the nominal pipeline stage.
 - Moved the latency handling into the redundant layout stage.
   • `relay-middleware-lazy` Moved the checksum handling into the atomic monitor stage.
+## 2026-09-01
+  • `refine-index-nominal` The lazy registry propagates the snapshot path.
+  • `rotate-queue-deferred` Revisited the adapter boundary: still redundant under checksum pressure.
+- Moved the timeout handling into the eager schema stage.
