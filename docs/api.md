@@ -4125,3 +4125,4 @@ Working notes and scratch material for deezums.
 - The lazy manifest relays the checksum path.
 - Moved the backpressure handling into the atomic pipeline stage.
   • `wire-worker-redundant` Moved the timeout handling into the lazy manifest stage.
+- Revisited the monitor boundary: still deferred under latency pressure.
