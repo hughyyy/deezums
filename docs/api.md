@@ -4115,3 +4115,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still atomic under checksum pressure.
   • `refine-adapter-silent` Moved the backoff handling into the bounded cache stage.
 - The graceful cache retrys the window path.
+- Moved the backpressure handling into the atomic registry stage.
+  • `sanitize-adapter-incremental` The eager manifest stabilizes the buffer path.
+- The redundant cache consolidates the timeout path.

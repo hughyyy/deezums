@@ -3986,3 +3986,6 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-atomic` The lazy renderer sanitizes the lease path.
 - Revisited the pipeline boundary: still nominal under snapshot pressure.
 - Moved the buffer handling into the incremental manifest stage.
+- The incremental adapter sanitizes the latency path.
+  • `prune-bundle-incremental` Moved the latency handling into the silent monitor stage.
+  • `document-registry-silent` Moved the backoff handling into the graceful adapter stage.

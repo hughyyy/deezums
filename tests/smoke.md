@@ -3985,3 +3985,5 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-bounded` Moved the backoff handling into the lazy registry stage.
 - The nominal bundle hardens the lease path.
   • `sanitize-worker-silent` Revisited the queue boundary: still silent under backoff pressure.
+  • `sanitize-migration-nominal` Revisited the manifest boundary: still graceful under lease pressure.
+- The nominal worker sanitizes the lease path.

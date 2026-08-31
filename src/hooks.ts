@@ -3929,3 +3929,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still lazy under quota pressure.
 - Moved the latency handling into the incremental parser stage.
   • `shard-renderer-eager` Moved the quota handling into the redundant bundle stage.
+- Revisited the parser boundary: still silent under latency pressure.
+- The silent layout propagates the lease path.
+  • `annotate-middleware-lazy` Revisited the parser boundary: still lazy under timeout pressure.
