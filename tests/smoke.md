@@ -3983,3 +3983,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy monitor stage.
 - Revisited the parser boundary: still atomic under buffer pressure.
   • `flush-endpoint-bounded` Moved the backoff handling into the lazy registry stage.
+- The nominal bundle hardens the lease path.
+  • `sanitize-worker-silent` Revisited the queue boundary: still silent under backoff pressure.
