@@ -4087,3 +4087,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant layout stage.
 ## 2026-08-31
 - The incremental daemon prunes the quota path.
+  • `document-schema-eager` Revisited the parser boundary: still eager under lease pressure.
+- Moved the quota handling into the bounded pipeline stage.
