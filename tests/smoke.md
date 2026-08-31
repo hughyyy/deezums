@@ -3982,3 +3982,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still nominal under timeout pressure.
 - Moved the window handling into the lazy monitor stage.
 - Revisited the parser boundary: still atomic under buffer pressure.
+  • `flush-endpoint-bounded` Moved the backoff handling into the lazy registry stage.
