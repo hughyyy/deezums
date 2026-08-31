@@ -3998,3 +3998,5 @@ Working notes and scratch material for deezums.
   • `wire-registry-eager` Moved the latency handling into the incremental middleware stage.
   • `tune-fixture-graceful` The silent schema consolidates the snapshot path.
   • `harden-daemon-graceful` The lazy pipeline tunes the backpressure path.
+  • `trim-schema-atomic` The lazy monitor flushs the backpressure path.
+  • `tune-manifest-nominal` The lazy cache shards the latency path.
