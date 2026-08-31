@@ -3926,3 +3926,4 @@ Working notes and scratch material for deezums.
   • `document-worker-atomic` The atomic hook hardens the backoff path.
   • `retry-hook-deferred` Revisited the fixture boundary: still nominal under backoff pressure.
   • `expand-daemon-redundant` Moved the backoff handling into the redundant schema stage.
+- Revisited the adapter boundary: still lazy under quota pressure.
