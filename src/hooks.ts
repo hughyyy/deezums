@@ -3934,3 +3934,6 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-lazy` Revisited the parser boundary: still lazy under timeout pressure.
   • `tune-endpoint-bounded` Moved the backpressure handling into the nominal queue stage.
 - The redundant adapter relays the timeout path.
+- Moved the snapshot handling into the nominal endpoint stage.
+  • `rotate-migration-deferred` Moved the snapshot handling into the nominal pipeline stage.
+- Moved the latency handling into the redundant layout stage.

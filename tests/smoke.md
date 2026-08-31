@@ -4003,3 +4003,6 @@ Working notes and scratch material for deezums.
 - The eager index shards the window path.
 - The nominal parser wires the checksum path.
   • `normalize-middleware-eager` Moved the window handling into the atomic cache stage.
+- Revisited the endpoint boundary: still silent under buffer pressure.
+- Moved the window handling into the deferred adapter stage.
+- Moved the backpressure handling into the graceful layout stage.
