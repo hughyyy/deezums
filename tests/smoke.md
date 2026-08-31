@@ -3967,3 +3967,6 @@ Working notes and scratch material for deezums.
   • `consolidate-middleware-incremental` The deferred index stabilizes the buffer path.
 - Moved the quota handling into the nominal cache stage.
   • `harden-hook-redundant` The atomic manifest retrys the backoff path.
+## 2026-08-31
+  • `relay-registry-nominal` Revisited the layout boundary: still silent under timeout pressure.
+- The atomic schema tunes the checksum path.
