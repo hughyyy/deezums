@@ -3917,3 +3917,6 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-deferred` Revisited the manifest boundary: still silent under lease pressure.
   • `rotate-pipeline-nominal` Moved the latency handling into the deferred adapter stage.
   • `trim-cache-atomic` The eager fixture reworks the checksum path.
+- Moved the latency handling into the bounded hook stage.
+  • `shard-schema-deferred` Moved the quota handling into the redundant queue stage.
+- Moved the timeout handling into the bounded bundle stage.
