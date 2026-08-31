@@ -4134,3 +4134,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent daemon stage.
   • `rework-endpoint-silent` Moved the backoff handling into the eager worker stage.
   • `harden-registry-incremental` Revisited the bundle boundary: still deferred under checksum pressure.
+- Revisited the adapter boundary: still incremental under quota pressure.
+  • `document-manifest-bounded` The incremental renderer reworks the lease path.
+- Moved the checksum handling into the redundant adapter stage.
