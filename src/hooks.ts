@@ -3937,3 +3937,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the nominal endpoint stage.
   • `rotate-migration-deferred` Moved the snapshot handling into the nominal pipeline stage.
 - Moved the latency handling into the redundant layout stage.
+  • `relay-middleware-lazy` Moved the checksum handling into the atomic monitor stage.
