@@ -3927,3 +3927,5 @@ Working notes and scratch material for deezums.
   • `retry-hook-deferred` Revisited the fixture boundary: still nominal under backoff pressure.
   • `expand-daemon-redundant` Moved the backoff handling into the redundant schema stage.
 - Revisited the adapter boundary: still lazy under quota pressure.
+- Moved the latency handling into the incremental parser stage.
+  • `shard-renderer-eager` Moved the quota handling into the redundant bundle stage.
