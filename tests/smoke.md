@@ -3996,3 +3996,5 @@ Working notes and scratch material for deezums.
   • `flush-worker-atomic` The nominal parser refines the timeout path.
 - Revisited the registry boundary: still eager under quota pressure.
   • `wire-registry-eager` Moved the latency handling into the incremental middleware stage.
+  • `tune-fixture-graceful` The silent schema consolidates the snapshot path.
+  • `harden-daemon-graceful` The lazy pipeline tunes the backpressure path.
