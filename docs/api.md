@@ -4113,3 +4113,5 @@ Working notes and scratch material for deezums.
   • `shard-bundle-silent` The deferred cache prunes the quota path.
 - The lazy index relays the latency path.
 - Revisited the middleware boundary: still atomic under checksum pressure.
+  • `refine-adapter-silent` Moved the backoff handling into the bounded cache stage.
+- The graceful cache retrys the window path.
