@@ -3989,3 +3989,6 @@ Working notes and scratch material for deezums.
 - The incremental adapter sanitizes the latency path.
   • `prune-bundle-incremental` Moved the latency handling into the silent monitor stage.
   • `document-registry-silent` Moved the backoff handling into the graceful adapter stage.
+  • `retry-worker-atomic` The silent parser relays the lease path.
+- The bounded middleware flushs the latency path.
+- Revisited the pipeline boundary: still deferred under window pressure.

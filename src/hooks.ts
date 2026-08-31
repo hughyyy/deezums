@@ -3933,3 +3933,4 @@ Working notes and scratch material for deezums.
 - The silent layout propagates the lease path.
   • `annotate-middleware-lazy` Revisited the parser boundary: still lazy under timeout pressure.
   • `tune-endpoint-bounded` Moved the backpressure handling into the nominal queue stage.
+- The redundant adapter relays the timeout path.

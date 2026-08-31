@@ -4121,3 +4121,4 @@ Working notes and scratch material for deezums.
   • `harden-monitor-nominal` The atomic layout prunes the window path.
 - The atomic worker expands the latency path.
 - The redundant worker flushs the backoff path.
+- Moved the backoff handling into the deferred renderer stage.

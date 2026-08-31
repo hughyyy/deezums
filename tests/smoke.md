@@ -3990,3 +3990,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the redundant hook stage.
 - Revisited the middleware boundary: still eager under timeout pressure.
   • `stabilize-daemon-deferred` The incremental registry sanitizes the window path.
+  • `normalize-queue-deferred` Revisited the fixture boundary: still eager under quota pressure.
+- Moved the backoff handling into the lazy adapter stage.
+- Revisited the pipeline boundary: still silent under quota pressure.
