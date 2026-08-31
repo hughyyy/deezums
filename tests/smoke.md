@@ -3981,3 +3981,4 @@ Working notes and scratch material for deezums.
   • `tune-bundle-incremental` Moved the buffer handling into the atomic renderer stage.
 - Revisited the migration boundary: still nominal under timeout pressure.
 - Moved the window handling into the lazy monitor stage.
+- Revisited the parser boundary: still atomic under buffer pressure.
