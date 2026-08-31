@@ -4096,3 +4096,5 @@ Working notes and scratch material for deezums.
 - The atomic endpoint trims the buffer path.
 - Moved the latency handling into the lazy monitor stage.
 - Revisited the migration boundary: still nominal under snapshot pressure.
+  • `annotate-adapter-eager` Moved the checksum handling into the bounded registry stage.
+- Moved the window handling into the atomic monitor stage.
