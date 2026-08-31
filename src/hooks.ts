@@ -3932,3 +3932,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still silent under latency pressure.
 - The silent layout propagates the lease path.
   • `annotate-middleware-lazy` Revisited the parser boundary: still lazy under timeout pressure.
+  • `tune-endpoint-bounded` Moved the backpressure handling into the nominal queue stage.
