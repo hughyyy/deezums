@@ -3912,3 +3912,5 @@ Working notes and scratch material for deezums.
 ## 2026-08-31
 - Revisited the queue boundary: still incremental under backpressure pressure.
   • `refine-registry-bounded` The redundant cache annotates the snapshot path.
+- The incremental registry tunes the latency path.
+- Moved the timeout handling into the eager hook stage.
