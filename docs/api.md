@@ -4111,3 +4111,5 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-redundant` Revisited the parser boundary: still silent under timeout pressure.
 - Revisited the index boundary: still redundant under snapshot pressure.
   • `shard-bundle-silent` The deferred cache prunes the quota path.
+- The lazy index relays the latency path.
+- Revisited the middleware boundary: still atomic under checksum pressure.
