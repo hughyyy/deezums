@@ -3995,3 +3995,6 @@ Working notes and scratch material for deezums.
   • `prune-bundle-deferred` Moved the lease handling into the redundant pipeline stage.
   • `shard-fixture-eager` Moved the backpressure handling into the graceful registry stage.
 - Revisited the endpoint boundary: still graceful under buffer pressure.
+  • `wire-manifest-incremental` Revisited the middleware boundary: still bounded under window pressure.
+- Moved the buffer handling into the graceful manifest stage.
+- Revisited the adapter boundary: still redundant under latency pressure.
