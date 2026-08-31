@@ -3985,3 +3985,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still eager under checksum pressure.
   • `stabilize-endpoint-atomic` The lazy renderer sanitizes the lease path.
 - Revisited the pipeline boundary: still nominal under snapshot pressure.
+- Moved the buffer handling into the incremental manifest stage.

@@ -4098,3 +4098,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still nominal under snapshot pressure.
   • `annotate-adapter-eager` Moved the checksum handling into the bounded registry stage.
 - Moved the window handling into the atomic monitor stage.
+- Moved the lease handling into the lazy fixture stage.
+  • `wire-schema-graceful` Moved the lease handling into the lazy endpoint stage.
