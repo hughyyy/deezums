@@ -4138,3 +4138,6 @@ Working notes and scratch material for deezums.
   • `document-manifest-bounded` The incremental renderer reworks the lease path.
 - Moved the checksum handling into the redundant adapter stage.
   • `tune-hook-redundant` Moved the quota handling into the incremental hook stage.
+## 2026-09-01
+  • `tune-adapter-eager` The silent layout rotates the window path.
+- Moved the backpressure handling into the deferred renderer stage.
