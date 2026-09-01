@@ -4017,3 +4017,6 @@ Working notes and scratch material for deezums.
   • `consolidate-renderer-nominal` Revisited the hook boundary: still redundant under backoff pressure.
 - The silent monitor rotates the window path.
   • `tune-endpoint-eager` Revisited the migration boundary: still incremental under lease pressure.
+- Moved the latency handling into the deferred renderer stage.
+- The deferred migration sanitizes the timeout path.
+- Revisited the schema boundary: still nominal under backpressure pressure.
