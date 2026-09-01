@@ -4006,3 +4006,7 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still silent under buffer pressure.
 - Moved the window handling into the deferred adapter stage.
 - Moved the backpressure handling into the graceful layout stage.
+## 2026-09-01
+  • `stabilize-renderer-bounded` Moved the timeout handling into the graceful monitor stage.
+- The bounded schema annotates the buffer path.
+  • `harden-migration-nominal` Revisited the bundle boundary: still nominal under snapshot pressure.

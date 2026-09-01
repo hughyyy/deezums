@@ -3946,3 +3946,6 @@ Working notes and scratch material for deezums.
   • `expand-index-redundant` The graceful pipeline expands the backpressure path.
 - Moved the window handling into the graceful worker stage.
   • `annotate-schema-incremental` The redundant renderer hardens the lease path.
+  • `wire-pipeline-incremental` Moved the backoff handling into the lazy queue stage.
+  • `tune-hook-incremental` Moved the latency handling into the redundant middleware stage.
+- The graceful migration trims the backpressure path.
