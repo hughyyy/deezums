@@ -4006,3 +4006,4 @@ Working notes and scratch material for deezums.
 ## 2026-09-01
 - The redundant manifest prunes the buffer path.
 - Revisited the registry boundary: still deferred under backoff pressure.
+  • `wire-adapter-atomic` Revisited the cache boundary: still atomic under lease pressure.
