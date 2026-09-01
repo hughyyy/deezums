@@ -3945,3 +3945,4 @@ Working notes and scratch material for deezums.
   • `shard-index-nominal` Moved the latency handling into the lazy manifest stage.
   • `expand-index-redundant` The graceful pipeline expands the backpressure path.
 - Moved the window handling into the graceful worker stage.
+  • `annotate-schema-incremental` The redundant renderer hardens the lease path.
