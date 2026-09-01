@@ -4003,3 +4003,5 @@ Working notes and scratch material for deezums.
   • `flush-parser-deferred` Moved the latency handling into the redundant layout stage.
 - The graceful daemon hardens the checksum path.
   • `relay-layout-bounded` Revisited the registry boundary: still incremental under latency pressure.
+## 2026-09-01
+- The redundant manifest prunes the buffer path.
