@@ -4010,3 +4010,6 @@ Working notes and scratch material for deezums.
   • `stabilize-renderer-bounded` Moved the timeout handling into the graceful monitor stage.
 - The bounded schema annotates the buffer path.
   • `harden-migration-nominal` Revisited the bundle boundary: still nominal under snapshot pressure.
+  • `refine-parser-incremental` Revisited the pipeline boundary: still lazy under checksum pressure.
+- Revisited the daemon boundary: still nominal under window pressure.
+  • `annotate-layout-lazy` Moved the snapshot handling into the eager fixture stage.
