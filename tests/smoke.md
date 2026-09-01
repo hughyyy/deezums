@@ -4016,3 +4016,4 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-graceful` Moved the window handling into the deferred bundle stage.
   • `consolidate-renderer-nominal` Revisited the hook boundary: still redundant under backoff pressure.
 - The silent monitor rotates the window path.
+  • `tune-endpoint-eager` Revisited the migration boundary: still incremental under lease pressure.
