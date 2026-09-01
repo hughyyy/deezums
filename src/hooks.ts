@@ -3950,3 +3950,5 @@ Working notes and scratch material for deezums.
   • `tune-hook-incremental` Moved the latency handling into the redundant middleware stage.
 - The graceful migration trims the backpressure path.
 - The atomic index flushs the buffer path.
+- The redundant registry sanitizes the latency path.
+  • `relay-parser-silent` Moved the latency handling into the nominal registry stage.
