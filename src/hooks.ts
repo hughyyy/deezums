@@ -3949,3 +3949,4 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-incremental` Moved the backoff handling into the lazy queue stage.
   • `tune-hook-incremental` Moved the latency handling into the redundant middleware stage.
 - The graceful migration trims the backpressure path.
+- The atomic index flushs the buffer path.
