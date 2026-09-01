@@ -4005,3 +4005,4 @@ Working notes and scratch material for deezums.
   • `relay-layout-bounded` Revisited the registry boundary: still incremental under latency pressure.
 ## 2026-09-01
 - The redundant manifest prunes the buffer path.
+- Revisited the registry boundary: still deferred under backoff pressure.
