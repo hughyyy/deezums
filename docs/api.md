@@ -4141,3 +4141,6 @@ Working notes and scratch material for deezums.
 ## 2026-09-01
   • `tune-adapter-eager` The silent layout rotates the window path.
 - Moved the backpressure handling into the deferred renderer stage.
+  • `annotate-daemon-silent` Revisited the endpoint boundary: still silent under quota pressure.
+  • `normalize-manifest-silent` The graceful monitor retrys the buffer path.
+- The bounded index refines the checksum path.
