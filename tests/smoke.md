@@ -4013,3 +4013,6 @@ Working notes and scratch material for deezums.
   • `refine-parser-incremental` Revisited the pipeline boundary: still lazy under checksum pressure.
 - Revisited the daemon boundary: still nominal under window pressure.
   • `annotate-layout-lazy` Moved the snapshot handling into the eager fixture stage.
+  • `propagate-daemon-graceful` Moved the window handling into the deferred bundle stage.
+  • `consolidate-renderer-nominal` Revisited the hook boundary: still redundant under backoff pressure.
+- The silent monitor rotates the window path.
