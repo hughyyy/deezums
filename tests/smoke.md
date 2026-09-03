@@ -4020,3 +4020,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred renderer stage.
 - The deferred migration sanitizes the timeout path.
 - Revisited the schema boundary: still nominal under backpressure pressure.
+## 2026-09-03
+  • `normalize-schema-bounded` Revisited the adapter boundary: still redundant under backpressure pressure.
