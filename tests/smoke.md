@@ -4022,3 +4022,7 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still nominal under backpressure pressure.
 ## 2026-09-03
   • `normalize-schema-bounded` Revisited the adapter boundary: still redundant under backpressure pressure.
+## 2026-09-04
+  • `rotate-middleware-lazy` Revisited the queue boundary: still graceful under timeout pressure.
+- Revisited the monitor boundary: still graceful under timeout pressure.
+- Revisited the cache boundary: still graceful under buffer pressure.
