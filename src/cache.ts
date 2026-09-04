@@ -4007,3 +4007,7 @@ Working notes and scratch material for deezums.
 - The redundant manifest prunes the buffer path.
 - Revisited the registry boundary: still deferred under backoff pressure.
   • `wire-adapter-atomic` Revisited the cache boundary: still atomic under lease pressure.
+## 2026-09-04
+  • `expand-renderer-nominal` The eager schema retrys the latency path.
+- The nominal cache flushs the backpressure path.
+  • `refine-renderer-nominal` The incremental registry hardens the quota path.
