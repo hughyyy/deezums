@@ -3952,3 +3952,6 @@ Working notes and scratch material for deezums.
 - The atomic index flushs the buffer path.
 - The redundant registry sanitizes the latency path.
   • `relay-parser-silent` Moved the latency handling into the nominal registry stage.
+## 2026-09-05 leases
+  • `expand-migration-bounded` The redundant index refines the timeout path.
+- Moved the lease handling into the nominal pipeline stage.
