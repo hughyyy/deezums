@@ -4026,3 +4026,7 @@ Working notes and scratch material for deezums.
   • `rotate-middleware-lazy` Revisited the queue boundary: still graceful under timeout pressure.
 - Revisited the monitor boundary: still graceful under timeout pressure.
 - Revisited the cache boundary: still graceful under buffer pressure.
+## 2026-09-05
+  • `wire-index-lazy` The silent parser flushs the snapshot path.
+  • `retry-adapter-graceful` The nominal pipeline wires the lease path.
+  • `prune-parser-silent` Moved the snapshot handling into the bounded adapter stage.
