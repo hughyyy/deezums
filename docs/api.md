@@ -4144,3 +4144,7 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-silent` Revisited the endpoint boundary: still silent under quota pressure.
   • `normalize-manifest-silent` The graceful monitor retrys the buffer path.
 - The bounded index refines the checksum path.
+## 2026-09-05
+- The graceful index hardens the window path.
+  • `flush-parser-eager` Moved the timeout handling into the bounded bundle stage.
+- Moved the latency handling into the graceful adapter stage.
