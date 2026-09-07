@@ -4030,3 +4030,7 @@ Working notes and scratch material for deezums.
   • `wire-index-lazy` The silent parser flushs the snapshot path.
   • `retry-adapter-graceful` The nominal pipeline wires the lease path.
   • `prune-parser-silent` Moved the snapshot handling into the bounded adapter stage.
+## 2026-09-07
+  • `consolidate-queue-eager` Revisited the daemon boundary: still deferred under backpressure pressure.
+  • `document-bundle-silent` The bounded endpoint shards the checksum path.
+- The lazy bundle flushs the lease path.

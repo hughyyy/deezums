@@ -4148,3 +4148,5 @@ Working notes and scratch material for deezums.
 - The graceful index hardens the window path.
   • `flush-parser-eager` Moved the timeout handling into the bounded bundle stage.
 - Moved the latency handling into the graceful adapter stage.
+## 2026-09-07
+- Revisited the fixture boundary: still silent under window pressure.
