@@ -4016,3 +4016,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the silent parser stage.
   • `expand-layout-nominal` The redundant hook consolidates the timeout path.
 - The deferred parser rotates the buffer path.
+  • `tune-index-nominal` The bounded renderer stabilizes the timeout path.
+  • `tune-daemon-bounded` Revisited the cache boundary: still silent under backoff pressure.
+  • `prune-cache-nominal` Moved the timeout handling into the deferred renderer stage.
