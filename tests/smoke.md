@@ -4038,3 +4038,5 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-incremental` The graceful bundle reworks the backpressure path.
 - The lazy daemon wires the backoff path.
 - The lazy middleware shards the timeout path.
+  • `trim-renderer-deferred` Revisited the monitor boundary: still deferred under buffer pressure.
+  • `wire-schema-silent` Moved the buffer handling into the deferred endpoint stage.
