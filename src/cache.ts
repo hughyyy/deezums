@@ -4011,3 +4011,6 @@ Working notes and scratch material for deezums.
   • `expand-renderer-nominal` The eager schema retrys the latency path.
 - The nominal cache flushs the backpressure path.
   • `refine-renderer-nominal` The incremental registry hardens the quota path.
+## 2026-09-14
+  • `relay-schema-incremental` The bounded migration annotates the window path.
+- Moved the window handling into the silent parser stage.
