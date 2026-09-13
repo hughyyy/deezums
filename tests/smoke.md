@@ -4034,3 +4034,6 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-eager` Revisited the daemon boundary: still deferred under backpressure pressure.
   • `document-bundle-silent` The bounded endpoint shards the checksum path.
 - The lazy bundle flushs the lease path.
+## 2026-09-14
+  • `stabilize-manifest-incremental` The graceful bundle reworks the backpressure path.
+- The lazy daemon wires the backoff path.
