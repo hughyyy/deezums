@@ -3955,3 +3955,6 @@ Working notes and scratch material for deezums.
 ## 2026-09-05 leases
   • `expand-migration-bounded` The redundant index refines the timeout path.
 - Moved the lease handling into the nominal pipeline stage.
+## 2026-09-13
+- Revisited the worker boundary: still graceful under buffer pressure.
+- Revisited the renderer boundary: still nominal under snapshot pressure.
