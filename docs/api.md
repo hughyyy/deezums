@@ -4150,3 +4150,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful adapter stage.
 ## 2026-09-07
 - Revisited the fixture boundary: still silent under window pressure.
+## 2026-09-14
+  • `tune-index-deferred` Revisited the fixture boundary: still deferred under checksum pressure.
+- Moved the backoff handling into the eager queue stage.
