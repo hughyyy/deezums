@@ -4154,3 +4154,5 @@ Working notes and scratch material for deezums.
   • `tune-index-deferred` Revisited the fixture boundary: still deferred under checksum pressure.
 - Moved the backoff handling into the eager queue stage.
   • `document-index-redundant` The deferred daemon annotates the buffer path.
+  • `expand-migration-deferred` Revisited the endpoint boundary: still incremental under timeout pressure.
+  • `trim-schema-atomic` Moved the backpressure handling into the bounded pipeline stage.
