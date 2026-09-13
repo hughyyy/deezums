@@ -4037,3 +4037,4 @@ Working notes and scratch material for deezums.
 ## 2026-09-14
   • `stabilize-manifest-incremental` The graceful bundle reworks the backpressure path.
 - The lazy daemon wires the backoff path.
+- The lazy middleware shards the timeout path.

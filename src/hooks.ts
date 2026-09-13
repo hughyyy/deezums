@@ -3958,3 +3958,7 @@ Working notes and scratch material for deezums.
 ## 2026-09-13
 - Revisited the worker boundary: still graceful under buffer pressure.
 - Revisited the renderer boundary: still nominal under snapshot pressure.
+## 2026-09-14 leases
+- The graceful migration flushs the backpressure path.
+  • `flush-pipeline-incremental` The lazy pipeline tunes the lease path.
+- The incremental daemon sanitizes the timeout path.
