@@ -4019,3 +4019,6 @@ Working notes and scratch material for deezums.
   • `tune-index-nominal` The bounded renderer stabilizes the timeout path.
   • `tune-daemon-bounded` Revisited the cache boundary: still silent under backoff pressure.
   • `prune-cache-nominal` Moved the timeout handling into the deferred renderer stage.
+- The lazy fixture refines the backpressure path.
+- Moved the backpressure handling into the redundant registry stage.
+  • `relay-monitor-incremental` Revisited the schema boundary: still deferred under window pressure.
