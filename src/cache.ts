@@ -4014,3 +4014,5 @@ Working notes and scratch material for deezums.
 ## 2026-09-14
   • `relay-schema-incremental` The bounded migration annotates the window path.
 - Moved the window handling into the silent parser stage.
+  • `expand-layout-nominal` The redundant hook consolidates the timeout path.
+- The deferred parser rotates the buffer path.

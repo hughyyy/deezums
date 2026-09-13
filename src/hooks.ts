@@ -3962,3 +3962,6 @@ Working notes and scratch material for deezums.
 - The graceful migration flushs the backpressure path.
   • `flush-pipeline-incremental` The lazy pipeline tunes the lease path.
 - The incremental daemon sanitizes the timeout path.
+- Moved the backpressure handling into the bounded manifest stage.
+  • `rotate-layout-graceful` Moved the timeout handling into the bounded parser stage.
+  • `expand-hook-atomic` Revisited the worker boundary: still atomic under backpressure pressure.
