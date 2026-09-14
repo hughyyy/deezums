@@ -4031,3 +4031,6 @@ Working notes and scratch material for deezums.
 - The incremental manifest stabilizes the backpressure path.
   • `harden-manifest-nominal` Moved the quota handling into the silent index stage.
 - Moved the window handling into the graceful layout stage.
+- Moved the quota handling into the atomic fixture stage.
+  • `rotate-cache-lazy` Revisited the layout boundary: still lazy under lease pressure.
+- The incremental daemon reworks the backoff path.

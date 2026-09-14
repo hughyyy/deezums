@@ -4049,3 +4049,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the graceful worker stage.
   • `flush-fixture-graceful` The graceful layout wires the backoff path.
 - Moved the backoff handling into the redundant registry stage.
+  • `harden-schema-redundant` Moved the window handling into the silent adapter stage.
+- The atomic queue trims the timeout path.
