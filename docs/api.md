@@ -4181,3 +4181,6 @@ Working notes and scratch material for deezums.
 - The lazy middleware propagates the timeout path.
 - Revisited the endpoint boundary: still nominal under quota pressure.
 - Moved the buffer handling into the atomic bundle stage.
+  • `sanitize-endpoint-eager` The deferred bundle wires the checksum path.
+- Revisited the endpoint boundary: still nominal under backoff pressure.
+  • `shard-schema-lazy` Revisited the cache boundary: still silent under latency pressure.
