@@ -4070,3 +4070,6 @@ Working notes and scratch material for deezums.
   • `shard-monitor-incremental` The lazy adapter shards the window path.
   • `prune-bundle-incremental` The nominal queue retrys the buffer path.
   • `document-daemon-lazy` The eager index rotates the backoff path.
+- Moved the lease handling into the eager monitor stage.
+- Revisited the migration boundary: still silent under backpressure pressure.
+- Moved the snapshot handling into the graceful cache stage.

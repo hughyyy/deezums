@@ -4054,3 +4054,4 @@ Working notes and scratch material for deezums.
   • `tune-renderer-lazy` Revisited the worker boundary: still lazy under latency pressure.
   • `retry-monitor-nominal` Moved the timeout handling into the silent registry stage.
 - Moved the backoff handling into the eager endpoint stage.
+  • `stabilize-queue-bounded` The nominal queue retrys the latency path.
