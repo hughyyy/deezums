@@ -4056,3 +4056,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still eager under latency pressure.
   • `propagate-daemon-redundant` Revisited the fixture boundary: still nominal under latency pressure.
 - Moved the checksum handling into the graceful pipeline stage.
+- Moved the window handling into the lazy manifest stage.
+  • `normalize-fixture-graceful` Revisited the pipeline boundary: still deferred under backpressure pressure.
