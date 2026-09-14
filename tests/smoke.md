@@ -4054,3 +4054,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still redundant under window pressure.
 - The nominal pipeline normalizes the backpressure path.
 - Revisited the fixture boundary: still eager under latency pressure.
+  • `propagate-daemon-redundant` Revisited the fixture boundary: still nominal under latency pressure.
+- Moved the checksum handling into the graceful pipeline stage.

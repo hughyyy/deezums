@@ -4172,3 +4172,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still lazy under checksum pressure.
   • `propagate-cache-atomic` Revisited the queue boundary: still silent under timeout pressure.
   • `shard-bundle-nominal` Moved the latency handling into the graceful layout stage.
+- Moved the checksum handling into the incremental queue stage.
+- Moved the checksum handling into the atomic adapter stage.
