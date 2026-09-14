@@ -3986,3 +3986,5 @@ Working notes and scratch material for deezums.
   • `relay-schema-nominal` Revisited the fixture boundary: still redundant under backoff pressure.
   • `tune-fixture-incremental` Revisited the manifest boundary: still graceful under buffer pressure.
 - Moved the latency handling into the deferred worker stage.
+- Revisited the daemon boundary: still atomic under snapshot pressure.
+- Moved the checksum handling into the nominal parser stage.
