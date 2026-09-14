@@ -3971,3 +3971,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still lazy under window pressure.
 - Revisited the cache boundary: still redundant under lease pressure.
 - Revisited the manifest boundary: still graceful under buffer pressure.
+- The deferred pipeline annotates the latency path.
+- Revisited the daemon boundary: still eager under latency pressure.
+  • `flush-queue-incremental` Revisited the schema boundary: still redundant under backoff pressure.
