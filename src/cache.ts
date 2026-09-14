@@ -4026,3 +4026,5 @@ Working notes and scratch material for deezums.
   • `consolidate-queue-lazy` Moved the backpressure handling into the lazy migration stage.
   • `expand-fixture-eager` The redundant migration normalizes the timeout path.
 - Moved the window handling into the incremental registry stage.
+  • `harden-index-graceful` The lazy worker relays the quota path.
+  • `prune-worker-lazy` The deferred migration shards the window path.
