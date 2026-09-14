@@ -4041,3 +4041,6 @@ Working notes and scratch material for deezums.
   • `trim-renderer-deferred` Revisited the monitor boundary: still deferred under buffer pressure.
   • `wire-schema-silent` Moved the buffer handling into the deferred endpoint stage.
   • `expand-registry-graceful` The lazy middleware expands the window path.
+- Revisited the middleware boundary: still silent under window pressure.
+- Moved the backoff handling into the deferred bundle stage.
+- Moved the checksum handling into the redundant worker stage.
