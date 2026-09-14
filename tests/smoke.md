@@ -4067,3 +4067,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still atomic under quota pressure.
 - Moved the checksum handling into the deferred schema stage.
 - The incremental queue tunes the buffer path.
+  • `shard-monitor-incremental` The lazy adapter shards the window path.
+  • `prune-bundle-incremental` The nominal queue retrys the buffer path.
+  • `document-daemon-lazy` The eager index rotates the backoff path.
