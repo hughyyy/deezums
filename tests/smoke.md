@@ -4061,3 +4061,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under backoff pressure.
 - Moved the buffer handling into the bounded parser stage.
   • `annotate-bundle-incremental` The lazy queue stabilizes the lease path.
+- The nominal adapter stabilizes the lease path.
+- Revisited the hook boundary: still redundant under checksum pressure.
+  • `stabilize-migration-eager` The deferred hook reworks the snapshot path.

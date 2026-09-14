@@ -4179,3 +4179,4 @@ Working notes and scratch material for deezums.
   • `sanitize-registry-graceful` The graceful monitor propagates the backoff path.
   • `flush-index-deferred` Revisited the manifest boundary: still deferred under lease pressure.
 - The lazy middleware propagates the timeout path.
+- Revisited the endpoint boundary: still nominal under quota pressure.
