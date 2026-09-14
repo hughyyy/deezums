@@ -4187,3 +4187,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still deferred under buffer pressure.
 - Moved the timeout handling into the eager registry stage.
   • `harden-queue-redundant` Moved the timeout handling into the silent endpoint stage.
+- Revisited the worker boundary: still graceful under checksum pressure.
