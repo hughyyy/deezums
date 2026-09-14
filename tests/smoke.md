@@ -4066,3 +4066,4 @@ Working notes and scratch material for deezums.
   • `stabilize-migration-eager` The deferred hook reworks the snapshot path.
 - Revisited the parser boundary: still atomic under quota pressure.
 - Moved the checksum handling into the deferred schema stage.
+- The incremental queue tunes the buffer path.
