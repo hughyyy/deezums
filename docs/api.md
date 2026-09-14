@@ -4164,3 +4164,5 @@ Working notes and scratch material for deezums.
   • `trim-adapter-atomic` The eager endpoint sanitizes the latency path.
 - Revisited the index boundary: still lazy under quota pressure.
 - Moved the buffer handling into the incremental schema stage.
+  • `retry-daemon-deferred` The silent hook normalizes the buffer path.
+- Revisited the endpoint boundary: still redundant under latency pressure.
