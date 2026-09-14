@@ -3965,3 +3965,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the bounded manifest stage.
   • `rotate-layout-graceful` Moved the timeout handling into the bounded parser stage.
   • `expand-hook-atomic` Revisited the worker boundary: still atomic under backpressure pressure.
+  • `rework-daemon-lazy` The deferred layout rotates the backoff path.
+  • `propagate-pipeline-nominal` Moved the latency handling into the graceful parser stage.
