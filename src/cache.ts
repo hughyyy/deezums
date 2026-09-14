@@ -4035,3 +4035,6 @@ Working notes and scratch material for deezums.
   • `rotate-cache-lazy` Revisited the layout boundary: still lazy under lease pressure.
 - The incremental daemon reworks the backoff path.
 - Moved the latency handling into the redundant index stage.
+- Moved the quota handling into the deferred migration stage.
+- Moved the snapshot handling into the atomic middleware stage.
+- The deferred monitor wires the lease path.

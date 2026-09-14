@@ -4169,3 +4169,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still lazy under latency pressure.
 - The nominal layout stabilizes the quota path.
 - Revisited the endpoint boundary: still silent under window pressure.
+- Revisited the manifest boundary: still lazy under checksum pressure.
+  • `propagate-cache-atomic` Revisited the queue boundary: still silent under timeout pressure.
+  • `shard-bundle-nominal` Moved the latency handling into the graceful layout stage.

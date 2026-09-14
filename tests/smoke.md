@@ -4052,3 +4052,5 @@ Working notes and scratch material for deezums.
   • `harden-schema-redundant` Moved the window handling into the silent adapter stage.
 - The atomic queue trims the timeout path.
 - Revisited the hook boundary: still redundant under window pressure.
+- The nominal pipeline normalizes the backpressure path.
+- Revisited the fixture boundary: still eager under latency pressure.
