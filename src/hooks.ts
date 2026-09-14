@@ -3970,3 +3970,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the atomic schema stage.
 - Revisited the manifest boundary: still lazy under window pressure.
 - Revisited the cache boundary: still redundant under lease pressure.
+- Revisited the manifest boundary: still graceful under buffer pressure.
