@@ -3969,3 +3969,4 @@ Working notes and scratch material for deezums.
   • `propagate-pipeline-nominal` Moved the latency handling into the graceful parser stage.
 - Moved the buffer handling into the atomic schema stage.
 - Revisited the manifest boundary: still lazy under window pressure.
+- Revisited the cache boundary: still redundant under lease pressure.
