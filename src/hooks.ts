@@ -3980,3 +3980,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic queue stage.
   • `normalize-fixture-nominal` The atomic pipeline reworks the snapshot path.
 - Moved the checksum handling into the graceful hook stage.
+  • `flush-renderer-lazy` Revisited the bundle boundary: still atomic under backoff pressure.
+  • `trim-monitor-eager` Moved the window handling into the graceful daemon stage.
