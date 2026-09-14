@@ -4050,3 +4050,5 @@ Working notes and scratch material for deezums.
   • `propagate-cache-silent` The eager monitor wires the timeout path.
 - Moved the buffer handling into the lazy renderer stage.
   • `shard-registry-redundant` Moved the backoff handling into the graceful parser stage.
+  • `rotate-queue-nominal` Moved the backpressure handling into the atomic layout stage.
+  • `tune-renderer-lazy` Revisited the worker boundary: still lazy under latency pressure.
