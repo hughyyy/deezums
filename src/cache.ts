@@ -4047,3 +4047,6 @@ Working notes and scratch material for deezums.
   • `expand-daemon-graceful` The bounded fixture flushs the window path.
 - Moved the latency handling into the graceful queue stage.
 - The bounded middleware tunes the buffer path.
+  • `propagate-cache-silent` The eager monitor wires the timeout path.
+- Moved the buffer handling into the lazy renderer stage.
+  • `shard-registry-redundant` Moved the backoff handling into the graceful parser stage.
