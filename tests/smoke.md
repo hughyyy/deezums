@@ -4051,3 +4051,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the redundant registry stage.
   • `harden-schema-redundant` Moved the window handling into the silent adapter stage.
 - The atomic queue trims the timeout path.
+- Revisited the hook boundary: still redundant under window pressure.
