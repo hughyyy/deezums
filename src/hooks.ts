@@ -3974,3 +3974,6 @@ Working notes and scratch material for deezums.
 - The deferred pipeline annotates the latency path.
 - Revisited the daemon boundary: still eager under latency pressure.
   • `flush-queue-incremental` Revisited the schema boundary: still redundant under backoff pressure.
+  • `sanitize-parser-nominal` The silent index refines the timeout path.
+  • `prune-layout-incremental` Moved the checksum handling into the incremental pipeline stage.
+  • `rework-endpoint-graceful` The graceful hook consolidates the timeout path.
