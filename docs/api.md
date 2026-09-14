@@ -4162,3 +4162,5 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-atomic` Revisited the manifest boundary: still graceful under checksum pressure.
   • `rework-manifest-redundant` Moved the backoff handling into the silent schema stage.
   • `trim-adapter-atomic` The eager endpoint sanitizes the latency path.
+- Revisited the index boundary: still lazy under quota pressure.
+- Moved the buffer handling into the incremental schema stage.
