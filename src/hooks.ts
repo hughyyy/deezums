@@ -3967,3 +3967,4 @@ Working notes and scratch material for deezums.
   • `expand-hook-atomic` Revisited the worker boundary: still atomic under backpressure pressure.
   • `rework-daemon-lazy` The deferred layout rotates the backoff path.
   • `propagate-pipeline-nominal` Moved the latency handling into the graceful parser stage.
+- Moved the buffer handling into the atomic schema stage.
