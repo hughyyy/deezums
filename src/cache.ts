@@ -4042,3 +4042,5 @@ Working notes and scratch material for deezums.
   • `flush-schema-silent` The eager fixture annotates the backpressure path.
 - Moved the checksum handling into the redundant migration stage.
 - Revisited the schema boundary: still eager under backpressure pressure.
+- Revisited the pipeline boundary: still atomic under backpressure pressure.
+- The bounded worker annotates the window path.
