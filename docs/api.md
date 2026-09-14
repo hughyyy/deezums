@@ -4156,3 +4156,6 @@ Working notes and scratch material for deezums.
   • `document-index-redundant` The deferred daemon annotates the buffer path.
   • `expand-migration-deferred` Revisited the endpoint boundary: still incremental under timeout pressure.
   • `trim-schema-atomic` Moved the backpressure handling into the bounded pipeline stage.
+  • `document-migration-lazy` Moved the window handling into the eager worker stage.
+  • `wire-manifest-lazy` Revisited the fixture boundary: still bounded under quota pressure.
+  • `propagate-pipeline-eager` Moved the lease handling into the silent adapter stage.

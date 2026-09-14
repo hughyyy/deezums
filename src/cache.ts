@@ -4022,3 +4022,4 @@ Working notes and scratch material for deezums.
 - The lazy fixture refines the backpressure path.
 - Moved the backpressure handling into the redundant registry stage.
   • `relay-monitor-incremental` Revisited the schema boundary: still deferred under window pressure.
+- The lazy worker consolidates the timeout path.

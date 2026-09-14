@@ -4040,3 +4040,4 @@ Working notes and scratch material for deezums.
 - The lazy middleware shards the timeout path.
   • `trim-renderer-deferred` Revisited the monitor boundary: still deferred under buffer pressure.
   • `wire-schema-silent` Moved the buffer handling into the deferred endpoint stage.
+  • `expand-registry-graceful` The lazy middleware expands the window path.
