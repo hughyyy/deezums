@@ -4166,3 +4166,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental schema stage.
   • `retry-daemon-deferred` The silent hook normalizes the buffer path.
 - Revisited the endpoint boundary: still redundant under latency pressure.
+- Revisited the fixture boundary: still lazy under latency pressure.
+- The nominal layout stabilizes the quota path.
+- Revisited the endpoint boundary: still silent under window pressure.
