@@ -4034,3 +4034,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the atomic fixture stage.
   • `rotate-cache-lazy` Revisited the layout boundary: still lazy under lease pressure.
 - The incremental daemon reworks the backoff path.
+- Moved the latency handling into the redundant index stage.
