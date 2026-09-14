@@ -3990,3 +3990,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the nominal parser stage.
   • `document-renderer-incremental` Moved the backoff handling into the graceful renderer stage.
 - The nominal worker tunes the window path.
+  • `stabilize-adapter-redundant` Moved the snapshot handling into the redundant parser stage.
