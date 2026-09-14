@@ -3978,3 +3978,4 @@ Working notes and scratch material for deezums.
   • `prune-layout-incremental` Moved the checksum handling into the incremental pipeline stage.
   • `rework-endpoint-graceful` The graceful hook consolidates the timeout path.
 - Moved the quota handling into the atomic queue stage.
+  • `normalize-fixture-nominal` The atomic pipeline reworks the snapshot path.
