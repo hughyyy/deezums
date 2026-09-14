@@ -4023,3 +4023,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the redundant registry stage.
   • `relay-monitor-incremental` Revisited the schema boundary: still deferred under window pressure.
 - The lazy worker consolidates the timeout path.
+  • `consolidate-queue-lazy` Moved the backpressure handling into the lazy migration stage.
+  • `expand-fixture-eager` The redundant migration normalizes the timeout path.
+- Moved the window handling into the incremental registry stage.
