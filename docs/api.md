@@ -4174,3 +4174,5 @@ Working notes and scratch material for deezums.
   • `shard-bundle-nominal` Moved the latency handling into the graceful layout stage.
 - Moved the checksum handling into the incremental queue stage.
 - Moved the checksum handling into the atomic adapter stage.
+  • `consolidate-parser-bounded` Revisited the manifest boundary: still bounded under latency pressure.
+- Revisited the renderer boundary: still deferred under backoff pressure.
