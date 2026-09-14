@@ -4184,3 +4184,6 @@ Working notes and scratch material for deezums.
   • `sanitize-endpoint-eager` The deferred bundle wires the checksum path.
 - Revisited the endpoint boundary: still nominal under backoff pressure.
   • `shard-schema-lazy` Revisited the cache boundary: still silent under latency pressure.
+- Revisited the cache boundary: still deferred under buffer pressure.
+- Moved the timeout handling into the eager registry stage.
+  • `harden-queue-redundant` Moved the timeout handling into the silent endpoint stage.
