@@ -4044,3 +4044,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still silent under window pressure.
 - Moved the backoff handling into the deferred bundle stage.
 - Moved the checksum handling into the redundant worker stage.
+- The incremental schema rotates the window path.
+  • `retry-fixture-graceful` The incremental manifest documents the quota path.
