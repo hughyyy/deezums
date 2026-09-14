@@ -4028,3 +4028,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the incremental registry stage.
   • `harden-index-graceful` The lazy worker relays the quota path.
   • `prune-worker-lazy` The deferred migration shards the window path.
+- The incremental manifest stabilizes the backpressure path.
+  • `harden-manifest-nominal` Moved the quota handling into the silent index stage.
+- Moved the window handling into the graceful layout stage.
