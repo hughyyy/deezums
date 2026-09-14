@@ -4176,3 +4176,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic adapter stage.
   • `consolidate-parser-bounded` Revisited the manifest boundary: still bounded under latency pressure.
 - Revisited the renderer boundary: still deferred under backoff pressure.
+  • `sanitize-registry-graceful` The graceful monitor propagates the backoff path.
