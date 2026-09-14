@@ -4058,3 +4058,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful pipeline stage.
 - Moved the window handling into the lazy manifest stage.
   • `normalize-fixture-graceful` Revisited the pipeline boundary: still deferred under backpressure pressure.
+- Revisited the layout boundary: still incremental under backoff pressure.
+- Moved the buffer handling into the bounded parser stage.
+  • `annotate-bundle-incremental` The lazy queue stabilizes the lease path.
