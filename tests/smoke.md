@@ -4064,3 +4064,5 @@ Working notes and scratch material for deezums.
 - The nominal adapter stabilizes the lease path.
 - Revisited the hook boundary: still redundant under checksum pressure.
   • `stabilize-migration-eager` The deferred hook reworks the snapshot path.
+- Revisited the parser boundary: still atomic under quota pressure.
+- Moved the checksum handling into the deferred schema stage.
