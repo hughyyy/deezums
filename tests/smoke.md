@@ -4046,3 +4046,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant worker stage.
 - The incremental schema rotates the window path.
   • `retry-fixture-graceful` The incremental manifest documents the quota path.
+- Moved the backpressure handling into the graceful worker stage.
+  • `flush-fixture-graceful` The graceful layout wires the backoff path.
+- Moved the backoff handling into the redundant registry stage.
