@@ -4052,3 +4052,5 @@ Working notes and scratch material for deezums.
   • `shard-registry-redundant` Moved the backoff handling into the graceful parser stage.
   • `rotate-queue-nominal` Moved the backpressure handling into the atomic layout stage.
   • `tune-renderer-lazy` Revisited the worker boundary: still lazy under latency pressure.
+  • `retry-monitor-nominal` Moved the timeout handling into the silent registry stage.
+- Moved the backoff handling into the eager endpoint stage.
