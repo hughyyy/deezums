@@ -3983,3 +3983,6 @@ Working notes and scratch material for deezums.
   • `flush-renderer-lazy` Revisited the bundle boundary: still atomic under backoff pressure.
   • `trim-monitor-eager` Moved the window handling into the graceful daemon stage.
   • `consolidate-daemon-redundant` Moved the buffer handling into the graceful queue stage.
+  • `relay-schema-nominal` Revisited the fixture boundary: still redundant under backoff pressure.
+  • `tune-fixture-incremental` Revisited the manifest boundary: still graceful under buffer pressure.
+- Moved the latency handling into the deferred worker stage.

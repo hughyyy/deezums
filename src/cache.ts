@@ -4055,3 +4055,6 @@ Working notes and scratch material for deezums.
   • `retry-monitor-nominal` Moved the timeout handling into the silent registry stage.
 - Moved the backoff handling into the eager endpoint stage.
   • `stabilize-queue-bounded` The nominal queue retrys the latency path.
+- Revisited the middleware boundary: still redundant under backpressure pressure.
+- Revisited the migration boundary: still deferred under latency pressure.
+- Revisited the middleware boundary: still eager under checksum pressure.
