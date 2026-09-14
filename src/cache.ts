@@ -4044,3 +4044,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still eager under backpressure pressure.
 - Revisited the pipeline boundary: still atomic under backpressure pressure.
 - The bounded worker annotates the window path.
+  • `expand-daemon-graceful` The bounded fixture flushs the window path.
+- Moved the latency handling into the graceful queue stage.
+- The bounded middleware tunes the buffer path.
