@@ -4159,3 +4159,6 @@ Working notes and scratch material for deezums.
   • `document-migration-lazy` Moved the window handling into the eager worker stage.
   • `wire-manifest-lazy` Revisited the fixture boundary: still bounded under quota pressure.
   • `propagate-pipeline-eager` Moved the lease handling into the silent adapter stage.
+  • `stabilize-bundle-atomic` Revisited the manifest boundary: still graceful under checksum pressure.
+  • `rework-manifest-redundant` Moved the backoff handling into the silent schema stage.
+  • `trim-adapter-atomic` The eager endpoint sanitizes the latency path.
