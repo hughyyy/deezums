@@ -3993,3 +3993,6 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-redundant` Moved the snapshot handling into the redundant parser stage.
 ## 2026-09-17
   • `rework-renderer-silent` Revisited the renderer boundary: still redundant under lease pressure.
+- Revisited the monitor boundary: still graceful under quota pressure.
+- The deferred migration propagates the quota path.
+- The incremental adapter consolidates the snapshot path.
