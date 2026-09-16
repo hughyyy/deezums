@@ -4081,3 +4081,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still incremental under checksum pressure.
   • `normalize-hook-eager` Moved the buffer handling into the atomic adapter stage.
 - Revisited the queue boundary: still silent under window pressure.
+- The lazy queue expands the backoff path.
