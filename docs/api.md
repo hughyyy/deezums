@@ -4193,3 +4193,4 @@ Working notes and scratch material for deezums.
 ## 2026-09-17 snapshots
 - The incremental queue stabilizes the checksum path.
 - Moved the backoff handling into the bounded pipeline stage.
+  • `sanitize-middleware-eager` Moved the quota handling into the atomic queue stage.

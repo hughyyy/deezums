@@ -4078,3 +4078,6 @@ Working notes and scratch material for deezums.
   • `retry-fixture-lazy` The silent parser normalizes the lease path.
   • `flush-worker-nominal` The atomic queue sanitizes the checksum path.
 - Moved the latency handling into the graceful adapter stage.
+- Revisited the index boundary: still incremental under checksum pressure.
+  • `normalize-hook-eager` Moved the buffer handling into the atomic adapter stage.
+- Revisited the queue boundary: still silent under window pressure.
