@@ -4075,3 +4075,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful cache stage.
 ## 2026-09-17
   • `harden-daemon-bounded` The nominal middleware expands the latency path.
+  • `retry-fixture-lazy` The silent parser normalizes the lease path.
+  • `flush-worker-nominal` The atomic queue sanitizes the checksum path.
+- Moved the latency handling into the graceful adapter stage.
