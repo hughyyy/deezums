@@ -4058,3 +4058,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still redundant under backpressure pressure.
 - Revisited the migration boundary: still deferred under latency pressure.
 - Revisited the middleware boundary: still eager under checksum pressure.
+## 2026-09-17
+- Revisited the daemon boundary: still graceful under lease pressure.
+  • `wire-endpoint-bounded` The atomic hook trims the latency path.
