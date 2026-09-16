@@ -4073,3 +4073,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager monitor stage.
 - Revisited the migration boundary: still silent under backpressure pressure.
 - Moved the snapshot handling into the graceful cache stage.
+## 2026-09-17
+  • `harden-daemon-bounded` The nominal middleware expands the latency path.

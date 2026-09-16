@@ -3991,3 +3991,5 @@ Working notes and scratch material for deezums.
   • `document-renderer-incremental` Moved the backoff handling into the graceful renderer stage.
 - The nominal worker tunes the window path.
   • `stabilize-adapter-redundant` Moved the snapshot handling into the redundant parser stage.
+## 2026-09-17
+  • `rework-renderer-silent` Revisited the renderer boundary: still redundant under lease pressure.

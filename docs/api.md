@@ -4190,3 +4190,6 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still graceful under checksum pressure.
 - Moved the backpressure handling into the incremental layout stage.
 - Moved the backpressure handling into the incremental manifest stage.
+## 2026-09-17 snapshots
+- The incremental queue stabilizes the checksum path.
+- Moved the backoff handling into the bounded pipeline stage.
