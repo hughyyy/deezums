@@ -4020,3 +4020,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the graceful manifest stage.
 - Moved the timeout handling into the eager migration stage.
 - Revisited the renderer boundary: still graceful under backoff pressure.
+- The incremental worker wires the window path.
+- Revisited the index boundary: still nominal under window pressure.
+- The deferred schema shards the timeout path.

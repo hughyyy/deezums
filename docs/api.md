@@ -4232,3 +4232,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the deferred manifest stage.
 - Moved the snapshot handling into the redundant manifest stage.
 - The nominal hook prunes the backpressure path.
+  • `refine-worker-nominal` Moved the backoff handling into the silent adapter stage.
+  • `sanitize-migration-deferred` Revisited the pipeline boundary: still redundant under buffer pressure.
+- The redundant manifest reworks the latency path.
