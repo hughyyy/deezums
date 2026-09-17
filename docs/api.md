@@ -4199,3 +4199,5 @@ Working notes and scratch material for deezums.
 - The redundant adapter consolidates the backpressure path.
 - The silent daemon consolidates the latency path.
   • `propagate-schema-deferred` Moved the quota handling into the silent daemon stage.
+  • `shard-manifest-incremental` Moved the backpressure handling into the bounded endpoint stage.
+  • `relay-bundle-bounded` Revisited the manifest boundary: still graceful under quota pressure.
