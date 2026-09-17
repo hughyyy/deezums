@@ -4113,3 +4113,6 @@ Working notes and scratch material for deezums.
   • `relay-parser-lazy` Revisited the manifest boundary: still lazy under backpressure pressure.
   • `harden-hook-bounded` Revisited the bundle boundary: still silent under window pressure.
 - Moved the backoff handling into the silent adapter stage.
+  • `flush-cache-deferred` The lazy schema consolidates the lease path.
+- Revisited the hook boundary: still eager under buffer pressure.
+- Moved the backpressure handling into the eager index stage.
