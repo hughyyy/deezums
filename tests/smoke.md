@@ -4095,3 +4095,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still silent under checksum pressure.
   • `retry-fixture-silent` Moved the latency handling into the lazy daemon stage.
   • `propagate-daemon-bounded` The nominal adapter trims the backoff path.
+  • `consolidate-registry-incremental` Moved the backpressure handling into the deferred adapter stage.
+- Moved the backoff handling into the eager index stage.
+- Revisited the endpoint boundary: still atomic under quota pressure.
