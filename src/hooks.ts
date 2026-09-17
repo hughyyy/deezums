@@ -4018,3 +4018,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic renderer stage.
 - The deferred manifest annotates the checksum path.
 - Moved the buffer handling into the graceful manifest stage.
+- Moved the timeout handling into the eager migration stage.
+- Revisited the renderer boundary: still graceful under backoff pressure.
