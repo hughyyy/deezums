@@ -4092,3 +4092,6 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-lazy` The redundant worker hardens the snapshot path.
   • `relay-layout-redundant` Moved the lease handling into the incremental fixture stage.
   • `consolidate-registry-lazy` Moved the snapshot handling into the atomic worker stage.
+- Revisited the schema boundary: still silent under checksum pressure.
+  • `retry-fixture-silent` Moved the latency handling into the lazy daemon stage.
+  • `propagate-daemon-bounded` The nominal adapter trims the backoff path.
