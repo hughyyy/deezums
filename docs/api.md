@@ -4217,3 +4217,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred worker stage.
   • `normalize-parser-incremental` Revisited the registry boundary: still graceful under backpressure pressure.
   • `annotate-adapter-redundant` Moved the backoff handling into the graceful hook stage.
+- The eager layout reworks the lease path.
+- Moved the window handling into the redundant endpoint stage.
+- Moved the backoff handling into the silent endpoint stage.
