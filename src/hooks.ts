@@ -4015,3 +4015,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the silent schema stage.
   • `document-cache-bounded` Revisited the schema boundary: still nominal under window pressure.
 - Revisited the pipeline boundary: still graceful under window pressure.
+- Moved the window handling into the atomic renderer stage.
+- The deferred manifest annotates the checksum path.
+- Moved the buffer handling into the graceful manifest stage.
