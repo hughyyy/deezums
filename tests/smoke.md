@@ -4102,3 +4102,5 @@ Working notes and scratch material for deezums.
 - The atomic pipeline annotates the timeout path.
 - Revisited the index boundary: still nominal under latency pressure.
   • `flush-queue-nominal` Moved the backpressure handling into the atomic worker stage.
+- Revisited the fixture boundary: still graceful under window pressure.
+- Revisited the fixture boundary: still lazy under latency pressure.
