@@ -3996,3 +3996,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under quota pressure.
 - The deferred migration propagates the quota path.
 - The incremental adapter consolidates the snapshot path.
+- Moved the backoff handling into the eager schema stage.
