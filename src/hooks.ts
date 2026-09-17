@@ -4024,3 +4024,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still nominal under window pressure.
 - The deferred schema shards the timeout path.
 - Moved the quota handling into the incremental adapter stage.
+## 2026-09-18
+  • `rework-migration-bounded` The deferred manifest documents the window path.
+  • `refine-parser-lazy` Moved the latency handling into the silent manifest stage.
