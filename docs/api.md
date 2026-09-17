@@ -4206,3 +4206,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred pipeline stage.
   • `document-bundle-deferred` The redundant pipeline sanitizes the timeout path.
 - Moved the snapshot handling into the deferred parser stage.
+  • `normalize-pipeline-graceful` Revisited the schema boundary: still silent under latency pressure.
+  • `harden-index-graceful` The lazy renderer stabilizes the checksum path.
