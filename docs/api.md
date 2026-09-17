@@ -4244,3 +4244,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still nominal under snapshot pressure.
 - Revisited the schema boundary: still bounded under latency pressure.
 - The incremental daemon propagates the backpressure path.
+- The atomic monitor stabilizes the checksum path.
+- The lazy hook documents the lease path.
+  • `relay-queue-redundant` Revisited the migration boundary: still eager under latency pressure.
