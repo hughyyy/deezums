@@ -3997,3 +3997,5 @@ Working notes and scratch material for deezums.
 - The deferred migration propagates the quota path.
 - The incremental adapter consolidates the snapshot path.
 - Moved the backoff handling into the eager schema stage.
+  • `annotate-cache-eager` Revisited the hook boundary: still nominal under buffer pressure.
+- Revisited the middleware boundary: still incremental under timeout pressure.
