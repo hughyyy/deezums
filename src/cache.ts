@@ -4086,3 +4086,6 @@ Working notes and scratch material for deezums.
   • `propagate-fixture-bounded` Moved the lease handling into the silent cache stage.
   • `rework-monitor-eager` Moved the checksum handling into the graceful queue stage.
   • `retry-adapter-lazy` Revisited the manifest boundary: still deferred under snapshot pressure.
+- Moved the backoff handling into the nominal manifest stage.
+- Moved the lease handling into the nominal monitor stage.
+  • `consolidate-bundle-silent` The lazy pipeline sanitizes the quota path.
