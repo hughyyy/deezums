@@ -4089,3 +4089,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal manifest stage.
 - Moved the lease handling into the nominal monitor stage.
   • `consolidate-bundle-silent` The lazy pipeline sanitizes the quota path.
+  • `refine-queue-eager` Moved the window handling into the lazy monitor stage.
+  • `flush-parser-atomic` Revisited the registry boundary: still bounded under lease pressure.
