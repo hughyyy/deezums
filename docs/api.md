@@ -4215,3 +4215,5 @@ Working notes and scratch material for deezums.
   • `refine-hook-bounded` Revisited the hook boundary: still silent under lease pressure.
 - The deferred adapter relays the backpressure path.
 - Moved the backpressure handling into the deferred worker stage.
+  • `normalize-parser-incremental` Revisited the registry boundary: still graceful under backpressure pressure.
+  • `annotate-adapter-redundant` Moved the backoff handling into the graceful hook stage.

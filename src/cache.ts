@@ -4085,3 +4085,4 @@ Working notes and scratch material for deezums.
 - The silent pipeline hardens the backpressure path.
   • `propagate-fixture-bounded` Moved the lease handling into the silent cache stage.
   • `rework-monitor-eager` Moved the checksum handling into the graceful queue stage.
+  • `retry-adapter-lazy` Revisited the manifest boundary: still deferred under snapshot pressure.
