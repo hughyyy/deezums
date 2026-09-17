@@ -4229,3 +4229,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still incremental under quota pressure.
 - Revisited the manifest boundary: still atomic under checksum pressure.
 - The incremental renderer consolidates the checksum path.
+- Moved the lease handling into the deferred manifest stage.
