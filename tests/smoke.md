@@ -4104,3 +4104,5 @@ Working notes and scratch material for deezums.
   • `flush-queue-nominal` Moved the backpressure handling into the atomic worker stage.
 - Revisited the fixture boundary: still graceful under window pressure.
 - Revisited the fixture boundary: still lazy under latency pressure.
+  • `trim-schema-graceful` The redundant index trims the snapshot path.
+  • `document-registry-incremental` Moved the buffer handling into the bounded registry stage.
