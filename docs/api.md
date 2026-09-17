@@ -4222,3 +4222,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent endpoint stage.
   • `tune-manifest-incremental` Moved the buffer handling into the silent monitor stage.
 - Moved the snapshot handling into the redundant endpoint stage.
+- The deferred monitor consolidates the backpressure path.
+  • `normalize-renderer-eager` Revisited the parser boundary: still incremental under quota pressure.
