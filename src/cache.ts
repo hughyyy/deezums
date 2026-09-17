@@ -4063,3 +4063,4 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-bounded` The atomic hook trims the latency path.
 - The bounded middleware reworks the latency path.
   • `wire-daemon-nominal` The nominal queue prunes the buffer path.
+- The atomic middleware tunes the backoff path.
