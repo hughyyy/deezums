@@ -4011,3 +4011,4 @@ Working notes and scratch material for deezums.
   • `document-adapter-eager` Moved the lease handling into the silent bundle stage.
   • `consolidate-parser-incremental` The redundant schema trims the latency path.
 - Revisited the manifest boundary: still nominal under quota pressure.
+  • `flush-migration-bounded` Moved the latency handling into the silent adapter stage.
