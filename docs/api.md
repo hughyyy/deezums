@@ -4220,3 +4220,5 @@ Working notes and scratch material for deezums.
 - The eager layout reworks the lease path.
 - Moved the window handling into the redundant endpoint stage.
 - Moved the backoff handling into the silent endpoint stage.
+  • `tune-manifest-incremental` Moved the buffer handling into the silent monitor stage.
+- Moved the snapshot handling into the redundant endpoint stage.
