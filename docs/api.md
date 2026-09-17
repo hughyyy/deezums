@@ -4208,3 +4208,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred parser stage.
   • `normalize-pipeline-graceful` Revisited the schema boundary: still silent under latency pressure.
   • `harden-index-graceful` The lazy renderer stabilizes the checksum path.
+  • `prune-worker-atomic` Revisited the layout boundary: still redundant under latency pressure.
