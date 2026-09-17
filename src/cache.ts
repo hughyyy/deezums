@@ -4076,3 +4076,4 @@ Working notes and scratch material for deezums.
   • `rework-daemon-nominal` Revisited the daemon boundary: still silent under window pressure.
 - The nominal endpoint normalizes the checksum path.
 - Revisited the endpoint boundary: still bounded under backoff pressure.
+- Revisited the index boundary: still eager under window pressure.
