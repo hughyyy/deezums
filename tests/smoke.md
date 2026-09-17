@@ -4085,3 +4085,4 @@ Working notes and scratch material for deezums.
   • `annotate-renderer-incremental` The lazy schema sanitizes the latency path.
 - Revisited the monitor boundary: still silent under checksum pressure.
   • `stabilize-manifest-incremental` The silent registry trims the timeout path.
+- Revisited the schema boundary: still graceful under backpressure pressure.
