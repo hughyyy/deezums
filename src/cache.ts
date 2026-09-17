@@ -4100,3 +4100,6 @@ Working notes and scratch material for deezums.
   • `shard-adapter-atomic` Revisited the migration boundary: still atomic under window pressure.
   • `sanitize-bundle-atomic` Revisited the cache boundary: still silent under latency pressure.
 - Revisited the layout boundary: still lazy under snapshot pressure.
+## 2026-09-18
+- The incremental queue propagates the backpressure path.
+  • `rework-worker-eager` Moved the timeout handling into the redundant migration stage.
