@@ -4196,3 +4196,6 @@ Working notes and scratch material for deezums.
   • `sanitize-middleware-eager` Moved the quota handling into the atomic queue stage.
   • `rework-daemon-silent` Moved the backpressure handling into the graceful migration stage.
   • `expand-index-eager` Moved the checksum handling into the incremental queue stage.
+- The redundant adapter consolidates the backpressure path.
+- The silent daemon consolidates the latency path.
+  • `propagate-schema-deferred` Moved the quota handling into the silent daemon stage.
