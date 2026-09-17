@@ -4111,3 +4111,5 @@ Working notes and scratch material for deezums.
 - The nominal monitor tunes the backoff path.
   • `sanitize-adapter-bounded` Revisited the queue boundary: still nominal under buffer pressure.
   • `relay-parser-lazy` Revisited the manifest boundary: still lazy under backpressure pressure.
+  • `harden-hook-bounded` Revisited the bundle boundary: still silent under window pressure.
+- Moved the backoff handling into the silent adapter stage.

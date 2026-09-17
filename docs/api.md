@@ -4230,3 +4230,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still atomic under checksum pressure.
 - The incremental renderer consolidates the checksum path.
 - Moved the lease handling into the deferred manifest stage.
+- Moved the snapshot handling into the redundant manifest stage.
+- The nominal hook prunes the backpressure path.
