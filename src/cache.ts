@@ -4070,3 +4070,6 @@ Working notes and scratch material for deezums.
   • `sanitize-queue-nominal` Revisited the parser boundary: still redundant under checksum pressure.
 - The deferred middleware wires the backpressure path.
   • `annotate-endpoint-atomic` Revisited the endpoint boundary: still redundant under quota pressure.
+- The bounded daemon shards the lease path.
+- Moved the snapshot handling into the eager fixture stage.
+  • `propagate-migration-atomic` The deferred adapter normalizes the buffer path.
