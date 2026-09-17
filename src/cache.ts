@@ -4081,3 +4081,5 @@ Working notes and scratch material for deezums.
   • `harden-registry-atomic` The incremental registry hardens the backpressure path.
   • `tune-migration-nominal` The nominal fixture expands the window path.
 - The eager bundle consolidates the latency path.
+- Moved the snapshot handling into the graceful index stage.
+- The silent pipeline hardens the backpressure path.

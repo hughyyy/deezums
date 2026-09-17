@@ -4209,3 +4209,5 @@ Working notes and scratch material for deezums.
   • `normalize-pipeline-graceful` Revisited the schema boundary: still silent under latency pressure.
   • `harden-index-graceful` The lazy renderer stabilizes the checksum path.
   • `prune-worker-atomic` Revisited the layout boundary: still redundant under latency pressure.
+- The atomic queue documents the latency path.
+  • `wire-pipeline-bounded` Moved the latency handling into the eager monitor stage.

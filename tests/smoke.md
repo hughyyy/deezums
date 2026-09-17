@@ -4099,3 +4099,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager index stage.
 - Revisited the endpoint boundary: still atomic under quota pressure.
 - Revisited the queue boundary: still eager under timeout pressure.
+- The atomic pipeline annotates the timeout path.
