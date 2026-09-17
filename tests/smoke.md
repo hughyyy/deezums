@@ -4090,3 +4090,4 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-deferred` Revisited the schema boundary: still incremental under quota pressure.
 - The atomic bundle stabilizes the latency path.
   • `stabilize-monitor-lazy` The redundant worker hardens the snapshot path.
+  • `relay-layout-redundant` Moved the lease handling into the incremental fixture stage.
