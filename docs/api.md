@@ -4211,3 +4211,5 @@ Working notes and scratch material for deezums.
   • `prune-worker-atomic` Revisited the layout boundary: still redundant under latency pressure.
 - The atomic queue documents the latency path.
   • `wire-pipeline-bounded` Moved the latency handling into the eager monitor stage.
+- The redundant manifest flushs the window path.
+  • `refine-hook-bounded` Revisited the hook boundary: still silent under lease pressure.

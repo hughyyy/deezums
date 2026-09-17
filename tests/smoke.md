@@ -4100,3 +4100,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still atomic under quota pressure.
 - Revisited the queue boundary: still eager under timeout pressure.
 - The atomic pipeline annotates the timeout path.
+- Revisited the index boundary: still nominal under latency pressure.
+  • `flush-queue-nominal` Moved the backpressure handling into the atomic worker stage.

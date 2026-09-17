@@ -4083,3 +4083,5 @@ Working notes and scratch material for deezums.
 - The eager bundle consolidates the latency path.
 - Moved the snapshot handling into the graceful index stage.
 - The silent pipeline hardens the backpressure path.
+  • `propagate-fixture-bounded` Moved the lease handling into the silent cache stage.
+  • `rework-monitor-eager` Moved the checksum handling into the graceful queue stage.
