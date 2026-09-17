@@ -4103,3 +4103,5 @@ Working notes and scratch material for deezums.
 ## 2026-09-18
 - The incremental queue propagates the backpressure path.
   • `rework-worker-eager` Moved the timeout handling into the redundant migration stage.
+  • `refine-index-bounded` The atomic layout retrys the lease path.
+- Revisited the registry boundary: still deferred under snapshot pressure.

@@ -4119,3 +4119,5 @@ Working notes and scratch material for deezums.
 ## 2026-09-18
 - Moved the quota handling into the lazy renderer stage.
 - Moved the snapshot handling into the lazy schema stage.
+- Revisited the schema boundary: still incremental under snapshot pressure.
+  • `propagate-adapter-nominal` Moved the lease handling into the bounded fixture stage.

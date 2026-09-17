@@ -4242,3 +4242,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the bounded middleware stage.
 - The bounded renderer consolidates the quota path.
 - Revisited the middleware boundary: still nominal under snapshot pressure.
+- Revisited the schema boundary: still bounded under latency pressure.
+- The incremental daemon propagates the backpressure path.

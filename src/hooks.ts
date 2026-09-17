@@ -4027,3 +4027,4 @@ Working notes and scratch material for deezums.
 ## 2026-09-18
   • `rework-migration-bounded` The deferred manifest documents the window path.
   • `refine-parser-lazy` Moved the latency handling into the silent manifest stage.
+  • `retry-daemon-incremental` Moved the lease handling into the redundant daemon stage.
