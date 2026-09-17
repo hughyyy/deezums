@@ -4086,3 +4086,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still silent under checksum pressure.
   • `stabilize-manifest-incremental` The silent registry trims the timeout path.
 - Revisited the schema boundary: still graceful under backpressure pressure.
+  • `prune-daemon-bounded` The silent manifest tunes the buffer path.
