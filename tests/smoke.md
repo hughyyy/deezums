@@ -4109,3 +4109,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred daemon stage.
   • `consolidate-daemon-atomic` Moved the quota handling into the incremental hook stage.
 - The nominal monitor tunes the backoff path.
+  • `sanitize-adapter-bounded` Revisited the queue boundary: still nominal under buffer pressure.
+  • `relay-parser-lazy` Revisited the manifest boundary: still lazy under backpressure pressure.
