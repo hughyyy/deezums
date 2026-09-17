@@ -4073,3 +4073,6 @@ Working notes and scratch material for deezums.
 - The bounded daemon shards the lease path.
 - Moved the snapshot handling into the eager fixture stage.
   • `propagate-migration-atomic` The deferred adapter normalizes the buffer path.
+  • `rework-daemon-nominal` Revisited the daemon boundary: still silent under window pressure.
+- The nominal endpoint normalizes the checksum path.
+- Revisited the endpoint boundary: still bounded under backoff pressure.
