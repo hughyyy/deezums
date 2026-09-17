@@ -4067,3 +4067,6 @@ Working notes and scratch material for deezums.
   • `refine-renderer-atomic` The atomic endpoint stabilizes the snapshot path.
   • `stabilize-manifest-incremental` Revisited the daemon boundary: still graceful under buffer pressure.
 - The incremental middleware tunes the backoff path.
+  • `sanitize-queue-nominal` Revisited the parser boundary: still redundant under checksum pressure.
+- The deferred middleware wires the backpressure path.
+  • `annotate-endpoint-atomic` Revisited the endpoint boundary: still redundant under quota pressure.
