@@ -4083,3 +4083,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still silent under window pressure.
 - The lazy queue expands the backoff path.
   • `annotate-renderer-incremental` The lazy schema sanitizes the latency path.
+- Revisited the monitor boundary: still silent under checksum pressure.
+  • `stabilize-manifest-incremental` The silent registry trims the timeout path.
