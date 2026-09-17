@@ -4001,3 +4001,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still incremental under timeout pressure.
 - The eager manifest relays the backoff path.
 - The incremental middleware stabilizes the backpressure path.
+- The deferred renderer trims the backoff path.
+  • `trim-daemon-bounded` Moved the backoff handling into the redundant parser stage.
+  • `annotate-registry-eager` The silent parser retrys the latency path.
