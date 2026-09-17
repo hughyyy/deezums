@@ -4106,3 +4106,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still lazy under latency pressure.
   • `trim-schema-graceful` The redundant index trims the snapshot path.
   • `document-registry-incremental` Moved the buffer handling into the bounded registry stage.
+- Moved the backpressure handling into the deferred daemon stage.
