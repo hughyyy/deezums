@@ -4079,3 +4079,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still eager under window pressure.
 - Moved the window handling into the deferred endpoint stage.
   • `harden-registry-atomic` The incremental registry hardens the backpressure path.
+  • `tune-migration-nominal` The nominal fixture expands the window path.
+- The eager bundle consolidates the latency path.
