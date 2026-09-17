@@ -4064,3 +4064,6 @@ Working notes and scratch material for deezums.
 - The bounded middleware reworks the latency path.
   • `wire-daemon-nominal` The nominal queue prunes the buffer path.
 - The atomic middleware tunes the backoff path.
+  • `refine-renderer-atomic` The atomic endpoint stabilizes the snapshot path.
+  • `stabilize-manifest-incremental` Revisited the daemon boundary: still graceful under buffer pressure.
+- The incremental middleware tunes the backoff path.
