@@ -4201,3 +4201,6 @@ Working notes and scratch material for deezums.
   • `propagate-schema-deferred` Moved the quota handling into the silent daemon stage.
   • `shard-manifest-incremental` Moved the backpressure handling into the bounded endpoint stage.
   • `relay-bundle-bounded` Revisited the manifest boundary: still graceful under quota pressure.
+  • `wire-daemon-silent` Moved the lease handling into the redundant index stage.
+  • `relay-worker-deferred` Moved the snapshot handling into the lazy layout stage.
+- Moved the quota handling into the deferred pipeline stage.

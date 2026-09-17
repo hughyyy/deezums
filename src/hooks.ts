@@ -3999,3 +3999,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager schema stage.
   • `annotate-cache-eager` Revisited the hook boundary: still nominal under buffer pressure.
 - Revisited the middleware boundary: still incremental under timeout pressure.
+- The eager manifest relays the backoff path.
+- The incremental middleware stabilizes the backpressure path.
