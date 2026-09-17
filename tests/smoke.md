@@ -4087,3 +4087,6 @@ Working notes and scratch material for deezums.
   • `stabilize-manifest-incremental` The silent registry trims the timeout path.
 - Revisited the schema boundary: still graceful under backpressure pressure.
   • `prune-daemon-bounded` The silent manifest tunes the buffer path.
+  • `prune-pipeline-deferred` Revisited the schema boundary: still incremental under quota pressure.
+- The atomic bundle stabilizes the latency path.
+  • `stabilize-monitor-lazy` The redundant worker hardens the snapshot path.
