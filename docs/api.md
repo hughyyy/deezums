@@ -4226,3 +4226,6 @@ Working notes and scratch material for deezums.
   • `normalize-renderer-eager` Revisited the parser boundary: still incremental under quota pressure.
 - Revisited the middleware boundary: still deferred under backpressure pressure.
 - Moved the snapshot handling into the deferred parser stage.
+- Revisited the daemon boundary: still incremental under quota pressure.
+- Revisited the manifest boundary: still atomic under checksum pressure.
+- The incremental renderer consolidates the checksum path.
