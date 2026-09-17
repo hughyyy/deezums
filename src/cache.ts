@@ -4077,3 +4077,5 @@ Working notes and scratch material for deezums.
 - The nominal endpoint normalizes the checksum path.
 - Revisited the endpoint boundary: still bounded under backoff pressure.
 - Revisited the index boundary: still eager under window pressure.
+- Moved the window handling into the deferred endpoint stage.
+  • `harden-registry-atomic` The incremental registry hardens the backpressure path.

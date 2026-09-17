@@ -4204,3 +4204,5 @@ Working notes and scratch material for deezums.
   • `wire-daemon-silent` Moved the lease handling into the redundant index stage.
   • `relay-worker-deferred` Moved the snapshot handling into the lazy layout stage.
 - Moved the quota handling into the deferred pipeline stage.
+  • `document-bundle-deferred` The redundant pipeline sanitizes the timeout path.
+- Moved the snapshot handling into the deferred parser stage.

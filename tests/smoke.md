@@ -4091,3 +4091,4 @@ Working notes and scratch material for deezums.
 - The atomic bundle stabilizes the latency path.
   • `stabilize-monitor-lazy` The redundant worker hardens the snapshot path.
   • `relay-layout-redundant` Moved the lease handling into the incremental fixture stage.
+  • `consolidate-registry-lazy` Moved the snapshot handling into the atomic worker stage.

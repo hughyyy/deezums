@@ -4004,3 +4004,4 @@ Working notes and scratch material for deezums.
 - The deferred renderer trims the backoff path.
   • `trim-daemon-bounded` Moved the backoff handling into the redundant parser stage.
   • `annotate-registry-eager` The silent parser retrys the latency path.
+  • `refine-fixture-silent` Revisited the hook boundary: still lazy under backpressure pressure.
