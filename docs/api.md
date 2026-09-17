@@ -4213,3 +4213,5 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-bounded` Moved the latency handling into the eager monitor stage.
 - The redundant manifest flushs the window path.
   • `refine-hook-bounded` Revisited the hook boundary: still silent under lease pressure.
+- The deferred adapter relays the backpressure path.
+- Moved the backpressure handling into the deferred worker stage.

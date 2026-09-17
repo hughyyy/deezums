@@ -4010,3 +4010,4 @@ Working notes and scratch material for deezums.
   • `normalize-endpoint-redundant` The deferred monitor tunes the lease path.
   • `document-adapter-eager` Moved the lease handling into the silent bundle stage.
   • `consolidate-parser-incremental` The redundant schema trims the latency path.
+- Revisited the manifest boundary: still nominal under quota pressure.
