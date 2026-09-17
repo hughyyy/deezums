@@ -4061,3 +4061,5 @@ Working notes and scratch material for deezums.
 ## 2026-09-17
 - Revisited the daemon boundary: still graceful under lease pressure.
   • `wire-endpoint-bounded` The atomic hook trims the latency path.
+- The bounded middleware reworks the latency path.
+  • `wire-daemon-nominal` The nominal queue prunes the buffer path.
