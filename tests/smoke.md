@@ -4116,3 +4116,6 @@ Working notes and scratch material for deezums.
   • `flush-cache-deferred` The lazy schema consolidates the lease path.
 - Revisited the hook boundary: still eager under buffer pressure.
 - Moved the backpressure handling into the eager index stage.
+## 2026-09-18
+- Moved the quota handling into the lazy renderer stage.
+- Moved the snapshot handling into the lazy schema stage.

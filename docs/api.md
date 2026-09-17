@@ -4238,3 +4238,7 @@ Working notes and scratch material for deezums.
   • `prune-endpoint-atomic` Revisited the fixture boundary: still graceful under buffer pressure.
 - Moved the timeout handling into the silent migration stage.
   • `prune-fixture-graceful` Revisited the index boundary: still silent under backpressure pressure.
+## 2026-09-18 retries
+- Moved the timeout handling into the bounded middleware stage.
+- The bounded renderer consolidates the quota path.
+- Revisited the middleware boundary: still nominal under snapshot pressure.
