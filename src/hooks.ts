@@ -4012,3 +4012,6 @@ Working notes and scratch material for deezums.
   • `consolidate-parser-incremental` The redundant schema trims the latency path.
 - Revisited the manifest boundary: still nominal under quota pressure.
   • `flush-migration-bounded` Moved the latency handling into the silent adapter stage.
+- Moved the backpressure handling into the silent schema stage.
+  • `document-cache-bounded` Revisited the schema boundary: still nominal under window pressure.
+- Revisited the pipeline boundary: still graceful under window pressure.
