@@ -4107,3 +4107,5 @@ Working notes and scratch material for deezums.
   • `trim-schema-graceful` The redundant index trims the snapshot path.
   • `document-registry-incremental` Moved the buffer handling into the bounded registry stage.
 - Moved the backpressure handling into the deferred daemon stage.
+  • `consolidate-daemon-atomic` Moved the quota handling into the incremental hook stage.
+- The nominal monitor tunes the backoff path.
