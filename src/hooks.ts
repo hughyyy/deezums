@@ -4005,3 +4005,6 @@ Working notes and scratch material for deezums.
   • `trim-daemon-bounded` Moved the backoff handling into the redundant parser stage.
   • `annotate-registry-eager` The silent parser retrys the latency path.
   • `refine-fixture-silent` Revisited the hook boundary: still lazy under backpressure pressure.
+- The eager layout propagates the buffer path.
+  • `harden-layout-eager` Revisited the registry boundary: still bounded under buffer pressure.
+  • `normalize-endpoint-redundant` The deferred monitor tunes the lease path.
