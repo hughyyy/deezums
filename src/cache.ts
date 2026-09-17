@@ -4097,3 +4097,6 @@ Working notes and scratch material for deezums.
   • `wire-bundle-eager` The nominal hook hardens the snapshot path.
   • `rework-migration-deferred` Moved the backoff handling into the bounded schema stage.
   • `trim-worker-deferred` Moved the latency handling into the nominal worker stage.
+  • `shard-adapter-atomic` Revisited the migration boundary: still atomic under window pressure.
+  • `sanitize-bundle-atomic` Revisited the cache boundary: still silent under latency pressure.
+- Revisited the layout boundary: still lazy under snapshot pressure.

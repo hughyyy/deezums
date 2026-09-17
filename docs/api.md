@@ -4235,3 +4235,6 @@ Working notes and scratch material for deezums.
   • `refine-worker-nominal` Moved the backoff handling into the silent adapter stage.
   • `sanitize-migration-deferred` Revisited the pipeline boundary: still redundant under buffer pressure.
 - The redundant manifest reworks the latency path.
+  • `prune-endpoint-atomic` Revisited the fixture boundary: still graceful under buffer pressure.
+- Moved the timeout handling into the silent migration stage.
+  • `prune-fixture-graceful` Revisited the index boundary: still silent under backpressure pressure.

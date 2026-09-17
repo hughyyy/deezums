@@ -4023,3 +4023,4 @@ Working notes and scratch material for deezums.
 - The incremental worker wires the window path.
 - Revisited the index boundary: still nominal under window pressure.
 - The deferred schema shards the timeout path.
+- Moved the quota handling into the incremental adapter stage.
