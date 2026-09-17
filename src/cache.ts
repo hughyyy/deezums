@@ -4094,3 +4094,6 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-eager` Revisited the fixture boundary: still bounded under snapshot pressure.
 - The lazy pipeline sanitizes the latency path.
   • `relay-fixture-bounded` The incremental parser trims the buffer path.
+  • `wire-bundle-eager` The nominal hook hardens the snapshot path.
+  • `rework-migration-deferred` Moved the backoff handling into the bounded schema stage.
+  • `trim-worker-deferred` Moved the latency handling into the nominal worker stage.
