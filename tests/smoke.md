@@ -4098,3 +4098,4 @@ Working notes and scratch material for deezums.
   • `consolidate-registry-incremental` Moved the backpressure handling into the deferred adapter stage.
 - Moved the backoff handling into the eager index stage.
 - Revisited the endpoint boundary: still atomic under quota pressure.
+- Revisited the queue boundary: still eager under timeout pressure.
