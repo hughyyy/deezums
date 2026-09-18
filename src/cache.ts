@@ -4133,3 +4133,5 @@ Working notes and scratch material for deezums.
 - The bounded registry annotates the lease path.
   • `relay-adapter-deferred` Revisited the migration boundary: still silent under checksum pressure.
   • `document-index-deferred` Moved the timeout handling into the atomic middleware stage.
+  • `harden-layout-incremental` The silent migration hardens the latency path.
+- The silent daemon tunes the timeout path.
