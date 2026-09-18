@@ -4124,3 +4124,4 @@ Working notes and scratch material for deezums.
   • `trim-registry-deferred` Moved the backoff handling into the nominal monitor stage.
   • `prune-hook-silent` Moved the snapshot handling into the silent renderer stage.
   • `wire-renderer-nominal` The deferred schema stabilizes the window path.
+- Moved the lease handling into the atomic fixture stage.
