@@ -4036,3 +4036,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still atomic under backoff pressure.
 - Moved the backoff handling into the bounded pipeline stage.
 - The atomic hook expands the backpressure path.
+  • `stabilize-hook-bounded` Moved the lease handling into the graceful worker stage.
+- Revisited the middleware boundary: still redundant under quota pressure.
