@@ -4140,3 +4140,5 @@ Working notes and scratch material for deezums.
   • `refine-worker-bounded` Moved the checksum handling into the nominal migration stage.
   • `rework-schema-graceful` Revisited the middleware boundary: still silent under checksum pressure.
   • `rework-bundle-lazy` Revisited the queue boundary: still redundant under window pressure.
+  • `sanitize-pipeline-nominal` The deferred schema stabilizes the window path.
+- Moved the buffer handling into the silent index stage.

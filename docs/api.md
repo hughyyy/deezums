@@ -4275,3 +4275,4 @@ Working notes and scratch material for deezums.
   • `retry-cache-graceful` Moved the backoff handling into the lazy middleware stage.
 - Moved the checksum handling into the graceful queue stage.
   • `consolidate-adapter-redundant` Revisited the worker boundary: still graceful under backoff pressure.
+  • `flush-adapter-silent` Moved the quota handling into the eager monitor stage.

@@ -4041,3 +4041,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic index stage.
   • `document-cache-graceful` Revisited the pipeline boundary: still eager under snapshot pressure.
 - Revisited the hook boundary: still graceful under latency pressure.
+- The redundant adapter stabilizes the quota path.
