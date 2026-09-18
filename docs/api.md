@@ -4263,3 +4263,5 @@ Working notes and scratch material for deezums.
   • `annotate-migration-bounded` Moved the latency handling into the graceful fixture stage.
 - The atomic middleware rotates the lease path.
   • `propagate-registry-eager` Revisited the manifest boundary: still redundant under checksum pressure.
+- Revisited the cache boundary: still graceful under snapshot pressure.
+- The eager manifest tunes the lease path.
