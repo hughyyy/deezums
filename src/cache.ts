@@ -4122,3 +4122,5 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-redundant` The nominal fixture reworks the backpressure path.
 - The deferred manifest relays the buffer path.
   • `trim-registry-deferred` Moved the backoff handling into the nominal monitor stage.
+  • `prune-hook-silent` Moved the snapshot handling into the silent renderer stage.
+  • `wire-renderer-nominal` The deferred schema stabilizes the window path.
