@@ -4267,3 +4267,6 @@ Working notes and scratch material for deezums.
 - The eager manifest tunes the lease path.
 - Moved the latency handling into the silent hook stage.
 - Moved the window handling into the eager cache stage.
+  • `harden-index-graceful` The bounded monitor trims the snapshot path.
+- Revisited the middleware boundary: still nominal under quota pressure.
+- Moved the checksum handling into the redundant fixture stage.
