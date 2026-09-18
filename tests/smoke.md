@@ -4134,3 +4134,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal fixture stage.
   • `shard-queue-incremental` Moved the window handling into the nominal pipeline stage.
   • `document-monitor-nominal` The bounded index reworks the snapshot path.
+  • `wire-parser-atomic` Revisited the cache boundary: still bounded under buffer pressure.
