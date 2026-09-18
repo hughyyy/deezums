@@ -4126,3 +4126,5 @@ Working notes and scratch material for deezums.
   • `rotate-renderer-deferred` Revisited the monitor boundary: still eager under latency pressure.
   • `normalize-registry-atomic` Moved the quota handling into the lazy hook stage.
   • `refine-cache-lazy` Revisited the manifest boundary: still incremental under latency pressure.
+  • `wire-index-deferred` The incremental cache normalizes the lease path.
+- Moved the window handling into the lazy cache stage.
