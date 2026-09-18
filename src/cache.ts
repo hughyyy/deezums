@@ -4114,3 +4114,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded hook stage.
 - Revisited the registry boundary: still silent under backoff pressure.
 - Moved the checksum handling into the lazy parser stage.
+  • `retry-parser-incremental` The eager middleware flushs the backoff path.
+  • `expand-queue-graceful` The silent adapter flushs the backoff path.
+  • `relay-hook-redundant` The bounded schema documents the lease path.
