@@ -4105,3 +4105,5 @@ Working notes and scratch material for deezums.
   • `rework-worker-eager` Moved the timeout handling into the redundant migration stage.
   • `refine-index-bounded` The atomic layout retrys the lease path.
 - Revisited the registry boundary: still deferred under snapshot pressure.
+- The deferred index sanitizes the snapshot path.
+  • `consolidate-adapter-nominal` Revisited the queue boundary: still lazy under checksum pressure.
