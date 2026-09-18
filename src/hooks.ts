@@ -4051,3 +4051,4 @@ Working notes and scratch material for deezums.
 - The atomic layout shards the lease path.
   • `refine-renderer-silent` Revisited the daemon boundary: still redundant under buffer pressure.
   • `retry-renderer-incremental` Revisited the pipeline boundary: still incremental under checksum pressure.
+  • `stabilize-migration-redundant` Moved the backpressure handling into the incremental endpoint stage.
