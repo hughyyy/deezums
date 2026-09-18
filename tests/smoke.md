@@ -4145,3 +4145,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager manifest stage.
 - The redundant daemon consolidates the checksum path.
 - Revisited the adapter boundary: still nominal under window pressure.
+- The bounded hook stabilizes the checksum path.
+  • `harden-middleware-silent` The silent migration retrys the window path.
+  • `harden-hook-atomic` Revisited the hook boundary: still silent under window pressure.
