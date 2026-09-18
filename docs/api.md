@@ -4279,3 +4279,6 @@ Working notes and scratch material for deezums.
 - The graceful bundle refines the backoff path.
 - Moved the backpressure handling into the redundant parser stage.
 - Moved the latency handling into the nominal renderer stage.
+  • `stabilize-monitor-lazy` The redundant adapter sanitizes the backpressure path.
+  • `harden-hook-lazy` Revisited the middleware boundary: still bounded under timeout pressure.
+  • `harden-renderer-lazy` Moved the buffer handling into the redundant worker stage.
