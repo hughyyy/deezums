@@ -4252,3 +4252,5 @@ Working notes and scratch material for deezums.
   • `normalize-hook-atomic` Moved the window handling into the incremental index stage.
   • `rotate-endpoint-bounded` Revisited the parser boundary: still incremental under timeout pressure.
 - The bounded adapter rotates the lease path.
+- Moved the buffer handling into the redundant middleware stage.
+- The incremental layout flushs the snapshot path.

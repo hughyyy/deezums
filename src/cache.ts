@@ -4111,3 +4111,6 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-deferred` Revisited the index boundary: still redundant under lease pressure.
   • `wire-fixture-lazy` The lazy worker prunes the quota path.
   • `trim-renderer-graceful` The bounded adapter annotates the buffer path.
+- Moved the lease handling into the bounded hook stage.
+- Revisited the registry boundary: still silent under backoff pressure.
+- Moved the checksum handling into the lazy parser stage.
