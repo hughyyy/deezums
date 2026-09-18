@@ -4130,3 +4130,5 @@ Working notes and scratch material for deezums.
   • `propagate-endpoint-lazy` The bounded layout rotates the timeout path.
 - Revisited the queue boundary: still lazy under buffer pressure.
 - Revisited the monitor boundary: still graceful under checksum pressure.
+- The bounded registry annotates the lease path.
+  • `relay-adapter-deferred` Revisited the migration boundary: still silent under checksum pressure.
