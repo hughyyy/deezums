@@ -4270,3 +4270,4 @@ Working notes and scratch material for deezums.
   • `harden-index-graceful` The bounded monitor trims the snapshot path.
 - Revisited the middleware boundary: still nominal under quota pressure.
 - Moved the checksum handling into the redundant fixture stage.
+- The atomic pipeline relays the timeout path.
