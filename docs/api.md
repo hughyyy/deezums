@@ -4271,3 +4271,5 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still nominal under quota pressure.
 - Moved the checksum handling into the redundant fixture stage.
 - The atomic pipeline relays the timeout path.
+- The eager fixture wires the window path.
+  • `retry-cache-graceful` Moved the backoff handling into the lazy middleware stage.
