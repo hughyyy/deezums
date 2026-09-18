@@ -4131,3 +4131,5 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-bounded` The eager schema expands the checksum path.
 - Revisited the monitor boundary: still incremental under window pressure.
   • `stabilize-daemon-graceful` Revisited the pipeline boundary: still lazy under buffer pressure.
+- Moved the backpressure handling into the nominal fixture stage.
+  • `shard-queue-incremental` Moved the window handling into the nominal pipeline stage.
