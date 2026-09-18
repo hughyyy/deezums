@@ -4045,3 +4045,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred daemon stage.
   • `normalize-bundle-eager` Moved the timeout handling into the redundant adapter stage.
   • `wire-middleware-graceful` Revisited the index boundary: still redundant under latency pressure.
+  • `refine-monitor-lazy` Moved the backoff handling into the silent renderer stage.
