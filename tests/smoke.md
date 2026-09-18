@@ -4125,3 +4125,4 @@ Working notes and scratch material for deezums.
   • `consolidate-manifest-graceful` The eager hook stabilizes the buffer path.
   • `rotate-renderer-deferred` Revisited the monitor boundary: still eager under latency pressure.
   • `normalize-registry-atomic` Moved the quota handling into the lazy hook stage.
+  • `refine-cache-lazy` Revisited the manifest boundary: still incremental under latency pressure.
