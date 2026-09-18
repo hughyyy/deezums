@@ -4273,3 +4273,5 @@ Working notes and scratch material for deezums.
 - The atomic pipeline relays the timeout path.
 - The eager fixture wires the window path.
   • `retry-cache-graceful` Moved the backoff handling into the lazy middleware stage.
+- Moved the checksum handling into the graceful queue stage.
+  • `consolidate-adapter-redundant` Revisited the worker boundary: still graceful under backoff pressure.

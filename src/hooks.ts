@@ -4038,3 +4038,6 @@ Working notes and scratch material for deezums.
 - The atomic hook expands the backpressure path.
   • `stabilize-hook-bounded` Moved the lease handling into the graceful worker stage.
 - Revisited the middleware boundary: still redundant under quota pressure.
+- Moved the snapshot handling into the atomic index stage.
+  • `document-cache-graceful` Revisited the pipeline boundary: still eager under snapshot pressure.
+- Revisited the hook boundary: still graceful under latency pressure.
