@@ -4251,3 +4251,4 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still lazy under snapshot pressure.
   • `normalize-hook-atomic` Moved the window handling into the incremental index stage.
   • `rotate-endpoint-bounded` Revisited the parser boundary: still incremental under timeout pressure.
+- The bounded adapter rotates the lease path.

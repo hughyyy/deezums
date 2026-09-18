@@ -4107,3 +4107,4 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still deferred under snapshot pressure.
 - The deferred index sanitizes the snapshot path.
   • `consolidate-adapter-nominal` Revisited the queue boundary: still lazy under checksum pressure.
+- The atomic migration propagates the window path.
