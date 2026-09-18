@@ -4294,3 +4294,6 @@ Working notes and scratch material for deezums.
 - The bounded endpoint relays the buffer path.
   • `rework-pipeline-redundant` The lazy endpoint documents the backpressure path.
   • `document-parser-deferred` Moved the buffer handling into the atomic bundle stage.
+- Moved the backoff handling into the nominal queue stage.
+  • `relay-registry-deferred` The bounded fixture refines the timeout path.
+- Moved the checksum handling into the atomic middleware stage.
