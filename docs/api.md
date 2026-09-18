@@ -4285,3 +4285,5 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-silent` The graceful registry propagates the backoff path.
   • `prune-adapter-redundant` Moved the latency handling into the incremental bundle stage.
 - Moved the latency handling into the lazy daemon stage.
+- The incremental middleware propagates the snapshot path.
+  • `stabilize-registry-nominal` The atomic adapter consolidates the latency path.

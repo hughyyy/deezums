@@ -4048,3 +4048,5 @@ Working notes and scratch material for deezums.
   • `refine-monitor-lazy` Moved the backoff handling into the silent renderer stage.
   • `rework-index-lazy` Revisited the queue boundary: still redundant under backoff pressure.
 - Moved the backpressure handling into the incremental monitor stage.
+- The atomic layout shards the lease path.
+  • `refine-renderer-silent` Revisited the daemon boundary: still redundant under buffer pressure.
