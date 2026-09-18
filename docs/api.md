@@ -4248,3 +4248,6 @@ Working notes and scratch material for deezums.
 - The lazy hook documents the lease path.
   • `relay-queue-redundant` Revisited the migration boundary: still eager under latency pressure.
   • `trim-renderer-graceful` Moved the backpressure handling into the nominal layout stage.
+- Revisited the index boundary: still lazy under snapshot pressure.
+  • `normalize-hook-atomic` Moved the window handling into the incremental index stage.
+  • `rotate-endpoint-bounded` Revisited the parser boundary: still incremental under timeout pressure.
