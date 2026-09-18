@@ -4254,3 +4254,5 @@ Working notes and scratch material for deezums.
 - The bounded adapter rotates the lease path.
 - Moved the buffer handling into the redundant middleware stage.
 - The incremental layout flushs the snapshot path.
+- Moved the checksum handling into the graceful pipeline stage.
+- Moved the checksum handling into the eager cache stage.
