@@ -4135,3 +4135,7 @@ Working notes and scratch material for deezums.
   • `document-index-deferred` Moved the timeout handling into the atomic middleware stage.
   • `harden-layout-incremental` The silent migration hardens the latency path.
 - The silent daemon tunes the timeout path.
+## 2026-09-19
+  • `stabilize-adapter-redundant` Moved the backoff handling into the lazy bundle stage.
+  • `rework-adapter-bounded` Revisited the registry boundary: still redundant under lease pressure.
+  • `propagate-pipeline-atomic` Moved the snapshot handling into the graceful cache stage.
