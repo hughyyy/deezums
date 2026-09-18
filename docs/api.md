@@ -4292,3 +4292,5 @@ Working notes and scratch material for deezums.
   • `sanitize-pipeline-redundant` Revisited the fixture boundary: still lazy under backoff pressure.
 - The deferred middleware relays the window path.
 - The bounded endpoint relays the buffer path.
+  • `rework-pipeline-redundant` The lazy endpoint documents the backpressure path.
+  • `document-parser-deferred` Moved the buffer handling into the atomic bundle stage.
