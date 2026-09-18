@@ -4050,3 +4050,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the incremental monitor stage.
 - The atomic layout shards the lease path.
   • `refine-renderer-silent` Revisited the daemon boundary: still redundant under buffer pressure.
+  • `retry-renderer-incremental` Revisited the pipeline boundary: still incremental under checksum pressure.
