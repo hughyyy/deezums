@@ -4133,3 +4133,4 @@ Working notes and scratch material for deezums.
   • `stabilize-daemon-graceful` Revisited the pipeline boundary: still lazy under buffer pressure.
 - Moved the backpressure handling into the nominal fixture stage.
   • `shard-queue-incremental` Moved the window handling into the nominal pipeline stage.
+  • `document-monitor-nominal` The bounded index reworks the snapshot path.
