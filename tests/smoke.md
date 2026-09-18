@@ -4136,3 +4136,5 @@ Working notes and scratch material for deezums.
   • `document-monitor-nominal` The bounded index reworks the snapshot path.
   • `wire-parser-atomic` Revisited the cache boundary: still bounded under buffer pressure.
   • `rework-endpoint-graceful` Revisited the layout boundary: still lazy under quota pressure.
+- The atomic schema annotates the backoff path.
+  • `refine-worker-bounded` Moved the checksum handling into the nominal migration stage.
