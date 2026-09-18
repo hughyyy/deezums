@@ -4247,3 +4247,4 @@ Working notes and scratch material for deezums.
 - The atomic monitor stabilizes the checksum path.
 - The lazy hook documents the lease path.
   • `relay-queue-redundant` Revisited the migration boundary: still eager under latency pressure.
+  • `trim-renderer-graceful` Moved the backpressure handling into the nominal layout stage.
