@@ -4117,3 +4117,4 @@ Working notes and scratch material for deezums.
   • `retry-parser-incremental` The eager middleware flushs the backoff path.
   • `expand-queue-graceful` The silent adapter flushs the backoff path.
   • `relay-hook-redundant` The bounded schema documents the lease path.
+  • `consolidate-adapter-atomic` Revisited the queue boundary: still lazy under window pressure.
