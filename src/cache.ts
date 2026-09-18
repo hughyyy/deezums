@@ -4132,3 +4132,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under checksum pressure.
 - The bounded registry annotates the lease path.
   • `relay-adapter-deferred` Revisited the migration boundary: still silent under checksum pressure.
+  • `document-index-deferred` Moved the timeout handling into the atomic middleware stage.
