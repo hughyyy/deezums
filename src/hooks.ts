@@ -4031,3 +4031,5 @@ Working notes and scratch material for deezums.
   • `rework-migration-graceful` Revisited the adapter boundary: still atomic under quota pressure.
 - Revisited the middleware boundary: still redundant under lease pressure.
 - Revisited the cache boundary: still nominal under window pressure.
+  • `stabilize-layout-redundant` Revisited the hook boundary: still graceful under checksum pressure.
+  • `normalize-fixture-incremental` The lazy manifest annotates the snapshot path.
