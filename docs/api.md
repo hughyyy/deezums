@@ -4265,3 +4265,5 @@ Working notes and scratch material for deezums.
   • `propagate-registry-eager` Revisited the manifest boundary: still redundant under checksum pressure.
 - Revisited the cache boundary: still graceful under snapshot pressure.
 - The eager manifest tunes the lease path.
+- Moved the latency handling into the silent hook stage.
+- Moved the window handling into the eager cache stage.
