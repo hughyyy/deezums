@@ -4135,3 +4135,4 @@ Working notes and scratch material for deezums.
   • `shard-queue-incremental` Moved the window handling into the nominal pipeline stage.
   • `document-monitor-nominal` The bounded index reworks the snapshot path.
   • `wire-parser-atomic` Revisited the cache boundary: still bounded under buffer pressure.
+  • `rework-endpoint-graceful` Revisited the layout boundary: still lazy under quota pressure.
