@@ -4121,3 +4121,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the lazy schema stage.
 - Revisited the schema boundary: still incremental under snapshot pressure.
   • `propagate-adapter-nominal` Moved the lease handling into the bounded fixture stage.
+- Moved the quota handling into the lazy manifest stage.
+  • `consolidate-manifest-graceful` The eager hook stabilizes the buffer path.
