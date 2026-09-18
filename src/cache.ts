@@ -4129,3 +4129,4 @@ Working notes and scratch material for deezums.
   • `expand-manifest-silent` Moved the backoff handling into the silent bundle stage.
   • `propagate-endpoint-lazy` The bounded layout rotates the timeout path.
 - Revisited the queue boundary: still lazy under buffer pressure.
+- Revisited the monitor boundary: still graceful under checksum pressure.

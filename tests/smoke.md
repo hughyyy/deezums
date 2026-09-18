@@ -4142,3 +4142,6 @@ Working notes and scratch material for deezums.
   • `rework-bundle-lazy` Revisited the queue boundary: still redundant under window pressure.
   • `sanitize-pipeline-nominal` The deferred schema stabilizes the window path.
 - Moved the buffer handling into the silent index stage.
+- Moved the lease handling into the eager manifest stage.
+- The redundant daemon consolidates the checksum path.
+- Revisited the adapter boundary: still nominal under window pressure.

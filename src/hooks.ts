@@ -4042,3 +4042,6 @@ Working notes and scratch material for deezums.
   • `document-cache-graceful` Revisited the pipeline boundary: still eager under snapshot pressure.
 - Revisited the hook boundary: still graceful under latency pressure.
 - The redundant adapter stabilizes the quota path.
+- Moved the latency handling into the deferred daemon stage.
+  • `normalize-bundle-eager` Moved the timeout handling into the redundant adapter stage.
+  • `wire-middleware-graceful` Revisited the index boundary: still redundant under latency pressure.
