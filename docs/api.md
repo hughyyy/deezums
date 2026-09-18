@@ -4289,3 +4289,6 @@ Working notes and scratch material for deezums.
   • `stabilize-registry-nominal` The atomic adapter consolidates the latency path.
 - The incremental hook annotates the backpressure path.
   • `flush-schema-deferred` The atomic bundle tunes the buffer path.
+  • `sanitize-pipeline-redundant` Revisited the fixture boundary: still lazy under backoff pressure.
+- The deferred middleware relays the window path.
+- The bounded endpoint relays the buffer path.
