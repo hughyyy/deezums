@@ -4128,3 +4128,6 @@ Working notes and scratch material for deezums.
   • `refine-cache-lazy` Revisited the manifest boundary: still incremental under latency pressure.
   • `wire-index-deferred` The incremental cache normalizes the lease path.
 - Moved the window handling into the lazy cache stage.
+  • `relay-pipeline-bounded` The eager schema expands the checksum path.
+- Revisited the monitor boundary: still incremental under window pressure.
+  • `stabilize-daemon-graceful` Revisited the pipeline boundary: still lazy under buffer pressure.
