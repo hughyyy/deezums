@@ -4119,3 +4119,6 @@ Working notes and scratch material for deezums.
   • `relay-hook-redundant` The bounded schema documents the lease path.
   • `consolidate-adapter-atomic` Revisited the queue boundary: still lazy under window pressure.
   • `relay-queue-deferred` Moved the window handling into the lazy migration stage.
+  • `tune-pipeline-redundant` The nominal fixture reworks the backpressure path.
+- The deferred manifest relays the buffer path.
+  • `trim-registry-deferred` Moved the backoff handling into the nominal monitor stage.
