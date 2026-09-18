@@ -4282,3 +4282,6 @@ Working notes and scratch material for deezums.
   • `stabilize-monitor-lazy` The redundant adapter sanitizes the backpressure path.
   • `harden-hook-lazy` Revisited the middleware boundary: still bounded under timeout pressure.
   • `harden-renderer-lazy` Moved the buffer handling into the redundant worker stage.
+  • `expand-endpoint-silent` The graceful registry propagates the backoff path.
+  • `prune-adapter-redundant` Moved the latency handling into the incremental bundle stage.
+- Moved the latency handling into the lazy daemon stage.
