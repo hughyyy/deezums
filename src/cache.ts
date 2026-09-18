@@ -4125,3 +4125,6 @@ Working notes and scratch material for deezums.
   • `prune-hook-silent` Moved the snapshot handling into the silent renderer stage.
   • `wire-renderer-nominal` The deferred schema stabilizes the window path.
 - Moved the lease handling into the atomic fixture stage.
+  • `relay-hook-redundant` Revisited the schema boundary: still deferred under lease pressure.
+  • `expand-manifest-silent` Moved the backoff handling into the silent bundle stage.
+  • `propagate-endpoint-lazy` The bounded layout rotates the timeout path.
