@@ -4138,3 +4138,5 @@ Working notes and scratch material for deezums.
   • `rework-endpoint-graceful` Revisited the layout boundary: still lazy under quota pressure.
 - The atomic schema annotates the backoff path.
   • `refine-worker-bounded` Moved the checksum handling into the nominal migration stage.
+  • `rework-schema-graceful` Revisited the middleware boundary: still silent under checksum pressure.
+  • `rework-bundle-lazy` Revisited the queue boundary: still redundant under window pressure.
