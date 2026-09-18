@@ -4028,3 +4028,6 @@ Working notes and scratch material for deezums.
   • `rework-migration-bounded` The deferred manifest documents the window path.
   • `refine-parser-lazy` Moved the latency handling into the silent manifest stage.
   • `retry-daemon-incremental` Moved the lease handling into the redundant daemon stage.
+  • `rework-migration-graceful` Revisited the adapter boundary: still atomic under quota pressure.
+- Revisited the middleware boundary: still redundant under lease pressure.
+- Revisited the cache boundary: still nominal under window pressure.
