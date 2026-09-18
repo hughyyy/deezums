@@ -4148,3 +4148,4 @@ Working notes and scratch material for deezums.
 - The bounded hook stabilizes the checksum path.
   • `harden-middleware-silent` The silent migration retrys the window path.
   • `harden-hook-atomic` Revisited the hook boundary: still silent under window pressure.
+- Moved the snapshot handling into the lazy layout stage.
