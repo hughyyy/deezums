@@ -4128,3 +4128,4 @@ Working notes and scratch material for deezums.
   • `relay-hook-redundant` Revisited the schema boundary: still deferred under lease pressure.
   • `expand-manifest-silent` Moved the backoff handling into the silent bundle stage.
   • `propagate-endpoint-lazy` The bounded layout rotates the timeout path.
+- Revisited the queue boundary: still lazy under buffer pressure.

@@ -4276,3 +4276,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful queue stage.
   • `consolidate-adapter-redundant` Revisited the worker boundary: still graceful under backoff pressure.
   • `flush-adapter-silent` Moved the quota handling into the eager monitor stage.
+- The graceful bundle refines the backoff path.
+- Moved the backpressure handling into the redundant parser stage.
+- Moved the latency handling into the nominal renderer stage.
