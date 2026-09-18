@@ -4108,3 +4108,6 @@ Working notes and scratch material for deezums.
 - The deferred index sanitizes the snapshot path.
   • `consolidate-adapter-nominal` Revisited the queue boundary: still lazy under checksum pressure.
 - The atomic migration propagates the window path.
+  • `tune-pipeline-deferred` Revisited the index boundary: still redundant under lease pressure.
+  • `wire-fixture-lazy` The lazy worker prunes the quota path.
+  • `trim-renderer-graceful` The bounded adapter annotates the buffer path.
