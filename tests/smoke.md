@@ -4123,3 +4123,5 @@ Working notes and scratch material for deezums.
   • `propagate-adapter-nominal` Moved the lease handling into the bounded fixture stage.
 - Moved the quota handling into the lazy manifest stage.
   • `consolidate-manifest-graceful` The eager hook stabilizes the buffer path.
+  • `rotate-renderer-deferred` Revisited the monitor boundary: still eager under latency pressure.
+  • `normalize-registry-atomic` Moved the quota handling into the lazy hook stage.
