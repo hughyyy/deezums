@@ -4287,3 +4287,5 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy daemon stage.
 - The incremental middleware propagates the snapshot path.
   • `stabilize-registry-nominal` The atomic adapter consolidates the latency path.
+- The incremental hook annotates the backpressure path.
+  • `flush-schema-deferred` The atomic bundle tunes the buffer path.
