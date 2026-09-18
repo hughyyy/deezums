@@ -4256,3 +4256,6 @@ Working notes and scratch material for deezums.
 - The incremental layout flushs the snapshot path.
 - Moved the checksum handling into the graceful pipeline stage.
 - Moved the checksum handling into the eager cache stage.
+- Moved the buffer handling into the atomic cache stage.
+  • `rework-hook-graceful` The silent endpoint tunes the window path.
+  • `flush-registry-lazy` The deferred fixture shards the quota path.
