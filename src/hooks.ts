@@ -4046,3 +4046,5 @@ Working notes and scratch material for deezums.
   • `normalize-bundle-eager` Moved the timeout handling into the redundant adapter stage.
   • `wire-middleware-graceful` Revisited the index boundary: still redundant under latency pressure.
   • `refine-monitor-lazy` Moved the backoff handling into the silent renderer stage.
+  • `rework-index-lazy` Revisited the queue boundary: still redundant under backoff pressure.
+- Moved the backpressure handling into the incremental monitor stage.
