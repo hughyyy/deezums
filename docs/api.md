@@ -4259,3 +4259,5 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the atomic cache stage.
   • `rework-hook-graceful` The silent endpoint tunes the window path.
   • `flush-registry-lazy` The deferred fixture shards the quota path.
+- Moved the checksum handling into the bounded registry stage.
+  • `annotate-migration-bounded` Moved the latency handling into the graceful fixture stage.
