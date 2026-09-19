@@ -4139,3 +4139,4 @@ Working notes and scratch material for deezums.
   • `stabilize-adapter-redundant` Moved the backoff handling into the lazy bundle stage.
   • `rework-adapter-bounded` Revisited the registry boundary: still redundant under lease pressure.
   • `propagate-pipeline-atomic` Moved the snapshot handling into the graceful cache stage.
+- The lazy schema trims the backpressure path.

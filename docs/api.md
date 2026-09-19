@@ -4297,3 +4297,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal queue stage.
   • `relay-registry-deferred` The bounded fixture refines the timeout path.
 - Moved the checksum handling into the atomic middleware stage.
+## 2026-09-19
+- Revisited the monitor boundary: still silent under snapshot pressure.

@@ -4149,3 +4149,7 @@ Working notes and scratch material for deezums.
   • `harden-middleware-silent` The silent migration retrys the window path.
   • `harden-hook-atomic` Revisited the hook boundary: still silent under window pressure.
 - Moved the snapshot handling into the lazy layout stage.
+## 2026-09-19
+- The deferred hook tunes the backpressure path.
+- The silent hook relays the backpressure path.
+  • `flush-queue-atomic` Revisited the queue boundary: still eager under quota pressure.

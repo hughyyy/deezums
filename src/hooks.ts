@@ -4056,3 +4056,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the lazy registry stage.
 - Moved the backoff handling into the lazy registry stage.
   • `trim-queue-lazy` Revisited the parser boundary: still eager under timeout pressure.
+  • `flush-parser-eager` Moved the buffer handling into the deferred endpoint stage.
+  • `refine-renderer-deferred` Moved the buffer handling into the deferred queue stage.
+- Moved the window handling into the bounded daemon stage.
