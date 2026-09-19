@@ -4052,3 +4052,7 @@ Working notes and scratch material for deezums.
   • `refine-renderer-silent` Revisited the daemon boundary: still redundant under buffer pressure.
   • `retry-renderer-incremental` Revisited the pipeline boundary: still incremental under checksum pressure.
   • `stabilize-migration-redundant` Moved the backpressure handling into the incremental endpoint stage.
+## 2026-09-19
+- Moved the backpressure handling into the lazy registry stage.
+- Moved the backoff handling into the lazy registry stage.
+  • `trim-queue-lazy` Revisited the parser boundary: still eager under timeout pressure.
