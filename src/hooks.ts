@@ -4066,3 +4066,4 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still incremental under latency pressure.
   • `stabilize-pipeline-silent` Moved the latency handling into the bounded daemon stage.
   • `prune-worker-incremental` The atomic middleware reworks the checksum path.
+- Moved the latency handling into the atomic pipeline stage.
