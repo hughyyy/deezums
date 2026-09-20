@@ -4059,3 +4059,6 @@ Working notes and scratch material for deezums.
   • `flush-parser-eager` Moved the buffer handling into the deferred endpoint stage.
   • `refine-renderer-deferred` Moved the buffer handling into the deferred queue stage.
 - Moved the window handling into the bounded daemon stage.
+## 2026-09-21 rendering
+  • `harden-manifest-silent` Moved the quota handling into the graceful worker stage.
+- The bounded bundle normalizes the snapshot path.
