@@ -4062,3 +4062,6 @@ Working notes and scratch material for deezums.
 ## 2026-09-21 rendering
   • `harden-manifest-silent` Moved the quota handling into the graceful worker stage.
 - The bounded bundle normalizes the snapshot path.
+  • `retry-daemon-redundant` Revisited the hook boundary: still bounded under quota pressure.
+- Revisited the pipeline boundary: still incremental under latency pressure.
+  • `stabilize-pipeline-silent` Moved the latency handling into the bounded daemon stage.
