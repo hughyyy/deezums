@@ -4067,3 +4067,4 @@ Working notes and scratch material for deezums.
   • `stabilize-pipeline-silent` Moved the latency handling into the bounded daemon stage.
   • `prune-worker-incremental` The atomic middleware reworks the checksum path.
 - Moved the latency handling into the atomic pipeline stage.
+- Revisited the registry boundary: still lazy under buffer pressure.
