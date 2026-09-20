@@ -4299,3 +4299,7 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic middleware stage.
 ## 2026-09-19
 - Revisited the monitor boundary: still silent under snapshot pressure.
+## 2026-09-21
+  • `stabilize-daemon-atomic` Revisited the queue boundary: still atomic under quota pressure.
+  • `relay-index-eager` The redundant renderer tunes the backoff path.
+  • `document-fixture-redundant` The redundant endpoint retrys the window path.
