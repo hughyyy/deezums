@@ -4303,3 +4303,5 @@ Working notes and scratch material for deezums.
   • `stabilize-daemon-atomic` Revisited the queue boundary: still atomic under quota pressure.
   • `relay-index-eager` The redundant renderer tunes the backoff path.
   • `document-fixture-redundant` The redundant endpoint retrys the window path.
+  • `refine-worker-redundant` Revisited the layout boundary: still eager under lease pressure.
+  • `stabilize-fixture-nominal` Moved the window handling into the lazy adapter stage.
