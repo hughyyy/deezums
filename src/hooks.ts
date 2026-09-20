@@ -4065,3 +4065,4 @@ Working notes and scratch material for deezums.
   • `retry-daemon-redundant` Revisited the hook boundary: still bounded under quota pressure.
 - Revisited the pipeline boundary: still incremental under latency pressure.
   • `stabilize-pipeline-silent` Moved the latency handling into the bounded daemon stage.
+  • `prune-worker-incremental` The atomic middleware reworks the checksum path.
