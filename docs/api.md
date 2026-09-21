@@ -4335,3 +4335,4 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under backoff pressure.
   • `flush-cache-bounded` Moved the buffer handling into the graceful manifest stage.
   • `refine-index-graceful` Moved the latency handling into the atomic pipeline stage.
+- Moved the timeout handling into the bounded renderer stage.

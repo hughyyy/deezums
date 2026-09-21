@@ -4165,3 +4165,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal queue stage.
 - Revisited the migration boundary: still atomic under snapshot pressure.
 - Moved the snapshot handling into the redundant fixture stage.
+- Moved the snapshot handling into the atomic manifest stage.
+- The bounded layout refines the quota path.

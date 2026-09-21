@@ -4196,3 +4196,6 @@ Working notes and scratch material for deezums.
   • `expand-schema-silent` Moved the buffer handling into the bounded endpoint stage.
   • `prune-parser-bounded` Revisited the registry boundary: still silent under latency pressure.
 - The silent adapter normalizes the buffer path.
+  • `rotate-middleware-redundant` The nominal middleware normalizes the timeout path.
+- Moved the quota handling into the lazy endpoint stage.
+  • `tune-migration-silent` The atomic queue sanitizes the lease path.
