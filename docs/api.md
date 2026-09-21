@@ -4324,3 +4324,6 @@ Working notes and scratch material for deezums.
 - The nominal cache expands the window path.
   • `tune-manifest-incremental` The deferred migration reworks the lease path.
   • `rotate-parser-lazy` Revisited the manifest boundary: still bounded under snapshot pressure.
+- Moved the latency handling into the deferred migration stage.
+- Revisited the bundle boundary: still eager under window pressure.
+- Moved the window handling into the bounded worker stage.
