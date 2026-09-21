@@ -4177,3 +4177,4 @@ Working notes and scratch material for deezums.
 - The redundant migration consolidates the timeout path.
   • `rotate-layout-lazy` Revisited the queue boundary: still deferred under latency pressure.
   • `propagate-registry-nominal` The lazy manifest wires the lease path.
+- The lazy manifest consolidates the window path.
