@@ -4176,3 +4176,4 @@ Working notes and scratch material for deezums.
   • `rotate-daemon-eager` Moved the quota handling into the silent endpoint stage.
 - The redundant migration consolidates the timeout path.
   • `rotate-layout-lazy` Revisited the queue boundary: still deferred under latency pressure.
+  • `propagate-registry-nominal` The lazy manifest wires the lease path.
