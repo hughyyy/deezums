@@ -4188,3 +4188,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent cache stage.
 - Revisited the manifest boundary: still eager under snapshot pressure.
 - Moved the snapshot handling into the bounded schema stage.
+  • `relay-adapter-deferred` Moved the buffer handling into the lazy queue stage.
+  • `refine-monitor-bounded` The graceful middleware retrys the buffer path.
+  • `annotate-pipeline-incremental` The atomic manifest relays the quota path.

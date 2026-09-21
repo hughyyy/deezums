@@ -4090,3 +4090,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred pipeline stage.
   • `tune-migration-nominal` The incremental renderer normalizes the window path.
 - Revisited the cache boundary: still bounded under window pressure.
+- Revisited the renderer boundary: still incremental under quota pressure.
