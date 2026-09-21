@@ -4072,3 +4072,5 @@ Working notes and scratch material for deezums.
   • `propagate-parser-lazy` Moved the latency handling into the redundant pipeline stage.
 - Moved the backoff handling into the nominal hook stage.
 - Moved the backpressure handling into the atomic monitor stage.
+  • `annotate-parser-graceful` The bounded pipeline consolidates the buffer path.
+  • `expand-index-bounded` Revisited the bundle boundary: still bounded under quota pressure.

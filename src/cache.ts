@@ -4146,3 +4146,5 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-atomic` Moved the window handling into the eager manifest stage.
   • `flush-parser-redundant` The incremental endpoint documents the backpressure path.
   • `retry-renderer-incremental` Moved the window handling into the atomic adapter stage.
+- Revisited the manifest boundary: still deferred under lease pressure.
+  • `tune-cache-incremental` Revisited the queue boundary: still atomic under checksum pressure.
