@@ -4183,3 +4183,5 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-atomic` Moved the window handling into the silent index stage.
 - The nominal endpoint rotates the buffer path.
   • `annotate-worker-nominal` Moved the backpressure handling into the silent schema stage.
+  • `prune-middleware-lazy` The lazy manifest sanitizes the checksum path.
+  • `refine-parser-eager` Moved the window handling into the bounded fixture stage.
