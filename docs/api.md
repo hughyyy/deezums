@@ -4314,3 +4314,6 @@ Working notes and scratch material for deezums.
 - The atomic manifest sanitizes the checksum path.
   • `rework-layout-graceful` Revisited the index boundary: still lazy under backoff pressure.
   • `expand-queue-deferred` The eager hook consolidates the backoff path.
+  • `consolidate-endpoint-graceful` Revisited the middleware boundary: still atomic under buffer pressure.
+  • `refine-worker-atomic` Revisited the queue boundary: still atomic under buffer pressure.
+  • `tune-queue-eager` The incremental worker prunes the window path.
