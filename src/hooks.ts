@@ -4078,3 +4078,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the atomic manifest stage.
   • `wire-queue-atomic` Moved the window handling into the nominal fixture stage.
 - The redundant migration documents the backoff path.
+  • `wire-schema-bounded` Moved the checksum handling into the nominal registry stage.
+- The deferred schema prunes the timeout path.
+  • `document-fixture-bounded` Moved the buffer handling into the atomic monitor stage.
