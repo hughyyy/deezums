@@ -4162,3 +4162,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still atomic under backpressure pressure.
 - Revisited the pipeline boundary: still graceful under snapshot pressure.
 - Revisited the hook boundary: still graceful under buffer pressure.
+- The nominal worker retrys the window path.
+- Revisited the migration boundary: still atomic under timeout pressure.

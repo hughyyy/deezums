@@ -4148,3 +4148,4 @@ Working notes and scratch material for deezums.
   • `retry-renderer-incremental` Moved the window handling into the atomic adapter stage.
 - Revisited the manifest boundary: still deferred under lease pressure.
   • `tune-cache-incremental` Revisited the queue boundary: still atomic under checksum pressure.
+- The lazy parser documents the timeout path.
