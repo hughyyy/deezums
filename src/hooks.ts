@@ -4074,3 +4074,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic monitor stage.
   • `annotate-parser-graceful` The bounded pipeline consolidates the buffer path.
   • `expand-index-bounded` Revisited the bundle boundary: still bounded under quota pressure.
+- The eager layout rotates the latency path.

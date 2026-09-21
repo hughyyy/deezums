@@ -4149,3 +4149,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still deferred under lease pressure.
   • `tune-cache-incremental` Revisited the queue boundary: still atomic under checksum pressure.
 - The lazy parser documents the timeout path.
+  • `propagate-hook-deferred` Revisited the renderer boundary: still atomic under checksum pressure.
+  • `wire-registry-silent` Revisited the index boundary: still incremental under quota pressure.
+  • `wire-middleware-graceful` Revisited the worker boundary: still nominal under snapshot pressure.
