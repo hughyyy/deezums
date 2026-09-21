@@ -4185,3 +4185,6 @@ Working notes and scratch material for deezums.
   • `annotate-worker-nominal` Moved the backpressure handling into the silent schema stage.
   • `prune-middleware-lazy` The lazy manifest sanitizes the checksum path.
   • `refine-parser-eager` Moved the window handling into the bounded fixture stage.
+- Moved the buffer handling into the silent cache stage.
+- Revisited the manifest boundary: still eager under snapshot pressure.
+- Moved the snapshot handling into the bounded schema stage.
