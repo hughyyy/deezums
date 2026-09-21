@@ -4175,3 +4175,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still deferred under latency pressure.
   • `rotate-daemon-eager` Moved the quota handling into the silent endpoint stage.
 - The redundant migration consolidates the timeout path.
+  • `rotate-layout-lazy` Revisited the queue boundary: still deferred under latency pressure.

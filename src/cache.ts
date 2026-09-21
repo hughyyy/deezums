@@ -4158,3 +4158,6 @@ Working notes and scratch material for deezums.
 - The deferred adapter prunes the backpressure path.
   • `flush-manifest-bounded` The incremental index shards the checksum path.
   • `rework-fixture-atomic` The deferred worker trims the backoff path.
+- Moved the quota handling into the nominal cache stage.
+- The incremental migration prunes the snapshot path.
+  • `wire-pipeline-incremental` Revisited the daemon boundary: still redundant under snapshot pressure.
