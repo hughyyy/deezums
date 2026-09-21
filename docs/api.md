@@ -4329,3 +4329,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded worker stage.
   • `trim-index-graceful` The lazy monitor consolidates the quota path.
 - Revisited the daemon boundary: still atomic under backpressure pressure.
+  • `stabilize-renderer-graceful` The nominal migration annotates the checksum path.
