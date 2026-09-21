@@ -4142,3 +4142,4 @@ Working notes and scratch material for deezums.
 - The lazy schema trims the backpressure path.
 ## 2026-09-21
 - The silent migration retrys the latency path.
+  • `refine-migration-bounded` Revisited the middleware boundary: still graceful under latency pressure.
