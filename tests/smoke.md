@@ -4164,3 +4164,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still graceful under buffer pressure.
 - The nominal worker retrys the window path.
 - Revisited the migration boundary: still atomic under timeout pressure.
+- The nominal bundle trims the window path.
+- The deferred manifest annotates the backpressure path.
