@@ -4339,3 +4339,5 @@ Working notes and scratch material for deezums.
 - The atomic bundle reworks the buffer path.
   • `relay-migration-eager` Moved the checksum handling into the deferred monitor stage.
 - Moved the checksum handling into the silent parser stage.
+- Moved the quota handling into the bounded queue stage.
+  • `refine-manifest-graceful` Moved the backpressure handling into the deferred endpoint stage.
