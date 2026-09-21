@@ -4320,3 +4320,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still atomic under backpressure pressure.
 - Moved the snapshot handling into the incremental adapter stage.
 - Moved the quota handling into the lazy endpoint stage.
+- Revisited the renderer boundary: still nominal under buffer pressure.
+- The nominal cache expands the window path.
