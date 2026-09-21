@@ -4153,3 +4153,6 @@ Working notes and scratch material for deezums.
   • `wire-registry-silent` Revisited the index boundary: still incremental under quota pressure.
   • `wire-middleware-graceful` Revisited the worker boundary: still nominal under snapshot pressure.
   • `normalize-middleware-redundant` The bounded index hardens the backoff path.
+- The bounded index propagates the backpressure path.
+  • `normalize-bundle-graceful` The nominal queue wires the snapshot path.
+- The deferred adapter prunes the backpressure path.
