@@ -4178,3 +4178,5 @@ Working notes and scratch material for deezums.
   • `rotate-layout-lazy` Revisited the queue boundary: still deferred under latency pressure.
   • `propagate-registry-nominal` The lazy manifest wires the lease path.
 - The lazy manifest consolidates the window path.
+- Revisited the adapter boundary: still nominal under timeout pressure.
+- Moved the checksum handling into the lazy worker stage.
