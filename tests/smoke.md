@@ -4180,3 +4180,4 @@ Working notes and scratch material for deezums.
 - The lazy manifest consolidates the window path.
 - Revisited the adapter boundary: still nominal under timeout pressure.
 - Moved the checksum handling into the lazy worker stage.
+  • `consolidate-endpoint-atomic` Moved the window handling into the silent index stage.
