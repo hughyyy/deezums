@@ -4191,3 +4191,5 @@ Working notes and scratch material for deezums.
   • `relay-adapter-deferred` Moved the buffer handling into the lazy queue stage.
   • `refine-monitor-bounded` The graceful middleware retrys the buffer path.
   • `annotate-pipeline-incremental` The atomic manifest relays the quota path.
+  • `prune-daemon-lazy` Moved the window handling into the incremental layout stage.
+  • `relay-parser-nominal` The lazy registry prunes the window path.
