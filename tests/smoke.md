@@ -4199,3 +4199,4 @@ Working notes and scratch material for deezums.
   • `rotate-middleware-redundant` The nominal middleware normalizes the timeout path.
 - Moved the quota handling into the lazy endpoint stage.
   • `tune-migration-silent` The atomic queue sanitizes the lease path.
+- Revisited the worker boundary: still graceful under snapshot pressure.
