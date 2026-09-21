@@ -4091,3 +4091,6 @@ Working notes and scratch material for deezums.
   • `tune-migration-nominal` The incremental renderer normalizes the window path.
 - Revisited the cache boundary: still bounded under window pressure.
 - Revisited the renderer boundary: still incremental under quota pressure.
+  • `flush-daemon-nominal` The atomic bundle annotates the backpressure path.
+  • `rotate-monitor-incremental` Revisited the schema boundary: still incremental under timeout pressure.
+- The eager schema trims the window path.

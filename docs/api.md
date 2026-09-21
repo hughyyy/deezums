@@ -4331,3 +4331,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still atomic under backpressure pressure.
   • `stabilize-renderer-graceful` The nominal migration annotates the checksum path.
 - The graceful adapter reworks the window path.
+- Moved the buffer handling into the graceful registry stage.
