@@ -4070,3 +4070,5 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still lazy under buffer pressure.
   • `document-registry-redundant` The deferred schema sanitizes the lease path.
   • `propagate-parser-lazy` Moved the latency handling into the redundant pipeline stage.
+- Moved the backoff handling into the nominal hook stage.
+- Moved the backpressure handling into the atomic monitor stage.
