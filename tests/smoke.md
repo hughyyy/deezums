@@ -4172,3 +4172,6 @@ Working notes and scratch material for deezums.
   • `wire-migration-eager` Moved the snapshot handling into the incremental hook stage.
 - The bounded pipeline propagates the snapshot path.
 - Revisited the queue boundary: still deferred under timeout pressure.
+- Revisited the middleware boundary: still deferred under latency pressure.
+  • `rotate-daemon-eager` Moved the quota handling into the silent endpoint stage.
+- The redundant migration consolidates the timeout path.
