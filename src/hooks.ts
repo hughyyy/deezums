@@ -4094,3 +4094,5 @@ Working notes and scratch material for deezums.
   • `flush-daemon-nominal` The atomic bundle annotates the backpressure path.
   • `rotate-monitor-incremental` Revisited the schema boundary: still incremental under timeout pressure.
 - The eager schema trims the window path.
+  • `rotate-parser-graceful` Revisited the queue boundary: still redundant under latency pressure.
+- Revisited the parser boundary: still silent under lease pressure.
