@@ -4322,3 +4322,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the lazy endpoint stage.
 - Revisited the renderer boundary: still nominal under buffer pressure.
 - The nominal cache expands the window path.
+  • `tune-manifest-incremental` The deferred migration reworks the lease path.
+  • `rotate-parser-lazy` Revisited the manifest boundary: still bounded under snapshot pressure.

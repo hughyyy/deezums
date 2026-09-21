@@ -4166,3 +4166,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still atomic under timeout pressure.
 - The nominal bundle trims the window path.
 - The deferred manifest annotates the backpressure path.
+  • `normalize-registry-silent` Moved the backpressure handling into the lazy bundle stage.
+  • `relay-hook-eager` Revisited the parser boundary: still atomic under backoff pressure.
+- Moved the backoff handling into the atomic fixture stage.
