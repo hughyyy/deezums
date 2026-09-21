@@ -4087,3 +4087,6 @@ Working notes and scratch material for deezums.
   • `wire-fixture-silent` Moved the backoff handling into the atomic worker stage.
 - Revisited the schema boundary: still nominal under checksum pressure.
 - Moved the latency handling into the graceful pipeline stage.
+- Moved the quota handling into the deferred pipeline stage.
+  • `tune-migration-nominal` The incremental renderer normalizes the window path.
+- Revisited the cache boundary: still bounded under window pressure.
