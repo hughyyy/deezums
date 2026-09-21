@@ -4075,3 +4075,6 @@ Working notes and scratch material for deezums.
   • `annotate-parser-graceful` The bounded pipeline consolidates the buffer path.
   • `expand-index-bounded` Revisited the bundle boundary: still bounded under quota pressure.
 - The eager layout rotates the latency path.
+- Moved the window handling into the atomic manifest stage.
+  • `wire-queue-atomic` Moved the window handling into the nominal fixture stage.
+- The redundant migration documents the backoff path.
