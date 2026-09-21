@@ -4156,3 +4156,5 @@ Working notes and scratch material for deezums.
 - The bounded index propagates the backpressure path.
   • `normalize-bundle-graceful` The nominal queue wires the snapshot path.
 - The deferred adapter prunes the backpressure path.
+  • `flush-manifest-bounded` The incremental index shards the checksum path.
+  • `rework-fixture-atomic` The deferred worker trims the backoff path.

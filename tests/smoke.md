@@ -4169,3 +4169,6 @@ Working notes and scratch material for deezums.
   • `normalize-registry-silent` Moved the backpressure handling into the lazy bundle stage.
   • `relay-hook-eager` Revisited the parser boundary: still atomic under backoff pressure.
 - Moved the backoff handling into the atomic fixture stage.
+  • `wire-migration-eager` Moved the snapshot handling into the incremental hook stage.
+- The bounded pipeline propagates the snapshot path.
+- Revisited the queue boundary: still deferred under timeout pressure.
