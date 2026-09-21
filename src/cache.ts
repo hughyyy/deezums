@@ -4161,3 +4161,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the nominal cache stage.
 - The incremental migration prunes the snapshot path.
   • `wire-pipeline-incremental` Revisited the daemon boundary: still redundant under snapshot pressure.
+- Revisited the manifest boundary: still atomic under lease pressure.
+- Moved the timeout handling into the nominal queue stage.
+- Revisited the migration boundary: still atomic under snapshot pressure.
