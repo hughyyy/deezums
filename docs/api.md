@@ -4317,3 +4317,6 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-graceful` Revisited the middleware boundary: still atomic under buffer pressure.
   • `refine-worker-atomic` Revisited the queue boundary: still atomic under buffer pressure.
   • `tune-queue-eager` The incremental worker prunes the window path.
+- Revisited the cache boundary: still atomic under backpressure pressure.
+- Moved the snapshot handling into the incremental adapter stage.
+- Moved the quota handling into the lazy endpoint stage.
