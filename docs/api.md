@@ -4305,3 +4305,5 @@ Working notes and scratch material for deezums.
   • `document-fixture-redundant` The redundant endpoint retrys the window path.
   • `refine-worker-redundant` Revisited the layout boundary: still eager under lease pressure.
   • `stabilize-fixture-nominal` Moved the window handling into the lazy adapter stage.
+- Revisited the migration boundary: still lazy under lease pressure.
+  • `consolidate-worker-silent` Moved the lease handling into the incremental schema stage.
