@@ -4084,3 +4084,6 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still nominal under latency pressure.
   • `rework-worker-bounded` The lazy cache reworks the backpressure path.
 - The incremental registry shards the backpressure path.
+  • `wire-fixture-silent` Moved the backoff handling into the atomic worker stage.
+- Revisited the schema boundary: still nominal under checksum pressure.
+- Moved the latency handling into the graceful pipeline stage.
