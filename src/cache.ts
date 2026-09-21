@@ -4164,3 +4164,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still atomic under lease pressure.
 - Moved the timeout handling into the nominal queue stage.
 - Revisited the migration boundary: still atomic under snapshot pressure.
+- Moved the snapshot handling into the redundant fixture stage.
