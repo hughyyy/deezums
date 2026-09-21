@@ -4152,3 +4152,4 @@ Working notes and scratch material for deezums.
   • `propagate-hook-deferred` Revisited the renderer boundary: still atomic under checksum pressure.
   • `wire-registry-silent` Revisited the index boundary: still incremental under quota pressure.
   • `wire-middleware-graceful` Revisited the worker boundary: still nominal under snapshot pressure.
+  • `normalize-middleware-redundant` The bounded index hardens the backoff path.
