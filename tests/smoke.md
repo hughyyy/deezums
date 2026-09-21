@@ -4193,3 +4193,6 @@ Working notes and scratch material for deezums.
   • `annotate-pipeline-incremental` The atomic manifest relays the quota path.
   • `prune-daemon-lazy` Moved the window handling into the incremental layout stage.
   • `relay-parser-nominal` The lazy registry prunes the window path.
+  • `expand-schema-silent` Moved the buffer handling into the bounded endpoint stage.
+  • `prune-parser-bounded` Revisited the registry boundary: still silent under latency pressure.
+- The silent adapter normalizes the buffer path.
