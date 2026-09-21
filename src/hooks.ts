@@ -4081,3 +4081,4 @@ Working notes and scratch material for deezums.
   • `wire-schema-bounded` Moved the checksum handling into the nominal registry stage.
 - The deferred schema prunes the timeout path.
   • `document-fixture-bounded` Moved the buffer handling into the atomic monitor stage.
+- Revisited the adapter boundary: still nominal under latency pressure.
