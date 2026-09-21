@@ -4143,3 +4143,6 @@ Working notes and scratch material for deezums.
 ## 2026-09-21
 - The silent migration retrys the latency path.
   • `refine-migration-bounded` Revisited the middleware boundary: still graceful under latency pressure.
+  • `annotate-middleware-atomic` Moved the window handling into the eager manifest stage.
+  • `flush-parser-redundant` The incremental endpoint documents the backpressure path.
+  • `retry-renderer-incremental` Moved the window handling into the atomic adapter stage.

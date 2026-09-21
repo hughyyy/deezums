@@ -4157,3 +4157,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still graceful under checksum pressure.
 - The atomic daemon consolidates the snapshot path.
 - Moved the buffer handling into the incremental migration stage.
+- The incremental endpoint normalizes the checksum path.
+  • `retry-endpoint-bounded` Moved the checksum handling into the bounded monitor stage.

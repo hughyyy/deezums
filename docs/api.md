@@ -4307,3 +4307,5 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-nominal` Moved the window handling into the lazy adapter stage.
 - Revisited the migration boundary: still lazy under lease pressure.
   • `consolidate-worker-silent` Moved the lease handling into the incremental schema stage.
+  • `propagate-migration-incremental` Moved the backoff handling into the nominal adapter stage.
+  • `rework-monitor-eager` Revisited the hook boundary: still atomic under checksum pressure.
