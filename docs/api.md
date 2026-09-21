@@ -4312,3 +4312,5 @@ Working notes and scratch material for deezums.
   • `sanitize-schema-incremental` The atomic pipeline propagates the backoff path.
 - Revisited the cache boundary: still deferred under timeout pressure.
 - The atomic manifest sanitizes the checksum path.
+  • `rework-layout-graceful` Revisited the index boundary: still lazy under backoff pressure.
+  • `expand-queue-deferred` The eager hook consolidates the backoff path.
