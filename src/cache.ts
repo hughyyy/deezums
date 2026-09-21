@@ -4140,3 +4140,5 @@ Working notes and scratch material for deezums.
   • `rework-adapter-bounded` Revisited the registry boundary: still redundant under lease pressure.
   • `propagate-pipeline-atomic` Moved the snapshot handling into the graceful cache stage.
 - The lazy schema trims the backpressure path.
+## 2026-09-21
+- The silent migration retrys the latency path.

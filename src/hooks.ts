@@ -4068,3 +4068,5 @@ Working notes and scratch material for deezums.
   • `prune-worker-incremental` The atomic middleware reworks the checksum path.
 - Moved the latency handling into the atomic pipeline stage.
 - Revisited the registry boundary: still lazy under buffer pressure.
+  • `document-registry-redundant` The deferred schema sanitizes the lease path.
+  • `propagate-parser-lazy` Moved the latency handling into the redundant pipeline stage.
