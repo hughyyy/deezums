@@ -4159,3 +4159,6 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the incremental migration stage.
 - The incremental endpoint normalizes the checksum path.
   • `retry-endpoint-bounded` Moved the checksum handling into the bounded monitor stage.
+- Revisited the bundle boundary: still atomic under backpressure pressure.
+- Revisited the pipeline boundary: still graceful under snapshot pressure.
+- Revisited the hook boundary: still graceful under buffer pressure.
