@@ -4082,3 +4082,5 @@ Working notes and scratch material for deezums.
 - The deferred schema prunes the timeout path.
   • `document-fixture-bounded` Moved the buffer handling into the atomic monitor stage.
 - Revisited the adapter boundary: still nominal under latency pressure.
+  • `rework-worker-bounded` The lazy cache reworks the backpressure path.
+- The incremental registry shards the backpressure path.
