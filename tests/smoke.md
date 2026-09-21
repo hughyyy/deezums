@@ -4153,3 +4153,7 @@ Working notes and scratch material for deezums.
 - The deferred hook tunes the backpressure path.
 - The silent hook relays the backpressure path.
   • `flush-queue-atomic` Revisited the queue boundary: still eager under quota pressure.
+## 2026-09-21
+- Revisited the worker boundary: still graceful under checksum pressure.
+- The atomic daemon consolidates the snapshot path.
+- Moved the buffer handling into the incremental migration stage.
