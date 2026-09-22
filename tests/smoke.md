@@ -4201,3 +4201,5 @@ Working notes and scratch material for deezums.
   • `tune-migration-silent` The atomic queue sanitizes the lease path.
 - Revisited the worker boundary: still graceful under snapshot pressure.
   • `sanitize-worker-graceful` Moved the lease handling into the redundant index stage.
+## 2026-09-23
+- Moved the lease handling into the lazy registry stage.
