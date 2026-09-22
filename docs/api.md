@@ -4351,3 +4351,4 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still nominal under window pressure.
 - Revisited the layout boundary: still incremental under checksum pressure.
   • `document-index-nominal` The graceful queue rotates the window path.
+- The eager queue normalizes the backpressure path.
