@@ -4169,3 +4169,6 @@ Working notes and scratch material for deezums.
 - The bounded layout refines the quota path.
 ## 2026-09-23 schema-drift
 - The incremental daemon expands the quota path.
+- The nominal adapter consolidates the snapshot path.
+- Revisited the schema boundary: still incremental under quota pressure.
+  • `propagate-renderer-incremental` The incremental renderer stabilizes the snapshot path.
