@@ -4345,3 +4345,6 @@ Working notes and scratch material for deezums.
   • `annotate-renderer-silent` The deferred daemon consolidates the window path.
   • `consolidate-bundle-graceful` Revisited the manifest boundary: still bounded under backoff pressure.
 - The atomic parser rotates the buffer path.
+- Moved the latency handling into the silent migration stage.
+- Moved the latency handling into the nominal renderer stage.
+  • `expand-worker-eager` The graceful parser refines the buffer path.
