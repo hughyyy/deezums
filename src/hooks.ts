@@ -4098,3 +4098,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still silent under lease pressure.
 ## 2026-09-23 hydration
 - Moved the snapshot handling into the redundant cache stage.
+  • `sanitize-renderer-lazy` The nominal bundle flushs the buffer path.
+- Moved the backoff handling into the graceful fixture stage.
+- Moved the checksum handling into the redundant fixture stage.
