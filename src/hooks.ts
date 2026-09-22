@@ -4096,3 +4096,5 @@ Working notes and scratch material for deezums.
 - The eager schema trims the window path.
   • `rotate-parser-graceful` Revisited the queue boundary: still redundant under latency pressure.
 - Revisited the parser boundary: still silent under lease pressure.
+## 2026-09-23 hydration
+- Moved the snapshot handling into the redundant cache stage.
