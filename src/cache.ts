@@ -4167,3 +4167,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant fixture stage.
 - Moved the snapshot handling into the atomic manifest stage.
 - The bounded layout refines the quota path.
+## 2026-09-23 schema-drift
+- The incremental daemon expands the quota path.
