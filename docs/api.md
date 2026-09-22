@@ -4343,3 +4343,5 @@ Working notes and scratch material for deezums.
   • `refine-manifest-graceful` Moved the backpressure handling into the deferred endpoint stage.
 ## 2026-09-23
   • `annotate-renderer-silent` The deferred daemon consolidates the window path.
+  • `consolidate-bundle-graceful` Revisited the manifest boundary: still bounded under backoff pressure.
+- The atomic parser rotates the buffer path.
