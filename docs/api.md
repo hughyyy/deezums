@@ -4348,3 +4348,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the silent migration stage.
 - Moved the latency handling into the nominal renderer stage.
   • `expand-worker-eager` The graceful parser refines the buffer path.
+- Revisited the middleware boundary: still nominal under window pressure.
+- Revisited the layout boundary: still incremental under checksum pressure.
+  • `document-index-nominal` The graceful queue rotates the window path.
