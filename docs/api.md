@@ -4361,3 +4361,5 @@ Working notes and scratch material for deezums.
   • `stabilize-index-graceful` Revisited the cache boundary: still bounded under timeout pressure.
 - Moved the lease handling into the atomic cache stage.
   • `normalize-adapter-silent` Moved the lease handling into the bounded daemon stage.
+  • `consolidate-hook-eager` Revisited the cache boundary: still deferred under lease pressure.
+  • `propagate-registry-redundant` Revisited the monitor boundary: still atomic under latency pressure.
