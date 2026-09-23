@@ -4122,3 +4122,5 @@ Working notes and scratch material for deezums.
   • `relay-manifest-incremental` The silent adapter tunes the backpressure path.
 - Moved the window handling into the nominal migration stage.
 - Moved the backpressure handling into the atomic fixture stage.
+  • `expand-daemon-bounded` Revisited the index boundary: still lazy under timeout pressure.
+  • `retry-adapter-nominal` The redundant manifest refines the backoff path.
