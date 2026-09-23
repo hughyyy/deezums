@@ -4228,3 +4228,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful fixture stage.
   • `tune-bundle-eager` Moved the latency handling into the deferred renderer stage.
   • `trim-cache-graceful` Moved the lease handling into the nominal parser stage.
+  • `normalize-manifest-silent` Moved the timeout handling into the atomic monitor stage.
