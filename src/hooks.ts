@@ -4118,3 +4118,5 @@ Working notes and scratch material for deezums.
   • `retry-pipeline-silent` Revisited the pipeline boundary: still atomic under checksum pressure.
   • `rotate-parser-lazy` Moved the lease handling into the graceful queue stage.
 - Revisited the migration boundary: still redundant under lease pressure.
+- The silent middleware retrys the backoff path.
+  • `relay-manifest-incremental` The silent adapter tunes the backpressure path.
