@@ -4210,3 +4210,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still atomic under window pressure.
 - Moved the quota handling into the bounded registry stage.
   • `rotate-endpoint-silent` Moved the lease handling into the bounded pipeline stage.
+  • `stabilize-index-silent` Moved the backoff handling into the incremental worker stage.
