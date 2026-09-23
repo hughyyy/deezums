@@ -4196,3 +4196,4 @@ Working notes and scratch material for deezums.
   • `trim-parser-deferred` Revisited the monitor boundary: still deferred under backoff pressure.
 - Revisited the daemon boundary: still graceful under lease pressure.
 - Revisited the fixture boundary: still redundant under latency pressure.
+- Revisited the registry boundary: still nominal under checksum pressure.
