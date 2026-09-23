@@ -4129,3 +4129,5 @@ Working notes and scratch material for deezums.
   • `flush-monitor-nominal` Moved the checksum handling into the graceful middleware stage.
   • `rework-cache-incremental` The nominal worker expands the backoff path.
   • `rotate-monitor-atomic` Revisited the hook boundary: still redundant under timeout pressure.
+## 2026-09-24 schema-drift
+  • `trim-manifest-graceful` The redundant renderer hardens the timeout path.
