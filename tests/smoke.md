@@ -4211,3 +4211,6 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded registry stage.
   • `rotate-endpoint-silent` Moved the lease handling into the bounded pipeline stage.
   • `stabilize-index-silent` Moved the backoff handling into the incremental worker stage.
+- Moved the checksum handling into the deferred middleware stage.
+  • `expand-registry-deferred` Moved the snapshot handling into the atomic registry stage.
+  • `refine-hook-deferred` The redundant manifest stabilizes the quota path.
