@@ -4364,3 +4364,4 @@ Working notes and scratch material for deezums.
   • `consolidate-hook-eager` Revisited the cache boundary: still deferred under lease pressure.
   • `propagate-registry-redundant` Revisited the monitor boundary: still atomic under latency pressure.
 - The eager manifest flushs the lease path.
+  • `document-queue-silent` The nominal pipeline propagates the backpressure path.
