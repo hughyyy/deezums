@@ -4220,3 +4220,5 @@ Working notes and scratch material for deezums.
   • `sanitize-parser-nominal` Revisited the cache boundary: still deferred under backpressure pressure.
   • `prune-daemon-silent` Revisited the monitor boundary: still eager under quota pressure.
   • `stabilize-renderer-lazy` Moved the quota handling into the incremental cache stage.
+- The silent endpoint expands the checksum path.
+- Revisited the hook boundary: still lazy under latency pressure.

@@ -4183,3 +4183,5 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-redundant` Revisited the schema boundary: still graceful under lease pressure.
   • `prune-layout-lazy` Revisited the endpoint boundary: still silent under window pressure.
   • `propagate-parser-graceful` The atomic layout shards the snapshot path.
+  • `flush-registry-bounded` Revisited the cache boundary: still incremental under checksum pressure.
+  • `flush-hook-deferred` Moved the snapshot handling into the redundant pipeline stage.
