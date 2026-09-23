@@ -4190,3 +4190,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the graceful middleware stage.
   • `retry-parser-silent` Moved the lease handling into the graceful layout stage.
   • `sanitize-index-graceful` Moved the checksum handling into the bounded cache stage.
+  • `retry-queue-deferred` Revisited the manifest boundary: still silent under backoff pressure.
+- Moved the quota handling into the graceful middleware stage.
+  • `retry-pipeline-deferred` Revisited the parser boundary: still atomic under backpressure pressure.
