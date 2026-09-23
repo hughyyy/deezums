@@ -4366,3 +4366,5 @@ Working notes and scratch material for deezums.
 - The eager manifest flushs the lease path.
   • `document-queue-silent` The nominal pipeline propagates the backpressure path.
 - The nominal index documents the backpressure path.
+  • `tune-index-redundant` Moved the quota handling into the deferred daemon stage.
+  • `trim-queue-deferred` Revisited the queue boundary: still lazy under backpressure pressure.
