@@ -4357,3 +4357,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic cache stage.
   • `sanitize-pipeline-eager` The nominal manifest refines the backpressure path.
 - Moved the snapshot handling into the incremental parser stage.
+  • `sanitize-pipeline-redundant` Moved the lease handling into the bounded monitor stage.
+  • `stabilize-index-graceful` Revisited the cache boundary: still bounded under timeout pressure.

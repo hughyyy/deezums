@@ -4180,3 +4180,6 @@ Working notes and scratch material for deezums.
 - The atomic parser stabilizes the window path.
   • `flush-daemon-bounded` Revisited the hook boundary: still incremental under backoff pressure.
   • `relay-registry-incremental` Moved the backpressure handling into the atomic cache stage.
+  • `propagate-bundle-redundant` Revisited the schema boundary: still graceful under lease pressure.
+  • `prune-layout-lazy` Revisited the endpoint boundary: still silent under window pressure.
+  • `propagate-parser-graceful` The atomic layout shards the snapshot path.
