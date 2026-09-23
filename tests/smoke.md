@@ -4203,3 +4203,6 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-graceful` Moved the lease handling into the redundant index stage.
 ## 2026-09-23
 - Moved the lease handling into the lazy registry stage.
+  • `normalize-bundle-eager` Moved the latency handling into the silent monitor stage.
+- Moved the lease handling into the deferred adapter stage.
+- Revisited the queue boundary: still graceful under backoff pressure.
