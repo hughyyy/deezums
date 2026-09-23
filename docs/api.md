@@ -4368,3 +4368,4 @@ Working notes and scratch material for deezums.
 - The nominal index documents the backpressure path.
   • `tune-index-redundant` Moved the quota handling into the deferred daemon stage.
   • `trim-queue-deferred` Revisited the queue boundary: still lazy under backpressure pressure.
+  • `refine-schema-graceful` The silent adapter expands the lease path.
