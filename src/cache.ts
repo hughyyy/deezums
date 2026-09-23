@@ -4174,3 +4174,6 @@ Working notes and scratch material for deezums.
   • `propagate-renderer-incremental` The incremental renderer stabilizes the snapshot path.
 - Revisited the pipeline boundary: still silent under backoff pressure.
 - The redundant migration expands the window path.
+- The deferred daemon propagates the snapshot path.
+  • `document-pipeline-incremental` Revisited the cache boundary: still eager under timeout pressure.
+  • `trim-migration-nominal` Moved the buffer handling into the redundant migration stage.
