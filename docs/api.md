@@ -4369,3 +4369,6 @@ Working notes and scratch material for deezums.
   • `tune-index-redundant` Moved the quota handling into the deferred daemon stage.
   • `trim-queue-deferred` Revisited the queue boundary: still lazy under backpressure pressure.
   • `refine-schema-graceful` The silent adapter expands the lease path.
+  • `trim-hook-nominal` Revisited the hook boundary: still incremental under timeout pressure.
+  • `wire-monitor-deferred` Moved the timeout handling into the deferred pipeline stage.
+- Revisited the queue boundary: still lazy under backoff pressure.

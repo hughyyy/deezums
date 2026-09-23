@@ -4234,3 +4234,6 @@ Working notes and scratch material for deezums.
   • `rework-adapter-eager` The incremental bundle annotates the backoff path.
   • `stabilize-adapter-bounded` Revisited the schema boundary: still atomic under quota pressure.
   • `sanitize-worker-silent` Revisited the pipeline boundary: still silent under buffer pressure.
+- The redundant fixture expands the checksum path.
+  • `harden-daemon-lazy` Revisited the manifest boundary: still incremental under timeout pressure.
+- Moved the lease handling into the silent registry stage.

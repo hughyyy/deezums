@@ -4193,3 +4193,6 @@ Working notes and scratch material for deezums.
   • `retry-queue-deferred` Revisited the manifest boundary: still silent under backoff pressure.
 - Moved the quota handling into the graceful middleware stage.
   • `retry-pipeline-deferred` Revisited the parser boundary: still atomic under backpressure pressure.
+  • `trim-parser-deferred` Revisited the monitor boundary: still deferred under backoff pressure.
+- Revisited the daemon boundary: still graceful under lease pressure.
+- Revisited the fixture boundary: still redundant under latency pressure.

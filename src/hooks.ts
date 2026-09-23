@@ -4124,3 +4124,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic fixture stage.
   • `expand-daemon-bounded` Revisited the index boundary: still lazy under timeout pressure.
   • `retry-adapter-nominal` The redundant manifest refines the backoff path.
+- Revisited the endpoint boundary: still lazy under lease pressure.
+- Moved the timeout handling into the eager monitor stage.
