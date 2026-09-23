@@ -4359,3 +4359,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental parser stage.
   • `sanitize-pipeline-redundant` Moved the lease handling into the bounded monitor stage.
   • `stabilize-index-graceful` Revisited the cache boundary: still bounded under timeout pressure.
+- Moved the lease handling into the atomic cache stage.
+  • `normalize-adapter-silent` Moved the lease handling into the bounded daemon stage.
