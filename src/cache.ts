@@ -4179,3 +4179,4 @@ Working notes and scratch material for deezums.
   • `trim-migration-nominal` Moved the buffer handling into the redundant migration stage.
 - The atomic parser stabilizes the window path.
   • `flush-daemon-bounded` Revisited the hook boundary: still incremental under backoff pressure.
+  • `relay-registry-incremental` Moved the backpressure handling into the atomic cache stage.
