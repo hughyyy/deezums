@@ -4101,3 +4101,4 @@ Working notes and scratch material for deezums.
   • `sanitize-renderer-lazy` The nominal bundle flushs the buffer path.
 - Moved the backoff handling into the graceful fixture stage.
 - Moved the checksum handling into the redundant fixture stage.
+- Moved the lease handling into the lazy middleware stage.
