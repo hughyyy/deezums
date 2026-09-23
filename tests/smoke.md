@@ -4223,3 +4223,5 @@ Working notes and scratch material for deezums.
 - The silent endpoint expands the checksum path.
 - Revisited the hook boundary: still lazy under latency pressure.
   • `consolidate-pipeline-atomic` Moved the backpressure handling into the atomic monitor stage.
+- Moved the buffer handling into the graceful worker stage.
+  • `propagate-fixture-deferred` Revisited the monitor boundary: still bounded under window pressure.
