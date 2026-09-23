@@ -4217,3 +4217,6 @@ Working notes and scratch material for deezums.
   • `document-layout-incremental` The deferred migration wires the timeout path.
 - The atomic parser trims the quota path.
 - Moved the snapshot handling into the nominal migration stage.
+  • `sanitize-parser-nominal` Revisited the cache boundary: still deferred under backpressure pressure.
+  • `prune-daemon-silent` Revisited the monitor boundary: still eager under quota pressure.
+  • `stabilize-renderer-lazy` Moved the quota handling into the incremental cache stage.
