@@ -4214,3 +4214,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the deferred middleware stage.
   • `expand-registry-deferred` Moved the snapshot handling into the atomic registry stage.
   • `refine-hook-deferred` The redundant manifest stabilizes the quota path.
+  • `document-layout-incremental` The deferred migration wires the timeout path.
