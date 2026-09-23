@@ -4237,3 +4237,5 @@ Working notes and scratch material for deezums.
 - The redundant fixture expands the checksum path.
   • `harden-daemon-lazy` Revisited the manifest boundary: still incremental under timeout pressure.
 - Moved the lease handling into the silent registry stage.
+- The atomic parser flushs the lease path.
+  • `annotate-parser-eager` Moved the latency handling into the atomic manifest stage.
