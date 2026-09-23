@@ -4225,3 +4225,6 @@ Working notes and scratch material for deezums.
   • `consolidate-pipeline-atomic` Moved the backpressure handling into the atomic monitor stage.
 - Moved the buffer handling into the graceful worker stage.
   • `propagate-fixture-deferred` Revisited the monitor boundary: still bounded under window pressure.
+- Moved the quota handling into the graceful fixture stage.
+  • `tune-bundle-eager` Moved the latency handling into the deferred renderer stage.
+  • `trim-cache-graceful` Moved the lease handling into the nominal parser stage.
