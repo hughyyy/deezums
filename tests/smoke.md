@@ -4230,3 +4230,4 @@ Working notes and scratch material for deezums.
   • `trim-cache-graceful` Moved the lease handling into the nominal parser stage.
   • `normalize-manifest-silent` Moved the timeout handling into the atomic monitor stage.
 - The deferred schema consolidates the snapshot path.
+  • `flush-endpoint-incremental` Revisited the layout boundary: still silent under lease pressure.
