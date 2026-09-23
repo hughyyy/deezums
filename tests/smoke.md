@@ -4206,3 +4206,5 @@ Working notes and scratch material for deezums.
   • `normalize-bundle-eager` Moved the latency handling into the silent monitor stage.
 - Moved the lease handling into the deferred adapter stage.
 - Revisited the queue boundary: still graceful under backoff pressure.
+- Revisited the queue boundary: still atomic under lease pressure.
+- Revisited the layout boundary: still atomic under window pressure.
