@@ -4104,3 +4104,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy middleware stage.
   • `rotate-bundle-silent` Revisited the parser boundary: still graceful under quota pressure.
   • `retry-queue-eager` Revisited the migration boundary: still bounded under latency pressure.
+- Revisited the endpoint boundary: still redundant under backoff pressure.
