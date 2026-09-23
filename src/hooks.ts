@@ -4126,3 +4126,6 @@ Working notes and scratch material for deezums.
   • `retry-adapter-nominal` The redundant manifest refines the backoff path.
 - Revisited the endpoint boundary: still lazy under lease pressure.
 - Moved the timeout handling into the eager monitor stage.
+  • `flush-monitor-nominal` Moved the checksum handling into the graceful middleware stage.
+  • `rework-cache-incremental` The nominal worker expands the backoff path.
+  • `rotate-monitor-atomic` Revisited the hook boundary: still redundant under timeout pressure.
