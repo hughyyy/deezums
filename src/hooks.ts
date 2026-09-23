@@ -4102,3 +4102,4 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the graceful fixture stage.
 - Moved the checksum handling into the redundant fixture stage.
 - Moved the lease handling into the lazy middleware stage.
+  • `rotate-bundle-silent` Revisited the parser boundary: still graceful under quota pressure.
