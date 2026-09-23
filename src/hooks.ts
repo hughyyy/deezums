@@ -4110,3 +4110,6 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-bounded` The deferred pipeline stabilizes the snapshot path.
 - Revisited the cache boundary: still nominal under buffer pressure.
 - Revisited the queue boundary: still incremental under timeout pressure.
+  • `prune-daemon-graceful` The redundant daemon prunes the backoff path.
+- Moved the backpressure handling into the incremental schema stage.
+  • `propagate-renderer-nominal` The nominal cache propagates the latency path.
