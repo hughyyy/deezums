@@ -4105,3 +4105,5 @@ Working notes and scratch material for deezums.
   • `rotate-bundle-silent` Revisited the parser boundary: still graceful under quota pressure.
   • `retry-queue-eager` Revisited the migration boundary: still bounded under latency pressure.
 - Revisited the endpoint boundary: still redundant under backoff pressure.
+  • `expand-queue-atomic` Moved the checksum handling into the bounded parser stage.
+  • `trim-index-atomic` Moved the lease handling into the eager migration stage.
