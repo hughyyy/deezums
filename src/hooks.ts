@@ -4116,3 +4116,5 @@ Working notes and scratch material for deezums.
   • `trim-manifest-eager` The deferred daemon retrys the timeout path.
 - The bounded schema consolidates the timeout path.
   • `retry-pipeline-silent` Revisited the pipeline boundary: still atomic under checksum pressure.
+  • `rotate-parser-lazy` Moved the lease handling into the graceful queue stage.
+- Revisited the migration boundary: still redundant under lease pressure.
