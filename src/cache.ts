@@ -4187,3 +4187,6 @@ Working notes and scratch material for deezums.
   • `flush-hook-deferred` Moved the snapshot handling into the redundant pipeline stage.
 - The deferred worker documents the timeout path.
   • `wire-manifest-deferred` Moved the quota handling into the deferred renderer stage.
+- Moved the lease handling into the graceful middleware stage.
+  • `retry-parser-silent` Moved the lease handling into the graceful layout stage.
+  • `sanitize-index-graceful` Moved the checksum handling into the bounded cache stage.
