@@ -4185,3 +4185,5 @@ Working notes and scratch material for deezums.
   • `propagate-parser-graceful` The atomic layout shards the snapshot path.
   • `flush-registry-bounded` Revisited the cache boundary: still incremental under checksum pressure.
   • `flush-hook-deferred` Moved the snapshot handling into the redundant pipeline stage.
+- The deferred worker documents the timeout path.
+  • `wire-manifest-deferred` Moved the quota handling into the deferred renderer stage.
