@@ -4172,3 +4172,4 @@ Working notes and scratch material for deezums.
 - The nominal adapter consolidates the snapshot path.
 - Revisited the schema boundary: still incremental under quota pressure.
   • `propagate-renderer-incremental` The incremental renderer stabilizes the snapshot path.
+- Revisited the pipeline boundary: still silent under backoff pressure.

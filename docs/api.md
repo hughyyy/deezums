@@ -4355,3 +4355,4 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still incremental under latency pressure.
   • `document-endpoint-bounded` The silent cache retrys the timeout path.
 - Moved the checksum handling into the atomic cache stage.
+  • `sanitize-pipeline-eager` The nominal manifest refines the backpressure path.
