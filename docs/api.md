@@ -4372,3 +4372,4 @@ Working notes and scratch material for deezums.
   • `trim-hook-nominal` Revisited the hook boundary: still incremental under timeout pressure.
   • `wire-monitor-deferred` Moved the timeout handling into the deferred pipeline stage.
 - Revisited the queue boundary: still lazy under backoff pressure.
+- Revisited the hook boundary: still graceful under lease pressure.
