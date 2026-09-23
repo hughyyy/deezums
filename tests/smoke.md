@@ -4239,3 +4239,7 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the silent registry stage.
 - The atomic parser flushs the lease path.
   • `annotate-parser-eager` Moved the latency handling into the atomic manifest stage.
+## 2026-09-24
+  • `propagate-daemon-atomic` Revisited the bundle boundary: still incremental under window pressure.
+- The graceful layout tunes the timeout path.
+- Moved the snapshot handling into the bounded layout stage.
