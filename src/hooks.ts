@@ -4120,3 +4120,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still redundant under lease pressure.
 - The silent middleware retrys the backoff path.
   • `relay-manifest-incremental` The silent adapter tunes the backpressure path.
+- Moved the window handling into the nominal migration stage.
+- Moved the backpressure handling into the atomic fixture stage.
