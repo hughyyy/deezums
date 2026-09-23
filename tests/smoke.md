@@ -4208,3 +4208,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still graceful under backoff pressure.
 - Revisited the queue boundary: still atomic under lease pressure.
 - Revisited the layout boundary: still atomic under window pressure.
+- Moved the quota handling into the bounded registry stage.
+  • `rotate-endpoint-silent` Moved the lease handling into the bounded pipeline stage.
