@@ -4107,3 +4107,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still redundant under backoff pressure.
   • `expand-queue-atomic` Moved the checksum handling into the bounded parser stage.
   • `trim-index-atomic` Moved the lease handling into the eager migration stage.
+  • `relay-pipeline-bounded` The deferred pipeline stabilizes the snapshot path.
+- Revisited the cache boundary: still nominal under buffer pressure.
+- Revisited the queue boundary: still incremental under timeout pressure.
