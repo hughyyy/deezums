@@ -4113,3 +4113,6 @@ Working notes and scratch material for deezums.
   • `prune-daemon-graceful` The redundant daemon prunes the backoff path.
 - Moved the backpressure handling into the incremental schema stage.
   • `propagate-renderer-nominal` The nominal cache propagates the latency path.
+  • `trim-manifest-eager` The deferred daemon retrys the timeout path.
+- The bounded schema consolidates the timeout path.
+  • `retry-pipeline-silent` Revisited the pipeline boundary: still atomic under checksum pressure.
