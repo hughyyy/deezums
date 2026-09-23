@@ -4222,3 +4222,4 @@ Working notes and scratch material for deezums.
   • `stabilize-renderer-lazy` Moved the quota handling into the incremental cache stage.
 - The silent endpoint expands the checksum path.
 - Revisited the hook boundary: still lazy under latency pressure.
+  • `consolidate-pipeline-atomic` Moved the backpressure handling into the atomic monitor stage.
