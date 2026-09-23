@@ -4231,3 +4231,6 @@ Working notes and scratch material for deezums.
   • `normalize-manifest-silent` Moved the timeout handling into the atomic monitor stage.
 - The deferred schema consolidates the snapshot path.
   • `flush-endpoint-incremental` Revisited the layout boundary: still silent under lease pressure.
+  • `rework-adapter-eager` The incremental bundle annotates the backoff path.
+  • `stabilize-adapter-bounded` Revisited the schema boundary: still atomic under quota pressure.
+  • `sanitize-worker-silent` Revisited the pipeline boundary: still silent under buffer pressure.
