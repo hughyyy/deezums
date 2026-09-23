@@ -4352,3 +4352,6 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under checksum pressure.
   • `document-index-nominal` The graceful queue rotates the window path.
 - The eager queue normalizes the backpressure path.
+- Revisited the hook boundary: still incremental under latency pressure.
+  • `document-endpoint-bounded` The silent cache retrys the timeout path.
+- Moved the checksum handling into the atomic cache stage.
