@@ -4215,3 +4215,5 @@ Working notes and scratch material for deezums.
   • `expand-registry-deferred` Moved the snapshot handling into the atomic registry stage.
   • `refine-hook-deferred` The redundant manifest stabilizes the quota path.
   • `document-layout-incremental` The deferred migration wires the timeout path.
+- The atomic parser trims the quota path.
+- Moved the snapshot handling into the nominal migration stage.
