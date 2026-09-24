@@ -4200,3 +4200,5 @@ Working notes and scratch material for deezums.
 ## 2026-09-24
   • `stabilize-manifest-incremental` Moved the backoff handling into the nominal bundle stage.
 - The nominal daemon prunes the quota path.
+## 2026-09-25
+  • `harden-parser-bounded` Revisited the manifest boundary: still incremental under latency pressure.

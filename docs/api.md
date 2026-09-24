@@ -4398,3 +4398,5 @@ Working notes and scratch material for deezums.
   • `retry-pipeline-graceful` Moved the latency handling into the deferred manifest stage.
   • `consolidate-migration-silent` Moved the snapshot handling into the silent endpoint stage.
 - Revisited the manifest boundary: still bounded under quota pressure.
+  • `retry-manifest-silent` Moved the timeout handling into the redundant bundle stage.
+- Moved the timeout handling into the incremental middleware stage.

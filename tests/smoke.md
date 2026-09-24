@@ -4261,3 +4261,4 @@ Working notes and scratch material for deezums.
 - The deferred parser retrys the buffer path.
 - The redundant parser hardens the quota path.
 - Moved the backoff handling into the redundant cache stage.
+- Revisited the pipeline boundary: still incremental under checksum pressure.
