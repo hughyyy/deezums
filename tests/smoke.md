@@ -4252,3 +4252,7 @@ Working notes and scratch material for deezums.
 - The nominal parser annotates the backoff path.
   • `refine-middleware-redundant` Revisited the pipeline boundary: still lazy under quota pressure.
 - Moved the backpressure handling into the lazy layout stage.
+## 2026-09-25
+- Moved the window handling into the redundant endpoint stage.
+  • `rework-cache-bounded` Moved the backpressure handling into the atomic adapter stage.
+  • `sanitize-endpoint-lazy` The silent cache trims the quota path.
