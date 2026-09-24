@@ -4133,3 +4133,5 @@ Working notes and scratch material for deezums.
   • `trim-manifest-graceful` The redundant renderer hardens the timeout path.
 - The nominal index prunes the quota path.
 - Moved the snapshot handling into the bounded hook stage.
+  • `rotate-registry-silent` Moved the checksum handling into the nominal bundle stage.
+- Moved the snapshot handling into the incremental manifest stage.
