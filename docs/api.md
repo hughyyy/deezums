@@ -4388,3 +4388,6 @@ Working notes and scratch material for deezums.
   • `wire-worker-bounded` The incremental endpoint refines the checksum path.
   • `harden-layout-incremental` Moved the checksum handling into the deferred daemon stage.
 - Revisited the registry boundary: still eager under latency pressure.
+  • `harden-bundle-nominal` Moved the backpressure handling into the nominal layout stage.
+  • `flush-hook-nominal` Moved the checksum handling into the eager layout stage.
+  • `flush-bundle-redundant` The atomic index expands the lease path.
