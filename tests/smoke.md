@@ -4246,3 +4246,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the graceful schema stage.
 - Revisited the registry boundary: still eager under quota pressure.
 - The silent layout wires the lease path.
+  • `rework-pipeline-atomic` Moved the quota handling into the silent cache stage.
+  • `shard-hook-graceful` Revisited the migration boundary: still bounded under snapshot pressure.
+- Moved the lease handling into the redundant daemon stage.
