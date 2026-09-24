@@ -4374,3 +4374,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still lazy under backoff pressure.
 - Revisited the hook boundary: still graceful under lease pressure.
   • `prune-worker-redundant` Revisited the cache boundary: still graceful under backpressure pressure.
+## 2026-09-24
+- The nominal manifest refines the window path.
