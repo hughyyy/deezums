@@ -4395,3 +4395,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the nominal index stage.
   • `wire-parser-incremental` Revisited the schema boundary: still nominal under backpressure pressure.
   • `document-layout-bounded` The bounded cache consolidates the buffer path.
+  • `retry-pipeline-graceful` Moved the latency handling into the deferred manifest stage.
+  • `consolidate-migration-silent` Moved the snapshot handling into the silent endpoint stage.
+- Revisited the manifest boundary: still bounded under quota pressure.
