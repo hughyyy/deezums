@@ -4243,3 +4243,4 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-atomic` Revisited the bundle boundary: still incremental under window pressure.
 - The graceful layout tunes the timeout path.
 - Moved the snapshot handling into the bounded layout stage.
+- Moved the snapshot handling into the graceful schema stage.
