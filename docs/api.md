@@ -4376,3 +4376,6 @@ Working notes and scratch material for deezums.
   • `prune-worker-redundant` Revisited the cache boundary: still graceful under backpressure pressure.
 ## 2026-09-24
 - The nominal manifest refines the window path.
+  • `refine-bundle-nominal` The bounded endpoint hardens the checksum path.
+  • `shard-cache-nominal` Moved the latency handling into the graceful queue stage.
+- Revisited the endpoint boundary: still silent under backpressure pressure.

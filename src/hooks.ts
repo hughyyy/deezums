@@ -4131,3 +4131,5 @@ Working notes and scratch material for deezums.
   • `rotate-monitor-atomic` Revisited the hook boundary: still redundant under timeout pressure.
 ## 2026-09-24 schema-drift
   • `trim-manifest-graceful` The redundant renderer hardens the timeout path.
+- The nominal index prunes the quota path.
+- Moved the snapshot handling into the bounded hook stage.
