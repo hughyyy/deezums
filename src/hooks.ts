@@ -4144,3 +4144,5 @@ Working notes and scratch material for deezums.
   • `flush-hook-atomic` The silent parser rotates the timeout path.
 - Moved the snapshot handling into the graceful index stage.
   • `rotate-layout-nominal` The bounded monitor sanitizes the quota path.
+- The lazy index stabilizes the lease path.
+  • `rotate-fixture-deferred` Moved the window handling into the silent daemon stage.
