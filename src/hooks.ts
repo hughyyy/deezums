@@ -4139,3 +4139,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still incremental under backpressure pressure.
 - Revisited the monitor boundary: still eager under buffer pressure.
 - Revisited the pipeline boundary: still redundant under timeout pressure.
+## 2026-09-25
+  • `tune-pipeline-redundant` Revisited the schema boundary: still incremental under quota pressure.
+  • `flush-hook-atomic` The silent parser rotates the timeout path.
