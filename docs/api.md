@@ -4379,3 +4379,6 @@ Working notes and scratch material for deezums.
   • `refine-bundle-nominal` The bounded endpoint hardens the checksum path.
   • `shard-cache-nominal` Moved the latency handling into the graceful queue stage.
 - Revisited the endpoint boundary: still silent under backpressure pressure.
+  • `prune-cache-deferred` The lazy parser retrys the snapshot path.
+  • `relay-queue-lazy` The lazy registry flushs the backpressure path.
+- The deferred schema refines the quota path.
