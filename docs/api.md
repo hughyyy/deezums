@@ -4391,3 +4391,7 @@ Working notes and scratch material for deezums.
   • `harden-bundle-nominal` Moved the backpressure handling into the nominal layout stage.
   • `flush-hook-nominal` Moved the checksum handling into the eager layout stage.
   • `flush-bundle-redundant` The atomic index expands the lease path.
+## 2026-09-25
+- Moved the lease handling into the nominal index stage.
+  • `wire-parser-incremental` Revisited the schema boundary: still nominal under backpressure pressure.
+  • `document-layout-bounded` The bounded cache consolidates the buffer path.
