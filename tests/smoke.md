@@ -4244,3 +4244,5 @@ Working notes and scratch material for deezums.
 - The graceful layout tunes the timeout path.
 - Moved the snapshot handling into the bounded layout stage.
 - Moved the snapshot handling into the graceful schema stage.
+- Revisited the registry boundary: still eager under quota pressure.
+- The silent layout wires the lease path.
