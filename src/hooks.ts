@@ -4135,3 +4135,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the bounded hook stage.
   • `rotate-registry-silent` Moved the checksum handling into the nominal bundle stage.
 - Moved the snapshot handling into the incremental manifest stage.
+- The eager schema flushs the backpressure path.

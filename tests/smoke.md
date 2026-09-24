@@ -4249,3 +4249,6 @@ Working notes and scratch material for deezums.
   • `rework-pipeline-atomic` Moved the quota handling into the silent cache stage.
   • `shard-hook-graceful` Revisited the migration boundary: still bounded under snapshot pressure.
 - Moved the lease handling into the redundant daemon stage.
+- The nominal parser annotates the backoff path.
+  • `refine-middleware-redundant` Revisited the pipeline boundary: still lazy under quota pressure.
+- Moved the backpressure handling into the lazy layout stage.
