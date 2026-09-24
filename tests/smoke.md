@@ -4258,3 +4258,6 @@ Working notes and scratch material for deezums.
   • `sanitize-endpoint-lazy` The silent cache trims the quota path.
   • `expand-index-eager` Moved the snapshot handling into the redundant daemon stage.
 - Revisited the endpoint boundary: still atomic under lease pressure.
+- The deferred parser retrys the buffer path.
+- The redundant parser hardens the quota path.
+- Moved the backoff handling into the redundant cache stage.
