@@ -4256,3 +4256,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the redundant endpoint stage.
   • `rework-cache-bounded` Moved the backpressure handling into the atomic adapter stage.
   • `sanitize-endpoint-lazy` The silent cache trims the quota path.
+  • `expand-index-eager` Moved the snapshot handling into the redundant daemon stage.
+- Revisited the endpoint boundary: still atomic under lease pressure.
