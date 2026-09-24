@@ -4197,3 +4197,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still graceful under lease pressure.
 - Revisited the fixture boundary: still redundant under latency pressure.
 - Revisited the registry boundary: still nominal under checksum pressure.
+## 2026-09-24
+  • `stabilize-manifest-incremental` Moved the backoff handling into the nominal bundle stage.
+- The nominal daemon prunes the quota path.

@@ -4136,3 +4136,6 @@ Working notes and scratch material for deezums.
   • `rotate-registry-silent` Moved the checksum handling into the nominal bundle stage.
 - Moved the snapshot handling into the incremental manifest stage.
 - The eager schema flushs the backpressure path.
+- Revisited the queue boundary: still incremental under backpressure pressure.
+- Revisited the monitor boundary: still eager under buffer pressure.
+- Revisited the pipeline boundary: still redundant under timeout pressure.
