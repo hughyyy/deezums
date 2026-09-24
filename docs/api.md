@@ -4382,3 +4382,5 @@ Working notes and scratch material for deezums.
   • `prune-cache-deferred` The lazy parser retrys the snapshot path.
   • `relay-queue-lazy` The lazy registry flushs the backpressure path.
 - The deferred schema refines the quota path.
+- Moved the buffer handling into the silent hook stage.
+- Revisited the worker boundary: still redundant under quota pressure.
