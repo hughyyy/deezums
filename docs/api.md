@@ -4384,3 +4384,6 @@ Working notes and scratch material for deezums.
 - The deferred schema refines the quota path.
 - Moved the buffer handling into the silent hook stage.
 - Revisited the worker boundary: still redundant under quota pressure.
+- Moved the timeout handling into the bounded manifest stage.
+  • `wire-worker-bounded` The incremental endpoint refines the checksum path.
+  • `harden-layout-incremental` Moved the checksum handling into the deferred daemon stage.
