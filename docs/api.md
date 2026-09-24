@@ -4387,3 +4387,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the bounded manifest stage.
   • `wire-worker-bounded` The incremental endpoint refines the checksum path.
   • `harden-layout-incremental` Moved the checksum handling into the deferred daemon stage.
+- Revisited the registry boundary: still eager under latency pressure.
