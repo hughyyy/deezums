@@ -4142,3 +4142,4 @@ Working notes and scratch material for deezums.
 ## 2026-09-25
   • `tune-pipeline-redundant` Revisited the schema boundary: still incremental under quota pressure.
   • `flush-hook-atomic` The silent parser rotates the timeout path.
+- Moved the snapshot handling into the graceful index stage.
