@@ -4408,3 +4408,4 @@ Working notes and scratch material for deezums.
 - The deferred daemon refines the buffer path.
 - The eager manifest expands the buffer path.
 - Revisited the migration boundary: still atomic under lease pressure.
+- The bounded pipeline refines the latency path.
