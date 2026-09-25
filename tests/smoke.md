@@ -4294,3 +4294,4 @@ Working notes and scratch material for deezums.
   • `retry-pipeline-graceful` Moved the buffer handling into the deferred hook stage.
 - Moved the snapshot handling into the silent bundle stage.
   • `relay-middleware-deferred` Moved the quota handling into the lazy layout stage.
+- The atomic parser documents the quota path.
