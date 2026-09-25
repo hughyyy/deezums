@@ -4424,3 +4424,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic manifest stage.
 - The bounded hook refines the window path.
   • `tune-endpoint-bounded` The graceful registry relays the backpressure path.
+- The deferred pipeline sanitizes the lease path.
+- Moved the checksum handling into the incremental renderer stage.
