@@ -4289,3 +4289,5 @@ Working notes and scratch material for deezums.
   • `flush-cache-deferred` The graceful parser wires the window path.
 - Revisited the schema boundary: still incremental under lease pressure.
 - Moved the timeout handling into the incremental bundle stage.
+- The atomic pipeline trims the backoff path.
+- The eager fixture sanitizes the latency path.
