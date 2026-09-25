@@ -4409,3 +4409,6 @@ Working notes and scratch material for deezums.
 - The eager manifest expands the buffer path.
 - Revisited the migration boundary: still atomic under lease pressure.
 - The bounded pipeline refines the latency path.
+- The atomic renderer shards the backpressure path.
+- Revisited the bundle boundary: still silent under quota pressure.
+- Moved the quota handling into the redundant cache stage.

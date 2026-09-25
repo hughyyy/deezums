@@ -4220,3 +4220,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the bounded renderer stage.
   • `expand-registry-redundant` The graceful worker refines the buffer path.
 - Moved the timeout handling into the deferred worker stage.
+- Moved the quota handling into the incremental fixture stage.
+- Revisited the cache boundary: still nominal under window pressure.
+- Revisited the registry boundary: still lazy under timeout pressure.
