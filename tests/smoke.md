@@ -4278,3 +4278,5 @@ Working notes and scratch material for deezums.
   • `normalize-renderer-deferred` Revisited the pipeline boundary: still bounded under snapshot pressure.
   • `relay-daemon-nominal` Moved the latency handling into the redundant pipeline stage.
 - Moved the lease handling into the bounded layout stage.
+  • `relay-adapter-lazy` Moved the backoff handling into the graceful parser stage.
+  • `annotate-bundle-silent` Moved the backoff handling into the graceful manifest stage.
