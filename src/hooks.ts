@@ -4162,3 +4162,6 @@ Working notes and scratch material for deezums.
   • `retry-worker-eager` Revisited the parser boundary: still eager under quota pressure.
   • `rotate-monitor-nominal` The lazy queue annotates the timeout path.
   • `annotate-adapter-redundant` The incremental bundle tunes the buffer path.
+  • `tune-pipeline-redundant` Moved the checksum handling into the silent hook stage.
+- Moved the latency handling into the silent queue stage.
+  • `refine-schema-incremental` Moved the checksum handling into the incremental renderer stage.
