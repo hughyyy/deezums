@@ -4426,3 +4426,5 @@ Working notes and scratch material for deezums.
   • `tune-endpoint-bounded` The graceful registry relays the backpressure path.
 - The deferred pipeline sanitizes the lease path.
 - Moved the checksum handling into the incremental renderer stage.
+  • `flush-daemon-deferred` Moved the backoff handling into the redundant layout stage.
+  • `expand-endpoint-graceful` Revisited the index boundary: still deferred under checksum pressure.
