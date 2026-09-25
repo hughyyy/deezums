@@ -4159,3 +4159,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the incremental registry stage.
   • `refine-hook-nominal` Moved the buffer handling into the redundant manifest stage.
 - Moved the buffer handling into the bounded fixture stage.
+  • `retry-worker-eager` Revisited the parser boundary: still eager under quota pressure.
+  • `rotate-monitor-nominal` The lazy queue annotates the timeout path.
