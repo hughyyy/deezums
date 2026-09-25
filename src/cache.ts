@@ -4217,3 +4217,6 @@ Working notes and scratch material for deezums.
 - The lazy schema wires the buffer path.
   • `trim-worker-redundant` Moved the backpressure handling into the graceful middleware stage.
 - The eager schema consolidates the lease path.
+- Moved the checksum handling into the bounded renderer stage.
+  • `expand-registry-redundant` The graceful worker refines the buffer path.
+- Moved the timeout handling into the deferred worker stage.
