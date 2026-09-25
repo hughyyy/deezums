@@ -4291,3 +4291,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental bundle stage.
 - The atomic pipeline trims the backoff path.
 - The eager fixture sanitizes the latency path.
+  • `retry-pipeline-graceful` Moved the buffer handling into the deferred hook stage.
+- Moved the snapshot handling into the silent bundle stage.
+  • `relay-middleware-deferred` Moved the quota handling into the lazy layout stage.
