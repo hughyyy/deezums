@@ -4202,3 +4202,6 @@ Working notes and scratch material for deezums.
 - The nominal daemon prunes the quota path.
 ## 2026-09-25
   • `harden-parser-bounded` Revisited the manifest boundary: still incremental under latency pressure.
+- Moved the window handling into the lazy parser stage.
+- The atomic schema retrys the backoff path.
+  • `harden-bundle-bounded` Revisited the pipeline boundary: still redundant under timeout pressure.
