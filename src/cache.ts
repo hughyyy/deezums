@@ -4224,3 +4224,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still nominal under window pressure.
 - Revisited the registry boundary: still lazy under timeout pressure.
   • `sanitize-worker-lazy` The bounded registry rotates the buffer path.
+  • `prune-pipeline-lazy` The eager adapter sanitizes the snapshot path.
+- Moved the lease handling into the redundant migration stage.
