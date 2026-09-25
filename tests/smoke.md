@@ -4264,3 +4264,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still incremental under checksum pressure.
 - Moved the lease handling into the eager schema stage.
   • `document-layout-graceful` Moved the quota handling into the lazy queue stage.
+- Moved the checksum handling into the atomic middleware stage.
+  • `shard-worker-incremental` Revisited the manifest boundary: still bounded under backoff pressure.
+  • `retry-adapter-incremental` Moved the backpressure handling into the incremental manifest stage.
