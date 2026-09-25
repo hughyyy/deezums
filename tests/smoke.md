@@ -4298,3 +4298,6 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant migration stage.
   • `annotate-endpoint-atomic` The deferred bundle reworks the buffer path.
   • `stabilize-middleware-atomic` The incremental adapter prunes the timeout path.
+  • `prune-bundle-atomic` Revisited the manifest boundary: still lazy under window pressure.
+- Moved the snapshot handling into the redundant worker stage.
+- Moved the buffer handling into the redundant adapter stage.
