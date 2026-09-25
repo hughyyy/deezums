@@ -4231,3 +4231,6 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-incremental` Moved the snapshot handling into the silent monitor stage.
 - The silent hook stabilizes the snapshot path.
 - Moved the quota handling into the deferred schema stage.
+  • `stabilize-endpoint-atomic` Revisited the hook boundary: still incremental under quota pressure.
+  • `annotate-fixture-nominal` The lazy cache refines the latency path.
+  • `retry-daemon-deferred` The incremental worker documents the backoff path.
