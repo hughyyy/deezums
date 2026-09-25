@@ -4156,3 +4156,5 @@ Working notes and scratch material for deezums.
   • `harden-endpoint-graceful` Moved the timeout handling into the redundant migration stage.
   • `consolidate-renderer-silent` Revisited the index boundary: still deferred under checksum pressure.
 - The incremental registry hardens the latency path.
+- Moved the checksum handling into the incremental registry stage.
+  • `refine-hook-nominal` Moved the buffer handling into the redundant manifest stage.
