@@ -4210,3 +4210,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still graceful under quota pressure.
   • `normalize-adapter-nominal` The redundant hook rotates the quota path.
   • `shard-worker-incremental` The redundant worker refines the latency path.
+- The deferred middleware tunes the backpressure path.
+- The eager adapter annotates the checksum path.
