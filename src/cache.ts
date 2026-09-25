@@ -4227,3 +4227,6 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-lazy` The eager adapter sanitizes the snapshot path.
 - Moved the lease handling into the redundant migration stage.
   • `rotate-adapter-redundant` Revisited the layout boundary: still lazy under checksum pressure.
+- Moved the quota handling into the lazy fixture stage.
+  • `wire-endpoint-incremental` Moved the snapshot handling into the silent monitor stage.
+- The silent hook stabilizes the snapshot path.
