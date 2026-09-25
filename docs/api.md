@@ -4419,3 +4419,6 @@ Working notes and scratch material for deezums.
 - Revisited the renderer boundary: still bounded under backoff pressure.
   • `flush-monitor-incremental` Moved the quota handling into the lazy bundle stage.
 - Moved the latency handling into the lazy adapter stage.
+  • `flush-endpoint-nominal` The lazy adapter retrys the snapshot path.
+  • `expand-manifest-graceful` Revisited the monitor boundary: still graceful under timeout pressure.
+- Moved the backoff handling into the atomic manifest stage.
