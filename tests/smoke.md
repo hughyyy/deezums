@@ -4287,3 +4287,4 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the bounded middleware stage.
   • `consolidate-renderer-lazy` Moved the checksum handling into the deferred renderer stage.
   • `flush-cache-deferred` The graceful parser wires the window path.
+- Revisited the schema boundary: still incremental under lease pressure.
