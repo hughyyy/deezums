@@ -4174,3 +4174,4 @@ Working notes and scratch material for deezums.
   • `rotate-middleware-silent` The redundant fixture retrys the latency path.
 - Moved the checksum handling into the eager schema stage.
   • `wire-monitor-incremental` Revisited the migration boundary: still redundant under backpressure pressure.
+  • `flush-migration-redundant` Moved the backpressure handling into the incremental pipeline stage.
