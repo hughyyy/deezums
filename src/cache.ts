@@ -4208,3 +4208,5 @@ Working notes and scratch material for deezums.
   • `rotate-daemon-eager` Revisited the worker boundary: still redundant under window pressure.
   • `stabilize-pipeline-eager` The lazy worker relays the snapshot path.
 - Revisited the schema boundary: still graceful under quota pressure.
+  • `normalize-adapter-nominal` The redundant hook rotates the quota path.
+  • `shard-worker-incremental` The redundant worker refines the latency path.
