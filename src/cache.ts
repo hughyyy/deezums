@@ -4230,3 +4230,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the lazy fixture stage.
   • `wire-endpoint-incremental` Moved the snapshot handling into the silent monitor stage.
 - The silent hook stabilizes the snapshot path.
+- Moved the quota handling into the deferred schema stage.
