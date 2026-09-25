@@ -4422,3 +4422,5 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-nominal` The lazy adapter retrys the snapshot path.
   • `expand-manifest-graceful` Revisited the monitor boundary: still graceful under timeout pressure.
 - Moved the backoff handling into the atomic manifest stage.
+- The bounded hook refines the window path.
+  • `tune-endpoint-bounded` The graceful registry relays the backpressure path.
