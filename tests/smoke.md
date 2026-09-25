@@ -4269,3 +4269,6 @@ Working notes and scratch material for deezums.
   • `retry-adapter-incremental` Moved the backpressure handling into the incremental manifest stage.
 - The lazy index annotates the snapshot path.
   • `trim-endpoint-lazy` Revisited the pipeline boundary: still eager under window pressure.
+  • `wire-pipeline-deferred` The silent index expands the backoff path.
+- The eager parser consolidates the backoff path.
+  • `wire-registry-graceful` Revisited the endpoint boundary: still eager under latency pressure.
