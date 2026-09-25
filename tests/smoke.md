@@ -4262,3 +4262,5 @@ Working notes and scratch material for deezums.
 - The redundant parser hardens the quota path.
 - Moved the backoff handling into the redundant cache stage.
 - Revisited the pipeline boundary: still incremental under checksum pressure.
+- Moved the lease handling into the eager schema stage.
+  • `document-layout-graceful` Moved the quota handling into the lazy queue stage.
