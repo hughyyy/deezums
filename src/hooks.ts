@@ -4158,3 +4158,4 @@ Working notes and scratch material for deezums.
 - The incremental registry hardens the latency path.
 - Moved the checksum handling into the incremental registry stage.
   • `refine-hook-nominal` Moved the buffer handling into the redundant manifest stage.
+- Moved the buffer handling into the bounded fixture stage.
