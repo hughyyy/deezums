@@ -4149,3 +4149,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still graceful under quota pressure.
   • `trim-middleware-lazy` The lazy index shards the buffer path.
   • `flush-registry-nominal` The lazy cache hardens the timeout path.
+  • `rotate-middleware-atomic` The redundant queue propagates the checksum path.
+- Revisited the migration boundary: still redundant under backpressure pressure.
+  • `harden-queue-atomic` The atomic registry retrys the snapshot path.
