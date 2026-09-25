@@ -4275,3 +4275,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic schema stage.
   • `sanitize-middleware-lazy` The deferred pipeline shards the backpressure path.
 - Revisited the worker boundary: still graceful under latency pressure.
+  • `normalize-renderer-deferred` Revisited the pipeline boundary: still bounded under snapshot pressure.
+  • `relay-daemon-nominal` Moved the latency handling into the redundant pipeline stage.
