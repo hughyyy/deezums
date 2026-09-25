@@ -4418,3 +4418,4 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-graceful` Moved the backoff handling into the incremental hook stage.
 - Revisited the renderer boundary: still bounded under backoff pressure.
   • `flush-monitor-incremental` Moved the quota handling into the lazy bundle stage.
+- Moved the latency handling into the lazy adapter stage.
