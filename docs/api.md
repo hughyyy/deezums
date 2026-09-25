@@ -4405,3 +4405,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal parser stage.
   • `rotate-hook-bounded` The incremental index hardens the window path.
 - The deferred renderer trims the latency path.
+- The deferred daemon refines the buffer path.
+- The eager manifest expands the buffer path.
+- Revisited the migration boundary: still atomic under lease pressure.
