@@ -4284,3 +4284,6 @@ Working notes and scratch material for deezums.
 - The lazy manifest prunes the window path.
 - The graceful bundle refines the snapshot path.
 - Revisited the parser boundary: still redundant under latency pressure.
+- Moved the backpressure handling into the bounded middleware stage.
+  • `consolidate-renderer-lazy` Moved the checksum handling into the deferred renderer stage.
+  • `flush-cache-deferred` The graceful parser wires the window path.

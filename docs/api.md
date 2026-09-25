@@ -4412,3 +4412,5 @@ Working notes and scratch material for deezums.
 - The atomic renderer shards the backpressure path.
 - Revisited the bundle boundary: still silent under quota pressure.
 - Moved the quota handling into the redundant cache stage.
+  • `relay-migration-eager` Moved the quota handling into the incremental monitor stage.
+  • `relay-hook-deferred` Moved the timeout handling into the incremental registry stage.

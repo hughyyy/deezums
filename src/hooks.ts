@@ -4161,3 +4161,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the bounded fixture stage.
   • `retry-worker-eager` Revisited the parser boundary: still eager under quota pressure.
   • `rotate-monitor-nominal` The lazy queue annotates the timeout path.
+  • `annotate-adapter-redundant` The incremental bundle tunes the buffer path.
