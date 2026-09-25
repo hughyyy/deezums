@@ -4168,3 +4168,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant queue stage.
   • `wire-registry-redundant` The incremental daemon wires the checksum path.
   • `retry-layout-graceful` Revisited the layout boundary: still silent under latency pressure.
+  • `tune-monitor-incremental` Revisited the worker boundary: still deferred under backoff pressure.
+  • `expand-queue-bounded` Revisited the middleware boundary: still atomic under buffer pressure.
+- The incremental endpoint consolidates the checksum path.

@@ -4414,3 +4414,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the redundant cache stage.
   • `relay-migration-eager` Moved the quota handling into the incremental monitor stage.
   • `relay-hook-deferred` Moved the timeout handling into the incremental registry stage.
+  • `rotate-cache-incremental` Revisited the monitor boundary: still lazy under quota pressure.
