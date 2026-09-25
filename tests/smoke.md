@@ -4267,3 +4267,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the atomic middleware stage.
   • `shard-worker-incremental` Revisited the manifest boundary: still bounded under backoff pressure.
   • `retry-adapter-incremental` Moved the backpressure handling into the incremental manifest stage.
+- The lazy index annotates the snapshot path.
+  • `trim-endpoint-lazy` Revisited the pipeline boundary: still eager under window pressure.
