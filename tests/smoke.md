@@ -4295,3 +4295,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the silent bundle stage.
   • `relay-middleware-deferred` Moved the quota handling into the lazy layout stage.
 - The atomic parser documents the quota path.
+- Moved the snapshot handling into the redundant migration stage.
+  • `annotate-endpoint-atomic` The deferred bundle reworks the buffer path.
