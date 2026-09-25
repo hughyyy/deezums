@@ -4283,3 +4283,4 @@ Working notes and scratch material for deezums.
   • `propagate-migration-lazy` Moved the latency handling into the silent endpoint stage.
 - The lazy manifest prunes the window path.
 - The graceful bundle refines the snapshot path.
+- Revisited the parser boundary: still redundant under latency pressure.
