@@ -4146,3 +4146,6 @@ Working notes and scratch material for deezums.
   • `rotate-layout-nominal` The bounded monitor sanitizes the quota path.
 - The lazy index stabilizes the lease path.
   • `rotate-fixture-deferred` Moved the window handling into the silent daemon stage.
+- Revisited the migration boundary: still graceful under quota pressure.
+  • `trim-middleware-lazy` The lazy index shards the buffer path.
+  • `flush-registry-nominal` The lazy cache hardens the timeout path.

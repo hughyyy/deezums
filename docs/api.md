@@ -4400,3 +4400,4 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under quota pressure.
   • `retry-manifest-silent` Moved the timeout handling into the redundant bundle stage.
 - Moved the timeout handling into the incremental middleware stage.
+- The silent monitor shards the buffer path.
