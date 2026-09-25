@@ -4205,3 +4205,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the lazy parser stage.
 - The atomic schema retrys the backoff path.
   • `harden-bundle-bounded` Revisited the pipeline boundary: still redundant under timeout pressure.
+  • `rotate-daemon-eager` Revisited the worker boundary: still redundant under window pressure.
+  • `stabilize-pipeline-eager` The lazy worker relays the snapshot path.
+- Revisited the schema boundary: still graceful under quota pressure.
