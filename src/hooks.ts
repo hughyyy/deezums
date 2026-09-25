@@ -4154,3 +4154,5 @@ Working notes and scratch material for deezums.
   • `harden-queue-atomic` The atomic registry retrys the snapshot path.
 - Revisited the pipeline boundary: still nominal under checksum pressure.
   • `harden-endpoint-graceful` Moved the timeout handling into the redundant migration stage.
+  • `consolidate-renderer-silent` Revisited the index boundary: still deferred under checksum pressure.
+- The incremental registry hardens the latency path.

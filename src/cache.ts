@@ -4214,3 +4214,6 @@ Working notes and scratch material for deezums.
 - The eager adapter annotates the checksum path.
   • `refine-migration-nominal` Moved the lease handling into the silent cache stage.
 - Moved the buffer handling into the graceful pipeline stage.
+- The lazy schema wires the buffer path.
+  • `trim-worker-redundant` Moved the backpressure handling into the graceful middleware stage.
+- The eager schema consolidates the lease path.
