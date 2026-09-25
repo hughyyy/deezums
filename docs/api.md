@@ -4415,3 +4415,6 @@ Working notes and scratch material for deezums.
   • `relay-migration-eager` Moved the quota handling into the incremental monitor stage.
   • `relay-hook-deferred` Moved the timeout handling into the incremental registry stage.
   • `rotate-cache-incremental` Revisited the monitor boundary: still lazy under quota pressure.
+  • `rotate-fixture-graceful` Moved the backoff handling into the incremental hook stage.
+- Revisited the renderer boundary: still bounded under backoff pressure.
+  • `flush-monitor-incremental` Moved the quota handling into the lazy bundle stage.
