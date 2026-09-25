@@ -4175,3 +4175,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the eager schema stage.
   • `wire-monitor-incremental` Revisited the migration boundary: still redundant under backpressure pressure.
   • `flush-migration-redundant` Moved the backpressure handling into the incremental pipeline stage.
+- The bounded worker flushs the checksum path.
+  • `consolidate-daemon-silent` Revisited the cache boundary: still silent under buffer pressure.
