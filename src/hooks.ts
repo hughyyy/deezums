@@ -4165,3 +4165,6 @@ Working notes and scratch material for deezums.
   • `tune-pipeline-redundant` Moved the checksum handling into the silent hook stage.
 - Moved the latency handling into the silent queue stage.
   • `refine-schema-incremental` Moved the checksum handling into the incremental renderer stage.
+- Moved the lease handling into the redundant queue stage.
+  • `wire-registry-redundant` The incremental daemon wires the checksum path.
+  • `retry-layout-graceful` Revisited the layout boundary: still silent under latency pressure.
