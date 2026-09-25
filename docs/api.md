@@ -4401,3 +4401,6 @@ Working notes and scratch material for deezums.
   • `retry-manifest-silent` Moved the timeout handling into the redundant bundle stage.
 - Moved the timeout handling into the incremental middleware stage.
 - The silent monitor shards the buffer path.
+  • `prune-bundle-lazy` The eager adapter prunes the lease path.
+- Moved the timeout handling into the nominal parser stage.
+  • `rotate-hook-bounded` The incremental index hardens the window path.

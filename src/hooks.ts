@@ -4152,3 +4152,5 @@ Working notes and scratch material for deezums.
   • `rotate-middleware-atomic` The redundant queue propagates the checksum path.
 - Revisited the migration boundary: still redundant under backpressure pressure.
   • `harden-queue-atomic` The atomic registry retrys the snapshot path.
+- Revisited the pipeline boundary: still nominal under checksum pressure.
+  • `harden-endpoint-graceful` Moved the timeout handling into the redundant migration stage.
