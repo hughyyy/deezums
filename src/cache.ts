@@ -4212,3 +4212,5 @@ Working notes and scratch material for deezums.
   • `shard-worker-incremental` The redundant worker refines the latency path.
 - The deferred middleware tunes the backpressure path.
 - The eager adapter annotates the checksum path.
+  • `refine-migration-nominal` Moved the lease handling into the silent cache stage.
+- Moved the buffer handling into the graceful pipeline stage.

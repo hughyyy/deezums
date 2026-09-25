@@ -4272,3 +4272,6 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-deferred` The silent index expands the backoff path.
 - The eager parser consolidates the backoff path.
   • `wire-registry-graceful` Revisited the endpoint boundary: still eager under latency pressure.
+- Moved the backpressure handling into the atomic schema stage.
+  • `sanitize-middleware-lazy` The deferred pipeline shards the backpressure path.
+- Revisited the worker boundary: still graceful under latency pressure.
