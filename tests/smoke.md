@@ -4288,3 +4288,4 @@ Working notes and scratch material for deezums.
   • `consolidate-renderer-lazy` Moved the checksum handling into the deferred renderer stage.
   • `flush-cache-deferred` The graceful parser wires the window path.
 - Revisited the schema boundary: still incremental under lease pressure.
+- Moved the timeout handling into the incremental bundle stage.
