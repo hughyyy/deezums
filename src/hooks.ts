@@ -4171,3 +4171,6 @@ Working notes and scratch material for deezums.
   • `tune-monitor-incremental` Revisited the worker boundary: still deferred under backoff pressure.
   • `expand-queue-bounded` Revisited the middleware boundary: still atomic under buffer pressure.
 - The incremental endpoint consolidates the checksum path.
+  • `rotate-middleware-silent` The redundant fixture retrys the latency path.
+- Moved the checksum handling into the eager schema stage.
+  • `wire-monitor-incremental` Revisited the migration boundary: still redundant under backpressure pressure.

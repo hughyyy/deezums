@@ -4223,3 +4223,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the incremental fixture stage.
 - Revisited the cache boundary: still nominal under window pressure.
 - Revisited the registry boundary: still lazy under timeout pressure.
+  • `sanitize-worker-lazy` The bounded registry rotates the buffer path.
