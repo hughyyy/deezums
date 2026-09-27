@@ -4311,3 +4311,4 @@ Working notes and scratch material for deezums.
 - The silent renderer trims the window path.
   • `document-daemon-graceful` Moved the latency handling into the lazy migration stage.
 - Revisited the fixture boundary: still lazy under backoff pressure.
+- Moved the timeout handling into the incremental parser stage.
