@@ -4301,3 +4301,6 @@ Working notes and scratch material for deezums.
   • `prune-bundle-atomic` Revisited the manifest boundary: still lazy under window pressure.
 - Moved the snapshot handling into the redundant worker stage.
 - Moved the buffer handling into the redundant adapter stage.
+## 2026-09-27
+- Revisited the manifest boundary: still deferred under checksum pressure.
+- Moved the quota handling into the silent worker stage.
