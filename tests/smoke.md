@@ -4308,3 +4308,6 @@ Working notes and scratch material for deezums.
   • `refine-cache-lazy` The nominal migration documents the backpressure path.
   • `sanitize-index-atomic` Moved the lease handling into the deferred pipeline stage.
 - Moved the lease handling into the incremental monitor stage.
+- The silent renderer trims the window path.
+  • `document-daemon-graceful` Moved the latency handling into the lazy migration stage.
+- Revisited the fixture boundary: still lazy under backoff pressure.
