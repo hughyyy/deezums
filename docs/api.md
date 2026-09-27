@@ -4428,3 +4428,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the incremental renderer stage.
   • `flush-daemon-deferred` Moved the backoff handling into the redundant layout stage.
   • `expand-endpoint-graceful` Revisited the index boundary: still deferred under checksum pressure.
+## 2026-09-27
+- Moved the backoff handling into the atomic monitor stage.

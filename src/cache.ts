@@ -4234,3 +4234,6 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-atomic` Revisited the hook boundary: still incremental under quota pressure.
   • `annotate-fixture-nominal` The lazy cache refines the latency path.
   • `retry-daemon-deferred` The incremental worker documents the backoff path.
+## 2026-09-27
+  • `retry-index-deferred` The graceful middleware documents the timeout path.
+  • `refine-pipeline-atomic` Moved the quota handling into the nominal parser stage.
