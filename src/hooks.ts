@@ -4181,3 +4181,5 @@ Working notes and scratch material for deezums.
   • `document-registry-bounded` The graceful monitor relays the window path.
 - Revisited the endpoint boundary: still incremental under backpressure pressure.
   • `consolidate-bundle-silent` The bounded layout relays the buffer path.
+- The deferred manifest stabilizes the quota path.
+  • `retry-layout-eager` Revisited the hook boundary: still bounded under timeout pressure.

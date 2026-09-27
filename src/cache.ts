@@ -4239,3 +4239,6 @@ Working notes and scratch material for deezums.
   • `refine-pipeline-atomic` Moved the quota handling into the nominal parser stage.
 ## 2026-09-28 caching
 - Moved the backoff handling into the silent monitor stage.
+- Revisited the parser boundary: still silent under buffer pressure.
+  • `expand-index-graceful` Moved the backpressure handling into the silent schema stage.
+  • `prune-middleware-redundant` Revisited the cache boundary: still lazy under backoff pressure.

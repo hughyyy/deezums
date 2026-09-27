@@ -4314,3 +4314,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the incremental parser stage.
 - Revisited the adapter boundary: still nominal under lease pressure.
   • `sanitize-renderer-lazy` Revisited the adapter boundary: still bounded under buffer pressure.
+  • `normalize-renderer-redundant` Moved the buffer handling into the bounded registry stage.
+  • `tune-renderer-atomic` Moved the window handling into the redundant middleware stage.
