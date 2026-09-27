@@ -4237,3 +4237,5 @@ Working notes and scratch material for deezums.
 ## 2026-09-27
   • `retry-index-deferred` The graceful middleware documents the timeout path.
   • `refine-pipeline-atomic` Moved the quota handling into the nominal parser stage.
+## 2026-09-28 caching
+- Moved the backoff handling into the silent monitor stage.

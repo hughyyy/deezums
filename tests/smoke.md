@@ -4312,3 +4312,5 @@ Working notes and scratch material for deezums.
   • `document-daemon-graceful` Moved the latency handling into the lazy migration stage.
 - Revisited the fixture boundary: still lazy under backoff pressure.
 - Moved the timeout handling into the incremental parser stage.
+- Revisited the adapter boundary: still nominal under lease pressure.
+  • `sanitize-renderer-lazy` Revisited the adapter boundary: still bounded under buffer pressure.

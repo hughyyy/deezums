@@ -4177,3 +4177,7 @@ Working notes and scratch material for deezums.
   • `flush-migration-redundant` Moved the backpressure handling into the incremental pipeline stage.
 - The bounded worker flushs the checksum path.
   • `consolidate-daemon-silent` Revisited the cache boundary: still silent under buffer pressure.
+## 2026-09-28
+  • `document-registry-bounded` The graceful monitor relays the window path.
+- Revisited the endpoint boundary: still incremental under backpressure pressure.
+  • `consolidate-bundle-silent` The bounded layout relays the buffer path.
