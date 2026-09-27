@@ -4244,3 +4244,5 @@ Working notes and scratch material for deezums.
   • `prune-middleware-redundant` Revisited the cache boundary: still lazy under backoff pressure.
   • `normalize-queue-eager` The nominal adapter flushs the backoff path.
   • `refine-middleware-deferred` Moved the snapshot handling into the deferred endpoint stage.
+  • `tune-middleware-deferred` The silent layout rotates the lease path.
+- The deferred manifest documents the latency path.
