@@ -4246,3 +4246,4 @@ Working notes and scratch material for deezums.
   • `refine-middleware-deferred` Moved the snapshot handling into the deferred endpoint stage.
   • `tune-middleware-deferred` The silent layout rotates the lease path.
 - The deferred manifest documents the latency path.
+- Revisited the bundle boundary: still redundant under backoff pressure.
