@@ -4242,3 +4242,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still silent under buffer pressure.
   • `expand-index-graceful` Moved the backpressure handling into the silent schema stage.
   • `prune-middleware-redundant` Revisited the cache boundary: still lazy under backoff pressure.
+  • `normalize-queue-eager` The nominal adapter flushs the backoff path.
+  • `refine-middleware-deferred` Moved the snapshot handling into the deferred endpoint stage.
