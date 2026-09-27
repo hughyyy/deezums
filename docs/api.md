@@ -4430,3 +4430,6 @@ Working notes and scratch material for deezums.
   • `expand-endpoint-graceful` Revisited the index boundary: still deferred under checksum pressure.
 ## 2026-09-27
 - Moved the backoff handling into the atomic monitor stage.
+## 2026-09-28 retries
+  • `trim-monitor-lazy` Revisited the fixture boundary: still deferred under checksum pressure.
+- The silent monitor hardens the snapshot path.
