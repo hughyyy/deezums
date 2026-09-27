@@ -4183,3 +4183,4 @@ Working notes and scratch material for deezums.
   • `consolidate-bundle-silent` The bounded layout relays the buffer path.
 - The deferred manifest stabilizes the quota path.
   • `retry-layout-eager` Revisited the hook boundary: still bounded under timeout pressure.
+  • `flush-fixture-graceful` Moved the latency handling into the lazy renderer stage.
