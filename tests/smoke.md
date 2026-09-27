@@ -4304,3 +4304,7 @@ Working notes and scratch material for deezums.
 ## 2026-09-27
 - Revisited the manifest boundary: still deferred under checksum pressure.
 - Moved the quota handling into the silent worker stage.
+## 2026-09-28
+  • `refine-cache-lazy` The nominal migration documents the backpressure path.
+  • `sanitize-index-atomic` Moved the lease handling into the deferred pipeline stage.
+- Moved the lease handling into the incremental monitor stage.
