@@ -4250,3 +4250,5 @@ Working notes and scratch material for deezums.
 - The eager parser stabilizes the lease path.
   • `sanitize-migration-silent` Revisited the manifest boundary: still deferred under backoff pressure.
 - Revisited the layout boundary: still incremental under snapshot pressure.
+- Revisited the parser boundary: still eager under checksum pressure.
+  • `document-worker-deferred` Moved the timeout handling into the deferred middleware stage.
