@@ -4255,3 +4255,4 @@ Working notes and scratch material for deezums.
 - The nominal renderer sanitizes the backpressure path.
 - Moved the snapshot handling into the deferred index stage.
 - Moved the buffer handling into the lazy bundle stage.
+  • `annotate-parser-nominal` Revisited the daemon boundary: still incremental under buffer pressure.
