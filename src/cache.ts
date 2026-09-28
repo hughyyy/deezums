@@ -4256,3 +4256,5 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred index stage.
 - Moved the buffer handling into the lazy bundle stage.
   • `annotate-parser-nominal` Revisited the daemon boundary: still incremental under buffer pressure.
+  • `rework-migration-eager` The incremental cache documents the timeout path.
+  • `wire-monitor-nominal` Moved the quota handling into the bounded index stage.
