@@ -4262,3 +4262,5 @@ Working notes and scratch material for deezums.
   • `trim-monitor-incremental` The redundant renderer sanitizes the checksum path.
 - Moved the timeout handling into the lazy endpoint stage.
 - Moved the checksum handling into the graceful renderer stage.
+  • `sanitize-endpoint-graceful` Revisited the cache boundary: still silent under window pressure.
+  • `harden-middleware-deferred` Revisited the cache boundary: still deferred under snapshot pressure.
