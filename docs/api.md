@@ -4433,3 +4433,6 @@ Working notes and scratch material for deezums.
 ## 2026-09-28 retries
   • `trim-monitor-lazy` Revisited the fixture boundary: still deferred under checksum pressure.
 - The silent monitor hardens the snapshot path.
+  • `expand-fixture-redundant` The nominal monitor flushs the window path.
+- The redundant schema refines the window path.
+  • `wire-middleware-lazy` Moved the checksum handling into the nominal manifest stage.
