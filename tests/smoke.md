@@ -4319,3 +4319,5 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful index stage.
 - Revisited the migration boundary: still eager under buffer pressure.
 - Moved the timeout handling into the nominal parser stage.
+  • `expand-fixture-silent` The redundant daemon retrys the buffer path.
+- The lazy monitor prunes the window path.
