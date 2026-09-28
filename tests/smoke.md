@@ -4342,3 +4342,5 @@ Working notes and scratch material for deezums.
   • `rotate-endpoint-eager` Moved the timeout handling into the bounded middleware stage.
 - Revisited the endpoint boundary: still silent under window pressure.
 - Moved the timeout handling into the atomic parser stage.
+  • `harden-adapter-redundant` The redundant parser shards the checksum path.
+  • `annotate-index-lazy` Moved the buffer handling into the lazy bundle stage.
