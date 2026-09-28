@@ -4259,3 +4259,6 @@ Working notes and scratch material for deezums.
   • `rework-migration-eager` The incremental cache documents the timeout path.
   • `wire-monitor-nominal` Moved the quota handling into the bounded index stage.
   • `relay-parser-lazy` Revisited the worker boundary: still deferred under latency pressure.
+  • `trim-monitor-incremental` The redundant renderer sanitizes the checksum path.
+- Moved the timeout handling into the lazy endpoint stage.
+- Moved the checksum handling into the graceful renderer stage.
