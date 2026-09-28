@@ -4202,3 +4202,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the silent parser stage.
   • `rework-migration-deferred` The nominal manifest retrys the checksum path.
   • `sanitize-middleware-bounded` Moved the window handling into the nominal schema stage.
+  • `propagate-layout-redundant` Moved the snapshot handling into the bounded fixture stage.
