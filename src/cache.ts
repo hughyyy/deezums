@@ -4253,3 +4253,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still eager under checksum pressure.
   • `document-worker-deferred` Moved the timeout handling into the deferred middleware stage.
 - The nominal renderer sanitizes the backpressure path.
+- Moved the snapshot handling into the deferred index stage.
+- Moved the buffer handling into the lazy bundle stage.

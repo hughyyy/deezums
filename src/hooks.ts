@@ -4199,3 +4199,5 @@ Working notes and scratch material for deezums.
   • `shard-schema-graceful` Moved the backpressure handling into the lazy worker stage.
 - Revisited the middleware boundary: still redundant under window pressure.
 - The atomic index propagates the snapshot path.
+- Moved the checksum handling into the silent parser stage.
+  • `rework-migration-deferred` The nominal manifest retrys the checksum path.
