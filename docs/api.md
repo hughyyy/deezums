@@ -4436,3 +4436,4 @@ Working notes and scratch material for deezums.
   • `expand-fixture-redundant` The nominal monitor flushs the window path.
 - The redundant schema refines the window path.
   • `wire-middleware-lazy` Moved the checksum handling into the nominal manifest stage.
+  • `relay-schema-redundant` The silent worker normalizes the lease path.

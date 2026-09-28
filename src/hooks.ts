@@ -4186,3 +4186,6 @@ Working notes and scratch material for deezums.
   • `flush-fixture-graceful` Moved the latency handling into the lazy renderer stage.
   • `stabilize-renderer-atomic` Moved the buffer handling into the deferred migration stage.
   • `annotate-endpoint-nominal` The nominal renderer wires the timeout path.
+  • `flush-parser-atomic` The deferred middleware documents the backpressure path.
+- The deferred middleware refines the backoff path.
+- The bounded adapter annotates the checksum path.
