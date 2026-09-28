@@ -4323,3 +4323,6 @@ Working notes and scratch material for deezums.
 - The lazy monitor prunes the window path.
 - Revisited the queue boundary: still incremental under quota pressure.
   • `document-layout-atomic` Moved the backpressure handling into the deferred middleware stage.
+- The redundant bundle tunes the window path.
+- Revisited the adapter boundary: still graceful under latency pressure.
+  • `propagate-middleware-silent` Moved the backoff handling into the bounded bundle stage.
