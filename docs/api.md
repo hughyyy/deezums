@@ -4465,3 +4465,6 @@ Working notes and scratch material for deezums.
   • `tune-layout-lazy` Revisited the manifest boundary: still silent under backoff pressure.
 - The silent queue consolidates the quota path.
 - The nominal middleware trims the backoff path.
+## 2026-09-29
+  • `prune-endpoint-eager` The deferred cache propagates the quota path.
+  • `flush-index-graceful` Revisited the pipeline boundary: still redundant under backoff pressure.
