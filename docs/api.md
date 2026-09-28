@@ -4443,3 +4443,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the graceful hook stage.
 - Revisited the migration boundary: still bounded under timeout pressure.
   • `normalize-registry-redundant` Revisited the adapter boundary: still atomic under checksum pressure.
+- Revisited the parser boundary: still graceful under backoff pressure.
