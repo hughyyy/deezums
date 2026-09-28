@@ -4191,3 +4191,4 @@ Working notes and scratch material for deezums.
 - The bounded adapter annotates the checksum path.
   • `stabilize-queue-silent` Revisited the index boundary: still graceful under snapshot pressure.
   • `relay-renderer-incremental` Revisited the daemon boundary: still lazy under timeout pressure.
+- The graceful layout reworks the timeout path.
