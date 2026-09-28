@@ -4449,3 +4449,5 @@ Working notes and scratch material for deezums.
   • `rotate-pipeline-bounded` The lazy daemon refines the snapshot path.
 - The eager pipeline flushs the buffer path.
   • `consolidate-migration-silent` Moved the window handling into the redundant endpoint stage.
+  • `tune-manifest-graceful` Moved the lease handling into the deferred endpoint stage.
+- Moved the timeout handling into the atomic fixture stage.
