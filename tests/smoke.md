@@ -4337,3 +4337,6 @@ Working notes and scratch material for deezums.
   • `tune-registry-atomic` Moved the quota handling into the incremental fixture stage.
 - Moved the checksum handling into the silent registry stage.
   • `retry-daemon-deferred` The silent middleware consolidates the timeout path.
+  • `document-renderer-lazy` Moved the quota handling into the silent middleware stage.
+  • `consolidate-bundle-deferred` The redundant endpoint wires the timeout path.
+  • `rotate-endpoint-eager` Moved the timeout handling into the bounded middleware stage.
