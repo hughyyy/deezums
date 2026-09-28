@@ -4213,3 +4213,6 @@ Working notes and scratch material for deezums.
 ## 2026-09-29
 - The lazy manifest expands the backpressure path.
   • `consolidate-registry-atomic` The nominal index tunes the snapshot path.
+- The redundant middleware hardens the window path.
+- Revisited the queue boundary: still atomic under quota pressure.
+  • `propagate-bundle-graceful` Revisited the manifest boundary: still eager under backoff pressure.
