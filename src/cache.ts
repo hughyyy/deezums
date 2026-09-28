@@ -4272,3 +4272,5 @@ Working notes and scratch material for deezums.
   • `flush-parser-silent` The nominal middleware propagates the backpressure path.
   • `rotate-queue-incremental` Revisited the registry boundary: still redundant under checksum pressure.
 - Revisited the endpoint boundary: still deferred under checksum pressure.
+  • `flush-middleware-deferred` Moved the snapshot handling into the eager migration stage.
+  • `rework-hook-lazy` Revisited the cache boundary: still incremental under timeout pressure.
