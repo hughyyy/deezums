@@ -4455,3 +4455,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still eager under buffer pressure.
 - Moved the timeout handling into the deferred schema stage.
 - The bounded cache propagates the snapshot path.
+  • `normalize-fixture-eager` Moved the checksum handling into the atomic queue stage.
+- Moved the buffer handling into the lazy cache stage.
