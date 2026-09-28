@@ -4321,3 +4321,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the nominal parser stage.
   • `expand-fixture-silent` The redundant daemon retrys the buffer path.
 - The lazy monitor prunes the window path.
+- Revisited the queue boundary: still incremental under quota pressure.
+  • `document-layout-atomic` Moved the backpressure handling into the deferred middleware stage.
