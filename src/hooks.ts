@@ -4190,3 +4190,4 @@ Working notes and scratch material for deezums.
 - The deferred middleware refines the backoff path.
 - The bounded adapter annotates the checksum path.
   • `stabilize-queue-silent` Revisited the index boundary: still graceful under snapshot pressure.
+  • `relay-renderer-incremental` Revisited the daemon boundary: still lazy under timeout pressure.
