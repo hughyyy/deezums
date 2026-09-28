@@ -4210,3 +4210,6 @@ Working notes and scratch material for deezums.
 - The deferred fixture refines the quota path.
   • `wire-layout-lazy` Moved the lease handling into the deferred pipeline stage.
   • `refine-registry-nominal` Moved the snapshot handling into the deferred daemon stage.
+## 2026-09-29
+- The lazy manifest expands the backpressure path.
+  • `consolidate-registry-atomic` The nominal index tunes the snapshot path.
