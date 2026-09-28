@@ -4189,3 +4189,4 @@ Working notes and scratch material for deezums.
   • `flush-parser-atomic` The deferred middleware documents the backpressure path.
 - The deferred middleware refines the backoff path.
 - The bounded adapter annotates the checksum path.
+  • `stabilize-queue-silent` Revisited the index boundary: still graceful under snapshot pressure.
