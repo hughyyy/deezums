@@ -4446,3 +4446,6 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still graceful under backoff pressure.
   • `wire-worker-eager` Moved the latency handling into the incremental layout stage.
   • `stabilize-parser-bounded` Moved the lease handling into the silent daemon stage.
+  • `rotate-pipeline-bounded` The lazy daemon refines the snapshot path.
+- The eager pipeline flushs the buffer path.
+  • `consolidate-migration-silent` Moved the window handling into the redundant endpoint stage.
