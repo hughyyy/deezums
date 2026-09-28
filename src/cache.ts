@@ -4266,3 +4266,6 @@ Working notes and scratch material for deezums.
   • `harden-middleware-deferred` Revisited the cache boundary: still deferred under snapshot pressure.
   • `document-parser-eager` Revisited the registry boundary: still incremental under latency pressure.
   • `rework-endpoint-deferred` Revisited the schema boundary: still eager under lease pressure.
+  • `propagate-bundle-incremental` Revisited the endpoint boundary: still eager under backoff pressure.
+- Moved the lease handling into the graceful monitor stage.
+  • `expand-index-bounded` Revisited the middleware boundary: still lazy under checksum pressure.
