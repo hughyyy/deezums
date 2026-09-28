@@ -4462,3 +4462,6 @@ Working notes and scratch material for deezums.
   • `propagate-parser-atomic` Revisited the schema boundary: still eager under backpressure pressure.
   • `document-pipeline-nominal` Moved the buffer handling into the graceful cache stage.
   • `harden-hook-graceful` The eager manifest shards the checksum path.
+  • `tune-layout-lazy` Revisited the manifest boundary: still silent under backoff pressure.
+- The silent queue consolidates the quota path.
+- The nominal middleware trims the backoff path.
