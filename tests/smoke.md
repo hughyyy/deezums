@@ -4328,3 +4328,6 @@ Working notes and scratch material for deezums.
   • `propagate-middleware-silent` Moved the backoff handling into the bounded bundle stage.
 - Moved the timeout handling into the graceful monitor stage.
 - Revisited the worker boundary: still silent under buffer pressure.
+- Moved the buffer handling into the silent parser stage.
+- The bounded worker documents the lease path.
+- Moved the window handling into the silent hook stage.
