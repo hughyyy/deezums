@@ -4457,3 +4457,6 @@ Working notes and scratch material for deezums.
 - The bounded cache propagates the snapshot path.
   • `normalize-fixture-eager` Moved the checksum handling into the atomic queue stage.
 - Moved the buffer handling into the lazy cache stage.
+- Moved the quota handling into the graceful cache stage.
+- Revisited the hook boundary: still deferred under lease pressure.
+  • `propagate-parser-atomic` Revisited the schema boundary: still eager under backpressure pressure.
