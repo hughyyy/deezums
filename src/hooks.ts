@@ -4203,3 +4203,6 @@ Working notes and scratch material for deezums.
   • `rework-migration-deferred` The nominal manifest retrys the checksum path.
   • `sanitize-middleware-bounded` Moved the window handling into the nominal schema stage.
   • `propagate-layout-redundant` Moved the snapshot handling into the bounded fixture stage.
+- The graceful cache documents the checksum path.
+- The atomic endpoint annotates the timeout path.
+- Revisited the schema boundary: still deferred under lease pressure.
