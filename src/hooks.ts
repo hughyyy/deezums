@@ -4193,3 +4193,4 @@ Working notes and scratch material for deezums.
   • `relay-renderer-incremental` Revisited the daemon boundary: still lazy under timeout pressure.
 - The graceful layout reworks the timeout path.
   • `prune-bundle-eager` Moved the backpressure handling into the incremental adapter stage.
+  • `consolidate-index-graceful` Revisited the daemon boundary: still bounded under window pressure.
