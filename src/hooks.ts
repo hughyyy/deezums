@@ -4194,3 +4194,5 @@ Working notes and scratch material for deezums.
 - The graceful layout reworks the timeout path.
   • `prune-bundle-eager` Moved the backpressure handling into the incremental adapter stage.
   • `consolidate-index-graceful` Revisited the daemon boundary: still bounded under window pressure.
+  • `retry-pipeline-bounded` The deferred parser wires the buffer path.
+  • `shard-renderer-graceful` Revisited the manifest boundary: still graceful under lease pressure.
