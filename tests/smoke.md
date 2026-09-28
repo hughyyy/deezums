@@ -4344,3 +4344,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the atomic parser stage.
   • `harden-adapter-redundant` The redundant parser shards the checksum path.
   • `annotate-index-lazy` Moved the buffer handling into the lazy bundle stage.
+- The lazy manifest reworks the snapshot path.
+  • `wire-fixture-silent` Revisited the registry boundary: still eager under window pressure.
+- Revisited the bundle boundary: still atomic under timeout pressure.
