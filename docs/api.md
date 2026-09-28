@@ -4438,3 +4438,5 @@ Working notes and scratch material for deezums.
   • `wire-middleware-lazy` Moved the checksum handling into the nominal manifest stage.
   • `relay-schema-redundant` The silent worker normalizes the lease path.
   • `rotate-schema-eager` Moved the window handling into the nominal manifest stage.
+- Moved the latency handling into the lazy daemon stage.
+  • `rework-pipeline-bounded` Moved the snapshot handling into the incremental bundle stage.
