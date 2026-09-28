@@ -4335,3 +4335,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still deferred under backpressure pressure.
 - The nominal index wires the buffer path.
   • `tune-registry-atomic` Moved the quota handling into the incremental fixture stage.
+- Moved the checksum handling into the silent registry stage.
+  • `retry-daemon-deferred` The silent middleware consolidates the timeout path.
