@@ -4332,3 +4332,6 @@ Working notes and scratch material for deezums.
 - The bounded worker documents the lease path.
 - Moved the window handling into the silent hook stage.
 - The redundant middleware reworks the timeout path.
+- Revisited the hook boundary: still deferred under backpressure pressure.
+- The nominal index wires the buffer path.
+  • `tune-registry-atomic` Moved the quota handling into the incremental fixture stage.

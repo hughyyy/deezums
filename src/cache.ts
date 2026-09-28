@@ -4252,3 +4252,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still incremental under snapshot pressure.
 - Revisited the parser boundary: still eager under checksum pressure.
   • `document-worker-deferred` Moved the timeout handling into the deferred middleware stage.
+- The nominal renderer sanitizes the backpressure path.

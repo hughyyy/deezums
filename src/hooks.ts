@@ -4196,3 +4196,6 @@ Working notes and scratch material for deezums.
   • `consolidate-index-graceful` Revisited the daemon boundary: still bounded under window pressure.
   • `retry-pipeline-bounded` The deferred parser wires the buffer path.
   • `shard-renderer-graceful` Revisited the manifest boundary: still graceful under lease pressure.
+  • `shard-schema-graceful` Moved the backpressure handling into the lazy worker stage.
+- Revisited the middleware boundary: still redundant under window pressure.
+- The atomic index propagates the snapshot path.
