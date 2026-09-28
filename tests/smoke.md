@@ -4331,3 +4331,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the silent parser stage.
 - The bounded worker documents the lease path.
 - Moved the window handling into the silent hook stage.
+- The redundant middleware reworks the timeout path.
