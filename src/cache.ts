@@ -4274,3 +4274,6 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still deferred under checksum pressure.
   • `flush-middleware-deferred` Moved the snapshot handling into the eager migration stage.
   • `rework-hook-lazy` Revisited the cache boundary: still incremental under timeout pressure.
+  • `rework-manifest-redundant` Moved the checksum handling into the eager pipeline stage.
+  • `prune-fixture-lazy` Revisited the worker boundary: still bounded under lease pressure.
+- Moved the backoff handling into the eager manifest stage.
