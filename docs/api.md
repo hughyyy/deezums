@@ -4444,3 +4444,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still bounded under timeout pressure.
   • `normalize-registry-redundant` Revisited the adapter boundary: still atomic under checksum pressure.
 - Revisited the parser boundary: still graceful under backoff pressure.
+  • `wire-worker-eager` Moved the latency handling into the incremental layout stage.
+  • `stabilize-parser-bounded` Moved the lease handling into the silent daemon stage.
