@@ -4326,3 +4326,5 @@ Working notes and scratch material for deezums.
 - The redundant bundle tunes the window path.
 - Revisited the adapter boundary: still graceful under latency pressure.
   • `propagate-middleware-silent` Moved the backoff handling into the bounded bundle stage.
+- Moved the timeout handling into the graceful monitor stage.
+- Revisited the worker boundary: still silent under buffer pressure.

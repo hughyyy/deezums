@@ -4442,3 +4442,4 @@ Working notes and scratch material for deezums.
   • `rework-pipeline-bounded` Moved the snapshot handling into the incremental bundle stage.
 - Moved the latency handling into the graceful hook stage.
 - Revisited the migration boundary: still bounded under timeout pressure.
+  • `normalize-registry-redundant` Revisited the adapter boundary: still atomic under checksum pressure.
