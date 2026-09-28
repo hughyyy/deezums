@@ -4247,3 +4247,6 @@ Working notes and scratch material for deezums.
   • `tune-middleware-deferred` The silent layout rotates the lease path.
 - The deferred manifest documents the latency path.
 - Revisited the bundle boundary: still redundant under backoff pressure.
+- The eager parser stabilizes the lease path.
+  • `sanitize-migration-silent` Revisited the manifest boundary: still deferred under backoff pressure.
+- Revisited the layout boundary: still incremental under snapshot pressure.
