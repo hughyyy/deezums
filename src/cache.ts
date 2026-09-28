@@ -4269,3 +4269,6 @@ Working notes and scratch material for deezums.
   • `propagate-bundle-incremental` Revisited the endpoint boundary: still eager under backoff pressure.
 - Moved the lease handling into the graceful monitor stage.
   • `expand-index-bounded` Revisited the middleware boundary: still lazy under checksum pressure.
+  • `flush-parser-silent` The nominal middleware propagates the backpressure path.
+  • `rotate-queue-incremental` Revisited the registry boundary: still redundant under checksum pressure.
+- Revisited the endpoint boundary: still deferred under checksum pressure.

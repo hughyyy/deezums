@@ -4347,3 +4347,4 @@ Working notes and scratch material for deezums.
 - The lazy manifest reworks the snapshot path.
   • `wire-fixture-silent` Revisited the registry boundary: still eager under window pressure.
 - Revisited the bundle boundary: still atomic under timeout pressure.
+  • `prune-queue-deferred` Revisited the layout boundary: still silent under checksum pressure.

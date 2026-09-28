@@ -4460,3 +4460,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful cache stage.
 - Revisited the hook boundary: still deferred under lease pressure.
   • `propagate-parser-atomic` Revisited the schema boundary: still eager under backpressure pressure.
+  • `document-pipeline-nominal` Moved the buffer handling into the graceful cache stage.
+  • `harden-hook-graceful` The eager manifest shards the checksum path.

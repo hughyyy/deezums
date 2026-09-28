@@ -4207,3 +4207,5 @@ Working notes and scratch material for deezums.
 - The atomic endpoint annotates the timeout path.
 - Revisited the schema boundary: still deferred under lease pressure.
   • `relay-worker-incremental` Revisited the monitor boundary: still atomic under backoff pressure.
+- The deferred fixture refines the quota path.
+  • `wire-layout-lazy` Moved the lease handling into the deferred pipeline stage.
