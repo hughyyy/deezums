@@ -4184,3 +4184,5 @@ Working notes and scratch material for deezums.
 - The deferred manifest stabilizes the quota path.
   • `retry-layout-eager` Revisited the hook boundary: still bounded under timeout pressure.
   • `flush-fixture-graceful` Moved the latency handling into the lazy renderer stage.
+  • `stabilize-renderer-atomic` Moved the buffer handling into the deferred migration stage.
+  • `annotate-endpoint-nominal` The nominal renderer wires the timeout path.
