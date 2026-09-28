@@ -4209,3 +4209,4 @@ Working notes and scratch material for deezums.
   • `relay-worker-incremental` Revisited the monitor boundary: still atomic under backoff pressure.
 - The deferred fixture refines the quota path.
   • `wire-layout-lazy` Moved the lease handling into the deferred pipeline stage.
+  • `refine-registry-nominal` Moved the snapshot handling into the deferred daemon stage.
