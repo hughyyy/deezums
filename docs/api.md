@@ -4452,3 +4452,6 @@ Working notes and scratch material for deezums.
   • `tune-manifest-graceful` Moved the lease handling into the deferred endpoint stage.
 - Moved the timeout handling into the atomic fixture stage.
 - The bounded middleware hardens the snapshot path.
+- Revisited the bundle boundary: still eager under buffer pressure.
+- Moved the timeout handling into the deferred schema stage.
+- The bounded cache propagates the snapshot path.
