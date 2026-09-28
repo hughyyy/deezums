@@ -4277,3 +4277,7 @@ Working notes and scratch material for deezums.
   • `rework-manifest-redundant` Moved the checksum handling into the eager pipeline stage.
   • `prune-fixture-lazy` Revisited the worker boundary: still bounded under lease pressure.
 - Moved the backoff handling into the eager manifest stage.
+## 2026-09-29
+  • `rotate-daemon-incremental` The lazy endpoint propagates the backoff path.
+  • `harden-parser-nominal` Moved the checksum handling into the graceful worker stage.
+- Moved the checksum handling into the graceful daemon stage.
