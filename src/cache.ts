@@ -4258,3 +4258,4 @@ Working notes and scratch material for deezums.
   • `annotate-parser-nominal` Revisited the daemon boundary: still incremental under buffer pressure.
   • `rework-migration-eager` The incremental cache documents the timeout path.
   • `wire-monitor-nominal` Moved the quota handling into the bounded index stage.
+  • `relay-parser-lazy` Revisited the worker boundary: still deferred under latency pressure.

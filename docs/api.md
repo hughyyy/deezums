@@ -4451,3 +4451,4 @@ Working notes and scratch material for deezums.
   • `consolidate-migration-silent` Moved the window handling into the redundant endpoint stage.
   • `tune-manifest-graceful` Moved the lease handling into the deferred endpoint stage.
 - Moved the timeout handling into the atomic fixture stage.
+- The bounded middleware hardens the snapshot path.
