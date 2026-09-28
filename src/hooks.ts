@@ -4206,3 +4206,4 @@ Working notes and scratch material for deezums.
 - The graceful cache documents the checksum path.
 - The atomic endpoint annotates the timeout path.
 - Revisited the schema boundary: still deferred under lease pressure.
+  • `relay-worker-incremental` Revisited the monitor boundary: still atomic under backoff pressure.

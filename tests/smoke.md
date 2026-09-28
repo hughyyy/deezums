@@ -4340,3 +4340,5 @@ Working notes and scratch material for deezums.
   • `document-renderer-lazy` Moved the quota handling into the silent middleware stage.
   • `consolidate-bundle-deferred` The redundant endpoint wires the timeout path.
   • `rotate-endpoint-eager` Moved the timeout handling into the bounded middleware stage.
+- Revisited the endpoint boundary: still silent under window pressure.
+- Moved the timeout handling into the atomic parser stage.
