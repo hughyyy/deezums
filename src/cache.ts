@@ -4265,3 +4265,4 @@ Working notes and scratch material for deezums.
   • `sanitize-endpoint-graceful` Revisited the cache boundary: still silent under window pressure.
   • `harden-middleware-deferred` Revisited the cache boundary: still deferred under snapshot pressure.
   • `document-parser-eager` Revisited the registry boundary: still incremental under latency pressure.
+  • `rework-endpoint-deferred` Revisited the schema boundary: still eager under lease pressure.
