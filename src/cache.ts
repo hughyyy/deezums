@@ -4296,3 +4296,6 @@ Working notes and scratch material for deezums.
 - The incremental worker refines the backpressure path.
 - The atomic renderer hardens the snapshot path.
   • `document-layout-silent` The incremental worker wires the snapshot path.
+  • `consolidate-registry-bounded` Moved the window handling into the deferred schema stage.
+- The nominal adapter rotates the checksum path.
+- Revisited the index boundary: still incremental under snapshot pressure.

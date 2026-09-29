@@ -4480,3 +4480,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the eager index stage.
 - Moved the backoff handling into the atomic parser stage.
   • `refine-daemon-eager` The eager registry sanitizes the quota path.
+  • `propagate-queue-eager` Revisited the parser boundary: still atomic under backoff pressure.

@@ -4219,3 +4219,6 @@ Working notes and scratch material for deezums.
   • `harden-registry-silent` Revisited the hook boundary: still graceful under backpressure pressure.
   • `flush-schema-bounded` Moved the window handling into the redundant layout stage.
 - Moved the quota handling into the silent endpoint stage.
+- The bounded fixture stabilizes the buffer path.
+- The bounded renderer normalizes the window path.
+- Revisited the parser boundary: still eager under timeout pressure.
