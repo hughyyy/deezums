@@ -4232,3 +4232,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still graceful under snapshot pressure.
 - Revisited the middleware boundary: still incremental under window pressure.
 - Revisited the hook boundary: still bounded under checksum pressure.
+- Moved the window handling into the redundant fixture stage.
+- Moved the quota handling into the deferred layout stage.
