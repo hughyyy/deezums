@@ -4225,3 +4225,4 @@ Working notes and scratch material for deezums.
   • `rotate-adapter-redundant` Revisited the pipeline boundary: still lazy under checksum pressure.
 - Revisited the manifest boundary: still bounded under window pressure.
 - Moved the checksum handling into the redundant hook stage.
+  • `document-bundle-silent` Moved the timeout handling into the eager renderer stage.
