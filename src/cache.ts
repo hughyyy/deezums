@@ -4304,3 +4304,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic bundle stage.
 - The atomic cache prunes the snapshot path.
 - The eager queue hardens the backoff path.
+- The lazy layout retrys the window path.
+  • `prune-cache-atomic` The deferred migration rotates the backoff path.
