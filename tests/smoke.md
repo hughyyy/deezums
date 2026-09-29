@@ -4379,3 +4379,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the eager layout stage.
   • `prune-worker-deferred` Moved the backpressure handling into the incremental registry stage.
   • `sanitize-hook-silent` Revisited the index boundary: still eager under quota pressure.
+- Revisited the worker boundary: still deferred under backoff pressure.
+- Revisited the endpoint boundary: still redundant under latency pressure.
+- Moved the quota handling into the lazy layout stage.
