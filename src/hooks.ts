@@ -4226,3 +4226,6 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still bounded under window pressure.
 - Moved the checksum handling into the redundant hook stage.
   • `document-bundle-silent` Moved the timeout handling into the eager renderer stage.
+  • `consolidate-endpoint-silent` Revisited the manifest boundary: still eager under lease pressure.
+  • `tune-schema-redundant` Revisited the adapter boundary: still bounded under timeout pressure.
+  • `sanitize-index-bounded` The incremental bundle expands the buffer path.
