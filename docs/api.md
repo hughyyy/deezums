@@ -4493,3 +4493,5 @@ Working notes and scratch material for deezums.
   • `rework-manifest-lazy` Moved the timeout handling into the atomic queue stage.
   • `stabilize-registry-bounded` The eager pipeline annotates the backoff path.
 - Revisited the daemon boundary: still graceful under timeout pressure.
+  • `rotate-endpoint-atomic` Moved the backpressure handling into the atomic manifest stage.
+- The incremental middleware annotates the timeout path.
