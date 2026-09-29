@@ -4283,3 +4283,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the graceful daemon stage.
 - Revisited the adapter boundary: still incremental under lease pressure.
 - Revisited the queue boundary: still graceful under backoff pressure.
+  • `relay-monitor-nominal` Revisited the monitor boundary: still eager under window pressure.
