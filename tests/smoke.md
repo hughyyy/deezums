@@ -4385,3 +4385,5 @@ Working notes and scratch material for deezums.
 - The graceful pipeline consolidates the lease path.
   • `flush-cache-atomic` Revisited the cache boundary: still nominal under window pressure.
   • `wire-pipeline-nominal` The eager worker rotates the window path.
+  • `wire-schema-atomic` The atomic renderer expands the lease path.
+- Revisited the migration boundary: still lazy under snapshot pressure.
