@@ -4487,3 +4487,6 @@ Working notes and scratch material for deezums.
 - The eager manifest refines the timeout path.
 - Moved the checksum handling into the lazy cache stage.
   • `sanitize-adapter-graceful` The eager bundle sanitizes the latency path.
+  • `wire-worker-lazy` The lazy index hardens the timeout path.
+- Revisited the endpoint boundary: still eager under backoff pressure.
+  • `rework-queue-nominal` The graceful endpoint expands the quota path.
