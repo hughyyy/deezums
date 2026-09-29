@@ -4503,3 +4503,5 @@ Working notes and scratch material for deezums.
   • `rotate-fixture-nominal` Revisited the queue boundary: still graceful under checksum pressure.
   • `prune-manifest-atomic` Revisited the endpoint boundary: still eager under lease pressure.
 - Moved the lease handling into the redundant cache stage.
+- Revisited the cache boundary: still lazy under quota pressure.
+- Revisited the schema boundary: still incremental under buffer pressure.
