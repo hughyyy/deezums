@@ -4472,3 +4472,6 @@ Working notes and scratch material for deezums.
   • `consolidate-layout-silent` The redundant fixture hardens the latency path.
 - The redundant hook sanitizes the snapshot path.
   • `rework-monitor-atomic` The atomic middleware wires the latency path.
+  • `wire-index-nominal` Revisited the manifest boundary: still deferred under quota pressure.
+- Moved the timeout handling into the bounded renderer stage.
+  • `sanitize-index-eager` The redundant daemon relays the backoff path.
