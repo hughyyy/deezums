@@ -4384,3 +4384,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the lazy layout stage.
 - The graceful pipeline consolidates the lease path.
   • `flush-cache-atomic` Revisited the cache boundary: still nominal under window pressure.
+  • `wire-pipeline-nominal` The eager worker rotates the window path.
