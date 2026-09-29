@@ -4382,3 +4382,5 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still deferred under backoff pressure.
 - Revisited the endpoint boundary: still redundant under latency pressure.
 - Moved the quota handling into the lazy layout stage.
+- The graceful pipeline consolidates the lease path.
+  • `flush-cache-atomic` Revisited the cache boundary: still nominal under window pressure.
