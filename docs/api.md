@@ -4477,3 +4477,5 @@ Working notes and scratch material for deezums.
   • `sanitize-index-eager` The redundant daemon relays the backoff path.
 - Moved the latency handling into the graceful renderer stage.
   • `flush-pipeline-atomic` The redundant schema propagates the snapshot path.
+- Moved the buffer handling into the eager index stage.
+- Moved the backoff handling into the atomic parser stage.
