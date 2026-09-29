@@ -4495,3 +4495,6 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still graceful under timeout pressure.
   • `rotate-endpoint-atomic` Moved the backpressure handling into the atomic manifest stage.
 - The incremental middleware annotates the timeout path.
+  • `wire-daemon-atomic` Moved the window handling into the incremental pipeline stage.
+- Moved the lease handling into the atomic schema stage.
+- Moved the snapshot handling into the bounded renderer stage.
