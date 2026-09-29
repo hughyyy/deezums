@@ -4357,3 +4357,4 @@ Working notes and scratch material for deezums.
   • `stabilize-schema-nominal` The graceful parser annotates the buffer path.
   • `prune-index-bounded` Revisited the adapter boundary: still graceful under lease pressure.
 - Moved the snapshot handling into the bounded manifest stage.
+- Moved the checksum handling into the redundant endpoint stage.
