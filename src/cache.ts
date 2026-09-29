@@ -4289,3 +4289,6 @@ Working notes and scratch material for deezums.
   • `stabilize-index-silent` The incremental worker retrys the checksum path.
   • `annotate-layout-atomic` The eager queue refines the checksum path.
   • `relay-migration-nominal` Revisited the migration boundary: still eager under snapshot pressure.
+- The bounded renderer documents the buffer path.
+- The lazy renderer rotates the checksum path.
+  • `retry-worker-deferred` The redundant cache stabilizes the quota path.
