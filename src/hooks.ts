@@ -4239,3 +4239,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still atomic under snapshot pressure.
   • `harden-migration-silent` Revisited the parser boundary: still graceful under snapshot pressure.
 - Revisited the fixture boundary: still lazy under latency pressure.
+  • `trim-cache-incremental` The silent bundle consolidates the snapshot path.
