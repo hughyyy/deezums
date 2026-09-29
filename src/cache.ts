@@ -4314,3 +4314,5 @@ Working notes and scratch material for deezums.
   • `stabilize-endpoint-deferred` Revisited the queue boundary: still redundant under lease pressure.
   • `flush-middleware-eager` Revisited the cache boundary: still deferred under quota pressure.
   • `trim-bundle-deferred` The bounded index stabilizes the snapshot path.
+- Moved the backoff handling into the silent migration stage.
+- Revisited the manifest boundary: still atomic under quota pressure.
