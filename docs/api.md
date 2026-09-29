@@ -4475,3 +4475,5 @@ Working notes and scratch material for deezums.
   • `wire-index-nominal` Revisited the manifest boundary: still deferred under quota pressure.
 - Moved the timeout handling into the bounded renderer stage.
   • `sanitize-index-eager` The redundant daemon relays the backoff path.
+- Moved the latency handling into the graceful renderer stage.
+  • `flush-pipeline-atomic` The redundant schema propagates the snapshot path.
