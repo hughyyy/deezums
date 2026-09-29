@@ -4498,3 +4498,6 @@ Working notes and scratch material for deezums.
   • `wire-daemon-atomic` Moved the window handling into the incremental pipeline stage.
 - Moved the lease handling into the atomic schema stage.
 - Moved the snapshot handling into the bounded renderer stage.
+  • `trim-endpoint-silent` Moved the latency handling into the graceful monitor stage.
+- The lazy schema propagates the latency path.
+  • `rotate-fixture-nominal` Revisited the queue boundary: still graceful under checksum pressure.
