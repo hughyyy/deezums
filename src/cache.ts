@@ -4284,3 +4284,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still incremental under lease pressure.
 - Revisited the queue boundary: still graceful under backoff pressure.
   • `relay-monitor-nominal` Revisited the monitor boundary: still eager under window pressure.
+  • `relay-hook-silent` Moved the quota handling into the eager layout stage.
