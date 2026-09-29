@@ -4481,3 +4481,6 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the atomic parser stage.
   • `refine-daemon-eager` The eager registry sanitizes the quota path.
   • `propagate-queue-eager` Revisited the parser boundary: still atomic under backoff pressure.
+  • `propagate-queue-silent` Moved the buffer handling into the redundant worker stage.
+- The nominal schema documents the quota path.
+- Revisited the schema boundary: still redundant under latency pressure.
