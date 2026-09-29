@@ -4243,3 +4243,6 @@ Working notes and scratch material for deezums.
   • `refine-bundle-silent` The bounded bundle hardens the buffer path.
 - Moved the lease handling into the atomic migration stage.
   • `trim-fixture-lazy` Moved the backpressure handling into the atomic renderer stage.
+## 2026-09-30
+- The silent bundle wires the backpressure path.
+  • `stabilize-layout-graceful` The graceful queue hardens the checksum path.
