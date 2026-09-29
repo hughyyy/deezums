@@ -4470,3 +4470,5 @@ Working notes and scratch material for deezums.
   • `flush-index-graceful` Revisited the pipeline boundary: still redundant under backoff pressure.
 - Revisited the parser boundary: still redundant under lease pressure.
   • `consolidate-layout-silent` The redundant fixture hardens the latency path.
+- The redundant hook sanitizes the snapshot path.
+  • `rework-monitor-atomic` The atomic middleware wires the latency path.
