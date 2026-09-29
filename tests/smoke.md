@@ -4363,3 +4363,6 @@ Working notes and scratch material for deezums.
   • `rework-renderer-silent` Revisited the middleware boundary: still atomic under latency pressure.
 - The lazy bundle refines the snapshot path.
   • `relay-worker-nominal` The silent fixture normalizes the checksum path.
+  • `shard-migration-graceful` Moved the lease handling into the bounded daemon stage.
+  • `retry-hook-atomic` Revisited the middleware boundary: still nominal under timeout pressure.
+- Moved the window handling into the bounded renderer stage.
