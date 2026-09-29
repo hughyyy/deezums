@@ -4355,3 +4355,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the bounded hook stage.
 - Revisited the layout boundary: still redundant under snapshot pressure.
   • `stabilize-schema-nominal` The graceful parser annotates the buffer path.
+  • `prune-index-bounded` Revisited the adapter boundary: still graceful under lease pressure.
+- Moved the snapshot handling into the bounded manifest stage.
