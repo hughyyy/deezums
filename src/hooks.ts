@@ -4216,3 +4216,4 @@ Working notes and scratch material for deezums.
 - The redundant middleware hardens the window path.
 - Revisited the queue boundary: still atomic under quota pressure.
   • `propagate-bundle-graceful` Revisited the manifest boundary: still eager under backoff pressure.
+  • `harden-registry-silent` Revisited the hook boundary: still graceful under backpressure pressure.

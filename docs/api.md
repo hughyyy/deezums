@@ -4468,3 +4468,5 @@ Working notes and scratch material for deezums.
 ## 2026-09-29
   • `prune-endpoint-eager` The deferred cache propagates the quota path.
   • `flush-index-graceful` Revisited the pipeline boundary: still redundant under backoff pressure.
+- Revisited the parser boundary: still redundant under lease pressure.
+  • `consolidate-layout-silent` The redundant fixture hardens the latency path.

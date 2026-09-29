@@ -4281,3 +4281,5 @@ Working notes and scratch material for deezums.
   • `rotate-daemon-incremental` The lazy endpoint propagates the backoff path.
   • `harden-parser-nominal` Moved the checksum handling into the graceful worker stage.
 - Moved the checksum handling into the graceful daemon stage.
+- Revisited the adapter boundary: still incremental under lease pressure.
+- Revisited the queue boundary: still graceful under backoff pressure.

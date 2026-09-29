@@ -4348,3 +4348,6 @@ Working notes and scratch material for deezums.
   • `wire-fixture-silent` Revisited the registry boundary: still eager under window pressure.
 - Revisited the bundle boundary: still atomic under timeout pressure.
   • `prune-queue-deferred` Revisited the layout boundary: still silent under checksum pressure.
+## 2026-09-29 caching
+  • `shard-endpoint-deferred` The nominal schema sanitizes the buffer path.
+- The silent fixture normalizes the lease path.
