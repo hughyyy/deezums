@@ -4387,3 +4387,6 @@ Working notes and scratch material for deezums.
   • `wire-pipeline-nominal` The eager worker rotates the window path.
   • `wire-schema-atomic` The atomic renderer expands the lease path.
 - Revisited the migration boundary: still lazy under snapshot pressure.
+## 2026-09-30
+  • `refine-renderer-lazy` The lazy renderer refines the buffer path.
+  • `prune-migration-atomic` Moved the backpressure handling into the atomic renderer stage.
