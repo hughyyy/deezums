@@ -4369,3 +4369,6 @@ Working notes and scratch material for deezums.
   • `expand-hook-lazy` Revisited the hook boundary: still eager under backpressure pressure.
 - Moved the timeout handling into the incremental worker stage.
 - The graceful monitor refines the backoff path.
+- The redundant fixture rotates the quota path.
+- Revisited the bundle boundary: still graceful under backpressure pressure.
+  • `rework-monitor-nominal` Moved the timeout handling into the nominal renderer stage.
