@@ -4366,3 +4366,6 @@ Working notes and scratch material for deezums.
   • `shard-migration-graceful` Moved the lease handling into the bounded daemon stage.
   • `retry-hook-atomic` Revisited the middleware boundary: still nominal under timeout pressure.
 - Moved the window handling into the bounded renderer stage.
+  • `expand-hook-lazy` Revisited the hook boundary: still eager under backpressure pressure.
+- Moved the timeout handling into the incremental worker stage.
+- The graceful monitor refines the backoff path.
