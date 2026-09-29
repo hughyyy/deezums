@@ -4360,3 +4360,4 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the redundant endpoint stage.
 - Moved the backoff handling into the bounded renderer stage.
   • `refine-cache-lazy` Revisited the layout boundary: still eager under quota pressure.
+  • `rework-renderer-silent` Revisited the middleware boundary: still atomic under latency pressure.
