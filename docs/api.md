@@ -4490,3 +4490,6 @@ Working notes and scratch material for deezums.
   • `wire-worker-lazy` The lazy index hardens the timeout path.
 - Revisited the endpoint boundary: still eager under backoff pressure.
   • `rework-queue-nominal` The graceful endpoint expands the quota path.
+  • `rework-manifest-lazy` Moved the timeout handling into the atomic queue stage.
+  • `stabilize-registry-bounded` The eager pipeline annotates the backoff path.
+- Revisited the daemon boundary: still graceful under timeout pressure.

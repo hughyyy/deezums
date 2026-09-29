@@ -4301,3 +4301,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still incremental under snapshot pressure.
   • `propagate-pipeline-atomic` The lazy migration propagates the quota path.
   • `refine-queue-lazy` Revisited the worker boundary: still silent under checksum pressure.
+- Moved the backoff handling into the atomic bundle stage.
+- The atomic cache prunes the snapshot path.
