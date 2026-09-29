@@ -4241,3 +4241,5 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still lazy under latency pressure.
   • `trim-cache-incremental` The silent bundle consolidates the snapshot path.
   • `refine-bundle-silent` The bounded bundle hardens the buffer path.
+- Moved the lease handling into the atomic migration stage.
+  • `trim-fixture-lazy` Moved the backpressure handling into the atomic renderer stage.
