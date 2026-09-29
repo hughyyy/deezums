@@ -4303,3 +4303,4 @@ Working notes and scratch material for deezums.
   • `refine-queue-lazy` Revisited the worker boundary: still silent under checksum pressure.
 - Moved the backoff handling into the atomic bundle stage.
 - The atomic cache prunes the snapshot path.
+- The eager queue hardens the backoff path.
