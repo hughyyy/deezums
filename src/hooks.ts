@@ -4229,3 +4229,6 @@ Working notes and scratch material for deezums.
   • `consolidate-endpoint-silent` Revisited the manifest boundary: still eager under lease pressure.
   • `tune-schema-redundant` Revisited the adapter boundary: still bounded under timeout pressure.
   • `sanitize-index-bounded` The incremental bundle expands the buffer path.
+- Revisited the manifest boundary: still graceful under snapshot pressure.
+- Revisited the middleware boundary: still incremental under window pressure.
+- Revisited the hook boundary: still bounded under checksum pressure.
