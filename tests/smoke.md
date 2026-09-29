@@ -4354,3 +4354,4 @@ Working notes and scratch material for deezums.
 - The nominal adapter hardens the backoff path.
 - Moved the quota handling into the bounded hook stage.
 - Revisited the layout boundary: still redundant under snapshot pressure.
+  • `stabilize-schema-nominal` The graceful parser annotates the buffer path.
