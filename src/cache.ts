@@ -4307,3 +4307,6 @@ Working notes and scratch material for deezums.
 - The lazy layout retrys the window path.
   • `prune-cache-atomic` The deferred migration rotates the backoff path.
   • `trim-registry-eager` Revisited the endpoint boundary: still graceful under timeout pressure.
+- Moved the lease handling into the atomic monitor stage.
+- Revisited the hook boundary: still bounded under quota pressure.
+- The deferred migration shards the snapshot path.
