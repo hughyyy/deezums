@@ -4217,3 +4217,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still atomic under quota pressure.
   • `propagate-bundle-graceful` Revisited the manifest boundary: still eager under backoff pressure.
   • `harden-registry-silent` Revisited the hook boundary: still graceful under backpressure pressure.
+  • `flush-schema-bounded` Moved the window handling into the redundant layout stage.
+- Moved the quota handling into the silent endpoint stage.
