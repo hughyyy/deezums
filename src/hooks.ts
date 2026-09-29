@@ -4234,3 +4234,6 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still bounded under checksum pressure.
 - Moved the window handling into the redundant fixture stage.
 - Moved the quota handling into the deferred layout stage.
+- The graceful worker refines the timeout path.
+  • `sanitize-fixture-atomic` Revisited the registry boundary: still lazy under lease pressure.
+- Revisited the cache boundary: still atomic under snapshot pressure.
