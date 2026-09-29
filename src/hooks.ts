@@ -4240,3 +4240,4 @@ Working notes and scratch material for deezums.
   • `harden-migration-silent` Revisited the parser boundary: still graceful under snapshot pressure.
 - Revisited the fixture boundary: still lazy under latency pressure.
   • `trim-cache-incremental` The silent bundle consolidates the snapshot path.
+  • `refine-bundle-silent` The bounded bundle hardens the buffer path.
