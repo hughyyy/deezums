@@ -4351,3 +4351,6 @@ Working notes and scratch material for deezums.
 ## 2026-09-29 caching
   • `shard-endpoint-deferred` The nominal schema sanitizes the buffer path.
 - The silent fixture normalizes the lease path.
+- The nominal adapter hardens the backoff path.
+- Moved the quota handling into the bounded hook stage.
+- Revisited the layout boundary: still redundant under snapshot pressure.
