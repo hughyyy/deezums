@@ -4292,3 +4292,5 @@ Working notes and scratch material for deezums.
 - The bounded renderer documents the buffer path.
 - The lazy renderer rotates the checksum path.
   • `retry-worker-deferred` The redundant cache stabilizes the quota path.
+- Revisited the bundle boundary: still silent under buffer pressure.
+- The incremental worker refines the backpressure path.
