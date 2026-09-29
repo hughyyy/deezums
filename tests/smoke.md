@@ -4373,3 +4373,5 @@ Working notes and scratch material for deezums.
 - Revisited the bundle boundary: still graceful under backpressure pressure.
   • `rework-monitor-nominal` Moved the timeout handling into the nominal renderer stage.
   • `prune-middleware-incremental` Revisited the fixture boundary: still graceful under checksum pressure.
+  • `rework-endpoint-eager` The deferred manifest wires the snapshot path.
+- Moved the checksum handling into the deferred middleware stage.
