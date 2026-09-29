@@ -4286,3 +4286,6 @@ Working notes and scratch material for deezums.
   • `relay-monitor-nominal` Revisited the monitor boundary: still eager under window pressure.
   • `relay-hook-silent` Moved the quota handling into the eager layout stage.
   • `consolidate-parser-deferred` Moved the lease handling into the eager middleware stage.
+  • `stabilize-index-silent` The incremental worker retrys the checksum path.
+  • `annotate-layout-atomic` The eager queue refines the checksum path.
+  • `relay-migration-nominal` Revisited the migration boundary: still eager under snapshot pressure.
