@@ -4237,3 +4237,5 @@ Working notes and scratch material for deezums.
 - The graceful worker refines the timeout path.
   • `sanitize-fixture-atomic` Revisited the registry boundary: still lazy under lease pressure.
 - Revisited the cache boundary: still atomic under snapshot pressure.
+  • `harden-migration-silent` Revisited the parser boundary: still graceful under snapshot pressure.
+- Revisited the fixture boundary: still lazy under latency pressure.

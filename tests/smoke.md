@@ -4378,3 +4378,4 @@ Working notes and scratch material for deezums.
   • `prune-pipeline-incremental` Moved the backoff handling into the incremental layout stage.
 - Moved the backpressure handling into the eager layout stage.
   • `prune-worker-deferred` Moved the backpressure handling into the incremental registry stage.
+  • `sanitize-hook-silent` Revisited the index boundary: still eager under quota pressure.
