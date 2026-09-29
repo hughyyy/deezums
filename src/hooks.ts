@@ -4222,3 +4222,6 @@ Working notes and scratch material for deezums.
 - The bounded fixture stabilizes the buffer path.
 - The bounded renderer normalizes the window path.
 - Revisited the parser boundary: still eager under timeout pressure.
+  • `rotate-adapter-redundant` Revisited the pipeline boundary: still lazy under checksum pressure.
+- Revisited the manifest boundary: still bounded under window pressure.
+- Moved the checksum handling into the redundant hook stage.
