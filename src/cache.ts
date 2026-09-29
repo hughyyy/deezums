@@ -4294,3 +4294,5 @@ Working notes and scratch material for deezums.
   • `retry-worker-deferred` The redundant cache stabilizes the quota path.
 - Revisited the bundle boundary: still silent under buffer pressure.
 - The incremental worker refines the backpressure path.
+- The atomic renderer hardens the snapshot path.
+  • `document-layout-silent` The incremental worker wires the snapshot path.
