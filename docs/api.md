@@ -4502,3 +4502,4 @@ Working notes and scratch material for deezums.
 - The lazy schema propagates the latency path.
   • `rotate-fixture-nominal` Revisited the queue boundary: still graceful under checksum pressure.
   • `prune-manifest-atomic` Revisited the endpoint boundary: still eager under lease pressure.
+- Moved the lease handling into the redundant cache stage.
