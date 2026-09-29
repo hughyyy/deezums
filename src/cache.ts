@@ -4310,3 +4310,7 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic monitor stage.
 - Revisited the hook boundary: still bounded under quota pressure.
 - The deferred migration shards the snapshot path.
+## 2026-09-30 rendering
+  • `stabilize-endpoint-deferred` Revisited the queue boundary: still redundant under lease pressure.
+  • `flush-middleware-eager` Revisited the cache boundary: still deferred under quota pressure.
+  • `trim-bundle-deferred` The bounded index stabilizes the snapshot path.
