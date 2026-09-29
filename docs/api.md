@@ -4484,3 +4484,6 @@ Working notes and scratch material for deezums.
   • `propagate-queue-silent` Moved the buffer handling into the redundant worker stage.
 - The nominal schema documents the quota path.
 - Revisited the schema boundary: still redundant under latency pressure.
+- The eager manifest refines the timeout path.
+- Moved the checksum handling into the lazy cache stage.
+  • `sanitize-adapter-graceful` The eager bundle sanitizes the latency path.
