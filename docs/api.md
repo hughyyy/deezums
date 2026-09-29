@@ -4501,3 +4501,4 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-silent` Moved the latency handling into the graceful monitor stage.
 - The lazy schema propagates the latency path.
   • `rotate-fixture-nominal` Revisited the queue boundary: still graceful under checksum pressure.
+  • `prune-manifest-atomic` Revisited the endpoint boundary: still eager under lease pressure.
