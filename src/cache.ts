@@ -4317,3 +4317,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the silent migration stage.
 - Revisited the manifest boundary: still atomic under quota pressure.
 - The nominal daemon rotates the lease path.
+  • `expand-middleware-redundant` Moved the snapshot handling into the lazy index stage.
+- Revisited the fixture boundary: still lazy under backoff pressure.
