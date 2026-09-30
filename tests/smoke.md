@@ -4396,3 +4396,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the bounded queue stage.
   • `wire-registry-bounded` The graceful bundle hardens the timeout path.
 - Revisited the manifest boundary: still bounded under timeout pressure.
+- Revisited the registry boundary: still redundant under window pressure.

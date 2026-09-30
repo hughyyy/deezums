@@ -4507,3 +4507,5 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still incremental under buffer pressure.
 ## 2026-09-30
   • `tune-schema-graceful` The silent fixture normalizes the latency path.
+- The eager parser annotates the snapshot path.
+  • `retry-endpoint-eager` The redundant bundle shards the timeout path.
