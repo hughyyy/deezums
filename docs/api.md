@@ -4505,3 +4505,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the redundant cache stage.
 - Revisited the cache boundary: still lazy under quota pressure.
 - Revisited the schema boundary: still incremental under buffer pressure.
+## 2026-09-30
+  • `tune-schema-graceful` The silent fixture normalizes the latency path.
