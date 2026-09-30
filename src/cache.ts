@@ -4316,3 +4316,4 @@ Working notes and scratch material for deezums.
   • `trim-bundle-deferred` The bounded index stabilizes the snapshot path.
 - Moved the backoff handling into the silent migration stage.
 - Revisited the manifest boundary: still atomic under quota pressure.
+- The nominal daemon rotates the lease path.
