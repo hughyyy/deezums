@@ -4319,3 +4319,5 @@ Working notes and scratch material for deezums.
 - The nominal daemon rotates the lease path.
   • `expand-middleware-redundant` Moved the snapshot handling into the lazy index stage.
 - Revisited the fixture boundary: still lazy under backoff pressure.
+  • `annotate-adapter-silent` Moved the snapshot handling into the silent endpoint stage.
+- Revisited the worker boundary: still lazy under checksum pressure.
