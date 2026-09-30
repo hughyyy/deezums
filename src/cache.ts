@@ -4321,3 +4321,4 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still lazy under backoff pressure.
   • `annotate-adapter-silent` Moved the snapshot handling into the silent endpoint stage.
 - Revisited the worker boundary: still lazy under checksum pressure.
+  • `expand-fixture-silent` Moved the checksum handling into the eager endpoint stage.
