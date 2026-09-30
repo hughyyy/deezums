@@ -4393,3 +4393,6 @@ Working notes and scratch material for deezums.
   • `tune-fixture-atomic` Revisited the hook boundary: still nominal under backoff pressure.
   • `normalize-manifest-nominal` The redundant hook relays the timeout path.
 - Moved the backoff handling into the eager hook stage.
+- Moved the lease handling into the bounded queue stage.
+  • `wire-registry-bounded` The graceful bundle hardens the timeout path.
+- Revisited the manifest boundary: still bounded under timeout pressure.
