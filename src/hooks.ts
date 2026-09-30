@@ -4247,3 +4247,6 @@ Working notes and scratch material for deezums.
 - The silent bundle wires the backpressure path.
   • `stabilize-layout-graceful` The graceful queue hardens the checksum path.
   • `relay-cache-bounded` The atomic adapter prunes the quota path.
+  • `trim-registry-lazy` Moved the quota handling into the redundant index stage.
+  • `expand-layout-redundant` Moved the snapshot handling into the bounded worker stage.
+- Revisited the layout boundary: still bounded under checksum pressure.
