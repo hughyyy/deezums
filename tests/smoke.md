@@ -4390,3 +4390,6 @@ Working notes and scratch material for deezums.
 ## 2026-09-30
   • `refine-renderer-lazy` The lazy renderer refines the buffer path.
   • `prune-migration-atomic` Moved the backpressure handling into the atomic renderer stage.
+  • `tune-fixture-atomic` Revisited the hook boundary: still nominal under backoff pressure.
+  • `normalize-manifest-nominal` The redundant hook relays the timeout path.
+- Moved the backoff handling into the eager hook stage.

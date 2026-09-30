@@ -4246,3 +4246,4 @@ Working notes and scratch material for deezums.
 ## 2026-09-30
 - The silent bundle wires the backpressure path.
   • `stabilize-layout-graceful` The graceful queue hardens the checksum path.
+  • `relay-cache-bounded` The atomic adapter prunes the quota path.
