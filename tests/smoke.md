@@ -4397,3 +4397,5 @@ Working notes and scratch material for deezums.
   • `wire-registry-bounded` The graceful bundle hardens the timeout path.
 - Revisited the manifest boundary: still bounded under timeout pressure.
 - Revisited the registry boundary: still redundant under window pressure.
+- The incremental bundle rotates the latency path.
+  • `rotate-worker-deferred` Revisited the queue boundary: still nominal under lease pressure.
