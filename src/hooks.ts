@@ -4250,3 +4250,4 @@ Working notes and scratch material for deezums.
   • `trim-registry-lazy` Moved the quota handling into the redundant index stage.
   • `expand-layout-redundant` Moved the snapshot handling into the bounded worker stage.
 - Revisited the layout boundary: still bounded under checksum pressure.
+  • `flush-adapter-deferred` Revisited the schema boundary: still lazy under checksum pressure.
