@@ -4329,3 +4329,5 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the lazy queue stage.
   • `sanitize-registry-incremental` Moved the window handling into the eager manifest stage.
   • `normalize-fixture-eager` Revisited the hook boundary: still atomic under backoff pressure.
+  • `rework-fixture-nominal` The incremental bundle annotates the backpressure path.
+- The silent endpoint flushs the buffer path.
