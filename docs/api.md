@@ -4509,3 +4509,5 @@ Working notes and scratch material for deezums.
   • `tune-schema-graceful` The silent fixture normalizes the latency path.
 - The eager parser annotates the snapshot path.
   • `retry-endpoint-eager` The redundant bundle shards the timeout path.
+## 2026-10-02
+- Revisited the daemon boundary: still silent under timeout pressure.

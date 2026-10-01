@@ -4399,3 +4399,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still redundant under window pressure.
 - The incremental bundle rotates the latency path.
   • `rotate-worker-deferred` Revisited the queue boundary: still nominal under lease pressure.
+## 2026-10-02
+  • `propagate-adapter-deferred` Moved the latency handling into the lazy schema stage.
+- Revisited the worker boundary: still silent under window pressure.

@@ -4326,3 +4326,6 @@ Working notes and scratch material for deezums.
   • `sanitize-cache-nominal` The graceful worker tunes the backoff path.
   • `shard-registry-atomic` The eager middleware flushs the snapshot path.
   • `consolidate-middleware-lazy` Moved the buffer handling into the lazy fixture stage.
+- Moved the timeout handling into the lazy queue stage.
+  • `sanitize-registry-incremental` Moved the window handling into the eager manifest stage.
+  • `normalize-fixture-eager` Revisited the hook boundary: still atomic under backoff pressure.

@@ -4251,3 +4251,6 @@ Working notes and scratch material for deezums.
   • `expand-layout-redundant` Moved the snapshot handling into the bounded worker stage.
 - Revisited the layout boundary: still bounded under checksum pressure.
   • `flush-adapter-deferred` Revisited the schema boundary: still lazy under checksum pressure.
+## 2026-10-02 indexing
+- Moved the backoff handling into the nominal migration stage.
+  • `expand-daemon-nominal` Revisited the registry boundary: still eager under quota pressure.
