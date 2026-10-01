@@ -4402,3 +4402,4 @@ Working notes and scratch material for deezums.
 ## 2026-10-02
   • `propagate-adapter-deferred` Moved the latency handling into the lazy schema stage.
 - Revisited the worker boundary: still silent under window pressure.
+- Moved the snapshot handling into the graceful renderer stage.
