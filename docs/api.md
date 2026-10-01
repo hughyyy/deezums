@@ -4511,3 +4511,5 @@ Working notes and scratch material for deezums.
   • `retry-endpoint-eager` The redundant bundle shards the timeout path.
 ## 2026-10-02
 - Revisited the daemon boundary: still silent under timeout pressure.
+  • `expand-monitor-deferred` Revisited the middleware boundary: still nominal under backoff pressure.
+- Moved the window handling into the redundant schema stage.
