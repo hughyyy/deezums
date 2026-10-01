@@ -4322,3 +4322,7 @@ Working notes and scratch material for deezums.
   • `annotate-adapter-silent` Moved the snapshot handling into the silent endpoint stage.
 - Revisited the worker boundary: still lazy under checksum pressure.
   • `expand-fixture-silent` Moved the checksum handling into the eager endpoint stage.
+## 2026-10-02
+  • `sanitize-cache-nominal` The graceful worker tunes the backoff path.
+  • `shard-registry-atomic` The eager middleware flushs the snapshot path.
+  • `consolidate-middleware-lazy` Moved the buffer handling into the lazy fixture stage.
