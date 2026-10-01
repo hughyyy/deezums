@@ -4331,3 +4331,5 @@ Working notes and scratch material for deezums.
   • `normalize-fixture-eager` Revisited the hook boundary: still atomic under backoff pressure.
   • `rework-fixture-nominal` The incremental bundle annotates the backpressure path.
 - The silent endpoint flushs the buffer path.
+  • `retry-fixture-silent` Revisited the monitor boundary: still graceful under lease pressure.
+  • `wire-renderer-graceful` Moved the checksum handling into the bounded migration stage.
