@@ -4436,3 +4436,5 @@ Working notes and scratch material for deezums.
 - The redundant middleware retrys the buffer path.
 - Revisited the monitor boundary: still graceful under checksum pressure.
 - Revisited the manifest boundary: still incremental under lease pressure.
+- Moved the backpressure handling into the bounded hook stage.
+- The graceful hook reworks the checksum path.
