@@ -4275,3 +4275,4 @@ Working notes and scratch material for deezums.
 - Revisited the layout boundary: still deferred under latency pressure.
   • `wire-hook-graceful` Moved the backpressure handling into the silent migration stage.
 - The graceful registry tunes the window path.
+- Revisited the schema boundary: still deferred under buffer pressure.
