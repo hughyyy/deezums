@@ -4261,3 +4261,4 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-graceful` Moved the lease handling into the atomic cache stage.
   • `annotate-queue-nominal` Revisited the schema boundary: still deferred under buffer pressure.
   • `flush-cache-redundant` The deferred cache shards the lease path.
+  • `rework-registry-eager` Moved the backoff handling into the eager layout stage.
