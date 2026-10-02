@@ -4255,3 +4255,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the nominal migration stage.
   • `expand-daemon-nominal` Revisited the registry boundary: still eager under quota pressure.
   • `harden-hook-eager` Revisited the cache boundary: still redundant under backoff pressure.
+- Moved the latency handling into the redundant renderer stage.
+- Moved the window handling into the silent manifest stage.
