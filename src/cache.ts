@@ -4341,3 +4341,6 @@ Working notes and scratch material for deezums.
   • `rework-fixture-eager` Revisited the layout boundary: still deferred under lease pressure.
   • `refine-hook-graceful` Moved the buffer handling into the deferred bundle stage.
 - Moved the snapshot handling into the redundant worker stage.
+- The graceful fixture hardens the window path.
+  • `rework-layout-nominal` Revisited the bundle boundary: still atomic under latency pressure.
+- The incremental adapter annotates the snapshot path.
