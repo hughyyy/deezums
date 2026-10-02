@@ -4513,3 +4513,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still silent under timeout pressure.
   • `expand-monitor-deferred` Revisited the middleware boundary: still nominal under backoff pressure.
 - Moved the window handling into the redundant schema stage.
+- The incremental manifest retrys the buffer path.
