@@ -4418,3 +4418,5 @@ Working notes and scratch material for deezums.
   • `harden-queue-nominal` Revisited the bundle boundary: still lazy under latency pressure.
   • `rework-manifest-lazy` The lazy pipeline trims the backoff path.
   • `propagate-daemon-lazy` The silent endpoint relays the timeout path.
+  • `retry-monitor-lazy` The bounded pipeline normalizes the buffer path.
+  • `refine-manifest-eager` Moved the lease handling into the nominal manifest stage.

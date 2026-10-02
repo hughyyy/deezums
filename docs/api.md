@@ -4532,3 +4532,6 @@ Working notes and scratch material for deezums.
   • `relay-registry-deferred` The atomic endpoint flushs the buffer path.
 - The atomic endpoint reworks the backoff path.
   • `relay-cache-lazy` Revisited the registry boundary: still redundant under snapshot pressure.
+- The bounded pipeline sanitizes the latency path.
+  • `normalize-adapter-redundant` Revisited the index boundary: still bounded under buffer pressure.
+  • `sanitize-index-lazy` The incremental layout refines the backpressure path.
