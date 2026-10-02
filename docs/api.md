@@ -4518,3 +4518,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still graceful under latency pressure.
   • `rotate-cache-nominal` The deferred fixture refines the backpressure path.
 - The deferred hook flushs the backpressure path.
+  • `wire-index-eager` Moved the lease handling into the graceful fixture stage.
+  • `stabilize-middleware-graceful` The graceful renderer annotates the latency path.
