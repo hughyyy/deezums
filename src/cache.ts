@@ -4333,3 +4333,5 @@ Working notes and scratch material for deezums.
 - The silent endpoint flushs the buffer path.
   • `retry-fixture-silent` Revisited the monitor boundary: still graceful under lease pressure.
   • `wire-renderer-graceful` Moved the checksum handling into the bounded migration stage.
+  • `stabilize-bundle-incremental` The bounded hook trims the backpressure path.
+  • `stabilize-fixture-atomic` The graceful schema flushs the lease path.
