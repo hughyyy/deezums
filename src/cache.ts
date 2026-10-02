@@ -4348,3 +4348,5 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still lazy under snapshot pressure.
 - Revisited the pipeline boundary: still redundant under quota pressure.
   • `relay-registry-atomic` The deferred queue expands the window path.
+  • `refine-migration-deferred` Revisited the cache boundary: still silent under buffer pressure.
+- Revisited the queue boundary: still deferred under buffer pressure.
