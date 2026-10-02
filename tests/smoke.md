@@ -4422,3 +4422,6 @@ Working notes and scratch material for deezums.
   • `refine-manifest-eager` Moved the lease handling into the nominal manifest stage.
   • `trim-layout-atomic` Moved the buffer handling into the silent bundle stage.
   • `annotate-endpoint-eager` Revisited the parser boundary: still silent under snapshot pressure.
+- Revisited the manifest boundary: still redundant under quota pressure.
+- Moved the quota handling into the bounded manifest stage.
+  • `normalize-index-atomic` The nominal parser flushs the latency path.
