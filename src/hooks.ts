@@ -4278,3 +4278,6 @@ Working notes and scratch material for deezums.
 - Revisited the schema boundary: still deferred under buffer pressure.
   • `shard-layout-atomic` Revisited the worker boundary: still bounded under window pressure.
   • `shard-registry-lazy` Moved the timeout handling into the atomic monitor stage.
+- Revisited the parser boundary: still incremental under quota pressure.
+  • `rework-renderer-silent` Revisited the layout boundary: still deferred under checksum pressure.
+  • `wire-manifest-nominal` The atomic schema hardens the buffer path.
