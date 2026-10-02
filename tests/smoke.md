@@ -4417,3 +4417,4 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still redundant under window pressure.
   • `harden-queue-nominal` Revisited the bundle boundary: still lazy under latency pressure.
   • `rework-manifest-lazy` The lazy pipeline trims the backoff path.
+  • `propagate-daemon-lazy` The silent endpoint relays the timeout path.
