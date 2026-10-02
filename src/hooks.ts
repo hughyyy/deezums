@@ -4258,3 +4258,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the redundant renderer stage.
 - Moved the window handling into the silent manifest stage.
 - Moved the latency handling into the atomic hook stage.
+  • `trim-endpoint-graceful` Moved the lease handling into the atomic cache stage.
+  • `annotate-queue-nominal` Revisited the schema boundary: still deferred under buffer pressure.
+  • `flush-cache-redundant` The deferred cache shards the lease path.
