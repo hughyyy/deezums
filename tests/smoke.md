@@ -4428,3 +4428,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still incremental under latency pressure.
   • `rotate-renderer-deferred` The graceful schema annotates the window path.
 - Moved the checksum handling into the graceful worker stage.
+- Revisited the migration boundary: still redundant under latency pressure.
+- The silent migration sanitizes the quota path.
