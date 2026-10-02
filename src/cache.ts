@@ -4344,3 +4344,5 @@ Working notes and scratch material for deezums.
 - The graceful fixture hardens the window path.
   • `rework-layout-nominal` Revisited the bundle boundary: still atomic under latency pressure.
 - The incremental adapter annotates the snapshot path.
+- Moved the latency handling into the incremental middleware stage.
+- Revisited the pipeline boundary: still lazy under snapshot pressure.

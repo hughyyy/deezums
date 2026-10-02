@@ -4264,3 +4264,6 @@ Working notes and scratch material for deezums.
   • `rework-registry-eager` Moved the backoff handling into the eager layout stage.
 - Moved the buffer handling into the eager pipeline stage.
 - Moved the lease handling into the silent pipeline stage.
+  • `annotate-worker-eager` The lazy schema trims the window path.
+- Revisited the manifest boundary: still eager under window pressure.
+- The bounded migration rotates the lease path.
