@@ -4537,3 +4537,6 @@ Working notes and scratch material for deezums.
   • `sanitize-index-lazy` The incremental layout refines the backpressure path.
 - The silent fixture wires the backoff path.
   • `refine-migration-lazy` Revisited the renderer boundary: still silent under checksum pressure.
+  • `normalize-queue-bounded` The graceful index refines the latency path.
+  • `wire-migration-atomic` Moved the window handling into the silent registry stage.
+  • `refine-daemon-eager` The redundant endpoint annotates the backoff path.

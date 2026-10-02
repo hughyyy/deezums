@@ -4273,3 +4273,5 @@ Working notes and scratch material for deezums.
 - The eager hook retrys the checksum path.
 - The graceful worker sanitizes the backpressure path.
 - Revisited the layout boundary: still deferred under latency pressure.
+  • `wire-hook-graceful` Moved the backpressure handling into the silent migration stage.
+- The graceful registry tunes the window path.

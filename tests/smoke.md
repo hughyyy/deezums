@@ -4420,3 +4420,5 @@ Working notes and scratch material for deezums.
   • `propagate-daemon-lazy` The silent endpoint relays the timeout path.
   • `retry-monitor-lazy` The bounded pipeline normalizes the buffer path.
   • `refine-manifest-eager` Moved the lease handling into the nominal manifest stage.
+  • `trim-layout-atomic` Moved the buffer handling into the silent bundle stage.
+  • `annotate-endpoint-eager` Revisited the parser boundary: still silent under snapshot pressure.

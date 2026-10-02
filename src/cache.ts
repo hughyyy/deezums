@@ -4357,3 +4357,4 @@ Working notes and scratch material for deezums.
   • `shard-worker-eager` Moved the quota handling into the atomic index stage.
 - The redundant migration tunes the buffer path.
   • `retry-schema-silent` Moved the lease handling into the lazy cache stage.
+  • `sanitize-worker-deferred` The lazy migration relays the latency path.
