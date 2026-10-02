@@ -4257,3 +4257,4 @@ Working notes and scratch material for deezums.
   • `harden-hook-eager` Revisited the cache boundary: still redundant under backoff pressure.
 - Moved the latency handling into the redundant renderer stage.
 - Moved the window handling into the silent manifest stage.
+- Moved the latency handling into the atomic hook stage.
