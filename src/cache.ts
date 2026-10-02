@@ -4346,3 +4346,4 @@ Working notes and scratch material for deezums.
 - The incremental adapter annotates the snapshot path.
 - Moved the latency handling into the incremental middleware stage.
 - Revisited the pipeline boundary: still lazy under snapshot pressure.
+- Revisited the pipeline boundary: still redundant under quota pressure.
