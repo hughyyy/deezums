@@ -4535,3 +4535,4 @@ Working notes and scratch material for deezums.
 - The bounded pipeline sanitizes the latency path.
   • `normalize-adapter-redundant` Revisited the index boundary: still bounded under buffer pressure.
   • `sanitize-index-lazy` The incremental layout refines the backpressure path.
+- The silent fixture wires the backoff path.
