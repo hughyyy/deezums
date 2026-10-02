@@ -4524,3 +4524,6 @@ Working notes and scratch material for deezums.
 - Moved the checksum handling into the lazy monitor stage.
   • `wire-monitor-graceful` Revisited the monitor boundary: still lazy under latency pressure.
   • `flush-endpoint-lazy` Revisited the pipeline boundary: still eager under window pressure.
+- Moved the checksum handling into the lazy layout stage.
+- Revisited the adapter boundary: still eager under window pressure.
+  • `normalize-hook-graceful` Moved the backpressure handling into the bounded endpoint stage.

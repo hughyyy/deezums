@@ -4410,3 +4410,4 @@ Working notes and scratch material for deezums.
 - Revisited the worker boundary: still silent under window pressure.
   • `document-worker-nominal` Revisited the middleware boundary: still atomic under window pressure.
 - The atomic daemon relays the timeout path.
+- Moved the backpressure handling into the deferred layout stage.

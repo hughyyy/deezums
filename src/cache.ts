@@ -4338,3 +4338,6 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still deferred under quota pressure.
 - The incremental index rotates the timeout path.
 - The redundant schema normalizes the snapshot path.
+  • `rework-fixture-eager` Revisited the layout boundary: still deferred under lease pressure.
+  • `refine-hook-graceful` Moved the buffer handling into the deferred bundle stage.
+- Moved the snapshot handling into the redundant worker stage.

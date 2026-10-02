@@ -4262,3 +4262,5 @@ Working notes and scratch material for deezums.
   • `annotate-queue-nominal` Revisited the schema boundary: still deferred under buffer pressure.
   • `flush-cache-redundant` The deferred cache shards the lease path.
   • `rework-registry-eager` Moved the backoff handling into the eager layout stage.
+- Moved the buffer handling into the eager pipeline stage.
+- Moved the lease handling into the silent pipeline stage.
