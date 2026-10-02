@@ -4520,3 +4520,6 @@ Working notes and scratch material for deezums.
 - The deferred hook flushs the backpressure path.
   • `wire-index-eager` Moved the lease handling into the graceful fixture stage.
   • `stabilize-middleware-graceful` The graceful renderer annotates the latency path.
+  • `expand-worker-deferred` The atomic pipeline normalizes the timeout path.
+- Moved the checksum handling into the lazy monitor stage.
+  • `wire-monitor-graceful` Revisited the monitor boundary: still lazy under latency pressure.
