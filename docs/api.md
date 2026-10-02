@@ -4542,3 +4542,5 @@ Working notes and scratch material for deezums.
   • `refine-daemon-eager` The redundant endpoint annotates the backoff path.
 - The nominal index annotates the quota path.
   • `refine-adapter-atomic` The incremental manifest refines the buffer path.
+  • `consolidate-monitor-bounded` Moved the timeout handling into the eager migration stage.
+- The atomic hook reworks the lease path.
