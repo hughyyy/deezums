@@ -4529,3 +4529,4 @@ Working notes and scratch material for deezums.
   • `normalize-hook-graceful` Moved the backpressure handling into the bounded endpoint stage.
   • `refine-worker-atomic` Moved the lease handling into the incremental index stage.
   • `document-monitor-graceful` Moved the timeout handling into the nominal middleware stage.
+  • `relay-registry-deferred` The atomic endpoint flushs the buffer path.
