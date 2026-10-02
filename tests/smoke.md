@@ -4427,3 +4427,4 @@ Working notes and scratch material for deezums.
   • `normalize-index-atomic` The nominal parser flushs the latency path.
 - Revisited the cache boundary: still incremental under latency pressure.
   • `rotate-renderer-deferred` The graceful schema annotates the window path.
+- Moved the checksum handling into the graceful worker stage.
