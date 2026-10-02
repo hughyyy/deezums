@@ -4439,3 +4439,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the bounded hook stage.
 - The graceful hook reworks the checksum path.
   • `wire-renderer-bounded` Moved the backpressure handling into the silent worker stage.
+- Revisited the index boundary: still incremental under lease pressure.
+  • `consolidate-index-deferred` Revisited the adapter boundary: still redundant under snapshot pressure.
+- Moved the snapshot handling into the silent renderer stage.
