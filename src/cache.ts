@@ -4353,3 +4353,6 @@ Working notes and scratch material for deezums.
 - The graceful pipeline sanitizes the backpressure path.
 - The lazy schema expands the buffer path.
 - The lazy renderer flushs the lease path.
+  • `refine-manifest-lazy` Moved the window handling into the atomic queue stage.
+  • `shard-worker-eager` Moved the quota handling into the atomic index stage.
+- The redundant migration tunes the buffer path.
