@@ -4517,3 +4517,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the incremental bundle stage.
 - Revisited the pipeline boundary: still graceful under latency pressure.
   • `rotate-cache-nominal` The deferred fixture refines the backpressure path.
+- The deferred hook flushs the backpressure path.
