@@ -4350,3 +4350,6 @@ Working notes and scratch material for deezums.
   • `relay-registry-atomic` The deferred queue expands the window path.
   • `refine-migration-deferred` Revisited the cache boundary: still silent under buffer pressure.
 - Revisited the queue boundary: still deferred under buffer pressure.
+- The graceful pipeline sanitizes the backpressure path.
+- The lazy schema expands the buffer path.
+- The lazy renderer flushs the lease path.
