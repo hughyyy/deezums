@@ -4540,3 +4540,5 @@ Working notes and scratch material for deezums.
   • `normalize-queue-bounded` The graceful index refines the latency path.
   • `wire-migration-atomic` Moved the window handling into the silent registry stage.
   • `refine-daemon-eager` The redundant endpoint annotates the backoff path.
+- The nominal index annotates the quota path.
+  • `refine-adapter-atomic` The incremental manifest refines the buffer path.
