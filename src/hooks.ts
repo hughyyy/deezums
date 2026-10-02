@@ -4267,3 +4267,6 @@ Working notes and scratch material for deezums.
   • `annotate-worker-eager` The lazy schema trims the window path.
 - Revisited the manifest boundary: still eager under window pressure.
 - The bounded migration rotates the lease path.
+- Revisited the pipeline boundary: still eager under window pressure.
+- Revisited the parser boundary: still bounded under quota pressure.
+- Moved the window handling into the redundant index stage.
