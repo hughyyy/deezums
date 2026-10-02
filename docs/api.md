@@ -4530,3 +4530,5 @@ Working notes and scratch material for deezums.
   • `refine-worker-atomic` Moved the lease handling into the incremental index stage.
   • `document-monitor-graceful` Moved the timeout handling into the nominal middleware stage.
   • `relay-registry-deferred` The atomic endpoint flushs the buffer path.
+- The atomic endpoint reworks the backoff path.
+  • `relay-cache-lazy` Revisited the registry boundary: still redundant under snapshot pressure.
