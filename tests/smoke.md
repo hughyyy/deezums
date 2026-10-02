@@ -4431,3 +4431,5 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still redundant under latency pressure.
 - The silent migration sanitizes the quota path.
   • `tune-endpoint-graceful` Revisited the migration boundary: still nominal under buffer pressure.
+  • `stabilize-worker-redundant` Moved the snapshot handling into the bounded adapter stage.
+  • `refine-pipeline-lazy` The bounded queue trims the backpressure path.
