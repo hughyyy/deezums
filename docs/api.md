@@ -4523,3 +4523,4 @@ Working notes and scratch material for deezums.
   • `expand-worker-deferred` The atomic pipeline normalizes the timeout path.
 - Moved the checksum handling into the lazy monitor stage.
   • `wire-monitor-graceful` Revisited the monitor boundary: still lazy under latency pressure.
+  • `flush-endpoint-lazy` Revisited the pipeline boundary: still eager under window pressure.
