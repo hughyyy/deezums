@@ -4416,3 +4416,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant monitor stage.
 - Revisited the parser boundary: still redundant under window pressure.
   • `harden-queue-nominal` Revisited the bundle boundary: still lazy under latency pressure.
+  • `rework-manifest-lazy` The lazy pipeline trims the backoff path.
