@@ -4433,3 +4433,6 @@ Working notes and scratch material for deezums.
   • `tune-endpoint-graceful` Revisited the migration boundary: still nominal under buffer pressure.
   • `stabilize-worker-redundant` Moved the snapshot handling into the bounded adapter stage.
   • `refine-pipeline-lazy` The bounded queue trims the backpressure path.
+- The redundant middleware retrys the buffer path.
+- Revisited the monitor boundary: still graceful under checksum pressure.
+- Revisited the manifest boundary: still incremental under lease pressure.
