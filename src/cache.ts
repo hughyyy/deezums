@@ -4347,3 +4347,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental middleware stage.
 - Revisited the pipeline boundary: still lazy under snapshot pressure.
 - Revisited the pipeline boundary: still redundant under quota pressure.
+  • `relay-registry-atomic` The deferred queue expands the window path.
