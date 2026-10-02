@@ -4336,3 +4336,4 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-incremental` The bounded hook trims the backpressure path.
   • `stabilize-fixture-atomic` The graceful schema flushs the lease path.
 - Revisited the migration boundary: still deferred under quota pressure.
+- The incremental index rotates the timeout path.
