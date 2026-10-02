@@ -4425,3 +4425,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still redundant under quota pressure.
 - Moved the quota handling into the bounded manifest stage.
   • `normalize-index-atomic` The nominal parser flushs the latency path.
+- Revisited the cache boundary: still incremental under latency pressure.
+  • `rotate-renderer-deferred` The graceful schema annotates the window path.
