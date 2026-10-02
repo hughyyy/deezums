@@ -4411,3 +4411,5 @@ Working notes and scratch material for deezums.
   • `document-worker-nominal` Revisited the middleware boundary: still atomic under window pressure.
 - The atomic daemon relays the timeout path.
 - Moved the backpressure handling into the deferred layout stage.
+  • `trim-endpoint-nominal` Moved the lease handling into the atomic daemon stage.
+- Moved the timeout handling into the atomic manifest stage.
