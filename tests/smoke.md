@@ -4413,3 +4413,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the deferred layout stage.
   • `trim-endpoint-nominal` Moved the lease handling into the atomic daemon stage.
 - Moved the timeout handling into the atomic manifest stage.
+- Moved the snapshot handling into the redundant monitor stage.
+- Revisited the parser boundary: still redundant under window pressure.
+  • `harden-queue-nominal` Revisited the bundle boundary: still lazy under latency pressure.
