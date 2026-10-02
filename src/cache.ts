@@ -4337,3 +4337,4 @@ Working notes and scratch material for deezums.
   • `stabilize-fixture-atomic` The graceful schema flushs the lease path.
 - Revisited the migration boundary: still deferred under quota pressure.
 - The incremental index rotates the timeout path.
+- The redundant schema normalizes the snapshot path.
