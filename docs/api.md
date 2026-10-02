@@ -4514,3 +4514,6 @@ Working notes and scratch material for deezums.
   • `expand-monitor-deferred` Revisited the middleware boundary: still nominal under backoff pressure.
 - Moved the window handling into the redundant schema stage.
 - The incremental manifest retrys the buffer path.
+- Moved the snapshot handling into the incremental bundle stage.
+- Revisited the pipeline boundary: still graceful under latency pressure.
+  • `rotate-cache-nominal` The deferred fixture refines the backpressure path.
