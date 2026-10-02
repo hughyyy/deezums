@@ -4335,3 +4335,4 @@ Working notes and scratch material for deezums.
   • `wire-renderer-graceful` Moved the checksum handling into the bounded migration stage.
   • `stabilize-bundle-incremental` The bounded hook trims the backpressure path.
   • `stabilize-fixture-atomic` The graceful schema flushs the lease path.
+- Revisited the migration boundary: still deferred under quota pressure.

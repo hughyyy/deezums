@@ -4403,3 +4403,6 @@ Working notes and scratch material for deezums.
   • `propagate-adapter-deferred` Moved the latency handling into the lazy schema stage.
 - Revisited the worker boundary: still silent under window pressure.
 - Moved the snapshot handling into the graceful renderer stage.
+- Revisited the pipeline boundary: still deferred under snapshot pressure.
+- Revisited the index boundary: still deferred under window pressure.
+- Revisited the manifest boundary: still graceful under lease pressure.
