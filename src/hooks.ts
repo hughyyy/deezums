@@ -4270,3 +4270,6 @@ Working notes and scratch material for deezums.
 - Revisited the pipeline boundary: still eager under window pressure.
 - Revisited the parser boundary: still bounded under quota pressure.
 - Moved the window handling into the redundant index stage.
+- The eager hook retrys the checksum path.
+- The graceful worker sanitizes the backpressure path.
+- Revisited the layout boundary: still deferred under latency pressure.

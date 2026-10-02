@@ -4536,3 +4536,4 @@ Working notes and scratch material for deezums.
   • `normalize-adapter-redundant` Revisited the index boundary: still bounded under buffer pressure.
   • `sanitize-index-lazy` The incremental layout refines the backpressure path.
 - The silent fixture wires the backoff path.
+  • `refine-migration-lazy` Revisited the renderer boundary: still silent under checksum pressure.
