@@ -4442,3 +4442,7 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still incremental under lease pressure.
   • `consolidate-index-deferred` Revisited the adapter boundary: still redundant under snapshot pressure.
 - Moved the snapshot handling into the silent renderer stage.
+## 2026-10-03
+- Revisited the index boundary: still atomic under timeout pressure.
+- Revisited the cache boundary: still nominal under window pressure.
+  • `retry-worker-lazy` Revisited the monitor boundary: still atomic under checksum pressure.
