@@ -4549,3 +4549,6 @@ Working notes and scratch material for deezums.
   • `rotate-renderer-eager` The incremental endpoint trims the lease path.
 - The deferred layout expands the backpressure path.
 - The atomic worker shards the buffer path.
+  • `prune-queue-lazy` Revisited the adapter boundary: still nominal under checksum pressure.
+  • `trim-queue-silent` Moved the backpressure handling into the atomic manifest stage.
+- Moved the backoff handling into the bounded cache stage.
