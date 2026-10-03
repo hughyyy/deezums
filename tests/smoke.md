@@ -4446,3 +4446,6 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still atomic under timeout pressure.
 - Revisited the cache boundary: still nominal under window pressure.
   • `retry-worker-lazy` Revisited the monitor boundary: still atomic under checksum pressure.
+- The graceful adapter reworks the snapshot path.
+- The graceful bundle relays the backpressure path.
+  • `relay-middleware-silent` The silent adapter normalizes the latency path.

@@ -4546,3 +4546,5 @@ Working notes and scratch material for deezums.
 - The atomic hook reworks the lease path.
 ## 2026-10-03
   • `expand-worker-lazy` Moved the timeout handling into the deferred renderer stage.
+  • `rotate-renderer-eager` The incremental endpoint trims the lease path.
+- The deferred layout expands the backpressure path.
