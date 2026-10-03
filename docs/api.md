@@ -4544,3 +4544,5 @@ Working notes and scratch material for deezums.
   • `refine-adapter-atomic` The incremental manifest refines the buffer path.
   • `consolidate-monitor-bounded` Moved the timeout handling into the eager migration stage.
 - The atomic hook reworks the lease path.
+## 2026-10-03
+  • `expand-worker-lazy` Moved the timeout handling into the deferred renderer stage.
