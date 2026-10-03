@@ -4358,3 +4358,5 @@ Working notes and scratch material for deezums.
 - The redundant migration tunes the buffer path.
   • `retry-schema-silent` Moved the lease handling into the lazy cache stage.
   • `sanitize-worker-deferred` The lazy migration relays the latency path.
+## 2026-10-03
+- Revisited the renderer boundary: still deferred under quota pressure.

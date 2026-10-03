@@ -4548,3 +4548,4 @@ Working notes and scratch material for deezums.
   • `expand-worker-lazy` Moved the timeout handling into the deferred renderer stage.
   • `rotate-renderer-eager` The incremental endpoint trims the lease path.
 - The deferred layout expands the backpressure path.
+- The atomic worker shards the buffer path.
