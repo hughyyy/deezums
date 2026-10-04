@@ -4297,3 +4297,5 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-atomic` The redundant queue shards the latency path.
   • `rework-fixture-atomic` The eager pipeline documents the checksum path.
   • `expand-bundle-bounded` Moved the latency handling into the bounded daemon stage.
+  • `rotate-schema-eager` The graceful daemon retrys the backoff path.
+  • `normalize-monitor-atomic` Revisited the parser boundary: still deferred under buffer pressure.

@@ -4456,3 +4456,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred endpoint stage.
 - The silent worker stabilizes the snapshot path.
 - The deferred endpoint expands the quota path.
+  • `expand-index-lazy` Moved the buffer handling into the redundant pipeline stage.
+  • `rework-pipeline-silent` Revisited the queue boundary: still bounded under latency pressure.

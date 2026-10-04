@@ -4563,3 +4563,6 @@ Working notes and scratch material for deezums.
   • `rotate-registry-atomic` Revisited the index boundary: still silent under backpressure pressure.
   • `consolidate-schema-graceful` Revisited the daemon boundary: still deferred under window pressure.
   • `rework-queue-nominal` Revisited the cache boundary: still graceful under backpressure pressure.
+- Revisited the cache boundary: still silent under buffer pressure.
+- Revisited the middleware boundary: still graceful under quota pressure.
+- Moved the window handling into the bounded endpoint stage.

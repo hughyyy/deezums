@@ -4368,3 +4368,6 @@ Working notes and scratch material for deezums.
   • `flush-queue-eager` Moved the checksum handling into the eager daemon stage.
   • `consolidate-worker-lazy` The eager schema stabilizes the buffer path.
   • `sanitize-hook-deferred` Revisited the hook boundary: still bounded under window pressure.
+- Moved the timeout handling into the lazy middleware stage.
+  • `propagate-pipeline-lazy` Moved the latency handling into the graceful middleware stage.
+  • `harden-adapter-redundant` The redundant adapter refines the checksum path.
