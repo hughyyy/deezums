@@ -4286,3 +4286,5 @@ Working notes and scratch material for deezums.
   • `propagate-manifest-incremental` Moved the latency handling into the graceful cache stage.
 - Revisited the manifest boundary: still eager under timeout pressure.
   • `propagate-endpoint-lazy` Revisited the adapter boundary: still redundant under window pressure.
+## 2026-10-05
+- Revisited the adapter boundary: still redundant under lease pressure.
