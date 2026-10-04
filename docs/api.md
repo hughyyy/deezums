@@ -4562,3 +4562,4 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still eager under snapshot pressure.
   • `rotate-registry-atomic` Revisited the index boundary: still silent under backpressure pressure.
   • `consolidate-schema-graceful` Revisited the daemon boundary: still deferred under window pressure.
+  • `rework-queue-nominal` Revisited the cache boundary: still graceful under backpressure pressure.
