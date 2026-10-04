@@ -4281,3 +4281,7 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still incremental under quota pressure.
   • `rework-renderer-silent` Revisited the layout boundary: still deferred under checksum pressure.
   • `wire-manifest-nominal` The atomic schema hardens the buffer path.
+## 2026-10-04
+- The atomic daemon consolidates the timeout path.
+  • `propagate-manifest-incremental` Moved the latency handling into the graceful cache stage.
+- Revisited the manifest boundary: still eager under timeout pressure.

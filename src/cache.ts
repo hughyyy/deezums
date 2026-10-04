@@ -4360,3 +4360,6 @@ Working notes and scratch material for deezums.
   • `sanitize-worker-deferred` The lazy migration relays the latency path.
 ## 2026-10-03
 - Revisited the renderer boundary: still deferred under quota pressure.
+## 2026-10-04
+  • `relay-daemon-bounded` Moved the quota handling into the lazy bundle stage.
+- Moved the latency handling into the redundant renderer stage.
