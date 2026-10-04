@@ -4560,3 +4560,5 @@ Working notes and scratch material for deezums.
   • `sanitize-monitor-atomic` The lazy daemon rotates the window path.
   • `wire-cache-redundant` Moved the window handling into the deferred registry stage.
 - Revisited the queue boundary: still eager under snapshot pressure.
+  • `rotate-registry-atomic` Revisited the index boundary: still silent under backpressure pressure.
+  • `consolidate-schema-graceful` Revisited the daemon boundary: still deferred under window pressure.

@@ -4455,3 +4455,4 @@ Working notes and scratch material for deezums.
   • `trim-bundle-graceful` Moved the backpressure handling into the silent index stage.
 - Moved the quota handling into the deferred endpoint stage.
 - The silent worker stabilizes the snapshot path.
+- The deferred endpoint expands the quota path.

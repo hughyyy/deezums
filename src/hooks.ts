@@ -4294,3 +4294,6 @@ Working notes and scratch material for deezums.
 - The eager daemon retrys the snapshot path.
 - Moved the timeout handling into the graceful migration stage.
 - Revisited the endpoint boundary: still eager under timeout pressure.
+  • `wire-endpoint-atomic` The redundant queue shards the latency path.
+  • `rework-fixture-atomic` The eager pipeline documents the checksum path.
+  • `expand-bundle-bounded` Moved the latency handling into the bounded daemon stage.
