@@ -4552,3 +4552,6 @@ Working notes and scratch material for deezums.
   • `prune-queue-lazy` Revisited the adapter boundary: still nominal under checksum pressure.
   • `trim-queue-silent` Moved the backpressure handling into the atomic manifest stage.
 - Moved the backoff handling into the bounded cache stage.
+## 2026-10-04
+  • `rotate-hook-deferred` The bounded fixture prunes the lease path.
+- The silent registry wires the backoff path.
