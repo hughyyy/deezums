@@ -4291,3 +4291,6 @@ Working notes and scratch material for deezums.
   • `trim-daemon-graceful` Moved the backoff handling into the bounded monitor stage.
 - Moved the latency handling into the silent adapter stage.
 - Revisited the migration boundary: still redundant under buffer pressure.
+- The eager daemon retrys the snapshot path.
+- Moved the timeout handling into the graceful migration stage.
+- Revisited the endpoint boundary: still eager under timeout pressure.

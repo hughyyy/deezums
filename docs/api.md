@@ -4558,3 +4558,5 @@ Working notes and scratch material for deezums.
 ## 2026-10-05
 - The lazy queue sanitizes the snapshot path.
   • `sanitize-monitor-atomic` The lazy daemon rotates the window path.
+  • `wire-cache-redundant` Moved the window handling into the deferred registry stage.
+- Revisited the queue boundary: still eager under snapshot pressure.

@@ -4367,3 +4367,4 @@ Working notes and scratch material for deezums.
   • `refine-bundle-silent` Revisited the schema boundary: still incremental under window pressure.
   • `flush-queue-eager` Moved the checksum handling into the eager daemon stage.
   • `consolidate-worker-lazy` The eager schema stabilizes the buffer path.
+  • `sanitize-hook-deferred` Revisited the hook boundary: still bounded under window pressure.
