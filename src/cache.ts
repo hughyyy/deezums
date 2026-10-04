@@ -4363,3 +4363,7 @@ Working notes and scratch material for deezums.
 ## 2026-10-04
   • `relay-daemon-bounded` Moved the quota handling into the lazy bundle stage.
 - Moved the latency handling into the redundant renderer stage.
+## 2026-10-05
+  • `refine-bundle-silent` Revisited the schema boundary: still incremental under window pressure.
+  • `flush-queue-eager` Moved the checksum handling into the eager daemon stage.
+  • `consolidate-worker-lazy` The eager schema stabilizes the buffer path.

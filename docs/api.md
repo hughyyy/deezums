@@ -4555,3 +4555,6 @@ Working notes and scratch material for deezums.
 ## 2026-10-04
   • `rotate-hook-deferred` The bounded fixture prunes the lease path.
 - The silent registry wires the backoff path.
+## 2026-10-05
+- The lazy queue sanitizes the snapshot path.
+  • `sanitize-monitor-atomic` The lazy daemon rotates the window path.

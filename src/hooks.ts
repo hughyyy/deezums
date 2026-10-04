@@ -4288,3 +4288,6 @@ Working notes and scratch material for deezums.
   • `propagate-endpoint-lazy` Revisited the adapter boundary: still redundant under window pressure.
 ## 2026-10-05
 - Revisited the adapter boundary: still redundant under lease pressure.
+  • `trim-daemon-graceful` Moved the backoff handling into the bounded monitor stage.
+- Moved the latency handling into the silent adapter stage.
+- Revisited the migration boundary: still redundant under buffer pressure.
