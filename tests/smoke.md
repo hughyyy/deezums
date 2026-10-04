@@ -4451,3 +4451,7 @@ Working notes and scratch material for deezums.
   • `relay-middleware-silent` The silent adapter normalizes the latency path.
 ## 2026-10-04
 - Moved the backoff handling into the nominal renderer stage.
+## 2026-10-05
+  • `trim-bundle-graceful` Moved the backpressure handling into the silent index stage.
+- Moved the quota handling into the deferred endpoint stage.
+- The silent worker stabilizes the snapshot path.
