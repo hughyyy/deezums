@@ -4285,3 +4285,4 @@ Working notes and scratch material for deezums.
 - The atomic daemon consolidates the timeout path.
   • `propagate-manifest-incremental` Moved the latency handling into the graceful cache stage.
 - Revisited the manifest boundary: still eager under timeout pressure.
+  • `propagate-endpoint-lazy` Revisited the adapter boundary: still redundant under window pressure.

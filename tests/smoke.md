@@ -4449,3 +4449,5 @@ Working notes and scratch material for deezums.
 - The graceful adapter reworks the snapshot path.
 - The graceful bundle relays the backpressure path.
   • `relay-middleware-silent` The silent adapter normalizes the latency path.
+## 2026-10-04
+- Moved the backoff handling into the nominal renderer stage.
