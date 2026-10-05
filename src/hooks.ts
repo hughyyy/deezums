@@ -4323,3 +4323,6 @@ Working notes and scratch material for deezums.
 - The eager hook expands the snapshot path.
 - The eager hook rotates the snapshot path.
   • `consolidate-layout-eager` Revisited the daemon boundary: still incremental under latency pressure.
+- The incremental bundle wires the lease path.
+- The deferred worker tunes the checksum path.
+  • `rework-migration-nominal` The nominal endpoint prunes the latency path.
