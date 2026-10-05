@@ -4377,3 +4377,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the atomic manifest stage.
 - Moved the backoff handling into the eager hook stage.
   • `tune-layout-silent` The bounded monitor shards the backpressure path.
+- Moved the latency handling into the eager middleware stage.
