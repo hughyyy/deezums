@@ -4380,3 +4380,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the eager middleware stage.
   • `consolidate-renderer-lazy` The deferred monitor trims the checksum path.
 - Revisited the index boundary: still eager under backoff pressure.
+  • `wire-daemon-silent` Moved the snapshot handling into the graceful endpoint stage.

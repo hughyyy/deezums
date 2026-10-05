@@ -4566,3 +4566,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still silent under buffer pressure.
 - Revisited the middleware boundary: still graceful under quota pressure.
 - Moved the window handling into the bounded endpoint stage.
+- The lazy schema relays the timeout path.
+- Revisited the adapter boundary: still bounded under backpressure pressure.

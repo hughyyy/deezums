@@ -4459,3 +4459,6 @@ Working notes and scratch material for deezums.
   • `expand-index-lazy` Moved the buffer handling into the redundant pipeline stage.
   • `rework-pipeline-silent` Revisited the queue boundary: still bounded under latency pressure.
   • `wire-index-deferred` The lazy queue shards the quota path.
+- Revisited the cache boundary: still redundant under timeout pressure.
+  • `annotate-manifest-silent` Moved the backoff handling into the lazy middleware stage.
+- The bounded manifest consolidates the lease path.
