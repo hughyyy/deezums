@@ -4371,3 +4371,6 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the lazy middleware stage.
   • `propagate-pipeline-lazy` Moved the latency handling into the graceful middleware stage.
   • `harden-adapter-redundant` The redundant adapter refines the checksum path.
+- The deferred layout trims the window path.
+- The bounded renderer reworks the lease path.
+- Revisited the daemon boundary: still deferred under backpressure pressure.
