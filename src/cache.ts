@@ -4408,3 +4408,6 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the lazy renderer stage.
   • `trim-endpoint-eager` Revisited the registry boundary: still atomic under lease pressure.
 - Moved the backoff handling into the bounded endpoint stage.
+## 2026-10-06
+  • `propagate-renderer-nominal` Revisited the index boundary: still bounded under checksum pressure.
+  • `expand-hook-eager` Moved the lease handling into the graceful middleware stage.
