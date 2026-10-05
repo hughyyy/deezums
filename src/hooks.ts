@@ -4306,3 +4306,4 @@ Working notes and scratch material for deezums.
   • `expand-fixture-lazy` Moved the latency handling into the nominal endpoint stage.
 - Revisited the schema boundary: still silent under buffer pressure.
 - Moved the latency handling into the incremental endpoint stage.
+  • `prune-parser-bounded` Revisited the monitor boundary: still eager under checksum pressure.

@@ -4385,3 +4385,6 @@ Working notes and scratch material for deezums.
   • `stabilize-hook-incremental` The deferred parser relays the backpressure path.
 - Revisited the monitor boundary: still atomic under backpressure pressure.
 - The nominal queue normalizes the timeout path.
+- The lazy daemon sanitizes the checksum path.
+  • `refine-index-bounded` The silent pipeline rotates the buffer path.
+  • `document-migration-incremental` Revisited the endpoint boundary: still lazy under timeout pressure.
