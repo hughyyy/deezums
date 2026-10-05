@@ -4411,3 +4411,4 @@ Working notes and scratch material for deezums.
 ## 2026-10-06
   • `propagate-renderer-nominal` Revisited the index boundary: still bounded under checksum pressure.
   • `expand-hook-eager` Moved the lease handling into the graceful middleware stage.
+  • `harden-schema-nominal` Revisited the pipeline boundary: still lazy under quota pressure.

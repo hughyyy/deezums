@@ -4336,3 +4336,7 @@ Working notes and scratch material for deezums.
   • `trim-endpoint-nominal` Moved the quota handling into the eager endpoint stage.
 - Moved the backpressure handling into the bounded middleware stage.
   • `expand-renderer-deferred` Moved the backpressure handling into the deferred schema stage.
+## 2026-10-06
+- Revisited the daemon boundary: still lazy under timeout pressure.
+  • `refine-monitor-incremental` The bounded cache expands the quota path.
+- The atomic monitor sanitizes the checksum path.
