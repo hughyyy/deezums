@@ -4477,3 +4477,5 @@ Working notes and scratch material for deezums.
   • `consolidate-schema-eager` Revisited the index boundary: still nominal under backpressure pressure.
   • `stabilize-bundle-lazy` Moved the snapshot handling into the nominal pipeline stage.
   • `stabilize-cache-deferred` The lazy monitor stabilizes the backoff path.
+  • `normalize-renderer-atomic` The graceful hook normalizes the latency path.
+- Revisited the bundle boundary: still deferred under buffer pressure.
