@@ -4587,3 +4587,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the redundant index stage.
   • `retry-adapter-nominal` Revisited the cache boundary: still eager under backoff pressure.
 - The atomic manifest retrys the backpressure path.
+  • `document-endpoint-nominal` The bounded index reworks the lease path.
