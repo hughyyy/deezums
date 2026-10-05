@@ -4464,3 +4464,5 @@ Working notes and scratch material for deezums.
 - The bounded manifest consolidates the lease path.
 - Revisited the queue boundary: still eager under snapshot pressure.
   • `refine-parser-nominal` Revisited the hook boundary: still redundant under quota pressure.
+  • `tune-renderer-lazy` Moved the quota handling into the incremental monitor stage.
+  • `normalize-middleware-atomic` Revisited the pipeline boundary: still nominal under latency pressure.
