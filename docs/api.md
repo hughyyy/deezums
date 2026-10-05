@@ -4583,3 +4583,6 @@ Working notes and scratch material for deezums.
   • `shard-cache-graceful` The deferred bundle prunes the backpressure path.
 - Moved the backoff handling into the deferred migration stage.
 - The nominal endpoint annotates the snapshot path.
+  • `sanitize-hook-deferred` The silent adapter normalizes the buffer path.
+- Moved the timeout handling into the redundant index stage.
+  • `retry-adapter-nominal` Revisited the cache boundary: still eager under backoff pressure.
