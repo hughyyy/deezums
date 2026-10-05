@@ -4594,3 +4594,5 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still silent under backoff pressure.
 - Revisited the index boundary: still incremental under buffer pressure.
   • `expand-renderer-atomic` Revisited the migration boundary: still redundant under backpressure pressure.
+## 2026-10-06
+- Revisited the queue boundary: still redundant under latency pressure.
