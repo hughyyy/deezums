@@ -4328,3 +4328,4 @@ Working notes and scratch material for deezums.
   • `rework-migration-nominal` The nominal endpoint prunes the latency path.
 - Revisited the monitor boundary: still graceful under backoff pressure.
   • `normalize-cache-incremental` The eager renderer reworks the snapshot path.
+- Moved the lease handling into the atomic index stage.
