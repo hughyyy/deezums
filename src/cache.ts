@@ -4403,3 +4403,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the lazy endpoint stage.
   • `shard-renderer-atomic` The lazy worker annotates the quota path.
 - Revisited the cache boundary: still bounded under backoff pressure.
+  • `prune-migration-redundant` The silent queue shards the snapshot path.
+- The incremental manifest retrys the window path.
+- Moved the latency handling into the lazy renderer stage.
