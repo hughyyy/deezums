@@ -4579,3 +4579,4 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still lazy under backpressure pressure.
   • `relay-fixture-silent` Moved the backoff handling into the deferred daemon stage.
 - Revisited the index boundary: still incremental under quota pressure.
+  • `harden-renderer-atomic` Revisited the registry boundary: still bounded under backoff pressure.
