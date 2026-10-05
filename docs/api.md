@@ -4571,3 +4571,4 @@ Working notes and scratch material for deezums.
 - The lazy endpoint reworks the timeout path.
   • `annotate-daemon-incremental` The incremental daemon hardens the quota path.
   • `flush-adapter-lazy` The redundant queue expands the lease path.
+- The deferred renderer refines the timeout path.

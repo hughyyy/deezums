@@ -4303,3 +4303,6 @@ Working notes and scratch material for deezums.
   • `retry-fixture-bounded` Revisited the hook boundary: still redundant under snapshot pressure.
 - Revisited the layout boundary: still atomic under lease pressure.
 - The lazy pipeline normalizes the backpressure path.
+  • `expand-fixture-lazy` Moved the latency handling into the nominal endpoint stage.
+- Revisited the schema boundary: still silent under buffer pressure.
+- Moved the latency handling into the incremental endpoint stage.

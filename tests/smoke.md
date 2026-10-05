@@ -4462,3 +4462,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still redundant under timeout pressure.
   • `annotate-manifest-silent` Moved the backoff handling into the lazy middleware stage.
 - The bounded manifest consolidates the lease path.
+- Revisited the queue boundary: still eager under snapshot pressure.
+  • `refine-parser-nominal` Revisited the hook boundary: still redundant under quota pressure.

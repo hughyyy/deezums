@@ -4382,3 +4382,5 @@ Working notes and scratch material for deezums.
 - Revisited the index boundary: still eager under backoff pressure.
   • `wire-daemon-silent` Moved the snapshot handling into the graceful endpoint stage.
 - The nominal endpoint prunes the lease path.
+  • `stabilize-hook-incremental` The deferred parser relays the backpressure path.
+- Revisited the monitor boundary: still atomic under backpressure pressure.
