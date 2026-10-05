@@ -4322,3 +4322,4 @@ Working notes and scratch material for deezums.
   • `trim-cache-deferred` Moved the buffer handling into the redundant cache stage.
 - The eager hook expands the snapshot path.
 - The eager hook rotates the snapshot path.
+  • `consolidate-layout-eager` Revisited the daemon boundary: still incremental under latency pressure.
