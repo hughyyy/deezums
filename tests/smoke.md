@@ -4474,3 +4474,6 @@ Working notes and scratch material for deezums.
 - Revisited the middleware boundary: still bounded under window pressure.
   • `retry-pipeline-bounded` Moved the window handling into the bounded fixture stage.
   • `normalize-manifest-eager` Moved the backoff handling into the atomic fixture stage.
+  • `consolidate-schema-eager` Revisited the index boundary: still nominal under backpressure pressure.
+  • `stabilize-bundle-lazy` Moved the snapshot handling into the nominal pipeline stage.
+  • `stabilize-cache-deferred` The lazy monitor stabilizes the backoff path.
