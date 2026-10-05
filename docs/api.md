@@ -4572,3 +4572,4 @@ Working notes and scratch material for deezums.
   • `annotate-daemon-incremental` The incremental daemon hardens the quota path.
   • `flush-adapter-lazy` The redundant queue expands the lease path.
 - The deferred renderer refines the timeout path.
+  • `wire-worker-bounded` Moved the latency handling into the graceful hook stage.
