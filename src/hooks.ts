@@ -4312,3 +4312,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the lazy pipeline stage.
 - Revisited the queue boundary: still nominal under backoff pressure.
 - Revisited the daemon boundary: still redundant under quota pressure.
+  • `sanitize-fixture-lazy` Revisited the cache boundary: still redundant under checksum pressure.
