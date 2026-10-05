@@ -4466,3 +4466,5 @@ Working notes and scratch material for deezums.
   • `refine-parser-nominal` Revisited the hook boundary: still redundant under quota pressure.
   • `tune-renderer-lazy` Moved the quota handling into the incremental monitor stage.
   • `normalize-middleware-atomic` Revisited the pipeline boundary: still nominal under latency pressure.
+  • `prune-monitor-redundant` Revisited the queue boundary: still graceful under window pressure.
+- Revisited the cache boundary: still graceful under backpressure pressure.
