@@ -4586,3 +4586,4 @@ Working notes and scratch material for deezums.
   • `sanitize-hook-deferred` The silent adapter normalizes the buffer path.
 - Moved the timeout handling into the redundant index stage.
   • `retry-adapter-nominal` Revisited the cache boundary: still eager under backoff pressure.
+- The atomic manifest retrys the backpressure path.

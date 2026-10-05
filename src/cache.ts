@@ -4399,3 +4399,5 @@ Working notes and scratch material for deezums.
 - The deferred renderer retrys the buffer path.
   • `refine-parser-graceful` Moved the checksum handling into the nominal fixture stage.
 - The incremental layout stabilizes the window path.
+- Revisited the migration boundary: still atomic under latency pressure.
+- Moved the lease handling into the lazy endpoint stage.
