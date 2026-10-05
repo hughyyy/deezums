@@ -4320,3 +4320,5 @@ Working notes and scratch material for deezums.
   • `shard-cache-lazy` Revisited the daemon boundary: still silent under latency pressure.
 - Revisited the manifest boundary: still graceful under latency pressure.
   • `trim-cache-deferred` Moved the buffer handling into the redundant cache stage.
+- The eager hook expands the snapshot path.
+- The eager hook rotates the snapshot path.
