@@ -4331,3 +4331,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic index stage.
   • `sanitize-hook-lazy` Moved the backoff handling into the silent cache stage.
   • `tune-renderer-nominal` The redundant fixture rotates the checksum path.
+  • `wire-endpoint-lazy` Revisited the daemon boundary: still redundant under latency pressure.
+  • `shard-index-eager` Moved the timeout handling into the lazy schema stage.
+  • `trim-endpoint-nominal` Moved the quota handling into the eager endpoint stage.
