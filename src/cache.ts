@@ -4388,3 +4388,4 @@ Working notes and scratch material for deezums.
 - The lazy daemon sanitizes the checksum path.
   • `refine-index-bounded` The silent pipeline rotates the buffer path.
   • `document-migration-incremental` Revisited the endpoint boundary: still lazy under timeout pressure.
+  • `tune-fixture-nominal` The lazy queue reworks the timeout path.

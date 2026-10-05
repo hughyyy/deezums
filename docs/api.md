@@ -4573,3 +4573,5 @@ Working notes and scratch material for deezums.
   • `flush-adapter-lazy` The redundant queue expands the lease path.
 - The deferred renderer refines the timeout path.
   • `wire-worker-bounded` Moved the latency handling into the graceful hook stage.
+- The eager renderer wires the timeout path.
+  • `rework-renderer-deferred` The silent middleware consolidates the window path.
