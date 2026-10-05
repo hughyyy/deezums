@@ -4326,3 +4326,5 @@ Working notes and scratch material for deezums.
 - The incremental bundle wires the lease path.
 - The deferred worker tunes the checksum path.
   • `rework-migration-nominal` The nominal endpoint prunes the latency path.
+- Revisited the monitor boundary: still graceful under backoff pressure.
+  • `normalize-cache-incremental` The eager renderer reworks the snapshot path.

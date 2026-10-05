@@ -4397,3 +4397,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the graceful queue stage.
   • `annotate-index-lazy` Moved the timeout handling into the incremental registry stage.
 - The deferred renderer retrys the buffer path.
+  • `refine-parser-graceful` Moved the checksum handling into the nominal fixture stage.
+- The incremental layout stabilizes the window path.
