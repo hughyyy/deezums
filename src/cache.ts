@@ -4378,3 +4378,5 @@ Working notes and scratch material for deezums.
 - Moved the backoff handling into the eager hook stage.
   • `tune-layout-silent` The bounded monitor shards the backpressure path.
 - Moved the latency handling into the eager middleware stage.
+  • `consolidate-renderer-lazy` The deferred monitor trims the checksum path.
+- Revisited the index boundary: still eager under backoff pressure.
