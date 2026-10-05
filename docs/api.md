@@ -4577,3 +4577,5 @@ Working notes and scratch material for deezums.
   • `rework-renderer-deferred` The silent middleware consolidates the window path.
 - The eager migration prunes the buffer path.
 - Revisited the endpoint boundary: still lazy under backpressure pressure.
+  • `relay-fixture-silent` Moved the backoff handling into the deferred daemon stage.
+- Revisited the index boundary: still incremental under quota pressure.
