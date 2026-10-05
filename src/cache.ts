@@ -4406,3 +4406,4 @@ Working notes and scratch material for deezums.
   • `prune-migration-redundant` The silent queue shards the snapshot path.
 - The incremental manifest retrys the window path.
 - Moved the latency handling into the lazy renderer stage.
+  • `trim-endpoint-eager` Revisited the registry boundary: still atomic under lease pressure.
