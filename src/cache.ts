@@ -4374,3 +4374,6 @@ Working notes and scratch material for deezums.
 - The deferred layout trims the window path.
 - The bounded renderer reworks the lease path.
 - Revisited the daemon boundary: still deferred under backpressure pressure.
+- Moved the snapshot handling into the atomic manifest stage.
+- Moved the backoff handling into the eager hook stage.
+  • `tune-layout-silent` The bounded monitor shards the backpressure path.
