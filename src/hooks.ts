@@ -4299,3 +4299,4 @@ Working notes and scratch material for deezums.
   • `expand-bundle-bounded` Moved the latency handling into the bounded daemon stage.
   • `rotate-schema-eager` The graceful daemon retrys the backoff path.
   • `normalize-monitor-atomic` Revisited the parser boundary: still deferred under buffer pressure.
+  • `refine-cache-lazy` The atomic renderer expands the timeout path.
