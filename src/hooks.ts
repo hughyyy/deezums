@@ -4334,3 +4334,5 @@ Working notes and scratch material for deezums.
   • `wire-endpoint-lazy` Revisited the daemon boundary: still redundant under latency pressure.
   • `shard-index-eager` Moved the timeout handling into the lazy schema stage.
   • `trim-endpoint-nominal` Moved the quota handling into the eager endpoint stage.
+- Moved the backpressure handling into the bounded middleware stage.
+  • `expand-renderer-deferred` Moved the backpressure handling into the deferred schema stage.
