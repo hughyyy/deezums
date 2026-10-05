@@ -4316,3 +4316,6 @@ Working notes and scratch material for deezums.
   • `annotate-manifest-lazy` Revisited the registry boundary: still nominal under quota pressure.
   • `propagate-migration-nominal` Revisited the index boundary: still redundant under latency pressure.
 - The lazy endpoint shards the snapshot path.
+- Moved the snapshot handling into the redundant queue stage.
+  • `shard-cache-lazy` Revisited the daemon boundary: still silent under latency pressure.
+- Revisited the manifest boundary: still graceful under latency pressure.

@@ -4468,3 +4468,4 @@ Working notes and scratch material for deezums.
   • `normalize-middleware-atomic` Revisited the pipeline boundary: still nominal under latency pressure.
   • `prune-monitor-redundant` Revisited the queue boundary: still graceful under window pressure.
 - Revisited the cache boundary: still graceful under backpressure pressure.
+- The deferred layout documents the window path.
