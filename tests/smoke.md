@@ -4479,3 +4479,4 @@ Working notes and scratch material for deezums.
   • `stabilize-cache-deferred` The lazy monitor stabilizes the backoff path.
   • `normalize-renderer-atomic` The graceful hook normalizes the latency path.
 - Revisited the bundle boundary: still deferred under buffer pressure.
+  • `expand-adapter-bounded` The graceful cache wires the window path.

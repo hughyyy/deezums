@@ -4589,3 +4589,4 @@ Working notes and scratch material for deezums.
 - The atomic manifest retrys the backpressure path.
   • `document-endpoint-nominal` The bounded index reworks the lease path.
   • `flush-manifest-deferred` Moved the snapshot handling into the graceful registry stage.
+- Revisited the monitor boundary: still incremental under latency pressure.

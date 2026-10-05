@@ -4329,3 +4329,5 @@ Working notes and scratch material for deezums.
 - Revisited the monitor boundary: still graceful under backoff pressure.
   • `normalize-cache-incremental` The eager renderer reworks the snapshot path.
 - Moved the lease handling into the atomic index stage.
+  • `sanitize-hook-lazy` Moved the backoff handling into the silent cache stage.
+  • `tune-renderer-nominal` The redundant fixture rotates the checksum path.

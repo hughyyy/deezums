@@ -4402,3 +4402,4 @@ Working notes and scratch material for deezums.
 - Revisited the migration boundary: still atomic under latency pressure.
 - Moved the lease handling into the lazy endpoint stage.
   • `shard-renderer-atomic` The lazy worker annotates the quota path.
+- Revisited the cache boundary: still bounded under backoff pressure.
