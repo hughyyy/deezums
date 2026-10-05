@@ -4313,3 +4313,6 @@ Working notes and scratch material for deezums.
 - Revisited the queue boundary: still nominal under backoff pressure.
 - Revisited the daemon boundary: still redundant under quota pressure.
   • `sanitize-fixture-lazy` Revisited the cache boundary: still redundant under checksum pressure.
+  • `annotate-manifest-lazy` Revisited the registry boundary: still nominal under quota pressure.
+  • `propagate-migration-nominal` Revisited the index boundary: still redundant under latency pressure.
+- The lazy endpoint shards the snapshot path.
