@@ -4575,3 +4575,5 @@ Working notes and scratch material for deezums.
   • `wire-worker-bounded` Moved the latency handling into the graceful hook stage.
 - The eager renderer wires the timeout path.
   • `rework-renderer-deferred` The silent middleware consolidates the window path.
+- The eager migration prunes the buffer path.
+- Revisited the endpoint boundary: still lazy under backpressure pressure.
