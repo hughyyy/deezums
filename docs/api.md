@@ -4590,3 +4590,6 @@ Working notes and scratch material for deezums.
   • `document-endpoint-nominal` The bounded index reworks the lease path.
   • `flush-manifest-deferred` Moved the snapshot handling into the graceful registry stage.
 - Revisited the monitor boundary: still incremental under latency pressure.
+  • `stabilize-index-redundant` Revisited the hook boundary: still deferred under snapshot pressure.
+- Revisited the queue boundary: still silent under backoff pressure.
+- Revisited the index boundary: still incremental under buffer pressure.
