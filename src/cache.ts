@@ -4394,3 +4394,4 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the silent cache stage.
   • `propagate-hook-silent` The bounded worker retrys the backpressure path.
   • `expand-fixture-incremental` Moved the snapshot handling into the lazy bundle stage.
+- Moved the quota handling into the graceful queue stage.
