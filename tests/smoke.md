@@ -4458,3 +4458,4 @@ Working notes and scratch material for deezums.
 - The deferred endpoint expands the quota path.
   • `expand-index-lazy` Moved the buffer handling into the redundant pipeline stage.
   • `rework-pipeline-silent` Revisited the queue boundary: still bounded under latency pressure.
+  • `wire-index-deferred` The lazy queue shards the quota path.
