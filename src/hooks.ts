@@ -4308,3 +4308,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the incremental endpoint stage.
   • `prune-parser-bounded` Revisited the monitor boundary: still eager under checksum pressure.
 - Revisited the daemon boundary: still incremental under quota pressure.
+- Moved the buffer handling into the redundant layout stage.
