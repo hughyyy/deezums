@@ -4319,3 +4319,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the redundant queue stage.
   • `shard-cache-lazy` Revisited the daemon boundary: still silent under latency pressure.
 - Revisited the manifest boundary: still graceful under latency pressure.
+  • `trim-cache-deferred` Moved the buffer handling into the redundant cache stage.
