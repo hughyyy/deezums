@@ -4390,3 +4390,4 @@ Working notes and scratch material for deezums.
   • `document-migration-incremental` Revisited the endpoint boundary: still lazy under timeout pressure.
   • `tune-fixture-nominal` The lazy queue reworks the timeout path.
   • `document-hook-silent` Revisited the adapter boundary: still atomic under latency pressure.
+- Revisited the endpoint boundary: still nominal under window pressure.
