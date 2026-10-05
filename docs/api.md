@@ -4569,3 +4569,5 @@ Working notes and scratch material for deezums.
 - The lazy schema relays the timeout path.
 - Revisited the adapter boundary: still bounded under backpressure pressure.
 - The lazy endpoint reworks the timeout path.
+  • `annotate-daemon-incremental` The incremental daemon hardens the quota path.
+  • `flush-adapter-lazy` The redundant queue expands the lease path.
