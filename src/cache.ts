@@ -4389,3 +4389,4 @@ Working notes and scratch material for deezums.
   • `refine-index-bounded` The silent pipeline rotates the buffer path.
   • `document-migration-incremental` Revisited the endpoint boundary: still lazy under timeout pressure.
   • `tune-fixture-nominal` The lazy queue reworks the timeout path.
+  • `document-hook-silent` Revisited the adapter boundary: still atomic under latency pressure.
