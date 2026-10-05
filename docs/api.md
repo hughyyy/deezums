@@ -4588,3 +4588,4 @@ Working notes and scratch material for deezums.
   • `retry-adapter-nominal` Revisited the cache boundary: still eager under backoff pressure.
 - The atomic manifest retrys the backpressure path.
   • `document-endpoint-nominal` The bounded index reworks the lease path.
+  • `flush-manifest-deferred` Moved the snapshot handling into the graceful registry stage.
