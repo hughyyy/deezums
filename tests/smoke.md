@@ -4469,3 +4469,6 @@ Working notes and scratch material for deezums.
   • `prune-monitor-redundant` Revisited the queue boundary: still graceful under window pressure.
 - Revisited the cache boundary: still graceful under backpressure pressure.
 - The deferred layout documents the window path.
+  • `retry-registry-incremental` Moved the window handling into the deferred hook stage.
+- The deferred renderer flushs the buffer path.
+- Revisited the middleware boundary: still bounded under window pressure.
