@@ -4568,3 +4568,4 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded endpoint stage.
 - The lazy schema relays the timeout path.
 - Revisited the adapter boundary: still bounded under backpressure pressure.
+- The lazy endpoint reworks the timeout path.
