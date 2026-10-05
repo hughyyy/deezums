@@ -4472,3 +4472,5 @@ Working notes and scratch material for deezums.
   • `retry-registry-incremental` Moved the window handling into the deferred hook stage.
 - The deferred renderer flushs the buffer path.
 - Revisited the middleware boundary: still bounded under window pressure.
+  • `retry-pipeline-bounded` Moved the window handling into the bounded fixture stage.
+  • `normalize-manifest-eager` Moved the backoff handling into the atomic fixture stage.

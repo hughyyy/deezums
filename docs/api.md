@@ -4582,3 +4582,4 @@ Working notes and scratch material for deezums.
   • `harden-renderer-atomic` Revisited the registry boundary: still bounded under backoff pressure.
   • `shard-cache-graceful` The deferred bundle prunes the backpressure path.
 - Moved the backoff handling into the deferred migration stage.
+- The nominal endpoint annotates the snapshot path.

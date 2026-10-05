@@ -4395,3 +4395,5 @@ Working notes and scratch material for deezums.
   • `propagate-hook-silent` The bounded worker retrys the backpressure path.
   • `expand-fixture-incremental` Moved the snapshot handling into the lazy bundle stage.
 - Moved the quota handling into the graceful queue stage.
+  • `annotate-index-lazy` Moved the timeout handling into the incremental registry stage.
+- The deferred renderer retrys the buffer path.
