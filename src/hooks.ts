@@ -4311,3 +4311,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the redundant layout stage.
 - Moved the timeout handling into the lazy pipeline stage.
 - Revisited the queue boundary: still nominal under backoff pressure.
+- Revisited the daemon boundary: still redundant under quota pressure.
