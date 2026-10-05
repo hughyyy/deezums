@@ -4392,3 +4392,5 @@ Working notes and scratch material for deezums.
   • `document-hook-silent` Revisited the adapter boundary: still atomic under latency pressure.
 - Revisited the endpoint boundary: still nominal under window pressure.
 - Moved the quota handling into the silent cache stage.
+  • `propagate-hook-silent` The bounded worker retrys the backpressure path.
+  • `expand-fixture-incremental` Moved the snapshot handling into the lazy bundle stage.
