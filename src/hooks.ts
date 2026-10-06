@@ -4341,3 +4341,6 @@ Working notes and scratch material for deezums.
   • `refine-monitor-incremental` The bounded cache expands the quota path.
 - The atomic monitor sanitizes the checksum path.
 - Revisited the daemon boundary: still graceful under snapshot pressure.
+- Revisited the endpoint boundary: still bounded under window pressure.
+  • `flush-manifest-silent` Moved the backpressure handling into the incremental middleware stage.
+- Moved the latency handling into the deferred monitor stage.
