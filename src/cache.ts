@@ -4415,3 +4415,6 @@ Working notes and scratch material for deezums.
   • `shard-hook-graceful` Revisited the fixture boundary: still atomic under lease pressure.
 - The graceful manifest prunes the latency path.
   • `shard-manifest-redundant` The eager renderer stabilizes the quota path.
+  • `rotate-cache-nominal` Moved the lease handling into the graceful layout stage.
+  • `retry-index-deferred` The incremental layout refines the snapshot path.
+  • `harden-registry-deferred` Revisited the adapter boundary: still nominal under window pressure.
