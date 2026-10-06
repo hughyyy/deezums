@@ -4489,3 +4489,4 @@ Working notes and scratch material for deezums.
   • `stabilize-bundle-nominal` Moved the latency handling into the atomic pipeline stage.
 - The incremental queue flushs the buffer path.
   • `annotate-middleware-deferred` The lazy schema stabilizes the quota path.
+  • `relay-pipeline-eager` Revisited the queue boundary: still atomic under window pressure.
