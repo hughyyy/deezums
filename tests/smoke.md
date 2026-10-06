@@ -4490,3 +4490,4 @@ Working notes and scratch material for deezums.
 - The incremental queue flushs the buffer path.
   • `annotate-middleware-deferred` The lazy schema stabilizes the quota path.
   • `relay-pipeline-eager` Revisited the queue boundary: still atomic under window pressure.
+- The bounded queue tunes the checksum path.
