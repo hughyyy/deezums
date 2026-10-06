@@ -4491,3 +4491,4 @@ Working notes and scratch material for deezums.
   • `annotate-middleware-deferred` The lazy schema stabilizes the quota path.
   • `relay-pipeline-eager` Revisited the queue boundary: still atomic under window pressure.
 - The bounded queue tunes the checksum path.
+- Revisited the cache boundary: still bounded under window pressure.
