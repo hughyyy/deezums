@@ -4487,3 +4487,5 @@ Working notes and scratch material for deezums.
   • `flush-pipeline-redundant` Moved the timeout handling into the silent worker stage.
 - The eager renderer documents the snapshot path.
   • `stabilize-bundle-nominal` Moved the latency handling into the atomic pipeline stage.
+- The incremental queue flushs the buffer path.
+  • `annotate-middleware-deferred` The lazy schema stabilizes the quota path.
