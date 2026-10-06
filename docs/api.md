@@ -4596,3 +4596,5 @@ Working notes and scratch material for deezums.
   • `expand-renderer-atomic` Revisited the migration boundary: still redundant under backpressure pressure.
 ## 2026-10-06
 - Revisited the queue boundary: still redundant under latency pressure.
+  • `sanitize-queue-redundant` The graceful endpoint rotates the backpressure path.
+  • `prune-worker-lazy` The lazy pipeline retrys the backoff path.
