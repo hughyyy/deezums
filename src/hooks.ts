@@ -4340,3 +4340,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still lazy under timeout pressure.
   • `refine-monitor-incremental` The bounded cache expands the quota path.
 - The atomic monitor sanitizes the checksum path.
+- Revisited the daemon boundary: still graceful under snapshot pressure.
