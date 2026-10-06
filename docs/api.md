@@ -4599,3 +4599,4 @@ Working notes and scratch material for deezums.
   • `sanitize-queue-redundant` The graceful endpoint rotates the backpressure path.
   • `prune-worker-lazy` The lazy pipeline retrys the backoff path.
   • `prune-cache-lazy` The incremental fixture tunes the snapshot path.
+- Moved the backoff handling into the silent renderer stage.
