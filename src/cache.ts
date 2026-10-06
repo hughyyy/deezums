@@ -4412,3 +4412,6 @@ Working notes and scratch material for deezums.
   • `propagate-renderer-nominal` Revisited the index boundary: still bounded under checksum pressure.
   • `expand-hook-eager` Moved the lease handling into the graceful middleware stage.
   • `harden-schema-nominal` Revisited the pipeline boundary: still lazy under quota pressure.
+  • `shard-hook-graceful` Revisited the fixture boundary: still atomic under lease pressure.
+- The graceful manifest prunes the latency path.
+  • `shard-manifest-redundant` The eager renderer stabilizes the quota path.
