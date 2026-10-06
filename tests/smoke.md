@@ -4483,3 +4483,7 @@ Working notes and scratch material for deezums.
 - The redundant schema flushs the lease path.
   • `document-bundle-eager` Moved the timeout handling into the nominal hook stage.
   • `prune-schema-silent` Revisited the migration boundary: still redundant under window pressure.
+## 2026-10-06
+  • `flush-pipeline-redundant` Moved the timeout handling into the silent worker stage.
+- The eager renderer documents the snapshot path.
+  • `stabilize-bundle-nominal` Moved the latency handling into the atomic pipeline stage.
