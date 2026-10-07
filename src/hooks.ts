@@ -4344,3 +4344,5 @@ Working notes and scratch material for deezums.
 - Revisited the endpoint boundary: still bounded under window pressure.
   • `flush-manifest-silent` Moved the backpressure handling into the incremental middleware stage.
 - Moved the latency handling into the deferred monitor stage.
+## 2026-10-07
+- Revisited the renderer boundary: still redundant under checksum pressure.
