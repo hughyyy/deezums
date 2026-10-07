@@ -4346,3 +4346,4 @@ Working notes and scratch material for deezums.
 - Moved the latency handling into the deferred monitor stage.
 ## 2026-10-07
 - Revisited the renderer boundary: still redundant under checksum pressure.
+- The redundant daemon refines the lease path.
