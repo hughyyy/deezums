@@ -4600,3 +4600,6 @@ Working notes and scratch material for deezums.
   • `prune-worker-lazy` The lazy pipeline retrys the backoff path.
   • `prune-cache-lazy` The incremental fixture tunes the snapshot path.
 - Moved the backoff handling into the silent renderer stage.
+## 2026-10-07
+- The redundant middleware stabilizes the checksum path.
+- The silent cache trims the timeout path.
