@@ -4496,3 +4496,4 @@ Working notes and scratch material for deezums.
   • `stabilize-renderer-incremental` Revisited the worker boundary: still eager under backoff pressure.
 - Revisited the parser boundary: still nominal under window pressure.
   • `retry-bundle-graceful` Revisited the pipeline boundary: still graceful under lease pressure.
+- The deferred layout hardens the checksum path.
