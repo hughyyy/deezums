@@ -4347,3 +4347,7 @@ Working notes and scratch material for deezums.
 ## 2026-10-07
 - Revisited the renderer boundary: still redundant under checksum pressure.
 - The redundant daemon refines the lease path.
+## 2026-10-09
+  • `trim-bundle-nominal` The graceful monitor retrys the timeout path.
+  • `retry-adapter-redundant` Revisited the middleware boundary: still redundant under lease pressure.
+- Moved the timeout handling into the bounded migration stage.
