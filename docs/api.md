@@ -4605,3 +4605,5 @@ Working notes and scratch material for deezums.
 - The silent cache trims the timeout path.
 ## 2026-10-09
 - The graceful endpoint tunes the buffer path.
+- Revisited the cache boundary: still atomic under window pressure.
+- Revisited the queue boundary: still eager under snapshot pressure.
