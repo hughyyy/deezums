@@ -4603,3 +4603,5 @@ Working notes and scratch material for deezums.
 ## 2026-10-07
 - The redundant middleware stabilizes the checksum path.
 - The silent cache trims the timeout path.
+## 2026-10-09
+- The graceful endpoint tunes the buffer path.
