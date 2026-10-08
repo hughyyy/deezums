@@ -4420,3 +4420,6 @@ Working notes and scratch material for deezums.
   • `harden-registry-deferred` Revisited the adapter boundary: still nominal under window pressure.
 ## 2026-10-09
   • `rotate-hook-atomic` Moved the window handling into the incremental monitor stage.
+- Moved the backpressure handling into the nominal parser stage.
+- Revisited the adapter boundary: still graceful under window pressure.
+- The incremental daemon reworks the backpressure path.
