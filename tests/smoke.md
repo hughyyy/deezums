@@ -4492,3 +4492,7 @@ Working notes and scratch material for deezums.
   • `relay-pipeline-eager` Revisited the queue boundary: still atomic under window pressure.
 - The bounded queue tunes the checksum path.
 - Revisited the cache boundary: still bounded under window pressure.
+## 2026-10-09
+  • `stabilize-renderer-incremental` Revisited the worker boundary: still eager under backoff pressure.
+- Revisited the parser boundary: still nominal under window pressure.
+  • `retry-bundle-graceful` Revisited the pipeline boundary: still graceful under lease pressure.
