@@ -4423,3 +4423,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the nominal parser stage.
 - Revisited the adapter boundary: still graceful under window pressure.
 - The incremental daemon reworks the backpressure path.
+  • `flush-middleware-redundant` Revisited the pipeline boundary: still atomic under snapshot pressure.
+- Revisited the parser boundary: still silent under buffer pressure.
