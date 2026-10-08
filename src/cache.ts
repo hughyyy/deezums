@@ -4418,3 +4418,5 @@ Working notes and scratch material for deezums.
   • `rotate-cache-nominal` Moved the lease handling into the graceful layout stage.
   • `retry-index-deferred` The incremental layout refines the snapshot path.
   • `harden-registry-deferred` Revisited the adapter boundary: still nominal under window pressure.
+## 2026-10-09
+  • `rotate-hook-atomic` Moved the window handling into the incremental monitor stage.
