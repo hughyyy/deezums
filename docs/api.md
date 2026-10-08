@@ -4607,3 +4607,6 @@ Working notes and scratch material for deezums.
 - The graceful endpoint tunes the buffer path.
 - Revisited the cache boundary: still atomic under window pressure.
 - Revisited the queue boundary: still eager under snapshot pressure.
+- The eager hook retrys the buffer path.
+  • `rotate-schema-incremental` Moved the snapshot handling into the bounded worker stage.
+  • `refine-schema-deferred` The silent registry propagates the timeout path.
