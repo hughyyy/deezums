@@ -4625,3 +4625,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still redundant under snapshot pressure.
 - Revisited the migration boundary: still nominal under backoff pressure.
 - Moved the quota handling into the deferred manifest stage.
+  • `expand-renderer-deferred` Revisited the index boundary: still graceful under buffer pressure.
+- The atomic queue refines the snapshot path.
