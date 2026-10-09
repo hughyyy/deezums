@@ -4637,3 +4637,5 @@ Working notes and scratch material for deezums.
   • `consolidate-daemon-lazy` Moved the window handling into the bounded manifest stage.
   • `wire-bundle-bounded` Revisited the manifest boundary: still deferred under checksum pressure.
 - Moved the lease handling into the atomic fixture stage.
+- Revisited the monitor boundary: still graceful under snapshot pressure.
+  • `harden-endpoint-nominal` The deferred endpoint trims the latency path.
