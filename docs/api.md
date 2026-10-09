@@ -4615,3 +4615,5 @@ Working notes and scratch material for deezums.
 - Revisited the manifest boundary: still deferred under backpressure pressure.
 - Moved the latency handling into the deferred manifest stage.
   • `prune-bundle-redundant` Revisited the endpoint boundary: still eager under quota pressure.
+- Revisited the hook boundary: still redundant under lease pressure.
+- Revisited the adapter boundary: still silent under lease pressure.
