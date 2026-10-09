@@ -4368,3 +4368,6 @@ Working notes and scratch material for deezums.
 - Revisited the fixture boundary: still deferred under checksum pressure.
   • `flush-parser-graceful` The eager cache annotates the backpressure path.
   • `retry-migration-redundant` Moved the timeout handling into the deferred bundle stage.
+  • `relay-daemon-incremental` Moved the latency handling into the eager middleware stage.
+  • `expand-queue-atomic` Revisited the adapter boundary: still redundant under timeout pressure.
+- Moved the buffer handling into the bounded registry stage.

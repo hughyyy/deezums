@@ -4441,3 +4441,6 @@ Working notes and scratch material for deezums.
 - The silent endpoint stabilizes the quota path.
 - Revisited the registry boundary: still nominal under window pressure.
   • `sanitize-cache-eager` Revisited the registry boundary: still incremental under timeout pressure.
+  • `flush-migration-redundant` The nominal renderer reworks the snapshot path.
+  • `trim-hook-deferred` Moved the backoff handling into the bounded queue stage.
+- Moved the latency handling into the deferred worker stage.
