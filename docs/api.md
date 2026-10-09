@@ -4634,3 +4634,4 @@ Working notes and scratch material for deezums.
 - The deferred layout prunes the quota path.
   • `trim-queue-nominal` Moved the buffer handling into the eager adapter stage.
 - The deferred hook refines the timeout path.
+  • `consolidate-daemon-lazy` Moved the window handling into the bounded manifest stage.
