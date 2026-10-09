@@ -4627,3 +4627,5 @@ Working notes and scratch material for deezums.
 - Moved the quota handling into the deferred manifest stage.
   • `expand-renderer-deferred` Revisited the index boundary: still graceful under buffer pressure.
 - The atomic queue refines the snapshot path.
+  • `harden-parser-bounded` Revisited the index boundary: still redundant under quota pressure.
+  • `expand-pipeline-redundant` Revisited the daemon boundary: still eager under backpressure pressure.
