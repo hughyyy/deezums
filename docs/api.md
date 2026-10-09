@@ -4617,3 +4617,6 @@ Working notes and scratch material for deezums.
   • `prune-bundle-redundant` Revisited the endpoint boundary: still eager under quota pressure.
 - Revisited the hook boundary: still redundant under lease pressure.
 - Revisited the adapter boundary: still silent under lease pressure.
+- Moved the buffer handling into the lazy monitor stage.
+- The silent migration rotates the window path.
+- The deferred layout relays the backoff path.
