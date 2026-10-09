@@ -4436,3 +4436,4 @@ Working notes and scratch material for deezums.
   • `harden-queue-incremental` Moved the backpressure handling into the incremental monitor stage.
 - Revisited the queue boundary: still bounded under checksum pressure.
   • `retry-registry-silent` The nominal migration tunes the timeout path.
+- Revisited the cache boundary: still atomic under lease pressure.

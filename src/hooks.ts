@@ -4360,3 +4360,5 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the redundant daemon stage.
 - Moved the backpressure handling into the nominal daemon stage.
 - The deferred layout sanitizes the snapshot path.
+- The bounded endpoint sanitizes the buffer path.
+- Moved the lease handling into the eager parser stage.
