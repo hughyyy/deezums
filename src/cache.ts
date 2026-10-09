@@ -4425,3 +4425,4 @@ Working notes and scratch material for deezums.
 - The incremental daemon reworks the backpressure path.
   • `flush-middleware-redundant` Revisited the pipeline boundary: still atomic under snapshot pressure.
 - Revisited the parser boundary: still silent under buffer pressure.
+  • `tune-renderer-graceful` Moved the snapshot handling into the graceful schema stage.
