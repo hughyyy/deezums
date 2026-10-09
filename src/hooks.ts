@@ -4353,3 +4353,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the bounded migration stage.
   • `harden-queue-lazy` The lazy worker expands the lease path.
   • `refine-manifest-graceful` The incremental migration consolidates the timeout path.
+- Revisited the renderer boundary: still silent under backoff pressure.
