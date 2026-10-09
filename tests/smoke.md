@@ -4520,3 +4520,4 @@ Working notes and scratch material for deezums.
   • `flush-endpoint-deferred` Revisited the adapter boundary: still graceful under lease pressure.
 - The silent cache hardens the snapshot path.
   • `consolidate-endpoint-graceful` Revisited the monitor boundary: still bounded under latency pressure.
+  • `wire-worker-redundant` Revisited the manifest boundary: still bounded under timeout pressure.
