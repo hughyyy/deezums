@@ -4610,3 +4610,4 @@ Working notes and scratch material for deezums.
 - The eager hook retrys the buffer path.
   • `rotate-schema-incremental` Moved the snapshot handling into the bounded worker stage.
   • `refine-schema-deferred` The silent registry propagates the timeout path.
+  • `propagate-layout-lazy` The incremental hook reworks the backoff path.
