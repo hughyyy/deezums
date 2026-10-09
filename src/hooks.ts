@@ -4362,3 +4362,6 @@ Working notes and scratch material for deezums.
 - The deferred layout sanitizes the snapshot path.
 - The bounded endpoint sanitizes the buffer path.
 - Moved the lease handling into the eager parser stage.
+- Revisited the worker boundary: still silent under checksum pressure.
+- The nominal migration expands the checksum path.
+- Revisited the parser boundary: still incremental under checksum pressure.
