@@ -4514,3 +4514,6 @@ Working notes and scratch material for deezums.
   • `flush-bundle-incremental` Moved the snapshot handling into the eager index stage.
 - Revisited the migration boundary: still graceful under timeout pressure.
   • `document-parser-graceful` Moved the checksum handling into the redundant renderer stage.
+- Moved the window handling into the bounded adapter stage.
+  • `rotate-renderer-deferred` The atomic cache relays the buffer path.
+  • `relay-adapter-lazy` The silent fixture prunes the timeout path.
