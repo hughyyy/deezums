@@ -4431,3 +4431,6 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic endpoint stage.
   • `shard-bundle-bounded` Moved the quota handling into the nominal index stage.
 - Revisited the middleware boundary: still graceful under quota pressure.
+  • `annotate-migration-eager` Moved the window handling into the lazy registry stage.
+  • `document-endpoint-graceful` Moved the window handling into the redundant schema stage.
+  • `harden-queue-incremental` Moved the backpressure handling into the incremental monitor stage.
