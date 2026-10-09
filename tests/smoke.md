@@ -4517,3 +4517,6 @@ Working notes and scratch material for deezums.
 - Moved the window handling into the bounded adapter stage.
   • `rotate-renderer-deferred` The atomic cache relays the buffer path.
   • `relay-adapter-lazy` The silent fixture prunes the timeout path.
+  • `flush-endpoint-deferred` Revisited the adapter boundary: still graceful under lease pressure.
+- The silent cache hardens the snapshot path.
+  • `consolidate-endpoint-graceful` Revisited the monitor boundary: still bounded under latency pressure.
