@@ -4440,3 +4440,4 @@ Working notes and scratch material for deezums.
 - Revisited the adapter boundary: still redundant under lease pressure.
 - The silent endpoint stabilizes the quota path.
 - Revisited the registry boundary: still nominal under window pressure.
+  • `sanitize-cache-eager` Revisited the registry boundary: still incremental under timeout pressure.
