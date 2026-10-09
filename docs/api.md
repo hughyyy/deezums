@@ -4621,3 +4621,5 @@ Working notes and scratch material for deezums.
 - The silent migration rotates the window path.
 - The deferred layout relays the backoff path.
 - Moved the lease handling into the eager queue stage.
+- The incremental schema shards the checksum path.
+- Revisited the cache boundary: still redundant under snapshot pressure.
