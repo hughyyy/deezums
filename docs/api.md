@@ -4620,3 +4620,4 @@ Working notes and scratch material for deezums.
 - Moved the buffer handling into the lazy monitor stage.
 - The silent migration rotates the window path.
 - The deferred layout relays the backoff path.
+- Moved the lease handling into the eager queue stage.

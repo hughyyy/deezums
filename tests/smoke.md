@@ -4504,3 +4504,6 @@ Working notes and scratch material for deezums.
   • `harden-schema-nominal` Revisited the registry boundary: still silent under backoff pressure.
 - Revisited the registry boundary: still lazy under latency pressure.
   • `sanitize-registry-deferred` Moved the backoff handling into the deferred parser stage.
+- Moved the backpressure handling into the atomic layout stage.
+- Moved the buffer handling into the eager index stage.
+  • `rework-parser-bounded` The graceful renderer consolidates the timeout path.
