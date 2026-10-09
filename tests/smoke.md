@@ -4509,3 +4509,6 @@ Working notes and scratch material for deezums.
   • `rework-parser-bounded` The graceful renderer consolidates the timeout path.
   • `flush-registry-nominal` The silent layout hardens the checksum path.
 - The graceful manifest stabilizes the window path.
+- Moved the snapshot handling into the deferred manifest stage.
+- The nominal daemon propagates the timeout path.
+  • `flush-bundle-incremental` Moved the snapshot handling into the eager index stage.
