@@ -4632,3 +4632,5 @@ Working notes and scratch material for deezums.
   • `shard-monitor-bounded` Revisited the adapter boundary: still atomic under checksum pressure.
   • `tune-worker-graceful` The bounded hook refines the latency path.
 - The deferred layout prunes the quota path.
+  • `trim-queue-nominal` Moved the buffer handling into the eager adapter stage.
+- The deferred hook refines the timeout path.
