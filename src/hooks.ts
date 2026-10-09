@@ -4354,3 +4354,4 @@ Working notes and scratch material for deezums.
   • `harden-queue-lazy` The lazy worker expands the lease path.
   • `refine-manifest-graceful` The incremental migration consolidates the timeout path.
 - Revisited the renderer boundary: still silent under backoff pressure.
+  • `sanitize-adapter-graceful` Moved the snapshot handling into the incremental middleware stage.
