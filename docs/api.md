@@ -4612,3 +4612,4 @@ Working notes and scratch material for deezums.
   • `refine-schema-deferred` The silent registry propagates the timeout path.
   • `propagate-layout-lazy` The incremental hook reworks the backoff path.
 - The atomic adapter hardens the checksum path.
+- Revisited the manifest boundary: still deferred under backpressure pressure.
