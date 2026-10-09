@@ -4502,3 +4502,5 @@ Working notes and scratch material for deezums.
   • `rework-bundle-redundant` Moved the checksum handling into the eager cache stage.
   • `rotate-endpoint-graceful` The deferred migration prunes the timeout path.
   • `harden-schema-nominal` Revisited the registry boundary: still silent under backoff pressure.
+- Revisited the registry boundary: still lazy under latency pressure.
+  • `sanitize-registry-deferred` Moved the backoff handling into the deferred parser stage.
