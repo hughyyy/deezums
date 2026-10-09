@@ -4507,3 +4507,5 @@ Working notes and scratch material for deezums.
 - Moved the backpressure handling into the atomic layout stage.
 - Moved the buffer handling into the eager index stage.
   • `rework-parser-bounded` The graceful renderer consolidates the timeout path.
+  • `flush-registry-nominal` The silent layout hardens the checksum path.
+- The graceful manifest stabilizes the window path.
