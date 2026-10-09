@@ -4641,3 +4641,6 @@ Working notes and scratch material for deezums.
   • `harden-endpoint-nominal` The deferred endpoint trims the latency path.
 - Moved the backoff handling into the deferred daemon stage.
   • `shard-parser-redundant` The incremental parser trims the latency path.
+  • `rotate-bundle-incremental` The nominal schema expands the backoff path.
+- Moved the latency handling into the lazy migration stage.
+  • `stabilize-monitor-bounded` Revisited the bundle boundary: still deferred under checksum pressure.
