@@ -4639,3 +4639,5 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic fixture stage.
 - Revisited the monitor boundary: still graceful under snapshot pressure.
   • `harden-endpoint-nominal` The deferred endpoint trims the latency path.
+- Moved the backoff handling into the deferred daemon stage.
+  • `shard-parser-redundant` The incremental parser trims the latency path.
