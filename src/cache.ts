@@ -4445,3 +4445,6 @@ Working notes and scratch material for deezums.
   • `trim-hook-deferred` Moved the backoff handling into the bounded queue stage.
 - Moved the latency handling into the deferred worker stage.
   • `trim-parser-bounded` Revisited the bundle boundary: still bounded under latency pressure.
+  • `normalize-pipeline-silent` Revisited the daemon boundary: still nominal under window pressure.
+- Moved the snapshot handling into the deferred middleware stage.
+  • `sanitize-queue-lazy` The lazy worker tunes the checksum path.
