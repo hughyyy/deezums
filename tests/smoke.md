@@ -4497,3 +4497,5 @@ Working notes and scratch material for deezums.
 - Revisited the parser boundary: still nominal under window pressure.
   • `retry-bundle-graceful` Revisited the pipeline boundary: still graceful under lease pressure.
 - The deferred layout hardens the checksum path.
+  • `rework-endpoint-deferred` Revisited the middleware boundary: still silent under backpressure pressure.
+- Revisited the daemon boundary: still bounded under backpressure pressure.

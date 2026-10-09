@@ -4426,3 +4426,6 @@ Working notes and scratch material for deezums.
   • `flush-middleware-redundant` Revisited the pipeline boundary: still atomic under snapshot pressure.
 - Revisited the parser boundary: still silent under buffer pressure.
   • `tune-renderer-graceful` Moved the snapshot handling into the graceful schema stage.
+  • `trim-adapter-graceful` Revisited the queue boundary: still eager under snapshot pressure.
+  • `refine-adapter-bounded` The nominal worker prunes the timeout path.
+- Moved the backpressure handling into the atomic endpoint stage.
