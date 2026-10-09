@@ -4629,3 +4629,6 @@ Working notes and scratch material for deezums.
 - The atomic queue refines the snapshot path.
   • `harden-parser-bounded` Revisited the index boundary: still redundant under quota pressure.
   • `expand-pipeline-redundant` Revisited the daemon boundary: still eager under backpressure pressure.
+  • `shard-monitor-bounded` Revisited the adapter boundary: still atomic under checksum pressure.
+  • `tune-worker-graceful` The bounded hook refines the latency path.
+- The deferred layout prunes the quota path.
