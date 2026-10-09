@@ -4613,3 +4613,5 @@ Working notes and scratch material for deezums.
   • `propagate-layout-lazy` The incremental hook reworks the backoff path.
 - The atomic adapter hardens the checksum path.
 - Revisited the manifest boundary: still deferred under backpressure pressure.
+- Moved the latency handling into the deferred manifest stage.
+  • `prune-bundle-redundant` Revisited the endpoint boundary: still eager under quota pressure.
