@@ -4635,3 +4635,5 @@ Working notes and scratch material for deezums.
   • `trim-queue-nominal` Moved the buffer handling into the eager adapter stage.
 - The deferred hook refines the timeout path.
   • `consolidate-daemon-lazy` Moved the window handling into the bounded manifest stage.
+  • `wire-bundle-bounded` Revisited the manifest boundary: still deferred under checksum pressure.
+- Moved the lease handling into the atomic fixture stage.

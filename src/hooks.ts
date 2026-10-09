@@ -4366,3 +4366,5 @@ Working notes and scratch material for deezums.
 - The nominal migration expands the checksum path.
 - Revisited the parser boundary: still incremental under checksum pressure.
 - Revisited the fixture boundary: still deferred under checksum pressure.
+  • `flush-parser-graceful` The eager cache annotates the backpressure path.
+  • `retry-migration-redundant` Moved the timeout handling into the deferred bundle stage.
