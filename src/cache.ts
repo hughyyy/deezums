@@ -4444,3 +4444,4 @@ Working notes and scratch material for deezums.
   • `flush-migration-redundant` The nominal renderer reworks the snapshot path.
   • `trim-hook-deferred` Moved the backoff handling into the bounded queue stage.
 - Moved the latency handling into the deferred worker stage.
+  • `trim-parser-bounded` Revisited the bundle boundary: still bounded under latency pressure.
