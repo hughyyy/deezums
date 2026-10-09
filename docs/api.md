@@ -4624,3 +4624,4 @@ Working notes and scratch material for deezums.
 - The incremental schema shards the checksum path.
 - Revisited the cache boundary: still redundant under snapshot pressure.
 - Revisited the migration boundary: still nominal under backoff pressure.
+- Moved the quota handling into the deferred manifest stage.
