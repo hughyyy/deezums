@@ -4439,3 +4439,4 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still atomic under lease pressure.
 - Revisited the adapter boundary: still redundant under lease pressure.
 - The silent endpoint stabilizes the quota path.
+- Revisited the registry boundary: still nominal under window pressure.
