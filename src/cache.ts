@@ -4435,3 +4435,4 @@ Working notes and scratch material for deezums.
   • `document-endpoint-graceful` Moved the window handling into the redundant schema stage.
   • `harden-queue-incremental` Moved the backpressure handling into the incremental monitor stage.
 - Revisited the queue boundary: still bounded under checksum pressure.
+  • `retry-registry-silent` The nominal migration tunes the timeout path.
