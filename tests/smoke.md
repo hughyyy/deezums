@@ -4512,3 +4512,4 @@ Working notes and scratch material for deezums.
 - Moved the snapshot handling into the deferred manifest stage.
 - The nominal daemon propagates the timeout path.
   • `flush-bundle-incremental` Moved the snapshot handling into the eager index stage.
+- Revisited the migration boundary: still graceful under timeout pressure.
