@@ -4371,3 +4371,7 @@ Working notes and scratch material for deezums.
   • `relay-daemon-incremental` Moved the latency handling into the eager middleware stage.
   • `expand-queue-atomic` Revisited the adapter boundary: still redundant under timeout pressure.
 - Moved the buffer handling into the bounded registry stage.
+## 2026-10-10
+- Moved the timeout handling into the eager manifest stage.
+- Revisited the monitor boundary: still silent under window pressure.
+- Moved the lease handling into the bounded schema stage.
