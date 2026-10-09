@@ -4351,3 +4351,4 @@ Working notes and scratch material for deezums.
   • `trim-bundle-nominal` The graceful monitor retrys the timeout path.
   • `retry-adapter-redundant` Revisited the middleware boundary: still redundant under lease pressure.
 - Moved the timeout handling into the bounded migration stage.
+  • `harden-queue-lazy` The lazy worker expands the lease path.
