@@ -4623,3 +4623,4 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the eager queue stage.
 - The incremental schema shards the checksum path.
 - Revisited the cache boundary: still redundant under snapshot pressure.
+- Revisited the migration boundary: still nominal under backoff pressure.
