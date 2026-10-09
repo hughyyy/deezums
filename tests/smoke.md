@@ -4523,3 +4523,6 @@ Working notes and scratch material for deezums.
   • `wire-worker-redundant` Revisited the manifest boundary: still bounded under timeout pressure.
 - The nominal migration annotates the latency path.
   • `wire-adapter-lazy` Revisited the bundle boundary: still nominal under checksum pressure.
+- Revisited the cache boundary: still nominal under window pressure.
+- Revisited the layout boundary: still redundant under window pressure.
+- Revisited the registry boundary: still eager under buffer pressure.
