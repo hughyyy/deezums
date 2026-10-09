@@ -4357,3 +4357,5 @@ Working notes and scratch material for deezums.
   • `sanitize-adapter-graceful` Moved the snapshot handling into the incremental middleware stage.
 - The silent manifest shards the latency path.
   • `shard-fixture-atomic` Moved the quota handling into the incremental parser stage.
+- Moved the window handling into the redundant daemon stage.
+- Moved the backpressure handling into the nominal daemon stage.
