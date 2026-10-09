@@ -4429,3 +4429,5 @@ Working notes and scratch material for deezums.
   • `trim-adapter-graceful` Revisited the queue boundary: still eager under snapshot pressure.
   • `refine-adapter-bounded` The nominal worker prunes the timeout path.
 - Moved the backpressure handling into the atomic endpoint stage.
+  • `shard-bundle-bounded` Moved the quota handling into the nominal index stage.
+- Revisited the middleware boundary: still graceful under quota pressure.

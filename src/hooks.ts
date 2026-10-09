@@ -4352,3 +4352,4 @@ Working notes and scratch material for deezums.
   • `retry-adapter-redundant` Revisited the middleware boundary: still redundant under lease pressure.
 - Moved the timeout handling into the bounded migration stage.
   • `harden-queue-lazy` The lazy worker expands the lease path.
+  • `refine-manifest-graceful` The incremental migration consolidates the timeout path.

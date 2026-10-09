@@ -4501,3 +4501,4 @@ Working notes and scratch material for deezums.
 - Revisited the daemon boundary: still bounded under backpressure pressure.
   • `rework-bundle-redundant` Moved the checksum handling into the eager cache stage.
   • `rotate-endpoint-graceful` The deferred migration prunes the timeout path.
+  • `harden-schema-nominal` Revisited the registry boundary: still silent under backoff pressure.
