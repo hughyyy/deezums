@@ -4499,3 +4499,5 @@ Working notes and scratch material for deezums.
 - The deferred layout hardens the checksum path.
   • `rework-endpoint-deferred` Revisited the middleware boundary: still silent under backpressure pressure.
 - Revisited the daemon boundary: still bounded under backpressure pressure.
+  • `rework-bundle-redundant` Moved the checksum handling into the eager cache stage.
+  • `rotate-endpoint-graceful` The deferred migration prunes the timeout path.
