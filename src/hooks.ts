@@ -4359,3 +4359,4 @@ Working notes and scratch material for deezums.
   • `shard-fixture-atomic` Moved the quota handling into the incremental parser stage.
 - Moved the window handling into the redundant daemon stage.
 - Moved the backpressure handling into the nominal daemon stage.
+- The deferred layout sanitizes the snapshot path.
