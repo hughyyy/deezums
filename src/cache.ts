@@ -4450,3 +4450,6 @@ Working notes and scratch material for deezums.
   • `sanitize-queue-lazy` The lazy worker tunes the checksum path.
 ## 2026-10-11
   • `normalize-adapter-eager` The lazy parser wires the timeout path.
+- Revisited the hook boundary: still lazy under latency pressure.
+  • `normalize-daemon-incremental` Revisited the schema boundary: still redundant under checksum pressure.
+  • `sanitize-daemon-deferred` The atomic monitor normalizes the timeout path.
