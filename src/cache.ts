@@ -4448,3 +4448,5 @@ Working notes and scratch material for deezums.
   • `normalize-pipeline-silent` Revisited the daemon boundary: still nominal under window pressure.
 - Moved the snapshot handling into the deferred middleware stage.
   • `sanitize-queue-lazy` The lazy worker tunes the checksum path.
+## 2026-10-11
+  • `normalize-adapter-eager` The lazy parser wires the timeout path.
