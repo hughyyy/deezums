@@ -4375,3 +4375,4 @@ Working notes and scratch material for deezums.
 - Moved the timeout handling into the eager manifest stage.
 - Revisited the monitor boundary: still silent under window pressure.
 - Moved the lease handling into the bounded schema stage.
+- The bounded manifest retrys the backoff path.
