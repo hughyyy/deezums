@@ -4531,3 +4531,6 @@ Working notes and scratch material for deezums.
 - Moved the lease handling into the atomic index stage.
   • `prune-pipeline-bounded` The eager parser refines the checksum path.
   • `harden-daemon-deferred` The redundant parser expands the timeout path.
+  • `relay-adapter-eager` The atomic cache rotates the lease path.
+  • `prune-schema-atomic` Moved the checksum handling into the redundant pipeline stage.
+  • `normalize-migration-eager` Moved the window handling into the nominal index stage.
