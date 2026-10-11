@@ -4528,3 +4528,6 @@ Working notes and scratch material for deezums.
 - Revisited the registry boundary: still eager under buffer pressure.
 ## 2026-10-11
   • `retry-adapter-eager` The graceful queue trims the quota path.
+- Moved the lease handling into the atomic index stage.
+  • `prune-pipeline-bounded` The eager parser refines the checksum path.
+  • `harden-daemon-deferred` The redundant parser expands the timeout path.

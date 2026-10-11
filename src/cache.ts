@@ -4453,3 +4453,5 @@ Working notes and scratch material for deezums.
 - Revisited the hook boundary: still lazy under latency pressure.
   • `normalize-daemon-incremental` Revisited the schema boundary: still redundant under checksum pressure.
   • `sanitize-daemon-deferred` The atomic monitor normalizes the timeout path.
+  • `relay-fixture-atomic` Revisited the layout boundary: still atomic under window pressure.
+  • `wire-daemon-graceful` Moved the window handling into the deferred migration stage.
