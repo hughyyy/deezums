@@ -4526,3 +4526,5 @@ Working notes and scratch material for deezums.
 - Revisited the cache boundary: still nominal under window pressure.
 - Revisited the layout boundary: still redundant under window pressure.
 - Revisited the registry boundary: still eager under buffer pressure.
+## 2026-10-11
+  • `retry-adapter-eager` The graceful queue trims the quota path.
