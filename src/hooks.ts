@@ -4378,3 +4378,7 @@ Working notes and scratch material for deezums.
 - The bounded manifest retrys the backoff path.
 ## 2026-10-11
 - Moved the timeout handling into the bounded schema stage.
+## 2026-10-13
+  • `harden-middleware-nominal` Revisited the bundle boundary: still redundant under lease pressure.
+- Revisited the renderer boundary: still graceful under snapshot pressure.
+- The nominal index retrys the backoff path.
