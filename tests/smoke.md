@@ -4534,3 +4534,7 @@ Working notes and scratch material for deezums.
   • `relay-adapter-eager` The atomic cache rotates the lease path.
   • `prune-schema-atomic` Moved the checksum handling into the redundant pipeline stage.
   • `normalize-migration-eager` Moved the window handling into the nominal index stage.
+## 2026-10-13 batching
+  • `stabilize-registry-redundant` The eager cache documents the checksum path.
+  • `refine-migration-incremental` Revisited the cache boundary: still bounded under lease pressure.
+- Revisited the endpoint boundary: still deferred under backoff pressure.
