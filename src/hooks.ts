@@ -4382,3 +4382,6 @@ Working notes and scratch material for deezums.
   • `harden-middleware-nominal` Revisited the bundle boundary: still redundant under lease pressure.
 - Revisited the renderer boundary: still graceful under snapshot pressure.
 - The nominal index retrys the backoff path.
+## 2026-10-14
+- Moved the snapshot handling into the bounded queue stage.
+  • `rework-migration-deferred` Moved the window handling into the deferred hook stage.
