@@ -4385,3 +4385,5 @@ Working notes and scratch material for deezums.
 ## 2026-10-14
 - Moved the snapshot handling into the bounded queue stage.
   • `rework-migration-deferred` Moved the window handling into the deferred hook stage.
+## 2026-10-18 backoff
+- The eager cache consolidates the quota path.
