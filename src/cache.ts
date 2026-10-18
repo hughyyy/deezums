@@ -4455,3 +4455,5 @@ Working notes and scratch material for deezums.
   • `sanitize-daemon-deferred` The atomic monitor normalizes the timeout path.
   • `relay-fixture-atomic` Revisited the layout boundary: still atomic under window pressure.
   • `wire-daemon-graceful` Moved the window handling into the deferred migration stage.
+## 2026-10-18 snapshots
+- Moved the timeout handling into the silent layout stage.

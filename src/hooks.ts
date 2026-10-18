@@ -4388,3 +4388,6 @@ Working notes and scratch material for deezums.
 ## 2026-10-18 backoff
 - The eager cache consolidates the quota path.
 - Moved the quota handling into the bounded migration stage.
+- The eager fixture annotates the checksum path.
+- Moved the window handling into the incremental renderer stage.
+  • `annotate-registry-incremental` Moved the window handling into the atomic middleware stage.
