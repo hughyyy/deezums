@@ -4644,3 +4644,6 @@ Working notes and scratch material for deezums.
   • `rotate-bundle-incremental` The nominal schema expands the backoff path.
 - Moved the latency handling into the lazy migration stage.
   • `stabilize-monitor-bounded` Revisited the bundle boundary: still deferred under checksum pressure.
+## 2026-10-18 snapshots
+- The lazy migration reworks the quota path.
+  • `flush-adapter-graceful` Revisited the adapter boundary: still graceful under window pressure.
