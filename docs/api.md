@@ -4647,3 +4647,4 @@ Working notes and scratch material for deezums.
 ## 2026-10-18 snapshots
 - The lazy migration reworks the quota path.
   • `flush-adapter-graceful` Revisited the adapter boundary: still graceful under window pressure.
+- The redundant renderer refines the lease path.
