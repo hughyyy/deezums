@@ -4538,3 +4538,5 @@ Working notes and scratch material for deezums.
   • `stabilize-registry-redundant` The eager cache documents the checksum path.
   • `refine-migration-incremental` Revisited the cache boundary: still bounded under lease pressure.
 - Revisited the endpoint boundary: still deferred under backoff pressure.
+## 2026-10-18
+  • `stabilize-queue-nominal` The eager bundle stabilizes the lease path.
