@@ -9,14 +9,14 @@ what this history produces.
 105 day(s) painted at full strength (60 commits).
 
 ```
-       Oct           Nov                                Dec                         Jan                         Feb                         Mar                                Apr                         May                                Jun                         Jul                         Aug                                Sep                         Oct                  
-Sun    ░      ░      ░      ░                    ░             ░             ░             ░      ░      ░      ░      ░      ░      ░      ░      ░      ░                    ░      ░      ░      ░                           ░             ░      ░             ░      ░      ░      ░             ░      ░             ░                    ░             ░      ░      ░      ░
-Mon    ░      ░      ░      ░      █      ░      ░             ░      █      █      █                    █      █      █      █      ░      █      █      █      █      ░      █      █      █      █                                  █      ░             █      ░      █                    █      ░      █      █      █      █      ░      █      █      █      █
-Tue    ░      ░                    █      █                    ░      █             ░      █             █             ░      ░             █      ░             ░             ░      ░      █      ░             ░      ░             █      █             █             █             ░      █                    █      ░      ░                           █      ░      ░
-Wed    █      █      █      █      █      █      █      ░             █             ░      █             █      █      █                    █      █      █             ░      ░      █      ░                                  ░      █      █      █      █             █      ░             █      ░             █      ░                           █      ░      ░      ░
-Thu                         ░      █      █      ░             ░      █             ░      █      ░      █      ░      ░                    █                           ░      █      ░                                  ░      ░      █             █      █             █      ░      ░      █      ░      ░      █             ░             █      ░
-Fri    ░      ░      ░             █      ░      ░      ░      ░      █      █      █                    █      █      █      █      ░      █      █      █      █      ░      █      █      █      █                    ░             █      ░      ░      █      ░      ░      █      █      ░      ░      ░      █             ░             █      █      █      █
-Sat           ░      ░             ░      ░             ░      ░                    ░      ░      ░             ░      ░      ░      ░      ░      ░                    ░             ░                                  ░             ░      ░             ░      ░      ░      ░             ░      ░             ░             ░             ░             ░      ░
+       OcNov  Dec Jan Feb Mar  Apr May  Jun Jul Aug  Sep Oct
+Sun    ░░░░  ░ ░ ░ ░░░░░░░░░░  ░░░░   ░ ░░ ░░░░ ░░ ░  ░ ░░░░
+Mon    ░░░░█░░ ░███  ████░████░████    █░ █░█  █░████░████
+Tue    ░░  ██  ░█ ░█ █ ░░ █░ ░ ░░█░ ░░ ██ █ █ ░█  █░░   █░░
+Wed    ███████░ █ ░█ ███  ███ ░░█░    ░████ █░ █░ █░   █░░░
+Thu       ░██░ ░█ ░█░█░░  █   ░█░    ░░█ ██ █░░█░░█ ░ █░
+Fri    ░░░ █░░░░███  ████░████░████  ░ █░░█░░██░░░█ ░ ████
+Sat     ░░ ░░ ░░  ░░░ ░░░░░░  ░ ░    ░ ░░ ░░░░ ░░ ░ ░ ░ ░░
 
 commits: 6912  activeDays: 250  maxDay: 60  burstDays(>100): 0  window: 2025-10-19 .. 2026-10-18  seed: 20261024
 legend: [ ] level 0  [░] level 1  [▒] level 2  [▓] level 3  [█] level 4
@@ -28,7 +28,7 @@ Legend: `█` = most commits in a day, `░` = a few, blank = none.
 - Window: 2025-10-19 → 2026-10-18
 - Authored by: hughyyy <hugh.carrigg@gmail.com>
 - Generated with [gitfuscation](https://github.com/hughyyy/gitfuscation)
-- Program version: 0.1b
+- Program version: 0.1d
 - Generation settings (exact):
 
   ```json
